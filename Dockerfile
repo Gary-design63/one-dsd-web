@@ -2,10 +2,7 @@
 # Single-file HTML app for the One DSD People, Culture and Equity Program.
 FROM nginx:1.27-alpine
 
-# Custom config (SPA fallback to /index.html)
 COPY nginx.conf /etc/nginx/conf.d/default.conf
-
-# App content
 COPY public/ /usr/share/nginx/html/
 
 EXPOSE 80
