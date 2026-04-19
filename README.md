@@ -20,5 +20,3 @@ Before the GitHub Actions workflow will succeed, configure in GitHub repo settin
 
 - **Secrets** → `AZURE_CREDENTIALS`: JSON from `az ad sp create-for-rbac --sdk-auth`
 - **Secrets** → `ACR_NAME`: your Azure Container Registry name
-
-See Claude/the team lead for the exact service-principal-creation command.
