@@ -112,30 +112,37 @@ footer strong { color: var(--gray-700); }
     <div id="user-info" style="text-align: right; font-size: 13px;"></div>
   </div>
 </div>
+<div id="runtime-error" style="display:none;background:#fef2f2;color:#b91c1c;padding:10px 20px;border-bottom:2px solid #b91c1c;font-size:13px;position:sticky;top:0;z-index:100"></div>
 <nav id="nav" class="hidden">
   <ul>
     <li><a href="#/new" data-route="/new">New Consultation</a></li>
     <li><a href="#/queue" data-route="/queue" data-consultant-only>Approval Queue</a></li>
     <li><a href="#/goals" data-route="/goals" data-consultant-only>Goals</a></li>
     <li><a href="#/log" data-route="/log" data-consultant-only>Partnership Log</a></li>
-    <li style="margin-left: auto;"><a href="#" id="sign-out">Sign out</a></li>
+    <li style="margin-left: auto;"><a href="#/signout" id="sign-out">Sign out</a></li>
   </ul>
 </nav>
 <main id="main"><div class="card" style="max-width: 480px; margin: 40px auto;"><h2>Loading…</h2><p style="font-size:14px;color:var(--gray-700)"><span class="spinner"></span>Starting the app. If this message stays for more than a few seconds, your browser may be blocking the Supabase client. Try a hard refresh (Ctrl+Shift+R).</p></div></main>
 <footer><strong>One DSD People, Culture and Equity Program</strong> — Minnesota Department of Human Services, Disability Services Division</footer>
 <script>
-// Global error handler — surfaces any unhandled module error instead of leaving body blank.
+// Visible error bar — always shows any runtime error, not just boot errors.
+function showRuntimeError(msg) {
+  const bar = document.getElementById('runtime-error');
+  if (!bar) return;
+  bar.style.display = 'block';
+  bar.innerHTML = '<strong>Error:</strong> ' + String(msg).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'})[c]) +
+    ' <a href="#" onclick="document.getElementById(\'runtime-error\').style.display=\'none\';return false" style="margin-left:12px;color:#b91c1c">dismiss</a>' +
+    ' <a href="#" onclick="location.reload(true);return false" style="margin-left:8px;color:#b91c1c">hard reload</a>';
+}
 window.addEventListener('error', (e) => {
+  showRuntimeError((e.message || e.error || 'Unknown error') + (e.filename ? ' (' + e.filename.split('/').pop() + ':' + e.lineno + ')' : ''));
   const m = document.getElementById('main');
   if (m && m.dataset.booted !== '1') {
-    m.innerHTML = '<div class="card" style="max-width:560px;margin:40px auto"><h2>Couldn\u0027t start the app</h2><p style="font-size:14px">An error occurred while loading. Details:</p><pre style="white-space:pre-wrap;font-size:12px;color:#9f1d1d;background:#fef2f2;padding:10px;border-radius:6px">' + (e.message || e.error || 'Unknown error') + '</pre><p style="font-size:13px">Try a hard refresh (Ctrl+Shift+R). If it persists, send this text to Gary.</p></div>';
+    m.innerHTML = '<div class="card" style="max-width:560px;margin:40px auto"><h2>Couldn\u0027t start the app</h2><p style="font-size:14px">An error occurred while loading.</p></div>';
   }
 });
 window.addEventListener('unhandledrejection', (e) => {
-  const m = document.getElementById('main');
-  if (m && m.dataset.booted !== '1') {
-    m.innerHTML = '<div class="card" style="max-width:560px;margin:40px auto"><h2>Couldn\u0027t start the app</h2><p style="font-size:14px">A network or init call failed. Details:</p><pre style="white-space:pre-wrap;font-size:12px;color:#9f1d1d;background:#fef2f2;padding:10px;border-radius:6px">' + (e.reason && (e.reason.message || e.reason)) + '</pre></div>';
-  }
+  showRuntimeError((e.reason && (e.reason.message || e.reason)) || 'Unhandled promise rejection');
 });
 </script>
 <script type="module">
@@ -175,7 +182,17 @@ function setupNav() {
   document.querySelectorAll('#nav a[data-route]').forEach(a => {
     a.classList.toggle('active', location.hash === '#' + a.dataset.route);
   });
-  $('#sign-out').onclick = async (e) => { e.preventDefault(); await sb.auth.signOut(); location.hash = ''; route(); };
+}
+
+async function doSignOut() {
+  try {
+    await sb.auth.signOut();
+  } catch (e) { showRuntimeError('Sign out network call failed: ' + (e.message || e)); }
+  // Belt-and-suspenders: clear local storage tokens, then hard reload to a clean sign-in view.
+  try { Object.keys(localStorage).forEach(k => { if (k.startsWith('sb-')) localStorage.removeItem(k); }); } catch {}
+  profile = null;
+  location.hash = '';
+  location.reload();
 }
 
 function renderSignIn(msg) {
@@ -387,6 +404,7 @@ async function renderLog() {
 
 async function route() {
   const h = location.hash;
+  if (h === '#/signout') { await doSignOut(); return; }
   if (!profile) {
     await loadProfile();
     if (!profile) { renderSignIn(); return; }
@@ -407,6 +425,15 @@ async function route() {
 }
 
 window.addEventListener('hashchange', route);
+
+// Global click delegation — works even if per-element handlers fail to wire.
+document.body.addEventListener('click', (e) => {
+  const signOutLink = e.target.closest('a#sign-out, a[href="#/signout"], a[data-action="signout"]');
+  if (signOutLink) { e.preventDefault(); doSignOut(); return; }
+});
+
+// Wrap route() to surface any render-time errors in the visible error bar.
+// (Wrap via toString/Function pattern would be invasive; use window.onerror + unhandledrejection which we already have.)
 
 // Render sign-in immediately so the user always sees something.
 // Any real session will replace it inside onAuthStateChange / getSession.
