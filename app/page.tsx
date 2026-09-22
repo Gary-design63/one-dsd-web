@@ -9,6 +9,9 @@ import styles from "./home.module.css";
 
 export const dynamic = "force-dynamic";
 
+const LANDING_HERO_IMAGE = "/images/one-dhs-dsd-pac-landing-hero.png";
+const LANDING_HERO_ALT = "A diverse group of colleagues smiling together around a conference table in an office.";
+
 export default async function HomePage() {
   const [publishedCopy, owner, context] = await Promise.all([loadPublishedPageCopy("home"), editingModeFromCookies(), requestedProductContext()]);
   const editing = owner ? await loadPageBlockEditingState("home") : undefined;
@@ -38,7 +41,7 @@ export default async function HomePage() {
             </div>
           </div>
           <div className={styles.photograph}>
-            <Image src="/images/minnesota-communities-group-v2.png" alt={copy.heroImageAlt} fill sizes="(max-width: 760px) 100vw, 62vw" style={{ objectFit: "contain", objectPosition: "center" }} priority unoptimized />
+            <Image src={LANDING_HERO_IMAGE} alt={LANDING_HERO_ALT} fill sizes="(max-width: 760px) 100vw, 62vw" style={{ objectFit: "cover", objectPosition: "center" }} priority unoptimized />
           </div>
         </section>
 

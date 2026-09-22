@@ -79,11 +79,11 @@ export function verificationFor(source: RegisterSource): Verification {
   if (source.kind === "placeholder") return { state: "named_only", label: "Named without an address", detail: "The source is named but no address is on record yet." };
   const receipt = RECEIPT_BY_ID.get(source.sourceId);
   if (receipt) {
-    if (receipt.ok && receipt.redirected) return { state: "reached_moved", label: `Reached on ${day(receipt.checkedAt)}, now at a new address`, detail: "The address answered and forwarded to a newer page.", checkedAt: receipt.checkedAt, finalUrl: receipt.finalUrl };
-    if (receipt.ok) return { state: "reached", label: `Reached on ${day(receipt.checkedAt)}`, detail: "The address answered when the program checked it.", checkedAt: receipt.checkedAt, finalUrl: receipt.finalUrl };
-    return { state: "not_reached", label: `Not reached on ${day(receipt.checkedAt)}`, detail: receipt.status ? `The address answered with an error (${receipt.status}). The page may have moved.` : "The address did not answer. It may have moved or be temporarily unavailable.", checkedAt: receipt.checkedAt, finalUrl: receipt.finalUrl };
+    if (receipt.ok && receipt.redirected) return { state: "reached_moved", label: "Source link updated", detail: "The address forwarded to a newer page when the program checked it.", checkedAt: receipt.checkedAt, finalUrl: receipt.finalUrl };
+    if (receipt.ok) return { state: "reached", label: "Source link available", detail: "The address answered when the program checked it.", checkedAt: receipt.checkedAt, finalUrl: receipt.finalUrl };
+    return { state: "not_reached", label: "Source link needs review", detail: receipt.status ? `The address answered with an error (${receipt.status}). The page may have moved.` : "The address did not answer. It may have moved or be temporarily unavailable.", checkedAt: receipt.checkedAt, finalUrl: receipt.finalUrl };
   }
-  if (source.checkedOn) return { state: "checked_on_date", label: `Checked on ${day(source.checkedOn)}`, detail: "The program checked this address on the date shown." };
+  if (source.checkedOn) return { state: "checked_on_date", label: "Source link reviewed", detail: "The program has reviewed this address." };
   return { state: "not_yet_checked", label: "Not yet checked", detail: "Cited when the resource was written and not yet checked by the program." };
 }
 

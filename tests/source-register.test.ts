@@ -47,8 +47,7 @@ describe("source register", () => {
     for (const source of outside) { const state = verificationFor(source).state; states.set(state, (states.get(state) ?? 0) + 1); }
     expect((states.get("reached") ?? 0) + (states.get("reached_moved") ?? 0) + (states.get("not_reached") ?? 0)).toBe(outside.length);
     expect(states.get("not_yet_checked")).toBeUndefined();
-    const notReached = outside.filter(source => verificationFor(source).state === "not_reached");
-    for (const source of notReached) expect(verificationFor(source).label).toMatch(/^Not reached on /);
+    for (const source of outside) expect(verificationFor(source).label).not.toMatch(/\b(reached|checked) on\b/i);
   });
 
   it("groups outside sources by the authority they carry and keeps program pointers off the staff page", () => {
@@ -73,7 +72,7 @@ describe("source register", () => {
     const html = await renderAsync(createElement(SourcesPage));
     expect(html).toContain("Research and sources");
     expect(html).toContain('id="group-government"');
-    expect(html).toContain("Reached on ");
+    expect(html).not.toMatch(/\b(reached|checked) on\b/i);
     expect(html).toContain("Named without an address");
     const entries = html.match(/class="[^"]*entry[^"]*"/g) ?? [];
     expect(entries.length).toBe(registerSourcesForStaff().reduce((n, group) => n + group.sources.length, 0));

@@ -269,7 +269,7 @@ export const STATIC_HOME_COPY: HomePageCopy = HomePageCopySchema.parse({
   headlineLine3: "Program",
   heroLede: PROGRAM.heroLede,
   heroNote: "",
-  heroImageAlt: "Colleagues standing in a circle in a bright office, talking and smiling.",
+  heroImageAlt: "A diverse group of colleagues smiling together around a conference table in an office.",
   primaryActionLabel: "Start with your work",
   primaryActionHref: "/start",
   secondaryActionLabel: "Ask a question",
