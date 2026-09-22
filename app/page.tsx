@@ -73,6 +73,11 @@ export default async function HomePage() {
               </article>
             </div>
           </section>
+          <aside className={styles.reflection} aria-labelledby="perspective-title">
+            <p className={styles.eyebrow}>An everyday example</p>
+            <h2 id="perspective-title">Whose perspective could make this decision better?</h2>
+            <p>When planning a meeting, consider how people can contribute before, during and afterward—and how they will hear what happened to their ideas.</p>
+          </aside>
           <aside className={styles.welcome} aria-label="Getting to know the program">
             <p><strong>A place to begin. Room to grow.</strong> Explore what is useful to you, at your own pace.</p>
             <Link href="/orientation">Get to know the program<span aria-hidden="true"> ↗</span></Link>

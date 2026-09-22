@@ -9,10 +9,10 @@ export function OperationalizingEquityPreview() {
       <p>Making equity a continuing part of how we plan, carry out and review our work—with the people affected by our decisions.</p>
       <Link href="/operationalizing-equity">Explore equity in practice<span aria-hidden="true"> ↗</span></Link>
     </div>
-    <div className={styles.example}>
-      <p className={styles.eyebrow}>An everyday example</p>
-      <p className={styles.question}>Whose perspective could make this decision better?</p>
-      <p>When planning a meeting, consider how people can contribute before, during and afterward—and how they will hear what happened to their ideas.</p>
+    <div className={styles.toolkit}>
+      <h2><Link href="/learn/equity-toolkit">Equity Analysis Toolkit</Link></h2>
+      <p>Put equity into practice with guided steps, a podcast, examples, and downloadable tools for your work.</p>
+      <Link href="/learn/equity-toolkit" className="btn btn--primary">Open the toolkit<span aria-hidden="true"> ↗</span></Link>
     </div>
   </section>;
 }
