@@ -1,7 +1,8 @@
-.tile { display: grid; grid-template-columns: minmax(0, .8fr) minmax(0, 1.3fr); gap: 1.2rem; align-items: start; height: 100%; padding: 1.45rem 0; border-bottom: 1px solid #d9e0e4; color: #182c3a; text-decoration: none; }
+.tile { display: grid; grid-template-columns: minmax(0, .8fr) minmax(0, 1.3fr); gap: 1.2rem; align-items: start; height: 100%; padding: 1.25rem; border: 1px solid var(--program-border); border-radius: .85rem; background: var(--program-surface-raised); color: #182c3a; text-decoration: none; }
+.tile:hover { background: var(--program-surface); border-color: var(--program-border-strong); }
 .tile:hover .title { color: #0065a4; text-decoration: underline; text-underline-offset: .2em; }
 .tile:focus-visible { outline: 3px solid #0066a5; outline-offset: 5px; border-radius: .25rem; }
-.media { position: relative; aspect-ratio: 16 / 10; background: #edf1f4; border-radius: .6rem; overflow: hidden; }
+.media { position: relative; aspect-ratio: 16 / 10; background: var(--program-surface); border-radius: .6rem; overflow: hidden; }
 .copy { min-width: 0; }
 .title { margin: 0; color: #003865; font-size: 1.13rem; font-weight: 600; letter-spacing: -.012em; line-height: 1.38; text-wrap: pretty; }
 .summary { margin: .6rem 0 0; font-size: .88rem; line-height: 1.65; color: #526570; }

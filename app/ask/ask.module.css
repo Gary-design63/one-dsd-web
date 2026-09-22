@@ -7,7 +7,7 @@
   padding-bottom: 2.5rem;
 }
 .details {
-  border-top: 1px solid #c5d0d7;
+  border-top: 1px solid var(--program-border);
   color: #415664;
   max-width: 70rem;
 }
