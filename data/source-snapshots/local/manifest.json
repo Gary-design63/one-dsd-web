@@ -1,0 +1,255 @@
+{
+  "schemaVersion": "1.0.0",
+  "capturedOn": "2026-09-04",
+  "purpose": "Privacy-safe snapshots of owner-supplied local files and thread attachments. Capture and owner approval allow import; neither is a staff-release decision.",
+  "counts": {
+    "captured": 22,
+    "expected": 22,
+    "transcriptRequired": 1,
+    "quarantinedNeverExecute": 1
+  },
+  "entries": [
+    {
+      "sourceId": "consultant-mindset",
+      "snapshotPath": "data/source-snapshots/local/consultant-mindset.json",
+      "status": "captured",
+      "ownerApproval": "owner_approved_for_ingestion",
+      "staffRelease": "not_staff_released",
+      "sourceBytes": 6862,
+      "sourceSha256": "83C5A24DAA3056A0AE5BEA5CC0C7AABFBCA1711D76FC572C5686156ECCA2FF15",
+      "extractedTextCharacters": 6749,
+      "extractedTextSha256": "178B95F6A8135211DC75F20AF09B1817959F7ADFEC2230792F843A2A8F8247AC"
+    },
+    {
+      "sourceId": "consultant-role-and-supporting-files-receipt",
+      "snapshotPath": "data/source-snapshots/local/consultant-role-and-supporting-files-receipt.json",
+      "status": "captured",
+      "ownerApproval": "owner_approved_for_ingestion",
+      "staffRelease": "not_staff_released",
+      "sourceBytes": 14117,
+      "sourceSha256": "E45A55F5DA2837D2E18B93E3F1C205F328704B8D9C061DED12B03E0FF64BCB55",
+      "extractedTextCharacters": 13858,
+      "extractedTextSha256": "3BE0E73D296B84291972F07EB0AC214441CC8362FFD9C6944C40629169B1648E"
+    },
+    {
+      "sourceId": "consultant-twin-prd",
+      "snapshotPath": "data/source-snapshots/local/consultant-twin-prd.json",
+      "status": "captured",
+      "ownerApproval": "owner_approved_for_ingestion",
+      "staffRelease": "not_staff_released",
+      "sourceBytes": 47388,
+      "sourceSha256": "75FCE90A783C7930F68A9E6A96CDCB3D3A259026D39BD65C691DB23263B8EBAE",
+      "extractedTextCharacters": 46791,
+      "extractedTextSha256": "689759E1E1623268AE604FE9E0130123D141FDDCE05F7101F14A7560C8F29F02"
+    },
+    {
+      "sourceId": "cultural-terms-glossary",
+      "snapshotPath": "data/source-snapshots/local/cultural-terms-glossary.json",
+      "status": "captured",
+      "ownerApproval": "owner_approved_for_ingestion",
+      "staffRelease": "not_staff_released",
+      "sourceBytes": 93501,
+      "sourceSha256": "1D48468DF6B08CF81E060670C3B7E869B03790906A69170E9A7B39A355956105",
+      "extractedTextCharacters": 92344,
+      "extractedTextSha256": "07216A9167EC907CC20834B023F7348F4164B3911C2B855256A43B6E223141A8"
+    },
+    {
+      "sourceId": "dhs-equity-ecosystem-inventory",
+      "snapshotPath": "data/source-snapshots/local/dhs-equity-ecosystem-inventory.json",
+      "status": "captured",
+      "ownerApproval": "owner_approved_for_ingestion",
+      "staffRelease": "not_staff_released",
+      "sourceBytes": 8622,
+      "sourceSha256": "B19C6B2894AAAF634C0F52C53E5D9BA3051B74FB2296C891A842711F410A638A",
+      "extractedTextCharacters": 7946,
+      "extractedTextSha256": "0415FCB84AFD2B85E859FDF3468C98651F7C500B6519B15E704905AFAA59CE7F"
+    },
+    {
+      "sourceId": "future-model-adaptability-context",
+      "snapshotPath": "data/source-snapshots/local/future-model-adaptability-context.json",
+      "status": "captured",
+      "ownerApproval": "owner_approved_for_ingestion",
+      "staffRelease": "not_staff_released",
+      "sourceBytes": 32856,
+      "sourceSha256": "FB3148FD4BE94974B16C4D00D1C96EC368585D432979DD2C98DE4ECD61DE8A90",
+      "extractedTextCharacters": 32533,
+      "extractedTextSha256": "FB3148FD4BE94974B16C4D00D1C96EC368585D432979DD2C98DE4ECD61DE8A90"
+    },
+    {
+      "sourceId": "local-benefits-prd-early-2027",
+      "snapshotPath": "data/source-snapshots/local/local-benefits-prd-early-2027.json",
+      "status": "captured",
+      "ownerApproval": "owner_approved_for_ingestion",
+      "staffRelease": "not_staff_released",
+      "sourceBytes": 413734,
+      "sourceSha256": "AF139AC35C5A8349C16424185685A43CD3DF38C0B475D5E44152EB355A238A7D",
+      "extractedTextCharacters": 34212,
+      "extractedTextSha256": "EE1B8809F8A484BFBA1D1EFED4A6C62814D1143EC978662DFAE0917ADF8BB1B5"
+    },
+    {
+      "sourceId": "local-community-engagement-done-well",
+      "snapshotPath": "data/source-snapshots/local/local-community-engagement-done-well.json",
+      "status": "captured",
+      "ownerApproval": "owner_approved_for_ingestion",
+      "staffRelease": "not_staff_released",
+      "sourceBytes": 70632,
+      "sourceSha256": "1E8D8D4F8E15E176015EB20ADCBE1339130B497E4B111C0CFA41422E4A44105D",
+      "extractedTextCharacters": 2109,
+      "extractedTextSha256": "385887F6EEBDD9B21CA9B957DACD299B8D33274D40AD1050F839B41E72144A6D"
+    },
+    {
+      "sourceId": "local-equitable-hiring-retention-rubric",
+      "snapshotPath": "data/source-snapshots/local/local-equitable-hiring-retention-rubric.json",
+      "status": "captured",
+      "ownerApproval": "owner_approved_for_ingestion",
+      "staffRelease": "not_staff_released",
+      "sourceBytes": 11244,
+      "sourceSha256": "968315D2DF9968BC27F9B63EB60D92B4AB941AF9889C7BD554C51C1684840791",
+      "extractedTextCharacters": 3296,
+      "extractedTextSha256": "D59058E83B96D61BC36D9D6584A2C312DA270374C7F8E75709B9A7304059192A"
+    },
+    {
+      "sourceId": "local-equity-cascade-crosswalk",
+      "snapshotPath": "data/source-snapshots/local/local-equity-cascade-crosswalk.json",
+      "status": "captured",
+      "ownerApproval": "owner_approved_for_ingestion",
+      "staffRelease": "not_staff_released",
+      "sourceBytes": 23693,
+      "sourceSha256": "F9F11C1F50AAB7E9929A2CEC9285D8CBAFEDC12F4E2F6D9DD9F48D6C4EB3F068",
+      "extractedTextCharacters": 4765,
+      "extractedTextSha256": "8EEF9D1092FD959CF90EC20D01E9AEF473B4088E6993E3D14307B750F237FD89"
+    },
+    {
+      "sourceId": "local-landscape-climate-report",
+      "snapshotPath": "data/source-snapshots/local/local-landscape-climate-report.json",
+      "status": "captured",
+      "ownerApproval": "owner_approved_for_ingestion",
+      "staffRelease": "not_staff_released",
+      "sourceBytes": 61146,
+      "sourceSha256": "6F1DA3BC303404C663825F51A19413489D540D551A763873CF098E022EC1029E",
+      "extractedTextCharacters": 60401,
+      "extractedTextSha256": "FE053EC9434BBCF7854484A3F5EE1F35182368868D950796010CEFE1C2CA9A6D"
+    },
+    {
+      "sourceId": "local-person-centered-practice-slides",
+      "snapshotPath": "data/source-snapshots/local/local-person-centered-practice-slides.json",
+      "status": "captured",
+      "ownerApproval": "owner_approved_for_ingestion",
+      "staffRelease": "not_staff_released",
+      "sourceBytes": 68327,
+      "sourceSha256": "F0BD5216704E36F2E3356FE48128BC5AB80A853277F57EF95074036F258F89D0",
+      "extractedTextCharacters": 1933,
+      "extractedTextSha256": "EE5ADD514DAF9900EBC13646BE7066941F82E6EDE94C453BB31952786C453C11"
+    },
+    {
+      "sourceId": "local-race-racism-minnesota-course",
+      "snapshotPath": "data/source-snapshots/local/local-race-racism-minnesota-course.json",
+      "status": "captured_quarantined_never_execute",
+      "ownerApproval": "owner_approved_for_ingestion",
+      "staffRelease": "not_staff_released",
+      "sourceBytes": 2026463,
+      "sourceSha256": "257046E1B17C446E9C0A782264160FCDB3417B5320BAC56A5F3CD3F75764A999",
+      "extractedTextCharacters": 71,
+      "extractedTextSha256": "8F4D88659A303DEB59FA5F08975DE40CC7ECE50A65B95D01A6DCDDC1B2EB1B1E"
+    },
+    {
+      "sourceId": "local-racism-in-america-audio",
+      "snapshotPath": "data/source-snapshots/local/local-racism-in-america-audio.json",
+      "status": "captured_transcript_required",
+      "ownerApproval": "owner_approved_for_ingestion",
+      "staffRelease": "not_staff_released",
+      "sourceBytes": 11105216,
+      "sourceSha256": "7B61CF2CD944C0D0D6F17484D4A6561C06341AED9D37D09D7D0BCAE98CB92D03",
+      "extractedTextCharacters": 0,
+      "extractedTextSha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+      "sourceId": "old-live-app-analysis",
+      "snapshotPath": "data/source-snapshots/local/old-live-app-analysis.json",
+      "status": "captured",
+      "ownerApproval": "owner_approved_for_ingestion",
+      "staffRelease": "not_staff_released",
+      "sourceBytes": 19415,
+      "sourceSha256": "5FC6E4EE07209A9DAF36B4BE5B820E7C6105003721446563F4290EFA0A0CF26C",
+      "extractedTextCharacters": 19098,
+      "extractedTextSha256": "EBF33ABE740FE08E758791C159F753F4ED3F88E2060589B933A30FEDF0CDB564"
+    },
+    {
+      "sourceId": "partnership-framework-canonical",
+      "snapshotPath": "data/source-snapshots/local/partnership-framework-canonical.json",
+      "status": "captured",
+      "ownerApproval": "owner_approved_for_ingestion",
+      "staffRelease": "not_staff_released",
+      "sourceBytes": 20903,
+      "sourceSha256": "67DFE0EF66CD39A4468489AF1FB71E5E797448D6E7AF5A07DC43D3232BE1A72F",
+      "extractedTextCharacters": 20615,
+      "extractedTextSha256": "4BC8AD5937BEF039E15CF5F32072D30A12B1E28B4FBDE12E9CACBBBB6CDCB0FB"
+    },
+    {
+      "sourceId": "partnership-framework-duplicate-receipt",
+      "snapshotPath": "data/source-snapshots/local/partnership-framework-duplicate-receipt.json",
+      "status": "captured",
+      "ownerApproval": "owner_approved_for_ingestion",
+      "staffRelease": "not_staff_released",
+      "sourceBytes": 20903,
+      "sourceSha256": "67DFE0EF66CD39A4468489AF1FB71E5E797448D6E7AF5A07DC43D3232BE1A72F",
+      "extractedTextCharacters": 20615,
+      "extractedTextSha256": "4BC8AD5937BEF039E15CF5F32072D30A12B1E28B4FBDE12E9CACBBBB6CDCB0FB"
+    },
+    {
+      "sourceId": "partnership-framework-receipt-a",
+      "snapshotPath": "data/source-snapshots/local/partnership-framework-receipt-a.json",
+      "status": "captured",
+      "ownerApproval": "owner_approved_for_ingestion",
+      "staffRelease": "not_staff_released",
+      "sourceBytes": 18197,
+      "sourceSha256": "04B18FF21429BDD4847808467C64A49320FE0127C8B368DAF12336EDC9021A05",
+      "extractedTextCharacters": 17949,
+      "extractedTextSha256": "C3E5979122FC4BCB03DD7F373789FF57928800043BDA9089925AE96B3D31FCBC"
+    },
+    {
+      "sourceId": "prd-package-export-zip",
+      "snapshotPath": "data/source-snapshots/local/prd-package-export-zip.json",
+      "status": "captured_duplicate_receipt_only",
+      "ownerApproval": "owner_approved_for_ingestion",
+      "staffRelease": "not_staff_released",
+      "sourceBytes": 6512941,
+      "sourceSha256": "9284BD8E83A5870274DB8E67C3775A8C4AEE46CA71C9CEF604F4268319659094",
+      "extractedTextCharacters": 0,
+      "extractedTextSha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+      "sourceId": "prd-package-named-zip",
+      "snapshotPath": "data/source-snapshots/local/prd-package-named-zip.json",
+      "status": "captured",
+      "ownerApproval": "owner_approved_for_ingestion",
+      "staffRelease": "not_staff_released",
+      "sourceBytes": 6513371,
+      "sourceSha256": "3D2744373ED06C5007988948CD5414DF7C620268BC9C1CBCF94F7ECFA7CF8164",
+      "extractedTextCharacters": 255494,
+      "extractedTextSha256": "EEF130B0C00A02FA683EF68345F79D60CD974402F202141D13A8E2B54BF9E82A"
+    },
+    {
+      "sourceId": "program-initiative-project-distinction",
+      "snapshotPath": "data/source-snapshots/local/program-initiative-project-distinction.json",
+      "status": "captured",
+      "ownerApproval": "owner_approved_for_ingestion",
+      "staffRelease": "not_staff_released",
+      "sourceBytes": 13468,
+      "sourceSha256": "FA025BEB47947114D9229638181C23E6E965A5BB658BF42FC5E2184E708B6A19",
+      "extractedTextCharacters": 13263,
+      "extractedTextSha256": "AD1C2447A0DCF39EC64AA586E7112B029241F92CE84799A7C21497E58F02A4A7"
+    },
+    {
+      "sourceId": "thread-process-history",
+      "snapshotPath": "data/source-snapshots/local/thread-process-history.json",
+      "status": "captured",
+      "ownerApproval": "owner_approved_for_ingestion",
+      "staffRelease": "not_staff_released",
+      "sourceBytes": 5149,
+      "sourceSha256": "2971AD4D66E311619AE548C5A69255D38E117A202EFBDFF40B6546731A06F710",
+      "extractedTextCharacters": 5055,
+      "extractedTextSha256": "A4DD43FD444D5C9F2A08108076FEB6A2C00191C50DADA5FB297F5D8556E919CA"
+    }
+  ]
+}

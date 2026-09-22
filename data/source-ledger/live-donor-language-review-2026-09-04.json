@@ -1,0 +1,225 @@
+{
+  "schemaVersion": "1.0.0",
+  "reviewId": "live-donor-staff-language-2026-09-04",
+  "sourceId": "live-donor-release",
+  "auditedCommit": "fac88a203c6323b61a687132bae65c05247c5474",
+  "decision": "ingest_as_held_source_material_rewrite_before_staff_release",
+  "auditScope": {
+    "conventionalCourses": 45,
+    "generatedCiCourses": 41,
+    "totalCourses": 86,
+    "lessons": 780,
+    "ciGuides": 41,
+    "communitySummaries": 40,
+    "observances": 19
+  },
+  "issueCodes": {
+    "L01-MALFORMED": "Incomplete, duplicated, or mechanically damaged text.",
+    "L02-SYNTHETIC": "Recurring artificial cadence, canned refrain, or formula.",
+    "L03-COMMAND": "Excessive negative commands or scolding tone.",
+    "L04-SHOPTALK": "Application, publishing, workflow, or internal production language shown to staff.",
+    "L05-READABILITY": "Sentence length, density, unexplained terminology, or cognitive overload.",
+    "L06-METAPHOR": "Repeated badge, gate, door, desk, channel, capsule, mash, poster, or similar imagery.",
+    "L07-SLOGAN": "Aphoristic or campaign-like wording instead of a clear explanation.",
+    "L08-VOICE": "Simulated first-person community voice.",
+    "L09-TERMINOLOGY": "Identity, community, administration, or role naming requiring review.",
+    "L10-PLACEMENT": "Useful internal information displayed in the wrong staff-facing location.",
+    "F01-CURRENTNESS": "A date, organization name, demographic claim, law, policy, or observance needs verification.",
+    "E01-EVIDENCE": "A claim or direction needs a visible supporting source.",
+    "A01-ACCESSIBILITY": "Structure, media description, reading load, or interaction needs review.",
+    "R01-RIGHTS": "Image, audio, quotation, or representation rights need review.",
+    "S01-SCOPE": "Agencywide, administration, division, official-status, or applicability claim needs review."
+  },
+  "systemicFindings": [
+    {
+      "id": "DR-LANG-001",
+      "appliesTo": "86 courses and 780 lessons",
+      "finding": "Shared instructional wording exposes phrases such as live work object, application workspace, formal door, transfer commitment, completion mechanics, and repeated Correct feedback.",
+      "action": "Rewrite the shared instructional template in ordinary workplace language before item editing."
+    },
+    {
+      "id": "DR-LANG-002",
+      "appliesTo": "41 generated cultural-intelligence courses and 526 lessons",
+      "finding": "Generation status, internal work labels, repeated metaphors, and 526 composite first-person quotations are shown to staff.",
+      "action": "Keep creation status internal. Replace composite quotations with attributable permissioned voice, third-person scenarios, or reviewed summaries."
+    },
+    {
+      "id": "DR-LANG-003",
+      "appliesTo": "38 to 41 cultural-intelligence guides",
+      "finding": "Staff see editorial states such as living candidate, stable doorway, promote, research corpus, and evidence workflow.",
+      "action": "Move editorial history to internal fields. Staff may see owner, applies to, last reviewed, next review, and contact."
+    },
+    {
+      "id": "DR-LANG-004",
+      "appliesTo": "34 guides",
+      "finding": "Ninety-three broken Do not treat template remnants and three duplicated-article defects remain.",
+      "action": "Block publication and repair source templates before regeneration."
+    },
+    {
+      "id": "DR-LANG-005",
+      "appliesTo": "23 community summaries",
+      "finding": "A generic template repeats unnatural phrases and identical cadence across distinct communities.",
+      "action": "Replace the template with two or three natural, community-specific sentences before factual and representation review."
+    }
+  ],
+  "measuredSignals": {
+    "guideWords": 241647,
+    "guideDoNotUses": 4872,
+    "guideLongSentencesOver35": 261,
+    "guideLongSentencesOver50": 113,
+    "conventionalAuthoredWords": 105258,
+    "conventionalAuthoredCorrectStarts": 177,
+    "renderedConventionalCorrectStarts": 425,
+    "generatedCompositeQuotes": 526,
+    "malformedTemplateRemnants": 93
+  },
+  "conventionalCourseBatches": {
+    "C0_major_rewrite": [
+      "acceptance-in-dhs-work",
+      "anti-racism-resource",
+      "conflict-at-work",
+      "critical-incidents-in-the-work",
+      "culture-without-theater",
+      "employee-life-cycle-as-a-system",
+      "equity-champion-contribution-workflow",
+      "from-noticing-to-shifting",
+      "cultural-humility-vs-checklist",
+      "intercultural-competence-without-a-score",
+      "language-access-as-a-design",
+      "what-minimization-does-in-dhs-work",
+      "how-it-shows-up-in-minnesota-human-services",
+      "onboarding-and-first-90-days",
+      "outcomes-not-intentions",
+      "somali-minnesota-brief",
+      "teams-in-minimization",
+      "the-record"
+    ],
+    "C1_substantive_edit": [
+      "accessibility-as-leadership-responsibility",
+      "brain-injury-and-complex-disability",
+      "change-management-bringing-people-along",
+      "employment-first-and-economic-inclusion",
+      "dhs-equity-analysis-toolkit",
+      "family-and-natural-support-systems",
+      "health-wellness-and-safety",
+      "language-access-plan",
+      "lgbtq-inclusion-in-disability-services",
+      "neurodiversity-and-cognitive-difference",
+      "equal-opportunity-in-employment",
+      "sourcing-and-outreach"
+    ],
+    "C2_lighter_edit": [
+      "cultural-broker-as-a-role",
+      "disability-and-language",
+      "equity-centered-leadership",
+      "equity-inclusion-leadership-and-systems",
+      "facilitators-guide-equity-inclusion-curriculum",
+      "intercultural-conflict-styles",
+      "job-design-and-the-posting",
+      "career-mentorship-and-sponsorship",
+      "mobility-acting-promotion",
+      "performance-and-development",
+      "plain-language-in-human-services",
+      "screening-and-selection",
+      "stay-and-exit-interviews",
+      "employee-viewpoint-and-wellbeing-surveys",
+      "working-with-an-interpreter"
+    ]
+  },
+  "guideBatches": {
+    "G0_high_command_density": [
+      "puerto-rican",
+      "cuban",
+      "lebanese",
+      "colombian",
+      "oromo",
+      "korean",
+      "salvadoran",
+      "japanese",
+      "lao",
+      "french-speaking",
+      "nigerian",
+      "thai",
+      "kenyan",
+      "ethiopian",
+      "arabic-speaking",
+      "guatemalan",
+      "ecuadorian",
+      "indian",
+      "liberian",
+      "cambodian",
+      "latino-hispanic"
+    ],
+    "G1_templated": [
+      "ukrainian",
+      "mexican",
+      "vietnamese",
+      "chinese",
+      "bosnian",
+      "filipino",
+      "russian-speaking",
+      "karen",
+      "amharic-speaking",
+      "burmese",
+      "european-american"
+    ],
+    "G2_individual_sensitive_review": [
+      "alaska-native",
+      "native-american-compass",
+      "eleven-tribal-nations",
+      "rural-minnesota",
+      "hmong",
+      "somali",
+      "minnesota-culture",
+      "american-culture",
+      "african-american"
+    ]
+  },
+  "observanceBatches": {
+    "O0_substantial_rewrite": [
+      "indigenous-peoples-day",
+      "native-american-heritage-month",
+      "hmong-new-year",
+      "kwanzaa",
+      "martin-luther-king-jr-day",
+      "black-history-month",
+      "lunar-new-year",
+      "eid-al-fitr",
+      "eid-al-adha",
+      "pride-month",
+      "somali-independence-day"
+    ],
+    "O1_focused_polish": [
+      "mawlid-al-nabi",
+      "hispanic-heritage-month",
+      "diwali",
+      "dia-de-los-muertos",
+      "karen-new-year",
+      "ramadan",
+      "juneteenth",
+      "ada-anniversary"
+    ]
+  },
+  "separateReleaseGates": [
+    "factual_currentness",
+    "evidence",
+    "scope_and_authority",
+    "placement",
+    "accessibility",
+    "rights_and_representation"
+  ],
+  "rewriteOrder": [
+    "shared course template",
+    "generated-course template",
+    "internal guide frame",
+    "mechanical defects",
+    "generic community summaries",
+    "guide sources",
+    "regenerated cultural-intelligence courses",
+    "conventional courses C0 then C1 then C2",
+    "observances",
+    "independent release gates"
+  ],
+  "staffVoiceRule": "Explain the situation, name the useful action, and identify help plainly. Use warnings only when they protect a right, safety duty, or formal process. Do not grade, command, or speak on behalf of a community."
+}
+

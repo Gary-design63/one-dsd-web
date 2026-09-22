@@ -1,0 +1,53 @@
+Automation completion ledger
+September 6 2026
+
+Scope
+Gary authorized completing missing program behavior after requesting an automation
+and workflow report. This ledger is a continuation record, not a completion claim.
+Do not publish it on staff pages. Preserve the current design, logo, corpus,
+editing work, and unrelated local changes.
+
+Completed locally in this pass
+1. Generated cycle proposals now use the same A5 admission path as other proposals.
+   A policy check occurs after the provider returns and before proposal writes.
+2. A disabled orchestrator cannot run observations through the low-ceiling branch.
+   Operational retention and security cleanup remain exceptions.
+3. Brief and accessibility cycle checks now use their specialist tool controls.
+4. Runtime admission enforces agent feature flags, role and environment scope,
+   and the stale-flag-writing switch. Audit categories remain compatible with the
+   existing finite persistence contract; no migration was needed.
+5. Model readiness checks registry callability as well as flag and credential.
+6. Stale-resource and accessibility checks read selected published resources,
+   not only static seeds. The separate brief check remains definition-based.
+7. Triage catalog text correctly describes the limited undo behavior.
+8. Protected route test inventory includes the generalized content editor.
+9. Library wording test validates the editable definition and page binding.
+
+Verification
+Five-file focused run: 44 tests passed.
+Nine-file broader run: 165 tests passed. These sets overlap; do not add their counts.
+Eleven new regression tests are in workflow-control-completion.test.ts.
+TypeScript validation passed after the runtime and publication changes.
+Tests use isolated storage and simulated provider responses, not paid API calls.
+
+Open work in dependency order
+A. Reconcile source receipts, usable source objects, released items, and visible
+   resources. Preserve seeds. Current PAC_CONTENT_SOURCE remains static.
+B. Finish and verify corpus publication and graph retrieval without bypassing
+   source/release validation. Do not apply all pending migrations blindly.
+C. Complete supported provider adapters and wire optional work-role context into
+   actual personalized assistance. Local provider credentials are absent.
+D. Complete consultation activation evidence and operational storage readiness.
+   Do not enable real intake solely because an owner has granted build authority.
+E. Finish member authentication and scoped collaboration permissions, then prove
+   them independently from owner access.
+F. Implement the selected personal Teams bridge with destination verification and
+   supported account access. Existing links are navigation, not synchronization.
+   Do not connect to official agency systems.
+G. Complete notifications, calendar actions, genuine scheduled execution, and
+   recovery verification. Do not describe an off adapter as active.
+H. Complete learning-progress features, graph and large-collection testing,
+   model upgrade evaluation, and program-wide acceptance checks.
+
+No production deployment, content release, account change, database migration,
+Teams message, invitation, or paid provider call was made in this pass.

@@ -1,0 +1,144 @@
+{
+  "schema": "pac-staging-activation-receipt/v1",
+  "recordedAt": "2026-09-05T03:48:20-05:00",
+  "environment": "staging",
+  "systemBoundary": "Consultant-owned platform; no DHS, ADSA, or DSD system connection.",
+  "supabase": {
+    "projectRef": "qhiawdhehhfuccxvhldo",
+    "selected": true,
+    "active": true
+  },
+  "database": {
+    "engine": "PostgreSQL",
+    "portableSchema": true,
+    "restrictedRuntimeRoleLive": true,
+    "directProtectedTableRead": {
+      "allowed": false,
+      "sqlstate": "42501"
+    },
+    "migrationCheck": {
+      "command": "npm run db:migrate",
+      "mode": "check",
+      "ok": true,
+      "databaseChanged": false
+    },
+    "migrations": [
+      {
+        "name": "0001_pac_content_foundation.sql",
+        "sha256": "7C1C2BE6DE36A2611A9BDB9E3BD54B193FF8A2D94D0F0004E762AFBE7C692AE8",
+        "state": "applied"
+      },
+      {
+        "name": "0002_pac_runtime_store.sql",
+        "sha256": "D77309AE6A10118C3A8BDAEDE95EB65D10B446535445287ED046A35885456BE5",
+        "state": "applied"
+      },
+      {
+        "name": "0003_pac_private_source_objects.sql",
+        "sha256": "439BB36C39310B4CFF3133C42639B87C93C47EC1360F1FA862B086D798AB1CA9",
+        "state": "applied"
+      },
+      {
+        "name": "0004_pac_scoped_staff_publications.sql",
+        "sha256": "0FEA988865E7D13AB3522C813EAEFE35F389A24FD2D491A5FA4B3379AE94CE6B",
+        "state": "applied"
+      },
+      {
+        "name": "0005_pac_owner_resource_drafts.sql",
+        "sha256": "AE4F61D7C53EAD33CEDC8981918AF99BD085017A7E6A53F8EF2D8E98E0BF49F3",
+        "state": "applied"
+      },
+      {
+        "name": "0006_pac_owner_resource_release.sql",
+        "sha256": "CB8561EEAFB7DA175E2C11639FE9CC52481FCF4A7250C744114F20D12FF68FFD",
+        "state": "applied_no_op",
+        "bytes": 60,
+        "note": "Accidental transaction-wrapped placeholder. It changed no data, permissions, or behavior and remains in the applied ledger."
+      },
+      {
+        "name": "0007_pac_home_footer_content.sql",
+        "sha256": "8B1FCE29CF8D0D69DA59088EF920CB1426E23F4427FD20FAD6273D08D5FE08C9",
+        "state": "applied"
+      },
+      {
+        "name": "0008_pac_owner_resource_release.sql",
+        "sha256": "E11AE49A4DCEA56756CAF5BC2E81176990A6CD7C8BD4BC5ED50A92680653AFFF",
+        "state": "applied"
+      }
+    ]
+  },
+  "loads": {
+    "shadow": {
+      "runId": "bac47fd8-6fc5-4e52-bc49-030fb847b8ff",
+      "rows": 1207
+    },
+    "canonical": {
+      "runId": "3993ae55-e95b-4766-b9e8-35f995abbd0e",
+      "rows": 1803
+    },
+    "seedRelease": {
+      "runId": "c7b5f76e-571d-4393-90d1-87b8c6065751",
+      "rows": 223
+    }
+  },
+  "currentTotals": {
+    "sourceCarriersBeforePageBlocks": 44,
+    "sourceCarriers": 46,
+    "sourceItemsBeforePageBlocks": 630,
+    "sourceItems": 632,
+    "sourceReceipts": 557,
+    "contentItemsBeforePageBlocks": 98,
+    "contentItems": 100,
+    "contentRevisionsBeforePageBlocks": 122,
+    "contentRevisions": 124,
+    "collectionMemberships": 98,
+    "publicationDecisions": 27,
+    "legacyEventsPreserved": 574
+  },
+  "staffReadBoundary": {
+    "generalResourceReaderCount": 25,
+    "generalResourceCollection": "permanent seeds",
+    "pageReaders": [
+      "Home",
+      "Footer"
+    ],
+    "pageBlocksExcludedFromGeneralResourceReader": true,
+    "publicationDecisionComposition": {
+      "permanentSeedResources": 25,
+      "home": 1,
+      "footer": 1
+    }
+  },
+  "sourceObjectStage": {
+    "stageId": "pac-private-source-objects-2026-09-05",
+    "sha256": "3F38EACCEDBFADFCA746F772AFED9E006F2F8E08C1D79725D28185A86F8FA56A",
+    "objectsAccounted": 60,
+    "bytesAccounted": 46613473,
+    "uploaded": false,
+    "authorizationState": "Specific authorization for this exact package and private staging destination is still required."
+  },
+  "deployment": {
+    "vercelPreviewVariablesConfigured": true,
+    "vercelProductionVariablesConfigured": false,
+    "productionDeploymentCompleted": false
+  },
+  "externalResearch": {
+    "perplexityKeyPresent": false,
+    "available": false
+  },
+  "inlineEditing": {
+    "coveredSurfaces": [
+      "Resources",
+      "Home",
+      "Footer"
+    ],
+    "allProgramSurfacesCovered": false,
+    "remainingWork": "Add typed inline editing, review, scope, and publication behavior to the remaining staff-facing surfaces."
+  },
+  "historicalReceipt": {
+    "path": "data/import-manifests/shadow-import-receipt-2026-09-05.json",
+    "preservedUnchanged": true,
+    "note": "This activation receipt supplements the point-in-time shadow receipt; it does not revise it."
+  },
+  "containsSecrets": false
+}

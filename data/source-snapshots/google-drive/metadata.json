@@ -1,0 +1,156 @@
+{
+  "schemaVersion": "1.0.0",
+  "capturedOn": "2026-09-04",
+  "purpose": "Connected Drive metadata for all twelve owner-supplied presentation links. Access permits intake; it is not a staff-release decision.",
+  "counts": {
+    "registered": 12,
+    "metadataCaptured": 12
+  },
+  "entries": [
+    {
+      "sourceId": "drive-cq-expand-borders",
+      "fileId": "1KEd8mhazoNIjFUF0iX0OFMvKsAK6VVkm",
+      "status": "metadata_captured",
+      "title": "CQ_Expand_Your_Borders_Curriculum.pptx",
+      "mimeType": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "sizeBytes": 1144279,
+      "createdTime": "2026-04-20T00:20:17.540Z",
+      "modifiedTime": "2026-04-20T00:20:17.540Z",
+      "url": "https://docs.google.com/presentation/d/1KEd8mhazoNIjFUF0iX0OFMvKsAK6VVkm/edit?usp=drivesdk&ouid=106485977676765971571&rtpof=true&sd=true",
+      "sourceVisibilityStatus": "access_not_verified"
+    },
+    {
+      "sourceId": "drive-conflict-repair-accountability",
+      "fileId": "1ASNKgsPGZP91pQ_-OK5QQXbjNxzz8bzluHb2JeqqQEY",
+      "status": "metadata_captured",
+      "title": "Conflict, Repair, and Accountability with a DEIA Lens",
+      "mimeType": "application/vnd.google-apps.presentation",
+      "sizeBytes": 1590304,
+      "createdTime": "2026-01-18T02:21:44.627Z",
+      "modifiedTime": "2026-09-03T23:22:29.235Z",
+      "url": "https://docs.google.com/presentation/d/1ASNKgsPGZP91pQ_-OK5QQXbjNxzz8bzluHb2JeqqQEY/edit?usp=drivesdk",
+      "sourceVisibilityStatus": "access_not_verified"
+    },
+    {
+      "sourceId": "drive-idi-integration",
+      "fileId": "1Tx-k2fBFcalYntCQx__toqHAWBvLcabDfgXLbwYkVok",
+      "status": "metadata_captured",
+      "title": "IDI_Integration_Tutorials",
+      "mimeType": "application/vnd.google-apps.presentation",
+      "sizeBytes": 23149,
+      "createdTime": "2026-04-14T12:17:10.500Z",
+      "modifiedTime": "2026-09-03T23:23:43.270Z",
+      "url": "https://docs.google.com/presentation/d/1Tx-k2fBFcalYntCQx__toqHAWBvLcabDfgXLbwYkVok/edit?usp=drivesdk",
+      "sourceVisibilityStatus": "access_not_verified"
+    },
+    {
+      "sourceId": "drive-idi-acceptance",
+      "fileId": "1NbI7HkyH16v-ULmwQ_6yDaSkLKZCjjYo",
+      "status": "metadata_captured",
+      "title": "IDI_Acceptance_Tutorials.pptx",
+      "mimeType": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "sizeBytes": 353968,
+      "createdTime": "2026-04-14T13:17:00.270Z",
+      "modifiedTime": "2026-09-03T23:24:54.813Z",
+      "url": "https://docs.google.com/presentation/d/1NbI7HkyH16v-ULmwQ_6yDaSkLKZCjjYo/edit?usp=drivesdk&ouid=106485977676765971571&rtpof=true&sd=true",
+      "sourceVisibilityStatus": "access_not_verified"
+    },
+    {
+      "sourceId": "drive-idi-minimization",
+      "fileId": "1u4VcTt9lpG21yGOi-nZlHVVTBKj7MJ08",
+      "status": "metadata_captured",
+      "title": "IDI_Minimization_Tutorials.pptx",
+      "mimeType": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "sizeBytes": 351629,
+      "createdTime": "2026-04-14T13:17:36.807Z",
+      "modifiedTime": "2026-09-03T23:26:14.874Z",
+      "url": "https://docs.google.com/presentation/d/1u4VcTt9lpG21yGOi-nZlHVVTBKj7MJ08/edit?usp=drivesdk&ouid=106485977676765971571&rtpof=true&sd=true",
+      "sourceVisibilityStatus": "access_not_verified"
+    },
+    {
+      "sourceId": "drive-idi-polarization",
+      "fileId": "1U0cCfV-wtHU1t6wzSc0f2jl3u_eAXlLO",
+      "status": "metadata_captured",
+      "title": "IDI_Polarization_Tutorials.pptx",
+      "mimeType": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "sizeBytes": 350835,
+      "createdTime": "2026-04-14T13:18:27.816Z",
+      "modifiedTime": "2026-09-03T23:27:20.236Z",
+      "url": "https://docs.google.com/presentation/d/1U0cCfV-wtHU1t6wzSc0f2jl3u_eAXlLO/edit?usp=drivesdk&ouid=106485977676765971571&rtpof=true&sd=true",
+      "sourceVisibilityStatus": "access_not_verified"
+    },
+    {
+      "sourceId": "drive-idi-denial",
+      "fileId": "1WqGkZh6ZBCl41lKDdiwW8lz6fr6z8_M1",
+      "status": "metadata_captured",
+      "title": "IDI_Denial_Tutorials.pptx",
+      "mimeType": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "sizeBytes": 348758,
+      "createdTime": "2026-04-14T10:25:47.288Z",
+      "modifiedTime": "2026-09-03T23:28:12.645Z",
+      "url": "https://docs.google.com/presentation/d/1WqGkZh6ZBCl41lKDdiwW8lz6fr6z8_M1/edit?usp=drivesdk&ouid=106485977676765971571&rtpof=true&sd=true",
+      "sourceVisibilityStatus": "access_not_verified"
+    },
+    {
+      "sourceId": "drive-inclusive-practices",
+      "fileId": "1PtK6oBa9wkcPYaZNSwDGi5Bev9c_bT4mnLdbAHzy1i4",
+      "status": "metadata_captured",
+      "title": "Inclusive Practices Presentation",
+      "mimeType": "application/vnd.google-apps.presentation",
+      "sizeBytes": 1498635,
+      "createdTime": "2025-12-21T03:53:18.375Z",
+      "modifiedTime": "2026-09-03T23:29:08.110Z",
+      "url": "https://docs.google.com/presentation/d/1PtK6oBa9wkcPYaZNSwDGi5Bev9c_bT4mnLdbAHzy1i4/edit?usp=drivesdk",
+      "sourceVisibilityStatus": "access_not_verified"
+    },
+    {
+      "sourceId": "drive-cultural-intelligence-workshop",
+      "fileId": "1HmDVjnDGR9rsOJP-rcZ-QdNzlNDvnMNr",
+      "status": "metadata_captured",
+      "title": "Cultural Intell Workshop.pptx",
+      "mimeType": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "sizeBytes": 51953159,
+      "createdTime": "2022-12-02T20:24:13.060Z",
+      "modifiedTime": "2022-12-02T21:56:48.327Z",
+      "url": "https://docs.google.com/presentation/d/1HmDVjnDGR9rsOJP-rcZ-QdNzlNDvnMNr/edit?usp=drivesdk&ouid=106485977676765971571&rtpof=true&sd=true",
+      "sourceVisibilityStatus": "access_not_verified"
+    },
+    {
+      "sourceId": "drive-bipoc-suggestions",
+      "fileId": "1_1W9Bgpb6G2qsSVMTA4UtrJvNwHTxZQl",
+      "status": "metadata_captured",
+      "title": "BIPOC Suggestions.pptx",
+      "mimeType": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "sizeBytes": 3127736,
+      "createdTime": "2021-10-13T01:21:27.072Z",
+      "modifiedTime": "2022-07-30T17:44:07.141Z",
+      "url": "https://docs.google.com/presentation/d/1_1W9Bgpb6G2qsSVMTA4UtrJvNwHTxZQl/edit?usp=drivesdk&ouid=106485977676765971571&rtpof=true&sd=true",
+      "sourceVisibilityStatus": "access_not_verified"
+    },
+    {
+      "sourceId": "drive-cfs-idi-seminar-part-1",
+      "fileId": "1qcIOp-A8iJaeFyp8du1r9x_tC3sopNAt",
+      "status": "metadata_captured",
+      "title": "CFS-IDI Seminar Part 1.pptx",
+      "mimeType": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "sizeBytes": 30725525,
+      "createdTime": "2021-03-30T19:23:16.422Z",
+      "modifiedTime": "2022-07-30T17:25:44.262Z",
+      "url": "https://docs.google.com/presentation/d/1qcIOp-A8iJaeFyp8du1r9x_tC3sopNAt/edit?usp=drivesdk&ouid=106485977676765971571&rtpof=true&sd=true",
+      "sourceVisibilityStatus": "access_not_verified"
+    },
+    {
+      "sourceId": "drive-intergenerational-handout",
+      "fileId": "1MS6PQvLtaxn8EpbBIdQ7QVbbwiXM06Re",
+      "status": "metadata_captured",
+      "title": "Handout_Intergenerational-MetroMaint.pptx",
+      "mimeType": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "sizeBytes": 1720702,
+      "createdTime": "2018-04-27T21:18:29.270Z",
+      "modifiedTime": "2026-09-03T23:35:01.214Z",
+      "url": "https://docs.google.com/presentation/d/1MS6PQvLtaxn8EpbBIdQ7QVbbwiXM06Re/edit?usp=drivesdk&ouid=106485977676765971571&rtpof=true&sd=true",
+      "sourceVisibilityStatus": "access_not_verified"
+    }
+  ]
+}
+

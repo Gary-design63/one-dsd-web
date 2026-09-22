@@ -1,0 +1,555 @@
+import type { CoursePack } from "../../source-types";
+
+// Intercultural Practice and Equity · Public-service practice · Module 14: Documentation, analysis and narrative.
+// Program-authored for internal DHS and DSD staff. Voluntary, self-directed, no scores and no completion requirement.
+const pack: CoursePack = {
+  course: {
+    id: "ipe-14-documentation-and-narrative",
+    indexNumber: 1156,
+    seriesLabel: "Intercultural Practice and Equity · Public-service practice",
+    title: "Documentation, Analysis and Narrative",
+    subtitle: "A finding, a summary or a briefing note carries three things at once: what happened, how it was framed, and what the framing implies about the people in it. Four lessons on writing all three well, ending with a dignity-and-equity edit you run on one real document.",
+    scope: "For internal DHS and DSD staff who write or review anything another person will act on: quality, compliance and performance staff; data, research and evaluation staff; communications and training staff; policy and program staff; fiscal, contracts and grants staff; supervisors and managers; and administrative staff who keep the record. Four short lessons you can take in any order and return to. Voluntary and self-directed: no score, no completion requirement, and nothing you write in a reflection is collected. Completion here does not count toward DHS-required training credits unless management, a director, or DHS leadership expressly approves an exception.",
+    treatment: "Four short lessons with Minnesota examples, scenarios, sorting and flashcard practice, private reflection prompts, and a dignity-and-equity edit record you can copy into your own work",
+    duration: "40–45 minutes",
+    author: "One DSD — People, Access and Culture",
+    coverImage: "/images/covers/the-record.jpg",
+    coverAlt: "A man reads bound reports at a library table.",
+    introTranscript: "Most of what this division decides is decided from a document. A quality finding, a regional summary, a briefing note, a monitoring memo, an email that became the record. Those documents outlive the moment they describe. They get copied into a decision memo, quoted in a budget request, and read later by people who never met the situation. This module is about what travels with them: the facts, the framing, and what the framing says about the people involved. It covers where a judgment enters a draft, how to separate what you saw from what you concluded, what a number and a story can each actually support, and how to run one dignity-and-equity edit on one real document and tell the author what changed.",
+    kind: "course",
+    contentType: "practice",
+    learning: {
+      objectives: [
+        "Explain how the framing of an internal document, not only its facts, shapes the decisions made from it later.",
+        "Separate description, conclusion and judgment in a draft, and state the evidence for each conclusion or mark it as an open question.",
+        "Recognize the common patterns that make internal writing stigmatizing: deficit vocabulary, culture used as a cause, the missing actor, and program terms used as character descriptions.",
+        "Decide what a data summary or a case story can support, and write its limits into the document rather than explaining them in a meeting.",
+        "Run a dignity-and-equity edit on one real document, make the changes you own, and route the rest with suggested wording to whoever owns them.",
+      ],
+      evidence: [
+        "Four worked scenarios drawn from division quality review, compliance findings, data summary and briefing work, each with a recommended response and the reasoning behind it.",
+        "A knowledge check in every lesson with feedback that explains the usable answer.",
+        "Sorting practice separating observation from conclusion from judgment, and separating what a number can support from what it cannot.",
+        "A completed dignity-and-equity edit record for one real internal document, with the changes made, the changes routed and the owner of each.",
+      ],
+      appliedNextStep: "Choose one document you are writing or reviewing this week. Run the dignity-and-equity guide through it once, make the changes inside your control, send the author a short note saying what changed and why, and route the rest with suggested wording to the people who own them.",
+    },
+    governance: {
+      contentOwner: "One DSD — People, Access and Culture",
+      reviewers: ["Equity and Inclusion Operations Consultant"],
+      evidenceDate: "Public sources checked at authoring",
+      lastReviewed: "At authoring",
+      nextReview: "At the agreed review point and whenever an update trigger occurs",
+      updateTriggers: [
+        "A change in DHS content and writing guidance, or in Minnesota government data practices guidance affecting how staff describe people in a record",
+        "A change in the disability language guidance this module draws on, or in the division's own reporting categories and data fields",
+        "Feedback from disabled Minnesotans, families, community reviewers or division staff that an example or a repair in this module reads as inaccurate or stigmatizing",
+      ],
+      relatedDoor: "Formal decisions about issuing a finding, releasing data, responding to a data request, correcting a record or approving what goes to leadership belong to the responsible DHS program, quality, data practices and communications offices; this module prepares the draft and the edit, it does not clear or issue them.",
+      toolkitQuestion: "If the person this document is about read it, would they recognize what happened, and would they still be treated as a whole person in it?",
+      status: "reviewed",
+    },
+    lessons: [
+      {
+        id: "ipe-14-1",
+        number: 1,
+        title: "What a document does after you write it",
+        summary: "Findings, summaries, briefing notes and monitoring memos outlive the moment they describe. What travels forward is not only the facts but the framing, and the framing is where a judgment about people quietly becomes part of a decision.",
+        minutes: 11,
+        learning: {
+          objective: "Explain how the framing of an internal document shapes later decisions, and locate the specific sentences in a draft where that framing enters.",
+          takeaways: [
+            "Every internal document has a second life. It is copied into a briefing, quoted in a decision memo, cited in a budget request, and read long afterward by people who never met the situation it describes.",
+            "Three things travel together in a write-up: what happened, how it was framed, and what the framing implies about the people in it. Usually only the first one gets checked.",
+            "Stigmatizing language in public administration rarely arrives as an insult. It arrives as ordinary program vocabulary — non-compliant, refused, failure to engage, hard to reach — used to describe a person rather than a process.",
+            "The person the document is about is a possible reader. Data requests, appeals, audits and public reporting all put internal wording in front of the people it describes.",
+          ],
+          evidence: "A scenario about a regional utilization summary that explains a gap before anyone has examined the division's own process, tabs on six kinds of internal document and what each one carries forward, flashcards on the phrases that do the most quiet damage, and a knowledge check on where a framing problem belongs.",
+          appliedNextStep: "Open the last summary, finding or briefing note you wrote. Underline every sentence that explains why something happened, and check whether the explanation is in the document or only in your head.",
+        },
+        scenario: {
+          context: "A Disability Services Division analyst is finishing a quarterly summary of how often a particular service is authorized across the state. One greater-Minnesota region sits well below the others. The current draft says that families in that region are “less engaged in planning” and that “outreach has been difficult.” Nobody has looked at how the division's own service description reads, whether the notice explaining the service ever reached those households, or how long the request process takes in a region with fewer staff. The summary is due to a leadership meeting on Friday.",
+          prompt: "What should change in the draft before it goes any further?",
+          options: [
+            {
+              label: "Soften the wording: say the region shows “lower engagement” rather than saying families are less engaged.",
+              response: "The adjective changed and the claim did not. The sentence still asserts a cause the review never examined, and it still locates that cause in the households rather than in a process the division controls. A softer sentence with the same missing evidence is harder to challenge, not better.",
+            },
+            {
+              label: "Report what the summary actually shows, list the parts of the division's own process nobody examined, and write those out as open questions the summary cannot answer.",
+              response: "This is the recommended path. It keeps the finding — the authorization rate is lower in this region — and returns the explanation to the status of a question. It also names the specific unexamined things, so the next piece of work has somewhere to start rather than beginning again from a general worry.",
+              recommended: true,
+            },
+            {
+              label: "Add a recommendation that the region receive additional outreach support.",
+              response: "This funds a solution to a cause nobody has established. If the barrier is a service description written for people who already know the program, or a notice that never arrived, more outreach carrying the same materials will not move the number, and the failure will be read as confirmation that the families were the problem.",
+            },
+          ],
+        },
+        transfer: {
+          prompt: "Think about the last internal document you wrote that explained why a number or an outcome looked the way it did.",
+          options: [
+            "Write down the explanation the document offered, in its own words",
+            "Write down what evidence in the document actually supports that explanation",
+            "Name one part of our own process the document never examined",
+          ],
+        },
+        blocks: [
+          {
+            type: "text",
+            heading: "The second life of an internal document",
+            body: "<p>A division decides very little in a room. It decides from documents. A quality review becomes a finding, the finding becomes a line in a briefing note, the briefing note becomes a slide, the slide becomes a budget request, and somewhere along that chain a sentence written on a Thursday afternoon turns into the reason a program is expanded, narrowed or left alone. The people making the later decisions rarely see the situation the sentence described. They see the sentence.</p><p>That is why the drafting of internal documents is public-administration work rather than clerical work. Whoever writes the first version decides what counts as the relevant facts, what order they appear in, which explanation is offered, and which questions are left out because they were never asked. None of that is visible later. A document reads as a neutral record of what happened, even when most of its content was a set of choices.</p><p>Three things travel forward together. There is what happened: the dates, the counts, the sequence, the documents sent and received. There is the framing: what the write-up treats as the main story, what it treats as background, and what it does not mention. And there is the implication about the people involved — the part nobody writes on purpose, and the part that is hardest to remove once it has been copied twice. This module is about keeping those three visible while you write, so that the first one survives and the third one does not do damage on its own.</p>",
+          },
+          {
+            type: "tabs",
+            heading: "Six things the division writes internally, and what each one carries forward",
+            tabs: [
+              { label: "Findings", body: "<p>A quality or compliance finding is written to be acted on, and it usually outlasts everyone involved. It carries a judgment about whether something met a requirement, and — often without meaning to — a judgment about whether the people involved tried. Write what was required, what was done, what was not, and what each conclusion rests on. Keep the requirement and the explanation in separate sentences, so a reader can accept the first without inheriting the second.</p>" },
+              { label: "Briefing notes", body: "<p>A briefing note has a strict budget: a page, sometimes half of one, read minutes before a meeting. Everything cut is a choice about what the decision maker will not consider. It carries whatever the writer decided was the essential story. Say what the decision is, what is known, what is not known, and what the recommendation depends on. A note that hides its uncertainty produces a confident decision on an unstable base.</p>" },
+              { label: "Data summaries", body: "<p>A summary of counts, rates or trends carries the authority of arithmetic and the assumptions of whoever designed the fields. It travels further than any other document in the division because it is easy to quote. Say who is in the count, who is not, where the categories came from, and what the number cannot tell a reader. Those lines are not hedging. They are part of the result.</p>" },
+              { label: "Monitoring notes", body: "<p>Contract, grant and program monitoring notes describe another organization's performance, and they accumulate. A phrase used once in an early note gets repeated in the next four because repeating is faster than rewriting. Describe the specific obligation, the specific evidence, and the specific gap. Avoid the general character sentence — responsive, difficult, disorganized — which is the part most likely to be copied forward without anyone rechecking it.</p>" },
+              { label: "Internal email", body: "<p>Email is not a draft. It is a record, it is subject to government data practices, and a single line written quickly can end up quoted in an appeal, an audit or a public request. The sentence that would embarrass the division is rarely the analytical one. It is the aside about a person. Write email about people the way you would write the finding.</p>" },
+              { label: "Guidance for staff", body: "<p>Guidance written for other staff teaches vocabulary as well as procedure. If it calls a set of people non-compliant, the word spreads into every note, form and conversation downstream, carrying the judgment with it. Define the process term precisely, say what behavior it does and does not describe, and give the plainer alternative you want people to use in writing that another person may read.</p>" },
+            ],
+          },
+          {
+            type: "leaderMove",
+            heading: "Keep the explanation and its evidence in the same place",
+            control: "You control whether an explanation appears in a document at all, and whether the evidence for it appears beside it.",
+            failure: "Do not let a plausible explanation ride along unattributed because it makes the write-up feel finished. An unsupported cause is the single most durable thing in an internal record: it is copied forward, it is never re-examined, and it eventually becomes the reason a decision was made.",
+            next: "In the next document you draft, mark every sentence that answers “why” and put the supporting evidence next to it, or move the sentence into a list of open questions.",
+          },
+          {
+            type: "flashcards",
+            heading: "Five phrases that carry more than they say",
+            cards: [
+              { front: "“Hard to reach”", back: "<p>It describes the people rather than the outreach. Almost always the accurate sentence is about the division: the notice went to an old address, the material existed only in English, the meeting was midweek at two in the afternoon, or nobody was asked. Write what the division did and what happened. The people were not hard to reach; they were not reached.</p>" },
+              { front: "“Refused” and “declined”", back: "<p>Both imply a free, informed choice. Before using either, check what was offered, in what language, in what format, with how much time, and whether the person understood what they were choosing between. If you cannot answer those questions, write what was recorded — no response was received by the date — and leave the reason open.</p>" },
+              { front: "“Non-compliant”", back: "<p>A precise process term that reads to most people as a description of character. It belongs where a specific obligation and a specific gap can be named in the same sentence. On its own, attached to a person or a household, it travels forward as a verdict nobody rechecks.</p>" },
+              { front: "“Failure to engage”", back: "<p>Two judgments hidden in three words: that engagement was genuinely available, and that the person chose not to take it. Say instead what was offered, when, how, and what was received. If the offer had conditions attached — a weekday appointment, a phone with minutes, a document the person does not have — those conditions are part of the finding.</p>" },
+              { front: "“This community prefers…”", back: "<p>A claim about culture is a causal claim, and it needs the same evidence as any other. Used as an explanation for a gap, it usually stands in for evidence nobody gathered, and it removes the division's own decisions from the picture entirely. If a community has told the division something about its preferences, cite that. If not, the sentence is a guess wearing the clothes of a finding.</p>" },
+            ],
+          },
+          {
+            type: "knowledgeCheck",
+            id: "ipe-14-1-check",
+            question: "A draft regional summary states that a service is authorized less often in one region because “families there are less engaged in planning.” The review examined authorization counts only. Where does the problem sit?",
+            options: [
+              { text: "With the wording; “less engaged” is too blunt and should be phrased more carefully.", correct: false },
+              { text: "With the claim; the review produced a count, and the sentence adds a cause it did not examine, locating that cause in families rather than in any part of the process the division controls.", correct: true },
+              { text: "With the analyst, who should have gathered engagement data before writing the summary.", correct: false },
+              { text: "Nowhere; the summary reports what the data shows and offers a reasonable interpretation.", correct: false },
+            ],
+            feedbackCorrect: "Yes. The count is a finding. The cause is an addition, and it was never tested. Reporting the count and listing the unexamined parts of the process keeps the finding and returns the explanation to a question.",
+            feedbackIncorrect: "Look at what the review actually measured. It measured how often the service was authorized. Any sentence explaining why belongs to a different piece of work, and until that work happens the explanation is a guess that will be quoted as a finding.",
+          },
+          {
+            type: "statement",
+            body: "Private reflection, kept by you and not collected anywhere: think of a document you wrote that was quoted later in a decision. Which sentence did the decision rest on, and would you write that sentence the same way now?",
+          },
+        ],
+      },
+      {
+        id: "ipe-14-2",
+        number: 2,
+        title: "What you saw, what you concluded, and the gap between",
+        summary: "Description, conclusion and judgment look alike on the page and behave completely differently once a document is in circulation. Separating them is the single most useful editing skill in public-administration writing.",
+        minutes: 11,
+        learning: {
+          objective: "Separate description, conclusion and judgment in a draft, and state the evidence for each conclusion or mark it plainly as an open question.",
+          takeaways: [
+            "Description is what a record shows. A conclusion is what you decided it means. A judgment is a statement about a person's character or intent. The first belongs in every document; the second needs evidence beside it; the third almost never belongs at all.",
+            "Passive wording removes the actor. “The form was not returned” hides who sent it, where, in what language, and by when — and every one of those facts might explain the outcome.",
+            "Culture, language and community are causal claims when used to explain a gap. They carry the same evidence burden as any other explanation, and they usually stand in for evidence nobody gathered.",
+            "Whether a person is described as a person with a disability or as a disabled person is a real choice with real history behind it. When you know the person's or community's own usage, follow it; when writing generally, follow the guidance the division uses and stay consistent.",
+          ],
+          evidence: "A scenario about a compliance finding sent for clearance, a sorting exercise separating observation from conclusion from judgment, an accordion of phrases that appear in internal writing with usable repairs, and a knowledge check on what makes a finding defensible.",
+          appliedNextStep: "Take one paragraph of something you are drafting now and rewrite it so every explanation either names its evidence or says plainly that the evidence is missing.",
+        },
+        scenario: {
+          context: "You are reviewing a draft compliance finding before it goes for clearance. The finding concerns a division process in which a person had to supply documentation to keep a service in place. The draft reads: “The requester was uncooperative and did not provide the requested documentation within the required period. The service was ended in accordance with policy.” The file shows a letter was mailed, that the letter was in English, that the household's recorded language is Somali, and that the letter gave ten days from the date printed on it.",
+          prompt: "What has to change before this finding is defensible?",
+          options: [
+            {
+              label: "Remove the word “uncooperative” and leave the rest of the finding as written.",
+              response: "Removing the judgment word is right, and it is the smallest of the problems. “Did not provide the requested documentation” still hides what was asked, in what language, with how many days, and whether the request was understandable to the person receiving it. The finding would still be wrong in a way a reader cannot see.",
+            },
+            {
+              label: "Write what was requested, when, in what form and language, what the person received and when, what was returned, and what the division did next — then leave the reason unstated, because nobody asked.",
+              response: "This is the recommended path. It produces a finding that is accurate, that survives an appeal, and that makes the real issue visible: a ten-day window starting from a print date, on a letter in a language the file itself says the household does not read. None of that is an excuse for the person. It is a description of the process.",
+              recommended: true,
+            },
+            {
+              label: "Add a sentence noting that the requester may have faced barriers to responding.",
+              response: "This replaces one speculation with a kinder speculation. It also reads as an allowance made for someone rather than as a fact about the process. The specific facts — English letter, recorded language, ten days from a print date — are stronger than any general sentence about barriers, and they are already in the file.",
+            },
+          ],
+        },
+        transfer: {
+          prompt: "Take a paragraph from something you are writing now and test each sentence.",
+          options: [
+            "Mark every sentence that describes what a record shows",
+            "Mark every sentence that explains why, and write the evidence beside it or move it to an open-questions list",
+            "Mark every sentence that says something about a person's character or intent, and decide whether it belongs in the document at all",
+          ],
+        },
+        blocks: [
+          {
+            type: "text",
+            heading: "Three sentences that look like one",
+            body: "<p>Consider three sentences that could all appear in the same paragraph of the same document. “The letter was mailed on the ninth; no response was received by the deadline.” “The household did not understand the letter.” “The household was not interested in keeping the service.” They are formatted identically and read at the same speed. They are completely different kinds of claim.</p><p>The first is description. It is what the record shows, and anyone with the file can check it. The second is a conclusion: it might be true, it might be well founded, and it requires something behind it — a conversation, a returned call, a note from an interpreter. The third is a judgment about what people wanted, which almost nothing in an ordinary file can support and which, once written, will be repeated by everyone who reads the document afterward.</p><p>The editing skill that matters most in public-administration writing is being able to look at your own paragraph and say which of the three each sentence is. Not to delete the conclusions — a document with no analysis is not useful — but to make them visible as conclusions, with their basis attached. A reader can weigh a conclusion that says what it rests on. A reader cannot weigh a conclusion dressed as a fact, and neither can the person in the document if it is ever read back to them.</p><p>There is a second, quieter version of the same problem: the sentence with no actor in it. “The notice was not returned.” “Documentation was not provided.” “Communication was not established.” Each of these describes a two-sided process while naming only one side, and the side it names is always the person outside the division. Putting the actor back in — who sent what, to which address, in which language, with how long to respond — is often the entire fix.</p>",
+          },
+          {
+            type: "sorting",
+            id: "ipe-14-2-sort",
+            heading: "Observation, conclusion, or judgment?",
+            categories: ["Something the record shows", "A conclusion that needs evidence beside it", "A judgment about a person"],
+            items: [
+              { text: "A renewal letter was mailed on the ninth to the address on file.", category: "Something the record shows" },
+              { text: "No response was received by the deadline printed on the letter.", category: "Something the record shows" },
+              { text: "The household's recorded primary language is not English.", category: "Something the record shows" },
+              { text: "The letter was not understood.", category: "A conclusion that needs evidence beside it" },
+              { text: "The ten-day window was too short for a household that needed an interpreter.", category: "A conclusion that needs evidence beside it" },
+              { text: "The service ended because the deadline passed without a response.", category: "A conclusion that needs evidence beside it" },
+              { text: "The requester was uncooperative.", category: "A judgment about a person" },
+              { text: "This family is not motivated to keep services in place.", category: "A judgment about a person" },
+              { text: "The provider organization is disorganized.", category: "A judgment about a person" },
+            ],
+          },
+          {
+            type: "accordion",
+            heading: "Phrases that turn up in internal writing, and what to write instead",
+            items: [
+              { title: "“The client refused the service.”", body: "<p>Refusal implies an understood, unconstrained choice. Write what was offered, in what form, and what was recorded in response: “The service was offered by phone on the twelfth; the person said they did not want a weekday appointment and asked to be contacted again.” If you do not know why, say what happened and stop. An honest record of a declined offer is more useful than a guess about the reason, because someone can follow up on the first.</p>" },
+              { title: "“Outreach to this community has been difficult.”", body: "<p>This describes the division's experience and attributes it to the community. Write the specifics: which materials existed, in which languages, through which channels, over what period, with which partner organizations, and what the response was. Nine times out of ten the specifics point at something the division can change, which is the only kind of finding a program can act on.</p>" },
+              { title: "“The family chose to care for him at home.”", body: "<p>Sometimes exactly true, and worth recording when the family has said so. It becomes a problem when it is written as an explanation for why a service was never used, without anyone asking. Check whether it is the family's stated preference — in which case cite the conversation — or the writer's assumption about what a community prefers, in which case it is not a finding.</p>" },
+              { title: "“High-need” and “low-functioning.”", body: "<p>Both compress a person into a rank. Where a document needs to describe support, describe the support: hours of assistance, the kind of communication access needed, the equipment in use. Where it needs to describe a person, use their name and role. Disability language guidance from disabled-led organizations is consistent on this point, and the specific description is nearly always more useful to the reader anyway.</p>" },
+              { title: "“Failure to engage.”", body: "<p>Replace with the sequence: what the division offered, on what date, by what channel, in what language, with what deadline, and what was received. The sequence answers the question the finding is really about — whether participation was genuinely available — and it does it without assigning a motive to anyone.</p>" },
+              { title: "“Despite significant efforts…”", body: "<p>A phrase that defends the writer's organization inside a factual document. It signals to the reader that the coming sentence is not the division's fault, which is a conclusion the reader should be allowed to reach on their own. Describe the efforts in specific terms and let them speak. If they were significant, the detail will show it; if the detail does not show it, the phrase was doing the work.</p>" },
+              { title: "“Person with a disability” or “disabled person”?", body: "<p>Both are in respectful use, and communities differ. Many disabled people, particularly in disability-culture and self-advocacy communities, prefer identity-first wording; many people and many public guidance documents use person-first wording. When you know the person's or the organization's own usage, use it. When writing generally, follow the guidance the division uses, keep it consistent within a document, and never let the choice of wording stand in for the substance of what the document says about someone's life.</p>" },
+            ],
+          },
+          {
+            type: "text",
+            heading: "Where this sits in the program's map of change",
+            body: "<p>This program uses a familiar map of intercultural development — Denial, Polarization, Minimization, Acceptance, Adaptation and Integration — to describe how organizations and the people in them change over time. It describes the work and the organization. It is never a label, a score or a record about any individual, and nothing you do in this module is assessed or kept.</p><p>In documentation, Minimization has a particular sound: “I write about everyone the same way, so my writing is neutral.” It is sincerely meant, and it is the position most professional writing training produces. The difficulty is that a single standard way of describing people is not neutral — it is the description that fits the writer's own expectations, and it treats everything outside those expectations as a deviation to be explained. That is how “did not respond” becomes “was not interested,” and how a ten-day English-only window disappears from a finding entirely.</p><p>Acceptance in this work is recognizing that a document lands differently depending on who is in it and who reads it, and that this is a real feature of the document rather than a sensitivity. Adaptation is changing the writing: naming the actor, attaching evidence to every explanation, stating what a number cannot support, asking what the process required of a person before concluding anything about what the person did. None of that is softer writing. It is more exact writing, which is why it also survives an audit.</p>",
+          },
+          {
+            type: "knowledgeCheck",
+            id: "ipe-14-2-check",
+            question: "Which version of a compliance sentence is most defensible in a document that may be read on appeal?",
+            options: [
+              { text: "The requester was uncooperative and did not provide the requested documentation.", correct: false },
+              { text: "The requester did not provide the requested documentation within the required period.", correct: false },
+              { text: "A request for documentation was mailed in English on the ninth to the address on file, allowing ten days from the print date; the household's recorded language is Somali; no documentation was received by the nineteenth; the service ended on the twentieth under the standing policy.", correct: true },
+              { text: "Despite significant outreach efforts, the requester did not engage with the documentation process.", correct: false },
+            ],
+            feedbackCorrect: "Yes. Every element is checkable, the actor is named at each step, and the reader can see the whole process — including the parts the division controlled — without being told what to conclude about anyone.",
+            feedbackIncorrect: "Ask what a reader on appeal could verify. A sentence about cooperation or engagement cannot be verified, and a sentence about what was not provided leaves out what was asked, in what language, and with how much time. The version that names each action and date is the one that holds up.",
+          },
+          {
+            type: "statement",
+            body: "Private reflection, kept by you: think of a conclusion you have written into a document more than once. What is it actually based on, and what would it take to check?",
+          },
+        ],
+      },
+      {
+        id: "ipe-14-3",
+        number: 3,
+        title: "Numbers, stories, and what each one can carry",
+        summary: "A count describes the people who were counted, using categories somebody chose. A story shows that something is possible. Both become misleading the moment a document asks them to carry more than that.",
+        minutes: 10,
+        learning: {
+          objective: "Decide what a data summary or a case story can support, and write its limits into the document rather than explaining them in a meeting afterward.",
+          takeaways: [
+            "A number is a record of who was counted, in categories someone chose, entered by someone with their own understanding of the field. All three facts belong in the summary, not in the writer's head.",
+            "Small counts behave badly. A shift involving a handful of people produces a dramatic percentage, and a percentage of a small count invites a decision the underlying number cannot support.",
+            "A story is evidence that something happened and is possible. It is not evidence of how common something is. Used as a stand-in for a pattern, it makes a claim it cannot support and puts the weight of a program decision on one household.",
+            "When a real person's situation becomes an example, dignity is a set of design choices: who agreed, how much detail is genuinely needed, whether the person or organization is compensated, and who gets to check the final wording.",
+          ],
+          evidence: "A scenario about a one-page summary requested with a story attached, an accordion of six ways an analysis overstates itself, tabs following one number from the record to the decision memo, sorting practice on what a number can and cannot support, and a knowledge check.",
+          appliedNextStep: "Add two lines to the next summary you write: who is in the count and who is not, and what this number cannot tell the reader.",
+        },
+        scenario: {
+          context: "Division leadership asks for a one-page summary of how well a service is reaching people who speak a language other than English at home, and asks for “a story that makes it real.” The only relevant data is a single field called primary language, completed by whoever created each record, with no guidance on how to fill it in. Eleven records in the relevant group used the service in the period. A culturally specific organization the division partners with says a family it works with is willing to talk about their experience.",
+          prompt: "How should the one page be built?",
+          options: [
+            {
+              label: "Lead with the percentage, and use the family's story underneath it as the human illustration.",
+              response: "The percentage rests on a field of unknown quality and a group of eleven, and a percentage of eleven reads as a rate rather than as a handful of people. Placed under it, the family's account will be read as typical of everyone in that group, which is a claim nobody has made and nobody can support.",
+            },
+            {
+              label: "Say what the language field is and who fills it in, report the count rather than a percentage of eleven, and carry the family's account only with their agreement, at the level of detail they choose, with the organization compensated for arranging and reviewing it, clearly labeled as one family's experience.",
+              response: "This is the recommended path. It gives leadership something true at both ends: a number with its limits attached, and an account that is honestly one account. It also treats the organization's work as work rather than as a favor, which is the difference between partnership and extraction.",
+              recommended: true,
+            },
+            {
+              label: "Leave the story out and report the number alone, since the data quality is uncertain and a single family cannot represent a group.",
+              response: "Cautious, and it loses something real. An account from a family who chose to give it can show a barrier no count will ever reveal — a form that asked for a document nobody has, a phone line that only answers in English. The answer is not to drop it but to label it accurately and obtain it properly.",
+            },
+          ],
+        },
+        transfer: {
+          prompt: "Take a number you are about to put in a document.",
+          options: [
+            "Write one line saying who is in the count and who is not",
+            "Write one line saying where the category came from and who fills the field in",
+            "Write one line saying what this number cannot tell the reader, and put it in the document rather than saving it for a question",
+          ],
+        },
+        blocks: [
+          {
+            type: "text",
+            heading: "What a number is a record of",
+            body: "<p>A count in a division summary is usually treated as a fact about the world. It is closer to a fact about a process. It records the people who reached a point where something got entered, in categories that someone designed for a purpose that may not be yours, filled in by people working quickly with their own understanding of what each field means. A number produced that way can be completely accurate and still answer a different question than the one the document is asking.</p><p>Three gaps open up most often. The first is who is missing: people who never applied, never got past a first step, or were recorded under a different program are invisible in the count, and their absence usually points at exactly the barrier the document is meant to find. The second is the category: race, language, disability type and county of residence are all fields with histories, and a field that lets a person choose only one answer reports something different from one that lets them choose several. The third is who entered it, and whether they had any guidance.</p><p>None of this is a reason to avoid numbers. It is a reason to write two or three additional lines. Who is in the count. Where the category came from. What this number cannot tell you. Those lines take a minute to write and they change how a reader uses the result, which is the whole point of a summary. Without them, the caution lives in the analyst's head and the confidence lives in the document, and the document is the thing that travels.</p>",
+          },
+          {
+            type: "accordion",
+            heading: "Six ways an analysis quietly overstates itself",
+            items: [
+              { title: "A percentage standing on a small count", body: "<p>Two people out of eleven is eighteen percent, and it reads like a rate. Next quarter it may be one out of nine. Report small counts as counts, say how small the group is in the same sentence, and let the reader decide how much weight to put on a movement of one or two people.</p>" },
+              { title: "A gap reported without asking who is missing", body: "<p>A summary of everyone who used a service describes people who got through the door. If the document's question is about reach, the people who never appear in the data are the subject, and their absence needs its own sentence rather than being silently excluded from the denominator.</p>" },
+              { title: "A category treated as a property of people", body: "<p>Fields like primary language, race and disability type record what a form allowed and what someone entered. Say where the category came from and how it is completed. A category is a design decision, and readers need to know that before they build a program on it.</p>" },
+              { title: "A difference reported without a comparison", body: "<p>“Authorization is lower in this region” invites the reader to supply a cause. Lower than what, over what period, and lower for whom? A difference with no basis of comparison is not yet a finding, and it is the sentence most likely to be quoted as one.</p>" },
+              { title: "A correlation written as a cause", body: "<p>Two things moved together in the same period. The summary says one produced the other. If that claim is worth making, it needs its own analysis; if it is not, take the causal verb out. The strongest version is usually the plainest: here is what moved, and here is what we would need to know to say why.</p>" },
+              { title: "A trend built on a changed definition", body: "<p>When a field, a form or an eligibility rule changed partway through the period, a trend line can be entirely an artifact of the change. Any summary crossing such a change needs a line saying so, or it will be quoted as evidence of a program effect that did not happen.</p>" },
+            ],
+          },
+          {
+            type: "tabs",
+            heading: "One number, three stops on its way to a decision",
+            tabs: [
+              { label: "In the record", body: "<p>A staff member creating a record selects a primary language from a list. The household speaks two languages; the list allows one. The staff member picks the one used in the conversation that day. Nothing about this is wrong, and the field now holds a simplification nobody will see again. This is where most data limits are created — at entry, quietly, by people doing their jobs under time pressure with the options a form gave them.</p>" },
+              { label: "In the summary", body: "<p>An analyst groups the records and reports how many people in each language group used the service. If the summary says what the field is, who fills it in and what it cannot distinguish, the simplification stays visible. If it does not, the number graduates into a fact. This is the last point at which the limit can be attached at no cost, and the point at which it is most often dropped for space.</p>" },
+              { label: "In the decision memo", body: "<p>Someone writing to a decision maker takes the figure and one sentence of context. The field, the entry practice and the group size are gone; the figure remains, usually as a percentage. A program is then sized, targeted or left alone on the basis of a single-answer field completed without guidance. Nobody involved did anything careless. The caution simply was never written down, and only what is written down travels.</p>" },
+            ],
+          },
+          {
+            type: "sorting",
+            id: "ipe-14-3-sort",
+            heading: "Can the number carry this claim?",
+            categories: ["The number can support this", "The number cannot support this", "Only with a limit stated in the document"],
+            items: [
+              { text: "Eleven people in this group used the service during the period.", category: "The number can support this" },
+              { text: "Use of the service among this group is eighteen percent lower than average.", category: "The number cannot support this" },
+              { text: "The service is not reaching people who speak this language.", category: "The number cannot support this" },
+              { text: "This community prefers not to use formal services.", category: "The number cannot support this" },
+              { text: "Fewer people in this group used the service than in any other group we counted.", category: "Only with a limit stated in the document" },
+              { text: "Records show a change from the previous period in how often the service was authorized.", category: "Only with a limit stated in the document" },
+              { text: "The division does not currently know how many people in this group were eligible but never applied.", category: "The number can support this" },
+              { text: "The language field records one language per record and is completed without written guidance.", category: "The number can support this" },
+            ],
+          },
+          {
+            type: "quote",
+            text: "We told your staff the same thing three times. It showed up in the report as an anecdote, in quotation marks, next to a chart that said the opposite. If you only wanted a quote to warm up a page, you could have said that at the start, and we would have decided whether to give you one.",
+            cite: "Composite culturally specific organization perspective, illustrative",
+          },
+          {
+            type: "knowledgeCheck",
+            id: "ipe-14-3-check",
+            question: "A one-page summary reports that use of a service among one language group is “eighteen percent below average.” The group contains eleven records, drawn from a single-answer language field completed without guidance. What belongs in the document?",
+            options: [
+              { text: "Nothing further; the percentage is calculated correctly and a summary has to be brief.", correct: false },
+              { text: "The count rather than the percentage, plus two lines saying what the language field is and who completes it, and what the figure cannot tell the reader.", correct: true },
+              { text: "A note that the finding is preliminary and further analysis is recommended.", correct: false },
+              { text: "A case story from a family in that group, to give the percentage context.", correct: false },
+            ],
+            feedbackCorrect: "Yes. The count is honest about the size, and the two lines keep the field's limits attached to the figure at the only point where attaching them costs nothing.",
+            feedbackIncorrect: "Brevity is real, and these lines are shorter than the paragraph someone will write later to explain the misunderstanding. A general note that more analysis is needed does not tell a reader what this number can and cannot support; the specific limits do.",
+          },
+          {
+            type: "statement",
+            body: "Private reflection, kept by you: think of a figure from your own work that gets quoted often. What does it actually count, and what would you want a reader to know before they used it to decide something?",
+          },
+        ],
+      },
+      {
+        id: "ipe-14-4",
+        number: 4,
+        title: "The dignity-and-equity edit",
+        summary: "One pass through a real document with a short guide: what each claim rests on, which words carry a judgment, where the actor disappeared, what the numbers can support, and what identifying detail is not needed. Then the changes you own, and the ones you route.",
+        minutes: 10,
+        learning: {
+          objective: "Run a dignity-and-equity edit on one real internal document, recording what each claim rests on, what you changed, what you could not change, and who owns the rest.",
+          takeaways: [
+            "Editing for dignity is mostly editing for precision. The sentence that respects a person is usually the sentence that says exactly what happened.",
+            "Some fixes are yours. Others belong to whoever owns the template, the data field, the required wording or the underlying process. Both kinds belong in the record; only one of them is your work to finish.",
+            "Telling the author what changed and why is what makes the next draft better. A silent edit fixes one document; an explained edit changes a habit.",
+            "A short pass run consistently changes what the division's documents look like far more than a style memo ever will.",
+          ],
+          evidence: "A scenario about a briefing note you are asked to tighten before it goes to leadership, the dignity-and-equity guide itself, a list of changes that need nobody's permission, and a knowledge check on what makes an edit note usable.",
+          appliedNextStep: "Run the guide on one document you are working on this week, send the author a short note on what changed and why, and route the items you could not change to whoever owns them with suggested wording attached.",
+        },
+        scenario: {
+          context: "A program unit has drafted a two-page briefing note going to a division leadership meeting on Thursday. You are asked to tighten it. Reading it, you find a sentence attributing lower participation in one region to “community preferences,” a headline percentage that turns out to rest on fourteen records, a short case example with a person's age, county, diagnosis and household composition in it, and a passive sentence saying that renewal notices “were not returned.” The author is a colleague you work with often, and the meeting is in two days.",
+          prompt: "Where does the edit start?",
+          options: [
+            {
+              label: "Fix the sentence about community preferences first, since that is the line most likely to cause a problem if it is quoted outside the division.",
+              response: "It does need fixing, and starting there sets the wrong standard: risk to the division rather than accuracy of the document. Work the whole pass. The case example carries identifying detail nobody needs, and the passive sentence about notices hides the part of the process leadership most needs to see.",
+            },
+            {
+              label: "Work through the document once against the guide — what each claim rests on, which words carry a judgment, where the actor disappeared, what the numbers can support, what detail is not needed — then make the changes you own, send the author the reasons, and route what belongs to someone else.",
+              response: "This is the recommended path. One pass catches the four problems together, and separating what you can change from what you cannot keeps you from either overstepping or stalling. The note back to the author is what makes the next briefing note arrive in better shape.",
+              recommended: true,
+            },
+            {
+              label: "Send it back to the author with a note asking them to review the language before it goes up.",
+              response: "A request to “review the language” produces a second draft with the same problems and a colleague who now feels criticized without knowing what to do. If you have found specific issues, name them specifically and offer wording. That is faster for both of you and it is the version that teaches something.",
+            },
+          ],
+        },
+        transfer: {
+          prompt: "Which document will you run the guide on, and who needs to hear what changed?",
+          options: [
+            "Name the document and the day you will run the guide on it",
+            "Name one line only someone else can change, and the person or office that owns it",
+            "Decide how you will tell the author what changed and why, in a way that is usable rather than corrective",
+          ],
+        },
+        blocks: [
+          {
+            type: "text",
+            heading: "An edit is not a softening",
+            body: "<p>People hear “edit this for dignity” and expect to be asked to make a document gentler, vaguer or more careful about feelings. Almost the opposite happens. Nearly every change in the guide below makes a document more exact: a named actor instead of a passive construction, a date and a language instead of a summary verb, a count instead of a percentage, a specific gap instead of a general character sentence. The respectful version and the precise version turn out to be the same sentence, which is convenient, because the precise version is also the one that survives an appeal.</p><p>Run it as one pass, not five. Reading a document five times looking for five different things takes five times as long and catches less, because the problems cluster: the sentence with no actor is usually the same sentence carrying the judgment, and the percentage that overstates is usually the one with no limit attached. One careful read with the eight questions in mind does the work.</p><p>Then split what you find in two. Some of it is yours — wording, structure, what a paragraph claims, how much detail an example carries. Some of it is not: a required notice sentence, a locked data field, a template heading, a policy that sets a ten-day window. Write both down. The part you cannot change is not a failure of the edit; it is the finding the edit produced, and it is worth more to the person who owns that template or that policy than any general complaint about tone.</p>",
+          },
+          {
+            type: "artifact",
+            kind: "tagged-document",
+            label: "Practical tool",
+            title: "A dignity-and-equity edit of one real document",
+            summary: "Eight questions to take through one document in a single pass, with a record of what you changed, what you could not, and who owns the rest.",
+            fields: [
+              { label: "The document and who reads it next", value: "What it is, who wrote it, where it goes, and who will still be reading it after that: a decision maker, an auditor, a person exercising a data request, the person the document is about. Write down the furthest reader you can imagine, because that is the one you are actually editing for." },
+              { label: "What it claims, and what each claim rests on", value: "List the document's claims in order. Beside each, write the evidence in the document itself. Any claim with nothing beside it becomes either an open question, a cited conclusion, or a deletion — and you decide which, in writing, rather than leaving it to the reader." },
+              { label: "Words carrying a judgment", value: "Mark every word describing a person's character, motivation or effort: uncooperative, refused, non-compliant, failure to engage, hard to reach, difficult, high-need, unmotivated. For each one, write what actually happened instead. Keep a process term only where the specific obligation and the specific gap sit in the same sentence." },
+              { label: "Where the actor disappeared", value: "Find every sentence with no one in it: the notice was not returned, documentation was not provided, contact was not established. Put the actor back at each step — who sent what, to which address, in which language or format, with how many days to respond, and what came back." },
+              { label: "Culture, community and country of origin", value: "Find every place where culture, language, community or country explains an outcome. If a community told the division this, cite that conversation. If not, it is an untested explanation: remove it, and name the parts of the division's own process that were never examined." },
+              { label: "Numbers and what they can support", value: "For each figure: who is counted, who is missing, where the category came from, who completes the field, and how large the group is. Report small counts as counts. Add one line saying what the figure cannot tell the reader, and keep that line in the document rather than saving it for a question." },
+              { label: "People in the document: consent, detail and dignity", value: "For any real person's situation used as an example: who agreed and to what, which identifying details are genuinely needed for the point being made, which can go, whether the person or organization is compensated for their part, and who is checking the final wording before it is sent." },
+              { label: "Changed, routed, and who owns what", value: "Two short lists. What you changed, with a one-line reason for each, ready to send to the author. What you could not change — a required sentence, a locked field, a template, a deadline set in policy — with the office or person who owns it, and the wording you would suggest. Send both the same day." },
+            ],
+            action: "Copy the eight lines into the notes for one document you are working on this week. Fill them in as you read it once, make the changes you own, send the author the short list of what changed and why, and route the rest with suggested wording to whoever owns it.",
+          },
+          {
+            type: "list",
+            heading: "Changes that need nobody's permission",
+            ordered: false,
+            items: [
+              "Put the actor back into every passive sentence about a process the division ran.",
+              "Replace a character word with the sequence of what was offered, when, how, and what was received.",
+              "Move any explanation you cannot evidence into a short list of open questions, and keep the list in the document.",
+              "Report a small group as a count, with the size of the group in the same sentence as the finding.",
+              "Add one line to every figure saying what it cannot tell the reader.",
+              "Cut identifying detail from an example down to what the point actually requires.",
+              "Write the date, the language and the format into any sentence about a notice, a letter or a request.",
+              "Say what a program abbreviation means the first time it appears, including in internal documents.",
+            ],
+          },
+          {
+            type: "leaderMove",
+            heading: "Say what changed, and why, the same day",
+            control: "You control whether the author learns anything from your edit, and whether the person who owns the template ever hears about the problem in it.",
+            failure: "Do not fix a document silently and move on. The next draft arrives with the same sentences, the author never knows why their wording changed, and the locked field or required sentence that caused half the trouble goes unreported for another year.",
+            next: "After your next edit, send two short notes: one to the author listing what changed with a reason beside each, and one to whoever owns the part you could not change, with the wording you would suggest.",
+          },
+          {
+            type: "knowledgeCheck",
+            id: "ipe-14-4-check",
+            question: "Which edit note is complete enough for a colleague to act on?",
+            options: [
+              { text: "Softened some of the language in the participation section and cleaned up the numbers.", correct: false },
+              { text: "Replaced “families here are less engaged” with the authorization count and a two-line list of what the review did not examine; changed “eighteen percent lower” to “eleven of the records in this group,” since the group is fourteen; removed age, county and diagnosis from the case example, which the point does not need; and rewrote “notices were not returned” to name the mailing date, the language and the ten-day window. The ten-day window is set in policy — I have sent the wording to the office that owns it and suggested an alternative.", correct: true },
+              { text: "Reviewed for stigmatizing language and made edits throughout; happy to discuss before Thursday.", correct: false },
+              { text: "Flagged four issues in the margins for the author to resolve before the meeting.", correct: false },
+            ],
+            feedbackCorrect: "Yes. Each change names the original wording, the replacement and the reason, and the one thing outside the writer's control is routed to its owner with a suggestion rather than left as a complaint.",
+            feedbackIncorrect: "Ask what the author could do with the note tomorrow. A note that says language was softened, or that issues were flagged, leaves them guessing at both the problem and the fix. Naming the original, the replacement and the reason takes a few extra lines and ends the round-trip.",
+          },
+          {
+            type: "statement",
+            body: "Private reflection, kept by you: think of a document about a person that you would not want that person to read. What is in it that you would not say to them directly, and what would the document lose if it were written so that you could?",
+          },
+        ],
+      },
+    ],
+  },
+  jobAid: {
+    title: "Documentation, analysis and narrative",
+    subtitle: "One page for anyone who writes findings, summaries, briefing notes or analysis that another person will act on",
+    quote: "Editing for dignity is mostly editing for precision. The sentence that respects a person is usually the sentence that says exactly what happened.",
+    use: {
+      purpose: "Keep the eight questions of the dignity-and-equity edit in view while you draft or review a finding, a summary, a briefing note, a monitoring note or an analysis another person will act on.",
+      remember: [
+        "Three things travel in every document: what happened, how it was framed, and what the framing implies about the people in it. Only the first is usually checked.",
+        "Description is what the record shows. A conclusion needs its evidence beside it. A judgment about a person's character almost never belongs in the document at all.",
+        "Every passive sentence about a process the division ran is hiding an actor, and the missing actor is usually the division.",
+        "Culture used to explain a gap is a causal claim. Cite the conversation, or take it out and name what nobody examined.",
+        "A number records who was counted, in categories someone chose, entered by someone working quickly. Report small groups as counts.",
+        "A story is evidence that something is possible, not that it is common. Get agreement, use only the detail the point needs, and compensate the people who did the work.",
+        "Split what you found in two: what you changed, and what belongs to whoever owns the template, the field, the required wording or the policy.",
+      ],
+      doNext: "Run the eight questions through one document this week, send the author what changed and why, and route the rest with suggested wording the same day.",
+    },
+    sections: [
+      {
+        heading: "The dignity-and-equity edit, in short",
+        items: [
+          "The document and who reads it next, including the furthest reader: an auditor, a data requester, the person it is about.",
+          "What it claims, and what each claim rests on. Anything with nothing beside it becomes an open question, a cited conclusion, or a deletion.",
+          "Words carrying a judgment: uncooperative, refused, non-compliant, failure to engage, hard to reach, difficult, high-need. Write what happened instead.",
+          "Where the actor disappeared: who sent what, to which address, in which language, with how long to respond, and what came back.",
+          "Culture, community or country used as a cause: cite the conversation, or remove it and name what the division never examined.",
+          "Numbers: who is counted, who is missing, where the category came from, how large the group is, and one line on what the figure cannot say.",
+          "People in the document: who agreed, what detail the point actually needs, who is compensated, and who checks the wording.",
+          "Changed and routed: what you fixed with a reason for each, and what you could not, with its owner and your suggested wording.",
+        ],
+      },
+      {
+        heading: "Phrases to stop and check",
+        items: [
+          "“Hard to reach” — describe what the division sent, in which language, through which channel, and what came back.",
+          "“Refused” or “declined” — say what was offered, in what form, with how much time, and what was recorded in response.",
+          "“Failure to engage” — replace with the sequence of offer, date, channel, language, deadline and response.",
+          "“This community prefers…” — cite the conversation where they said so, or take the sentence out.",
+          "“Despite significant efforts…” — describe the efforts and let the reader draw the conclusion.",
+          "“High-need” or “low-functioning” — describe the support, the communication access or the equipment instead.",
+          "“Notices were not returned” — name who mailed what, where, in which language, and by when.",
+        ],
+      },
+      {
+        heading: "Who this helps",
+        items: [
+          "Quality, compliance and performance staff, who write the findings that become the division's durable record of what happened — a useful place to start.",
+          "Communications and training staff, who turn findings and analysis into the wording everyone else reuses — a useful place to start.",
+          "Data, research and evaluation staff, who decide what a count can support and whether its limits travel with it — a useful place to start.",
+          "Policy, program, fiscal, contracts and grants staff, whose briefing notes, monitoring notes and decision memos are where most of this either holds or does not.",
+          "Supervisors, managers and administrative staff, who set what a standard write-up looks like and who keep the record that outlasts everyone involved.",
+        ],
+      },
+      {
+        heading: "Related modules",
+        items: [
+          "Accessible public communications",
+          "Policy writing through an equity lens",
+          "Program and service design",
+          "Responding to concerns and feedback",
+          "Cross-division coordination",
+        ],
+      },
+    ],
+  },
+  sources: [
+    { title: "Minnesota Department of Human Services, Content and writing guidelines", href: "https://mn.gov/dhs/digital-showcase/content-guidelines/", note: "The department's own editorial reference: first-read understanding, descriptive sentence-case headings, familiar terms, active voice, and writing suited to the reader." },
+    { title: "PlainLanguage.gov, Federal plain language guidelines", href: "https://www.plainlanguage.gov/guidelines/", note: "Practical guidance on naming the actor, using active voice, writing short sections, and organizing a document around what the reader needs to do." },
+    { title: "National Center on Disability and Journalism, Disability Language Style Guide", href: "https://www.ncdj.org/style-guide/", note: "Entry-by-entry guidance on describing disability accurately, including terms to avoid and the reasoning behind person-first and identity-first usage." },
+    { title: "American Psychological Association, Bias-free language: disability", href: "https://apastyle.apa.org/style-grammar-guidelines/bias-free-language/disability", note: "Guidance on describing people with disabilities in professional writing without deficit framing, including when to follow a person's or community's own preferred usage." },
+    { title: "Urban Institute, Do No Harm Guide: Applying Equity Awareness in Data Visualization", href: "https://www.urban.org/research/publication/do-no-harm-guide-applying-equity-awareness-data-visualization", note: "How analytic choices — categories, comparison groups, small counts, chart framing and the words around a figure — shape what readers conclude about the people in the data." },
+    { title: "U.S. Department of Health and Human Services, National CLAS Standards", href: "https://thinkculturalhealth.hhs.gov/clas", note: "National standards for culturally and linguistically appropriate services, including the standards on collecting community and language data and on communicating findings back to communities." },
+    { title: "Minnesota Department of Administration, Data Practices Office", href: "https://mn.gov/admin/data-practices/", note: "Minnesota's guidance on government data, including how data about individuals is classified and the circumstances in which a person may see what a government record says about them." },
+    { title: "Minnesota Framework for Universal Multicultural Instructional Design", href: "https://mncpd.org/wp-content/uploads/2016/12/MN_Framework_for_Universal_Multicultural_Instructional_Design.pdf", note: "The design reference for this curriculum: multiple ways to engage, culturally responsive materials and accessible instruction." },
+  ],
+};
+
+export default pack;

@@ -1,0 +1,54 @@
+{
+  "schemaVersion": "1.0.0",
+  "capturedOn": "2026-09-04",
+  "sourceId": "local-person-centered-practice-slides",
+  "title": "Person-Centered Practice and Self-Determination",
+  "sourceType": "pptx",
+  "sourceFileName": "person-centered-practice-and-self-determination.pptx",
+  "sourceBytes": 68327,
+  "sourceSha256": "F0BD5216704E36F2E3356FE48128BC5AB80A853277F57EF95074036F258F89D0",
+  "ownerApproval": "owner_approved_for_ingestion",
+  "staffRelease": "not_staff_released",
+  "snapshotSanitization": "Private Windows user-folder prefixes are removed; the original file hash remains unchanged.",
+  "extraction": {
+    "format": "pptx",
+    "presentationProperties": {
+      "title": "Person-Centered Practice and Self-Determination",
+      "subject": "Person-centered practice means the person is in charge of their own life and their own plan. We start with what matters to the person — what a good life looks like to them — and build supports around that, instead of fitting the person into the services we already have.",
+      "author": "One DSD",
+      "lastModifiedBy": "One DSD",
+      "created": "2026-07-25T21:26:19",
+      "modified": "2026-07-25T21:26:19"
+    },
+    "slideCount": 4,
+    "slides": [
+      {
+        "slideNumber": 1,
+        "title": null,
+        "text": "Person-Centered Practice and Self-Determination\nAccess | Resource\nPerson-centered practice means the person is in charge of their own life and their own plan. We start with what matters to the person — what a good life looks like to them — and build supports around that, instead of fitting the person into the services we already have.",
+        "notes": null
+      },
+      {
+        "slideNumber": 2,
+        "title": null,
+        "text": "Key guidance\nPerson-centered practice means the person is in charge of their own life and their own plan. We start with what matters to the person — what a good life looks like to them — and build supports around that, instead of fitting the person into the services we already have.\n\nSelf-determination is the goal behind it: people with disabilities have the right to make their own choices, take reasonable risks, and direct their own services and supports. Our job is to give people real information and real options, then respect the choice they make.\n\nWhat this looks like in practice.\n\n• Listen first. Ask what the person wants for their life — where they want to live, work, learn, and spend time — before talking about programs.",
+        "notes": null
+      },
+      {
+        "slideNumber": 3,
+        "title": null,
+        "text": "Key guidance\n• Offer informed choice. Lay out the real options, including everyday risks and trade-offs, in plain language and the person's preferred language.\n\n• Support, do not decide. Family and staff can help, but the person directs the plan to the greatest extent possible.\n\n• Watch your assumptions. Low expectations are their own barrier. Presume competence.\n\nWhy it matters for equity. People who have been underserved are often given fewer choices and less voice. Person-centered practice pushes the other way: it puts decision-making back with the person and their family, which is exactly where it belongs. It is also how the division meets its commitment to community living and self-direction.",
+        "notes": null
+      },
+      {
+        "slideNumber": 4,
+        "title": null,
+        "text": "Key guidance\nThe person is the expert on their own life. Our expertise is in helping them get where they want to go.",
+        "notes": null
+      }
+    ],
+    "text": "Slide 1\nPerson-Centered Practice and Self-Determination\nAccess | Resource\nPerson-centered practice means the person is in charge of their own life and their own plan. We start with what matters to the person — what a good life looks like to them — and build supports around that, instead of fitting the person into the services we already have.\n\nSlide 2\nKey guidance\nPerson-centered practice means the person is in charge of their own life and their own plan. We start with what matters to the person — what a good life looks like to them — and build supports around that, instead of fitting the person into the services we already have.\n\nSelf-determination is the goal behind it: people with disabilities have the right to make their own choices, take reasonable risks, and direct their own services and supports. Our job is to give people real information and real options, then respect the choice they make.\n\nWhat this looks like in practice.\n\n• Listen first. Ask what the person wants for their life — where they want to live, work, learn, and spend time — before talking about programs.\n\nSlide 3\nKey guidance\n• Offer informed choice. Lay out the real options, including everyday risks and trade-offs, in plain language and the person's preferred language.\n\n• Support, do not decide. Family and staff can help, but the person directs the plan to the greatest extent possible.\n\n• Watch your assumptions. Low expectations are their own barrier. Presume competence.\n\nWhy it matters for equity. People who have been underserved are often given fewer choices and less voice. Person-centered practice pushes the other way: it puts decision-making back with the person and their family, which is exactly where it belongs. It is also how the division meets its commitment to community living and self-direction.\n\nSlide 4\nKey guidance\nThe person is the expert on their own life. Our expertise is in helping them get where they want to go."
+  },
+  "extractedTextCharacters": 1933,
+  "extractedTextSha256": "EE5ADD514DAF9900EBC13646BE7066941F82E6EDE94C453BB31952786C453C11"
+}

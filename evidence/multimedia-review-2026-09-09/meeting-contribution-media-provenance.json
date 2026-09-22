@@ -1,0 +1,16 @@
+{
+  "date": "2026-09-09",
+  "resource": "/learn/intercultural#perspectives",
+  "asset": "public/images/media-meeting-contribution-pair-v1.png",
+  "sourceOutput": "C:/Users/garyb/.codex/generated_images/01a0860a-e41d-74e3-a9b7-8166efcb00db/exec-e14bdf4e-cc94-4507-a6da-6f35fea96563.png",
+  "sha256": "FEB97EF3EEFC1E7C98EB326DC3B7236701892602BF54EA99F5ADC224A9878C76",
+  "tool": "Built-in image generation",
+  "modelVersion": "Not exposed by tool; no model version claimed",
+  "prompt": "Use case: photorealistic-natural. Create one landscape diptych photograph for a professional learning resource about meeting participation. Two equal side-by-side photographic frames with a slim neutral divider, no headings or lettering. SAME four adult colleagues, same ordinary modest Minnesota office meeting room, same clothing and table, same eye-level camera in both frames. LEFT: a discussion moving through spoken contributions, two colleagues exchanging remarks while the others attend; respectful ordinary expressions, no visible distress or caricature. RIGHT: a pause for written responses, colleagues writing on individual small paper cards, facilitator attending to a card placed on the table. Make the different contribution methods clearly visible through actions and materials, not facial labels. A believable varied group of adults with natural skin tones and ages; plain professional casual clothing, no symbolic cultural costume, no uniform. Medium-wide candid editorial photo, realistic hands with coherent fingers, anatomically natural faces and bodies, real skin/fabric/paper texture, soft window daylight, believable modest workplace. One fictional staged instructional scene, not a real event or endorsement. No logos, badges, legible paper text, charts, cartoons, illustration, CGI, exaggerated poses or plastic skin. Keep each person recognizable across both frames. Landscape aspect ratio about 2:1.",
+  "actualContent": "Same four fictional colleagues: spoken discussion at left, all four writing response cards at right. No facilitator is shown reading; surrounding text must not claim that action is visible.",
+  "purpose": "Compare two ways to contribute; participation conditions can be changed without assigning traits or motives to participants.",
+  "rightsStatus": "Generated instructional asset; no third-party documentary photograph or endorsement claimed.",
+  "visualInspection": "Natural skin/fabric texture, coherent visible hands, consistent people and room; no logos or legible private information.",
+  "accessibility": "Describe both visible actions in alt text and preserve full text comparison and practice. Do not rely on the image to establish what happened before the meeting or whether participation improved.",
+  "integrationVerification": "Tracked separately in engagement receipt; this generation receipt alone does not certify integration."
+}

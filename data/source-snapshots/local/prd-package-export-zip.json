@@ -1,0 +1,326 @@
+{
+  "schemaVersion": "1.0.0",
+  "capturedOn": "2026-09-04",
+  "sourceId": "prd-package-export-zip",
+  "title": "One DHS PAC Export 2026-09-04",
+  "sourceType": "zip_package",
+  "sourceFileName": "One-DHS-PAC-Export-2026-09-04.zip",
+  "sourceBytes": 6512941,
+  "sourceSha256": "9284BD8E83A5870274DB8E67C3775A8C4AEE46CA71C9CEF604F4268319659094",
+  "ownerApproval": "owner_approved_for_ingestion",
+  "staffRelease": "not_staff_released",
+  "snapshotSanitization": "Private Windows user-folder prefixes are removed; the original file hash remains unchanged.",
+  "extraction": {
+    "format": "zip",
+    "entryCount": 43,
+    "aggregateMemberDigest": "0939AA917E826B5D8860F2BE20F5B1B0F5CEB901E25FD5AED74F88CEAE1009CE",
+    "members": [
+      {
+        "name": "One-DHS-PAC-Export-2026-09-04/One-DHS-Agentic-Tools-Catalog.docx",
+        "bytes": 51513,
+        "crc32": "8D138018",
+        "sha256": "3CA495B4D227E39CA9CC81204221920161CA30C126DDE00D2E37E7B0631DE387",
+        "contentIncluded": false
+      },
+      {
+        "name": "One-DHS-PAC-Export-2026-09-04/One-DHS-Agentic-Tools-Catalog.md",
+        "bytes": 31164,
+        "crc32": "6B95A43C",
+        "sha256": "02694F73CA6693736AE6A90D062B6B37E0D2BE3BA773D79C313BD70946599072",
+        "contentIncluded": false
+      },
+      {
+        "name": "One-DHS-PAC-Export-2026-09-04/One-DHS-Ask-and-CI-MVP-Contracts.docx",
+        "bytes": 49811,
+        "crc32": "D85EA68E",
+        "sha256": "C01DEBEA8D1464875C82CF76A88196FF6DF24631755EA5ADFC33BFD57C92BC18",
+        "contentIncluded": false
+      },
+      {
+        "name": "One-DHS-PAC-Export-2026-09-04/One-DHS-Ask-MVP-Contract.md",
+        "bytes": 13605,
+        "crc32": "DC45B603",
+        "sha256": "6991836C4410EB9E39E9240BE9005ED9940FE7B6D92BF5840E046681130F76BA",
+        "contentIncluded": false
+      },
+      {
+        "name": "One-DHS-PAC-Export-2026-09-04/One-DHS-Canonical-Source-Freeze.docx",
+        "bytes": 42042,
+        "crc32": "383EE318",
+        "sha256": "8BEF72EDB70429C017B7FC35BDD8A162BE0565AE5926517C05D60026A91ED618",
+        "contentIncluded": false
+      },
+      {
+        "name": "One-DHS-PAC-Export-2026-09-04/One-DHS-Canonical-Source-Freeze.md",
+        "bytes": 13160,
+        "crc32": "E982C55B",
+        "sha256": "03B92AF05D91A04C3A778BC77AFE8E3905D6C6027083778B600BB8AC23F35B14",
+        "contentIncluded": false
+      },
+      {
+        "name": "One-DHS-PAC-Export-2026-09-04/One-DHS-Community-Intelligence-MVP-Contract.md",
+        "bytes": 12028,
+        "crc32": "FDA014B9",
+        "sha256": "0E7E3C7A7599DD27D893E5D4A9C8FFD04F1090755FA6181FF607CE48C8D30147",
+        "contentIncluded": false
+      },
+      {
+        "name": "One-DHS-PAC-Export-2026-09-04/One-DHS-Consultation-Intake-and-Queue.docx",
+        "bytes": 47714,
+        "crc32": "A163D2E1",
+        "sha256": "9A2790E82E04E9D44B3B672744A286B57C78CC561863C072E439D94653B65A71",
+        "contentIncluded": false
+      },
+      {
+        "name": "One-DHS-PAC-Export-2026-09-04/One-DHS-Consultation-Intake-and-Queue.md",
+        "bytes": 22049,
+        "crc32": "ADF311BB",
+        "sha256": "5D2457460CA6887BBC17AE72690C5F01EB8F4F2139E4FDB27C861797E5A3D402",
+        "contentIncluded": false
+      },
+      {
+        "name": "One-DHS-PAC-Export-2026-09-04/One-DHS-Graduation-Paths.docx",
+        "bytes": 45448,
+        "crc32": "D5DA5965",
+        "sha256": "725B3BA6E0A3B0E8D7810D6D3881E1077E14B86ABE55DDFD8409E4F8518C2104",
+        "contentIncluded": false
+      },
+      {
+        "name": "One-DHS-PAC-Export-2026-09-04/One-DHS-Graduation-Paths.md",
+        "bytes": 18992,
+        "crc32": "7238D672",
+        "sha256": "2D6C9C50F03356966091B8D0ECADD252907675492C3A25367A24DA42902639A9",
+        "contentIncluded": false
+      },
+      {
+        "name": "One-DHS-PAC-Export-2026-09-04/One-DHS-PAC-Build-Ready-Master-PRD.docx",
+        "bytes": 53673,
+        "crc32": "CE78B317",
+        "sha256": "C05B99FFE6053B7152C27CFD7A4BE9B76D472EF22566014FAE819E6A4C2C516E",
+        "contentIncluded": false
+      },
+      {
+        "name": "One-DHS-PAC-Export-2026-09-04/One-DHS-PAC-Build-Ready-Master-PRD.md",
+        "bytes": 46564,
+        "crc32": "79EA561E",
+        "sha256": "1C6CA7EC8FA35707F39846C2B7A5D15E77A8466D93192E05E03BC5F34D0A5366",
+        "contentIncluded": false
+      },
+      {
+        "name": "One-DHS-PAC-Export-2026-09-04/One-DHS-PAC-Handoff-Roadmap-Through-First-Code.docx",
+        "bytes": 40440,
+        "crc32": "2CC19F5A",
+        "sha256": "7A638D62FA0F6A1B8C0E0FAD7BA1294F673E2504FC66731D13976151646B7A6E",
+        "contentIncluded": false
+      },
+      {
+        "name": "One-DHS-PAC-Export-2026-09-04/One-DHS-PAC-Handoff-Roadmap-Through-First-Code.md",
+        "bytes": 7197,
+        "crc32": "B17059F0",
+        "sha256": "C4B7B9B5F824FB7DC7107AA3A7B4EC96C70C8B344F8EB11F7BEA622FB1A11FB3",
+        "contentIncluded": false
+      },
+      {
+        "name": "One-DHS-PAC-Export-2026-09-04/One-DHS-People-Access-and-Culture-Product-PRD-v2.docx",
+        "bytes": 56762,
+        "crc32": "D201CE62",
+        "sha256": "40FFE45A336253E68F0F6C805E5CD3E5953A9E518536715BA1C155D98B71B8F2",
+        "contentIncluded": false
+      },
+      {
+        "name": "One-DHS-PAC-Export-2026-09-04/One-DHS-People-Access-and-Culture-Product-PRD-v2.md",
+        "bytes": 40029,
+        "crc32": "5C4F3B00",
+        "sha256": "D6F83E03D9F8CE825223DB4F80CED6A22DAD1628236ED3EEF3F8ECF26668C8ED",
+        "contentIncluded": false
+      },
+      {
+        "name": "One-DHS-PAC-Export-2026-09-04/One-DHS-PRD-v2.1-change-summary.md",
+        "bytes": 3260,
+        "crc32": "F17DC5F6",
+        "sha256": "3FC319CB1F17C65AFE978892BE05D23F293F980CFFBEB02D4D9E392F6FD0072F",
+        "contentIncluded": false
+      },
+      {
+        "name": "One-DHS-PAC-Export-2026-09-04/One-DHS-Reference-Harvest-Brief.docx",
+        "bytes": 39910,
+        "crc32": "B5EE9B8A",
+        "sha256": "7F30273C63B08180B1DB102D22A99203E08881A0BE7091E9539CD1A51D90091E",
+        "contentIncluded": false
+      },
+      {
+        "name": "One-DHS-PAC-Export-2026-09-04/One-DHS-Reference-Harvest-Brief.md",
+        "bytes": 6025,
+        "crc32": "BA4F64B7",
+        "sha256": "927D4039927B1A0F820F6FEABCA7196EA4B1C9A79A1D25A70FEC0F7BCC777F84",
+        "contentIncluded": false
+      },
+      {
+        "name": "One-DHS-PAC-Export-2026-09-04/One-DHS-Staff-Copy-and-Brand-Pass.docx",
+        "bytes": 42796,
+        "crc32": "F3044602",
+        "sha256": "E5808A84B461E8857F056264D704BA6BDC1BF262641BD745FDD4FC1D930EDC6F",
+        "contentIncluded": false
+      },
+      {
+        "name": "One-DHS-PAC-Export-2026-09-04/One-DHS-Staff-Copy-and-Brand-Pass.md",
+        "bytes": 11779,
+        "crc32": "0ABE4152",
+        "sha256": "D39B3324DBE3C17B85A66CA26D1EE81B317B335D6BE1FAE6ABCC42F740B0D9BD",
+        "contentIncluded": false
+      },
+      {
+        "name": "One-DHS-PAC-Export-2026-09-04/One-DHS-TRD-Adaptive-Program-Intelligence.docx",
+        "bytes": 52201,
+        "crc32": "6E20C598",
+        "sha256": "D9C97B97FEA3E3D6613F0E047F9C0D2606C05D9DA80DB00E49CC25473E78A790",
+        "contentIncluded": false
+      },
+      {
+        "name": "One-DHS-PAC-Export-2026-09-04/One-DHS-TRD-Adaptive-Program-Intelligence.md",
+        "bytes": 28707,
+        "crc32": "1F6AB558",
+        "sha256": "868CB8FFCAF3C35B1366ACB0220590D56601BA2E9A117D6AEC1832BC4C970D1C",
+        "contentIncluded": false
+      },
+      {
+        "name": "One-DHS-PAC-Export-2026-09-04/README.md",
+        "bytes": 1942,
+        "crc32": "CEFB4273",
+        "sha256": "5E45168E407B31C2FE6CD7B43541FAD6F216FBC8FC5691379E53AD71A6618D5F",
+        "contentIncluded": false
+      },
+      {
+        "name": "One-DHS-PAC-Export-2026-09-04/reference-assets/calendar.png",
+        "bytes": 178518,
+        "crc32": "147C7E4E",
+        "sha256": "5A531FD19F2DBD6614AD88194B4297C4990128726D989F12EF760DD6B7659476",
+        "contentIncluded": false
+      },
+      {
+        "name": "One-DHS-PAC-Export-2026-09-04/reference-assets/clas-standards.png",
+        "bytes": 366665,
+        "crc32": "66CBF6B1",
+        "sha256": "81EFF2FC9B373F3230E0612E1AB1EBAD9364DD32DABD1B73BB2589471AC11FB1",
+        "contentIncluded": false
+      },
+      {
+        "name": "One-DHS-PAC-Export-2026-09-04/reference-assets/dhs-equity-home.png",
+        "bytes": 609688,
+        "crc32": "350DCF3D",
+        "sha256": "79931DCFDECB1B38B06C7A13F10DA57F791A8A29BF64B03508229DCB11899165",
+        "contentIncluded": false
+      },
+      {
+        "name": "One-DHS-PAC-Export-2026-09-04/reference-assets/dhs-logo.png",
+        "bytes": 15407,
+        "crc32": "FC9AE5EB",
+        "sha256": "E9D767446EC871A7FBE829C2A978CF0CB47886AAD31A4FFCFF59A78AE89ADD74",
+        "contentIncluded": false
+      },
+      {
+        "name": "One-DHS-PAC-Export-2026-09-04/reference-assets/dsd-hub-home.png",
+        "bytes": 137804,
+        "crc32": "FBD99701",
+        "sha256": "102E86F13E76DA0E8C6CC3EA940BD78BD0D17D3A97C641035D5266A9FE8EDD0F",
+        "contentIncluded": false
+      },
+      {
+        "name": "One-DHS-PAC-Export-2026-09-04/reference-assets/growth.png",
+        "bytes": 236970,
+        "crc32": "02821586",
+        "sha256": "E40E5272F3B76D551D54358ECA43F6DEAA74D9B0ED3BA69689E0F1FC9141ABBC",
+        "contentIncluded": false
+      },
+      {
+        "name": "One-DHS-PAC-Export-2026-09-04/reference-assets/home.png",
+        "bytes": 922167,
+        "crc32": "E509DCF6",
+        "sha256": "B9FC7F6D19D96526BFA8C04B059CF4918F642772C603D1700FC7B2FEE687DF68",
+        "contentIncluded": false
+      },
+      {
+        "name": "One-DHS-PAC-Export-2026-09-04/reference-assets/leadership-development.png",
+        "bytes": 22336,
+        "crc32": "C5555B85",
+        "sha256": "B775681DE9BC3E6D9344C7A62C1E6749C4F65D91A7B0703CFBE62CF23DC3665F",
+        "contentIncluded": false
+      },
+      {
+        "name": "One-DHS-PAC-Export-2026-09-04/reference-assets/learning.png",
+        "bytes": 22251,
+        "crc32": "695E4FDA",
+        "sha256": "BAAAE43988CA7237F121BED35A1193C1124FE5749E74C12A6E3FFBBFF5FFC7BF",
+        "contentIncluded": false
+      },
+      {
+        "name": "One-DHS-PAC-Export-2026-09-04/reference-assets/orientation-culture.png",
+        "bytes": 22316,
+        "crc32": "E197FF1B",
+        "sha256": "A3B7A40CEE041C4CDAB69EE568E0D89EA7A0891B76F32194FE057EF767040F71",
+        "contentIncluded": false
+      },
+      {
+        "name": "One-DHS-PAC-Export-2026-09-04/reference-assets/professional-support.png",
+        "bytes": 339393,
+        "crc32": "FC0E441C",
+        "sha256": "CA9665C464F71BE02C4A0A0B829C693B9A5E275CCE7777EB9B9340C19556C066",
+        "contentIncluded": false
+      },
+      {
+        "name": "One-DHS-PAC-Export-2026-09-04/reference-assets/program-guide.png",
+        "bytes": 286707,
+        "crc32": "9866C001",
+        "sha256": "C4AD7367CCBDD6B1A66309A29CACB908A82ADA096A7D7571E757840BF25BCCAC",
+        "contentIncluded": false
+      },
+      {
+        "name": "One-DHS-PAC-Export-2026-09-04/reference-assets/resource-hub.png",
+        "bytes": 275026,
+        "crc32": "42BDC3C0",
+        "sha256": "4366F4221A805DC4E567FD72F38D4522B97B3A46BE39D90167049FE0EDF92EDA",
+        "contentIncluded": false
+      },
+      {
+        "name": "One-DHS-PAC-Export-2026-09-04/reference-assets/resource-library.png",
+        "bytes": 263953,
+        "crc32": "BFF7764D",
+        "sha256": "DC78746673CCAD43EE5CD70142FF028637C6EC03B17E59003CE3DB9C3C1BE6B9",
+        "contentIncluded": false
+      },
+      {
+        "name": "One-DHS-PAC-Export-2026-09-04/reference-assets/site-map.png",
+        "bytes": 251503,
+        "crc32": "61481011",
+        "sha256": "A3BC424709800CAF8E542C03B7B90E0429E22EAAD090A9AEC8259B8BEC5381C0",
+        "contentIncluded": false
+      },
+      {
+        "name": "One-DHS-PAC-Export-2026-09-04/reference-assets/staff-hero-office.jpg",
+        "bytes": 1697342,
+        "crc32": "FA6A945C",
+        "sha256": "61AD84B3CA7449636DB7B43E01415213D22B72B1DB660073670BC032D2A34A80",
+        "contentIncluded": false
+      },
+      {
+        "name": "One-DHS-PAC-Export-2026-09-04/reference-assets/staff-hero.jpg",
+        "bytes": 310251,
+        "crc32": "87A28C9C",
+        "sha256": "A74F91133CFCAF83B978FBD93EAB330E785540523D037BC57122118F3EEE4516",
+        "contentIncluded": false
+      },
+      {
+        "name": "One-DHS-PAC-Export-2026-09-04/reference-assets/surveys.png",
+        "bytes": 248955,
+        "crc32": "69196C3E",
+        "sha256": "96B7097DFDEA495DEC4A992AE19A00CD94B5D0AFA0BC273DDE09E98A9E6C5316",
+        "contentIncluded": false
+      }
+    ],
+    "text": "",
+    "duplicatePayloadOf": "prd-package-named-zip",
+    "handling": "The file receipt and every member hash are retained here. Text payloads are stored once in the named package snapshot."
+  },
+  "extractedTextCharacters": 0,
+  "extractedTextSha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+}

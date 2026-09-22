@@ -1,0 +1,1490 @@
+{
+  "baseline": {
+    "items": 25,
+    "path": "data/source-ledger/current-seed-2026-09-04.json",
+    "sha256": "BEDEE4CC1FBFC7D84041A9384D87821C99CE3B6265D68710C410219063B56E90"
+  },
+  "collectionId": "current-seed-2026-09-04",
+  "counts": {
+    "agencywidePublications": 25,
+    "changedRevisions": 24,
+    "completedReviews": 150,
+    "dsdPublications": 0,
+    "permanentSeedItems": 25,
+    "publicationDecisions": 25,
+    "unchangedRevisions": 1
+  },
+  "createdAt": "2026-09-05T00:00:00.000Z",
+  "currentCorpusSource": {
+    "path": "lib/content/corpus.ts",
+    "sha256": "6AF78BCE77131FDC414E5087AE27EB549EE387500637945FC1A094B02283118C"
+  },
+  "evidenceChecks": [
+    "tests/staff-content-voice.test.ts",
+    "tests/staff-trust-and-consultation.test.ts",
+    "tests/must-pass.test.ts",
+    "tests/safety-and-brand.test.ts",
+    "tests/seed-freeze.test.ts"
+  ],
+  "items": [
+    {
+      "activeRevision": 2,
+      "baselinePayloadSha256": "3C1D55F2F537DF9EDDB5A5335BEDAD72703847791CDE2882A90AEB4FCE64331D",
+      "baselineRevision": 1,
+      "changedFromBaseline": true,
+      "id": "pn-partnership-spine",
+      "ordinal": 1,
+      "payload": {
+        "accessibility": "reviewed",
+        "authority": "practice_note",
+        "body": [
+          "Equity is everyone's work: the program or policy owner is responsible for building equity into the work, with support from equity staff.",
+          "Build on what already exists: begin with the people, standards, and relationships already in place before creating something separate.",
+          "Center lived experience: people affected by a decision should help shape it, with their role, authority, and compensation made clear.",
+          "Follow the evidence: look at who receives services, who is denied or delayed, and who may be missing. Review patterns by community, language, disability, and place. Be clear about what the information shows and what it does not show.",
+          "Move at the speed of trust: build relationships and explain how input was used before expanding the work. Rebuilding trust after a rushed launch takes time.",
+          "Work in partnership: counties, providers, community organizations, Tribal Nations (government-to-government), and Equity Directors bring knowledge and authority to the work. Involve them as partners, not simply as names on a contact list."
+        ],
+        "id": "pn-partnership-spine",
+        "intents": [
+          "practice_method",
+          "policy_orientation",
+          "intercultural"
+        ],
+        "layer": "L1",
+        "nextActions": [
+          {
+            "href": "/resources/ja-launch-embed-checklist",
+            "label": "Open the equity and access checklist"
+          },
+          {
+            "href": "/paths",
+            "label": "Choose a learning path"
+          }
+        ],
+        "owner": "Equity and Inclusion Operations Consultant",
+        "pathIds": [
+          "gp-1",
+          "gp-3"
+        ],
+        "reviewDate": "2027-03-01",
+        "scope": "agencywide",
+        "status": "approved",
+        "summary": "Equity is everyone's work. Build on the people, standards, and relationships already in place. Center lived experience. Follow the evidence. Build trust over time. Work in partnership.",
+        "tags": [
+          "partnership",
+          "principles",
+          "spine",
+          "lived experience",
+          "trust",
+          "data"
+        ],
+        "title": "Six commitments for working in partnership",
+        "type": "practice_note",
+        "version": "0.1.0",
+        "whyItMatters": "These six commitments help you see whether equity is meaningfully built into a plan. If one is missing, return to that part of the work before moving ahead."
+      },
+      "payloadSha256": "1E58CC488A1319A741C9A296D10930E907CFC096987C5B92099BCD20173ACF67",
+      "scopeId": "one-dhs"
+    },
+    {
+      "activeRevision": 2,
+      "baselinePayloadSha256": "0791423EC90AD5E5B1E6E9CDE016319735F206FC1E3A9259D9671C1B2BBE6E0C",
+      "baselineRevision": 1,
+      "changedFromBaseline": true,
+      "id": "pn-embed-early",
+      "ordinal": 2,
+      "payload": {
+        "accessibility": "reviewed",
+        "authority": "practice_note",
+        "body": [
+          "Start with people: who is this for, who may be missing from the design process, and who carries the burden when the service does not work.",
+          "Name access assumptions early: broadband, a printer, English literacy, a car, daytime availability, or a phone that takes calls. Each assumption can keep someone from taking part.",
+          "Before creating an online option, decide how people can get help by phone, on paper, or in person. Make sure staff are available to support those options.",
+          "Identify vital documents and the languages people will need. Plan and budget for translation with human review early rather than waiting until after launch.",
+          "Involve the right partners before the design is fixed: an Equity Director, accessibility and language access leads, and community partners with purpose, authority, and compensation agreed.",
+          "If the work touches a Tribal Nation, Native children, Tribal data, services, or land, government-to-government consultation comes first. Do not place a Nation in a generic stakeholder list.",
+          "Write down who is responsible for the decision and each follow-up, along with the next review date. That clarity turns the checklist into accountable work."
+        ],
+        "id": "pn-embed-early",
+        "intents": [
+          "launch_embed",
+          "practice_method"
+        ],
+        "layer": "L2",
+        "nextActions": [
+          {
+            "href": "/paths/gp-1",
+            "label": "Explore questions for your stage of planning"
+          },
+          {
+            "href": "/resources/ja-launch-embed-checklist",
+            "label": "Open the equity and access checklist"
+          },
+          {
+            "href": "/support/request",
+            "label": "Request a consultation if the stakes or gaps are high"
+          }
+        ],
+        "owner": "Equity and Inclusion Operations Consultant",
+        "pathIds": [
+          "gp-1"
+        ],
+        "reviewDate": "2027-03-01",
+        "scope": "agencywide",
+        "status": "approved",
+        "summary": "Equity is easier to shape while an idea is still taking form. Before the design is settled, name who it is for, who may carry the burden, and which access needs may have been assumed. Also name who should be involved, who is responsible for the decision, and when the work will be reviewed.",
+        "tags": [
+          "launch",
+          "early planning",
+          "concept",
+          "equity planning",
+          "program design",
+          "digital application",
+          "benefits",
+          "renewal"
+        ],
+        "title": "Building equity into an idea while it takes shape",
+        "type": "practice_note",
+        "version": "0.1.0",
+        "whyItMatters": "Adding an equity section after the design is complete may leave the original barriers in place. Asking these questions early can change the design itself."
+      },
+      "payloadSha256": "1D67B3C03EB68B888F62034FD11CECECD9F91211E8A1AC0C89260D4E95085FC0",
+      "scopeId": "one-dhs"
+    },
+    {
+      "activeRevision": 1,
+      "baselinePayloadSha256": "FB92A762B73261483F9C8CCB4FFB64DDC32FD7962AD465A5AB19DF88479643EB",
+      "baselineRevision": 1,
+      "changedFromBaseline": false,
+      "id": "ja-launch-embed-checklist",
+      "ordinal": 3,
+      "payload": {
+        "accessibility": "reviewed",
+        "authority": "guidance",
+        "body": [
+          "People and purpose: who it is for; who may be missing; what result would show that a disparity was reduced rather than shifted elsewhere.",
+          "Access: screen reader, keyboard, magnification tested; equally effective phone, in-person, or paper path; documents meet the accessible-document standard.",
+          "Language: languages people will need; vital documents identified for translation with human review; interpreter reachable at first contact.",
+          "Time and effort: count the steps, documents, and visits from the person's point of view; consider when deadlines or office hours become barriers to eligibility.",
+          "Evidence: current use and denial patterns by community, language, disability, and place; missing community knowledge named with a respectful way to get it.",
+          "Partners: Equity Director informed; accessibility and language access leads involved; community partners with purpose, authority, compensation, and report-back; Tribal consultation first where applicable.",
+          "Decision responsibility: who decides; which rights, rules, and obligations set the limits; what can still change if a rule must remain.",
+          "Review: who is responsible for each follow-up; the next review date; what would lead you to pause, redesign, or seek further guidance."
+        ],
+        "id": "ja-launch-embed-checklist",
+        "intents": [
+          "launch_embed",
+          "next_actions"
+        ],
+        "layer": "L2",
+        "nextActions": [
+          {
+            "href": "/paths/gp-1",
+            "label": "Build your checklist with the launch path"
+          },
+          {
+            "href": "/resources/ja-process-burden",
+            "label": "Questions about steps, time, and effort"
+          }
+        ],
+        "owner": "Equity and Inclusion Operations Consultant",
+        "pathIds": [
+          "gp-1"
+        ],
+        "reviewDate": "2027-03-01",
+        "scope": "agencywide",
+        "status": "approved",
+        "summary": "A one-page checklist for a new program, service, or digital application. It covers people and purpose, access, language, the effort required of people, evidence, partners, decision responsibility, and review.",
+        "tags": [
+          "checklist",
+          "launch",
+          "digital application",
+          "program",
+          "service",
+          "equity planning",
+          "early planning"
+        ],
+        "title": "Equity and access checklist for new work",
+        "type": "checklist",
+        "version": "0.1.0",
+        "whyItMatters": "Use it as a working document for your program, with a responsible person for each follow-up and a review date. This makes the next steps clear and accountable."
+      },
+      "payloadSha256": "FB92A762B73261483F9C8CCB4FFB64DDC32FD7962AD465A5AB19DF88479643EB",
+      "scopeId": "one-dhs"
+    },
+    {
+      "activeRevision": 2,
+      "baselinePayloadSha256": "4E53DAE94481D6B6D167BD7B29BB40EF10772FEF025172E1FD78BDBAB6C232CD",
+      "baselineRevision": 1,
+      "changedFromBaseline": true,
+      "id": "ja-language-access-checklist",
+      "ordinal": 4,
+      "payload": {
+        "accessibility": "reviewed",
+        "authority": "guidance",
+        "body": [
+          "Languages: use current contact data for the people your program serves. Record the language and dialect each person requests rather than relying on an agencywide list.",
+          "Vital documents: notices of action, applications, consent forms, appeal rights, and anything a person must understand to get or keep a service. Follow the current language-access requirements for translation and qualified human review before release.",
+          "Interpreters: use qualified professional interpreters rather than family members, children, or bilingual staff pulled away from their own work. Bilingual colleagues should not be expected to serve as on-demand interpreters.",
+          "Requests: write the language and dialect, such as Standard Somali or Maay, White Hmong or Green Hmong, or S'gaw or Pwo Karen. Also note any requested interpreter gender and whether the meeting is in person, by phone, or by video.",
+          "Point of contact: a person should reach an interpreter at the first contact, not after a failed attempt in English.",
+          "Written material: plain language first; then translation. A dense English notice becomes a dense translated notice.",
+          "Follow current DHS policy before using machine translation. Treat any permitted use as a draft, and have a qualified person review every vital document before it is released."
+        ],
+        "id": "ja-language-access-checklist",
+        "intents": [
+          "access_barriers",
+          "next_actions",
+          "policy_orientation"
+        ],
+        "layer": "L2",
+        "nextActions": [
+          {
+            "href": "/resources/lm-interpreter",
+            "label": "Learn how to work with a spoken-language interpreter"
+          },
+          {
+            "href": "/resources/ja-plain-language",
+            "label": "Plain language and accessible documents checklist"
+          },
+          {
+            "href": "/minnesota-communities",
+            "label": "Open the community brief for the household's language"
+          }
+        ],
+        "owner": "Equity and Inclusion Operations Consultant",
+        "pathIds": [
+          "gp-2",
+          "gp-3"
+        ],
+        "reviewDate": "2027-03-01",
+        "scope": "agencywide",
+        "status": "approved",
+        "summary": "Start by identifying the languages people need and the vital documents that require translation and human review. Make a qualified interpreter available at first contact, and make each request specific about language, dialect, requested gender match, and meeting format.",
+        "tags": [
+          "language access",
+          "interpreter",
+          "translation",
+          "LEP",
+          "vital documents",
+          "Title VI",
+          "dialect",
+          "somali",
+          "hmong",
+          "spanish"
+        ],
+        "title": "Language access checklist",
+        "type": "job_aid",
+        "version": "0.1.0",
+        "whyItMatters": "The wrong dialect, an unreviewed translation, or an English-only exception process can keep people from receiving meaningful access."
+      },
+      "payloadSha256": "8BCD50493CC70AF3F6CAEEDC4EDDF7EF845CDD14E0618DBC6E83D7D1E38118E6",
+      "scopeId": "one-dhs"
+    },
+    {
+      "activeRevision": 2,
+      "baselinePayloadSha256": "EBA30D4141AAA01F13B8C0ED81B7FC1E735A0D0E65D076A5999B051DB062A0B3",
+      "baselineRevision": 1,
+      "changedFromBaseline": true,
+      "id": "ja-plain-language",
+      "ordinal": 5,
+      "payload": {
+        "accessibility": "reviewed",
+        "authority": "guidance",
+        "body": [
+          "Structure: use real heading styles in order; one topic per heading; lists for steps; tables only for data, with header rows marked.",
+          "Words: everyday words; define any term you must keep; active voice; say who does what by when.",
+          "Sentences: aim for 15 to 20 words; one idea each; no double negatives.",
+          "Links: describe the destination in the link text; never 'click here'.",
+          "Images: describe the important meaning in alternative text. Do not place essential information only inside an image, and do not use color as the only way to communicate meaning.",
+          "Contrast and type: body text at least 4.5:1 contrast; avoid all-caps blocks and light gray text.",
+          "Forms: give every field a clear label and make sure people can complete the form with a keyboard. Error messages should explain what to fix.",
+          "Review: use the built-in accessibility checker, then ask someone outside the team to read the document without added explanation and describe what it means to them."
+        ],
+        "id": "ja-plain-language",
+        "intents": [
+          "access_barriers",
+          "next_actions"
+        ],
+        "layer": "L2",
+        "nextActions": [
+          {
+            "href": "/resources/ja-form-notice-change",
+            "label": "Checklist for changing a form, notice, or letter"
+          },
+          {
+            "href": "/resources/ext-mn-accessibility",
+            "label": "Minnesota accessibility standards (external, verify)"
+          }
+        ],
+        "owner": "Equity and Inclusion Operations Consultant",
+        "pathIds": [
+          "gp-2",
+          "gp-5"
+        ],
+        "reviewDate": "2027-03-01",
+        "scope": "agencywide",
+        "status": "approved",
+        "summary": "Use short sentences, everyday words, one idea per paragraph, built-in heading styles, descriptive links, useful alternative text, and accessible tables. Before release, follow the current state guidance for accessible documents and ask someone outside the team to read the document.",
+        "tags": [
+          "plain language",
+          "accessible documents",
+          "alt text",
+          "headings",
+          "contrast",
+          "notice",
+          "letter",
+          "form",
+          "WCAG"
+        ],
+        "title": "Plain language and accessible documents checklist",
+        "type": "checklist",
+        "version": "0.1.0",
+        "whyItMatters": "If a person cannot read or use a notice, they may not be able to understand or appeal the decision. Accessibility needs to be addressed before release."
+      },
+      "payloadSha256": "C9042B01CA4254DB62AE4CD6085B6CCF4385017D11C1D73A0E7A278E9DAFE85B",
+      "scopeId": "one-dhs"
+    },
+    {
+      "activeRevision": 2,
+      "baselinePayloadSha256": "BFF2C5D0A753F8942C3638FC35B199D3F3A0B2BACD8CFEE1CD12F7EF8856BA50",
+      "baselineRevision": 1,
+      "changedFromBaseline": true,
+      "id": "ja-access-checks",
+      "ordinal": 6,
+      "payload": {
+        "accessibility": "reviewed",
+        "authority": "guidance",
+        "body": [
+          "Language: which languages and dialects; interpreter booked with specifics; translated materials reviewed.",
+          "Disability and communication access: arrange captions or real-time captioning, sometimes called CART. Provide a qualified sign-language interpreter when requested, send accessible materials in advance, and make sure both the room and online meeting are usable.",
+          "Timing: evening or weekend options for working people; religious observance and school calendars checked; enough notice.",
+          "Place: consider transit, parking, an accessible entrance and restrooms, and an online option that does not require an unfamiliar account.",
+          "Trust: consider who sends the invitation and who will be present. Explain each person's role, what will happen with the information shared, and what participants will receive in return for their time. Do not assume that contact from a public agency feels reassuring to everyone.",
+          "Time and effort: avoid unnecessary registration, forms that ask for more information than you need, or identity-document requirements for a listening session.",
+          "Payment and follow-up: explain whether people will be paid and when they will hear what changed."
+        ],
+        "id": "ja-access-checks",
+        "intents": [
+          "access_barriers",
+          "intercultural",
+          "facilitation"
+        ],
+        "layer": "L2",
+        "nextActions": [
+          {
+            "href": "/minnesota-communities",
+            "label": "Open the relevant Minnesota Communities brief"
+          },
+          {
+            "href": "/paths/gp-3",
+            "label": "Community engagement path"
+          }
+        ],
+        "owner": "Equity and Inclusion Operations Consultant",
+        "pathIds": [
+          "gp-3",
+          "gp-5"
+        ],
+        "reviewDate": "2027-03-01",
+        "scope": "agencywide",
+        "status": "approved",
+        "summary": "Before meeting with people, confirm the language and dialect and arrange captioning, interpreting, and alternate formats. Check the physical and online spaces, along with timing, transportation, child care, trust, and any process burden you can remove.",
+        "tags": [
+          "access",
+          "meeting",
+          "outreach",
+          "captioning",
+          "interpreter",
+          "timing",
+          "trust",
+          "engagement",
+          "session"
+        ],
+        "title": "Access checks before a meeting, outreach, or session",
+        "type": "job_aid",
+        "version": "0.1.0"
+      },
+      "payloadSha256": "B7580EC659407AE4C87C9FE57D1D33CB5A9BF6856959989FC1DFABCE1C9C5208",
+      "scopeId": "one-dhs"
+    },
+    {
+      "activeRevision": 2,
+      "baselinePayloadSha256": "82285AFB82481A1D20E89ABF2E1402AB6F25E208F60B6C094E5D43198C8AE0CD",
+      "baselineRevision": 1,
+      "changedFromBaseline": true,
+      "id": "ja-process-burden",
+      "ordinal": 7,
+      "payload": {
+        "accessibility": "reviewed",
+        "authority": "guidance",
+        "body": [
+          "First contact: how does a person learn that the service exists? Which languages and ways of reaching people are used?",
+          "Access at each step: can people complete it with a screen reader, keyboard, interpreter, captioning, or an alternate format?",
+          "Each document: what must they already have, and what happens if they do not?",
+          "Each wait: how long, and what happens to their service meanwhile?",
+          "Each decision: who decides, how is it explained, and can it be appealed in plain language?",
+          "Each notice: mailed, emailed, or in an account? Who never sees it?",
+          "When the process breaks down: who is left carrying the burden—the person, a family member, a county worker, or a community organization?",
+          "Removal: which steps could be removed, combined, or done by the agency instead of the person?"
+        ],
+        "id": "ja-process-burden",
+        "intents": [
+          "launch_embed",
+          "access_barriers",
+          "practice_method"
+        ],
+        "layer": "L3",
+        "nextActions": [
+          {
+            "href": "/resources/ja-launch-embed-checklist",
+            "label": "Equity and access checklist for new work"
+          },
+          {
+            "href": "/resources/ja-equity-impact-questions",
+            "label": "Equity impact questions for policy, budget, technology, and procurement"
+          }
+        ],
+        "owner": "Equity and Inclusion Operations Consultant",
+        "pathIds": [
+          "gp-1",
+          "gp-2"
+        ],
+        "reviewDate": "2027-03-01",
+        "scope": "agencywide",
+        "status": "approved",
+        "summary": "Look at the process from the person's point of view. Count the steps, documents, trips, and hours away from work. Notice when a deadline, mailed notice, or login becomes a barrier. At each step, make sure a person can reach staff for help without using the online option.",
+        "tags": [
+          "journey",
+          "burden",
+          "process",
+          "administrative burden",
+          "steps",
+          "documents",
+          "renewal",
+          "eligibility process"
+        ],
+        "title": "Questions about the steps, time, and effort a process requires",
+        "type": "tool",
+        "version": "0.1.0"
+      },
+      "payloadSha256": "7382E98A5FA1767419D52E90F2E5F070AE3ED017174FFFE447226EE8A6034BF9",
+      "scopeId": "one-dhs"
+    },
+    {
+      "activeRevision": 2,
+      "baselinePayloadSha256": "F859AA7D99AB8BB18F5E78EEB39022751AD2B7EAAD4589E1EF0F9C4AAD407D7A",
+      "baselineRevision": 1,
+      "changedFromBaseline": true,
+      "id": "ja-equity-impact-questions",
+      "ordinal": 8,
+      "payload": {
+        "accessibility": "reviewed",
+        "authority": "guidance",
+        "body": [
+          "Policy: Which laws, rules, rights, and required safeguards apply? Who benefits, who carries added work or risk, and whose needs are missing? Which rules or routine practices shape the result? What can your team change, and what must be reviewed by the person with authority to decide?",
+          "Budget: Which costs cover interpreting, translation, accessible formats, and payment for community partners? Which costs have been treated as free? If funding is reduced, whose services would be affected first?",
+          "Technology: Are accessibility requirements written into the specifications and tested by people who use assistive technology? What information is collected? Could it be used to sort, rank, or profile people?",
+          "Procurement: Do the selection criteria give real weight to accessibility, language access, and community knowledge? Do the requirements create unnecessary barriers for small providers or community organizations?"
+        ],
+        "id": "ja-equity-impact-questions",
+        "intents": [
+          "launch_embed",
+          "policy_orientation",
+          "escalation"
+        ],
+        "layer": "L3",
+        "nextActions": [
+          {
+            "href": "/paths/gp-2",
+            "label": "Policy, form, or notice change path"
+          },
+          {
+            "href": "/support/request",
+            "label": "Request a consultation for high-stakes decisions"
+          }
+        ],
+        "owner": "Equity and Inclusion Operations Consultant",
+        "pathIds": [
+          "gp-1",
+          "gp-2"
+        ],
+        "reviewDate": "2027-03-01",
+        "scope": "agencywide",
+        "status": "approved",
+        "summary": "Use this short question set for high-stakes decisions. Consider which authority and rights apply, who benefits, who carries the burden, which assumptions shape the outcome, what can change, and what must stay with the responsible official.",
+        "tags": [
+          "policy",
+          "budget",
+          "technology",
+          "procurement",
+          "contract",
+          "equity impact",
+          "high stakes",
+          "vendor"
+        ],
+        "title": "Equity impact questions for policy, budget, technology, and procurement",
+        "type": "question_bank",
+        "version": "0.1.0",
+        "whyItMatters": "These questions can help frame a decision, but they are not legal advice and do not make the decision for you. After working through them, seek guidance from the appropriate person if a high-stakes procurement, budget, or policy decision has a significant equity impact and no official guidance."
+      },
+      "payloadSha256": "868F6CD5A5CF4E31AA9B2926FAEFBFE72BAF0A0FF9689555014152FBDF444517",
+      "scopeId": "one-dhs"
+    },
+    {
+      "activeRevision": 2,
+      "baselinePayloadSha256": "D6E7B1C2B85AA02C5788186348B1CD010496A737834268BD24398245C77E45B4",
+      "baselineRevision": 1,
+      "changedFromBaseline": true,
+      "id": "ja-stakeholder-map",
+      "ordinal": 9,
+      "payload": {
+        "accessibility": "reviewed",
+        "authority": "guidance",
+        "body": [
+          "Inside DHS: begin with the Equity Director for the administration and the people responsible for accessibility and language access. Involve communications, the policy or rule owner, procurement, and county or provider partners when the work requires their knowledge or authority.",
+          "Community: begin with organizations named by the person or family and existing groups of people with lived experience. Be clear about what you are asking, how their input will be used, and whether they will be paid.",
+          "Tribal Nations: if the work touches a Nation, Native children, Tribal data, services, or land, contact the Office of Indian Policy or follow the Tribal liaison process first. Consultation is government-to-government and is distinct from stakeholder engagement.",
+          "For each partner, record the purpose, how they will take part, whether they will be paid, who maintains the relationship, and when you will report back."
+        ],
+        "id": "ja-stakeholder-map",
+        "intents": [
+          "launch_embed",
+          "intercultural",
+          "practice_method"
+        ],
+        "layer": "L2",
+        "nextActions": [
+          {
+            "href": "/minnesota-communities",
+            "label": "Open a community brief for partner guidance"
+          },
+          {
+            "href": "/paths/gp-3",
+            "label": "Community engagement path"
+          }
+        ],
+        "owner": "Equity and Inclusion Operations Consultant",
+        "pathIds": [
+          "gp-1",
+          "gp-3"
+        ],
+        "reviewDate": "2027-03-01",
+        "scope": "agencywide",
+        "status": "approved",
+        "summary": "Plan who should be involved before the design is settled. Note why their involvement matters, what role they will have, whether they will be paid, and when they will hear how their input was used. Begin with trusted, reviewed partner lists and organizations named by the people affected. Do not choose partners from a quick web search alone.",
+        "tags": [
+          "stakeholder",
+          "partners",
+          "involve",
+          "map",
+          "advisory",
+          "community organization",
+          "engagement"
+        ],
+        "title": "Planning with partners: who to involve",
+        "type": "tool",
+        "version": "0.1.0"
+      },
+      "payloadSha256": "EB5A0457023CB8D55554297972F39E086169D5D3B80214503F1048D606BD65B4",
+      "scopeId": "one-dhs"
+    },
+    {
+      "activeRevision": 2,
+      "baselinePayloadSha256": "B3F68334FC7E9EA22C36D5824BCE1D4279077C7BBA39756966B84C2D95BAE020",
+      "baselineRevision": 1,
+      "changedFromBaseline": true,
+      "id": "pn-equity-in-practice",
+      "ordinal": 10,
+      "payload": {
+        "accessibility": "reviewed",
+        "authority": "practice_note",
+        "body": [
+          "Compliance and civil rights: start with the rights, protections, and required procedures that apply. Equity work must respect due process.",
+          "Diversity and representation: who is present, absent, promoted, heard, and contracted with.",
+          "Hearts and minds: notice bias, fear, gaps in knowledge, empathy, and everyday behavior. Question an assumption and consider another person's experience.",
+          "Inclusion and belonging: whether people can take part, disagree, contribute, and be themselves without penalty.",
+          "Organizational learning: what the team needs to learn, reconsider, or change because important voices were left out earlier.",
+          "Social justice: who is harmed, what fairness requires, and what responsibility DHS holds.",
+          "Seven questions: What are we deciding or creating? What authority, rights, and obligations apply? Who benefits, carries the burden, faces the risk, or is missing? What assumptions, rules, and routines shape who is affected? What evidence and community knowledge are needed? What can we change or redesign, and what must go to the responsible decision-maker? What changed, how will we know, and how will we report back?"
+        ],
+        "id": "pn-equity-in-practice",
+        "intents": [
+          "practice_method",
+          "policy_orientation",
+          "workplace_culture"
+        ],
+        "layer": "L3",
+        "nextActions": [
+          {
+            "href": "/paths",
+            "label": "Use the seven questions in a learning path"
+          },
+          {
+            "href": "/resources/ja-equity-impact-questions",
+            "label": "Equity impact questions"
+          }
+        ],
+        "owner": "Equity and Inclusion Operations Consultant",
+        "pathIds": [
+          "gp-1",
+          "gp-2",
+          "gp-4"
+        ],
+        "provenance": "Adapted from the owner-authored One DHS source (one-dhs-equity-resource, commit 3aed646, src/lib/program/public.ts). The original source and this revised program version are retained separately.",
+        "reviewDate": "2027-03-01",
+        "scope": "agencywide",
+        "status": "approved",
+        "summary": "Consider a decision from six perspectives: compliance and civil rights, diversity and representation, hearts and minds, inclusion and belonging, organizational learning, and social justice. Then use seven questions to choose a thoughtful response.",
+        "tags": [
+          "equity in practice",
+          "perspectives",
+          "seven questions",
+          "decision",
+          "reflection",
+          "civil rights",
+          "belonging"
+        ],
+        "title": "Equity in Practice: six perspectives and seven questions",
+        "type": "practice_note",
+        "version": "0.1.0"
+      },
+      "payloadSha256": "AEE35339B5BFAE6E5363523CF8AD720B0663801ECC6E262F87913574C8AB9871",
+      "scopeId": "one-dhs"
+    },
+    {
+      "activeRevision": 2,
+      "baselinePayloadSha256": "FBE8E0AD53A106E9122213FFE667D2F5DFB6E3E037265F78A94C6E4ECD8FEDEC",
+      "baselineRevision": 1,
+      "changedFromBaseline": true,
+      "id": "lm-workplace-climate",
+      "ordinal": 11,
+      "payload": {
+        "accessibility": "reviewed",
+        "authority": "learning",
+        "body": [
+          "Participation: who speaks first and most; whether agendas go out in advance; whether written input counts as much as spoken input.",
+          "Speaking honestly: can people disagree with a supervisor without being punished or losing opportunities? Are mistakes discussed as problems in the work rather than flaws in a person?",
+          "Credit and chances: who gets stretch assignments, visible work, and development time; whether that pattern tracks race, disability, language, or tenure.",
+          "Norms: a few written team agreements about meetings, interruptions, and follow-through, revisited on a date.",
+          "Access at work: captions on by default, materials in advance, flexible formats for participation, no reliance on informal networks for information.",
+          "If the situation involves a complaint, investigation, discipline, or accommodation decision about a named person, follow the established Employee Culture, Human Resources, civil-rights, or accommodation process. A team climate plan cannot replace it."
+        ],
+        "id": "lm-workplace-climate",
+        "intents": [
+          "workplace_culture"
+        ],
+        "layer": "L2",
+        "nextActions": [
+          {
+            "href": "/resources/ja-climate-action-plan",
+            "label": "Team climate action plan template"
+          },
+          {
+            "href": "/paths/gp-4",
+            "label": "Workplace culture learning path"
+          }
+        ],
+        "owner": "Equity and Inclusion Operations Consultant",
+        "pathIds": [
+          "gp-4"
+        ],
+        "reviewDate": "2027-03-01",
+        "scope": "agencywide",
+        "status": "approved",
+        "summary": "Team climate is what people experience in everyday meetings, supervision, and decisions: whether they can speak openly, disagree, receive credit, and have fair access to opportunities. Supervisors can improve it through specific practices and regular follow-up.",
+        "tags": [
+          "climate",
+          "team",
+          "supervisor",
+          "participation",
+          "candor",
+          "psychological safety",
+          "meetings",
+          "norms",
+          "belonging",
+          "workplace culture"
+        ],
+        "title": "Team climate basics: participation, honest conversation, and fair opportunities",
+        "type": "learning_module",
+        "version": "0.1.0",
+        "whyItMatters": "This resource supports everyday team-climate work. For a complaint, investigation, accommodation, or discipline matter, use the appropriate Employee Culture, Human Resources, civil rights, or accommodation process."
+      },
+      "payloadSha256": "ED569507F41387B558B22815DA38632D3D176A39C81B834374D7CCDE2D9F03C6",
+      "scopeId": "one-dhs"
+    },
+    {
+      "activeRevision": 2,
+      "baselinePayloadSha256": "E523EFCDAE73B7833115E52A87A8227590A127D27A721A9E1823555076F5B5B4",
+      "baselineRevision": 1,
+      "changedFromBaseline": true,
+      "id": "ja-climate-action-plan",
+      "ordinal": 12,
+      "payload": {
+        "accessibility": "reviewed",
+        "authority": "guidance",
+        "body": [
+          "Practice: describe something a team member could see happening, such as sharing the agenda 48 hours ahead, rotating who opens the meeting, reading written input aloud, or turning captions on.",
+          "Responsibility: name the supervisor or volunteer responsible for the action. The supervisor remains accountable for the team's practices.",
+          "Dates: choose a start date and a follow-up conversation within three months.",
+          "Evidence: describe what the team would notice, without ranking people. This might include a short anonymous check-in or a review of who received assignments.",
+          "Use this plan to improve team practices. Follow the established process for complaints, investigations, discipline, and accommodation decisions."
+        ],
+        "id": "ja-climate-action-plan",
+        "intents": [
+          "workplace_culture",
+          "next_actions"
+        ],
+        "layer": "L2",
+        "nextActions": [
+          {
+            "href": "/paths/gp-4",
+            "label": "Workplace culture path"
+          },
+          {
+            "href": "/resources/pn-when-to-escalate",
+            "label": "When to seek additional guidance"
+          }
+        ],
+        "owner": "Equity and Inclusion Operations Consultant",
+        "pathIds": [
+          "gp-4"
+        ],
+        "reviewDate": "2027-03-01",
+        "scope": "agencywide",
+        "status": "approved",
+        "summary": "Choose three to five actions that team members can see and experience. For each action, name the person responsible, when it will begin, when the team will revisit it, and how the team will know whether it is helping. Do not include names connected to complaints or score individual employees.",
+        "tags": [
+          "climate",
+          "action plan",
+          "team",
+          "supervisor",
+          "norms",
+          "follow-up"
+        ],
+        "title": "Team climate action plan template",
+        "type": "tool",
+        "version": "0.1.0"
+      },
+      "payloadSha256": "BE08B88852FEBF98FDB84DD279EA0B2AD510079C046451C6170A7775836566EC",
+      "scopeId": "one-dhs"
+    },
+    {
+      "activeRevision": 2,
+      "baselinePayloadSha256": "7980A0E844BD522BB453F732736441CE78780B644EE9731BDF6558CBC9957F0D",
+      "baselineRevision": 1,
+      "changedFromBaseline": true,
+      "id": "pn-when-to-escalate",
+      "ordinal": 13,
+      "payload": {
+        "accessibility": "reviewed",
+        "authority": "practice_note",
+        "body": [
+          "Start with the available resources: search Resources, open a relevant community brief, or use a checklist. These options may give you what you need without a meeting.",
+          "Employee Culture, Human Resources, civil rights, or accommodation: use the appropriate established process for a complaint, investigation, grievance, discipline matter, or accommodation decision about a named person. Keep names and case details out of this program.",
+          "Policy or legal owner: contact this person when two sources conflict, a statute or rule needs interpretation, or no official source is available. If you cannot confirm the source, say that clearly and ask the policy or legal owner. Do not create or quote a citation from memory.",
+          "Office of Indian Policy or Tribal liaison: any work touching a Tribal Nation, Native children, Tribal data, services, or land. Consultation is government-to-government and comes first.",
+          "Equity Director: contact the Equity Director for questions about an administration's pilot, local guidance, or proposed content.",
+          "Equity and Inclusion Operations Consultant: consider a consultation when an early program idea or high-stakes decision needs another perspective. A consultation may also help when available guidance does not fully address community-specific work. Go to Support to request a consultation or first review what information you would share. A meeting is optional."
+        ],
+        "id": "pn-when-to-escalate",
+        "intents": [
+          "escalation",
+          "uncertainty_authority",
+          "boundary_refusal"
+        ],
+        "layer": "L1",
+        "nextActions": [
+          {
+            "href": "/support/request",
+            "label": "Request a consultation"
+          },
+          {
+            "href": "/support",
+            "label": "Support home"
+          }
+        ],
+        "owner": "Equity and Inclusion Operations Consultant",
+        "reviewDate": "2027-03-01",
+        "scope": "agencywide",
+        "status": "approved",
+        "summary": "Many questions can be answered with a checklist, job aid, or other resource. Use the established Employee Culture, Human Resources, civil-rights, or accommodation process for complaints, investigations, discipline, and accommodation decisions. Ask the policy or legal owner when official guidance conflicts or is missing. If the work may affect a Tribal Nation, contact the Office of Indian Policy or designated Tribal liaison before planning engagement. A consultation may help with a new program idea, a high-stakes decision, or a community question that remains unresolved.",
+        "tags": [
+          "escalate",
+          "human",
+          "complaint",
+          "HR",
+          "employee culture",
+          "legal",
+          "policy owner",
+          "tribal",
+          "consult",
+          "who to contact"
+        ],
+        "title": "When to seek additional guidance, and where to begin",
+        "type": "practice_note",
+        "version": "0.1.0"
+      },
+      "payloadSha256": "A4768314ED34727A815C29A0B5EE5B7A52A05C8367D8EBA47F146CA3FC3AB763",
+      "scopeId": "one-dhs"
+    },
+    {
+      "activeRevision": 2,
+      "baselinePayloadSha256": "1BACBFD1ABC31924E7B702924BF57E91364790315A6714CE39963C990952FE82",
+      "baselineRevision": 1,
+      "changedFromBaseline": true,
+      "id": "pn-intercultural-method",
+      "ordinal": 14,
+      "payload": {
+        "accessibility": "reviewed",
+        "authority": "practice_note",
+        "body": [
+          "Use the brief to prepare: consider naming, language and dialect, decision-making, access needs, potential partners, and what not to assume.",
+          "Ask the person: how they want to be addressed; which language and dialect; who should be in the room; what would make this work for them.",
+          "Check access first: consider language, disability and communication access, timing, transportation, trust, and the time and effort a process requires. Ask what a person needs instead of inferring it from their community.",
+          "Involve partners through established channels, with a clear purpose, role, compensation, and plan to report back. Staff who share a background are colleagues; do not expect them to interpret or represent an entire community.",
+          "If the brief does not cover something, be clear about what you do not know. Ask the person or seek appropriate guidance rather than relying on assumptions."
+        ],
+        "id": "pn-intercultural-method",
+        "intents": [
+          "intercultural",
+          "practice_method"
+        ],
+        "layer": "L1",
+        "nextActions": [
+          {
+            "href": "/minnesota-communities",
+            "label": "Open Minnesota Communities"
+          },
+          {
+            "href": "/paths/gp-3",
+            "label": "Community engagement path"
+          }
+        ],
+        "owner": "Equity and Inclusion Operations Consultant",
+        "pathIds": [
+          "gp-3"
+        ],
+        "reviewDate": "2027-03-01",
+        "scope": "agencywide",
+        "status": "approved",
+        "summary": "A community brief can help you prepare for Minnesota work, but it cannot describe any one person. Use it to ask better questions, check access, and involve the right partners. People within every community have different experiences. Each person is the authority on their own life.",
+        "tags": [
+          "intercultural",
+          "culture",
+          "community",
+          "stereotype",
+          "profiling",
+          "ask the person",
+          "within-group diversity",
+          "somali",
+          "hmong",
+          "latino",
+          "immigrant",
+          "refugee"
+        ],
+        "title": "Using community context without profiling",
+        "type": "practice_note",
+        "version": "0.1.0",
+        "whyItMatters": "Applying information about a group to an individual is profiling and can lead to worse service. A respectful approach is direct: ask the person, confirm what they need, and address the access barriers within your control."
+      },
+      "payloadSha256": "24FBA05D84863457AF346882A592F6019D266E6087ABB5573C422CC315A5936A",
+      "scopeId": "one-dhs"
+    },
+    {
+      "activeRevision": 2,
+      "baselinePayloadSha256": "2A53F087B614A2916903C73F393E4899DE121BDDB95BDA97C3DE5FE4CC974263",
+      "baselineRevision": 1,
+      "changedFromBaseline": true,
+      "id": "ja-facilitation-session-plan",
+      "ordinal": 15,
+      "payload": {
+        "accessibility": "reviewed",
+        "authority": "guidance",
+        "body": [
+          "Learning goal: write one sentence describing something participants will be able to do, such as drafting the access section of their own notice.",
+          "Activity: give participants time to work with their own materials, in pairs or small groups, within a clear amount of time.",
+          "Practical use: name what each person will leave with and how they will use it next, such as a program checklist, notice plan, or team climate plan.",
+          "Access: arrange captions or real-time captioning, send materials in accessible formats ahead of time, and offer an alternative to activities that require dragging items or working under a time limit. Arrange language interpretation or translated materials when participants need them. Use plain-language slides with built-in headings. Do not rely on icons alone.",
+          "Follow-up: choose a date and a way to learn whether participants were able to use what they completed."
+        ],
+        "id": "ja-facilitation-session-plan",
+        "intents": [
+          "facilitation",
+          "next_actions"
+        ],
+        "layer": "L2",
+        "nextActions": [
+          {
+            "href": "/paths/gp-5",
+            "label": "Facilitation path"
+          },
+          {
+            "href": "/resources/ja-access-checks",
+            "label": "Access checks before a session"
+          }
+        ],
+        "owner": "Equity and Inclusion Operations Consultant",
+        "pathIds": [
+          "gp-5"
+        ],
+        "reviewDate": "2027-03-01",
+        "scope": "agencywide",
+        "status": "approved",
+        "summary": "Plan the session around what participants will be able to use afterward. Set one clear learning goal, use an activity based on their work, offer something useful to take with them, and arrange access in advance.",
+        "tags": [
+          "facilitation",
+          "session",
+          "training",
+          "huddle",
+          "agenda",
+          "application task",
+          "learning objective",
+          "slides"
+        ],
+        "title": "Session plan: purpose, activity, practical use, and access",
+        "type": "tool",
+        "version": "0.1.0"
+      },
+      "payloadSha256": "E4BDBD2DD8F1298515A819CC5ACBB197CCA64808CBFF2DEE63516B60B377A63F",
+      "scopeId": "one-dhs"
+    },
+    {
+      "activeRevision": 2,
+      "baselinePayloadSha256": "15011E47C173150FF0F571F4A7C66D026392603255C21B7C3186012D74CA8A18",
+      "baselineRevision": 1,
+      "changedFromBaseline": true,
+      "id": "lm-facilitation-application",
+      "ordinal": 16,
+      "payload": {
+        "accessibility": "reviewed",
+        "authority": "learning",
+        "body": [
+          "Keep the session connected to practice: limit presentation time so participants can spend at least half the session working with the ideas themselves.",
+          "Bring real work: ask participants to bring a notice, a plan, or a meeting they own. Practice on that.",
+          "Facilitator role: participants know their own programs. Your role is to offer useful questions, guide the conversation, and keep the group on time.",
+          "Access: ask in advance what participants need. Arrange captions, spoken-language or sign-language interpretation, translated or accessible materials, and alternatives to dragging or timed activities. Build access into the session from the beginning.",
+          "Follow-up: schedule a short check-in to learn whether participants were able to use what they completed."
+        ],
+        "id": "lm-facilitation-application",
+        "intents": [
+          "facilitation",
+          "practice_method"
+        ],
+        "layer": "L2",
+        "nextActions": [
+          {
+            "href": "/resources/ja-facilitation-session-plan",
+            "label": "Session plan template"
+          },
+          {
+            "href": "/paths/gp-5",
+            "label": "Facilitation path"
+          }
+        ],
+        "owner": "Equity and Inclusion Operations Consultant",
+        "pathIds": [
+          "gp-5"
+        ],
+        "reviewDate": "2027-03-01",
+        "scope": "agencywide",
+        "status": "approved",
+        "summary": "A useful session helps participants make a meaningful change in their own work. Begin with what they should leave able to do, keep presentations focused, and give them substantial time to practice with real materials.",
+        "tags": [
+          "facilitation",
+          "learning",
+          "session design",
+          "application",
+          "practice",
+          "adult learning"
+        ],
+        "title": "Facilitation that participants can use in their work",
+        "type": "learning_module",
+        "version": "0.1.0"
+      },
+      "payloadSha256": "1B03025F1B8114BC85C19A5B5F3261056A58D18AA32637950CA60900D25E0E0E",
+      "scopeId": "one-dhs"
+    },
+    {
+      "activeRevision": 2,
+      "baselinePayloadSha256": "8DBC6E426955356022286C94AE89A121916911AA990517635E4682DD048C6F01",
+      "baselineRevision": 1,
+      "changedFromBaseline": true,
+      "id": "ja-form-notice-change",
+      "ordinal": 17,
+      "payload": {
+        "accessibility": "reviewed",
+        "authority": "guidance",
+        "body": [
+          "Impact: who receives this; what they must do; what happens if they cannot; which communities, languages, disabilities, and places are most affected.",
+          "Language: is it a vital document; which languages; translation with human review scheduled.",
+          "Access: complete a plain-language review, follow the current accessible-document standard, provide requested formats, and offer help by phone or in person.",
+          "Burden: deadlines, required documents, and return methods examined; what can be removed or done by the agency.",
+          "Sources: link to the current rule or policy whenever possible. If you cannot confirm it, say so and ask the person responsible for that policy. Do not cite a law, rule, or policy from memory.",
+          "Responsibilities and review: who will address each barrier, by when, and the next date the team will review the work."
+        ],
+        "id": "ja-form-notice-change",
+        "intents": [
+          "access_barriers",
+          "uncertainty_authority",
+          "policy_orientation"
+        ],
+        "layer": "L2",
+        "nextActions": [
+          {
+            "href": "/paths/gp-2",
+            "label": "Policy, form, or notice change path"
+          },
+          {
+            "href": "/resources/ja-plain-language",
+            "label": "Plain language and accessible documents checklist"
+          }
+        ],
+        "owner": "Equity and Inclusion Operations Consultant",
+        "pathIds": [
+          "gp-2"
+        ],
+        "reviewDate": "2027-03-01",
+        "scope": "agencywide",
+        "status": "approved",
+        "summary": "When changing staff- or public-facing text or a process, record who is affected and how. Consider language, disability and communication access, the effort required of people, the current source for every rule or policy, who will address each barrier, and when the work will be reviewed. Never cite a law, rule, or policy from memory.",
+        "tags": [
+          "form",
+          "notice",
+          "letter",
+          "policy change",
+          "impact",
+          "packet",
+          "citation",
+          "statute",
+          "authority"
+        ],
+        "title": "Checklist for changing a form, notice, or letter",
+        "type": "checklist",
+        "version": "0.1.0"
+      },
+      "payloadSha256": "69CA7EF002824E0B337C72991B5FC13474DAD6DCF25DA2C845A8010BD9139185",
+      "scopeId": "one-dhs"
+    },
+    {
+      "activeRevision": 2,
+      "baselinePayloadSha256": "ECAE527EB47AE96559013C48BD33D67BA5BB9827A6E8BF7852B14B28D01EEA6D",
+      "baselineRevision": 1,
+      "changedFromBaseline": true,
+      "id": "lm-interpreter",
+      "ordinal": 18,
+      "payload": {
+        "accessibility": "reviewed",
+        "authority": "learning",
+        "body": [
+          "Before the conversation: specify the language, dialect, format, and any request for a gender-matched interpreter. Send materials in advance and allow enough time.",
+          "During the conversation: explain the interpreter's role, speak directly to the person in the first person, pause often, and avoid idioms. Check understanding by asking the person to describe the next step in their own words.",
+          "After the conversation: note any concerns the interpreter raised about terms or forms, and arrange for needed corrections.",
+          "For a vital conversation, use a qualified professional interpreter rather than a child, family member, untrained bilingual coworker, or machine translation."
+        ],
+        "id": "lm-interpreter",
+        "intents": [
+          "access_barriers",
+          "intercultural"
+        ],
+        "layer": "L2",
+        "nextActions": [
+          {
+            "href": "/resources/ja-language-access-checklist",
+            "label": "Language access checklist"
+          },
+          {
+            "href": "/minnesota-communities",
+            "label": "Community brief for the household's language"
+          }
+        ],
+        "owner": "Equity and Inclusion Operations Consultant",
+        "pathIds": [
+          "gp-2",
+          "gp-3"
+        ],
+        "provenance": "Adapted from the One DHS course 'Working with an interpreter.' The original course and this revised program outline are retained separately.",
+        "reviewDate": "2027-03-01",
+        "scope": "agencywide",
+        "status": "approved",
+        "summary": "Book the right language and dialect, and brief the interpreter before the conversation. Speak to the person, use short sentences, and check understanding. Do not use a family member, a child, or a bilingual colleague pulled from their job as an interpreter.",
+        "tags": [
+          "interpreter",
+          "language access",
+          "dialect",
+          "phone interpreting",
+          "video",
+          "learning"
+        ],
+        "title": "Working with a spoken-language interpreter",
+        "type": "learning_module",
+        "version": "0.1.0"
+      },
+      "payloadSha256": "9AEC613620D89E921C987E261717428D8BEAA4BB33575E59FEF7C54C250B7CD4",
+      "scopeId": "one-dhs"
+    },
+    {
+      "activeRevision": 2,
+      "baselinePayloadSha256": "355D02BD73DD060B805AF55F507C86A66F378FEC0605FBBEA611D1315F4ABD2C",
+      "baselineRevision": 1,
+      "changedFromBaseline": true,
+      "id": "pn-self-check",
+      "ordinal": 19,
+      "payload": {
+        "accessibility": "reviewed",
+        "authority": "practice_note",
+        "body": [
+          "Responsibilities: every follow-up has a named person.",
+          "Review date: choose a specific date within a reasonable window and place it on the calendar.",
+          "Access: language and disability/communication access considered for this specific work, not in general.",
+          "Who was involved: who took part before the plan was final, what role they had, and how their input was used.",
+          "Assumptions avoided: what you chose not to assume about the people affected.",
+          "Open questions: note what you still do not know and where you will take it next: Resources, a partner, the person responsible for the policy, or a consultation."
+        ],
+        "id": "pn-self-check",
+        "intents": [
+          "practice_method",
+          "next_actions"
+        ],
+        "layer": "L1",
+        "nextActions": [
+          {
+            "href": "/paths",
+            "label": "Choose a learning path"
+          }
+        ],
+        "owner": "Equity and Inclusion Operations Consultant",
+        "reviewDate": "2027-03-01",
+        "scope": "agencywide",
+        "status": "approved",
+        "summary": "A useful working plan names who is responsible, when it will be reviewed, which access needs you considered, who you involved, and what you chose not to assume. Completing the boxes matters only when the follow-up is clear.",
+        "tags": [
+          "final review",
+          "working plan",
+          "responsibilities",
+          "review date",
+          "follow-through"
+        ],
+        "title": "A final review for your working plan",
+        "type": "practice_note",
+        "version": "0.1.0"
+      },
+      "payloadSha256": "E8C157F4686BADDC35486D1C3723C74F79B814C4ED46E255C780A4769931DA4F",
+      "scopeId": "one-dhs"
+    },
+    {
+      "activeRevision": 2,
+      "baselinePayloadSha256": "013226D1AD278B3BEB84B63E6CA945D6FB5797DEC6DD06E1C71B587F49F84B80",
+      "baselineRevision": 1,
+      "changedFromBaseline": true,
+      "id": "lm-how-this-program-works",
+      "ordinal": 20,
+      "payload": {
+        "accessibility": "reviewed",
+        "authority": "learning",
+        "body": [
+          "You can begin privately and at your own pace. Use the resources for a first review rather than asking a colleague, manager, or equity professional to explain the basics for you.",
+          "Sources and limits: each answer identifies its sources and any important uncertainty. Information here is not official DHS policy unless it is clearly linked to a current official source.",
+          "Growing your practice: use what you learn here to strengthen future work and recognize when additional guidance would help.",
+          "Responsibility for decisions: the responsible officials and partners continue to make decisions about policy, budgets, procurement, legal matters, personnel, and Tribal consultation."
+        ],
+        "id": "lm-how-this-program-works",
+        "intents": [
+          "next_actions",
+          "policy_orientation"
+        ],
+        "layer": "L1",
+        "nextActions": [
+          {
+            "href": "/guided-start",
+            "label": "Find a starting point"
+          },
+          {
+            "href": "/ask",
+            "label": "Ask a question"
+          }
+        ],
+        "owner": "Equity and Inclusion Operations Consultant",
+        "reviewDate": "2027-03-01",
+        "scope": "agencywide",
+        "status": "approved",
+        "summary": "Start with Ask or Resources. Read a community brief when Minnesota communities or partners are part of the work. Use a learning path to create a checklist or plan for your own work, then review it. After using the available guidance, visit Support when the stakes are high, important questions remain, or another perspective would help.",
+        "tags": [
+          "orientation",
+          "how it works",
+          "program",
+          "getting started",
+          "new staff member"
+        ],
+        "title": "How to use this program",
+        "type": "learning_module",
+        "version": "0.1.0"
+      },
+      "payloadSha256": "D1690C4604F1375B622B46197869A0FEF220DD30BBF635F7DA86B61B972679CF",
+      "scopeId": "one-dhs"
+    },
+    {
+      "activeRevision": 2,
+      "baselinePayloadSha256": "9944B1225974CDCF8C0B5C988285DE7F2AE25511FC90142F75A08F5E6686756C",
+      "baselineRevision": 1,
+      "changedFromBaseline": true,
+      "id": "ext-clas",
+      "ordinal": 21,
+      "payload": {
+        "accessibility": "pending",
+        "authority": "external_verify",
+        "body": [
+          "Fifteen standards under governance, leadership, and workforce; communication and language assistance; and engagement, continuous improvement, and accountability.",
+          "This program links to the standards. It does not paraphrase them as policy. Check the source for current wording."
+        ],
+        "href": "https://thinkculturalhealth.hhs.gov/clas/standards",
+        "id": "ext-clas",
+        "intents": [
+          "policy_orientation",
+          "uncertainty_authority"
+        ],
+        "layer": "L4",
+        "nextActions": [
+          {
+            "href": "/resources/ja-language-access-checklist",
+            "label": "Language access checklist"
+          }
+        ],
+        "owner": "Equity and Inclusion Operations Consultant",
+        "reviewDate": "2027-03-01",
+        "scope": "agencywide",
+        "sourceName": "U.S. Department of Health and Human Services, Office of Minority Health",
+        "status": "approved",
+        "summary": "The national standards for culturally and linguistically appropriate services in health and human services, published by the U.S. Office of Minority Health. Use them as a reference and verify the current text at the source.",
+        "tags": [
+          "CLAS",
+          "standards",
+          "culturally appropriate",
+          "language assistance",
+          "external"
+        ],
+        "title": "National CLAS Standards (culturally and linguistically appropriate services)",
+        "type": "external_reference",
+        "version": "0.1.0"
+      },
+      "payloadSha256": "C16DC941E8D26DFAA8B2B3348B412DF300E3823741C964ABDF3328502E87CB4B",
+      "scopeId": "one-dhs"
+    },
+    {
+      "activeRevision": 2,
+      "baselinePayloadSha256": "D9DCA2732F9F2A2FDF066EBFD51D3ABE92D2F6E78720664D21A2E5D52239FCAE",
+      "baselineRevision": 1,
+      "changedFromBaseline": true,
+      "id": "ext-mn-accessibility",
+      "ordinal": 22,
+      "payload": {
+        "accessibility": "pending",
+        "authority": "external_verify",
+        "body": [
+          "Minnesota's current digital accessibility standard uses WCAG 2.1 Level AA. Check the current state standard before citing it.",
+          "Before releasing Word documents, PDFs, or slides, follow Minnesota's current guidance for accessible documents."
+        ],
+        "href": "https://mn.gov/mnit/government/policies/accessibility/",
+        "id": "ext-mn-accessibility",
+        "intents": [
+          "policy_orientation",
+          "access_barriers",
+          "uncertainty_authority"
+        ],
+        "layer": "L4",
+        "nextActions": [
+          {
+            "href": "/resources/ja-plain-language",
+            "label": "Plain language and accessible documents checklist"
+          }
+        ],
+        "owner": "Equity and Inclusion Operations Consultant",
+        "reviewDate": "2027-03-01",
+        "scope": "agencywide",
+        "sourceName": "Minnesota IT Services",
+        "status": "approved",
+        "summary": "Minnesota IT Services publishes the state's digital accessibility standard and accessible-document guidance. Verify the current version at the source before citing.",
+        "tags": [
+          "accessibility",
+          "WCAG",
+          "Minnesota",
+          "MNIT",
+          "standard",
+          "documents",
+          "external"
+        ],
+        "title": "Minnesota digital accessibility standard (MNIT)",
+        "type": "external_reference",
+        "version": "0.1.0"
+      },
+      "payloadSha256": "69F3EF5A9979708B06AE1C5CA2670ACE751FA8A0E4D37BA15EDA55E750E9D207",
+      "scopeId": "one-dhs"
+    },
+    {
+      "activeRevision": 2,
+      "baselinePayloadSha256": "3A42955EA0406BC6D8D6F666C060C0B8C8BEE835B507878D1C0D4536575B829D",
+      "baselineRevision": 1,
+      "changedFromBaseline": true,
+      "id": "ext-ada",
+      "ordinal": 23,
+      "payload": {
+        "accessibility": "pending",
+        "authority": "external_verify",
+        "body": [
+          "This program does not interpret the ADA. For a specific obligation, contact the appropriate accessibility coordinator or legal counsel."
+        ],
+        "href": "https://www.ada.gov/law-and-regs/regulations/title-ii-2010-regulations/",
+        "id": "ext-ada",
+        "intents": [
+          "policy_orientation",
+          "uncertainty_authority"
+        ],
+        "layer": "L4",
+        "nextActions": [
+          {
+            "href": "/resources/ja-access-checks",
+            "label": "Access checks before a meeting or session"
+          }
+        ],
+        "owner": "Equity and Inclusion Operations Consultant",
+        "reviewDate": "2027-03-01",
+        "scope": "agencywide",
+        "sourceName": "U.S. Department of Justice",
+        "status": "approved",
+        "summary": "Title II of the Americans with Disabilities Act covers state and local government services, including effective communication and web accessibility rules. Verify the current rule and dates at the source.",
+        "tags": [
+          "ADA",
+          "Title II",
+          "disability",
+          "effective communication",
+          "external",
+          "law"
+        ],
+        "title": "ADA Title II (state and local government services)",
+        "type": "external_reference",
+        "version": "0.1.0"
+      },
+      "payloadSha256": "3D89C593F089B0143789B4A50949C9728F539CCB7C7AA90ED2A4121E546FD7E6",
+      "scopeId": "one-dhs"
+    },
+    {
+      "activeRevision": 2,
+      "baselinePayloadSha256": "1CE3BDE01E46BAB015F87A8F6E98E5D49CB70EFB351107AAE31D22AB5781AB74",
+      "baselineRevision": 1,
+      "changedFromBaseline": true,
+      "id": "ext-title-vi-lep",
+      "ordinal": 24,
+      "payload": {
+        "accessibility": "pending",
+        "authority": "external_verify",
+        "body": [
+          "This program does not interpret Title VI. Before releasing a vital document, follow the current language-access requirements for qualified human review and confirm them with the person responsible for language access in your program."
+        ],
+        "href": "https://www.lep.gov/",
+        "id": "ext-title-vi-lep",
+        "intents": [
+          "policy_orientation",
+          "uncertainty_authority",
+          "access_barriers"
+        ],
+        "layer": "L4",
+        "nextActions": [
+          {
+            "href": "/resources/ja-language-access-checklist",
+            "label": "Language access checklist"
+          }
+        ],
+        "owner": "Equity and Inclusion Operations Consultant",
+        "reviewDate": "2027-03-01",
+        "scope": "agencywide",
+        "sourceName": "U.S. Department of Justice, Federal Coordination and Compliance Section",
+        "status": "approved",
+        "summary": "Federal Title VI obligations require recipients of federal funds to provide meaningful language access. The federal LEP site collects guidance and resources. Verify at the source.",
+        "tags": [
+          "Title VI",
+          "LEP",
+          "language access",
+          "federal",
+          "external",
+          "law"
+        ],
+        "title": "Title VI and language access for people with limited English proficiency",
+        "type": "external_reference",
+        "version": "0.1.0"
+      },
+      "payloadSha256": "E8A7B37A2A1DFA22A29D26824F83F3956C054C72C824EC68B8232D2CC9855267",
+      "scopeId": "one-dhs"
+    },
+    {
+      "activeRevision": 2,
+      "baselinePayloadSha256": "AE7F5888B1C1BECBF7299B72333457BD106B1698ED3CA93A43A1CBBF00DEC00E",
+      "baselineRevision": 1,
+      "changedFromBaseline": true,
+      "id": "ext-dhs-equity-toolkit",
+      "ordinal": 25,
+      "payload": {
+        "accessibility": "pending",
+        "authority": "external_verify",
+        "body": [
+          "The checklist and impact questions in this program can help you prepare, but they do not replace the DHS Equity Analysis Toolkit. Confirm the current toolkit and any required process with the appropriate DHS contact."
+        ],
+        "id": "ext-dhs-equity-toolkit",
+        "intents": [
+          "policy_orientation",
+          "practice_method",
+          "uncertainty_authority"
+        ],
+        "layer": "L4",
+        "nextActions": [
+          {
+            "href": "/resources/ja-launch-embed-checklist",
+            "label": "Equity and access checklist for new work"
+          },
+          {
+            "href": "/resources/ja-equity-impact-questions",
+            "label": "Equity impact questions"
+          }
+        ],
+        "owner": "Equity and Inclusion Operations Consultant",
+        "reviewDate": "2027-03-01",
+        "scope": "agencywide",
+        "sourceName": "Minnesota DHS (intranet)",
+        "status": "approved",
+        "summary": "The DHS Equity Analysis Toolkit helps staff consider who is affected, what evidence is available, and which barriers and alternatives matter. It also addresses access, responsibility, and review. Use the current version available through DHS.",
+        "tags": [
+          "toolkit",
+          "equity analysis",
+          "DHS",
+          "scan",
+          "full analysis",
+          "external"
+        ],
+        "title": "DHS Equity Analysis Toolkit",
+        "type": "external_reference",
+        "version": "0.1.0"
+      },
+      "payloadSha256": "A7ADBDCF0FD8C1A30E774052CB6322AA0CFE04E8CEF4BB0B436609C7F97C0A5B",
+      "scopeId": "one-dhs"
+    }
+  ],
+  "releaseId": "permanent-seed-staff-release-2026-09-05",
+  "releaseSetSha256": "BCFFAE0854885F50D3F923BBA7FCBB7A2F5EBFFD760DF65B12CE9ED7D0A2DEDE",
+  "reviewBasis": {
+    "accessibility": "Each resource is marked reviewed and passed the seed accessibility checks.",
+    "factual_currentness": "Each resource has an approved source posture and a planned review date; outside references direct staff to confirm the current source.",
+    "language_alignment": "The 25 seed resources passed the staff voice, trust, and plain-language checks.",
+    "placement": "Every stable ID, content type, learning layer, route, and next action was retained and checked.",
+    "rights_and_consent": "The seed release contains program-authored text and link-only public references, with no likeness or unapproved image included.",
+    "scope": "Each agencywide resource is limited to the One DHS scope; no DSD-only resource is widened."
+  },
+  "reviewDimensions": [
+    "language_alignment",
+    "factual_currentness",
+    "accessibility",
+    "scope",
+    "placement",
+    "rights_and_consent"
+  ],
+  "schemaVersion": "1.0.0"
+}

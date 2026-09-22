@@ -1,0 +1,2144 @@
+{
+  "schemaVersion": "1.0.0",
+  "capturedOn": "2026-09-04",
+  "sourceId": "local-benefits-prd-early-2027",
+  "title": "One DHS People, Access and Culture Benefits-Focused PRD, Early 2027",
+  "sourceType": "docx",
+  "sourceFileName": "One_DHS_People_Access_and_Culture_Benefits_Focused_PRD_Early_2027.docx",
+  "sourceBytes": 413734,
+  "sourceSha256": "AF139AC35C5A8349C16424185685A43CD3DF38C0B475D5E44152EB355A238A7D",
+  "ownerApproval": "owner_approved_for_ingestion",
+  "staffRelease": "not_staff_released",
+  "snapshotSanitization": "Private Windows user-folder prefixes are removed; the original file hash remains unchanged.",
+  "extraction": {
+    "format": "docx",
+    "documentProperties": {
+      "title": "One DHS People, Access and Culture Program — Benefits-Focused Product Requirements Document",
+      "subject": "Product benefits, collaborative administration model, complete requirements, and early 2027 launch plan",
+      "author": "One DHS People, Access and Culture Program",
+      "lastModifiedBy": null,
+      "created": "2013-12-23T23:15:00+00:00",
+      "modified": "2013-12-23T23:15:00+00:00"
+    },
+    "paragraphCount": 378,
+    "tableCount": 7,
+    "blocks": [
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "PRODUCT REQUIREMENTS DOCUMENT"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "One DHS People, Access and Culture Program"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Benefits-Focused Product Requirements Document"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Heading 1",
+        "text": "Contents"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Select a section title in Word to move directly to that part of the document."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "1. Executive summary"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "2. Product vision"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "3. Strategic benefits"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "4. Goals and success outcomes"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "5. Audiences and roles"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "6. Product principles"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "7. Information architecture"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "8. Staff experience requirements"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "9. Learning and multimedia requirements"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "10. Resource Library requirements"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "11. Equity in Practice requirements"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "12. One DHS Support requirements"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "13. Consultation requirements"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "14. Equity Ecosystem Inventory requirements"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "15. Collaboration and content authority"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "16. Governed inline editing"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "17. Semantic knowledge framework"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "18. Accessibility requirements"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "19. Privacy, security, and separation from DHS systems"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "20. Deployment modes"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "21. Content and data requirements"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "22. Nonfunctional requirements"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "23. Measurement and evaluation"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "24. Early 2027 launch plan"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "25. Risks and mitigations"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "26. Acceptance criteria"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "27. Non-goals"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "28. Product decision"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Heading 1",
+        "text": "1. Executive summary"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Back to contents"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "One DHS People, Access and Culture is a DHS-wide collaborative workspace that helps staff find practical resources, learn at their own pace, ask for support, apply equity perspectives, and understand how equity work connects across the Minnesota Department of Human Services."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "The program addresses a persistent organizational problem: valuable knowledge, learning, tools, relationships, and improvement work often exist in separate locations, depend on personal networks, or are difficult to find when staff need them. One DHS brings those assets into a coherent experience without connecting to DHS or enterprise systems and without becoming a case, personnel, eligibility, accommodation, or official transaction system."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "The product is designed to create value for two closely related audiences:"
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "All DHS staff receive one welcoming place to learn, locate usable tools, ask broad questions, request consultation, and move from a principle to an action."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "Equity Directors, Equity Specialists, and other authorized equity professionals receive a governed collaborative workspace where they can contribute, update, upload, organize, and improve content for their own administration at any time, while remaining unable to change another administration’s work."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "The Equity and Inclusion Operations Consultant owns the program and retains final authority over DHS-wide content, design, access, publication, quality, and administration boundaries. An initial DHS-wide launch is expected in early 2027, subject to accessibility, security, content-readiness, administration onboarding, and user-acceptance gates."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Caption",
+        "text": "Figure 1. The staff experience gives every DHS employee a calm, direct entry into learning, resources, inventory, and support."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Heading 1",
+        "text": "2. Product vision"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Back to contents"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Heading 2",
+        "text": "2.1 Vision statement"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Give every DHS staff member a dependable, accessible, and practical place to connect learning, resources, equity practice, professional support, and improvement work—while giving equity professionals the governed tools to build and sustain administration-specific content together."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Heading 2",
+        "text": "2.2 Product promise"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "One DHS should help a person answer four questions quickly:"
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Number",
+        "text": "Where should I begin?"
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Number",
+        "text": "What can help me with the work in front of me?"
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Number",
+        "text": "How can I apply what I find?"
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Number",
+        "text": "Who can help when a resource is not enough?"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Heading 2",
+        "text": "2.3 Why this program matters"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "The program reduces the human and organizational cost of fragmented knowledge. It creates a shared doorway without forcing every administration to erase its context. It supports consistency where DHS needs common standards and flexibility where administrations need their own examples, resources, learning, relationships, and improvement priorities."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Heading 1",
+        "text": "3. Strategic benefits"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Back to contents"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Heading 2",
+        "text": "3.1 Benefits for all DHS staff"
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "One clear starting point instead of multiple disconnected repositories."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "Faster access to practical job aids, templates, learning, recordings, and support."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "Self-directed learning that can be used at the moment of need."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "Multiple accessible formats, including webpages, Word, PDF, PowerPoint, Excel, audio, video, captions, and transcripts."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "Guided recommendations that reduce the need to understand DHS organizational structure before asking for help."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "Broad question support that can synthesize program content and current external research without requiring private information."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "A visible path from immediate guidance to consultation and trackable follow-through."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "Stronger connection between individual learning and real workplace application."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Heading 2",
+        "text": "3.2 Benefits for Equity Directors and Equity Specialists"
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "A durable administration workspace that can be updated without waiting for a department-wide redesign."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "Permission to edit, save, delete, upload, download, and organize multimodal content within the contributor’s own administration."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "Protection from accidental cross-administration editing."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "Reusable DHS-wide structures for courses, job aids, resources, dashboards, consultation, accessibility, and evaluation."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "Clear source, version, accessibility, representation, and publication history."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "Division dashboards that make administration activity, gaps, relationships, duplication, and opportunities visible."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "Read-only invitation links for focused review without granting editing rights."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "A shared platform for cross-administration learning while preserving local content authority."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Heading 2",
+        "text": "3.3 Benefits for DHS leadership and the organization"
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "Better visibility into the location, maturity, reach, and connections of equity work."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "Reduced duplication and a clearer basis for deciding what to scale, connect, redesign, sustain, or resource."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "Stronger continuity when staff or leadership changes."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "More consistent accessibility, source, representation, and quality standards."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "Privacy-safe insight that connects enterprise, administration, division, and staff practice without employee surveillance."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Heading 1",
+        "text": "4. Goals and success outcomes"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Back to contents"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Heading 2",
+        "text": "4.1 Product goals"
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Number",
+        "text": "Give staff a useful resource, learning path, answer, or next step within a few minutes."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Number",
+        "text": "Make high-value equity, access, culture, leadership, and professional-development content easy to find and apply."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Number",
+        "text": "Support administration-specific contribution without weakening department-wide governance."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Number",
+        "text": "Turn the Equity Ecosystem Inventory into a working data and reporting workflow rather than a static description."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Number",
+        "text": "Provide accessible multimedia and editable work products across common office formats."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Number",
+        "text": "Use the semantic knowledge framework, timely recommendations, and governed workflow signals to make the program more helpful, proactive, and adaptive while preserving human authority."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Number",
+        "text": "Remain independent of DHS and enterprise systems."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Number",
+        "text": "Prepare a stable, supportable, and accessible release for early 2027."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Heading 2",
+        "text": "4.2 Primary success outcomes"
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "Staff can identify a useful next step without knowing the internal program structure."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "Equity professionals can contribute within their administration and cannot edit elsewhere."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "Program-owner changes can be drafted, previewed, published, and restored with evidence."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "Inventory records are classifiable, retrievable, connected to dashboards, and supported by receipts."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "Staff questions can draw from program knowledge and current external research when appropriate."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "Core workflows pass keyboard, screen-reader, zoom, reflow, high-contrast, and media-access testing."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Heading 1",
+        "text": "5. Audiences and roles"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Back to contents"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Heading 1",
+        "text": "6. Product principles"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Back to contents"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Heading 2",
+        "text": "6.1 Human before system"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Staff-facing language must be professional, warm, clear, and supportive. Internal architecture, database behavior, privacy implementation, and program-owner deliberations should not be exposed unless they help the end user complete a task."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Heading 2",
+        "text": "6.2 Work before structure"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "The product should begin with the task a person is trying to complete, not with a long list of departments, tools, or technical capabilities."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Heading 2",
+        "text": "6.3 Progressive disclosure"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "The first view should show only the most important choices. Detailed frameworks, source lists, instructions, and advanced tools should open when requested through links, disclosures, or role-specific workspaces."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Heading 2",
+        "text": "6.4 Shared structure, local authority"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "DHS-wide patterns should make the program coherent. Administration workspaces should preserve local context, examples, priorities, and content authority."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Heading 2",
+        "text": "6.5 Accessibility as product quality"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Accessibility is a design and acceptance requirement for pages, media, documents, workflows, generated outputs, and contributor tools."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Heading 2",
+        "text": "6.6 Evidence and improvement"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Important claims, resources, recommendations, and work products should retain source, date, scope, review, and limitation information. The program should learn from aggregate use, corrections, outcomes, and gaps without profiling individual employees."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Heading 1",
+        "text": "7. Information architecture"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Back to contents"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "The staff experience uses six primary areas:"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Supporting areas include My workspace, the DHS Program and Service Map, Calendar, Equity in Practice, Equal Opportunity and Access, Language and Access Standards, feedback, consultation tracking, and the Site Map."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Heading 2",
+        "text": "7.1 Learning progression"
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "Foundation: access, culture, language, participation, respectful practice, and common equity concepts."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "Intermediate: communication, meetings, engagement, supervision, facilitation, program practice, and application tools."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "Advanced: leadership, systems change, inventory, governance, measurement, strategy, policy, organizational learning, and continuity."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Heading 1",
+        "text": "8. Staff experience requirements"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Back to contents"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Heading 2",
+        "text": "8.1 Home"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "The home page must:"
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "Present a concise purpose statement and representative collaborative image."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "Provide direct links to Start, Learning, and Support."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "Show a four-part path from Foundation through Lead and improve."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "Present Equity in Practice through compact disclosure rather than a visually dense page."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "Include “What is Equity at DHS?” audio, download, and full transcript."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "Include one welcoming banner with one link to the current DHS-wide end-user guide."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "Keep secondary program areas behind a disclosure."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Heading 2",
+        "text": "8.2 Guided Start"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Guided Start must accept a work need and role, then recommend a relevant path. Choices must remain changeable and must not become a permanent employee profile."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Heading 2",
+        "text": "8.3 Search"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Search must support title, summary, body, topic, role, task, administration, division, content type, format, and semantic similarity. No-result searches must provide a next step and create an aggregate content-gap signal."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Heading 2",
+        "text": "8.4 My workspace"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "My workspace may save selected resources, learning progress, and optional preferences in the browser or an approved account store. It must avoid sensitive personal profiles and support clearing saved choices."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Heading 1",
+        "text": "9. Learning and multimedia requirements"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Back to contents"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Heading 2",
+        "text": "9.1 Course standard"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Complete courses should follow the approved One DHS structure:"
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "Polished course cover with a representative image or short opening video."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "Six complete lessons unless another instructional structure is approved."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "Clear learning outcomes and practical DHS application."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "American English narration when narration is used."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "Synchronized auto-scrolling transcript that bolds the sentence being spoken without a green highlight."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "Captions for video and complete transcripts for audio and video."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "Integrated job aid and sources within the same course experience."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "Reflection, practice, or decision activity in each lesson."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "Responsive, keyboard-accessible controls and visible focus."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Heading 2",
+        "text": "9.2 Multimedia"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "The program must support original and appropriately licensed images, audio, video, animation, diagrams, charts, infographics, documents, slides, spreadsheets, transcripts, captions, and audio description. Representation review must examine race, ethnicity, disability, age, gender presentation, role, setting, and power—not only numerical diversity."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Heading 2",
+        "text": "9.3 Contributor course authoring"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Authorized contributors may edit course text, lessons, images, video, audio, transcripts, job aids, and sources within their administration. Drafts must remain private until the required review and publication step."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Heading 1",
+        "text": "10. Resource Library requirements"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Back to contents"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "The Resource Library must:"
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "Include DHS-wide and administration-specific resources without confusing the two scopes."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "Preserve resource family, title, summary, body, audience, role, task, administration, division, format, source, date, and accessible alternatives."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "Provide breadcrumbs, skip links, accessible headings, and back-to-top navigation on every resource page."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "Keep a resource’s text, media, transcript, sources, and downloadable formats together."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "Support Word, PDF, PowerPoint, Excel, audio, video, image, webpage, and external-link formats."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "Avoid copying an external webpage as the staff deliverable. External evidence should be synthesized into original, engaging, DHS-level content with clear attribution."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Heading 1",
+        "text": "11. Equity in Practice requirements"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Back to contents"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Equity in Practice is a core program pillar and must be:"
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "Explicit on the landing page."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "Available as a complete guide."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "Embedded in search, recommendations, support responses, learning design, inventory analysis, and work-product review."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "Presented through multiple equity perspectives so practitioners can locate their own orientation and deliberately consider others."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "Connected to a seven-step DHS Equity Lens that moves from context and participation to options, action, accountability, learning, and redesign."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Heading 1",
+        "text": "12. One DHS Support requirements"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Back to contents"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Heading 2",
+        "text": "12.1 Broad question support"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Staff may ask about any work-related topic. The support experience should:"
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "Accept practical, reflective, research-oriented, drafting, planning, learning, accessibility, culture, leadership, and unfamiliar questions."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "Retrieve relevant One DHS content."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "Conduct current external research when the answer requires it."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "Synthesize rather than merely list links."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "Cite sources and distinguish source authority, date, uncertainty, and limitations."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "Offer Word, PDF, PowerPoint, Excel, audio, visual, or video outputs when appropriate."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "Suggest consultation when collaboration or a work product is needed."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "Block or redirect private information before submission."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Heading 2",
+        "text": "12.2 Voice and read-aloud"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Voice input and response read-aloud must be usable with keyboard and assistive technology, clearly indicate listening state, avoid retaining recordings unnecessarily, and provide a text route for every function."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Heading 1",
+        "text": "13. Consultation requirements"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Back to contents"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "The consultation workflow must support requests for resources, job aids, review, training, facilitation, leadership support, accessibility support, communication, learning design, research, and other work products."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Required capabilities:"
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "Clear request form with non-identifying role and organization context."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "Reference number and progress tracking."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "Triage, assignment, scheduling, active work, follow-up, delivery, and closure stages."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "Attachments only through approved, bounded, and de-identified upload controls."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "Private request detail and privacy-safe status display."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "Receipts for submission, stage changes, deliverables, and closure."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "Aggregated outcome reporting without employee performance monitoring."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Heading 1",
+        "text": "14. Equity Ecosystem Inventory requirements"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Back to contents"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "The inventory is a working data, workflow, and reporting capability."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Caption",
+        "text": "Figure 2. The inventory begins with direct actions to add a record or view dashboards."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Heading 2",
+        "text": "14.1 Record model"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Records may represent programs, services, policies, initiatives, people or roles, teams, relationships, funding, evidence, governance, learning, tools, operational practices, outcomes, gaps, risks, and opportunities."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Each record should support:"
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "Administration and division ownership."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "Record family, type, status, maturity, population, geography, topic, and dates."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "Purpose, evidence, relationships, dependencies, reach, strengths, gaps, risks, and next step."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "Source and review information."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "Privacy-safe receipt and version history."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "Retrieval, filtering, export, and reporting."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Heading 2",
+        "text": "14.2 Division dashboards"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Dashboards must be available for each division and connected directly to inventory records. They should show clear, visually engaging summaries of coverage, status, maturity, themes, gaps, relationships, duplication, evidence, and action signals. Every chart must link back to the underlying records and remain accessible without color alone."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Heading 1",
+        "text": "15. Collaboration and content authority"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Back to contents"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Heading 2",
+        "text": "15.1 Program owner"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "The Equity and Inclusion Operations Consultant has final authority across the program and can:"
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "Edit text, images, video, audio, links, design, layout, navigation, forms, workflows, templates, and structured content anywhere."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "Create, upload, download, save, delete, publish, unpublish, and restore content."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "Assign administration-scoped contributor access."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "Create and revoke read-only invitations."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "Review sources, accessibility, representation, releases, program learning, receipts, and outcomes."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "Override or remove content when quality, safety, scope, or program integrity requires it."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Heading 2",
+        "text": "15.2 Administration Equity Directors and Specialists"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "An authorized contributor may:"
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "Manage content only within one assigned administration."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "Create and update administration pages, resource collections, courses, media, inventory records, dashboards, and local guidance."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "Save private drafts, preview staff views, complete required review, and publish or submit according to assigned authority."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "Download editable versions and upload accessible alternatives."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "An authorized contributor may not:"
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "Edit DHS-wide content unless separately authorized by the program owner."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "Edit another administration."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "Change role boundaries, platform policy, source authority, publication rules, or evaluation standards."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "Grant broader access than the contributor holds."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Heading 2",
+        "text": "15.3 Read-only reviewers"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "The program owner or authorized administration contributor may create a time-limited link to a specific page or draft. The link must provide no editing capability and must be revocable."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Caption",
+        "text": "Figure 3. Read-only invitation controls support focused review without granting editing rights."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Heading 1",
+        "text": "16. Governed inline editing"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Back to contents"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Authorized editors must be able to select and edit visible text, images, media, links, and supported layout attributes from the staff-facing page."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "The workflow must support:"
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Number",
+        "text": "Select visible content or design element."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Number",
+        "text": "Edit the supported value."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Number",
+        "text": "Save a private draft."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Number",
+        "text": "Preview draft and published states."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Number",
+        "text": "Complete review."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Number",
+        "text": "Publish an explicit version."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Number",
+        "text": "Restore an earlier version as a new recorded publication."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "All edit, publication, deletion, and restoration actions must be scoped to the actor’s authority and recorded through privacy-safe receipts."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Caption",
+        "text": "Figure 4. The owner can select visible content and design elements while publication remains explicit."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Heading 1",
+        "text": "17. Semantic knowledge framework"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Back to contents"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "The program must maintain a governed semantic framework connecting:"
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "Resources, courses, media, sources, roles, tasks, administrations, divisions, programs, services, competencies, workflows, events, consultation patterns, inventory records, outcomes, and gaps."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "Synonyms, related concepts, prerequisite knowledge, practical applications, authority, currency, and limitations."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "DHS-wide content and administration-specific context without collapsing their boundaries."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "The semantic layer should improve search, recommendations, support answers, related resources, learning sequences, inventory analysis, and proactive suggestions. Generated or inferred relationships remain noncanonical until reviewed when they could affect consequential guidance."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Heading 1",
+        "text": "18. Accessibility requirements"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Back to contents"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "The target is WCAG 2.2 AA and applicable Section 508 expectations across staff, contributor, and generated-artifact experiences."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Required coverage includes:"
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "Keyboard-only operation and visible focus."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "Skip links, semantic landmarks, logical headings, breadcrumbs, and accessible names."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "Error identification, instructions, and status announcements."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "Zoom, reflow, text spacing, contrast, high contrast, and reduced motion."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "Captions, transcripts, audio description when needed, and accessible media controls."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "Meaningful alternative text and decorative-image handling."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "Accessible Word, PDF, PowerPoint, Excel, audio, video, and downloadable templates."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "Representative testing with screen readers, magnification, keyboard, voice input, mobile, and high contrast."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Heading 1",
+        "text": "19. Privacy, security, and separation from DHS systems"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Back to contents"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Heading 2",
+        "text": "19.1 Nonintegration requirement"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "One DHS must not connect to, authenticate against, write to, or exchange data with DHS or enterprise systems. Public authoritative DHS webpages may be linked as sources, but the program remains technically and operationally separate."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Heading 2",
+        "text": "19.2 Prohibited data"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "The program must not accept or retain case, eligibility, assessment, service-authorization, medical, disability, personnel, accommodation, complaint, investigation, Social Security, or other personally identifiable information."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Heading 2",
+        "text": "19.3 Security requirements"
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "Server-side secret storage and least-privilege runtime access."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "Strong authentication for protected contributor and program-owner workspaces."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "Exact administration authorization on every protected read and write."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "Rate limits, body limits, file-type and file-size controls, malware controls when uploads are enabled, and cost admission controls."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "Encrypted transport, security headers, protected cookies, CSRF protection where applicable, and logging that omits private payloads."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "Versioned backups, rollback targets, and tested recovery."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "Read-only invitation tokens that are limited, expiring, revocable, and non-editing."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Heading 1",
+        "text": "20. Deployment modes"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Back to contents"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "The same product intent must be available through three coordinated modes:"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "The database, storage, audio, and hosting providers must remain replaceable behind documented interfaces."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Heading 1",
+        "text": "21. Content and data requirements"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Back to contents"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Heading 2",
+        "text": "21.1 Core content entities"
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "Resource family and resource."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "Course, lesson, activity, job aid, transcript, caption, source, and media asset."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "Administration, division, program, service, work area, role, task, and competency."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "Inventory record, relationship, evidence, action, receipt, and dashboard measure."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "Support question, sanitized context, answer, source, output request, and usefulness response."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "Consultation request, stage, work product, update, outcome, and closure."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "Draft, review, publication, rollback, contributor, invitation, and authority boundary."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "Quality evaluation, reviewed correction, approved program learning, and aggregate program signal."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Heading 2",
+        "text": "21.2 Version and provenance"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Published content must retain version, source, reviewer, authority, scope, date, checksum or equivalent binding, accessible alternatives, and rollback history. Draft content must be distinguishable from published content at every stage."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Heading 1",
+        "text": "22. Nonfunctional requirements"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Back to contents"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Heading 2",
+        "text": "22.1 Reliability"
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "Monthly staff availability target of at least 99.5 percent for the cloud edition."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "Health and readiness endpoints that distinguish application health from dependency readiness."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "Durable, idempotent critical writes and recoverable publication workflows."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "Recorded deployment revision, artifact identity, and rollback target."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Heading 2",
+        "text": "22.2 Performance"
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "Primary cached pages usable within two seconds under ordinary network conditions."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "Search feedback normally within two seconds."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "Support requests acknowledged promptly with truthful progress and fallback states."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "Stream media and downloads without loading complete files into application memory."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Heading 2",
+        "text": "22.3 Scalability and maintainability"
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "Stateless web instances and durable shared state."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "Strict TypeScript checking and documented verification commands."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "Bounded background work for long-running generation and media tasks."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "Replaceable adapters and stable content schemas."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "No generated artifacts, temporary files, or secrets treated as source code."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Heading 1",
+        "text": "23. Measurement and evaluation"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Back to contents"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "The program may collect privacy-safe aggregate measures such as:"
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "Page and resource use."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "Search success and no-result searches."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "Course starts, completions, application responses, and job-aid downloads."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "Audio starts and transcript opens."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "Support response usefulness and consultation conversion."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "Consultation stage time, delivered work products, and voluntary outcome feedback."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "Inventory coverage, maturity, connection, review, and gap measures."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "Accessibility readiness, link health, source currency, and publication quality."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "Contributor activity by administration without individual performance ranking."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "Support and recommendation quality, reviewed corrections, source currency, response time, and fallback measures."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Success should be assessed through usefulness, access, application, reduced duplication, improved continuity, stronger connections, and evidence of better decisions—not page views alone."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Heading 1",
+        "text": "24. Early 2027 launch plan"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Back to contents"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "The expected launch window is early 2027. The target may move only when a required safety, accessibility, security, authority, or content-readiness gate is not met."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Heading 2",
+        "text": "24.1 Launch readiness gates"
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Number",
+        "text": "Staff navigation, search, learning, resources, audio, support, consultation, inventory, dashboards, and downloads pass end-to-end testing."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Number",
+        "text": "Program-owner inline editing, upload, publication, deletion, restoration, and invitation workflows pass."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Number",
+        "text": "Administration contributors can manage their own scope and cannot read or write protected content outside it."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Number",
+        "text": "Accessibility testing is complete for representative pages, media, documents, and workflows."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Number",
+        "text": "Security, privacy, upload, rate-limit, secret, recovery, and rollback checks pass."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Number",
+        "text": "Priority content is current, source-grounded, accessible, and approved."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Number",
+        "text": "The DHS-wide end-user guide, contributor orientation, and support plan are available."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Number",
+        "text": "Semantic search, recommendations, external research, and source-aware support pass quality, privacy, response-time, fallback, and authority tests."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Heading 1",
+        "text": "25. Risks and mitigations"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Back to contents"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Heading 1",
+        "text": "26. Acceptance criteria"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Back to contents"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "The early 2027 release is acceptable only when:"
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Number",
+        "text": "The build is reproducible and type checking, production build, route, link, API, workflow, accessibility, and security checks pass."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Number",
+        "text": "The landing page contains one welcoming user-guide banner with one working link to the current guide."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Number",
+        "text": "The guide includes current program screenshots and step-by-step staff and contributor instructions."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Number",
+        "text": "The old in-program operational guide and legacy One DSD guide link are removed from the staff experience."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Number",
+        "text": "Staff can complete every primary workflow without consultant access."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Number",
+        "text": "The Equity and Inclusion Operations Consultant can edit and govern the complete program."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Number",
+        "text": "Administration Equity Directors and Specialists can manage only their administration."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Number",
+        "text": "Read-only invitations grant no editing access and expire or revoke correctly."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Number",
+        "text": "“What is Equity at DHS?” audio and transcript work in the cloud, local, and offline editions where included."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Number",
+        "text": "Inventory records save, classify, retrieve, export, produce receipts, and update division dashboards."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Number",
+        "text": "Support answers can use program knowledge and current external research with citations and safe fallback."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Number",
+        "text": "Recommendations, research, and support answers remain source-grounded, reviewable, bounded, and subordinate to human authority."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Number",
+        "text": "No DHS or enterprise integration is present."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Number",
+        "text": "A tested deployment revision and rollback target are recorded."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Heading 1",
+        "text": "27. Non-goals"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Back to contents"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "One DHS is not:"
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "A DHS case, eligibility, assessment, service-authorization, claims, personnel, accommodation, complaint, or records system."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "A replacement for current DHS policy, official direction, legal advice, civil-rights processes, or person-specific decisions."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "An employee-surveillance or individual performance-ranking system."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "An unrestricted publishing system."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "A tool that allows an administration contributor to change another administration."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "Dependent on one hosting, database, storage, audio, or media vendor."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "Authorized to publish official external communications without the responsible human process."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Heading 1",
+        "text": "28. Product decision"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Back to contents"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "One DHS should proceed as a collaborative DHS-wide staff and equity-professional workspace with a controlled early 2027 launch. The program’s distinctive value is not simply that it stores information. Its value is that it connects credible knowledge, accessible learning, practical tools, administration-specific contribution, professional support, equity ecosystem visibility, and governed intelligence in one coherent experience."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "The product is successful when staff feel oriented rather than overwhelmed, equity professionals can contribute without losing local authority, leaders can see relationships and gaps without creating surveillance, and the program consistently turns knowledge into useful, accessible, accountable action."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Return to contents"
+      },
+      {
+        "kind": "table",
+        "tableNumber": 1,
+        "rows": [
+          [
+            "Version",
+            "1.0"
+          ],
+          [
+            "Evidence date",
+            "August 31, 2026"
+          ],
+          [
+            "Program owner",
+            "Equity and Inclusion Operations Consultant"
+          ],
+          [
+            "Status",
+            "Prelaunch baseline — expected early 2027"
+          ],
+          [
+            "Covers",
+            "Staff experience, protected workspace, content and media, semantic knowledge, local/offline/cloud operation, governance, accessibility, privacy, and release"
+          ]
+        ]
+      },
+      {
+        "kind": "table",
+        "tableNumber": 2,
+        "rows": [
+          [
+            "Launch position. One DHS is preparing for a phased DHS-wide launch in early 2027, subject to accessibility, security, administration onboarding, content readiness, and user acceptance."
+          ]
+        ]
+      },
+      {
+        "kind": "table",
+        "tableNumber": 3,
+        "rows": [
+          [
+            "Role",
+            "Primary value",
+            "Authorized actions"
+          ],
+          [
+            "DHS staff member",
+            "Find, learn, apply, ask, request support",
+            "Browse, search, listen, watch, download, complete learning, ask questions, submit and track consultation, add permitted inventory records"
+          ],
+          [
+            "Supervisor or leader",
+            "Prepare teams and decisions",
+            "All staff actions plus use of leadership, facilitation, learning, inventory, and work-product resources"
+          ],
+          [
+            "Equity Director or Equity Specialist",
+            "Steward administration content and improvement work",
+            "Create, edit, save, delete, upload, download, organize, review, and publish or submit content within one assigned administration"
+          ],
+          [
+            "Read-only reviewer",
+            "Review a selected page or draft",
+            "Open only the invited content for a limited period; no editing"
+          ],
+          [
+            "Equity and Inclusion Operations Consultant",
+            "Own and govern the complete program",
+            "Edit every page and element; manage media, design, layout, roles, invitations, publication, restoration, quality review, evaluations, and final authority"
+          ],
+          [
+            "Technical and accessibility maintainers",
+            "Keep the platform reliable and usable",
+            "Limited operational access assigned by the program owner; no independent content authority"
+          ]
+        ]
+      },
+      {
+        "kind": "table",
+        "tableNumber": 4,
+        "rows": [
+          [
+            "Area",
+            "Purpose"
+          ],
+          [
+            "Home",
+            "Orient staff, present the core learning path, Equity in Practice, audio and transcript, and the end-user guide"
+          ],
+          [
+            "Start",
+            "Recommend a path based on the immediate need and work role"
+          ],
+          [
+            "Learn",
+            "Provide complete courses, shorter modules, job aids, audio, video, transcripts, sources, and application"
+          ],
+          [
+            "Resources",
+            "Search and browse DHS-wide and administration-specific materials"
+          ],
+          [
+            "Inventory",
+            "Capture, classify, retrieve, connect, and report equity ecosystem work"
+          ],
+          [
+            "Support",
+            "Answer broad questions and connect staff to consultation and work products"
+          ]
+        ]
+      },
+      {
+        "kind": "table",
+        "tableNumber": 5,
+        "rows": [
+          [
+            "Mode",
+            "Purpose",
+            "Expected capability"
+          ],
+          [
+            "Offline Windows edition",
+            "Demonstration, learning, and local continuity without network dependence",
+            "Staff content, courses, media, transcripts, local workspace, and local-only drafts"
+          ],
+          [
+            "Local hosted edition",
+            "Full functional build on the program owner’s machine",
+            "Staff and protected tools, local database, media, editing, administration contribution, and testing"
+          ],
+          [
+            "Cloud edition",
+            "Shared DHS-wide access outside DHS systems",
+            "Staff access, protected administration contribution, program-owner governance, database persistence, media, invitations, inventory, consultation, and reporting"
+          ]
+        ]
+      },
+      {
+        "kind": "table",
+        "tableNumber": 6,
+        "rows": [
+          [
+            "Period",
+            "Focus",
+            "Exit evidence"
+          ],
+          [
+            "September 2026",
+            "Confirm product baseline, information architecture, administration model, and priority content",
+            "Approved PRD, route and content inventory, named administration contacts"
+          ],
+          [
+            "October 2026",
+            "Complete guide, contributor workflows, content migration, media readiness, and scoped permissions",
+            "Working staff and contributor flows; accessible content packages; administration test accounts"
+          ],
+          [
+            "November 2026",
+            "Administration pilots, source review, representation review, accessibility testing, and support simulations",
+            "Pilot findings resolved or dispositioned; cross-administration isolation proved"
+          ],
+          [
+            "December 2026",
+            "Security review, performance and stress testing, recovery rehearsal, user acceptance, and launch communications",
+            "Signed readiness record, rollback target, end-user guide, support plan, launch decision"
+          ],
+          [
+            "January–February 2027",
+            "Phased DHS-wide launch and supported adoption",
+            "Stable production release, trained contributors, active support, monitored outcomes"
+          ]
+        ]
+      },
+      {
+        "kind": "table",
+        "tableNumber": 7,
+        "rows": [
+          [
+            "Risk",
+            "Impact",
+            "Mitigation"
+          ],
+          [
+            "Content sprawl returns inside the new platform",
+            "Staff again feel lost",
+            "Enforce concise navigation, thematic families, progressive disclosure, and content lifecycle review"
+          ],
+          [
+            "Administration boundaries are unclear",
+            "Unauthorized edits or mistrust",
+            "Exact scoped authorization, test accounts, denial tests, visible scope, and program-owner review"
+          ],
+          [
+            "Staff-facing language feels impersonal or exposes internal mechanics",
+            "Reduced trust and engagement",
+            "Human-centered copy standards, user testing, and removal of internal system language from staff pages"
+          ],
+          [
+            "External research is copied rather than synthesized",
+            "Low-quality, unengaging content",
+            "Instructional-design and originality checks with source attribution"
+          ],
+          [
+            "Media lacks meaningful representation or access",
+            "Exclusion and reputational harm",
+            "Representation, accessibility, rights, and lived-experience review before publication"
+          ],
+          [
+            "Program is mistaken for a DHS system of record",
+            "Privacy and operational risk",
+            "Clear boundaries, no DHS integration, input controls, and staff training"
+          ],
+          [
+            "Too many features delay launch",
+            "Incomplete or unstable release",
+            "Phase by user value; require core workflows for launch and schedule advanced enhancements"
+          ],
+          [
+            "Contributor adoption is uneven",
+            "Stale or incomplete administration areas",
+            "Onboarding, templates, office hours, dashboards, and program-owner follow-up"
+          ]
+        ]
+      }
+    ],
+    "text": "PRODUCT REQUIREMENTS DOCUMENT\n\nOne DHS People, Access and Culture Program\n\nBenefits-Focused Product Requirements Document\n\nContents\n\nSelect a section title in Word to move directly to that part of the document.\n\n1. Executive summary\n\n2. Product vision\n\n3. Strategic benefits\n\n4. Goals and success outcomes\n\n5. Audiences and roles\n\n6. Product principles\n\n7. Information architecture\n\n8. Staff experience requirements\n\n9. Learning and multimedia requirements\n\n10. Resource Library requirements\n\n11. Equity in Practice requirements\n\n12. One DHS Support requirements\n\n13. Consultation requirements\n\n14. Equity Ecosystem Inventory requirements\n\n15. Collaboration and content authority\n\n16. Governed inline editing\n\n17. Semantic knowledge framework\n\n18. Accessibility requirements\n\n19. Privacy, security, and separation from DHS systems\n\n20. Deployment modes\n\n21. Content and data requirements\n\n22. Nonfunctional requirements\n\n23. Measurement and evaluation\n\n24. Early 2027 launch plan\n\n25. Risks and mitigations\n\n26. Acceptance criteria\n\n27. Non-goals\n\n28. Product decision\n\n1. Executive summary\n\nBack to contents\n\nOne DHS People, Access and Culture is a DHS-wide collaborative workspace that helps staff find practical resources, learn at their own pace, ask for support, apply equity perspectives, and understand how equity work connects across the Minnesota Department of Human Services.\n\nThe program addresses a persistent organizational problem: valuable knowledge, learning, tools, relationships, and improvement work often exist in separate locations, depend on personal networks, or are difficult to find when staff need them. One DHS brings those assets into a coherent experience without connecting to DHS or enterprise systems and without becoming a case, personnel, eligibility, accommodation, or official transaction system.\n\nThe product is designed to create value for two closely related audiences:\n\nAll DHS staff receive one welcoming place to learn, locate usable tools, ask broad questions, request consultation, and move from a principle to an action.\n\nEquity Directors, Equity Specialists, and other authorized equity professionals receive a governed collaborative workspace where they can contribute, update, upload, organize, and improve content for their own administration at any time, while remaining unable to change another administration’s work.\n\nThe Equity and Inclusion Operations Consultant owns the program and retains final authority over DHS-wide content, design, access, publication, quality, and administration boundaries. An initial DHS-wide launch is expected in early 2027, subject to accessibility, security, content-readiness, administration onboarding, and user-acceptance gates.\n\nFigure 1. The staff experience gives every DHS employee a calm, direct entry into learning, resources, inventory, and support.\n\n2. Product vision\n\nBack to contents\n\n2.1 Vision statement\n\nGive every DHS staff member a dependable, accessible, and practical place to connect learning, resources, equity practice, professional support, and improvement work—while giving equity professionals the governed tools to build and sustain administration-specific content together.\n\n2.2 Product promise\n\nOne DHS should help a person answer four questions quickly:\n\nWhere should I begin?\n\nWhat can help me with the work in front of me?\n\nHow can I apply what I find?\n\nWho can help when a resource is not enough?\n\n2.3 Why this program matters\n\nThe program reduces the human and organizational cost of fragmented knowledge. It creates a shared doorway without forcing every administration to erase its context. It supports consistency where DHS needs common standards and flexibility where administrations need their own examples, resources, learning, relationships, and improvement priorities.\n\n3. Strategic benefits\n\nBack to contents\n\n3.1 Benefits for all DHS staff\n\nOne clear starting point instead of multiple disconnected repositories.\n\nFaster access to practical job aids, templates, learning, recordings, and support.\n\nSelf-directed learning that can be used at the moment of need.\n\nMultiple accessible formats, including webpages, Word, PDF, PowerPoint, Excel, audio, video, captions, and transcripts.\n\nGuided recommendations that reduce the need to understand DHS organizational structure before asking for help.\n\nBroad question support that can synthesize program content and current external research without requiring private information.\n\nA visible path from immediate guidance to consultation and trackable follow-through.\n\nStronger connection between individual learning and real workplace application.\n\n3.2 Benefits for Equity Directors and Equity Specialists\n\nA durable administration workspace that can be updated without waiting for a department-wide redesign.\n\nPermission to edit, save, delete, upload, download, and organize multimodal content within the contributor’s own administration.\n\nProtection from accidental cross-administration editing.\n\nReusable DHS-wide structures for courses, job aids, resources, dashboards, consultation, accessibility, and evaluation.\n\nClear source, version, accessibility, representation, and publication history.\n\nDivision dashboards that make administration activity, gaps, relationships, duplication, and opportunities visible.\n\nRead-only invitation links for focused review without granting editing rights.\n\nA shared platform for cross-administration learning while preserving local content authority.\n\n3.3 Benefits for DHS leadership and the organization\n\nBetter visibility into the location, maturity, reach, and connections of equity work.\n\nReduced duplication and a clearer basis for deciding what to scale, connect, redesign, sustain, or resource.\n\nStronger continuity when staff or leadership changes.\n\nMore consistent accessibility, source, representation, and quality standards.\n\nPrivacy-safe insight that connects enterprise, administration, division, and staff practice without employee surveillance.\n\n4. Goals and success outcomes\n\nBack to contents\n\n4.1 Product goals\n\nGive staff a useful resource, learning path, answer, or next step within a few minutes.\n\nMake high-value equity, access, culture, leadership, and professional-development content easy to find and apply.\n\nSupport administration-specific contribution without weakening department-wide governance.\n\nTurn the Equity Ecosystem Inventory into a working data and reporting workflow rather than a static description.\n\nProvide accessible multimedia and editable work products across common office formats.\n\nUse the semantic knowledge framework, timely recommendations, and governed workflow signals to make the program more helpful, proactive, and adaptive while preserving human authority.\n\nRemain independent of DHS and enterprise systems.\n\nPrepare a stable, supportable, and accessible release for early 2027.\n\n4.2 Primary success outcomes\n\nStaff can identify a useful next step without knowing the internal program structure.\n\nEquity professionals can contribute within their administration and cannot edit elsewhere.\n\nProgram-owner changes can be drafted, previewed, published, and restored with evidence.\n\nInventory records are classifiable, retrievable, connected to dashboards, and supported by receipts.\n\nStaff questions can draw from program knowledge and current external research when appropriate.\n\nCore workflows pass keyboard, screen-reader, zoom, reflow, high-contrast, and media-access testing.\n\n5. Audiences and roles\n\nBack to contents\n\n6. Product principles\n\nBack to contents\n\n6.1 Human before system\n\nStaff-facing language must be professional, warm, clear, and supportive. Internal architecture, database behavior, privacy implementation, and program-owner deliberations should not be exposed unless they help the end user complete a task.\n\n6.2 Work before structure\n\nThe product should begin with the task a person is trying to complete, not with a long list of departments, tools, or technical capabilities.\n\n6.3 Progressive disclosure\n\nThe first view should show only the most important choices. Detailed frameworks, source lists, instructions, and advanced tools should open when requested through links, disclosures, or role-specific workspaces.\n\n6.4 Shared structure, local authority\n\nDHS-wide patterns should make the program coherent. Administration workspaces should preserve local context, examples, priorities, and content authority.\n\n6.5 Accessibility as product quality\n\nAccessibility is a design and acceptance requirement for pages, media, documents, workflows, generated outputs, and contributor tools.\n\n6.6 Evidence and improvement\n\nImportant claims, resources, recommendations, and work products should retain source, date, scope, review, and limitation information. The program should learn from aggregate use, corrections, outcomes, and gaps without profiling individual employees.\n\n7. Information architecture\n\nBack to contents\n\nThe staff experience uses six primary areas:\n\nSupporting areas include My workspace, the DHS Program and Service Map, Calendar, Equity in Practice, Equal Opportunity and Access, Language and Access Standards, feedback, consultation tracking, and the Site Map.\n\n7.1 Learning progression\n\nFoundation: access, culture, language, participation, respectful practice, and common equity concepts.\n\nIntermediate: communication, meetings, engagement, supervision, facilitation, program practice, and application tools.\n\nAdvanced: leadership, systems change, inventory, governance, measurement, strategy, policy, organizational learning, and continuity.\n\n8. Staff experience requirements\n\nBack to contents\n\n8.1 Home\n\nThe home page must:\n\nPresent a concise purpose statement and representative collaborative image.\n\nProvide direct links to Start, Learning, and Support.\n\nShow a four-part path from Foundation through Lead and improve.\n\nPresent Equity in Practice through compact disclosure rather than a visually dense page.\n\nInclude “What is Equity at DHS?” audio, download, and full transcript.\n\nInclude one welcoming banner with one link to the current DHS-wide end-user guide.\n\nKeep secondary program areas behind a disclosure.\n\n8.2 Guided Start\n\nGuided Start must accept a work need and role, then recommend a relevant path. Choices must remain changeable and must not become a permanent employee profile.\n\n8.3 Search\n\nSearch must support title, summary, body, topic, role, task, administration, division, content type, format, and semantic similarity. No-result searches must provide a next step and create an aggregate content-gap signal.\n\n8.4 My workspace\n\nMy workspace may save selected resources, learning progress, and optional preferences in the browser or an approved account store. It must avoid sensitive personal profiles and support clearing saved choices.\n\n9. Learning and multimedia requirements\n\nBack to contents\n\n9.1 Course standard\n\nComplete courses should follow the approved One DHS structure:\n\nPolished course cover with a representative image or short opening video.\n\nSix complete lessons unless another instructional structure is approved.\n\nClear learning outcomes and practical DHS application.\n\nAmerican English narration when narration is used.\n\nSynchronized auto-scrolling transcript that bolds the sentence being spoken without a green highlight.\n\nCaptions for video and complete transcripts for audio and video.\n\nIntegrated job aid and sources within the same course experience.\n\nReflection, practice, or decision activity in each lesson.\n\nResponsive, keyboard-accessible controls and visible focus.\n\n9.2 Multimedia\n\nThe program must support original and appropriately licensed images, audio, video, animation, diagrams, charts, infographics, documents, slides, spreadsheets, transcripts, captions, and audio description. Representation review must examine race, ethnicity, disability, age, gender presentation, role, setting, and power—not only numerical diversity.\n\n9.3 Contributor course authoring\n\nAuthorized contributors may edit course text, lessons, images, video, audio, transcripts, job aids, and sources within their administration. Drafts must remain private until the required review and publication step.\n\n10. Resource Library requirements\n\nBack to contents\n\nThe Resource Library must:\n\nInclude DHS-wide and administration-specific resources without confusing the two scopes.\n\nPreserve resource family, title, summary, body, audience, role, task, administration, division, format, source, date, and accessible alternatives.\n\nProvide breadcrumbs, skip links, accessible headings, and back-to-top navigation on every resource page.\n\nKeep a resource’s text, media, transcript, sources, and downloadable formats together.\n\nSupport Word, PDF, PowerPoint, Excel, audio, video, image, webpage, and external-link formats.\n\nAvoid copying an external webpage as the staff deliverable. External evidence should be synthesized into original, engaging, DHS-level content with clear attribution.\n\n11. Equity in Practice requirements\n\nBack to contents\n\nEquity in Practice is a core program pillar and must be:\n\nExplicit on the landing page.\n\nAvailable as a complete guide.\n\nEmbedded in search, recommendations, support responses, learning design, inventory analysis, and work-product review.\n\nPresented through multiple equity perspectives so practitioners can locate their own orientation and deliberately consider others.\n\nConnected to a seven-step DHS Equity Lens that moves from context and participation to options, action, accountability, learning, and redesign.\n\n12. One DHS Support requirements\n\nBack to contents\n\n12.1 Broad question support\n\nStaff may ask about any work-related topic. The support experience should:\n\nAccept practical, reflective, research-oriented, drafting, planning, learning, accessibility, culture, leadership, and unfamiliar questions.\n\nRetrieve relevant One DHS content.\n\nConduct current external research when the answer requires it.\n\nSynthesize rather than merely list links.\n\nCite sources and distinguish source authority, date, uncertainty, and limitations.\n\nOffer Word, PDF, PowerPoint, Excel, audio, visual, or video outputs when appropriate.\n\nSuggest consultation when collaboration or a work product is needed.\n\nBlock or redirect private information before submission.\n\n12.2 Voice and read-aloud\n\nVoice input and response read-aloud must be usable with keyboard and assistive technology, clearly indicate listening state, avoid retaining recordings unnecessarily, and provide a text route for every function.\n\n13. Consultation requirements\n\nBack to contents\n\nThe consultation workflow must support requests for resources, job aids, review, training, facilitation, leadership support, accessibility support, communication, learning design, research, and other work products.\n\nRequired capabilities:\n\nClear request form with non-identifying role and organization context.\n\nReference number and progress tracking.\n\nTriage, assignment, scheduling, active work, follow-up, delivery, and closure stages.\n\nAttachments only through approved, bounded, and de-identified upload controls.\n\nPrivate request detail and privacy-safe status display.\n\nReceipts for submission, stage changes, deliverables, and closure.\n\nAggregated outcome reporting without employee performance monitoring.\n\n14. Equity Ecosystem Inventory requirements\n\nBack to contents\n\nThe inventory is a working data, workflow, and reporting capability.\n\nFigure 2. The inventory begins with direct actions to add a record or view dashboards.\n\n14.1 Record model\n\nRecords may represent programs, services, policies, initiatives, people or roles, teams, relationships, funding, evidence, governance, learning, tools, operational practices, outcomes, gaps, risks, and opportunities.\n\nEach record should support:\n\nAdministration and division ownership.\n\nRecord family, type, status, maturity, population, geography, topic, and dates.\n\nPurpose, evidence, relationships, dependencies, reach, strengths, gaps, risks, and next step.\n\nSource and review information.\n\nPrivacy-safe receipt and version history.\n\nRetrieval, filtering, export, and reporting.\n\n14.2 Division dashboards\n\nDashboards must be available for each division and connected directly to inventory records. They should show clear, visually engaging summaries of coverage, status, maturity, themes, gaps, relationships, duplication, evidence, and action signals. Every chart must link back to the underlying records and remain accessible without color alone.\n\n15. Collaboration and content authority\n\nBack to contents\n\n15.1 Program owner\n\nThe Equity and Inclusion Operations Consultant has final authority across the program and can:\n\nEdit text, images, video, audio, links, design, layout, navigation, forms, workflows, templates, and structured content anywhere.\n\nCreate, upload, download, save, delete, publish, unpublish, and restore content.\n\nAssign administration-scoped contributor access.\n\nCreate and revoke read-only invitations.\n\nReview sources, accessibility, representation, releases, program learning, receipts, and outcomes.\n\nOverride or remove content when quality, safety, scope, or program integrity requires it.\n\n15.2 Administration Equity Directors and Specialists\n\nAn authorized contributor may:\n\nManage content only within one assigned administration.\n\nCreate and update administration pages, resource collections, courses, media, inventory records, dashboards, and local guidance.\n\nSave private drafts, preview staff views, complete required review, and publish or submit according to assigned authority.\n\nDownload editable versions and upload accessible alternatives.\n\nAn authorized contributor may not:\n\nEdit DHS-wide content unless separately authorized by the program owner.\n\nEdit another administration.\n\nChange role boundaries, platform policy, source authority, publication rules, or evaluation standards.\n\nGrant broader access than the contributor holds.\n\n15.3 Read-only reviewers\n\nThe program owner or authorized administration contributor may create a time-limited link to a specific page or draft. The link must provide no editing capability and must be revocable.\n\nFigure 3. Read-only invitation controls support focused review without granting editing rights.\n\n16. Governed inline editing\n\nBack to contents\n\nAuthorized editors must be able to select and edit visible text, images, media, links, and supported layout attributes from the staff-facing page.\n\nThe workflow must support:\n\nSelect visible content or design element.\n\nEdit the supported value.\n\nSave a private draft.\n\nPreview draft and published states.\n\nComplete review.\n\nPublish an explicit version.\n\nRestore an earlier version as a new recorded publication.\n\nAll edit, publication, deletion, and restoration actions must be scoped to the actor’s authority and recorded through privacy-safe receipts.\n\nFigure 4. The owner can select visible content and design elements while publication remains explicit.\n\n17. Semantic knowledge framework\n\nBack to contents\n\nThe program must maintain a governed semantic framework connecting:\n\nResources, courses, media, sources, roles, tasks, administrations, divisions, programs, services, competencies, workflows, events, consultation patterns, inventory records, outcomes, and gaps.\n\nSynonyms, related concepts, prerequisite knowledge, practical applications, authority, currency, and limitations.\n\nDHS-wide content and administration-specific context without collapsing their boundaries.\n\nThe semantic layer should improve search, recommendations, support answers, related resources, learning sequences, inventory analysis, and proactive suggestions. Generated or inferred relationships remain noncanonical until reviewed when they could affect consequential guidance.\n\n18. Accessibility requirements\n\nBack to contents\n\nThe target is WCAG 2.2 AA and applicable Section 508 expectations across staff, contributor, and generated-artifact experiences.\n\nRequired coverage includes:\n\nKeyboard-only operation and visible focus.\n\nSkip links, semantic landmarks, logical headings, breadcrumbs, and accessible names.\n\nError identification, instructions, and status announcements.\n\nZoom, reflow, text spacing, contrast, high contrast, and reduced motion.\n\nCaptions, transcripts, audio description when needed, and accessible media controls.\n\nMeaningful alternative text and decorative-image handling.\n\nAccessible Word, PDF, PowerPoint, Excel, audio, video, and downloadable templates.\n\nRepresentative testing with screen readers, magnification, keyboard, voice input, mobile, and high contrast.\n\n19. Privacy, security, and separation from DHS systems\n\nBack to contents\n\n19.1 Nonintegration requirement\n\nOne DHS must not connect to, authenticate against, write to, or exchange data with DHS or enterprise systems. Public authoritative DHS webpages may be linked as sources, but the program remains technically and operationally separate.\n\n19.2 Prohibited data\n\nThe program must not accept or retain case, eligibility, assessment, service-authorization, medical, disability, personnel, accommodation, complaint, investigation, Social Security, or other personally identifiable information.\n\n19.3 Security requirements\n\nServer-side secret storage and least-privilege runtime access.\n\nStrong authentication for protected contributor and program-owner workspaces.\n\nExact administration authorization on every protected read and write.\n\nRate limits, body limits, file-type and file-size controls, malware controls when uploads are enabled, and cost admission controls.\n\nEncrypted transport, security headers, protected cookies, CSRF protection where applicable, and logging that omits private payloads.\n\nVersioned backups, rollback targets, and tested recovery.\n\nRead-only invitation tokens that are limited, expiring, revocable, and non-editing.\n\n20. Deployment modes\n\nBack to contents\n\nThe same product intent must be available through three coordinated modes:\n\nThe database, storage, audio, and hosting providers must remain replaceable behind documented interfaces.\n\n21. Content and data requirements\n\nBack to contents\n\n21.1 Core content entities\n\nResource family and resource.\n\nCourse, lesson, activity, job aid, transcript, caption, source, and media asset.\n\nAdministration, division, program, service, work area, role, task, and competency.\n\nInventory record, relationship, evidence, action, receipt, and dashboard measure.\n\nSupport question, sanitized context, answer, source, output request, and usefulness response.\n\nConsultation request, stage, work product, update, outcome, and closure.\n\nDraft, review, publication, rollback, contributor, invitation, and authority boundary.\n\nQuality evaluation, reviewed correction, approved program learning, and aggregate program signal.\n\n21.2 Version and provenance\n\nPublished content must retain version, source, reviewer, authority, scope, date, checksum or equivalent binding, accessible alternatives, and rollback history. Draft content must be distinguishable from published content at every stage.\n\n22. Nonfunctional requirements\n\nBack to contents\n\n22.1 Reliability\n\nMonthly staff availability target of at least 99.5 percent for the cloud edition.\n\nHealth and readiness endpoints that distinguish application health from dependency readiness.\n\nDurable, idempotent critical writes and recoverable publication workflows.\n\nRecorded deployment revision, artifact identity, and rollback target.\n\n22.2 Performance\n\nPrimary cached pages usable within two seconds under ordinary network conditions.\n\nSearch feedback normally within two seconds.\n\nSupport requests acknowledged promptly with truthful progress and fallback states.\n\nStream media and downloads without loading complete files into application memory.\n\n22.3 Scalability and maintainability\n\nStateless web instances and durable shared state.\n\nStrict TypeScript checking and documented verification commands.\n\nBounded background work for long-running generation and media tasks.\n\nReplaceable adapters and stable content schemas.\n\nNo generated artifacts, temporary files, or secrets treated as source code.\n\n23. Measurement and evaluation\n\nBack to contents\n\nThe program may collect privacy-safe aggregate measures such as:\n\nPage and resource use.\n\nSearch success and no-result searches.\n\nCourse starts, completions, application responses, and job-aid downloads.\n\nAudio starts and transcript opens.\n\nSupport response usefulness and consultation conversion.\n\nConsultation stage time, delivered work products, and voluntary outcome feedback.\n\nInventory coverage, maturity, connection, review, and gap measures.\n\nAccessibility readiness, link health, source currency, and publication quality.\n\nContributor activity by administration without individual performance ranking.\n\nSupport and recommendation quality, reviewed corrections, source currency, response time, and fallback measures.\n\nSuccess should be assessed through usefulness, access, application, reduced duplication, improved continuity, stronger connections, and evidence of better decisions—not page views alone.\n\n24. Early 2027 launch plan\n\nBack to contents\n\nThe expected launch window is early 2027. The target may move only when a required safety, accessibility, security, authority, or content-readiness gate is not met.\n\n24.1 Launch readiness gates\n\nStaff navigation, search, learning, resources, audio, support, consultation, inventory, dashboards, and downloads pass end-to-end testing.\n\nProgram-owner inline editing, upload, publication, deletion, restoration, and invitation workflows pass.\n\nAdministration contributors can manage their own scope and cannot read or write protected content outside it.\n\nAccessibility testing is complete for representative pages, media, documents, and workflows.\n\nSecurity, privacy, upload, rate-limit, secret, recovery, and rollback checks pass.\n\nPriority content is current, source-grounded, accessible, and approved.\n\nThe DHS-wide end-user guide, contributor orientation, and support plan are available.\n\nSemantic search, recommendations, external research, and source-aware support pass quality, privacy, response-time, fallback, and authority tests.\n\n25. Risks and mitigations\n\nBack to contents\n\n26. Acceptance criteria\n\nBack to contents\n\nThe early 2027 release is acceptable only when:\n\nThe build is reproducible and type checking, production build, route, link, API, workflow, accessibility, and security checks pass.\n\nThe landing page contains one welcoming user-guide banner with one working link to the current guide.\n\nThe guide includes current program screenshots and step-by-step staff and contributor instructions.\n\nThe old in-program operational guide and legacy One DSD guide link are removed from the staff experience.\n\nStaff can complete every primary workflow without consultant access.\n\nThe Equity and Inclusion Operations Consultant can edit and govern the complete program.\n\nAdministration Equity Directors and Specialists can manage only their administration.\n\nRead-only invitations grant no editing access and expire or revoke correctly.\n\n“What is Equity at DHS?” audio and transcript work in the cloud, local, and offline editions where included.\n\nInventory records save, classify, retrieve, export, produce receipts, and update division dashboards.\n\nSupport answers can use program knowledge and current external research with citations and safe fallback.\n\nRecommendations, research, and support answers remain source-grounded, reviewable, bounded, and subordinate to human authority.\n\nNo DHS or enterprise integration is present.\n\nA tested deployment revision and rollback target are recorded.\n\n27. Non-goals\n\nBack to contents\n\nOne DHS is not:\n\nA DHS case, eligibility, assessment, service-authorization, claims, personnel, accommodation, complaint, or records system.\n\nA replacement for current DHS policy, official direction, legal advice, civil-rights processes, or person-specific decisions.\n\nAn employee-surveillance or individual performance-ranking system.\n\nAn unrestricted publishing system.\n\nA tool that allows an administration contributor to change another administration.\n\nDependent on one hosting, database, storage, audio, or media vendor.\n\nAuthorized to publish official external communications without the responsible human process.\n\n28. Product decision\n\nBack to contents\n\nOne DHS should proceed as a collaborative DHS-wide staff and equity-professional workspace with a controlled early 2027 launch. The program’s distinctive value is not simply that it stores information. Its value is that it connects credible knowledge, accessible learning, practical tools, administration-specific contribution, professional support, equity ecosystem visibility, and governed intelligence in one coherent experience.\n\nThe product is successful when staff feel oriented rather than overwhelmed, equity professionals can contribute without losing local authority, leaders can see relationships and gaps without creating surveillance, and the program consistently turns knowledge into useful, accessible, accountable action.\n\nReturn to contents\n\nVersion | 1.0\n\nEvidence date | August 31, 2026\n\nProgram owner | Equity and Inclusion Operations Consultant\n\nStatus | Prelaunch baseline — expected early 2027\n\nCovers | Staff experience, protected workspace, content and media, semantic knowledge, local/offline/cloud operation, governance, accessibility, privacy, and release\n\nLaunch position. One DHS is preparing for a phased DHS-wide launch in early 2027, subject to accessibility, security, administration onboarding, content readiness, and user acceptance.\n\nRole | Primary value | Authorized actions\n\nDHS staff member | Find, learn, apply, ask, request support | Browse, search, listen, watch, download, complete learning, ask questions, submit and track consultation, add permitted inventory records\n\nSupervisor or leader | Prepare teams and decisions | All staff actions plus use of leadership, facilitation, learning, inventory, and work-product resources\n\nEquity Director or Equity Specialist | Steward administration content and improvement work | Create, edit, save, delete, upload, download, organize, review, and publish or submit content within one assigned administration\n\nRead-only reviewer | Review a selected page or draft | Open only the invited content for a limited period; no editing\n\nEquity and Inclusion Operations Consultant | Own and govern the complete program | Edit every page and element; manage media, design, layout, roles, invitations, publication, restoration, quality review, evaluations, and final authority\n\nTechnical and accessibility maintainers | Keep the platform reliable and usable | Limited operational access assigned by the program owner; no independent content authority\n\nArea | Purpose\n\nHome | Orient staff, present the core learning path, Equity in Practice, audio and transcript, and the end-user guide\n\nStart | Recommend a path based on the immediate need and work role\n\nLearn | Provide complete courses, shorter modules, job aids, audio, video, transcripts, sources, and application\n\nResources | Search and browse DHS-wide and administration-specific materials\n\nInventory | Capture, classify, retrieve, connect, and report equity ecosystem work\n\nSupport | Answer broad questions and connect staff to consultation and work products\n\nMode | Purpose | Expected capability\n\nOffline Windows edition | Demonstration, learning, and local continuity without network dependence | Staff content, courses, media, transcripts, local workspace, and local-only drafts\n\nLocal hosted edition | Full functional build on the program owner’s machine | Staff and protected tools, local database, media, editing, administration contribution, and testing\n\nCloud edition | Shared DHS-wide access outside DHS systems | Staff access, protected administration contribution, program-owner governance, database persistence, media, invitations, inventory, consultation, and reporting\n\nPeriod | Focus | Exit evidence\n\nSeptember 2026 | Confirm product baseline, information architecture, administration model, and priority content | Approved PRD, route and content inventory, named administration contacts\n\nOctober 2026 | Complete guide, contributor workflows, content migration, media readiness, and scoped permissions | Working staff and contributor flows; accessible content packages; administration test accounts\n\nNovember 2026 | Administration pilots, source review, representation review, accessibility testing, and support simulations | Pilot findings resolved or dispositioned; cross-administration isolation proved\n\nDecember 2026 | Security review, performance and stress testing, recovery rehearsal, user acceptance, and launch communications | Signed readiness record, rollback target, end-user guide, support plan, launch decision\n\nJanuary–February 2027 | Phased DHS-wide launch and supported adoption | Stable production release, trained contributors, active support, monitored outcomes\n\nRisk | Impact | Mitigation\n\nContent sprawl returns inside the new platform | Staff again feel lost | Enforce concise navigation, thematic families, progressive disclosure, and content lifecycle review\n\nAdministration boundaries are unclear | Unauthorized edits or mistrust | Exact scoped authorization, test accounts, denial tests, visible scope, and program-owner review\n\nStaff-facing language feels impersonal or exposes internal mechanics | Reduced trust and engagement | Human-centered copy standards, user testing, and removal of internal system language from staff pages\n\nExternal research is copied rather than synthesized | Low-quality, unengaging content | Instructional-design and originality checks with source attribution\n\nMedia lacks meaningful representation or access | Exclusion and reputational harm | Representation, accessibility, rights, and lived-experience review before publication\n\nProgram is mistaken for a DHS system of record | Privacy and operational risk | Clear boundaries, no DHS integration, input controls, and staff training\n\nToo many features delay launch | Incomplete or unstable release | Phase by user value; require core workflows for launch and schedule advanced enhancements\n\nContributor adoption is uneven | Stale or incomplete administration areas | Onboarding, templates, office hours, dashboards, and program-owner follow-up"
+  },
+  "extractedTextCharacters": 34212,
+  "extractedTextSha256": "EE1B8809F8A484BFBA1D1EFED4A6C62814D1143EC978662DFAE0917ADF8BB1B5"
+}

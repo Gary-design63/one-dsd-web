@@ -1,0 +1,300 @@
+import type { CoursePack } from "../../source-types";
+
+// Disability Inclusion, Level 2 (Applied inclusion), Module 1: Access Needs and Individualized Support.
+// Program-authored for supervisors, human resources, program, intake, direct-support and care-coordination staff.
+const pack: CoursePack = {
+  course: {
+    id: "di-access-needs-and-individualized-support",
+    indexNumber: 1106,
+    seriesLabel: "Disability Inclusion · Applied inclusion",
+    title: "Access Needs and Individualized Support",
+    subtitle: "Tell equal treatment from equitable access, ask about needs without asking for a diagnosis, and keep the person in charge of their own decisions.",
+    scope: "For supervisors, human resources staff, program staff, educators, customer-service teams, direct-support professionals, care coordinators and intake teams. Four lessons with scenarios, flashcards, a sorting activity and knowledge checks. Participation in this program is voluntary and does not replace required training.",
+    treatment: "Four lessons of 12 to 13 minutes, each with a scenario, a knowledge check and one applied next step",
+    duration: "45–55 minutes",
+    author: "One DHS — People, Access and Culture",
+    coverImage: "/images/covers/family-natural-supports.jpg",
+    coverAlt: "A family talks at a kitchen table in late afternoon light.",
+    introTranscript: "Most access failures in human services are not refusals. They are a standard process applied to a person it was never designed for, and a well-meaning helper who answered for someone instead of with them. This course is about the alternative: noticing when the same treatment produces an unequal result, asking about what would work without asking for private medical detail, and keeping the participant or employee as the decision maker. You will practice each of those in situations drawn from county eligibility work, waiver support planning and workforce programs.",
+    kind: "course",
+    contentType: "practice",
+    learning: {
+      objectives: [
+        "Distinguish equal treatment from equitable access in a specific service or workplace decision and name the adjustment that produces the equitable result.",
+        "Ask about practical access needs using questions that focus on the task and the barrier, not on diagnosis or personal history.",
+        "Apply person-centered planning and supported decision-making principles when a family member, guardian or support worker is present.",
+        "Recognize autonomy, dignity of risk, privacy and informed choice in a situation where staff feel pressure to decide for someone.",
+        "Redirect a conversation to the participant respectfully and without embarrassing the person who was speaking for them.",
+      ],
+      evidence: [
+        "Four scenario decisions with explanations of why each option supports or undermines the person's access and agency.",
+        "A completed sort of equal-treatment and equitable-access responses, and four knowledge checks.",
+        "One applied next step: a real intake, interview or planning conversation you will run differently and what changed.",
+      ],
+      appliedNextStep: "Choose one conversation you will have this month where a participant or employee arrives with a helper, a form or a fixed time slot. Plan how you will address the person first, ask about access without asking for a diagnosis, and record only what the person agreed to share.",
+    },
+    governance: {
+      contentOwner: "One DHS — People, Access and Culture",
+      reviewers: ["Equity and Inclusion Operations Consultant"],
+      evidenceDate: "Public sources checked at authoring",
+      lastReviewed: "At authoring",
+      nextReview: "At the agreed review point and whenever an update trigger occurs",
+      updateTriggers: ["Change in ADA, Section 504 or Section 508 guidance", "Change in DHS accessibility or language access standards", "Feedback from disabled staff or participants that a scenario reads as unrealistic or stigmatizing"],
+      relatedDoor: "Accommodation decisions, guardianship questions and data privacy questions go to human resources, the ADA coordinator, the responsible program office or the agency's data practices staff; this course prepares the conversation, it does not decide it.",
+      toolkitQuestion: "Whose decision is this, what does the person need to make it, and what are we asking for that we do not need?",
+      status: "reviewed",
+    },
+    lessons: [
+      {
+        id: "access-needs-and-individualized-support-1",
+        number: 1,
+        title: "Equal treatment and equitable access",
+        summary: "See why the same process does not produce the same chance, and learn to name the adjustment that does.",
+        minutes: 12,
+        learning: {
+          objective: "Distinguish equal treatment from equitable access in a specific decision and name the adjustment that produces an equitable result.",
+          takeaways: [
+            "Equal treatment applies the same process to everyone; equitable access gives everyone the same real chance to complete it.",
+            "A standard process is a set of assumptions about time, format, place and communication. When those assumptions do not fit a person, the process is the barrier.",
+            "Adjusting a process for one person is usually a sign that the default needs to change for everyone.",
+          ],
+          evidence: "A completed sort of equal-treatment and equitable-access responses, a knowledge check and one process you will examine.",
+          appliedNextStep: "Take one process you run, an interview slot, a form, a call-back window, and list the assumptions it makes about the person on the other side. Circle the ones that would stop someone.",
+        },
+        scenario: {
+          context: "A county eligibility worker schedules every renewal interview in a twenty-minute phone slot. A participant who has a brain injury asks for the questions in writing ahead of time and a longer call. The worker's lead says, “We give everyone the same twenty minutes. If we start making exceptions it is not fair to the others.”",
+          prompt: "What is the most accurate response to the lead?",
+          options: [
+            { label: "Agree. Fairness means the same slot for everyone, and the participant can call back if they run out of time.", response: "This treats a design choice, the twenty-minute slot, as if it were a fairness principle. The participant will run out of time on the second call too, and the renewal may lapse for a reason that has nothing to do with eligibility." },
+            { label: "Explain that the slot is a scheduling default, not a rule of fairness, send the questions ahead and book the longer call. Then ask whether the questions could be sent ahead for everyone.", response: "Equitable access gives this participant the same real chance to complete the renewal that others already have. Sending the questions ahead is also a better default; most participants would answer faster and more accurately with them.", recommended: true },
+            { label: "Ask the participant for medical documentation of the brain injury before changing the slot.", response: "A request for a longer call and written questions is modest and costs nothing. Demanding documentation for it delays access, collects private information no one needs, and tells the participant the process does not trust them." },
+          ],
+        },
+        transfer: {
+          prompt: "Where does your team say “we treat everyone the same” about something that is really a design choice?",
+          options: ["Name the process and the assumption it makes about time, format or place", "Write the adjustment one person asked for and whether it could become the default", "Bring the default to the person who owns the process"],
+        },
+        blocks: [
+          { type: "text", heading: "Same process, unequal chance", body: "<p>“We treat everyone the same” sounds like fairness, and for some decisions it is. Eligibility rules, standards of conduct and the content of a job are applied the same way to everyone. But the way people reach those rules is not neutral. A twenty-minute phone slot assumes a person can process spoken questions quickly and answer from memory. A form assumes the person can read it and write on it. A walk-in window assumes the person can wait in a crowded lobby. Each of those assumptions is a design choice, and each will fit most people and stop some.</p><p>Equitable access means giving each person the same real chance to complete the process. Sometimes that takes an adjustment: more time, a different format, a different place, a different way to communicate. The rule does not change. The standard does not drop. What changes is the route to it.</p><p>The distinction matters in human services because so many of the people we serve arrive through processes built for a typical applicant who does not exist. Staff who can tell the difference between the rule and the route stop treating adjustments as exceptions to fairness and start treating them as what fairness requires.</p>" },
+          { type: "list", heading: "Assumptions hidden in ordinary processes", items: ["Time: fixed appointment lengths, short call-back windows, deadlines that assume a person can gather documents quickly.", "Format: paper forms, image-only notices, phone-only lines, online-only portals.", "Place: a lobby, a second-floor room, an office an hour from the nearest bus.", "Communication: spoken English at a normal pace, no written follow-up, one channel.", "Memory and sequence: multi-step instructions given once, verbally, with no summary.", "Companions: assuming a person either has help or does not need any."] },
+          { type: "leaderMove", heading: "Name the rule, then name the route", control: "You control whether a request for an adjustment is described as an exception to fairness or as a change to the route that leaves the rule intact.", failure: "Do not answer “can we give this person more time” with “that would not be fair to the others.” Ask instead what the others get from the time they have, and whether this person is getting it.", next: "The next time an adjustment is requested on your team, say out loud which part is the rule and which part is the route." },
+          { type: "sorting", id: "access-needs-and-individualized-support-1-sort", heading: "Equal treatment or equitable access?", categories: ["Equal treatment", "Equitable access"], items: [
+            { text: "Every applicant gets the same eligibility criteria.", category: "Equal treatment" },
+            { text: "An applicant who uses a screen reader gets the same application as a tagged, accessible document.", category: "Equitable access" },
+            { text: "All new employees complete the same required training.", category: "Equal treatment" },
+            { text: "An employee with a processing disability receives the training content in advance and extra time to complete it.", category: "Equitable access" },
+            { text: "Every renewal interview is booked in a twenty-minute slot, no exceptions.", category: "Equal treatment" },
+            { text: "A participant who asked for a longer call and written questions receives both.", category: "Equitable access" },
+          ] },
+          { type: "flashcards", heading: "Four ideas to keep straight", cards: [
+            { front: "Equal treatment", back: "<p>The same rule, standard or criteria applied to everyone. Appropriate for eligibility rules, conduct standards and job content.</p>" },
+            { front: "Equitable access", back: "<p>The same real chance to meet the rule. Often requires an adjustment to time, format, place or communication.</p>" },
+            { front: "The rule and the route", back: "<p>The rule is what a person must meet. The route is how they reach it. Adjustments change the route, not the rule.</p>" },
+            { front: "A default worth changing", back: "<p>If three people have asked for the same adjustment, the default is the barrier. Change the default so the fourth person does not have to ask.</p>" },
+            { front: "What equity does not mean", back: "<p>It does not mean lowering a standard, waiving a requirement or deciding that a person cannot meet the rule. It means removing what stops them from trying.</p>" },
+          ] },
+          { type: "knowledgeCheck", id: "access-needs-and-individualized-support-1-check", question: "A workforce program requires all participants to attend an in-person orientation on a Tuesday morning. A participant who receives dialysis on Tuesdays asks to attend a different session. Which statement is accurate?", options: [
+            { text: "The orientation requirement is the rule, and the Tuesday time is the route. Offering another session keeps the rule and changes the route.", correct: true },
+            { text: "Allowing a different session would be unfair to the participants who rearranged their lives to attend Tuesday.", correct: false },
+            { text: "The participant should be excused from orientation altogether so the schedule is not a problem.", correct: false },
+          ], feedbackCorrect: "Yes. Orientation is required of everyone; the Tuesday slot is a scheduling choice. Another session gives the participant the same chance to complete it.", feedbackIncorrect: "Separate what is required, the orientation, from how it is scheduled. Excusing the person removes an opportunity; refusing the change removes access. Changing the route does neither." },
+          { type: "statement", body: "Equity is not a softer standard. It is the same standard, reachable by more people." },
+        ],
+      },
+      {
+        id: "access-needs-and-individualized-support-2",
+        number: 2,
+        title: "Asking about access needs without demanding personal information",
+        summary: "Ask what would work, focus on the task, and collect only what you need to provide the support.",
+        minutes: 12,
+        learning: {
+          objective: "Ask about practical access needs with questions that focus on the task and the barrier, and explain what will happen with what the person shares.",
+          takeaways: [
+            "The useful question is about the task: “What would make this work for you?” not “What is your disability?”",
+            "You need to know the access need to provide the support; you do not need to know the diagnosis, the history or the cause.",
+            "Tell the person what will be recorded, who will see it and what it will be used for, before they decide what to share.",
+          ],
+          evidence: "A scenario decision, a knowledge check and a rewritten set of intake questions.",
+          appliedNextStep: "Rewrite one question your team asks about disability so it asks about the task and the barrier instead. Add one sentence that says what happens with the answer.",
+        },
+        scenario: {
+          context: "A participant calls a county office to schedule a MnCHOICES assessment and says, “I need someone to explain things slowly and I do not do well with a lot of paper.” The scheduler opens the intake record and asks, “Okay, what is your diagnosis, and who is your doctor?”",
+          prompt: "What should the scheduler have said instead?",
+          options: [
+            { label: "“Thank you for telling me. So the assessor can plan, would you like the questions sent ahead of time, and would a longer appointment help? Is there anything else that would make it go well?”", response: "The participant already named the access need. The scheduler's job is to turn it into a plan: format, time, pace. No diagnosis is needed to do any of that.", recommended: true },
+            { label: "“I understand. Can you tell me a little about your condition so I can note it for the assessor?”", response: "Softer wording, same request. The assessor needs to know how to run the appointment, not the person's medical condition. Collecting it here also creates a record the person did not choose to make." },
+            { label: "“We will send the standard packet and the assessor can adjust when they arrive.”", response: "This moves the adjustment to the last possible moment and ignores what the person just said about paper. The packet will arrive in the format they told you does not work." },
+          ],
+        },
+        transfer: {
+          prompt: "What does your intake or interview process ask about disability, and what does it actually need to know?",
+          options: ["List each disability-related question on one form or script you use", "Mark which answers you use to provide a support and which you never use", "Propose removing or rewording the ones you never use"],
+        },
+        blocks: [
+          { type: "text", heading: "Ask about the task, not the person", body: "<p>Staff often ask for a diagnosis because it feels like the responsible thing to do, as if knowing the condition would tell them what the person needs. It rarely does. Two people with the same diagnosis can have opposite access needs, and the person in front of you is the only reliable source for theirs. The question that produces useful information is about the task: “What would make this appointment work for you?” “Is there a format you prefer for the forms?” “Would more time help?”</p><p>There is also a privacy reason. When you collect a diagnosis you do not need, you create a record that follows the person, that other staff may read, and that the person may not have chosen to share if they had known where it would go. In DHS work, health and disability information is protected, and the safest way to protect it is to not collect it in the first place unless a specific program purpose requires it. When it does, the responsible office, not the front counter, should ask.</p><p>Tell people what happens with what they share. One sentence is enough: “I will note that you would like questions in advance and a longer appointment, so the assessor can plan. I will not record anything else you have told me.” People decide what to share more comfortably when they know where it goes.</p>" },
+          { type: "tabs", heading: "Rewrite the question", tabs: [
+            { label: "Time", body: "<p><strong>Instead of:</strong> “Do you have a condition that affects concentration?”</p><p><strong>Ask:</strong> “Would a longer appointment or a break partway through help?”</p>" },
+            { label: "Format", body: "<p><strong>Instead of:</strong> “Are you visually impaired?”</p><p><strong>Ask:</strong> “What format works best for you for written information: print, large print, electronic, audio or something else?”</p>" },
+            { label: "Communication", body: "<p><strong>Instead of:</strong> “Are you hard of hearing?”</p><p><strong>Ask:</strong> “How do you prefer to communicate with us: phone, video, email, text or in person? Is there anything we should arrange, like an interpreter or captions?”</p>" },
+            { label: "Support", body: "<p><strong>Instead of:</strong> “Do you have a guardian?”</p><p><strong>Ask:</strong> “Would you like anyone to join us, and what would you like their role to be?”</p>" },
+            { label: "Place", body: "<p><strong>Instead of:</strong> “Can you walk?”</p><p><strong>Ask:</strong> “Would you prefer to meet at our office, at your home or by video? Is there anything about the location we should know?”</p>" },
+          ] },
+          { type: "leaderMove", heading: "Collect what you will use", control: "You control which disability-related questions are on the scripts and forms your team uses, and whether the answers ever change anything.", failure: "Do not keep a diagnosis field on an intake form because it has always been there. If no support decision depends on the answer, the field is a privacy risk with no benefit.", next: "Pull one script or form this week. For every disability question, write the support decision that depends on the answer. Remove or reword the ones with no decision attached." },
+          { type: "artifact", kind: "plain-language-flyer", label: "Practical artifact", title: "Tell us what would help", summary: "A short card, in print and on the appointment confirmation, that invites the person to name an access need before the meeting.", fields: [
+            { label: "Opening line", value: "We want this appointment to work for you. Tell us anything that would help, and we will plan for it." },
+            { label: "Choices offered", value: "More time. Questions or forms sent ahead. Large print, electronic, audio or another format. An interpreter or captions. A quieter room. A different location or a video visit." },
+            { label: "What we record", value: "We write down what you ask for so the person meeting you can prepare. We do not ask for or record a diagnosis." },
+            { label: "Contact", value: "One named person, a phone number, an email address and a text option, with a note that you can ask at any point, including during the appointment." },
+          ], action: "Attach the card to your unit's appointment confirmation and post it at the counter. Track how many requests arrive before appointments instead of during them." },
+          { type: "flashcards", heading: "What you need, what you do not", cards: [
+            { front: "You need to know", back: "<p>The access need: format, time, communication method, support person, location. This is what lets you plan.</p>" },
+            { front: "You do not need to know", back: "<p>The diagnosis, the cause, the history, the medications, the prognosis. None of these tell you how to run the appointment.</p>" },
+            { front: "When documentation is appropriate", back: "<p>Some program eligibility and formal accommodation decisions do require documentation. Those requests come from the responsible office, are limited to what the decision requires, and are handled under privacy rules. They are not a front-counter question.</p>" },
+            { front: "The one-sentence notice", back: "<p>“I will note what you asked for so we can plan. I will not record anything else.” Say it before the person decides what to share.</p>" },
+            { front: "When a person volunteers a diagnosis", back: "<p>Thank them, and steer back to the task: “That helps me understand. What would make this work best for you?” Do not write down more than the access need unless a program purpose requires it.</p>" },
+          ] },
+          { type: "knowledgeCheck", id: "access-needs-and-individualized-support-2-check", question: "An employee tells their supervisor, “I have trouble following instructions given only out loud.” Which response focuses on the access need?", options: [
+            { text: "“Is that related to a learning disability or something else? I want to make sure I document it correctly.”", correct: false },
+            { text: "“Thank you for telling me. Would it help if I followed up each assignment with a short written summary, and is there anything else that would work better?”", correct: true },
+            { text: "“I will send you to human resources so they can figure out what you qualify for.”", correct: false },
+          ], feedbackCorrect: "Yes. The employee named the barrier and the supervisor moved directly to what would work. If a formal accommodation process is later needed, human resources or the ADA coordinator handles the documentation, not the supervisor.", feedbackIncorrect: "The employee described a task-level barrier. The supervisor does not need a category or a diagnosis to send written summaries, and sending someone away to “qualify” for a simple adjustment delays access and signals distrust." },
+          { type: "quote", text: "Every time a new worker asked what was wrong with me, I had to decide again whether to tell my whole story to a stranger just to get a form in large print. The first person who asked what format I wanted got the answer in five seconds.", cite: "Composite participant perspective, illustrative" },
+        ],
+      },
+      {
+        id: "access-needs-and-individualized-support-3",
+        number: 3,
+        title: "Person-centered planning and supported decision-making",
+        summary: "Keep the person at the center of their own plan, and treat family members, guardians and support workers as supporters rather than substitutes.",
+        minutes: 13,
+        learning: {
+          objective: "Apply person-centered planning and supported decision-making principles when a family member, guardian or support worker is present, including redirecting the conversation to the participant.",
+          takeaways: [
+            "Person-centered planning starts from what matters to the person, in their words, and builds services around it rather than fitting the person into a service.",
+            "Supported decision-making means the person makes the decision with help they choose; substituted decision-making means someone else decides. Most people, including many with guardians, can do the first with the right support.",
+            "A guardianship order does not remove a person's voice from a conversation about their own life. Check what the order covers, and keep the person as the primary party either way.",
+          ],
+          evidence: "A scenario decision about a family member who answers every question, a knowledge check and one planning conversation you will run differently.",
+          appliedNextStep: "Before your next planning or intake conversation where a helper will be present, ask the participant privately or at the start how they would like the helper to take part, and follow that instruction for the whole conversation.",
+        },
+        scenario: {
+          context: "A young man with an intellectual disability comes to enroll in a workforce program with his mother. He wants to work in a warehouse near his home. Every time the intake worker asks him a question, his mother answers first: his schedule, his transportation, his strengths, what he can and cannot do. He looks at the table.",
+          prompt: "What does the intake worker do?",
+          options: [
+            { label: "Keep going. The mother knows the details and the intake will be faster and more accurate.", response: "Faster, maybe. Accurate about what the mother believes, not about what the participant wants. The plan will belong to her, and the young man has just learned that this program will not talk to him." },
+            { label: "Ask the mother to wait outside so the participant can answer for himself.", response: "This overcorrects. The participant may want his mother there; she may be his chosen supporter. Removing her without asking replaces one decision made for him with another." },
+            { label: "Turn to the participant and say, “I want to hear from you first, and your mom can add anything after. Would that work?” Then ask each question to him, give him time, and offer information in a form he can use.", response: "This keeps the participant as the party to his own enrollment, keeps his mother in a supporting role he agreed to, and does not embarrass anyone. Pace, plain language and written or pictured options help him answer himself.", recommended: true },
+          ],
+        },
+        transfer: {
+          prompt: "In your planning or intake conversations, who usually answers, and who should?",
+          options: ["Notice in your next three conversations how many questions the participant answers directly", "Try the opening line: “I want to hear from you first, and then anyone you brought can add to it”", "Ask a participant afterward whether the plan says what they wanted"],
+        },
+        blocks: [
+          { type: "text", heading: "The person is the plan's author", body: "<p>Person-centered planning is not a form. It is a stance: the person's own goals, preferences, relationships and definition of a good life drive the plan, and services are arranged to support that life rather than the other way round. In Minnesota's disability services, this is built into how support planning and assessments are meant to work, and it is a central commitment of the state's Olmstead Plan, which aims for people with disabilities to live, learn, work and enjoy life in the most integrated setting they choose. Staff who run intake, assessment and planning conversations are where that commitment either becomes real or does not.</p><p>Supported decision-making is the practice that keeps the person in the author's chair. The person chooses supporters they trust, family, friends, a support worker, an advocate, who help them understand information, weigh options and communicate a choice. The person still decides. This differs from substituted decision-making, where someone else decides on the person's behalf. Even where a court has appointed a guardian, the order covers specific decisions; it does not cover the conversation, and it does not make the person's own preferences irrelevant. Ask what the order covers. Then talk to the person.</p><p>The hardest moments are not with people who refuse to include the participant. They are with loving family members who have spoken for someone for years and do it without thinking. Redirecting well means keeping them in a role they can be proud of, supporter, while returning the questions to the person.</p>" },
+          { type: "list", heading: "Redirecting to the person, step by step", ordered: true, items: ["Open by addressing the participant and asking how they would like the person they brought to take part.", "Ask each question to the participant, by name, with eye contact, and wait. Silence is thinking time, not a cue for someone else to fill.", "If the helper answers, acknowledge and return: “Thanks, that is helpful. Marcus, is that right? What would you add?”", "Offer information in a form the participant can use: plain language, one option at a time, written or pictured choices, a summary to take home.", "Check the decision with the participant directly: “So you want to look at warehouse jobs first. Did I get that right?”", "Close by naming the supporter's role going forward, as the participant defined it, and record whose decision it was."] },
+          { type: "accordion", heading: "Who is in the room, and what is their role?", items: [
+            { title: "The participant", body: "<p>The decision maker and the plan's author. Every question goes to them first. Their words, including their goals and their objections, go in the record as theirs.</p>" },
+            { title: "A chosen supporter", body: "<p>A family member, friend or advocate the participant asked to be there. Helps the person understand, remember and communicate. Does not decide. Ask the participant what they want the supporter to do, and hold to it.</p>" },
+            { title: "A guardian or conservator", body: "<p>Holds legal authority over specific decisions named in the order. Confirm what the order covers rather than assuming it covers everything. The participant's preferences still matter and still belong in the plan, and many decisions in an ordinary intake fall outside the order.</p>" },
+            { title: "Direct-support staff or a case manager", body: "<p>Knows the person's routines and supports, and can be a valuable source, after the participant. Should not be asked to answer for the person's preferences or goals.</p>" },
+            { title: "You", body: "<p>You run the conversation. You decide who gets asked first, how long the pauses are, what format the information comes in, and whose answer is recorded as the decision.</p>" },
+          ] },
+          { type: "leaderMove", heading: "Return the question", control: "You control who you ask, how long you wait, and whose answer you write down.", failure: "Do not let a whole intake happen with the participant silent because the helper was efficient. Do not correct the helper in a way that shames them; they have usually been doing this out of love and habit.", next: "Use “I want to hear from you first” at the start of your next planning conversation, and return at least one answered-for question to the participant." },
+          { type: "flashcards", heading: "Terms that shape the plan", cards: [
+            { front: "Person-centered planning", back: "<p>Planning that starts from what matters to the person, in their words, and arranges services around that life. The person is the author; staff are the scribe and the resource finder.</p>" },
+            { front: "Supported decision-making", back: "<p>The person makes the decision with help from supporters they choose. Help can mean explaining options, taking time, using pictures or plain language, or thinking out loud together.</p>" },
+            { front: "Substituted decision-making", back: "<p>Someone else decides for the person. Appropriate only where a legal order or clear program rule assigns that authority, and only for the decisions it names.</p>" },
+            { front: "What a guardianship order does not do", back: "<p>It does not remove the person from the conversation, make their preferences irrelevant or cover decisions the order does not name. Ask what it covers.</p>" },
+            { front: "Most integrated setting", back: "<p>The Olmstead principle that people with disabilities should be able to live, work and take part in community life alongside people without disabilities, in the setting they choose. Planning conversations are where choice becomes real.</p>" },
+            { front: "Dignity in redirecting", back: "<p>“Thanks, that is helpful. Marcus, what would you add?” Keeps the supporter respected and the participant central.</p>" },
+          ] },
+          { type: "knowledgeCheck", id: "access-needs-and-individualized-support-3-check", question: "A participant's guardian tells a case manager, “I make all her decisions, so you can just deal with me.” What is the most accurate response?", options: [
+            { text: "Accept it. A guardian has full authority, and the participant does not need to be included.", correct: false },
+            { text: "Ask to see what the guardianship order covers, keep the participant as the primary party in the conversation, and record her preferences as hers, whatever the decision authority turns out to be.", correct: true },
+            { text: "Refuse to speak with the guardian until the participant says it is all right.", correct: false },
+          ], feedbackCorrect: "Yes. Guardianship covers what the order says it covers. The participant's voice belongs in the plan either way, and questions about the scope of an order go to the responsible program office, not to your assumption.", feedbackIncorrect: "Neither total deference nor refusal serves the participant. Confirm the scope of the order, keep the person central, and route legal questions about authority to the responsible office." },
+        ],
+      },
+      {
+        id: "access-needs-and-individualized-support-4",
+        number: 4,
+        title: "Autonomy, dignity of risk, privacy and informed choice",
+        summary: "Support a person's right to make choices others would not make, give them what they need to make the choice informed, and protect what they tell you.",
+        minutes: 12,
+        learning: {
+          objective: "Recognize autonomy, dignity of risk, privacy and informed choice in a situation where staff feel pressure to decide for someone, and choose the response that supports the person's decision.",
+          takeaways: [
+            "Dignity of risk is the idea that a life with no chance of failure is not a full life. Adults without disabilities take risks every day; disabled people have the same right.",
+            "A choice is informed only when the person had the information in a form they could use, the time to consider it and the freedom to say no.",
+            "Privacy is part of dignity. What a person shares with you about their body, mind or life is theirs; where it goes is your responsibility.",
+          ],
+          evidence: "A scenario decision about a choice staff disagree with, a knowledge check and a written reflection on a risk you would take that you might not allow someone else.",
+          appliedNextStep: "Think of a decision you have seen staff make for a participant “for their own good.” Write down what information, in what format, would have let the person make it themselves, and who could have provided it.",
+        },
+        scenario: {
+          context: "A woman on a disability waiver wants to move out of a group home into her own apartment. She has a history of forgetting to take medication. Her support team is worried. In the planning meeting, a team member says, “We cannot in good conscience support this until she proves she can manage her meds on her own.”",
+          prompt: "What is the response that respects autonomy and dignity of risk?",
+          options: [
+            { label: "Agree. Safety comes first, and the team has a duty to prevent harm.", response: "The team has a duty to support her decision and to reduce risk, not to veto the decision until risk is zero. “Prove it first” is a standard adults without disabilities never have to meet before moving." },
+            { label: "Support the move, and work with her on what would make medication manageable in the apartment: reminders, a pharmacy that packages by dose, a daily check-in she chooses. Make sure she understands the risks in a form she can use, and record that the decision is hers.", response: "This is supported decision-making applied to risk. The concern is real, so the team plans for it with her rather than using it against her. The choice stays hers, and it is informed.", recommended: true },
+            { label: "Support the move but do not mention the medication concern, since raising it might discourage her.", response: "An informed choice requires the information. Withholding a real risk to protect someone from discouragement treats them as unable to handle the truth about their own life." },
+          ],
+        },
+        transfer: {
+          prompt: "Which risk would you take yourself that you have seen staff prevent a participant from taking?",
+          options: ["Name the risk and the reason staff gave", "Write what supports would have made it manageable instead of forbidden", "Notice who in your setting gets the final word on a participant's choices, and whether it should be them"],
+        },
+        blocks: [
+          { type: "text", heading: "The right to a life with risk in it", body: "<p>Every adult makes choices others think are unwise: a job with an uncertain future, a move far from family, a diet, a relationship. We call this autonomy and we do not ask people to earn it. People with disabilities are routinely asked to earn it, to prove they can manage a risk before they are allowed to take it, by staff who would never accept the same test themselves. Dignity of risk is the name for the alternative: the recognition that overprotection is its own harm, and that the chance to try, fail and try again is part of a full life.</p><p>Dignity of risk does not mean indifference. It means the team's energy goes into making a chosen risk manageable rather than into preventing the choice. It also means the person must understand the risk, which is where informed choice comes in. A choice is informed when the person received the relevant information in a form they could use, had time to consider it, could ask questions and knew they could say no. A signature on a form the person could not read is consent in name only.</p><p>Privacy sits alongside these. Much of what people tell us in this work is intimate: health, money, relationships, fears. It is protected by law, and it is protected by professional habit: not discussing a participant where others can hear, not sharing more than the next person needs, not recording more than the program requires. When someone entrusts you with private information to get support, protecting it is part of the support.</p>" },
+          { type: "accordion", heading: "Four principles, tested in practice", items: [
+            { title: "Autonomy", body: "<p><strong>Test:</strong> Would an adult without a disability have to ask permission for this? If not, the participant should not either. Your role is support, not approval.</p>" },
+            { title: "Dignity of risk", body: "<p><strong>Test:</strong> Is the team working to make the chosen path safer, or to close it? Reminders, backup plans and check-ins the person agrees to are support. “Prove it first” is a barrier.</p>" },
+            { title: "Informed choice", body: "<p><strong>Test:</strong> Could the person explain the options and the main risks back to you in their own words? If not, the information has not been delivered yet, however many pages were handed over.</p>" },
+            { title: "Privacy", body: "<p><strong>Test:</strong> Does the person know what you recorded, who can see it and why? Would you be comfortable if they heard how their situation was discussed in the hallway?</p>" },
+          ] },
+          { type: "leaderMove", heading: "Plan for the risk, not against the choice", control: "You control whether a safety concern becomes a condition the person must satisfy or a problem the team solves with them.", failure: "Do not turn “we are worried about X” into “not until X is fixed.” Do not withhold a real risk from the person to avoid a hard conversation.", next: "In your next planning conversation where staff are worried, ask the group: “What would make this manageable?” before anyone says “not yet.”" },
+          { type: "statement", body: "Overprotection is not the safe choice. It is a choice with its own harm, made by someone other than the person who lives with it." },
+          { type: "flashcards", heading: "Practices that protect choice and privacy", cards: [
+            { front: "Explain risk in usable form", back: "<p>One risk at a time, in plain words, with what could happen and what could reduce it. Ask the person to say it back. Offer it in writing or pictures to keep.</p>" },
+            { front: "Say no is an option", back: "<p>Consent that cannot be refused is not consent. Tell people plainly that they can decline, change their mind or ask for more time, and mean it.</p>" },
+            { front: "Record the decision as theirs", back: "<p>“She chose to move to her own apartment. The team discussed medication management with her and she chose the following supports.” Not: “Team agreed to allow move.”</p>" },
+            { front: "Need-to-know", back: "<p>Share only what the next person needs to provide their part of the support. A transportation provider needs the pickup time, not the diagnosis.</p>" },
+            { front: "Where you talk", back: "<p>Not in the lobby, not in the hallway, not with the door open. Privacy is physical before it is procedural.</p>" },
+            { front: "Where to take a question", back: "<p>Questions about what the law requires you to record, share or protect go to the program's data practices or privacy staff. Do not guess in either direction.</p>" },
+          ] },
+          { type: "knowledgeCheck", id: "access-needs-and-individualized-support-4-check", question: "A participant signs a service agreement after a case manager hands her a twelve-page document and says, “Sign here and here.” She has told the case manager before that she cannot read long documents. Which statement is accurate?", options: [
+            { text: "The agreement is valid and the choice is informed, because she signed it.", correct: false },
+            { text: "The choice is not informed. The information was never delivered in a form she could use, so the signature does not show she understood or agreed.", correct: true },
+            { text: "The case manager should have signed on her behalf to save time.", correct: false },
+          ], feedbackCorrect: "Yes. A signature is evidence of informed choice only when the person could take in what they were signing. The fix is a plain-language summary, time, questions answered and a clear option to decline.", feedbackIncorrect: "Ask what the person actually understood. A form she cannot read, signed under a pointed finger, is consent in name only, and signing for her replaces her choice with someone else's." },
+        ],
+      },
+    ],
+  },
+  jobAid: {
+    title: "Access needs and individualized support",
+    subtitle: "A one-page reminder for intake, planning and supervision conversations",
+    quote: "Same rule, different route. Ask about the task. Talk to the person. Plan for the risk, not against the choice.",
+    use: {
+      purpose: "Keep the person at the center of any conversation where a process, a helper or a worry could take their place.",
+      remember: ["Equal treatment is the same rule; equitable access is the same real chance to meet it.", "You need the access need, not the diagnosis. Say what you will record.", "Every question goes to the participant first; supporters support, they do not substitute.", "A choice is informed only if the person had usable information, time and the freedom to say no."],
+      doNext: "Rewrite one intake question so it asks about the task, and open your next planning conversation by asking the participant how they want their helper to take part.",
+    },
+    sections: [
+      { heading: "Before the conversation", items: ["Send the questions or forms ahead in the format the person chose.", "Book the time the person asked for, not the default slot.", "Ask how the person wants anyone they bring to take part.", "Check what a guardianship order covers instead of assuming it covers everything."] },
+      { heading: "During the conversation", items: ["Ask about the task: “What would make this work for you?”", "Address the participant by name, wait through the silence, and return answered-for questions.", "Explain options one at a time and ask the person to say them back.", "Tell the person what you will record and who will see it."] },
+      { heading: "When staff are worried about a choice", items: ["Ask: would an adult without a disability need permission for this?", "Ask: what would make this manageable? before anyone says not yet.", "Give the person the real risk in a form they can use, and record the decision as theirs.", "Take questions about legal authority, data and records to the responsible office."] },
+    ],
+  },
+  sources: [
+    { title: "ADA.gov, Effective Communication", href: "https://www.ada.gov/topics/effective-communication/", note: "How public entities are expected to communicate with people with disabilities as effectively as with others, including giving primary consideration to the person's preferred method." },
+    { title: "ADA National Network", href: "https://adata.org/", note: "Guidance and training on ADA requirements for state and local government programs and services." },
+    { title: "Minnesota Olmstead Plan", href: "https://mn.gov/dhs/general-public/about-dhs/olmstead/", note: "Minnesota's plan for people with disabilities to live, learn, work and enjoy life in the most integrated setting they choose." },
+    { title: "Minnesota Council on Disability", href: "https://www.disability.state.mn.us/", note: "State council offering technical assistance on disability access, rights and policy in Minnesota." },
+    { title: "U.S. Department of Health and Human Services, Office for Civil Rights", href: "https://www.hhs.gov/civil-rights/", note: "Section 504 and civil-rights protections in health and human services programs, including nondiscrimination on the basis of disability." },
+    { title: "Job Accommodation Network", href: "https://askjan.org/", note: "Free guidance on workplace accommodations and the conversation between employees and employers about access needs." },
+  ],
+};
+
+export default pack;

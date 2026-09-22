@@ -1,0 +1,27 @@
+Local consultant access verification — September 6, 2026
+
+Confirmed in the local preview at 127.0.0.1:3222:
+The existing configured owner key successfully opens the consultant workspace.
+The signed-in workforce map remains accessible after a full page reload.
+No access key was replaced or disclosed. No live deployment was made.
+
+Corrections:
+The native sign-in form was submitting Origin: null while the application used
+Referrer-Policy: no-referrer. Same-origin mutation protection correctly returned
+403. Referrer-Policy is now same-origin, retaining no referrer for external sites
+while allowing the local form to identify its origin.
+Login and logout return to the validated browser origin, rather than Next's
+internal localhost origin. Origin validation remains required.
+Workforce routes are now included in the validated consultant return paths.
+
+Verification:
+24 focused security, response-header, and workforce tests passed.
+Browser sign-in returned 303 and the consultant page returned 200.
+
+Page-edit persistence is NOT verified or enabled:
+PAC_RUNTIME_DATABASE_URL connects successfully, but pac.surface_definitions,
+pac.surface_revisions and pac.surface_publication_decisions are absent.
+The preview still uses static content. The save/reload/restore test cannot run
+until the required schema, dependencies and content publication setup are ready.
+Do not equate file-backed operational workspace storage with saved page editing.
+No migrations or content-source switches were applied during this check.

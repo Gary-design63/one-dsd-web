@@ -1,0 +1,20 @@
+Share-link check on https://one-dhs-pac.vercel.app, run 2026-09-11T13:14:47Z from GitHub runner
+Workflow: .github/workflows/share-link-test.yml, run https://github.com/alphaequity123-afk/one-dhs-equity-resource/actions/runs/34603161396
+Result: all three links open their own resource only
+
+course: Accessibility Basics
+  Started from: https://one-dhs-pac.vercel.app/courses/di-accessibility-basics?originArea=workforce_equity&task=design-role
+  Share link:   https://one-dhs-pac.vercel.app/courses/di-accessibility-basics
+  HTTP 200; opens=yes, noPersonalContext=yes, showsThisResource=yes, anchorPresent=yes, otherResourcesAbsent=yes, shareControlPresent=yes
+
+library resource: How to use this program
+  Started from: https://one-dhs-pac.vercel.app/library/lm-how-this-program-works/?q=my%20supervisor%20said&originArea=workforce_equity
+  Share link:   https://one-dhs-pac.vercel.app/library/lm-how-this-program-works
+  HTTP 200; opens=yes, noPersonalContext=yes, showsThisResource=yes, anchorPresent=yes, otherResourcesAbsent=yes, shareControlPresent=yes
+
+podcast: DHS equity policy and toolkit
+  Started from: https://one-dhs-pac.vercel.app/learn?originArea=workforce_equity&task=design-role#podcast-equity-toolkit
+  Share link:   https://one-dhs-pac.vercel.app/learn?view=one_dsd#podcast-equity-toolkit
+  HTTP 200; opens=yes, noPersonalContext=yes, showsThisResource=yes, anchorPresent=yes, otherResourcesAbsent=yes, shareControlPresent=yes
+
+email request: HTTP 200 {"ok":true,"trackingId":"ZZGKZ9"}  (sent to the owner through /api/sp-clone-request -> Resend)

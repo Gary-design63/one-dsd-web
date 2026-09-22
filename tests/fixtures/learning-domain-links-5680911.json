@@ -1,0 +1,44 @@
+[
+  {
+    "id": "introduction",
+    "domains": [
+      "policy-program-service",
+      "culture-trust"
+    ]
+  },
+  {
+    "id": "foundation",
+    "domains": [
+      "access-language"
+    ]
+  },
+  {
+    "id": "intercultural",
+    "domains": [
+      "culture-trust",
+      "community-engagement"
+    ]
+  },
+  {
+    "id": "application",
+    "domains": [
+      "policy-program-service",
+      "workforce",
+      "community-engagement"
+    ]
+  },
+  {
+    "id": "leadership",
+    "domains": [
+      "culture-trust",
+      "workforce"
+    ]
+  },
+  {
+    "id": "systems",
+    "domains": [
+      "leadership-systems",
+      "measurement"
+    ]
+  }
+]

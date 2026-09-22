@@ -1,0 +1,246 @@
+{
+  "schemaVersion": "1.0.0",
+  "capturedOn": "2026-09-04",
+  "sourceId": "local-equitable-hiring-retention-rubric",
+  "title": "Equitable Hiring and Retention Review Rubric",
+  "sourceType": "docx",
+  "sourceFileName": "equitable-hiring-retention-rubric.docx",
+  "sourceBytes": 11244,
+  "sourceSha256": "968315D2DF9968BC27F9B63EB60D92B4AB941AF9889C7BD554C51C1684840791",
+  "ownerApproval": "owner_approved_for_ingestion",
+  "staffRelease": "not_staff_released",
+  "snapshotSanitization": "Private Windows user-folder prefixes are removed; the original file hash remains unchanged.",
+  "extraction": {
+    "format": "docx",
+    "documentProperties": {
+      "title": null,
+      "subject": null,
+      "author": "Un-named",
+      "lastModifiedBy": "Un-named",
+      "created": "2026-07-04T02:46:36+00:00",
+      "modified": "2026-07-04T02:46:36+00:00"
+    },
+    "paragraphCount": 43,
+    "tableCount": 0,
+    "blocks": [
+      {
+        "kind": "paragraph",
+        "style": null,
+        "text": "One DSD People, Access and Culture Program — DEIA Practice Toolkit"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Heading 1",
+        "text": "Equitable Hiring and Retention Review Rubric"
+      },
+      {
+        "kind": "paragraph",
+        "style": null,
+        "text": "A systems check on who gets hired, developed, retained, and advanced."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Heading 2",
+        "text": "Purpose"
+      },
+      {
+        "kind": "paragraph",
+        "style": null,
+        "text": "Review the tools that shape workforce decisions - position descriptions, screening, interviews, onboarding, development - for avoidable barriers, including barriers for candidates and staff with disabilities. This tool reviews systems; individual personnel decisions remain with HR and management."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Heading 2",
+        "text": "When to use this tool"
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Paragraph",
+        "text": "Writing or revising a position description or posting."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Paragraph",
+        "text": "Designing interviews, scoring rubrics, or screening criteria."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Paragraph",
+        "text": "Reviewing why hiring, retention, or advancement patterns look uneven."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Heading 2",
+        "text": "Position descriptions and postings"
+      },
+      {
+        "kind": "paragraph",
+        "style": null,
+        "text": "☐  Requirements are actual requirements - not inherited wish lists that screen out capable people"
+      },
+      {
+        "kind": "paragraph",
+        "style": null,
+        "text": "☐  Degree and years-of-experience demands are justified or replaced with demonstrable skills"
+      },
+      {
+        "kind": "paragraph",
+        "style": null,
+        "text": "☐  Plain language throughout; jargon and insider acronyms removed"
+      },
+      {
+        "kind": "paragraph",
+        "style": null,
+        "text": "☐  Accommodation statement is prominent, welcoming, and true"
+      },
+      {
+        "kind": "paragraph",
+        "style": null,
+        "text": "☐  Posting travels beyond the usual channels - community organizations, disability employment networks"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Heading 2",
+        "text": "Screening and interviews"
+      },
+      {
+        "kind": "paragraph",
+        "style": null,
+        "text": "☐  Criteria and scoring anchors are written before reviewing any candidate"
+      },
+      {
+        "kind": "paragraph",
+        "style": null,
+        "text": "☐  Panels are diverse, and every panelist uses the same questions and rubric"
+      },
+      {
+        "kind": "paragraph",
+        "style": null,
+        "text": "☐  Interview logistics are accessible by default: format choices, materials in advance, accessible locations and platforms"
+      },
+      {
+        "kind": "paragraph",
+        "style": null,
+        "text": "☐  Questions test the job, not cultural polish - “culture fit” is replaced by defined, job-relevant values"
+      },
+      {
+        "kind": "paragraph",
+        "style": null,
+        "text": "☐  Notes record evidence against criteria, not impressions"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Heading 2",
+        "text": "Onboarding, development, retention"
+      },
+      {
+        "kind": "paragraph",
+        "style": null,
+        "text": "☐  Accommodations process is fast, respectful, and does not depend on self-advocacy stamina"
+      },
+      {
+        "kind": "paragraph",
+        "style": null,
+        "text": "☐  Development opportunities and stretch assignments are posted, not quietly handed out"
+      },
+      {
+        "kind": "paragraph",
+        "style": null,
+        "text": "☐  Mentorship is open to all - see the program's voluntary mentorship strand"
+      },
+      {
+        "kind": "paragraph",
+        "style": null,
+        "text": "☐  Exit and stay patterns are reviewed by group at the aggregate level, and findings produce system changes"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Heading 2",
+        "text": "Review record"
+      },
+      {
+        "kind": "paragraph",
+        "style": null,
+        "text": "Tool or step reviewed:"
+      },
+      {
+        "kind": "paragraph",
+        "style": null,
+        "text": "_______________________________________________________________________________"
+      },
+      {
+        "kind": "paragraph",
+        "style": null,
+        "text": "_______________________________________________________________________________"
+      },
+      {
+        "kind": "paragraph",
+        "style": null,
+        "text": "Barriers found and changes made:"
+      },
+      {
+        "kind": "paragraph",
+        "style": null,
+        "text": "_______________________________________________________________________________"
+      },
+      {
+        "kind": "paragraph",
+        "style": null,
+        "text": "_______________________________________________________________________________"
+      },
+      {
+        "kind": "paragraph",
+        "style": null,
+        "text": "Next review date and owner:"
+      },
+      {
+        "kind": "paragraph",
+        "style": null,
+        "text": "_______________________________________________________________________________"
+      },
+      {
+        "kind": "paragraph",
+        "style": null,
+        "text": "_______________________________________________________________________________"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Heading 2",
+        "text": "Related One DSD program resources"
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Paragraph",
+        "text": "Resource Library: HR management and development collection"
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Paragraph",
+        "text": "How the Consultant Works - hiring, retention, contracts, and procurement work area"
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Paragraph",
+        "text": "Leadership Learning Hub: supervisor practices"
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Paragraph",
+        "text": "Engagement & Development: mentorship strand"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Heading 2",
+        "text": "Boundaries"
+      },
+      {
+        "kind": "paragraph",
+        "style": null,
+        "text": "Do not record client, case, medical, legal, or other identifying information in this document. Tribal Nation consultation follows established government-to-government channels. This tool supports staff judgment; it does not replace program, legal, HR, or leadership responsibility. For tailored guidance, request a consultation with the Equity and Inclusion Operations Consultant."
+      }
+    ],
+    "text": "One DSD People, Access and Culture Program — DEIA Practice Toolkit\n\nEquitable Hiring and Retention Review Rubric\n\nA systems check on who gets hired, developed, retained, and advanced.\n\nPurpose\n\nReview the tools that shape workforce decisions - position descriptions, screening, interviews, onboarding, development - for avoidable barriers, including barriers for candidates and staff with disabilities. This tool reviews systems; individual personnel decisions remain with HR and management.\n\nWhen to use this tool\n\nWriting or revising a position description or posting.\n\nDesigning interviews, scoring rubrics, or screening criteria.\n\nReviewing why hiring, retention, or advancement patterns look uneven.\n\nPosition descriptions and postings\n\n☐  Requirements are actual requirements - not inherited wish lists that screen out capable people\n\n☐  Degree and years-of-experience demands are justified or replaced with demonstrable skills\n\n☐  Plain language throughout; jargon and insider acronyms removed\n\n☐  Accommodation statement is prominent, welcoming, and true\n\n☐  Posting travels beyond the usual channels - community organizations, disability employment networks\n\nScreening and interviews\n\n☐  Criteria and scoring anchors are written before reviewing any candidate\n\n☐  Panels are diverse, and every panelist uses the same questions and rubric\n\n☐  Interview logistics are accessible by default: format choices, materials in advance, accessible locations and platforms\n\n☐  Questions test the job, not cultural polish - “culture fit” is replaced by defined, job-relevant values\n\n☐  Notes record evidence against criteria, not impressions\n\nOnboarding, development, retention\n\n☐  Accommodations process is fast, respectful, and does not depend on self-advocacy stamina\n\n☐  Development opportunities and stretch assignments are posted, not quietly handed out\n\n☐  Mentorship is open to all - see the program's voluntary mentorship strand\n\n☐  Exit and stay patterns are reviewed by group at the aggregate level, and findings produce system changes\n\nReview record\n\nTool or step reviewed:\n\n_______________________________________________________________________________\n\n_______________________________________________________________________________\n\nBarriers found and changes made:\n\n_______________________________________________________________________________\n\n_______________________________________________________________________________\n\nNext review date and owner:\n\n_______________________________________________________________________________\n\n_______________________________________________________________________________\n\nRelated One DSD program resources\n\nResource Library: HR management and development collection\n\nHow the Consultant Works - hiring, retention, contracts, and procurement work area\n\nLeadership Learning Hub: supervisor practices\n\nEngagement & Development: mentorship strand\n\nBoundaries\n\nDo not record client, case, medical, legal, or other identifying information in this document. Tribal Nation consultation follows established government-to-government channels. This tool supports staff judgment; it does not replace program, legal, HR, or leadership responsibility. For tailored guidance, request a consultation with the Equity and Inclusion Operations Consultant."
+  },
+  "extractedTextCharacters": 3296,
+  "extractedTextSha256": "D59058E83B96D61BC36D9D6584A2C312DA270374C7F8E75709B9A7304059192A"
+}

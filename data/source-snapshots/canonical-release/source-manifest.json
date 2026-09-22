@@ -1,0 +1,10 @@
+{
+  "generatedAt": "2026-07-28T16:35:00.000Z",
+  "catalogPath": "data/content/catalog.jsonl",
+  "catalogSha256": "209abf97bae77b616886d5e508016ada85bfa9de4b0d6da68e1d1a6f98e9e9ed",
+  "catalogRecordCount": 524,
+  "staffCatalogRecordCount": 498,
+  "builtInRecordCount": 5,
+  "staffTransformationCount": 557,
+  "immutabilityPolicy": "The source catalog reflects the owner-authorized curated corpus; v2 disposition decisions preserve the complete 557-item review ledger."
+}

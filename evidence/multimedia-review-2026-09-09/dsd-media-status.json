@@ -1,0 +1,2137 @@
+{
+  "updatedAt": "2026-09-09T12:42:47.561Z",
+  "scope": "Saved recommendation rows only; not an all-course/all-chapter census.",
+  "totalRecords": 95,
+  "counts": {
+    "integrated": 64,
+    "retained": 30,
+    "awaiting-contributor": 1
+  },
+  "records": [
+    {
+      "recordKey": "dsd:dsd-program-hcbs-policy",
+      "title": "Home and community-based services policy and waivers",
+      "route": "/one-dsd/programs/hcbs-policy",
+      "placement": "Immediately after “Equity entry points”, before “Connected areas of work”.",
+      "purpose": "Make documentation and authorization burden visible before discussing an option.",
+      "proposedMedia": "Annotated before/after process map",
+      "deliveredMediaAndDecision": "Resource-specific HTML worked example, comparison or native data/document demonstration after equity entry points. Proposed illustration/video is delivered as a text-equivalent native companion where applicable; not claimed as a recording.",
+      "state": "integrated",
+      "source": "lib/dsd/index.ts",
+      "sourceBasis": "Sets policy for waiver and community-based services, including eligibility, service menus, rates, and provider standards. Existing entry points: Who gets which service mix and why; Burden of documentation and authorization steps; Language and format of notices; Provider capacity in different communities.",
+      "implementationFiles": [
+        "components/multimedia/dsd-program-media.tsx",
+        "components/multimedia/dsd-work-examples.tsx"
+      ],
+      "accessibility": "Native headings, lists, tables or field labels provide the content; image descriptions and source links accompany photos. No autoplay. Original learning notes and form data remain separate.",
+      "checks": {
+        "implementationFilesExist": true,
+        "behavioralSuite": "107 passing tests across DSD, engagement, exact media previews, library continuity and toolkit boundaries; not every row is independently behavior-tested",
+        "browser": "See root browser receipt; no blanket browser verification claimed here"
+      },
+      "remaining": "Any suggested recording not delivered above remains an alternative medium, not a completed recording."
+    },
+    {
+      "recordKey": "dsd:dsd-program-mnchoices-access",
+      "title": "MnCHOICES assessment and access",
+      "route": "/one-dsd/programs/mnchoices-access",
+      "placement": "Immediately after “Equity entry points”, before “Connected areas of work”.",
+      "purpose": "Connect language, access and supported decision-making with the actual assessment route.",
+      "proposedMedia": "Short scene sequence with annotated service journey",
+      "deliveredMediaAndDecision": "Resource-specific HTML worked example, comparison or native data/document demonstration after equity entry points. Proposed illustration/video is delivered as a text-equivalent native companion where applicable; not claimed as a recording.",
+      "state": "integrated",
+      "source": "lib/dsd/index.ts",
+      "sourceBasis": "Governs how people are assessed for and connected to long-term services and supports. Existing entry points: First contact in the person's language; Accessibility of the assessment process; Person-centered practice and supported decision-making; Wait times and follow-up by community.",
+      "implementationFiles": [
+        "components/multimedia/dsd-program-media.tsx",
+        "components/multimedia/dsd-work-examples.tsx"
+      ],
+      "accessibility": "Native headings, lists, tables or field labels provide the content; image descriptions and source links accompany photos. No autoplay. Original learning notes and form data remain separate.",
+      "checks": {
+        "implementationFilesExist": true,
+        "behavioralSuite": "107 passing tests across DSD, engagement, exact media previews, library continuity and toolkit boundaries; not every row is independently behavior-tested",
+        "browser": "See root browser receipt; no blanket browser verification claimed here"
+      },
+      "remaining": "Any suggested recording not delivered above remains an alternative medium, not a completed recording."
+    },
+    {
+      "recordKey": "dsd:dsd-program-support-planning",
+      "title": "Support planning and case management",
+      "route": "/one-dsd/programs/support-planning",
+      "placement": "Immediately after “Equity entry points”, before “Connected areas of work”.",
+      "purpose": "Show how a planning conversation affects what is written in the plan.",
+      "proposedMedia": "Annotated fictional support-plan excerpt",
+      "deliveredMediaAndDecision": "Resource-specific HTML worked example, comparison or native data/document demonstration after equity entry points. Proposed illustration/video is delivered as a text-equivalent native companion where applicable; not claimed as a recording.",
+      "state": "integrated",
+      "source": "lib/dsd/index.ts",
+      "sourceBasis": "Standards and support for the people who plan services with individuals and families. Existing entry points: Plans that reflect the person's goals; Cultural and linguistic responsiveness of planning conversations; Caseload and time as equity issues.",
+      "implementationFiles": [
+        "components/multimedia/dsd-program-media.tsx",
+        "components/multimedia/dsd-work-examples.tsx"
+      ],
+      "accessibility": "Native headings, lists, tables or field labels provide the content; image descriptions and source links accompany photos. No autoplay. Original learning notes and form data remain separate.",
+      "checks": {
+        "implementationFilesExist": true,
+        "behavioralSuite": "107 passing tests across DSD, engagement, exact media previews, library continuity and toolkit boundaries; not every row is independently behavior-tested",
+        "browser": "See root browser receipt; no blanket browser verification claimed here"
+      },
+      "remaining": "Any suggested recording not delivered above remains an alternative medium, not a completed recording."
+    },
+    {
+      "recordKey": "dsd:dsd-program-positive-supports",
+      "title": "Positive supports and person-centered practice",
+      "route": "/one-dsd/programs/positive-supports",
+      "placement": "Immediately after “Equity entry points”, before “Connected areas of work”.",
+      "purpose": "Examine restriction-versus-support assumptions and whose needs the current setting serves.",
+      "proposedMedia": "Three-panel illustration with a reflection card",
+      "deliveredMediaAndDecision": "Resource-specific HTML worked example, comparison or native data/document demonstration after equity entry points. Proposed illustration/video is delivered as a text-equivalent native companion where applicable; not claimed as a recording.",
+      "state": "integrated",
+      "source": "lib/dsd/index.ts",
+      "sourceBasis": "Guidance and oversight for positive support strategies and person-centered planning. Existing entry points: Restriction versus support; Whose behavior is treated as a problem; Access to positive supports across communities.",
+      "implementationFiles": [
+        "components/multimedia/dsd-program-media.tsx",
+        "components/multimedia/dsd-work-examples.tsx"
+      ],
+      "accessibility": "Native headings, lists, tables or field labels provide the content; image descriptions and source links accompany photos. No autoplay. Original learning notes and form data remain separate.",
+      "checks": {
+        "implementationFilesExist": true,
+        "behavioralSuite": "107 passing tests across DSD, engagement, exact media previews, library continuity and toolkit boundaries; not every row is independently behavior-tested",
+        "browser": "See root browser receipt; no blanket browser verification claimed here"
+      },
+      "remaining": "Any suggested recording not delivered above remains an alternative medium, not a completed recording."
+    },
+    {
+      "recordKey": "dsd:dsd-program-olmstead",
+      "title": "Olmstead and community integration",
+      "route": "/one-dsd/programs/olmstead",
+      "placement": "Immediately after “Equity entry points”, before “Connected areas of work”.",
+      "purpose": "Connect community integration with practical options and barriers rather than a generic inclusion image.",
+      "proposedMedia": "Community-choice and barrier map",
+      "deliveredMediaAndDecision": "Resource-specific HTML worked example, comparison or native data/document demonstration after equity entry points. Proposed illustration/video is delivered as a text-equivalent native companion where applicable; not claimed as a recording.",
+      "state": "integrated",
+      "source": "lib/dsd/index.ts",
+      "sourceBasis": "Work toward services in the most integrated setting appropriate to the person. Existing entry points: Defaults that steer people to segregated settings; Community capacity by place; Data on who moves and who does not.",
+      "implementationFiles": [
+        "components/multimedia/dsd-program-media.tsx",
+        "components/multimedia/dsd-work-examples.tsx"
+      ],
+      "accessibility": "Native headings, lists, tables or field labels provide the content; image descriptions and source links accompany photos. No autoplay. Original learning notes and form data remain separate.",
+      "checks": {
+        "implementationFilesExist": true,
+        "behavioralSuite": "107 passing tests across DSD, engagement, exact media previews, library continuity and toolkit boundaries; not every row is independently behavior-tested",
+        "browser": "See root browser receipt; no blanket browser verification claimed here"
+      },
+      "remaining": "Any suggested recording not delivered above remains an alternative medium, not a completed recording."
+    },
+    {
+      "recordKey": "dsd:dsd-program-employment",
+      "title": "Employment and day services",
+      "route": "/one-dsd/programs/employment",
+      "placement": "Immediately after “Equity entry points”, before “Connected areas of work”.",
+      "purpose": "Make employment-first policy relevant to an individual's goal without predicting ability from identity or disability.",
+      "proposedMedia": "Annotated options card",
+      "deliveredMediaAndDecision": "Resource-specific HTML worked example, comparison or native data/document demonstration after equity entry points. Proposed illustration/video is delivered as a text-equivalent native companion where applicable; not claimed as a recording.",
+      "state": "integrated",
+      "source": "lib/dsd/index.ts",
+      "sourceBasis": "Employment-first practice and day service policy. Existing entry points: Competitive integrated employment as the first option; Provider practice with different communities; Outcomes by disability, race, language, and place.",
+      "implementationFiles": [
+        "components/multimedia/dsd-program-media.tsx",
+        "components/multimedia/dsd-work-examples.tsx"
+      ],
+      "accessibility": "Native headings, lists, tables or field labels provide the content; image descriptions and source links accompany photos. No autoplay. Original learning notes and form data remain separate.",
+      "checks": {
+        "implementationFilesExist": true,
+        "behavioralSuite": "107 passing tests across DSD, engagement, exact media previews, library continuity and toolkit boundaries; not every row is independently behavior-tested",
+        "browser": "See root browser receipt; no blanket browser verification claimed here"
+      },
+      "remaining": "Any suggested recording not delivered above remains an alternative medium, not a completed recording."
+    },
+    {
+      "recordKey": "dsd:dsd-program-eidbi-children",
+      "title": "Early Intensive Developmental and Behavioral Intervention and children's services",
+      "route": "/one-dsd/programs/eidbi-children",
+      "placement": "Immediately after “Equity entry points”, before “Connected areas of work”.",
+      "purpose": "Expose first-contact and provider-access questions without depicting a diagnostic process.",
+      "proposedMedia": "Illustrated family-contact journey",
+      "deliveredMediaAndDecision": "Resource-specific HTML worked example, comparison or native data/document demonstration after equity entry points. Proposed illustration/video is delivered as a text-equivalent native companion where applicable; not claimed as a recording.",
+      "state": "integrated",
+      "source": "lib/dsd/index.ts",
+      "sourceBasis": "Services for children with autism and related conditions and their families. Existing entry points: Family language and cultural context in diagnosis and planning; Provider availability by community; Trust with families who have experienced the system badly.",
+      "implementationFiles": [
+        "components/multimedia/dsd-program-media.tsx",
+        "components/multimedia/dsd-work-examples.tsx"
+      ],
+      "accessibility": "Native headings, lists, tables or field labels provide the content; image descriptions and source links accompany photos. No autoplay. Original learning notes and form data remain separate.",
+      "checks": {
+        "implementationFilesExist": true,
+        "behavioralSuite": "107 passing tests across DSD, engagement, exact media previews, library continuity and toolkit boundaries; not every row is independently behavior-tested",
+        "browser": "See root browser receipt; no blanket browser verification claimed here"
+      },
+      "remaining": "Any suggested recording not delivered above remains an alternative medium, not a completed recording."
+    },
+    {
+      "recordKey": "dsd:dsd-program-tbi-guardianship",
+      "title": "Brain injury, guardianship, and related programs",
+      "route": "/one-dsd/programs/tbi-guardianship",
+      "placement": "Immediately after “Equity entry points”, before “Connected areas of work”.",
+      "purpose": "Keep the person's role visible when discussing support, communication and presumed capability.",
+      "proposedMedia": "Supported-decision conversation cards",
+      "deliveredMediaAndDecision": "Resource-specific HTML worked example, comparison or native data/document demonstration after equity entry points. Proposed illustration/video is delivered as a text-equivalent native companion where applicable; not claimed as a recording.",
+      "state": "integrated",
+      "source": "lib/dsd/index.ts",
+      "sourceBasis": "Programs for people with brain injury and work related to guardianship and supported decision-making. Existing entry points: Supported decision-making before guardianship; Accessible communication about rights; Who is presumed capable.",
+      "implementationFiles": [
+        "components/multimedia/dsd-program-media.tsx",
+        "components/multimedia/dsd-work-examples.tsx"
+      ],
+      "accessibility": "Native headings, lists, tables or field labels provide the content; image descriptions and source links accompany photos. No autoplay. Original learning notes and form data remain separate.",
+      "checks": {
+        "implementationFilesExist": true,
+        "behavioralSuite": "107 passing tests across DSD, engagement, exact media previews, library continuity and toolkit boundaries; not every row is independently behavior-tested",
+        "browser": "See root browser receipt; no blanket browser verification claimed here"
+      },
+      "remaining": "Any suggested recording not delivered above remains an alternative medium, not a completed recording."
+    },
+    {
+      "recordKey": "dsd:dsd-program-contracts-fiscal",
+      "title": "Contracts, grants, fiscal, and capacity work",
+      "route": "/one-dsd/programs/contracts-fiscal",
+      "placement": "Immediately after “Equity entry points”, before “Connected areas of work”.",
+      "purpose": "Show how application requirements shape who can enter a funding process.",
+      "proposedMedia": "Annotated fictional solicitation and application flow",
+      "deliveredMediaAndDecision": "Resource-specific HTML worked example, comparison or native data/document demonstration after equity entry points. Proposed illustration/video is delivered as a text-equivalent native companion where applicable; not claimed as a recording.",
+      "state": "integrated",
+      "source": "lib/dsd/index.ts",
+      "sourceBasis": "Contracting, grants, rates, and capacity building for the division's providers and partners. Existing entry points: Who wins awards and who never applies; Requirements in solicitations; Reporting that shows who is served.",
+      "implementationFiles": [
+        "components/multimedia/dsd-program-media.tsx",
+        "components/multimedia/dsd-work-examples.tsx"
+      ],
+      "accessibility": "Native headings, lists, tables or field labels provide the content; image descriptions and source links accompany photos. No autoplay. Original learning notes and form data remain separate.",
+      "checks": {
+        "implementationFilesExist": true,
+        "behavioralSuite": "107 passing tests across DSD, engagement, exact media previews, library continuity and toolkit boundaries; not every row is independently behavior-tested",
+        "browser": "See root browser receipt; no blanket browser verification claimed here"
+      },
+      "remaining": "Any suggested recording not delivered above remains an alternative medium, not a completed recording."
+    },
+    {
+      "recordKey": "dsd:dsd-program-data-quality",
+      "title": "Data, quality, and evaluation",
+      "route": "/one-dsd/programs/data-quality",
+      "placement": "Immediately after “Equity entry points”, before “Connected areas of work”.",
+      "purpose": "Make the limits of disaggregation and the contribution of qualitative evidence visible.",
+      "proposedMedia": "Interactive synthetic data illustration",
+      "deliveredMediaAndDecision": "Resource-specific HTML worked example, comparison or native data/document demonstration after equity entry points. Proposed illustration/video is delivered as a text-equivalent native companion where applicable; not claimed as a recording.",
+      "state": "integrated",
+      "source": "lib/dsd/index.ts",
+      "sourceBasis": "Division data, quality assurance, and evaluation of services and outcomes. Existing entry points: Disaggregation with small-group protection; Systems built for billing rather than equity analysis; Qualitative evidence alongside numbers.",
+      "implementationFiles": [
+        "components/multimedia/dsd-program-media.tsx",
+        "components/multimedia/dsd-work-examples.tsx"
+      ],
+      "accessibility": "Native headings, lists, tables or field labels provide the content; image descriptions and source links accompany photos. No autoplay. Original learning notes and form data remain separate.",
+      "checks": {
+        "implementationFilesExist": true,
+        "behavioralSuite": "107 passing tests across DSD, engagement, exact media previews, library continuity and toolkit boundaries; not every row is independently behavior-tested",
+        "browser": "See root browser receipt; no blanket browser verification claimed here"
+      },
+      "remaining": "Any suggested recording not delivered above remains an alternative medium, not a completed recording."
+    },
+    {
+      "recordKey": "dsd:dsd-program-communications-training",
+      "title": "Training, communication, and strategic communications",
+      "route": "/one-dsd/programs/communications-training",
+      "placement": "Immediately after “Equity entry points”, before “Connected areas of work”.",
+      "purpose": "Connect plain language, accessible format and usable action in one communication.",
+      "proposedMedia": "Captioned document walkthrough",
+      "deliveredMediaAndDecision": "Resource-specific HTML worked example, comparison or native data/document demonstration after equity entry points. Proposed illustration/video is delivered as a text-equivalent native companion where applicable; not claimed as a recording.",
+      "state": "integrated",
+      "source": "lib/dsd/index.ts",
+      "sourceBasis": "Division learning, internal and external communication, and plain-language practice. Existing entry points: Plain language and accessible documents by default; Language access in every channel; Learning that is voluntary and private.",
+      "implementationFiles": [
+        "components/multimedia/dsd-program-media.tsx",
+        "components/multimedia/dsd-work-examples.tsx"
+      ],
+      "accessibility": "Native headings, lists, tables or field labels provide the content; image descriptions and source links accompany photos. No autoplay. Original learning notes and form data remain separate.",
+      "checks": {
+        "implementationFilesExist": true,
+        "behavioralSuite": "107 passing tests across DSD, engagement, exact media previews, library continuity and toolkit boundaries; not every row is independently behavior-tested",
+        "browser": "See root browser receipt; no blanket browser verification claimed here"
+      },
+      "remaining": "Any suggested recording not delivered above remains an alternative medium, not a completed recording."
+    },
+    {
+      "recordKey": "dsd:dsd-program-leadership-strategy",
+      "title": "Division leadership, legislative work, and strategy",
+      "route": "/one-dsd/programs/leadership-strategy",
+      "placement": "Immediately after “Equity entry points”, before “Connected areas of work”.",
+      "purpose": "Connect decision rights, resourcing and communication with whether practical improvements happen.",
+      "proposedMedia": "Decision and response map",
+      "deliveredMediaAndDecision": "Resource-specific HTML worked example, comparison or native data/document demonstration after equity entry points. Proposed illustration/video is delivered as a text-equivalent native companion where applicable; not claimed as a recording.",
+      "state": "integrated",
+      "source": "lib/dsd/index.ts",
+      "sourceBasis": "Division direction, legislative coordination, and the DSD equity implementation plan. Existing entry points: Decision rights and bottlenecks; Funded and staffed equity commitments; Reporting back to staff on what changed.",
+      "implementationFiles": [
+        "components/multimedia/dsd-program-media.tsx",
+        "components/multimedia/dsd-work-examples.tsx"
+      ],
+      "accessibility": "Native headings, lists, tables or field labels provide the content; image descriptions and source links accompany photos. No autoplay. Original learning notes and form data remain separate.",
+      "checks": {
+        "implementationFilesExist": true,
+        "behavioralSuite": "107 passing tests across DSD, engagement, exact media previews, library continuity and toolkit boundaries; not every row is independently behavior-tested",
+        "browser": "See root browser receipt; no blanket browser verification claimed here"
+      },
+      "remaining": "Any suggested recording not delivered above remains an alternative medium, not a completed recording."
+    },
+    {
+      "recordKey": "dsd:scenario-dsd-hiring-panel",
+      "title": "A hiring panel keeps choosing the same kind of candidate",
+      "route": "/one-dsd/scenarios/dsd-hiring-panel#situation-title",
+      "placement": "After “The situation” and before “What to notice first”; end at “Questions to ask before acting” and retain “Who to involve”.",
+      "purpose": "Separate observed evidence from impressions of fluency or familiarity.",
+      "proposedMedia": "Short panel-deliberation replay",
+      "deliveredMediaAndDecision": "Exact fictional scenario companion after the situation. Accessible-form and service-redesign include working demonstrations; policy-change/data use native interactive views. Other scenes are written comparisons/process diagrams, not recorded replays.",
+      "state": "integrated",
+      "source": "lib/dsd/index.ts",
+      "sourceBasis": "A DSD unit has filled three positions in a year. Each time, the panel chose the candidate who interviewed most fluently and had a graduate degree. Two strong internal candidates with years of direct-support and community experience did not advance past screening. First existing question: What does each requirement predict about the work?",
+      "implementationFiles": [
+        "components/multimedia/dsd-scenario-media.tsx",
+        "components/multimedia/dsd-work-examples.tsx",
+        "components/multimedia/dsd-access-demonstrations.tsx"
+      ],
+      "accessibility": "Native headings, lists, tables or field labels provide the content; image descriptions and source links accompany photos. No autoplay. Original learning notes and form data remain separate.",
+      "checks": {
+        "implementationFilesExist": true,
+        "behavioralSuite": "107 passing tests across DSD, engagement, exact media previews, library continuity and toolkit boundaries; not every row is independently behavior-tested",
+        "browser": "See root browser receipt; no blanket browser verification claimed here"
+      },
+      "remaining": "Any suggested recording not delivered above remains an alternative medium, not a completed recording."
+    },
+    {
+      "recordKey": "dsd:scenario-dsd-advancement-conversation",
+      "title": "A team member says they do not know what it takes to advance",
+      "route": "/one-dsd/scenarios/dsd-advancement-conversation#situation-title",
+      "placement": "After “The situation” and before “What to notice first”; end at “Questions to ask before acting” and retain “Who to involve”.",
+      "purpose": "Make the difference between encouragement, opportunity and classification authority concrete.",
+      "proposedMedia": "Two contrasting conversation excerpts",
+      "deliveredMediaAndDecision": "Exact fictional scenario companion after the situation. Accessible-form and service-redesign include working demonstrations; policy-change/data use native interactive views. Other scenes are written comparisons/process diagrams, not recorded replays.",
+      "state": "integrated",
+      "source": "lib/dsd/index.ts",
+      "sourceBasis": "In a stay conversation, a team member says they have never been told what the next classification requires, that visible projects go to the same two people, and that they are considering leaving. First existing question: What does the next step actually require, and is it written anywhere?",
+      "implementationFiles": [
+        "components/multimedia/dsd-scenario-media.tsx",
+        "components/multimedia/dsd-work-examples.tsx",
+        "components/multimedia/dsd-access-demonstrations.tsx"
+      ],
+      "accessibility": "Native headings, lists, tables or field labels provide the content; image descriptions and source links accompany photos. No autoplay. Original learning notes and form data remain separate.",
+      "checks": {
+        "implementationFilesExist": true,
+        "behavioralSuite": "107 passing tests across DSD, engagement, exact media previews, library continuity and toolkit boundaries; not every row is independently behavior-tested",
+        "browser": "See root browser receipt; no blanket browser verification claimed here"
+      },
+      "remaining": "Any suggested recording not delivered above remains an alternative medium, not a completed recording."
+    },
+    {
+      "recordKey": "dsd:scenario-dsd-accommodation-cliff",
+      "title": "An accommodation disappears during a leadership rotation",
+      "route": "/one-dsd/scenarios/dsd-accommodation-cliff#situation-title",
+      "placement": "After “The situation” and before “What to notice first”; end at “Questions to ask before acting” and retain “Who to involve”.",
+      "purpose": "Show how a transition can lose access even when an accommodation already exists.",
+      "proposedMedia": "Transition handoff diagram with a short scene",
+      "deliveredMediaAndDecision": "Exact fictional scenario companion after the situation. Accessible-form and service-redesign include working demonstrations; policy-change/data use native interactive views. Other scenes are written comparisons/process diagrams, not recorded replays.",
+      "state": "integrated",
+      "source": "lib/dsd/index.ts",
+      "sourceBasis": "A DSD staff member with an established accommodation is selected for an acting lead assignment in another unit. The new unit does not know about the arrangement, the cohort kickoff uses timed small-group activities with no captions, and the person quietly withdraws from the rotation. First existing question: Who owns accommodations across each transition in this pathway, by name?",
+      "implementationFiles": [
+        "components/multimedia/dsd-scenario-media.tsx",
+        "components/multimedia/dsd-work-examples.tsx",
+        "components/multimedia/dsd-access-demonstrations.tsx"
+      ],
+      "accessibility": "Native headings, lists, tables or field labels provide the content; image descriptions and source links accompany photos. No autoplay. Original learning notes and form data remain separate.",
+      "checks": {
+        "implementationFilesExist": true,
+        "behavioralSuite": "107 passing tests across DSD, engagement, exact media previews, library continuity and toolkit boundaries; not every row is independently behavior-tested",
+        "browser": "See root browser receipt; no blanket browser verification claimed here"
+      },
+      "remaining": "Any suggested recording not delivered above remains an alternative medium, not a completed recording."
+    },
+    {
+      "recordKey": "dsd:scenario-dsd-policy-change",
+      "title": "A waiver policy change is going to leadership next month",
+      "route": "/one-dsd/scenarios/dsd-policy-change#situation-title",
+      "placement": "After “The situation” and before “What to notice first”; end at “Questions to ask before acting” and retain “Who to involve”.",
+      "purpose": "Make a still-changeable policy decision and its distributed burden easier to examine.",
+      "proposedMedia": "Before/after burden map with an options table",
+      "deliveredMediaAndDecision": "Exact fictional scenario companion after the situation. Accessible-form and service-redesign include working demonstrations; policy-change/data use native interactive views. Other scenes are written comparisons/process diagrams, not recorded replays.",
+      "state": "integrated",
+      "source": "lib/dsd/index.ts",
+      "sourceBasis": "A change to documentation requirements for a waiver service is scheduled for leadership approval in four weeks. The change was designed to reduce fraud risk. No one has yet asked which families will find the new requirement hardest to meet. First existing question: Does the equity policy require a scan or a full analysis here, and who confirms that?",
+      "implementationFiles": [
+        "components/multimedia/dsd-scenario-media.tsx",
+        "components/multimedia/dsd-work-examples.tsx",
+        "components/multimedia/dsd-access-demonstrations.tsx"
+      ],
+      "accessibility": "Native headings, lists, tables or field labels provide the content; image descriptions and source links accompany photos. No autoplay. Original learning notes and form data remain separate.",
+      "checks": {
+        "implementationFilesExist": true,
+        "behavioralSuite": "107 passing tests across DSD, engagement, exact media previews, library continuity and toolkit boundaries; not every row is independently behavior-tested",
+        "browser": "See root browser receipt; no blanket browser verification claimed here"
+      },
+      "remaining": "Any suggested recording not delivered above remains an alternative medium, not a completed recording."
+    },
+    {
+      "recordKey": "dsd:scenario-dsd-service-redesign",
+      "title": "Redesigning an assessment process without adding steps",
+      "route": "/one-dsd/scenarios/dsd-service-redesign#situation-title",
+      "placement": "After “The situation” and before “What to notice first”; end at “Questions to ask before acting” and retain “Who to involve”.",
+      "purpose": "Test the difference between staff efficiency and a usable service route.",
+      "proposedMedia": "Branching service journey",
+      "deliveredMediaAndDecision": "Exact fictional scenario companion after the situation. Accessible-form and service-redesign include working demonstrations; policy-change/data use native interactive views. Other scenes are written comparisons/process diagrams, not recorded replays.",
+      "state": "integrated",
+      "source": "lib/dsd/index.ts",
+      "sourceBasis": "A DSD team is redesigning how people are assessed for services. Early drafts add a self-service online step that would save staff time. Some of the people assessed do not use English, do not have reliable internet, or need supported decision-making. First existing question: How does someone who does not use English or the internet complete this on the first try?",
+      "implementationFiles": [
+        "components/multimedia/dsd-scenario-media.tsx",
+        "components/multimedia/dsd-work-examples.tsx",
+        "components/multimedia/dsd-access-demonstrations.tsx"
+      ],
+      "accessibility": "Native headings, lists, tables or field labels provide the content; image descriptions and source links accompany photos. No autoplay. Original learning notes and form data remain separate.",
+      "checks": {
+        "implementationFilesExist": true,
+        "behavioralSuite": "107 passing tests across DSD, engagement, exact media previews, library continuity and toolkit boundaries; not every row is independently behavior-tested",
+        "browser": "See root browser receipt; no blanket browser verification claimed here"
+      },
+      "remaining": "Any suggested recording not delivered above remains an alternative medium, not a completed recording."
+    },
+    {
+      "recordKey": "dsd:scenario-dsd-engagement-late",
+      "title": "Community input requested after the decision is effectively final",
+      "route": "/one-dsd/scenarios/dsd-engagement-late#situation-title",
+      "placement": "After “The situation” and before “What to notice first”; end at “Questions to ask before acting” and retain “Who to involve”.",
+      "purpose": "Help staff describe remaining influence honestly and avoid repeating extractive requests.",
+      "proposedMedia": "Influence timeline and invitation rewrite",
+      "deliveredMediaAndDecision": "Exact fictional scenario companion after the situation. Accessible-form and service-redesign include working demonstrations; policy-change/data use native interactive views. Other scenes are written comparisons/process diagrams, not recorded replays.",
+      "state": "integrated",
+      "source": "lib/dsd/index.ts",
+      "sourceBasis": "A program change has been approved and funded. A manager asks for listening sessions with affected communities before rollout. Two of those communities were asked similar questions last year by another DHS unit and never heard what happened. First existing question: What can this engagement still change? If nothing, how will you say so honestly?",
+      "implementationFiles": [
+        "components/multimedia/dsd-scenario-media.tsx",
+        "components/multimedia/dsd-work-examples.tsx",
+        "components/multimedia/dsd-access-demonstrations.tsx"
+      ],
+      "accessibility": "Native headings, lists, tables or field labels provide the content; image descriptions and source links accompany photos. No autoplay. Original learning notes and form data remain separate.",
+      "checks": {
+        "implementationFilesExist": true,
+        "behavioralSuite": "107 passing tests across DSD, engagement, exact media previews, library continuity and toolkit boundaries; not every row is independently behavior-tested",
+        "browser": "See root browser receipt; no blanket browser verification claimed here"
+      },
+      "remaining": "Any suggested recording not delivered above remains an alternative medium, not a completed recording."
+    },
+    {
+      "recordKey": "dsd:scenario-dsd-report-back",
+      "title": "Listening sessions are done. Now what?",
+      "route": "/one-dsd/scenarios/dsd-report-back#situation-title",
+      "placement": "After “The situation” and before “What to notice first”; end at “Questions to ask before acting” and retain “Who to involve”.",
+      "purpose": "Turn rich listening notes into a specific, honest response without overpromising.",
+      "proposedMedia": "Annotated report-back example",
+      "deliveredMediaAndDecision": "Exact fictional scenario companion after the situation. Accessible-form and service-redesign include working demonstrations; policy-change/data use native interactive views. Other scenes are written comparisons/process diagrams, not recorded replays.",
+      "state": "integrated",
+      "source": "lib/dsd/index.ts",
+      "sourceBasis": "A DSD team completed listening sessions with families and providers. The notes are rich. The team is unsure what to send back and worries about promising things it cannot deliver. First existing question: What changed because of the sessions, specifically?",
+      "implementationFiles": [
+        "components/multimedia/dsd-scenario-media.tsx",
+        "components/multimedia/dsd-work-examples.tsx",
+        "components/multimedia/dsd-access-demonstrations.tsx"
+      ],
+      "accessibility": "Native headings, lists, tables or field labels provide the content; image descriptions and source links accompany photos. No autoplay. Original learning notes and form data remain separate.",
+      "checks": {
+        "implementationFilesExist": true,
+        "behavioralSuite": "107 passing tests across DSD, engagement, exact media previews, library continuity and toolkit boundaries; not every row is independently behavior-tested",
+        "browser": "See root browser receipt; no blanket browser verification claimed here"
+      },
+      "remaining": "Any suggested recording not delivered above remains an alternative medium, not a completed recording."
+    },
+    {
+      "recordKey": "dsd:scenario-dsd-accessible-form",
+      "title": "A required form cannot be completed with a screen reader",
+      "route": "/one-dsd/scenarios/dsd-accessible-form#situation-title",
+      "placement": "After “The situation” and before “What to notice first”; end at “Questions to ask before acting” and retain “Who to involve”.",
+      "purpose": "Make the barrier and the need for source ownership tangible.",
+      "proposedMedia": "Captioned demonstration of an inaccessible and corrected fictional form",
+      "deliveredMediaAndDecision": "Exact fictional scenario companion after the situation. Accessible-form and service-redesign include working demonstrations; policy-change/data use native interactive views. Other scenes are written comparisons/process diagrams, not recorded replays.",
+      "state": "integrated",
+      "source": "lib/dsd/index.ts",
+      "sourceBasis": "A provider reports that a DSD form required for authorization cannot be completed with a screen reader and is only available as a scanned image. No one on the team knows who owns the form. First existing question: Who owns this form, and do they know?",
+      "implementationFiles": [
+        "components/multimedia/dsd-scenario-media.tsx",
+        "components/multimedia/dsd-work-examples.tsx",
+        "components/multimedia/dsd-access-demonstrations.tsx"
+      ],
+      "accessibility": "Native headings, lists, tables or field labels provide the content; image descriptions and source links accompany photos. No autoplay. Original learning notes and form data remain separate.",
+      "checks": {
+        "implementationFilesExist": true,
+        "behavioralSuite": "107 passing tests across DSD, engagement, exact media previews, library continuity and toolkit boundaries; not every row is independently behavior-tested",
+        "browser": "See root browser receipt; no blanket browser verification claimed here"
+      },
+      "remaining": "Any suggested recording not delivered above remains an alternative medium, not a completed recording."
+    },
+    {
+      "recordKey": "dsd:scenario-dsd-interpreter-first-contact",
+      "title": "First contact happens in English only",
+      "route": "/one-dsd/scenarios/dsd-interpreter-first-contact#situation-title",
+      "placement": "After “The situation” and before “What to notice first”; end at “Questions to ask before acting” and retain “Who to involve”.",
+      "purpose": "Place language access at first contact rather than after a delayed callback.",
+      "proposedMedia": "Audio-and-text first-contact comparison",
+      "deliveredMediaAndDecision": "Two actual synthetic narrated English examples compare an English-only dead end with a supported first-contact arrangement. Native controls, complete matching transcripts and failure fallback; no translation or live service claimed. Provenance: additional-audio-provenance.json. Perceptual listening remains separate from waveform checks.",
+      "state": "integrated",
+      "source": "lib/dsd/index.ts",
+      "sourceBasis": "Families calling a DSD intake line reach an English-only greeting and a voicemail. Interpretation is available once a staff member calls back, often days later. First existing question: How does a person who does not use English reach a human in their language on the first try?",
+      "implementationFiles": [
+        "components/multimedia/dsd-first-contact-audio.tsx",
+        "components/multimedia/dsd-scenario-media.tsx"
+      ],
+      "accessibility": "Native headings, lists, tables or field labels provide the content; image descriptions and source links accompany photos. No autoplay. Original learning notes and form data remain separate.",
+      "checks": {
+        "implementationFilesExist": true,
+        "behavioralSuite": "107 passing tests across DSD, engagement, exact media previews, library continuity and toolkit boundaries; not every row is independently behavior-tested",
+        "browser": "See root browser receipt; no blanket browser verification claimed here"
+      },
+      "remaining": "Any suggested recording not delivered above remains an alternative medium, not a completed recording."
+    },
+    {
+      "recordKey": "dsd:scenario-dsd-team-silence",
+      "title": "The same three people speak in every team meeting",
+      "route": "/one-dsd/scenarios/dsd-team-silence#situation-title",
+      "placement": "After “The situation” and before “What to notice first”; end at “Questions to ask before acting” and retain “Who to involve”.",
+      "purpose": "Make participation conditions observable without assigning a cultural explanation to quietness.",
+      "proposedMedia": "Replayable meeting scene",
+      "deliveredMediaAndDecision": "Exact fictional scenario companion after the situation. Accessible-form and service-redesign include working demonstrations; policy-change/data use native interactive views. Other scenes are written comparisons/process diagrams, not recorded replays.",
+      "state": "integrated",
+      "source": "lib/dsd/index.ts",
+      "sourceBasis": "A DSD supervisor notices that the same three people speak in meetings while newer staff and staff from other backgrounds stay quiet. One person told the supervisor privately that speaking up once got them nowhere. First existing question: What changed in the last quarter because someone spoke up, and did the team hear about it?",
+      "implementationFiles": [
+        "components/multimedia/dsd-scenario-media.tsx",
+        "components/multimedia/dsd-work-examples.tsx",
+        "components/multimedia/dsd-access-demonstrations.tsx"
+      ],
+      "accessibility": "Native headings, lists, tables or field labels provide the content; image descriptions and source links accompany photos. No autoplay. Original learning notes and form data remain separate.",
+      "checks": {
+        "implementationFilesExist": true,
+        "behavioralSuite": "107 passing tests across DSD, engagement, exact media previews, library continuity and toolkit boundaries; not every row is independently behavior-tested",
+        "browser": "See root browser receipt; no blanket browser verification claimed here"
+      },
+      "remaining": "Any suggested recording not delivered above remains an alternative medium, not a completed recording."
+    },
+    {
+      "recordKey": "dsd:scenario-dsd-repair-after-harm",
+      "title": "A comment in a meeting landed badly and nobody addressed it",
+      "route": "/one-dsd/scenarios/dsd-repair-after-harm#situation-title",
+      "placement": "After “The situation” and before “What to notice first”; end at “Questions to ask before acting” and retain “Who to involve”.",
+      "purpose": "Practice a leader response that examines the statement without asking harmed colleagues to do the teaching.",
+      "proposedMedia": "Short pause-and-repair dialogue scene",
+      "deliveredMediaAndDecision": "Exact fictional scenario companion after the situation. Accessible-form and service-redesign include working demonstrations; policy-change/data use native interactive views. Other scenes are written comparisons/process diagrams, not recorded replays.",
+      "state": "integrated",
+      "source": "lib/dsd/index.ts",
+      "sourceBasis": "During a planning meeting, a comment about a community's habits went unchallenged. Afterward, two staff members said they felt the room had endorsed it. The person who made the comment did not realize it caused harm. First existing question: Who will name what happened and take responsibility for repair?",
+      "implementationFiles": [
+        "components/multimedia/dsd-scenario-media.tsx",
+        "components/multimedia/dsd-work-examples.tsx",
+        "components/multimedia/dsd-access-demonstrations.tsx"
+      ],
+      "accessibility": "Native headings, lists, tables or field labels provide the content; image descriptions and source links accompany photos. No autoplay. Original learning notes and form data remain separate.",
+      "checks": {
+        "implementationFilesExist": true,
+        "behavioralSuite": "107 passing tests across DSD, engagement, exact media previews, library continuity and toolkit boundaries; not every row is independently behavior-tested",
+        "browser": "See root browser receipt; no blanket browser verification claimed here"
+      },
+      "remaining": "Any suggested recording not delivered above remains an alternative medium, not a completed recording."
+    },
+    {
+      "recordKey": "dsd:scenario-dsd-leadership-bottleneck",
+      "title": "Every equity change waits for one approval that never comes",
+      "route": "/one-dsd/scenarios/dsd-leadership-bottleneck#situation-title",
+      "placement": "After “The situation” and before “What to notice first”; end at “Questions to ask before acting” and retain “Who to involve”.",
+      "purpose": "Make a process bottleneck and the cost of waiting specific enough to discuss.",
+      "proposedMedia": "Annotated decision-flow map",
+      "deliveredMediaAndDecision": "Exact fictional scenario companion after the situation. Accessible-form and service-redesign include working demonstrations; policy-change/data use native interactive views. Other scenes are written comparisons/process diagrams, not recorded replays.",
+      "state": "integrated",
+      "source": "lib/dsd/index.ts",
+      "sourceBasis": "Several DSD teams have equity improvements ready, each waiting on the same approval step. The step exists because of a past problem no one can describe. Staff have begun to treat the process as immovable. First existing question: Who actually holds the decision right for this step, and what would they need to decide?",
+      "implementationFiles": [
+        "components/multimedia/dsd-scenario-media.tsx",
+        "components/multimedia/dsd-work-examples.tsx",
+        "components/multimedia/dsd-access-demonstrations.tsx"
+      ],
+      "accessibility": "Native headings, lists, tables or field labels provide the content; image descriptions and source links accompany photos. No autoplay. Original learning notes and form data remain separate.",
+      "checks": {
+        "implementationFilesExist": true,
+        "behavioralSuite": "107 passing tests across DSD, engagement, exact media previews, library continuity and toolkit boundaries; not every row is independently behavior-tested",
+        "browser": "See root browser receipt; no blanket browser verification claimed here"
+      },
+      "remaining": "Any suggested recording not delivered above remains an alternative medium, not a completed recording."
+    },
+    {
+      "recordKey": "dsd:scenario-dsd-small-group-data",
+      "title": "Service data by race would identify a handful of people",
+      "route": "/one-dsd/scenarios/dsd-small-group-data#situation-title",
+      "placement": "After “The situation” and before “What to notice first”; end at “Questions to ask before acting” and retain “Who to involve”.",
+      "purpose": "Explain why more granular reporting can create disclosure risk without answering the work question.",
+      "proposedMedia": "Synthetic small-group disclosure illustration",
+      "deliveredMediaAndDecision": "Exact fictional scenario companion after the situation. Accessible-form and service-redesign include working demonstrations; policy-change/data use native interactive views. Other scenes are written comparisons/process diagrams, not recorded replays.",
+      "state": "integrated",
+      "source": "lib/dsd/index.ts",
+      "sourceBasis": "A DSD analyst is asked to report service outcomes by race and language for a rural county. In several groups the count is below ten. Leadership wants the numbers next week. First existing question: What is the smallest group you will report, and who set that rule?",
+      "implementationFiles": [
+        "components/multimedia/dsd-scenario-media.tsx",
+        "components/multimedia/dsd-work-examples.tsx",
+        "components/multimedia/dsd-access-demonstrations.tsx"
+      ],
+      "accessibility": "Native headings, lists, tables or field labels provide the content; image descriptions and source links accompany photos. No autoplay. Original learning notes and form data remain separate.",
+      "checks": {
+        "implementationFilesExist": true,
+        "behavioralSuite": "107 passing tests across DSD, engagement, exact media previews, library continuity and toolkit boundaries; not every row is independently behavior-tested",
+        "browser": "See root browser receipt; no blanket browser verification claimed here"
+      },
+      "remaining": "Any suggested recording not delivered above remains an alternative medium, not a completed recording."
+    },
+    {
+      "recordKey": "dsd:leadership-stage-design",
+      "title": "Design the role and posting",
+      "route": "/one-dsd/leadership?stage=design#life-cycle",
+      "placement": "Within the selected stage, after “A DSD practice situation” and before “Try it in practice”; use the existing “Create my reflection” action.",
+      "purpose": "Connect a qualification with an essential duty before accepting a familiar requirement.",
+      "proposedMedia": "Annotated posting excerpt",
+      "deliveredMediaAndDecision": "Original stage teaching, situation, actionable practice, related destination and reflection/export already provide the requested activity. Reuse avoids repeating this teaching in another diagram.",
+      "state": "retained",
+      "source": "lib/content/leadership-lifecycle.ts",
+      "sourceBasis": "What does the work actually require? Examine the difference between a necessary qualification and a familiar picture of who usually does the work. Existing situation: A DSD posting repeats a degree requirement from an earlier version. The team has not checked which duties require it or what other experience could demonstrate the capability.",
+      "implementationFiles": [
+        "lib/content/leadership-lifecycle.ts"
+      ],
+      "accessibility": "Native headings, lists, tables or field labels provide the content; image descriptions and source links accompany photos. No autoplay. Original learning notes and form data remain separate.",
+      "checks": {
+        "implementationFilesExist": true,
+        "behavioralSuite": "107 passing tests across DSD, engagement, exact media previews, library continuity and toolkit boundaries; not every row is independently behavior-tested",
+        "browser": "See root browser receipt; no blanket browser verification claimed here"
+      },
+      "remaining": "Any suggested recording not delivered above remains an alternative medium, not a completed recording."
+    },
+    {
+      "recordKey": "dsd:leadership-stage-recruit",
+      "title": "Reach and welcome applicants",
+      "route": "/one-dsd/leadership?stage=recruit#life-cycle",
+      "placement": "Within the selected stage, after “A DSD practice situation” and before “Try it in practice”; use the existing “Create my reflection” action.",
+      "purpose": "Examine discoverability and application access before inferring a lack of interest.",
+      "proposedMedia": "Outreach and access map",
+      "deliveredMediaAndDecision": "An exact stage companion is integrated between the original situation and practice; original reflection/export remains intact. Written/table/flow media is delivered, not a captioned recording.",
+      "state": "integrated",
+      "source": "lib/content/leadership-lifecycle.ts",
+      "sourceBasis": "Who can discover and navigate this opportunity? Inclusive recruitment concerns access to information, application processes, and networks as well as the reach of an announcement. Existing situation: A position reaches the same professional circles each time. Strong potential applicants may never see it or understand how their experience connects.",
+      "implementationFiles": [
+        "components/multimedia/dsd-leadership-media.tsx"
+      ],
+      "accessibility": "Native headings, lists, tables or field labels provide the content; image descriptions and source links accompany photos. No autoplay. Original learning notes and form data remain separate.",
+      "checks": {
+        "implementationFilesExist": true,
+        "behavioralSuite": "107 passing tests across DSD, engagement, exact media previews, library continuity and toolkit boundaries; not every row is independently behavior-tested",
+        "browser": "See root browser receipt; no blanket browser verification claimed here"
+      },
+      "remaining": "Any suggested recording not delivered above remains an alternative medium, not a completed recording."
+    },
+    {
+      "recordKey": "dsd:leadership-stage-interview",
+      "title": "Interview and assess fairly",
+      "route": "/one-dsd/leadership?stage=interview#life-cycle",
+      "placement": "Within the selected stage, after “A DSD practice situation” and before “Try it in practice”; use the existing “Create my reflection” action.",
+      "purpose": "Practice an evidence-based rating without interpreting identity, eye contact or cultural traits.",
+      "proposedMedia": "Shared planned panel-deliberation replay",
+      "deliveredMediaAndDecision": "An exact stage companion is integrated between the original situation and practice; original reflection/export remains intact. Written/table/flow media is delivered, not a captioned recording.",
+      "state": "integrated",
+      "source": "lib/content/leadership-lifecycle.ts",
+      "sourceBasis": "What is evidence, and what am I interpreting? A diverse panel still needs shared, job-related criteria. Cultural knowledge invites curiosity; it does not tell us why an individual behaves a particular way. Existing situation: An applicant gives a relevant example while looking down. A panel member describes the applicant as lacking confidence. The group has not connected that impression to the competency being assessed.",
+      "implementationFiles": [
+        "components/multimedia/dsd-leadership-media.tsx"
+      ],
+      "accessibility": "Native headings, lists, tables or field labels provide the content; image descriptions and source links accompany photos. No autoplay. Original learning notes and form data remain separate.",
+      "checks": {
+        "implementationFilesExist": true,
+        "behavioralSuite": "107 passing tests across DSD, engagement, exact media previews, library continuity and toolkit boundaries; not every row is independently behavior-tested",
+        "browser": "See root browser receipt; no blanket browser verification claimed here"
+      },
+      "remaining": "Any suggested recording not delivered above remains an alternative medium, not a completed recording."
+    },
+    {
+      "recordKey": "dsd:leadership-stage-onboard",
+      "title": "Welcome and orient",
+      "route": "/one-dsd/leadership?stage=onboard#life-cycle",
+      "placement": "Within the selected stage, after “A DSD practice situation” and before “Try it in practice”; use the existing “Create my reflection” action.",
+      "purpose": "Make relationships and informal process knowledge visible during welcoming.",
+      "proposedMedia": "Annotated welcome map",
+      "deliveredMediaAndDecision": "Original stage teaching, situation, actionable practice, related destination and reflection/export already provide the requested activity. Reuse avoids repeating this teaching in another diagram.",
+      "state": "retained",
+      "source": "lib/content/leadership-lifecycle.ts",
+      "sourceBasis": "What does someone need to belong and contribute? Orientation includes relationships, access, expectations, and the informal knowledge established colleagues can take for granted. Existing situation: A new DSD colleague completes required training but still does not know who can explain a cross-team process or where to ask an everyday question.",
+      "implementationFiles": [
+        "lib/content/leadership-lifecycle.ts"
+      ],
+      "accessibility": "Native headings, lists, tables or field labels provide the content; image descriptions and source links accompany photos. No autoplay. Original learning notes and form data remain separate.",
+      "checks": {
+        "implementationFilesExist": true,
+        "behavioralSuite": "107 passing tests across DSD, engagement, exact media previews, library continuity and toolkit boundaries; not every row is independently behavior-tested",
+        "browser": "See root browser receipt; no blanket browser verification claimed here"
+      },
+      "remaining": "Any suggested recording not delivered above remains an alternative medium, not a completed recording."
+    },
+    {
+      "recordKey": "dsd:leadership-stage-everyday",
+      "title": "Support everyday contribution",
+      "route": "/one-dsd/leadership?stage=everyday#life-cycle",
+      "placement": "Within the selected stage, after “A DSD practice situation” and before “Try it in practice”; use the existing “Create my reflection” action.",
+      "purpose": "Distinguish useful contribution from visibility or a preferred speaking style.",
+      "proposedMedia": "Shared planned meeting participation replay",
+      "deliveredMediaAndDecision": "An exact stage companion is integrated between the original situation and practice; original reflection/export remains intact. Written/table/flow media is delivered, not a captioned recording.",
+      "state": "integrated",
+      "source": "lib/content/leadership-lifecycle.ts",
+      "sourceBasis": "Whose work is heard, supported, and recognized? Feedback, workload, access, and recognition are repeated leadership decisions. Look at specific work and conditions rather than using a preferred communication style as the standard. Existing situation: A colleague contributes carefully considered written recommendations but speaks less in meetings. Their contribution is less visible when development opportunities are discussed.",
+      "implementationFiles": [
+        "components/multimedia/dsd-leadership-media.tsx"
+      ],
+      "accessibility": "Native headings, lists, tables or field labels provide the content; image descriptions and source links accompany photos. No autoplay. Original learning notes and form data remain separate.",
+      "checks": {
+        "implementationFilesExist": true,
+        "behavioralSuite": "107 passing tests across DSD, engagement, exact media previews, library continuity and toolkit boundaries; not every row is independently behavior-tested",
+        "browser": "See root browser receipt; no blanket browser verification claimed here"
+      },
+      "remaining": "Any suggested recording not delivered above remains an alternative medium, not a completed recording."
+    },
+    {
+      "recordKey": "dsd:leadership-stage-develop",
+      "title": "Mentor, sponsor, and develop",
+      "route": "/one-dsd/leadership?stage=develop#life-cycle",
+      "placement": "Within the selected stage, after “A DSD practice situation” and before “Try it in practice”; use the existing “Create my reflection” action.",
+      "purpose": "Make development possible through supported practice while keeping formal program eligibility separate.",
+      "proposedMedia": "Mentoring-versus-sponsorship conversation pair",
+      "deliveredMediaAndDecision": "An exact stage companion is integrated between the original situation and practice; original reflection/export remains intact. Written/table/flow media is delivered, not a captioned recording.",
+      "state": "integrated",
+      "source": "lib/content/leadership-lifecycle.ts",
+      "sourceBasis": "Can people begin growing before someone selects them? Mentoring offers perspective; sponsorship helps people access opportunities. Development should make room for self-expressed interest and different career aspirations. Existing situation: An interested employee is new to state service and cannot yet meet a formal institute's eligibility requirement. They can still develop through a supported practice opportunity.",
+      "implementationFiles": [
+        "components/multimedia/dsd-leadership-media.tsx"
+      ],
+      "accessibility": "Native headings, lists, tables or field labels provide the content; image descriptions and source links accompany photos. No autoplay. Original learning notes and form data remain separate.",
+      "checks": {
+        "implementationFilesExist": true,
+        "behavioralSuite": "107 passing tests across DSD, engagement, exact media previews, library continuity and toolkit boundaries; not every row is independently behavior-tested",
+        "browser": "See root browser receipt; no blanket browser verification claimed here"
+      },
+      "remaining": "Any suggested recording not delivered above remains an alternative medium, not a completed recording."
+    },
+    {
+      "recordKey": "dsd:leadership-stage-advance",
+      "title": "Make advancement understandable",
+      "route": "/one-dsd/leadership?stage=advance#life-cycle",
+      "placement": "Within the selected stage, after “A DSD practice situation” and before “Try it in practice”; use the existing “Create my reflection” action.",
+      "purpose": "Clarify readiness without promising selection or confusing opportunity with potential.",
+      "proposedMedia": "Role-to-evidence matrix walkthrough",
+      "deliveredMediaAndDecision": "An exact stage companion is integrated between the original situation and practice; original reflection/export remains intact. Written/table/flow media is delivered, not a captioned recording.",
+      "state": "integrated",
+      "source": "lib/content/leadership-lifecycle.ts",
+      "sourceBasis": "What would demonstrate readiness for different responsibilities? Clear pathways connect real role requirements with opportunities to develop and demonstrate capability. A learning portfolio supports a conversation; it does not guarantee selection. Existing situation: A supervisor is interested in a director role but has had little opportunity to work on cross-team strategy, resource tradeoffs, or a division-wide decision.",
+      "implementationFiles": [
+        "components/multimedia/dsd-leadership-media.tsx"
+      ],
+      "accessibility": "Native headings, lists, tables or field labels provide the content; image descriptions and source links accompany photos. No autoplay. Original learning notes and form data remain separate.",
+      "checks": {
+        "implementationFilesExist": true,
+        "behavioralSuite": "107 passing tests across DSD, engagement, exact media previews, library continuity and toolkit boundaries; not every row is independently behavior-tested",
+        "browser": "See root browser receipt; no blanket browser verification claimed here"
+      },
+      "remaining": "Any suggested recording not delivered above remains an alternative medium, not a completed recording."
+    },
+    {
+      "recordKey": "dsd:leadership-stage-retain",
+      "title": "Listen, respond, and sustain",
+      "route": "/one-dsd/leadership?stage=retain#life-cycle",
+      "placement": "Within the selected stage, after “A DSD practice situation” and before “Try it in practice”; use the existing “Create my reflection” action.",
+      "purpose": "Show how a stay conversation can lead to a response to working conditions.",
+      "proposedMedia": "Conversation excerpt plus work-condition comparison",
+      "deliveredMediaAndDecision": "An exact stage companion is integrated between the original situation and practice; original reflection/export remains intact. Written/table/flow media is delivered, not a captioned recording.",
+      "state": "integrated",
+      "source": "lib/content/leadership-lifecycle.ts",
+      "sourceBasis": "What would make it easier to stay and thrive? A stay conversation is useful when it leads to a response. Career growth sits alongside workload, support, relationships, recognition, and the conditions of the work. Existing situation: A capable colleague wants to develop but repeatedly loses agreed learning time to urgent tasks. Another course invitation does not address the problem.",
+      "implementationFiles": [
+        "components/multimedia/dsd-leadership-media.tsx"
+      ],
+      "accessibility": "Native headings, lists, tables or field labels provide the content; image descriptions and source links accompany photos. No autoplay. Original learning notes and form data remain separate.",
+      "checks": {
+        "implementationFilesExist": true,
+        "behavioralSuite": "107 passing tests across DSD, engagement, exact media previews, library continuity and toolkit boundaries; not every row is independently behavior-tested",
+        "browser": "See root browser receipt; no blanket browser verification claimed here"
+      },
+      "remaining": "Any suggested recording not delivered above remains an alternative medium, not a completed recording."
+    },
+    {
+      "recordKey": "dsd:leadership-stage-succession",
+      "title": "Build continuity and future leadership",
+      "route": "/one-dsd/leadership?stage=succession#life-cycle",
+      "placement": "Within the selected stage, after “A DSD practice situation” and before “Try it in practice”; use the existing “Create my reflection” action.",
+      "purpose": "Test usable knowledge transfer while broadening access to practice.",
+      "proposedMedia": "Captioned handover walkthrough and continuity map",
+      "deliveredMediaAndDecision": "An exact stage companion is integrated between the original situation and practice; original reflection/export remains intact. Written/table/flow media is delivered, not a captioned recording.",
+      "state": "integrated",
+      "source": "lib/content/leadership-lifecycle.ts",
+      "sourceBasis": "What capability must continue, and who can access the chance to develop it? Succession planning connects critical work, future capabilities, open development opportunities, and knowledge transfer. It should broaden readiness rather than quietly designate an heir. Existing situation: One person holds most of the knowledge for an important DSD process. The division needs continuity and more colleagues need a fair chance to learn that work.",
+      "implementationFiles": [
+        "components/multimedia/dsd-leadership-media.tsx"
+      ],
+      "accessibility": "Native headings, lists, tables or field labels provide the content; image descriptions and source links accompany photos. No autoplay. Original learning notes and form data remain separate.",
+      "checks": {
+        "implementationFilesExist": true,
+        "behavioralSuite": "107 passing tests across DSD, engagement, exact media previews, library continuity and toolkit boundaries; not every row is independently behavior-tested",
+        "browser": "See root browser receipt; no blanket browser verification claimed here"
+      },
+      "remaining": "Any suggested recording not delivered above remains an alternative medium, not a completed recording."
+    },
+    {
+      "recordKey": "dsd:leadership-stage-transition",
+      "title": "Learn from transitions and departures",
+      "route": "/one-dsd/leadership?stage=transition#life-cycle",
+      "placement": "Within the selected stage, after “A DSD practice situation” and before “Try it in practice”; use the existing “Create my reflection” action.",
+      "purpose": "Use transitions to improve the process without guessing why someone left.",
+      "proposedMedia": "Existing succession text and continuity planner",
+      "deliveredMediaAndDecision": "Original stage teaching, situation, actionable practice, related destination and reflection/export already provide the requested activity. Reuse avoids repeating this teaching in another diagram.",
+      "state": "retained",
+      "source": "lib/content/leadership-lifecycle.ts",
+      "sourceBasis": "What should we carry forward and improve? A transition can reveal what the organization has learned, where knowledge is concentrated, and which working conditions need attention. Existing situation: A colleague changes roles. A list of files exists, but the reasoning behind recurring decisions and important handoffs has not been explained.",
+      "implementationFiles": [
+        "lib/content/leadership-lifecycle.ts"
+      ],
+      "accessibility": "Native headings, lists, tables or field labels provide the content; image descriptions and source links accompany photos. No autoplay. Original learning notes and form data remain separate.",
+      "checks": {
+        "implementationFilesExist": true,
+        "behavioralSuite": "107 passing tests across DSD, engagement, exact media previews, library continuity and toolkit boundaries; not every row is independently behavior-tested",
+        "browser": "See root browser receipt; no blanket browser verification claimed here"
+      },
+      "remaining": "Any suggested recording not delivered above remains an alternative medium, not a completed recording."
+    },
+    {
+      "recordKey": "dsd:amplify-home",
+      "title": "Amplify Equity",
+      "route": "/one-dsd/amplify#amplify-possibilities",
+      "placement": "“What brings you here today?” and its three entry cards.",
+      "purpose": "Help people select a voluntary form of connection without making every visit a learning assignment.",
+      "proposedMedia": "Reuse existing photograph and entry cards",
+      "deliveredMediaAndDecision": "Retained the exact original activity and its optional choices: The home page presents three entry cards and states that a conversation can be enough. Participant-chosen material is not replaced by an invented contribution.",
+      "state": "retained",
+      "source": "components/amplify-page.tsx",
+      "sourceBasis": "The home page presents three entry cards and states that a conversation can be enough.",
+      "implementationFiles": [
+        "components/amplify-page.tsx"
+      ],
+      "accessibility": "Native headings, lists, tables or field labels provide the content; image descriptions and source links accompany photos. No autoplay. Original learning notes and form data remain separate.",
+      "checks": {
+        "implementationFilesExist": true,
+        "behavioralSuite": "107 passing tests across DSD, engagement, exact media previews, library continuity and toolkit boundaries; not every row is independently behavior-tested",
+        "browser": "See root browser receipt; no blanket browser verification claimed here"
+      },
+      "remaining": "Any suggested recording not delivered above remains an alternative medium, not a completed recording."
+    },
+    {
+      "recordKey": "dsd:amplify-gatherings",
+      "title": "Ideas for gathering",
+      "route": "/one-dsd/amplify/gatherings#activity-studio",
+      "placement": "The 12 activity cards, followed by the selected “A starting point for your gathering” panel.",
+      "purpose": "Help a host see what an activity involves before choosing it.",
+      "proposedMedia": "Small optional activity previews",
+      "deliveredMediaAndDecision": "Selected activity disclosures contain actual fictional examples and a source-attributed Minnesota photograph.",
+      "state": "integrated",
+      "source": "components/amplify-tools.tsx",
+      "sourceBasis": "The activity studio provides 12 choices, an opening question, steps, access guidance and an invitation-and-plan generator.",
+      "implementationFiles": [
+        "components/multimedia/engagement-worked-examples.tsx"
+      ],
+      "accessibility": "Native headings, lists, tables or field labels provide the content; image descriptions and source links accompany photos. No autoplay. Original learning notes and form data remain separate.",
+      "checks": {
+        "implementationFilesExist": true,
+        "behavioralSuite": "107 passing tests across DSD, engagement, exact media previews, library continuity and toolkit boundaries; not every row is independently behavior-tested",
+        "browser": "See root browser receipt; no blanket browser verification claimed here"
+      },
+      "remaining": "Any suggested recording not delivered above remains an alternative medium, not a completed recording."
+    },
+    {
+      "recordKey": "dsd:amplify-mentoring",
+      "title": "Grow with one another",
+      "route": "/one-dsd/amplify/mentoring#mentoring-tool",
+      "placement": "Before “Prepare a mentoring conversation”, linked to “Advice and opportunity”.",
+      "purpose": "Distinguish perspective, sponsorship and the support needed for practice.",
+      "proposedMedia": "Short dialogue pair; optional conversation",
+      "deliveredMediaAndDecision": "Mentoring/sponsorship conversation comparison; no recorded dialogue claimed.",
+      "state": "integrated",
+      "source": "lib/content/amplify-experiences.ts",
+      "sourceBasis": "“Advice and opportunity” distinguishes mentoring from sponsorship; the page invites a willing colleague and a manageable starting point.",
+      "implementationFiles": [
+        "components/multimedia/engagement-worked-examples.tsx"
+      ],
+      "accessibility": "Native headings, lists, tables or field labels provide the content; image descriptions and source links accompany photos. No autoplay. Original learning notes and form data remain separate.",
+      "checks": {
+        "implementationFilesExist": true,
+        "behavioralSuite": "107 passing tests across DSD, engagement, exact media previews, library continuity and toolkit boundaries; not every row is independently behavior-tested",
+        "browser": "See root browser receipt; no blanket browser verification claimed here"
+      },
+      "remaining": "Any suggested recording not delivered above remains an alternative medium, not a completed recording."
+    },
+    {
+      "recordKey": "dsd:amplify-well-being",
+      "title": "Room to recharge",
+      "route": "/one-dsd/amplify/well-being#amplify-section-2",
+      "placement": "“Notice the conditions, too”, after the list under “What helps work feel manageable?”.",
+      "purpose": "Help distinguish a momentary pause from a recurring work condition that could be changed.",
+      "proposedMedia": "Annotated working-day comparison",
+      "deliveredMediaAndDecision": "Working-condition comparison distinguishes personal breaks from changes in work.",
+      "state": "integrated",
+      "source": "lib/content/amplify-experiences.ts",
+      "sourceBasis": "The page separates enjoyment and rest from recurring difficulties in work organization and offers different ways to participate.",
+      "implementationFiles": [
+        "components/multimedia/engagement-worked-examples.tsx"
+      ],
+      "accessibility": "Native headings, lists, tables or field labels provide the content; image descriptions and source links accompany photos. No autoplay. Original learning notes and form data remain separate.",
+      "checks": {
+        "implementationFilesExist": true,
+        "behavioralSuite": "107 passing tests across DSD, engagement, exact media previews, library continuity and toolkit boundaries; not every row is independently behavior-tested",
+        "browser": "See root browser receipt; no blanket browser verification claimed here"
+      },
+      "remaining": "Any suggested recording not delivered above remains an alternative medium, not a completed recording."
+    },
+    {
+      "recordKey": "dsd:amplify-ideas",
+      "title": "Ideas into practice",
+      "route": "/one-dsd/amplify/ideas#idea-tool",
+      "placement": "Beside the three questions under “Shape an idea”; continue to “What a useful response looks like”.",
+      "purpose": "Make an unfinished observation enough to start a useful conversation while clarifying response ownership.",
+      "proposedMedia": "Annotated completed brief and response flow",
+      "deliveredMediaAndDecision": "A completed fictional idea brief remains separate from the contributor form.",
+      "state": "integrated",
+      "source": "lib/content/amplify-experiences.ts",
+      "sourceBasis": "The page says raising an idea does not assign its implementation to the contributor; the tool asks about the observation, benefit and consideration.",
+      "implementationFiles": [
+        "components/multimedia/engagement-worked-examples.tsx"
+      ],
+      "accessibility": "Native headings, lists, tables or field labels provide the content; image descriptions and source links accompany photos. No autoplay. Original learning notes and form data remain separate.",
+      "checks": {
+        "implementationFilesExist": true,
+        "behavioralSuite": "107 passing tests across DSD, engagement, exact media previews, library continuity and toolkit boundaries; not every row is independently behavior-tested",
+        "browser": "See root browser receipt; no blanket browser verification claimed here"
+      },
+      "remaining": "Any suggested recording not delivered above remains an alternative medium, not a completed recording."
+    },
+    {
+      "recordKey": "dsd:amplify-co-leads",
+      "title": "For co-leads",
+      "route": "/one-dsd/amplify/co-leads#amplify-section-3",
+      "placement": "“When a conversation becomes difficult”; connect the example to “Carry forward by agreement” and “Close the loop”.",
+      "purpose": "Practice a bounded facilitation response and careful agreement about what is shared.",
+      "proposedMedia": "Shared planned pause-and-repair scene plus facilitation cue card",
+      "deliveredMediaAndDecision": "Written pause-and-repair conversation, with an optional facilitation cue.",
+      "state": "integrated",
+      "source": "lib/content/amplify.ts",
+      "sourceBasis": "The page permits clarification and repair, says hosting does not make a co-lead an investigator, and discourages routine recording/transcription.",
+      "implementationFiles": [
+        "components/multimedia/engagement-worked-examples.tsx"
+      ],
+      "accessibility": "Native headings, lists, tables or field labels provide the content; image descriptions and source links accompany photos. No autoplay. Original learning notes and form data remain separate.",
+      "checks": {
+        "implementationFilesExist": true,
+        "behavioralSuite": "107 passing tests across DSD, engagement, exact media previews, library continuity and toolkit boundaries; not every row is independently behavior-tested",
+        "browser": "See root browser receipt; no blanket browser verification claimed here"
+      },
+      "remaining": "Any suggested recording not delivered above remains an alternative medium, not a completed recording."
+    },
+    {
+      "recordKey": "dsd:amplify-materials",
+      "title": "Make it your own",
+      "route": "/one-dsd/amplify/materials#amplify-section-3",
+      "placement": "“A question to carry forward” and “An update to the group”; retain the “Make a useful draft” links.",
+      "purpose": "Show how to use the exact materials without manufacturing dates or assigning new work.",
+      "proposedMedia": "Reuse templates with one annotated worked example",
+      "deliveredMediaAndDecision": "Fictional question/update examples accompany the original templates.",
+      "state": "integrated",
+      "source": "lib/content/amplify.ts",
+      "sourceBasis": "Existing sections provide invitation, opening, conversation structure, question, update, check-in and handover templates.",
+      "implementationFiles": [
+        "components/multimedia/engagement-worked-examples.tsx"
+      ],
+      "accessibility": "Native headings, lists, tables or field labels provide the content; image descriptions and source links accompany photos. No autoplay. Original learning notes and form data remain separate.",
+      "checks": {
+        "implementationFilesExist": true,
+        "behavioralSuite": "107 passing tests across DSD, engagement, exact media previews, library continuity and toolkit boundaries; not every row is independently behavior-tested",
+        "browser": "See root browser receipt; no blanket browser verification claimed here"
+      },
+      "remaining": "Any suggested recording not delivered above remains an alternative medium, not a completed recording."
+    },
+    {
+      "recordKey": "dsd:dsd-team",
+      "title": "One DSD Team",
+      "route": "/one-dsd/team",
+      "placement": "“Begin with a real question”, “Know who can decide” and “A useful work note”.",
+      "purpose": "Make the team's practical contribution and decision boundaries concrete.",
+      "proposedMedia": "One fictional work note with an annotated decision-and-return map",
+      "deliveredMediaAndDecision": "A fictional handoff is mapped through contribution, decision authority and return; a full work note is available.",
+      "state": "integrated",
+      "source": "lib/content/dsd-team.ts",
+      "sourceBasis": "The ten sections describe beginning with a question, manageable contributions, decision authority, useful notes and returning to what changed.",
+      "implementationFiles": [
+        "components/multimedia/engagement-contribution-map.tsx"
+      ],
+      "accessibility": "Native headings, lists, tables or field labels provide the content; image descriptions and source links accompany photos. No autoplay. Original learning notes and form data remain separate.",
+      "checks": {
+        "implementationFilesExist": true,
+        "behavioralSuite": "107 passing tests across DSD, engagement, exact media previews, library continuity and toolkit boundaries; not every row is independently behavior-tested",
+        "browser": "See root browser receipt; no blanket browser verification claimed here"
+      },
+      "remaining": "Any suggested recording not delivered above remains an alternative medium, not a completed recording."
+    },
+    {
+      "recordKey": "dsd:dsd-learning-lab",
+      "title": "Learning Lab and open hours",
+      "route": "/one-dsd/team/learning-lab",
+      "placement": "“A light structure for a useful conversation”, using one item from “Something to explore together”.",
+      "purpose": "Demonstrate the Lab's four-step conversation format through an actual practice situation.",
+      "proposedMedia": "Shared planned meeting or service scene with facilitation prompts",
+      "deliveredMediaAndDecision": "Written fictional meeting conversation plus exact facilitation prompts; no video claimed.",
+      "state": "integrated",
+      "source": "app/one-dsd/team/learning-lab/page.tsx",
+      "sourceBasis": "The source's four steps are question, example/resource, additional perspectives and a useful insight or optional next step.",
+      "implementationFiles": [
+        "components/multimedia/engagement-worked-examples.tsx"
+      ],
+      "accessibility": "Native headings, lists, tables or field labels provide the content; image descriptions and source links accompany photos. No autoplay. Original learning notes and form data remain separate.",
+      "checks": {
+        "implementationFilesExist": true,
+        "behavioralSuite": "107 passing tests across DSD, engagement, exact media previews, library continuity and toolkit boundaries; not every row is independently behavior-tested",
+        "browser": "See root browser receipt; no blanket browser verification claimed here"
+      },
+      "remaining": "Any suggested recording not delivered above remains an alternative medium, not a completed recording."
+    },
+    {
+      "recordKey": "dsd:leadership-overview",
+      "title": "Grow your DEIA leadership",
+      "route": "/one-dsd/leadership#starting-points",
+      "placement": "“Your interest is a starting point”, before choosing one of the three entry buttons.",
+      "purpose": "Keep leadership development open to interest and supported practice.",
+      "proposedMedia": "Reuse the three entry choices and existing photograph",
+      "deliveredMediaAndDecision": "Retained the exact original activity and its optional choices: The three source entry paths teach starting from curiosity, making encouragement concrete and examining current leadership practice. Participant-chosen material is not replaced by an invented contribution.",
+      "state": "retained",
+      "source": "lib/content/leadership-development.ts",
+      "sourceBasis": "The three source entry paths teach starting from curiosity, making encouragement concrete and examining current leadership practice.",
+      "implementationFiles": [
+        "lib/content/leadership-development.ts"
+      ],
+      "accessibility": "Native headings, lists, tables or field labels provide the content; image descriptions and source links accompany photos. No autoplay. Original learning notes and form data remain separate.",
+      "checks": {
+        "implementationFilesExist": true,
+        "behavioralSuite": "107 passing tests across DSD, engagement, exact media previews, library continuity and toolkit boundaries; not every row is independently behavior-tested",
+        "browser": "See root browser receipt; no blanket browser verification claimed here"
+      },
+      "remaining": "Any suggested recording not delivered above remains an alternative medium, not a completed recording."
+    },
+    {
+      "recordKey": "dsd:leadership-development-map",
+      "title": "Make your development map",
+      "route": "/one-dsd/leadership#development-map",
+      "placement": "The capability selector and practice/feedback/evidence example, before the map fields.",
+      "purpose": "Show how aspiration, practice, support and evidence connect without ranking a person.",
+      "proposedMedia": "Annotated fictional completed map",
+      "deliveredMediaAndDecision": "Capability-specific completed examples stay separate from the personal development form.",
+      "state": "integrated",
+      "source": "components/leadership-development-studio.tsx",
+      "sourceBasis": "The form links one of six capabilities with practice, feedback, evidence and three return-to-experience fields.",
+      "implementationFiles": [
+        "components/multimedia/dsd-development-map-example.tsx"
+      ],
+      "accessibility": "Native headings, lists, tables or field labels provide the content; image descriptions and source links accompany photos. No autoplay. Original learning notes and form data remain separate.",
+      "checks": {
+        "implementationFilesExist": true,
+        "behavioralSuite": "107 passing tests across DSD, engagement, exact media previews, library continuity and toolkit boundaries; not every row is independently behavior-tested",
+        "browser": "See root browser receipt; no blanket browser verification claimed here"
+      },
+      "remaining": "Any suggested recording not delivered above remains an alternative medium, not a completed recording."
+    },
+    {
+      "recordKey": "dsd:leadership-continuity-plan",
+      "title": "Make succession planning concrete",
+      "route": "/one-dsd/leadership#continuity-plan",
+      "placement": "Before “What critical work needs continuity?” and after the paragraph linking a development map with continuity.",
+      "purpose": "Test whether knowledge is usable while giving others access to develop it.",
+      "proposedMedia": "Captioned fictional handover walkthrough",
+      "deliveredMediaAndDecision": "Fictional handover/readiness example accompanies the unchanged continuity planner; no recorded walkthrough claimed.",
+      "state": "integrated",
+      "source": "components/leadership-lifecycle-tools.tsx",
+      "sourceBasis": "The seven fields begin with critical work, capabilities and an open development opportunity; the source requires a practical check of usable knowledge.",
+      "implementationFiles": [
+        "components/multimedia/dsd-development-map-example.tsx"
+      ],
+      "accessibility": "Native headings, lists, tables or field labels provide the content; image descriptions and source links accompany photos. No autoplay. Original learning notes and form data remain separate.",
+      "checks": {
+        "implementationFilesExist": true,
+        "behavioralSuite": "107 passing tests across DSD, engagement, exact media previews, library continuity and toolkit boundaries; not every row is independently behavior-tested",
+        "browser": "See root browser receipt; no blanket browser verification claimed here"
+      },
+      "remaining": "Any suggested recording not delivered above remains an alternative medium, not a completed recording."
+    },
+    {
+      "recordKey": "dsd:orientation-directory",
+      "title": "Find your way. Make it your own.",
+      "route": "/orientation#program-directory",
+      "placement": "“A few doors into the same program”, before its twelve route cards.",
+      "purpose": "Make the whole program navigable without replacing its directory.",
+      "proposedMedia": "Optional interactive route map",
+      "deliveredMediaAndDecision": "Expandable linked route map uses the existing orientation destinations.",
+      "state": "integrated",
+      "source": "app/orientation/page.tsx",
+      "sourceBasis": "The page provides twelve explicit doors and says to explore in the order that suits the visitor.",
+      "implementationFiles": [
+        "components/multimedia/engagement-route-map.tsx"
+      ],
+      "accessibility": "Native headings, lists, tables or field labels provide the content; image descriptions and source links accompany photos. No autoplay. Original learning notes and form data remain separate.",
+      "checks": {
+        "implementationFilesExist": true,
+        "behavioralSuite": "107 passing tests across DSD, engagement, exact media previews, library continuity and toolkit boundaries; not every row is independently behavior-tested",
+        "browser": "See root browser receipt; no blanket browser verification claimed here"
+      },
+      "remaining": "Any suggested recording not delivered above remains an alternative medium, not a completed recording."
+    },
+    {
+      "recordKey": "dsd:orientation-joining-team",
+      "title": "Joining the One DSD Team?",
+      "route": "/orientation#joining-dsd",
+      "placement": "The existing three-sentence joining invitation.",
+      "purpose": "Give prospective members a manageable, voluntary start.",
+      "proposedMedia": "Reuse existing orientation text and Lab link",
+      "deliveredMediaAndDecision": "Retained the exact original activity and its optional choices: The joining section says there is no need to arrive with all the answers. Participant-chosen material is not replaced by an invented contribution.",
+      "state": "retained",
+      "source": "app/orientation/page.tsx",
+      "sourceBasis": "The joining section says there is no need to arrive with all the answers.",
+      "implementationFiles": [
+        "app/orientation/page.tsx"
+      ],
+      "accessibility": "Native headings, lists, tables or field labels provide the content; image descriptions and source links accompany photos. No autoplay. Original learning notes and form data remain separate.",
+      "checks": {
+        "implementationFilesExist": true,
+        "behavioralSuite": "107 passing tests across DSD, engagement, exact media previews, library continuity and toolkit boundaries; not every row is independently behavior-tested",
+        "browser": "See root browser receipt; no blanket browser verification claimed here"
+      },
+      "remaining": "Any suggested recording not delivered above remains an alternative medium, not a completed recording."
+    },
+    {
+      "recordKey": "dsd:dsd-inventory-map",
+      "title": "One DSD",
+      "route": "/one-dsd#programs",
+      "placement": "“Where equity shows up in DSD work”, before the twelve program-profile links.",
+      "purpose": "Help staff find a specific profile or scenario from the work they recognize.",
+      "proposedMedia": "Optional function-to-question map",
+      "deliveredMediaAndDecision": "Each visible program is connected to its exact work question; only supplied scoped published profiles appear.",
+      "state": "integrated",
+      "source": "app/one-dsd/page.tsx",
+      "sourceBasis": "The published inventory already groups DSD program profiles, scenarios and shared areas of work.",
+      "implementationFiles": [
+        "components/multimedia/dsd-inventory-map.tsx"
+      ],
+      "accessibility": "Native headings, lists, tables or field labels provide the content; image descriptions and source links accompany photos. No autoplay. Original learning notes and form data remain separate.",
+      "checks": {
+        "implementationFilesExist": true,
+        "behavioralSuite": "107 passing tests across DSD, engagement, exact media previews, library continuity and toolkit boundaries; not every row is independently behavior-tested",
+        "browser": "See root browser receipt; no blanket browser verification claimed here"
+      },
+      "remaining": "Any suggested recording not delivered above remains an alternative medium, not a completed recording."
+    },
+    {
+      "recordKey": "dsd:erg-dhs",
+      "title": "DHS groups",
+      "route": "/employee-resource-groups#dhs-groups",
+      "placement": "Public references and the DHS InfoLink destination under “DHS groups”.",
+      "purpose": "Help colleagues explore without mistaking historic references for a verified current roster.",
+      "proposedMedia": "Reuse the current-source and historical-source text cards",
+      "deliveredMediaAndDecision": "Retained the exact original activity and its optional choices: The source separates public mentions from historical names and explicitly says it is not a verified complete current roster. Participant-chosen material is not replaced by an invented contribution.",
+      "state": "retained",
+      "source": "app/employee-resource-groups/page.tsx",
+      "sourceBasis": "The source separates public mentions from historical names and explicitly says it is not a verified complete current roster.",
+      "implementationFiles": [
+        "app/employee-resource-groups/page.tsx"
+      ],
+      "accessibility": "Native headings, lists, tables or field labels provide the content; image descriptions and source links accompany photos. No autoplay. Original learning notes and form data remain separate.",
+      "checks": {
+        "implementationFilesExist": true,
+        "behavioralSuite": "107 passing tests across DSD, engagement, exact media previews, library continuity and toolkit boundaries; not every row is independently behavior-tested",
+        "browser": "See root browser receipt; no blanket browser verification claimed here"
+      },
+      "remaining": "Any suggested recording not delivered above remains an alternative medium, not a completed recording."
+    },
+    {
+      "recordKey": "dsd:erg-statewide",
+      "title": "Across Minnesota state government",
+      "route": "/employee-resource-groups#statewide-groups",
+      "placement": "The separate statewide list and MMB directory link.",
+      "purpose": "Prevent confusion about which network or group a visitor is exploring.",
+      "proposedMedia": "Reuse the statewide directory link",
+      "deliveredMediaAndDecision": "Retained the exact original activity and its optional choices: The source explicitly describes MMB's network as separate and provides its directory. Participant-chosen material is not replaced by an invented contribution.",
+      "state": "retained",
+      "source": "app/employee-resource-groups/page.tsx",
+      "sourceBasis": "The source explicitly describes MMB's network as separate and provides its directory.",
+      "implementationFiles": [
+        "app/employee-resource-groups/page.tsx"
+      ],
+      "accessibility": "Native headings, lists, tables or field labels provide the content; image descriptions and source links accompany photos. No autoplay. Original learning notes and form data remain separate.",
+      "checks": {
+        "implementationFilesExist": true,
+        "behavioralSuite": "107 passing tests across DSD, engagement, exact media previews, library continuity and toolkit boundaries; not every row is independently behavior-tested",
+        "browser": "See root browser receipt; no blanket browser verification claimed here"
+      },
+      "remaining": "Any suggested recording not delivered above remains an alternative medium, not a completed recording."
+    },
+    {
+      "recordKey": "dsd:erg-connections",
+      "title": "How these connections can enrich the program",
+      "route": "/employee-resource-groups#erg-connections",
+      "placement": "The “Share an invitation”, “Learn across experiences” and “Inform practical work” cards.",
+      "purpose": "Make a real, chosen collaboration visible without fabricating endorsement or assigning cultural teaching.",
+      "proposedMedia": "Optional contributor-authored audio or video with written contribution",
+      "deliveredMediaAndDecision": "Original optional connection cards retained. The proposed chosen contributor recording requires an actual willing contribution and attribution; none is supplied.",
+      "state": "awaiting-contributor",
+      "source": "app/employee-resource-groups/page.tsx",
+      "sourceBasis": "The three connection possibilities are optional; the source says groups shape their own priorities and members are not representatives of an entire community.",
+      "implementationFiles": [],
+      "accessibility": "Native headings, lists, tables or field labels provide the content; image descriptions and source links accompany photos. No autoplay. Original learning notes and form data remain separate.",
+      "checks": {
+        "implementationFilesExist": true,
+        "behavioralSuite": "107 passing tests across DSD, engagement, exact media previews, library continuity and toolkit boundaries; not every row is independently behavior-tested",
+        "browser": "See root browser receipt; no blanket browser verification claimed here"
+      },
+      "remaining": "Original optional connection cards retained. The proposed chosen contributor recording requires an actual willing contribution and attribution; none is supplied."
+    },
+    {
+      "recordKey": "dsd:dhs-reference-purpose",
+      "title": "DHS purpose and service relationships",
+      "route": "/understanding-dhs#purpose",
+      "placement": "Inside the “DHS purpose and service relationships” card, after its facts and before “Related teams and partners” and original-source links.",
+      "purpose": "Understand which relationship the question involves.",
+      "proposedMedia": "Linked partnership map",
+      "deliveredMediaAndDecision": "Exact relationship comparison table sits in this reference card between its facts and original partners/source links; complete HTML text carries the meaning.",
+      "state": "integrated",
+      "source": "data/organization/minnesota-dhs.json",
+      "sourceBasis": "Current local reference text: DHS works with counties, Tribal Nations, communities and providers to support Minnesotans' health, independence and life in community. Its public participation channels include meetings, comment opportunities and advisory bodies.",
+      "implementationFiles": [
+        "components/multimedia/engagement-reference-map.tsx"
+      ],
+      "accessibility": "Native headings, lists, tables or field labels provide the content; image descriptions and source links accompany photos. No autoplay. Original learning notes and form data remain separate.",
+      "checks": {
+        "implementationFilesExist": true,
+        "behavioralSuite": "107 passing tests across DSD, engagement, exact media previews, library continuity and toolkit boundaries; not every row is independently behavior-tested",
+        "browser": "See root browser receipt; no blanket browser verification claimed here"
+      },
+      "remaining": "Any suggested recording not delivered above remains an alternative medium, not a completed recording."
+    },
+    {
+      "recordKey": "dsd:dhs-reference-structure",
+      "title": "DHS organizational responsibilities",
+      "route": "/understanding-dhs#structure",
+      "placement": "Inside the “DHS organizational responsibilities” card, after its facts and before “Related teams and partners” and original-source links.",
+      "purpose": "Find a responsible function without treating an organizational picture as a current contact directory.",
+      "proposedMedia": "Responsibility comparison table",
+      "deliveredMediaAndDecision": "Exact relationship comparison table sits in this reference card between its facts and original partners/source links; complete HTML text carries the meaning.",
+      "state": "integrated",
+      "source": "data/organization/minnesota-dhs.json",
+      "sourceBasis": "Current local reference text: The agency directory lists Aging and Disability Services, Behavioral Health, Health Care, and Homelessness, Housing and Support Services. Cross-agency functions include finance, compliance, legal counsel, inspector general, strategy and performance, employee culture, equity and inclusion, communications, and MNIT.",
+      "implementationFiles": [
+        "components/multimedia/engagement-reference-map.tsx"
+      ],
+      "accessibility": "Native headings, lists, tables or field labels provide the content; image descriptions and source links accompany photos. No autoplay. Original learning notes and form data remain separate.",
+      "checks": {
+        "implementationFilesExist": true,
+        "behavioralSuite": "107 passing tests across DSD, engagement, exact media previews, library continuity and toolkit boundaries; not every row is independently behavior-tested",
+        "browser": "See root browser receipt; no blanket browser verification claimed here"
+      },
+      "remaining": "Any suggested recording not delivered above remains an alternative medium, not a completed recording."
+    },
+    {
+      "recordKey": "dsd:dhs-reference-dsd-placement",
+      "title": "Where Disability Services sits",
+      "route": "/understanding-dhs#dsd-placement",
+      "placement": "Inside the “Where Disability Services sits” card, after its facts and before “Related teams and partners” and original-source links.",
+      "purpose": "Prevent a DSD role from being inferred from the presence of a DHS license category.",
+      "proposedMedia": "Small labeled relationship diagram",
+      "deliveredMediaAndDecision": "Exact relationship comparison table sits in this reference card between its facts and original partners/source links; complete HTML text carries the meaning.",
+      "state": "integrated",
+      "source": "data/organization/minnesota-dhs.json",
+      "sourceBasis": "Current local reference text: The agency directory and CBSM introduction place Disability Services within Aging and Disability Services. DSD manages publicly funded supports for people with developmental or physical disabilities, chronic medical conditions, and acquired or traumatic brain injuries. DSD is not the DHS Licensing function; DHS retaining a license category does not mean DSD administers that license.",
+      "implementationFiles": [
+        "components/multimedia/engagement-reference-map.tsx"
+      ],
+      "accessibility": "Native headings, lists, tables or field labels provide the content; image descriptions and source links accompany photos. No autoplay. Original learning notes and form data remain separate.",
+      "checks": {
+        "implementationFilesExist": true,
+        "behavioralSuite": "107 passing tests across DSD, engagement, exact media previews, library continuity and toolkit boundaries; not every row is independently behavior-tested",
+        "browser": "See root browser receipt; no blanket browser verification claimed here"
+      },
+      "remaining": "Any suggested recording not delivered above remains an alternative medium, not a completed recording."
+    },
+    {
+      "recordKey": "dsd:dhs-reference-strategy",
+      "title": "DHS strategic direction and staff culture",
+      "route": "/understanding-dhs#strategy",
+      "placement": "Inside the “DHS strategic direction and staff culture” card, after its facts and before “Related teams and partners” and original-source links.",
+      "purpose": "Connect a practical question with the dated source while avoiding invented internal targets.",
+      "proposedMedia": "Existing text outcomes and original plan link",
+      "deliveredMediaAndDecision": "Retained the exact dated source-linked reference card: Current local reference text: The published 2023–2027 plan has three outcomes: Minnesotans thrive, people experience high-quality services, and DHS employees thrive in an inclusive environment. Its goals address equitable access, community choice, caregiving capacity, service quality, program integrity, partnerships, inclusion, psychological safety and career growth. It also addresses continuity during agency separation. A static replacement diagram could age separately from the source; the original navigation and context serve this purpose.",
+      "state": "retained",
+      "source": "data/organization/minnesota-dhs.json",
+      "sourceBasis": "Current local reference text: The published 2023–2027 plan has three outcomes: Minnesotans thrive, people experience high-quality services, and DHS employees thrive in an inclusive environment. Its goals address equitable access, community choice, caregiving capacity, service quality, program integrity, partnerships, inclusion, psychological safety and career growth. It also addresses continuity during agency separation.",
+      "implementationFiles": [
+        "data/organization/minnesota-dhs.json"
+      ],
+      "accessibility": "Native headings, lists, tables or field labels provide the content; image descriptions and source links accompany photos. No autoplay. Original learning notes and form data remain separate.",
+      "checks": {
+        "implementationFilesExist": true,
+        "behavioralSuite": "107 passing tests across DSD, engagement, exact media previews, library continuity and toolkit boundaries; not every row is independently behavior-tested",
+        "browser": "See root browser receipt; no blanket browser verification claimed here"
+      },
+      "remaining": "Any suggested recording not delivered above remains an alternative medium, not a completed recording."
+    },
+    {
+      "recordKey": "dsd:dhs-reference-county-tribal",
+      "title": "County and Tribal partnerships",
+      "route": "/understanding-dhs#county-tribal",
+      "placement": "Inside the “County and Tribal partnerships” card, after its facts and before “Related teams and partners” and original-source links.",
+      "purpose": "Understand that county and Tribal relationships carry different responsibilities.",
+      "proposedMedia": "Relationship comparison diagram",
+      "deliveredMediaAndDecision": "Exact relationship comparison table sits in this reference card between its facts and original partners/source links; complete HTML text carries the meaning.",
+      "state": "integrated",
+      "source": "data/organization/minnesota-dhs.json",
+      "sourceBasis": "Current local reference text: County Relations supports DHS relationships with Minnesota's 87 counties. The Office of Indian Policy coordinates consultation with Tribal governments. Lead-agency reviews examine HCBS administration and outcomes and inform improvements.",
+      "implementationFiles": [
+        "components/multimedia/engagement-reference-map.tsx"
+      ],
+      "accessibility": "Native headings, lists, tables or field labels provide the content; image descriptions and source links accompany photos. No autoplay. Original learning notes and form data remain separate.",
+      "checks": {
+        "implementationFilesExist": true,
+        "behavioralSuite": "107 passing tests across DSD, engagement, exact media previews, library continuity and toolkit boundaries; not every row is independently behavior-tested",
+        "browser": "See root browser receipt; no blanket browser verification claimed here"
+      },
+      "remaining": "Any suggested recording not delivered above remains an alternative medium, not a completed recording."
+    },
+    {
+      "recordKey": "dsd:dhs-reference-dsd-choice",
+      "title": "DSD priorities and person-centered outcomes",
+      "route": "/understanding-dhs#dsd-choice",
+      "placement": "Inside the “DSD priorities and person-centered outcomes” card, after its facts and before “Related teams and partners” and original-source links.",
+      "purpose": "Keep person-centered outcomes distinct from unsupported performance claims.",
+      "proposedMedia": "Existing priorities text and reflection prompt",
+      "deliveredMediaAndDecision": "Retained the exact dated source-linked reference card: Current local reference text: DSD's published priorities cover community participation; health, wellness and safety; a home of one's choosing; enduring relationships; control of supports; and work and income. Its goals address access, timely service, quality, partnership, innovation and person-centered decisions. The introduction displays an old review date, so it does not establish current internal targets. A static replacement diagram could age separately from the source; the original navigation and context serve this purpose.",
+      "state": "retained",
+      "source": "data/organization/minnesota-dhs.json",
+      "sourceBasis": "Current local reference text: DSD's published priorities cover community participation; health, wellness and safety; a home of one's choosing; enduring relationships; control of supports; and work and income. Its goals address access, timely service, quality, partnership, innovation and person-centered decisions. The introduction displays an old review date, so it does not establish current internal targets.",
+      "implementationFiles": [
+        "data/organization/minnesota-dhs.json"
+      ],
+      "accessibility": "Native headings, lists, tables or field labels provide the content; image descriptions and source links accompany photos. No autoplay. Original learning notes and form data remain separate.",
+      "checks": {
+        "implementationFilesExist": true,
+        "behavioralSuite": "107 passing tests across DSD, engagement, exact media previews, library continuity and toolkit boundaries; not every row is independently behavior-tested",
+        "browser": "See root browser receipt; no blanket browser verification claimed here"
+      },
+      "remaining": "Any suggested recording not delivered above remains an alternative medium, not a completed recording."
+    },
+    {
+      "recordKey": "dsd:dhs-reference-manuals",
+      "title": "Finding DSD policy and operational guidance",
+      "route": "/understanding-dhs#manuals",
+      "placement": "Inside the “Finding DSD policy and operational guidance” card, after its facts and before “Related teams and partners” and original-source links.",
+      "purpose": "Help staff find the authoritative manual that fits the task.",
+      "proposedMedia": "Existing policy-directory links",
+      "deliveredMediaAndDecision": "Retained the exact dated source-linked reference card: Current local reference text: The CBSM organizes assessment, support planning, case management, safeguards, eligibility, employment, service options and waiver guidance. It distinguishes BI, CAC, CADI, DD and Elderly Waiver topics. The LTSS policy directory links additional manuals for CDCS, EIDBI, Moving Home Minnesota and other programs. A static replacement diagram could age separately from the source; the original navigation and context serve this purpose.",
+      "state": "retained",
+      "source": "data/organization/minnesota-dhs.json",
+      "sourceBasis": "Current local reference text: The CBSM organizes assessment, support planning, case management, safeguards, eligibility, employment, service options and waiver guidance. It distinguishes BI, CAC, CADI, DD and Elderly Waiver topics. The LTSS policy directory links additional manuals for CDCS, EIDBI, Moving Home Minnesota and other programs.",
+      "implementationFiles": [
+        "data/organization/minnesota-dhs.json"
+      ],
+      "accessibility": "Native headings, lists, tables or field labels provide the content; image descriptions and source links accompany photos. No autoplay. Original learning notes and form data remain separate.",
+      "checks": {
+        "implementationFilesExist": true,
+        "behavioralSuite": "107 passing tests across DSD, engagement, exact media previews, library continuity and toolkit boundaries; not every row is independently behavior-tested",
+        "browser": "See root browser receipt; no blanket browser verification claimed here"
+      },
+      "remaining": "Any suggested recording not delivered above remains an alternative medium, not a completed recording."
+    },
+    {
+      "recordKey": "dsd:dhs-reference-assessment",
+      "title": "MnCHOICES assessment and support planning",
+      "route": "/understanding-dhs#assessment",
+      "placement": "Inside the “MnCHOICES assessment and support planning” card, after its facts and before “Related teams and partners” and original-source links.",
+      "purpose": "Clarify relationships and handoffs without assigning ownership based on application use.",
+      "proposedMedia": "Role-and-handoff swimlane diagram",
+      "deliveredMediaAndDecision": "Exact relationship comparison table sits in this reference card between its facts and original partners/source links; complete HTML text carries the meaning.",
+      "state": "integrated",
+      "source": "data/organization/minnesota-dhs.json",
+      "sourceBasis": "Current local reference text: MnCHOICES supports long-term services and supports assessment and planning by counties, Tribal Nations and managed care organizations. DHS coordinates related updates through aging, disability and MnCHOICES communication channels. The CBSM provides case-management policy guidance. MNIT provides technology support; managed care organizations use MnCHOICES in care coordination. Using the application does not establish responsibility for system administration.",
+      "implementationFiles": [
+        "components/multimedia/engagement-reference-map.tsx"
+      ],
+      "accessibility": "Native headings, lists, tables or field labels provide the content; image descriptions and source links accompany photos. No autoplay. Original learning notes and form data remain separate.",
+      "checks": {
+        "implementationFilesExist": true,
+        "behavioralSuite": "107 passing tests across DSD, engagement, exact media previews, library continuity and toolkit boundaries; not every row is independently behavior-tested",
+        "browser": "See root browser receipt; no blanket browser verification claimed here"
+      },
+      "remaining": "Any suggested recording not delivered above remains an alternative medium, not a completed recording."
+    },
+    {
+      "recordKey": "dsd:dhs-reference-person-centered",
+      "title": "Person-centered planning across partners",
+      "route": "/understanding-dhs#person-centered",
+      "placement": "Inside the “Person-centered planning across partners” card, after its facts and before “Related teams and partners” and original-source links.",
+      "purpose": "Show how a person remains central across partners.",
+      "proposedMedia": "Annotated support-planning conversation card",
+      "deliveredMediaAndDecision": "Exact relationship comparison table sits in this reference card between its facts and original partners/source links; complete HTML text carries the meaning.",
+      "state": "integrated",
+      "source": "data/organization/minnesota-dhs.json",
+      "sourceBasis": "Current local reference text: DHS's person-centered, informed choice and transition protocol addresses support planning by counties, Tribal organizations and managed care organizations. HCBS settings oversight includes provider enrollment, case management and licensing.",
+      "implementationFiles": [
+        "components/multimedia/engagement-reference-map.tsx"
+      ],
+      "accessibility": "Native headings, lists, tables or field labels provide the content; image descriptions and source links accompany photos. No autoplay. Original learning notes and form data remain separate.",
+      "checks": {
+        "implementationFilesExist": true,
+        "behavioralSuite": "107 passing tests across DSD, engagement, exact media previews, library continuity and toolkit boundaries; not every row is independently behavior-tested",
+        "browser": "See root browser receipt; no blanket browser verification claimed here"
+      },
+      "remaining": "Any suggested recording not delivered above remains an alternative medium, not a completed recording."
+    },
+    {
+      "recordKey": "dsd:dhs-reference-cfss",
+      "title": "CFSS and the transition from PCA and CSG",
+      "route": "/understanding-dhs#cfss",
+      "placement": "Inside the “CFSS and the transition from PCA and CSG” card, after its facts and before “Related teams and partners” and original-source links.",
+      "purpose": "Keep changing transition details attached to their maintained source.",
+      "proposedMedia": "Current manual and transition-source links",
+      "deliveredMediaAndDecision": "Retained the exact dated source-linked reference card: Current local reference text: Community First Services and Supports offers flexible home and community support options and replaces personal care assistance and the Consumer Support Grant. DHS directs lead agencies to the CFSS Manual for transition guidance. A static replacement diagram could age separately from the source; the original navigation and context serve this purpose.",
+      "state": "retained",
+      "source": "data/organization/minnesota-dhs.json",
+      "sourceBasis": "Current local reference text: Community First Services and Supports offers flexible home and community support options and replaces personal care assistance and the Consumer Support Grant. DHS directs lead agencies to the CFSS Manual for transition guidance.",
+      "implementationFiles": [
+        "data/organization/minnesota-dhs.json"
+      ],
+      "accessibility": "Native headings, lists, tables or field labels provide the content; image descriptions and source links accompany photos. No autoplay. Original learning notes and form data remain separate.",
+      "checks": {
+        "implementationFilesExist": true,
+        "behavioralSuite": "107 passing tests across DSD, engagement, exact media previews, library continuity and toolkit boundaries; not every row is independently behavior-tested",
+        "browser": "See root browser receipt; no blanket browser verification claimed here"
+      },
+      "remaining": "Any suggested recording not delivered above remains an alternative medium, not a completed recording."
+    },
+    {
+      "recordKey": "dsd:dhs-reference-waiver-change",
+      "title": "Disability Waiver Program changes",
+      "route": "/understanding-dhs#waiver-change",
+      "placement": "Inside the “Disability Waiver Program changes” card, after its facts and before “Related teams and partners” and original-source links.",
+      "purpose": "Let staff find current change information without mistaking an illustration for a commitment.",
+      "proposedMedia": "Current change-site and participation links",
+      "deliveredMediaAndDecision": "Retained the exact dated source-linked reference card: Current local reference text: The new Disability Waiver Program site describes a simpler structure, individual budgets and online tools. At the September 8 review, it said implementation timing was still being determined. It provides resources, community input and Advisory Task Force on Waiver Reimagine routes. A static replacement diagram could age separately from the source; the original navigation and context serve this purpose.",
+      "state": "retained",
+      "source": "data/organization/minnesota-dhs.json",
+      "sourceBasis": "Current local reference text: The new Disability Waiver Program site describes a simpler structure, individual budgets and online tools. At the September 8 review, it said implementation timing was still being determined. It provides resources, community input and Advisory Task Force on Waiver Reimagine routes.",
+      "implementationFiles": [
+        "data/organization/minnesota-dhs.json"
+      ],
+      "accessibility": "Native headings, lists, tables or field labels provide the content; image descriptions and source links accompany photos. No autoplay. Original learning notes and form data remain separate.",
+      "checks": {
+        "implementationFilesExist": true,
+        "behavioralSuite": "107 passing tests across DSD, engagement, exact media previews, library continuity and toolkit boundaries; not every row is independently behavior-tested",
+        "browser": "See root browser receipt; no blanket browser verification claimed here"
+      },
+      "remaining": "Any suggested recording not delivered above remains an alternative medium, not a completed recording."
+    },
+    {
+      "recordKey": "dsd:dhs-reference-rates",
+      "title": "Disability Waiver Rate System",
+      "route": "/understanding-dhs#rates",
+      "placement": "Inside the “Disability Waiver Rate System” card, after its facts and before “Related teams and partners” and original-source links.",
+      "purpose": "Reduce the chance that a visually polished asset outlives its source guidance.",
+      "proposedMedia": "Current DWRS and CBSM source links",
+      "deliveredMediaAndDecision": "Retained the exact dated source-linked reference card: Current local reference text: DHS's Disability Waiver Rate System page provides rate-setting guidance and 2026 remediation updates. Current policy for the Rate Management System is linked through the CBSM. A static replacement diagram could age separately from the source; the original navigation and context serve this purpose.",
+      "state": "retained",
+      "source": "data/organization/minnesota-dhs.json",
+      "sourceBasis": "Current local reference text: DHS's Disability Waiver Rate System page provides rate-setting guidance and 2026 remediation updates. Current policy for the Rate Management System is linked through the CBSM.",
+      "implementationFiles": [
+        "data/organization/minnesota-dhs.json"
+      ],
+      "accessibility": "Native headings, lists, tables or field labels provide the content; image descriptions and source links accompany photos. No autoplay. Original learning notes and form data remain separate.",
+      "checks": {
+        "implementationFilesExist": true,
+        "behavioralSuite": "107 passing tests across DSD, engagement, exact media previews, library continuity and toolkit boundaries; not every row is independently behavior-tested",
+        "browser": "See root browser receipt; no blanket browser verification claimed here"
+      },
+      "remaining": "Any suggested recording not delivered above remains an alternative medium, not a completed recording."
+    },
+    {
+      "recordKey": "dsd:dhs-reference-employment",
+      "title": "Employment First and E1MN",
+      "route": "/understanding-dhs#employment",
+      "placement": "Inside the “Employment First and E1MN” card, after its facts and before “Related teams and partners” and original-source links.",
+      "purpose": "Make the cross-agency employment relationship understandable.",
+      "proposedMedia": "E1MN partnership and service-question map",
+      "deliveredMediaAndDecision": "Exact relationship comparison table sits in this reference card between its facts and original partners/source links; complete HTML text carries the meaning.",
+      "state": "integrated",
+      "source": "data/organization/minnesota-dhs.json",
+      "sourceBasis": "Current local reference text: Employment First prioritizes competitive, integrated work. E1MN connects DHS, the Department of Employment and Economic Development and the Department of Education. DHS links employment exploration, development and support services, benefits-planning tools and lead-agency employment liaisons.",
+      "implementationFiles": [
+        "components/multimedia/engagement-reference-map.tsx"
+      ],
+      "accessibility": "Native headings, lists, tables or field labels provide the content; image descriptions and source links accompany photos. No autoplay. Original learning notes and form data remain separate.",
+      "checks": {
+        "implementationFilesExist": true,
+        "behavioralSuite": "107 passing tests across DSD, engagement, exact media previews, library continuity and toolkit boundaries; not every row is independently behavior-tested",
+        "browser": "See root browser receipt; no blanket browser verification claimed here"
+      },
+      "remaining": "Any suggested recording not delivered above remains an alternative medium, not a completed recording."
+    },
+    {
+      "recordKey": "dsd:dhs-reference-licensing",
+      "title": "HCBS licensing versus enrollment and service planning",
+      "route": "/understanding-dhs#licensing",
+      "placement": "Inside the “HCBS licensing versus enrollment and service planning” card, after its facts and before “Related teams and partners” and original-source links.",
+      "purpose": "Prevent licensure, enrollment and support planning from being treated as one process.",
+      "proposedMedia": "Licensing/enrollment/planning comparison table",
+      "deliveredMediaAndDecision": "Exact relationship comparison table sits in this reference card between its facts and original partners/source links; complete HTML text carries the meaning.",
+      "state": "integrated",
+      "source": "data/organization/minnesota-dhs.json",
+      "sourceBasis": "Current local reference text: DHS licenses certain home and community-based services under chapter 245D. Its licensing page distinguishes licensure from MHCP enrollment. It describes a licensing moratorium beginning January 1, 2026, anticipated through December 31, 2027, with a lead-agency-based exception process.",
+      "implementationFiles": [
+        "components/multimedia/engagement-reference-map.tsx"
+      ],
+      "accessibility": "Native headings, lists, tables or field labels provide the content; image descriptions and source links accompany photos. No autoplay. Original learning notes and form data remain separate.",
+      "checks": {
+        "implementationFilesExist": true,
+        "behavioralSuite": "107 passing tests across DSD, engagement, exact media previews, library continuity and toolkit boundaries; not every row is independently behavior-tested",
+        "browser": "See root browser receipt; no blanket browser verification claimed here"
+      },
+      "remaining": "Any suggested recording not delivered above remains an alternative medium, not a completed recording."
+    },
+    {
+      "recordKey": "dsd:dhs-reference-transitions",
+      "title": "Complex transitions back to community",
+      "route": "/understanding-dhs#transitions",
+      "placement": "Inside the “Complex transitions back to community” card, after its facts and before “Related teams and partners” and original-source links.",
+      "purpose": "Clarify how additional expertise supplements the existing transition process.",
+      "proposedMedia": "Short handoff map",
+      "deliveredMediaAndDecision": "Exact relationship comparison table sits in this reference card between its facts and original partners/source links; complete HTML text carries the meaning.",
+      "state": "integrated",
+      "source": "data/organization/minnesota-dhs.json",
+      "sourceBasis": "Current local reference text: DHS's Complex Transitions Team connects expertise for people facing barriers moving from hospital or institutional settings to community. Its technical assistance supplements existing processes; hospitals first work with the person's lead agency.",
+      "implementationFiles": [
+        "components/multimedia/engagement-reference-map.tsx"
+      ],
+      "accessibility": "Native headings, lists, tables or field labels provide the content; image descriptions and source links accompany photos. No autoplay. Original learning notes and form data remain separate.",
+      "checks": {
+        "implementationFilesExist": true,
+        "behavioralSuite": "107 passing tests across DSD, engagement, exact media previews, library continuity and toolkit boundaries; not every row is independently behavior-tested",
+        "browser": "See root browser receipt; no blanket browser verification claimed here"
+      },
+      "remaining": "Any suggested recording not delivered above remains an alternative medium, not a completed recording."
+    },
+    {
+      "recordKey": "dsd:dhs-reference-navigation",
+      "title": "DSD contacts and Disability Hub MN",
+      "route": "/understanding-dhs#navigation",
+      "placement": "Inside the “DSD contacts and Disability Hub MN” card, after its facts and before “Related teams and partners” and original-source links.",
+      "purpose": "Help people find navigation support through maintainable information.",
+      "proposedMedia": "Existing readable contact and navigation links",
+      "deliveredMediaAndDecision": "Retained the exact dated source-linked reference card: Current local reference text: DHS's division directory lists DSD at 651-431-4300 or 866-267-7655 and Disability Hub MN at 866-333-2466. The Hub helps people navigate services and options. DSD competitive grants are a separate route from an individual's request for service assistance. A static replacement diagram could age separately from the source; the original navigation and context serve this purpose.",
+      "state": "retained",
+      "source": "data/organization/minnesota-dhs.json",
+      "sourceBasis": "Current local reference text: DHS's division directory lists DSD at 651-431-4300 or 866-267-7655 and Disability Hub MN at 866-333-2466. The Hub helps people navigate services and options. DSD competitive grants are a separate route from an individual's request for service assistance.",
+      "implementationFiles": [
+        "data/organization/minnesota-dhs.json"
+      ],
+      "accessibility": "Native headings, lists, tables or field labels provide the content; image descriptions and source links accompany photos. No autoplay. Original learning notes and form data remain separate.",
+      "checks": {
+        "implementationFilesExist": true,
+        "behavioralSuite": "107 passing tests across DSD, engagement, exact media previews, library continuity and toolkit boundaries; not every row is independently behavior-tested",
+        "browser": "See root browser receipt; no blanket browser verification claimed here"
+      },
+      "remaining": "Any suggested recording not delivered above remains an alternative medium, not a completed recording."
+    },
+    {
+      "recordKey": "dsd:dhs-reference-grants",
+      "title": "DSD competitive grants and funding opportunities",
+      "route": "/understanding-dhs#grants",
+      "placement": "Inside the “DSD competitive grants and funding opportunities” card, after its facts and before “Related teams and partners” and original-source links.",
+      "purpose": "Separate a funding opportunity from an individual's service-assistance request.",
+      "proposedMedia": "Existing grants links and application-source reminder",
+      "deliveredMediaAndDecision": "Retained the exact dated source-linked reference card: Current local reference text: DSD's grants FAQ links current opportunities and explains that eligibility, deadlines and submission instructions belong to each RFP. It also provides a grants contact form and an online grant-management route. A static replacement diagram could age separately from the source; the original navigation and context serve this purpose.",
+      "state": "retained",
+      "source": "data/organization/minnesota-dhs.json",
+      "sourceBasis": "Current local reference text: DSD's grants FAQ links current opportunities and explains that eligibility, deadlines and submission instructions belong to each RFP. It also provides a grants contact form and an online grant-management route.",
+      "implementationFiles": [
+        "data/organization/minnesota-dhs.json"
+      ],
+      "accessibility": "Native headings, lists, tables or field labels provide the content; image descriptions and source links accompany photos. No autoplay. Original learning notes and form data remain separate.",
+      "checks": {
+        "implementationFilesExist": true,
+        "behavioralSuite": "107 passing tests across DSD, engagement, exact media previews, library continuity and toolkit boundaries; not every row is independently behavior-tested",
+        "browser": "See root browser receipt; no blanket browser verification claimed here"
+      },
+      "remaining": "Any suggested recording not delivered above remains an alternative medium, not a completed recording."
+    },
+    {
+      "recordKey": "dsd:dhs-reference-civil-rights",
+      "title": "Civil rights and equal service access",
+      "route": "/understanding-dhs#civil-rights",
+      "placement": "Inside the “Civil rights and equal service access” card, after its facts and before “Related teams and partners” and original-source links.",
+      "purpose": "Preserve a direct route to the responsible official information.",
+      "proposedMedia": "Existing civil-rights source and clear link label",
+      "deliveredMediaAndDecision": "Retained the exact dated source-linked reference card: Current local reference text: DHS describes equal access responsibilities across the department, county human-services agencies and providers. Its civil-rights contact handles service discrimination complaints, information, records, liaison work and training through Equal Opportunity and Access. A static replacement diagram could age separately from the source; the original navigation and context serve this purpose.",
+      "state": "retained",
+      "source": "data/organization/minnesota-dhs.json",
+      "sourceBasis": "Current local reference text: DHS describes equal access responsibilities across the department, county human-services agencies and providers. Its civil-rights contact handles service discrimination complaints, information, records, liaison work and training through Equal Opportunity and Access.",
+      "implementationFiles": [
+        "data/organization/minnesota-dhs.json"
+      ],
+      "accessibility": "Native headings, lists, tables or field labels provide the content; image descriptions and source links accompany photos. No autoplay. Original learning notes and form data remain separate.",
+      "checks": {
+        "implementationFilesExist": true,
+        "behavioralSuite": "107 passing tests across DSD, engagement, exact media previews, library continuity and toolkit boundaries; not every row is independently behavior-tested",
+        "browser": "See root browser receipt; no blanket browser verification claimed here"
+      },
+      "remaining": "Any suggested recording not delivered above remains an alternative medium, not a completed recording."
+    },
+    {
+      "recordKey": "dsd:dhs-reference-language-access",
+      "title": "Language access and translated information",
+      "route": "/understanding-dhs#language-access",
+      "placement": "Inside the “Language access and translated information” card, after its facts and before “Related teams and partners” and original-source links.",
+      "purpose": "Connect translated documents with the broader first-contact experience.",
+      "proposedMedia": "Shared planned first-contact journey",
+      "deliveredMediaAndDecision": "Exact relationship comparison table sits in this reference card between its facts and original partners/source links; complete HTML text carries the meaning.",
+      "state": "integrated",
+      "source": "data/organization/minnesota-dhs.json",
+      "sourceBasis": "Current local reference text: DHS publishes language-access resources and translated program documents to support access to information and benefits.",
+      "implementationFiles": [
+        "components/multimedia/engagement-reference-map.tsx"
+      ],
+      "accessibility": "Native headings, lists, tables or field labels provide the content; image descriptions and source links accompany photos. No autoplay. Original learning notes and form data remain separate.",
+      "checks": {
+        "implementationFilesExist": true,
+        "behavioralSuite": "107 passing tests across DSD, engagement, exact media previews, library continuity and toolkit boundaries; not every row is independently behavior-tested",
+        "browser": "See root browser receipt; no blanket browser verification claimed here"
+      },
+      "remaining": "Any suggested recording not delivered above remains an alternative medium, not a completed recording."
+    },
+    {
+      "recordKey": "dsd:dhs-reference-operations",
+      "title": "Finance, appeals and data requests",
+      "route": "/understanding-dhs#operations",
+      "placement": "Inside the “Finance, appeals and data requests” card, after its facts and before “Related teams and partners” and original-source links.",
+      "purpose": "Avoid sending different operational questions to a single generic office.",
+      "proposedMedia": "Three-way question-to-function diagram",
+      "deliveredMediaAndDecision": "Exact relationship comparison table sits in this reference card between its facts and original partners/source links; complete HTML text carries the meaning.",
+      "state": "integrated",
+      "source": "data/organization/minnesota-dhs.json",
+      "sourceBasis": "Current local reference text: DHS's operations directory separates financial operations, appeals, privacy information and data requests. Financial operations includes budgets, payments and payroll support. Appeals concerns disputed benefits, services or other program decisions.",
+      "implementationFiles": [
+        "components/multimedia/engagement-reference-map.tsx"
+      ],
+      "accessibility": "Native headings, lists, tables or field labels provide the content; image descriptions and source links accompany photos. No autoplay. Original learning notes and form data remain separate.",
+      "checks": {
+        "implementationFilesExist": true,
+        "behavioralSuite": "107 passing tests across DSD, engagement, exact media previews, library continuity and toolkit boundaries; not every row is independently behavior-tested",
+        "browser": "See root browser receipt; no blanket browser verification claimed here"
+      },
+      "remaining": "Any suggested recording not delivered above remains an alternative medium, not a completed recording."
+    },
+    {
+      "recordKey": "dsd:dhs-reference-workforce",
+      "title": "Staff development, technology and communication",
+      "route": "/understanding-dhs#workforce",
+      "placement": "Inside the “Staff development, technology and communication” card, after its facts and before “Related teams and partners” and original-source links.",
+      "purpose": "Find the source for staff development, communication or technology support.",
+      "proposedMedia": "Existing function descriptions and source links",
+      "deliveredMediaAndDecision": "Retained the exact dated source-linked reference card: Current local reference text: The directory lists development and learning, human resources and workforce planning within Employee Culture. Communications supports public and media information. MNIT supplies information infrastructure, application services and technology coordination. A static replacement diagram could age separately from the source; the original navigation and context serve this purpose.",
+      "state": "retained",
+      "source": "data/organization/minnesota-dhs.json",
+      "sourceBasis": "Current local reference text: The directory lists development and learning, human resources and workforce planning within Employee Culture. Communications supports public and media information. MNIT supplies information infrastructure, application services and technology coordination.",
+      "implementationFiles": [
+        "data/organization/minnesota-dhs.json"
+      ],
+      "accessibility": "Native headings, lists, tables or field labels provide the content; image descriptions and source links accompany photos. No autoplay. Original learning notes and form data remain separate.",
+      "checks": {
+        "implementationFilesExist": true,
+        "behavioralSuite": "107 passing tests across DSD, engagement, exact media previews, library continuity and toolkit boundaries; not every row is independently behavior-tested",
+        "browser": "See root browser receipt; no blanket browser verification claimed here"
+      },
+      "remaining": "Any suggested recording not delivered above remains an alternative medium, not a completed recording."
+    },
+    {
+      "recordKey": "dsd:dhs-reference-behavioral-health",
+      "title": "Behavioral health and coordinated care",
+      "route": "/understanding-dhs#behavioral-health",
+      "placement": "Inside the “Behavioral health and coordinated care” card, after its facts and before “Related teams and partners” and original-source links.",
+      "purpose": "Make distinct responsibilities visible without teaching clinical assessment.",
+      "proposedMedia": "Responsibility comparison matrix",
+      "deliveredMediaAndDecision": "Exact relationship comparison table sits in this reference card between its facts and original partners/source links; complete HTML text carries the meaning.",
+      "state": "integrated",
+      "source": "data/organization/minnesota-dhs.json",
+      "sourceBasis": "Current local reference text: DHS's CCBHC materials describe integration of mental-health and substance-use services and care coordination. They distinguish service requirements, Medicaid coverage, licensing and background-study responsibilities, and include implementation updates.",
+      "implementationFiles": [
+        "components/multimedia/engagement-reference-map.tsx"
+      ],
+      "accessibility": "Native headings, lists, tables or field labels provide the content; image descriptions and source links accompany photos. No autoplay. Original learning notes and form data remain separate.",
+      "checks": {
+        "implementationFilesExist": true,
+        "behavioralSuite": "107 passing tests across DSD, engagement, exact media previews, library continuity and toolkit boundaries; not every row is independently behavior-tested",
+        "browser": "See root browser receipt; no blanket browser verification claimed here"
+      },
+      "remaining": "Any suggested recording not delivered above remains an alternative medium, not a completed recording."
+    },
+    {
+      "recordKey": "dsd:dhs-reference-dcyf",
+      "title": "DHS and DCYF boundaries",
+      "route": "/understanding-dhs#dcyf",
+      "placement": "Inside the “DHS and DCYF boundaries” card, after its facts and before “Related teams and partners” and original-source links.",
+      "purpose": "Keep boundary information tied to dated source material.",
+      "proposedMedia": "Existing dated agency-boundary summary and original links",
+      "deliveredMediaAndDecision": "Retained the exact dated source-linked reference card: Current local reference text: DCYF's public site covers child care, child support, child safety, family supports, food and cash assistance, and youth services. DHS's June 2025 bulletin transferred specified child-care and child-foster-care licensing functions to DCYF, while retaining other categories including HCBS and children's residential facilities. A static replacement diagram could age separately from the source; the original navigation and context serve this purpose.",
+      "state": "retained",
+      "source": "data/organization/minnesota-dhs.json",
+      "sourceBasis": "Current local reference text: DCYF's public site covers child care, child support, child safety, family supports, food and cash assistance, and youth services. DHS's June 2025 bulletin transferred specified child-care and child-foster-care licensing functions to DCYF, while retaining other categories including HCBS and children's residential facilities.",
+      "implementationFiles": [
+        "data/organization/minnesota-dhs.json"
+      ],
+      "accessibility": "Native headings, lists, tables or field labels provide the content; image descriptions and source links accompany photos. No autoplay. Original learning notes and form data remain separate.",
+      "checks": {
+        "implementationFilesExist": true,
+        "behavioralSuite": "107 passing tests across DSD, engagement, exact media previews, library continuity and toolkit boundaries; not every row is independently behavior-tested",
+        "browser": "See root browser receipt; no blanket browser verification claimed here"
+      },
+      "remaining": "Any suggested recording not delivered above remains an alternative medium, not a completed recording."
+    },
+    {
+      "recordKey": "dsd:dhs-reference-dct",
+      "title": "DHS and Direct Care and Treatment boundaries",
+      "route": "/understanding-dhs#dct",
+      "placement": "Inside the “DHS and Direct Care and Treatment boundaries” card, after its facts and before “Related teams and partners” and original-source links.",
+      "purpose": "Avoid carrying an old DHS/DCT organizational assumption into a work question.",
+      "proposedMedia": "Existing source-linked agency-boundary card",
+      "deliveredMediaAndDecision": "Retained the exact dated source-linked reference card: Current local reference text: DCT's 2026 fact sheet states that Direct Care and Treatment became a standalone agency on July 1, 2025. A static replacement diagram could age separately from the source; the original navigation and context serve this purpose.",
+      "state": "retained",
+      "source": "data/organization/minnesota-dhs.json",
+      "sourceBasis": "Current local reference text: DCT's 2026 fact sheet states that Direct Care and Treatment became a standalone agency on July 1, 2025.",
+      "implementationFiles": [
+        "data/organization/minnesota-dhs.json"
+      ],
+      "accessibility": "Native headings, lists, tables or field labels provide the content; image descriptions and source links accompany photos. No autoplay. Original learning notes and form data remain separate.",
+      "checks": {
+        "implementationFilesExist": true,
+        "behavioralSuite": "107 passing tests across DSD, engagement, exact media previews, library continuity and toolkit boundaries; not every row is independently behavior-tested",
+        "browser": "See root browser receipt; no blanket browser verification claimed here"
+      },
+      "remaining": "Any suggested recording not delivered above remains an alternative medium, not a completed recording."
+    },
+    {
+      "recordKey": "dsd:dhs-reference-mhcp",
+      "title": "Minnesota Health Care Programs and Medicaid",
+      "route": "/understanding-dhs#mhcp",
+      "placement": "Inside the “Minnesota Health Care Programs and Medicaid” card, after its facts and before “Related teams and partners” and original-source links.",
+      "purpose": "Clarify which relationship a health-coverage question concerns.",
+      "proposedMedia": "Eligibility, enrollment and delivery relationship map",
+      "deliveredMediaAndDecision": "Exact relationship comparison table sits in this reference card between its facts and original partners/source links; complete HTML text carries the meaning.",
+      "state": "integrated",
+      "source": "data/organization/minnesota-dhs.json",
+      "sourceBasis": "Current local reference text: MHCP includes Medical Assistance, MinnesotaCare and the Minnesota Family Planning Program. DHS works with county and Tribal workers and other partners on eligibility and enrollment. Depending on the program, delivery uses fee-for-service providers or contracted managed care organizations.",
+      "implementationFiles": [
+        "components/multimedia/engagement-reference-map.tsx"
+      ],
+      "accessibility": "Native headings, lists, tables or field labels provide the content; image descriptions and source links accompany photos. No autoplay. Original learning notes and form data remain separate.",
+      "checks": {
+        "implementationFilesExist": true,
+        "behavioralSuite": "107 passing tests across DSD, engagement, exact media previews, library continuity and toolkit boundaries; not every row is independently behavior-tested",
+        "browser": "See root browser receipt; no blanket browser verification claimed here"
+      },
+      "remaining": "Any suggested recording not delivered above remains an alternative medium, not a completed recording."
+    },
+    {
+      "recordKey": "dsd:dhs-reference-housing",
+      "title": "Housing and homelessness relationships",
+      "route": "/understanding-dhs#housing",
+      "placement": "Inside the “Housing and homelessness relationships” card, after its facts and before “Related teams and partners” and original-source links.",
+      "purpose": "Show how several work areas connect around community life.",
+      "proposedMedia": "Housing/services/income-support relationship map",
+      "deliveredMediaAndDecision": "Exact relationship comparison table sits in this reference card between its facts and original partners/source links; complete HTML text carries the meaning.",
+      "state": "integrated",
+      "source": "data/organization/minnesota-dhs.json",
+      "sourceBasis": "Current local reference text: DHS's housing work connects housing, services and income supports so people can live in their chosen communities.",
+      "implementationFiles": [
+        "components/multimedia/engagement-reference-map.tsx"
+      ],
+      "accessibility": "Native headings, lists, tables or field labels provide the content; image descriptions and source links accompany photos. No autoplay. Original learning notes and form data remain separate.",
+      "checks": {
+        "implementationFilesExist": true,
+        "behavioralSuite": "107 passing tests across DSD, engagement, exact media previews, library continuity and toolkit boundaries; not every row is independently behavior-tested",
+        "browser": "See root browser receipt; no blanket browser verification claimed here"
+      },
+      "remaining": "Any suggested recording not delivered above remains an alternative medium, not a completed recording."
+    },
+    {
+      "recordKey": "dsd:dhs-reference-aging",
+      "title": "Aging services and community support",
+      "route": "/understanding-dhs#aging",
+      "placement": "Inside the “Aging services and community support” card, after its facts and before “Related teams and partners” and original-source links.",
+      "purpose": "Help visitors continue to maintained information about community support.",
+      "proposedMedia": "Existing aging overview and navigation sources",
+      "deliveredMediaAndDecision": "Retained the exact dated source-linked reference card: Current local reference text: DHS works with providers and community organizations on home and community-based supports for older adults, needs assessment and training. Its aging overview points people to Minnesota Aging Pathways and related community resources. A static replacement diagram could age separately from the source; the original navigation and context serve this purpose.",
+      "state": "retained",
+      "source": "data/organization/minnesota-dhs.json",
+      "sourceBasis": "Current local reference text: DHS works with providers and community organizations on home and community-based supports for older adults, needs assessment and training. Its aging overview points people to Minnesota Aging Pathways and related community resources.",
+      "implementationFiles": [
+        "data/organization/minnesota-dhs.json"
+      ],
+      "accessibility": "Native headings, lists, tables or field labels provide the content; image descriptions and source links accompany photos. No autoplay. Original learning notes and form data remain separate.",
+      "checks": {
+        "implementationFilesExist": true,
+        "behavioralSuite": "107 passing tests across DSD, engagement, exact media previews, library continuity and toolkit boundaries; not every row is independently behavior-tested",
+        "browser": "See root browser receipt; no blanket browser verification claimed here"
+      },
+      "remaining": "Any suggested recording not delivered above remains an alternative medium, not a completed recording."
+    },
+    {
+      "recordKey": "dsd:dhs-reference-tribal-relations",
+      "title": "Tribal and Urban Indian Relations",
+      "route": "/understanding-dhs#tribal-relations",
+      "placement": "Inside the “Tribal and Urban Indian Relations” card, after its facts and before “Related teams and partners” and original-source links.",
+      "purpose": "Keep sovereignty and consultation relationships visible without claiming to represent a Nation.",
+      "proposedMedia": "Existing sovereignty and consultation text with original source links",
+      "deliveredMediaAndDecision": "Retained the exact dated source-linked reference card: Current local reference text: DHS describes Tribal and Urban Indian Relations as supporting consultation and program development with Tribal governments. Its published focus includes sovereignty relationships, infrastructure, access, disparities, culturally appropriate programs and fiscal resources. A static replacement diagram could age separately from the source; the original navigation and context serve this purpose.",
+      "state": "retained",
+      "source": "data/organization/minnesota-dhs.json",
+      "sourceBasis": "Current local reference text: DHS describes Tribal and Urban Indian Relations as supporting consultation and program development with Tribal governments. Its published focus includes sovereignty relationships, infrastructure, access, disparities, culturally appropriate programs and fiscal resources.",
+      "implementationFiles": [
+        "data/organization/minnesota-dhs.json"
+      ],
+      "accessibility": "Native headings, lists, tables or field labels provide the content; image descriptions and source links accompany photos. No autoplay. Original learning notes and form data remain separate.",
+      "checks": {
+        "implementationFilesExist": true,
+        "behavioralSuite": "107 passing tests across DSD, engagement, exact media previews, library continuity and toolkit boundaries; not every row is independently behavior-tested",
+        "browser": "See root browser receipt; no blanket browser verification claimed here"
+      },
+      "remaining": "Any suggested recording not delivered above remains an alternative medium, not a completed recording."
+    },
+    {
+      "recordKey": "dsd:dhs-reference-adult-protection",
+      "title": "Adult protection and reporting routes",
+      "route": "/understanding-dhs#adult-protection",
+      "placement": "Inside the “Adult protection and reporting routes” card, after its facts and before “Related teams and partners” and original-source links.",
+      "purpose": "Maintain direct access to the responsible reporting information.",
+      "proposedMedia": "Existing reporting-guidance source links",
+      "deliveredMediaAndDecision": "Retained the exact dated source-linked reference card: Current local reference text: DHS Adult Protection provides policy, training, consultation and data work and operates the Minnesota Adult Abuse Reporting Center. The overview links reporting guidance for the public and mandated reporters. A static replacement diagram could age separately from the source; the original navigation and context serve this purpose.",
+      "state": "retained",
+      "source": "data/organization/minnesota-dhs.json",
+      "sourceBasis": "Current local reference text: DHS Adult Protection provides policy, training, consultation and data work and operates the Minnesota Adult Abuse Reporting Center. The overview links reporting guidance for the public and mandated reporters.",
+      "implementationFiles": [
+        "data/organization/minnesota-dhs.json"
+      ],
+      "accessibility": "Native headings, lists, tables or field labels provide the content; image descriptions and source links accompany photos. No autoplay. Original learning notes and form data remain separate.",
+      "checks": {
+        "implementationFilesExist": true,
+        "behavioralSuite": "107 passing tests across DSD, engagement, exact media previews, library continuity and toolkit boundaries; not every row is independently behavior-tested",
+        "browser": "See root browser receipt; no blanket browser verification claimed here"
+      },
+      "remaining": "Any suggested recording not delivered above remains an alternative medium, not a completed recording."
+    },
+    {
+      "recordKey": "dsd:dhs-reference-legislative",
+      "title": "Legislation, budgets and evidence",
+      "route": "/understanding-dhs#legislative",
+      "placement": "Inside the “Legislation, budgets and evidence” card, after its facts and before “Related teams and partners” and original-source links.",
+      "purpose": "Distinguish an idea, a dated evidence source and an enacted or funded decision.",
+      "proposedMedia": "Proposal-to-evidence source map",
+      "deliveredMediaAndDecision": "Exact relationship comparison table sits in this reference card between its facts and original partners/source links; complete HTML text carries the meaning.",
+      "state": "integrated",
+      "source": "data/organization/minnesota-dhs.json",
+      "sourceBasis": "Current local reference text: DHS legislative staff work with lawmakers on proposals, reports and budget topics. The department publishes session fact sheets, legislative reports and background materials.",
+      "implementationFiles": [
+        "components/multimedia/engagement-reference-map.tsx"
+      ],
+      "accessibility": "Native headings, lists, tables or field labels provide the content; image descriptions and source links accompany photos. No autoplay. Original learning notes and form data remain separate.",
+      "checks": {
+        "implementationFilesExist": true,
+        "behavioralSuite": "107 passing tests across DSD, engagement, exact media previews, library continuity and toolkit boundaries; not every row is independently behavior-tested",
+        "browser": "See root browser receipt; no blanket browser verification claimed here"
+      },
+      "remaining": "Any suggested recording not delivered above remains an alternative medium, not a completed recording."
+    },
+    {
+      "recordKey": "dsd:amplify-activity-joy",
+      "title": "A little joy",
+      "route": "/one-dsd/amplify/gatherings#activity-studio",
+      "placement": "Choose the “Explore a little joy” button, then use the selected “A little joy” panel at #gathering-plan. The current page does not support an activity-specific URL query.",
+      "purpose": "Enjoy a shared interest without requiring an equity lesson or work product.",
+      "proposedMedia": "Participant-chosen photo, object description or recommendation",
+      "deliveredMediaAndDecision": "Retained the exact original activity and its optional choices: A favorite book, a garden photo, a craft, or a small discovery. A little enjoyment belongs in the working day. Existing question: What has caught your interest or made you smile lately? Source steps: Offer a small example to get things started. Invite people to share, listen, or add a written contribution. Finish with whatever people enjoyed; no takeaway is required. Participant-chosen material is not replaced by an invented contribution.",
+      "state": "retained",
+      "source": "lib/content/amplify-experiences.ts",
+      "sourceBasis": "A favorite book, a garden photo, a craft, or a small discovery. A little enjoyment belongs in the working day. Existing question: What has caught your interest or made you smile lately? Source steps: Offer a small example to get things started. Invite people to share, listen, or add a written contribution. Finish with whatever people enjoyed; no takeaway is required.",
+      "implementationFiles": [
+        "lib/content/amplify-experiences.ts"
+      ],
+      "accessibility": "Native headings, lists, tables or field labels provide the content; image descriptions and source links accompany photos. No autoplay. Original learning notes and form data remain separate.",
+      "checks": {
+        "implementationFilesExist": true,
+        "behavioralSuite": "107 passing tests across DSD, engagement, exact media previews, library continuity and toolkit boundaries; not every row is independently behavior-tested",
+        "browser": "See root browser receipt; no blanket browser verification claimed here"
+      },
+      "remaining": "Any suggested recording not delivered above remains an alternative medium, not a completed recording."
+    },
+    {
+      "recordKey": "dsd:amplify-activity-minnesota",
+      "title": "Minnesota through our eyes",
+      "route": "/one-dsd/amplify/gatherings#activity-studio",
+      "placement": "Choose the “Explore minnesota through our eyes” button, then use the selected “Minnesota through our eyes” panel at #gathering-plan. The current page does not support an activity-specific URL query.",
+      "purpose": "Broaden what participants want to learn about Minnesota through a specific source.",
+      "proposedMedia": "Public-source image and contextual reading",
+      "deliveredMediaAndDecision": "Authentic NPS/Gordon Dietzman photograph at Minnehaha Falls Regional Park, explicit public-domain metadata, alt text and source/history links.",
+      "state": "integrated",
+      "source": "lib/content/amplify-experiences.ts",
+      "sourceBasis": "Discover a place, artist, community institution, or story that broadens your picture of Minnesota. Existing question: What is a place or story you would like colleagues to discover? Source steps: Choose a public reading or invite a contribution someone wants to share. Explore what draws people's interest and what they would like to learn. Offer a related community reading for anyone who wants to continue.",
+      "implementationFiles": [
+        "components/multimedia/engagement-worked-examples.tsx"
+      ],
+      "accessibility": "Native headings, lists, tables or field labels provide the content; image descriptions and source links accompany photos. No autoplay. Original learning notes and form data remain separate.",
+      "checks": {
+        "implementationFilesExist": true,
+        "behavioralSuite": "107 passing tests across DSD, engagement, exact media previews, library continuity and toolkit boundaries; not every row is independently behavior-tested",
+        "browser": "See root browser receipt; no blanket browser verification claimed here"
+      },
+      "remaining": "Any suggested recording not delivered above remains an alternative medium, not a completed recording."
+    },
+    {
+      "recordKey": "dsd:amplify-activity-story",
+      "title": "The story behind it",
+      "route": "/one-dsd/amplify/gatherings#activity-studio",
+      "placement": "Choose the “Explore the story behind it” button, then use the selected “The story behind it” panel at #gathering-plan. The current page does not support an activity-specific URL query.",
+      "purpose": "Open a conversation around something a person enjoys, without assigning a cultural meaning to everyone.",
+      "proposedMedia": "Chosen recommendation and optional source-linked image or audio",
+      "deliveredMediaAndDecision": "Retained the exact original activity and its optional choices: A song recommendation, a recipe, an artwork, or a tradition can open an unexpected conversation. Existing question: What would you enjoy telling us about this? Source steps: Bring an example or choose something available publicly. Make room for curiosity without asking anyone to represent a group. Exchange recommendations if people want to. Participant-chosen material is not replaced by an invented contribution.",
+      "state": "retained",
+      "source": "lib/content/amplify-experiences.ts",
+      "sourceBasis": "A song recommendation, a recipe, an artwork, or a tradition can open an unexpected conversation. Existing question: What would you enjoy telling us about this? Source steps: Bring an example or choose something available publicly. Make room for curiosity without asking anyone to represent a group. Exchange recommendations if people want to.",
+      "implementationFiles": [
+        "lib/content/amplify-experiences.ts"
+      ],
+      "accessibility": "Native headings, lists, tables or field labels provide the content; image descriptions and source links accompany photos. No autoplay. Original learning notes and form data remain separate.",
+      "checks": {
+        "implementationFilesExist": true,
+        "behavioralSuite": "107 passing tests across DSD, engagement, exact media previews, library continuity and toolkit boundaries; not every row is independently behavior-tested",
+        "browser": "See root browser receipt; no blanket browser verification claimed here"
+      },
+      "remaining": "Any suggested recording not delivered above remains an alternative medium, not a completed recording."
+    },
+    {
+      "recordKey": "dsd:amplify-activity-borrow",
+      "title": "Borrow a good idea",
+      "route": "/one-dsd/amplify/gatherings#activity-studio",
+      "placement": "Choose the “Explore borrow a good idea” button, then use the selected “Borrow a good idea” panel at #gathering-plan. The current page does not support an activity-specific URL query.",
+      "purpose": "Make adaptation more specific than copying another team's practice.",
+      "proposedMedia": "Annotated fictional work example",
+      "deliveredMediaAndDecision": "Two fictional handoff notes demonstrate a transferable change.",
+      "state": "integrated",
+      "source": "lib/content/amplify-experiences.ts",
+      "sourceBasis": "One team shares something that works. Another imagines how it could fit their own setting. Existing question: What small practice has made your work easier? Source steps: Show a non-sensitive example and explain the need it addresses. Ask what would be different in another team's setting. Leave an optional resource or possible next step.",
+      "implementationFiles": [
+        "components/multimedia/engagement-worked-examples.tsx"
+      ],
+      "accessibility": "Native headings, lists, tables or field labels provide the content; image descriptions and source links accompany photos. No autoplay. Original learning notes and form data remain separate.",
+      "checks": {
+        "implementationFilesExist": true,
+        "behavioralSuite": "107 passing tests across DSD, engagement, exact media previews, library continuity and toolkit boundaries; not every row is independently behavior-tested",
+        "browser": "See root browser receipt; no blanket browser verification claimed here"
+      },
+      "remaining": "Any suggested recording not delivered above remains an alternative medium, not a completed recording."
+    },
+    {
+      "recordKey": "dsd:amplify-activity-question",
+      "title": "The question we share",
+      "route": "/one-dsd/amplify/gatherings#activity-studio",
+      "placement": "Choose the “Explore the question we share” button, then use the selected “The question we share” panel at #gathering-plan. The current page does not support an activity-specific URL query.",
+      "purpose": "Compare how the same work question appears in different roles.",
+      "proposedMedia": "Existing question and written examples from willing teams",
+      "deliveredMediaAndDecision": "Two work perspectives on the same handoff question.",
+      "state": "integrated",
+      "source": "lib/content/amplify-experiences.ts",
+      "sourceBasis": "Different roles, one familiar question: clearer handoffs, useful meetings, or information people can act on. Existing question: Where does this question show up in your team's work? Source steps: Invite perspectives from two willing teams. Notice what is shared and what depends on context. Choose whether a resource, a further conversation, or a practical suggestion would help.",
+      "implementationFiles": [
+        "components/multimedia/engagement-worked-examples.tsx"
+      ],
+      "accessibility": "Native headings, lists, tables or field labels provide the content; image descriptions and source links accompany photos. No autoplay. Original learning notes and form data remain separate.",
+      "checks": {
+        "implementationFilesExist": true,
+        "behavioralSuite": "107 passing tests across DSD, engagement, exact media previews, library continuity and toolkit boundaries; not every row is independently behavior-tested",
+        "browser": "See root browser receipt; no blanket browser verification claimed here"
+      },
+      "remaining": "Any suggested recording not delivered above remains an alternative medium, not a completed recording."
+    },
+    {
+      "recordKey": "dsd:amplify-activity-listen",
+      "title": "Listen, then linger",
+      "route": "/one-dsd/amplify/gatherings#activity-studio",
+      "placement": "Choose the “Explore listen, then linger” button, then use the selected “Listen, then linger” panel at #gathering-plan. The current page does not support an activity-specific URL query.",
+      "purpose": "Leave room for different interpretations of a concrete passage.",
+      "proposedMedia": "Existing program podcast excerpt plus companion text",
+      "deliveredMediaAndDecision": "Retained the exact original activity and its optional choices: A short piece of audio and enough room for the conversation that follows. Existing question: What stayed with you, or what would you like to question? Source steps: Choose an existing program podcast and agree on a short excerpt. Offer time to listen or read an available companion resource. Invite different interpretations and follow curiosity. Participant-chosen material is not replaced by an invented contribution.",
+      "state": "retained",
+      "source": "lib/content/amplify-experiences.ts",
+      "sourceBasis": "A short piece of audio and enough room for the conversation that follows. Existing question: What stayed with you, or what would you like to question? Source steps: Choose an existing program podcast and agree on a short excerpt. Offer time to listen or read an available companion resource. Invite different interpretations and follow curiosity.",
+      "implementationFiles": [
+        "lib/content/amplify-experiences.ts"
+      ],
+      "accessibility": "Native headings, lists, tables or field labels provide the content; image descriptions and source links accompany photos. No autoplay. Original learning notes and form data remain separate.",
+      "checks": {
+        "implementationFilesExist": true,
+        "behavioralSuite": "107 passing tests across DSD, engagement, exact media previews, library continuity and toolkit boundaries; not every row is independently behavior-tested",
+        "browser": "See root browser receipt; no blanket browser verification claimed here"
+      },
+      "remaining": "Any suggested recording not delivered above remains an alternative medium, not a completed recording."
+    },
+    {
+      "recordKey": "dsd:amplify-activity-known",
+      "title": "What I wish I had known",
+      "route": "/one-dsd/amplify/gatherings#activity-studio",
+      "placement": "Choose the “Explore what i wish i had known” button, then use the selected “What I wish I had known” panel at #gathering-plan. The current page does not support an activity-specific URL query.",
+      "purpose": "Exchange practical knowledge without presenting one person's career as the required route.",
+      "proposedMedia": "Written practical lesson; optional contributor recording later",
+      "deliveredMediaAndDecision": "Retained the exact original activity and its optional choices: Useful lessons about finding help, navigating work, or developing a skill—shared generously. Existing question: What did you learn the long way that could help someone else? Source steps: Offer one practical lesson without naming other people's private situations. Invite questions and different experiences. Share a resource or a willing contact where appropriate. Participant-chosen material is not replaced by an invented contribution.",
+      "state": "retained",
+      "source": "lib/content/amplify-experiences.ts",
+      "sourceBasis": "Useful lessons about finding help, navigating work, or developing a skill—shared generously. Existing question: What did you learn the long way that could help someone else? Source steps: Offer one practical lesson without naming other people's private situations. Invite questions and different experiences. Share a resource or a willing contact where appropriate.",
+      "implementationFiles": [
+        "lib/content/amplify-experiences.ts"
+      ],
+      "accessibility": "Native headings, lists, tables or field labels provide the content; image descriptions and source links accompany photos. No autoplay. Original learning notes and form data remain separate.",
+      "checks": {
+        "implementationFilesExist": true,
+        "behavioralSuite": "107 passing tests across DSD, engagement, exact media previews, library continuity and toolkit boundaries; not every row is independently behavior-tested",
+        "browser": "See root browser receipt; no blanket browser verification claimed here"
+      },
+      "remaining": "Any suggested recording not delivered above remains an alternative medium, not a completed recording."
+    },
+    {
+      "recordKey": "dsd:amplify-activity-window",
+      "title": "A window into my work",
+      "route": "/one-dsd/amplify/gatherings#activity-studio",
+      "placement": "Choose the “Explore a window into my work” button, then use the selected “A window into my work” panel at #gathering-plan. The current page does not support an activity-specific URL query.",
+      "purpose": "Make the work behind a team name understandable.",
+      "proposedMedia": "Captioned fictional process walkthrough",
+      "deliveredMediaAndDecision": "Written process walkthrough; no captioned video claimed.",
+      "state": "integrated",
+      "source": "lib/content/amplify-experiences.ts",
+      "sourceBasis": "Meet the work behind another team's name and discover where your efforts connect. Existing question: What would you like other teams to understand about your work? Source steps: Use a simple public or fictional example. Explain a handoff, decision, or question the team encounters. Invite colleagues to describe connections to their own work.",
+      "implementationFiles": [
+        "components/multimedia/engagement-worked-examples.tsx"
+      ],
+      "accessibility": "Native headings, lists, tables or field labels provide the content; image descriptions and source links accompany photos. No autoplay. Original learning notes and form data remain separate.",
+      "checks": {
+        "implementationFilesExist": true,
+        "behavioralSuite": "107 passing tests across DSD, engagement, exact media previews, library continuity and toolkit boundaries; not every row is independently behavior-tested",
+        "browser": "See root browser receipt; no blanket browser verification claimed here"
+      },
+      "remaining": "Any suggested recording not delivered above remains an alternative medium, not a completed recording."
+    },
+    {
+      "recordKey": "dsd:amplify-activity-friction",
+      "title": "One less friction",
+      "route": "/one-dsd/amplify/gatherings#activity-studio",
+      "placement": "Choose the “Explore one less friction” button, then use the selected “One less friction” panel at #gathering-plan. The current page does not support an activity-specific URL query.",
+      "purpose": "Turn an avoidable burden into a concrete question without assigning the contributor implementation work.",
+      "proposedMedia": "Existing idea-brief tool and one fictional annotated example",
+      "deliveredMediaAndDecision": "Fictional completed brief complements existing idea tool.",
+      "state": "integrated",
+      "source": "lib/content/amplify-experiences.ts",
+      "sourceBasis": "An unclear message or an avoidable step can be a useful starting point for a small improvement. Existing question: What is one thing that could be easier for the people doing or using this work? Source steps: Describe the process and who experiences it. Explore different effects without assuming motives. If people want, develop an idea to carry forward.",
+      "implementationFiles": [
+        "components/multimedia/engagement-worked-examples.tsx"
+      ],
+      "accessibility": "Native headings, lists, tables or field labels provide the content; image descriptions and source links accompany photos. No autoplay. Original learning notes and form data remain separate.",
+      "checks": {
+        "implementationFilesExist": true,
+        "behavioralSuite": "107 passing tests across DSD, engagement, exact media previews, library continuity and toolkit boundaries; not every row is independently behavior-tested",
+        "browser": "See root browser receipt; no blanket browser verification claimed here"
+      },
+      "remaining": "Any suggested recording not delivered above remains an alternative medium, not a completed recording."
+    },
+    {
+      "recordKey": "dsd:amplify-activity-pause",
+      "title": "A pause that fits",
+      "route": "/one-dsd/amplify/gatherings#activity-studio",
+      "placement": "Choose the “Explore a pause that fits” button, then use the selected “A pause that fits” panel at #gathering-plan. The current page does not support an activity-specific URL query.",
+      "purpose": "Make a break usable on the participant's own terms.",
+      "proposedMedia": "Existing text choices; no new media",
+      "deliveredMediaAndDecision": "Retained the exact original activity and its optional choices: A quiet pause, a seated stretch, a casual chat, or an accessible outdoor break—choose what suits you. Existing question: What kind of pause would feel useful today? Source steps: Offer more than one option, including quiet time. Let people take part in their own way. Finish without asking for health information or a report back. Participant-chosen material is not replaced by an invented contribution.",
+      "state": "retained",
+      "source": "lib/content/amplify-experiences.ts",
+      "sourceBasis": "A quiet pause, a seated stretch, a casual chat, or an accessible outdoor break—choose what suits you. Existing question: What kind of pause would feel useful today? Source steps: Offer more than one option, including quiet time. Let people take part in their own way. Finish without asking for health information or a report back.",
+      "implementationFiles": [
+        "lib/content/amplify-experiences.ts"
+      ],
+      "accessibility": "Native headings, lists, tables or field labels provide the content; image descriptions and source links accompany photos. No autoplay. Original learning notes and form data remain separate.",
+      "checks": {
+        "implementationFilesExist": true,
+        "behavioralSuite": "107 passing tests across DSD, engagement, exact media previews, library continuity and toolkit boundaries; not every row is independently behavior-tested",
+        "browser": "See root browser receipt; no blanket browser verification claimed here"
+      },
+      "remaining": "Any suggested recording not delivered above remains an alternative medium, not a completed recording."
+    },
+    {
+      "recordKey": "dsd:amplify-activity-opportunity",
+      "title": "Opportunity exchange",
+      "route": "/one-dsd/amplify/gatherings#activity-studio",
+      "placement": "Choose the “Explore opportunity exchange” button, then use the selected “Opportunity exchange” panel at #gathering-plan. The current page does not support an activity-specific URL query.",
+      "purpose": "Make an actual development opportunity easier to understand and access.",
+      "proposedMedia": "Current opportunity description and existing mentoring tool",
+      "deliveredMediaAndDecision": "Retained the exact original activity and its optional choices: Make development opportunities easier to understand and easier to find. Existing question: What would help someone understand how to access this opportunity? Source steps: Choose an actual opportunity and confirm its requirements. Explain how interest is expressed and who can answer questions. Notice any unclear criteria or access barriers worth addressing. Participant-chosen material is not replaced by an invented contribution.",
+      "state": "retained",
+      "source": "lib/content/amplify-experiences.ts",
+      "sourceBasis": "Make development opportunities easier to understand and easier to find. Existing question: What would help someone understand how to access this opportunity? Source steps: Choose an actual opportunity and confirm its requirements. Explain how interest is expressed and who can answer questions. Notice any unclear criteria or access barriers worth addressing.",
+      "implementationFiles": [
+        "lib/content/amplify-experiences.ts"
+      ],
+      "accessibility": "Native headings, lists, tables or field labels provide the content; image descriptions and source links accompany photos. No autoplay. Original learning notes and form data remain separate.",
+      "checks": {
+        "implementationFilesExist": true,
+        "behavioralSuite": "107 passing tests across DSD, engagement, exact media previews, library continuity and toolkit boundaries; not every row is independently behavior-tested",
+        "browser": "See root browser receipt; no blanket browser verification claimed here"
+      },
+      "remaining": "Any suggested recording not delivered above remains an alternative medium, not a completed recording."
+    },
+    {
+      "recordKey": "dsd:amplify-activity-kindness",
+      "title": "Small kindnesses",
+      "route": "/one-dsd/amplify/gatherings#activity-studio",
+      "placement": "Choose the “Explore small kindnesses” button, then use the selected “Small kindnesses” panel at #gathering-plan. The current page does not support an activity-specific URL query.",
+      "purpose": "Recognize an everyday action without making recognition a competition.",
+      "proposedMedia": "Written description of a helpful action",
+      "deliveredMediaAndDecision": "Retained the exact original activity and its optional choices: Notice an everyday act that made work clearer, easier, or more welcoming. Existing question: What did someone do that made a difference to your day? Source steps: Describe the helpful action. Ask before naming someone publicly. Enjoy the recognition without turning it into a competition. Participant-chosen material is not replaced by an invented contribution.",
+      "state": "retained",
+      "source": "lib/content/amplify-experiences.ts",
+      "sourceBasis": "Notice an everyday act that made work clearer, easier, or more welcoming. Existing question: What did someone do that made a difference to your day? Source steps: Describe the helpful action. Ask before naming someone publicly. Enjoy the recognition without turning it into a competition.",
+      "implementationFiles": [
+        "lib/content/amplify-experiences.ts"
+      ],
+      "accessibility": "Native headings, lists, tables or field labels provide the content; image descriptions and source links accompany photos. No autoplay. Original learning notes and form data remain separate.",
+      "checks": {
+        "implementationFilesExist": true,
+        "behavioralSuite": "107 passing tests across DSD, engagement, exact media previews, library continuity and toolkit boundaries; not every row is independently behavior-tested",
+        "browser": "See root browser receipt; no blanket browser verification claimed here"
+      },
+      "remaining": "Any suggested recording not delivered above remains an alternative medium, not a completed recording."
+    }
+  ]
+}

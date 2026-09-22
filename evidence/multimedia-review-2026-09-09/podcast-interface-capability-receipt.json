@@ -1,0 +1,47 @@
+{
+  "timestamp": "2026-09-09T12:32:27.509722+00:00",
+  "status": "podcast-interface-capability-tested-actual-data-integration-owned-by-root",
+  "changedFiles": [
+    "components/podcast-player.tsx",
+    "components/published-podcast.tsx",
+    "components/podcast-transcript-data.ts",
+    "lib/content/podcast-supplements.ts"
+  ],
+  "features": [
+    "Optional per-id supplement registry inside existing published podcast surface",
+    "Same-origin transcript JSON fetched only when disclosure opens",
+    "Complete recording-derived passages with explicit machine-generated/reviewed status",
+    "Search actual passage text and restore complete transcript",
+    "User-initiated playback at exact passage or grounded chapter time",
+    "Metadata-aware pending seek for preload-none audio",
+    "Separate transcript fetch and audio playback failure/retry paths",
+    "Readable transcript independent of audio playback",
+    "Invalid transcript timing preserves text without unusable time buttons"
+  ],
+  "verification": {
+    "testFiles": [
+      "tests/podcast-transcript-player.test.tsx",
+      "tests/multimedia-audio-access.test.tsx"
+    ],
+    "passed": 14,
+    "command": "node scripts/testing/run-tests.mjs --config vitest.hosted.config.mts tests/podcast-transcript-player.test.tsx tests/multimedia-audio-access.test.tsx --maxWorkers 1 --no-file-parallelism",
+    "seconds": 5.08,
+    "podcastTests": 9,
+    "audioTests": 5,
+    "fullAppChecks": "DSD/root own final lint, typecheck and complete suite; these include later data changes",
+    "reactReview": "Top-level hooks; user-event-triggered loading and playback; no effect waterfall; no initial transcript serialization for transcriptUrl; labeled controls with touch target height; no added dependency or tracking"
+  },
+  "actualSourceReview": {
+    "toolkit": "podcast-transcripts/dhs-equity-policy-and-toolkit-chapter-review.json",
+    "sourceSegments": 1350,
+    "proposedGroundedChapters": 9,
+    "sourceStatus": "Machine transcription; not certified human listening or current-policy verification"
+  },
+  "limits": [
+    "No existing recording bytes or core PODCASTS definitions edited",
+    "No transcript/source data invented",
+    "Root owns public transcript JSON and registry population",
+    "Combined actual-data browser verification remains with root",
+    "No complete/human-reviewed transcript claim"
+  ]
+}

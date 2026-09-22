@@ -1,0 +1,33 @@
+{
+  "schemaVersion": "1.0.0",
+  "capturedOn": "2026-09-04",
+  "sourceId": "local-race-racism-minnesota-course",
+  "title": "Racism in America: History, Structures, and Evidence-Based Perspectives",
+  "sourceType": "html_interactive_course",
+  "sourceFileName": "Race_and_Racism_Minnesota_One_DSD_Recolored.html",
+  "sourceBytes": 2026463,
+  "sourceSha256": "257046E1B17C446E9C0A782264160FCDB3417B5320BAC56A5F3CD3F75764A999",
+  "ownerApproval": "owner_approved_for_ingestion",
+  "staffRelease": "not_staff_released",
+  "snapshotSanitization": "Private Windows user-folder prefixes are removed; the original file hash remains unchanged.",
+  "extraction": {
+    "format": "html",
+    "safetyHandling": "Text extracted without executing scripts or submitting forms.",
+    "tagCounts": {
+      "body": 1,
+      "div": 1,
+      "head": 1,
+      "html": 1,
+      "input": 1,
+      "meta": 2,
+      "script": 2,
+      "style": 1,
+      "title": 1
+    },
+    "externalUrls": [],
+    "replacementCharacterCount": 0,
+    "text": "Racism in America: History, Structures, and Evidence-Based Perspectives"
+  },
+  "extractedTextCharacters": 71,
+  "extractedTextSha256": "8F4D88659A303DEB59FA5F08975DE40CC7ECE50A65B95D01A6DCDDC1B2EB1B1E"
+}

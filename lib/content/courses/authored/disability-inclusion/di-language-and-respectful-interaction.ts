@@ -1,0 +1,305 @@
+import type { CoursePack } from "../../source-types";
+
+// Disability Inclusion, Foundations, Module 3: Language, Etiquette and Respectful Interaction.
+// Program-authored course for every employee, board member, volunteer, contractor and new hire.
+const pack: CoursePack = {
+  course: {
+    id: "di-language-and-respectful-interaction",
+    indexNumber: 1103,
+    seriesLabel: "Disability Inclusion · Foundations",
+    title: "Language, Etiquette and Respectful Interaction",
+    subtitle: "Choose words that describe rather than define, ask before helping, speak to the person, and handle interpreters, communication devices and service animals with confidence.",
+    scope: "For everyone: staff, board members, volunteers, contractors and new hires. Four short lessons on disability-related language, everyday etiquette, communication differences and service animals, set in DHS lobbies, calls, meetings and case notes. Participation in this program is voluntary and does not replace required training.",
+    treatment: "Four short lessons with scenarios, a rewrite exercise, flashcards, a desk card and knowledge checks",
+    duration: "45–55 minutes",
+    author: "One DHS — People, Access and Culture",
+    coverImage: "/images/covers/working-with-interpreter.jpg",
+    coverAlt: "Three people sit at a table with a professional interpreter.",
+    introTranscript: "Most disrespect toward disabled people is not meant. It comes from habits of speech and helpfulness that nobody examined. This course examines them. You will practice language that is specific and neutral, learn why the person’s own preference settles the person-first or identity-first question, and work through the moments that make staff nervous: an interpreter in the room, a communication device, a slow phone call, a service animal at the counter. You will leave with a small set of habits that make you easier to talk to and safer to ask.",
+    kind: "course",
+    contentType: "foundation",
+    learning: {
+      objectives: [
+        "Rewrite common disability-related phrases into specific, neutral language and explain why the original lands badly.",
+        "State the person-first and identity-first options and describe how to learn and use an individual’s preference.",
+        "Demonstrate the basics of respectful interaction: ask before helping, speak to the person, keep hands off mobility devices, and give time.",
+        "Describe how to work with a sign language interpreter, a relay call, a communication device and a person with a speech disability.",
+        "State the two questions staff may ask about a service animal and what they may not ask or require.",
+      ],
+      evidence: [
+        "A sorting exercise and four knowledge checks with explanations of why an answer is respectful or not.",
+        "A scenario decision in each lesson, reconsidered without a personal score.",
+        "Three problematic phrases from your own documents, rewritten, and one interaction habit you commit to change.",
+      ],
+      appliedNextStep: "Review one document, template or sign you own for labels, euphemisms and pity language, rewrite what you find, and practice “Would you like assistance?” in your next in-person interaction.",
+    },
+    governance: {
+      contentOwner: "One DHS — People, Access and Culture",
+      reviewers: ["Equity and Inclusion Operations Consultant"],
+      evidenceDate: "Public sources checked at authoring",
+      lastReviewed: "At authoring",
+      nextReview: "At the agreed review point and whenever an update trigger occurs",
+      updateTriggers: ["Change in ADA, Section 504 or Section 508 guidance", "Change in DHS accessibility or language access standards", "Feedback from disabled staff or participants that a scenario reads as unrealistic or stigmatizing"],
+      relatedDoor: "Interpreter scheduling, accessible formats and relay questions go to the accessibility or language access team; accommodation requests go to human resources or the ADA coordinator; this course prepares you for the interaction, it does not decide a request.",
+      toolkitQuestion: "Whose words describe this person, is the disability relevant here, and did we speak to the person or around them?",
+      status: "reviewed",
+    },
+    lessons: [
+      {
+        id: "language-and-respectful-interaction-1",
+        number: 1,
+        title: "Words that describe, not define",
+        summary: "Use specific, neutral language, learn where the common phrases came from and why they land badly, and let the person settle the person-first or identity-first question.",
+        minutes: 12,
+        learning: {
+          objective: "Rewrite common disability-related phrases into specific, neutral language and explain how to learn and use an individual’s preference.",
+          takeaways: [
+            "Specific and neutral beats euphemism every time: name the access need or the disability only when it is relevant, in plain words.",
+            "Person-first language is often appropriate; many people prefer identity-first language such as “Disabled person,” “Deaf person” or “autistic person.” The person’s own usage settles it.",
+            "Pity words, inspiration words and function labels all do the same thing: they replace the person with a story someone else wrote.",
+          ],
+          evidence: "A completed sort of phrases and a knowledge check.",
+          appliedNextStep: "Find three phrases in documents you own that label, pity or euphemize, and rewrite them this week.",
+        },
+        scenario: {
+          context: "A colleague is drafting a newsletter story about a staff member who uses a wheelchair and just led a successful licensing project. The draft opens: “Despite being confined to a wheelchair, Dana never lets her disability hold her back, and she is an inspiration to us all.”",
+          prompt: "What is the best advice for the rewrite?",
+          options: [
+            { label: "Change “confined to a wheelchair” to “wheelchair user” and keep the rest; the tone is positive.", response: "One phrase is fixed and the story is still about Dana overcoming, which is a story about her body rather than her project. Positive intent does not change what the frame does." },
+            { label: "Lead with the project and Dana’s role in it. Mention her disability only if she wants it mentioned, in her own words, and drop “despite,” “hold her back” and “inspiration.”", response: "The story becomes about the work, which is what earned the story. Dana decides whether and how her disability appears.", recommended: true },
+            { label: "Ask Dana to approve the draft as written so the team is covered.", response: "Asking is right; asking her to approve a draft built on an inspiration frame puts her in the position of correcting her colleagues’ writing. Rewrite first, then ask." },
+          ],
+        },
+        transfer: {
+          prompt: "Which phrase will you stop using this week, and what will you say instead?",
+          options: ["Replace one label, euphemism or pity phrase in a document, form or sign you own", "When disability is relevant, ask the person how they describe it and use their words", "Check one story or profile for “despite,” “overcome” and “inspiration,” and rewrite it around the work"],
+        },
+        blocks: [
+          { type: "text", heading: "Specific, neutral, and chosen by the person", body: "<p>The guidance from the ADA National Network on writing about people with disabilities is consistent and practical: ask about language preferences, use neutral language, avoid condescending euphemisms, and focus on accessibility needs rather than treating disability as a deficiency. Most of what follows is that guidance applied to a workday.</p><p><strong>Specific</strong> means you say what is true and useful. If a participant needs materials in large print, say large print. If a colleague is Deaf and uses ASL, say that if it is relevant to the meeting. You do not need a diagnosis, and you do not get to assume one. <strong>Neutral</strong> means the words carry no verdict. “Has a spinal cord injury” is neutral. “Suffers from,” “victim of,” “afflicted with” and “stricken by” are not; they announce a tragedy the person did not report. “Special needs,” “differently abled” and “physically challenged” are not neutral either; they are euphemisms, and euphemisms signal that the speaker finds the plain word uncomfortable.</p><p><strong>Chosen by the person</strong> settles the question staff ask most often. Person-first language, “a person with a disability,” “a person who uses a wheelchair,” puts the person before the condition and is often appropriate, especially when you do not know a preference. Identity-first language, “a Disabled person,” “a Deaf person,” “an autistic person,” treats disability as part of identity and is strongly preferred in several communities. Neither is a rule that overrides the individual. This course uses both. When you know a person’s preference, use it. When you do not, ask, or use whichever the person has used about themselves.</p>" },
+          { type: "accordion", heading: "Where the phrase came from and why it lands badly", items: [
+            { title: "“Wheelchair-bound,” “confined to a wheelchair”", body: "<p>Imagines the chair as a prison. For the person, the chair is mobility, independence and a way to get to work. Say <strong>a person who uses a wheelchair</strong> or <strong>a wheelchair user</strong>.</p>" },
+            { title: "“Handicapped”", body: "<p>Now widely felt as dated and, for many, demeaning, though it survives on old signs and forms. Say <strong>accessible parking</strong>, <strong>accessible restroom</strong>, <strong>disabled people</strong> or <strong>people with disabilities</strong>.</p>" },
+            { title: "“Special needs”", body: "<p>A school-system euphemism that adults with disabilities rarely use for themselves. The needs are ordinary: to read the form, hear the meeting, enter the building. Say <strong>access needs</strong> or name the specific need.</p>" },
+            { title: "“The disabled,” “the blind,” “the mentally ill”", body: "<p>A group noun erases individuals and implies a single kind of person. Say <strong>disabled people</strong>, <strong>blind people</strong>, <strong>people with mental health conditions</strong>.</p>" },
+            { title: "“High-functioning,” “low-functioning”", body: "<p>Function labels rank people and predict nothing reliable about what a person needs in a given setting. Describe the specific support or access need instead.</p>" },
+            { title: "“Normal,” “able-bodied,” “healthy” as the comparison", body: "<p>Implies the disabled person is abnormal or unwell. Where a comparison is needed at all, say <strong>people without disabilities</strong> or <strong>nondisabled people</strong>.</p>" },
+            { title: "“Inspiring,” “brave,” “overcoming”", body: "<p>Turns an ordinary life into a performance for a nondisabled audience. If someone did good work, describe the work. Disability is not a plot device.</p>" },
+          ] },
+          { type: "leaderMove", heading: "Ask whether the disability belongs in the sentence", control: "You control whether a person’s disability appears in an introduction, a story, a case note or an email, and whose words describe it if it does.", failure: "Do not introduce a colleague by their disability, or write it into a note where it does nothing for the reader. Do not choose person-first or identity-first on someone’s behalf when you could ask.", next: "Before you mention a disability in writing this week, ask two questions: is it relevant here, and whose words are these?" },
+          { type: "sorting", id: "language-and-respectful-interaction-1-sort", heading: "Keep, or rewrite?", categories: ["Specific and neutral", "Rewrite"], items: [
+            { text: "The participant asked for the notice in large print.", category: "Specific and neutral" },
+            { text: "Despite her condition she manages to work full time.", category: "Rewrite" },
+            { text: "Accessible parking is on the east side of the building.", category: "Specific and neutral" },
+            { text: "He is a special-needs client.", category: "Rewrite" },
+            { text: "Ms. Vang is Deaf and uses an ASL interpreter for meetings.", category: "Specific and neutral" },
+            { text: "The wheelchair-bound applicant was seen at the counter.", category: "Rewrite" },
+          ] },
+          { type: "flashcards", heading: "Quick reference", cards: [
+            { front: "Person-first", back: "<p>“A person with a disability,” “a person who is blind.” Often appropriate, especially when you do not know a preference. Not a rule that overrides the individual.</p>" },
+            { front: "Identity-first", back: "<p>“A Disabled person,” “a Deaf person,” “an autistic person.” Preferred by many, particularly in Deaf and autistic communities, as an expression of identity. Use it when the person does.</p>" },
+            { front: "When you do not know", back: "<p>Ask if it is relevant, or use the words the person has used about themselves. If neither is possible, use plain, specific language and stay open to correction.</p>" },
+            { front: "Relevance test", back: "<p>Would the reader do anything differently knowing this? If not, the disability probably does not belong in the sentence.</p>" },
+            { front: "Pity, inspiration, function", back: "<p>Three families of words that replace the person with someone else’s story. “Suffers from,” “inspiring,” “high-functioning.” All three are rewrite signals.</p>" },
+          ] },
+          { type: "knowledgeCheck", id: "language-and-respectful-interaction-1-check", question: "A team lead writes: “Please welcome our new hire, who is autistic.” The new hire had not mentioned autism to the team. What is the problem?", options: [
+            { text: "The lead should have used person-first language: “who has autism.”", correct: false },
+            { text: "The lead disclosed a disability the person had not chosen to share, and chose the wording for them. Whether and how it is mentioned is the new hire’s decision.", correct: true },
+            { text: "There is no problem; identity-first language is preferred by many autistic people.", correct: false },
+          ], feedbackCorrect: "Yes. The wording question comes second. The first question is whose disclosure this is, and it is not the team lead’s.", feedbackIncorrect: "Before person-first or identity-first, ask who decided the disability would be mentioned at all. That decision belongs to the person." },
+        ],
+      },
+      {
+        id: "language-and-respectful-interaction-2",
+        number: 2,
+        title: "Ask before helping, speak to the person",
+        summary: "Handle the most common in-person moments well: offering help, mobility devices and personal space, eye level, and conversations that include an interpreter, companion or support worker.",
+        minutes: 12,
+        learning: {
+          objective: "Demonstrate respectful in-person interaction with people who use mobility devices, interpreters, companions or support workers by asking before helping, speaking to the person and respecting personal space.",
+          takeaways: [
+            "Offer, do not act: “Would you like assistance?” and accept no as a complete answer.",
+            "A wheelchair, cane, walker or crutches is part of a person’s personal space; do not touch, lean on or move it without being asked.",
+            "Address the person, not the interpreter, companion, support worker or family member, and let the interpreter interpret everything.",
+          ],
+          evidence: "A scenario decision in a county lobby and a knowledge check on working with an interpreter.",
+          appliedNextStep: "In your next in-person interaction with a disabled person, notice where your eyes and your questions go, and keep them on the person.",
+        },
+        scenario: {
+          context: "In a county service center lobby, a man using a walker is moving slowly toward the check-in kiosk. A staff member hurries over, takes his elbow, and says, “Here, let me get you to a chair, you can wait there and I will bring the paperwork to you.”",
+          prompt: "What should the staff member have done?",
+          options: [
+            { label: "Exactly this; helping quickly shows respect and keeps the lobby moving.", response: "Taking someone’s arm without asking can throw off their balance and takes away their choice. He was heading somewhere on purpose." },
+            { label: "Approach, make eye contact, and ask, “Would you like any assistance?” If he says no, let him continue. If he says yes, ask what would help.", response: "The offer is respectful and specific. The answer decides what happens next, and he keeps control of his own movement and his own errand.", recommended: true },
+            { label: "Say nothing, since offering help might be offensive.", response: "An offer is not offensive; taking over is. Silence leaves someone who might want help without it. Ask, then follow the answer." },
+          ],
+        },
+        transfer: {
+          prompt: "Which interaction habit will you change first?",
+          options: ["Practice “Would you like assistance?” and accepting no, in your next three lobby or hallway encounters", "Sit or step back to eye level for the next conversation longer than a minute with a wheelchair user", "In the next interpreted or accompanied conversation, direct every question to the person"],
+        },
+        blocks: [
+          { type: "text", heading: "Help is an offer, not an action", body: "<p>Most disability etiquette fits in one habit: <strong>ask, then follow the answer</strong>. Disabled people navigate their lives every day and know what works. When you see someone who might want help, ask, “Would you like assistance?” If the answer is no, that is the end of it, without a second offer or a hurt look. If the answer is yes, ask what would help rather than guessing. Grabbing an arm, pushing a wheelchair, taking a bag or steering a blind person by the shoulder are not help; they are taking over, and they can be dangerous. A person using a cane or a walker is balancing. A wheelchair user knows the route.</p><p>Mobility devices are part of a person’s personal space. Do not lean on a wheelchair, hang a coat on it, move a walker out of the way or pick up crutches to be helpful. Ask first. For a conversation longer than a minute or two with a wheelchair user, sit down or step back so you are at a comfortable eye level. Standing over someone at a tall counter is tiring for them and makes the conversation feel like an inspection. Coming around the counter with a clipboard costs you nothing.</p><p>The third habit is <strong>speak to the person</strong>. When someone arrives with a sign language interpreter, a companion, a support worker or a family member, staff often drift toward the other adult: “Does she have her card?” “Can you tell him we need a signature?” The person in front of you is the one with the business. Look at them, ask them, answer them. The interpreter or support worker will do their part without being managed.</p>" },
+          { type: "tabs", heading: "Three common situations", tabs: [
+            { label: "Mobility device", body: "<p>Ask before helping and accept no. Do not touch, lean on or move the device. Clear the route rather than steering the person. For longer conversations, get to eye level. Do not ask what happened to them.</p>" },
+            { label: "Interpreter", body: "<p>Face the Deaf person and speak directly to them in the first person: “Do you have your identification?” not “Ask her if she has her identification.” Speak at a normal pace and volume. Pause naturally. The interpreter interprets everything said in the room, including side comments, so say only what you mean the person to hear. Let the Deaf person and the interpreter choose where to sit, usually with the interpreter beside you so the person can see you both. In a video call, pin the interpreter and keep your camera on.</p>" },
+            { label: "Companion or support worker", body: "<p>Greet the person first. Direct questions to them and wait for their answer, even if it takes time or comes through the companion. A support worker is there to assist the person, not to answer for them. If the person indicates they want the companion to speak for them, that is their choice to make, out loud, in your presence.</p>" },
+          ] },
+          { type: "leaderMove", heading: "Keep your eyes and your questions on the person", control: "You control where you look and whom you address when a disabled person arrives with someone else.", failure: "Do not turn to the interpreter, companion or support worker with “Can you ask her” or “Does he.” Do not thank the interpreter for the person’s answers.", next: "In your next such conversation, address the person by name at the start and every time you ask a question." },
+          { type: "list", heading: "Small things that are not small", items: ["Introduce yourself to a blind or low-vision person by name when you approach, and say when you are leaving.", "Offer your arm to guide, if asked, rather than taking theirs; describe steps, doors and turns as you go.", "Shake hands, or offer to, the same as with anyone; a person with limited hand use may offer a left hand or a different greeting.", "Do not pat a wheelchair user on the head or shoulder. It is a gesture for children.", "If someone’s speech is hard to understand, say so honestly and ask them to repeat; do not nod along.", "Do not ask what happened, what their diagnosis is, or whether they can have children. Curiosity is not a professional need."] },
+          { type: "flashcards", heading: "Scripts that work", cards: [
+            { front: "Offering help", back: "<p>“Would you like any assistance?” Then, if yes: “What would be most helpful?” Then do that, not something else.</p>" },
+            { front: "When the answer is no", back: "<p>“Sure.” Nothing more. A second offer or a visible reaction turns a polite no into a negotiation.</p>" },
+            { front: "With an interpreter present", back: "<p>Speak to the Deaf person in the first person: “Do you have your card with you?” The interpreter will handle the rest.</p>" },
+            { front: "Companion answers for the person", back: "<p>Turn back to the person: “And what would you like to do, Mr. Lee?” Wait. Give the person the chance to answer or to say they want the companion to speak.</p>" },
+            { front: "Meeting a blind colleague in the hall", back: "<p>“Hi, it is Priya from licensing.” At the end: “I am heading off now.” Do not grab an arm or make them guess who you are.</p>" },
+          ] },
+          { type: "knowledgeCheck", id: "language-and-respectful-interaction-2-check", question: "During an interpreted eligibility interview, the interpreter voices the participant’s answer. The worker replies, “Great, thank you,” to the interpreter and asks the interpreter, “Can you find out if she has the pay stubs?” What should change?", options: [
+            { text: "Nothing; thanking the interpreter is courteous and the question was passed along.", correct: false },
+            { text: "The worker should face the participant and ask her directly, “Do you have your pay stubs with you?” The interpreter interprets it; the conversation is between the worker and the participant.", correct: true },
+            { text: "The worker should write the question down and hand it to the participant so the interpreter is not needed.", correct: false },
+          ], feedbackCorrect: "Yes. The interpreter is a communication channel, not a party to the interview. Written English is also not the same as ASL and is not a substitute for a requested interpreter.", feedbackIncorrect: "Ask who the worker is talking to. In an interpreted conversation the worker speaks to the participant, first person, every time." },
+        ],
+      },
+      {
+        id: "language-and-respectful-interaction-3",
+        number: 3,
+        title: "Communication differences and non-apparent disabilities",
+        summary: "Slow down for speech disabilities, work comfortably with communication devices and relay calls, offer plain language without condescension, and take a non-apparent disability at face value.",
+        minutes: 12,
+        learning: {
+          objective: "Describe respectful communication with people who have speech disabilities, use communication devices, call through a relay service or have non-apparent or cognitive disabilities.",
+          takeaways: [
+            "Give time. Do not finish sentences, guess, or pretend to understand; ask the person to repeat or to tell you what works.",
+            "A relay call is a real call from a real person: answer normally, speak to the caller, and never hang up because you hear a relay operator.",
+            "A non-apparent disability is still a disability. Take the access request at face value; no diagnosis is owed to you.",
+          ],
+          evidence: "A scenario decision about a rushed phone intake and a knowledge check on relay calls.",
+          appliedNextStep: "Ask your unit whether staff know what a relay call sounds like and how to answer one, and put the answer on your team’s desk card.",
+        },
+        scenario: {
+          context: "A call center specialist is taking an intake by phone. The caller has a speech disability and takes a long time to answer each question. The queue is backing up. The specialist says, “Ma’am, is there someone else there who can speak for you? It might be quicker.”",
+          prompt: "What should the specialist do instead?",
+          options: [
+            { label: "Offer to call back at a quieter time so the caller is not rushed.", response: "This still treats the caller’s speech as the problem to schedule around, and a callback may not come. She is on the line now with her own business." },
+            { label: "Slow down, listen, ask for a repeat when needed, confirm what was understood, and offer a written or online follow-up for anything that remains. Let the queue be the supervisor’s problem, not the caller’s.", response: "The caller stays in charge of her own intake. Time is the accommodation, and the specialist controls it.", recommended: true },
+            { label: "Ask the caller to use the online form instead, since typing might be easier for her.", response: "Redirecting a person away from the channel they chose, based on a guess about what would be easier, is not their choice and may not be accessible either." },
+          ],
+        },
+        transfer: {
+          prompt: "Which communication habit will you practice this week?",
+          options: ["On your next slow call, do not finish a sentence or hand off the call; confirm and offer a written follow-up", "Learn how your phone system handles a relay call and tell one colleague", "Take the next access request from a colleague at face value without asking why"],
+        },
+        blocks: [
+          { type: "text", heading: "Time is the accommodation you already have", body: "<p>Many communication differences need nothing from you but patience and honesty. A person with a speech disability, whether from cerebral palsy, a stroke, a stutter or something else, is used to being rushed, interrupted and finished for. Give them the time. Do not complete their sentences, do not nod along when you did not understand, and do not hand the call to someone else. If you missed something, say so plainly: “I did not catch that, would you say it again?” Repeat back what you understood. Offer a written follow-up for details. The queue is real, and it is not the caller’s fault.</p><p>Some people communicate with a device or a board: a tablet that speaks typed text, a letter board they point to, a picture system, or an app. Augmentative and alternative communication, usually shortened to AAC, takes time to compose. Wait for the whole message. Do not read the screen over their shoulder and answer before they have finished, and do not touch the device. Speak to the person, not to the device or to anyone with them.</p><p>Deaf, hard of hearing and speech-disabled people may also call you through a telecommunications relay service. In Minnesota, dialing 711 reaches relay. You will hear an operator explain that a relay call is coming, and then relay the caller’s words. Answer as you would any call, speak directly to the caller in the first person, and pause for the relay. Never hang up because you think it is a sales call. A hung-up relay call is a closed door for someone who did everything right.</p><p>Finally, many disabilities are non-apparent: chronic pain, epilepsy, diabetes, hearing loss, learning disabilities, mental health conditions, brain injury, long-term effects of illness. Someone who “looks fine” and asks for a written summary, a seat, a break or extra time is not asking for a favor. Take the request at face value and focus on what would work. Nobody owes you a diagnosis to be treated well, and asking for one is not your role.</p>" },
+          { type: "accordion", heading: "What to do, situation by situation", items: [
+            { title: "Speech disability, in person or by phone", body: "<p>Slow down. Listen to the end. Ask for a repeat when you need one; do not guess. Confirm what you heard. Offer written follow-up. Do not hand off the call or ask for someone else to speak for them.</p>" },
+            { title: "Communication device or letter board", body: "<p>Wait for the full message. Do not answer a half-composed sentence. Do not touch or move the device. Keep your attention on the person, not the screen. If you are unsure how the person prefers to communicate, ask them.</p>" },
+            { title: "Relay call", body: "<p>You will hear an operator introduce the call. Speak to the caller directly and in the first person. Pause for relay. Do not shorten the call or hang up. Confirm any numbers or dates back.</p>" },
+            { title: "Cognitive or learning disability", body: "<p>Use plain language and one idea at a time, without a baby voice or a raised volume. Offer information in smaller steps and in writing. Ask what format works. Check understanding by asking the person to tell you what they will do next, not by asking “Do you understand?”</p>" },
+            { title: "Non-apparent disability", body: "<p>Believe the request. Do not ask what the disability is or why they need the change. Focus on the access need: the summary, the seat, the break, the format. Route formal accommodation requests to the responsible office without commentary.</p>" },
+            { title: "Mental health condition or distress", body: "<p>Stay calm and warm. Offer a quieter space or a moment. Do not label behavior in notes with words like “hostile” or “noncompliant”; describe what happened. The person is still the person you are serving.</p>" },
+          ] },
+          { type: "leaderMove", heading: "Do not make the person prove it", control: "You control whether an access request from someone whose disability you cannot see is met with help or with questions.", failure: "Do not say “You do not look like you need that” or ask for a note before you give a colleague a written agenda. Do not treat a slow caller as someone else’s call.", next: "This week, meet every access request you receive with “What would work best?” and nothing about why." },
+          { type: "artifact", kind: "plain-language-flyer", label: "Practical artifact", title: "How we communicate with you: a desk card", summary: "A short card for the counter, the phone station and the meeting room that tells people what to expect and reminds staff what to do.", fields: [
+            { label: "For the public", value: "You can talk with us in the way that works for you: in person, by phone, by relay at 711, in writing, or with an interpreter. Take the time you need. Tell us what format you prefer for anything we send you." },
+            { label: "For staff: time", value: "Let the person finish. Ask for a repeat instead of guessing. Confirm what you heard. Offer a written follow-up." },
+            { label: "For staff: channels", value: "Answer relay calls like any other call and speak to the caller directly. Interpreter and accessible-format requests go to the accessibility or language access team the same day." },
+            { label: "For staff: requests", value: "Believe the access request. Ask what would work. Do not ask why. Route formal accommodation requests to human resources or the ADA coordinator." },
+          ], action: "Adapt the card to your unit’s contacts and post it where staff take calls and meet the public." },
+          { type: "flashcards", heading: "Keep these straight", cards: [
+            { front: "AAC", back: "<p>Augmentative and alternative communication: devices, boards, apps or picture systems a person uses to communicate. Wait for the whole message and speak to the person.</p>" },
+            { front: "711", back: "<p>The number that reaches telecommunications relay service. A relay call begins with an operator and is a real call from a real person. Never hang up.</p>" },
+            { front: "Plain language is not baby talk", back: "<p>Short sentences, familiar words, one idea at a time, at normal volume and in an adult tone. Condescension is its own barrier.</p>" },
+            { front: "Checking understanding", back: "<p>Ask “What will you do next?” or “Tell me how this will work for you,” not “Do you understand?” which almost everyone answers yes.</p>" },
+            { front: "Non-apparent disability", back: "<p>Any disability you cannot see. Common, not rare. The person’s request is the information you need; a diagnosis is not.</p>" },
+            { front: "Describing behavior in notes", back: "<p>Write what happened: “raised voice, asked three times to be seen.” Not “hostile” or “noncompliant.” Labels follow people; descriptions can be checked.</p>" },
+          ] },
+          { type: "knowledgeCheck", id: "language-and-respectful-interaction-3-check", question: "A licensing specialist answers the phone and hears, “This is the Minnesota relay service with a call for you. Go ahead.” What is the right response?", options: [
+            { text: "Say “We do not accept third-party calls” and hang up, as with most unsolicited calls.", correct: false },
+            { text: "Say hello to the caller directly, proceed with the conversation in the first person, pause for relay, and confirm details back.", correct: true },
+            { text: "Ask the operator to have the caller send an email instead, since relay calls are slow.", correct: false },
+          ], feedbackCorrect: "Yes. Relay is how a Deaf, hard of hearing or speech-disabled person makes a phone call. Treat it as the call it is.", feedbackIncorrect: "A relay call is a real call from a real person who chose the phone. Hanging up or redirecting them closes a door they had every right to use." },
+        ],
+      },
+      {
+        id: "language-and-respectful-interaction-4",
+        number: 4,
+        title: "Service animals, and recovering when you get it wrong",
+        summary: "Know the two questions staff may ask about a service animal, what may not be asked or required, and how to repair a mistake quickly without making it about you.",
+        minutes: 12,
+        learning: {
+          objective: "State the two questions staff may ask about a service animal, identify what may not be asked or required, and demonstrate a brief, sincere repair after a language or etiquette mistake.",
+          takeaways: [
+            "When it is not obvious, staff may ask only two things: is the animal required because of a disability, and what work or task has it been trained to perform.",
+            "Staff may not ask about the disability, require documentation or a vest, ask for a demonstration, charge a fee, or separate the person from the animal, and they must not pet, feed or distract it.",
+            "When you get language or etiquette wrong, correct it briefly, once, and move on. A long apology makes the other person manage your feelings.",
+          ],
+          evidence: "A scenario decision at a reception desk and the final knowledge check for the course.",
+          appliedNextStep: "Confirm your unit’s written guidance on service animals and where staff route questions about emotional support animals or animal-related complaints, and add both to your desk card.",
+        },
+        scenario: {
+          context: "A woman arrives at a county human services reception desk with a medium-sized dog wearing no vest. The receptionist says, “I am sorry, no pets are allowed. Do you have papers for him? Otherwise you will need to leave him outside.”",
+          prompt: "What should the receptionist have said?",
+          options: [
+            { label: "“Is that a service dog? Can I see his certification and your doctor’s note?”", response: "There is no required certification, registration or note for a service animal under the ADA, and staff may not ask for one. The first question is fine; the rest is not." },
+            { label: "“Welcome. Is the dog a service animal required because of a disability? What work or task has he been trained to do?” Then, on a yes and a task, proceed with her business.", response: "These are the two permitted questions when the answer is not already obvious. No documentation, no vest, no demonstration, no fee.", recommended: true },
+            { label: "Say nothing about the dog and ask her to wait in a separate room so other visitors are not bothered.", response: "A person with a service animal may go where the public goes. Separating her because of the animal is exclusion, whether or not anyone said the word pet." },
+          ],
+        },
+        transfer: {
+          prompt: "What will you take from this course into next week?",
+          options: ["Write the two service-animal questions on your desk card, with where to route anything harder", "Choose one language habit and one etiquette habit from this course and practice each daily", "Plan your brief repair sentence so it is ready the next time you slip"],
+        },
+        blocks: [
+          { type: "text", heading: "The two questions, and everything you may not do", body: "<p>Under the Americans with Disabilities Act, a <strong>service animal</strong> is a dog that has been individually trained to do work or perform tasks for a person with a disability: guiding a person who is blind, alerting a person who is deaf, pulling a wheelchair, alerting to a seizure, reminding a person to take medication, interrupting a panic attack, and many others. The task must be directly related to the disability. There is a separate, limited provision for miniature horses. Emotional support animals, whose presence provides comfort but which are not trained to perform a task, are not service animals under the ADA; other laws and program rules may treat them differently, so route those questions to the responsible office rather than deciding at the counter.</p><p>When it is not obvious what a dog does, staff may ask exactly two questions: <strong>Is the dog a service animal required because of a disability?</strong> and <strong>What work or task has the dog been trained to perform?</strong> Staff may not ask about the person’s disability, require medical documentation, require a certificate, identification card, vest or registration, ask that the dog demonstrate the task, or charge a fee or deposit. Certificates and registries sold online prove nothing and cannot be required. A service animal may go anywhere the public goes, including a lobby, an interview room and a meeting room.</p><p>A service animal must be under the handler’s control, usually by harness or leash unless that interferes with the task. Staff may ask that an animal be removed only if it is out of control and the handler does not take effective action, or if it is not housebroken. Even then, the person must be offered the chance to obtain services without the animal. Allergies and fear of dogs are not grounds for refusing access; if another person has an allergy, separate them by space, not by excluding the handler. And never pet, feed, call or make eye contact with a working animal. It is working, and the person is the one you are talking to.</p>" },
+          { type: "list", heading: "What staff may not do", items: ["Ask what the person’s disability is.", "Require documentation, a doctor’s note, a certificate, registration or an identification card.", "Require a vest, harness or tag that says service animal.", "Ask the dog to demonstrate its task.", "Charge a fee or deposit, or require a different entrance or waiting area.", "Refuse access because of allergies, fear of dogs, or a general no-pets rule.", "Pet, feed, call, photograph or otherwise distract the animal."] },
+          { type: "leaderMove", heading: "Route the hard questions, do not decide them at the counter", control: "You control whether a person with a service animal gets a welcome and two questions or an interrogation and a request for papers.", failure: "Do not turn a lobby into a hearing about whether a dog is real. Do not decide emotional support animal questions, housing questions or complaints from other visitors yourself.", next: "Learn the two questions until they are automatic, and learn the name of the office that handles everything beyond them." },
+          { type: "flashcards", heading: "Service animals at a glance", cards: [
+            { front: "Question one", back: "<p>“Is the dog a service animal required because of a disability?” Only when it is not obvious. If the dog is guiding a blind person, do not ask.</p>" },
+            { front: "Question two", back: "<p>“What work or task has the dog been trained to perform?” The answer is a task, such as alerting to low blood sugar, not a document.</p>" },
+            { front: "Emotional support animal", back: "<p>Provides comfort by presence but is not trained to perform a task. Not a service animal under the ADA. Other laws and program rules may apply; route to the responsible office.</p>" },
+            { front: "When removal is allowed", back: "<p>Only if the animal is out of control and the handler does not correct it, or if it is not housebroken. Offer services without the animal afterward.</p>" },
+            { front: "Allergies in the room", back: "<p>Both people have a right to be there. Separate by space or schedule. Do not exclude the handler.</p>" },
+            { front: "Online certificates", back: "<p>Not required, not recognized, and not something staff may ask to see. A handler who offers one is being polite, not proving anything.</p>" },
+          ] },
+          { type: "tabs", heading: "When you get it wrong", tabs: [
+            { label: "Why brief matters", body: "<p>Everyone slips: the wrong term, a question aimed at the companion, a hand on a wheelchair. What matters is the repair. A long, emotional apology turns your mistake into something the disabled person now has to soothe. Say the correction once, plainly, and keep going.</p>" },
+            { label: "Scripts", body: "<p>“Sorry, I should have asked you directly. Do you have your card with you?”</p><p>“I used the wrong word there; I meant accessible parking.”</p><p>“I should not have touched your chair. Would you like me to move the box out of the way instead?”</p>" },
+            { label: "Afterward", body: "<p>If the person offers a preference, use it from then on. If you were corrected, thank them once and do not ask them to reassure you. Fix the habit privately; that is your work, not theirs.</p>" },
+          ] },
+          { type: "quote", text: "I do not need anyone to be perfect. I need them to ask me instead of my sister, to leave my dog alone, and when they slip, to say sorry once and get on with my case.", cite: "Composite participant perspective, illustrative" },
+          { type: "knowledgeCheck", id: "language-and-respectful-interaction-4-check", question: "A visitor’s service dog is lying quietly under a chair in the waiting area. Another visitor says she is allergic and asks staff to make the dog leave. What should staff do?", options: [
+            { text: "Ask the handler to wait outside until the allergic visitor has been seen.", correct: false },
+            { text: "Offer the allergic visitor a seat in a different part of the waiting area or a different room, and keep both people’s appointments on schedule.", correct: true },
+            { text: "Ask the handler for the dog’s certification to confirm it is allowed to stay.", correct: false },
+          ], feedbackCorrect: "Yes. Both people have a right to be served. Distance solves the allergy; excluding the handler or demanding papers does not.", feedbackIncorrect: "Allergies are not grounds to exclude a service animal, and certification cannot be required. Separate by space and serve both people." },
+        ],
+      },
+    ],
+  },
+  jobAid: {
+    title: "Respectful language and interaction",
+    subtitle: "A one-page reminder for the counter, the phone and the meeting room",
+    quote: "Describe, do not define. Ask, then follow the answer. Speak to the person. Two questions, no papers.",
+    use: {
+      purpose: "Keep the habits from this course within reach during ordinary interactions with the public and with colleagues.",
+      remember: ["Specific and neutral; the person’s own words when you know them; ask when it is relevant and you do not.", "“Would you like assistance?” and no is a complete answer.", "Address the person, not the interpreter, companion or support worker; relay calls are real calls.", "Service animals: two questions when it is not obvious, no documentation, no vest, no fee."],
+      doNext: "Rewrite three phrases in something you own and practice one etiquette habit every day this week.",
+    },
+    sections: [
+      { heading: "Words", items: ["Accessible parking, not handicapped parking; a person who uses a wheelchair, not wheelchair-bound.", "Has, not suffers from; access needs, not special needs; disabled people or people with disabilities, not the disabled.", "Person-first or identity-first: the person decides. Ask or follow their usage.", "Before mentioning a disability: is it relevant, and whose words are these?"] },
+      { heading: "In the moment", items: ["Ask before helping; do not touch mobility devices, communication equipment or the person.", "Get to eye level for longer conversations; introduce yourself to a blind person by name and say when you leave.", "Give time; do not finish sentences or pretend to understand; confirm and offer written follow-up.", "Answer relay calls normally, in the first person, and never hang up."] },
+      { heading: "Service animals and repair", items: ["Ask only: is it required because of a disability, and what task is it trained to do.", "Do not ask for papers, a vest, a demonstration or a fee; do not pet or distract the animal.", "Route emotional support animal and complaint questions to the responsible office.", "When you slip: correct once, plainly, and move on."] },
+    ],
+  },
+  sources: [
+    { title: "ADA National Network, Guidelines for Writing About People with Disabilities", href: "https://adata.org/factsheet/adann-writing/", note: "Language preference, neutral language, and cautions against euphemism, pity and condescending portrayals." },
+    { title: "ADA.gov, Service Animals", href: "https://www.ada.gov/topics/service-animals/", note: "Definition of a service animal, the two permitted questions, and what businesses and governments may not require." },
+    { title: "ADA.gov, U.S. Department of Justice", href: "https://www.ada.gov/", note: "Official ADA information, including effective communication requirements for state and local governments." },
+    { title: "ADA National Network", href: "https://adata.org/", note: "Guidance and training on effective communication, interpreters, relay services and disability etiquette." },
+    { title: "Job Accommodation Network", href: "https://askjan.org/", note: "Practical information on accommodations and on interacting respectfully with employees who have apparent and non-apparent disabilities." },
+    { title: "Minnesota Council on Disability", href: "https://www.disability.state.mn.us/", note: "State council resources on disability etiquette, rights and access in Minnesota." },
+  ],
+};
+
+export default pack;

@@ -1,0 +1,15 @@
+import { randomUUID } from "node:crypto";
+import { beforeEach,afterEach,expect,it,vi } from "vitest";
+import { NextRequest } from "next/server";
+import * as auth from "@/lib/auth/request";
+import { resetStoreForTests } from "@/lib/intelligence/memory/store";
+import { invalidatePolicyCache } from "@/lib/intelligence/policy";
+import { GET,POST } from "@/app/api/consultant/program/route";
+const request=(body:unknown,origin="http://localhost:3000")=>new NextRequest("http://localhost:3000/api/consultant/program",{method:"POST",headers:{"content-type":"application/json",origin},body:JSON.stringify(body)});
+const create=()=>({action:"create",requestId:randomUUID(),functionId:"resources",kind:"resource_review",title:"Review published resources",objective:"Inspect existing resource metadata and report useful findings.",dueAt:new Date().toISOString()});
+beforeEach(()=>{resetStoreForTests();invalidatePolicyCache();vi.spyOn(auth,"ownerFromRequest").mockResolvedValue(true);});
+afterEach(()=>vi.restoreAllMocks());
+it("protects direct GET and POST before opening records",async()=>{vi.mocked(auth.ownerFromRequest).mockResolvedValue(false);expect((await GET(new NextRequest("http://localhost:3000/api/consultant/program"))).status).toBe(401);expect((await POST(request(create()))).status).toBe(401);});
+it("rejects cross-origin commands and caller-controlled evidence or authority fields",async()=>{expect((await POST(request(create(),"https://elsewhere.test"))).status).toBe(403);expect((await POST(request({...create(),evidenceMode:"operational",actor:"agent",receipt:{body:"Invented result"}}))).status).toBe(400);expect((await POST(request({action:"run",limit:999}))).status).toBe(400);});
+it("keeps creation idempotent and exposes the saved work only through the owner route",async()=>{const command=create(),a=await POST(request(command)),b=await POST(request({...command,title:"Changed retry must not replace the original"}));expect(a.status).toBe(201);expect((await a.json()).task).toEqual((await b.json()).task);const response=await GET(new NextRequest("http://localhost:3000/api/consultant/program"));expect(response.headers.get("cache-control")).toBe("no-store");expect((await response.json()).items).toHaveLength(1);});
+it("returns a conflict for a stale observation and preserves the current work",async()=>{const {task}=await (await POST(request(create()))).json();const command={action:"observe",requestId:randomUUID(),taskId:task.id,expectedEventId:null,phase:"cancelled",note:"Stop this work before reviewing its scope."};expect((await POST(request(command))).status).toBe(200);expect((await POST(request({...command,requestId:randomUUID()}))).status).toBe(409);const state=await (await GET(new NextRequest("http://localhost:3000/api/consultant/program"))).json();expect(state.items[0].status).toBe("cancelled");expect(state.items[0].events).toHaveLength(1);});

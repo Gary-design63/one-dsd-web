@@ -1,0 +1,306 @@
+import type { CoursePack } from "../../source-types";
+
+// Disability Inclusion, Foundations, Module 4: Accessibility Basics.
+// Program-authored course for every employee, board member, volunteer, contractor and new hire.
+const pack: CoursePack = {
+  course: {
+    id: "di-accessibility-basics",
+    indexNumber: 1104,
+    seriesLabel: "Disability Inclusion · Foundations",
+    title: "Accessibility Basics",
+    subtitle: "Find the barriers hiding in rooms, documents, meetings, videos and emergency plans, and fix the ones you own before anyone has to ask.",
+    scope: "For everyone: staff, board members, volunteers, contractors and new hires. Four short lessons on physical and emergency access, accessible documents and plain language, digital and meeting access, and a spot-the-barrier walkthrough. Participation in this program is voluntary and does not replace required training.",
+    treatment: "Four short lessons with scenarios, a sorting exercise, checklists, a document template, flashcards and knowledge checks",
+    duration: "45–55 minutes",
+    author: "One DHS — People, Access and Culture",
+    coverImage: "/images/covers/plain-language.jpg",
+    coverAlt: "An older man fills out a form while a staff member points to a sentence.",
+    introTranscript: "Most of the barriers a disabled person meets in a workday were created by ordinary staff doing ordinary tasks: saving a scan as a PDF, booking the room upstairs, leaving captions off, writing a notice nobody can follow. This course shows you where those barriers hide and how to remove them at the source. You will learn the difference between accessibility by design and individual accommodation, the handful of checks that make a document, a meeting or a video usable by everyone, and how to walk through your own work and spot what would stop someone. None of it requires special software. All of it requires looking.",
+    kind: "course",
+    contentType: "foundation",
+    learning: {
+      objectives: [
+        "Explain the difference between accessibility by design and individual accommodation, and describe why an organization needs both.",
+        "Identify common barriers in physical spaces and emergency plans and name a corrective action for each.",
+        "Apply the basic checks for an accessible document: real text, headings, alt text, descriptive links, contrast, tables and plain language.",
+        "Describe the four principles behind digital accessibility and the settings and habits that make a virtual or hybrid meeting usable.",
+        "Walk through a meeting invitation, a web form, a PDF, a training video and a community event, identify at least five barriers, and choose a fix for each.",
+      ],
+      evidence: [
+        "A sorting exercise and four knowledge checks with explanations of why an answer removes or preserves a barrier.",
+        "A scenario decision in each lesson, reconsidered without a personal score.",
+        "A completed walkthrough with at least five barriers and a corrective action for each, and one document or invitation you actually fixed.",
+      ],
+      appliedNextStep: "Take the next document, invitation or form you would have sent as usual, run it through the checks in this course, fix what fails, and change the template so the fix stays.",
+    },
+    governance: {
+      contentOwner: "One DHS — People, Access and Culture",
+      reviewers: ["Equity and Inclusion Operations Consultant"],
+      evidenceDate: "Public sources checked at authoring",
+      lastReviewed: "At authoring",
+      nextReview: "At the agreed review point and whenever an update trigger occurs",
+      updateTriggers: ["Change in ADA, Section 504 or Section 508 guidance", "Change in DHS accessibility or language access standards", "Feedback from disabled staff or participants that a scenario reads as unrealistic or stigmatizing"],
+      relatedDoor: "Digital accessibility standards and document remediation go to the accessibility team; building and evacuation issues go to facilities and safety; accommodation requests go to human resources or the ADA coordinator; this course helps you fix what you own and route the rest.",
+      toolkitQuestion: "Who could be stopped by this room, document, meeting or plan, what specifically stops them, and what is the fix at the source?",
+      status: "reviewed",
+    },
+    lessons: [
+      {
+        id: "accessibility-basics-1",
+        number: 1,
+        title: "Design first, accommodate second",
+        summary: "Tell accessibility by design from individual accommodation, then look at the building and the emergency plan the way a person who cannot take the stairs or hear the alarm would.",
+        minutes: 12,
+        learning: {
+          objective: "Explain the difference between accessibility by design and individual accommodation and identify common barriers in physical spaces and emergency plans with a corrective action for each.",
+          takeaways: [
+            "Accessibility by design removes a predictable barrier for everyone before anyone asks; accommodation adjusts for one person after. Both are required, and relying on accommodation alone makes people carry the same cost repeatedly.",
+            "Physical access is a path, not a feature: from the parking space or bus stop, through the door, to the counter, the seat, the restroom and back out in an emergency.",
+            "An emergency plan that assumes everyone can hear an alarm, see a strobe, read a sign and take the stairs is not a plan for everyone in the building.",
+          ],
+          evidence: "A completed sort of design versus accommodation and a knowledge check on evacuation planning.",
+          appliedNextStep: "Walk your own building from the accessible parking space to your meeting room and out by the evacuation route, and write down where a person would be stopped.",
+        },
+        scenario: {
+          context: "A regional office is planning a quarterly provider forum in its second-floor training room. The building has an elevator. A provider who uses a power wheelchair registers, and the planner writes back: “Great, we will make sure someone meets you at the elevator and stays with you in case of an emergency.”",
+          prompt: "What has the planner missed?",
+          options: [
+            { label: "Nothing; an escort is a thoughtful accommodation and shows the provider is welcome.", response: "An escort for one person is an accommodation layered over a barrier that remains: a second-floor room with an elevator that will not run in a fire, and apparently no evacuation plan for wheelchair users. The next attendee meets the same wall." },
+            { label: "Whether the second floor is the right room at all, and whether the building has an evacuation plan for people who cannot use stairs, such as an area of refuge and a way to communicate with responders. If not, move the forum to a ground-floor room with step-free egress and raise the evacuation gap with facilities and safety.", response: "This fixes the design for everyone and treats the emergency plan as part of access. The provider gets a room, not a chaperone.", recommended: true },
+            { label: "Ask the provider whether they would prefer to join by video instead.", response: "Offering a remote option is fine as an addition. Offering it because the building is not planned for this person is a way of asking them to leave so the barrier does not have to be fixed." },
+          ],
+        },
+        transfer: {
+          prompt: "Which physical or emergency barrier in your own workplace will you name to its owner this month?",
+          options: ["Walk the path of travel from parking or transit to your service counter and note the first stopping point", "Ask who owns your building’s evacuation plan and whether it names people who cannot use stairs, hear alarms or see strobes", "Move one recurring meeting from a room with a barrier to one without, and keep it there"],
+        },
+        blocks: [
+          { type: "text", heading: "Two kinds of access, and why one is not enough", body: "<p><strong>Accessibility by design</strong> means the ramp, the captions, the tagged document and the plain-language notice are there before anyone arrives. It removes a predictable barrier once, for everyone, and nobody has to ask, disclose or wait. <strong>Individual accommodation</strong> is the adjustment made for one person after a request: an interpreter for a particular interview, a different format for a particular document, a schedule change for a particular employee. Accommodation is a legal duty and a good practice, and it will always be needed, because people’s needs are individual. But an organization that relies on accommodation alone is asking disabled people to pay the same toll, in time, disclosure and delay, every time they meet the same predictable barrier. Design removes the toll booth.</p><p>Physical access is the place to start looking because it is the most visible, and because it is usually thought of as a feature, a ramp or a sign, when it is actually a <strong>path</strong>. Follow it the way a person who uses a wheelchair, a walker or a white cane would: from the accessible parking space or bus stop, along a firm level route, through a door that can be opened without much force, past a counter that can be reached from a seated position, to a seat with clear floor space, to a restroom on the same floor, and back out. The path fails at its weakest point. An accessible entrance that is locked after four o’clock, a wheelchair-height counter piled with brochures, a hallway with a step down to the interview rooms: each one ends the path.</p><p>The part of the path most often forgotten is the way out in an emergency. Elevators are not used in fires. Audible alarms do not reach Deaf staff and visitors; strobes do not reach blind ones; a printed evacuation map does not help someone who cannot read it in smoke and stress. An accessible emergency plan names areas of refuge, evacuation chairs and who is trained to use them, two-way communication from refuge areas, both visual and audible alerting, accessible shelter locations, medication and equipment needs, and a way for each person with a disability to have a personal plan without having to disclose more than they choose. If your building’s plan does not do these things, it is a gap for facilities and safety to close, and it is worth raising.</p>" },
+          { type: "tabs", heading: "Follow the path", tabs: [
+            { label: "Arriving", body: "<p>Accessible parking spaces with an access aisle, on the shortest route to an accessible entrance. A firm, level, step-free route from transit and parking. Curb ramps that are not blocked by snow or a parked car. A door that opens with light force or a working automatic opener, and a clear opening wide enough for a wheelchair.</p>" },
+            { label: "Inside", body: "<p>Signs at a readable height with high contrast and, for permanent rooms, raised characters and braille. Corridors without protruding objects at head height. Counters with a lowered section that is kept clear. Seating with space for a wheelchair beside a companion, not only at the back. Lighting that does not glare or flicker. A quiet room or low-stimulation space where possible.</p>" },
+            { label: "Restrooms", body: "<p>An accessible restroom on the same floor as the service area or meeting, with a clear turning space, grab bars, a reachable sink and dispensers, and a door that does not require gripping and twisting. A single-user restroom also serves people who need a companion’s help.</p>" },
+            { label: "Emergency", body: "<p>Areas of refuge with two-way communication. Evacuation chairs and trained staff. Alarms that are both audible and visual. Shelter locations that are accessible. A plan for medication, service animals and equipment. Individual emergency plans available on request without unnecessary disclosure. Staff and visitors who cannot use stairs know what to do before the alarm sounds.</p>" },
+          ] },
+          { type: "leaderMove", heading: "Fix the room, not the guest list", control: "You control which room a meeting is booked in and whether an access problem is treated as a reason to change the room or a reason to manage the person.", failure: "Do not solve a second-floor room by assigning an escort, or an inaccessible entrance by telling one person to use the loading dock.", next: "Before your next booking, check the path of travel and the evacuation route for the room, and choose a room that passes." },
+          { type: "sorting", id: "accessibility-basics-1-sort", heading: "Design or accommodation?", categories: ["Accessibility by design", "Individual accommodation"], items: [
+            { text: "Captions are turned on by default for every virtual meeting the unit hosts.", category: "Accessibility by design" },
+            { text: "An ASL interpreter is scheduled for a participant’s eligibility interview.", category: "Individual accommodation" },
+            { text: "All notices are written to a plain-language standard and available in large print on request.", category: "Accessibility by design" },
+            { text: "A supervisor approves a written-instructions arrangement for one employee.", category: "Individual accommodation" },
+            { text: "The provider forum is held in a ground-floor room with step-free egress every quarter.", category: "Accessibility by design" },
+            { text: "A single participant is given extra time to complete a timed online quiz.", category: "Individual accommodation" },
+          ] },
+          { type: "flashcards", heading: "Terms worth knowing", cards: [
+            { front: "Accessibility by design", back: "<p>The barrier is removed once, for everyone, before anyone asks. Nobody has to disclose or wait.</p>" },
+            { front: "Individual accommodation", back: "<p>An adjustment for one person after a request. Necessary and lawful; not a substitute for design when the barrier is predictable.</p>" },
+            { front: "Path of travel", back: "<p>The continuous route from arrival to service to exit. It is only as accessible as its weakest point.</p>" },
+            { front: "Area of refuge", back: "<p>A protected place near an exit stair where a person who cannot use stairs waits for assisted evacuation, with two-way communication to responders.</p>" },
+            { front: "Personal emergency evacuation plan", back: "<p>An individual arrangement for a staff member or regular visitor who needs assistance in an emergency, made with them and shared only as far as needed.</p>" },
+          ] },
+          { type: "knowledgeCheck", id: "accessibility-basics-1-check", question: "A building’s evacuation plan says: “In an emergency, all occupants exit by the nearest stairwell. Do not use elevators.” What is missing?", options: [
+            { text: "Nothing; that is the standard instruction for any building.", correct: false },
+            { text: "Any plan for people who cannot use stairs, cannot hear the alarm or cannot see a strobe: areas of refuge, evacuation chairs and trained staff, two-way communication, and both visual and audible alerting.", correct: true },
+            { text: "A note that people with disabilities should register with reception so an escort can be assigned.", correct: false },
+          ], feedbackCorrect: "Yes. A plan that only works for people who can take the stairs and hear the alarm leaves others in the building without a plan.", feedbackIncorrect: "Read the plan as a wheelchair user or a Deaf colleague would. Registration for an escort is not a plan; it is a request for disclosure." },
+        ],
+      },
+      {
+        id: "accessibility-basics-2",
+        number: 2,
+        title: "Documents and plain language",
+        summary: "Make the documents you already write usable by screen readers, magnifiers and tired human beings: real text, headings, alt text, descriptive links, contrast, proper tables and plain language.",
+        minutes: 13,
+        learning: {
+          objective: "Apply the basic checks for an accessible document, including real text, headings, alt text, descriptive links, color and contrast, tables and plain language, before it is sent or published.",
+          takeaways: [
+            "A scanned image saved as a PDF is a picture, not a document; a screen reader finds nothing in it. Start from real text.",
+            "Headings built with styles, alt text on meaningful images, links that say where they go, and tables with a header row give structure that assistive technology can navigate.",
+            "Plain language is accessibility too: short sentences, familiar words, the action first, one idea per paragraph, and a reader who can tell what to do next.",
+          ],
+          evidence: "A scenario decision about a renewal notice and a knowledge check on document structure.",
+          appliedNextStep: "Run the next document you send through the ordered checklist in this lesson and fix the template, not just the copy.",
+        },
+        scenario: {
+          context: "A county unit is about to mail and post a benefit renewal notice. It was drafted as a flyer: a large photo with the deadline typed over it, a paragraph in a decorative font explaining consequences of missing the date, and a line at the bottom reading “Click here for more information.” The team lead asks you to give it a final look.",
+          prompt: "What do you tell the team lead?",
+          options: [
+            { label: "It looks professional and the deadline is prominent; send it.", response: "The deadline is inside an image, so a screen reader will never read it, a magnifier will blur it, and a translation tool will not find it. The most important fact on the page is invisible to the people who most need it." },
+            { label: "Rebuild it as a real text document: the deadline and the action in the first two lines, a heading for each step, a plain font, the photo kept only if it adds meaning and given alt text, and the link written as the name of the page it opens. Then keep that layout as the template.", response: "The notice now works for screen readers, magnifiers, translation and everyone reading in a hurry, and the next notice inherits the fix.", recommended: true },
+            { label: "Send it as is and add a line inviting anyone who needs a different format to call the office.", response: "An accessible format on request is a lawful backstop, not a substitute for a notice that could have been readable to begin with. The people who cannot read the notice cannot read the invitation either." },
+          ],
+        },
+        transfer: {
+          prompt: "Which document you own will you fix first, and which template will keep the fix?",
+          options: ["Open your most-used document and check: can you select the text, do headings show in the navigation pane, does every link say where it goes?", "Rewrite the first paragraph so the reader knows what to do and by when in the first two sentences", "Change the template so the next person inherits the accessible version"],
+        },
+        blocks: [
+          { type: "text", heading: "What a screen reader actually meets", body: "<p>A screen reader does not see a page. It reads a structure: headings it can jump between, paragraphs, lists, links it can pull into a menu, tables with rows and columns it can navigate cell by cell, and text alternatives for images. When those things exist, a blind reader moves through a document about as fast as a sighted one. When they do not, the reader is left with a single wall of text, a list of links that all say “click here,” or, in the case of a scanned image saved as a PDF, nothing at all. Magnifier users, people with dyslexia who use text-to-speech, people reading on a phone and anyone using a translation tool depend on the same structure.</p><p>The good news is that the tools you already use make structure easy if you use them as intended. Headings come from the <strong>Heading 1, Heading 2, Heading 3</strong> styles, not from bold and a larger font. Lists come from the list buttons, not from typed dashes. Tables are for data, with a marked header row and no merged cells, not for layout. Every image that carries meaning gets <strong>alt text</strong> that says what it shows in the context of the document; a purely decorative image is marked decorative. Links are written as the name of the destination, “Renewal instructions,” not “click here” or a raw address. Color is never the only way information is conveyed, so a chart uses labels as well as color and a required field is marked with text as well as red. Text and background have strong contrast, and body text is a clear sans-serif font at a comfortable size. Save from that source to a tagged PDF rather than printing to PDF, and run the built-in accessibility checker before you send.</p><p><strong>Plain language</strong> is part of the same discipline. Federal plain-language guidelines and DHS writing guidance say the same things: know who the reader is and what they need to do, put the action and the deadline first, use short sentences and familiar words, define a term the first time it appears, use one idea per paragraph, address the reader as you, and prefer active voice. A renewal notice that says in its first line, “Return this form by the date below to keep your benefits,” has done more for accessibility than any font choice. Plain language helps people with cognitive disabilities, people reading in a second language, people under stress, and everyone else.</p>" },
+          { type: "list", heading: "Before you send a document", ordered: true, items: ["Confirm it is real text: you can select and search words. If it is a scan, get the source file or run recognition and correct it.", "Apply heading styles in order and check that the navigation pane shows the document’s outline.", "Write alt text for every meaningful image, chart and logo; mark decorative images as decorative.", "Rewrite every link as its destination’s name; remove bare addresses and “click here.”", "Check tables: a header row, one piece of data per cell, no merged or split cells, no tables used for layout.", "Check color and contrast: nothing conveyed by color alone; dark text on a light background or the reverse.", "Read the first two sentences as the recipient. Do they know what to do and by when?", "Save as a tagged PDF from the source, or send the source document, and run the accessibility checker."] },
+          { type: "accordion", heading: "Common questions", items: [
+            { title: "Is a PDF ever the right choice?", body: "<p>Yes, when it is a tagged PDF exported from an accessible source document and someone has checked it. A PDF printed from a scan or from a design tool without tags is not accessible, however good it looks. When in doubt, send or post the accessible source document as well.</p>" },
+            { title: "What makes good alt text?", body: "<p>Say what the image shows and why it is there, in a sentence or two: “Line chart showing waiver enrollment rising each quarter, from about 400 to about 650.” Not “chart” and not “image.” If the image is fully described in the surrounding text, mark it decorative.</p>" },
+            { title: "What about large print?", body: "<p>Large print is a format some people request; a common starting point is at least 18-point text. A document built from real text with styles can be produced in large print in minutes. A flyer built from images cannot.</p>" },
+            { title: "How short is a short sentence?", body: "<p>Most plain-language guidance suggests an average around 15 to 20 words, with one idea each. If a sentence needs a semicolon and two commas, it is probably two sentences.</p>" },
+            { title: "Who do I ask?", body: "<p>The accessibility team can help with remediation, templates and the state accessibility standard. Language access colleagues can help with translation-ready structure. Your job is to send them a document with real text and headings, not a scan.</p>" },
+          ] },
+          { type: "leaderMove", heading: "Fix the template, not just this copy", control: "You control whether an accessible document is a one-time effort or the default for everyone who uses the template after you.", failure: "Do not spend an hour fixing one notice and leave the template that produced the problem untouched.", next: "This week, open the template behind your most-used document and build the headings, alt text, link style and plain-language opening into it." },
+          { type: "artifact", kind: "tagged-document", label: "Practical artifact", title: "An accessible notice, top to bottom", summary: "The structure of a renewal notice that works for a screen reader, a magnifier, a translation tool and a person reading in a hurry.", fields: [
+            { label: "Opening", value: "Heading 1 with the notice name. First sentence: the action and the deadline. “Return the enclosed form by the date at the top of this letter to keep your benefits.”" },
+            { label: "Body", value: "Heading 2 for each step: What to send, How to send it, What happens next, Who to call. Short paragraphs, numbered steps, familiar words, terms defined once." },
+            { label: "Structure", value: "Real text throughout. Styles for headings and lists. Any image with alt text or marked decorative. Links named for their destination. Any table with a header row." },
+            { label: "Format line", value: "“This notice is available in large print, braille, audio and other formats, and in other languages. Call the number above to ask.” Then saved as a tagged PDF from the source, checker run, source kept." },
+          ], action: "Compare your most-used notice or letter against these four parts and rebuild the template where it falls short." },
+          { type: "flashcards", heading: "Document essentials", cards: [
+            { front: "Real text", back: "<p>Text you can select and search. A scanned page is a picture and reads as nothing. Start from the source file.</p>" },
+            { front: "Heading styles", back: "<p>Heading 1, 2 and 3 from the styles menu, in order. They create the outline a screen reader user jumps through. Bold and big are not headings.</p>" },
+            { front: "Alt text", back: "<p>A short description of what an image shows and why it matters here. Decorative images are marked decorative so they are skipped.</p>" },
+            { front: "Descriptive links", back: "<p>Link text that says where it goes: “Renewal instructions.” Screen readers can list links out of context; “click here” tells them nothing.</p>" },
+            { front: "Color is not information", back: "<p>Anything shown by color must also be shown by text, a label or a pattern. Required fields, chart series, status flags.</p>" },
+            { front: "Plain language", back: "<p>Reader first, action first, short sentences, familiar words, one idea per paragraph. Accessibility for cognition, language and stress.</p>" },
+          ] },
+          { type: "knowledgeCheck", id: "accessibility-basics-2-check", question: "A colleague made the section titles in a policy document bold and 16-point so they stand out, and wrote each web link as “here.” A screen reader user says the document is hard to use. Why?", options: [
+            { text: "The font size is too large for screen readers to process.", correct: false },
+            { text: "Bold text is not a heading, so there is no outline to navigate, and every link reads as “here,” so the link list is meaningless. Apply heading styles and name the links for their destinations.", correct: true },
+            { text: "Policy documents should be sent as scanned PDFs so the formatting is preserved.", correct: false },
+          ], feedbackCorrect: "Yes. Visual emphasis is not structure. Styles and descriptive links give assistive technology something to navigate.", feedbackIncorrect: "Think about what a screen reader has to work with: the structure, not the look. Headings come from styles; links should say where they go." },
+        ],
+      },
+      {
+        id: "accessibility-basics-3",
+        number: 3,
+        title: "Digital tools, video and meetings",
+        summary: "Learn the four principles behind every digital accessibility standard, the difference between automatic and accurate captions, and the settings and habits that make a virtual or hybrid meeting work for everyone.",
+        minutes: 13,
+        learning: {
+          objective: "Describe the four principles of digital accessibility and apply the settings and habits that make forms, videos and virtual or hybrid meetings usable by people with disabilities.",
+          takeaways: [
+            "Digital accessibility standards come down to four questions: can everyone perceive it, operate it, understand it, and use it with their own assistive technology.",
+            "Automatic captions are a starting point, not a finish; accurate captions, a transcript and, where visuals carry meaning, audio description are what make a video accessible.",
+            "An accessible meeting is decided before the invitation goes out: platform settings, materials in advance, interpretation and captioning arranged, an access-needs line, breaks, and more than one way to take part.",
+          ],
+          evidence: "A scenario decision about a training video and a knowledge check on meeting practice.",
+          appliedNextStep: "Change your default meeting settings so captions are on, the chat is read aloud or summarized, and the invitation template includes an access-needs line and a named contact.",
+        },
+        scenario: {
+          context: "A unit has recorded a twenty-minute training video for new staff. The presenter narrates over slides that contain flowcharts of the intake process, and says things like “as you can see here, this branch goes to the supervisor.” The platform generated automatic captions. A colleague suggests publishing it now because the captions are already there.",
+          prompt: "What should happen before the video is published?",
+          options: [
+            { label: "Publish it; automatic captions meet the requirement and can be corrected later if anyone complains.", response: "Automatic captions routinely garble names, program terms and numbers, and nobody who depends on them will complain; they will just get the wrong information. “Later” rarely arrives." },
+            { label: "Review and correct the captions, add a transcript, and either re-record the narration so the flowcharts are described in words or provide an accessible version of the slides alongside the video. Then publish.", response: "Now a Deaf staff member gets accurate captions, a blind staff member gets the content the flowcharts carry, and everyone gets a searchable transcript.", recommended: true },
+            { label: "Add a note that the video is best experienced with sound and vision, and offer a one-to-one walkthrough for anyone who needs it.", response: "A note does not make the content available, and a one-to-one session makes disabled new hires the only ones who have to ask for their training." },
+          ],
+        },
+        transfer: {
+          prompt: "Which digital habit will you change first?",
+          options: ["Turn captions on by default in your meeting platform and correct the captions on one existing video", "Add an access-needs line and a named contact to your meeting invitation template", "Try to complete one form or tool your unit uses with the keyboard only, and report what fails"],
+        },
+        blocks: [
+          { type: "text", heading: "Four questions behind every standard", body: "<p>The Web Content Accessibility Guidelines, which the state’s accessibility standard and federal Section 508 requirements both draw on, look technical from a distance. Up close they rest on four plain principles, often remembered by the acronym POUR. Content must be <strong>perceivable</strong>: text alternatives for images, captions for audio, enough contrast, and nothing conveyed by color alone. It must be <strong>operable</strong>: everything reachable and usable with a keyboard, a visible focus indicator so you can see where you are, enough time to complete a task, and no drag-and-drop-only interactions. It must be <strong>understandable</strong>: readable language, predictable behavior, labeled form fields, and error messages that say what went wrong and how to fix it. And it must be <strong>robust</strong>: built so screen readers, magnifiers, voice control and switch devices can work with it. You do not need to know the guideline numbers to ask these four questions of a form, a survey tool, a learning platform or a website your unit is about to adopt.</p><p>Video deserves its own attention because so much training and communication now happens through it. Captions must be accurate: automatic captions are a draft that needs correction, especially for names, program terms and numbers. A transcript makes the content searchable and available to people who cannot watch at all. Where the visuals carry meaning that the narration does not, such as a flowchart, a demonstration or text on a slide, the narration should describe it or an audio-described version should be provided. The cheapest fix is to record it right: say what is on the screen as you present.</p><p>Meetings are where digital access and in-person access meet. The decisions that make a virtual or hybrid meeting accessible are made before the invitation goes out: captions turned on and not left to each participant to discover, interpretation arranged and the interpreter pinned or spotlighted, materials sent ahead in accessible formats, an access-needs line with a named contact and a date, and breaks scheduled for anything longer than an hour. During the meeting, the host reads or summarizes what is in the chat, because chat is a barrier for screen-reader users and for anyone attending by phone; speakers say their name before speaking; and there is more than one way to contribute, by voice, in writing and afterward. For hybrid meetings the remote participants need the same materials, the same chance to speak and a camera on the room, not a phone propped against a water jug.</p>" },
+          { type: "tabs", heading: "The four principles, with checks you can do", tabs: [
+            { label: "Perceivable", body: "<p>Do images have alt text? Do videos have accurate captions and a transcript? Is contrast strong? Is anything shown only by color? Can text be enlarged without breaking the layout?</p>" },
+            { label: "Operable", body: "<p>Can you reach and use every control with the Tab key and Enter or Space? Can you see where the keyboard focus is? Is there a time limit, and can it be extended? Is anything drag-and-drop only?</p>" },
+            { label: "Understandable", body: "<p>Are form fields labeled, not just placeholders that disappear? Do error messages say what went wrong and how to fix it? Is the language plain? Does the tool behave predictably?</p>" },
+            { label: "Robust", body: "<p>Was it tested with a screen reader? Does the vendor provide an accessibility conformance report? Does it work on a phone? When in doubt, ask the accessibility team before adopting a tool, not after.</p>" },
+          ] },
+          { type: "list", heading: "An accessible meeting, before and during", items: ["Before: captions on by default; interpretation or CART arranged when requested or when the audience is public; materials sent in accessible formats at least three working days ahead; an access-needs line, a named contact and a date in the invitation; breaks planned for meetings over an hour.", "Before: for in-person or hybrid, a room that passes the path-of-travel check, a quiet space, and an accessible dial-in as well as video.", "During: hosts read or summarize the chat aloud; speakers say their name; the interpreter is pinned or spotlighted; slides are described as they are shown; questions can be asked by voice, in writing, and afterward.", "During, hybrid: remote participants can see the room and the speaker, hear everyone through a room microphone, and are invited to speak before the room moves on.", "After: notes and recording with corrected captions and a transcript, sent in accessible formats, with the same access-needs contact for follow-up."] },
+          { type: "leaderMove", heading: "Decide access before the invitation, not after the first complaint", control: "You control the platform settings, the invitation template and the agenda for every meeting you host.", failure: "Do not send an invitation that leaves captions to each participant, materials to the morning of, and access needs to whoever is brave enough to ask a stranger.", next: "Set captions on by default today, and add the access-needs line and a named contact to your standing invitation template." },
+          { type: "flashcards", heading: "Digital essentials", cards: [
+            { front: "POUR", back: "<p>Perceivable, operable, understandable, robust. The four principles under every digital accessibility standard.</p>" },
+            { front: "Keyboard test", back: "<p>Put the mouse away and try to complete the task with Tab, Shift+Tab, Enter, Space and the arrow keys. If you get stuck, so will many assistive technology users.</p>" },
+            { front: "Automatic captions", back: "<p>A draft. Review and correct names, terms and numbers before publishing. Accurate captions plus a transcript is the standard.</p>" },
+            { front: "Audio description", back: "<p>Narration of meaningful visual content for people who cannot see it. Cheapest when the presenter describes the screen while recording.</p>" },
+            { front: "CART", back: "<p>Communication access realtime translation: a trained captioner producing live, accurate captions. Different from automatic captions and often requested for public meetings.</p>" },
+            { front: "The chat problem", back: "<p>Chat is hard or impossible for screen-reader users mid-meeting and invisible to phone participants. Hosts read or summarize it aloud.</p>" },
+          ] },
+          { type: "knowledgeCheck", id: "accessibility-basics-3-check", question: "During a hybrid team meeting, most questions arrive in the chat and the host answers them without reading them out. Two participants are on the phone and one uses a screen reader. What is the best correction?", options: [
+            { text: "Ask people to stop using the chat.", correct: false },
+            { text: "The host reads or summarizes each chat question aloud before answering, and invites questions by voice as well, so everyone hears the question and the answer.", correct: true },
+            { text: "Send the chat log to the phone and screen-reader participants after the meeting.", correct: false },
+          ], feedbackCorrect: "Yes. Reading the chat aloud keeps the whole meeting available to everyone in real time and costs seconds.", feedbackIncorrect: "The goal is participation during the meeting, for everyone. Banning a channel or sending a log afterward does not achieve that; reading aloud does." },
+        ],
+      },
+      {
+        id: "accessibility-basics-4",
+        number: 4,
+        title: "Spot the barrier",
+        summary: "Walk through a meeting invitation, a web form, a PDF, a training video and a community event; find the barriers, pair each with a fix, and decide what you own and what to route.",
+        minutes: 12,
+        learning: {
+          objective: "Walk through five everyday artifacts, identify at least five barriers, pair each with a corrective action at the source, and distinguish what you can fix from what to route to the responsible office.",
+          takeaways: [
+            "Barriers cluster in predictable places: images posing as text, missing labels and captions, time limits, rooms without a step-free path, and plans that assume everyone can hear and climb.",
+            "A corrective action changes the thing that creates the barrier; anything that leaves the barrier in place and moves the cost to the person is not a fix.",
+            "Most barriers in a workday can be fixed by the person who created them. The rest have an owner and a responsible office, and both deserve a specific, written note.",
+          ],
+          evidence: "A completed walkthrough with at least five barriers and a corrective action for each, and the final knowledge check for the course.",
+          appliedNextStep: "Do the same walkthrough on five real items from your own unit this month and fix or route each one.",
+        },
+        scenario: {
+          context: "You have been asked to review the materials for a community information session on housing supports: a flyer, an online registration form, a slide deck, a short promotional video, and the venue booking at a community center. You have an hour, and the session is in two weeks.",
+          prompt: "How do you use the hour?",
+          options: [
+            { label: "Read everything for accuracy and tone, and trust the community center and the web team on accessibility.", response: "Accuracy matters, but nobody else is going to open the PDF and try to select the text, tab through the form, or ask about the center’s entrance. Accessibility review is not someone else’s hour." },
+            { label: "Run each item through the checks from this course, list every barrier with its fix, fix what you own today, and send the rest to the owners with a specific note and the session date.", response: "Two weeks is enough to fix an image flyer, relabel a form, turn on captions and confirm a room, if the barriers are named now and given to the people who can act.", recommended: true },
+            { label: "Add an access-needs line to the flyer so anyone who needs something can ask.", response: "The line belongs there, and it does not fix a flyer that cannot be read, a form that cannot be completed or a room that cannot be entered. It moves the work back to the person." },
+          ],
+        },
+        transfer: {
+          prompt: "Which five real items from your own work will you walk through this month?",
+          options: ["Pick one invitation, one form, one PDF, one video and one event or room your unit owns", "For each, write the barrier, the fix, and whether you own it or who does", "Fix yours this week and send the others to their owners with a date"],
+        },
+        blocks: [
+          { type: "text", heading: "How to look", body: "<p>Spotting barriers is a habit of looking, not a technical skill. For each item, ask who could be stopped and where. Try to use it the way someone else would: select the text in the PDF, tab through the form without a mouse, watch the video with the sound off and then with your eyes closed, read the invitation as someone who uses a wheelchair or a screen reader, and picture the event from the parking lot to the restroom to the fire exit. Where you get stuck, someone else gets excluded.</p><p>Then pair each barrier with a <strong>corrective action at the source</strong>. The test of a real fix is simple: after it, is the barrier gone for everyone, or is it still there with a workaround taped to it? “Ask readers who need it to call” leaves the image PDF unreadable. “Rebuild it from the source document with real text and headings” removes the barrier. Finally, sort the list: what you own, fix now; what someone else owns, send to them with the barrier named, the fix suggested and the date it is needed by; what needs a specialist, such as a form platform or a building, route to the accessibility team or facilities with the same specifics. A barrier that is written down with an owner gets fixed. A barrier that is mentioned in a hallway does not.</p>" },
+          { type: "accordion", heading: "The walkthrough: five items, the barriers, the fixes", items: [
+            { title: "Meeting invitation", body: "<p><strong>Barriers:</strong> no access-needs line or contact; agenda attached as a scanned image; materials promised “on the day”; captions not mentioned; a room named but no route or restroom information.</p><p><strong>Fixes:</strong> add the access-needs line with a named contact and a date; replace the scan with a real text agenda; commit to materials three working days ahead; state that captions are on and interpretation is available on request; describe the step-free route and nearest accessible restroom.</p>" },
+            { title: "Online registration form", body: "<p><strong>Barriers:</strong> fields with placeholder text but no labels; a five-minute timeout; required fields shown only in red; a drag-and-drop file upload; an error message that says only “invalid entry.”</p><p><strong>Fixes:</strong> add visible labels to every field; remove or extend the timeout with a warning; mark required fields with text; provide a standard file-selection button; write error messages that say which field and what to change. Route platform limits to the accessibility team.</p>" },
+            { title: "PDF handout", body: "<p><strong>Barriers:</strong> scanned image with no text layer; no headings; no alt text on a chart; links pasted as bare addresses; a two-column layout that reads out of order.</p><p><strong>Fixes:</strong> return to the source document; apply heading styles; write alt text for the chart; name the links; use a single column or check reading order; export as a tagged PDF and run the checker; post the source document too.</p>" },
+            { title: "Training video", body: "<p><strong>Barriers:</strong> automatic captions never reviewed; no transcript; presenter refers to “this box here” on a slide that is never described; background music under narration; flashing transition effects.</p><p><strong>Fixes:</strong> correct the captions; add a transcript; re-record or supplement so on-screen content is described; lower or remove the music; remove flashing effects, which can trigger seizures.</p>" },
+            { title: "Community event", body: "<p><strong>Barriers:</strong> second-floor room reached by stairs; sign-in sheet in small type on a high table; no quiet space; no plan for an evacuation alarm that Deaf attendees cannot hear; parking two blocks away with no accessible spaces near the entrance.</p><p><strong>Fixes:</strong> move to a ground-floor room with step-free egress; provide a large-print sign-in and a lowered table, or have a greeter sign people in; designate a quiet room; confirm visual alarms and an assisted evacuation plan with the venue; arrange accessible parking or drop-off at the entrance.</p>" },
+          ] },
+          { type: "leaderMove", heading: "Write the barrier down with an owner", control: "You control whether a barrier you noticed becomes a note with an owner and a date or a comment that evaporates.", failure: "Do not say “the form is a bit hard to use” in a hallway. Say “the upload is drag-and-drop only and the timeout is five minutes; both need to change before the session on the date we agreed,” in writing, to the owner.", next: "For every barrier you find this month, write one line: what, where, the fix, the owner, the date." },
+          { type: "list", heading: "Immediate fix, source fix", ordered: true, items: ["Name the barrier specifically: what stops whom, where.", "Provide an immediate path if someone is waiting: an accessible copy, a phone option, a different room today.", "Fix the source if you own it: the template, the setting, the booking default.", "If you do not own it, send the owner the barrier, the fix and the date, and copy the responsible office when a standard or a building is involved.", "Check back on the date. A fix that was promised is not a fix."] },
+          { type: "flashcards", heading: "Barrier, fix", cards: [
+            { front: "Image PDF", back: "<p>Fix: rebuild from the source with real text and heading styles; export tagged; post the source too. Not a fix: “call us for another format.”</p>" },
+            { front: "Unlabeled form fields", back: "<p>Fix: visible labels on every field, text marking for required fields, clear error messages. Not a fix: a help line for people who cannot complete it.</p>" },
+            { front: "Five-minute timeout", back: "<p>Fix: remove it, or extend it with a warning and a way to continue. Not a fix: advising people to prepare their answers in advance.</p>" },
+            { front: "Uncaptioned video", back: "<p>Fix: accurate captions, a transcript, description of meaningful visuals. Not a fix: “best experienced with sound.”</p>" },
+            { front: "Second-floor room", back: "<p>Fix: a ground-floor room with step-free egress, kept as the default. Not a fix: an escort at the elevator.</p>" },
+            { front: "Alarm nobody can hear", back: "<p>Fix: visual alarms and an assisted evacuation plan confirmed with the venue. Not a fix: asking Deaf attendees to sit near staff.</p>" },
+          ] },
+          { type: "knowledgeCheck", id: "accessibility-basics-4-check", question: "Which pair correctly matches a barrier with a corrective action at the source?", options: [
+            { text: "A flyer built as an image: add a line saying “contact us if you need this in another format.”", correct: false },
+            { text: "A registration form with a five-minute timeout and unlabeled fields: label every field, mark required fields with text, and remove or extend the timeout with a warning.", correct: true },
+            { text: "A training video with automatic captions: publish it and correct the captions if someone reports a problem.", correct: false },
+          ], feedbackCorrect: "Yes. The fix changes the form itself, for everyone who uses it next.", feedbackIncorrect: "Ask where the barrier is after each option. In two of them it is exactly where it was, and the person has been handed the work of getting around it." },
+          { type: "statement", body: "Accessibility is mostly a habit of looking at your own work the way someone else has to use it, and fixing what you find at the source. Do it for five real items this month, and change the template so the fix stays." },
+        ],
+      },
+    ],
+  },
+  jobAid: {
+    title: "Accessibility basics",
+    subtitle: "A one-page reminder before you book a room, send a document, host a meeting or publish a video",
+    quote: "Design first, accommodate second. Real text, real headings, captions on, a room with a way out.",
+    use: {
+      purpose: "Catch the common barriers in everyday work before they reach a person, and route the rest with an owner and a date.",
+      remember: ["Accessibility by design removes the barrier once, for everyone; accommodation is still needed, but it is not a substitute.", "A scanned image is not a document; bold is not a heading; “click here” is not a link.", "Captions on by default, materials three days ahead, an access-needs line with a named contact, and read the chat aloud.", "Follow the path of travel from parking to the exit in an emergency; it fails at its weakest point."],
+      doNext: "Walk five real items from your unit through the checks this month, fix what you own, and send the rest to their owners in writing.",
+    },
+    sections: [
+      { heading: "Documents", items: ["Real text you can select; heading styles in order; alt text on meaningful images; links named for their destination.", "Tables with a header row and no merged cells; nothing conveyed by color alone; strong contrast; a clear font.", "Action and deadline in the first two sentences; short sentences; familiar words; one idea per paragraph.", "Export a tagged PDF from the source, run the checker, keep and share the source."] },
+      { heading: "Meetings and media", items: ["Captions on by default; CART or interpretation arranged when requested or when the public is invited.", "Materials in accessible formats at least three working days ahead; an access-needs line, a named contact and a date.", "Hosts read the chat aloud; speakers say their names; slides are described; breaks after an hour; remote participants can see and hear the room.", "Videos: corrected captions, a transcript, described visuals, no flashing effects."] },
+      { heading: "Rooms and emergencies", items: ["Step-free path from accessible parking or transit through the door to the seat and the restroom on the same floor.", "Lowered counter kept clear; readable signs; seating for a wheelchair beside a companion; a quiet space where possible.", "Visual and audible alarms; areas of refuge with two-way communication; evacuation chairs and trained staff; a plan for people who cannot use stairs.", "Write each barrier down with the fix, the owner and the date; route standards and buildings to the accessibility team or facilities."] },
+    ],
+  },
+  sources: [
+    { title: "W3C Web Accessibility Initiative, Introduction to Web Accessibility", href: "https://www.w3.org/WAI/fundamentals/accessibility-intro/", note: "Plain explanation of what web accessibility is and whom it serves." },
+    { title: "W3C Web Accessibility Initiative, WCAG overview", href: "https://www.w3.org/WAI/standards-guidelines/wcag/", note: "The Web Content Accessibility Guidelines and the perceivable, operable, understandable and robust principles." },
+    { title: "Section508.gov, Create accessible digital products", href: "https://www.section508.gov/create/", note: "Federal guidance on accessible documents, presentations, video and meetings." },
+    { title: "U.S. Access Board", href: "https://www.access-board.gov/", note: "Accessibility standards for buildings, facilities and information technology, including the ADA Standards for Accessible Design." },
+    { title: "Plainlanguage.gov, Federal Plain Language Guidelines", href: "https://www.plainlanguage.gov/", note: "Guidance on writing for the reader: action first, short sentences, familiar words and clear structure." },
+    { title: "Centers for Disease Control and Prevention, Disability Inclusion", href: "https://www.cdc.gov/disability-inclusion/about/index.html", note: "Definition of disability inclusion and strategies for accessible, welcoming programs and meetings." },
+  ],
+};
+
+export default pack;

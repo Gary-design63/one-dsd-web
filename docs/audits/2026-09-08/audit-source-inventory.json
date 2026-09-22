@@ -1,0 +1,139 @@
+{
+  "date": "2026-09-08",
+  "scope": "accessible project guidance and selected harness implementation; not a full product certification",
+  "sources": [
+    {
+      "file": "AGENTS.md",
+      "sha256": "d83642f19a1abaa60a862fe5f0cad3ca1e5d163a186824c8893f58a687ba56d4",
+      "bytes": 4319,
+      "words_whitespace_count": 580,
+      "lines": 28
+    },
+    {
+      "file": "docs/OWNER-DIRECTIVE-2026-09-07.md",
+      "sha256": "060cac9e5d49c31c166aee9ad1253597ff95ba1232b7a7bcb4fedfbf8d2609b3",
+      "bytes": 16195,
+      "words_whitespace_count": 2305,
+      "lines": 118
+    },
+    {
+      "file": "docs/WORKING-AGREEMENT.md",
+      "sha256": "bad31b8f0ad7eef506ba43e6fc6f41b6f79bf4c732dcbec957fdce3f1a8a6a6f",
+      "bytes": 7566,
+      "words_whitespace_count": 980,
+      "lines": 60
+    },
+    {
+      "file": "docs/STAFF-VOICE-STANDARD.md",
+      "sha256": "b0f7f9fb677692dec5abda8e4a2c9ada9e22883c1130e5a6748cfbe5275ca5a2",
+      "bytes": 8640,
+      "words_whitespace_count": 1212,
+      "lines": 76
+    },
+    {
+      "file": "BUILD_EXECUTION.md",
+      "sha256": "dc2fb8556233b2f84532ac6238c9489ae4b0b3eaa8f173c57aa07d39b1e3ff40",
+      "bytes": 44524,
+      "words_whitespace_count": 5892,
+      "lines": 517
+    },
+    {
+      "file": "docs/AUTONOMY.md",
+      "sha256": "4764c0e21a77140c4d575542afe33f48375cc83f938433cbd837e5b2ce90c188",
+      "bytes": 5294,
+      "words_whitespace_count": 828,
+      "lines": 54
+    },
+    {
+      "file": "docs/ARCHITECTURE.md",
+      "sha256": "531668a50e07c6a411fcfdbe0629596b2ff5cb51094e3c2d6f1f92e4803e9905",
+      "bytes": 13393,
+      "words_whitespace_count": 1770,
+      "lines": 169
+    },
+    {
+      "file": "docs/DECISIONS.md",
+      "sha256": "b90f86378eb8eb2e5eae7f0865b9d80373bc8d0138dcac8b16ee6c31fa087087",
+      "bytes": 11520,
+      "words_whitespace_count": 1725,
+      "lines": 81
+    },
+    {
+      "file": "docs/HANDOFF.md",
+      "sha256": "a53469698f44b7ad5fe322b6211764599a482de2c8848a148974e711bb7dafa4",
+      "bytes": 6782,
+      "words_whitespace_count": 937,
+      "lines": 67
+    },
+    {
+      "file": "docs/IMPLEMENTATION-PLAN.md",
+      "sha256": "84458756300b61085e312d84f0f0da094ae488dd069360635d2e23465b226e45",
+      "bytes": 9921,
+      "words_whitespace_count": 1419,
+      "lines": 105
+    },
+    {
+      "file": "scripts/vercel-build.mjs",
+      "sha256": "e4d2b08eb3c713970fc83295591a00d6adf86ad1fa40130ce561e51572bc348c",
+      "bytes": 1154,
+      "words_whitespace_count": 123,
+      "lines": 34
+    },
+    {
+      "file": "scripts/testing/run-tests.mjs",
+      "sha256": "00a45c0d3a30402da88082d3531685eedf2c6b366c0022b350951ef6e6647a60",
+      "bytes": 2936,
+      "words_whitespace_count": 289,
+      "lines": 67
+    },
+    {
+      "file": "vitest.config.mts",
+      "sha256": "921777be33adedf363dc0b1459421eb692f23ebb39f84ebd184cecbce0ef74e3",
+      "bytes": 827,
+      "words_whitespace_count": 81,
+      "lines": 26
+    },
+    {
+      "file": ".github/workflows/verify.yml",
+      "sha256": "c2b071ac167fddf240d0c096ff75c43362c18c7b13d3332b44481391c2f367be",
+      "bytes": 1709,
+      "words_whitespace_count": 161,
+      "lines": 66
+    },
+    {
+      "file": "package.json",
+      "sha256": "d660c41f1da698aee0dd73e3ea7dfc958deee25fff6637eaa39a25bd89caa09e",
+      "bytes": 3115,
+      "words_whitespace_count": 201,
+      "lines": 67
+    },
+    {
+      "file": "vercel.json",
+      "sha256": "b9d312ad7b0fb263ec5844a08d0b90f03541b69a1793f35b7af11c8722608adf",
+      "bytes": 239,
+      "words_whitespace_count": 26,
+      "lines": 6
+    },
+    {
+      "file": "lib/intelligence/policy.ts",
+      "sha256": "5371740fbf5a450a0e6bdd23d158e34444a97c55fb5c877771bf55e4543ca93b",
+      "bytes": 4476,
+      "words_whitespace_count": 551,
+      "lines": 103
+    },
+    {
+      "file": "lib/intelligence/tools/runtime.ts",
+      "sha256": "9f896d376c72617c990e4e16e1d02168dc00ca82cc06beebe359ce3541b379c3",
+      "bytes": 6602,
+      "words_whitespace_count": 723,
+      "lines": 148
+    },
+    {
+      "file": "lib/intelligence/registry/agents.ts",
+      "sha256": "0f0be903be2827c40cf33b04bb5325490db8fc56fdd8343915b118dbd5c252da",
+      "bytes": 12453,
+      "words_whitespace_count": 1049,
+      "lines": 211
+    }
+  ]
+}

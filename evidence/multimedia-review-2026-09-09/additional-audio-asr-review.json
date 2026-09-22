@@ -1,0 +1,333 @@
+{
+  "timestamp": "2026-09-09T12:15:20.699026+00:00",
+  "method": "Cached faster-whisper base.en CPU int8, English, beam5, local files only",
+  "status": "11 of11 final audio token sequences recovered exactly after case/punctuation normalization",
+  "limits": "Automatic recognition can add or mishear words. This verifies recoverability of the intended speech, not naturalness, human pronunciation review or browser playback. No network, credentials or model downloads used.",
+  "clips": [
+    {
+      "file": "interpreter-before.wav",
+      "expectedTranscript": "Worker to interpreter: We will discuss the appointment notice and the next step. Here are the terms used on the form. We have allowed time for each turn.",
+      "machineTranscript": "Worker to interpreter, we will discuss the appointment notice and the next step. Here are the terms used on the form. We have allowed time for each turn.",
+      "segments": [
+        {
+          "start": 0.0,
+          "end": 5.68,
+          "text": "Worker to interpreter, we will discuss the appointment notice and the next step.",
+          "averageLogProbability": -0.28577382747943586
+        },
+        {
+          "start": 5.68,
+          "end": 8.6,
+          "text": "Here are the terms used on the form.",
+          "averageLogProbability": -0.28577382747943586
+        },
+        {
+          "start": 8.6,
+          "end": 12.04,
+          "text": "We have allowed time for each turn.",
+          "averageLogProbability": -0.28577382747943586
+        }
+      ],
+      "tokenSimilarity": 1.0,
+      "differences": [],
+      "finalTokenMatch": true
+    },
+    {
+      "file": "interpreter-turn.wav",
+      "expectedTranscript": "Worker, addressing the person: What would you like us to understand about this appointment? The worker stops speaking while the interpreter conveys the question and the person responds.",
+      "machineTranscript": "Worker, addressing the person, what would you like us to understand about this appointment? The worker stops speaking while the interpreter conveys the question and the person responds.",
+      "segments": [
+        {
+          "start": 0.0,
+          "end": 6.64,
+          "text": "Worker, addressing the person, what would you like us to understand about this appointment?",
+          "averageLogProbability": -0.22052993115625882
+        },
+        {
+          "start": 6.64,
+          "end": 11.68,
+          "text": "The worker stops speaking while the interpreter conveys the question and the person responds.",
+          "averageLogProbability": -0.22052993115625882
+        }
+      ],
+      "tokenSimilarity": 1.0,
+      "differences": [],
+      "finalTokenMatch": true
+    },
+    {
+      "file": "interpreter-check.wav",
+      "expectedTranscript": "Worker: To check that I explained it clearly, how will this next step fit into your week? What should we clarify?",
+      "machineTranscript": "Worker, to check that I explained it clearly, how will this next step fit into your week? What should we clarify?",
+      "segments": [
+        {
+          "start": 0.0,
+          "end": 7.12,
+          "text": "Worker, to check that I explained it clearly, how will this next step fit into your week?",
+          "averageLogProbability": -0.3020202706257502
+        },
+        {
+          "start": 7.12,
+          "end": 8.32,
+          "text": "What should we clarify?",
+          "averageLogProbability": -0.3020202706257502
+        }
+      ],
+      "tokenSimilarity": 1.0,
+      "differences": [],
+      "finalTokenMatch": true
+    },
+    {
+      "file": "packet-drift.wav",
+      "expectedTranscript": "Colleague: Some people here just do not understand inclusion. Another colleague starts defending their awareness.",
+      "machineTranscript": "Some people here just do not understand inclusion. Another colleague starts defending their awareness.",
+      "segments": [
+        {
+          "start": 0.0,
+          "end": 4.0,
+          "text": "Some people here just do not understand inclusion.",
+          "averageLogProbability": -0.19940921238490514
+        },
+        {
+          "start": 4.0,
+          "end": 8.0,
+          "text": "Another colleague starts defending their awareness.",
+          "averageLogProbability": -0.19940921238490514
+        }
+      ],
+      "tokenSimilarity": 0.9655,
+      "differences": [
+        {
+          "kind": "delete",
+          "expected": "colleague",
+          "heardByModel": ""
+        }
+      ],
+      "secondPassWithoutVad": "Some people here just do not understand inclusion. Another colleague starts defending their awareness.",
+      "afterPreroll": "Colleague, some people here just do not understand inclusion. Another colleague starts defending their awareness.",
+      "finalTokenMatch": true
+    },
+    {
+      "file": "packet-redirect.wav",
+      "expectedTranscript": "Chair: Let us return to the packet. It arrived at the start of the meeting. Two people asked for reading time. What can we change about when it goes out?",
+      "machineTranscript": "Chair, let us return to the packet. It arrived at the start of the meeting. Two people asked for reading time. What can we change about when it goes out?",
+      "segments": [
+        {
+          "start": 0.0,
+          "end": 3.46,
+          "text": "Chair, let us return to the packet.",
+          "averageLogProbability": -0.2352395707910711
+        },
+        {
+          "start": 3.46,
+          "end": 6.24,
+          "text": "It arrived at the start of the meeting.",
+          "averageLogProbability": -0.2352395707910711
+        },
+        {
+          "start": 6.24,
+          "end": 9.18,
+          "text": "Two people asked for reading time.",
+          "averageLogProbability": -0.2352395707910711
+        },
+        {
+          "start": 9.18,
+          "end": 13.34,
+          "text": "What can we change about when it goes out?",
+          "averageLogProbability": -0.2352395707910711
+        }
+      ],
+      "tokenSimilarity": 1.0,
+      "differences": [],
+      "finalTokenMatch": true
+    },
+    {
+      "file": "packet-next-step.wav",
+      "expectedTranscript": "Chair: Who can send the next draft early enough for review? Let us agree the arrangement and check on Friday whether people had usable preparation time.",
+      "machineTranscript": "Chair, who can send the next draft early enough for review. Let us agree the arrangement and check on Friday whether people had usable preparation time.",
+      "segments": [
+        {
+          "start": 0.0,
+          "end": 4.7,
+          "text": "Chair, who can send the next draft early enough for review.",
+          "averageLogProbability": -0.22132074394646814
+        },
+        {
+          "start": 4.7,
+          "end": 11.8,
+          "text": "Let us agree the arrangement and check on Friday whether people had usable preparation time.",
+          "averageLogProbability": -0.22132074394646814
+        }
+      ],
+      "tokenSimilarity": 1.0,
+      "differences": [],
+      "finalTokenMatch": true
+    },
+    {
+      "file": "pace-today.wav",
+      "expectedTranscript": "Person: A long meeting will not work for me today. Worker: Here are our previous notes. What still fits, and what is most useful to discuss today?",
+      "machineTranscript": "Person, a long meeting will not work for me today. Worker, here are our previous notes. What still fits, and what is most useful to discuss today.",
+      "segments": [
+        {
+          "start": 0.0,
+          "end": 3.92,
+          "text": "Person, a long meeting will not work for me today.",
+          "averageLogProbability": -0.31789042353630065
+        },
+        {
+          "start": 3.92,
+          "end": 7.56,
+          "text": "Worker, here are our previous notes.",
+          "averageLogProbability": -0.31789042353630065
+        },
+        {
+          "start": 7.56,
+          "end": 11.76,
+          "text": "What still fits, and what is most useful to discuss today.",
+          "averageLogProbability": -0.31789042353630065
+        }
+      ],
+      "tokenSimilarity": 1.0,
+      "differences": [],
+      "finalTokenMatch": true
+    },
+    {
+      "file": "pace-topic.wav",
+      "expectedTranscript": "Person: I want to settle the transport question. Worker: Let us focus on that and leave the other topics for an agreed next conversation.",
+      "machineTranscript": "Person, I want to settle the transport question. Worker, let us focus on that and leave the other topics for an agreed-next conversation.",
+      "segments": [
+        {
+          "start": 0.0,
+          "end": 4.16,
+          "text": "Person, I want to settle the transport question.",
+          "averageLogProbability": -0.2964744418859482
+        },
+        {
+          "start": 4.16,
+          "end": 11.68,
+          "text": "Worker, let us focus on that and leave the other topics for an agreed-next conversation.",
+          "averageLogProbability": -0.2964744418859482
+        }
+      ],
+      "tokenSimilarity": 1.0,
+      "differences": [],
+      "finalTokenMatch": true
+    },
+    {
+      "file": "pace-next-step.wav",
+      "expectedTranscript": "Next-step card: Transport question — worker will check the available option; person prefers a written response; follow-up time to be agreed together.",
+      "machineTranscript": "Next step card. Transport question worker will check the available option. Person prefers a written response. Follow-up time to be agreed together.",
+      "segments": [
+        {
+          "start": 0.0,
+          "end": 10.0,
+          "text": "Next step card. Transport question worker will check the available option. Person prefers a written response. Follow-up time to be agreed together.",
+          "averageLogProbability": -0.24464517831802368
+        }
+      ],
+      "tokenSimilarity": 1.0,
+      "differences": [],
+      "finalTokenMatch": true
+    },
+    {
+      "file": "first-contact-dead-end.wav",
+      "expectedTranscript": "Fictional example. An English-only voicemail says: Leave your name, phone number, and the reason for calling. We will call you back. The caller cannot understand this message. Language support is offered only after a return call. The first contact has already become a barrier.",
+      "machineTranscript": "fictional example an English only voicemail says leave your name phone number and the reason for calling we will call you back the caller cannot understand this message language support is offered only after a return call the first contact has already become a barrier.",
+      "segments": [
+        {
+          "start": 0.0,
+          "end": 6.88,
+          "text": "fictional example an English only voicemail says leave your name phone number and the",
+          "averageLogProbability": -0.2709866874622849
+        },
+        {
+          "start": 6.88,
+          "end": 14.48,
+          "text": "reason for calling we will call you back the caller cannot understand this message",
+          "averageLogProbability": -0.2709866874622849
+        },
+        {
+          "start": 14.48,
+          "end": 21.04,
+          "text": "language support is offered only after a return call the first contact has already become a",
+          "averageLogProbability": -0.2709866874622849
+        },
+        {
+          "start": 21.04,
+          "end": 22.04,
+          "text": "barrier.",
+          "averageLogProbability": -0.7684677124023438
+        }
+      ],
+      "tokenSimilarity": 1.0,
+      "differences": [],
+      "finalTokenMatch": true
+    },
+    {
+      "file": "first-contact-supported.wav",
+      "expectedTranscript": "Fictional example. A tested first-contact route helps the caller request their language and reach a staff member with qualified interpretation. No translated greeting is performed in this recording. In the supported conversation, the worker explains: I will keep responsibility for the next step. Let us confirm the language support you requested and the best way to contact you. What should we clarify before we continue? The intake owner checks that the route, staffing, and follow-up actually work.",
+      "machineTranscript": "A tested first contact route helps the caller request their language and reach a staff member with qualified interpretation. No translated greeting is performed in this recording. In the supported conversation, the worker explains, I will keep responsibility for the next step. Let us confirm the language support you requested and the best way to contact you. What should we clarify before we continue? The intake owner checks that the route, staffing, and follow-up actually work.",
+      "segments": [
+        {
+          "start": 0.0,
+          "end": 7.0,
+          "text": "A tested first contact route helps the caller request their language and reach a staff member",
+          "averageLogProbability": -0.1309189215883032
+        },
+        {
+          "start": 7.0,
+          "end": 9.0,
+          "text": "with qualified interpretation.",
+          "averageLogProbability": -0.1309189215883032
+        },
+        {
+          "start": 9.0,
+          "end": 13.0,
+          "text": "No translated greeting is performed in this recording.",
+          "averageLogProbability": -0.1309189215883032
+        },
+        {
+          "start": 13.0,
+          "end": 18.0,
+          "text": "In the supported conversation, the worker explains,",
+          "averageLogProbability": -0.1309189215883032
+        },
+        {
+          "start": 18.0,
+          "end": 21.0,
+          "text": "I will keep responsibility for the next step.",
+          "averageLogProbability": -0.1309189215883032
+        },
+        {
+          "start": 21.0,
+          "end": 27.0,
+          "text": "Let us confirm the language support you requested and the best way to contact you.",
+          "averageLogProbability": -0.1309189215883032
+        },
+        {
+          "start": 27.0,
+          "end": 31.0,
+          "text": "What should we clarify before we continue?",
+          "averageLogProbability": -0.17308071454366047
+        },
+        {
+          "start": 31.0,
+          "end": 37.0,
+          "text": "The intake owner checks that the route, staffing, and follow-up actually work.",
+          "averageLogProbability": -0.17308071454366047
+        }
+      ],
+      "tokenSimilarity": 0.9872,
+      "differences": [
+        {
+          "kind": "delete",
+          "expected": "fictional example",
+          "heardByModel": ""
+        }
+      ],
+      "secondPassWithoutVad": "A tested first contact route helps the caller request their language and reach a staff member with qualified interpretation. No translated greeting is performed in this recording. In the supported conversation, the worker explains, I will keep responsibility for the next step. Let us confirm the language support you requested and the best way to contact you. What should we clarify before we continue? The intake owner checks that the route, staffing, and follow-up actually work.",
+      "afterPreroll": "Fictional example A tested first contact route helps the caller request their language and reach a staff member with qualified interpretation. No translated greeting is performed in this recording. In the supported conversation, the worker explains, I will keep responsibility for the next step. Let us confirm the language support you requested and the best way to contact you. What should we clarify before we continue? The intake owner checks that the route, staffing, and follow-up actually work.",
+      "finalTokenMatch": true
+    }
+  ],
+  "reviewDecision": "Two initial machine passes omitted only the opening spoken label. Added500ms silent preroll to those2 WAVs without changing speech samples. A second no-VAD decode recovered both labels and all remaining words exactly. No content substitution or inferred missing dialogue."
+}

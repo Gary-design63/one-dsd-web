@@ -1,0 +1,46 @@
+import { beforeEach, afterEach, expect, it, vi } from "vitest";
+import { writeEvidenceReceipt } from "@/tests/helpers/evidence-receipts";
+import { askConcierge, classifyIntent, toStaffAskResult } from "@/lib/intelligence/agents/ask";
+import { getAgent } from "@/lib/intelligence/registry/agents";
+import { resolveBinding } from "@/lib/intelligence/providers";
+import { indexedProgramResources } from "@/lib/intelligence/retrieval/program-resources";
+import { indexedStaffDocs } from "@/lib/intelligence/retrieval/staff-search";
+import { getStore, resetStoreForTests } from "@/lib/intelligence/memory/store";
+import { invalidatePolicyCache } from "@/lib/intelligence/policy";
+import { testTraceId } from "./helpers/opaque-identifiers";
+beforeEach(()=>{resetStoreForTests();invalidatePolicyCache();vi.stubEnv("PAC_GENERATIVE_PILOT","off");});
+afterEach(()=>vi.unstubAllEnvs());
+const question="Families receive letters only in English and cannot understand what to do next. What should our team plan?";
+it("recognizes the access problem even when the colleague mentions a team",()=>{
+  expect(classifyIntent(question)).toEqual({primary:"access_barriers",all:["access_barriers"]});
+  expect(classifyIntent("Our team sends letters only in French that families cannot read.").primary).toBe("access_barriers");
+  expect(classifyIntent("Our team is reviewing these notices for accessibility.").primary).toBe("access_barriers");
+  expect(classifyIntent("Our team wants to improve morale and everyday meeting norms.").primary).toBe("workplace_culture");
+});
+it("answers the compiled language-access regression with the real full corpus and actual disabled generation",async()=>{
+  const agent=getAgent("ask_concierge");expect(resolveBinding(agent).generative).toBe(false);
+  const program=await indexedProgramResources("one-dhs"),docs=[...await indexedStaffDocs("one-dhs"),...program.destinations];
+  expect(docs.length).toBeGreaterThan(900);
+  const result=await askConcierge({question,researchMode:"program_only"},{trace_id:testTraceId("real-language-access-fallback"),agent,role:"staff",dry_run:false});
+  expect(result.kind).toBe("answer");if(result.kind!=="answer")throw Error("Expected answer");
+  expect(result.answer.generative).toBe(false);expect(result.answer.degraded).toBe(true);
+  expect(result.answer.intent).toBe("access_barriers");
+  expect(result.answer.shortAnswer).toMatch(/language|translat|interpreter/i);
+  expect(result.answer.shortAnswer).not.toMatch(/climate|morale|complaints|score individual/i);
+  expect(result.answer.pathSuggestion?.id).toBe("gp-2");
+  expect(result.answer.sources.some(source=>source.id==="ja-language-access-checklist")).toBe(true);
+  expect(JSON.stringify(result.answer)).not.toMatch(/Ukrainian|Teams in Minimization|ja-climate-action-plan|\/practice\/gp-4/i);
+  const allowed=new Set(docs.map(doc=>doc.href));
+  for(const source of result.answer.sources)expect(allowed.has(source.href)).toBe(true);
+  expect(result.answer.nextActions.some(action=>action.href==="/library/ja-language-access-checklist")).toBe(true);
+  expect(result.answer.nextActions.some(action=>action.href==="/practice/gp-2")).toBe(true);
+  const audit=await getStore().listAudit(100);
+  expect(audit.some(event=>event.tool_name==="corpus.semantic_retrieve"&&event.ok)).toBe(true);
+  writeEvidenceReceipt("evidence/functional-completion-2026-09-08/ask-language-access-fallback.json",{verifiedAt:new Date().toISOString(),scope:"Actual current published full corpus; local semantic model; no generation or external calls",documentCount:docs.length,question,response:toStaffAskResult(result)});
+},30000);
+it("does not turn an unrelated astronomy question into a program or community recommendation",async()=>{
+  const result=await askConcierge({question:"What gives Saturn its rings?",researchMode:"program_only"},{trace_id:testTraceId("real-unrelated-fallback"),agent:getAgent("ask_concierge"),role:"staff",dry_run:false});
+  expect(result.kind).toBe("answer");if(result.kind!=="answer")throw Error("Expected answer");
+  expect(result.answer.generative).toBe(false);expect(result.answer.sources).toEqual([]);expect(result.answer.nextActions).toEqual([]);expect(result.answer.pathSuggestion).toBeUndefined();
+  expect(result.answer.shortAnswer).toMatch(/could not put together an answer/i);
+},30000);

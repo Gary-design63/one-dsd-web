@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0.0",
+  "features": {
+    "dsd_consultation": {
+      "evidence_id": "dsd-consultation-activation-pending-v1",
+      "approval_state": "blocked_pending_evidence",
+      "policy_version": null,
+      "retention_days": null,
+      "requirements": {
+        "approved_policy": { "state": "pending", "evidence_id": null },
+        "deletion_process": { "state": "verified", "evidence_id": "code:0015-terminal-consultation-cleanup" },
+        "correction_process": { "state": "verified", "evidence_id": "test:consultation-boundaries" },
+        "backup_process": { "state": "pending", "evidence_id": null },
+        "restore_process": { "state": "pending", "evidence_id": null },
+        "recovery_process": { "state": "pending", "evidence_id": null },
+        "incident_process": { "state": "pending", "evidence_id": null },
+        "delivery_process": { "state": "pending", "evidence_id": null }
+      },
+      "activation_rule": "A governed release must replace pending evidence with dated, environment-specific evidence identifiers, set an approved policy version and duration, and change approval_state to approved. Environment settings alone cannot approve this feature."
+    }
+  }
+}

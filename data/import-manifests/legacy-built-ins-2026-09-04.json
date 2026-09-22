@@ -1,0 +1,161 @@
+{
+  "schemaVersion": "1.0.0",
+  "sourceSetId": "legacy-built-ins-2026-09-04",
+  "capturedOn": "2026-09-04",
+  "sourceReference": "src/lib/content/assets.ts",
+  "ownerApproval": "owner_approved_for_ingestion",
+  "staffRelease": "not_staff_released",
+  "count": 5,
+  "items": [
+    {
+      "id": "asset-accessible-meetings",
+      "version": 1,
+      "legacySourceHash": "seed-accessible-meetings",
+      "title": "Accessible Meetings Checklist",
+      "pillar": "Access",
+      "kind": "Resource",
+      "summary": "A practical checklist for planning virtual, in-person, and hybrid meetings that people can actually access.",
+      "body": "Use a visible accommodation request process, share materials in advance, provide captioning or interpretation when needed, structure the agenda clearly, build in breaks, and send follow-up materials in accessible formats.",
+      "reviewDate": "2026-10-01",
+      "sources": [
+        {
+          "id": "w3c-making-events-accessible",
+          "title": "Making Events Accessible",
+          "publisher": "W3C Web Accessibility Initiative",
+          "url": "https://www.w3.org/WAI/teach-advocate/accessible-presentations/"
+        }
+      ],
+      "relatedAssetIds": [
+        "asset-cultural-humility",
+        "asset-inclusive-language-basics"
+      ],
+      "legacyAudio": {
+        "status": "ready",
+        "audioObjectKey": "audio/read-aloud/seed/asset-accessible-meetings.mp3",
+        "renderedAt": "2026-07-13T00:00:00.000Z"
+      }
+    },
+    {
+      "id": "asset-cultural-humility",
+      "version": 1,
+      "legacySourceHash": "seed-cultural-humility",
+      "title": "Cultural Humility Core Practices",
+      "pillar": "Culture",
+      "kind": "Brief",
+      "summary": "A staff-facing framework for self-reflection, power awareness, and culturally responsive practice.",
+      "body": "Treat cultural knowledge as a way to ask better questions, not as a shortcut to certainty. Examine assumptions, invite correction, share decision-making power, and keep accountability visible in the work.",
+      "reviewDate": "2026-09-15",
+      "sources": [
+        {
+          "id": "hhs-national-clas-standards",
+          "title": "National CLAS Standards",
+          "publisher": "U.S. Department of Health and Human Services",
+          "url": "https://thinkculturalhealth.hhs.gov/clas/standards"
+        },
+        {
+          "id": "cdc-equity-centered-communication",
+          "title": "Guiding Principles for Equity-Centered Communication",
+          "publisher": "Centers for Disease Control and Prevention",
+          "url": "https://www.cdc.gov/pcd/issues/2023/23_0061.htm"
+        }
+      ],
+      "relatedAssetIds": [
+        "asset-inclusive-language-basics",
+        "asset-person-centered-practice",
+        "asset-accessible-meetings"
+      ],
+      "legacyAudio": {
+        "status": "ready",
+        "audioObjectKey": "audio/read-aloud/seed/asset-cultural-humility.mp3",
+        "renderedAt": "2026-07-14T10:04:35.562Z",
+        "qualityStatus": "approved",
+        "alignmentStatus": "verified",
+        "alignmentMatchRate": 1
+      }
+    },
+    {
+      "id": "asset-inclusive-language-basics",
+      "version": 1,
+      "legacySourceHash": "seed-inclusive-language",
+      "title": "Inclusive Language Basics",
+      "pillar": "People",
+      "kind": "Learning Module",
+      "summary": "A short learning module for language choices that support dignity, clarity, and participation.",
+      "body": "Use plain language, respect how people name themselves, avoid labels that reduce a person to a condition or role, and revise language when someone tells you it does not fit.",
+      "reviewDate": "2026-08-30",
+      "sources": [
+        {
+          "id": "cdc-equity-centered-communication",
+          "title": "Guiding Principles for Equity-Centered Communication",
+          "publisher": "Centers for Disease Control and Prevention",
+          "url": "https://www.cdc.gov/pcd/issues/2023/23_0061.htm"
+        }
+      ],
+      "relatedAssetIds": [
+        "asset-cultural-humility",
+        "asset-accessible-meetings"
+      ],
+      "legacyAudio": {
+        "status": "ready",
+        "audioObjectKey": "audio/read-aloud/seed/asset-inclusive-language-basics.mp3",
+        "renderedAt": "2026-07-13T00:00:00.000Z"
+      }
+    },
+    {
+      "id": "asset-supported-decision-making",
+      "version": 1,
+      "legacySourceHash": "seed-supported-decision-making",
+      "title": "Supported Decision-Making Walk-Through",
+      "pillar": "People",
+      "kind": "Resource",
+      "summary": "A rights-based guide for helping people make their own decisions with support from trusted people.",
+      "body": "Start from the person's decision-making authority. Use supporters to make information clearer, slow down complex choices, strengthen communication, and preserve the person's right to direct their own life.",
+      "reviewDate": "2026-10-15",
+      "sources": [
+        {
+          "id": "acl-supported-decision-making",
+          "title": "Supported Decision Making Program",
+          "publisher": "Administration for Community Living",
+          "url": "https://acl.gov/programs/consumer-control/supported-decision-making-program"
+        }
+      ],
+      "relatedAssetIds": [
+        "asset-person-centered-practice",
+        "asset-cultural-humility"
+      ],
+      "legacyAudio": {
+        "status": "ready",
+        "audioObjectKey": "audio/read-aloud/seed/asset-supported-decision-making.mp3",
+        "renderedAt": "2026-07-13T00:00:00.000Z"
+      }
+    },
+    {
+      "id": "asset-person-centered-practice",
+      "version": 1,
+      "legacySourceHash": "seed-person-centered-practice",
+      "title": "Person-Centered Practice and Self-Determination",
+      "pillar": "Access",
+      "kind": "Learning Module",
+      "summary": "A practical orientation to starting with what matters to the person and supporting real choice.",
+      "body": "Listen first, offer real options in plain language, support without taking over, and presume competence. The person is the expert on their own life; staff expertise helps make the path workable.",
+      "reviewDate": "2026-09-30",
+      "sources": [
+        {
+          "id": "ncapps-person-centered-practice",
+          "title": "Person-Centered Thinking, Planning, and Practice",
+          "publisher": "National Center on Advancing Person-Centered Practices and Systems",
+          "url": "https://ncapps.acl.gov/about-ncapps.html"
+        }
+      ],
+      "relatedAssetIds": [
+        "asset-supported-decision-making",
+        "asset-cultural-humility"
+      ],
+      "legacyAudio": {
+        "status": "ready",
+        "audioObjectKey": "audio/read-aloud/seed/asset-person-centered-practice.mp3",
+        "renderedAt": "2026-07-13T00:00:00.000Z"
+      }
+    }
+  ]
+}

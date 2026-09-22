@@ -1,0 +1,54 @@
+{
+  "schemaVersion": "1.0.0",
+  "capturedOn": "2026-09-04",
+  "sourceId": "local-community-engagement-done-well",
+  "title": "Community Engagement Done Well",
+  "sourceType": "pptx",
+  "sourceFileName": "community-engagement-done-well.pptx",
+  "sourceBytes": 70632,
+  "sourceSha256": "1E8D8D4F8E15E176015EB20ADCBE1339130B497E4B111C0CFA41422E4A44105D",
+  "ownerApproval": "owner_approved_for_ingestion",
+  "staffRelease": "not_staff_released",
+  "snapshotSanitization": "Private Windows user-folder prefixes are removed; the original file hash remains unchanged.",
+  "extraction": {
+    "format": "pptx",
+    "presentationProperties": {
+      "title": "Community Engagement Done Well",
+      "subject": "Community engagement done well means sharing power with the communities affected by a decision, not just informing them or collecting a comment. It is how we make sure services fit the people they are meant to serve.",
+      "author": "One DHS",
+      "lastModifiedBy": "One DHS",
+      "created": "2026-08-31T01:23:41",
+      "modified": "2026-08-31T01:23:41"
+    },
+    "slideCount": 4,
+    "slides": [
+      {
+        "slideNumber": 1,
+        "title": null,
+        "text": "Community Engagement Done Well\nCulture | Resource\nCommunity engagement done well means sharing power with the communities affected by a decision, not just informing them or collecting a comment. It is how we make sure services fit the people they are meant to serve.\n\nLatest source review: 2026-07-21\nOne DHS staff resource. Use with current DHS policy and program-specific direction; this material does not replace legal advice, formal policy, or an authoritative person-specific decision.",
+        "notes": null
+      },
+      {
+        "slideNumber": 2,
+        "title": null,
+        "text": "Key guidance\nCommunity engagement done well means sharing power with the communities affected by a decision, not just informing them or collecting a comment. It is how we make sure services fit the people they are meant to serve.\n\nWhat authentic engagement looks like.\n\n• Start early. Bring community in while the decision can still change, not at the end for approval.\n\n• Share power. Invite people as co-designers who shape the work, not as an audience for a finished plan.\n\n• Go to people. Meet communities where they are, in their language, on their schedule, in places they trust.\n\n• Close the loop. Tell people what you heard, what changed because of it, and what could not change and why. Silence after engagement breaks trust.\n\nWhat to avoid.",
+        "notes": null
+      },
+      {
+        "slideNumber": 3,
+        "title": null,
+        "text": "Key guidance\n• Tokenism. One person asked to speak for a whole community, or input gathered and then ignored.\n\n• Extraction. Taking people's time and stories without offering anything back, including, where appropriate, fair compensation.\n\n• One-and-done. Engagement is a relationship, not a single meeting.\n\nA note on trust. Some communities have been studied, surveyed, and let down before. Acknowledge that history honestly, and let your follow-through, not your promises, rebuild trust over time.\n\nDone well, engagement changes the decision and strengthens the relationship. Done poorly, it does real harm. The difference is whether community voice actually shapes the outcome.",
+        "notes": null
+      },
+      {
+        "slideNumber": 4,
+        "title": null,
+        "text": "Sources\nPrinciples of Community Engagement, Third Edition — CDC and ATSDR\n\nMaintaining Collaboration and Communication with Community Partners — ATSDR",
+        "notes": null
+      }
+    ],
+    "text": "Slide 1\nCommunity Engagement Done Well\nCulture | Resource\nCommunity engagement done well means sharing power with the communities affected by a decision, not just informing them or collecting a comment. It is how we make sure services fit the people they are meant to serve.\n\nLatest source review: 2026-07-21\nOne DHS staff resource. Use with current DHS policy and program-specific direction; this material does not replace legal advice, formal policy, or an authoritative person-specific decision.\n\nSlide 2\nKey guidance\nCommunity engagement done well means sharing power with the communities affected by a decision, not just informing them or collecting a comment. It is how we make sure services fit the people they are meant to serve.\n\nWhat authentic engagement looks like.\n\n• Start early. Bring community in while the decision can still change, not at the end for approval.\n\n• Share power. Invite people as co-designers who shape the work, not as an audience for a finished plan.\n\n• Go to people. Meet communities where they are, in their language, on their schedule, in places they trust.\n\n• Close the loop. Tell people what you heard, what changed because of it, and what could not change and why. Silence after engagement breaks trust.\n\nWhat to avoid.\n\nSlide 3\nKey guidance\n• Tokenism. One person asked to speak for a whole community, or input gathered and then ignored.\n\n• Extraction. Taking people's time and stories without offering anything back, including, where appropriate, fair compensation.\n\n• One-and-done. Engagement is a relationship, not a single meeting.\n\nA note on trust. Some communities have been studied, surveyed, and let down before. Acknowledge that history honestly, and let your follow-through, not your promises, rebuild trust over time.\n\nDone well, engagement changes the decision and strengthens the relationship. Done poorly, it does real harm. The difference is whether community voice actually shapes the outcome.\n\nSlide 4\nSources\nPrinciples of Community Engagement, Third Edition — CDC and ATSDR\n\nMaintaining Collaboration and Communication with Community Partners — ATSDR"
+  },
+  "extractedTextCharacters": 2109,
+  "extractedTextSha256": "385887F6EEBDD9B21CA9B957DACD299B8D33274D40AD1050F839B41E72144A6D"
+}

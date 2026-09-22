@@ -1,0 +1,300 @@
+import type { CoursePack } from "../../source-types";
+
+// Disability Inclusion, Foundations, Module 2: Disability Models and Perspectives.
+// Program-authored course for every employee, board member, volunteer, contractor and new hire.
+const pack: CoursePack = {
+  course: {
+    id: "di-models-and-perspectives",
+    indexNumber: 1102,
+    seriesLabel: "Disability Inclusion · Foundations",
+    title: "Disability Models and Perspectives",
+    subtitle: "Learn six ways of seeing disability, notice which one your team reaches for first, and use a barrier-removal view on a real decision.",
+    scope: "For everyone: staff, board members, volunteers, contractors and new hires. Four short lessons that compare the medical, social, functional, rights-based, cultural and intersectional perspectives and apply them to ordinary DHS decisions. Participation in this program is voluntary and does not replace required training.",
+    treatment: "Four short lessons with scenarios, comparison tabs, a sorting exercise, flashcards and knowledge checks",
+    duration: "45–55 minutes",
+    author: "One DHS — People, Access and Culture",
+    coverImage: "/images/covers/outcomes-not-intentions.jpg",
+    coverAlt: "A woman reviews printed charts at a desk.",
+    introTranscript: "Every decision about a disabled person is made through a lens, whether or not anyone names it. This course names six of them. You will see what each perspective is good at, what it misses when it is used alone, and how a deficit-only view quietly turns a design problem into a person problem. By the end you will be able to take an everyday situation, such as a colleague who cannot complete required training, and write the response each perspective would produce, then choose the one that removes the barrier.",
+    kind: "course",
+    contentType: "foundation",
+    learning: {
+      objectives: [
+        "Describe the central question of the medical, social, functional, rights-based, cultural and intersectional perspectives on disability.",
+        "Identify a deficit-only framing in a written note, request or meeting comment and restate it so the barrier is the subject.",
+        "Explain the difference between a fixed judgment about capability and a functional description of what a person can do with given supports.",
+        "Distinguish the rights-based duties of a public agency from a compliance-only reflex, in plain terms.",
+        "Apply a barrier-removal perspective to a common organizational problem and name the immediate fix and the system fix.",
+      ],
+      evidence: [
+        "Four knowledge checks and one sorting exercise, each with an explanation of why an answer removes or preserves a barrier.",
+        "A scenario decision in each lesson, reconsidered without a personal score.",
+        "One written comparison: the response each perspective would give to the same situation, and the one you would choose.",
+      ],
+      appliedNextStep: "Take one recent decision in your unit that affected a disabled colleague or participant. Write the response each perspective would have produced, mark the one that was actually used, and bring the barrier-removal version to your supervisor or team.",
+    },
+    governance: {
+      contentOwner: "One DHS — People, Access and Culture",
+      reviewers: ["Equity and Inclusion Operations Consultant"],
+      evidenceDate: "Public sources checked at authoring",
+      lastReviewed: "At authoring",
+      nextReview: "At the agreed review point and whenever an update trigger occurs",
+      updateTriggers: ["Change in ADA, Section 504 or Section 508 guidance", "Change in DHS accessibility or language access standards", "Feedback from disabled staff or participants that a scenario reads as unrealistic or stigmatizing"],
+      relatedDoor: "Questions about a specific accommodation, eligibility determination or civil-rights concern go to human resources, the ADA coordinator or the civil rights office; this course changes how you see a decision, it does not decide one.",
+      toolkitQuestion: "Which perspective wrote the problem statement, who is described as the problem, and what would the barrier-removal version say instead?",
+      status: "reviewed",
+    },
+    lessons: [
+      {
+        id: "models-and-perspectives-1",
+        number: 1,
+        title: "The medical view and the social view",
+        summary: "See how the oldest lens and its main challenger answer different questions, and why the sentence you write about a problem decides who has to change.",
+        minutes: 12,
+        learning: {
+          objective: "Distinguish a medical-model statement from a social-model statement and restate a deficit-only problem so the barrier is the subject of the sentence.",
+          takeaways: [
+            "The medical view asks what condition is involved and is useful for care; used alone it makes the person the thing to fix.",
+            "The social view asks what in the environment restricts participation; it was built by disabled people who noticed that the steps, not their legs, kept them out of the building.",
+            "The subject of your sentence decides who carries the work. “Client cannot complete the form” and “the form cannot be completed without a mouse” describe the same afternoon and lead to different fixes.",
+          ],
+          evidence: "A completed sort of medical-view and social-view statements and a knowledge check.",
+          appliedNextStep: "Find one note, email or ticket you wrote this month that describes a disabled person as unable to do something. Rewrite it so the barrier is the subject.",
+        },
+        scenario: {
+          context: "A county eligibility worker is finishing a case note after an interview. The applicant has a tremor and could not fit her answers into the small handwritten boxes on the paper renewal form, so several fields were left blank. The worker types: “Client unable to complete renewal form due to medical condition. Case pended.”",
+          prompt: "What is the most useful thing to change before the note is saved?",
+          options: [
+            { label: "Add the name of the condition so the next worker understands the problem.", response: "This deepens the medical framing and records health information the applicant did not offer for that purpose. It does nothing about the form." },
+            { label: "Rewrite the note so the form is the subject, “paper renewal form has small handwritten fields the applicant could not use,” record the alternative offered, and send the form issue to whoever owns the template.", response: "The barrier is now visible to the next reader and to the person who can fix it. The applicant is described accurately, not as a deficit.", recommended: true },
+            { label: "Leave the note as written; case notes are supposed to be brief.", response: "Brevity is fine. The problem is that this brief note says the person failed. The next worker will pend the case again for the same reason." },
+          ],
+        },
+        transfer: {
+          prompt: "Which of your routine documents most often names the person as the problem?",
+          options: ["Pick one template, note type or email you write weekly and check who is the subject of its problem sentences", "Rewrite one real example this week with the barrier as the subject", "Send the barrier, not the person, to the owner of the form or process"],
+        },
+        blocks: [
+          { type: "text", heading: "Two lenses, two questions", body: "<p>The <strong>medical view</strong> is the one most of us were raised with. It asks what condition, diagnosis or treatment is involved, and it locates disability inside the person. It is the right lens for a clinician planning care, and it produces useful information when a person chooses to share it. The harm begins when it is the only lens an organization has. Then every gap between a person and a process becomes evidence of that person’s limitation, and the process itself is never examined.</p><p>The <strong>social view</strong> was developed by disabled people, not by professionals. Its central observation is simple: an impairment is a difference in body or mind, but disability is produced when that difference meets a building, a rule, a document or an attitude that was designed without it in mind. The steps at the entrance disable the wheelchair user; the missing captions disable the Deaf viewer. This lens directs attention to what the organization actually controls.</p><p>Neither lens is complete. A person with a chronic pain condition may need both a flexible schedule, which the social view finds, and time for treatment, which the medical view respects. The skill is knowing which question you are asking and refusing to let the medical view decide matters, such as form design, that it was never built to decide.</p>" },
+          { type: "tabs", heading: "Compare the two views", tabs: [
+            { label: "Medical view", body: "<p><strong>Central question:</strong> What diagnosis, condition or treatment is involved?</p><p><strong>Useful for:</strong> clinical care, health-related needs, and understanding what a person tells you about their own body.</p><p><strong>Risk when used alone:</strong> the person becomes the problem to fix, the environment is treated as neutral, and staff start asking for diagnoses they do not need.</p>" },
+            { label: "Social view", body: "<p><strong>Central question:</strong> What in the environment, policy or attitude restricts this person’s participation?</p><p><strong>Useful for:</strong> pointing at design, rules and communication, which the organization controls and can change for everyone.</p><p><strong>Risk when used alone:</strong> it can understate individual support and health needs, and it can leave a person waiting for a redesign when they need something today.</p>" },
+            { label: "Both together", body: "<p>Ask what the person needs to take part <em>and</em> what in the design creates that need. Provide the immediate support. Fix the design so the next person does not have to ask.</p>" },
+          ] },
+          { type: "leaderMove", heading: "Watch the subject of the sentence", control: "You control who is the subject when you write up a problem: the person, or the form, room, platform or rule.", failure: "Do not let “applicant unable to comply” stand as a complete problem statement. It records a failure that belongs to the process as if it belonged to the person.", next: "For one week, read every problem sentence you write and ask: if this were fixed, who would have changed?" },
+          { type: "sorting", id: "models-and-perspectives-1-sort", heading: "Which view wrote this sentence?", categories: ["Medical view", "Social view"], items: [
+            { text: "The applicant’s condition prevents her from using our phone line.", category: "Medical view" },
+            { text: "Our phone line has no relay or text option, so callers who cannot use voice cannot reach us.", category: "Social view" },
+            { text: "He has ADHD, so long meetings are hard for him.", category: "Medical view" },
+            { text: "Our meetings run ninety minutes without a break or an agenda.", category: "Social view" },
+            { text: "The licensing visit could not proceed because the provider is hard of hearing.", category: "Medical view" },
+            { text: "The licensing visit was held in a lobby with no quiet space, and no captioning was arranged.", category: "Social view" },
+          ] },
+          { type: "flashcards", heading: "Words to keep straight", cards: [
+            { front: "Impairment", back: "<p>A difference in body or mind. It belongs to the person and is not the organization’s to fix or to ask about.</p>" },
+            { front: "Disability, in the social view", back: "<p>The restriction produced when an impairment meets a design, rule or attitude that did not plan for it. It is created by the environment and can be reduced there.</p>" },
+            { front: "Deficit-only framing", back: "<p>A description in which the person’s limitation is the whole explanation and the process is assumed to be neutral. Its tell is that only the person is asked to change.</p>" },
+            { front: "The subject test", back: "<p>Read the problem sentence. Whoever is the grammatical subject is the one your organization will expect to change. Make the barrier the subject.</p>" },
+            { front: "Why both lenses", back: "<p>The medical view respects real health needs; the social view finds what you control. A person with a flare-up needs a flexible schedule today and a redesigned schedule policy for next month.</p>" },
+          ] },
+          { type: "knowledgeCheck", id: "models-and-perspectives-1-check", question: "A supervisor writes in a performance note: “Employee’s anxiety makes her unable to present at the weekly stand-up.” Which rewrite reflects the social view?", options: [
+            { text: "“Employee has generalized anxiety disorder and should seek treatment before presenting.”", correct: false },
+            { text: "“Stand-up requires an unscripted spoken update in front of thirty people with no advance notice; the employee has asked for a written update option or the agenda the day before.”", correct: true },
+            { text: "“Employee is unable to meet the presentation expectation.”", correct: false },
+          ], feedbackCorrect: "Yes. The design of the stand-up is now visible, the employee’s request is recorded, and no diagnosis is required to act.", feedbackIncorrect: "Look at who is the subject. Two of these rewrites keep the employee as the problem; one describes the meeting design, which the supervisor controls." },
+        ],
+      },
+      {
+        id: "models-and-perspectives-2",
+        number: 2,
+        title: "The functional view and the rights-based view",
+        summary: "Use functional information the way assessments intend it, without turning it into a verdict about capability, and see what a public agency owes people before compliance becomes a reflex.",
+        minutes: 12,
+        learning: {
+          objective: "Explain the difference between a functional description of what a person can do with supports and a fixed judgment about capability, and state the rights-based duties of a public agency in plain terms.",
+          takeaways: [
+            "A functional view asks what a person can do in a given setting with given supports. It is the language of person-centered assessment, and it changes when the setting or supports change.",
+            "The rights-based view asks what nondiscrimination and equal-access duties apply. For a public agency that includes programs, services, employment, effective communication and the most integrated setting appropriate.",
+            "Rights without culture becomes a checklist. Culture without rights becomes goodwill that ends when a budget tightens. The organization needs both.",
+          ],
+          evidence: "A knowledge check on functional versus fixed judgments and a scenario decision about a hiring panel.",
+          appliedNextStep: "Ask who in your unit is the named contact for accommodation, effective communication and civil-rights concerns, and write their roles where your team can find them.",
+        },
+        scenario: {
+          context: "A hiring panel is reviewing a candidate for a case aide position. During the interview the candidate, who has cerebral palsy, spoke slowly and used a communication device for some answers. Afterward one panelist says, “She was great, but this job is on the phone all day. I do not see how she could do it.”",
+          prompt: "What is the most appropriate next move for the panel?",
+          options: [
+            { label: "Agree that the phone volume makes the role a poor fit and move on to the next candidate.", response: "This is a fixed judgment made from a brief interview, without asking the candidate anything and without looking at the actual job. It is also the kind of decision the rights-based view exists to prevent." },
+            { label: "Score the candidate on what the panel observed against the posted essential functions, and if phone communication is essential, route the question of how it would be performed to human resources, who can have an accommodation conversation with the candidate.", response: "The panel evaluates what it saw. Whether and how an essential function can be performed with supports is a conversation with the candidate, handled through the responsible office, not a guess in the debrief.", recommended: true },
+            { label: "Ask the candidate to come back and demonstrate a phone call so the panel can be sure.", response: "An ad hoc test invented for one candidate after the interview is not a fair or consistent process, and it puts the burden of proving capability on the disabled person alone." },
+          ],
+        },
+        transfer: {
+          prompt: "Where does your team make fixed capability judgments that should be functional questions?",
+          options: ["Name one decision, hiring, placement, program eligibility or task assignment, where someone guessed what a person could do", "Rewrite the guess as a question about setting and supports", "Identify the responsible office for that kind of question and confirm the route with them"],
+        },
+        blocks: [
+          { type: "text", heading: "Function is a description, not a verdict", body: "<p>The <strong>functional view</strong> asks what a person can do in a particular setting with particular supports. It is the working language of assessment in disability services: an assessor does not record a diagnosis and stop, they describe how a person manages meals, transfers, medication, communication and decisions, and what changes when a support is added. That information is valuable precisely because it is situational. Change the kitchen layout, add a reminder system or a support worker, and the functional picture changes.</p><p>The risk is that a functional description hardens into a fixed judgment. “Needs assistance with communication” becomes “cannot participate in meetings.” A snapshot taken in a stressful interview becomes a permanent label. When you hear a sentence about what a disabled person <em>cannot</em> do, the functional view asks three follow-up questions: in what setting, with what supports, and who said so?</p><p>The <strong>rights-based view</strong> asks a different question: what duties of equal access and nondiscrimination apply here? For a public agency in Minnesota, those duties come from the Americans with Disabilities Act, Section 504 of the Rehabilitation Act, the Minnesota Human Rights Act and the state’s Olmstead commitments. In plain terms, they cover employment, programs and services, effective communication, physical access and the right to receive services in the most integrated setting appropriate. This view gives the social view teeth. Its risk is that it becomes compliance-only: the minimum is met, a box is checked, and nobody asks whether the person could actually take part.</p>" },
+          { type: "accordion", heading: "What a public agency owes, in plain terms", items: [
+            { title: "Employment", body: "<p>Qualified applicants and employees with disabilities are evaluated on the essential functions of the job, with reasonable accommodation available through an interactive conversation. Guessing about capability in place of that conversation is where most avoidable harm happens. The responsible office is human resources or the ADA coordinator.</p>" },
+            { title: "Programs and services", body: "<p>People with disabilities must have an equal opportunity to take part in and benefit from the agency’s programs, services and activities. This applies whether the program is delivered in an office, by phone, online or through a contracted provider.</p>" },
+            { title: "Effective communication", body: "<p>Communication with a disabled person must be as effective as communication with anyone else. That is where sign language interpreters, captioning, accessible formats and relay calls come from. Primary consideration goes to the person’s own request about what works.</p>" },
+            { title: "The most integrated setting", body: "<p>The Olmstead decision and Minnesota’s Olmstead Plan commit the state to serving people with disabilities in the most integrated setting appropriate to them. In daily work this means that segregation is not the default and that community options are real options.</p>" },
+            { title: "What this course does not do", body: "<p>It does not tell you how a specific request or complaint should come out. Those decisions belong to the responsible office. Your job is to recognize when a duty is in play and route the question well.</p>" },
+          ] },
+          { type: "leaderMove", heading: "Turn a verdict back into a question", control: "You control whether a statement about what a disabled person cannot do is accepted as fact or examined as a snapshot.", failure: "Do not let “she could not handle the phones” pass in a debrief. It is a guess about a setting nobody examined and supports nobody offered.", next: "The next time you hear a capability verdict, ask out loud: in what setting, with what supports, and who said so?" },
+          { type: "list", heading: "Signs that rights have become a checklist", items: ["An interpreter is booked, but the meeting materials are still image-only PDFs.", "The building has an accessible entrance, and it is locked after four o’clock.", "The accommodation request was approved in writing, and the equipment has not arrived in six weeks.", "The website has an accessibility statement, and the application form cannot be completed by keyboard.", "The policy says people may bring a support person, and staff address the support person instead of the participant."] },
+          { type: "flashcards", heading: "Two views, kept precise", cards: [
+            { front: "Functional view", back: "<p>Describes what a person can do in a given setting with given supports. Situational by design. The moment it stops changing with the setting, it has become a label.</p>" },
+            { front: "The three follow-ups", back: "<p>In what setting? With what supports? Who said so? Ask them whenever you hear what a disabled person cannot do.</p>" },
+            { front: "Rights-based view", back: "<p>Asks what equal-access and nondiscrimination duties apply. Provides accountability and a floor that goodwill cannot remove.</p>" },
+            { front: "Compliance-only", back: "<p>The minimum is met and nobody checks whether participation happened. The tell is an accessible feature that is present but unusable in practice.</p>" },
+            { front: "Effective communication", back: "<p>Communication that works as well for a disabled person as for anyone else, with primary consideration to what the person says they need.</p>" },
+            { front: "Most integrated setting", back: "<p>The Olmstead principle: services in the setting that lets a person live and take part in the community to the greatest extent appropriate for them.</p>" },
+          ] },
+          { type: "knowledgeCheck", id: "models-and-perspectives-2-check", question: "A support plan says a participant “requires assistance with communication.” A staff member concludes the participant cannot take part in her own planning meeting. Which response reflects the functional view?", options: [
+            { text: "Hold the meeting with the guardian only, since the plan documents a communication limitation.", correct: false },
+            { text: "Ask what assistance with communication means in practice for this participant, arrange that support for the meeting, and plan the meeting around her taking part.", correct: true },
+            { text: "Request a new evaluation before scheduling the meeting.", correct: false },
+          ], feedbackCorrect: "Right. The plan describes a support, not an exclusion. Provide the support and the functional picture changes.", feedbackIncorrect: "A functional note tells you what support to arrange. It does not tell you the person cannot participate; that conclusion was added by the reader." },
+        ],
+      },
+      {
+        id: "models-and-perspectives-3",
+        number: 3,
+        title: "The cultural view and the intersectional view",
+        summary: "Understand disability as identity, language and community, and learn to ask who within a group of disabled people is affected most by a decision.",
+        minutes: 12,
+        learning: {
+          objective: "Describe the cultural and intersectional perspectives on disability and use the intersectional check to identify who is most affected by a proposed change.",
+          takeaways: [
+            "Disability is also identity, language and community. Deaf culture, the autistic community and the broader disability pride movement are examples, and not every disabled person relates to disability this way.",
+            "The intersectional view asks how disability combines with race, language, gender, age, income, geography, sexuality and immigration status to produce compounded barriers and unequal results.",
+            "Data that is only about disability will miss the people a decision hurts most. Ask who, within the group, carries the heaviest load.",
+          ],
+          evidence: "A knowledge check on the intersectional check and a scenario decision about a community meeting design.",
+          appliedNextStep: "Take one program change or communication your unit sent recently and list who among disabled participants would have been least reached by it: by language, geography, income, race or age. Name one change that closes the gap.",
+        },
+        scenario: {
+          context: "A regional team is planning a listening session on changes to home and community-based waiver services. The plan is a weekday evening meeting at the county office in the regional center, with ASL interpretation available on request, and materials in English. The team is satisfied that disability access has been covered.",
+          prompt: "What does the intersectional view add before the invitation goes out?",
+          options: [
+            { label: "Nothing further; interpretation on request meets the disability access requirement.", response: "It meets one duty for one group. It says nothing about the disabled participant who speaks Somali or Hmong at home, lives ninety minutes away without a car, or works evenings for hourly pay." },
+            { label: "Ask who among the people affected by these waiver changes is least likely to reach this room, then add a remote option with captions, translated materials in the languages most used in the region, a daytime session, and a named contact for access and language needs.", response: "The question changes the design instead of adding a line to it. It also treats language access and disability access as things a single person can need at once.", recommended: true },
+            { label: "Invite a disability advocacy organization to attend and speak for participants who cannot come.", response: "Advocates can add value, but representation is not participation. The people most affected still did not get to speak, and the meeting design that kept them out is unchanged." },
+          ],
+        },
+        transfer: {
+          prompt: "Whose disability experience does your team know least about?",
+          options: ["Name one group, by language, geography, race, age or income, whose disabled members your data or outreach rarely reaches", "Find one existing community organization or advisory body that already works with them, and ask what your unit misses", "Make one concrete change to a communication or meeting design based on what you learn, and compensate advisory time where appropriate"],
+        },
+        blocks: [
+          { type: "text", heading: "Disability as culture", body: "<p>The <strong>cultural view</strong> starts from something the medical and social views both miss: for many people, disability is not only a barrier to be removed, it is an identity, a language and a community. Deaf culture, with a capital D, has its own language in American Sign Language, its own history and its own norms, and many Deaf people do not describe themselves as disabled at all. The autistic community has built a shared vocabulary and a strong preference, for many of its members, for identity-first language. The disability pride movement more broadly treats disability as a valued part of human variation rather than a misfortune.</p><p>This view explains why some people correct you when you use person-first language, why an “overcoming” story can land as an insult, and why the phrase <em>nothing about us without us</em> matters so much in policy work. Its limit is also real: not everyone with a disability feels part of a disability culture, and an organization should not assume that a person who acquired a disability last year shares the identity of a lifelong activist. As with language, ask.</p><p>The <strong>intersectional view</strong> asks how disability combines with race, language, gender, age, class, sexuality, geography and immigration status. A Black disabled man may experience an encounter with a security guard very differently from a white disabled woman. A Somali-speaking parent of a child with autism meets both a language barrier and a disability barrier, and they multiply rather than add. A disabled elder on a reservation in northern Minnesota may have a right to a service that exists only in the metro. This view requires better data, more listening and more nuance, which is why it is often skipped. It is also the only one that tells you who a decision hurts most.</p>" },
+          { type: "list", heading: "The intersectional check, in four questions", ordered: true, items: ["Who, among the people this decision affects, has a disability? Assume some do.", "Within that group, who also faces a language, transportation, income, racial, geographic, age or immigration barrier in reaching this program?", "What does the current design ask of them that it does not ask of others: travel, a device, English, a weekday, a relative, a disclosure?", "What one change to the design closes the largest gap, and who will confirm it worked?"] },
+          { type: "leaderMove", heading: "Ask who is affected most", control: "You control whether a planning conversation stops at “we covered disability access” or continues to “which disabled people can actually use this.”", failure: "Do not treat a single accommodation line as the end of the analysis. Interpretation on request, alone, reaches the people who already know how to ask.", next: "In your next planning meeting, ask the four questions of the intersectional check before the design is approved." },
+          { type: "artifact", kind: "invitation", label: "Practical artifact", title: "An invitation that reaches more than the usual room", summary: "The lines that show a listening session was designed for the people most affected, not only for those who already come.", fields: [
+            { label: "Ways to take part", value: "In person, by video with captions, by phone, or in writing until the date below. A daytime and an evening session are offered." },
+            { label: "Language and access", value: "Materials are available in the languages most used in this region and in large print and accessible electronic formats. ASL interpretation and captioning are provided. Tell us what you need by the date below." },
+            { label: "Whose voices", value: "We are especially seeking people who receive waiver services, their families and support workers, including people in rural areas and communities whose first language is not English." },
+            { label: "Contact and compensation", value: "One named person, one phone number, one email. Participants who advise us on the design are compensated for their time where program rules allow." },
+          ], action: "Compare this to your last community invitation and add the lines that were missing." },
+          { type: "quote", text: "When you plan for “people with disabilities,” you usually mean people like the ones who already come to your meetings. The rest of us are in the same category on your form and nowhere in your room.", cite: "Composite participant perspective, illustrative" },
+          { type: "flashcards", heading: "Two views, kept precise", cards: [
+            { front: "Cultural view", back: "<p>Disability as identity, language and community. Explains disability pride, identity-first language and why “overcoming” stories can offend. Not every disabled person shares this identity; ask.</p>" },
+            { front: "Deaf, with a capital D", back: "<p>Refers to cultural and linguistic identity, with American Sign Language as a first language. Lowercase deaf usually refers to hearing status. Use the person’s own usage.</p>" },
+            { front: "Nothing about us without us", back: "<p>A principle from the disability rights movement: decisions affecting disabled people should be made with their participation and leadership, not on their behalf.</p>" },
+            { front: "Intersectional view", back: "<p>Asks how disability combines with race, language, gender, age, income, geography, sexuality and immigration status. Reveals compounded barriers and who is affected most.</p>" },
+            { front: "Compounded barrier", back: "<p>Two barriers that multiply rather than add. A phone-only, English-only line is not one problem for a Deaf Hmong-speaking caller; it is a locked door.</p>" },
+          ] },
+          { type: "knowledgeCheck", id: "models-and-perspectives-3-check", question: "A county moves benefit renewals to an online portal and reports that the change met accessibility standards because the portal works with screen readers. Which question does the intersectional view add?", options: [
+            { text: "Whether the portal also works with the newest screen-reader version.", correct: false },
+            { text: "Which disabled renewers will still be stopped: those without home internet, those who read in a language the portal does not offer, those in areas without broadband, and those who relied on the office visit for other help.", correct: true },
+            { text: "Whether the county has an accessibility statement on the portal.", correct: false },
+          ], feedbackCorrect: "Yes. Screen-reader compatibility is one gate. The intersectional check asks who, within the disabled population, is still outside.", feedbackIncorrect: "Technical accessibility is necessary and not sufficient. Ask who among disabled renewers the design still leaves out, and why." },
+        ],
+      },
+      {
+        id: "models-and-perspectives-4",
+        number: 4,
+        title: "Putting the lenses to work",
+        summary: "Run one ordinary problem through all six perspectives, see why a workaround is not a fix, and practice writing a barrier-removal decision with an owner.",
+        minutes: 12,
+        learning: {
+          objective: "Apply each perspective to a single organizational problem, select the most inclusive response, and explain why redesigning a system differs from asking a person to find a workaround.",
+          takeaways: [
+            "Each perspective produces a recognizably different response to the same situation. Writing them side by side exposes which one your team defaulted to.",
+            "A workaround privatizes a public barrier: the person absorbs the cost, the barrier remains and the organization learns nothing.",
+            "A barrier-removal decision has two parts, immediate access for the person and a system fix with an owner and a review point, and it is not complete without both.",
+          ],
+          evidence: "A branching scenario decision, the final knowledge check and a written comparison of the six responses to the case.",
+          appliedNextStep: "Write the six-perspective comparison for one real decision in your unit and share the barrier-removal version with the person who owns the system.",
+        },
+        scenario: {
+          context: "Jordan, an eligibility specialist who uses a screen reader, cannot complete a required data-privacy training because the learning platform’s quiz buttons are unlabeled and the video has no transcript. The completion deadline is in nine days, and Jordan’s supervisor has just learned about it.",
+          prompt: "Which response is the most inclusive?",
+          options: [
+            { label: "Extend Jordan’s deadline by a month and ask Jordan to see whether a colleague can sit with them to click through the quiz.", response: "This is the workaround. Jordan loses privacy and independence in their own training, the platform is unchanged, and the next screen-reader user meets the same wall." },
+            { label: "Arrange an equivalent accessible way for Jordan to complete the training this week, such as the source document and quiz in an accessible format, record the platform barrier with the training owner and the accessibility team, and ask for a date by which the platform will be fixed or replaced.", response: "Immediate access, a system fix, an owner and a date. This is the social and rights-based response with the functional view supplying the immediate path.", recommended: true },
+            { label: "Mark Jordan exempt from this training cycle because the platform is not accessible.", response: "An exemption removes an opportunity, not a barrier. Jordan is now the only specialist on the team without current privacy training, which will follow them." },
+          ],
+        },
+        transfer: {
+          prompt: "Which decision in your unit will you rewrite as a barrier-removal decision this month?",
+          options: ["Choose one situation where a person was asked to find a workaround", "Write the immediate-access half and the system-fix half, each with an owner", "Ask the person affected whether the rewrite would have worked, and adjust"],
+        },
+        blocks: [
+          { type: "text", heading: "Six responses to one afternoon", body: "<p>The value of learning the perspectives is not the vocabulary. It is that once you can name them, you can see your own organization’s reflex. Put Jordan’s situation through each lens and the differences are not subtle. One lens asks about Jordan’s vision. One asks about the platform. One asks what supports would let Jordan finish this week. One asks what the agency owes an employee who cannot access required training. One asks whether the training itself respects blind staff as colleagues rather than as exceptions. One asks which other staff, in which roles and locations, are quietly failing to complete the same training and never reporting it.</p><p>The most inclusive organizational response almost always changes the system rather than the person’s workaround, and it does so without leaving the person waiting. That is the shape to remember: <strong>access now, fix the source, name the owner, set the review point.</strong></p>" },
+          { type: "tabs", heading: "What each perspective says about Jordan", tabs: [
+            { label: "Medical", body: "<p>“Jordan is blind and cannot use the platform.” Accurate as far as it goes, and useless for deciding what to do. Its natural next step is a deadline extension, which changes nothing.</p>" },
+            { label: "Social", body: "<p>“The platform has unlabeled buttons and an uncaptioned video, so screen-reader users cannot complete the training.” The barrier is now the subject, and the fix is visible: label the buttons, add the transcript, or replace the platform.</p>" },
+            { label: "Functional", body: "<p>“With the source document and quiz in an accessible format, Jordan can complete the training this week.” Supplies the immediate path without waiting for the redesign.</p>" },
+            { label: "Rights-based", body: "<p>“Required training is a term and condition of employment, and the agency must provide an equally effective way to complete it.” Gives the request weight and a route: the training owner, human resources and the accessibility team.</p>" },
+            { label: "Cultural", body: "<p>“Does the way we talk about this treat Jordan as a colleague who was locked out, or as a special case who needs help?” Shapes the tone of every email in the thread.</p>" },
+            { label: "Intersectional", body: "<p>“Who else cannot complete this training and has not said so?” Staff in county offices with older equipment, staff whose first language is not English, staff with cognitive disabilities facing a timed quiz. The fix should reach them too.</p>" },
+          ] },
+          { type: "leaderMove", heading: "Refuse the workaround as the final answer", control: "You control whether a temporary path for one person is treated as the solution or as the first half of it.", failure: "Do not close the ticket when Jordan finishes the training. The platform is unchanged and the next person’s deadline is already running.", next: "Whenever you arrange a workaround, write the system fix, its owner and a review date in the same message." },
+          { type: "list", heading: "Writing a barrier-removal decision", ordered: true, items: ["State the barrier with the design as the subject: what specifically stops participation.", "Provide immediate, equally effective access for the person, chosen with them.", "Name the system fix: what will change so nobody has to ask next time.", "Name the owner of the system fix and the date by which it will be reviewed.", "Ask the intersectional question: who else is affected, and does the fix reach them?", "Tell the person what was decided and when they can expect the change."] },
+          { type: "quote", text: "A workaround means I get through today and the wall is still there tomorrow, and now it is my job to remember the way around it. A fix means the wall is gone for everyone, including the person who has not been hired yet.", cite: "Composite staff perspective, illustrative" },
+          { type: "flashcards", heading: "The six lenses, one card each", cards: [
+            { front: "Medical", back: "<p>What condition is involved? Useful for care. Alone: the person becomes the problem.</p>" },
+            { front: "Social", back: "<p>What in the environment restricts participation? Useful for finding what you control. Alone: can understate individual needs.</p>" },
+            { front: "Functional", back: "<p>What can this person do in this setting with these supports? Useful for planning support. Alone: hardens into a capability verdict.</p>" },
+            { front: "Rights-based", back: "<p>What equal-access duties apply? Useful for accountability. Alone: becomes a checklist.</p>" },
+            { front: "Cultural", back: "<p>How do disabled people form identity, language and community? Useful for respect and tone. Alone: may not fit every person.</p>" },
+            { front: "Intersectional", back: "<p>How do disability and other identities combine? Useful for finding who is affected most. Alone: demands data and listening many teams skip.</p>" },
+          ] },
+          { type: "knowledgeCheck", id: "models-and-perspectives-4-check", question: "Which statement best explains why redesigning the learning platform differs from asking Jordan to find a workaround?", options: [
+            { text: "Redesign is more expensive, so it shows the agency is taking the issue seriously.", correct: false },
+            { text: "A redesign removes the barrier at its source for every current and future screen-reader user; a workaround leaves the barrier in place and moves its cost, in time, privacy and independence, onto Jordan.", correct: true },
+            { text: "A workaround is acceptable as long as Jordan agrees to it, because the person’s preference decides.", correct: false },
+          ], feedbackCorrect: "Yes. The difference is where the barrier ends up, not what the fix costs. Jordan’s agreement to a temporary path does not make the platform accessible.", feedbackIncorrect: "Ask where the barrier is after each option. After a workaround it is exactly where it was, and one person is carrying it." },
+        ],
+      },
+    ],
+  },
+  jobAid: {
+    title: "Six lenses on one decision",
+    subtitle: "A one-page reminder for anyone who writes up a problem involving a disabled person",
+    quote: "Name the lens. Make the barrier the subject. Provide access now, fix the source, name the owner.",
+    use: {
+      purpose: "Catch a deficit-only framing before it becomes a decision, and turn it into a barrier-removal decision with an owner.",
+      remember: ["The subject of your problem sentence decides who has to change.", "A functional note describes a support; it is not a verdict about capability.", "Rights give the social view teeth; culture keeps rights from becoming a checklist.", "Ask who, within the group of disabled people affected, carries the heaviest load."],
+      doNext: "Rewrite one real problem statement from your unit with the barrier as the subject and send it to the owner of the design.",
+    },
+    sections: [
+      { heading: "Six lenses, six questions", items: ["Medical: what condition is involved, and did the person choose to share it? Social: what in the design, rule or attitude restricts participation?", "Functional: what can this person do in this setting with these supports, and who said so?", "Rights-based: what equal-access duty applies, and which office owns it? Cultural: does our tone treat this person as a colleague, or as a special case?", "Intersectional: who else is affected, and who is affected most?"] },
+      { heading: "The barrier-removal decision", items: ["State the barrier with the design as the subject.", "Provide equally effective access now, chosen with the person.", "Name the system fix, its owner and the review date.", "Tell the person what was decided and when to expect the change."] },
+      { heading: "Route, do not decide", items: ["Accommodation questions: human resources or the ADA coordinator.", "Effective communication and accessible formats: the accessibility or language access team.", "Discrimination or civil-rights concerns: the civil rights office.", "Keep a short record of the barrier, the date and who you told."] },
+    ],
+  },
+  sources: [
+    { title: "Centers for Disease Control and Prevention, Disability Inclusion", href: "https://www.cdc.gov/disability-inclusion/about/index.html", note: "Describes disability inclusion as participation supported by policies and practices, and summarizes disability as a common part of the population." },
+    { title: "ADA National Network", href: "https://adata.org/", note: "Plain-language information, guidance and training on the Americans with Disabilities Act, including employment and state and local government obligations." },
+    { title: "ADA.gov, U.S. Department of Justice", href: "https://www.ada.gov/", note: "Official ADA information for the public and for state and local governments, including effective communication and program access." },
+    { title: "U.S. Equal Employment Opportunity Commission, disability discrimination", href: "https://www.eeoc.gov/disability-discrimination", note: "Overview of employment protections, essential functions and reasonable accommodation under the ADA." },
+    { title: "Minnesota Department of Human Services, Olmstead Plan", href: "https://mn.gov/dhs/general-public/about-dhs/olmstead/", note: "Minnesota’s commitment to serving people with disabilities in the most integrated setting appropriate." },
+    { title: "Minnesota Council on Disability", href: "https://www.disability.state.mn.us/", note: "State council resources on disability rights, access and policy in Minnesota." },
+  ],
+};
+
+export default pack;

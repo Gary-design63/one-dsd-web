@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>One DSD Audio Browser</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body { font-family: system-ui, sans-serif; max-width: 900px; margin: 40px auto; padding: 20px; background: #f5f5f5; }
+h1 { color: #333; }
+.audio-list { background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+.audio-item { padding: 15px; border-bottom: 1px solid #eee; display: flex; align-items: center; gap: 15px; }
+.audio-item:last-child { border-bottom: none; }
+.audio-item audio { flex-shrink: 0; }
+.audio-name { flex: 1; font-weight: 500; color: #333; word-break: break-word; }
+.audio-size { color: #999; font-size: 12px; min-width: 80px; text-align: right; }
+</style>
+</head>
+<body>
+<h1>📻 One DSD Audio Files</h1>
+<div class="audio-list" id="audioList">
+<p>Loading audio files...</p>
+</div>
+<script>
+async function loadAudioFiles() {
+  try {
+    const response = await fetch('./audio-manifest.json');
+    if (!response.ok) throw new Error('Manifest not found');
+    const files = await response.json();
+    
+    const list = document.getElementById('audioList');
+    list.innerHTML = '';
+    
+    if (files.length === 0) {
+      list.innerHTML = '<p>No audio files found</p>';
+      return;
+    }
+    
+    files.forEach(file => {
+      const item = document.createElement('div');
+      item.className = 'audio-item';
+      item.innerHTML = `
+        <audio controls preload="metadata" style="width: 300px;">
+          <source src="${file.path}" type="${file.type}">
+          Your browser does not support audio.
+        </audio>
+        <div class="audio-name">${file.name}</div>
+        <div class="audio-size">${file.size}</div>
+      `;
+      list.appendChild(item);
+    });
+  } catch (e) {
+    document.getElementById('audioList').innerHTML = '<p>Generating audio list... Refresh in a moment.</p>';
+  }
+}
+
+loadAudioFiles();
+</script>
+</body>
+</html>

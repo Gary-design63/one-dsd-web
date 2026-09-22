@@ -1,0 +1,82 @@
+{
+  "checkedAt": "2026-09-09T12:20:41.753286+00:00",
+  "method": "Offline cached faster-whisper base.en CPU int8 and PCM waveform inspection",
+  "limitations": "Machine word recovery is not human listening, naturalness review or browser playback. Synthetic English narration is explicitly disclosed; no real person or cultural voice is imitated.",
+  "clips": [
+    {
+      "file": "conflict-direct.wav",
+      "expectedTranscript": "We cannot finish the review by Friday with the packet arriving Thursday. Can we move the deadline to Tuesday?",
+      "voice": "Microsoft Zira Desktop",
+      "rate": 0,
+      "source": "Original program-authored fictional English narration synthesized locally with System.Speech",
+      "sampleRate": 22050,
+      "channels": 1,
+      "sampleWidthBytes": 2,
+      "durationSeconds": 7.228,
+      "bytes": 318808,
+      "sha256": "fc81006ebfdf6e56427fdea49f4fddce3b439a00a36cef1fdb6c6ecf99c842c0",
+      "peak": 25081,
+      "clippedSamples": 0,
+      "rms": 3475.39,
+      "attempts": [
+        {
+          "vad": true,
+          "recognized": "We cannot finish the review by Friday with the packet arriving Thursday. Can we move the deadline to Tuesday?",
+          "similarity": 1.0,
+          "differences": []
+        }
+      ],
+      "exactWordsRecovered": true
+    },
+    {
+      "file": "conflict-indirect.wav",
+      "expectedTranscript": "I wonder whether Friday gives us enough review time. The packet arrives Thursday. Would Tuesday be possible?",
+      "voice": "Microsoft Zira Desktop",
+      "rate": -2,
+      "source": "Original program-authored fictional English narration synthesized locally with System.Speech",
+      "sampleRate": 22050,
+      "channels": 1,
+      "sampleWidthBytes": 2,
+      "durationSeconds": 10.038,
+      "bytes": 442732,
+      "sha256": "c1aba58d53d010ba28a19a03c7371ccfb3fb2fb26fd773ca5a3bfbc888ca5263",
+      "peak": 26221,
+      "clippedSamples": 0,
+      "rms": 3143.6,
+      "attempts": [
+        {
+          "vad": true,
+          "recognized": "I wonder whether Friday gives us enough review time. The packet arrives Thursday. Would Tuesday be possible?",
+          "similarity": 1.0,
+          "differences": []
+        }
+      ],
+      "exactWordsRecovered": true
+    },
+    {
+      "file": "stay-opening.wav",
+      "expectedTranscript": "Before we begin, let us review who can see the notes and how they will be used. I cannot promise more privacy than this process provides. If speaking with me makes this harder, we can discuss another appropriate interviewer. What part of the work has made staying harder?",
+      "voice": "Microsoft Zira Desktop",
+      "rate": -1,
+      "source": "Original program-authored fictional English narration synthesized locally with System.Speech",
+      "sampleRate": 22050,
+      "channels": 1,
+      "sampleWidthBytes": 2,
+      "durationSeconds": 19.137,
+      "bytes": 843978,
+      "sha256": "327e7aead5bf6d8e36ef00093b0ef00b92f8d071ea93e6da8f1784553735ed08",
+      "peak": 25381,
+      "clippedSamples": 0,
+      "rms": 3141.3,
+      "attempts": [
+        {
+          "vad": true,
+          "recognized": "Before we begin, let us review who can see the notes and how they will be used. I cannot promise more privacy than this process provides. If speaking with me makes this harder, we can discuss another appropriate interviewer. What part of the work has made staying harder?",
+          "similarity": 1.0,
+          "differences": []
+        }
+      ],
+      "exactWordsRecovered": true
+    }
+  ]
+}

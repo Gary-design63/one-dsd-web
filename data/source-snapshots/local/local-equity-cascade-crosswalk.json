@@ -1,0 +1,215 @@
+{
+  "schemaVersion": "1.0.0",
+  "capturedOn": "2026-09-04",
+  "sourceId": "local-equity-cascade-crosswalk",
+  "title": "Equity Cascade Crosswalk Accessible",
+  "sourceType": "docx",
+  "sourceFileName": "Equity Cascade Crosswalk Accessible.docx",
+  "sourceBytes": 23693,
+  "sourceSha256": "F9F11C1F50AAB7E9929A2CEC9285D8CBAFEDC12F4E2F6D9DD9F48D6C4EB3F068",
+  "ownerApproval": "owner_approved_for_ingestion",
+  "staffRelease": "not_staff_released",
+  "snapshotSanitization": "Private Windows user-folder prefixes are removed; the original file hash remains unchanged.",
+  "extraction": {
+    "format": "docx",
+    "documentProperties": {
+      "title": null,
+      "subject": null,
+      "author": "Un-named",
+      "lastModifiedBy": "Banks, Gary (DHS)",
+      "created": "2026-05-18T12:22:00+00:00",
+      "modified": "2026-07-23T19:05:00+00:00"
+    },
+    "paragraphCount": 3,
+    "tableCount": 17,
+    "blocks": [
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "TRANSLATES INTO        ↓        ADMINISTRATION STRATEGY"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "OPERATIONALIZED AS        ↓        DIVISION EXECUTION"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Prepared for the One DSD Equity Team · Gary Banks, DSD Equity and Inclusion Operations Consultant"
+      },
+      {
+        "kind": "table",
+        "tableNumber": 1,
+        "rows": [
+          [
+            "ONE DSD EQUITY TEAM · REFERENCE DOCUMENT\nThe Equity Cascade: DHS → ADSA → DSD\nA crosswalk showing how the DHS Equity Outcome Map (enterprise framework) translates through the ADSA Implementation Plan (administration strategy) into the DSD Equity and Inclusion Operational Plan (division execution)."
+          ]
+        ]
+      },
+      {
+        "kind": "table",
+        "tableNumber": 2,
+        "rows": [
+          [
+            "Why this matters. The three documents in your packet are one connected line of work — designed to translate enterprise-wide equity commitments at DHS into administration-level strategy at ADSA, and finally into the day-to-day operations of DSD staff and leaders.\nHow to read this. Each tier below shows what that level of the organization owns. The crosswalk table at the end maps the five strategic alignments, so any DSD action can be traced back to the ADSA commitment it satisfies and the DHS outcome it advances. Hold onto this for your own reference."
+          ]
+        ]
+      },
+      {
+        "kind": "table",
+        "tableNumber": 3,
+        "rows": [
+          [
+            "TIER 1",
+            "DHS Equity Outcome Map",
+            "Enterprise framework · 2025–2026"
+          ]
+        ]
+      },
+      {
+        "kind": "table",
+        "tableNumber": 4,
+        "rows": [
+          [
+            "THEORY OF CHANGE\nIF DHS centers equity in all work and operations — policies, program integrity, contracts, projects, workforce development, community engagement, trainings, performance plans —\n————   THEN   ————"
+          ]
+        ]
+      },
+      {
+        "kind": "table",
+        "tableNumber": 5,
+        "rows": [
+          [
+            "CENTERING EQUITY FOR DHS\n•  Equity is centered in everyday thinking, work, and operations\n•  Achievements survive leadership changes\n•  Staff can bring their full selves to work",
+            "CENTERING EQUITY FOR MINNESOTANS\n•  Public funds reach those who need them most\n•  Disparities in health and social determinants reduced\n•  Policies combat systemic oppression",
+            "CONTINUOUS LEARNING CYCLE\n•  Staff feel safe seeking feedback\n•  Resources to learn and grow\n•  Leaders treat equity as a core competency",
+            "COMMUNITY IN PLANNING & SOLUTIONS\n•  Culturally responsive, accessible engagement\n•  Community engaged in ways they understand\n•  Input shapes processes and program design"
+          ]
+        ]
+      },
+      {
+        "kind": "table",
+        "tableNumber": 6,
+        "rows": [
+          [
+            "PRINCIPLE\nEquitably Serving ALL Minnesotans",
+            "PRINCIPLE\nTransparency & Trust",
+            "PRINCIPLE\nMutual Respect & Psychological Safety"
+          ],
+          [
+            "PRINCIPLE\nContinuous Learning & Accountability",
+            "PRINCIPLE\nStability & Sustainability",
+            "PRINCIPLE\nStronger Together"
+          ]
+        ]
+      },
+      {
+        "kind": "table",
+        "tableNumber": 7,
+        "rows": [
+          [
+            "KEY ACTIVITY DOMAINS"
+          ]
+        ]
+      },
+      {
+        "kind": "table",
+        "tableNumber": 8,
+        "rows": [
+          [
+            "TIER 2",
+            "ADSA Implementation Plan",
+            "Aging and Disability Services Administration"
+          ]
+        ]
+      },
+      {
+        "kind": "table",
+        "tableNumber": 9,
+        "rows": [
+          [
+            "WHAT ADSA OWNS\nADSA sets the strategies — the goals, action steps, and guidelines that translate DHS-wide equity commitments into priorities for the administration. ADSA also leads Tribal Consultation on behalf of the administration, with DSD collaboration and input on division-relevant matters. ADSA requires each of its divisions to organize equity work around five strategic themes."
+          ]
+        ]
+      },
+      {
+        "kind": "table",
+        "tableNumber": 10,
+        "rows": [
+          [
+            "TIER 3",
+            "DSD Equity & Inclusion Operational Plan",
+            "Disability Services Division · daily practice"
+          ]
+        ]
+      },
+      {
+        "kind": "table",
+        "tableNumber": 11,
+        "rows": [
+          [
+            "OBJECTIVE — ELIMINATE INEQUITIES IN THREE AREAS\nThe DSD plan translates ADSA strategy into specific, measurable actions for staff and leadership. Identifying and removing biases is treated as a core part of how we operate."
+          ]
+        ]
+      },
+      {
+        "kind": "table",
+        "tableNumber": 12,
+        "rows": [
+          [
+            "GOVERNANCE — ONE DSD EQUITY TEAM & UNIT EQUITY CHAMPIONS\nDSD operates a single, division-wide One DSD Equity Team that plans, coordinates, and tracks accountability for the work. Each DSD unit designates an Equity Champion (or representative) to serve on or report into the One DSD Equity Team — ensuring every unit has a named voice and point of contact in the division-wide structure."
+          ]
+        ]
+      },
+      {
+        "kind": "table",
+        "tableNumber": 13,
+        "rows": [
+          [
+            "THE SIX OPERATIONAL GOALS\nThe plan executes work across six goals, each with process steps, responsible parties, timelines, and clear implications for daily work."
+          ]
+        ]
+      },
+      {
+        "kind": "table",
+        "tableNumber": 14,
+        "rows": [
+          [
+            "OUR CORE RESPONSIBILITIES — EVERY STAFF MEMBER\nFour commitments held by everyone, regardless of role."
+          ]
+        ]
+      },
+      {
+        "kind": "table",
+        "tableNumber": 15,
+        "rows": [
+          [
+            "THE ACCOUNTABILITY LOOP — QUARTERLY REPORTING & CORRECTION PLANS\nEquity Champions and Goal leads report progress on disparity targets to division leadership quarterly through the One DSD Equity Team. Programs showing gaps are required to present a correction plan with specific operational changes, named owners, due dates, and the metrics that will be measured in the next quarter. This is the mechanism that turns plan into practice."
+          ]
+        ]
+      },
+      {
+        "kind": "table",
+        "tableNumber": 16,
+        "rows": [
+          [
+            "Five-Point Alignment Crosswalk\nHow each DHS outcome flows through an ADSA requirement and lands as a specific DSD operational practice. Read each row left-to-right."
+          ]
+        ]
+      },
+      {
+        "kind": "table",
+        "tableNumber": 17,
+        "rows": [
+          [
+            "One way to use this. When you read the DSD plan section assigned to you, trace it upward through the crosswalk: which ADSA requirement does it satisfy, and which DHS outcome does it advance? If the line back doesn't hold, that's a signal worth raising. The cascade only works when every operational step connects cleanly to the enterprise commitment above it — and that traceability is what gives this plan its accountability."
+          ]
+        ]
+      }
+    ],
+    "text": "TRANSLATES INTO        ↓        ADMINISTRATION STRATEGY\n\nOPERATIONALIZED AS        ↓        DIVISION EXECUTION\n\nPrepared for the One DSD Equity Team · Gary Banks, DSD Equity and Inclusion Operations Consultant\n\nONE DSD EQUITY TEAM · REFERENCE DOCUMENT\nThe Equity Cascade: DHS → ADSA → DSD\nA crosswalk showing how the DHS Equity Outcome Map (enterprise framework) translates through the ADSA Implementation Plan (administration strategy) into the DSD Equity and Inclusion Operational Plan (division execution).\n\nWhy this matters. The three documents in your packet are one connected line of work — designed to translate enterprise-wide equity commitments at DHS into administration-level strategy at ADSA, and finally into the day-to-day operations of DSD staff and leaders.\nHow to read this. Each tier below shows what that level of the organization owns. The crosswalk table at the end maps the five strategic alignments, so any DSD action can be traced back to the ADSA commitment it satisfies and the DHS outcome it advances. Hold onto this for your own reference.\n\nTIER 1 | DHS Equity Outcome Map | Enterprise framework · 2025–2026\n\nTHEORY OF CHANGE\nIF DHS centers equity in all work and operations — policies, program integrity, contracts, projects, workforce development, community engagement, trainings, performance plans —\n————   THEN   ————\n\nCENTERING EQUITY FOR DHS\n•  Equity is centered in everyday thinking, work, and operations\n•  Achievements survive leadership changes\n•  Staff can bring their full selves to work | CENTERING EQUITY FOR MINNESOTANS\n•  Public funds reach those who need them most\n•  Disparities in health and social determinants reduced\n•  Policies combat systemic oppression | CONTINUOUS LEARNING CYCLE\n•  Staff feel safe seeking feedback\n•  Resources to learn and grow\n•  Leaders treat equity as a core competency | COMMUNITY IN PLANNING & SOLUTIONS\n•  Culturally responsive, accessible engagement\n•  Community engaged in ways they understand\n•  Input shapes processes and program design\n\nPRINCIPLE\nEquitably Serving ALL Minnesotans | PRINCIPLE\nTransparency & Trust | PRINCIPLE\nMutual Respect & Psychological Safety\n\nPRINCIPLE\nContinuous Learning & Accountability | PRINCIPLE\nStability & Sustainability | PRINCIPLE\nStronger Together\n\nKEY ACTIVITY DOMAINS\n\nTIER 2 | ADSA Implementation Plan | Aging and Disability Services Administration\n\nWHAT ADSA OWNS\nADSA sets the strategies — the goals, action steps, and guidelines that translate DHS-wide equity commitments into priorities for the administration. ADSA also leads Tribal Consultation on behalf of the administration, with DSD collaboration and input on division-relevant matters. ADSA requires each of its divisions to organize equity work around five strategic themes.\n\nTIER 3 | DSD Equity & Inclusion Operational Plan | Disability Services Division · daily practice\n\nOBJECTIVE — ELIMINATE INEQUITIES IN THREE AREAS\nThe DSD plan translates ADSA strategy into specific, measurable actions for staff and leadership. Identifying and removing biases is treated as a core part of how we operate.\n\nGOVERNANCE — ONE DSD EQUITY TEAM & UNIT EQUITY CHAMPIONS\nDSD operates a single, division-wide One DSD Equity Team that plans, coordinates, and tracks accountability for the work. Each DSD unit designates an Equity Champion (or representative) to serve on or report into the One DSD Equity Team — ensuring every unit has a named voice and point of contact in the division-wide structure.\n\nTHE SIX OPERATIONAL GOALS\nThe plan executes work across six goals, each with process steps, responsible parties, timelines, and clear implications for daily work.\n\nOUR CORE RESPONSIBILITIES — EVERY STAFF MEMBER\nFour commitments held by everyone, regardless of role.\n\nTHE ACCOUNTABILITY LOOP — QUARTERLY REPORTING & CORRECTION PLANS\nEquity Champions and Goal leads report progress on disparity targets to division leadership quarterly through the One DSD Equity Team. Programs showing gaps are required to present a correction plan with specific operational changes, named owners, due dates, and the metrics that will be measured in the next quarter. This is the mechanism that turns plan into practice.\n\nFive-Point Alignment Crosswalk\nHow each DHS outcome flows through an ADSA requirement and lands as a specific DSD operational practice. Read each row left-to-right.\n\nOne way to use this. When you read the DSD plan section assigned to you, trace it upward through the crosswalk: which ADSA requirement does it satisfy, and which DHS outcome does it advance? If the line back doesn't hold, that's a signal worth raising. The cascade only works when every operational step connects cleanly to the enterprise commitment above it — and that traceability is what gives this plan its accountability."
+  },
+  "extractedTextCharacters": 4765,
+  "extractedTextSha256": "8EEF9D1092FD959CF90EC20D01E9AEF473B4088E6993E3D14307B750F237FD89"
+}

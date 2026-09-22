@@ -1,0 +1,66 @@
+name: Verify canonical build
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - pac/full-build-2026-09-05
+      - pac/one-dhs-pac-app
+      - main
+      - master
+  pull_request:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: verify-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  verify:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    env:
+      NEXT_TELEMETRY_DISABLED: "1"
+      PAC_STORE: memory
+      PAC_CONTENT_SOURCE: static
+      PAC_STAFF_SCOPE: one-dhs
+      PAC_TEST_POSTGRES_BIN: /usr/lib/postgresql/16/bin
+    steps:
+      - name: Check out exact commit
+        uses: actions/checkout@v4
+
+      - name: Use pinned Node and npm cache
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+
+      - name: Require the pinned npm release
+        run: test "$(npm --version)" = "11.9.0"
+
+      - name: Install locked dependencies
+        run: npm ci
+
+      - name: Install PostgreSQL integration-test binaries
+        run: |
+          sudo apt-get update
+          sudo apt-get install --yes postgresql-16
+
+      - name: Require PostgreSQL integration-test executables
+        run: |
+          test -x "$PAC_TEST_POSTGRES_BIN/initdb"
+          test -x "$PAC_TEST_POSTGRES_BIN/pg_ctl"
+          "$PAC_TEST_POSTGRES_BIN/initdb" --version
+          "$PAC_TEST_POSTGRES_BIN/pg_ctl" --version
+
+      - name: Run clean-clone verification
+        run: npm run verify:ci
+
+      - name: Prove verification did not alter tracked files
+        run: |
+          if [ -n "$(git status --porcelain --untracked-files=all)" ]; then
+            git status --short --untracked-files=all
+            exit 1
+          fi

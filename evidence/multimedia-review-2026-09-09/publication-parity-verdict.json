@@ -1,0 +1,18 @@
+{
+  "checkedOn": "2026-09-09",
+  "productionOrigin": "https://one-dhs-pac.vercel.app",
+  "access": "Public unauthenticated HTTP GETs and local code review only; no database reads/writes, credentials, or staff records",
+  "learning": {"selectedRows": 58, "http200": 58, "exactLessonTitles": 58, "newCompanionsAlreadyLive": 0, "evidence": "learning-production-before-release.json", "originalRenderedBlockParity": {"localOrigin": "http://127.0.0.1:3115", "matchedLessons": 58, "mismatchedLessons": 0, "errors": 0, "method": "Complete data-course-block semantic trees: text and media/control attributes; excludes companions, styling and generated React identifiers", "evidence": "learning-original-block-parity.json"}},
+  "dsdAndProgram": {"selectedRows": 117, "distinctUrls": 63, "http200": 63, "allHaveMainHeading": true, "exactDsdProgramAndScenarioTitles": 25, "evidence": "program-production-before-release.json", "titleNote": "Some proposal row titles are descriptive labels rather than exact page headings; receipt records actual h1 and surface IDs. No HTTP or blank-page failure found."},
+  "verdict": "Code and asset deployment is sufficient for current media companions on the confirmed existing published resource routes. No additional database content-publication mutation is indicated by this bounded review.",
+  "sourceSelection": "editableSurfaceSource respects PAC_DATABASE_EDITABLE_SURFACES override then PAC_CONTENT_SOURCE. Preserve current production settings; do not globally switch to static.",
+  "gates": [
+    "Learning route checks registered course, prepareEditableSurface availability and exact lesson ID before constructing companion slot.",
+    "DSD program/scenario media remain inside the existing scoped EditableSurfaceRegion and unknown IDs retain notFound behavior.",
+    "Learning journey, toolkit, community-connections, Amplify, Team, About, My Work and support media use existing published surface regions.",
+    "Understanding DHS, leadership, orientation, Learning Lab, operationalizing-equity and share-result retain their pre-existing static-page behavior.",
+    "Both podcast editable surfaces were visible in production. PublishedPodcast gets audio src from the code registry while keeping title/intro and visibility from the published surface."
+  ],
+  "savedState": "Course companions are outside original indexed blocks. Existing pac-course:<courseId>:<lessonId> keys and block field keys remain unchanged. Focused saved-state and route tests passed.",
+  "limits": ["Learning original rendered semantic blocks match on58 selected lessons; this does not reveal raw database bytes/configuration or establish unselected-lesson body parity. DSD/program check establishes route/title/surface availability, not complete body hashes.", "Deployment and post-deployment browser/media verification belong to the coordinating root task.", "No internal second-brain copy, configuration, or record is included in this parity verdict."]
+}

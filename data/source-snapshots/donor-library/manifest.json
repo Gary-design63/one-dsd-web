@@ -1,0 +1,41 @@
+{
+  "schemaVersion": "1.0.0",
+  "capturedAt": "2026-09-05T18:00:00.000Z",
+  "purpose": "Pinned donor content recovered in full for governed editorial review.",
+  "snapshots": [
+    {
+      "path": "data/source-snapshots/donor-library/course-candidates.jsonl",
+      "records": 86,
+      "bytes": 11746659,
+      "sha256": "70480446FF916E2CD34187EF79B92991EF28C8A16B69781300E07E52CB2CBE16",
+      "repinnedAfter": "Commit e097334 (September 10, 2026) replaced two unreachable source links in course-anti-racism-resource (Continuum on Becoming an Anti-Racist Multicultural Organization) and course-accessibility-as-leadership-responsibility (ADA Title I); records and all other content unchanged."
+    },
+    {
+      "path": "data/source-snapshots/donor-library/community-candidates.jsonl",
+      "records": 49,
+      "bytes": 3308951,
+      "sha256": "89596C388FA438E66A197F20D95DAE7D1E4BAAD35E02904BD75DA455B047EB70"
+    },
+    {
+      "path": "data/source-snapshots/donor-library/domain-candidates.jsonl",
+      "records": 34,
+      "bytes": 200543,
+      "sha256": "E3EBAC1A09DD1FE6BF3208FA031D2515C2C4D12559F78143A758CDF3D13593FE"
+    }
+  ],
+  "counts": {
+    "authoredCourses": 45,
+    "generatedCurriculumCourses": 41,
+    "totalCourses": 86,
+    "staffCommunityBriefs": 40,
+    "unmatchedCommunityGuides": 1,
+    "religionBriefs": 8,
+    "domainResources": 34,
+    "totalGovernedCandidates": 169
+  },
+  "ownerDirection": {
+    "ingestionApproval": "owner_approved_for_ingestion",
+    "publicationAuthorization": "none",
+    "reviews": "pending"
+  }
+}

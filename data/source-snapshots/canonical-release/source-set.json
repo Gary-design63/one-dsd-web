@@ -1,0 +1,41 @@
+{
+  "schemaVersion": "1.0.0",
+  "sourceSetId": "one-dsd-canonical-release-dc43370",
+  "repository": "alphaequity123-afk/one-dsd-synthesized-staging",
+  "commit": "dc43370fb41cf8d4e58ae74c1f98193023edd846",
+  "capturedForProjectionOn": "2026-09-05",
+  "files": [
+    {
+      "name": "canonical-resources.jsonl",
+      "records": 21,
+      "sha256": "DF1BF21C2F745A86A48D2276FBA4EB2B57E661A0393A26932238A00B12E8D52C"
+    },
+    {
+      "name": "canonical-families.jsonl",
+      "records": 21,
+      "sha256": "09E84F62E64BA40F574F98FFA5842FE3CC3CFE26B9C6F9A07FB83A12B3768E27"
+    },
+    {
+      "name": "canonical-editor-baseline.jsonl",
+      "records": 73,
+      "sha256": "3AE5ACA6409662695B59CE48B90C3DF31F4A434CC7B35A6B5CC8B4173B872255"
+    },
+    {
+      "name": "disposition-ledger.jsonl",
+      "records": 557,
+      "sha256": "3485A69B9D59B4E39B08C038E1DDF654AB4EC374CBB96B2210CCA3CA82B45265"
+    },
+    {
+      "name": "source-manifest.json",
+      "records": 1,
+      "sha256": "5B26BAF80E0148483939932EEE25600BD9FC8A6B8F31262A9A5C96F08221EA17"
+    }
+  ],
+  "rules": [
+    "These files are byte-for-byte source snapshots and are never edited in place.",
+    "Canonical content is projected into immutable revision one records.",
+    "All projected revisions remain held for current review.",
+    "No staff publication decision is part of this source set.",
+    "The permanent 25-item seed collection remains separate."
+  ]
+}

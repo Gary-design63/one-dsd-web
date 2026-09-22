@@ -1,0 +1,137 @@
+.page {
+  color: #182c3a;
+  padding-bottom: clamp(3.5rem, 7vw, 6rem);
+}
+.page :is(h1, h2, h3) { text-wrap: balance; }
+.page :is(section, h2)[id] { scroll-margin-top: 7rem; }
+.page > a:first-child { color: #003865; font-weight: 600; text-underline-offset: .24em; }
+.page .hero {
+  position: relative;
+  isolation: isolate;
+  border: 1px solid #dddcd3;
+  border-radius: 1.6rem;
+  background: #f7f5f0;
+  box-shadow: 0 16px 44px -32px #00386555;
+}
+.page .hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 2.25rem;
+  width: 3.5rem;
+  height: 4px;
+  border-radius: 0 0 3px 3px;
+  background: #78be21;
+  z-index: 1;
+}
+.page .hero h1 { color: #003865; font-size: clamp(2.35rem, 4.5vw, 3.65rem); line-height: 1.08; letter-spacing: -.035em; }
+.page .hero p { max-width: 48rem; }
+.page .hero a { text-underline-offset: .25em; }
+.page .hero a[class*="text-white"] { background: #003865; color: #fff; }
+.eyebrow { color: #003865; font-size: .75rem; font-weight: 700; letter-spacing: .15em; line-height: 1.5; text-transform: uppercase; }
+.sectionNav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .25rem .75rem;
+  margin: 1.75rem 0;
+  padding: .65rem 0;
+  border-top: 1px solid #d4dce0;
+  border-bottom: 1px solid #d4dce0;
+}
+.sectionNav a { display: inline-flex; align-items: center; min-height: 2.75rem; padding: .6rem .85rem; border-radius: 999px; color: #003865; font-size: .925rem; font-weight: 600; text-decoration: none; }
+.sectionNav a:hover { background: #edf2f5; text-decoration: underline; text-underline-offset: .25em; }
+.sectionNav a[aria-current="page"] { background: #003865; color: #fff; }
+.sectionNav a:focus-visible { outline: 2px solid #003865; outline-offset: 3px; }
+.page .sectionSpace { margin-block: clamp(2.75rem, 5vw, 4.25rem); }
+.page .sectionSpace > h2 { margin-bottom: .8rem; }
+.page .entryCards { gap: 1.25rem; }
+.page .entryCards > article { border: 1px solid #d7dfe3; border-radius: 1rem; padding: 1.75rem; box-shadow: 0 6px 22px -22px #00386570; }
+.page .entryCards h3 { color: #003865; font-size: 1.4rem; line-height: 1.25; }
+.page .entryCards a { text-underline-offset: .25em; }
+.page .conversationBand { padding: 2rem 0; column-gap: 3rem; }
+.page .conversationBand > div:last-child { border-left: 2px solid #d9e1e6; padding-left: 2rem; }
+.page .sidebar { align-self: start; padding: 1.5rem; border: 1px solid #d7dfe3; border-radius: 1rem; background: #f7f5f0; }
+.page .sidebar ul { margin-top: 1rem; }
+.page .sidebar li + li { border-top: 1px solid #dedfd8; padding-top: .9rem; }
+.page .sidebar a { color: #003865; line-height: 1.55; text-underline-offset: .23em; }
+.page .readingSections > section { padding-bottom: 1.5rem; border-bottom: 1px solid #dfe4e7; }
+.page .readingSections > section:last-child { border-bottom: 0; }
+.page .readingSections h2 { color: #003865; }
+.page .rhythm { padding: 2.5rem 0; border-top: 1px solid #cbd6dd; border-bottom: 1px solid #cbd6dd; }
+.page .leadershipInvitation { background: #edf2f5; border-left: 4px solid #003865; border-radius: 0 1rem 1rem 0; }
+.page .learningCycle { gap: 0; border-top: 1px solid #cbd6dd; border-bottom: 1px solid #cbd6dd; }
+.page .learningCycle > article { background: transparent; border-radius: 0; padding: 1.5rem; }
+.page .learningCycle > article + article { border-left: 1px solid #cbd6dd; }
+.page .learningCycle h3 { color: #003865; }
+.page .supportBand { background: #edf2f5; border: 1px solid #d6e0e6; }
+.page .growthCards { gap: 1.5rem; }
+.page .growthCards > article { border: 0; border-top: 3px solid #003865; border-radius: 0; padding: 1.25rem 0; }
+.page .growthCards h3 { font-size: 1.35rem; color: #003865; }
+.connections { margin-block: 3.5rem; padding: clamp(1.5rem, 4vw, 2.5rem); border: 1px solid #d4dce0; border-radius: 1.5rem; background: #f2f5f6; color: #182c3a; }
+.connections h2 { color: #003865; }
+.connectionGrid { display: grid; grid-template-columns: minmax(0,1fr) 2.5rem minmax(0,1fr); align-items: stretch; gap: .5rem; margin-top: 1.75rem; }
+.connectionGrid > article { border: 1px solid #dfe4e7; border-radius: 1rem; padding: 1.75rem; background: #fff; }
+.connectionGrid h3 { color: #003865; }
+.connectionGrid a { font-weight: 600; text-underline-offset: .25em; }
+.connectionArrow { display: flex; align-items: center; justify-content: center; color: #003865; font-size: 1.75rem; }
+.page .orientationDirectory { display: grid; gap: 0 3rem; margin-top: 2rem; }
+.page .orientationItem { display: flex; flex-direction: column; padding: 1.65rem 0; border-radius: 0; border-top: 1px solid #cbd6dd; background: transparent; }
+.page .orientationItem h3 { color: #003865; font-size: 1.4rem; line-height: 1.25; }
+.page .orientationItem p { margin-block: .85rem 1rem; }
+.page .orientationItem a { margin-top: auto; color: #003865; text-underline-offset: .25em; }
+.page .welcomeNote { border: 0; border-left: 4px solid #003865; border-radius: 0 1rem 1rem 0; background: #f7f5f0; }
+.page .groupReferences { gap: 1.25rem; }
+.page .groupReferences > article { display: flex; flex-direction: column; background: #fff; border: 1px solid #d4dce0; border-top: 3px solid #003865; padding: 1.6rem; }
+.page .groupReferences h3 { color: #003865; font-size: 1.4rem; }
+.page .groupReferences a { margin-top: auto; font-weight: 600; }
+.page .statewide { background: #f7f5f0; border: 1px solid #deddd3; }
+.page .statewide ul { column-gap: 2rem; row-gap: 0; }
+.page .statewide li { padding: 1rem 0; border-radius: 0; border-top: 1px solid #d9dbd2; background: transparent; font-weight: 600; }
+.page .communityDoor { border: 1px solid #d4dce0; border-left: 4px solid #003865; border-radius: 0 1rem 1rem 0; background: #f7f5f0; padding: 1.5rem 1.75rem; }
+.page .communityDoor p { max-width: 55rem; margin: .75rem 0 0; line-height: 1.75; }
+.page .communityDoor h2 { color: #003865; }
+.page .doorList { column-gap: 3rem; row-gap: 1rem; }
+.page .doorList li { padding-top: 1.5rem; padding-bottom: 1rem; }
+.page .doorList h3 { font-size: 1.35rem; color: #003865; }
+.page .doorList p { line-height: 1.75; margin: .75rem 0; }
+.page .programList { display: block; }
+.page .programList > li { display: grid; grid-template-columns: minmax(0,.75fr) minmax(0,1.25fr); column-gap: 3rem; row-gap: 1rem; padding: 2rem 0; }
+.page .programList > li > :is(h3,h4) { grid-column: 1; margin: 0; }
+.page .programList > li > :is(p,ul) { grid-column: 2; margin-block: 0; line-height: 1.7; }
+.page .programList h3 { color: #003865; font-size: 1.4rem; }
+.page .programList h4 { font-size: .875rem; font-weight: 600; color: #435665; }
+.page .scenarioList { gap: 1.5rem 3rem; }
+.page .scenarioList li { padding-top: 1.25rem; }
+.page .scenarioList p { margin-top: .75rem; line-height: 1.75; }
+.page .readingPage > section, .page .scenarioStory > section { padding-block: 1.75rem; border-top: 1px solid #d4dce0; }
+.page .readingPage h2, .page .scenarioStory h2 { color: #003865; margin-bottom: 1rem; }
+.page .readingPage li, .page .scenarioStory li { margin-top: .65rem; line-height: 1.7; }
+.page .scenarioStory > section:first-child { border: 0; border-left: 4px solid #003865; border-radius: 0 1rem 1rem 0; background: #f7f5f0; padding: 1.75rem; }
+.page .labTopics { border-top: 1px solid #d4dce0; }
+.page .labTopics li { margin: 0; border-bottom: 1px solid #d4dce0; }
+.page .labTopics a { display: block; padding: 1.1rem .25rem; color: #003865; font-size: 1.125rem; text-underline-offset: .2em; }
+@media (min-width: 768px) {
+  .orientationDirectory { grid-template-columns: repeat(2,minmax(0,1fr)); }
+}
+@media (max-width: 767px) {
+  .page .hero { border-radius: 1rem; }
+  .page .hero::before { left: 1.5rem; }
+  .sectionNav { gap: .25rem; }
+  .sectionNav a { padding-inline: .6rem; }
+  .page .conversationBand > div:last-child { border-left: 0; border-top: 1px solid #d9e1e6; padding: 1.5rem 0 0; }
+  .connectionGrid { grid-template-columns: minmax(0,1fr); gap: .75rem; }
+  .connectionArrow { transform: rotate(90deg); min-height: 2rem; }
+  .page .programList > li { display: block; padding-block: 1.5rem; }
+  .page .programList > li > :is(p,h4,ul) { margin-top: 1rem; }
+}
+@media (max-width: 1023px) {
+  .page .learningCycle > article:nth-child(3) { border-left: 0; }
+  .page .learningCycle > article:nth-child(n+3) { border-top: 1px solid #cbd6dd; }
+}
+@media (max-width: 639px) {
+  .page .learningCycle > article + article { border-left: 0; border-top: 1px solid #cbd6dd; }
+}
+@media (forced-colors: active) {
+  .page .hero::before { background: CanvasText; }
+  .sectionNav a[aria-current="page"] { outline: 1px solid CanvasText; }
+}

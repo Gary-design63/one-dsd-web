@@ -1,0 +1,3419 @@
+THEMATIC RESOURCE ACCOUNTING
+Consultant review only — 6 September 2026
+
+Read "Thematic resource map.txt" for interpretation and limitations.
+Original titles and identifiers are retained. Sections A, B, C, and D are overlapping accounting views, not additive unique-resource counts.
+
+
+======================================================================
+Equity foundations, anti-racism, and structural change
+======================================================================
+
+A. SOURCE LEDGER ENTRIES
+
+Family: Equity Analysis and Institutional Change (equity-analysis-and-institutional-change) — 99 ledger entries
+Receipt: CORPUS-V2-0005 | Asset: 272f48f5-fe6d-4881-a130-09962038aee0
+Title: A Practical Approach to Implicit Bias Training
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0018 | Asset: 7556aea7-c16e-418c-ac53-4d91d63e6322
+Title: Advancing Equity in Disability Services: Understanding and Applying the DHS Equity Analysis Toolkit
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0024 | Asset: 2a508409-998c-4c15-aac9-4ca50f30d081
+Title: Allyship and Being an Upstander
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0028 | Asset: course-domain-b-beginner-03-anti-bias-privilege-html
+Title: Anti-Bias Practice & Privilege
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0029 | Asset: e2ddb5e3-4420-4bfc-90df-ea25e60dfa60
+Title: Anti-Racism: Foundations for Our Work
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0030 | Asset: a1b671ad-de69-4a92-9e1a-cc80cc131edc
+Title: Applied Methods and Strategies
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0031 | Asset: 0cd9003c-dd7a-4594-85ae-6482709da6b1
+Title: Applying the DHS Equity Analysis Toolkit: A Guide for Antiracist Practice
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0044 | Asset: 874517b8-df04-4fac-93f5-7e95a825084b
+Title: Bias and Assumption Pause Card
+Recorded decision: active_retain; recorded audience: staff
+
+Receipt: CORPUS-V2-0076 | Asset: d3fa914b-18f3-4c45-a4ab-569b5e4b1ec5
+Title: Counter-Norms and Culture Change
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0078 | Asset: course-domain-b-advanced-03-critical-frameworks-equity-html
+Title: Critical Frameworks for Racial Equity
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0088 | Asset: eb52ce10-7a6f-4a68-9920-24a83f9d9ba7
+Title: Culture as the Foundation of Equity Work
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0089 | Asset: a2c1ed36-0b5c-40fe-93ea-04441f9fd4cd
+Title: Data Equity and Protecting Small Numbers
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0093 | Asset: e661c069-3b07-45ec-a14a-d89b28c61af7
+Title: DEIA Assessment Tools and Surveys
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0094 | Asset: d2d08b4f-58c2-4370-a05f-4b0babe75dc1
+Title: DEIA Glossary
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0095 | Asset: 07589aa6-9bde-49b7-8cfc-c03c19f26862
+Title: DEIA Practice Self-Assessment
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0096 | Asset: course-domain-a-advanced-04-deinstitutionalization-quality-html
+Title: Deinstitutionalization & Quality Community Services
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0115 | Asset: 15b87c30-f42f-414f-9b3e-f6633e8aee41
+Title: Dominant Cultural Norms: Scenario and Case Library
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0123 | Asset: 813fd1f1-795d-42cc-9930-9893c36bfd45
+Title: EAT and Cascade Traceability — Connecting Walk-Throughs to DSD Goals, ADSA Strategy, and DHS Outcomes
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0124 | Asset: dcbf3c05-a5fc-4d2b-936e-0c0013dfd50b
+Title: EAT Overview Walk-Through — What the Equity Analysis Toolkit Is and How It Works
+Recorded decision: active_retain; recorded audience: staff
+
+Receipt: CORPUS-V2-0125 | Asset: 60e4f6f9-c930-4600-a6b5-6ae6ca0f601a
+Title: EAT Step 1 Walk-Through — Frame the Decision/Issue
+Recorded decision: active_retain; recorded audience: staff
+
+Receipt: CORPUS-V2-0126 | Asset: 7d0e4aac-7402-4f97-b69a-5b0f9865df90
+Title: EAT Step 2 Walk-Through — Gather Data and Engage Community
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0127 | Asset: 723cefd4-2aa1-42ad-b81f-08bfc17542a1
+Title: EAT Step 3 Walk-Through — Identify Burdens, Benefits, and Disparities
+Recorded decision: active_retain; recorded audience: staff
+
+Receipt: CORPUS-V2-0128 | Asset: ab90cad5-35e1-4741-b9ef-779938c5d12c
+Title: EAT Step 4 Walk-Through — Explore Strategies and Options
+Recorded decision: active_retain; recorded audience: staff
+
+Receipt: CORPUS-V2-0129 | Asset: 22f16ce7-3341-45bc-8644-5497bd58ad61
+Title: EAT Step 5 Walk-Through — Implementation Planning
+Recorded decision: active_retain; recorded audience: staff
+
+Receipt: CORPUS-V2-0130 | Asset: ea9675a2-f766-4231-9eaa-624ec5cd7cb0
+Title: EAT Step 6 Walk-Through — Monitor, Evaluate, Adjust
+Recorded decision: active_retain; recorded audience: staff
+
+Receipt: CORPUS-V2-0132 | Asset: b72fc7d8-1f32-4d68-9203-6f08e9c98da6
+Title: Employee Resource Groups (ERGs)
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0139 | Asset: d5436d38-a7d4-42b3-b175-f7de7f65a252
+Title: Equity Across the Employee Life Cycle
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0140 | Asset: c499990e-14df-4bd1-85bb-ca6badfdb7e1
+Title: Equity and Inclusion: Foundations (Beginner)
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0141 | Asset: 27f00478-2d3c-456f-b2e3-19f5297ead22
+Title: Equity and Inclusion: Knowledge Checks
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0143 | Asset: 7c2bce76-b50b-4dec-b09f-426c0d4956c8
+Title: Equity and Inclusion: Practice (Intermediate)
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0144 | Asset: 5d168dc2-864d-4ea9-863f-eae439ca474a
+Title: Equity and Inclusion: Scenario and Case Library
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0146 | Asset: de986694-166d-43f1-87a1-6abb8c3b4419
+Title: Equity Decision Pause Tool
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0147 | Asset: 1bf36789-479e-46b5-8346-a0ac6176a9d7
+Title: Equity in Contracts and Procurement
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0148 | Asset: 47edb79f-c016-4b87-8158-cb4714975434
+Title: Equity in Meetings and Facilitation
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0149 | Asset: 5a7e2022-ffc5-4f7e-8b8e-f19ea7e9bc1d
+Title: Equity in Remote and Hybrid Work
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0150 | Asset: bbc570b2-2a5f-4745-8636-d1457d0b8ece
+Title: Equity Review Checklist
+Recorded decision: active_retain; recorded audience: staff
+
+Receipt: CORPUS-V2-0151 | Asset: 79a9f884-994d-486d-8c58-a41b405ef047
+Title: Equity Scenario Lab
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0152 | Asset: 7a66942e-2c5c-401d-aa37-e319b2419e4a
+Title: Equity vs. Equality Explainer
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0161 | Asset: 8a5474b5-9041-4c00-97ea-ca22112357ef
+Title: Facilitator's Guide: Leading the Dominant Cultural Norms and Equity Curriculum
+Recorded decision: internal_reclassify; recorded audience: consultant
+
+Receipt: CORPUS-V2-0162 | Asset: a628d99a-2928-4a82-ad4f-6b43b207830d
+Title: Facilitator's Guide: Leading the Equity and Inclusion Curriculum
+Recorded decision: internal_reclassify; recorded audience: consultant
+
+Receipt: CORPUS-V2-0165 | Asset: 61221e25-090f-457b-baac-40534ca9d8f1
+Title: Facilitator's Guide: Leading the Racism, Anti-Racism, and Multiculturalism Curriculum
+Recorded decision: internal_reclassify; recorded audience: consultant
+
+Receipt: CORPUS-V2-0179 | Asset: e0b24ee8-c875-4290-a6d6-f5d64f03fb0f
+Title: From Non-Racist to Anti-Racist: Practice
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0191 | Asset: edb84d7d-9c7c-402c-b2cd-9a7cc84473b2
+Title: Health Equity Resources (CDC Foundation)
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0201 | Asset: 2b6bc3e5-90f2-421a-9efb-ba81cbe8a33c
+Title: How Norms Produce Inequity
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0205 | Asset: course-domain-b-advanced-01-implicit-bias-html
+Title: Implicit Bias
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0206 | Asset: b441eebe-48da-4627-bb49-73664787a14f
+Title: Implicit Bias and How It Operates
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0208 | Asset: 0d59ee9c-46be-45c9-99a9-a5a83c8eabfb
+Title: Inclusion and Belonging Guide
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0237 | Asset: d6d41824-1877-4277-ac15-e055ced5258c
+Title: Kirwan Institute Implicit Bias Module Series
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0239 | Asset: be59da3f-871d-4cab-8ee7-74f76a87a730
+Title: Know Your Rights: Workplace Discrimination Is Illegal (EEOC)
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0272 | Asset: b374557e-1df1-408b-be26-585fcc8c66bd
+Title: Microaggressions and Repair
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0280 | Asset: 99bad66a-06c8-46ed-b2ea-c18ca6dd44b2
+Title: Multiculturalism, Pluralism, and Belonging
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0282 | Asset: a722fa81-834d-4aab-8590-f7e59223e04a
+Title: Naming the Norms
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0286 | Asset: 9f6b44ab-a749-41d2-9cac-e8b67985e186
+Title: New Employee Orientation to the Disability Services Division
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0287 | Asset: 35bdb0ad-4fd4-4757-bdb9-97e20f1b87ec
+Title: New Staff Orientation: Welcome to the Equity Ecosystem
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0297 | Asset: a78f9fbf-1c24-4019-883b-89954aee4a8e
+Title: Onboarding, Belonging, and Everyday Inclusion
+Recorded decision: internal_reclassify; recorded audience: consultant
+
+Receipt: CORPUS-V2-0298 | Asset: 930bba8f-6560-40aa-9ada-3837fa4803e6
+Title: One DSD DEIA Library Orientation
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0325 | Asset: 10a897bb-699d-4856-a63a-d209a86112d5
+Title: Project Implicit: Take an Implicit Association Test
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0331 | Asset: 1fac8ab1-b475-4211-a61b-e776a92a850f
+Title: Racial Equity Tools
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0332 | Asset: f4e50788-bf82-4f62-a333-cce93c66bd99
+Title: Racism and Health (CDC)
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0333 | Asset: course-featured-racism-in-america-html
+Title: Racism in America
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0344 | Asset: 92c61683-2ae8-4a40-aec7-1512dcc7fc61
+Title: Recommended Reading: Advancing Equity in Disability Services: Understanding and Applying the DHS Equity Analysis Toolkit
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0345 | Asset: b1e64ed8-fbdd-4f2c-be12-a740aa664681
+Title: Recommended Reading: Applying the DHS Equity Analysis Toolkit: A Guide for Antiracist Practice
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0349 | Asset: b7eeb60d-1fc1-4495-9a86-76834766f205
+Title: Recommended Reading: Culture as the Foundation of Equity Work
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0352 | Asset: 8e061769-0b9b-4517-a238-b2c0144abfa7
+Title: Recommended Reading: Equity & Antiracist Practice
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0353 | Asset: 08a8f923-764b-4ed9-9945-450fa306ec91
+Title: Recommended Reading: Equity Across the Employee Life Cycle
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0354 | Asset: de92cc26-b6f6-4483-8e31-928778604a02
+Title: Recommended Reading: Equity Across the Employee Life Cycle
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0359 | Asset: 53f117eb-8aa5-47da-8666-7c16d2393686
+Title: Recommended Reading: Facilitator's Guide: Leading the Racism, Anti-Racism, and Multiculturalism Curriculum
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0363 | Asset: ea6630c1-df1c-4a38-81de-f3aeec8e29f4
+Title: Recommended Reading: From Non-Racist to Anti-Racist: Practice
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0372 | Asset: e5896831-b41b-4336-a19a-e21d8cf91569
+Title: Recommended Reading: Multiculturalism, Pluralism, and Belonging
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0373 | Asset: 5c6f4469-1824-4a57-a2f4-fb3e99959273
+Title: Recommended Reading: New Staff Orientation: Welcome to the Equity Ecosystem
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0374 | Asset: b6a71d5e-94d0-4f1e-8616-647c33657b73
+Title: Recommended Reading: New Staff Orientation: Welcome to the Equity Ecosystem
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0375 | Asset: 958dca6e-58a4-4a2f-a631-6b36923934ae
+Title: Recommended Reading: Racism, Anti-Racism & Multiculturalism
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0377 | Asset: 0883cb67-6263-481d-8e59-45a685523013
+Title: Recommended Reading: Sustaining the Work
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0379 | Asset: b638eadf-b1fc-4fd4-88fe-68de3d214779
+Title: Recommended Reading: The Institutional Level: Policies and Systems
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0380 | Asset: aad9ebf8-5382-4900-a956-5dd6b7513ebd
+Title: Recommended Reading: The Interpersonal Level: Everyday Encounters
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0381 | Asset: b3447d6c-c4ae-45b4-8bc4-17957cc41ee3
+Title: Recommended Reading: The Personal Level: Identity and Internalized Racism
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0382 | Asset: b3710c08-933c-4d9a-80af-db66fe1c42c1
+Title: Recommended Reading: The Structural and Societal Level: History and the Air We Breathe
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0383 | Asset: 43846b22-67f5-46c6-9bd0-61d80461daee
+Title: Recommended Reading: Understanding Racism: A Shared Foundation
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0384 | Asset: 629cf9e0-8f92-4690-b046-f43d4a9790cc
+Title: Redesigning Systems and Policies
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0392 | Asset: 14672c27-fa2e-4110-a861-fb7b6c4bafb0
+Title: Retention and Belonging
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0447 | Asset: 421a1743-8580-4ab8-974f-44baadca88e4
+Title: Seeing the Water: What Dominant Cultural Norms Are
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0451 | Asset: 0bc7f554-4d3b-4b16-9a6d-f2094c916654
+Title: Self-Care and Sustainability for Equity Practitioners
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0470 | Asset: b4370203-b594-4722-9fbd-a6b86b0b851d
+Title: Surfacing and Assessing Inequities
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0472 | Asset: 51af3d06-3bb9-40e9-8b65-e7c47cce5303
+Title: Sustaining the Work
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0473 | Asset: 6b6d6b9d-46fb-4d87-bbbe-140915dc42aa
+Title: Sustaining the Work and Accountability
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0480 | Asset: f303f6c3-b1be-4f4e-8676-db94f762eeb7
+Title: The Equity Lens Needs Assessment
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0483 | Asset: 216206fa-55d3-4baa-907c-6a2204c2e1a6
+Title: The History That Shaped Disparities
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0485 | Asset: fce9e3b5-9b28-400a-9572-12488c5e7020
+Title: The Institutional Level: Policies and Systems
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0488 | Asset: 37e3424a-4039-46a6-bbcc-996f3432cc7e
+Title: The Interpersonal Level: Everyday Encounters
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0492 | Asset: edb37d0a-ce30-4f94-8cee-fc1953a28e4f
+Title: The Personal Level: Identity and Internalized Racism
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0493 | Asset: 501ca48a-55dc-4236-922f-93ebae510816
+Title: The Structural and Societal Level: History and the Air We Breathe
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0497 | Asset: a31d0b38-3939-4454-92b8-20016a0af3a0
+Title: The Two Tracks — Equity Analysis vs. Equity Scan
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0515 | Asset: ae849b8b-029e-4b26-896b-dd7eb8e2df3f
+Title: Understanding Racism: A Shared Foundation
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0519 | Asset: 5da9c7fc-d5db-4f7c-a0ac-e8ef4b446e1a
+Title: Using the Equity Analysis Toolkit: A Staff Walkthrough
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0522 | Asset: 7a17b882-8c7f-4518-afc0-f4479bf90cec
+Title: Video: Equity at Every Stage (The Employee Life Cycle)
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0539 | Asset: aee94cc5-be01-42a0-8420-bcd8fe2e922e
+Title: Worked Example — Communication and Outreach Decision Walk-Through
+Recorded decision: active_retain; recorded audience: staff
+
+Receipt: CORPUS-V2-0540 | Asset: 4dbd4e45-5ca9-429c-9db9-b2d217ac5c6d
+Title: Worked Example — Policy and Procedure Decision Walk-Through
+Recorded decision: active_retain; recorded audience: staff
+
+Receipt: CORPUS-V2-0541 | Asset: 8ea9ca5f-27c8-4504-898a-61d3a55ea5ca
+Title: Worked Example — Service Design Decision Walk-Through
+Recorded decision: active_retain; recorded audience: staff
+
+Receipt: CORPUS-V2-0549 | Asset: 4825031d-b541-456c-8d50-de276b4d14fe
+Title: Workplace Harassment (EEOC)
+Recorded decision: component_merge; recorded audience: staff
+
+B. RECOVERED COURSE RECORDS — proposed primary placement
+Course: anti-racism-resource
+Title: Anti-Racism as Ordinary Work
+Suggested thematic connections: Accessibility, language access, and communication; Rights, policy, and formal responsibilities; Leadership, organizational change, and improvement. These are theme-level suggestions, not verified per-course graph edges.
+
+Course: outcomes-not-intentions
+Title: Outcomes, Not Intentions
+Suggested thematic connections: Accessibility, language access, and communication; Rights, policy, and formal responsibilities; Leadership, organizational change, and improvement. These are theme-level suggestions, not verified per-course graph edges.
+
+Course: how-it-shows-up-in-minnesota-human-services
+Title: How It Shows Up in Minnesota Human Services
+Suggested thematic connections: Accessibility, language access, and communication; Rights, policy, and formal responsibilities; Leadership, organizational change, and improvement. These are theme-level suggestions, not verified per-course graph edges.
+
+Course: the-record
+Title: The Record
+Suggested thematic connections: Accessibility, language access, and communication; Rights, policy, and formal responsibilities; Leadership, organizational change, and improvement. These are theme-level suggestions, not verified per-course graph edges.
+
+Course: dhs-equity-analysis-toolkit
+Title: DHS Equity Analysis Toolkit
+Suggested thematic connections: Accessibility, language access, and communication; Rights, policy, and formal responsibilities; Leadership, organizational change, and improvement. These are theme-level suggestions, not verified per-course graph edges.
+
+C. CURRENT SEED RECORDS — retained
+Seed: pn-partnership-spine
+Title: Six commitments for working in partnership
+
+Seed: pn-embed-early
+Title: Building equity into an idea while it takes shape
+
+Seed: ja-launch-embed-checklist
+Title: Equity and access checklist for new work
+
+Seed: ja-process-burden
+Title: Questions about the steps, time, and effort a process requires
+
+Seed: ja-equity-impact-questions
+Title: Equity impact questions for policy, budget, technology, and procurement
+
+Seed: pn-equity-in-practice
+Title: Equity in Practice: six perspectives and seven questions
+
+Seed: ext-dhs-equity-toolkit
+Title: DHS Equity Analysis Toolkit
+
+D. NESTED FAMILY ENTRIES — relationship view, not additional assets
+
+Family: Equity Analysis and Institutional Change; nested entries: 13
+Nested asset: 874517b8-df04-4fac-93f5-7e95a825084b
+Title: Bias and Assumption Pause Card
+Recorded type: job_aid; status: retain
+
+Nested asset: 813fd1f1-795d-42cc-9930-9893c36bfd45
+Title: EAT and Cascade Traceability — Connecting Walk-Throughs to DSD Goals, ADSA Strategy, and DHS Outcomes
+Recorded type: job_aid; status: revision_required
+
+Nested asset: dcbf3c05-a5fc-4d2b-936e-0c0013dfd50b
+Title: EAT Overview Walk-Through — What the Equity Analysis Toolkit Is and How It Works
+Recorded type: job_aid; status: retain
+
+Nested asset: 60e4f6f9-c930-4600-a6b5-6ae6ca0f601a
+Title: EAT Step 1 Walk-Through — Frame the Decision/Issue
+Recorded type: job_aid; status: retain
+
+Nested asset: 7d0e4aac-7402-4f97-b69a-5b0f9865df90
+Title: EAT Step 2 Walk-Through — Gather Data and Engage Community
+Recorded type: job_aid; status: revision_required
+
+Nested asset: 723cefd4-2aa1-42ad-b81f-08bfc17542a1
+Title: EAT Step 3 Walk-Through — Identify Burdens, Benefits, and Disparities
+Recorded type: job_aid; status: retain
+
+Nested asset: ab90cad5-35e1-4741-b9ef-779938c5d12c
+Title: EAT Step 4 Walk-Through — Explore Strategies and Options
+Recorded type: job_aid; status: retain
+
+Nested asset: 22f16ce7-3341-45bc-8644-5497bd58ad61
+Title: EAT Step 5 Walk-Through — Implementation Planning
+Recorded type: job_aid; status: retain
+
+Nested asset: ea9675a2-f766-4231-9eaa-624ec5cd7cb0
+Title: EAT Step 6 Walk-Through — Monitor, Evaluate, Adjust
+Recorded type: job_aid; status: retain
+
+Nested asset: bbc570b2-2a5f-4745-8636-d1457d0b8ece
+Title: Equity Review Checklist
+Recorded type: job_aid; status: retain
+
+Nested asset: aee94cc5-be01-42a0-8420-bcd8fe2e922e
+Title: Worked Example — Communication and Outreach Decision Walk-Through
+Recorded type: job_aid; status: retain
+
+Nested asset: 4dbd4e45-5ca9-429c-9db9-b2d217ac5c6d
+Title: Worked Example — Policy and Procedure Decision Walk-Through
+Recorded type: job_aid; status: retain
+
+Nested asset: 8ea9ca5f-27c8-4504-898a-61d3a55ea5ca
+Title: Worked Example — Service Design Decision Walk-Through
+Recorded type: job_aid; status: retain
+
+
+======================================================================
+Intercultural practice and community understanding
+======================================================================
+
+A. SOURCE LEDGER ENTRIES
+
+Family: Intercultural Practice and Cultural Humility (intercultural-practice) — 19 ledger entries
+Receipt: CORPUS-V2-0033 | Asset: course-domain-b-intermediate-03-assessing-ic-html
+Title: Assessing & Developing Intercultural Competence
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0049 | Asset: course-domain-b-beginner-04-intercultural-awareness-html
+Title: Building Intercultural Awareness
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0083 | Asset: course-domain-b-intermediate-01-cultural-competence-health-html
+Title: Cultural Competence in Health Care
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0086 | Asset: 60b083cd-57e6-4349-8669-014d1ba0577a
+Title: Cultural Humility in Practice
+Recorded decision: active_revise; recorded audience: staff
+
+Receipt: CORPUS-V2-0092 | Asset: course-domain-b-advanced-02-decolonizing-practice-html
+Title: Decolonizing Practice
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0100 | Asset: 3d7b37b1-4d19-4157-a1dc-cc4bf718c4b3
+Title: Disability and Race Together
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0175 | Asset: course-domain-b-beginner-01-ic-foundations-html
+Title: Foundations of Intercultural Competence
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0178 | Asset: 146c2df5-d302-4c7b-82c7-f169efe33e49
+Title: From Minimization to Adaptation: Growing an Intercultural Organization
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0214 | Asset: c8c25124-761b-4e3d-aee4-726f75f4ccb4
+Title: Intercultural Communication in Practice
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0215 | Asset: course-domain-b-advanced-04-ic-research-practice-html
+Title: Intercultural Competence: Research & Practice
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0217 | Asset: course-domain-b-advanced-05-intercultural-learning-methods-html
+Title: Intercultural Learning Methods
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0218 | Asset: course-domain-b-intermediate-04-intercultural-practice-supervision-html
+Title: Intercultural Practice & Supervision
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0222 | Asset: 8d4f4906-62a9-4866-919e-b511b51243f4
+Title: Intersectionality in Practice
+Recorded decision: active_revise; recorded audience: staff
+
+Receipt: CORPUS-V2-0251 | Asset: 466047c6-1160-4d9b-ae01-9e8559bbdea1
+Title: Leading and Sustaining Culture Change
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0285 | Asset: course-domain-b-intermediate-02-intercultural-conflict-html
+Title: Navigating Intercultural Conflict
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0362 | Asset: 4760f115-5c11-42c7-8c3a-eb513eee34ae
+Title: Recommended Reading: From Minimization to Adaptation: Growing an Intercultural Organization
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0365 | Asset: 09e828ee-35ae-4a7c-b455-830f4421accb
+Title: Recommended Reading: Intercultural Communication in Practice
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0369 | Asset: 6f413337-2ba5-40df-8bf8-1327c006be88
+Title: Recommended Reading: Leading and Sustaining Culture Change
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0554 | Asset: asset-cultural-humility
+Title: Cultural Humility Core Practices
+Recorded decision: active_revise; recorded audience: staff
+
+
+Family: Community Context and Cultural Briefs (community-cultural-context) — 75 ledger entries
+Receipt: CORPUS-V2-0019 | Asset: aa02102f-4f20-4890-b7cd-94593764b536
+Title: Afghan Cultural Brief
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0020 | Asset: 06e0ea8a-3ada-47ed-87b2-c9d90dc8157b
+Title: African American Cultural Brief
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0021 | Asset: 23fe1546-9991-4c8b-8ec5-777b33ac3521
+Title: African Immigrants (Overview) Cultural Brief
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0023 | Asset: 4de1600d-b528-48c0-9a24-85f548756dff
+Title: Alaska Native General-Awareness Cultural Brief
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0032 | Asset: 19b90510-6350-40b4-af72-93d7b61eef04
+Title: Arab and Middle Eastern Cultural Brief
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0035 | Asset: 17ecba9e-ab5c-46b1-81b2-5d9de19c252c
+Title: Authentic Community Engagement
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0036 | Asset: 3c99fed2-963b-4013-a41f-8f4ca68af5ec
+Title: Authentic Community Engagement Foundations
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0038 | Asset: 9e7c10ab-573d-4012-a326-a88a6b32c068
+Title: Bangladeshi Cultural Brief
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0043 | Asset: 770ef4c3-1ec0-4c40-b7ac-3cd6b76a62d1
+Title: Bhutanese and Nepali Cultural Brief
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0046 | Asset: 8e343fdb-588f-413d-adae-757a353031dd
+Title: Buddhist Communities Cultural Brief
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0051 | Asset: cb7c1eb2-ad7c-4c45-a4ee-402420e4a7c7
+Title: Burmese Communities Cultural Brief
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0054 | Asset: dce545eb-f6c3-4201-a88d-a974d7ca59c9
+Title: Cambodian Cultural Brief
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0055 | Asset: a97e9b17-0415-45ed-8c74-801b629eb578
+Title: Cameroonian Cultural Brief
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0062 | Asset: 902bc337-35d0-4bee-803f-9ba08cac508d
+Title: Chinese Cultural Brief
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0063 | Asset: aeb922aa-a5e8-4e26-a8d7-df98ccff249c
+Title: Christian Communities Cultural Brief
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0069 | Asset: 94ddb235-bc6b-417f-8d12-973eb6f8ec30
+Title: Community Engagement Done Well
+Recorded decision: active_revise; recorded audience: staff
+
+Receipt: CORPUS-V2-0070 | Asset: 33a94d6e-21bb-496c-a506-88784b3c8efa
+Title: Community Engagement Plan Outline
+Recorded decision: active_revise; recorded audience: staff
+
+Receipt: CORPUS-V2-0072 | Asset: 7e8aaf88-551b-4cfb-8d23-e0c1928caf21
+Title: Community Living and Olmstead
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0081 | Asset: 5c91b16e-2559-41cd-9fe9-22a93e391f62
+Title: Cuban Cultural Brief
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0122 | Asset: 57ace2bd-2ce1-48fa-ba66-e6cc0d5076d5
+Title: East African Communities Cultural Brief
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0154 | Asset: 5fa7ee4f-4a1c-4c9f-bcc3-8e28dfffddec
+Title: Eritrean Cultural Brief
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0155 | Asset: 99fd9b70-1787-4e0b-9228-0e4909126299
+Title: Ethiopian and Amhara Cultural Brief
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0171 | Asset: c7b13bea-7756-4556-9ca8-5b56bfb80d43
+Title: Filipino Cultural Brief
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0176 | Asset: 2361c5a3-588b-4062-8e6e-b993f2516ec8
+Title: French Cultural Brief
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0180 | Asset: 541d9554-81ed-4ac8-8b1e-a0fc749acdc1
+Title: German Cultural Brief
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0181 | Asset: 907d1d6d-676b-40b2-9277-5f5ab5ced14c
+Title: Ghanaian Cultural Brief
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0185 | Asset: d257433d-0f00-4668-aa75-60ffb0303908
+Title: Guatemalan Cultural Brief
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0187 | Asset: a8a25869-aa39-402a-a554-3daf92f883d2
+Title: Haitian Cultural Brief
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0193 | Asset: dd2bb29b-2322-459c-9194-b1c27436abe5
+Title: Hindu Communities Cultural Brief
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0196 | Asset: 91a26c4e-5625-4290-bd99-177153eec956
+Title: Hmong Cultural Brief
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0199 | Asset: d50509c3-4de9-482d-99a4-bf88ecd4a471
+Title: Honduran Cultural Brief
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0212 | Asset: 8422af55-ce35-4ed5-a165-6f1e0c7ca4f4
+Title: Indian Cultural Brief
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0224 | Asset: cac4730e-9e2c-4917-a67b-760bf78197ff
+Title: Irish Cultural Brief
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0227 | Asset: b3af7ac8-d82c-43a7-862c-2e4b1383b6e6
+Title: Italian Cultural Brief
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0228 | Asset: 17d070a8-5b22-4d54-b071-425d4ffad8d8
+Title: Jain Community Cultural Brief
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0229 | Asset: 2739ccfa-191e-4664-a040-a49dc21e9f86
+Title: Jamaican Cultural Brief
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0231 | Asset: 448e0ee2-73d6-4cc5-ab68-8ef05fc04e2f
+Title: Jewish Community Cultural Brief
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0235 | Asset: 5c6c718d-353a-4998-b060-b369e23e8d60
+Title: Karen Cultural Brief
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0236 | Asset: c17eed0c-f77f-48ba-bfa6-254adbb940a6
+Title: Kenyan Cultural Brief
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0240 | Asset: fc333b6a-55f8-4d13-bb5e-6d5be55e7850
+Title: Korean General-Awareness Cultural Brief
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0244 | Asset: 889e4660-9514-44a7-98b0-9e595b38792f
+Title: Lao Cultural Brief
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0245 | Asset: a7d07ed3-5c71-45c9-9675-c3ff6b3c650b
+Title: Latine and Hispanic Communities Cultural Brief
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0254 | Asset: 2c18db9e-c97d-4b05-963e-c4947f4bdc9c
+Title: LGBTQ+ Cultural Brief
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0255 | Asset: a0bd257e-4520-4de8-b658-2cfc606e6336
+Title: Liberian Cultural Brief
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0271 | Asset: 8c8be32e-9cda-40de-8408-b6d829726081
+Title: Mexican / Mexican American Cultural Brief
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0281 | Asset: f9f64ddf-0d74-4cc6-8784-de73505033d2
+Title: Muslim Communities Cultural Brief
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0288 | Asset: 9eeff489-5b4c-4409-b945-e2f78667d649
+Title: Nigerian Cultural Brief
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0289 | Asset: 9645d1a7-e8c0-466e-9bd1-f0eaa509dea9
+Title: North Sudanese Cultural Brief
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0290 | Asset: 6900ba70-02e0-48c6-8022-435ff4a4b976
+Title: Office of Refugee Resettlement
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0291 | Asset: 67d99c52-ea27-4745-b8a8-4281eecc3cdb
+Title: Olmstead and the Right to Community Living
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0292 | Asset: course-domain-a-intermediate-02-olmstead-community-living-html
+Title: Olmstead and the Right to Community Living
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0303 | Asset: f7b19dcc-f78d-41e6-9dcb-bfcebb72c3c9
+Title: Oromo Cultural Brief
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0304 | Asset: 38e4f06f-99d7-4063-b11a-b7a6b4dd2adf
+Title: ORR Network Resources
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0305 | Asset: 77d0b3e9-e910-414c-90a3-654dc92ecdd3
+Title: Pacific Islander Cultural Brief
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0306 | Asset: de727699-9f1e-4a0e-b5f5-de4c6848bbbc
+Title: Pakistani Cultural Brief
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0321 | Asset: 70614426-bd62-4b7d-818e-4c960d01d425
+Title: Polish Cultural Brief
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0324 | Asset: 26954843-5781-4860-bfea-b0d03112883d
+Title: Principles of Community Engagement (CDC)
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0346 | Asset: 84565424-a8cf-464c-86b8-a2fa3d7e686c
+Title: Recommended Reading: Authentic Community Engagement
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0395 | Asset: 4936f71e-7bf6-4471-b7d0-ba02090ab7ba
+Title: Russian Cultural Brief
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0396 | Asset: d95b3f40-be29-4579-9391-077dc9f03b0f
+Title: Salvadoran Cultural Brief
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0398 | Asset: ec87a6e0-3699-4f42-9fd0-c7adc396225f
+Title: Scandinavian Cultural Brief
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0458 | Asset: 814be4ed-625c-4483-8454-e7d94cad7d0a
+Title: Sikh Community Cultural Brief
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0460 | Asset: 30cbfc5b-6f8d-4448-813c-2f78e582a076
+Title: Somali Cultural Brief
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0461 | Asset: ad24d7c3-7a5d-4eb2-9d08-6e9244676ee5
+Title: South American Cultural Brief
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0462 | Asset: ecc76de8-6e38-4d74-9349-95d014c97840
+Title: South Sudanese Cultural Brief
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0474 | Asset: 06343ab3-2e8f-4793-a907-0dc85b53ab92
+Title: Switchboard: Refugee Services Resource Hub
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0500 | Asset: ec5021e2-4ed6-4345-9845-209a2d6c7d34
+Title: Tibetan Cultural Brief
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0501 | Asset: 03725733-dc0d-4f63-b0a8-486f50e912b5
+Title: Tigrayan Cultural Brief
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0510 | Asset: 5da80252-6fc0-415e-b29c-5f9717134c6a
+Title: Trinidadian Cultural Brief
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0512 | Asset: d6361e5f-119d-4910-b364-f7ef23a82ee7
+Title: Ukrainian Cultural Brief
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0517 | Asset: 8f8a9576-0dba-4e9a-94de-613d44d1332d
+Title: USA Cultural Baseline Cultural Brief
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0518 | Asset: c24eef6a-2bc2-4e3a-9a53-e4428f90b642
+Title: Using Cultural Briefs: A Starting Point, Not the Last Word
+Recorded decision: active_revise; recorded audience: staff
+
+Receipt: CORPUS-V2-0526 | Asset: a7aa221e-0869-4f9a-b6a2-4044570db001
+Title: Vietnamese Cultural Brief
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0534 | Asset: 8151ab53-5e91-48be-aac2-67c70b0c58b9
+Title: Welcoming Refugee and Immigrant Communities
+Recorded decision: active_revise; recorded audience: staff
+
+Receipt: CORPUS-V2-0546 | Asset: course-domain-e-intermediate-07-refugee-immigrant-communities-html
+Title: Working with Refugee & Immigrant Communities
+Recorded decision: component_merge; recorded audience: staff
+
+B. RECOVERED COURSE RECORDS — proposed primary placement
+Course: somali-minnesota-brief
+Title: Somali Minnesota — a Brief, not a Capsule
+Suggested thematic connections: Accessibility, language access, and communication; Disability, self-determination, and responsive services; Tribal sovereignty and government-to-government relationships. These are theme-level suggestions, not verified per-course graph edges.
+
+Course: cultural-humility-vs-checklist
+Title: Cultural Humility vs. a Checklist
+Suggested thematic connections: Accessibility, language access, and communication; Disability, self-determination, and responsive services; Tribal sovereignty and government-to-government relationships. These are theme-level suggestions, not verified per-course graph edges.
+
+Course: critical-incidents-in-the-work
+Title: Critical Incidents in the Work
+Suggested thematic connections: Accessibility, language access, and communication; Disability, self-determination, and responsive services; Tribal sovereignty and government-to-government relationships. These are theme-level suggestions, not verified per-course graph edges.
+
+Course: intercultural-conflict-styles
+Title: Intercultural Conflict Styles at a DHS Desk
+Suggested thematic connections: Accessibility, language access, and communication; Disability, self-determination, and responsive services; Tribal sovereignty and government-to-government relationships. These are theme-level suggestions, not verified per-course graph edges.
+
+Course: intercultural-competence-without-a-score
+Title: Intercultural Competence without a Score
+Suggested thematic connections: Accessibility, language access, and communication; Disability, self-determination, and responsive services; Tribal sovereignty and government-to-government relationships. These are theme-level suggestions, not verified per-course graph edges.
+
+Course: cultural-broker-as-a-role
+Title: Cultural Broker as a Role
+Suggested thematic connections: Accessibility, language access, and communication; Disability, self-determination, and responsive services; Tribal sovereignty and government-to-government relationships. These are theme-level suggestions, not verified per-course graph edges.
+
+Course: acceptance-in-dhs-work
+Title: Acceptance in DHS Work
+Suggested thematic connections: Accessibility, language access, and communication; Disability, self-determination, and responsive services; Tribal sovereignty and government-to-government relationships. These are theme-level suggestions, not verified per-course graph edges.
+
+Course: teams-in-minimization
+Title: Teams in Minimization
+Suggested thematic connections: Accessibility, language access, and communication; Disability, self-determination, and responsive services; Tribal sovereignty and government-to-government relationships. These are theme-level suggestions, not verified per-course graph edges.
+
+Course: from-noticing-to-shifting
+Title: From Noticing to Shifting
+Suggested thematic connections: Accessibility, language access, and communication; Disability, self-determination, and responsive services; Tribal sovereignty and government-to-government relationships. These are theme-level suggestions, not verified per-course graph edges.
+
+Course: what-minimization-does-in-dhs-work
+Title: What Minimization Does in DHS Work
+Suggested thematic connections: Accessibility, language access, and communication; Disability, self-determination, and responsive services; Tribal sovereignty and government-to-government relationships. These are theme-level suggestions, not verified per-course graph edges.
+
+Course: cultural-intelligence-american
+Title: Cultural intelligence: American culture
+Suggested thematic connections: Accessibility, language access, and communication; Disability, self-determination, and responsive services; Tribal sovereignty and government-to-government relationships. These are theme-level suggestions, not verified per-course graph edges.
+
+Course: cultural-intelligence-minnesota
+Title: Cultural intelligence: Minnesota culture
+Suggested thematic connections: Accessibility, language access, and communication; Disability, self-determination, and responsive services; Tribal sovereignty and government-to-government relationships. These are theme-level suggestions, not verified per-course graph edges.
+
+Course: cultural-intelligence-african-american
+Title: Cultural intelligence: African American Minnesota
+Suggested thematic connections: Accessibility, language access, and communication; Disability, self-determination, and responsive services; Tribal sovereignty and government-to-government relationships. These are theme-level suggestions, not verified per-course graph edges.
+
+Course: cultural-intelligence-somali
+Title: Cultural intelligence: Somali Minnesota
+Suggested thematic connections: Accessibility, language access, and communication; Disability, self-determination, and responsive services; Tribal sovereignty and government-to-government relationships. These are theme-level suggestions, not verified per-course graph edges.
+
+Course: cultural-intelligence-hmong
+Title: Cultural intelligence: Hmong Minnesota
+Suggested thematic connections: Accessibility, language access, and communication; Disability, self-determination, and responsive services; Tribal sovereignty and government-to-government relationships. These are theme-level suggestions, not verified per-course graph edges.
+
+Course: cultural-intelligence-amharic
+Title: Cultural intelligence: Amharic-speaking Minnesota
+Suggested thematic connections: Accessibility, language access, and communication; Disability, self-determination, and responsive services; Tribal sovereignty and government-to-government relationships. These are theme-level suggestions, not verified per-course graph edges.
+
+Course: cultural-intelligence-arabic
+Title: Cultural intelligence: Arabic-speaking Minnesota
+Suggested thematic connections: Accessibility, language access, and communication; Disability, self-determination, and responsive services; Tribal sovereignty and government-to-government relationships. These are theme-level suggestions, not verified per-course graph edges.
+
+Course: cultural-intelligence-bosnian
+Title: Cultural intelligence: Bosnian Minnesota
+Suggested thematic connections: Accessibility, language access, and communication; Disability, self-determination, and responsive services; Tribal sovereignty and government-to-government relationships. These are theme-level suggestions, not verified per-course graph edges.
+
+Course: cultural-intelligence-burmese
+Title: Cultural intelligence: Burmese Minnesota
+Suggested thematic connections: Accessibility, language access, and communication; Disability, self-determination, and responsive services; Tribal sovereignty and government-to-government relationships. These are theme-level suggestions, not verified per-course graph edges.
+
+Course: cultural-intelligence-cambodian
+Title: Cultural intelligence: Cambodian / Khmer Minnesota
+Suggested thematic connections: Accessibility, language access, and communication; Disability, self-determination, and responsive services; Tribal sovereignty and government-to-government relationships. These are theme-level suggestions, not verified per-course graph edges.
+
+Course: cultural-intelligence-chinese
+Title: Cultural intelligence: Chinese Minnesota
+Suggested thematic connections: Accessibility, language access, and communication; Disability, self-determination, and responsive services; Tribal sovereignty and government-to-government relationships. These are theme-level suggestions, not verified per-course graph edges.
+
+Course: cultural-intelligence-colombian
+Title: Cultural intelligence: Colombian Minnesota
+Suggested thematic connections: Accessibility, language access, and communication; Disability, self-determination, and responsive services; Tribal sovereignty and government-to-government relationships. These are theme-level suggestions, not verified per-course graph edges.
+
+Course: cultural-intelligence-cuban
+Title: Cultural intelligence: Cuban Minnesota
+Suggested thematic connections: Accessibility, language access, and communication; Disability, self-determination, and responsive services; Tribal sovereignty and government-to-government relationships. These are theme-level suggestions, not verified per-course graph edges.
+
+Course: cultural-intelligence-ecuadorian
+Title: Cultural intelligence: Ecuadorian Minnesota
+Suggested thematic connections: Accessibility, language access, and communication; Disability, self-determination, and responsive services; Tribal sovereignty and government-to-government relationships. These are theme-level suggestions, not verified per-course graph edges.
+
+Course: cultural-intelligence-ethiopian
+Title: Cultural intelligence: Ethiopian Minnesota
+Suggested thematic connections: Accessibility, language access, and communication; Disability, self-determination, and responsive services; Tribal sovereignty and government-to-government relationships. These are theme-level suggestions, not verified per-course graph edges.
+
+Course: cultural-intelligence-filipino
+Title: Cultural intelligence: Filipino Minnesota
+Suggested thematic connections: Accessibility, language access, and communication; Disability, self-determination, and responsive services; Tribal sovereignty and government-to-government relationships. These are theme-level suggestions, not verified per-course graph edges.
+
+Course: cultural-intelligence-french
+Title: Cultural intelligence: French-speaking Minnesota
+Suggested thematic connections: Accessibility, language access, and communication; Disability, self-determination, and responsive services; Tribal sovereignty and government-to-government relationships. These are theme-level suggestions, not verified per-course graph edges.
+
+Course: cultural-intelligence-guatemalan
+Title: Cultural intelligence: Guatemalan Minnesota
+Suggested thematic connections: Accessibility, language access, and communication; Disability, self-determination, and responsive services; Tribal sovereignty and government-to-government relationships. These are theme-level suggestions, not verified per-course graph edges.
+
+Course: cultural-intelligence-indian
+Title: Cultural intelligence: Indian (Asian Indian) Minnesota
+Suggested thematic connections: Accessibility, language access, and communication; Disability, self-determination, and responsive services; Tribal sovereignty and government-to-government relationships. These are theme-level suggestions, not verified per-course graph edges.
+
+Course: cultural-intelligence-japanese
+Title: Cultural intelligence: Japanese Minnesota
+Suggested thematic connections: Accessibility, language access, and communication; Disability, self-determination, and responsive services; Tribal sovereignty and government-to-government relationships. These are theme-level suggestions, not verified per-course graph edges.
+
+Course: cultural-intelligence-karen
+Title: Cultural intelligence: Karen Minnesota
+Suggested thematic connections: Accessibility, language access, and communication; Disability, self-determination, and responsive services; Tribal sovereignty and government-to-government relationships. These are theme-level suggestions, not verified per-course graph edges.
+
+Course: cultural-intelligence-kenyan
+Title: Cultural intelligence: Kenyan Minnesota
+Suggested thematic connections: Accessibility, language access, and communication; Disability, self-determination, and responsive services; Tribal sovereignty and government-to-government relationships. These are theme-level suggestions, not verified per-course graph edges.
+
+Course: cultural-intelligence-korean
+Title: Cultural intelligence: Korean Minnesota
+Suggested thematic connections: Accessibility, language access, and communication; Disability, self-determination, and responsive services; Tribal sovereignty and government-to-government relationships. These are theme-level suggestions, not verified per-course graph edges.
+
+Course: cultural-intelligence-lao
+Title: Cultural intelligence: Lao Minnesota
+Suggested thematic connections: Accessibility, language access, and communication; Disability, self-determination, and responsive services; Tribal sovereignty and government-to-government relationships. These are theme-level suggestions, not verified per-course graph edges.
+
+Course: cultural-intelligence-latino
+Title: Cultural intelligence: Latino / Hispanic Minnesota (disaggregate)
+Suggested thematic connections: Accessibility, language access, and communication; Disability, self-determination, and responsive services; Tribal sovereignty and government-to-government relationships. These are theme-level suggestions, not verified per-course graph edges.
+
+Course: cultural-intelligence-lebanese
+Title: Cultural intelligence: Lebanese Minnesota
+Suggested thematic connections: Accessibility, language access, and communication; Disability, self-determination, and responsive services; Tribal sovereignty and government-to-government relationships. These are theme-level suggestions, not verified per-course graph edges.
+
+Course: cultural-intelligence-liberian
+Title: Cultural intelligence: Liberian Minnesota
+Suggested thematic connections: Accessibility, language access, and communication; Disability, self-determination, and responsive services; Tribal sovereignty and government-to-government relationships. These are theme-level suggestions, not verified per-course graph edges.
+
+Course: cultural-intelligence-mexican
+Title: Cultural intelligence: Mexican Minnesota
+Suggested thematic connections: Accessibility, language access, and communication; Disability, self-determination, and responsive services; Tribal sovereignty and government-to-government relationships. These are theme-level suggestions, not verified per-course graph edges.
+
+Course: cultural-intelligence-nigerian
+Title: Cultural intelligence: Nigerian Minnesota
+Suggested thematic connections: Accessibility, language access, and communication; Disability, self-determination, and responsive services; Tribal sovereignty and government-to-government relationships. These are theme-level suggestions, not verified per-course graph edges.
+
+Course: cultural-intelligence-oromo
+Title: Cultural intelligence: Oromo Minnesota
+Suggested thematic connections: Accessibility, language access, and communication; Disability, self-determination, and responsive services; Tribal sovereignty and government-to-government relationships. These are theme-level suggestions, not verified per-course graph edges.
+
+Course: cultural-intelligence-puerto-rican
+Title: Cultural intelligence: Puerto Rican Minnesota
+Suggested thematic connections: Accessibility, language access, and communication; Disability, self-determination, and responsive services; Tribal sovereignty and government-to-government relationships. These are theme-level suggestions, not verified per-course graph edges.
+
+Course: cultural-intelligence-russian
+Title: Cultural intelligence: Russian-speaking Minnesota
+Suggested thematic connections: Accessibility, language access, and communication; Disability, self-determination, and responsive services; Tribal sovereignty and government-to-government relationships. These are theme-level suggestions, not verified per-course graph edges.
+
+Course: cultural-intelligence-salvadoran
+Title: Cultural intelligence: Salvadoran Minnesota
+Suggested thematic connections: Accessibility, language access, and communication; Disability, self-determination, and responsive services; Tribal sovereignty and government-to-government relationships. These are theme-level suggestions, not verified per-course graph edges.
+
+Course: cultural-intelligence-thai
+Title: Cultural intelligence: Thai Minnesota
+Suggested thematic connections: Accessibility, language access, and communication; Disability, self-determination, and responsive services; Tribal sovereignty and government-to-government relationships. These are theme-level suggestions, not verified per-course graph edges.
+
+Course: cultural-intelligence-ukrainian
+Title: Cultural intelligence: Ukrainian Minnesota
+Suggested thematic connections: Accessibility, language access, and communication; Disability, self-determination, and responsive services; Tribal sovereignty and government-to-government relationships. These are theme-level suggestions, not verified per-course graph edges.
+
+Course: cultural-intelligence-vietnamese
+Title: Cultural intelligence: Vietnamese Minnesota
+Suggested thematic connections: Accessibility, language access, and communication; Disability, self-determination, and responsive services; Tribal sovereignty and government-to-government relationships. These are theme-level suggestions, not verified per-course graph edges.
+
+Course: cultural-intelligence-alaska-native
+Title: Cultural intelligence: Alaska Native people in Minnesota
+Suggested thematic connections: Accessibility, language access, and communication; Disability, self-determination, and responsive services; Tribal sovereignty and government-to-government relationships. These are theme-level suggestions, not verified per-course graph edges.
+
+Course: cultural-intelligence-rural
+Title: Cultural intelligence: Rural Minnesota (place, not a race)
+Suggested thematic connections: Accessibility, language access, and communication; Disability, self-determination, and responsive services; Tribal sovereignty and government-to-government relationships. These are theme-level suggestions, not verified per-course graph edges.
+
+Course: cultural-intelligence-european-american
+Title: Cultural intelligence: European America in Minnesota — historic cultures, not a ‘white’ mash
+Suggested thematic connections: Accessibility, language access, and communication; Disability, self-determination, and responsive services; Tribal sovereignty and government-to-government relationships. These are theme-level suggestions, not verified per-course graph edges.
+
+Course: cultural-intelligence-native-american
+Title: Cultural intelligence: Native American (Compass profile — not the 11 nations)
+Suggested thematic connections: Accessibility, language access, and communication; Disability, self-determination, and responsive services; Tribal sovereignty and government-to-government relationships. These are theme-level suggestions, not verified per-course graph edges.
+
+C. CURRENT SEED RECORDS — retained
+Seed: ja-stakeholder-map
+Title: Planning with partners: who to involve
+
+Seed: pn-intercultural-method
+Title: Using community context without profiling
+
+D. NESTED FAMILY ENTRIES — relationship view, not additional assets
+
+Family: Intercultural Practice and Cultural Humility; nested entries: 0
+
+Family: Community Context and Cultural Briefs; nested entries: 60
+Nested asset: aa02102f-4f20-4890-b7cd-94593764b536
+Title: Afghan Cultural Brief
+Recorded type: cultural_brief; status: revision_required
+
+Nested asset: 06e0ea8a-3ada-47ed-87b2-c9d90dc8157b
+Title: African American Cultural Brief
+Recorded type: cultural_brief; status: revision_required
+
+Nested asset: 23fe1546-9991-4c8b-8ec5-777b33ac3521
+Title: African Immigrants (Overview) Cultural Brief
+Recorded type: cultural_brief; status: revision_required
+
+Nested asset: 4de1600d-b528-48c0-9a24-85f548756dff
+Title: Alaska Native General-Awareness Cultural Brief
+Recorded type: cultural_brief; status: revision_required
+
+Nested asset: 19b90510-6350-40b4-af72-93d7b61eef04
+Title: Arab and Middle Eastern Cultural Brief
+Recorded type: cultural_brief; status: revision_required
+
+Nested asset: 9e7c10ab-573d-4012-a326-a88a6b32c068
+Title: Bangladeshi Cultural Brief
+Recorded type: cultural_brief; status: revision_required
+
+Nested asset: 770ef4c3-1ec0-4c40-b7ac-3cd6b76a62d1
+Title: Bhutanese and Nepali Cultural Brief
+Recorded type: cultural_brief; status: revision_required
+
+Nested asset: 8e343fdb-588f-413d-adae-757a353031dd
+Title: Buddhist Communities Cultural Brief
+Recorded type: cultural_brief; status: revision_required
+
+Nested asset: cb7c1eb2-ad7c-4c45-a4ee-402420e4a7c7
+Title: Burmese Communities Cultural Brief
+Recorded type: cultural_brief; status: revision_required
+
+Nested asset: dce545eb-f6c3-4201-a88d-a974d7ca59c9
+Title: Cambodian Cultural Brief
+Recorded type: cultural_brief; status: revision_required
+
+Nested asset: a97e9b17-0415-45ed-8c74-801b629eb578
+Title: Cameroonian Cultural Brief
+Recorded type: cultural_brief; status: revision_required
+
+Nested asset: 902bc337-35d0-4bee-803f-9ba08cac508d
+Title: Chinese Cultural Brief
+Recorded type: cultural_brief; status: revision_required
+
+Nested asset: aeb922aa-a5e8-4e26-a8d7-df98ccff249c
+Title: Christian Communities Cultural Brief
+Recorded type: cultural_brief; status: revision_required
+
+Nested asset: 5c91b16e-2559-41cd-9fe9-22a93e391f62
+Title: Cuban Cultural Brief
+Recorded type: cultural_brief; status: revision_required
+
+Nested asset: 57ace2bd-2ce1-48fa-ba66-e6cc0d5076d5
+Title: East African Communities Cultural Brief
+Recorded type: cultural_brief; status: revision_required
+
+Nested asset: 5fa7ee4f-4a1c-4c9f-bcc3-8e28dfffddec
+Title: Eritrean Cultural Brief
+Recorded type: cultural_brief; status: revision_required
+
+Nested asset: 99fd9b70-1787-4e0b-9228-0e4909126299
+Title: Ethiopian and Amhara Cultural Brief
+Recorded type: cultural_brief; status: revision_required
+
+Nested asset: c7b13bea-7756-4556-9ca8-5b56bfb80d43
+Title: Filipino Cultural Brief
+Recorded type: cultural_brief; status: revision_required
+
+Nested asset: 2361c5a3-588b-4062-8e6e-b993f2516ec8
+Title: French Cultural Brief
+Recorded type: cultural_brief; status: revision_required
+
+Nested asset: 541d9554-81ed-4ac8-8b1e-a0fc749acdc1
+Title: German Cultural Brief
+Recorded type: cultural_brief; status: revision_required
+
+Nested asset: 907d1d6d-676b-40b2-9277-5f5ab5ced14c
+Title: Ghanaian Cultural Brief
+Recorded type: cultural_brief; status: revision_required
+
+Nested asset: d257433d-0f00-4668-aa75-60ffb0303908
+Title: Guatemalan Cultural Brief
+Recorded type: cultural_brief; status: revision_required
+
+Nested asset: a8a25869-aa39-402a-a554-3daf92f883d2
+Title: Haitian Cultural Brief
+Recorded type: cultural_brief; status: revision_required
+
+Nested asset: dd2bb29b-2322-459c-9194-b1c27436abe5
+Title: Hindu Communities Cultural Brief
+Recorded type: cultural_brief; status: revision_required
+
+Nested asset: 91a26c4e-5625-4290-bd99-177153eec956
+Title: Hmong Cultural Brief
+Recorded type: cultural_brief; status: revision_required
+
+Nested asset: d50509c3-4de9-482d-99a4-bf88ecd4a471
+Title: Honduran Cultural Brief
+Recorded type: cultural_brief; status: revision_required
+
+Nested asset: 8422af55-ce35-4ed5-a165-6f1e0c7ca4f4
+Title: Indian Cultural Brief
+Recorded type: cultural_brief; status: revision_required
+
+Nested asset: cac4730e-9e2c-4917-a67b-760bf78197ff
+Title: Irish Cultural Brief
+Recorded type: cultural_brief; status: revision_required
+
+Nested asset: b3af7ac8-d82c-43a7-862c-2e4b1383b6e6
+Title: Italian Cultural Brief
+Recorded type: cultural_brief; status: revision_required
+
+Nested asset: 17d070a8-5b22-4d54-b071-425d4ffad8d8
+Title: Jain Community Cultural Brief
+Recorded type: cultural_brief; status: revision_required
+
+Nested asset: 2739ccfa-191e-4664-a040-a49dc21e9f86
+Title: Jamaican Cultural Brief
+Recorded type: cultural_brief; status: revision_required
+
+Nested asset: 448e0ee2-73d6-4cc5-ab68-8ef05fc04e2f
+Title: Jewish Community Cultural Brief
+Recorded type: cultural_brief; status: revision_required
+
+Nested asset: 5c6c718d-353a-4998-b060-b369e23e8d60
+Title: Karen Cultural Brief
+Recorded type: cultural_brief; status: revision_required
+
+Nested asset: c17eed0c-f77f-48ba-bfa6-254adbb940a6
+Title: Kenyan Cultural Brief
+Recorded type: cultural_brief; status: revision_required
+
+Nested asset: fc333b6a-55f8-4d13-bb5e-6d5be55e7850
+Title: Korean General-Awareness Cultural Brief
+Recorded type: cultural_brief; status: revision_required
+
+Nested asset: 889e4660-9514-44a7-98b0-9e595b38792f
+Title: Lao Cultural Brief
+Recorded type: cultural_brief; status: revision_required
+
+Nested asset: a7d07ed3-5c71-45c9-9675-c3ff6b3c650b
+Title: Latine and Hispanic Communities Cultural Brief
+Recorded type: cultural_brief; status: revision_required
+
+Nested asset: 2c18db9e-c97d-4b05-963e-c4947f4bdc9c
+Title: LGBTQ+ Cultural Brief
+Recorded type: cultural_brief; status: revision_required
+
+Nested asset: a0bd257e-4520-4de8-b658-2cfc606e6336
+Title: Liberian Cultural Brief
+Recorded type: cultural_brief; status: revision_required
+
+Nested asset: 8c8be32e-9cda-40de-8408-b6d829726081
+Title: Mexican / Mexican American Cultural Brief
+Recorded type: cultural_brief; status: revision_required
+
+Nested asset: f9f64ddf-0d74-4cc6-8784-de73505033d2
+Title: Muslim Communities Cultural Brief
+Recorded type: cultural_brief; status: revision_required
+
+Nested asset: 9eeff489-5b4c-4409-b945-e2f78667d649
+Title: Nigerian Cultural Brief
+Recorded type: cultural_brief; status: revision_required
+
+Nested asset: 9645d1a7-e8c0-466e-9bd1-f0eaa509dea9
+Title: North Sudanese Cultural Brief
+Recorded type: cultural_brief; status: revision_required
+
+Nested asset: f7b19dcc-f78d-41e6-9dcb-bfcebb72c3c9
+Title: Oromo Cultural Brief
+Recorded type: cultural_brief; status: revision_required
+
+Nested asset: 77d0b3e9-e910-414c-90a3-654dc92ecdd3
+Title: Pacific Islander Cultural Brief
+Recorded type: cultural_brief; status: revision_required
+
+Nested asset: de727699-9f1e-4a0e-b5f5-de4c6848bbbc
+Title: Pakistani Cultural Brief
+Recorded type: cultural_brief; status: revision_required
+
+Nested asset: 70614426-bd62-4b7d-818e-4c960d01d425
+Title: Polish Cultural Brief
+Recorded type: cultural_brief; status: revision_required
+
+Nested asset: 4936f71e-7bf6-4471-b7d0-ba02090ab7ba
+Title: Russian Cultural Brief
+Recorded type: cultural_brief; status: revision_required
+
+Nested asset: d95b3f40-be29-4579-9391-077dc9f03b0f
+Title: Salvadoran Cultural Brief
+Recorded type: cultural_brief; status: revision_required
+
+Nested asset: ec87a6e0-3699-4f42-9fd0-c7adc396225f
+Title: Scandinavian Cultural Brief
+Recorded type: cultural_brief; status: revision_required
+
+Nested asset: 814be4ed-625c-4483-8454-e7d94cad7d0a
+Title: Sikh Community Cultural Brief
+Recorded type: cultural_brief; status: revision_required
+
+Nested asset: 30cbfc5b-6f8d-4448-813c-2f78e582a076
+Title: Somali Cultural Brief
+Recorded type: cultural_brief; status: revision_required
+
+Nested asset: ad24d7c3-7a5d-4eb2-9d08-6e9244676ee5
+Title: South American Cultural Brief
+Recorded type: cultural_brief; status: revision_required
+
+Nested asset: ecc76de8-6e38-4d74-9349-95d014c97840
+Title: South Sudanese Cultural Brief
+Recorded type: cultural_brief; status: revision_required
+
+Nested asset: ec5021e2-4ed6-4345-9845-209a2d6c7d34
+Title: Tibetan Cultural Brief
+Recorded type: cultural_brief; status: revision_required
+
+Nested asset: 03725733-dc0d-4f63-b0a8-486f50e912b5
+Title: Tigrayan Cultural Brief
+Recorded type: cultural_brief; status: revision_required
+
+Nested asset: 5da80252-6fc0-415e-b29c-5f9717134c6a
+Title: Trinidadian Cultural Brief
+Recorded type: cultural_brief; status: revision_required
+
+Nested asset: d6361e5f-119d-4910-b364-f7ef23a82ee7
+Title: Ukrainian Cultural Brief
+Recorded type: cultural_brief; status: revision_required
+
+Nested asset: 8f8a9576-0dba-4e9a-94de-613d44d1332d
+Title: USA Cultural Baseline Cultural Brief
+Recorded type: cultural_brief; status: revision_required
+
+Nested asset: a7aa221e-0869-4f9a-b6a2-4044570db001
+Title: Vietnamese Cultural Brief
+Recorded type: cultural_brief; status: revision_required
+
+
+======================================================================
+Disability, self-determination, and responsive services
+======================================================================
+
+A. SOURCE LEDGER ENTRIES
+
+Family: Disability Rights, Justice, and History (disability-rights-justice-and-history) — 17 ledger entries
+Receipt: CORPUS-V2-0003 | Asset: course-domain-a-beginner-06-disability-history-html
+Title: A Brief History of Disability Rights
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0107 | Asset: course-domain-a-beginner-19-disability-history-global-html
+Title: Disability History: A Global Quick Guide
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0109 | Asset: 3d24adcc-9dc3-4d2d-8be5-7d28a5e22a26
+Title: Disability Justice — Ten Principles
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0110 | Asset: 5cdc6687-36ad-40ac-aa34-8d42e7ab0de9
+Title: Disability Justice in Service Delivery and Systems
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0111 | Asset: e50c9afb-d20e-4e60-a6d5-34d6630573df
+Title: Disability Justice Scenario and Case Library
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0112 | Asset: course-domain-a-beginner-12-disability-justice-html
+Title: Disability Justice: An Introduction
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0113 | Asset: course-domain-a-beginner-11-disability-rights-laws-html
+Title: Disability Rights Laws: An Overview
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0160 | Asset: 6c572515-0955-411b-bc87-8de0d5bd880b
+Title: Facilitator's Guide: Leading the Disability Justice Curriculum
+Recorded decision: internal_reclassify; recorded audience: consultant
+
+Receipt: CORPUS-V2-0177 | Asset: c21ce8ad-38d1-4fa9-a359-9573084dfb1d
+Title: From Disability Rights to Disability Justice
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0190 | Asset: de733611-74d5-4920-bd78-2e629318fa5e
+Title: HCBS Waiver Programs One-Pager
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0198 | Asset: course-domain-a-beginner-08-hcbs-101-html
+Title: Home and Community-Based Services (HCBS) 101
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0293 | Asset: 8b947df9-c9b1-4cce-9189-d9b9d9295228
+Title: Olmstead Implementation One-Pager
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0463 | Asset: course-domain-a-advanced-03-state-olmstead-planning-html
+Title: State Olmstead Planning in Practice
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0471 | Asset: 503e2fbc-b2f4-4f32-ada4-ad7d6d9466d4
+Title: Sustaining Disability Justice Practice
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0482 | Asset: course-domain-a-intermediate-05-hcbs-settings-rule-html
+Title: The HCBS Settings Rule
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0496 | Asset: 2193d996-bbb7-44e6-adf3-a9ee7fe16f4a
+Title: The Ten Principles of Disability Justice
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0538 | Asset: b5836e67-e761-4851-b2df-44e74b9aea5a
+Title: Wholeness, Sustainability, and Internalized Ableism
+Recorded decision: component_merge; recorded audience: staff
+
+
+Family: Person-Centered Choice and Rights (person-centered-choice-and-rights) — 14 ledger entries
+Receipt: CORPUS-V2-0061 | Asset: 2be3b4e6-c828-4b64-b235-40d153bf73e9
+Title: Charting the LifeCourse in Service Planning
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0277 | Asset: a0e1fcc6-3b33-4bb7-a38e-925d5810c178
+Title: MnCHOICES and Equitable Access to Services
+Recorded decision: active_revise; recorded audience: staff
+
+Receipt: CORPUS-V2-0278 | Asset: 4aeb582b-c23e-48ff-b87d-0dc71b24396e
+Title: MnCHOICES Operations One-Pager
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0310 | Asset: course-domain-a-beginner-07-person-centered-planning-html
+Title: Person-Centered Planning
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0311 | Asset: 54490c26-0f60-47c2-b12f-1d72070a98dd
+Title: Person-Centered Planning Walk-Through
+Recorded decision: active_revise; recorded audience: staff
+
+Receipt: CORPUS-V2-0312 | Asset: course-domain-a-beginner-15-pcp-recovery-html
+Title: Person-Centered Planning: A Recovery Approach
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0313 | Asset: 967077ba-4076-4e4b-b89e-e2e468b66ab9
+Title: Person-Centered Practice and Self-Determination
+Recorded decision: active_revise; recorded audience: staff
+
+Receipt: CORPUS-V2-0314 | Asset: course-domain-a-intermediate-06-ncapps-person-centered-html
+Title: Person-Centered Practices in Depth
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0315 | Asset: da43243c-e398-4143-a9ae-2f822986e39e
+Title: Person-Centered Practices One-Pager
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0452 | Asset: course-domain-a-beginner-04-self-determination-advocacy-html
+Title: Self-Determination and Self-Advocacy
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0466 | Asset: course-domain-a-intermediate-01-supported-decision-making-html
+Title: Supported Decision-Making
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0467 | Asset: 17f10913-364d-4fed-b522-d08385b2abfc
+Title: Supported Decision-Making Walk-Through
+Recorded decision: active_revise; recorded audience: staff
+
+Receipt: CORPUS-V2-0556 | Asset: asset-supported-decision-making
+Title: Supported Decision-Making Walk-Through
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0557 | Asset: asset-person-centered-practice
+Title: Person-Centered Practice and Self-Determination
+Recorded decision: component_merge; recorded audience: staff
+
+
+Family: Service Delivery and Program Practice (service-delivery-and-program-practice) — 7 ledger entries
+Receipt: CORPUS-V2-0006 | Asset: course-domain-a-beginner-14-medicaid-self-advocate-html
+Title: A Self-Advocate's Guide to Medicaid
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0022 | Asset: 310b4346-9d3b-4aea-a214-a32a39548c01
+Title: Aging and Disability Together
+Recorded decision: active_revise; recorded audience: staff
+
+Receipt: CORPUS-V2-0037 | Asset: 278c73dc-e046-4df2-82d8-28d0366cb284
+Title: Autism and Neurodiversity-Affirming Support
+Recorded decision: active_revise; recorded audience: staff
+
+Receipt: CORPUS-V2-0073 | Asset: ab5d94dc-b32c-4734-816f-86fb58f7a643
+Title: Community-Informed Service Delivery
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0262 | Asset: course-domain-a-advanced-02-medicaid-waivers-managed-care-html
+Title: Medicaid, Waivers & Managed Care for IDD
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0348 | Asset: 8b271b66-d043-4609-b325-6a726d7aae69
+Title: Recommended Reading: Community-Informed Service Delivery
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0391 | Asset: 63fba988-b6f3-453d-8633-594bc7e29543
+Title: Restorative Practice
+Recorded decision: active_revise; recorded audience: staff
+
+B. RECOVERED COURSE RECORDS — proposed primary placement
+Course: family-and-natural-support-systems
+Title: Family and Natural Support Systems
+Suggested thematic connections: Intercultural practice and community understanding; Accessibility, language access, and communication; Rights, policy, and formal responsibilities. These are theme-level suggestions, not verified per-course graph edges.
+
+Course: lgbtq-inclusion-in-disability-services
+Title: LGBTQ+ Inclusion in Disability Services
+Suggested thematic connections: Intercultural practice and community understanding; Accessibility, language access, and communication; Rights, policy, and formal responsibilities. These are theme-level suggestions, not verified per-course graph edges.
+
+Course: brain-injury-and-complex-disability
+Title: Brain Injury and Complex Disability
+Suggested thematic connections: Intercultural practice and community understanding; Accessibility, language access, and communication; Rights, policy, and formal responsibilities. These are theme-level suggestions, not verified per-course graph edges.
+
+Course: neurodiversity-and-cognitive-difference
+Title: Neurodiversity and Cognitive Difference
+Suggested thematic connections: Intercultural practice and community understanding; Accessibility, language access, and communication; Rights, policy, and formal responsibilities. These are theme-level suggestions, not verified per-course graph edges.
+
+Course: health-wellness-and-safety
+Title: Health, Wellness, and Safety
+Suggested thematic connections: Intercultural practice and community understanding; Accessibility, language access, and communication; Rights, policy, and formal responsibilities. These are theme-level suggestions, not verified per-course graph edges.
+
+Course: employment-first-and-economic-inclusion
+Title: Employment First and Economic Inclusion
+Suggested thematic connections: Intercultural practice and community understanding; Accessibility, language access, and communication; Rights, policy, and formal responsibilities. These are theme-level suggestions, not verified per-course graph edges.
+
+C. CURRENT SEED RECORDS — retained
+No current seed assigned primarily here.
+D. NESTED FAMILY ENTRIES — relationship view, not additional assets
+
+Family: Disability Rights, Justice, and History; nested entries: 0
+
+Family: Person-Centered Choice and Rights; nested entries: 3
+Nested asset: 54490c26-0f60-47c2-b12f-1d72070a98dd
+Title: Person-Centered Planning Walk-Through
+Recorded type: job_aid; status: revision_required
+
+Nested asset: 17f10913-364d-4fed-b522-d08385b2abfc
+Title: Supported Decision-Making Walk-Through
+Recorded type: job_aid; status: revision_required
+
+Nested asset: asset-supported-decision-making
+Title: Supported Decision-Making Walk-Through
+Recorded type: job_aid; status: revision_required
+
+
+Family: Service Delivery and Program Practice; nested entries: 0
+
+======================================================================
+Accessibility, language access, and communication
+======================================================================
+
+A. SOURCE LEDGER ENTRIES
+
+Family: Accessibility and Accommodations (accessibility-and-accommodations) — 76 ledger entries
+Receipt: CORPUS-V2-0008 | Asset: 7270dd8b-d663-47c7-8bbd-b094cd0fa984
+Title: Accessibility as Infrastructure
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0009 | Asset: 5857e183-4125-489f-89d4-22e026f6527d
+Title: Accessibility as Leadership Responsibility
+Recorded decision: component_merge; recorded audience: leadership
+
+Receipt: CORPUS-V2-0010 | Asset: c2d13ae2-b7ea-44cc-bb33-9d34383b0679
+Title: Accessible Communications Checklist
+Recorded decision: active_retain; recorded audience: staff
+
+Receipt: CORPUS-V2-0011 | Asset: f59fb851-5549-47fa-ade9-cb4740ce7f8e
+Title: Accessible Documents and Plain Language
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0012 | Asset: 0b4b623f-ae8e-415c-be1b-865247a483cd
+Title: Accessible Meetings Checklist
+Recorded decision: active_retain; recorded audience: staff
+
+Receipt: CORPUS-V2-0013 | Asset: 15ee6a3c-847d-4ca5-871e-a391f16a0a1b
+Title: ADA Title One (Employment): Plain-Language Explainer
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0014 | Asset: f856ac7b-bac8-476c-be81-ccd9557025be
+Title: ADA Title Three (Public Accommodations): Plain-Language Explainer
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0016 | Asset: f148c36a-f214-4ee6-8c46-b64c81c8199a
+Title: ADA Title Two (State and Local Government): Plain-Language Explainer
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0026 | Asset: bdfd0f17-695b-42bf-8fe9-9a62e2c8c54c
+Title: Americans with Disabilities Act Overview (U.S. Department of Labor)
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0039 | Asset: c1155532-2035-4785-a202-99976e969c0b
+Title: Become a Disability Ally in Your Community
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0059 | Asset: 101a409a-41b0-46ba-824c-d51d78870d82
+Title: CDC's Commitment to Disability Inclusion
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0066 | Asset: a9e69635-1a88-4df3-acdc-da5e131a91f2
+Title: Cognitive Accessibility Practices
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0071 | Asset: course-domain-e-intermediate-03-chw-cultural-brokers-html
+Title: Community Health Workers & Cultural Brokers
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0084 | Asset: course-domain-e-beginner-04-cultural-humility-html
+Title: Cultural Humility
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0087 | Asset: course-domain-e-intermediate-02-culturally-responsive-care-html
+Title: Culturally Responsive Care
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0098 | Asset: 5d2fffb2-7b62-43ac-a847-00de8a3465d5
+Title: Digital Accessibility Foundations (Free Course)
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0099 | Asset: 1c1d971a-163c-4959-992d-5672a9689a31
+Title: Disability and Employment in Our Own Workforce
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0102 | Asset: course-domain-e-intermediate-05-disability-cultural-crossroads-html
+Title: Disability at the Cultural Crossroads
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0108 | Asset: a658b21d-cbab-4326-9950-bc6ee51855a0
+Title: Disability Inclusion and Accessibility in Practice
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0118 | Asset: fd45488c-81f4-4541-99b3-62aa9238c981
+Title: DSD Mission and Values — Plain-Language Explainer
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0131 | Asset: b67af9dd-e06d-4a78-9351-0b1cb4a07841
+Title: Effective Communication for People with Communication Disabilities
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0133 | Asset: 1b279896-8daa-40c0-b6b8-798657372e2c
+Title: Employees Practical Guide to Requesting Reasonable Accommodation
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0134 | Asset: dc3ae7f9-87c2-492f-95db-4c3f21eb6bf5
+Title: Employers Practical Guide to Reasonable Accommodation
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0167 | Asset: 6e0d4775-9e4a-4395-9538-930d04e9751e
+Title: Faith and Religious Accommodation
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0169 | Asset: 39ae3e35-94ab-4edd-9575-dad8aa8e6a1f
+Title: Federal Plain Language Guidelines
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0183 | Asset: course-domain-e-advanced-04-global-systems-approaches-html
+Title: Global & Systems Approaches
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0186 | Asset: bb564040-e7b6-46bc-b358-0292c6300d5b
+Title: Guide to Disability Rights Laws
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0188 | Asset: ed7aee33-5241-4be9-8500-0d28bbdcce35
+Title: HCBS Medicaid Authorities (1915c/i/k) and Cost Neutrality: Plain-Language Explainer
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0189 | Asset: 80d519d2-644b-4f27-a3b0-984c67cadf46
+Title: HCBS Settings Rule: Plain-Language Explainer
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0192 | Asset: course-domain-e-beginner-02-health-literacy-html
+Title: Health Literacy & Plain Language
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0194 | Asset: course-domain-e-intermediate-06-historical-trauma-html
+Title: Historical Trauma
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0204 | Asset: course-domain-e-intermediate-01-implementing-clas-html
+Title: Implementing CLAS in Organizations
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0223 | Asset: ed9b5830-b402-42f9-af2b-1932ef20669b
+Title: Introduction to Web Accessibility
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0225 | Asset: 19305f24-f8cf-462e-ac67-28e28f72c9d5
+Title: IS / IS NOT — Plain-Language Distinctions for the Equity Analysis Toolkit
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0226 | Asset: 747284e2-73b8-4292-a5ce-b4af81d092d5
+Title: IT Accessibility Laws and Policies (Section508.gov)
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0230 | Asset: dc29fd80-dba3-4d61-9696-8dcdf7de69a8
+Title: Jensen Settlement (2011): Plain-Language Explainer
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0241 | Asset: 1246f96d-a809-4985-ab0a-2d8dba5a4178
+Title: Language Access and Working with Interpreters
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0242 | Asset: course-domain-e-intermediate-04-language-access-planning-html
+Title: Language Access Planning & Interpreter Standards
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0243 | Asset: course-domain-e-advanced-02-language-justice-html
+Title: Language Justice
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0264 | Asset: 6cfb0843-72f8-478b-a30b-4dbfada96f2f
+Title: Meeting Plan Template — Accessible, Equity-Informed Meeting Design
+Recorded decision: internal_reclassify; recorded audience: consultant
+
+Receipt: CORPUS-V2-0265 | Asset: 6fa0754b-162d-42c4-aac9-2d8245739dd8
+Title: Mental Health, Stigma, and Support
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0273 | Asset: 6e0cc885-0cd1-40b8-ace9-3f958285bdb7
+Title: Microsoft Excel Accessibility Checklist
+Recorded decision: active_retain; recorded audience: staff
+
+Receipt: CORPUS-V2-0274 | Asset: 14dd0152-cf0f-4fbb-9c46-fec6631f1794
+Title: Microsoft PowerPoint Accessibility Checklist
+Recorded decision: active_retain; recorded audience: staff
+
+Receipt: CORPUS-V2-0275 | Asset: eec56294-a81f-47d2-bf99-d243b3da21be
+Title: Microsoft Word Accessibility Checklist
+Recorded decision: active_retain; recorded audience: staff
+
+Receipt: CORPUS-V2-0276 | Asset: 048cdb64-c12f-4e7e-b643-4975075efc48
+Title: Minnesota Human Rights Act (MHRA): Plain-Language Explainer
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0279 | Asset: 36b1ae45-2c37-482f-a06b-393455810ccd
+Title: Mobile and Offline Accessibility (PWA)
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0294 | Asset: 75a3b9d3-f552-4c4a-ae41-cb61857693cf
+Title: Olmstead v. L.C. (1999): Plain-Language Explainer
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0295 | Asset: 2c86f950-931d-400b-84c3-94ee8636842b
+Title: Olmstead: Reclaiming Institutionalized Lives
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0302 | Asset: course-domain-e-advanced-01-org-clc-assessment-html
+Title: Organizational Cultural & Linguistic Competence
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0307 | Asset: f82fef5e-750e-42bc-ae03-78d651b6adcf
+Title: PDF Accessibility Checklist
+Recorded decision: active_retain; recorded audience: staff
+
+Receipt: CORPUS-V2-0309 | Asset: 6d1ebd12-3dd3-4d78-9f48-f315eb117934
+Title: Performance and Disability Accommodation
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0318 | Asset: acad09f5-4fca-48e0-aa4c-bbf35298d3c5
+Title: Plain Language for Legal and Policy Documents
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0319 | Asset: 7d39548b-2b11-4800-828f-f2f227a01f63
+Title: Plain-Language Style Guide for DSD
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0342 | Asset: bca04fea-f456-42cd-997e-f6bf74b44bab
+Title: Reasonable Accommodation in Practice
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0350 | Asset: 17321d3a-1bd4-4da1-87e6-fcbb517d36f8
+Title: Recommended Reading: Disability Inclusion & Accessibility
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0351 | Asset: 648ff6e5-b923-4a5f-afc3-791022a58ab2
+Title: Recommended Reading: Disability Inclusion and Accessibility in Practice
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0443 | Asset: 94b1a8d8-b49b-4a86-b3ce-771a809777b8
+Title: Section 503 of the Rehabilitation Act (Federal Contractors): Plain-Language Explainer
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0444 | Asset: c264524a-4911-4ab5-8ec9-a95c70f28c4e
+Title: Section 504 of the Rehabilitation Act of 1973: Plain-Language Explainer
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0445 | Asset: 7e9ffe39-8dd8-4f0a-ac30-c4d80acc8bb0
+Title: Section 508 of the Rehabilitation Act (Federal Information and Communication Technology Accessibility): Plain-Language Explainer
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0446 | Asset: de0aacab-1d22-46cc-8f06-d9607b7ada5c
+Title: Section508.gov: Federal Digital Accessibility Hub
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0454 | Asset: 541b2283-647c-450e-a504-17a455dc749f
+Title: Sensory Accommodations Walk-Through
+Recorded decision: active_retain; recorded audience: staff
+
+Receipt: CORPUS-V2-0455 | Asset: a23a8175-e39f-4e13-b0c8-04d5ddfd2820
+Title: Serving People with Disabilities in the Most Integrated Setting
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0476 | Asset: 59d9beb7-58aa-4000-933a-eb38360249a5
+Title: The ADA National Network Disability Law Handbook
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0486 | Asset: a1e51ecc-ecbb-40c4-aa4f-a6115755fe15
+Title: The Interactive Accommodation Process
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0502 | Asset: 5b207967-88af-4d6b-86ea-6d9e25fedf4b
+Title: Title VI of the Civil Rights Act and Language Access: Plain-Language Explainer
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0516 | Asset: f3020ae6-00ec-4ee7-83d6-eeed044b036d
+Title: Universal Design (Beyond WCAG) for Service Design
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0520 | Asset: 982e1581-0215-4320-a206-a1faca01ba3d
+Title: Video: Access Is Everyone's Work (Disability and Accessibility)
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0528 | Asset: e5140d7e-8f6c-40e7-a438-b50e75b15f2c
+Title: W3C Accessibility Standards Overview (WCAG)
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0529 | Asset: e6658fb1-be83-4038-852c-3e89e4bb5a53
+Title: WCAG 2.2 AA Flagship Module for DSD
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0531 | Asset: 29c9d91d-7787-4751-acc0-53d12750ad88
+Title: Web Accessibility Tutorials
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0536 | Asset: c57dc345-6ea1-40eb-b792-ef4e089c57ca
+Title: What Is the Americans with Disabilities Act?
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0544 | Asset: course-domain-e-beginner-03-working-with-interpreters-html
+Title: Working with Interpreters & Language Access
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0548 | Asset: b3cfe276-fb3a-4447-b169-6ca5cff3c6b5
+Title: Workplace Accommodations (U.S. Department of Labor)
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0550 | Asset: 2fadf77a-74c6-42ef-b627-7b3c722dd15e
+Title: Writing for One DSD: Plain Language and People First
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0551 | Asset: d479416d-6461-4905-9895-da54616e5993
+Title: Your Employment Rights as a Person with a Disability
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0553 | Asset: asset-accessible-meetings
+Title: Accessible Meetings Checklist
+Recorded decision: component_merge; recorded audience: staff
+
+
+Family: Inclusive and Accessible Communication (inclusive-communication) — 8 ledger entries
+Receipt: CORPUS-V2-0104 | Asset: 124e27f7-1916-4c79-96c2-0159f674f3dc
+Title: Disability Etiquette and Respectful Interaction
+Recorded decision: active_revise; recorded audience: staff
+
+Receipt: CORPUS-V2-0105 | Asset: course-domain-a-beginner-13-disability-etiquette-us-html
+Title: Disability Etiquette: Respectful Interaction
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0106 | Asset: course-domain-a-beginner-17-etiquette-models-html
+Title: Disability Etiquette: The Social Model in Practice
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0114 | Asset: course-domain-a-beginner-01-inclusive-language-basics-html
+Title: Disability-Inclusive Language: The Basics
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0283 | Asset: bea8a137-8a05-4505-89f8-d96d005cea7e
+Title: National CLAS Standards: A Quick Guide for DSD Staff
+Recorded decision: active_revise; recorded audience: staff
+
+Receipt: CORPUS-V2-0489 | Asset: 80c4d0ce-5f5d-45d5-95b3-ee6dccbc9570
+Title: The National CLAS Standards
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0490 | Asset: course-domain-e-beginner-01-clas-standards-html
+Title: The National CLAS Standards
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0555 | Asset: asset-inclusive-language-basics
+Title: Inclusive Language Basics
+Recorded decision: component_merge; recorded audience: staff
+
+B. RECOVERED COURSE RECORDS — proposed primary placement
+Course: disability-and-language
+Title: Disability and Language Together
+Suggested thematic connections: Disability, self-determination, and responsive services; Hiring, retention, and professional growth; Rights, policy, and formal responsibilities. These are theme-level suggestions, not verified per-course graph edges.
+
+Course: language-access-plan
+Title: A Language Access Plan You Can Walk
+Suggested thematic connections: Disability, self-determination, and responsive services; Hiring, retention, and professional growth; Rights, policy, and formal responsibilities. These are theme-level suggestions, not verified per-course graph edges.
+
+Course: plain-language-in-human-services
+Title: Plain Language in Human Services
+Suggested thematic connections: Disability, self-determination, and responsive services; Hiring, retention, and professional growth; Rights, policy, and formal responsibilities. These are theme-level suggestions, not verified per-course graph edges.
+
+Course: working-with-an-interpreter
+Title: Working with an Interpreter
+Suggested thematic connections: Disability, self-determination, and responsive services; Hiring, retention, and professional growth; Rights, policy, and formal responsibilities. These are theme-level suggestions, not verified per-course graph edges.
+
+Course: language-access-as-a-design
+Title: Language Access as a Design
+Suggested thematic connections: Disability, self-determination, and responsive services; Hiring, retention, and professional growth; Rights, policy, and formal responsibilities. These are theme-level suggestions, not verified per-course graph edges.
+
+Course: accessibility-as-leadership-responsibility
+Title: Accessibility as Leadership Responsibility
+Suggested thematic connections: Disability, self-determination, and responsive services; Hiring, retention, and professional growth; Rights, policy, and formal responsibilities. These are theme-level suggestions, not verified per-course graph edges.
+
+C. CURRENT SEED RECORDS — retained
+Seed: ja-language-access-checklist
+Title: Language access checklist
+
+Seed: ja-plain-language
+Title: Plain language and accessible documents checklist
+
+Seed: ja-access-checks
+Title: Access checks before a meeting, outreach, or session
+
+Seed: ja-form-notice-change
+Title: Checklist for changing a form, notice, or letter
+
+Seed: lm-interpreter
+Title: Working with a spoken-language interpreter
+
+Seed: ext-clas
+Title: National CLAS Standards (culturally and linguistically appropriate services)
+
+Seed: ext-mn-accessibility
+Title: Minnesota digital accessibility standard (MNIT)
+
+D. NESTED FAMILY ENTRIES — relationship view, not additional assets
+
+Family: Accessibility and Accommodations; nested entries: 9
+Nested asset: c2d13ae2-b7ea-44cc-bb33-9d34383b0679
+Title: Accessible Communications Checklist
+Recorded type: job_aid; status: retain
+
+Nested asset: 0b4b623f-ae8e-415c-be1b-865247a483cd
+Title: Accessible Meetings Checklist
+Recorded type: job_aid; status: retain
+
+Nested asset: 6cfb0843-72f8-478b-a30b-4dbfada96f2f
+Title: Meeting Plan Template — Accessible, Equity-Informed Meeting Design
+Recorded type: job_aid; status: revision_required
+
+Nested asset: 6e0cc885-0cd1-40b8-ace9-3f958285bdb7
+Title: Microsoft Excel Accessibility Checklist
+Recorded type: job_aid; status: retain
+
+Nested asset: 14dd0152-cf0f-4fbb-9c46-fec6631f1794
+Title: Microsoft PowerPoint Accessibility Checklist
+Recorded type: job_aid; status: retain
+
+Nested asset: eec56294-a81f-47d2-bf99-d243b3da21be
+Title: Microsoft Word Accessibility Checklist
+Recorded type: job_aid; status: retain
+
+Nested asset: f82fef5e-750e-42bc-ae03-78d651b6adcf
+Title: PDF Accessibility Checklist
+Recorded type: job_aid; status: retain
+
+Nested asset: 541b2283-647c-450e-a504-17a455dc749f
+Title: Sensory Accommodations Walk-Through
+Recorded type: job_aid; status: retain
+
+Nested asset: asset-accessible-meetings
+Title: Accessible Meetings Checklist
+Recorded type: job_aid; status: revision_required
+
+
+Family: Inclusive and Accessible Communication; nested entries: 0
+
+======================================================================
+Hiring, retention, and professional growth
+======================================================================
+
+A. SOURCE LEDGER ENTRIES
+
+Family: Employment and Workforce Equity (employment-and-workforce-equity) — 7 ledger entries
+Receipt: CORPUS-V2-0034 | Asset: ee0f0749-5df6-4ba1-8a9e-35b58be6302a
+Title: Attracting and Recruiting Disabled Talent
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0101 | Asset: 732016b2-2a84-42c8-b8da-75f7864933b4
+Title: Disability and Workforce Diversity: Scenario and Case Library
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0135 | Asset: course-domain-a-intermediate-04-employment-first-html
+Title: Employment First
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0137 | Asset: 940c583c-1df1-42a6-b838-fe358962abe3
+Title: Employment First in Minnesota
+Recorded decision: active_revise; recorded audience: staff
+
+Receipt: CORPUS-V2-0209 | Asset: b057f551-f987-42bc-a953-d7402e6fb678
+Title: Inclusive Hiring and Selection
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0210 | Asset: 11a03f35-5714-489b-9dec-458586178996
+Title: Inclusive Recruitment and Hiring
+Recorded decision: active_revise; recorded audience: staff
+
+Receipt: CORPUS-V2-0477 | Asset: e7ece46f-aa84-461b-a77b-b1f52de3aef9
+Title: The Case and the Frame: Disability as Workforce Diversity
+Recorded decision: component_merge; recorded audience: staff
+
+
+Family: Mentoring and Professional Development (mentoring-and-development) — 66 ledger entries
+Receipt: CORPUS-V2-0027 | Asset: b2616739-f9f2-478e-9f52-84aadcbe80de
+Title: Annual Reflective Review
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0040 | Asset: 44dde551-1f96-4b7f-82a9-ee5836230ff8
+Title: Behavioral Supports / Positive Supports One-Pager
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0041 | Asset: 38fe1ea9-7792-4030-9648-4e0886b9e5b7
+Title: Bennett DMIS — Developmental Model of Intercultural Sensitivity
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0042 | Asset: 4cd8584b-c01d-4235-b9e9-054057e7429d
+Title: Berry Acculturation Model for DSD
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0048 | Asset: 78a81eff-f9c8-4b1b-9093-34d56c071efc
+Title: Building Cross-Unit Relationships — A Practical Guide
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0064 | Asset: 9ee3790e-12de-48e0-b833-49bfb5f1772f
+Title: CLAS Standards — Culturally and Linguistically Appropriate Services Walk-Through
+Recorded decision: active_revise; recorded audience: staff
+
+Receipt: CORPUS-V2-0074 | Asset: df700e3d-4bff-401f-a9e3-21ff29fe9008
+Title: Conflict and Repair in Reading Groups
+Recorded decision: internal_reclassify; recorded audience: consultant
+
+Receipt: CORPUS-V2-0085 | Asset: b3b6f759-57e9-439c-a303-a67b0f0ae00c
+Title: Cultural Humility — Core Practices
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0090 | Asset: 25676e3c-1288-4978-a50b-ff52b10f65a6
+Title: Data, Reporting, and Analytics One-Pager
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0119 | Asset: 41a35bd2-906f-4225-8b6d-f46121d62989
+Title: DSD Six Program Goals — Adapted Explainer
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0136 | Asset: 891c4227-cac6-41d0-917e-563dee1ca1ee
+Title: Employment First / Vocational Rehabilitation Interface One-Pager
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0168 | Asset: d75c4679-b493-402b-921a-a0c32443d961
+Title: Family Voice / Consumer Engagement One-Pager
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0170 | Asset: 1b1f39f4-5131-4f72-ad26-225f2191b4b9
+Title: Federal Programs / CMS Interface One-Pager
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0172 | Asset: 1f3059bf-ec1d-4344-8600-4977e333ae1e
+Title: Foundational Policies for All Staff
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0195 | Asset: f2c5d940-3f69-4cfe-a54d-2270c4b9a070
+Title: Historical Trauma Foundations
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0197 | Asset: b606a18f-5f81-4505-82e4-76a1135ace9e
+Title: Hofstede Cultural Dimensions for DSD
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0200 | Asset: 25b68c14-ca78-4d90-ace5-28819ff1f37b
+Title: How DSD Workgroups Work
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0202 | Asset: 0187d3d1-f398-4507-a685-d54582678a6b
+Title: Hybrid and Async Reading Groups — Virtual, Hybrid, and Asynchronous Formats
+Recorded decision: internal_reclassify; recorded audience: consultant
+
+Receipt: CORPUS-V2-0207 | Asset: 5d852dc9-9929-4625-8b5a-c923446319dc
+Title: Including Quiet Voices — Facilitation Techniques for Participation Equity
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0216 | Asset: 41a3c716-c52d-474d-8d32-4464406b36b8
+Title: Intercultural Development Inventory (IDI) — Flagship Module
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0221 | Asset: 5ae9b9de-6be7-48a8-a761-168b857ee177
+Title: Intersectionality for DSD Practice
+Recorded decision: active_revise; recorded audience: staff
+
+Receipt: CORPUS-V2-0232 | Asset: 2a0196fa-5a0a-412a-bc46-d890034f929d
+Title: Journal Privacy Disclosure
+Recorded decision: internal_reclassify; recorded audience: consultant
+
+Receipt: CORPUS-V2-0233 | Asset: 4b4df472-5748-47d6-a1eb-f3721c2f272f
+Title: Journal Tag and Index System
+Recorded decision: internal_reclassify; recorded audience: consultant
+
+Receipt: CORPUS-V2-0234 | Asset: 8eb5c552-1485-4b86-ad18-e75659881b39
+Title: Journal-to-Collaborative-Document Path
+Recorded decision: internal_reclassify; recorded audience: consultant
+
+Receipt: CORPUS-V2-0257 | Asset: 8f4d6eac-b1ff-45e8-b118-575056da022d
+Title: LifeCourse Framework Adapted for DSD
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0266 | Asset: 194d860d-60fb-44f3-ac3a-3d2497552724
+Title: Mentee Training
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0267 | Asset: f4f01422-bc4e-491c-b603-b433ca3ade05
+Title: Mentor Training
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0268 | Asset: 0efc80f5-7056-4e11-b6d1-ba8684816f57
+Title: Mentorship and Peer-to-Peer Learning
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0269 | Asset: 2b997860-6635-4c2b-ae43-ed1054637947
+Title: Mentorship and Sponsorship
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0270 | Asset: cc990970-d13b-4778-8845-40ad627533f0
+Title: Mentorship Program Coordinator's Guide
+Recorded decision: internal_reclassify; recorded audience: consultant
+
+Receipt: CORPUS-V2-0296 | Asset: 072a9904-017f-4663-8cce-ad1648fe3b08
+Title: Onboarding Mentoring: Welcoming New Staff
+Recorded decision: internal_reclassify; recorded audience: consultant
+
+Receipt: CORPUS-V2-0300 | Asset: 54f34bca-b3d2-468f-8881-6a4cb24841b7
+Title: One-Pager Template — DSD Unit Format
+Recorded decision: internal_reclassify; recorded audience: consultant
+
+Receipt: CORPUS-V2-0301 | Asset: 299507b2-2c49-40fb-9518-a047a3b0a267
+Title: Opening and Closing Ritual Templates
+Recorded decision: internal_reclassify; recorded audience: consultant
+
+Receipt: CORPUS-V2-0320 | Asset: 6a9b7078-0db1-4cb8-879b-4ee89f0cff68
+Title: Policy, Communications, and External Affairs One-Pager
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0323 | Asset: 98db2764-1e33-42fa-a4d1-595d5a326b60
+Title: Presentation Outline Template
+Recorded decision: internal_reclassify; recorded audience: consultant
+
+Receipt: CORPUS-V2-0327 | Asset: 7ec18fa5-c071-4abc-b6eb-61ba5acb6b2d
+Title: Provider Operations / Licensing Intersection One-Pager
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0329 | Asset: eccd542b-e163-4107-b064-e952700d3813
+Title: Quality Assurance / Quality Improvement One-Pager
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0334 | Asset: 9d734a73-2ae1-465b-a396-a259e8160610
+Title: Re-Reading with Cohort Context
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0335 | Asset: 7166af26-72da-4495-aa5a-bf3863b71122
+Title: Reading Group Annual Refresh
+Recorded decision: internal_reclassify; recorded audience: consultant
+
+Receipt: CORPUS-V2-0336 | Asset: f2968414-a26d-49b5-b2e8-2a3bdd92aac7
+Title: Reading Group Charter Template
+Recorded decision: internal_reclassify; recorded audience: consultant
+
+Receipt: CORPUS-V2-0338 | Asset: a9e9b4f0-5c3d-4456-ab9c-40a2c98ea9ea
+Title: Reading Group Facilitator Playbook
+Recorded decision: internal_reclassify; recorded audience: consultant
+
+Receipt: CORPUS-V2-0339 | Asset: e35b01b7-bedb-445f-9538-cf8d187b9238
+Title: Reading Group Privacy and Consent UI Content
+Recorded decision: internal_reclassify; recorded audience: consultant
+
+Receipt: CORPUS-V2-0340 | Asset: 68609df2-1259-4f3c-8fb3-832dadbd157d
+Title: Reading Group Session Plan Template
+Recorded decision: internal_reclassify; recorded audience: consultant
+
+Receipt: CORPUS-V2-0341 | Asset: 341c5ae6-d071-400f-aafd-50a92893a593
+Title: Reading Selection Library — 25 Curated Selections
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0347 | Asset: 8eb74ed6-4871-4ab4-b853-60a05e119d61
+Title: Recommended Reading: Community-Informed Practice & Intercultural Development
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0370 | Asset: 1983d517-c5d5-47c4-88db-a98bfd7ce1c9
+Title: Recommended Reading: Mentorship & Peer-to-Peer Learning
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0371 | Asset: 184d9f62-dd11-4cea-815e-c76e2d084fab
+Title: Recommended Reading: Mentorship and Peer-to-Peer Learning
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0386 | Asset: 2e58d2b5-9beb-4fb2-9ce6-dfd9eae5b76b
+Title: Reflection Paper Template
+Recorded decision: internal_reclassify; recorded audience: consultant
+
+Receipt: CORPUS-V2-0387 | Asset: 74f87539-cfbc-456a-9fef-4f414dcbe746
+Title: Reflective Journal — Onboarding Welcome
+Recorded decision: internal_reclassify; recorded audience: consultant
+
+Receipt: CORPUS-V2-0389 | Asset: b69009bb-9446-485a-ad71-f405ef679d0c
+Title: Reflective Prompt Library — 40 Prompts
+Recorded decision: internal_reclassify; recorded audience: consultant
+
+Receipt: CORPUS-V2-0393 | Asset: a132b7d1-5ee2-41cf-a60b-07745af82231
+Title: Retention, Development, and Advancement
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0394 | Asset: aca32717-9f4b-442c-a4b5-53fb5c5b4792
+Title: RMHF — Relational-Cultural Theory and Multicultural Humility Framework
+Recorded decision: active_revise; recorded audience: staff
+
+Receipt: CORPUS-V2-0453 | Asset: c7fb1064-a31e-492e-896d-2ac4f0b46bd4
+Title: Self-Direction Operations One-Pager
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0456 | Asset: 9ffa1f36-88ee-4f82-a3d0-00a6e03739bc
+Title: Session Prompt Library — 30 Reflective Discussion Prompts
+Recorded decision: internal_reclassify; recorded audience: consultant
+
+Receipt: CORPUS-V2-0479 | Asset: course-domain-b-beginner-02-dmis-sensitivity-html
+Title: The Developmental Model of Intercultural Sensitivity
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0487 | Asset: fbda780b-c46f-445e-8245-0643ef5839e0
+Title: The Intercultural Development Inventory (IDI)
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0491 | Asset: ae02bc72-9158-4b9e-8ae8-4d9250236c7a
+Title: The One DSD Mentorship Program: Design and Operations
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0504 | Asset: 10119e93-2a96-4640-8bba-5333f18af674
+Title: Training Outline Template
+Recorded decision: internal_reclassify; recorded audience: consultant
+
+Receipt: CORPUS-V2-0507 | Asset: 477993b7-24d5-4539-816e-433e14bf5581
+Title: Trauma-Informed Practice — SAMHSA Six Principles Flagship
+Recorded decision: active_revise; recorded audience: staff
+
+Receipt: CORPUS-V2-0514 | Asset: course-domain-a-beginner-05-understanding-idd-html
+Title: Understanding Intellectual and Developmental Disabilities
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0524 | Asset: 4a55acd9-fd7e-451f-b95c-770f278babb8
+Title: Video: No One Grows Alone (Mentorship and Peer-to-Peer Learning)
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0532 | Asset: 6aea0ec0-75af-4523-bad8-3e637e3c9414
+Title: Week 1 Priorities
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0533 | Asset: 980110dd-1540-4149-8815-6406897626ce
+Title: Welcome to DSD — Day 1 Checklist
+Recorded decision: active_retain; recorded audience: staff
+
+Receipt: CORPUS-V2-0537 | Asset: 156009e2-5dd4-4427-ad68-505c3bb0f47e
+Title: Where to Find Policies
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0542 | Asset: 109c13a1-0e7b-4bf3-a34e-662ea1e462e5
+Title: Worked Example Template
+Recorded decision: internal_reclassify; recorded audience: consultant
+
+Receipt: CORPUS-V2-0552 | Asset: 0ddd8116-e9be-4150-b73d-3aa815a52d27
+Title: Your First 90 Days at DSD
+Recorded decision: component_merge; recorded audience: staff
+
+
+Family: Orientation and Onboarding (orientation-and-onboarding) — 1 ledger entries
+Receipt: CORPUS-V2-0525 | Asset: d6e8349a-0cf8-4c0a-9c0a-b2216a11e3bb
+Title: Video: What Is Community-Informed Practice?
+Recorded decision: component_merge; recorded audience: staff
+
+B. RECOVERED COURSE RECORDS — proposed primary placement
+Course: equal-opportunity-in-employment
+Title: Equal Opportunity in Employment — the Door and the Lens
+Suggested thematic connections: Equity foundations, anti-racism, and structural change; Workplace culture, well-being, and staff voice; Leadership, organizational change, and improvement. These are theme-level suggestions, not verified per-course graph edges.
+
+Course: stay-and-exit-interviews
+Title: Stay Interviews and Exit Interviews
+Suggested thematic connections: Equity foundations, anti-racism, and structural change; Workplace culture, well-being, and staff voice; Leadership, organizational change, and improvement. These are theme-level suggestions, not verified per-course graph edges.
+
+Course: mobility-acting-promotion
+Title: Mobility, Acting, and Promotion
+Suggested thematic connections: Equity foundations, anti-racism, and structural change; Workplace culture, well-being, and staff voice; Leadership, organizational change, and improvement. These are theme-level suggestions, not verified per-course graph edges.
+
+Course: career-mentorship-and-sponsorship
+Title: Career Mentorship and Sponsorship
+Suggested thematic connections: Equity foundations, anti-racism, and structural change; Workplace culture, well-being, and staff voice; Leadership, organizational change, and improvement. These are theme-level suggestions, not verified per-course graph edges.
+
+Course: performance-and-development
+Title: Performance and Development
+Suggested thematic connections: Equity foundations, anti-racism, and structural change; Workplace culture, well-being, and staff voice; Leadership, organizational change, and improvement. These are theme-level suggestions, not verified per-course graph edges.
+
+Course: onboarding-and-first-90-days
+Title: Onboarding and the First 90 Days
+Suggested thematic connections: Equity foundations, anti-racism, and structural change; Workplace culture, well-being, and staff voice; Leadership, organizational change, and improvement. These are theme-level suggestions, not verified per-course graph edges.
+
+Course: screening-and-selection
+Title: Screening and Selection
+Suggested thematic connections: Equity foundations, anti-racism, and structural change; Workplace culture, well-being, and staff voice; Leadership, organizational change, and improvement. These are theme-level suggestions, not verified per-course graph edges.
+
+Course: sourcing-and-outreach
+Title: Sourcing and Outreach
+Suggested thematic connections: Equity foundations, anti-racism, and structural change; Workplace culture, well-being, and staff voice; Leadership, organizational change, and improvement. These are theme-level suggestions, not verified per-course graph edges.
+
+Course: job-design-and-the-posting
+Title: Job Design and the Posting
+Suggested thematic connections: Equity foundations, anti-racism, and structural change; Workplace culture, well-being, and staff voice; Leadership, organizational change, and improvement. These are theme-level suggestions, not verified per-course graph edges.
+
+Course: employee-life-cycle-as-a-system
+Title: The Employee Life Cycle as a System
+Suggested thematic connections: Equity foundations, anti-racism, and structural change; Workplace culture, well-being, and staff voice; Leadership, organizational change, and improvement. These are theme-level suggestions, not verified per-course graph edges.
+
+C. CURRENT SEED RECORDS — retained
+No current seed assigned primarily here.
+D. NESTED FAMILY ENTRIES — relationship view, not additional assets
+
+Family: Employment and Workforce Equity; nested entries: 0
+
+Family: Mentoring and Professional Development; nested entries: 10
+Nested asset: 9ee3790e-12de-48e0-b833-49bfb5f1772f
+Title: CLAS Standards — Culturally and Linguistically Appropriate Services Walk-Through
+Recorded type: job_aid; status: revision_required
+
+Nested asset: 54f34bca-b3d2-468f-8881-6a4cb24841b7
+Title: One-Pager Template — DSD Unit Format
+Recorded type: job_aid; status: revision_required
+
+Nested asset: 299507b2-2c49-40fb-9518-a047a3b0a267
+Title: Opening and Closing Ritual Templates
+Recorded type: job_aid; status: revision_required
+
+Nested asset: 98db2764-1e33-42fa-a4d1-595d5a326b60
+Title: Presentation Outline Template
+Recorded type: job_aid; status: revision_required
+
+Nested asset: f2968414-a26d-49b5-b2e8-2a3bdd92aac7
+Title: Reading Group Charter Template
+Recorded type: job_aid; status: revision_required
+
+Nested asset: 68609df2-1259-4f3c-8fb3-832dadbd157d
+Title: Reading Group Session Plan Template
+Recorded type: job_aid; status: revision_required
+
+Nested asset: 2e58d2b5-9beb-4fb2-9ce6-dfd9eae5b76b
+Title: Reflection Paper Template
+Recorded type: job_aid; status: revision_required
+
+Nested asset: 10119e93-2a96-4640-8bba-5333f18af674
+Title: Training Outline Template
+Recorded type: job_aid; status: revision_required
+
+Nested asset: 980110dd-1540-4149-8815-6406897626ce
+Title: Welcome to DSD — Day 1 Checklist
+Recorded type: job_aid; status: retain
+
+Nested asset: 109c13a1-0e7b-4bf3-a34e-662ea1e462e5
+Title: Worked Example Template
+Recorded type: job_aid; status: revision_required
+
+
+Family: Orientation and Onboarding; nested entries: 0
+
+======================================================================
+Workplace culture, well-being, and staff voice
+======================================================================
+
+A. SOURCE LEDGER ENTRIES
+
+Family: Workplace Culture and Well-Being (workplace-culture-and-wellbeing) — 12 ledger entries
+Receipt: CORPUS-V2-0001 | Asset: b150a7f9-54f7-4a05-9310-85f73e6d05ab
+Title: 988 Lifeline
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0002 | Asset: 9724feab-ff67-4ea3-87db-ec3238dddd8c
+Title: 988 Suicide and Crisis Lifeline (SAMHSA)
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0004 | Asset: 840484cc-9983-4e59-9a8c-ab41ab453e8b
+Title: A Healthy, Connected Workplace
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0203 | Asset: 721cae2e-ccb9-4d77-a23a-4323cdea63ca
+Title: Impact Wellbeing: Free Tools for Worker Well-Being (NIOSH)
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0343 | Asset: 45c55013-0dd2-4c32-8714-01ecf875134f
+Title: Recommended Reading: A Healthy, Connected Workplace
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0364 | Asset: 63d1940e-069a-4bb7-87f4-884beed5b122
+Title: Recommended Reading: Healthy Workplace Culture
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0397 | Asset: 2de19995-bf66-45b6-9c0c-9a7e223e1ae3
+Title: SAMHSA's Concept of Trauma and Guidance for a Trauma-Informed Approach
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0459 | Asset: 1f1a2dae-bf2a-46f9-a21f-e68df84ffde7
+Title: Six Guiding Principles of a Trauma-Informed Approach (SAMHSA)
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0468 | Asset: 87379dcb-1fc4-4f68-82b9-4f80ae7e7ff7
+Title: Supporting Mental Health in the Workplace (NIOSH)
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0495 | Asset: 4d5ed7a0-0aba-40a1-a715-2adddecb9dd8
+Title: The Surgeon General's Framework for Workplace Mental Health and Well-Being
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0506 | Asset: b8024317-eecc-4cd7-968b-ff194305ab60
+Title: Trauma-Informed Approaches and Programs (SAMHSA)
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0521 | Asset: 8afde30e-b02a-4c9e-8129-fea47be79150
+Title: Video: Culture Is How We Treat Each Other (Healthy Workplace Culture)
+Recorded decision: component_merge; recorded audience: staff
+
+B. RECOVERED COURSE RECORDS — proposed primary placement
+Course: conflict-at-work
+Title: Conflict at Work — Resolution vs. a Formal Door
+Suggested thematic connections: Hiring, retention, and professional growth; Facilitation, reflection, and learning together; Leadership, organizational change, and improvement. These are theme-level suggestions, not verified per-course graph edges.
+
+Course: employee-viewpoint-and-wellbeing-surveys
+Title: Employee Viewpoint and Well-Being Surveys
+Suggested thematic connections: Hiring, retention, and professional growth; Facilitation, reflection, and learning together; Leadership, organizational change, and improvement. These are theme-level suggestions, not verified per-course graph edges.
+
+Course: culture-without-theater
+Title: Culture Without Theater
+Suggested thematic connections: Hiring, retention, and professional growth; Facilitation, reflection, and learning together; Leadership, organizational change, and improvement. These are theme-level suggestions, not verified per-course graph edges.
+
+C. CURRENT SEED RECORDS — retained
+Seed: lm-workplace-climate
+Title: Team climate basics: participation, honest conversation, and fair opportunities
+
+Seed: ja-climate-action-plan
+Title: Team climate action plan template
+
+D. NESTED FAMILY ENTRIES — relationship view, not additional assets
+
+Family: Workplace Culture and Well-Being; nested entries: 0
+
+======================================================================
+Leadership, organizational change, and improvement
+======================================================================
+
+A. SOURCE LEDGER ENTRIES
+
+Family: Leadership and Supervision (leadership-and-supervision) — 65 ledger entries
+Receipt: CORPUS-V2-0017 | Asset: 7523d6e2-d321-42a6-a63f-5cb464a56982
+Title: Adaptability and Resilience
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0025 | Asset: d08966ab-24e1-45f4-8ba7-1afdf8db1f85
+Title: Allyship Archetypes
+Recorded decision: active_revise; recorded audience: staff
+
+Receipt: CORPUS-V2-0047 | Asset: 27b2a27f-2df8-4149-aa8f-84593478b60a
+Title: Budget Literacy for Leaders
+Recorded decision: component_merge; recorded audience: leadership
+
+Receipt: CORPUS-V2-0050 | Asset: 0479fc4b-b5ea-4789-b448-aff20db195ca
+Title: Building Intercultural Competency as a Leader
+Recorded decision: component_merge; recorded audience: leadership
+
+Receipt: CORPUS-V2-0053 | Asset: f56e38db-41a6-4554-8f4c-e02641a962a4
+Title: Calling In vs. Calling Out
+Recorded decision: active_revise; recorded audience: staff
+
+Receipt: CORPUS-V2-0056 | Asset: 4041dec6-595d-44df-a943-1a9f228559a9
+Title: Career Navigation at DSD
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0057 | Asset: 0511b8ee-a973-4498-85a4-ee45c3c97725
+Title: CDC Workplace Health Model
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0058 | Asset: 4ee3b01f-efcf-4c7b-82a8-0f29b472e618
+Title: CDC Workplace Health Resource Center
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0065 | Asset: 40d05464-463c-4d13-bfbd-e4ee7b5922ee
+Title: Coaching for Growth
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0068 | Asset: b45d973c-6588-41bd-a81c-2941a9f9cd7f
+Title: Communications That Get Work Done
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0080 | Asset: 9467953a-a487-4b0e-9ed8-76d4e93ae1e2
+Title: Cross-Sector Leadership
+Recorded decision: component_merge; recorded audience: leadership
+
+Receipt: CORPUS-V2-0091 | Asset: a0176565-46cc-42ce-974e-4dfd17944d2b
+Title: DEAI Integration Across Leadership
+Recorded decision: component_merge; recorded audience: leadership
+
+Receipt: CORPUS-V2-0097 | Asset: db73d058-3426-434a-88bb-a21b52bc4a75
+Title: Delegating Effectively
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0103 | Asset: 70425176-7876-4be7-bb65-6b2aa3975f88
+Title: Disability Determinations / State Medical Review Team (SMRT) One-Pager
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0116 | Asset: 7e4c588f-88cd-48c7-a6a8-8a4f8dcc03a4
+Title: DSD Division Leadership One-Pager
+Recorded decision: component_merge; recorded audience: leadership
+
+Receipt: CORPUS-V2-0117 | Asset: ef1df009-54f6-4e4a-b82c-5bd590d17d25
+Title: DSD Leadership Overview
+Recorded decision: component_merge; recorded audience: leadership
+
+Receipt: CORPUS-V2-0138 | Asset: cef7274a-f3d9-4cd0-af8a-e0830934fb33
+Title: Equitable Hiring from the Supervisor's Seat
+Recorded decision: component_merge; recorded audience: leadership
+
+Receipt: CORPUS-V2-0142 | Asset: 80ac2d51-34d4-4b91-a51d-af3a6d44d3c9
+Title: Equity and Inclusion: Leadership and Systems (Advanced)
+Recorded decision: component_merge; recorded audience: leadership
+
+Receipt: CORPUS-V2-0153 | Asset: 9907ded0-d8e4-425b-bf99-d6d1d7141f97
+Title: Equity-Centered Leadership
+Recorded decision: component_merge; recorded audience: leadership
+
+Receipt: CORPUS-V2-0156 | Asset: 192b4fc8-d046-4278-be5d-30f24270472c
+Title: Executive Core Qualifications (OPM)
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0157 | Asset: bfeabbca-f573-45a4-890a-fef89600e420
+Title: External Communications as a Leader
+Recorded decision: component_merge; recorded audience: leadership
+
+Receipt: CORPUS-V2-0164 | Asset: 9a940791-baa1-4fdf-a7c6-4c270adf0594
+Title: Facilitator's Guide: Leading the Leadership Development Curriculum
+Recorded decision: internal_reclassify; recorded audience: consultant
+
+Receipt: CORPUS-V2-0166 | Asset: 7b2954b2-b7cd-4cf7-9f0f-5c163d0ab30b
+Title: Facilitator's Note: Leading the Leadership Styles and Equity Course
+Recorded decision: internal_reclassify; recorded audience: consultant
+
+Receipt: CORPUS-V2-0174 | Asset: 576e310c-d64e-49ff-8cbf-dd129b530f09
+Title: Foundations of Inclusive Leadership
+Recorded decision: component_merge; recorded audience: leadership
+
+Receipt: CORPUS-V2-0182 | Asset: 47a7fc46-e885-4c0a-a984-52616ba02b20
+Title: Giving and Receiving Feedback Across Difference
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0184 | Asset: fbb27587-04d2-4eae-b0a6-8f65abfec1bf
+Title: Goleman Emotional Intelligence for DSD Leaders
+Recorded decision: active_revise; recorded audience: leadership
+
+Receipt: CORPUS-V2-0211 | Asset: cb3ad213-4c1d-4415-884f-f49e77d5b480
+Title: Inclusive Supervision Foundations
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0220 | Asset: ab7fa557-3057-4456-ae25-b8f12ced6155
+Title: Intersectionality and the Leadership of Those Most Impacted
+Recorded decision: component_merge; recorded audience: leadership
+
+Receipt: CORPUS-V2-0246 | Asset: d3e51152-ac35-44dd-8222-c30787f25c9b
+Title: Leadership Competencies (OPM)
+Recorded decision: component_merge; recorded audience: leadership
+
+Receipt: CORPUS-V2-0247 | Asset: 1bc96428-fbc4-45b0-a099-2760cf106909
+Title: Leadership Development (OPM)
+Recorded decision: component_merge; recorded audience: leadership
+
+Receipt: CORPUS-V2-0248 | Asset: 77ad594a-9132-4b0f-8144-353369709c67
+Title: Leadership Styles and Equity: An Intercultural Lens
+Recorded decision: component_merge; recorded audience: leadership
+
+Receipt: CORPUS-V2-0249 | Asset: 815369e6-0368-4e08-811b-58ab73a4ac37
+Title: Leadership, Accountability, and Measurement
+Recorded decision: component_merge; recorded audience: leadership
+
+Receipt: CORPUS-V2-0250 | Asset: 4a534227-209d-429a-9b66-2e2905f66a6a
+Title: Leading and Developing People
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0252 | Asset: 36132812-9d38-4f5a-b596-4755505eec7c
+Title: Leading Effectively: Free Leadership Articles (CCL)
+Recorded decision: component_merge; recorded audience: leadership
+
+Receipt: CORPUS-V2-0253 | Asset: 8592e911-c73c-480e-9c97-27e5763599d5
+Title: Leading Organizational Change
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0263 | Asset: 3f919ff1-dcd6-45fd-b634-72ed6e344706
+Title: Meeting Effectiveness for DSD
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0299 | Asset: cf09973c-11d2-4c53-b1fb-1620766c49dc
+Title: One DSD Team — What It Means
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0317 | Asset: e2d4ee95-ba6e-4dd6-a427-f89dc6a565c0
+Title: Personal and Professional Growth
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0326 | Asset: 2ecb65ee-a403-4095-875e-c1fe063da708
+Title: Pronouns, Identity, and Inclusion in the Workplace
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0328 | Asset: eb66548e-ca5d-4db2-8b98-bbbe978f10b0
+Title: Psychological Safety on Teams
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0330 | Asset: 5724930a-5f1f-4b66-9b9f-f4eaafc77745
+Title: Questions to Ask Your Supervisor
+Recorded decision: component_merge; recorded audience: leadership
+
+Receipt: CORPUS-V2-0355 | Asset: c5ee19ad-2457-434c-b8a2-b11ae52c9d75
+Title: Recommended Reading: Equity-Centered Leadership
+Recorded decision: component_merge; recorded audience: leadership
+
+Receipt: CORPUS-V2-0358 | Asset: d154512c-2c5d-407c-9217-db70e3370949
+Title: Recommended Reading: Facilitator's Guide: Leading the Leadership Development Curriculum
+Recorded decision: component_merge; recorded audience: leadership
+
+Receipt: CORPUS-V2-0361 | Asset: 373ffcce-f1f2-40e9-b9fe-5dd6c4ad9c66
+Title: Recommended Reading: Foundations of Inclusive Leadership
+Recorded decision: component_merge; recorded audience: leadership
+
+Receipt: CORPUS-V2-0366 | Asset: 59f16364-c1f8-4063-9417-436264850ad8
+Title: Recommended Reading: Leadership Development
+Recorded decision: component_merge; recorded audience: leadership
+
+Receipt: CORPUS-V2-0367 | Asset: a82dc905-6ecc-494a-af9b-fe75b88e7c68
+Title: Recommended Reading: Leadership Styles and Equity: An Intercultural Lens
+Recorded decision: component_merge; recorded audience: leadership
+
+Receipt: CORPUS-V2-0368 | Asset: 6c7dbeea-3b70-4043-b888-a8e3b32cf981
+Title: Recommended Reading: Leading and Developing People
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0378 | Asset: 40cc5afc-15e3-4d7d-913a-c5c5821e8b4c
+Title: Recommended Reading: The Inner Work of Leadership
+Recorded decision: component_merge; recorded audience: leadership
+
+Receipt: CORPUS-V2-0388 | Asset: 32f79601-fccc-4676-860b-9ace065be821
+Title: Reflective Practice Walk-Through
+Recorded decision: active_retain; recorded audience: staff
+
+Receipt: CORPUS-V2-0448 | Asset: 7fabb2a8-8202-4da6-b200-71b8ecaaef85
+Title: Seeking and Using Feedback
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0450 | Asset: 06b97522-edf7-4934-9f8f-e6145d035090
+Title: Self-Awareness as Leadership Foundation
+Recorded decision: component_merge; recorded audience: leadership
+
+Receipt: CORPUS-V2-0457 | Asset: 7ac6c4d4-0f09-49ac-be7a-f2239ebfa2bb
+Title: Setting Up Teams for Collaboration
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0464 | Asset: 9b08e192-f8c5-43b6-9513-d838763cfbd1
+Title: Strategic Planning Foundations
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0465 | Asset: dd53215b-9c79-4267-b317-16adb4c8203f
+Title: Strategic Thinking for All Levels
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0469 | Asset: 45350140-d378-414a-bf5e-d6c8e14b275a
+Title: Supporting Staff Through Hard External Events
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0481 | Asset: 00d2a8f6-8573-4a39-acb7-1b2f32940700
+Title: The Five Disciplines of Learning Organizations
+Recorded decision: active_revise; recorded audience: staff
+
+Receipt: CORPUS-V2-0484 | Asset: eb984496-d9ed-4b2f-ad1e-9d1d767ace49
+Title: The Inner Work of Leadership
+Recorded decision: component_merge; recorded audience: leadership
+
+Receipt: CORPUS-V2-0494 | Asset: da5f3c95-730b-48e1-9937-90da91829bb2
+Title: The Supervisor's Role in Equity
+Recorded decision: component_merge; recorded audience: leadership
+
+Receipt: CORPUS-V2-0499 | Asset: 70cc28c3-a058-4339-af99-46c149ea82e5
+Title: Three Honest Questions to Ask Yourself
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0511 | Asset: 8f7aebbd-98d2-4104-80ec-2f71d46101f2
+Title: Trust and Psychological Safety (CCL Collection)
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0523 | Asset: 55b36ae9-acbf-49bd-b6e1-d4cdc07a89ba
+Title: Video: Leading for Equity (Leadership Development)
+Recorded decision: component_merge; recorded audience: leadership
+
+Receipt: CORPUS-V2-0527 | Asset: 1b20f616-06ce-48b9-94e0-8941baacc142
+Title: Vision, Strategy, and Structure
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0535 | Asset: c71bb9de-4ded-43e8-b434-6d35e8b6f687
+Title: What Is Psychological Safety at Work?
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0545 | Asset: 49e32e1d-6a10-4134-8cc5-9a3eed547cc3
+Title: Working with Partners and Coalitions
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0547 | Asset: 651064e5-e724-476d-b0b3-4e28c29028a1
+Title: Workload Planning and Prioritization
+Recorded decision: component_merge; recorded audience: staff
+
+
+Family: Organizational Change and Strategy (organizational-change-and-strategy) — 1 ledger entries
+Receipt: CORPUS-V2-0060 | Asset: c4731d8a-9566-4884-b82c-a53ae5cc9bc9
+Title: Change Management: Bringing People Along
+Recorded decision: active_revise; recorded audience: staff
+
+
+Family: Measurement, Evaluation, and Organizational Learning (measurement-evaluation-and-learning) — 7 ledger entries
+Receipt: CORPUS-V2-0077 | Asset: 4cf2f2f9-a90f-4b35-b379-aa134dc6d7ac
+Title: Crisis Communication Playbook
+Recorded decision: internal_reclassify; recorded audience: consultant
+
+Receipt: CORPUS-V2-0121 | Asset: bb3c856b-dafb-4cb4-af97-e96433b9bb37
+Title: DSD Staff Onboarding to the Resource
+Recorded decision: internal_reclassify; recorded audience: consultant
+
+Receipt: CORPUS-V2-0145 | Asset: 36e18b0d-d48c-4357-be7c-f6ef9fc70989
+Title: Equity Champion Contribution Workflow
+Recorded decision: internal_reclassify; recorded audience: consultant
+
+Receipt: CORPUS-V2-0213 | Asset: 65c6ee94-84f5-458f-8c65-42ff93c35056
+Title: Indigenous and Tribal Observance Handling
+Recorded decision: internal_reclassify; recorded audience: consultant
+
+Receipt: CORPUS-V2-0261 | Asset: 5bfb06fe-1855-43c7-8ff3-7de1ef9b1516
+Title: Measuring What Matters: Activity vs. Impact
+Recorded decision: active_revise; recorded audience: staff
+
+Receipt: CORPUS-V2-0337 | Asset: 1e7195b1-cee6-4292-b803-af6286d3674d
+Title: Reading Group Evaluation Survey
+Recorded decision: internal_reclassify; recorded audience: system
+
+Receipt: CORPUS-V2-0530 | Asset: 39a47fd7-796b-48a3-b47d-75a6ce3e893e
+Title: WCAG 2.2 AA UI Accessibility Audit Checklist
+Recorded decision: internal_reclassify; recorded audience: consultant
+
+B. RECOVERED COURSE RECORDS — proposed primary placement
+Course: equity-centered-leadership
+Title: Equity-Centered Leadership
+Suggested thematic connections: Equity foundations, anti-racism, and structural change; Hiring, retention, and professional growth; Workplace culture, well-being, and staff voice. These are theme-level suggestions, not verified per-course graph edges.
+
+Course: equity-inclusion-leadership-and-systems
+Title: Equity and Inclusion: Leadership and Systems
+Suggested thematic connections: Equity foundations, anti-racism, and structural change; Hiring, retention, and professional growth; Workplace culture, well-being, and staff voice. These are theme-level suggestions, not verified per-course graph edges.
+
+Course: change-management-bringing-people-along
+Title: Change Management: Bringing People Along
+Suggested thematic connections: Equity foundations, anti-racism, and structural change; Hiring, retention, and professional growth; Workplace culture, well-being, and staff voice. These are theme-level suggestions, not verified per-course graph edges.
+
+C. CURRENT SEED RECORDS — retained
+Seed: pn-when-to-escalate
+Title: When to seek additional guidance, and where to begin
+
+Seed: pn-self-check
+Title: A final review for your working plan
+
+D. NESTED FAMILY ENTRIES — relationship view, not additional assets
+
+Family: Leadership and Supervision; nested entries: 1
+Nested asset: 32f79601-fccc-4676-860b-9ace065be821
+Title: Reflective Practice Walk-Through
+Recorded type: job_aid; status: retain
+
+
+Family: Organizational Change and Strategy; nested entries: 0
+
+Family: Measurement, Evaluation, and Organizational Learning; nested entries: 1
+Nested asset: 39a47fd7-796b-48a3-b47d-75a6ce3e893e
+Title: WCAG 2.2 AA UI Accessibility Audit Checklist
+Recorded type: job_aid; status: revision_required
+
+
+======================================================================
+Facilitation, reflection, and learning together
+======================================================================
+
+A. SOURCE LEDGER ENTRIES
+
+Family: Communication and Facilitation (communication-and-facilitation) — 6 ledger entries
+Receipt: CORPUS-V2-0067 | Asset: a8a66578-9ed2-4aef-af9d-ce597acf3447
+Title: Communicating with the Deaf and Hard-of-Hearing Community
+Recorded decision: active_revise; recorded audience: staff
+
+Receipt: CORPUS-V2-0158 | Asset: 2d47597b-c0c8-4315-ac66-d323e5686ee0
+Title: Facilitator's Guide: Leading the Community-Informed Practice Curriculum
+Recorded decision: internal_reclassify; recorded audience: consultant
+
+Receipt: CORPUS-V2-0159 | Asset: c5ad198a-86e1-4833-adec-f55004528b88
+Title: Facilitator's Guide: Leading the Disability and Workforce Diversity Curriculum
+Recorded decision: internal_reclassify; recorded audience: consultant
+
+Receipt: CORPUS-V2-0163 | Asset: a88c69d5-b8da-4c68-9d4a-872fd5221731
+Title: Facilitator's Guide: Leading the Healthy Workplace Culture Curriculum
+Recorded decision: internal_reclassify; recorded audience: consultant
+
+Receipt: CORPUS-V2-0356 | Asset: a589938a-bfcb-450e-b750-10d0575499b3
+Title: Recommended Reading: Facilitator's Guide: Leading the Community-Informed Practice Curriculum
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0357 | Asset: e77fb969-bab5-4f67-be0a-996cb7ca1c09
+Title: Recommended Reading: Facilitator's Guide: Leading the Healthy Workplace Culture Curriculum
+Recorded decision: component_merge; recorded audience: staff
+
+
+Family: Learning, Reflection, and Development (learning-and-reflection) — 20 ledger entries
+Receipt: CORPUS-V2-0007 | Asset: course-featured-ableist-language-html
+Title: Ableist Language
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0045 | Asset: course-domain-a-beginner-09-brain-injury-guide-html
+Title: Brain Injury: A Guide for Families and Caregivers
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0079 | Asset: 561b2999-4116-488e-8eb2-dd730b1c1e0c
+Title: Cross-Movement Solidarity and Collective Liberation
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0082 | Asset: ed251cb7-dd1f-4dd0-8ad2-e481de12ee64
+Title: Cultural and Linguistic Competence (HHS Office of Minority Health)
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0173 | Asset: ae9a89fb-ec05-44e4-9dd4-128ae0ad2bb7
+Title: Foundations of Community-Informed Practice
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0219 | Asset: cdca8add-17b4-4ac8-ac3b-f401229dea23
+Title: Interdependence and Collective Access
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0238 | Asset: course-domain-a-beginner-02-ada-rights-basics-html
+Title: Know Your Rights: The Americans with Disabilities Act
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0258 | Asset: 1dad3742-8d7d-4076-995c-f1b63e89e4ef
+Title: Limited English Proficiency Toolkit (U.S. Department of Labor)
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0260 | Asset: course-domain-a-intermediate-08-quality-of-life-html
+Title: Measuring Quality of Life
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0308 | Asset: course-domain-a-beginner-18-people-first-quickref-html
+Title: People-First Language: A Quick Reference
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0316 | Asset: course-domain-a-beginner-03-person-first-language-guide-html
+Title: Person-First and Identity-First Language: A Practical Guide
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0322 | Asset: course-domain-a-intermediate-03-positive-behavior-supports-html
+Title: Positive Behavior Supports
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0360 | Asset: dbc2d6f8-2aab-4967-992b-d0c07e5feec1
+Title: Recommended Reading: Foundations of Community-Informed Practice
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0376 | Asset: 5e25ba52-6ee1-4235-8a56-a451d9277784
+Title: Recommended Reading: Self and Stance
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0390 | Asset: 4e439057-0fff-4912-ab43-85db59454b46
+Title: Requirements for Improving Access for People with Limited English Proficiency
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0449 | Asset: f970c026-6756-48b5-ad4d-f7ff4cf0b42c
+Title: Self and Stance
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0478 | Asset: course-domain-a-advanced-01-crpd-human-rights-html
+Title: The CRPD: Disability as Human Rights
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0498 | Asset: 40e5afb8-9238-48f9-9811-c7e2872dbc78
+Title: Think Cultural Health
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0505 | Asset: course-domain-a-intermediate-07-transition-adult-life-html
+Title: Transition to Adult Life
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0513 | Asset: course-domain-a-beginner-10-autism-start-here-html
+Title: Understanding Autism: A Starting Guide
+Recorded decision: component_merge; recorded audience: staff
+
+
+Family: Practice Scenarios and Guided Reflection (practice-scenarios) — 44 ledger entries
+Receipt: CORPUS-V2-0399 | Asset: 4dfc0a9e-bd82-44c8-be7c-d51f87e44ace
+Title: Scenario: A Colleague Running on Empty
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0400 | Asset: cba37b28-2df8-45bb-a471-61e697572e0c
+Title: Scenario: A Microaggression in a Team Meeting
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0401 | Asset: 434e621a-62ce-4a77-8be1-06ff11ed166e
+Title: Scenario: A Sovereign Nation Is Not a Mailing List
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0402 | Asset: 52701032-1f10-4bde-9a85-a50ebac8f988
+Title: Scenario: A Vision Everyone Could See, Except
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0403 | Asset: 79fbb128-d474-4325-86ad-8cfd488551c9
+Title: Scenario: Defensiveness After Hard Feedback
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0404 | Asset: 22367d49-8410-4993-b320-654ac9ab2bc2
+Title: Scenario: Hiring for Fit
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0405 | Asset: a8019a86-c4d5-4219-a6dc-74a4cc9d8332
+Title: Scenario: I Treat Everyone the Same
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0406 | Asset: cafcbbfa-e7d2-45ab-b9f2-ab5cd4aa4796
+Title: Scenario: It Was Just a Joke
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0407 | Asset: f34b402d-5499-4028-8944-fde66bda777f
+Title: Scenario: Leading Through a Public Failure
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0408 | Asset: 8029eff7-ba35-4424-bb70-59e802d212ed
+Title: Scenario: Low Turnout From a Community
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0409 | Asset: a17ee78d-c58d-4f35-a28a-17dcef3c9b2a
+Title: Scenario: Mentored but Never Sponsored
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0410 | Asset: f594eef9-1b16-4d11-89a2-5b44886be032
+Title: Scenario: Praise for One, Silence for Another
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0411 | Asset: 6f151ccd-e2d6-4a9f-b91c-a10ac7279125
+Title: Scenario: Running on Empty at the Top
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0412 | Asset: 6ee28f34-e4ef-495e-8394-a50c55db4848
+Title: Scenario: Speaking For, Not With
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0413 | Asset: 62dc4f4e-d312-4492-a2bd-ecb08c6de3ea
+Title: Scenario: Stretched Thin and Snapping
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0414 | Asset: de2762d8-7436-41f8-a3e8-9f93ec6c9897
+Title: Scenario: The Accommodation Request That Was Never Named
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0415 | Asset: f5bba116-94f5-4224-91c0-1893d84c2134
+Title: Scenario: The Approval Gap We Did Not See
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0416 | Asset: 9252e89f-bccd-4b20-a9e6-86c7e019b22f
+Title: Scenario: The Brief Said One Thing, the Person Said Another
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0417 | Asset: 3a186c0c-47cf-4abf-8810-a37d2b631345
+Title: Scenario: The Change That Faded
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0418 | Asset: 29fa6bed-d02e-46b2-af4a-f21e96c5df4e
+Title: Scenario: The Colleague Whose Style Grates
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0419 | Asset: 7c2901e7-d1a0-40ab-a482-d2df62c52c73
+Title: Scenario: The Concern No One Raised
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0420 | Asset: 043b3d2e-71a5-42a5-b2d4-d405a7184524
+Title: Scenario: The Costly Right Thing
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0421 | Asset: da8d442c-bcce-452f-9215-cfcc23643ab9
+Title: Scenario: The Equity Push That Backfired
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0422 | Asset: 1c7eba8c-4e9c-43e2-a59d-291ffa41849d
+Title: Scenario: The Family Routed to the More Restrictive Option
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0423 | Asset: 72933361-f699-47f5-a0e2-da25e2d49f66
+Title: Scenario: The Form Only Came in English
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0424 | Asset: b11115c8-6fb5-4c60-ba6c-99b205e93417
+Title: Scenario: The Heritage Lunch and the Unchanged Organization
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0425 | Asset: 0b7e6b01-a245-4fb1-bbc3-8a1e8668da9e
+Title: Scenario: The Idea That Got Reattributed
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0426 | Asset: 82112470-3922-441f-a1a9-7238a9c76c8b
+Title: Scenario: The Interpreter Was the Client's Child
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0427 | Asset: 660a6a09-d8d9-4b0c-8569-f5402b85a071
+Title: Scenario: The Leader Who Reacted
+Recorded decision: component_merge; recorded audience: leadership
+
+Receipt: CORPUS-V2-0428 | Asset: fadca3e1-b375-41a3-9ddd-b86d183bdb38
+Title: Scenario: The Meeting Where the Same Voices Win
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0429 | Asset: 6b3e9b2c-ae14-4cec-a342-4a682c2bd04b
+Title: Scenario: The New Hire Who Went Quiet
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0430 | Asset: 4ef64d63-95ec-48e7-9537-2f85cd43c2ad
+Title: Scenario: The New Manager Still Doing the Work
+Recorded decision: component_merge; recorded audience: leadership
+
+Receipt: CORPUS-V2-0431 | Asset: d9e43754-1425-48c5-86a4-29cca71ae9ab
+Title: Scenario: The Only One Asked to Lead It
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0432 | Asset: ebcb0ede-b169-4a67-bbb4-b95aa781a96e
+Title: Scenario: The Pacesetter's Bar
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0433 | Asset: 5441ee10-e52a-4f38-9d6e-f389155c73a1
+Title: Scenario: The Quick Fix That Did Not Hold
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0434 | Asset: 7049afc3-f280-4908-ba98-d8973966bc85
+Title: Scenario: The Snap Judgment on a Name
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0435 | Asset: 242a6f90-36b9-404d-bc58-8652f26ecc90
+Title: Scenario: The Team That Treats Everyone the Same
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0436 | Asset: 07a3f2ce-9ec4-4518-91a3-80ec21fd6a36
+Title: Scenario: The Vote That Always Goes the Same Way
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0437 | Asset: e46a5ee1-9ba5-4bed-800d-6ab718125d83
+Title: Scenario: Two Units That Do Not Talk
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0438 | Asset: cd1f8a27-4245-43e2-8921-5d8089fb83f3
+Title: Scenario: We Have Always Done It This Way
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0439 | Asset: 5b07c484-e1c4-48ed-ba9a-415033e6112a
+Title: Scenario: When the Family Speaks for the Client
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0440 | Asset: b1536edd-2aa3-4197-a512-9592732b804e
+Title: Scenario: When the Numbers Show a Pattern
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0441 | Asset: d81a90c5-b2f8-4389-ac9a-39760c6a1c01
+Title: Scenario: Why Does That Community Not Apply?
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0442 | Asset: df27f569-723a-4061-aa62-53f9e55fdbad
+Title: Scenario: You Are Not Like the Others
+Recorded decision: component_merge; recorded audience: staff
+
+B. RECOVERED COURSE RECORDS — proposed primary placement
+Course: facilitators-guide-equity-inclusion-curriculum
+Title: Facilitator’s Guide: Leading the Equity and Inclusion Curriculum
+Suggested thematic connections: Intercultural practice and community understanding; Equity foundations, anti-racism, and structural change; Workplace culture, well-being, and staff voice. These are theme-level suggestions, not verified per-course graph edges.
+
+Course: equity-champion-contribution-workflow
+Title: Equity Champion Contribution Workflow
+Suggested thematic connections: Intercultural practice and community understanding; Equity foundations, anti-racism, and structural change; Workplace culture, well-being, and staff voice. These are theme-level suggestions, not verified per-course graph edges.
+
+C. CURRENT SEED RECORDS — retained
+Seed: ja-facilitation-session-plan
+Title: Session plan: purpose, activity, practical use, and access
+
+Seed: lm-facilitation-application
+Title: Facilitation that participants can use in their work
+
+Seed: lm-how-this-program-works
+Title: How to use this program
+
+D. NESTED FAMILY ENTRIES — relationship view, not additional assets
+
+Family: Communication and Facilitation; nested entries: 0
+
+Family: Learning, Reflection, and Development; nested entries: 1
+Nested asset: course-domain-a-beginner-18-people-first-quickref-html
+Title: People-First Language: A Quick Reference
+Recorded type: job_aid; status: revision_required
+
+
+Family: Practice Scenarios and Guided Reflection; nested entries: 44
+Nested asset: 4dfc0a9e-bd82-44c8-be7c-d51f87e44ace
+Title: Scenario: A Colleague Running on Empty
+Recorded type: scenario; status: revision_required
+
+Nested asset: cba37b28-2df8-45bb-a471-61e697572e0c
+Title: Scenario: A Microaggression in a Team Meeting
+Recorded type: scenario; status: revision_required
+
+Nested asset: 434e621a-62ce-4a77-8be1-06ff11ed166e
+Title: Scenario: A Sovereign Nation Is Not a Mailing List
+Recorded type: scenario; status: revision_required
+
+Nested asset: 52701032-1f10-4bde-9a85-a50ebac8f988
+Title: Scenario: A Vision Everyone Could See, Except
+Recorded type: scenario; status: revision_required
+
+Nested asset: 79fbb128-d474-4325-86ad-8cfd488551c9
+Title: Scenario: Defensiveness After Hard Feedback
+Recorded type: scenario; status: revision_required
+
+Nested asset: 22367d49-8410-4993-b320-654ac9ab2bc2
+Title: Scenario: Hiring for Fit
+Recorded type: scenario; status: revision_required
+
+Nested asset: a8019a86-c4d5-4219-a6dc-74a4cc9d8332
+Title: Scenario: I Treat Everyone the Same
+Recorded type: scenario; status: revision_required
+
+Nested asset: cafcbbfa-e7d2-45ab-b9f2-ab5cd4aa4796
+Title: Scenario: It Was Just a Joke
+Recorded type: scenario; status: revision_required
+
+Nested asset: f34b402d-5499-4028-8944-fde66bda777f
+Title: Scenario: Leading Through a Public Failure
+Recorded type: scenario; status: revision_required
+
+Nested asset: 8029eff7-ba35-4424-bb70-59e802d212ed
+Title: Scenario: Low Turnout From a Community
+Recorded type: scenario; status: revision_required
+
+Nested asset: a17ee78d-c58d-4f35-a28a-17dcef3c9b2a
+Title: Scenario: Mentored but Never Sponsored
+Recorded type: scenario; status: revision_required
+
+Nested asset: f594eef9-1b16-4d11-89a2-5b44886be032
+Title: Scenario: Praise for One, Silence for Another
+Recorded type: scenario; status: revision_required
+
+Nested asset: 6f151ccd-e2d6-4a9f-b91c-a10ac7279125
+Title: Scenario: Running on Empty at the Top
+Recorded type: scenario; status: revision_required
+
+Nested asset: 6ee28f34-e4ef-495e-8394-a50c55db4848
+Title: Scenario: Speaking For, Not With
+Recorded type: scenario; status: revision_required
+
+Nested asset: 62dc4f4e-d312-4492-a2bd-ecb08c6de3ea
+Title: Scenario: Stretched Thin and Snapping
+Recorded type: scenario; status: revision_required
+
+Nested asset: de2762d8-7436-41f8-a3e8-9f93ec6c9897
+Title: Scenario: The Accommodation Request That Was Never Named
+Recorded type: scenario; status: revision_required
+
+Nested asset: f5bba116-94f5-4224-91c0-1893d84c2134
+Title: Scenario: The Approval Gap We Did Not See
+Recorded type: scenario; status: revision_required
+
+Nested asset: 9252e89f-bccd-4b20-a9e6-86c7e019b22f
+Title: Scenario: The Brief Said One Thing, the Person Said Another
+Recorded type: scenario; status: revision_required
+
+Nested asset: 3a186c0c-47cf-4abf-8810-a37d2b631345
+Title: Scenario: The Change That Faded
+Recorded type: scenario; status: revision_required
+
+Nested asset: 29fa6bed-d02e-46b2-af4a-f21e96c5df4e
+Title: Scenario: The Colleague Whose Style Grates
+Recorded type: scenario; status: revision_required
+
+Nested asset: 7c2901e7-d1a0-40ab-a482-d2df62c52c73
+Title: Scenario: The Concern No One Raised
+Recorded type: scenario; status: revision_required
+
+Nested asset: 043b3d2e-71a5-42a5-b2d4-d405a7184524
+Title: Scenario: The Costly Right Thing
+Recorded type: scenario; status: revision_required
+
+Nested asset: da8d442c-bcce-452f-9215-cfcc23643ab9
+Title: Scenario: The Equity Push That Backfired
+Recorded type: scenario; status: revision_required
+
+Nested asset: 1c7eba8c-4e9c-43e2-a59d-291ffa41849d
+Title: Scenario: The Family Routed to the More Restrictive Option
+Recorded type: scenario; status: revision_required
+
+Nested asset: 72933361-f699-47f5-a0e2-da25e2d49f66
+Title: Scenario: The Form Only Came in English
+Recorded type: scenario; status: revision_required
+
+Nested asset: b11115c8-6fb5-4c60-ba6c-99b205e93417
+Title: Scenario: The Heritage Lunch and the Unchanged Organization
+Recorded type: scenario; status: revision_required
+
+Nested asset: 0b7e6b01-a245-4fb1-bbc3-8a1e8668da9e
+Title: Scenario: The Idea That Got Reattributed
+Recorded type: scenario; status: revision_required
+
+Nested asset: 82112470-3922-441f-a1a9-7238a9c76c8b
+Title: Scenario: The Interpreter Was the Client's Child
+Recorded type: scenario; status: revision_required
+
+Nested asset: 660a6a09-d8d9-4b0c-8569-f5402b85a071
+Title: Scenario: The Leader Who Reacted
+Recorded type: scenario; status: revision_required
+
+Nested asset: fadca3e1-b375-41a3-9ddd-b86d183bdb38
+Title: Scenario: The Meeting Where the Same Voices Win
+Recorded type: scenario; status: revision_required
+
+Nested asset: 6b3e9b2c-ae14-4cec-a342-4a682c2bd04b
+Title: Scenario: The New Hire Who Went Quiet
+Recorded type: scenario; status: revision_required
+
+Nested asset: 4ef64d63-95ec-48e7-9537-2f85cd43c2ad
+Title: Scenario: The New Manager Still Doing the Work
+Recorded type: scenario; status: revision_required
+
+Nested asset: d9e43754-1425-48c5-86a4-29cca71ae9ab
+Title: Scenario: The Only One Asked to Lead It
+Recorded type: scenario; status: revision_required
+
+Nested asset: ebcb0ede-b169-4a67-bbb4-b95aa781a96e
+Title: Scenario: The Pacesetter's Bar
+Recorded type: scenario; status: revision_required
+
+Nested asset: 5441ee10-e52a-4f38-9d6e-f389155c73a1
+Title: Scenario: The Quick Fix That Did Not Hold
+Recorded type: scenario; status: revision_required
+
+Nested asset: 7049afc3-f280-4908-ba98-d8973966bc85
+Title: Scenario: The Snap Judgment on a Name
+Recorded type: scenario; status: revision_required
+
+Nested asset: 242a6f90-36b9-404d-bc58-8652f26ecc90
+Title: Scenario: The Team That Treats Everyone the Same
+Recorded type: scenario; status: revision_required
+
+Nested asset: 07a3f2ce-9ec4-4518-91a3-80ec21fd6a36
+Title: Scenario: The Vote That Always Goes the Same Way
+Recorded type: scenario; status: revision_required
+
+Nested asset: e46a5ee1-9ba5-4bed-800d-6ab718125d83
+Title: Scenario: Two Units That Do Not Talk
+Recorded type: scenario; status: revision_required
+
+Nested asset: cd1f8a27-4245-43e2-8921-5d8089fb83f3
+Title: Scenario: We Have Always Done It This Way
+Recorded type: scenario; status: revision_required
+
+Nested asset: 5b07c484-e1c4-48ed-ba9a-415033e6112a
+Title: Scenario: When the Family Speaks for the Client
+Recorded type: scenario; status: revision_required
+
+Nested asset: b1536edd-2aa3-4197-a512-9592732b804e
+Title: Scenario: When the Numbers Show a Pattern
+Recorded type: scenario; status: revision_required
+
+Nested asset: d81a90c5-b2f8-4389-ac9a-39760c6a1c01
+Title: Scenario: Why Does That Community Not Apply?
+Recorded type: scenario; status: revision_required
+
+Nested asset: df27f569-723a-4061-aa62-53f9e55fdbad
+Title: Scenario: You Are Not Like the Others
+Recorded type: scenario; status: revision_required
+
+
+======================================================================
+Rights, policy, and formal responsibilities
+======================================================================
+
+A. SOURCE LEDGER ENTRIES
+
+Family: Policy, Law, Rights, and Compliance (policy-law-and-compliance) — 5 ledger entries
+Receipt: CORPUS-V2-0015 | Asset: 1089a05b-2ad1-448d-ae3c-16f0bd808abd
+Title: ADA Title Two (State & Local Government) — Compliance Guide
+Recorded decision: active_revise; recorded audience: staff
+
+Receipt: CORPUS-V2-0259 | Asset: 30b29b77-e762-4b87-a384-c04ad468e76b
+Title: Limited English Proficiency: Civil Rights Guidance (HHS)
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0284 | Asset: course-domain-a-advanced-05-national-disability-policy-html
+Title: National Disability Policy: Positions & Progress
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0475 | Asset: course-domain-a-beginner-16-ada-five-titles-html
+Title: The ADA at a Glance: The Five Titles
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0543 | Asset: 41161fe8-61bc-42fa-94a9-1f82c4a21acc
+Title: Working Across the Central-Office and Field Divide
+Recorded decision: active_revise; recorded audience: staff
+
+B. RECOVERED COURSE RECORDS — proposed primary placement
+No course assigned primarily here in this recovered set.
+C. CURRENT SEED RECORDS — retained
+Seed: ext-ada
+Title: ADA Title II (state and local government services)
+
+Seed: ext-title-vi-lep
+Title: Title VI and language access for people with limited English proficiency
+
+D. NESTED FAMILY ENTRIES — relationship view, not additional assets
+
+Family: Policy, Law, Rights, and Compliance; nested entries: 0
+
+======================================================================
+Tribal sovereignty and government-to-government relationships
+======================================================================
+
+A. SOURCE LEDGER ENTRIES
+
+Family: Tribal Relations and Sovereignty (tribal-relations-and-sovereignty) — 3 ledger entries
+Receipt: CORPUS-V2-0503 | Asset: 823d4942-5c13-45f5-9330-5475539daa03
+Title: Traditional and Indigenous Spiritual Practices Cultural Brief
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0508 | Asset: course-domain-e-advanced-03-tribal-consultation-html
+Title: Tribal Consultation & Indigenous Practice
+Recorded decision: component_merge; recorded audience: staff
+
+Receipt: CORPUS-V2-0509 | Asset: 974dcd3b-c3e5-4db9-8826-9d79dedc83a9
+Title: Tribal Consultation and Sovereignty
+Recorded decision: active_revise; recorded audience: staff
+
+B. RECOVERED COURSE RECORDS — proposed primary placement
+Course: cultural-intelligence-tribal
+Title: Cultural intelligence: Eleven Tribal Nations of Minnesota
+Suggested thematic connections: Rights, policy, and formal responsibilities; Intercultural practice and community understanding; Disability, self-determination, and responsive services. These are theme-level suggestions, not verified per-course graph edges.
+
+C. CURRENT SEED RECORDS — retained
+No current seed assigned primarily here.
+D. NESTED FAMILY ENTRIES — relationship view, not additional assets
+
+Family: Tribal Relations and Sovereignty; nested entries: 1
+Nested asset: 823d4942-5c13-45f5-9330-5475539daa03
+Title: Traditional and Indigenous Spiritual Practices Cultural Brief
+Recorded type: cultural_brief; status: revision_required
+
+
+======================================================================
+Consultant program stewardship
+======================================================================
+
+A. SOURCE LEDGER ENTRIES
+
+Family: System and Program Operations (system-and-program-operations) — 5 ledger entries
+Receipt: CORPUS-V2-0052 | Asset: 525ea8a8-2281-4a58-97a6-fa301754ef23
+Title: Business Continuity Plan
+Recorded decision: internal_reclassify; recorded audience: consultant
+
+Receipt: CORPUS-V2-0075 | Asset: 7eb0dcc7-8512-411d-8512-a888ddbcad54
+Title: Content Suggestion Form for Staff
+Recorded decision: internal_reclassify; recorded audience: consultant
+
+Receipt: CORPUS-V2-0120 | Asset: 26a795c0-5884-4754-a19c-053dcb9c75a4
+Title: DSD Staff Offboarding
+Recorded decision: internal_reclassify; recorded audience: consultant
+
+Receipt: CORPUS-V2-0256 | Asset: e5c132a7-5f1e-4d71-8622-1f0150e5bde4
+Title: Library Governance Charter
+Recorded decision: internal_reclassify; recorded audience: consultant
+
+Receipt: CORPUS-V2-0385 | Asset: 809b46df-5e97-44d9-9d1c-7f50e416dacc
+Title: Referral Template Library
+Recorded decision: internal_reclassify; recorded audience: consultant
+
+B. RECOVERED COURSE RECORDS — proposed primary placement
+No course assigned primarily here in this recovered set.
+C. CURRENT SEED RECORDS — retained
+No current seed assigned primarily here.
+D. NESTED FAMILY ENTRIES — relationship view, not additional assets
+
+Family: System and Program Operations; nested entries: 1
+Nested asset: 809b46df-5e97-44d9-9d1c-7f50e416dacc
+Title: Referral Template Library
+Recorded type: job_aid; status: revision_required
+
+

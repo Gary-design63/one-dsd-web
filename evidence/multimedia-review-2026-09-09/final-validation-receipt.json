@@ -1,0 +1,95 @@
+{
+  "completedAt": "2026-09-09T12:50:26.1800883Z",
+  "workspace": "C:/Users/garyb/Projects/one-dhs-pac-repair",
+  "status": "Final hosted verification passed",
+  "hosted": {
+    "command": "npm run test -- --config vitest.hosted.config.mts",
+    "exitCode": 0,
+    "passedFiles": 188,
+    "skippedFiles": 1,
+    "totalFiles": 189,
+    "passedTests": 1751,
+    "skippedTests": 1,
+    "totalTests": 1752,
+    "durationSeconds": 657.95,
+    "log": "final-hosted-tests.log",
+    "scope": "Hosted configuration excludes 17 explicitly named local PostgreSQL integration suites; this receipt does not claim those suites passed.",
+    "timing": "Late podcast discovery/evidence changes were also checked independently below. Do not add overlapping targeted totals to the hosted total."
+  },
+  "focused": {
+    "dsdAndProgram": {
+      "passed": 107,
+      "files": 5,
+      "log": "dsd-engagement-final-focused.log"
+    },
+    "latePodcastDiscovery": {
+      "passed": 9,
+      "newTests": 6,
+      "existingTests": 3,
+      "receipt": "podcast-transcript-discovery-receipt.json"
+    },
+    "latePodcastEvidence": {
+      "passed": 1,
+      "receipt": "podcast-transcript-discovery-receipt.json#downstreamEvidenceReview"
+    }
+  },
+  "staticChecks": {
+    "lint": {
+      "exitCode": 0,
+      "errors": 0,
+      "existingWarnings": 4,
+      "log": "final-lint.log"
+    },
+    "typecheck": {
+      "exitCode": 0,
+      "log": "final-typecheck.log"
+    },
+    "latePureTypecheck": {
+      "exitCode": 0,
+      "command": "npx tsc --noEmit --incremental false",
+      "log": "late-typecheck.log"
+    },
+    "lateTestLint": {
+      "exitCode": 0,
+      "log": "late-test-lint.log"
+    }
+  },
+  "build": {
+    "status": "Root reported completed with exit 0",
+    "log": "final-local-build.log",
+    "executedBy": "root agent"
+  },
+  "recommendationRows": {
+    "dsd": {
+      "total": 95,
+      "integrated": 64,
+      "retained": 30,
+      "awaitingContributor": 1,
+      "receipt": "dsd-media-status.json"
+    },
+    "program": {
+      "total": 22,
+      "integrated": 19,
+      "retained": 3,
+      "receipt": "engagement-media-status.json"
+    },
+    "interpretation": "These are reviewed recommendation placements, not unique media assets, not all lessons, and not a claim that proposed video was filmed. Each row names its delivered medium and retained source."
+  },
+  "historicalRun": {
+    "log": "full-hosted-tests.log",
+    "status": "Earlier failures preserved for audit; corrected and superseded by successful final hosted run."
+  },
+  "limitations": [
+    "One DSD ERG contribution awaits a contributor-chosen contribution; no invented voice.",
+    "Two recording-derived podcast transcripts remain machine-generated drafts, not certified verbatim transcripts.",
+    "Combined second-brain installation remains blocked by automatic approval review; no source-copy bypass performed.",
+    "Root owns final production deployment, production parity, sanitized source ZIP and final release receipt."
+  ],
+  "documents": [
+    "PRD.md",
+    "TRD.md",
+    "PRD.html",
+    "TRD.html",
+    "document-qa-receipt.json"
+  ]
+}

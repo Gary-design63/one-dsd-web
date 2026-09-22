@@ -1,0 +1,20 @@
+{
+  "createdAt": "2026-09-09",
+  "assetPath": "public/images/media-critical-incident-late-handout-v1.png",
+  "sha256": "f467c19376fa335a72f1f14c2cf514f721735fb7164c3cf59c19da10a1f14c68",
+  "dimensions": {
+    "width": 1672,
+    "height": 941
+  },
+  "source": "Built-in image_gen tool; original fictional AI-generated scene",
+  "originalPath": "C:/Users/garyb/.codex/generated_images/01a0846c-d55a-7160-a9a4-9374007a54ff/exec-8d4ebd17-349f-4d71-8c76-61050c82da80.png",
+  "rights": "Original AI-generated asset requested by the owner for this program; no third-party photograph or identity supplied. No claim of historical or documentary authenticity.",
+  "people": "Fictional ordinary adult colleagues. No diagnosis, cultural trait, disability, motive or ability is inferred from appearance.",
+  "visualQA": "Inspected generated image: photorealistic office/table/handout scene; natural faces, skin, visible hands and body proportions; no logo or readable staff information.",
+  "route": "/courses/critical-incidents-in-the-work/ci-write",
+  "sourceLesson": "lib/content/courses/recovered.json",
+  "learningUse": "Observe materials, timing and requests; distinguish observation from motive or ability judgments; draft the existing four-line exercise.",
+  "accessibility": "Meaningful image alternative, original complete written scene, native manual buttons, no autoplay, radio choice feedback and polite live regions.",
+  "validation": "Two focused component interaction tests passed. Exact route and browser visual check are pending with coordinator.",
+  "prompt": "Use case: photorealistic-natural. Asset type: a landscape still photograph for a workplace learning exercise titled Write it without a villain. Primary request: create ONE highly photorealistic fictional office meeting scene, papers being passed across a table shortly before a decision. Scene: an ordinary contemporary public-service office meeting room in daylight, no logos or identifying place details. Subject: four fictional adult colleagues of varied ages and skin tones seated around a wood meeting table; one passes a small stack of ordinary printed handouts toward the next person, two look toward the papers, another has an open notebook. This is ordinary participation, with neutral attentive expressions and no implied villain, drama, exaggerated emotion or culture-coded clothing. Composition: horizontal 16:9, editorial documentary photography at seated eye height, all four people in a natural balanced wide composition, focus on the handout exchange and readable body positions, realistic comfortable spacing. Lighting: soft window daylight with believable office ambient light, warm-neutral color, true skin texture and fabric detail. Quality: natural human anatomy, realistic hands with correct fingers and proportions, natural faces and eyes, physically coherent papers, table and furniture; high photographic detail, not illustration or 3D. Text: no readable text in the image; paper markings may be softly out of focus. Constraints: fictional people only, no DHS branding, no badges/names, no watermark, no staged stock-photo handshake, no caricature, no glamour retouching. Do not infer disability, diagnosis, character or cultural traits from anyone's appearance; this scene is about timing and materials rather than depicting a disability category. No reference images supplied; generate a new scene."
+}

@@ -1,0 +1,2036 @@
+{
+  "schemaVersion": "1.0.0",
+  "capturedOn": "2026-09-04",
+  "program": "One DHS People, Access and Culture Program with a federated One DSD People, Access and Culture expression",
+  "governingDecision": {
+    "ownerDecision": "Every supplied asset is qualitatively approved to enter the production corpus.",
+    "ingestionRule": "Ingest and account for every source. Do not omit a source because editing remains.",
+    "releaseRule": "Staff release is a separate decision requiring language alignment, factual currentness, accessibility, scope, placement, and rights review where applicable.",
+    "seedRule": "Keep all 25 current seed items as a permanent collection with stable IDs and append-only revisions.",
+    "duplicateRule": "Preserve every receipt, store one byte-identical payload, and never deduplicate by title alone.",
+    "visibilityRule": "Source history and technical accounting remain internal. Staff see only warm, direct content plus owner, next review, applies to, and contact labels when useful.",
+    "protectedAssetRule": "Do not change, replace, or overwrite the DHS logo."
+  },
+  "identityCorrection": {
+    "ownerReference": "IBI orientation",
+    "evidenceBasedInterpretation": "IDI orientation and developmental tutorial sequence",
+    "handling": "Retain each original Drive title and ID. Record the owner's phrase as an alias only; do not rename source material without confirmation.",
+    "memberSourceIds": [
+      "drive-cfs-idi-seminar-part-1",
+      "drive-idi-denial",
+      "drive-idi-polarization",
+      "drive-idi-minimization",
+      "drive-idi-acceptance",
+      "drive-idi-integration"
+    ]
+  },
+  "thematicLanes": [
+    {
+      "id": "program-architecture-governance",
+      "label": "Program architecture and governance"
+    },
+    {
+      "id": "equity-infrastructure-structural-change",
+      "label": "Equity infrastructure and structural change"
+    },
+    {
+      "id": "workplace-culture-engagement-wellbeing",
+      "label": "Workplace culture, engagement, psychological safety, and wellbeing"
+    },
+    {
+      "id": "intercultural-development-cultural-intelligence",
+      "label": "Intercultural development and cultural intelligence"
+    },
+    {
+      "id": "community-engagement-community-practice",
+      "label": "Community engagement and community-informed practice"
+    },
+    {
+      "id": "access-language-person-centered-practice",
+      "label": "Access, language, person-centered practice, and self-determination"
+    },
+    {
+      "id": "workforce-hiring-retention-advancement",
+      "label": "Hiring, retention, advancement, and the employee life cycle"
+    },
+    {
+      "id": "policy-equity-analysis-compliance",
+      "label": "Policy, equity analysis, civil rights, and compliance"
+    },
+    {
+      "id": "orientation-learning-multimedia",
+      "label": "Orientation, learning, facilitation, and multimedia"
+    },
+    {
+      "id": "research-future-adaptability",
+      "label": "Research, learning systems, and future adaptability"
+    },
+    {
+      "id": "product-reference-handoff",
+      "label": "Product references, decisions, and handoff materials"
+    }
+  ],
+  "reviewDimensions": [
+    "language_alignment",
+    "factual_currentness",
+    "accessibility",
+    "scope",
+    "placement",
+    "rights_and_consent"
+  ],
+  "accountingStates": [
+    "accounted",
+    "accounted_awaiting_source"
+  ],
+  "pipelinePrinciple": "Ingestion and staff publication are separate pipelines.",
+  "counts": {
+    "ledgerEntries": 47,
+    "directlySuppliedOrReferencedEntries": 39,
+    "discoveredCorpusCollections": 8,
+    "knownMissingOriginals": 3,
+    "googlePresentationLinks": 12,
+    "localFilesAndPackages": 22,
+    "pastedTextReceipts": 12
+  },
+  "sources": [
+    {
+      "accountingStatus": "accounted",
+      "accessStatus": "available",
+      "ownerApproval": "owner_approved_for_ingestion",
+      "pipelineStatus": "registered_not_imported",
+      "publicationStatus": "not_staff_released",
+      "sourceId": "local-landscape-climate-report",
+      "title": "DHS Equity Landscape and Climate Report",
+      "sourceType": "docx",
+      "thematicLanes": [
+        "program-architecture-governance",
+        "equity-infrastructure-structural-change",
+        "workplace-culture-engagement-wellbeing"
+      ],
+      "intendedUse": "Program architecture, maturity stages, climate priorities, and structural reform planning.",
+      "programScope": [
+        "dhs",
+        "adsa",
+        "dsd"
+      ],
+      "audience": "program_design_internal",
+      "locator": {
+        "kind": "local_logical",
+        "resolverKey": "local-landscape-climate-report",
+        "fileName": "DHS-Equity-Landscape-and-Climate-Report-Updated.docx",
+        "locationClass": "OneDrive Desktop"
+      },
+      "evidence": {
+        "bytes": 61146,
+        "modifiedUtc": "2026-08-27T14:43:08.5631037Z",
+        "sha256": "6F1DA3BC303404C663825F51A19413489D540D551A763873CF098E022EC1029E"
+      },
+      "review": {
+        "language_alignment": "pending",
+        "factual_currentness": "pending",
+        "accessibility": "pending",
+        "scope": "pending",
+        "placement": "program_architecture",
+        "rights_and_consent": "not_applicable"
+      }
+    },
+    {
+      "accountingStatus": "accounted",
+      "accessStatus": "available",
+      "ownerApproval": "owner_approved_for_ingestion",
+      "pipelineStatus": "registered_not_imported",
+      "publicationStatus": "not_staff_released",
+      "sourceId": "local-benefits-prd-early-2027",
+      "title": "One DHS People, Access and Culture Benefits-Focused PRD, Early 2027",
+      "sourceType": "docx",
+      "thematicLanes": [
+        "program-architecture-governance",
+        "orientation-learning-multimedia",
+        "research-future-adaptability"
+      ],
+      "intendedUse": "Product requirements and staff-experience design input.",
+      "programScope": [
+        "dhs",
+        "adsa",
+        "dsd"
+      ],
+      "audience": "program_design_internal",
+      "locator": {
+        "kind": "local_logical",
+        "resolverKey": "local-benefits-prd-early-2027",
+        "fileName": "One_DHS_People_Access_and_Culture_Benefits_Focused_PRD_Early_2027.docx",
+        "locationClass": "OneDrive Desktop"
+      },
+      "evidence": {
+        "bytes": 413734,
+        "modifiedUtc": "2026-08-31T10:36:30.5907656Z",
+        "sha256": "AF139AC35C5A8349C16424185685A43CD3DF38C0B475D5E44152EB355A238A7D"
+      },
+      "review": {
+        "language_alignment": "pending",
+        "factual_currentness": "pending",
+        "accessibility": "pending",
+        "scope": "pending",
+        "placement": "program_architecture",
+        "rights_and_consent": "not_applicable"
+      }
+    },
+    {
+      "accountingStatus": "accounted",
+      "accessStatus": "available",
+      "ownerApproval": "owner_approved_for_ingestion",
+      "pipelineStatus": "registered_not_imported",
+      "publicationStatus": "not_staff_released",
+      "sourceId": "local-equitable-hiring-retention-rubric",
+      "title": "Equitable Hiring and Retention Review Rubric",
+      "sourceType": "docx",
+      "thematicLanes": [
+        "workforce-hiring-retention-advancement",
+        "policy-equity-analysis-compliance"
+      ],
+      "intendedUse": "Staff job aid and structured review tool.",
+      "programScope": [
+        "dhs",
+        "adsa",
+        "dsd"
+      ],
+      "audience": "staff_candidate",
+      "locator": {
+        "kind": "local_logical",
+        "resolverKey": "local-equitable-hiring-retention-rubric",
+        "fileName": "equitable-hiring-retention-rubric.docx",
+        "locationClass": "OneDrive Desktop Copy"
+      },
+      "evidence": {
+        "bytes": 11244,
+        "modifiedUtc": "2026-07-04T03:01:28.4331173Z",
+        "sha256": "968315D2DF9968BC27F9B63EB60D92B4AB941AF9889C7BD554C51C1684840791"
+      },
+      "review": {
+        "language_alignment": "pending",
+        "factual_currentness": "pending",
+        "accessibility": "pending",
+        "scope": "pending",
+        "placement": "workforce_practice",
+        "rights_and_consent": "not_applicable"
+      }
+    },
+    {
+      "accountingStatus": "accounted",
+      "accessStatus": "available",
+      "ownerApproval": "owner_approved_for_ingestion",
+      "pipelineStatus": "registered_not_imported",
+      "publicationStatus": "not_staff_released",
+      "sourceId": "local-racism-in-america-audio",
+      "title": "Racism in America course narration",
+      "sourceType": "mp3",
+      "thematicLanes": [
+        "orientation-learning-multimedia",
+        "equity-infrastructure-structural-change"
+      ],
+      "intendedUse": "Accessible course narration paired with the Racism in America learning experience.",
+      "programScope": [
+        "dhs",
+        "adsa",
+        "dsd"
+      ],
+      "audience": "staff_candidate",
+      "locator": {
+        "kind": "local_logical",
+        "resolverKey": "local-racism-in-america-audio",
+        "fileName": "course-featured-racism-in-america-html.mp3",
+        "locationClass": "OneDrive Desktop Copy"
+      },
+      "evidence": {
+        "bytes": 11105216,
+        "modifiedUtc": "2026-07-03T21:43:34.6080051Z",
+        "sha256": "7B61CF2CD944C0D0D6F17484D4A6561C06341AED9D37D09D7D0BCAE98CB92D03",
+        "durationSeconds": 694.021224,
+        "bitrate": 128010
+      },
+      "review": {
+        "language_alignment": "pending",
+        "factual_currentness": "pending",
+        "accessibility": "media_transcript_and_player_review_pending",
+        "scope": "pending",
+        "placement": "pending",
+        "rights_and_consent": "pending"
+      }
+    },
+    {
+      "accountingStatus": "accounted",
+      "accessStatus": "available",
+      "ownerApproval": "owner_approved_for_ingestion",
+      "pipelineStatus": "registered_not_imported",
+      "publicationStatus": "not_staff_released",
+      "sourceId": "local-community-engagement-done-well",
+      "title": "Community Engagement Done Well",
+      "sourceType": "pptx",
+      "thematicLanes": [
+        "community-engagement-community-practice",
+        "equity-infrastructure-structural-change"
+      ],
+      "intendedUse": "Short learning resource on shared power, co-design, early engagement, and closing the loop.",
+      "programScope": [
+        "dhs",
+        "adsa",
+        "dsd"
+      ],
+      "audience": "staff_candidate",
+      "locator": {
+        "kind": "local_logical",
+        "resolverKey": "local-community-engagement-done-well",
+        "fileName": "community-engagement-done-well.pptx",
+        "locationClass": "Downloads"
+      },
+      "evidence": {
+        "bytes": 70632,
+        "modifiedUtc": "2026-08-31T01:23:42.5201218Z",
+        "sha256": "1E8D8D4F8E15E176015EB20ADCBE1339130B497E4B111C0CFA41422E4A44105D",
+        "slideCount": 4
+      },
+      "review": {
+        "language_alignment": "pending",
+        "factual_currentness": "pending",
+        "accessibility": "pending",
+        "scope": "pending",
+        "placement": "pending",
+        "rights_and_consent": "source_attribution_review_pending"
+      }
+    },
+    {
+      "accountingStatus": "accounted",
+      "accessStatus": "available",
+      "ownerApproval": "owner_approved_for_ingestion",
+      "pipelineStatus": "registered_not_imported",
+      "publicationStatus": "not_staff_released",
+      "sourceId": "local-equity-cascade-crosswalk",
+      "title": "Equity Cascade Crosswalk Accessible",
+      "sourceType": "docx",
+      "thematicLanes": [
+        "program-architecture-governance",
+        "equity-infrastructure-structural-change"
+      ],
+      "intendedUse": "Maps DHS, Aging and Disability Services Administration, and Disability Services Division responsibilities for the One DSD Team.",
+      "programScope": [
+        "dhs",
+        "adsa",
+        "dsd",
+        "one-dsd-team"
+      ],
+      "audience": "role_scoped_candidate",
+      "locator": {
+        "kind": "local_logical",
+        "resolverKey": "local-equity-cascade-crosswalk",
+        "fileName": "Equity Cascade Crosswalk Accessible.docx",
+        "locationClass": "Downloads"
+      },
+      "evidence": {
+        "bytes": 23693,
+        "modifiedUtc": "2026-08-28T15:29:58.8220179Z",
+        "sha256": "F9F11C1F50AAB7E9929A2CEC9285D8CBAFEDC12F4E2F6D9DD9F48D6C4EB3F068"
+      },
+      "review": {
+        "language_alignment": "pending",
+        "factual_currentness": "pending",
+        "accessibility": "pending",
+        "scope": "pending",
+        "placement": "governance_and_one_dsd_team",
+        "rights_and_consent": "not_applicable"
+      }
+    },
+    {
+      "accountingStatus": "accounted",
+      "accessStatus": "available",
+      "ownerApproval": "owner_approved_for_ingestion",
+      "pipelineStatus": "registered_not_imported",
+      "publicationStatus": "not_staff_released",
+      "sourceId": "local-race-racism-minnesota-course",
+      "title": "Racism in America: History, Structures, and Evidence-Based Perspectives",
+      "sourceType": "html_interactive_course",
+      "thematicLanes": [
+        "orientation-learning-multimedia",
+        "equity-infrastructure-structural-change",
+        "policy-equity-analysis-compliance"
+      ],
+      "intendedUse": "Interactive staff learning course with paired audio.",
+      "programScope": [
+        "dhs",
+        "adsa",
+        "dsd"
+      ],
+      "audience": "staff_candidate",
+      "locator": {
+        "kind": "local_logical",
+        "resolverKey": "local-race-racism-minnesota-course",
+        "fileName": "Race_and_Racism_Minnesota_One_DSD_Recolored.html",
+        "locationClass": "Downloads"
+      },
+      "evidence": {
+        "bytes": 2026463,
+        "modifiedUtc": "2026-07-29T23:37:58.0079098Z",
+        "sha256": "257046E1B17C446E9C0A782264160FCDB3417B5320BAC56A5F3CD3F75764A999"
+      },
+      "review": {
+        "language_alignment": "pending",
+        "factual_currentness": "pending",
+        "accessibility": "interactive_course_review_pending",
+        "scope": "pending",
+        "placement": "pending",
+        "rights_and_consent": "embedded_media_rights_review_pending"
+      }
+    },
+    {
+      "accountingStatus": "accounted",
+      "accessStatus": "available",
+      "ownerApproval": "owner_approved_for_ingestion",
+      "pipelineStatus": "registered_not_imported",
+      "publicationStatus": "not_staff_released",
+      "sourceId": "local-person-centered-practice-slides",
+      "title": "Person-Centered Practice and Self-Determination",
+      "sourceType": "pptx",
+      "thematicLanes": [
+        "access-language-person-centered-practice",
+        "orientation-learning-multimedia"
+      ],
+      "intendedUse": "Short staff learning resource on informed choice, self-determination, and supporting rather than deciding.",
+      "programScope": [
+        "dhs",
+        "adsa",
+        "dsd"
+      ],
+      "audience": "staff_candidate",
+      "locator": {
+        "kind": "local_logical",
+        "resolverKey": "local-person-centered-practice-slides",
+        "fileName": "person-centered-practice-and-self-determination.pptx",
+        "locationClass": "Downloads"
+      },
+      "evidence": {
+        "bytes": 68327,
+        "modifiedUtc": "2026-07-25T21:26:19.7717976Z",
+        "sha256": "F0BD5216704E36F2E3356FE48128BC5AB80A853277F57EF95074036F258F89D0",
+        "slideCount": 4
+      },
+      "review": {
+        "language_alignment": "pending",
+        "factual_currentness": "pending",
+        "accessibility": "pending",
+        "scope": "pending",
+        "placement": "pending",
+        "rights_and_consent": "not_applicable"
+      }
+    },
+    {
+      "accountingStatus": "accounted",
+      "accessStatus": "available",
+      "ownerApproval": "owner_approved_for_ingestion",
+      "pipelineStatus": "registered_not_imported",
+      "publicationStatus": "not_staff_released",
+      "sourceId": "thread-process-history",
+      "title": "Process history and repository-move context",
+      "sourceType": "pasted_text",
+      "thematicLanes": [
+        "product-reference-handoff"
+      ],
+      "intendedUse": "Internal chronology only; never staff-facing.",
+      "programScope": [
+        "dhs",
+        "adsa",
+        "dsd"
+      ],
+      "audience": "program_design_internal",
+      "locator": {
+        "kind": "codex_attachment",
+        "attachmentId": "86a34871-bf7e-4dcb-aa23-a88234d0d9b6",
+        "fileName": "pasted-text.txt"
+      },
+      "evidence": {
+        "bytes": 5149,
+        "modifiedUtc": "2026-09-03T20:34:52.2103015Z",
+        "sha256": "2971AD4D66E311619AE548C5A69255D38E117A202EFBDFF40B6546731A06F710"
+      },
+      "review": {
+        "language_alignment": "pending",
+        "factual_currentness": "pending",
+        "accessibility": "not_applicable",
+        "scope": "pending",
+        "placement": "pending",
+        "rights_and_consent": "not_applicable"
+      }
+    },
+    {
+      "accountingStatus": "accounted",
+      "accessStatus": "available",
+      "ownerApproval": "owner_approved_for_ingestion",
+      "pipelineStatus": "registered_not_imported",
+      "publicationStatus": "not_staff_released",
+      "sourceId": "consultant-twin-prd",
+      "title": "One DSD Consultant Twin Product Requirements Document",
+      "sourceType": "pasted_text",
+      "thematicLanes": [
+        "program-architecture-governance",
+        "research-future-adaptability"
+      ],
+      "intendedUse": "Mindset and operating requirements for the Equity and Inclusion Operations Consultant's digital extension.",
+      "programScope": [
+        "dhs",
+        "adsa",
+        "dsd"
+      ],
+      "audience": "program_design_internal",
+      "locator": {
+        "kind": "codex_attachment",
+        "attachmentId": "8300cb46-08ad-4784-a0fd-42ce4b9a46a4",
+        "fileName": "pasted-text.txt"
+      },
+      "evidence": {
+        "bytes": 47388,
+        "modifiedUtc": "2026-09-03T22:35:39.4877295Z",
+        "sha256": "75FCE90A783C7930F68A9E6A96CDCB3D3A259026D39BD65C691DB23263B8EBAE"
+      },
+      "review": {
+        "language_alignment": "pending",
+        "factual_currentness": "pending",
+        "accessibility": "not_applicable",
+        "scope": "pending",
+        "placement": "pending",
+        "rights_and_consent": "not_applicable"
+      }
+    },
+    {
+      "accountingStatus": "accounted",
+      "accessStatus": "available",
+      "ownerApproval": "owner_approved_for_ingestion",
+      "pipelineStatus": "registered_not_imported",
+      "publicationStatus": "not_staff_released",
+      "sourceId": "dhs-equity-ecosystem-inventory",
+      "title": "DHS equity infrastructure and ecosystem inventory",
+      "sourceType": "pasted_text",
+      "thematicLanes": [
+        "program-architecture-governance",
+        "equity-infrastructure-structural-change"
+      ],
+      "intendedUse": "Program architecture and ecosystem inventory.",
+      "programScope": [
+        "dhs",
+        "adsa",
+        "dsd"
+      ],
+      "audience": "program_design_internal",
+      "locator": {
+        "kind": "codex_attachment",
+        "attachmentId": "3d6136d7-d07b-4437-ad07-571c24a4e704",
+        "fileName": "pasted-text.txt"
+      },
+      "evidence": {
+        "bytes": 8622,
+        "modifiedUtc": "2026-09-03T22:42:13.8995731Z",
+        "sha256": "B19C6B2894AAAF634C0F52C53E5D9BA3051B74FB2296C891A842711F410A638A"
+      },
+      "review": {
+        "language_alignment": "pending",
+        "factual_currentness": "pending",
+        "accessibility": "not_applicable",
+        "scope": "pending",
+        "placement": "pending",
+        "rights_and_consent": "not_applicable"
+      }
+    },
+    {
+      "accountingStatus": "accounted",
+      "accessStatus": "available",
+      "ownerApproval": "owner_approved_for_ingestion",
+      "pipelineStatus": "registered_not_imported",
+      "publicationStatus": "not_staff_released",
+      "sourceId": "consultant-role-and-supporting-files-receipt",
+      "title": "Consultant role context and receipt for three supporting files",
+      "sourceType": "pasted_text",
+      "thematicLanes": [
+        "program-architecture-governance",
+        "equity-infrastructure-structural-change"
+      ],
+      "intendedUse": "Internal context and evidence that three named source files were supplied.",
+      "programScope": [
+        "dhs",
+        "adsa",
+        "dsd"
+      ],
+      "audience": "program_design_internal",
+      "locator": {
+        "kind": "codex_attachment",
+        "attachmentId": "b8e408fc-2d80-441b-a772-605f65573c34",
+        "fileName": "pasted-text.txt"
+      },
+      "evidence": {
+        "bytes": 14117,
+        "modifiedUtc": "2026-09-03T23:55:39.0970400Z",
+        "sha256": "E45A55F5DA2837D2E18B93E3F1C205F328704B8D9C061DED12B03E0FF64BCB55"
+      },
+      "review": {
+        "language_alignment": "pending",
+        "factual_currentness": "pending",
+        "accessibility": "not_applicable",
+        "scope": "pending",
+        "placement": "pending",
+        "rights_and_consent": "not_applicable"
+      }
+    },
+    {
+      "accountingStatus": "accounted",
+      "accessStatus": "available",
+      "ownerApproval": "owner_approved_for_ingestion",
+      "pipelineStatus": "registered_not_imported",
+      "publicationStatus": "not_staff_released",
+      "sourceId": "cultural-terms-glossary",
+      "title": "Glossary of Cultural Terms",
+      "sourceType": "pasted_text",
+      "thematicLanes": [
+        "intercultural-development-cultural-intelligence",
+        "orientation-learning-multimedia"
+      ],
+      "intendedUse": "Candidate staff reference; individual claims and terms require editorial and currentness review.",
+      "programScope": [
+        "dhs",
+        "adsa",
+        "dsd"
+      ],
+      "audience": "staff_candidate",
+      "locator": {
+        "kind": "codex_attachment",
+        "attachmentId": "02725625-9f93-406e-8357-136d50485399",
+        "fileName": "pasted-text.txt"
+      },
+      "evidence": {
+        "bytes": 93501,
+        "modifiedUtc": "2026-09-03T23:57:30.6730441Z",
+        "sha256": "1D48468DF6B08CF81E060670C3B7E869B03790906A69170E9A7B39A355956105"
+      },
+      "review": {
+        "language_alignment": "pending",
+        "factual_currentness": "pending",
+        "accessibility": "not_applicable",
+        "scope": "pending",
+        "placement": "pending",
+        "rights_and_consent": "not_applicable"
+      }
+    },
+    {
+      "accountingStatus": "accounted",
+      "accessStatus": "available",
+      "ownerApproval": "owner_approved_for_ingestion",
+      "pipelineStatus": "registered_not_imported",
+      "publicationStatus": "not_staff_released",
+      "sourceId": "partnership-framework-receipt-a",
+      "title": "Partnership framework for advancing equity across the agency",
+      "sourceType": "pasted_text",
+      "thematicLanes": [
+        "program-architecture-governance",
+        "equity-infrastructure-structural-change"
+      ],
+      "intendedUse": "Framework content; treat as a program spine, not correspondence.",
+      "programScope": [
+        "dhs",
+        "adsa",
+        "dsd"
+      ],
+      "audience": "program_design_internal",
+      "locator": {
+        "kind": "codex_attachment",
+        "attachmentId": "9b87aac0-c07a-44db-97db-ad63a42332e7",
+        "fileName": "pasted-text.txt"
+      },
+      "evidence": {
+        "bytes": 18197,
+        "modifiedUtc": "2026-09-04T03:34:52.6405119Z",
+        "sha256": "04B18FF21429BDD4847808467C64A49320FE0127C8B368DAF12336EDC9021A05"
+      },
+      "review": {
+        "language_alignment": "pending",
+        "factual_currentness": "pending",
+        "accessibility": "not_applicable",
+        "scope": "pending",
+        "placement": "pending",
+        "rights_and_consent": "not_applicable"
+      }
+    },
+    {
+      "accountingStatus": "accounted",
+      "accessStatus": "available",
+      "ownerApproval": "owner_approved_for_ingestion",
+      "pipelineStatus": "registered_not_imported",
+      "publicationStatus": "not_staff_released",
+      "sourceId": "consultant-mindset",
+      "title": "Principal Equity and Inclusion Operations Consultant mindset",
+      "sourceType": "pasted_text",
+      "thematicLanes": [
+        "program-architecture-governance",
+        "research-future-adaptability"
+      ],
+      "intendedUse": "Mindset input for the consultant's digital extension; not consultant biography or correspondence.",
+      "programScope": [
+        "dhs",
+        "adsa",
+        "dsd"
+      ],
+      "audience": "program_design_internal",
+      "locator": {
+        "kind": "codex_attachment",
+        "attachmentId": "8db883e7-7366-409e-b130-12a4b3777e25",
+        "fileName": "pasted-text.txt"
+      },
+      "evidence": {
+        "bytes": 6862,
+        "modifiedUtc": "2026-09-04T03:36:59.2930184Z",
+        "sha256": "83C5A24DAA3056A0AE5BEA5CC0C7AABFBCA1711D76FC572C5686156ECCA2FF15"
+      },
+      "review": {
+        "language_alignment": "pending",
+        "factual_currentness": "pending",
+        "accessibility": "not_applicable",
+        "scope": "pending",
+        "placement": "pending",
+        "rights_and_consent": "not_applicable"
+      }
+    },
+    {
+      "accountingStatus": "accounted",
+      "accessStatus": "available",
+      "ownerApproval": "owner_approved_for_ingestion",
+      "pipelineStatus": "registered_not_imported",
+      "publicationStatus": "not_staff_released",
+      "sourceId": "partnership-framework-canonical",
+      "title": "Partnership framework for advancing equity across the agency",
+      "sourceType": "pasted_text",
+      "thematicLanes": [
+        "program-architecture-governance",
+        "equity-infrastructure-structural-change"
+      ],
+      "intendedUse": "Major program spine; treat as framework content rather than correspondence.",
+      "programScope": [
+        "dhs",
+        "adsa",
+        "dsd"
+      ],
+      "audience": "program_design_internal",
+      "locator": {
+        "kind": "codex_attachment",
+        "attachmentId": "e11b1298-3f35-4706-a581-8030be646bfa",
+        "fileName": "pasted-text.txt"
+      },
+      "evidence": {
+        "bytes": 20903,
+        "modifiedUtc": "2026-09-04T03:40:51.4297237Z",
+        "sha256": "67DFE0EF66CD39A4468489AF1FB71E5E797448D6E7AF5A07DC43D3232BE1A72F"
+      },
+      "review": {
+        "language_alignment": "pending",
+        "factual_currentness": "pending",
+        "accessibility": "not_applicable",
+        "scope": "pending",
+        "placement": "pending",
+        "rights_and_consent": "not_applicable"
+      }
+    },
+    {
+      "accountingStatus": "accounted",
+      "accessStatus": "available",
+      "ownerApproval": "owner_approved_for_ingestion",
+      "pipelineStatus": "duplicate_receipt_preserved",
+      "publicationStatus": "not_staff_released",
+      "sourceId": "partnership-framework-duplicate-receipt",
+      "title": "Partnership framework duplicate receipt",
+      "sourceType": "pasted_text",
+      "thematicLanes": [
+        "program-architecture-governance",
+        "equity-infrastructure-structural-change"
+      ],
+      "intendedUse": "Distinct receipt with byte-identical payload; retain the receipt and do not create a duplicate staff resource.",
+      "programScope": [
+        "dhs",
+        "adsa",
+        "dsd"
+      ],
+      "audience": "program_design_internal",
+      "locator": {
+        "kind": "codex_attachment",
+        "attachmentId": "281b3222-f267-4f5a-ab04-7d96825d627c",
+        "fileName": "pasted-text.txt"
+      },
+      "evidence": {
+        "bytes": 20903,
+        "modifiedUtc": "2026-09-04T03:41:15.0627711Z",
+        "sha256": "67DFE0EF66CD39A4468489AF1FB71E5E797448D6E7AF5A07DC43D3232BE1A72F"
+      },
+      "review": {
+        "language_alignment": "pending",
+        "factual_currentness": "pending",
+        "accessibility": "not_applicable",
+        "scope": "pending",
+        "placement": "pending",
+        "rights_and_consent": "not_applicable"
+      },
+      "duplicateOf": "partnership-framework-canonical"
+    },
+    {
+      "accountingStatus": "accounted",
+      "accessStatus": "available",
+      "ownerApproval": "owner_approved_for_ingestion",
+      "pipelineStatus": "registered_not_imported",
+      "publicationStatus": "not_staff_released",
+      "sourceId": "old-live-app-analysis",
+      "title": "Analysis of the prior One DHS live application",
+      "sourceType": "pasted_text",
+      "thematicLanes": [
+        "product-reference-handoff",
+        "orientation-learning-multimedia"
+      ],
+      "intendedUse": "Internal donor-app assessment, including orientation audio and toolkit placement.",
+      "programScope": [
+        "dhs",
+        "adsa",
+        "dsd"
+      ],
+      "audience": "program_design_internal",
+      "locator": {
+        "kind": "codex_attachment",
+        "attachmentId": "99024d04-4b57-445f-b141-8e9b71ba6cf4",
+        "fileName": "pasted-text.txt"
+      },
+      "evidence": {
+        "bytes": 19415,
+        "modifiedUtc": "2026-09-04T12:43:06.6778103Z",
+        "sha256": "5FC6E4EE07209A9DAF36B4BE5B820E7C6105003721446563F4290EFA0A0CF26C"
+      },
+      "review": {
+        "language_alignment": "pending",
+        "factual_currentness": "pending",
+        "accessibility": "not_applicable",
+        "scope": "pending",
+        "placement": "pending",
+        "rights_and_consent": "not_applicable"
+      }
+    },
+    {
+      "accountingStatus": "accounted",
+      "accessStatus": "available",
+      "ownerApproval": "owner_approved_for_ingestion",
+      "pipelineStatus": "registered_not_imported",
+      "publicationStatus": "not_staff_released",
+      "sourceId": "program-initiative-project-distinction",
+      "title": "Equity program, initiative, and project distinctions",
+      "sourceType": "pasted_text",
+      "thematicLanes": [
+        "program-architecture-governance",
+        "orientation-learning-multimedia"
+      ],
+      "intendedUse": "Foundational program framing; may inform staff orientation after language review.",
+      "programScope": [
+        "dhs",
+        "adsa",
+        "dsd"
+      ],
+      "audience": "program_design_internal",
+      "locator": {
+        "kind": "codex_attachment",
+        "attachmentId": "3e616567-06ff-4d91-b899-fd09adb22f5c",
+        "fileName": "pasted-text.txt"
+      },
+      "evidence": {
+        "bytes": 13468,
+        "modifiedUtc": "2026-09-04T14:15:18.0015428Z",
+        "sha256": "FA025BEB47947114D9229638181C23E6E965A5BB658BF42FC5E2184E708B6A19"
+      },
+      "review": {
+        "language_alignment": "pending",
+        "factual_currentness": "pending",
+        "accessibility": "not_applicable",
+        "scope": "pending",
+        "placement": "pending",
+        "rights_and_consent": "not_applicable"
+      }
+    },
+    {
+      "accountingStatus": "accounted",
+      "accessStatus": "available",
+      "ownerApproval": "owner_approved_for_ingestion",
+      "pipelineStatus": "registered_not_imported",
+      "publicationStatus": "not_staff_released",
+      "sourceId": "future-model-adaptability-context",
+      "title": "Future-model adaptability article capture and design context",
+      "sourceType": "pasted_text",
+      "thematicLanes": [
+        "research-future-adaptability"
+      ],
+      "intendedUse": "Internal future-adaptability context only; do not treat unverified product claims as staff guidance.",
+      "programScope": [
+        "dhs",
+        "adsa",
+        "dsd"
+      ],
+      "audience": "program_design_internal",
+      "locator": {
+        "kind": "codex_attachment",
+        "attachmentId": "74d6b8be-edbf-4bdc-9248-1801214b32d6",
+        "fileName": "pasted-text.txt"
+      },
+      "evidence": {
+        "bytes": 32856,
+        "modifiedUtc": "2026-09-04T16:12:46.3781594Z",
+        "sha256": "FB3148FD4BE94974B16C4D00D1C96EC368585D432979DD2C98DE4ECD61DE8A90"
+      },
+      "review": {
+        "language_alignment": "pending",
+        "factual_currentness": "pending",
+        "accessibility": "not_applicable",
+        "scope": "pending",
+        "placement": "pending",
+        "rights_and_consent": "not_applicable"
+      }
+    },
+    {
+      "accountingStatus": "accounted",
+      "accessStatus": "available",
+      "ownerApproval": "owner_approved_for_ingestion",
+      "pipelineStatus": "registered_not_imported",
+      "publicationStatus": "not_staff_released",
+      "sourceId": "prd-package-export-zip",
+      "title": "One DHS PAC Export 2026-09-04",
+      "sourceType": "zip_package",
+      "thematicLanes": [
+        "program-architecture-governance",
+        "product-reference-handoff"
+      ],
+      "intendedUse": "Portable handoff and reference package.",
+      "programScope": [
+        "dhs",
+        "adsa",
+        "dsd"
+      ],
+      "audience": "program_design_internal",
+      "locator": {
+        "kind": "local_logical",
+        "resolverKey": "prd-package-export-zip",
+        "fileName": "One-DHS-PAC-Export-2026-09-04.zip",
+        "locationClass": "Documents"
+      },
+      "evidence": {
+        "bytes": 6512941,
+        "modifiedUtc": "2026-09-04T21:39:52.3293173Z",
+        "sha256": "9284BD8E83A5870274DB8E67C3775A8C4AEE46CA71C9CEF604F4268319659094",
+        "entryCount": 43
+      },
+      "review": {
+        "language_alignment": "pending",
+        "factual_currentness": "pending",
+        "accessibility": "package_components_review_separately",
+        "scope": "pending",
+        "placement": "pending",
+        "rights_and_consent": "not_applicable"
+      },
+      "notes": [
+        "Contains a DHS logo reference asset. It must never overwrite or modify the application's protected DHS logo."
+      ]
+    },
+    {
+      "accountingStatus": "accounted",
+      "accessStatus": "available",
+      "ownerApproval": "owner_approved_for_ingestion",
+      "pipelineStatus": "registered_not_imported",
+      "publicationStatus": "not_staff_released",
+      "sourceId": "prd-package-named-zip",
+      "title": "One DHS PAC PRD Package 2026-09-04",
+      "sourceType": "zip_package",
+      "thematicLanes": [
+        "program-architecture-governance",
+        "product-reference-handoff"
+      ],
+      "intendedUse": "Named portable PRD, TRD, contracts, roadmap, and reference-asset package.",
+      "programScope": [
+        "dhs",
+        "adsa",
+        "dsd"
+      ],
+      "audience": "program_design_internal",
+      "locator": {
+        "kind": "local_logical",
+        "resolverKey": "prd-package-named-zip",
+        "fileName": "One-DHS-PAC-PRD-Package-2026-09-04.zip",
+        "locationClass": "Documents"
+      },
+      "evidence": {
+        "bytes": 6513371,
+        "modifiedUtc": "2026-09-04T22:04:48.1596735Z",
+        "sha256": "3D2744373ED06C5007988948CD5414DF7C620268BC9C1CBCF94F7ECFA7CF8164",
+        "entryCount": 43
+      },
+      "review": {
+        "language_alignment": "pending",
+        "factual_currentness": "pending",
+        "accessibility": "package_components_review_separately",
+        "scope": "pending",
+        "placement": "pending",
+        "rights_and_consent": "not_applicable"
+      },
+      "duplicatePayloadOf": "prd-package-export-zip",
+      "notes": [
+        "All 43 uncompressed entries match the export package. Preserve both receipts but ingest the payload once.",
+        "Contains a DHS logo reference asset. It must never overwrite or modify the application's protected DHS logo."
+      ]
+    },
+    {
+      "accountingStatus": "accounted",
+      "accessStatus": "available",
+      "ownerApproval": "owner_approved_for_ingestion",
+      "pipelineStatus": "source_text_captured",
+      "publicationStatus": "not_staff_released",
+      "sourceId": "drive-cq-expand-borders",
+      "title": "CQ Expand Your Borders Curriculum",
+      "sourceType": "google_drive_office_presentation",
+      "thematicLanes": [
+        "intercultural-development-cultural-intelligence",
+        "orientation-learning-multimedia"
+      ],
+      "intendedUse": "Ten-module cross-cultural learning curriculum.",
+      "programScope": [
+        "dhs",
+        "adsa",
+        "dsd"
+      ],
+      "audience": "staff_candidate",
+      "locator": {
+        "kind": "google_drive",
+        "fileId": "1KEd8mhazoNIjFUF0iX0OFMvKsAK6VVkm",
+        "fileName": "CQ_Expand_Your_Borders_Curriculum.pptx",
+        "url": "https://docs.google.com/presentation/d/1KEd8mhazoNIjFUF0iX0OFMvKsAK6VVkm/edit"
+      },
+      "evidence": {
+        "bytes": 1144279,
+        "modified": "2026-04-20",
+        "slideCount": 64,
+        "accessVerifiedOn": "2026-09-04"
+      },
+      "review": {
+        "language_alignment": "pending",
+        "factual_currentness": "pending",
+        "accessibility": "pending",
+        "scope": "pending",
+        "placement": "pending",
+        "rights_and_consent": "third_party_curriculum_rights_review_pending"
+      }
+    },
+    {
+      "accountingStatus": "accounted",
+      "accessStatus": "available",
+      "ownerApproval": "owner_approved_for_ingestion",
+      "pipelineStatus": "source_text_captured",
+      "publicationStatus": "not_staff_released",
+      "sourceId": "drive-conflict-repair-accountability",
+      "title": "Conflict, Repair, and Accountability with a DEIA Lens",
+      "sourceType": "google_slides",
+      "thematicLanes": [
+        "workplace-culture-engagement-wellbeing",
+        "orientation-learning-multimedia"
+      ],
+      "intendedUse": "Staff learning on conflict, repair, and accountability.",
+      "programScope": [
+        "dhs",
+        "adsa",
+        "dsd"
+      ],
+      "audience": "staff_candidate",
+      "locator": {
+        "kind": "google_drive",
+        "fileId": "1ASNKgsPGZP91pQ_-OK5QQXbjNxzz8bzluHb2JeqqQEY",
+        "fileName": "Conflict, Repair, and Accountability with a DEIA Lens",
+        "url": "https://docs.google.com/presentation/d/1ASNKgsPGZP91pQ_-OK5QQXbjNxzz8bzluHb2JeqqQEY/edit"
+      },
+      "evidence": {
+        "bytes": 1590304,
+        "modified": "2026-09-03",
+        "slideCount": 12,
+        "accessVerifiedOn": "2026-09-04"
+      },
+      "review": {
+        "language_alignment": "pending",
+        "factual_currentness": "pending",
+        "accessibility": "pending",
+        "scope": "pending",
+        "placement": "pending",
+        "rights_and_consent": "not_applicable"
+      }
+    },
+    {
+      "accountingStatus": "accounted",
+      "accessStatus": "available",
+      "ownerApproval": "owner_approved_for_ingestion",
+      "pipelineStatus": "source_text_captured",
+      "publicationStatus": "not_staff_released",
+      "sourceId": "drive-idi-integration",
+      "title": "IDI Integration Tutorials",
+      "sourceType": "google_slides",
+      "thematicLanes": [
+        "intercultural-development-cultural-intelligence",
+        "orientation-learning-multimedia"
+      ],
+      "intendedUse": "IDI developmental sequence: from Adaptation to Integration.",
+      "programScope": [
+        "dhs",
+        "adsa",
+        "dsd"
+      ],
+      "audience": "staff_candidate",
+      "locator": {
+        "kind": "google_drive",
+        "fileId": "1Tx-k2fBFcalYntCQx__toqHAWBvLcabDfgXLbwYkVok",
+        "fileName": "IDI_Integration_Tutorials",
+        "url": "https://docs.google.com/presentation/d/1Tx-k2fBFcalYntCQx__toqHAWBvLcabDfgXLbwYkVok/edit"
+      },
+      "evidence": {
+        "bytes": 23149,
+        "modified": "2026-09-03",
+        "slideCount": 13,
+        "accessVerifiedOn": "2026-09-04"
+      },
+      "review": {
+        "language_alignment": "pending",
+        "factual_currentness": "pending",
+        "accessibility": "pending",
+        "scope": "pending",
+        "placement": "pending",
+        "rights_and_consent": "idi_materials_permission_review_pending"
+      }
+    },
+    {
+      "accountingStatus": "accounted",
+      "accessStatus": "available",
+      "ownerApproval": "owner_approved_for_ingestion",
+      "pipelineStatus": "source_text_captured",
+      "publicationStatus": "not_staff_released",
+      "sourceId": "drive-idi-acceptance",
+      "title": "IDI Acceptance Tutorials",
+      "sourceType": "google_drive_office_presentation",
+      "thematicLanes": [
+        "intercultural-development-cultural-intelligence",
+        "orientation-learning-multimedia"
+      ],
+      "intendedUse": "IDI developmental sequence: from Acceptance to Adaptation.",
+      "programScope": [
+        "dhs",
+        "adsa",
+        "dsd"
+      ],
+      "audience": "staff_candidate",
+      "locator": {
+        "kind": "google_drive",
+        "fileId": "1NbI7HkyH16v-ULmwQ_6yDaSkLKZCjjYo",
+        "fileName": "IDI_Acceptance_Tutorials.pptx",
+        "url": "https://docs.google.com/presentation/d/1NbI7HkyH16v-ULmwQ_6yDaSkLKZCjjYo/edit"
+      },
+      "evidence": {
+        "bytes": 353968,
+        "modified": "2026-09-03",
+        "slideCount": 13,
+        "accessVerifiedOn": "2026-09-04"
+      },
+      "review": {
+        "language_alignment": "pending",
+        "factual_currentness": "pending",
+        "accessibility": "pending",
+        "scope": "pending",
+        "placement": "pending",
+        "rights_and_consent": "idi_materials_permission_review_pending"
+      }
+    },
+    {
+      "accountingStatus": "accounted",
+      "accessStatus": "available",
+      "ownerApproval": "owner_approved_for_ingestion",
+      "pipelineStatus": "source_text_captured",
+      "publicationStatus": "not_staff_released",
+      "sourceId": "drive-idi-minimization",
+      "title": "IDI Minimization Tutorials",
+      "sourceType": "google_drive_office_presentation",
+      "thematicLanes": [
+        "intercultural-development-cultural-intelligence",
+        "orientation-learning-multimedia"
+      ],
+      "intendedUse": "IDI developmental sequence: from Minimization to Acceptance.",
+      "programScope": [
+        "dhs",
+        "adsa",
+        "dsd"
+      ],
+      "audience": "staff_candidate",
+      "locator": {
+        "kind": "google_drive",
+        "fileId": "1u4VcTt9lpG21yGOi-nZlHVVTBKj7MJ08",
+        "fileName": "IDI_Minimization_Tutorials.pptx",
+        "url": "https://docs.google.com/presentation/d/1u4VcTt9lpG21yGOi-nZlHVVTBKj7MJ08/edit"
+      },
+      "evidence": {
+        "bytes": 351629,
+        "modified": "2026-09-03",
+        "slideCount": 13,
+        "accessVerifiedOn": "2026-09-04"
+      },
+      "review": {
+        "language_alignment": "pending",
+        "factual_currentness": "pending",
+        "accessibility": "pending",
+        "scope": "pending",
+        "placement": "pending",
+        "rights_and_consent": "idi_materials_permission_review_pending"
+      }
+    },
+    {
+      "accountingStatus": "accounted",
+      "accessStatus": "available",
+      "ownerApproval": "owner_approved_for_ingestion",
+      "pipelineStatus": "source_text_captured",
+      "publicationStatus": "not_staff_released",
+      "sourceId": "drive-idi-polarization",
+      "title": "IDI Polarization Tutorials",
+      "sourceType": "google_drive_office_presentation",
+      "thematicLanes": [
+        "intercultural-development-cultural-intelligence",
+        "orientation-learning-multimedia"
+      ],
+      "intendedUse": "IDI developmental sequence: from Polarization to Minimization.",
+      "programScope": [
+        "dhs",
+        "adsa",
+        "dsd"
+      ],
+      "audience": "staff_candidate",
+      "locator": {
+        "kind": "google_drive",
+        "fileId": "1U0cCfV-wtHU1t6wzSc0f2jl3u_eAXlLO",
+        "fileName": "IDI_Polarization_Tutorials.pptx",
+        "url": "https://docs.google.com/presentation/d/1U0cCfV-wtHU1t6wzSc0f2jl3u_eAXlLO/edit"
+      },
+      "evidence": {
+        "bytes": 350835,
+        "modified": "2026-09-03",
+        "slideCount": 13,
+        "accessVerifiedOn": "2026-09-04"
+      },
+      "review": {
+        "language_alignment": "pending",
+        "factual_currentness": "pending",
+        "accessibility": "pending",
+        "scope": "pending",
+        "placement": "pending",
+        "rights_and_consent": "idi_materials_permission_review_pending"
+      }
+    },
+    {
+      "accountingStatus": "accounted",
+      "accessStatus": "available",
+      "ownerApproval": "owner_approved_for_ingestion",
+      "pipelineStatus": "source_text_captured",
+      "publicationStatus": "not_staff_released",
+      "sourceId": "drive-idi-denial",
+      "title": "IDI Denial Tutorials",
+      "sourceType": "google_drive_office_presentation",
+      "thematicLanes": [
+        "intercultural-development-cultural-intelligence",
+        "orientation-learning-multimedia"
+      ],
+      "intendedUse": "IDI developmental sequence: from Denial to Polarization.",
+      "programScope": [
+        "dhs",
+        "adsa",
+        "dsd"
+      ],
+      "audience": "staff_candidate",
+      "locator": {
+        "kind": "google_drive",
+        "fileId": "1WqGkZh6ZBCl41lKDdiwW8lz6fr6z8_M1",
+        "fileName": "IDI_Denial_Tutorials.pptx",
+        "url": "https://docs.google.com/presentation/d/1WqGkZh6ZBCl41lKDdiwW8lz6fr6z8_M1/edit"
+      },
+      "evidence": {
+        "bytes": 348758,
+        "modified": "2026-09-03",
+        "slideCount": 13,
+        "accessVerifiedOn": "2026-09-04"
+      },
+      "review": {
+        "language_alignment": "pending",
+        "factual_currentness": "pending",
+        "accessibility": "pending",
+        "scope": "pending",
+        "placement": "pending",
+        "rights_and_consent": "idi_materials_permission_review_pending"
+      }
+    },
+    {
+      "accountingStatus": "accounted",
+      "accessStatus": "available",
+      "ownerApproval": "owner_approved_for_ingestion",
+      "pipelineStatus": "source_text_captured",
+      "publicationStatus": "not_staff_released",
+      "sourceId": "drive-inclusive-practices",
+      "title": "Inclusive Practices Presentation",
+      "sourceType": "google_slides",
+      "thematicLanes": [
+        "access-language-person-centered-practice",
+        "workplace-culture-engagement-wellbeing",
+        "orientation-learning-multimedia"
+      ],
+      "intendedUse": "Staff learning on inclusive practice.",
+      "programScope": [
+        "dhs",
+        "adsa",
+        "dsd"
+      ],
+      "audience": "staff_candidate",
+      "locator": {
+        "kind": "google_drive",
+        "fileId": "1PtK6oBa9wkcPYaZNSwDGi5Bev9c_bT4mnLdbAHzy1i4",
+        "fileName": "Inclusive Practices Presentation",
+        "url": "https://docs.google.com/presentation/d/1PtK6oBa9wkcPYaZNSwDGi5Bev9c_bT4mnLdbAHzy1i4/edit"
+      },
+      "evidence": {
+        "bytes": 1498635,
+        "modified": "2026-09-03",
+        "slideCount": 15,
+        "accessVerifiedOn": "2026-09-04"
+      },
+      "review": {
+        "language_alignment": "pending",
+        "factual_currentness": "pending",
+        "accessibility": "pending",
+        "scope": "pending",
+        "placement": "pending",
+        "rights_and_consent": "not_applicable"
+      }
+    },
+    {
+      "accountingStatus": "accounted",
+      "accessStatus": "available",
+      "ownerApproval": "owner_approved_for_ingestion",
+      "pipelineStatus": "source_text_captured",
+      "publicationStatus": "not_staff_released",
+      "sourceId": "drive-cultural-intelligence-workshop",
+      "title": "Cultural Intelligence Workshop Cohort 1",
+      "sourceType": "google_drive_office_presentation",
+      "thematicLanes": [
+        "intercultural-development-cultural-intelligence",
+        "orientation-learning-multimedia"
+      ],
+      "intendedUse": "Cultural Intelligence workshop curriculum.",
+      "programScope": [
+        "dhs",
+        "adsa",
+        "dsd"
+      ],
+      "audience": "staff_candidate",
+      "locator": {
+        "kind": "google_drive",
+        "fileId": "1HmDVjnDGR9rsOJP-rcZ-QdNzlNDvnMNr",
+        "fileName": "Cultural Intell Workshop.pptx",
+        "url": "https://docs.google.com/presentation/d/1HmDVjnDGR9rsOJP-rcZ-QdNzlNDvnMNr/edit"
+      },
+      "evidence": {
+        "bytes": 51953159,
+        "modified": "2022",
+        "slideCount": 65,
+        "accessVerifiedOn": "2026-09-04"
+      },
+      "review": {
+        "language_alignment": "pending",
+        "factual_currentness": "pending",
+        "accessibility": "pending",
+        "scope": "pending",
+        "placement": "pending",
+        "rights_and_consent": "presenter_and_embedded_media_rights_review_pending"
+      }
+    },
+    {
+      "accountingStatus": "accounted",
+      "accessStatus": "available",
+      "ownerApproval": "owner_approved_for_ingestion",
+      "pipelineStatus": "source_text_captured",
+      "publicationStatus": "not_staff_released",
+      "sourceId": "drive-bipoc-suggestions",
+      "title": "Lab 2: Addressing Bias, Microaggressions, and Stereotypes in the Workplace",
+      "sourceType": "google_drive_office_presentation",
+      "thematicLanes": [
+        "workplace-culture-engagement-wellbeing",
+        "intercultural-development-cultural-intelligence",
+        "orientation-learning-multimedia"
+      ],
+      "intendedUse": "Staff learning on bias, microaggressions, and workplace stereotypes.",
+      "programScope": [
+        "dhs",
+        "adsa",
+        "dsd"
+      ],
+      "audience": "staff_candidate",
+      "locator": {
+        "kind": "google_drive",
+        "fileId": "1_1W9Bgpb6G2qsSVMTA4UtrJvNwHTxZQl",
+        "fileName": "BIPOC Suggestions.pptx",
+        "url": "https://docs.google.com/presentation/d/1_1W9Bgpb6G2qsSVMTA4UtrJvNwHTxZQl/edit"
+      },
+      "evidence": {
+        "bytes": 3127736,
+        "modified": "2026-09-03",
+        "slideCount": 19,
+        "accessVerifiedOn": "2026-09-04"
+      },
+      "review": {
+        "language_alignment": "pending",
+        "factual_currentness": "pending",
+        "accessibility": "pending",
+        "scope": "pending",
+        "placement": "pending",
+        "rights_and_consent": "not_applicable"
+      }
+    },
+    {
+      "accountingStatus": "accounted",
+      "accessStatus": "available",
+      "ownerApproval": "owner_approved_for_ingestion",
+      "pipelineStatus": "source_text_captured",
+      "publicationStatus": "not_staff_released",
+      "sourceId": "drive-cfs-idi-seminar-part-1",
+      "title": "CFS IDI Seminar Part 1",
+      "sourceType": "google_drive_office_presentation",
+      "thematicLanes": [
+        "intercultural-development-cultural-intelligence",
+        "orientation-learning-multimedia"
+      ],
+      "intendedUse": "IDI seminar and orientation material.",
+      "programScope": [
+        "dhs",
+        "adsa",
+        "dsd"
+      ],
+      "audience": "staff_candidate",
+      "locator": {
+        "kind": "google_drive",
+        "fileId": "1qcIOp-A8iJaeFyp8du1r9x_tC3sopNAt",
+        "fileName": "CFS-IDI Seminar Part 1.pptx",
+        "url": "https://docs.google.com/presentation/d/1qcIOp-A8iJaeFyp8du1r9x_tC3sopNAt/edit"
+      },
+      "evidence": {
+        "bytes": 30725525,
+        "modified": "2015, modified 2026-09-03",
+        "slideCount": 63,
+        "accessVerifiedOn": "2026-09-04"
+      },
+      "review": {
+        "language_alignment": "pending",
+        "factual_currentness": "pending",
+        "accessibility": "pending",
+        "scope": "pending",
+        "placement": "pending",
+        "rights_and_consent": "idi_llc_permission_scope_review_pending"
+      }
+    },
+    {
+      "accountingStatus": "accounted",
+      "accessStatus": "available",
+      "ownerApproval": "owner_approved_for_ingestion",
+      "pipelineStatus": "manual_raw_file_extraction_required",
+      "publicationStatus": "not_staff_released",
+      "sourceId": "drive-intergenerational-handout",
+      "title": "Intergenerational Handout",
+      "sourceType": "google_drive_office_presentation",
+      "thematicLanes": [
+        "workplace-culture-engagement-wellbeing",
+        "intercultural-development-cultural-intelligence",
+        "orientation-learning-multimedia"
+      ],
+      "intendedUse": "Visual handout on intergenerational workplace considerations.",
+      "programScope": [
+        "dhs",
+        "adsa",
+        "dsd"
+      ],
+      "audience": "staff_candidate",
+      "locator": {
+        "kind": "google_drive",
+        "fileId": "1MS6PQvLtaxn8EpbBIdQ7QVbbwiXM06Re",
+        "fileName": "Handout_Intergenerational-MetroMaint.pptx",
+        "url": "https://docs.google.com/presentation/d/1MS6PQvLtaxn8EpbBIdQ7QVbbwiXM06Re/edit"
+      },
+      "evidence": {
+        "bytes": 1720702,
+        "modified": "2026-09-03",
+        "slideCount": 3,
+        "accessVerifiedOn": "2026-09-04"
+      },
+      "review": {
+        "language_alignment": "pending",
+        "factual_currentness": "pending",
+        "accessibility": "visual_content_manual_review_required",
+        "scope": "pending",
+        "placement": "pending",
+        "rights_and_consent": "not_applicable"
+      }
+    },
+    {
+      "accountingStatus": "accounted_awaiting_source",
+      "accessStatus": "missing_source",
+      "ownerApproval": "owner_approved_for_ingestion_when_recovered",
+      "pipelineStatus": "blocked_missing_bytes",
+      "publicationStatus": "not_staff_released",
+      "sourceId": "missing-ethnocentrism-concept-map",
+      "title": "Concept Map: Ethnocentrism, Cultural Relativism, and White Supremacy",
+      "sourceType": "missing_named_source",
+      "thematicLanes": [
+        "intercultural-development-cultural-intelligence",
+        "equity-infrastructure-structural-change"
+      ],
+      "intendedUse": "Interactive concept-map learning resource.",
+      "programScope": [
+        "dhs",
+        "adsa",
+        "dsd"
+      ],
+      "audience": "staff_candidate",
+      "locator": {
+        "kind": "missing_source",
+        "fileName": "Concept Map_ Ethnocentrism, Cultural Relativism, and White Supremacy.html",
+        "receiptSourceId": "consultant-role-and-supporting-files-receipt"
+      },
+      "evidence": {
+        "localSearch": "not_found_in_supplied_roots",
+        "connectedDriveExactTitleSearch": "not_found",
+        "checkedOn": "2026-09-04"
+      },
+      "review": {
+        "language_alignment": "blocked_missing_source",
+        "factual_currentness": "blocked_missing_source",
+        "accessibility": "blocked_missing_source",
+        "scope": "blocked_missing_source",
+        "placement": "provisional",
+        "rights_and_consent": "blocked_missing_source"
+      },
+      "notes": [
+        "Do not silently replace this source with a similarly titled file. Preserve this entry until the exact original or an owner-approved replacement is recovered."
+      ]
+    },
+    {
+      "accountingStatus": "accounted_awaiting_source",
+      "accessStatus": "missing_source",
+      "ownerApproval": "owner_approved_for_ingestion_when_recovered",
+      "pipelineStatus": "blocked_missing_bytes",
+      "publicationStatus": "not_staff_released",
+      "sourceId": "missing-equity-outcome-map",
+      "title": "Equity Outcome Map 2025-2026 Final",
+      "sourceType": "missing_named_source",
+      "thematicLanes": [
+        "program-architecture-governance",
+        "equity-infrastructure-structural-change"
+      ],
+      "intendedUse": "Outcome mapping and program planning resource.",
+      "programScope": [
+        "dhs",
+        "adsa",
+        "dsd"
+      ],
+      "audience": "staff_candidate",
+      "locator": {
+        "kind": "missing_source",
+        "fileName": "Copy of Equity-Outcome-Map-2025-2026-Final.pptx",
+        "receiptSourceId": "consultant-role-and-supporting-files-receipt"
+      },
+      "evidence": {
+        "localSearch": "not_found_in_supplied_roots",
+        "connectedDriveExactTitleSearch": "not_found",
+        "checkedOn": "2026-09-04"
+      },
+      "review": {
+        "language_alignment": "blocked_missing_source",
+        "factual_currentness": "blocked_missing_source",
+        "accessibility": "blocked_missing_source",
+        "scope": "blocked_missing_source",
+        "placement": "provisional",
+        "rights_and_consent": "blocked_missing_source"
+      },
+      "notes": [
+        "Do not silently replace this source with a similarly titled file. Preserve this entry until the exact original or an owner-approved replacement is recovered."
+      ]
+    },
+    {
+      "accountingStatus": "accounted_awaiting_source",
+      "accessStatus": "missing_source",
+      "ownerApproval": "owner_approved_for_ingestion_when_recovered",
+      "pipelineStatus": "blocked_missing_bytes",
+      "publicationStatus": "not_staff_released",
+      "sourceId": "missing-anti-racism-everyday-life",
+      "title": "Connecting Anti-Racism to Everyday Life",
+      "sourceType": "missing_named_source",
+      "thematicLanes": [
+        "orientation-learning-multimedia",
+        "equity-infrastructure-structural-change"
+      ],
+      "intendedUse": "Staff learning and practical application resource.",
+      "programScope": [
+        "dhs",
+        "adsa",
+        "dsd"
+      ],
+      "audience": "staff_candidate",
+      "locator": {
+        "kind": "missing_source",
+        "fileName": "Connecting Anti-Racism to Everyday Life.docx",
+        "receiptSourceId": "consultant-role-and-supporting-files-receipt"
+      },
+      "evidence": {
+        "localSearch": "not_found_in_supplied_roots",
+        "connectedDriveExactTitleSearch": "not_found",
+        "checkedOn": "2026-09-04"
+      },
+      "review": {
+        "language_alignment": "blocked_missing_source",
+        "factual_currentness": "blocked_missing_source",
+        "accessibility": "blocked_missing_source",
+        "scope": "blocked_missing_source",
+        "placement": "provisional",
+        "rights_and_consent": "blocked_missing_source"
+      },
+      "notes": [
+        "Do not silently replace this source with a similarly titled file. Preserve this entry until the exact original or an owner-approved replacement is recovered."
+      ]
+    },
+    {
+      "accountingStatus": "accounted",
+      "accessStatus": "available",
+      "ownerApproval": "owner_approved_for_ingestion",
+      "pipelineStatus": "reference_only",
+      "publicationStatus": "not_staff_released",
+      "sourceId": "external-one-dhs-equity-impact-app",
+      "title": "One DHS Equity Impact live application",
+      "sourceType": "external_product_reference",
+      "thematicLanes": [
+        "product-reference-handoff",
+        "program-architecture-governance"
+      ],
+      "intendedUse": "Product and content donor reference; reconcile features and content without treating the deployment itself as the corpus.",
+      "programScope": [
+        "dhs",
+        "adsa",
+        "dsd"
+      ],
+      "audience": "program_design_internal",
+      "locator": {
+        "kind": "url",
+        "url": "https://one-dhs-equity-impact.vercel.app/"
+      },
+      "evidence": {
+        "suppliedOn": "2026-09-04"
+      },
+      "review": {
+        "language_alignment": "pending",
+        "factual_currentness": "pending",
+        "accessibility": "product_reference_review_pending",
+        "scope": "pending",
+        "placement": "pending",
+        "rights_and_consent": "not_applicable"
+      }
+    },
+    {
+      "accountingStatus": "accounted",
+      "accessStatus": "available",
+      "ownerApproval": "owner_approved_for_ingestion",
+      "pipelineStatus": "reference_only",
+      "publicationStatus": "not_staff_released",
+      "sourceId": "external-lenny-gpt6-astra-article",
+      "title": "GPT-6 Astra article with transcript",
+      "sourceType": "external_research_context",
+      "thematicLanes": [
+        "research-future-adaptability"
+      ],
+      "intendedUse": "Design context for an adaptable model layer; not an authoritative product specification or staff resource.",
+      "programScope": [
+        "dhs",
+        "adsa",
+        "dsd"
+      ],
+      "audience": "program_design_internal",
+      "locator": {
+        "kind": "url",
+        "url": "https://www.lennysnewsletter.com/p/gpt-6-astra-is-a-banger-heres-everything?showTranscript=true"
+      },
+      "evidence": {
+        "suppliedOn": "2026-09-04"
+      },
+      "review": {
+        "language_alignment": "pending",
+        "factual_currentness": "pending",
+        "accessibility": "not_applicable",
+        "scope": "pending",
+        "placement": "pending",
+        "rights_and_consent": "external_link_only"
+      }
+    },
+    {
+      "accountingStatus": "accounted",
+      "accessStatus": "available",
+      "ownerApproval": "owner_approved_for_ingestion",
+      "pipelineStatus": "frozen_as_permanent_collection",
+      "publicationStatus": "existing_staff_collection",
+      "sourceId": "current-seed-collection-2026-09-04",
+      "title": "Current PAC seed collection",
+      "sourceType": "application_seed_collection",
+      "thematicLanes": [
+        "program-architecture-governance",
+        "community-engagement-community-practice",
+        "access-language-person-centered-practice",
+        "workforce-hiring-retention-advancement",
+        "policy-equity-analysis-compliance",
+        "workplace-culture-engagement-wellbeing",
+        "orientation-learning-multimedia"
+      ],
+      "intendedUse": "Permanent first-party seed collection that establishes the initial tone and staff experience.",
+      "programScope": [
+        "dhs",
+        "dsd"
+      ],
+      "audience": "staff_existing",
+      "locator": {
+        "kind": "repository_path",
+        "path": "lib/content/corpus.ts"
+      },
+      "evidence": {
+        "recordCount": 25,
+        "stableIds": [
+          "pn-partnership-spine",
+          "pn-embed-early",
+          "ja-launch-embed-checklist",
+          "ja-language-access-checklist",
+          "ja-plain-language",
+          "ja-access-checks",
+          "ja-process-burden",
+          "ja-equity-impact-questions",
+          "ja-stakeholder-map",
+          "pn-equity-in-practice",
+          "lm-workplace-climate",
+          "ja-climate-action-plan",
+          "pn-when-to-escalate",
+          "pn-intercultural-method",
+          "ja-facilitation-session-plan",
+          "lm-facilitation-application",
+          "ja-form-notice-change",
+          "lm-interpreter",
+          "pn-self-check",
+          "lm-how-this-program-works",
+          "ext-clas",
+          "ext-mn-accessibility",
+          "ext-ada",
+          "ext-title-vi-lep",
+          "ext-dhs-equity-toolkit"
+        ]
+      },
+      "review": {
+        "language_alignment": "5_pass_20_require_revision",
+        "factual_currentness": "item_level_review_required",
+        "accessibility": "item_level_review_required",
+        "scope": "item_level_review_required",
+        "placement": "item_level_review_complete",
+        "rights_and_consent": "item_level_review_required"
+      },
+      "notes": [
+        "Retain every seed ID. Revisions are append-only; never overwrite or collapse the collection."
+      ]
+    },
+    {
+      "accountingStatus": "accounted",
+      "accessStatus": "available",
+      "ownerApproval": "owner_approved_for_ingestion",
+      "pipelineStatus": "ready_for_lossless_import",
+      "publicationStatus": "never_directly_staff_released",
+      "sourceId": "complete-normalized-catalog-578",
+      "title": "Complete normalized One DSD source catalog",
+      "sourceType": "jsonl_catalog",
+      "thematicLanes": [
+        "program-architecture-governance"
+      ],
+      "intendedUse": "Lossless normalized source history for rebuild and reconciliation; never present all rows as staff pages.",
+      "programScope": [
+        "dhs",
+        "adsa",
+        "dsd"
+      ],
+      "audience": "internal_source_evidence",
+      "locator": {
+        "kind": "local_logical",
+        "resolverKey": "complete-normalized-catalog-578",
+        "fileName": "catalog.jsonl",
+        "locationClass": "verified local duplicate copies"
+      },
+      "evidence": {
+        "bytes": 5020638,
+        "sha256": "8DD2D3FDA3679BAC97668A644A7A5FA1322F207040FA547AD6AB0A845076FF3B",
+        "recordCount": 578,
+        "staffCount": 552,
+        "consultantCount": 26
+      },
+      "review": {
+        "language_alignment": "review_at_canonical_revision",
+        "factual_currentness": "review_at_canonical_revision",
+        "accessibility": "not_directly_staff_facing",
+        "scope": "source_scope_preserved",
+        "placement": "source_evidence_layer",
+        "rights_and_consent": "not_applicable"
+      }
+    },
+    {
+      "accountingStatus": "accounted",
+      "accessStatus": "available",
+      "ownerApproval": "owner_approved_for_ingestion",
+      "pipelineStatus": "ready_for_lossless_import",
+      "publicationStatus": "never_directly_staff_released",
+      "sourceId": "brain-export-source-carrier-516",
+      "title": "Knowledge assets brain-export source carrier",
+      "sourceType": "json_source_carrier",
+      "thematicLanes": [
+        "program-architecture-governance"
+      ],
+      "intendedUse": "Raw source carrier for 516 normalized catalog records.",
+      "programScope": [
+        "dhs",
+        "adsa",
+        "dsd"
+      ],
+      "audience": "internal_source_evidence",
+      "locator": {
+        "kind": "local_logical",
+        "resolverKey": "brain-export-source-carrier-516",
+        "fileName": "knowledge_assets.json",
+        "locationClass": "Projects rebuild input analysis"
+      },
+      "evidence": {
+        "bytes": 5171309,
+        "sha256": "F21FC79445A4F2BC7AFEC72457BE2B35E7EBE5B1906E2106877B89C0569C5E33",
+        "logicalObjectCount": 516
+      },
+      "review": {
+        "language_alignment": "review_at_canonical_revision",
+        "factual_currentness": "review_at_canonical_revision",
+        "accessibility": "not_directly_staff_facing",
+        "scope": "source_scope_preserved",
+        "placement": "raw_source_layer",
+        "rights_and_consent": "not_applicable"
+      }
+    },
+    {
+      "accountingStatus": "accounted",
+      "accessStatus": "available",
+      "ownerApproval": "owner_approved_for_ingestion",
+      "pipelineStatus": "ready_for_lossless_import",
+      "publicationStatus": "never_directly_staff_released",
+      "sourceId": "legacy-source-vault-62",
+      "title": "Legacy DEIA equity research and frameworks source set",
+      "sourceType": "local_file_collection",
+      "thematicLanes": [
+        "program-architecture-governance"
+      ],
+      "intendedUse": "Raw source files for 62 normalized catalog records.",
+      "programScope": [
+        "dhs",
+        "adsa",
+        "dsd"
+      ],
+      "audience": "internal_source_evidence",
+      "locator": {
+        "kind": "local_logical",
+        "resolverKey": "legacy-source-vault-62",
+        "locationClass": "Final rebuild source vault"
+      },
+      "evidence": {
+        "fileCount": 62,
+        "aggregateManifestSha256": "A7602D514CFBA5BF65CDB16033D0237C96EC1087AB7E62F405321C4E4F724AF0",
+        "missingCount": 0
+      },
+      "review": {
+        "language_alignment": "review_at_canonical_revision",
+        "factual_currentness": "review_at_canonical_revision",
+        "accessibility": "review_at_canonical_revision",
+        "scope": "source_scope_preserved",
+        "placement": "raw_source_layer",
+        "rights_and_consent": "not_applicable"
+      }
+    },
+    {
+      "accountingStatus": "accounted",
+      "accessStatus": "available",
+      "ownerApproval": "owner_approved_for_ingestion",
+      "pipelineStatus": "candidate_import_preserve_trust_state",
+      "publicationStatus": "never_directly_staff_released",
+      "sourceId": "candidate-knowledge-fabric",
+      "title": "One DSD candidate knowledge fabric",
+      "sourceType": "jsonl_graph",
+      "thematicLanes": [
+        "program-architecture-governance",
+        "research-future-adaptability"
+      ],
+      "intendedUse": "Candidate graph relations and evidence for graph engineering; trust state must be preserved.",
+      "programScope": [
+        "dhs",
+        "adsa",
+        "dsd"
+      ],
+      "audience": "internal_graph_evidence",
+      "locator": {
+        "kind": "local_logical",
+        "resolverKey": "candidate-knowledge-fabric",
+        "fileName": "fabric.jsonl",
+        "locationClass": "Data companion"
+      },
+      "evidence": {
+        "bytes": 7906964,
+        "sha256": "5D335CE8A0D05BB3D5ED0523D0DBB280C5F4CCA955AEFC09F11A0007531668AD",
+        "nodeCount": 1824,
+        "edgeCount": 6849,
+        "trustedPercent": 34.03
+      },
+      "review": {
+        "language_alignment": "not_directly_staff_facing",
+        "factual_currentness": "preserve_trust_and_review_state",
+        "accessibility": "not_directly_staff_facing",
+        "scope": "pending_graph_scope_review",
+        "placement": "candidate_graph_layer",
+        "rights_and_consent": "not_applicable"
+      }
+    },
+    {
+      "accountingStatus": "accounted",
+      "accessStatus": "available",
+      "ownerApproval": "owner_approved_for_ingestion",
+      "pipelineStatus": "pinned_donor_ready_for_manifest_import",
+      "publicationStatus": "publish_only_governed_staff_view",
+      "sourceId": "staging-canonical-release",
+      "title": "One DSD synthesized canonical release",
+      "sourceType": "github_release_snapshot",
+      "thematicLanes": [
+        "program-architecture-governance"
+      ],
+      "intendedUse": "Authoritative disposition, family, canonical editable baseline, release, and audio-selection decisions.",
+      "programScope": [
+        "dhs",
+        "adsa",
+        "dsd"
+      ],
+      "audience": "internal_governance_and_staff_canonical",
+      "locator": {
+        "kind": "github",
+        "repository": "alphaequity123-afk/one-dsd-synthesized-staging",
+        "commit": "dc43370fb41cf8d4e58ae74c1f98193023edd846"
+      },
+      "evidence": {
+        "completeReleaseManifestSha256": "52FC8E3DA173D49CD7C42F23F25133D32DB4F053F47252D2D17F934CB8A15C60",
+        "dispositionCount": 557,
+        "canonicalFamilyCount": 21,
+        "canonicalChildCount": 52,
+        "staffTopLevelCount": 72,
+        "editableUnitCount": 73,
+        "mergeComponentCount": 462,
+        "internalCount": 43
+      },
+      "review": {
+        "language_alignment": "independent_review_in_progress",
+        "factual_currentness": "independent_review_in_progress",
+        "accessibility": "independent_review_in_progress",
+        "scope": "preserve_existing_scope_then_reconcile",
+        "placement": "canonical_governed_layer",
+        "rights_and_consent": "not_applicable"
+      }
+    },
+    {
+      "accountingStatus": "accounted",
+      "accessStatus": "available",
+      "ownerApproval": "owner_approved_for_ingestion",
+      "pipelineStatus": "ready_for_hash_verified_object_import",
+      "publicationStatus": "inherit_from_paired_canonical_unit",
+      "sourceId": "staging-canonical-audio-pack",
+      "title": "One DSD canonical audio object pack",
+      "sourceType": "media_object_collection",
+      "thematicLanes": [
+        "orientation-learning-multimedia"
+      ],
+      "intendedUse": "Canonical audio paired one-to-one with the 73 editable canonical units, plus one separately scoped podcast reference.",
+      "programScope": [
+        "dhs",
+        "adsa",
+        "dsd"
+      ],
+      "audience": "scope_controlled_media",
+      "locator": {
+        "kind": "local_logical",
+        "resolverKey": "staging-canonical-audio-pack",
+        "locationClass": "verified duplicate object-store copies"
+      },
+      "evidence": {
+        "canonicalAudioCount": 73,
+        "podcastReferenceCount": 1,
+        "podcastReferenceBytes": 135970604,
+        "podcastReferenceSha256": "F38DCF2418EFE4F713FDE97C08D7B9D43D296B60316BC02D8A315D7462765CCA"
+      },
+      "review": {
+        "language_alignment": "paired_transcript_review_required",
+        "factual_currentness": "paired_content_review_required",
+        "accessibility": "player_transcript_and_caption_review_required",
+        "scope": "inherit_canonical_scope",
+        "placement": "paired_media",
+        "rights_and_consent": "item_level_rights_review_pending"
+      }
+    },
+    {
+      "accountingStatus": "accounted",
+      "accessStatus": "available",
+      "ownerApproval": "owner_approved_for_ingestion",
+      "pipelineStatus": "pinned_donor_not_imported",
+      "publicationStatus": "not_staff_released",
+      "sourceId": "live-donor-release",
+      "title": "One DHS Equity Resource release branch donor content",
+      "sourceType": "github_release_snapshot",
+      "thematicLanes": [
+        "orientation-learning-multimedia",
+        "community-engagement-community-practice",
+        "intercultural-development-cultural-intelligence",
+        "workplace-culture-engagement-wellbeing"
+      ],
+      "intendedUse": "Pinned donor for courses, community summaries, cultural-intelligence guides, observances, briefs, and media. Import selectively through review; never merge blindly.",
+      "programScope": [
+        "dhs",
+        "adsa",
+        "dsd"
+      ],
+      "audience": "mixed_donor",
+      "locator": {
+        "kind": "github",
+        "repository": "alphaequity123-afk/one-dhs-equity-resource",
+        "commit": "fac88a203",
+        "branch": "release"
+      },
+      "evidence": {
+        "coursePackCount": 86,
+        "conventionalCourseCount": 45,
+        "generatedCiCourseCount": 41,
+        "lessonCount": 780,
+        "jobAidSectionCount": 261,
+        "publicCommunitySummaryCount": 40,
+        "ciGuideCount": 41,
+        "observanceCount": 19,
+        "richBriefBodyCount": 9,
+        "mediaFileCount": 944,
+        "referencedAssetCount": 261
+      },
+      "review": {
+        "language_alignment": "independent_review_in_progress",
+        "factual_currentness": "independent_review_in_progress",
+        "accessibility": "independent_review_in_progress",
+        "scope": "reconcile_before_release",
+        "placement": "reconcile_before_release",
+        "rights_and_consent": "media_manifest_incomplete_review_required"
+      }
+    }
+  ]
+}

@@ -1,0 +1,2120 @@
+{
+  "schemaVersion": "1.0.0",
+  "capturedOn": "2026-09-04",
+  "sourceId": "local-landscape-climate-report",
+  "title": "DHS Equity Landscape and Climate Report",
+  "sourceType": "docx",
+  "sourceFileName": "DHS-Equity-Landscape-and-Climate-Report-Updated.docx",
+  "sourceBytes": 61146,
+  "sourceSha256": "6F1DA3BC303404C663825F51A19413489D540D551A763873CF098E022EC1029E",
+  "ownerApproval": "owner_approved_for_ingestion",
+  "staffRelease": "not_staff_released",
+  "snapshotSanitization": "Private Windows user-folder prefixes are removed; the original file hash remains unchanged.",
+  "extraction": {
+    "format": "docx",
+    "documentProperties": {
+      "title": "DHS Equity Landscape and Climate Report - Updated",
+      "subject": "Equity climate assessment and One DHS self-directed resource platform strategy",
+      "author": "Gary Banks",
+      "lastModifiedBy": null,
+      "created": "2013-12-23T23:15:00+00:00",
+      "modified": "2013-12-23T23:15:00+00:00"
+    },
+    "paragraphCount": 416,
+    "tableCount": 1,
+    "blocks": [
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "MINNESOTA DEPARTMENT OF HUMAN SERVICES"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Title",
+        "text": "DHS Equity Landscape\nand Climate Report"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Subtitle",
+        "text": "From Hearts and Minds to Institutional and Structural Equity"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Updated to include the One DHS self-directed equity resource platform strategy"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Prepared by"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Gary Banks"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Equity and Inclusion Operations Consultant"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "August 2026  |  Leadership companion report"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Heading 1",
+        "text": "Executive update: One DHS as equity infrastructure"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Leadership finding. The One DHS prototype is a credible strategy for making trusted equity knowledge easier for DHS staff to find, understand, apply, and improve. Its promise is not simply that resources are placed on one website. Its value is that a governed platform can connect learning, tools, examples, reflection, practitioner expertise, and feedback at the moment staff need them."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Heading 2",
+        "text": "Why this strengthens the climate strategy"
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "It reduces friction created by scattered resources and inconsistent pathways to guidance."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "It supports self-directed learning that staff can enter by task, role, question, or level of prior knowledge."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "It converts practitioner expertise into durable organizational memory rather than leaving knowledge in isolated teams or individuals."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "It gives equity tools a visible operational home while connecting users to human consultation when a resource alone is insufficient."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "It creates a practical feedback loop in which staff questions, search behavior, and contribution patterns identify gaps in policy, guidance, training, and implementation."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Heading 2",
+        "text": "Research validation"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "The approach is consistent with public-sector evidence and guidance. Digital.gov and the U.S. Web Design System emphasize user needs, accessibility, search, authoritative content, governance, measurement, and empowered content teams. CDC has implemented a self-guided, web-accessible Foundations of Health Equity training plan. OPM describes repositories, collaboration tools, and communities of practice as infrastructure for continuous learning, knowledge documentation, sharing, and innovation. GAO has repeatedly identified fragmentation, underused guidance, and the value of enterprise solutions, while also warning that a dashboard or platform must be evaluated through actual use, feedback, and mission value."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Heading 2",
+        "text": "Conditions for responsible adoption"
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "Governance: Name content owners, publication authority, review cadence, version history, and retirement rules."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "Trust: Identify authoritative sources, dates, publication status, and the distinction between official guidance and community contribution."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "Accessibility: Require keyboard and screen-reader testing, captions and transcripts, alternative text, readable structure, contrast, and document remediation."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "Privacy and security: Collect no personally identifiable information for prototype use; establish approved upload types, moderation, records, retention, and security review."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "Participation: Provide contribution and feedback pathways without implying that every submission is approved policy or guidance."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "Measurement: Measure task success, time to trusted information, comprehension, confidence, application, accessibility, content freshness, and referrals for human support - not page views alone."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Heading 2",
+        "text": "Recommended disposition"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Continue as a governed, co-designed prototype. Use a bounded 90-day learning pilot before broader adoption. Expansion should remain conditional on demonstrated staff value, accessibility, content stewardship, privacy and security readiness, and a sustainable operating model."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Heading 2",
+        "text": "Ninety-day learning pilot"
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Number",
+        "text": "Baseline: Confirm priority staff journeys, inventory current resources, and establish findability, confidence, and accessibility baselines."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Number",
+        "text": "Co-design: Test the experience with leaders, equity professionals, frontline staff, program staff, and people with different access needs."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Number",
+        "text": "Pilot: Release a governed collection for selected use cases, support it with office hours or consultation, and capture structured feedback."
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Number",
+        "text": "Decide: Continue, revise, or stop based on evidence; define ownership, operating cost, and resource commitments before scale."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Heading 2",
+        "text": "Pilot decision standard"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Staff can find trusted resources faster, understand how to apply them, and identify when additional human support is needed. The platform also produces actionable evidence about missing, outdated, inaccessible, or difficult-to-apply resources."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Heading 1",
+        "text": "Purpose, posture, and scope"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Heading 2",
+        "text": "Important framing"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "This observational report is not an attack on DHS leadership, its employees, or the equity work currently underway across the agency. It is a standard assessment and opportunity-forward document intended to complement the department's existing efforts. It is not written in opposition to, and is not proposed as a replacement for, DHS equity work. In the view of the Equity and Inclusion Operations Consultant, that work is promising writ large. The purpose here is to help connect and strengthen it through a systemic and integrated framework - moving from Hearts and Minds equity, to institutional and structural analysis, to practical recommendations and reforms."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "This report uses the term climate to describe the conditions in which equity work is understood, supported, implemented, experienced, and sustained. Climate includes the agency's stated commitments and the everyday signals that shape whether people believe those commitments are real: how decisions are made, whose knowledge counts, how burdens are distributed, what resources are available, how leaders respond to evidence, and whether communities and employees can see their influence in the system."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "The report is designed for reflection, alignment, and action. It recognizes that DHS operates in a complex state-county-Tribal-provider environment and that some human services functions now sit across more than one state agency. It therefore focuses on the connections among policy, operations, data, workforce, procurement, accessibility, community partnership, and performance rather than assigning every outcome to a single office."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Scope and accuracy note. The report draws on the source material provided for this rewrite, including public information about DHS, the Department of Children, Youth, and Families, Minnesota's human services performance system, language and disability access requirements, procurement mechanisms, Medicaid equity work, MNbenefits, and the Olmstead planning process. Agency pages, statutory schedules, and program details should be rechecked before this report is used as a formal policy, legal, fiscal, legislative, or public accountability record."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Heading 1",
+        "text": "Executive summary"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "DHS has meaningful equity foundations. Its strategic plan, Equity Policy, toolkit, performance-management work, language and disability access expectations, community partnerships, modernization efforts, and program-specific initiatives demonstrate that equity is already present in the department's formal direction and daily work. The central opportunity is not to start equity work over. It is to make the existing work more connected, visible, resourced, and consequential across the operating system."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "The climate observed in the source material is best understood as a transition point. Hearts and Minds work - learning, intention, cultural awareness, reflection, and relationship-building - is necessary and promising. The next opportunity is to connect that work to the institutional structures that determine outcomes: policy and budget gates, technology design, eligibility and service workflows, data definitions, contracts, workforce systems, interagency agreements, and corrective-action routines."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "A complementary equity operating system would allow DHS to answer five practical questions for any priority disparity: where is the burden or unequal outcome occurring; who has authority to change the condition; what resources and partners are required; how will progress be measured; and what will happen if the expected improvement does not occur?"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "The recommendations in this report are intentionally forward-looking. They call for an enterprise Equity Operations Council, an equity portfolio and stage gate, full client-journey mapping, reliable language and disability access, a cross-agency data and performance architecture, a DHS-DCYF operating compact, workforce and procurement reforms, paid lived-expertise partnership, a broader evidence standard, and durable rules, budgets, contracts, and routines."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Heading 2",
+        "text": "How to read this report"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Landscape: what the current equity climate appears to contain - strengths, signals, gaps, and opportunities."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Framework: how to connect Hearts and Minds equity to organizational practice, institutional design, and structural conditions."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Recommendations: practical reforms that complement DHS's current direction and can be prioritized by consequence and readiness."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Implementation: a staged 36-month pathway with decision gates, evidence requirements, and leadership questions."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "References: source notes are consolidated at the end of the report; no inline citations are used in the body."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Heading 1",
+        "text": "1. DHS equity landscape: the current climate"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "A useful equity landscape assessment begins with the organization as it operates, not with a generic description of diversity, equity, inclusion, accessibility, or anti-racism work. Minnesota DHS works through a network that includes state programs, counties, Tribal Nations, managed-care organizations, service delivery authorities, community providers, employees, and people who use human services. Equity climate is therefore produced across many locations and relationships."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Heading 2",
+        "text": "1.1 Promising foundations"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "The source material reflects a substantial foundation on which to build. DHS has publicly articulated outcomes for people in Minnesota, for high-quality human services, and for employees who work in an inclusive environment. Its direction includes equitable and accessible service delivery, streamlined processes, partnership with Tribal Nations and counties, community voice, provider support, anti-racist and multicultural organizational development, psychological safety, wellbeing, and career pathways."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "DHS also has an Equity Policy and Equity Analysis Toolkit that extend equity considerations beyond a single program. The policy context reaches into legislation, policy development, budgets, strategic planning, technology modernization, recruitment and retention, procurement, community engagement, and service delivery. The existence of these expectations is a strength because it positions equity as an agency responsibility rather than a discretionary add-on."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Other building blocks include MNbenefits, language and disability access requirements, human services performance measures, Medicaid equity work, disability and Olmstead planning, procurement opportunities for targeted vendors, and active child and family reforms. Collectively, these assets create a promising platform for a more integrated operating model."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Heading 2",
+        "text": "1.2 The operating model is distributed by design"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "DHS cannot advance equity through one office or one training program alone. Many decisions that shape lived experience occur at program, county, Tribal, provider, technology, contract, or frontline levels. This distributed model makes local knowledge and partnership essential, but it also creates a risk: the department may have many good equity activities without one shared view of the outcomes, burdens, ownership, resources, and next decisions associated with them."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "The opportunity is to establish a common minimum operating standard while preserving program-specific, Tribal, disability, cultural, linguistic, geographic, and community expertise. A common standard should clarify what must be analyzed, who decides, how affected people participate, what data is needed, how accessibility is assured, and how leadership will verify the result."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Heading 2",
+        "text": "1.3 Current context that shapes the climate"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Minnesota's human services performance-management experience suggests that a tool-centered approach is valuable for learning but may not be sufficient for sustained culture change or statewide scaling. The practical lesson is complementary: tools and training are important, and they are most effective when joined to coaching, change management, capacity, user groups, workflow ownership, and sustainability planning."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "The movement of child and family functions into DCYF changes the accountability map without removing child welfare from the larger human services equity landscape. DHS remains connected through Medicaid, behavioral health, disability services, economic assistance, licensing, procurement, performance management, data infrastructure, and interagency coordination. Clarity about these relationships is a climate issue because organizational transitions can either strengthen shared accountability or create gaps that communities experience as fragmentation."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "The Minnesota African American Family Preservation and Child Welfare Disproportionality Act creates a concrete opportunity to connect data disaggregation, family preservation, active efforts, case review, workforce practice, community oversight, and performance management. Its implementation should be approached as system change, with attention to service capacity and family experience as well as formal compliance."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Heading 2",
+        "text": "1.4 Climate signals at a glance"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Climate dimension"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Promising signal"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Opportunity to strengthen the system"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Leadership direction"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Equity and inclusion are reflected in strategic commitments and policy expectations."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Connect commitments to decision rights, resources, stage gates, and consequences."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Organizational learning"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Toolkits, training, user groups, and community input create learning channels."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Pair learning with workflow redesign, coaching, accountability, and sustainability."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Client access"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "MNbenefits reduces friction for several economic-assistance programs."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Measure the full journey through verification, renewal, referral, and appeal."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Language and disability access"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Rights and assistance expectations are identified."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Create consistent service standards, performance data, testing, and remediation."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Performance"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Measures and thresholds exist across important human services outcomes."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Add equity, burden, access, intersectional, and corrective-action measures."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Community partnership"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Medicaid and Olmstead work illustrate the value of lived expertise."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Compensate participation and document how it changes decisions and design."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Workforce and procurement"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Existing HR and vendor systems can be equity levers."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Track advancement, retention, meaningful awards, payment, and community reach."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Durability"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Equity is present in policies, plans, and initiatives."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Place requirements in recurring budgets, contracts, rules, routines, and succession plans."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Heading 1",
+        "text": "2. Observations about the equity climate"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "The observations below are offered as constructive signals for discussion. They describe conditions that can occur even when employees and leaders are committed to equitable service and workplace outcomes. The distinction is important: an observation about system design is not a judgment about individual character or intent."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Heading 2",
+        "text": "2.1 Intent and effect can diverge"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "A county eligibility worker may intend to treat people fairly while a process still produces unequal results if information is required in English, interpreter access is delayed, a narrow script limits judgment, or a missing document penalizes a delay outside the client's control. A social worker may value family preservation while the decision environment makes removal the easiest defensible option when services, housing, transportation, behavioral health, disability supports, or culturally responsive providers are unavailable. A hiring manager may value diversity while an unstructured interview rewards similarity and informal rapport."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "The leadership question is therefore not only whether staff have good intentions. It is whether the system gives staff the tools, time, authority, information, support, and incentives to produce equitable results - and whether the department can detect and correct the moments when it does not."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Heading 2",
+        "text": "2.2 Equity tools need a consequential home"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "An equity analysis or scan can be completed without changing the decision it examines. If review has no stage gate, no required response to identified harm, and no accountable owner, it can become documentation attached to a decision made elsewhere. The opportunity is to make every required analysis produce a disposition: approve, revise, pause, pilot, reject, or escalate."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "A material unmitigated disparity should not be silently accepted. If leadership chooses to proceed, the decision should state why, what safeguards apply, who owns the risk, what data will be reviewed, and when the decision will be revisited."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Heading 2",
+        "text": "2.3 Administrative modernization should be measured by total effort"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "MNbenefits is an important modernization that can simplify the first step for several economic-assistance programs. A more usable front door, however, does not automatically create an integrated service journey. Clients may still encounter different verification requirements, notices, account systems, contact channels, renewal processes, or appeals across programs and delivery partners."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "The relevant equity measure is total effort from first contact to stable service: repeated requests, days waiting, abandoned applications, unresolved referrals, renewal interruptions, comprehension, and successful appeals. The opportunity is to treat MNbenefits as a platform for broader integration while maintaining human support through county, Tribal, phone, in-person, and community channels."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Heading 2",
+        "text": "2.4 Rights must be experienced consistently"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Language access and disability access are not only notice requirements. They are service conditions. A client must be able to understand what is being asked, communicate at the point of need, receive equally effective communication, use the relevant format or technology, and obtain assistance without carrying the burden of arranging it alone."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Because delivery is distributed across program areas, counties, Tribes, and providers, the same right can feel different from one channel to another. The opportunity is a department-wide minimum standard with a shared performance dataset, accessible materials, user testing, a remediation queue, and an escalation route for repeated failures."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Heading 2",
+        "text": "2.5 Performance systems should make disparities actionable"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "A performance system governs what it defines, measures, reviews, and connects to improvement. If healthcare access, language access, disability access, client burden, culturally relevant quality, or intersectional outcomes are not measured, they remain outside the formal performance conversation. If a measure is suspended or retired while the underlying risk remains, an interim monitoring plan is needed."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "The opportunity is to add an equity layer: disaggregated outcomes, disparity thresholds, qualitative evidence, client-burden measures, and corrective-action requirements. The absence of a measure should be treated as a measurement risk, not as evidence that no problem exists."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Heading 2",
+        "text": "2.6 Community voice is strongest when it changes design"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Listening sessions and advisory groups can build understanding, but participation becomes more credible when people can see how their knowledge changed a policy, budget, contract, service, or evaluation. The climate signal to watch is whether communities are asked to describe harm without receiving compensation, decision influence, accessible participation, or a response record."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "The opportunity is to establish paid, accessible, longitudinal partnership. Community members, Tribal governments, disability leaders, culturally specific organizations, parents, youth, relatives, employees, and people who use services should be engaged at the level of influence required by the decision."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Heading 2",
+        "text": "2.7 Training is necessary but not sufficient"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Training can support understanding of laws, cultural context, accessibility obligations, data practices, trauma-informed principles, and structured decision tools. It cannot by itself remove a degree requirement, create a culturally specific provider, repair a data field, translate a notice, change a contract score, fund a navigator, or require a manager to correct a promotion gap. Training is most effective when it supports a changed operating environment rather than standing in for one."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Heading 1",
+        "text": "3. From Hearts and Minds to institutional and structural equity"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "A complementary framework can be understood as four connected levels. Each level matters; none should be treated as a substitute for the others."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Level"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "What it asks"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "What makes it durable"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Hearts and Minds"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "What do people understand, believe, notice, and practice in relationships?"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Learning, reflection, cultural humility, trust-building, psychological safety, and leadership modeling."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Organizational practice"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "How do managers and teams make decisions and deliver services every day?"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Clear workflows, structured decisions, coaching, accessible tools, workload capacity, feedback, and measurable expectations."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Institutional design"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "What do policies, budgets, contracts, technology, data, and governance make easier or harder?"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Stage gates, resource commitments, data ownership, procurement standards, performance reviews, and corrective action."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Structural conditions"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "How do history, power, race, disability, culture, geography, income, language, and intersecting identities shape outcomes?"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Disaggregated analysis, community power, cross-agency alignment, service capacity, and willingness to redesign the rules of the system."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Heading 2",
+        "text": "Working principle"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "The strongest equity climate is one in which personal commitment and institutional design reinforce one another. Employees should not have to overcome a structurally inequitable process through individual goodwill, and leadership should not ask communities to trust an equity commitment that has no operating expression."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "This four-level framework also clarifies the role of an Equity and Inclusion Operations Consultant. The role is not to replace existing equity leadership, program expertise, Tribal sovereignty, disability expertise, community knowledge, or executive responsibility. It is to help connect those sources of knowledge to operational decisions, structural analysis, implementation, and measurable reform."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Heading 1",
+        "text": "4. Complementary recommendations and reforms"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "The recommendations below are designed to strengthen and integrate work already underway. Each includes an objective, priority actions, evidence of progress, and primary ownership. They are intended to be sequenced according to consequence, readiness, capacity, and community guidance."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Heading 2",
+        "text": "4.1 Establish an Equity Operations Council and executive stage gate"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Objective. Create one governance mechanism that connects equity analysis to decisions, resources, risk management, and outcomes across DHS and relevant interagency partners."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Heading 2",
+        "text": "Priority actions"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Charter an Equity Operations Council chaired by an executive sponsor and including Equity and Inclusion, the Office of Indian Policy, Strategy and Performance, Employee Culture and Human Resources, Aging and Disability Services, Grants/Equity/Access/Research, procurement, IT, policy, legal, finance, program administrations, counties, Tribal Nations, labor, and community partners."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Maintain a single equity portfolio containing priority disparities, redesign pilots, policy reviews, procurement changes, workforce risks, data dependencies, community commitments, budgets, and corrective actions."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Establish an equity stage gate for policies, budgets, requests for proposals, major IT changes, service redesigns, and workforce initiatives. The gate should require a decision record, not only a completed scan."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Require each stage-gate record to identify affected populations, burden, benefits, alternatives, accessibility, language, Tribal and legal considerations, data needs, cost, owner, implementation date, and outcome measures."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Set an escalation rule: a material unmitigated disparity must be revised, piloted with safeguards, approved as an explicit exception by the responsible executive, or stopped."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Use quarterly reviews to examine whether approved actions occurred and whether the observed effect matches the expected effect."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Heading 2",
+        "text": "Evidence of progress"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "A published charter, membership list, decision-rights matrix, and quarterly calendar."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "A portfolio dashboard showing owner, status, risk, budget, milestone, and outcome for each priority action."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Sample policy, budget, IT, procurement, and workforce decisions with completed stage-gate records and documented disposition."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "A corrective-action register showing unresolved disparities and the executive responsible for resolution."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Primary ownership. Commissioner's Office, in partnership with Equity and Inclusion and Strategy and Performance."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Heading 2",
+        "text": "4.2 Turn MNbenefits into a full client-journey redesign"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Objective. Reduce total administrative burden from first contact through verification, renewal, change reporting, appeal, and stable receipt of services."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Heading 2",
+        "text": "Priority actions"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Map the complete journey for a household applying for economic assistance, including transition from MNbenefits to county or Tribal processing, document submission, interviews, notices, case changes, renewal, and appeal."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Identify which adjacent programs are screened through the existing application and which remain outside the experience, including healthcare, MinnesotaCare, disability-related services, and other needs."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Define a cross-program referral standard: a clear explanation, warm handoff, contact, time expectation, and way to confirm that the handoff occurred."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Maintain human support through phone, in-person, county, Tribal, and community channels. Online convenience should not be treated as a replacement for accessible human assistance."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Fund Digital Navigators and community-based application support, especially in rural areas, Tribal communities, neighborhoods with limited broadband, and communities with limited English proficiency."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Rewrite notices and document requests so clients can identify what is needed, why it is needed, how to submit it, what happens next, and how to obtain language or disability assistance."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Measure total client effort, including contacts, repeated submissions, days waiting, abandoned applications, successful referrals, renewal churn, denials, appeals, and comprehension."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Heading 2",
+        "text": "Evidence of progress"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Current-state and future-state journey maps reviewed by clients, navigators, frontline workers, county and Tribal staff, accessibility experts, and program owners."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "A list of programs inside and outside the MNbenefits experience with a documented referral or integration plan."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "A client-effort dashboard disaggregated by language, race and ethnicity, disability, geography, age, and other relevant dimensions with privacy protections."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Verified reduction in repeated information requests, unresolved handoffs, abandoned applications, and renewal interruptions."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Primary ownership. Economic Assistance, Health Care, county and Tribal partners, IT, Strategy and Performance, and community navigation partners."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Heading 2",
+        "text": "4.3 Operationalize language and disability access as service standards"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Objective. Make free, timely, meaningful language assistance and equally effective communication reliable at every client contact, not only visible in notices or policy statements."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Heading 2",
+        "text": "Priority actions"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Adopt a DHS-wide minimum service standard: assistance is free, timely, available throughout operating hours, and never placed as a burden on the person with limited English proficiency or a disability."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Create a common performance dataset for interpreter requests, wait time, failed or delayed access, translated materials, language of service, client comprehension, accommodations, and complaint resolution."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Review county and provider language-access plans for operational readiness: who answers, who interprets, which languages are covered, how after-hours needs are handled, and how staff document service."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Standardize language-access and disability-access advisories in public materials while testing whether people understand the right and know how to request it."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Require document accessibility testing with screen readers, keyboard navigation, captioning, alternative formats, and disabled users before major publications or digital releases."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Create a centralized accessibility remediation queue with severity levels, owners, deadlines, and executive visibility. Program-area responsibility for cost should not mean program-area isolation."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Include access standards in contracts, requests for proposals, managed-care requirements, vendor monitoring, and provider technical assistance."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Heading 2",
+        "text": "Evidence of progress"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Interpreter and accommodation performance reported by program and county or Tribal delivery channel."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Priority forms, notices, web pages, videos, and training materials pass accessibility review with documented results."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Client testing shows that people can identify how to request assistance and understand information after assistance is provided."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Access failures have an owner, remediation date, and escalation path."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Primary ownership. Equity and Inclusion, civil rights, accessibility leadership, program administrations, county and Tribal agencies, IT, Communications, and procurement."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Heading 2",
+        "text": "4.4 Build an equity data and performance architecture"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Objective. Make disparities visible, interpretable, privacy-protected, and connected to management action across DHS, DCYF, counties, Tribes, and providers."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Heading 2",
+        "text": "Priority actions"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Create a cross-agency equity data dictionary covering race, ethnicity, culture, language, disability, gender, geography, income, age, and program-specific characteristics, with definitions, collection rules, missingness, and permitted uses."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Separate internal analytic capacity from public reporting. Use protected data for small-n and intersectional analysis while publishing safe aggregate trends and clear limitations."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Integrate equity measures into the Human Services Performance Management System, including client burden, language access, disability access, healthcare access, culturally relevant quality, and workforce outcomes."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Address gaps in healthcare access and effective-service measurement by developing measures with communities, counties, managed-care organizations, and people with lived experience."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "For every measure, establish a baseline, threshold, improvement target, owner, reporting schedule, and corrective-action process. A suspended or retired measure should have interim monitoring if the underlying risk remains."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Use dashboards to identify disparities at decision points, not only final outcomes: screening, referral, approval, denial, wait, placement, service, renewal, and appeal."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Pair quantitative results with qualitative evidence, case review, community feedback, and frontline observation so data does not erase context."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Heading 2",
+        "text": "Evidence of progress"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "An approved equity data dictionary and data-governance protocol."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "A minimum set of equity measures added to each priority performance domain."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "A dashboard with documented suppression rules, data-quality notes, and named owners."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Quarterly corrective-action reviews for measures that exceed disparity thresholds or show deterioration."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "An annual review of which measures were used in budget, policy, procurement, workforce, or program decisions."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Primary ownership. Strategy and Performance, data governance, program analytics, Equity and Inclusion, DCYF where child and family data is involved, counties, Tribal Nations, and community partners."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Heading 2",
+        "text": "4.5 Implement child-welfare equity reform through a DHS-DCYF operating compact"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Objective. Ensure that the transfer of child and family programs strengthens rather than fragments accountability for disproportionality, family preservation, data, services, and community trust."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Heading 2",
+        "text": "Priority actions"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Create a written DHS-DCYF operating compact defining responsibilities for data sharing, Medicaid and behavioral-health linkages, disability services, benefits, procurement, workforce, performance management, community engagement, and public reporting."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Align measures with statutory categories such as representation, reporting, maltreatment, out-of-home placement, emergency removals, reunification, permanency, family connections, relative placement, disability, culture, income, and geography."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Treat active efforts and family preservation as operational requirements that require service capacity, culturally responsive safety planning, transportation, language access, housing support, behavioral health, disability supports, and relatives or kin who can participate."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Use structured decision-making and case review to identify where discretion, service availability, or court and agency practice leads to unnecessary removal or unequal treatment."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Make the African American Child Well-being Unit, Advisory Council, Tribal governments, community organizations, parents, youth, and relatives part of the implementation feedback loop with compensation and documented response."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Use the phase-in period to identify implementation barriers before statewide rollout rather than treating the phase-in as a compliance exercise."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Coordinate data definitions and reporting schedules so DHS, DCYF, counties, Tribes, and the public do not see conflicting versions of the same disparity."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Heading 2",
+        "text": "Evidence of progress"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "A signed interagency compact and RACI matrix."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "A joint dashboard or reporting package aligned with statutory categories and privacy rules."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Case-review findings linked to specific policy, training, service-capacity, or workflow changes."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Documented active-efforts and family-preservation implementation in phase-in counties."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "A statewide readiness assessment before rollout."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Primary ownership. DHS and DCYF Commissioners' Offices, Child Safety and Permanency leadership, the Office of Indian Policy, counties, Tribal Nations, courts, providers, and community oversight bodies."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Heading 2",
+        "text": "4.6 Redesign workforce entry, advancement, and retention"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Objective. Make workforce equity measurable in recruitment, hiring, pay, promotion, acting appointments, performance feedback, accommodations, psychological safety, and retention."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Heading 2",
+        "text": "Priority actions"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Audit job classifications and minimum qualifications for unnecessary degrees, experience requirements, address or schedule assumptions, and barriers that exclude lived experience or community language and cultural knowledge."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Use trainee and paid-licensure pathways where jobs can be performed safely and effectively through training, supervised practice, and competency assessment."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Use structured interviews, common questions, scoring rubrics, diverse panels, and documented selection rationale. Monitor who advances at each stage."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Audit acting and interim appointments for transparency, rotation, access, and conversion to permanent positions."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Analyze time-in-class, pay, performance ratings, promotion, disciplinary action, developmental opportunity, and turnover by race, ethnicity, disability, gender, geography, and other relevant categories."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Create sponsorship for employees who are 'onlys' or 'firsts' in leadership roles, with executive actions rather than informal encouragement alone."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Treat Direct Support Professionals and Personal Care Assistants as a core equity and service-quality workforce. Track wages, benefits, vacancies, caseload, training, career progression, and turnover."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Require managers to have measurable DEIA goals that address outcomes or behavior, not merely attendance, and review those goals in performance management."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Heading 2",
+        "text": "Evidence of progress"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "A workforce equity baseline and annual disparity report."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "A structured-hiring protocol and acting-appointment audit."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Promotion, pay, and retention gaps with corrective-action owners."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Manager goals tied to measurable team conditions and service outcomes."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "A burnout, workload, moral-injury, and secondary-traumatic-stress response plan."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Primary ownership. Employee Culture and Human Resources, Workforce Strategy and Planning, program leaders, labor partners, Equity and Inclusion, and Development and Learning."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Heading 2",
+        "text": "4.7 Use procurement and grants to build community capacity"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Objective. Make public spending a deliberate instrument for service equity, cultural fit, disability inclusion, geographic reach, and community wealth."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Heading 2",
+        "text": "Priority actions"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Use the state's targeted-group, economically disadvantaged, and veteran-owned vendor systems and Equity Select mechanisms as starting points for a DHS vendor-equity strategy."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Identify where solicitation size, insurance, cash flow, reporting, technical requirements, or prior-government experience exclude smaller and community-rooted organizations."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Revise RFP and grant rubrics to assign meaningful value to cultural and linguistic competence, lived experience, disability leadership, Tribal partnership, geographic access, family preservation, and measurable outcomes."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Provide pre-solicitation information sessions, proposal assistance, realistic payment terms, capacity-building grants, and technical assistance so community organizations can compete without imitating large institutions."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Require vendors to meet language, accessibility, data, complaint, and community-feedback standards, with resources to do so and consequences for repeated failure."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Analyze awards by vendor ownership, leadership, community served, geography, language, and contract value. Do not count diverse vendors without examining who receives meaningful and sustainable work."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Use contract renewals and performance reviews to determine whether providers actually reach the communities identified in the proposal."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Heading 2",
+        "text": "Evidence of progress"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "A vendor-barrier assessment and revised solicitation templates."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Award and subcontracting data disaggregated by vendor type and community reach."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Payment-timeliness and capacity-building measures for smaller providers."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Contract monitoring that includes access, cultural fit, disability inclusion, and outcomes."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Primary ownership. Procurement, Grants, Equity and Inclusion, program administrations, the Office of Equity in Procurement, finance, legal, and community providers."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Heading 2",
+        "text": "4.8 Institutionalize co-creation, trust repair, and lived expertise"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Objective. Move communities from consultation recipients to paid partners who shape policy, program design, budgets, procurement, and evaluation."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Heading 2",
+        "text": "Priority actions"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Create a department-wide compensation policy for community expertise, including time, preparation, transportation, childcare, technology, interpretation, and accessibility costs."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Use a participation ladder that distinguishes informing, consulting, involving, collaborating, and empowering. Specify the level required for each decision."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Create longitudinal community partnerships rather than one-time listening sessions. Trust repair requires repeated, culturally specific engagement tied to policy and administrative activity."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Use community-defined measures of quality, trust, safety, dignity, and culturally relevant care alongside administrative outcomes."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Publish a response record that says what community members recommended, what changed, what did not change, and why."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Avoid extracting trauma. Do not ask employees or clients to disclose painful experiences as a substitute for paying experts, reviewing data, or redesigning the system."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Use compensated lived-experience participation in disability planning as a practical reference while adapting the approach to other communities and decision types."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Heading 2",
+        "text": "Evidence of progress"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "A paid-lived-expertise policy and standard agreement."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "A community-participation plan for every major equity redesign."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Documented changes to policy, budget, procurement, service, or evaluation resulting from participation."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Trust, comprehension, and perceived influence measures collected over time."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Primary ownership. Equity and Inclusion, the Office of Indian Policy, program administrations, community engagement, procurement, finance, and executive sponsors."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Heading 2",
+        "text": "4.9 Expand the evidence standard without abandoning rigor"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Objective. Recognize culturally adapted and community-defined practices as potentially valid evidence while maintaining safety, transparency, measurable outcomes, and ethical safeguards."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Heading 2",
+        "text": "Priority actions"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Distinguish between evidence that a model works in a population, evidence that a model is culturally acceptable and accessible, and evidence that a provider can deliver it safely."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Require cultural adaptation when a model was developed or tested in a population that differs materially from the people DHS is serving."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Accept practice-based evidence, community-defined outcomes, traditional healing, peer support, elders, doulas, and culturally specific organizations as evidence categories for review rather than dismissing them as unproven by definition."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Use community members and cultural experts to define meaningful outcomes while retaining independent review for safety, privacy, professional standards, and fiscal accountability."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Track whether conventional evidence requirements exclude providers that communities trust and whether funded models produce equitable results in practice."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Heading 2",
+        "text": "Evidence of progress"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "A written evidence framework with definitions, review criteria, and examples."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Procurement and program documents that allow culturally specific and practice-based evidence."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Outcome monitoring that compares adapted and unadapted models where appropriate."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Community feedback on whether services are culturally relevant, safe, and effective."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Primary ownership. Program administrations, research and evaluation, procurement, legal, clinical and professional leadership, Equity and Inclusion, and community partners."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Heading 2",
+        "text": "4.10 Make the work durable through rules, budgets, contracts, and routines"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Objective. Prevent equity work from depending on a single leader, grant, training cycle, or political moment."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Heading 2",
+        "text": "Priority actions"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Identify which equity requirements belong in statute, administrative rule, policy, contract, grant agreement, budget instruction, performance plan, standard operating procedure, or technology requirement."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Use rulemaking and public notice when a durable, transparent requirement is appropriate; do not rely on an internal memo for a requirement that must survive leadership transition."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Assign recurring budget lines for accessibility, community compensation, data capacity, change management, evaluation, and frontline workload relief."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Embed equity outcomes in contracts, manager goals, program scorecards, procurement reviews, and annual planning."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Build succession and continuity plans for equity leadership, data ownership, community relationships, and high-risk pilots."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Publish annual status reports that distinguish completed activities, measured outcomes, disparities that remain, corrective actions, and decisions required from leadership."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Heading 2",
+        "text": "Evidence of progress"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "A durability map showing the legal, budget, contract, policy, technology, and performance home for each intervention."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Recurring resource commitments rather than one-time project funds."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Continuity plans for key roles and partnerships."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Annual leadership reporting with unresolved disparities and explicit next actions."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Primary ownership. Commissioner's Office, policy, legal, finance, procurement, Human Resources, Strategy and Performance, and program leadership."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Heading 1",
+        "text": "5. Thirty-six-month implementation blueprint"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "The blueprint is designed to support the department's current direction while reducing a common implementation risk: announcing a broad strategy, assigning it to a small office, offering training, and waiting for culture to change. Each phase has a distinct purpose, decision gate, and evidence requirement."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Heading 2",
+        "text": "Timing"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Heading 2",
+        "text": "Purpose"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Heading 2",
+        "text": "Required work"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Heading 2",
+        "text": "Decision gate"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "0-90 days"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Authorize and establish"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Executive sponsor; Equity Operations Council charter; portfolio baseline; DHS-DCYF compact; data-access approvals; selected pilots; legal, privacy, accessibility, and Tribal review; community compensation protocol."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "No pilot proceeds without a named owner, baseline, budget, affected-community plan, measure, and escalation path."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "3-6 months"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Map and design"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Client journeys; high-discretion decision inventory; language and disability access assessment; workforce and vendor-barrier analysis; performance-measure design; community and frontline co-design."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Leadership approves future-state workflows and resource requirements, not only problem statements."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "6-12 months"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Pilot and learn"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "MNbenefits journey improvements; navigators; language and accessibility remediation; structured decision tools; data-disaggregation prototypes; revised RFP or grant cycle; manager goals."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Pilots report burden, access, outcomes, equity gaps, usability, cost, and unintended effects."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "12-24 months"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Scale and integrate"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Expand effective pilots; integrate stage gates into policy, budget, IT, procurement, hiring, and service delivery; implement child-welfare phase-in learning; build dashboards and corrective action."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Operating procedures, contracts, budgets, and performance systems reflect the new requirements."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "24-36 months"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Institutionalize and renew"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Rulemaking or statutory alignment where appropriate; recurring budget; succession; annual reporting; outcome review; redesign of interventions that did not work; next priority portfolio."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Equity work remains active when leadership, funding, or external conditions change."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Heading 2",
+        "text": "5.1 Pilot selection criteria"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Leadership should select pilots using criteria that prioritize consequence and learning value, not visibility. A strong pilot affects a high-consequence outcome, has an identifiable owner, can be measured within twelve months, involves people who experience the barrier, has a plausible intervention, and can be scaled if effective."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "High consequence for safety, access, autonomy, family stability, health, income, or employment."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Evidence of disparate burden or outcome, with a feasible way to disaggregate or otherwise investigate it."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "A defined decision point or workflow that can be changed."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "A program owner with authority and capacity to implement."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Community, Tribal, frontline, disability, language, or labor partners who can shape the redesign."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "A measurable baseline and a plan for privacy, accessibility, and unintended-effect review."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Heading 2",
+        "text": "5.2 What should not be called progress by itself"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Training completion without evidence of changed decisions, workflow, or outcomes."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "A completed equity scan with no documented decision or corrective action."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "A translated document when interpretation is unavailable at the point of need."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "A dashboard that reports aggregate data and cannot identify or act on subgroup disparities."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "A community meeting that produces no compensation, decision record, or change in design."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "A diverse hiring slate without changes to selection, promotion, pay, retention, and psychological safety."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "A diverse vendor count without meaningful awards, timely payment, community reach, or contract outcomes."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "A new policy that says equity matters but does not assign a resource, owner, measure, or consequence."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Heading 1",
+        "text": "6. Leadership scorecard"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "The scorecard should be reviewed quarterly by the executive sponsor and annually by the Commissioner or designated leadership body. It should show direction of change, distribution of outcomes across groups, and whether the department acted on what it learned."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Heading 2",
+        "text": "Domain"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Heading 2",
+        "text": "Illustrative measures"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Heading 2",
+        "text": "Leadership question"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Governance"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Stage gates completed; material risks escalated; corrective actions closed on time; priority portfolio funded."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Is equity connected to decisions and consequences?"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Client burden"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Total contacts; repeated requests; days waiting; abandoned applications; referral completion; renewal churn; appeal success; comprehension."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Does the system make it easier to obtain and keep services?"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Language and disability access"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Interpreter wait and failure; accessible documents; accommodation completion; complaint resolution; assistive-technology testing."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Can people understand and use the service at the point of need?"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Child and family outcomes"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Disproportionality; placement; active efforts; reunification; relative connection; removals; case review; data completeness."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Are reforms changing decisions and family experience?"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Health and disability outcomes"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Healthcare access; culturally relevant care; waiver and HCBS access; choice; integration; wait time; community living."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Do services support health, dignity, autonomy, and community life?"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Workforce"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Hiring; pay; promotion; acting appointments; time-in-class; retention; accommodations; psychological safety; direct-care conditions."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Can employees enter, advance, contribute, and remain?"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Procurement"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Awards and value by vendor type; payment time; community reach; cultural and disability access; contract outcomes."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Who receives public resources and who has capacity to serve?"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Trust and power"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Paid participation; community influence; response to recommendations; perceived trust; complaint and appeal patterns."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Are communities helping govern the system or only describing its failures?"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Durability"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Recurring budget; rule and policy integration; contract language; succession; annual reporting; continuity during leadership change."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Will the change survive pressure?"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Heading 1",
+        "text": "7. Conclusion: a complementary path forward"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "DHS does not need to choose between the equity work already underway and the institutional reforms described here. The opportunity is to connect them. Strategic commitments, policy expectations, toolkits, performance systems, language and disability access, MNbenefits, Medicaid equity work, disability planning, procurement mechanisms, workforce efforts, community partnerships, and child and family reforms are important building blocks."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "The climate question is whether those building blocks operate as a connected system. Can a person in Minnesota access, understand, influence, and benefit from human services without carrying a disproportionate administrative burden? Can employees enter, advance, contribute, and remain with fair opportunity and adequate support? Can public dollars build culturally responsive, accessible, and community-rooted capacity? Can leaders change course when data and communities show that a process is not working?"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "This report's proposed shift is from equity as an additional lens to equity as a design and performance requirement - while retaining the Hearts and Minds work that makes durable change possible. That shift does not diminish existing equity leadership. It gives existing commitments more structural support through executive authority, cross-agency coordination, data discipline, community partnership, accessible systems, procurement leverage, structured decisions, workforce investment, and durable rules and budgets."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Heading 2",
+        "text": "Closing standard"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "The relevant test is not whether DHS has expressed care for equity. The relevant test is whether the department's operating conditions consistently turn that care into accessible services, fair opportunity, community influence, measurable improvement, and the willingness to redesign when outcomes show that more is needed."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Heading 1",
+        "text": "References and source notes"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "The references below consolidate the authorities, public materials, and research used in the source analysis and this rewrite. No inline citations are used in the body of the report. Each numbered reference below includes a visible source URL. In desktop Word, hold Ctrl while clicking a blue URL to open it."
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Minnesota Department of Human Services. Agencywide strategic plan 2023-2027. Strategic outcomes and guiding principles for equity, service delivery, Tribal and county partnership, community voice, workforce inclusion, and process reduction.Source: https://mn.gov/dhs/general-public/about-dhs/strategic-plan/index.jsp"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Minnesota Department of Human Services. Equity Policy. Equity-analysis expectations for policy, budgets, IT modernization, hiring, procurement, community engagement, service delivery, and daily work.Source: https://mn.gov/dhs/general-public/about-dhs/department-state-policies/?id=1053-647148"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Minnesota Department of Human Services. Child and Family Services Plan 2025-2029. Transition of child and family functions to DCYF and the operating context for children and families.Source: https://dcyf.mn.gov/sites/default/files/2026-03/Minnesota%20Child%20and%20Family%20Services%20Plan%202025-2029.pdf"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Minnesota Department of Children, Youth, and Families. Minnesota African American Family Preservation and Child Welfare Disproportionality Act. Statutory duties for active efforts, family preservation, data disaggregation, case review, reporting, workforce training, grants, and phase-in.Source: https://dcyf.mn.gov/MAAFPCWDA"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Minnesota Department of Human Services. Agencywide organization. Public organizational functions for equity and inclusion, Indian policy, strategy and performance, employee culture, aging and disability, and grants, equity, access, and research.Source: https://mn.gov/dhs/about-us/contact-us/agencywide-organization/"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Minnesota Department of Human Services. 2025 Annual Report on the Human Services Performance Management System. Findings on the limits of a tool-centered equity approach and the need for integrated change management, capacity, coaching, user groups, and sustainability.Source: https://www.dhs.state.mn.us/main/idcplg?IdcService=GET_FILE&Rendition=Primary&RevisionSelectionMethod=LatestReleased&allowInterrupt=1&dDocName=MNDHS-074893&noSaveAs=1"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Minnesota Department of Human Services. Data requests. Data-access rights, Minnesota Government Data Practices Act context, and the movement of children, youth, and family data to DCYF.Source: https://mn.gov/dhs/about-us/data-requests/"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Minnesota Department of Human Services. MNbenefits. Nine-program economic-assistance application, mobile access, Spanish availability, document upload, no-login feature, and pilot history.Source: https://mn.gov/dhs/mnbenefits/"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Minnesota Department of Human Services. Online application and account access. Separate online access pathways for Medical Assistance and MinnesotaCare, including resident, worker, and navigator access.Source: https://mn.gov/dhs/online/"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Minnesota Department of Human Services. Client rights - limited English proficiency. Free and timely language assistance, agency responsibility, county LEP plans, and meaningful access requirements.Source: https://www.dhs.state.mn.us/main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=cm_00030912"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Minnesota Department of Human Services. Language and disability assistance policy. Notice, language assistance, disability assistance, equally effective communication, and program-area responsibility.Source: https://mn.gov/dhs/assets/language-disability-assistance_tcm1053-646948.pdf"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Minnesota Department of Human Services. Human Services Performance Management System outcomes, measures, and thresholds. Current measure status, suspended and retired measures, and the need for healthcare-access and effective-service measures.Source: https://dcyf.mn.gov/human-services-performance-management"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Minnesota Department of Human Services. Building Racial Equity into the Walls of Minnesota Medicaid. Community-informed Medicaid equity analysis focused on enrollment, culturally relevant care, disaggregated data, navigators, and longitudinal co-creation.Source: https://www.lrl.mn.gov/docs/2022/other/220230.pdf"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Minnesota Olmstead Implementation Office. Plan update. Draft-plan process, paid Inclusion Consultants with lived experience of disability, multilingual access, and community feedback.Source: https://mn.gov/olmstead/plan-update/"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Minnesota Office of State Procurement. Targeted Group, Economically Disadvantaged, and Veteran-Owned opportunities. Targeted vendor directory and Equity Select opportunity structure.Source: https://mn.gov/admin/osp/vendors/solicitations-and-contract-opportunities/tg-ed-vo-opportunities/"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "State of Minnesota Office of Equity, Opportunity, and Accessibility. Equity Analysis Toolkit. Statewide structured method for integrating equity and inclusion into decisions, programs, processes, and budgeting.Source: https://mn.gov/oeoa/resources/equity-analysis-toolkit/"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Minnesota Department of Children, Youth, and Families. Child Welfare Data and Reports. Disaggregated and nondisaggregated monitoring of reporting, maltreatment, placement, permanency, SSIS, court, review, and feedback data.Source: https://dcyf.mn.gov/child-welfare-data-and-reports"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Minnesota Department of Human Services. Home and community-based service waivers. Choice, person-centered service questions, waiver pathways, and community-based support context.Source: https://mn.gov/dhs/disability-aging/home-and-community-services/programs-and-services/hcbs-waivers/"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Herd, P., and Moynihan, D. P. (2018). Administrative Burden: Policymaking by Other Means. Learning, compliance, and psychological costs in public programs and their unequal distribution.Source: https://www.russellsage.org/publications/book/administrative-burden"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Bezrukova, K., et al. (2016). A meta-analytic integration of over 40 years of research on diversity training evaluation. Limits of training-only interventions and the importance of broader organizational conditions.Source: https://pubmed.ncbi.nlm.nih.gov/27618543/"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Dobbin, F., and Kalev, A. (2016). Why Diversity Programs Fail. Structural conditions, management accountability, and the risks of coercive or isolated approaches.Source: https://hbr.org/2016/07/why-diversity-programs-fail"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Kalev, A., Dobbin, F., and Kelly, E. (2006). Best practices or best guesses? Assessing the efficacy of corporate affirmative action and diversity policies. Structural diversity-management mechanisms and accountability.Source: https://doi.org/10.1177/000312240607100404"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Benish, S. G., Quintana, S., and Wampold, B. E. (2011). Culturally adapted psychotherapy and the culture-sensitive meta-analysis. Evidence for cultural adaptation and limits of unadapted models.Source: https://pubmed.ncbi.nlm.nih.gov/21604860/"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Gambrill, E., and Shlonsky, A. (2000). Risk assessment in child welfare. Structured decision-making, risk assessment, and the limits of unstructured judgment.Source: https://doi.org/10.1016/S0190-7409(00)00123-7"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Bohnet, I. (2016). What Works: Gender Equality by Design. Structured hiring and decision design as tools for reducing bias.Source: https://www.jstor.org/stable/j.ctvpbnqch"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Substance Abuse and Mental Health Services Administration. SAMHSA's Concept of Trauma and Guidance for a Trauma-Informed Approach. Trauma-informed principles, re-traumatization, trust, safety, collaboration, and empowerment.Source: https://library.samhsa.gov/sites/default/files/sma14-4884.pdf"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Normal",
+        "text": "Crenshaw, K. (1989). Demarginalizing the intersection of race and sex. Intersectionality as a framework for analyzing experiences that cannot be understood through single categories.Source: https://chicagounbound.uchicago.edu/uclf/vol1989/iss1/8/"
+      },
+      {
+        "kind": "paragraph",
+        "style": "Heading 2",
+        "text": "Additional sources for the One DHS platform assessment"
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "U.S. Web Design System, Design Principles. https://designsystem.digital.gov/design-principles/"
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "Digital.gov, Checklist of Requirements for Federal Websites and Digital Services. https://digital.gov/resources/checklist-of-requirements-for-federal-digital-services/"
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "CDC, Advancing Health Equity Through Workforce Development. https://www.cdc.gov/health-equity/media/pdfs/2024/06/OHE-Partner-Call_June-2024_Workforce-1.pdf"
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "CDC, A Practitioner’s Guide for Advancing Health Equity. https://stacks.cdc.gov/view/cdc/176588/cdc_176588_DS1.pdf"
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "U.S. Office of Personnel Management, Collaboration and Knowledge Management Technologies. https://www.opm.gov/frequently-asked-questions/openopm-faq/general/what-are-opms-open-government-flagship-initiatives/"
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "U.S. Office of Personnel Management, HRStat Community of Practice. https://www.opm.gov/policy-data-oversight/human-capital-management/hr-stat/"
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "U.S. Government Accountability Office, Human Capital: Enterprise Solutions and Shared Challenges. https://www.gao.gov/products/gao-14-168"
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "U.S. Government Accountability Office, Evidence-Based Decision Needed for the Future of OPM’s Dashboard. https://files.gao.gov/reports/GAO-26-108098/index.html"
+      },
+      {
+        "kind": "paragraph",
+        "style": "List Bullet",
+        "text": "Minnesota Management and Budget, Office of Inclusion and Equity Analysis Toolkit. https://mn.gov/mmb/inclusion/"
+      },
+      {
+        "kind": "table",
+        "tableNumber": 1,
+        "rows": [
+          [
+            "Featured DHS learning resource\nWhat is Equity at DHS? - audio and transcript\nThis multimodal resource supports flexible access and gives staff a common point of entry into the department’s equity context."
+          ]
+        ]
+      }
+    ],
+    "text": "MINNESOTA DEPARTMENT OF HUMAN SERVICES\n\nDHS Equity Landscape\nand Climate Report\n\nFrom Hearts and Minds to Institutional and Structural Equity\n\nUpdated to include the One DHS self-directed equity resource platform strategy\n\nPrepared by\n\nGary Banks\n\nEquity and Inclusion Operations Consultant\n\nAugust 2026  |  Leadership companion report\n\nExecutive update: One DHS as equity infrastructure\n\nLeadership finding. The One DHS prototype is a credible strategy for making trusted equity knowledge easier for DHS staff to find, understand, apply, and improve. Its promise is not simply that resources are placed on one website. Its value is that a governed platform can connect learning, tools, examples, reflection, practitioner expertise, and feedback at the moment staff need them.\n\nWhy this strengthens the climate strategy\n\nIt reduces friction created by scattered resources and inconsistent pathways to guidance.\n\nIt supports self-directed learning that staff can enter by task, role, question, or level of prior knowledge.\n\nIt converts practitioner expertise into durable organizational memory rather than leaving knowledge in isolated teams or individuals.\n\nIt gives equity tools a visible operational home while connecting users to human consultation when a resource alone is insufficient.\n\nIt creates a practical feedback loop in which staff questions, search behavior, and contribution patterns identify gaps in policy, guidance, training, and implementation.\n\nResearch validation\n\nThe approach is consistent with public-sector evidence and guidance. Digital.gov and the U.S. Web Design System emphasize user needs, accessibility, search, authoritative content, governance, measurement, and empowered content teams. CDC has implemented a self-guided, web-accessible Foundations of Health Equity training plan. OPM describes repositories, collaboration tools, and communities of practice as infrastructure for continuous learning, knowledge documentation, sharing, and innovation. GAO has repeatedly identified fragmentation, underused guidance, and the value of enterprise solutions, while also warning that a dashboard or platform must be evaluated through actual use, feedback, and mission value.\n\nConditions for responsible adoption\n\nGovernance: Name content owners, publication authority, review cadence, version history, and retirement rules.\n\nTrust: Identify authoritative sources, dates, publication status, and the distinction between official guidance and community contribution.\n\nAccessibility: Require keyboard and screen-reader testing, captions and transcripts, alternative text, readable structure, contrast, and document remediation.\n\nPrivacy and security: Collect no personally identifiable information for prototype use; establish approved upload types, moderation, records, retention, and security review.\n\nParticipation: Provide contribution and feedback pathways without implying that every submission is approved policy or guidance.\n\nMeasurement: Measure task success, time to trusted information, comprehension, confidence, application, accessibility, content freshness, and referrals for human support - not page views alone.\n\nRecommended disposition\n\nContinue as a governed, co-designed prototype. Use a bounded 90-day learning pilot before broader adoption. Expansion should remain conditional on demonstrated staff value, accessibility, content stewardship, privacy and security readiness, and a sustainable operating model.\n\nNinety-day learning pilot\n\nBaseline: Confirm priority staff journeys, inventory current resources, and establish findability, confidence, and accessibility baselines.\n\nCo-design: Test the experience with leaders, equity professionals, frontline staff, program staff, and people with different access needs.\n\nPilot: Release a governed collection for selected use cases, support it with office hours or consultation, and capture structured feedback.\n\nDecide: Continue, revise, or stop based on evidence; define ownership, operating cost, and resource commitments before scale.\n\nPilot decision standard\n\nStaff can find trusted resources faster, understand how to apply them, and identify when additional human support is needed. The platform also produces actionable evidence about missing, outdated, inaccessible, or difficult-to-apply resources.\n\nPurpose, posture, and scope\n\nImportant framing\n\nThis observational report is not an attack on DHS leadership, its employees, or the equity work currently underway across the agency. It is a standard assessment and opportunity-forward document intended to complement the department's existing efforts. It is not written in opposition to, and is not proposed as a replacement for, DHS equity work. In the view of the Equity and Inclusion Operations Consultant, that work is promising writ large. The purpose here is to help connect and strengthen it through a systemic and integrated framework - moving from Hearts and Minds equity, to institutional and structural analysis, to practical recommendations and reforms.\n\nThis report uses the term climate to describe the conditions in which equity work is understood, supported, implemented, experienced, and sustained. Climate includes the agency's stated commitments and the everyday signals that shape whether people believe those commitments are real: how decisions are made, whose knowledge counts, how burdens are distributed, what resources are available, how leaders respond to evidence, and whether communities and employees can see their influence in the system.\n\nThe report is designed for reflection, alignment, and action. It recognizes that DHS operates in a complex state-county-Tribal-provider environment and that some human services functions now sit across more than one state agency. It therefore focuses on the connections among policy, operations, data, workforce, procurement, accessibility, community partnership, and performance rather than assigning every outcome to a single office.\n\nScope and accuracy note. The report draws on the source material provided for this rewrite, including public information about DHS, the Department of Children, Youth, and Families, Minnesota's human services performance system, language and disability access requirements, procurement mechanisms, Medicaid equity work, MNbenefits, and the Olmstead planning process. Agency pages, statutory schedules, and program details should be rechecked before this report is used as a formal policy, legal, fiscal, legislative, or public accountability record.\n\nExecutive summary\n\nDHS has meaningful equity foundations. Its strategic plan, Equity Policy, toolkit, performance-management work, language and disability access expectations, community partnerships, modernization efforts, and program-specific initiatives demonstrate that equity is already present in the department's formal direction and daily work. The central opportunity is not to start equity work over. It is to make the existing work more connected, visible, resourced, and consequential across the operating system.\n\nThe climate observed in the source material is best understood as a transition point. Hearts and Minds work - learning, intention, cultural awareness, reflection, and relationship-building - is necessary and promising. The next opportunity is to connect that work to the institutional structures that determine outcomes: policy and budget gates, technology design, eligibility and service workflows, data definitions, contracts, workforce systems, interagency agreements, and corrective-action routines.\n\nA complementary equity operating system would allow DHS to answer five practical questions for any priority disparity: where is the burden or unequal outcome occurring; who has authority to change the condition; what resources and partners are required; how will progress be measured; and what will happen if the expected improvement does not occur?\n\nThe recommendations in this report are intentionally forward-looking. They call for an enterprise Equity Operations Council, an equity portfolio and stage gate, full client-journey mapping, reliable language and disability access, a cross-agency data and performance architecture, a DHS-DCYF operating compact, workforce and procurement reforms, paid lived-expertise partnership, a broader evidence standard, and durable rules, budgets, contracts, and routines.\n\nHow to read this report\n\nLandscape: what the current equity climate appears to contain - strengths, signals, gaps, and opportunities.\n\nFramework: how to connect Hearts and Minds equity to organizational practice, institutional design, and structural conditions.\n\nRecommendations: practical reforms that complement DHS's current direction and can be prioritized by consequence and readiness.\n\nImplementation: a staged 36-month pathway with decision gates, evidence requirements, and leadership questions.\n\nReferences: source notes are consolidated at the end of the report; no inline citations are used in the body.\n\n1. DHS equity landscape: the current climate\n\nA useful equity landscape assessment begins with the organization as it operates, not with a generic description of diversity, equity, inclusion, accessibility, or anti-racism work. Minnesota DHS works through a network that includes state programs, counties, Tribal Nations, managed-care organizations, service delivery authorities, community providers, employees, and people who use human services. Equity climate is therefore produced across many locations and relationships.\n\n1.1 Promising foundations\n\nThe source material reflects a substantial foundation on which to build. DHS has publicly articulated outcomes for people in Minnesota, for high-quality human services, and for employees who work in an inclusive environment. Its direction includes equitable and accessible service delivery, streamlined processes, partnership with Tribal Nations and counties, community voice, provider support, anti-racist and multicultural organizational development, psychological safety, wellbeing, and career pathways.\n\nDHS also has an Equity Policy and Equity Analysis Toolkit that extend equity considerations beyond a single program. The policy context reaches into legislation, policy development, budgets, strategic planning, technology modernization, recruitment and retention, procurement, community engagement, and service delivery. The existence of these expectations is a strength because it positions equity as an agency responsibility rather than a discretionary add-on.\n\nOther building blocks include MNbenefits, language and disability access requirements, human services performance measures, Medicaid equity work, disability and Olmstead planning, procurement opportunities for targeted vendors, and active child and family reforms. Collectively, these assets create a promising platform for a more integrated operating model.\n\n1.2 The operating model is distributed by design\n\nDHS cannot advance equity through one office or one training program alone. Many decisions that shape lived experience occur at program, county, Tribal, provider, technology, contract, or frontline levels. This distributed model makes local knowledge and partnership essential, but it also creates a risk: the department may have many good equity activities without one shared view of the outcomes, burdens, ownership, resources, and next decisions associated with them.\n\nThe opportunity is to establish a common minimum operating standard while preserving program-specific, Tribal, disability, cultural, linguistic, geographic, and community expertise. A common standard should clarify what must be analyzed, who decides, how affected people participate, what data is needed, how accessibility is assured, and how leadership will verify the result.\n\n1.3 Current context that shapes the climate\n\nMinnesota's human services performance-management experience suggests that a tool-centered approach is valuable for learning but may not be sufficient for sustained culture change or statewide scaling. The practical lesson is complementary: tools and training are important, and they are most effective when joined to coaching, change management, capacity, user groups, workflow ownership, and sustainability planning.\n\nThe movement of child and family functions into DCYF changes the accountability map without removing child welfare from the larger human services equity landscape. DHS remains connected through Medicaid, behavioral health, disability services, economic assistance, licensing, procurement, performance management, data infrastructure, and interagency coordination. Clarity about these relationships is a climate issue because organizational transitions can either strengthen shared accountability or create gaps that communities experience as fragmentation.\n\nThe Minnesota African American Family Preservation and Child Welfare Disproportionality Act creates a concrete opportunity to connect data disaggregation, family preservation, active efforts, case review, workforce practice, community oversight, and performance management. Its implementation should be approached as system change, with attention to service capacity and family experience as well as formal compliance.\n\n1.4 Climate signals at a glance\n\nClimate dimension\n\nPromising signal\n\nOpportunity to strengthen the system\n\nLeadership direction\n\nEquity and inclusion are reflected in strategic commitments and policy expectations.\n\nConnect commitments to decision rights, resources, stage gates, and consequences.\n\nOrganizational learning\n\nToolkits, training, user groups, and community input create learning channels.\n\nPair learning with workflow redesign, coaching, accountability, and sustainability.\n\nClient access\n\nMNbenefits reduces friction for several economic-assistance programs.\n\nMeasure the full journey through verification, renewal, referral, and appeal.\n\nLanguage and disability access\n\nRights and assistance expectations are identified.\n\nCreate consistent service standards, performance data, testing, and remediation.\n\nPerformance\n\nMeasures and thresholds exist across important human services outcomes.\n\nAdd equity, burden, access, intersectional, and corrective-action measures.\n\nCommunity partnership\n\nMedicaid and Olmstead work illustrate the value of lived expertise.\n\nCompensate participation and document how it changes decisions and design.\n\nWorkforce and procurement\n\nExisting HR and vendor systems can be equity levers.\n\nTrack advancement, retention, meaningful awards, payment, and community reach.\n\nDurability\n\nEquity is present in policies, plans, and initiatives.\n\nPlace requirements in recurring budgets, contracts, rules, routines, and succession plans.\n\n2. Observations about the equity climate\n\nThe observations below are offered as constructive signals for discussion. They describe conditions that can occur even when employees and leaders are committed to equitable service and workplace outcomes. The distinction is important: an observation about system design is not a judgment about individual character or intent.\n\n2.1 Intent and effect can diverge\n\nA county eligibility worker may intend to treat people fairly while a process still produces unequal results if information is required in English, interpreter access is delayed, a narrow script limits judgment, or a missing document penalizes a delay outside the client's control. A social worker may value family preservation while the decision environment makes removal the easiest defensible option when services, housing, transportation, behavioral health, disability supports, or culturally responsive providers are unavailable. A hiring manager may value diversity while an unstructured interview rewards similarity and informal rapport.\n\nThe leadership question is therefore not only whether staff have good intentions. It is whether the system gives staff the tools, time, authority, information, support, and incentives to produce equitable results - and whether the department can detect and correct the moments when it does not.\n\n2.2 Equity tools need a consequential home\n\nAn equity analysis or scan can be completed without changing the decision it examines. If review has no stage gate, no required response to identified harm, and no accountable owner, it can become documentation attached to a decision made elsewhere. The opportunity is to make every required analysis produce a disposition: approve, revise, pause, pilot, reject, or escalate.\n\nA material unmitigated disparity should not be silently accepted. If leadership chooses to proceed, the decision should state why, what safeguards apply, who owns the risk, what data will be reviewed, and when the decision will be revisited.\n\n2.3 Administrative modernization should be measured by total effort\n\nMNbenefits is an important modernization that can simplify the first step for several economic-assistance programs. A more usable front door, however, does not automatically create an integrated service journey. Clients may still encounter different verification requirements, notices, account systems, contact channels, renewal processes, or appeals across programs and delivery partners.\n\nThe relevant equity measure is total effort from first contact to stable service: repeated requests, days waiting, abandoned applications, unresolved referrals, renewal interruptions, comprehension, and successful appeals. The opportunity is to treat MNbenefits as a platform for broader integration while maintaining human support through county, Tribal, phone, in-person, and community channels.\n\n2.4 Rights must be experienced consistently\n\nLanguage access and disability access are not only notice requirements. They are service conditions. A client must be able to understand what is being asked, communicate at the point of need, receive equally effective communication, use the relevant format or technology, and obtain assistance without carrying the burden of arranging it alone.\n\nBecause delivery is distributed across program areas, counties, Tribes, and providers, the same right can feel different from one channel to another. The opportunity is a department-wide minimum standard with a shared performance dataset, accessible materials, user testing, a remediation queue, and an escalation route for repeated failures.\n\n2.5 Performance systems should make disparities actionable\n\nA performance system governs what it defines, measures, reviews, and connects to improvement. If healthcare access, language access, disability access, client burden, culturally relevant quality, or intersectional outcomes are not measured, they remain outside the formal performance conversation. If a measure is suspended or retired while the underlying risk remains, an interim monitoring plan is needed.\n\nThe opportunity is to add an equity layer: disaggregated outcomes, disparity thresholds, qualitative evidence, client-burden measures, and corrective-action requirements. The absence of a measure should be treated as a measurement risk, not as evidence that no problem exists.\n\n2.6 Community voice is strongest when it changes design\n\nListening sessions and advisory groups can build understanding, but participation becomes more credible when people can see how their knowledge changed a policy, budget, contract, service, or evaluation. The climate signal to watch is whether communities are asked to describe harm without receiving compensation, decision influence, accessible participation, or a response record.\n\nThe opportunity is to establish paid, accessible, longitudinal partnership. Community members, Tribal governments, disability leaders, culturally specific organizations, parents, youth, relatives, employees, and people who use services should be engaged at the level of influence required by the decision.\n\n2.7 Training is necessary but not sufficient\n\nTraining can support understanding of laws, cultural context, accessibility obligations, data practices, trauma-informed principles, and structured decision tools. It cannot by itself remove a degree requirement, create a culturally specific provider, repair a data field, translate a notice, change a contract score, fund a navigator, or require a manager to correct a promotion gap. Training is most effective when it supports a changed operating environment rather than standing in for one.\n\n3. From Hearts and Minds to institutional and structural equity\n\nA complementary framework can be understood as four connected levels. Each level matters; none should be treated as a substitute for the others.\n\nLevel\n\nWhat it asks\n\nWhat makes it durable\n\nHearts and Minds\n\nWhat do people understand, believe, notice, and practice in relationships?\n\nLearning, reflection, cultural humility, trust-building, psychological safety, and leadership modeling.\n\nOrganizational practice\n\nHow do managers and teams make decisions and deliver services every day?\n\nClear workflows, structured decisions, coaching, accessible tools, workload capacity, feedback, and measurable expectations.\n\nInstitutional design\n\nWhat do policies, budgets, contracts, technology, data, and governance make easier or harder?\n\nStage gates, resource commitments, data ownership, procurement standards, performance reviews, and corrective action.\n\nStructural conditions\n\nHow do history, power, race, disability, culture, geography, income, language, and intersecting identities shape outcomes?\n\nDisaggregated analysis, community power, cross-agency alignment, service capacity, and willingness to redesign the rules of the system.\n\nWorking principle\n\nThe strongest equity climate is one in which personal commitment and institutional design reinforce one another. Employees should not have to overcome a structurally inequitable process through individual goodwill, and leadership should not ask communities to trust an equity commitment that has no operating expression.\n\nThis four-level framework also clarifies the role of an Equity and Inclusion Operations Consultant. The role is not to replace existing equity leadership, program expertise, Tribal sovereignty, disability expertise, community knowledge, or executive responsibility. It is to help connect those sources of knowledge to operational decisions, structural analysis, implementation, and measurable reform.\n\n4. Complementary recommendations and reforms\n\nThe recommendations below are designed to strengthen and integrate work already underway. Each includes an objective, priority actions, evidence of progress, and primary ownership. They are intended to be sequenced according to consequence, readiness, capacity, and community guidance.\n\n4.1 Establish an Equity Operations Council and executive stage gate\n\nObjective. Create one governance mechanism that connects equity analysis to decisions, resources, risk management, and outcomes across DHS and relevant interagency partners.\n\nPriority actions\n\nCharter an Equity Operations Council chaired by an executive sponsor and including Equity and Inclusion, the Office of Indian Policy, Strategy and Performance, Employee Culture and Human Resources, Aging and Disability Services, Grants/Equity/Access/Research, procurement, IT, policy, legal, finance, program administrations, counties, Tribal Nations, labor, and community partners.\n\nMaintain a single equity portfolio containing priority disparities, redesign pilots, policy reviews, procurement changes, workforce risks, data dependencies, community commitments, budgets, and corrective actions.\n\nEstablish an equity stage gate for policies, budgets, requests for proposals, major IT changes, service redesigns, and workforce initiatives. The gate should require a decision record, not only a completed scan.\n\nRequire each stage-gate record to identify affected populations, burden, benefits, alternatives, accessibility, language, Tribal and legal considerations, data needs, cost, owner, implementation date, and outcome measures.\n\nSet an escalation rule: a material unmitigated disparity must be revised, piloted with safeguards, approved as an explicit exception by the responsible executive, or stopped.\n\nUse quarterly reviews to examine whether approved actions occurred and whether the observed effect matches the expected effect.\n\nEvidence of progress\n\nA published charter, membership list, decision-rights matrix, and quarterly calendar.\n\nA portfolio dashboard showing owner, status, risk, budget, milestone, and outcome for each priority action.\n\nSample policy, budget, IT, procurement, and workforce decisions with completed stage-gate records and documented disposition.\n\nA corrective-action register showing unresolved disparities and the executive responsible for resolution.\n\nPrimary ownership. Commissioner's Office, in partnership with Equity and Inclusion and Strategy and Performance.\n\n4.2 Turn MNbenefits into a full client-journey redesign\n\nObjective. Reduce total administrative burden from first contact through verification, renewal, change reporting, appeal, and stable receipt of services.\n\nPriority actions\n\nMap the complete journey for a household applying for economic assistance, including transition from MNbenefits to county or Tribal processing, document submission, interviews, notices, case changes, renewal, and appeal.\n\nIdentify which adjacent programs are screened through the existing application and which remain outside the experience, including healthcare, MinnesotaCare, disability-related services, and other needs.\n\nDefine a cross-program referral standard: a clear explanation, warm handoff, contact, time expectation, and way to confirm that the handoff occurred.\n\nMaintain human support through phone, in-person, county, Tribal, and community channels. Online convenience should not be treated as a replacement for accessible human assistance.\n\nFund Digital Navigators and community-based application support, especially in rural areas, Tribal communities, neighborhoods with limited broadband, and communities with limited English proficiency.\n\nRewrite notices and document requests so clients can identify what is needed, why it is needed, how to submit it, what happens next, and how to obtain language or disability assistance.\n\nMeasure total client effort, including contacts, repeated submissions, days waiting, abandoned applications, successful referrals, renewal churn, denials, appeals, and comprehension.\n\nEvidence of progress\n\nCurrent-state and future-state journey maps reviewed by clients, navigators, frontline workers, county and Tribal staff, accessibility experts, and program owners.\n\nA list of programs inside and outside the MNbenefits experience with a documented referral or integration plan.\n\nA client-effort dashboard disaggregated by language, race and ethnicity, disability, geography, age, and other relevant dimensions with privacy protections.\n\nVerified reduction in repeated information requests, unresolved handoffs, abandoned applications, and renewal interruptions.\n\nPrimary ownership. Economic Assistance, Health Care, county and Tribal partners, IT, Strategy and Performance, and community navigation partners.\n\n4.3 Operationalize language and disability access as service standards\n\nObjective. Make free, timely, meaningful language assistance and equally effective communication reliable at every client contact, not only visible in notices or policy statements.\n\nPriority actions\n\nAdopt a DHS-wide minimum service standard: assistance is free, timely, available throughout operating hours, and never placed as a burden on the person with limited English proficiency or a disability.\n\nCreate a common performance dataset for interpreter requests, wait time, failed or delayed access, translated materials, language of service, client comprehension, accommodations, and complaint resolution.\n\nReview county and provider language-access plans for operational readiness: who answers, who interprets, which languages are covered, how after-hours needs are handled, and how staff document service.\n\nStandardize language-access and disability-access advisories in public materials while testing whether people understand the right and know how to request it.\n\nRequire document accessibility testing with screen readers, keyboard navigation, captioning, alternative formats, and disabled users before major publications or digital releases.\n\nCreate a centralized accessibility remediation queue with severity levels, owners, deadlines, and executive visibility. Program-area responsibility for cost should not mean program-area isolation.\n\nInclude access standards in contracts, requests for proposals, managed-care requirements, vendor monitoring, and provider technical assistance.\n\nEvidence of progress\n\nInterpreter and accommodation performance reported by program and county or Tribal delivery channel.\n\nPriority forms, notices, web pages, videos, and training materials pass accessibility review with documented results.\n\nClient testing shows that people can identify how to request assistance and understand information after assistance is provided.\n\nAccess failures have an owner, remediation date, and escalation path.\n\nPrimary ownership. Equity and Inclusion, civil rights, accessibility leadership, program administrations, county and Tribal agencies, IT, Communications, and procurement.\n\n4.4 Build an equity data and performance architecture\n\nObjective. Make disparities visible, interpretable, privacy-protected, and connected to management action across DHS, DCYF, counties, Tribes, and providers.\n\nPriority actions\n\nCreate a cross-agency equity data dictionary covering race, ethnicity, culture, language, disability, gender, geography, income, age, and program-specific characteristics, with definitions, collection rules, missingness, and permitted uses.\n\nSeparate internal analytic capacity from public reporting. Use protected data for small-n and intersectional analysis while publishing safe aggregate trends and clear limitations.\n\nIntegrate equity measures into the Human Services Performance Management System, including client burden, language access, disability access, healthcare access, culturally relevant quality, and workforce outcomes.\n\nAddress gaps in healthcare access and effective-service measurement by developing measures with communities, counties, managed-care organizations, and people with lived experience.\n\nFor every measure, establish a baseline, threshold, improvement target, owner, reporting schedule, and corrective-action process. A suspended or retired measure should have interim monitoring if the underlying risk remains.\n\nUse dashboards to identify disparities at decision points, not only final outcomes: screening, referral, approval, denial, wait, placement, service, renewal, and appeal.\n\nPair quantitative results with qualitative evidence, case review, community feedback, and frontline observation so data does not erase context.\n\nEvidence of progress\n\nAn approved equity data dictionary and data-governance protocol.\n\nA minimum set of equity measures added to each priority performance domain.\n\nA dashboard with documented suppression rules, data-quality notes, and named owners.\n\nQuarterly corrective-action reviews for measures that exceed disparity thresholds or show deterioration.\n\nAn annual review of which measures were used in budget, policy, procurement, workforce, or program decisions.\n\nPrimary ownership. Strategy and Performance, data governance, program analytics, Equity and Inclusion, DCYF where child and family data is involved, counties, Tribal Nations, and community partners.\n\n4.5 Implement child-welfare equity reform through a DHS-DCYF operating compact\n\nObjective. Ensure that the transfer of child and family programs strengthens rather than fragments accountability for disproportionality, family preservation, data, services, and community trust.\n\nPriority actions\n\nCreate a written DHS-DCYF operating compact defining responsibilities for data sharing, Medicaid and behavioral-health linkages, disability services, benefits, procurement, workforce, performance management, community engagement, and public reporting.\n\nAlign measures with statutory categories such as representation, reporting, maltreatment, out-of-home placement, emergency removals, reunification, permanency, family connections, relative placement, disability, culture, income, and geography.\n\nTreat active efforts and family preservation as operational requirements that require service capacity, culturally responsive safety planning, transportation, language access, housing support, behavioral health, disability supports, and relatives or kin who can participate.\n\nUse structured decision-making and case review to identify where discretion, service availability, or court and agency practice leads to unnecessary removal or unequal treatment.\n\nMake the African American Child Well-being Unit, Advisory Council, Tribal governments, community organizations, parents, youth, and relatives part of the implementation feedback loop with compensation and documented response.\n\nUse the phase-in period to identify implementation barriers before statewide rollout rather than treating the phase-in as a compliance exercise.\n\nCoordinate data definitions and reporting schedules so DHS, DCYF, counties, Tribes, and the public do not see conflicting versions of the same disparity.\n\nEvidence of progress\n\nA signed interagency compact and RACI matrix.\n\nA joint dashboard or reporting package aligned with statutory categories and privacy rules.\n\nCase-review findings linked to specific policy, training, service-capacity, or workflow changes.\n\nDocumented active-efforts and family-preservation implementation in phase-in counties.\n\nA statewide readiness assessment before rollout.\n\nPrimary ownership. DHS and DCYF Commissioners' Offices, Child Safety and Permanency leadership, the Office of Indian Policy, counties, Tribal Nations, courts, providers, and community oversight bodies.\n\n4.6 Redesign workforce entry, advancement, and retention\n\nObjective. Make workforce equity measurable in recruitment, hiring, pay, promotion, acting appointments, performance feedback, accommodations, psychological safety, and retention.\n\nPriority actions\n\nAudit job classifications and minimum qualifications for unnecessary degrees, experience requirements, address or schedule assumptions, and barriers that exclude lived experience or community language and cultural knowledge.\n\nUse trainee and paid-licensure pathways where jobs can be performed safely and effectively through training, supervised practice, and competency assessment.\n\nUse structured interviews, common questions, scoring rubrics, diverse panels, and documented selection rationale. Monitor who advances at each stage.\n\nAudit acting and interim appointments for transparency, rotation, access, and conversion to permanent positions.\n\nAnalyze time-in-class, pay, performance ratings, promotion, disciplinary action, developmental opportunity, and turnover by race, ethnicity, disability, gender, geography, and other relevant categories.\n\nCreate sponsorship for employees who are 'onlys' or 'firsts' in leadership roles, with executive actions rather than informal encouragement alone.\n\nTreat Direct Support Professionals and Personal Care Assistants as a core equity and service-quality workforce. Track wages, benefits, vacancies, caseload, training, career progression, and turnover.\n\nRequire managers to have measurable DEIA goals that address outcomes or behavior, not merely attendance, and review those goals in performance management.\n\nEvidence of progress\n\nA workforce equity baseline and annual disparity report.\n\nA structured-hiring protocol and acting-appointment audit.\n\nPromotion, pay, and retention gaps with corrective-action owners.\n\nManager goals tied to measurable team conditions and service outcomes.\n\nA burnout, workload, moral-injury, and secondary-traumatic-stress response plan.\n\nPrimary ownership. Employee Culture and Human Resources, Workforce Strategy and Planning, program leaders, labor partners, Equity and Inclusion, and Development and Learning.\n\n4.7 Use procurement and grants to build community capacity\n\nObjective. Make public spending a deliberate instrument for service equity, cultural fit, disability inclusion, geographic reach, and community wealth.\n\nPriority actions\n\nUse the state's targeted-group, economically disadvantaged, and veteran-owned vendor systems and Equity Select mechanisms as starting points for a DHS vendor-equity strategy.\n\nIdentify where solicitation size, insurance, cash flow, reporting, technical requirements, or prior-government experience exclude smaller and community-rooted organizations.\n\nRevise RFP and grant rubrics to assign meaningful value to cultural and linguistic competence, lived experience, disability leadership, Tribal partnership, geographic access, family preservation, and measurable outcomes.\n\nProvide pre-solicitation information sessions, proposal assistance, realistic payment terms, capacity-building grants, and technical assistance so community organizations can compete without imitating large institutions.\n\nRequire vendors to meet language, accessibility, data, complaint, and community-feedback standards, with resources to do so and consequences for repeated failure.\n\nAnalyze awards by vendor ownership, leadership, community served, geography, language, and contract value. Do not count diverse vendors without examining who receives meaningful and sustainable work.\n\nUse contract renewals and performance reviews to determine whether providers actually reach the communities identified in the proposal.\n\nEvidence of progress\n\nA vendor-barrier assessment and revised solicitation templates.\n\nAward and subcontracting data disaggregated by vendor type and community reach.\n\nPayment-timeliness and capacity-building measures for smaller providers.\n\nContract monitoring that includes access, cultural fit, disability inclusion, and outcomes.\n\nPrimary ownership. Procurement, Grants, Equity and Inclusion, program administrations, the Office of Equity in Procurement, finance, legal, and community providers.\n\n4.8 Institutionalize co-creation, trust repair, and lived expertise\n\nObjective. Move communities from consultation recipients to paid partners who shape policy, program design, budgets, procurement, and evaluation.\n\nPriority actions\n\nCreate a department-wide compensation policy for community expertise, including time, preparation, transportation, childcare, technology, interpretation, and accessibility costs.\n\nUse a participation ladder that distinguishes informing, consulting, involving, collaborating, and empowering. Specify the level required for each decision.\n\nCreate longitudinal community partnerships rather than one-time listening sessions. Trust repair requires repeated, culturally specific engagement tied to policy and administrative activity.\n\nUse community-defined measures of quality, trust, safety, dignity, and culturally relevant care alongside administrative outcomes.\n\nPublish a response record that says what community members recommended, what changed, what did not change, and why.\n\nAvoid extracting trauma. Do not ask employees or clients to disclose painful experiences as a substitute for paying experts, reviewing data, or redesigning the system.\n\nUse compensated lived-experience participation in disability planning as a practical reference while adapting the approach to other communities and decision types.\n\nEvidence of progress\n\nA paid-lived-expertise policy and standard agreement.\n\nA community-participation plan for every major equity redesign.\n\nDocumented changes to policy, budget, procurement, service, or evaluation resulting from participation.\n\nTrust, comprehension, and perceived influence measures collected over time.\n\nPrimary ownership. Equity and Inclusion, the Office of Indian Policy, program administrations, community engagement, procurement, finance, and executive sponsors.\n\n4.9 Expand the evidence standard without abandoning rigor\n\nObjective. Recognize culturally adapted and community-defined practices as potentially valid evidence while maintaining safety, transparency, measurable outcomes, and ethical safeguards.\n\nPriority actions\n\nDistinguish between evidence that a model works in a population, evidence that a model is culturally acceptable and accessible, and evidence that a provider can deliver it safely.\n\nRequire cultural adaptation when a model was developed or tested in a population that differs materially from the people DHS is serving.\n\nAccept practice-based evidence, community-defined outcomes, traditional healing, peer support, elders, doulas, and culturally specific organizations as evidence categories for review rather than dismissing them as unproven by definition.\n\nUse community members and cultural experts to define meaningful outcomes while retaining independent review for safety, privacy, professional standards, and fiscal accountability.\n\nTrack whether conventional evidence requirements exclude providers that communities trust and whether funded models produce equitable results in practice.\n\nEvidence of progress\n\nA written evidence framework with definitions, review criteria, and examples.\n\nProcurement and program documents that allow culturally specific and practice-based evidence.\n\nOutcome monitoring that compares adapted and unadapted models where appropriate.\n\nCommunity feedback on whether services are culturally relevant, safe, and effective.\n\nPrimary ownership. Program administrations, research and evaluation, procurement, legal, clinical and professional leadership, Equity and Inclusion, and community partners.\n\n4.10 Make the work durable through rules, budgets, contracts, and routines\n\nObjective. Prevent equity work from depending on a single leader, grant, training cycle, or political moment.\n\nPriority actions\n\nIdentify which equity requirements belong in statute, administrative rule, policy, contract, grant agreement, budget instruction, performance plan, standard operating procedure, or technology requirement.\n\nUse rulemaking and public notice when a durable, transparent requirement is appropriate; do not rely on an internal memo for a requirement that must survive leadership transition.\n\nAssign recurring budget lines for accessibility, community compensation, data capacity, change management, evaluation, and frontline workload relief.\n\nEmbed equity outcomes in contracts, manager goals, program scorecards, procurement reviews, and annual planning.\n\nBuild succession and continuity plans for equity leadership, data ownership, community relationships, and high-risk pilots.\n\nPublish annual status reports that distinguish completed activities, measured outcomes, disparities that remain, corrective actions, and decisions required from leadership.\n\nEvidence of progress\n\nA durability map showing the legal, budget, contract, policy, technology, and performance home for each intervention.\n\nRecurring resource commitments rather than one-time project funds.\n\nContinuity plans for key roles and partnerships.\n\nAnnual leadership reporting with unresolved disparities and explicit next actions.\n\nPrimary ownership. Commissioner's Office, policy, legal, finance, procurement, Human Resources, Strategy and Performance, and program leadership.\n\n5. Thirty-six-month implementation blueprint\n\nThe blueprint is designed to support the department's current direction while reducing a common implementation risk: announcing a broad strategy, assigning it to a small office, offering training, and waiting for culture to change. Each phase has a distinct purpose, decision gate, and evidence requirement.\n\nTiming\n\nPurpose\n\nRequired work\n\nDecision gate\n\n0-90 days\n\nAuthorize and establish\n\nExecutive sponsor; Equity Operations Council charter; portfolio baseline; DHS-DCYF compact; data-access approvals; selected pilots; legal, privacy, accessibility, and Tribal review; community compensation protocol.\n\nNo pilot proceeds without a named owner, baseline, budget, affected-community plan, measure, and escalation path.\n\n3-6 months\n\nMap and design\n\nClient journeys; high-discretion decision inventory; language and disability access assessment; workforce and vendor-barrier analysis; performance-measure design; community and frontline co-design.\n\nLeadership approves future-state workflows and resource requirements, not only problem statements.\n\n6-12 months\n\nPilot and learn\n\nMNbenefits journey improvements; navigators; language and accessibility remediation; structured decision tools; data-disaggregation prototypes; revised RFP or grant cycle; manager goals.\n\nPilots report burden, access, outcomes, equity gaps, usability, cost, and unintended effects.\n\n12-24 months\n\nScale and integrate\n\nExpand effective pilots; integrate stage gates into policy, budget, IT, procurement, hiring, and service delivery; implement child-welfare phase-in learning; build dashboards and corrective action.\n\nOperating procedures, contracts, budgets, and performance systems reflect the new requirements.\n\n24-36 months\n\nInstitutionalize and renew\n\nRulemaking or statutory alignment where appropriate; recurring budget; succession; annual reporting; outcome review; redesign of interventions that did not work; next priority portfolio.\n\nEquity work remains active when leadership, funding, or external conditions change.\n\n5.1 Pilot selection criteria\n\nLeadership should select pilots using criteria that prioritize consequence and learning value, not visibility. A strong pilot affects a high-consequence outcome, has an identifiable owner, can be measured within twelve months, involves people who experience the barrier, has a plausible intervention, and can be scaled if effective.\n\nHigh consequence for safety, access, autonomy, family stability, health, income, or employment.\n\nEvidence of disparate burden or outcome, with a feasible way to disaggregate or otherwise investigate it.\n\nA defined decision point or workflow that can be changed.\n\nA program owner with authority and capacity to implement.\n\nCommunity, Tribal, frontline, disability, language, or labor partners who can shape the redesign.\n\nA measurable baseline and a plan for privacy, accessibility, and unintended-effect review.\n\n5.2 What should not be called progress by itself\n\nTraining completion without evidence of changed decisions, workflow, or outcomes.\n\nA completed equity scan with no documented decision or corrective action.\n\nA translated document when interpretation is unavailable at the point of need.\n\nA dashboard that reports aggregate data and cannot identify or act on subgroup disparities.\n\nA community meeting that produces no compensation, decision record, or change in design.\n\nA diverse hiring slate without changes to selection, promotion, pay, retention, and psychological safety.\n\nA diverse vendor count without meaningful awards, timely payment, community reach, or contract outcomes.\n\nA new policy that says equity matters but does not assign a resource, owner, measure, or consequence.\n\n6. Leadership scorecard\n\nThe scorecard should be reviewed quarterly by the executive sponsor and annually by the Commissioner or designated leadership body. It should show direction of change, distribution of outcomes across groups, and whether the department acted on what it learned.\n\nDomain\n\nIllustrative measures\n\nLeadership question\n\nGovernance\n\nStage gates completed; material risks escalated; corrective actions closed on time; priority portfolio funded.\n\nIs equity connected to decisions and consequences?\n\nClient burden\n\nTotal contacts; repeated requests; days waiting; abandoned applications; referral completion; renewal churn; appeal success; comprehension.\n\nDoes the system make it easier to obtain and keep services?\n\nLanguage and disability access\n\nInterpreter wait and failure; accessible documents; accommodation completion; complaint resolution; assistive-technology testing.\n\nCan people understand and use the service at the point of need?\n\nChild and family outcomes\n\nDisproportionality; placement; active efforts; reunification; relative connection; removals; case review; data completeness.\n\nAre reforms changing decisions and family experience?\n\nHealth and disability outcomes\n\nHealthcare access; culturally relevant care; waiver and HCBS access; choice; integration; wait time; community living.\n\nDo services support health, dignity, autonomy, and community life?\n\nWorkforce\n\nHiring; pay; promotion; acting appointments; time-in-class; retention; accommodations; psychological safety; direct-care conditions.\n\nCan employees enter, advance, contribute, and remain?\n\nProcurement\n\nAwards and value by vendor type; payment time; community reach; cultural and disability access; contract outcomes.\n\nWho receives public resources and who has capacity to serve?\n\nTrust and power\n\nPaid participation; community influence; response to recommendations; perceived trust; complaint and appeal patterns.\n\nAre communities helping govern the system or only describing its failures?\n\nDurability\n\nRecurring budget; rule and policy integration; contract language; succession; annual reporting; continuity during leadership change.\n\nWill the change survive pressure?\n\n7. Conclusion: a complementary path forward\n\nDHS does not need to choose between the equity work already underway and the institutional reforms described here. The opportunity is to connect them. Strategic commitments, policy expectations, toolkits, performance systems, language and disability access, MNbenefits, Medicaid equity work, disability planning, procurement mechanisms, workforce efforts, community partnerships, and child and family reforms are important building blocks.\n\nThe climate question is whether those building blocks operate as a connected system. Can a person in Minnesota access, understand, influence, and benefit from human services without carrying a disproportionate administrative burden? Can employees enter, advance, contribute, and remain with fair opportunity and adequate support? Can public dollars build culturally responsive, accessible, and community-rooted capacity? Can leaders change course when data and communities show that a process is not working?\n\nThis report's proposed shift is from equity as an additional lens to equity as a design and performance requirement - while retaining the Hearts and Minds work that makes durable change possible. That shift does not diminish existing equity leadership. It gives existing commitments more structural support through executive authority, cross-agency coordination, data discipline, community partnership, accessible systems, procurement leverage, structured decisions, workforce investment, and durable rules and budgets.\n\nClosing standard\n\nThe relevant test is not whether DHS has expressed care for equity. The relevant test is whether the department's operating conditions consistently turn that care into accessible services, fair opportunity, community influence, measurable improvement, and the willingness to redesign when outcomes show that more is needed.\n\nReferences and source notes\n\nThe references below consolidate the authorities, public materials, and research used in the source analysis and this rewrite. No inline citations are used in the body of the report. Each numbered reference below includes a visible source URL. In desktop Word, hold Ctrl while clicking a blue URL to open it.\n\nMinnesota Department of Human Services. Agencywide strategic plan 2023-2027. Strategic outcomes and guiding principles for equity, service delivery, Tribal and county partnership, community voice, workforce inclusion, and process reduction.Source: https://mn.gov/dhs/general-public/about-dhs/strategic-plan/index.jsp\n\nMinnesota Department of Human Services. Equity Policy. Equity-analysis expectations for policy, budgets, IT modernization, hiring, procurement, community engagement, service delivery, and daily work.Source: https://mn.gov/dhs/general-public/about-dhs/department-state-policies/?id=1053-647148\n\nMinnesota Department of Human Services. Child and Family Services Plan 2025-2029. Transition of child and family functions to DCYF and the operating context for children and families.Source: https://dcyf.mn.gov/sites/default/files/2026-03/Minnesota%20Child%20and%20Family%20Services%20Plan%202025-2029.pdf\n\nMinnesota Department of Children, Youth, and Families. Minnesota African American Family Preservation and Child Welfare Disproportionality Act. Statutory duties for active efforts, family preservation, data disaggregation, case review, reporting, workforce training, grants, and phase-in.Source: https://dcyf.mn.gov/MAAFPCWDA\n\nMinnesota Department of Human Services. Agencywide organization. Public organizational functions for equity and inclusion, Indian policy, strategy and performance, employee culture, aging and disability, and grants, equity, access, and research.Source: https://mn.gov/dhs/about-us/contact-us/agencywide-organization/\n\nMinnesota Department of Human Services. 2025 Annual Report on the Human Services Performance Management System. Findings on the limits of a tool-centered equity approach and the need for integrated change management, capacity, coaching, user groups, and sustainability.Source: https://www.dhs.state.mn.us/main/idcplg?IdcService=GET_FILE&Rendition=Primary&RevisionSelectionMethod=LatestReleased&allowInterrupt=1&dDocName=MNDHS-074893&noSaveAs=1\n\nMinnesota Department of Human Services. Data requests. Data-access rights, Minnesota Government Data Practices Act context, and the movement of children, youth, and family data to DCYF.Source: https://mn.gov/dhs/about-us/data-requests/\n\nMinnesota Department of Human Services. MNbenefits. Nine-program economic-assistance application, mobile access, Spanish availability, document upload, no-login feature, and pilot history.Source: https://mn.gov/dhs/mnbenefits/\n\nMinnesota Department of Human Services. Online application and account access. Separate online access pathways for Medical Assistance and MinnesotaCare, including resident, worker, and navigator access.Source: https://mn.gov/dhs/online/\n\nMinnesota Department of Human Services. Client rights - limited English proficiency. Free and timely language assistance, agency responsibility, county LEP plans, and meaningful access requirements.Source: https://www.dhs.state.mn.us/main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=cm_00030912\n\nMinnesota Department of Human Services. Language and disability assistance policy. Notice, language assistance, disability assistance, equally effective communication, and program-area responsibility.Source: https://mn.gov/dhs/assets/language-disability-assistance_tcm1053-646948.pdf\n\nMinnesota Department of Human Services. Human Services Performance Management System outcomes, measures, and thresholds. Current measure status, suspended and retired measures, and the need for healthcare-access and effective-service measures.Source: https://dcyf.mn.gov/human-services-performance-management\n\nMinnesota Department of Human Services. Building Racial Equity into the Walls of Minnesota Medicaid. Community-informed Medicaid equity analysis focused on enrollment, culturally relevant care, disaggregated data, navigators, and longitudinal co-creation.Source: https://www.lrl.mn.gov/docs/2022/other/220230.pdf\n\nMinnesota Olmstead Implementation Office. Plan update. Draft-plan process, paid Inclusion Consultants with lived experience of disability, multilingual access, and community feedback.Source: https://mn.gov/olmstead/plan-update/\n\nMinnesota Office of State Procurement. Targeted Group, Economically Disadvantaged, and Veteran-Owned opportunities. Targeted vendor directory and Equity Select opportunity structure.Source: https://mn.gov/admin/osp/vendors/solicitations-and-contract-opportunities/tg-ed-vo-opportunities/\n\nState of Minnesota Office of Equity, Opportunity, and Accessibility. Equity Analysis Toolkit. Statewide structured method for integrating equity and inclusion into decisions, programs, processes, and budgeting.Source: https://mn.gov/oeoa/resources/equity-analysis-toolkit/\n\nMinnesota Department of Children, Youth, and Families. Child Welfare Data and Reports. Disaggregated and nondisaggregated monitoring of reporting, maltreatment, placement, permanency, SSIS, court, review, and feedback data.Source: https://dcyf.mn.gov/child-welfare-data-and-reports\n\nMinnesota Department of Human Services. Home and community-based service waivers. Choice, person-centered service questions, waiver pathways, and community-based support context.Source: https://mn.gov/dhs/disability-aging/home-and-community-services/programs-and-services/hcbs-waivers/\n\nHerd, P., and Moynihan, D. P. (2018). Administrative Burden: Policymaking by Other Means. Learning, compliance, and psychological costs in public programs and their unequal distribution.Source: https://www.russellsage.org/publications/book/administrative-burden\n\nBezrukova, K., et al. (2016). A meta-analytic integration of over 40 years of research on diversity training evaluation. Limits of training-only interventions and the importance of broader organizational conditions.Source: https://pubmed.ncbi.nlm.nih.gov/27618543/\n\nDobbin, F., and Kalev, A. (2016). Why Diversity Programs Fail. Structural conditions, management accountability, and the risks of coercive or isolated approaches.Source: https://hbr.org/2016/07/why-diversity-programs-fail\n\nKalev, A., Dobbin, F., and Kelly, E. (2006). Best practices or best guesses? Assessing the efficacy of corporate affirmative action and diversity policies. Structural diversity-management mechanisms and accountability.Source: https://doi.org/10.1177/000312240607100404\n\nBenish, S. G., Quintana, S., and Wampold, B. E. (2011). Culturally adapted psychotherapy and the culture-sensitive meta-analysis. Evidence for cultural adaptation and limits of unadapted models.Source: https://pubmed.ncbi.nlm.nih.gov/21604860/\n\nGambrill, E., and Shlonsky, A. (2000). Risk assessment in child welfare. Structured decision-making, risk assessment, and the limits of unstructured judgment.Source: https://doi.org/10.1016/S0190-7409(00)00123-7\n\nBohnet, I. (2016). What Works: Gender Equality by Design. Structured hiring and decision design as tools for reducing bias.Source: https://www.jstor.org/stable/j.ctvpbnqch\n\nSubstance Abuse and Mental Health Services Administration. SAMHSA's Concept of Trauma and Guidance for a Trauma-Informed Approach. Trauma-informed principles, re-traumatization, trust, safety, collaboration, and empowerment.Source: https://library.samhsa.gov/sites/default/files/sma14-4884.pdf\n\nCrenshaw, K. (1989). Demarginalizing the intersection of race and sex. Intersectionality as a framework for analyzing experiences that cannot be understood through single categories.Source: https://chicagounbound.uchicago.edu/uclf/vol1989/iss1/8/\n\nAdditional sources for the One DHS platform assessment\n\nU.S. Web Design System, Design Principles. https://designsystem.digital.gov/design-principles/\n\nDigital.gov, Checklist of Requirements for Federal Websites and Digital Services. https://digital.gov/resources/checklist-of-requirements-for-federal-digital-services/\n\nCDC, Advancing Health Equity Through Workforce Development. https://www.cdc.gov/health-equity/media/pdfs/2024/06/OHE-Partner-Call_June-2024_Workforce-1.pdf\n\nCDC, A Practitioner’s Guide for Advancing Health Equity. https://stacks.cdc.gov/view/cdc/176588/cdc_176588_DS1.pdf\n\nU.S. Office of Personnel Management, Collaboration and Knowledge Management Technologies. https://www.opm.gov/frequently-asked-questions/openopm-faq/general/what-are-opms-open-government-flagship-initiatives/\n\nU.S. Office of Personnel Management, HRStat Community of Practice. https://www.opm.gov/policy-data-oversight/human-capital-management/hr-stat/\n\nU.S. Government Accountability Office, Human Capital: Enterprise Solutions and Shared Challenges. https://www.gao.gov/products/gao-14-168\n\nU.S. Government Accountability Office, Evidence-Based Decision Needed for the Future of OPM’s Dashboard. https://files.gao.gov/reports/GAO-26-108098/index.html\n\nMinnesota Management and Budget, Office of Inclusion and Equity Analysis Toolkit. https://mn.gov/mmb/inclusion/\n\nFeatured DHS learning resource\nWhat is Equity at DHS? - audio and transcript\nThis multimodal resource supports flexible access and gives staff a common point of entry into the department’s equity context."
+  },
+  "extractedTextCharacters": 60401,
+  "extractedTextSha256": "FE053EC9434BBCF7854484A3F5EE1F35182368868D950796010CEFE1C2CA9A6D"
+}

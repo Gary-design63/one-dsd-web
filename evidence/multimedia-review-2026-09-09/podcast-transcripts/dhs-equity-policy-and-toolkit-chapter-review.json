@@ -1,0 +1,206 @@
+{
+  "createdAt": "2026-09-09T12:31:07.518324+00:00",
+  "recording": "dhs-equity-policy-and-toolkit",
+  "sourceTranscript": "evidence\\multimedia-review-2026-09-09\\podcast-transcripts\\dhs-equity-policy-and-toolkit.json",
+  "sourceSha256": "734bd2d6c086565a5cf13a849657d51ae6a46d9b4cc8f98ac3b06290eda14eb6",
+  "sourceDurationSeconds": 2832.72,
+  "sourceSegments": 1350,
+  "status": "transcript-grounded navigation review; not human audio fidelity verification",
+  "chapters": [
+    {
+      "start": 0.0,
+      "title": "Policy purpose and who it applies to",
+      "evidence": {
+        "segmentIndex": 0,
+        "excerpt": "Welcome back to the Deep Dive. Today, we're diving into something pretty substantial. The Minnesota Department of Human Services' equity policy. It's a big one. Yeah, but thankfully, Gary Banks, he's the Disability Services Division Equity and Inclusion Operations Consultant, provided all the materials for us. Oh, that's great. Yeah, and he'll be available, you know, if anyone needs assistance, sorting through the toolkits and all that later. Fantastic. So this policy, it's really interesting. It's not just about like internal changes to DHS, it aims to go way beyond that. It really does. What's fascinating is how it tries to impact the lives of the people they serve, you know? Really, it's about creating an anti-racist,",
+        "basis": "A spoken transition or explicitly named section in the actual machine transcript. Title summarizes navigation, not a verbatim transcript."
+      },
+      "end": 154.9
+    },
+    {
+      "start": 154.9,
+      "title": "Roles, tools and administration goals",
+      "evidence": {
+        "segmentIndex": 74,
+        "excerpt": "Then the roles and responsibilities section, it clarifies who's calling the shots. The work of this policy and toolkit are the responsibility of all staff to comply with. However, it is essential for the agency to provide staff with the resources needed to apply this tool to their work. The DHS equity directors in partnership",
+        "basis": "A spoken transition or explicitly named section in the actual machine transcript. Title summarizes navigation, not a verbatim transcript."
+      },
+      "end": 567.84
+    },
+    {
+      "start": 567.84,
+      "title": "Applying the policy in decisions and daily work",
+      "evidence": {
+        "segmentIndex": 266,
+        "excerpt": "Now let's see how they actually put this into practice. The equity impact section. Okay, here's where the rubber meets the road. It states, all DHS employees are expected to incorporate an equity lens in actions, policies, proposals, practices, procedures, rules, budgets, and decision-making, and in their daily work. DHS will provide employees with learning opportunities to support equity policy expectations.",
+        "basis": "A spoken transition or explicitly named section in the actual machine transcript. Title summarizes navigation, not a verbatim transcript."
+      },
+      "end": 944.64
+    },
+    {
+      "start": 944.64,
+      "title": "Shared terms: access, equity and engagement",
+      "evidence": {
+        "segmentIndex": 448,
+        "excerpt": "Policy definitions. Sounds like they're going to define some of those key terms around equity and inclusion. Yeah, this is a smart move. You know, not everyone understands these concepts in the same way. So having clear definitions, make sure everyone's on the same page. It's about building that shared language and understanding. Yes, exactly. Okay, what are some of these definitions? I'm curious how they define these sometimes, you know, complex terms. All right, well, they start with access. They define it as the timely ability to use resources and services to achieve the best outcomes. And then communities experiencing inequities",
+        "basis": "A spoken transition or explicitly named section in the actual machine transcript. Title summarizes navigation, not a verbatim transcript."
+      },
+      "end": 1611.44
+    },
+    {
+      "start": 1611.44,
+      "title": "The equity analysis quick guide",
+      "evidence": {
+        "segmentIndex": 750,
+        "excerpt": "Okay, so that's the main policy document, right? Is that it? Well, there's more. There's this really helpful document called State of Minnesota Equity Analysis Toolkit, a quick guide. It goes into even more detail about how to conduct an equity analysis. That sounds useful. What kind of info does it give?",
+        "basis": "A spoken transition or explicitly named section in the actual machine transcript. Title summarizes navigation, not a verbatim transcript."
+      },
+      "end": 1773.36
+    },
+    {
+      "start": 1773.36,
+      "title": "Steps 1–3: outcomes, data and engagement",
+      "evidence": {
+        "segmentIndex": 831,
+        "excerpt": "So, step one is called desired results and outcomes. And it starts by defining some terms. Terminology for this section, results. Factors assessed by groups, impacted outcomes. Factors assessed at the DHS administration,",
+        "basis": "A spoken transition or explicitly named section in the actual machine transcript. Title summarizes navigation, not a verbatim transcript."
+      },
+      "end": 2025.16
+    },
+    {
+      "start": 2025.16,
+      "title": "Steps 4–8: impacts, accountability and sustainability",
+      "evidence": {
+        "segmentIndex": 953,
+        "excerpt": "Okay, step four. Step four is benefits, burdens, and mitigating unintended consequences. This is where you really start digging into the nitty gritty of the potential impact.",
+        "basis": "A spoken transition or explicitly named section in the actual machine transcript. Title summarizes navigation, not a verbatim transcript."
+      },
+      "end": 2309.4
+    },
+    {
+      "start": 2309.4,
+      "title": "The equity scan",
+      "evidence": {
+        "segmentIndex": 1091,
+        "excerpt": "And they have that other document too, the equity scan track, right, for quicker assessments. Right, that's for when you don't need to do a full-blown analysis, but you still want to make sure you're considering equity. They define it as, an equity scan is a specific type of equity tool to re-review a process, project, program, or decision.",
+        "basis": "A spoken transition or explicitly named section in the actual machine transcript. Title summarizes navigation, not a verbatim transcript."
+      },
+      "end": 2507.72
+    },
+    {
+      "start": 2507.72,
+      "title": "Using the tools, collaborating and checking progress",
+      "evidence": {
+        "segmentIndex": 1186,
+        "excerpt": "And they also talk about when you should be doing an analysis, emphasizing that without careful consideration, everything state agencies touches carries the risk of reinforcing and or creating new inequities for both employees and all Minnesotans. For that reason, it is imperative that we leverage the best available tools to understand the implications of our policies, proposals and practices.",
+        "basis": "A spoken transition or explicitly named section in the actual machine transcript. Title summarizes navigation, not a verbatim transcript."
+      },
+      "end": 2832.72
+    }
+  ],
+  "suggestedRegistryChapters": [
+    {
+      "start": 0.0,
+      "title": "Policy purpose and who it applies to"
+    },
+    {
+      "start": 154.9,
+      "title": "Roles, tools and administration goals"
+    },
+    {
+      "start": 567.84,
+      "title": "Applying the policy in decisions and daily work"
+    },
+    {
+      "start": 944.64,
+      "title": "Shared terms: access, equity and engagement"
+    },
+    {
+      "start": 1611.44,
+      "title": "The equity analysis quick guide"
+    },
+    {
+      "start": 1773.36,
+      "title": "Steps 1–3: outcomes, data and engagement"
+    },
+    {
+      "start": 2025.16,
+      "title": "Steps 4–8: impacts, accountability and sustainability"
+    },
+    {
+      "start": 2309.4,
+      "title": "The equity scan"
+    },
+    {
+      "start": 2507.72,
+      "title": "Using the tools, collaborating and checking progress"
+    }
+  ],
+  "possibleRecognitionIssues": [
+    {
+      "segmentIndices": [
+        247,
+        248
+      ],
+      "start": 531.14,
+      "observed": "incorporation of national CLI standards",
+      "issue": "Acronym may be misrecognized; later text spells out CLAS. Do not silently replace without checking this audio passage.",
+      "action": "retain machine text and flag for fidelity review"
+    },
+    {
+      "segmentIndices": [
+        298,
+        299,
+        300,
+        301
+      ],
+      "start": 632.52,
+      "observed": "and fit our long-term impact / and a permissioner",
+      "issue": "These phrases appear linguistically suspect in the approval-role discussion. Intended wording is not established by this read-only review.",
+      "action": "retain machine text; compare against recording before quoting"
+    },
+    {
+      "segmentIndices": [
+        1153,
+        1154,
+        1155,
+        1156,
+        1157,
+        1158,
+        1159,
+        1160,
+        1161,
+        1162
+      ],
+      "start": 2432.8,
+      "observed": "Repeated question five about using learning to confirm or change a design",
+      "issue": "May be speech repetition or transcription repetition. Text review cannot distinguish them.",
+      "action": "do not deduplicate automatically"
+    },
+    {
+      "segmentIndices": [
+        7,
+        8,
+        1344,
+        1345,
+        1346
+      ],
+      "start": 16.26,
+      "observed": "Opening and closing staff-role references differ in wording",
+      "issue": "A recording mention is not current directory verification or a newly authorized endorsement.",
+      "action": "preserve as recording text; do not turn the wording into a new staff-contact claim"
+    }
+  ],
+  "limits": [
+    "Chapter starts use actual segment timestamps and selected surrounding source passages. They are proposed navigational labels, not approved factual summaries.",
+    "No audio was newly synthesized or edited. No transcript wording was corrected.",
+    "Recording policy claims, role names, quotations and statutory references were not independently verified as current.",
+    "The transcript must retain machine-generated status until fidelity review actually occurs."
+  ],
+  "checks": {
+    "chapterTimesIncreasing": true,
+    "allChaptersWithinRecording": true,
+    "startsAtBeginning": true,
+    "endsAtRecordingEnd": true
+  }
+}
