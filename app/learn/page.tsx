@@ -117,6 +117,7 @@ export default async function LearnPage({ searchParams }: { searchParams?: Promi
             {!totalFound ? <div><h2>{hubText("emptyTitle")}</h2><p>{hubText("emptyBody")}</p></div> : null}
           </EditableSurfaceRegion>
           <EditableSurfaceRegion surface={catalog}>{null}</EditableSurfaceRegion>
+          {!filtered && courses.some(({pack}) => /^div-[fia]/.test(pack.course.id)) ? <p><Link href="/learn/diversity">Explore diversity courses: Foundation, Intermediate, and Advanced</Link></p> : null}
           {learning.length ? <section className={styles.section} aria-labelledby="modules-title">
             <div className={styles.sectionHeading}><h2 id="modules-title">{hub.available ? hubText("coursesTitle") : stringValue(copy, "modulesTitle")}</h2><span>{learning.length} to explore</span></div>
             <ul className={styles.courseGrid}>

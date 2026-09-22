@@ -6,7 +6,10 @@ import { AUTHORED_COURSES, COURSE_SURFACES, RECOVERED_COURSES } from "@/lib/cont
 import { courseText, lessonObjectives } from "@/lib/content/courses/published";
 import { loadPublishedEditableSurface } from "@/lib/content/editable-surfaces";
 import { lintStaffCopy } from "@/lib/brand/lint";
-import plan from "@/lib/content/courses/authored/disability-inclusion/plan.json";
+import originalPlan from "@/lib/content/courses/authored/disability-inclusion/plan.json";
+import diversityPlan from "@/lib/content/courses/authored/diversity-plan.json";
+
+const plan = [...originalPlan, ...diversityPlan];
 
 const root = path.resolve(import.meta.dirname, "..");
 
@@ -60,7 +63,8 @@ describe("program-authored course packs", () => {
   it("give every lesson three to five observable objectives, a scenario with one recommended response, and a transfer prompt", () => {
     for (const pack of AUTHORED_COURSES) for (const lesson of pack.course.lessons) {
       const objectives = lessonObjectives(lesson);
-      expect(new Set(objectives).size).toBe(3);
+      expect(new Set(objectives).size).toBeGreaterThanOrEqual(3);
+      expect(new Set(objectives).size).toBeLessThanOrEqual(5);
       expect(objectives[0]).toBe(lesson.learning?.objective);
       expect(lesson.learning?.takeaways.length).toBeGreaterThanOrEqual(3);
       expect(lesson.scenario?.options.filter(option => option.recommended)).toHaveLength(1);

@@ -60,6 +60,7 @@ export type CourseLearningDesign = {
 
 export type LessonLearningDesign = {
   objective: string;
+  objectives?: string[];
   takeaways: string[];
   evidence: string;
   appliedNextStep: string;

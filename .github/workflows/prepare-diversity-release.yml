@@ -1,0 +1,53 @@
+name: Verify and prepare diversity curriculum
+
+on:
+  push:
+    branches: [build/diversity-30-courses]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: prepare-diversity-curriculum
+  cancel-in-progress: false
+
+jobs:
+  prepare:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - name: Type check and verify all new courses
+        run: |
+          npm run typecheck
+          node scripts/testing/run-tests.mjs tests/authored-courses.test.ts tests/diversity-courses.test.ts tests/diversity-course-interactions.test.tsx tests/course-controls-and-sources.test.tsx tests/learning-hub.test.ts tests/learning-presentation.test.ts tests/recovered-courses.test.ts
+      - name: Update source register
+        run: node scripts/testing/run-tests.mjs --config scripts/content/source-register.config.mts
+      - name: Prepare public search index locally on the runner
+        run: |
+          mkdir -p evidence/functional-completion-2026-09-08
+          node scripts/testing/run-tests.mjs --config scripts/search/prepare-index.config.mts
+      - name: Verify the source register
+        run: node scripts/testing/run-tests.mjs tests/source-register.test.ts
+      - name: Record derived public indexes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/source-register/source-register.json models/bge-small-en-v1.5/manifest.json models/bge-small-en-v1.5/public-document-vectors.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Refresh public source and search indexes for thirty diversity courses"
+            git push origin HEAD:build/diversity-30-courses
+          fi
+      - uses: actions/upload-artifact@v4
+        with:
+          name: diversity-curriculum-verification
+          path: |
+            evidence/next-pass-2026-09-08/diversity-course-interactions.json
+            evidence/functional-completion-2026-09-08/semantic-preparation.json
+          if-no-files-found: error

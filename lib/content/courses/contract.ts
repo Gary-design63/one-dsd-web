@@ -25,7 +25,7 @@ const block = z.discriminatedUnion("type", [
 ]);
 const lesson = z.object({
   id,number:z.number().int().positive(),title:text,summary:text,minutes:z.number().nonnegative(),blocks:list(block),
-  learning:z.object({objective:text,takeaways:strings,evidence:text,appliedNextStep:text}).strict().optional(),
+  learning:z.object({objective:text,objectives:z.array(text.min(1)).min(3).max(5).optional(),takeaways:strings,evidence:text,appliedNextStep:text}).strict().optional(),
   scenario:z.object({context:text,prompt:text,options:list(z.object({label:text,response:text,recommended:z.boolean().optional()}).strict()).min(2)}).strict().optional(),
   transfer:z.object({prompt:text,options:strings}).strict().optional(),
 }).strict();

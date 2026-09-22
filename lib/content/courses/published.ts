@@ -35,6 +35,7 @@ export function sanitizedLesson(lesson:Lesson):Lesson {
   return visit(lesson) as Lesson;
 }
 export function lessonObjectives(lesson:Lesson):string[] {
+  if (lesson.learning?.objectives) return lesson.learning.objectives;
   const original=lesson.learning?.objective ?? `Apply ${lesson.title} to a decision in your work.`;
   const scenario=lesson.scenario;
   const practical=lesson.blocks.find(block=>block.type==="artifact");

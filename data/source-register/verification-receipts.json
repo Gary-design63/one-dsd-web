@@ -1,15 +1,28 @@
 {
  "summary": {
-  "checkedAt": "2026-09-15T12:08:06.441Z",
+  "checkedAt": "2026-09-22T21:25:10.644844+00:00",
   "registerBuiltAt": "2026-09-19T03:13:31.069Z",
-  "total": 275,
-  "ok": 263,
+  "total": 339,
+  "ok": 309,
   "redirected": 26,
-  "clientErrors": 10,
+  "clientErrors": 27,
   "serverErrors": 0,
-  "unreachable": 2
+  "unreachable": 3
  },
  "receipts": [
+  {
+   "sourceId": "url:https://academic.oup.com/book/32817",
+   "href": "https://academic.oup.com/book/32817",
+   "status": 403,
+   "ok": false,
+   "finalUrl": "https://academic.oup.com/book/32817",
+   "redirected": false,
+   "contentType": "text/html; charset=UTF-8",
+   "title": "Just a moment...",
+   "bytes": 5693,
+   "checkedAt": "2026-09-22T21:15:37.772Z",
+   "error": null
+  },
   {
    "sourceId": "url:https://acl.gov/",
    "href": "https://acl.gov/",
@@ -141,6 +154,45 @@
    "error": null
   },
   {
+   "sourceId": "url:https://bear.warrington.ufl.edu/brenner/mar7588/Papers/darley-gross-jpsp1983.pdf",
+   "href": "https://bear.warrington.ufl.edu/brenner/mar7588/Papers/darley-gross-jpsp1983.pdf",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://bear.warrington.ufl.edu/brenner/mar7588/Papers/darley-gross-jpsp1983.pdf",
+   "redirected": false,
+   "contentType": "application/pdf",
+   "title": null,
+   "bytes": 1410560,
+   "checkedAt": "2026-09-22T21:15:37.169Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://belonging.berkeley.edu/belongingdesignprinciples",
+   "href": "https://belonging.berkeley.edu/belongingdesignprinciples",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://belonging.berkeley.edu/belongingdesignprinciples",
+   "redirected": false,
+   "contentType": "text/html; charset=utf-8",
+   "title": "Belonging Design Principles | Othering &amp; Belonging Institute",
+   "bytes": 158964,
+   "checkedAt": "2026-09-22T21:18:17.056Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://belonging.berkeley.edu/what-is-belonging",
+   "href": "https://belonging.berkeley.edu/what-is-belonging",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://belonging.berkeley.edu/what-is-belonging",
+   "redirected": false,
+   "contentType": "text/html; charset=utf-8",
+   "title": "What is Belonging? | Othering &amp; Belonging Institute",
+   "bytes": 129014,
+   "checkedAt": "2026-09-22T21:18:17.011Z",
+   "error": null
+  },
+  {
    "sourceId": "url:https://bjs.ojp.gov/press-release/prisoners-2022-statistical-tables",
    "href": "https://bjs.ojp.gov/press-release/prisoners-2022-statistical-tables",
    "status": 200,
@@ -154,6 +206,19 @@
    "error": null
   },
   {
+   "sourceId": "url:https://chicagounbound.uchicago.edu/uclf/vol1989/iss1/8",
+   "href": "https://chicagounbound.uchicago.edu/uclf/vol1989/iss1/8/",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://chicagounbound.uchicago.edu/uclf/vol1989/iss1/8/",
+   "redirected": false,
+   "contentType": "text/html; charset=UTF-8",
+   "title": "\"Demarginalizing the Intersection of Race and Sex: A Black Feminist Cri\" by Kimberle Crenshaw",
+   "bytes": 31264,
+   "checkedAt": "2026-09-22T21:15:37.705Z",
+   "error": null
+  },
+  {
    "sourceId": "url:https://content.govdelivery.com/accounts/MNDHS/bulletins/3e335d0",
    "href": "https://content.govdelivery.com/accounts/MNDHS/bulletins/3e335d0",
    "status": 200,
@@ -164,6 +229,19 @@
    "title": "Licensing transition from the Department of Human Services to the Department of Children, Youth, and Families",
    "bytes": 43477,
    "checkedAt": "2026-09-15T12:07:37.983Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://cpi.stanford.edu/_media/pdf/Reference%20Media/Dovidio_Gaertner_2000_Discrimination.pdf",
+   "href": "https://cpi.stanford.edu/_media/pdf/Reference%20Media/Dovidio_Gaertner_2000_Discrimination.pdf",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://cpi.stanford.edu/_media/pdf/Reference%20Media/Dovidio_Gaertner_2000_Discrimination.pdf",
+   "redirected": false,
+   "contentType": "application/pdf",
+   "title": null,
+   "bytes": 51533,
+   "checkedAt": "2026-09-22T21:24:47.221Z",
    "error": null
   },
   {
@@ -297,6 +375,19 @@
    "error": null
   },
   {
+   "sourceId": "url:https://doi.org/10.1037/1089-2680.2.2.175",
+   "href": "https://doi.org/10.1037/1089-2680.2.2.175",
+   "status": 403,
+   "ok": false,
+   "finalUrl": "https://journals.sagepub.com/doi/10.1037/1089-2680.2.2.175",
+   "redirected": true,
+   "contentType": "text/html; charset=UTF-8",
+   "title": "Just a moment...",
+   "bytes": 5797,
+   "checkedAt": "2026-09-22T21:15:37.154Z",
+   "error": null
+  },
+  {
    "sourceId": "url:https://edocs.dhs.state.mn.us/lfserver/Public/DHS-5408PA-ENG",
    "href": "https://edocs.dhs.state.mn.us/lfserver/Public/DHS-5408PA-ENG",
    "status": 200,
@@ -320,6 +411,45 @@
    "title": "Milton Bennett - Wikipedia",
    "bytes": 98138,
    "checkedAt": "2026-09-15T12:07:33.705Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://eric.ed.gov/?id=EJ448823",
+   "href": "https://eric.ed.gov/?id=EJ448823",
+   "status": null,
+   "ok": false,
+   "finalUrl": null,
+   "redirected": false,
+   "contentType": null,
+   "title": null,
+   "bytes": null,
+   "checkedAt": "2026-09-22T21:24:47.075Z",
+   "error": "fetch failed"
+  },
+  {
+   "sourceId": "url:https://evallab.unm.edu/restricted-materials/crenshaw-1991---intersectionality.pdf",
+   "href": "https://evallab.unm.edu/restricted-materials/crenshaw-1991---intersectionality.pdf",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://evallab.unm.edu/restricted-materials/crenshaw-1991---intersectionality.pdf",
+   "redirected": false,
+   "contentType": "application/pdf",
+   "title": null,
+   "bytes": 1481136,
+   "checkedAt": "2026-09-22T21:18:17.233Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://harvardlawreview.org/print/no-volume/whiteness-as-property",
+   "href": "https://harvardlawreview.org/print/no-volume/whiteness-as-property/",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://harvardlawreview.org/print/no-volume/whiteness-as-property/",
+   "redirected": false,
+   "contentType": "text/html; charset=UTF-8",
+   "title": "Whiteness as Property Harvard Law Review",
+   "bytes": 64946,
+   "checkedAt": "2026-09-22T21:15:37.647Z",
    "error": null
   },
   {
@@ -388,6 +518,32 @@
    "error": null
   },
   {
+   "sourceId": "url:https://implicit.harvard.edu/implicit/ethics.html",
+   "href": "https://implicit.harvard.edu/implicit/ethics.html",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://implicit.harvard.edu/implicit/ethics.html",
+   "redirected": false,
+   "contentType": "text/html;charset=UTF-8",
+   "title": "Ethical Considerations",
+   "bytes": 11215,
+   "checkedAt": "2026-09-22T21:15:36.889Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://implicit.harvard.edu/implicit/faqs.html",
+   "href": "https://implicit.harvard.edu/implicit/faqs.html",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://implicit.harvard.edu/implicit/faqs.html",
+   "redirected": false,
+   "contentType": "text/html;charset=UTF-8",
+   "title": "Frequently Asked Questions",
+   "bytes": 42707,
+   "checkedAt": "2026-09-22T21:15:36.879Z",
+   "error": null
+  },
+  {
    "sourceId": "url:https://inclusion.com/",
    "href": "https://inclusion.com/",
    "status": 403,
@@ -398,6 +554,84 @@
    "title": "Just a moment...",
    "bytes": 5639,
    "checkedAt": "2026-09-19T03:06:24.978Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://journals.sagepub.com/doi/10.1177/0003122418822335",
+   "href": "https://journals.sagepub.com/doi/10.1177/0003122418822335",
+   "status": 403,
+   "ok": false,
+   "finalUrl": "https://journals.sagepub.com/doi/10.1177/0003122418822335",
+   "redirected": false,
+   "contentType": "text/html; charset=UTF-8",
+   "title": "Just a moment...",
+   "bytes": 5794,
+   "checkedAt": "2026-09-22T21:15:37.654Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://journals.sagepub.com/doi/10.1177/0021934704273457",
+   "href": "https://journals.sagepub.com/doi/10.1177/0021934704273457",
+   "status": 403,
+   "ok": false,
+   "finalUrl": "https://journals.sagepub.com/doi/10.1177/0021934704273457",
+   "redirected": false,
+   "contentType": "text/html; charset=UTF-8",
+   "title": "Just a moment...",
+   "bytes": 5794,
+   "checkedAt": "2026-09-22T21:24:46.945Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://journals.sagepub.com/doi/10.1177/0146167202282010",
+   "href": "https://journals.sagepub.com/doi/10.1177/0146167202282010",
+   "status": 403,
+   "ok": false,
+   "finalUrl": "https://journals.sagepub.com/doi/10.1177/0146167202282010",
+   "redirected": false,
+   "contentType": "text/html; charset=UTF-8",
+   "title": "Just a moment...",
+   "bytes": 5794,
+   "checkedAt": "2026-09-22T21:18:17.058Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://journals.sagepub.com/doi/abs/10.1177/0002764207307742",
+   "href": "https://journals.sagepub.com/doi/abs/10.1177/0002764207307742",
+   "status": 403,
+   "ok": false,
+   "finalUrl": "https://journals.sagepub.com/doi/abs/10.1177/0002764207307742",
+   "redirected": false,
+   "contentType": "text/html; charset=UTF-8",
+   "title": "Just a moment...",
+   "bytes": 5827,
+   "checkedAt": "2026-09-22T21:18:17.270Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://krauslab.com/SESexplainJPSP.2009.pdf",
+   "href": "https://krauslab.com/SESexplainJPSP.2009.pdf",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://krauslab.com/SESexplainJPSP.2009.pdf",
+   "redirected": false,
+   "contentType": "application/pdf",
+   "title": null,
+   "bytes": 320087,
+   "checkedAt": "2026-09-22T21:18:17.059Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://kristelia.com/wp-content/uploads/2021/12/Harris-Whiteness-as-Property.pdf",
+   "href": "https://kristelia.com/wp-content/uploads/2021/12/Harris-Whiteness-as-Property.pdf",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://kristelia.com/wp-content/uploads/2021/12/Harris-Whiteness-as-Property.pdf",
+   "redirected": false,
+   "contentType": "application/pdf",
+   "title": null,
+   "bytes": 80971,
+   "checkedAt": "2026-09-22T21:24:47.241Z",
    "error": null
   },
   {
@@ -1753,6 +1987,32 @@
    "error": null
   },
   {
+   "sourceId": "url:https://nmaahc.si.edu/learn/talking-about-race",
+   "href": "https://nmaahc.si.edu/learn/talking-about-race",
+   "status": 403,
+   "ok": false,
+   "finalUrl": "https://nmaahc.si.edu/learn/talking-about-race",
+   "redirected": false,
+   "contentType": "text/html",
+   "title": "Smithsonian site temporarily unavailable",
+   "bytes": 24010,
+   "checkedAt": "2026-09-22T21:15:36.553Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://nobaproject.com/modules/prejudice-discrimination-and-stereotyping",
+   "href": "https://nobaproject.com/modules/prejudice-discrimination-and-stereotyping",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://nobaproject.com/modules/prejudice-discrimination-and-stereotyping",
+   "redirected": false,
+   "contentType": "text/html; charset=utf-8",
+   "title": "Prejudice, Discrimination, and Stereotyping | Noba",
+   "bytes": 61306,
+   "checkedAt": "2026-09-22T21:15:36.976Z",
+   "error": null
+  },
+  {
    "sourceId": "url:https://one-dhs-equity-resource.vercel.app/equal-opportunity-access",
    "href": "https://one-dhs-equity-resource.vercel.app/equal-opportunity-access",
    "status": 404,
@@ -1763,6 +2023,318 @@
    "title": "One DHS | People, Access and Culture",
    "bytes": 5729,
    "checkedAt": "2026-09-15T12:07:40.800Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1527-2001.2011.01177.x",
+   "href": "https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1527-2001.2011.01177.x",
+   "status": 403,
+   "ok": false,
+   "finalUrl": "https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1527-2001.2011.01177.x",
+   "redirected": false,
+   "contentType": "text/html; charset=UTF-8",
+   "title": "Just a moment...",
+   "bytes": 5918,
+   "checkedAt": "2026-09-22T21:15:37.929Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://pmc.ncbi.nlm.nih.gov/articles/PMC11083880",
+   "href": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11083880/",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11083880/",
+   "redirected": false,
+   "contentType": "text/html; charset=utf-8",
+   "title": "Checking your browser - reCAPTCHA",
+   "bytes": 21373,
+   "checkedAt": "2026-09-22T21:24:47.883Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://pmc.ncbi.nlm.nih.gov/articles/PMC2747726",
+   "href": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2747726/",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2747726/",
+   "redirected": false,
+   "contentType": "text/html; charset=utf-8",
+   "title": "Perceived Discrimination and Health: A Meta-Analytic Review - PMC",
+   "bytes": 468796,
+   "checkedAt": "2026-09-22T21:24:47.325Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://pmc.ncbi.nlm.nih.gov/articles/PMC3603687",
+   "href": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3603687/",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3603687/",
+   "redirected": false,
+   "contentType": "text/html; charset=utf-8",
+   "title": "Long-term reduction in implicit race bias: A prejudice habit-breaking intervention - PMC",
+   "bytes": 265576,
+   "checkedAt": "2026-09-22T21:24:47.589Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://pubmed.ncbi.nlm.nih.gov/11273391",
+   "href": "https://pubmed.ncbi.nlm.nih.gov/11273391/",
+   "status": 203,
+   "ok": true,
+   "finalUrl": "https://pubmed.ncbi.nlm.nih.gov/11273391/",
+   "redirected": false,
+   "contentType": "text/html; charset=utf-8",
+   "title": "pubmed.ncbi.nlm.nih.gov",
+   "bytes": 5569,
+   "checkedAt": "2026-09-22T21:15:37.547Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://pubmed.ncbi.nlm.nih.gov/11811635",
+   "href": "https://pubmed.ncbi.nlm.nih.gov/11811635/",
+   "status": 203,
+   "ok": true,
+   "finalUrl": "https://pubmed.ncbi.nlm.nih.gov/11811635/",
+   "redirected": false,
+   "contentType": "text/html; charset=utf-8",
+   "title": "pubmed.ncbi.nlm.nih.gov",
+   "bytes": 5569,
+   "checkedAt": "2026-09-22T21:15:37.621Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://pubmed.ncbi.nlm.nih.gov/15161402",
+   "href": "https://pubmed.ncbi.nlm.nih.gov/15161402/",
+   "status": 203,
+   "ok": true,
+   "finalUrl": "https://pubmed.ncbi.nlm.nih.gov/15161402/",
+   "redirected": false,
+   "contentType": "text/html; charset=utf-8",
+   "title": "pubmed.ncbi.nlm.nih.gov",
+   "bytes": 5569,
+   "checkedAt": "2026-09-22T21:24:46.941Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://pubmed.ncbi.nlm.nih.gov/16313659",
+   "href": "https://pubmed.ncbi.nlm.nih.gov/16313659/",
+   "status": 203,
+   "ok": true,
+   "finalUrl": "https://pubmed.ncbi.nlm.nih.gov/16313659/",
+   "redirected": false,
+   "contentType": "text/html; charset=utf-8",
+   "title": "pubmed.ncbi.nlm.nih.gov",
+   "bytes": 5569,
+   "checkedAt": "2026-09-22T21:24:47.693Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://pubmed.ncbi.nlm.nih.gov/16737372",
+   "href": "https://pubmed.ncbi.nlm.nih.gov/16737372/",
+   "status": 203,
+   "ok": true,
+   "finalUrl": "https://pubmed.ncbi.nlm.nih.gov/16737372/",
+   "redirected": false,
+   "contentType": "text/html; charset=utf-8",
+   "title": "pubmed.ncbi.nlm.nih.gov",
+   "bytes": 5568,
+   "checkedAt": "2026-09-22T21:24:47.648Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://pubmed.ncbi.nlm.nih.gov/16737373",
+   "href": "https://pubmed.ncbi.nlm.nih.gov/16737373/",
+   "status": 203,
+   "ok": true,
+   "finalUrl": "https://pubmed.ncbi.nlm.nih.gov/16737373/",
+   "redirected": false,
+   "contentType": "text/html; charset=utf-8",
+   "title": "pubmed.ncbi.nlm.nih.gov",
+   "bytes": 5568,
+   "checkedAt": "2026-09-22T21:24:47.163Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://pubmed.ncbi.nlm.nih.gov/16859440",
+   "href": "https://pubmed.ncbi.nlm.nih.gov/16859440/",
+   "status": 203,
+   "ok": true,
+   "finalUrl": "https://pubmed.ncbi.nlm.nih.gov/16859440/",
+   "redirected": false,
+   "contentType": "text/html; charset=utf-8",
+   "title": "pubmed.ncbi.nlm.nih.gov",
+   "bytes": 5568,
+   "checkedAt": "2026-09-22T21:24:47.800Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://pubmed.ncbi.nlm.nih.gov/16953684",
+   "href": "https://pubmed.ncbi.nlm.nih.gov/16953684/",
+   "status": 203,
+   "ok": true,
+   "finalUrl": "https://pubmed.ncbi.nlm.nih.gov/16953684/",
+   "redirected": false,
+   "contentType": "text/html; charset=utf-8",
+   "title": "pubmed.ncbi.nlm.nih.gov",
+   "bytes": 5568,
+   "checkedAt": "2026-09-22T21:24:46.944Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://pubmed.ncbi.nlm.nih.gov/17200221",
+   "href": "https://pubmed.ncbi.nlm.nih.gov/17200221/",
+   "status": 203,
+   "ok": true,
+   "finalUrl": "https://pubmed.ncbi.nlm.nih.gov/17200221/",
+   "redirected": false,
+   "contentType": "text/html; charset=utf-8",
+   "title": "pubmed.ncbi.nlm.nih.gov",
+   "bytes": 5569,
+   "checkedAt": "2026-09-22T21:18:17.275Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://pubmed.ncbi.nlm.nih.gov/18315800",
+   "href": "https://pubmed.ncbi.nlm.nih.gov/18315800/",
+   "status": 203,
+   "ok": true,
+   "finalUrl": "https://pubmed.ncbi.nlm.nih.gov/18315800/",
+   "redirected": false,
+   "contentType": "text/html; charset=utf-8",
+   "title": "pubmed.ncbi.nlm.nih.gov",
+   "bytes": 5569,
+   "checkedAt": "2026-09-22T21:24:46.943Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://pubmed.ncbi.nlm.nih.gov/19586161",
+   "href": "https://pubmed.ncbi.nlm.nih.gov/19586161/",
+   "status": 203,
+   "ok": true,
+   "finalUrl": "https://pubmed.ncbi.nlm.nih.gov/19586161/",
+   "redirected": false,
+   "contentType": "text/html; charset=utf-8",
+   "title": "pubmed.ncbi.nlm.nih.gov",
+   "bytes": 5569,
+   "checkedAt": "2026-09-22T21:18:17.309Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://pubmed.ncbi.nlm.nih.gov/22241812",
+   "href": "https://pubmed.ncbi.nlm.nih.gov/22241812/",
+   "status": 203,
+   "ok": true,
+   "finalUrl": "https://pubmed.ncbi.nlm.nih.gov/22241812/",
+   "redirected": false,
+   "contentType": "text/html; charset=utf-8",
+   "title": "pubmed.ncbi.nlm.nih.gov",
+   "bytes": 5569,
+   "checkedAt": "2026-09-22T21:24:47.190Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://pubmed.ncbi.nlm.nih.gov/22390227",
+   "href": "https://pubmed.ncbi.nlm.nih.gov/22390227/",
+   "status": 203,
+   "ok": true,
+   "finalUrl": "https://pubmed.ncbi.nlm.nih.gov/22390227/",
+   "redirected": false,
+   "contentType": "text/html; charset=utf-8",
+   "title": "pubmed.ncbi.nlm.nih.gov",
+   "bytes": 5569,
+   "checkedAt": "2026-09-22T21:18:17.060Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://pubmed.ncbi.nlm.nih.gov/23524616",
+   "href": "https://pubmed.ncbi.nlm.nih.gov/23524616/",
+   "status": 203,
+   "ok": true,
+   "finalUrl": "https://pubmed.ncbi.nlm.nih.gov/23524616/",
+   "redirected": false,
+   "contentType": "text/html; charset=utf-8",
+   "title": "pubmed.ncbi.nlm.nih.gov",
+   "bytes": 5568,
+   "checkedAt": "2026-09-22T21:24:47.543Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://pubmed.ncbi.nlm.nih.gov/23808915",
+   "href": "https://pubmed.ncbi.nlm.nih.gov/23808915/",
+   "status": 203,
+   "ok": true,
+   "finalUrl": "https://pubmed.ncbi.nlm.nih.gov/23808915/",
+   "redirected": false,
+   "contentType": "text/html; charset=utf-8",
+   "title": "pubmed.ncbi.nlm.nih.gov",
+   "bytes": 5569,
+   "checkedAt": "2026-09-22T21:24:47.873Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://pubmed.ncbi.nlm.nih.gov/27454041",
+   "href": "https://pubmed.ncbi.nlm.nih.gov/27454041/",
+   "status": 203,
+   "ok": true,
+   "finalUrl": "https://pubmed.ncbi.nlm.nih.gov/27454041/",
+   "redirected": false,
+   "contentType": "text/html; charset=utf-8",
+   "title": "pubmed.ncbi.nlm.nih.gov",
+   "bytes": 5569,
+   "checkedAt": "2026-09-22T21:24:47.574Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://pubmed.ncbi.nlm.nih.gov/30652905",
+   "href": "https://pubmed.ncbi.nlm.nih.gov/30652905/",
+   "status": 203,
+   "ok": true,
+   "finalUrl": "https://pubmed.ncbi.nlm.nih.gov/30652905/",
+   "redirected": false,
+   "contentType": "text/html; charset=utf-8",
+   "title": "pubmed.ncbi.nlm.nih.gov",
+   "bytes": 5569,
+   "checkedAt": "2026-09-22T21:15:37.046Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://pubmed.ncbi.nlm.nih.gov/36107999",
+   "href": "https://pubmed.ncbi.nlm.nih.gov/36107999/",
+   "status": 203,
+   "ok": true,
+   "finalUrl": "https://pubmed.ncbi.nlm.nih.gov/36107999/",
+   "redirected": false,
+   "contentType": "text/html; charset=utf-8",
+   "title": "pubmed.ncbi.nlm.nih.gov",
+   "bytes": 5569,
+   "checkedAt": "2026-09-22T21:24:47.464Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://pubmed.ncbi.nlm.nih.gov/7473032",
+   "href": "https://pubmed.ncbi.nlm.nih.gov/7473032/",
+   "status": 203,
+   "ok": true,
+   "finalUrl": "https://pubmed.ncbi.nlm.nih.gov/7473032/",
+   "redirected": false,
+   "contentType": "text/html; charset=utf-8",
+   "title": "pubmed.ncbi.nlm.nih.gov",
+   "bytes": 5569,
+   "checkedAt": "2026-09-22T21:15:37.294Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://rcgd.isr.umich.edu/wp-content/uploads/2018/08/quinn_chaudoir_2009.pdf",
+   "href": "https://rcgd.isr.umich.edu/wp-content/uploads/2018/08/quinn_chaudoir_2009.pdf",
+   "status": 403,
+   "ok": false,
+   "finalUrl": "https://rcgd.isr.umich.edu/wp-content/uploads/2018/08/quinn_chaudoir_2009.pdf",
+   "redirected": false,
+   "contentType": "text/html; charset=UTF-8",
+   "title": "Security Challenge",
+   "bytes": 43210,
+   "checkedAt": "2026-09-22T21:15:37.463Z",
    "error": null
   },
   {
@@ -1818,6 +2390,19 @@
    "error": null
   },
   {
+   "sourceId": "url:https://scholar.harvard.edu/files/monk/files/monk_-_skin_tone_stratification_-_sf.pdf",
+   "href": "https://scholar.harvard.edu/files/monk/files/monk_-_skin_tone_stratification_-_sf.pdf",
+   "status": 403,
+   "ok": false,
+   "finalUrl": "https://scholar.harvard.edu/files/monk/files/monk_-_skin_tone_stratification_-_sf.pdf",
+   "redirected": false,
+   "contentType": "text/html",
+   "title": "Access Denied",
+   "bytes": 478,
+   "checkedAt": "2026-09-22T21:18:17.057Z",
+   "error": null
+  },
+  {
    "sourceId": "url:https://selfadvocacy.org/",
    "href": "https://selfadvocacy.org/",
    "status": 200,
@@ -1828,6 +2413,45 @@
    "title": "Advocating Change Together",
    "bytes": 275279,
    "checkedAt": "2026-09-15T12:07:35.629Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://sites.santafe.edu/~aaronc/courses/5352/readings/McPherson_Smith-Lovin_Cook_01_BirdsOfAFeature_HomophilyInSocialNetworks.pdf",
+   "href": "https://sites.santafe.edu/~aaronc/courses/5352/readings/McPherson_Smith-Lovin_Cook_01_BirdsOfAFeature_HomophilyInSocialNetworks.pdf",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://sites.santafe.edu/~aaronc/courses/5352/readings/McPherson_Smith-Lovin_Cook_01_BirdsOfAFeature_HomophilyInSocialNetworks.pdf",
+   "redirected": false,
+   "contentType": "application/pdf",
+   "title": null,
+   "bytes": 379280,
+   "checkedAt": "2026-09-22T21:24:47.411Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://sparq.stanford.edu/sites/g/files/sbiybj19021/files/media/file/pettigrew_tropp_2006_-_intergroup_contact_theory.pdf",
+   "href": "https://sparq.stanford.edu/sites/g/files/sbiybj19021/files/media/file/pettigrew_tropp_2006_-_intergroup_contact_theory.pdf",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://sparq.stanford.edu/sites/g/files/sbiybj19021/files/media/file/pettigrew_tropp_2006_-_intergroup_contact_theory.pdf",
+   "redirected": false,
+   "contentType": "application/pdf",
+   "title": null,
+   "bytes": 223723,
+   "checkedAt": "2026-09-22T21:24:47.736Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://spssi.onlinelibrary.wiley.com/doi/10.1111/j.1540-4560.1990.tb00268.x",
+   "href": "https://spssi.onlinelibrary.wiley.com/doi/10.1111/j.1540-4560.1990.tb00268.x",
+   "status": 403,
+   "ok": false,
+   "finalUrl": "https://spssi.onlinelibrary.wiley.com/doi/10.1111/j.1540-4560.1990.tb00268.x",
+   "redirected": false,
+   "contentType": "text/html; charset=UTF-8",
+   "title": "Just a moment...",
+   "bytes": 5939,
+   "checkedAt": "2026-09-22T21:24:47.767Z",
    "error": null
   },
   {
@@ -1870,6 +2494,19 @@
    "error": null
   },
   {
+   "sourceId": "url:https://thinkculturalhealth.hhs.gov/education/communication-guide",
+   "href": "https://thinkculturalhealth.hhs.gov/education/communication-guide",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://thinkculturalhealth.hhs.gov/education/communication-guide",
+   "redirected": false,
+   "contentType": "text/html; charset=utf-8",
+   "title": "Communication Guide - Think Cultural Health",
+   "bytes": 56309,
+   "checkedAt": "2026-09-22T21:15:36.556Z",
+   "error": null
+  },
+  {
    "sourceId": "url:https://udlguidelines.cast.org/",
    "href": "https://udlguidelines.cast.org/",
    "status": 200,
@@ -1893,6 +2530,45 @@
    "title": "",
    "bytes": 2299,
    "checkedAt": "2026-09-15T12:07:43.057Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://unesdoc.unesco.org/ark:/48223/pf0000219768",
+   "href": "https://unesdoc.unesco.org/ark:/48223/pf0000219768",
+   "status": 403,
+   "ok": false,
+   "finalUrl": "https://unesdoc.unesco.org/ark:/48223/pf0000219768",
+   "redirected": false,
+   "contentType": "text/html; charset=UTF-8",
+   "title": "Just a moment...",
+   "bytes": 5777,
+   "checkedAt": "2026-09-22T21:15:36.556Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://unesdoc.unesco.org/ark:/48223/pf0000370336",
+   "href": "https://unesdoc.unesco.org/ark:/48223/pf0000370336",
+   "status": 403,
+   "ok": false,
+   "finalUrl": "https://unesdoc.unesco.org/ark:/48223/pf0000370336",
+   "redirected": false,
+   "contentType": "text/html; charset=UTF-8",
+   "title": "Just a moment...",
+   "bytes": 5777,
+   "checkedAt": "2026-09-22T21:15:36.721Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://web.usca.edu/media/usca/departments/institutional-culture-amp-belonging/Crenshaw-MappingMarginsIntersectionality-1991.pdf",
+   "href": "https://web.usca.edu/media/usca/departments/institutional-culture-amp-belonging/Crenshaw-MappingMarginsIntersectionality-1991.pdf",
+   "status": 404,
+   "ok": false,
+   "finalUrl": "https://web.usca.edu/media/usca/departments/institutional-culture-amp-belonging/Crenshaw-MappingMarginsIntersectionality-1991.pdf",
+   "redirected": false,
+   "contentType": "text/html; charset=UTF-8",
+   "title": "404 Page Not Found | USCA",
+   "bytes": 146091,
+   "checkedAt": "2026-09-22T21:15:37.716Z",
    "error": null
   },
   {
@@ -2065,6 +2741,19 @@
    "error": null
   },
   {
+   "sourceId": "url:https://www.ada.gov/topics/intro-to-ada",
+   "href": "https://www.ada.gov/topics/intro-to-ada/",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://www.ada.gov/topics/intro-to-ada/",
+   "redirected": false,
+   "contentType": "text/html; charset=utf-8",
+   "title": "Introduction to the Americans with Disabilities Act | ADA.gov",
+   "bytes": 62476,
+   "checkedAt": "2026-09-22T21:24:46.888Z",
+   "error": null
+  },
+  {
    "sourceId": "url:https://www.ada.gov/topics/service-animals",
    "href": "https://www.ada.gov/topics/service-animals/",
    "status": 200,
@@ -2101,6 +2790,32 @@
    "title": "ERROR: The request could not be satisfied",
    "bytes": 919,
    "checkedAt": "2026-09-19T03:06:22.017Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://www.apa.org/education-career/ce/microaggressions-bystander-intervention.pdf",
+   "href": "https://www.apa.org/education-career/ce/microaggressions-bystander-intervention.pdf",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://www.apa.org/education-career/ce/microaggressions-bystander-intervention.pdf",
+   "redirected": false,
+   "contentType": "application/pdf",
+   "title": null,
+   "bytes": 648966,
+   "checkedAt": "2026-09-22T21:15:37.127Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://www.apa.org/news/podcasts/speaking-of-psychology/microaggressions",
+   "href": "https://www.apa.org/news/podcasts/speaking-of-psychology/microaggressions",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://www.apa.org/news/podcasts/speaking-of-psychology/microaggressions",
+   "redirected": false,
+   "contentType": "text/html",
+   "title": null,
+   "bytes": 212,
+   "checkedAt": "2026-09-22T21:15:36.554Z",
    "error": null
   },
   {
@@ -2166,6 +2881,32 @@
    "title": null,
    "bytes": 22374,
    "checkedAt": "2026-09-15T12:07:39.007Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://www.cambridge.org/core/journals/behavioural-public-policy/article/contact-hypothesis-reevaluated/142C913E7FA9E121277B29E994124EC5",
+   "href": "https://www.cambridge.org/core/journals/behavioural-public-policy/article/contact-hypothesis-reevaluated/142C913E7FA9E121277B29E994124EC5",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://www.cambridge.org/core/journals/behavioural-public-policy/article/contact-hypothesis-reevaluated/142C913E7FA9E121277B29E994124EC5",
+   "redirected": false,
+   "contentType": "text/html; charset=utf-8",
+   "title": "The contact hypothesis re-evaluated | Behavioural Public Policy | Cambridge Core",
+   "bytes": 1207090,
+   "checkedAt": "2026-09-22T21:24:47.674Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://www.campbellcollaboration.org/review/restorative-justice-conferencing-recidivism-victim-satisfaction",
+   "href": "https://www.campbellcollaboration.org/review/restorative-justice-conferencing-recidivism-victim-satisfaction/",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://www.campbellcollaboration.org/review/restorative-justice-conferencing-recidivism-victim-satisfaction/",
+   "redirected": false,
+   "contentType": "text/html; charset=UTF-8",
+   "title": "Restorative justice conferencing (RJC) using face-to-face meetings of offenders and victims: effects on offender recidivism and victim satisfaction &#8211; Campbell Collaboration",
+   "bytes": 76943,
+   "checkedAt": "2026-09-22T21:18:17.453Z",
    "error": null
   },
   {
@@ -2555,7 +3296,7 @@
    "contentType": "text/html; charset=utf-8",
    "title": "IDC",
    "bytes": 46416,
-   "checkedAt": "2026-09-15T12:07:38.619Z",
+   "checkedAt": "2026-09-22T21:15:36.753Z",
    "error": null
   },
   {
@@ -2673,6 +3414,19 @@
    "title": "Program Integrity | Medicaid",
    "bytes": 135346,
    "checkedAt": "2026-09-15T12:07:36.803Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://www.mirandafricker.com/uploads/1/3/6/2/136236203/introduction.pdf",
+   "href": "https://www.mirandafricker.com/uploads/1/3/6/2/136236203/introduction.pdf",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://www.mirandafricker.com/uploads/1/3/6/2/136236203/introduction.pdf",
+   "redirected": false,
+   "contentType": "application/pdf",
+   "title": null,
+   "bytes": 102237,
+   "checkedAt": "2026-09-22T21:24:47.310Z",
    "error": null
   },
   {
@@ -3144,6 +3898,32 @@
    "error": null
   },
   {
+   "sourceId": "url:https://www.sciencedirect.com/science/article/pii/S0022103110001459",
+   "href": "https://www.sciencedirect.com/science/article/pii/S0022103110001459",
+   "status": 403,
+   "ok": false,
+   "finalUrl": "https://www.sciencedirect.com/science/article/pii/S0022103110001459",
+   "redirected": false,
+   "contentType": "text/html; charset=UTF-8",
+   "title": "ScienceDirect",
+   "bytes": 832803,
+   "checkedAt": "2026-09-22T21:24:46.946Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://www.sciencedirect.com/science/article/pii/S0022103121001025",
+   "href": "https://www.sciencedirect.com/science/article/pii/S0022103121001025",
+   "status": 403,
+   "ok": false,
+   "finalUrl": "https://www.sciencedirect.com/science/article/pii/S0022103121001025",
+   "redirected": false,
+   "contentType": "text/html; charset=UTF-8",
+   "title": "ScienceDirect",
+   "bytes": 832803,
+   "checkedAt": "2026-09-22T21:15:37.408Z",
+   "error": null
+  },
+  {
    "sourceId": "url:https://www.section508.gov/",
    "href": "https://www.section508.gov/",
    "status": 200,
@@ -3300,6 +4080,19 @@
    "error": null
   },
   {
+   "sourceId": "url:https://www.tandfonline.com/doi/full/10.1080/23743603.2018.1559647",
+   "href": "https://www.tandfonline.com/doi/full/10.1080/23743603.2018.1559647",
+   "status": 403,
+   "ok": false,
+   "finalUrl": "https://www.tandfonline.com/doi/full/10.1080/23743603.2018.1559647",
+   "redirected": false,
+   "contentType": "text/html; charset=UTF-8",
+   "title": "Just a moment...",
+   "bytes": 5887,
+   "checkedAt": "2026-09-22T21:15:37.309Z",
+   "error": null
+  },
+  {
    "sourceId": "url:https://www.the-ntg.org/",
    "href": "https://www.the-ntg.org/",
    "status": 200,
@@ -3339,6 +4132,19 @@
    "error": null
   },
   {
+   "sourceId": "url:https://www.unodc.org/documents/justice-and-prison-reform/20-01146_Handbook_on_Restorative_Justice_Programmes.pdf",
+   "href": "https://www.unodc.org/documents/justice-and-prison-reform/20-01146_Handbook_on_Restorative_Justice_Programmes.pdf",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://www.unodc.org/documents/justice-and-prison-reform/20-01146_Handbook_on_Restorative_Justice_Programmes.pdf",
+   "redirected": false,
+   "contentType": "application/pdf",
+   "title": null,
+   "bytes": 1381191,
+   "checkedAt": "2026-09-22T21:18:17.360Z",
+   "error": null
+  },
+  {
    "sourceId": "url:https://www.urban.org/research/publication/do-no-harm-guide-applying-equity-awareness-data-visualization",
    "href": "https://www.urban.org/research/publication/do-no-harm-guide-applying-equity-awareness-data-visualization",
    "status": 200,
@@ -3375,6 +4181,19 @@
    "title": "Federally recognized Indian tribes and resources for Native Americans | USAGov",
    "bytes": 36340,
    "checkedAt": "2026-09-15T12:07:43.294Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://www.uwindsor.ca/psychology/sites/uwindsor.ca.psychology/files/sue_et_al._2007_microaggression_in_everyday_life_implications_for_clinical_practice.pdf",
+   "href": "https://www.uwindsor.ca/psychology/sites/uwindsor.ca.psychology/files/sue_et_al._2007_microaggression_in_everyday_life_implications_for_clinical_practice.pdf",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://www.uwindsor.ca/psychology/sites/uwindsor.ca.psychology/files/sue_et_al._2007_microaggression_in_everyday_life_implications_for_clinical_practice.pdf",
+   "redirected": false,
+   "contentType": "application/pdf",
+   "title": null,
+   "bytes": 1068871,
+   "checkedAt": "2026-09-22T21:15:36.555Z",
    "error": null
   },
   {
@@ -3583,6 +4402,19 @@
    "title": "Home - The Washington Group on Disability Statistics",
    "bytes": 22069,
    "checkedAt": "2026-09-15T12:07:43.673Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://www.wcwonline.org/Fact-Sheets-Briefs/white-privilege-unpacking-the-invisible-knapsack-2",
+   "href": "https://www.wcwonline.org/Fact-Sheets-Briefs/white-privilege-unpacking-the-invisible-knapsack-2",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://www.wcwonline.org/Fact-Sheets-Briefs/white-privilege-unpacking-the-invisible-knapsack-2",
+   "redirected": false,
+   "contentType": "text/html; charset=utf-8",
+   "title": "White Privilege: Unpacking the Invisible Knapsack - Wellesley Centers for Women",
+   "bytes": 54464,
+   "checkedAt": "2026-09-22T21:15:36.510Z",
    "error": null
   }
  ]

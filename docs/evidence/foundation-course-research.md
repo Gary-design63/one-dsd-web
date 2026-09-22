@@ -1,0 +1,44 @@
+# Foundation diversity courses: authoring and source evidence
+
+Date: September 22, 2026. Scope: ten new Foundation course packs, not revisions of the previously published course catalog. This record documents source research and automated authoring checks; it is not an independent human-review approval or a publication receipt.
+
+## Deliverables
+
+The exact requested titles are implemented as ten `CoursePack` exports under `lib/content/courses/authored/diversity-foundation/`. The folder index exports `FOUNDATION_DIVERSITY_PACKS`. Course index numbers are 1301–1310. Each course has four approximately twelve-minute lessons, a specific reusable job aid, three concept flashcards, and two or three source references. Each lesson contains three explicit observable learning objectives, substantive teaching, an original fictional case, a scenario with three explained choices, a different conceptual knowledge check, an action exercise, and a private reflection prompt. Learning remains voluntary and does not create training-credit claims or individual IDI labels.
+
+The authoring helper formats original prose as HTML paragraphs for the existing rich-text renderer. It records no human reviewer; governance reviewers are empty. The existing photograph `stock-people-13.jpg` was visually inspected: it shows two people examining an open book. The new cover alternative text describes that image accurately and does not identify a person's race, profession, or disability.
+
+## Source research
+
+Sources were checked through publisher or institutional pages, researcher-authored educational material, and the original scholarly publications. The teaching, fictional cases, exercises, and job aids are program-authored synthesis; they do not reproduce a source curriculum, instrument, proprietary assessment, or an extensive quoted excerpt. Scholarly concepts are introduced briefly and then explored through original examples. The course does not claim source authors reviewed or endorsed it.
+
+| Source | Verification and use | Courses |
+|---|---|---|
+| [Peggy McIntosh, White Privilege: Unpacking the Invisible Knapsack](https://www.wcwonline.org/Fact-Sheets-Briefs/white-privilege-unpacking-the-invisible-knapsack-2) | Wellesley Centers for Women publication record opened. Used for the distinction between personally earned achievement and unearned racial advantages, with original cases rather than a reproduction of McIntosh's list. | White privilege |
+| [Susan T. Fiske, Prejudice, Discrimination, and Stereotyping](https://nobaproject.com/modules/prejudice-discrimination-and-stereotyping) | Researcher-authored Noba chapter opened; author and conceptual distinctions verified. Used for concise distinctions among beliefs, evaluations, and treatment, and as additional background for examining group-based assumptions. | White privilege; implicit bias; social identity; stereotypes, prejudice, and discrimination |
+| [Sue and colleagues, Racial Microaggressions in Everyday Life](https://www.uwindsor.ca/psychology/sites/uwindsor.ca.psychology/files/sue_et_al._2007_microaggression_in_everyday_life_implications_for_clinical_practice.pdf) | Original 2007 article opened as a 16-page PDF through the University of Windsor. Title, authors, conceptual definition, and clinical context verified. Cases and response exercises here are new public-workplace applications, not copied clinical examples. | Microaggressions |
+| [APA interview with Derald Wing Sue](https://www.apa.org/news/podcasts/speaking-of-psychology/microaggressions) | Official APA result identified the interview and researcher; the open parser exposed no transcript. Treated as an additional listening resource and not falsely recorded as a fully reviewed transcript. Original scholarly article supplies the checked conceptual anchor. | Microaggressions |
+| [UNESCO, Intercultural competences: conceptual and operational framework](https://unesdoc.unesco.org/ark:/48223/pf0000219768) | Official UNESCO record and indexed official PDF identified by title and publication information. The stable record resolves, but its interactive viewer did not expose full text through this tool. Used as a further-reading framework, not a claim that all pages or a specific exercise were reviewed. | Intercultural communication; cultural values; ethnocentrism |
+| [UNESCO, Manual for Developing Intercultural Competencies: Story Circles](https://unesdoc.unesco.org/ark:/48223/pf0000370336) | Official UNESCO record and indexed official PDF identified. Interactive viewer similarly did not expose full text. Referenced as further reading on listening and intercultural reflection; no Story Circles protocol is reproduced or certified. | Intercultural communication; cultural values; ethnocentrism |
+| [HHS Think Cultural Health, Communication Guide](https://thinkculturalhealth.hhs.gov/education/communication-guide) | Official page opened; communication and CLAS-based educational purpose checked. No claim that original staff exercises constitute HHS training or agency policy. | Intercultural communication |
+| [Project Implicit, Frequently Asked Questions](https://implicit.harvard.edu/implicit/faqs.html) | Official FAQ opened and relevant interpretation sections reviewed. Key boundaries: relative associations, variation, no permanent individual-trait inference, and no reliable prediction of one specific act from a single result. | Implicit bias; stereotypes, prejudice, and discrimination |
+| [Project Implicit, Ethical Considerations](https://implicit.harvard.edu/implicit/ethics.html) | Official page opened. Voluntary participation, no demanded personal feedback, non-diagnostic use, and limits on interpreting score changes checked. Course provides a non-test alternative and requests no scores or screenshots. | Implicit bias |
+| [UC Berkeley Othering & Belonging Institute, What is belonging?](https://belonging.berkeley.edu/what-is-belonging) | Institutional page opened. Recognition and meaningful voice anchor the concept; examples of invitations, documents, and committees are original. | Social identity; intersectionality; equality, equity, and fairness |
+| [UC Berkeley Othering & Belonging Institute, Belonging design principles](https://belonging.berkeley.edu/belongingdesignprinciples) | Institutional page opened. Used for institutional participation and co-creation as further reading, not an individual assessment. | Social identity |
+| [Intercultural Development Inventory, Intercultural Development Continuum](https://www.idiinventory.com/idc) | Official page opened. Published orientation names and learning-versus-assessment boundary checked. No individual inference, course score mapping, licensed assessment substitute, or personnel label is created. | Cultural values; ethnocentrism |
+| [Kimberlé Crenshaw, Demarginalizing the Intersection of Race and Sex](https://chicagounbound.uchicago.edu/uclf/vol1989/iss1/8/) | University of Chicago scholarship record opened; title, author, publication, and original race/sex focus verified. Origin is retained and not replaced by a generic identity checklist. | Intersectionality; equality, equity, and fairness |
+| [U.S. Department of Justice, Introduction to the ADA](https://www.ada.gov/topics/intro-to-ada/) | Official page opened. Equal opportunity and access provide authoritative background; no course activity makes a legal determination or invents an agency requirement. | Intersectionality; equality, equity, and fairness |
+
+A Smithsonian Talking About Race link was investigated but redirected to a general Smithsonian visitor page in the check. It was removed from the new course references rather than represented as a working course source.
+
+## Validation performed
+
+- TypeScript `npx tsc --noEmit --pretty false` completed successfully after these modules were written.
+- Direct import through `tsx` produced 10 courses and 40 lessons.
+- Teaching plus fictional-case text: 12,342 words total; minimum 300 words per lesson. This excludes the additional action exercise, reflection, objectives, scenario feedback, and knowledge check.
+- All lesson text blocks together: minimum 369 words per lesson.
+- Job-aid section text: minimum 172 words per course, with at least four useful sections including a worked application and revisit prompt.
+- Each lesson has three objectives, three substantive takeaways derived from its teaching paragraphs, exactly one recommended scenario choice, three voluntary transfer choices, and one conceptual knowledge check distinct from its scenario.
+- Each course includes three flashcards and at least two source references.
+
+Parent integration owns catalog registration, shared schema/renderer changes, route verification, and any deployment. This subtask did not modify the shared catalog index, existing courses, application pages, or deployment configuration.

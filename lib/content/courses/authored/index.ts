@@ -92,10 +92,40 @@ import course90 from "./dsd-practice/dsd-10-early-adversity-resilience";
 import course91 from "./dsd-practice/dsd-11-community-mapping-belonging";
 import course92 from "./dsd-practice/dsd-12-communication-methods";
 import course93 from "./dsd-practice/dsd-13-coaching-direct-support";
+import course94 from "./diversity-foundation/div-f01-white-privilege";
+import course95 from "./diversity-foundation/div-f02-microaggressions";
+import course96 from "./diversity-foundation/div-f03-intercultural-communication";
+import course97 from "./diversity-foundation/div-f04-cultural-values";
+import course98 from "./diversity-foundation/div-f05-implicit-bias-iat";
+import course99 from "./diversity-foundation/div-f06-social-identity";
+import course100 from "./diversity-foundation/div-f07-stereotypes-prejudice-discrimination";
+import course101 from "./diversity-foundation/div-f08-ethnocentrism";
+import course102 from "./diversity-foundation/div-f09-intersectionality";
+import course103 from "./diversity-foundation/div-f10-equality-equity-fairness";
+import course104 from "./diversity-intermediate/div-i01-microinterventions";
+import course105 from "./diversity-intermediate/div-i02-ambiguous-bias";
+import course106 from "./diversity-intermediate/div-i03-identity-safety";
+import course107 from "./diversity-intermediate/div-i04-code-switching";
+import course108 from "./diversity-intermediate/div-i05-colorism";
+import course109 from "./diversity-intermediate/div-i06-classism";
+import course110 from "./diversity-intermediate/div-i07-gender-double-binds";
+import course111 from "./diversity-intermediate/div-i08-racial-socialization";
+import course112 from "./diversity-intermediate/div-i09-accent-bias";
+import course113 from "./diversity-intermediate/div-i10-receiving-feedback";
+import course114 from "./diversity-advanced/div-a01-aversive-racism";
+import course115 from "./diversity-advanced/div-a02-whiteness-institutional-norm";
+import course116 from "./diversity-advanced/div-a03-intersectional-discrimination";
+import course117 from "./diversity-advanced/div-a04-epistemic-injustice";
+import course118 from "./diversity-advanced/div-a05-racial-battle-fatigue";
+import course119 from "./diversity-advanced/div-a06-restorative-identity-harm";
+import course120 from "./diversity-advanced/div-a07-networks-opportunity-hoarding";
+import course121 from "./diversity-advanced/div-a08-bias-reduction-interventions";
+import course122 from "./diversity-advanced/div-a09-intergroup-contact";
+import course123 from "./diversity-advanced/div-a10-moral-exclusion-dehumanization";
 
 /**
  * Program-authored course packs. They use the same contract as the recovered
  * collection but are kept apart from it so the recovered source bytes, counts
- * and hashes stay exactly as preserved. Order follows disability-inclusion/plan.json.
+ * and hashes stay exactly as preserved. Order follows the original and diversity plans.
  */
-export const AUTHORED_COURSE_PACKS: readonly CoursePack[] = [course1, course2, course3, course4, course5, course6, course7, course8, course9, course10, course11, course12, course13, course14, course15, course16, course17, course18, course19, course20, course21, course22, course23, course24, course25, course26, course27, course28, course29, course30, course31, course32, course33, course34, course35, course36, course37, course38, course39, course40, course41, course42, course43, course44, course45, course46, course47, course48, course49, course50, course51, course52, course53, course54, course55, course56, course57, course58, course59, course60, course61, course62, course63, course64, course65, course66, course67, course68, course69, course70, course71, course72, course73, course74, course75, course76, course77, course78, course79, course80, course81, course82, course83, course84, course85, course86, course87, course88, course89, course90, course91, course92, course93];
+export const AUTHORED_COURSE_PACKS: readonly CoursePack[] = [course1, course2, course3, course4, course5, course6, course7, course8, course9, course10, course11, course12, course13, course14, course15, course16, course17, course18, course19, course20, course21, course22, course23, course24, course25, course26, course27, course28, course29, course30, course31, course32, course33, course34, course35, course36, course37, course38, course39, course40, course41, course42, course43, course44, course45, course46, course47, course48, course49, course50, course51, course52, course53, course54, course55, course56, course57, course58, course59, course60, course61, course62, course63, course64, course65, course66, course67, course68, course69, course70, course71, course72, course73, course74, course75, course76, course77, course78, course79, course80, course81, course82, course83, course84, course85, course86, course87, course88, course89, course90, course91, course92, course93, course94, course95, course96, course97, course98, course99, course100, course101, course102, course103, course104, course105, course106, course107, course108, course109, course110, course111, course112, course113, course114, course115, course116, course117, course118, course119, course120, course121, course122, course123];

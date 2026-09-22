@@ -4,7 +4,10 @@
 // Usage: node scripts/content/generate-authored-course-index.mjs
 import { existsSync, readFileSync, readdirSync, writeFileSync } from "node:fs";
 const root = new URL("../../lib/content/courses/authored/", import.meta.url);
-const plan = JSON.parse(readFileSync(new URL("disability-inclusion/plan.json", root), "utf8"));
+const plan = [
+  ...JSON.parse(readFileSync(new URL("disability-inclusion/plan.json", root), "utf8")),
+  ...JSON.parse(readFileSync(new URL("diversity-plan.json", root), "utf8")),
+];
 const families = readdirSync(root, { withFileTypes: true }).filter(entry => entry.isDirectory()).map(entry => entry.name).sort();
 const present = plan
   .map(row => ({ row, family: families.find(family => existsSync(new URL(`${family}/${row.id}.ts`, root))) }))
@@ -16,7 +19,7 @@ const lines = [
   "/**",
   " * Program-authored course packs. They use the same contract as the recovered",
   " * collection but are kept apart from it so the recovered source bytes, counts",
-  " * and hashes stay exactly as preserved. Order follows disability-inclusion/plan.json.",
+  " * and hashes stay exactly as preserved. Order follows the original and diversity plans.",
   " */",
   `export const AUTHORED_COURSE_PACKS: readonly CoursePack[] = [${present.map((_, i) => `course${i + 1}`).join(", ")}];`,
   "",

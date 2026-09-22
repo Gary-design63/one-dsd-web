@@ -45,7 +45,7 @@ describe("Learning thumbnail presentation", () => {
     html = await renderAsync(await LearnPage({}));
     expect(html).not.toContain("learning-hub-search");
     expect(html).not.toContain("Amplify Equity");
-    expect(html.match(/data-learning-id=/g)).toHaveLength(182);
+    expect(html.match(/data-learning-id=/g)).toHaveLength(212);
   });
 
   it("keeps filtered results focused while retaining direct resource access", async () => {
@@ -57,7 +57,7 @@ describe("Learning thumbnail presentation", () => {
 
   it("shows real modules first and keeps stages, practice paths, and the staff guide distinct", async () => {
     const html = await renderAsync(await LearnPage({}));
-    expect(html.match(/data-learning-id=/g)).toHaveLength(182);
+    expect(html.match(/data-learning-id=/g)).toHaveLength(212);
     expect(html).toContain('href="/library/lm-how-this-program-works"');
     expect(html).not.toContain('data-learning-id="lm-how-this-program-works"');
     expect(html.indexOf('id="modules-title"')).toBeLessThan(html.indexOf('id="stages-title"'));
@@ -76,7 +76,7 @@ describe("Learning thumbnail presentation", () => {
   it("does not expose unpublished images or hide the underlying learning resources", async () => {
     state.catalogAvailable = false;
     const html = await renderAsync(await LearnPage({}));
-    expect(html.match(/data-learning-id=/g)).toHaveLength(182);
+    expect(html.match(/data-learning-id=/g)).toHaveLength(212);
     const originalTile = html.match(/<a[^>]*data-learning-id="lm-interpreter"[\s\S]*?<\/a>/)?.[0] ?? html.match(/<a[^>]*href="\/library\/lm-interpreter"[\s\S]*?<\/a>/)?.[0];
     expect(originalTile).toBeDefined();
     expect(originalTile).not.toContain("<img");
