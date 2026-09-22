@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-09-19T03:13:31.069Z",
+ "builtAt": "2026-09-22T21:42:43.399Z",
  "scope": "Citations as they stand in program code and data on the build date. Nothing here was fetched or verified during the build.",
  "verificationStates": {
   "cited_unverified": "An outside address cited at authoring and not yet checked by the program.",
@@ -10,21 +10,21 @@
   "placeholder": "A citation with no address, kept as the source text left it."
  },
  "totals": {
-  "sources": 358,
-  "external": 275,
+  "sources": 420,
+  "external": 337,
   "programDocuments": 7,
   "programRoutes": 69,
   "legalCitations": 2,
   "placeholders": 5,
-  "citations": 981,
-  "resources": 298,
+  "citations": 1058,
+  "resources": 328,
   "resourcesWithoutSources": 32,
-  "hosts": 99
+  "hosts": 129
  },
  "byResourceType": {
   "authored_course": {
-   "resources": 93,
-   "withExternal": 93,
+   "resources": 123,
+   "withExternal": 123,
    "withNone": 0
   },
   "community_brief": {
@@ -81,13 +81,13 @@
   },
   {
    "host": "www.ada.gov",
-   "sources": 11,
-   "citations": 44
+   "sources": 12,
+   "citations": 46
   },
   {
    "host": "thinkculturalhealth.hhs.gov",
-   "sources": 2,
-   "citations": 40
+   "sources": 3,
+   "citations": 41
   },
   {
    "host": "mncpd.org",
@@ -120,6 +120,11 @@
    "citations": 20
   },
   {
+   "host": "pubmed.ncbi.nlm.nih.gov",
+   "sources": 19,
+   "citations": 19
+  },
+  {
    "host": "www.cdc.gov",
    "sources": 6,
    "citations": 18
@@ -142,7 +147,7 @@
   {
    "host": "www.idiinventory.com",
    "sources": 2,
-   "citations": 8
+   "citations": 10
   },
   {
    "host": "www.mncompass.org",
@@ -162,6 +167,11 @@
   {
    "host": "disabilityhubmn.org",
    "sources": 4,
+   "citations": 7
+  },
+  {
+   "host": "unesdoc.unesco.org",
+   "sources": 3,
    "citations": 7
   },
   {
@@ -205,6 +215,31 @@
    "citations": 4
   },
   {
+   "host": "nobaproject.com",
+   "sources": 1,
+   "citations": 4
+  },
+  {
+   "host": "belonging.berkeley.edu",
+   "sources": 2,
+   "citations": 4
+  },
+  {
+   "host": "implicit.harvard.edu",
+   "sources": 3,
+   "citations": 4
+  },
+  {
+   "host": "journals.sagepub.com",
+   "sources": 4,
+   "citations": 4
+  },
+  {
+   "host": "chicagounbound.uchicago.edu",
+   "sources": 1,
+   "citations": 3
+  },
+  {
    "host": "www.health.state.mn.us",
    "sources": 1,
    "citations": 3
@@ -212,6 +247,11 @@
   {
    "host": "www.braininjurymn.org",
    "sources": 1,
+   "citations": 3
+  },
+  {
+   "host": "pmc.ncbi.nlm.nih.gov",
+   "sources": 3,
    "citations": 3
   },
   {
@@ -260,12 +300,22 @@
    "citations": 2
   },
   {
+   "host": "www.apa.org",
+   "sources": 2,
+   "citations": 2
+  },
+  {
    "host": "developingchild.harvard.edu",
    "sources": 2,
    "citations": 2
   },
   {
    "host": "dcyf.mn.gov",
+   "sources": 2,
+   "citations": 2
+  },
+  {
+   "host": "www.sciencedirect.com",
    "sources": 2,
    "citations": 2
   },
@@ -340,6 +390,16 @@
    "citations": 1
   },
   {
+   "host": "evallab.unm.edu",
+   "sources": 1,
+   "citations": 1
+  },
+  {
+   "host": "bear.warrington.ufl.edu",
+   "sources": 1,
+   "citations": 1
+  },
+  {
    "host": "content.govdelivery.com",
    "sources": 1,
    "citations": 1
@@ -350,7 +410,42 @@
    "citations": 1
   },
   {
+   "host": "onlinelibrary.wiley.com",
+   "sources": 1,
+   "citations": 1
+  },
+  {
+   "host": "cpi.stanford.edu",
+   "sources": 1,
+   "citations": 1
+  },
+  {
    "host": "www.federalreserve.gov",
+   "sources": 1,
+   "citations": 1
+  },
+  {
+   "host": "www.tandfonline.com",
+   "sources": 1,
+   "citations": 1
+  },
+  {
+   "host": "academic.oup.com",
+   "sources": 1,
+   "citations": 1
+  },
+  {
+   "host": "www.mirandafricker.com",
+   "sources": 1,
+   "citations": 1
+  },
+  {
+   "host": "harvardlawreview.org",
+   "sources": 1,
+   "citations": 1
+  },
+  {
+   "host": "kristelia.com",
    "sources": 1,
    "citations": 1
   },
@@ -366,6 +461,16 @@
   },
   {
    "host": "hbr.org",
+   "sources": 1,
+   "citations": 1
+  },
+  {
+   "host": "krauslab.com",
+   "sources": 1,
+   "citations": 1
+  },
+  {
+   "host": "sites.santafe.edu",
    "sources": 1,
    "citations": 1
   },
@@ -396,6 +501,11 @@
   },
   {
    "host": "msktc.org",
+   "sources": 1,
+   "citations": 1
+  },
+  {
+   "host": "scholar.harvard.edu",
    "sources": 1,
    "citations": 1
   },
@@ -450,7 +560,32 @@
    "citations": 1
   },
   {
+   "host": "doi.org",
+   "sources": 1,
+   "citations": 1
+  },
+  {
    "host": "one-dhs-equity-resource.vercel.app",
+   "sources": 1,
+   "citations": 1
+  },
+  {
+   "host": "spssi.onlinelibrary.wiley.com",
+   "sources": 1,
+   "citations": 1
+  },
+  {
+   "host": "www.cambridge.org",
+   "sources": 1,
+   "citations": 1
+  },
+  {
+   "host": "www.wcwonline.org",
+   "sources": 1,
+   "citations": 1
+  },
+  {
+   "host": "sparq.stanford.edu",
    "sources": 1,
    "citations": 1
   },
@@ -465,12 +600,12 @@
    "citations": 1
   },
   {
-   "host": "implicit.harvard.edu",
+   "host": "www.prosci.com",
    "sources": 1,
    "citations": 1
   },
   {
-   "host": "www.prosci.com",
+   "host": "rcgd.isr.umich.edu",
    "sources": 1,
    "citations": 1
   },
@@ -490,6 +625,11 @@
    "citations": 1
   },
   {
+   "host": "eric.ed.gov",
+   "sources": 1,
+   "citations": 1
+  },
+  {
    "host": "sahanjournal.com",
    "sources": 1,
    "citations": 1
@@ -500,7 +640,17 @@
    "citations": 1
   },
   {
+   "host": "www.campbellcollaboration.org",
+   "sources": 1,
+   "citations": 1
+  },
+  {
    "host": "www.supremecourt.gov",
+   "sources": 1,
+   "citations": 1
+  },
+  {
+   "host": "www.uwindsor.ca",
    "sources": 1,
    "citations": 1
   },
@@ -535,7 +685,7 @@
    "citations": 1
   },
   {
-   "host": "unesdoc.unesco.org",
+   "host": "www.unodc.org",
    "sources": 1,
    "citations": 1
   },
@@ -5700,6 +5850,48 @@
    ]
   },
   {
+   "sourceId": "url:https://nobaproject.com/modules/prejudice-discrimination-and-stereotyping",
+   "title": "Susan T. Fiske — Prejudice, discrimination, and stereotyping",
+   "href": "https://nobaproject.com/modules/prejudice-discrimination-and-stereotyping",
+   "host": "nobaproject.com",
+   "kind": "external",
+   "verification": "cited_unverified",
+   "citations": [
+    {
+     "resourceType": "authored_course",
+     "resourceId": "div-f01-white-privilege",
+     "resourceTitle": "Understanding White Privilege",
+     "route": "/courses/div-f01-white-privilege",
+     "note": "Researcher-authored educational chapter distinguishing affect, beliefs, and behavior.",
+     "role": "course source"
+    },
+    {
+     "resourceType": "authored_course",
+     "resourceId": "div-f05-implicit-bias-iat",
+     "resourceTitle": "Implicit Bias and the Implicit Association Test",
+     "route": "/courses/div-f05-implicit-bias-iat",
+     "note": "Researcher-authored educational chapter distinguishing affect, beliefs, and behavior.",
+     "role": "course source"
+    },
+    {
+     "resourceType": "authored_course",
+     "resourceId": "div-f06-social-identity",
+     "resourceTitle": "Social Identity, Group Membership, and Belonging",
+     "route": "/courses/div-f06-social-identity",
+     "note": "Researcher-authored educational chapter distinguishing affect, beliefs, and behavior.",
+     "role": "course source"
+    },
+    {
+     "resourceType": "authored_course",
+     "resourceId": "div-f07-stereotypes-prejudice-discrimination",
+     "resourceTitle": "Stereotypes, Prejudice, and Discrimination: Understanding the Differences",
+     "route": "/courses/div-f07-stereotypes-prejudice-discrimination",
+     "note": "Researcher-authored educational chapter distinguishing affect, beliefs, and behavior.",
+     "role": "course source"
+    }
+   ]
+  },
+  {
    "sourceId": "route:/c/teams-in-minimization",
    "title": "Teams in Minimization (this hub)",
    "href": "/c/teams-in-minimization",
@@ -6012,6 +6204,40 @@
    ]
   },
   {
+   "sourceId": "url:https://www.idiinventory.com/idc",
+   "title": "Intercultural Development Inventory — The Intercultural Development Continuum",
+   "href": "https://www.idiinventory.com/idc",
+   "host": "www.idiinventory.com",
+   "kind": "external",
+   "verification": "cited_unverified",
+   "citations": [
+    {
+     "resourceType": "authored_course",
+     "resourceId": "div-f04-cultural-values",
+     "resourceTitle": "Cultural Values and Worldviews",
+     "route": "/courses/div-f04-cultural-values",
+     "note": "Official descriptions of Denial, Polarization, Minimization, Acceptance, and Adaptation. This course does not administer or infer an individual IDI result.",
+     "role": "course source"
+    },
+    {
+     "resourceType": "authored_course",
+     "resourceId": "div-f08-ethnocentrism",
+     "resourceTitle": "Ethnocentrism: When My Normal Becomes the Standard",
+     "route": "/courses/div-f08-ethnocentrism",
+     "note": "Official descriptions of Denial, Polarization, Minimization, Acceptance, and Adaptation. This course does not administer or infer an individual IDI result.",
+     "role": "course source"
+    },
+    {
+     "resourceType": "recovered_course",
+     "resourceId": "what-minimization-does-in-dhs-work",
+     "resourceTitle": "What Minimization Does in DHS Work",
+     "route": "/courses/what-minimization-does-in-dhs-work",
+     "note": "Conceptual map of Denial, Polarization, Minimization, Acceptance, Adaptation. This course does not administer the IDI and does not score anyone.",
+     "role": "course source"
+    }
+   ]
+  },
+  {
    "sourceId": "route:/c/job-design-and-the-posting",
    "title": "Job Design and the Posting (this hub)",
    "href": "/c/job-design-and-the-posting",
@@ -6041,6 +6267,40 @@
      "resourceTitle": "Sourcing and Outreach",
      "route": "/courses/sourcing-and-outreach",
      "note": "The text of the job. This title is where it is heard.",
+     "role": "course source"
+    }
+   ]
+  },
+  {
+   "sourceId": "url:https://chicagounbound.uchicago.edu/uclf/vol1989/iss1/8",
+   "title": "Kimberlé Crenshaw (1989) — Demarginalizing the Intersection of Race and Sex",
+   "href": "https://chicagounbound.uchicago.edu/uclf/vol1989/iss1/8/",
+   "host": "chicagounbound.uchicago.edu",
+   "kind": "external",
+   "verification": "cited_unverified",
+   "citations": [
+    {
+     "resourceType": "authored_course",
+     "resourceId": "div-f09-intersectionality",
+     "resourceTitle": "Intersectionality: Understanding Overlapping Experiences",
+     "route": "/courses/div-f09-intersectionality",
+     "note": "Original scholarship on how single-axis analysis can obscure Black women’s experiences; original cases here extend inquiry without erasing that origin.",
+     "role": "course source"
+    },
+    {
+     "resourceType": "authored_course",
+     "resourceId": "div-f10-equality-equity-fairness",
+     "resourceTitle": "Equality, Equity, and Fairness: A Conceptual Introduction",
+     "route": "/courses/div-f10-equality-equity-fairness",
+     "note": "Original scholarship on how single-axis analysis can obscure Black women’s experiences; original cases here extend inquiry without erasing that origin.",
+     "role": "course source"
+    },
+    {
+     "resourceType": "authored_course",
+     "resourceId": "div-a03-intersectional-discrimination",
+     "resourceTitle": "Intersectional Discrimination: Advanced Case Analysis",
+     "route": "/courses/div-a03-intersectional-discrimination",
+     "note": "Foundational primary legal scholarship on the limits of separate race and sex categories. Cases here are original learning examples, not legal determinations.",
      "role": "course source"
     }
    ]
@@ -6517,6 +6777,108 @@
      "resourceTitle": "Inclusive Workforce and Team Culture",
      "route": "/courses/ipe-31-inclusive-workforce-culture",
      "note": "Federal guidance on disability discrimination in employment under the Americans with Disabilities Act, including what employers may ask, what qualifies as a reasonable accommodation, and the difference between essential functions and preferences.",
+     "role": "course source"
+    }
+   ]
+  },
+  {
+   "sourceId": "url:https://belonging.berkeley.edu/what-is-belonging",
+   "title": "UC Berkeley Othering & Belonging Institute — What is belonging?",
+   "href": "https://belonging.berkeley.edu/what-is-belonging",
+   "host": "belonging.berkeley.edu",
+   "kind": "external",
+   "verification": "cited_unverified",
+   "citations": [
+    {
+     "resourceType": "authored_course",
+     "resourceId": "div-f06-social-identity",
+     "resourceTitle": "Social Identity, Group Membership, and Belonging",
+     "route": "/courses/div-f06-social-identity",
+     "note": "Distinguishes belonging, recognition, voice, and participation in the institutions shaping people’s lives.",
+     "role": "course source"
+    },
+    {
+     "resourceType": "authored_course",
+     "resourceId": "div-f09-intersectionality",
+     "resourceTitle": "Intersectionality: Understanding Overlapping Experiences",
+     "route": "/courses/div-f09-intersectionality",
+     "note": "Distinguishes belonging, recognition, voice, and participation in the institutions shaping people’s lives.",
+     "role": "course source"
+    },
+    {
+     "resourceType": "authored_course",
+     "resourceId": "div-f10-equality-equity-fairness",
+     "resourceTitle": "Equality, Equity, and Fairness: A Conceptual Introduction",
+     "route": "/courses/div-f10-equality-equity-fairness",
+     "note": "Distinguishes belonging, recognition, voice, and participation in the institutions shaping people’s lives.",
+     "role": "course source"
+    }
+   ]
+  },
+  {
+   "sourceId": "url:https://unesdoc.unesco.org/ark:/48223/pf0000219768",
+   "title": "UNESCO — Intercultural competences: conceptual and operational framework",
+   "href": "https://unesdoc.unesco.org/ark:/48223/pf0000219768",
+   "host": "unesdoc.unesco.org",
+   "kind": "external",
+   "verification": "cited_unverified",
+   "citations": [
+    {
+     "resourceType": "authored_course",
+     "resourceId": "div-f03-intercultural-communication",
+     "resourceTitle": "Intercultural Communication Fundamentals",
+     "route": "/courses/div-f03-intercultural-communication",
+     "note": "Conceptual framework for intercultural dialogue, reflection, and communication; not a national-character checklist.",
+     "role": "course source"
+    },
+    {
+     "resourceType": "authored_course",
+     "resourceId": "div-f04-cultural-values",
+     "resourceTitle": "Cultural Values and Worldviews",
+     "route": "/courses/div-f04-cultural-values",
+     "note": "Conceptual framework for intercultural dialogue, reflection, and communication; not a national-character checklist.",
+     "role": "course source"
+    },
+    {
+     "resourceType": "authored_course",
+     "resourceId": "div-f08-ethnocentrism",
+     "resourceTitle": "Ethnocentrism: When My Normal Becomes the Standard",
+     "route": "/courses/div-f08-ethnocentrism",
+     "note": "Conceptual framework for intercultural dialogue, reflection, and communication; not a national-character checklist.",
+     "role": "course source"
+    }
+   ]
+  },
+  {
+   "sourceId": "url:https://unesdoc.unesco.org/ark:/48223/pf0000370336",
+   "title": "UNESCO — Manual for Developing Intercultural Competencies: Story Circles",
+   "href": "https://unesdoc.unesco.org/ark:/48223/pf0000370336",
+   "host": "unesdoc.unesco.org",
+   "kind": "external",
+   "verification": "cited_unverified",
+   "citations": [
+    {
+     "resourceType": "authored_course",
+     "resourceId": "div-f03-intercultural-communication",
+     "resourceTitle": "Intercultural Communication Fundamentals",
+     "route": "/courses/div-f03-intercultural-communication",
+     "note": "Intercultural learning through listening and reflection; this course does not reproduce or certify the manual’s method.",
+     "role": "course source"
+    },
+    {
+     "resourceType": "authored_course",
+     "resourceId": "div-f04-cultural-values",
+     "resourceTitle": "Cultural Values and Worldviews",
+     "route": "/courses/div-f04-cultural-values",
+     "note": "Intercultural learning through listening and reflection; this course does not reproduce or certify the manual’s method.",
+     "role": "course source"
+    },
+    {
+     "resourceType": "authored_course",
+     "resourceId": "div-f08-ethnocentrism",
+     "resourceTitle": "Ethnocentrism: When My Normal Becomes the Standard",
+     "route": "/courses/div-f08-ethnocentrism",
+     "note": "Intercultural learning through listening and reflection; this course does not reproduce or certify the manual’s method.",
      "role": "course source"
     }
    ]
@@ -7429,6 +7791,32 @@
    ]
   },
   {
+   "sourceId": "url:https://implicit.harvard.edu/implicit/faqs.html",
+   "title": "Project Implicit — Frequently asked questions",
+   "href": "https://implicit.harvard.edu/implicit/faqs.html",
+   "host": "implicit.harvard.edu",
+   "kind": "external",
+   "verification": "cited_unverified",
+   "citations": [
+    {
+     "resourceType": "authored_course",
+     "resourceId": "div-f05-implicit-bias-iat",
+     "resourceTitle": "Implicit Bias and the Implicit Association Test",
+     "route": "/courses/div-f05-implicit-bias-iat",
+     "note": "Explains what the IAT measures, variation in results, and caution about individual interpretation.",
+     "role": "course source"
+    },
+    {
+     "resourceType": "authored_course",
+     "resourceId": "div-f07-stereotypes-prejudice-discrimination",
+     "resourceTitle": "Stereotypes, Prejudice, and Discrimination: Understanding the Differences",
+     "route": "/courses/div-f07-stereotypes-prejudice-discrimination",
+     "note": "Explains what the IAT measures, variation in results, and caution about individual interpretation.",
+     "role": "course source"
+    }
+   ]
+  },
+  {
    "sourceId": "url:https://www.section508.gov/test",
    "title": "Section508.gov, Test for Accessibility",
    "href": "https://www.section508.gov/test/",
@@ -7503,6 +7891,32 @@
      "route": "/equity-framework",
      "note": "State of Minnesota. Equity Analysis Toolkit. Accessed September 8, 2026. https://mn.gov/oeoa/resources/equity-analysis-toolkit/.",
      "role": "bibliography"
+    }
+   ]
+  },
+  {
+   "sourceId": "url:https://www.ada.gov/topics/intro-to-ada",
+   "title": "U.S. Department of Justice — Introduction to the Americans with Disabilities Act",
+   "href": "https://www.ada.gov/topics/intro-to-ada/",
+   "host": "www.ada.gov",
+   "kind": "external",
+   "verification": "cited_unverified",
+   "citations": [
+    {
+     "resourceType": "authored_course",
+     "resourceId": "div-f09-intersectionality",
+     "resourceTitle": "Intersectionality: Understanding Overlapping Experiences",
+     "route": "/courses/div-f09-intersectionality",
+     "note": "Authoritative background on equal opportunity and disability access; formal applicability belongs to the responsible agency office.",
+     "role": "course source"
+    },
+    {
+     "resourceType": "authored_course",
+     "resourceId": "div-f10-equality-equity-fairness",
+     "resourceTitle": "Equality, Equity, and Fairness: A Conceptual Introduction",
+     "route": "/courses/div-f10-equality-equity-fairness",
+     "note": "Authoritative background on equal opportunity and disability access; formal applicability belongs to the responsible agency office.",
+     "role": "course source"
     }
    ]
   },
@@ -7917,6 +8331,24 @@
    ]
   },
   {
+   "sourceId": "url:https://www.apa.org/news/podcasts/speaking-of-psychology/microaggressions",
+   "title": "American Psychological Association — How to combat microaggressions",
+   "href": "https://www.apa.org/news/podcasts/speaking-of-psychology/microaggressions",
+   "host": "www.apa.org",
+   "kind": "external",
+   "verification": "cited_unverified",
+   "citations": [
+    {
+     "resourceType": "authored_course",
+     "resourceId": "div-f02-microaggressions",
+     "resourceTitle": "Microaggressions: Recognition, Intent, and Impact",
+     "route": "/courses/div-f02-microaggressions",
+     "note": "Interview with researcher Derald Wing Sue about identity-based everyday slights and responses.",
+     "role": "course source"
+    }
+   ]
+  },
+  {
    "sourceId": "url:https://apastyle.apa.org/style-grammar-guidelines/bias-free-language/disability",
    "title": "American Psychological Association, Bias-free language: disability",
    "href": "https://apastyle.apa.org/style-grammar-guidelines/bias-free-language/disability",
@@ -8128,6 +8560,24 @@
      "resourceTitle": "Bosnian Minnesota",
      "route": "/courses/cultural-intelligence-bosnian",
      "note": "The complete reference reader behind this compact learning path.",
+     "role": "course source"
+    }
+   ]
+  },
+  {
+   "sourceId": "url:https://pubmed.ncbi.nlm.nih.gov/18315800",
+   "title": "Brescoll and Uhlmann (2008): Anger, gender, and status conferral",
+   "href": "https://pubmed.ncbi.nlm.nih.gov/18315800/",
+   "host": "pubmed.ncbi.nlm.nih.gov",
+   "kind": "external",
+   "verification": "cited_unverified",
+   "citations": [
+    {
+     "resourceType": "authored_course",
+     "resourceId": "div-i07-gender-double-binds",
+     "resourceTitle": "Gender Stereotypes and Double Binds",
+     "route": "/courses/div-i07-gender-double-binds",
+     "note": "Experiments found different evaluations of anger by gender under studied conditions. The course does not prescribe an emotional style for women.",
      "role": "course source"
     }
    ]
@@ -8476,6 +8926,24 @@
    ]
   },
   {
+   "sourceId": "url:https://evallab.unm.edu/restricted-materials/crenshaw-1991---intersectionality.pdf",
+   "title": "Crenshaw (1991), Mapping the Margins",
+   "href": "https://evallab.unm.edu/restricted-materials/crenshaw-1991---intersectionality.pdf",
+   "host": "evallab.unm.edu",
+   "kind": "external",
+   "verification": "cited_unverified",
+   "citations": [
+    {
+     "resourceType": "authored_course",
+     "resourceId": "div-a03-intersectional-discrimination",
+     "resourceTitle": "Intersectional Discrimination: Advanced Case Analysis",
+     "route": "/courses/div-a03-intersectional-discrimination",
+     "note": "University-hosted original article on structural and political intersectionality. Its specific context should not be flattened into a universal identity checklist.",
+     "role": "course source"
+    }
+   ]
+  },
+  {
    "sourceId": "route:/c/critical-incidents-in-the-work",
    "title": "Critical-incident method (write what happened)",
    "href": "/c/critical-incidents-in-the-work",
@@ -8548,6 +9016,42 @@
    ]
   },
   {
+   "sourceId": "url:https://pubmed.ncbi.nlm.nih.gov/16737373",
+   "title": "Czopp, Monteith, and Mark (2006): Standing up for a change",
+   "href": "https://pubmed.ncbi.nlm.nih.gov/16737373/",
+   "host": "pubmed.ncbi.nlm.nih.gov",
+   "kind": "external",
+   "verification": "cited_unverified",
+   "citations": [
+    {
+     "resourceType": "authored_course",
+     "resourceId": "div-i10-receiving-feedback",
+     "resourceTitle": "Receiving Feedback About Bias Without Deflection",
+     "route": "/courses/div-i10-receiving-feedback",
+     "note": "Experiments found that confrontation could reduce later stereotypic responding even when reactions were uncomfortable. This is not proof that every confrontation is effective or safe.",
+     "role": "course source"
+    }
+   ]
+  },
+  {
+   "sourceId": "url:https://bear.warrington.ufl.edu/brenner/mar7588/Papers/darley-gross-jpsp1983.pdf",
+   "title": "Darley and Gross (1983): A hypothesis-confirming bias in labeling effects",
+   "href": "https://bear.warrington.ufl.edu/brenner/mar7588/Papers/darley-gross-jpsp1983.pdf",
+   "host": "bear.warrington.ufl.edu",
+   "kind": "external",
+   "verification": "cited_unverified",
+   "citations": [
+    {
+     "resourceType": "authored_course",
+     "resourceId": "div-i02-ambiguous-bias",
+     "resourceTitle": "Bias in Ambiguous Situations: Attribution, Confirmation, and Affinity",
+     "route": "/courses/div-i02-ambiguous-bias",
+     "note": "Experiment on how background information shaped interpretation of ambiguous performance; not a measure of any individual employee's bias.",
+     "role": "course source"
+    }
+   ]
+  },
+  {
    "sourceId": "url:https://mn.gov/dct/assets/2026-02-10-tort-statute-revision-fact-sheet_tcm1217-725916.pdf",
    "title": "DCT: 2026 legislative fast facts on agency separation",
    "href": "https://mn.gov/dct/assets/2026-02-10-tort-statute-revision-fact-sheet_tcm1217-725916.pdf",
@@ -8582,6 +9086,42 @@
      "route": "/understanding-dhs#dcyf",
      "note": "",
      "role": "reference source"
+    }
+   ]
+  },
+  {
+   "sourceId": "url:https://pubmed.ncbi.nlm.nih.gov/23524616",
+   "title": "Devine and colleagues (2012), Long-term reduction in implicit race bias",
+   "href": "https://pubmed.ncbi.nlm.nih.gov/23524616/",
+   "host": "pubmed.ncbi.nlm.nih.gov",
+   "kind": "external",
+   "verification": "cited_unverified",
+   "citations": [
+    {
+     "resourceType": "authored_course",
+     "resourceId": "div-a08-bias-reduction-interventions",
+     "resourceTitle": "Designing and Testing Bias-Reduction Interventions",
+     "route": "/courses/div-a08-bias-reduction-interventions",
+     "note": "Abstract and citation record. Primary habit-breaking intervention study; findings are specific to its design and measures, not a guarantee of workplace behavioral change.",
+     "role": "course source"
+    }
+   ]
+  },
+  {
+   "sourceId": "url:https://pmc.ncbi.nlm.nih.gov/articles/PMC3603687",
+   "title": "Devine and colleagues (2012), open full text",
+   "href": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3603687/",
+   "host": "pmc.ncbi.nlm.nih.gov",
+   "kind": "external",
+   "verification": "cited_unverified",
+   "citations": [
+    {
+     "resourceType": "authored_course",
+     "resourceId": "div-a08-bias-reduction-interventions",
+     "resourceTitle": "Designing and Testing Bias-Reduction Interventions",
+     "route": "/courses/div-a08-bias-reduction-interventions",
+     "note": "Open-access primary article for examining methods and limits directly; optional further reading.",
+     "role": "course source"
     }
    ]
   },
@@ -9020,6 +9560,78 @@
    ]
   },
   {
+   "sourceId": "url:https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1527-2001.2011.01177.x",
+   "title": "Dotson (2011), Tracking Epistemic Violence, Tracking Practices of Silencing",
+   "href": "https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1527-2001.2011.01177.x",
+   "host": "onlinelibrary.wiley.com",
+   "kind": "external",
+   "verification": "cited_unverified",
+   "citations": [
+    {
+     "resourceType": "authored_course",
+     "resourceId": "div-a04-epistemic-injustice",
+     "resourceTitle": "Epistemic Injustice: Whose Knowledge Counts?",
+     "route": "/courses/div-a04-epistemic-injustice",
+     "note": "Publisher record; full-text access may depend on the publisher or your library. Primary philosophical analysis of silencing. Silence in a particular workplace cannot be diagnosed from this framework alone.",
+     "role": "course source"
+    }
+   ]
+  },
+  {
+   "sourceId": "url:https://pubmed.ncbi.nlm.nih.gov/11273391",
+   "title": "Dovidio and Gaertner (2000), Aversive racism and selection decisions",
+   "href": "https://pubmed.ncbi.nlm.nih.gov/11273391/",
+   "host": "pubmed.ncbi.nlm.nih.gov",
+   "kind": "external",
+   "verification": "cited_unverified",
+   "citations": [
+    {
+     "resourceType": "authored_course",
+     "resourceId": "div-a01-aversive-racism",
+     "resourceTitle": "Aversive Racism and Discrimination Under Ambiguity",
+     "route": "/courses/div-a01-aversive-racism",
+     "note": "Abstract and citation record. Experimental selection research supports examining ambiguous decisions; simulated decisions do not diagnose individual staff.",
+     "role": "course source"
+    }
+   ]
+  },
+  {
+   "sourceId": "url:https://cpi.stanford.edu/_media/pdf/Reference%20Media/Dovidio_Gaertner_2000_Discrimination.pdf",
+   "title": "Dovidio and Gaertner, full article",
+   "href": "https://cpi.stanford.edu/_media/pdf/Reference%20Media/Dovidio_Gaertner_2000_Discrimination.pdf",
+   "host": "cpi.stanford.edu",
+   "kind": "external",
+   "verification": "cited_unverified",
+   "citations": [
+    {
+     "resourceType": "authored_course",
+     "resourceId": "div-a01-aversive-racism",
+     "resourceTitle": "Aversive Racism and Discrimination Under Ambiguity",
+     "route": "/courses/div-a01-aversive-racism",
+     "note": "University-hosted full primary article for optional examination of the study design and limits.",
+     "role": "course source"
+    }
+   ]
+  },
+  {
+   "sourceId": "url:https://pubmed.ncbi.nlm.nih.gov/11811635",
+   "title": "Dovidio, Kawakami, and Gaertner (2002), Implicit and explicit prejudice and interracial interaction",
+   "href": "https://pubmed.ncbi.nlm.nih.gov/11811635/",
+   "host": "pubmed.ncbi.nlm.nih.gov",
+   "kind": "external",
+   "verification": "cited_unverified",
+   "citations": [
+    {
+     "resourceType": "authored_course",
+     "resourceId": "div-a01-aversive-racism",
+     "resourceTitle": "Aversive Racism and Discrimination Under Ambiguity",
+     "route": "/courses/div-a01-aversive-racism",
+     "note": "Abstract and citation record. Primary interaction study. Measures and impressions are context-dependent; workplace exercises here are program-authored applications.",
+     "role": "course source"
+    }
+   ]
+  },
+  {
    "sourceId": "url:https://disabilityhubmn.org/for-professionals/work/e1mn-partnership",
    "title": "E1MN partnership — Disability Hub MN",
    "href": "https://disabilityhubmn.org/for-professionals/work/e1mn-partnership/",
@@ -9200,6 +9812,24 @@
    ]
   },
   {
+   "sourceId": "url:https://www.tandfonline.com/doi/full/10.1080/23743603.2018.1559647",
+   "title": "Flore, Mulder, and Wicherts: Registered report on mathematics test scores",
+   "href": "https://www.tandfonline.com/doi/full/10.1080/23743603.2018.1559647",
+   "host": "www.tandfonline.com",
+   "kind": "external",
+   "verification": "cited_unverified",
+   "citations": [
+    {
+     "resourceType": "authored_course",
+     "resourceId": "div-i03-identity-safety",
+     "resourceTitle": "Stereotype Threat and Identity Safety",
+     "route": "/courses/div-i03-identity-safety",
+     "note": "A large registered study in Dutch schools did not find the predicted overall stereotype-threat effect. Population and task matter.",
+     "role": "course source"
+    }
+   ]
+  },
+  {
    "sourceId": "route:/ci/french",
    "title": "French-speaking Minnesota — full reference brief",
    "href": "/ci/french",
@@ -9213,6 +9843,42 @@
      "resourceTitle": "French-speaking Minnesota",
      "route": "/courses/cultural-intelligence-french",
      "note": "The complete reference reader behind this compact learning path.",
+     "role": "course source"
+    }
+   ]
+  },
+  {
+   "sourceId": "url:https://academic.oup.com/book/32817",
+   "title": "Fricker (2007), Epistemic Injustice: Power and the Ethics of Knowing",
+   "href": "https://academic.oup.com/book/32817",
+   "host": "academic.oup.com",
+   "kind": "external",
+   "verification": "cited_unverified",
+   "citations": [
+    {
+     "resourceType": "authored_course",
+     "resourceId": "div-a04-epistemic-injustice",
+     "resourceTitle": "Epistemic Injustice: Whose Knowledge Counts?",
+     "route": "/courses/div-a04-epistemic-injustice",
+     "note": "Primary philosophical framework. The distinction between testimonial and hermeneutical injustice informs the original workplace examples.",
+     "role": "course source"
+    }
+   ]
+  },
+  {
+   "sourceId": "url:https://www.mirandafricker.com/uploads/1/3/6/2/136236203/introduction.pdf",
+   "title": "Fricker, Epistemic Injustice — author-posted introduction",
+   "href": "https://www.mirandafricker.com/uploads/1/3/6/2/136236203/introduction.pdf",
+   "host": "www.mirandafricker.com",
+   "kind": "external",
+   "verification": "cited_unverified",
+   "citations": [
+    {
+     "resourceType": "authored_course",
+     "resourceId": "div-a04-epistemic-injustice",
+     "resourceTitle": "Epistemic Injustice: Whose Knowledge Counts?",
+     "route": "/courses/div-a04-epistemic-injustice",
+     "note": "Open introduction posted by the author. It introduces the book’s concepts; the publisher link is a book record, not an assurance of free access to the complete book.",
      "role": "course source"
     }
    ]
@@ -9290,6 +9956,96 @@
    ]
   },
   {
+   "sourceId": "url:https://harvardlawreview.org/print/no-volume/whiteness-as-property",
+   "title": "Harris (1993), Whiteness as Property",
+   "href": "https://harvardlawreview.org/print/no-volume/whiteness-as-property/",
+   "host": "harvardlawreview.org",
+   "kind": "external",
+   "verification": "cited_unverified",
+   "citations": [
+    {
+     "resourceType": "authored_course",
+     "resourceId": "div-a02-whiteness-institutional-norm",
+     "resourceTitle": "Whiteness as an Institutional Norm: A Critical Examination",
+     "route": "/courses/div-a02-whiteness-institutional-norm",
+     "note": "Foundational legal analysis of racialized value and institutional protection; not a statement of current workplace legal obligations.",
+     "role": "course source"
+    }
+   ]
+  },
+  {
+   "sourceId": "url:https://kristelia.com/wp-content/uploads/2021/12/Harris-Whiteness-as-Property.pdf",
+   "title": "Harris, Whiteness as Property — teaching excerpt",
+   "href": "https://kristelia.com/wp-content/uploads/2021/12/Harris-Whiteness-as-Property.pdf",
+   "host": "kristelia.com",
+   "kind": "external",
+   "verification": "cited_unverified",
+   "citations": [
+    {
+     "resourceType": "authored_course",
+     "resourceId": "div-a02-whiteness-institutional-norm",
+     "resourceTitle": "Whiteness as an Institutional Norm: A Critical Examination",
+     "route": "/courses/div-a02-whiteness-institutional-norm",
+     "note": "Selected passages from the original legal article, hosted as a teaching reading. This is an edited excerpt, not the complete article or current legal guidance.",
+     "role": "course source"
+    }
+   ]
+  },
+  {
+   "sourceId": "url:https://pubmed.ncbi.nlm.nih.gov/16859440",
+   "title": "Haslam (2006), Dehumanization: An Integrative Review",
+   "href": "https://pubmed.ncbi.nlm.nih.gov/16859440/",
+   "host": "pubmed.ncbi.nlm.nih.gov",
+   "kind": "external",
+   "verification": "cited_unverified",
+   "citations": [
+    {
+     "resourceType": "authored_course",
+     "resourceId": "div-a10-moral-exclusion-dehumanization",
+     "resourceTitle": "Moral Exclusion, Dehumanization, and Rehumanization",
+     "route": "/courses/div-a10-moral-exclusion-dehumanization",
+     "note": "Abstract and citation record. Theoretical research review distinguishing forms of dehumanization; not a diagnostic classification for staff.",
+     "role": "course source"
+    }
+   ]
+  },
+  {
+   "sourceId": "url:https://pmc.ncbi.nlm.nih.gov/articles/PMC11083880",
+   "title": "Haslam (2024), Dehumanization and mental health",
+   "href": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11083880/",
+   "host": "pmc.ncbi.nlm.nih.gov",
+   "kind": "external",
+   "verification": "cited_unverified",
+   "citations": [
+    {
+     "resourceType": "authored_course",
+     "resourceId": "div-a10-moral-exclusion-dehumanization",
+     "resourceTitle": "Moral Exclusion, Dehumanization, and Rehumanization",
+     "route": "/courses/div-a10-moral-exclusion-dehumanization",
+     "note": "Open author editorial on everyday dehumanization and agency. Its clinical discussion is contextual reading, not a clinical protocol or evidence that these workplace exercises improve health.",
+     "role": "course source"
+    }
+   ]
+  },
+  {
+   "sourceId": "url:https://pubmed.ncbi.nlm.nih.gov/23808915",
+   "title": "Haslam and Loughnan (2014), Dehumanization and infrahumanization",
+   "href": "https://pubmed.ncbi.nlm.nih.gov/23808915/",
+   "host": "pubmed.ncbi.nlm.nih.gov",
+   "kind": "external",
+   "verification": "cited_unverified",
+   "citations": [
+    {
+     "resourceType": "authored_course",
+     "resourceId": "div-a10-moral-exclusion-dehumanization",
+     "resourceTitle": "Moral Exclusion, Dehumanization, and Rehumanization",
+     "route": "/courses/div-a10-moral-exclusion-dehumanization",
+     "note": "Abstract and citation record. Research review covering mechanisms, evidence, and limitations. No single wording choice establishes a person’s motives.",
+     "role": "course source"
+    }
+   ]
+  },
+  {
    "sourceId": "url:https://mn.gov/dhs/partners-and-providers/news-initiatives-reports-workgroups/long-term-services-and-supports/hcbs-transition/hcbs-toolkit-.jsp",
    "title": "HCBS provider toolkit — informed choice and discussing risk",
    "href": "https://mn.gov/dhs/partners-and-providers/news-initiatives-reports-workgroups/long-term-services-and-supports/hcbs-transition/hcbs-toolkit-.jsp",
@@ -9326,6 +10082,42 @@
    ]
   },
   {
+   "sourceId": "url:https://pubmed.ncbi.nlm.nih.gov/15161402",
+   "title": "Heilman and colleagues (2004): Penalties for success",
+   "href": "https://pubmed.ncbi.nlm.nih.gov/15161402/",
+   "host": "pubmed.ncbi.nlm.nih.gov",
+   "kind": "external",
+   "verification": "cited_unverified",
+   "citations": [
+    {
+     "resourceType": "authored_course",
+     "resourceId": "div-i07-gender-double-binds",
+     "resourceTitle": "Gender Stereotypes and Double Binds",
+     "route": "/courses/div-i07-gender-double-binds",
+     "note": "Experiments on reactions to successful women in male-typed tasks; findings should not be generalized to every individual or every gender identity.",
+     "role": "course source"
+    }
+   ]
+  },
+  {
+   "sourceId": "url:https://thinkculturalhealth.hhs.gov/education/communication-guide",
+   "title": "HHS Think Cultural Health — Communication Guide",
+   "href": "https://thinkculturalhealth.hhs.gov/education/communication-guide",
+   "host": "thinkculturalhealth.hhs.gov",
+   "kind": "external",
+   "verification": "cited_unverified",
+   "citations": [
+    {
+     "resourceType": "authored_course",
+     "resourceId": "div-f03-intercultural-communication",
+     "resourceTitle": "Intercultural Communication Fundamentals",
+     "route": "/courses/div-f03-intercultural-communication",
+     "note": "Public education on cross-cultural communication; original exercises here apply communication questions to staff learning.",
+     "role": "course source"
+    }
+   ]
+  },
+  {
    "sourceId": "route:/ci/hmong",
    "title": "Hmong Minnesota — full reference brief",
    "href": "/ci/hmong",
@@ -9339,6 +10131,42 @@
      "resourceTitle": "Hmong Minnesota",
      "route": "/courses/cultural-intelligence-hmong",
      "note": "The complete reference reader behind this compact learning path.",
+     "role": "course source"
+    }
+   ]
+  },
+  {
+   "sourceId": "url:https://pubmed.ncbi.nlm.nih.gov/22241812",
+   "title": "Howell and Shepperd (2012): Reducing information avoidance through affirmation",
+   "href": "https://pubmed.ncbi.nlm.nih.gov/22241812/",
+   "host": "pubmed.ncbi.nlm.nih.gov",
+   "kind": "external",
+   "verification": "cited_unverified",
+   "citations": [
+    {
+     "resourceType": "authored_course",
+     "resourceId": "div-i10-receiving-feedback",
+     "resourceTitle": "Receiving Feedback About Bias Without Deflection",
+     "route": "/courses/div-i10-receiving-feedback",
+     "note": "Studies concern health-risk feedback. The course uses the broader distinction between self-worth and a difficult message as an instructional analogy, not a proven workplace bias intervention.",
+     "role": "course source"
+    }
+   ]
+  },
+  {
+   "sourceId": "url:https://pubmed.ncbi.nlm.nih.gov/16953684",
+   "title": "Hughes and colleagues (2006): Parents' ethnic-racial socialization practices",
+   "href": "https://pubmed.ncbi.nlm.nih.gov/16953684/",
+   "host": "pubmed.ncbi.nlm.nih.gov",
+   "kind": "external",
+   "verification": "cited_unverified",
+   "citations": [
+    {
+     "resourceType": "authored_course",
+     "resourceId": "div-i08-racial-socialization",
+     "resourceTitle": "Racial Socialization: How We Learn Messages About Race",
+     "route": "/courses/div-i08-racial-socialization",
+     "note": "Research review on how families convey messages about ethnicity and race. It does not prescribe a single correct family conversation.",
      "role": "course source"
     }
    ]
@@ -9434,24 +10262,6 @@
    ]
   },
   {
-   "sourceId": "url:https://www.idiinventory.com/idc",
-   "title": "Intercultural Development Continuum — IDI, LLC",
-   "href": "https://www.idiinventory.com/idc",
-   "host": "www.idiinventory.com",
-   "kind": "external",
-   "verification": "cited_unverified",
-   "citations": [
-    {
-     "resourceType": "recovered_course",
-     "resourceId": "what-minimization-does-in-dhs-work",
-     "resourceTitle": "What Minimization Does in DHS Work",
-     "route": "/courses/what-minimization-does-in-dhs-work",
-     "note": "Conceptual map of Denial, Polarization, Minimization, Acceptance, Adaptation. This course does not administer the IDI and does not score anyone.",
-     "role": "course source"
-    }
-   ]
-  },
-  {
    "sourceId": "route:/ci/japanese",
    "title": "Japanese Minnesota — full reference brief",
    "href": "/ci/japanese",
@@ -9542,6 +10352,42 @@
    ]
   },
   {
+   "sourceId": "url:https://krauslab.com/SESexplainJPSP.2009.pdf",
+   "title": "Kraus, Piff, and Keltner (2009): Social class, sense of control, and social explanation",
+   "href": "https://krauslab.com/SESexplainJPSP.2009.pdf",
+   "host": "krauslab.com",
+   "kind": "external",
+   "verification": "cited_unverified",
+   "citations": [
+    {
+     "resourceType": "authored_course",
+     "resourceId": "div-i06-classism",
+     "resourceTitle": "Social Class, Classism, and the Myth of a Level Playing Field",
+     "route": "/courses/div-i06-classism",
+     "note": "Studies of class, perceived control, and explanations of outcomes. Group associations are not fixed traits of individuals.",
+     "role": "course source"
+    }
+   ]
+  },
+  {
+   "sourceId": "url:https://pubmed.ncbi.nlm.nih.gov/27454041",
+   "title": "Lai and colleagues (2016), Reducing implicit racial preferences: II. Intervention effectiveness across time",
+   "href": "https://pubmed.ncbi.nlm.nih.gov/27454041/",
+   "host": "pubmed.ncbi.nlm.nih.gov",
+   "kind": "external",
+   "verification": "cited_unverified",
+   "citations": [
+    {
+     "resourceType": "authored_course",
+     "resourceId": "div-a08-bias-reduction-interventions",
+     "resourceTitle": "Designing and Testing Bias-Reduction Interventions",
+     "route": "/courses/div-a08-bias-reduction-interventions",
+     "note": "Abstract and citation record. Primary comparative intervention research emphasizes distinguishing immediate changes from persistence. It does not support employee scoring.",
+     "role": "course source"
+    }
+   ]
+  },
+  {
    "sourceId": "route:/c/language-access-plan",
    "title": "Language access plan template (Deaf-access shape)",
    "href": "/c/language-access-plan",
@@ -9614,6 +10460,42 @@
    ]
   },
   {
+   "sourceId": "url:https://journals.sagepub.com/doi/10.1177/0021934704273457",
+   "title": "Lesane-Brown and colleagues (2005): Comprehensive Race Socialization Inventory",
+   "href": "https://journals.sagepub.com/doi/10.1177/0021934704273457",
+   "host": "journals.sagepub.com",
+   "kind": "external",
+   "verification": "cited_unverified",
+   "citations": [
+    {
+     "resourceType": "authored_course",
+     "resourceId": "div-i08-racial-socialization",
+     "resourceTitle": "Racial Socialization: How We Learn Messages About Race",
+     "route": "/courses/div-i08-racial-socialization",
+     "note": "An original pilot study of race socialization in Black families. The inventory is not reproduced or used to assess staff.",
+     "role": "course source"
+    }
+   ]
+  },
+  {
+   "sourceId": "url:https://www.sciencedirect.com/science/article/pii/S0022103110001459",
+   "title": "Lev-Ari and Keysar (2010): Accent and credibility",
+   "href": "https://www.sciencedirect.com/science/article/pii/S0022103110001459",
+   "host": "www.sciencedirect.com",
+   "kind": "external",
+   "verification": "cited_unverified",
+   "citations": [
+    {
+     "resourceType": "authored_course",
+     "resourceId": "div-i09-accent-bias",
+     "resourceTitle": "Accent Bias, Linguistic Prejudice, and Credibility",
+     "route": "/courses/div-i09-accent-bias",
+     "note": "Experimental judgments of spoken statements; results do not mean accented speech is less accurate or that all listeners respond identically.",
+     "role": "course source"
+    }
+   ]
+  },
+  {
    "sourceId": "route:/ci/liberian",
    "title": "Liberian Minnesota — full reference brief",
    "href": "/ci/liberian",
@@ -9645,6 +10527,60 @@
      "resourceTitle": "How It Shows Up in Minnesota Human Services",
      "route": "/courses/how-it-shows-up-in-minnesota-human-services",
      "note": "2024 Act; 2025 population-versus-cases figures as published by DCYF in that context.",
+     "role": "course source"
+    }
+   ]
+  },
+  {
+   "sourceId": "url:https://journals.sagepub.com/doi/10.1177/0146167202282010",
+   "title": "Maddox and Gray (2002): Cognitive representations of Black Americans",
+   "href": "https://journals.sagepub.com/doi/10.1177/0146167202282010",
+   "host": "journals.sagepub.com",
+   "kind": "external",
+   "verification": "cited_unverified",
+   "citations": [
+    {
+     "resourceType": "authored_course",
+     "resourceId": "div-i05-colorism",
+     "resourceTitle": "Colorism and Skin-Tone Bias",
+     "route": "/courses/div-i05-colorism",
+     "note": "Experimental work on skin tone and social perception in a specific US context. It does not establish a universal hierarchy across all communities.",
+     "role": "course source"
+    }
+   ]
+  },
+  {
+   "sourceId": "url:https://www.sciencedirect.com/science/article/pii/S0022103121001025",
+   "title": "McCluney and colleagues (2021): Racial codeswitching and perceived professionalism",
+   "href": "https://www.sciencedirect.com/science/article/pii/S0022103121001025",
+   "host": "www.sciencedirect.com",
+   "kind": "external",
+   "verification": "cited_unverified",
+   "citations": [
+    {
+     "resourceType": "authored_course",
+     "resourceId": "div-i04-code-switching",
+     "resourceTitle": "Code-Switching, Identity Concealment, and Authenticity",
+     "route": "/courses/div-i04-code-switching",
+     "note": "Studies of racial codeswitching and observers' professional judgments; not a rule about how any Black employee behaves.",
+     "role": "course source"
+    }
+   ]
+  },
+  {
+   "sourceId": "url:https://sites.santafe.edu/~aaronc/courses/5352/readings/McPherson_Smith-Lovin_Cook_01_BirdsOfAFeature_HomophilyInSocialNetworks.pdf",
+   "title": "McPherson, Smith-Lovin, and Cook (2001), Birds of a Feather: Homophily in Social Networks",
+   "href": "https://sites.santafe.edu/~aaronc/courses/5352/readings/McPherson_Smith-Lovin_Cook_01_BirdsOfAFeature_HomophilyInSocialNetworks.pdf",
+   "host": "sites.santafe.edu",
+   "kind": "external",
+   "verification": "cited_unverified",
+   "citations": [
+    {
+     "resourceType": "authored_course",
+     "resourceId": "div-a07-networks-opportunity-hoarding",
+     "resourceTitle": "Social Networks, Homophily, and Opportunity Hoarding",
+     "route": "/courses/div-a07-networks-opportunity-hoarding",
+     "note": "University-hosted full research review distinguishing network composition and homophily. Workplace allocation exercises are original applications.",
      "role": "course source"
     }
    ]
@@ -10658,6 +11594,24 @@
    ]
   },
   {
+   "sourceId": "url:https://scholar.harvard.edu/files/monk/files/monk_-_skin_tone_stratification_-_sf.pdf",
+   "title": "Monk (2014): Skin tone stratification among Black Americans",
+   "href": "https://scholar.harvard.edu/files/monk/files/monk_-_skin_tone_stratification_-_sf.pdf",
+   "host": "scholar.harvard.edu",
+   "kind": "external",
+   "verification": "cited_unverified",
+   "citations": [
+    {
+     "resourceType": "authored_course",
+     "resourceId": "div-i05-colorism",
+     "resourceTitle": "Colorism and Skin-Tone Bias",
+     "route": "/courses/div-i05-colorism",
+     "note": "Population research on skin tone and social stratification; associations are not individual predictions or grounds for classifying staff.",
+     "role": "course source"
+    }
+   ]
+  },
+  {
    "sourceId": "url:https://www.mprnews.org/episode/2025/11/04/minnesotas-housing-stabilization-program-has-ended-what-happens-to-minnesotans-that-used-it",
    "title": "MPR News, on the end of a Minnesota Medicaid-funded housing program",
    "href": "https://www.mprnews.org/episode/2025/11/04/minnesotas-housing-stabilization-program-has-ended-what-happens-to-minnesotans-that-used-it",
@@ -10856,6 +11810,24 @@
    ]
   },
   {
+   "sourceId": "url:https://doi.org/10.1037/1089-2680.2.2.175",
+   "title": "Nickerson (1998): Confirmation bias",
+   "href": "https://doi.org/10.1037/1089-2680.2.2.175",
+   "host": "doi.org",
+   "kind": "external",
+   "verification": "cited_unverified",
+   "citations": [
+    {
+     "resourceType": "authored_course",
+     "resourceId": "div-i02-ambiguous-bias",
+     "resourceTitle": "Bias in Ambiguous Situations: Attribution, Confirmation, and Affinity",
+     "route": "/courses/div-i02-ambiguous-bias",
+     "note": "Review of how people seek and interpret evidence in ways that favor an existing belief.",
+     "role": "course source"
+    }
+   ]
+  },
+  {
    "sourceId": "route:/ci/nigerian",
    "title": "Nigerian Minnesota — full reference brief",
    "href": "/ci/nigerian",
@@ -10869,6 +11841,24 @@
      "resourceTitle": "Nigerian Minnesota",
      "route": "/courses/cultural-intelligence-nigerian",
      "note": "The complete reference reader behind this compact learning path.",
+     "role": "course source"
+    }
+   ]
+  },
+  {
+   "sourceId": "url:https://pubmed.ncbi.nlm.nih.gov/17200221",
+   "title": "Nunez-Smith and colleagues (2007), Impact of race on the professional lives of physicians of African descent",
+   "href": "https://pubmed.ncbi.nlm.nih.gov/17200221/",
+   "host": "pubmed.ncbi.nlm.nih.gov",
+   "kind": "external",
+   "verification": "cited_unverified",
+   "citations": [
+    {
+     "resourceType": "authored_course",
+     "resourceId": "div-a05-racial-battle-fatigue",
+     "resourceTitle": "Racial Battle Fatigue and Cumulative Identity-Related Stress",
+     "route": "/courses/div-a05-racial-battle-fatigue",
+     "note": "Abstract and citation record. Primary qualitative workplace research describing racialized professional experiences and fatigue. It does not justify individual clinical conclusions.",
      "role": "course source"
     }
    ]
@@ -10982,6 +11972,24 @@
    ]
   },
   {
+   "sourceId": "url:https://spssi.onlinelibrary.wiley.com/doi/10.1111/j.1540-4560.1990.tb00268.x",
+   "title": "Opotow (1990), Moral Exclusion and Injustice: An Introduction",
+   "href": "https://spssi.onlinelibrary.wiley.com/doi/10.1111/j.1540-4560.1990.tb00268.x",
+   "host": "spssi.onlinelibrary.wiley.com",
+   "kind": "external",
+   "verification": "cited_unverified",
+   "citations": [
+    {
+     "resourceType": "authored_course",
+     "resourceId": "div-a10-moral-exclusion-dehumanization",
+     "resourceTitle": "Moral Exclusion, Dehumanization, and Rehumanization",
+     "route": "/courses/div-a10-moral-exclusion-dehumanization",
+     "note": "Publisher record; full-text access may depend on the publisher or your library. Foundational theoretical account of the scope of moral concern. Workplace cases are original applications, not claims about particular employees.",
+     "role": "course source"
+    }
+   ]
+  },
+  {
    "sourceId": "route:/ci/oromo",
    "title": "Oromo Minnesota — full reference brief",
    "href": "/ci/oromo",
@@ -11013,6 +12021,24 @@
      "resourceTitle": "Employee Viewpoint and Well-Being Surveys",
      "route": "/courses/employee-viewpoint-and-wellbeing-surveys",
      "note": "The blend trap — applied here to people data.",
+     "role": "course source"
+    }
+   ]
+  },
+  {
+   "sourceId": "url:https://www.cambridge.org/core/journals/behavioural-public-policy/article/contact-hypothesis-reevaluated/142C913E7FA9E121277B29E994124EC5",
+   "title": "Paluck, Green, and Green (2019), The contact hypothesis re-evaluated",
+   "href": "https://www.cambridge.org/core/journals/behavioural-public-policy/article/contact-hypothesis-reevaluated/142C913E7FA9E121277B29E994124EC5",
+   "host": "www.cambridge.org",
+   "kind": "external",
+   "verification": "cited_unverified",
+   "citations": [
+    {
+     "resourceType": "authored_course",
+     "resourceId": "div-a09-intergroup-contact",
+     "resourceTitle": "Intergroup Contact: Conditions, Power, and Unintended Effects",
+     "route": "/courses/div-a09-intergroup-contact",
+     "note": "Review of randomized studies with delayed outcomes, including important limits on generalization.",
      "role": "course source"
     }
    ]
@@ -11054,6 +12080,60 @@
    ]
   },
   {
+   "sourceId": "url:https://pubmed.ncbi.nlm.nih.gov/19586161",
+   "title": "Pascoe and Smart Richman (2009), Perceived discrimination and health",
+   "href": "https://pubmed.ncbi.nlm.nih.gov/19586161/",
+   "host": "pubmed.ncbi.nlm.nih.gov",
+   "kind": "external",
+   "verification": "cited_unverified",
+   "citations": [
+    {
+     "resourceType": "authored_course",
+     "resourceId": "div-a05-racial-battle-fatigue",
+     "resourceTitle": "Racial Battle Fatigue and Cumulative Identity-Related Stress",
+     "route": "/courses/div-a05-racial-battle-fatigue",
+     "note": "Abstract and citation record. Research synthesis provides context for discrimination-health associations, not a clinical screening or causal diagnosis of an individual.",
+     "role": "course source"
+    }
+   ]
+  },
+  {
+   "sourceId": "url:https://pmc.ncbi.nlm.nih.gov/articles/PMC2747726",
+   "title": "Pascoe and Smart Richman, open full review",
+   "href": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2747726/",
+   "host": "pmc.ncbi.nlm.nih.gov",
+   "kind": "external",
+   "verification": "cited_unverified",
+   "citations": [
+    {
+     "resourceType": "authored_course",
+     "resourceId": "div-a05-racial-battle-fatigue",
+     "resourceTitle": "Racial Battle Fatigue and Cumulative Identity-Related Stress",
+     "route": "/courses/div-a05-racial-battle-fatigue",
+     "note": "Open research synthesis for optional reading about methods and limits. Associations do not diagnose an individual or establish the cause of a person’s symptoms.",
+     "role": "course source"
+    }
+   ]
+  },
+  {
+   "sourceId": "url:https://www.wcwonline.org/Fact-Sheets-Briefs/white-privilege-unpacking-the-invisible-knapsack-2",
+   "title": "Peggy McIntosh — White Privilege: Unpacking the Invisible Knapsack",
+   "href": "https://www.wcwonline.org/Fact-Sheets-Briefs/white-privilege-unpacking-the-invisible-knapsack-2",
+   "host": "www.wcwonline.org",
+   "kind": "external",
+   "verification": "cited_unverified",
+   "citations": [
+    {
+     "resourceType": "authored_course",
+     "resourceId": "div-f01-white-privilege",
+     "resourceTitle": "Understanding White Privilege",
+     "route": "/courses/div-f01-white-privilege",
+     "note": "Original author resource on unearned racial advantages; a reflective framework, not an assessment of any individual.",
+     "role": "course source"
+    }
+   ]
+  },
+  {
    "sourceId": "route:/",
    "title": "People, Access and Culture program map (this hub)",
    "href": "/",
@@ -11090,6 +12170,42 @@
    ]
   },
   {
+   "sourceId": "url:https://pubmed.ncbi.nlm.nih.gov/16737372",
+   "title": "Pettigrew and Tropp (2006), A meta-analytic test of intergroup contact theory",
+   "href": "https://pubmed.ncbi.nlm.nih.gov/16737372/",
+   "host": "pubmed.ncbi.nlm.nih.gov",
+   "kind": "external",
+   "verification": "cited_unverified",
+   "citations": [
+    {
+     "resourceType": "authored_course",
+     "resourceId": "div-a09-intergroup-contact",
+     "resourceTitle": "Intergroup Contact: Conditions, Power, and Unintended Effects",
+     "route": "/courses/div-a09-intergroup-contact",
+     "note": "Abstract and citation record. Research synthesis supports attention to contact conditions; it does not guarantee the result of a particular workshop.",
+     "role": "course source"
+    }
+   ]
+  },
+  {
+   "sourceId": "url:https://sparq.stanford.edu/sites/g/files/sbiybj19021/files/media/file/pettigrew_tropp_2006_-_intergroup_contact_theory.pdf",
+   "title": "Pettigrew and Tropp (2006), full article",
+   "href": "https://sparq.stanford.edu/sites/g/files/sbiybj19021/files/media/file/pettigrew_tropp_2006_-_intergroup_contact_theory.pdf",
+   "host": "sparq.stanford.edu",
+   "kind": "external",
+   "verification": "cited_unverified",
+   "citations": [
+    {
+     "resourceType": "authored_course",
+     "resourceId": "div-a09-intergroup-contact",
+     "resourceTitle": "Intergroup Contact: Conditions, Power, and Unintended Effects",
+     "route": "/courses/div-a09-intergroup-contact",
+     "note": "University-hosted full research article for optional methods and evidence reading.",
+     "role": "course source"
+    }
+   ]
+  },
+  {
    "sourceId": "url:https://www.phinational.org/",
    "title": "PHI, direct care workforce research",
    "href": "https://www.phinational.org/",
@@ -11121,6 +12237,24 @@
      "resourceTitle": "Intercultural Practice in Public Disability Services",
      "route": "/courses/ipe-01-intercultural-practice",
      "note": "Federal plain-language guidance on writing so that readers can find, understand and use information the first time they read it.",
+     "role": "course source"
+    }
+   ]
+  },
+  {
+   "sourceId": "url:https://implicit.harvard.edu/implicit/ethics.html",
+   "title": "Project Implicit — Ethical considerations",
+   "href": "https://implicit.harvard.edu/implicit/ethics.html",
+   "host": "implicit.harvard.edu",
+   "kind": "external",
+   "verification": "cited_unverified",
+   "citations": [
+    {
+     "resourceType": "authored_course",
+     "resourceId": "div-f05-implicit-bias-iat",
+     "resourceTitle": "Implicit Bias and the Implicit Association Test",
+     "route": "/courses/div-f05-implicit-bias-iat",
+     "note": "Read before choosing to participate in an external IAT; participation and any result remain voluntary.",
      "role": "course source"
     }
    ]
@@ -11180,6 +12314,24 @@
    ]
   },
   {
+   "sourceId": "url:https://rcgd.isr.umich.edu/wp-content/uploads/2018/08/quinn_chaudoir_2009.pdf",
+   "title": "Quinn and Chaudoir (2009): Living with a concealable stigmatized identity",
+   "href": "https://rcgd.isr.umich.edu/wp-content/uploads/2018/08/quinn_chaudoir_2009.pdf",
+   "host": "rcgd.isr.umich.edu",
+   "kind": "external",
+   "verification": "cited_unverified",
+   "citations": [
+    {
+     "resourceType": "authored_course",
+     "resourceId": "div-i04-code-switching",
+     "resourceTitle": "Code-Switching, Identity Concealment, and Authenticity",
+     "route": "/courses/div-i04-code-switching",
+     "note": "Research on identity, anticipated stigma, and well-being. Associations do not make disclosure universally beneficial or concealment a personal defect.",
+     "role": "course source"
+    }
+   ]
+  },
+  {
    "sourceId": "url:https://www.raceforward.org/sites/default/files/RacialJusticeImpactAssessment_v5.pdf",
    "title": "Race Forward — Racial Equity Impact Assessment",
    "href": "https://www.raceforward.org/sites/default/files/RacialJusticeImpactAssessment_v5.pdf",
@@ -11193,6 +12345,42 @@
      "resourceTitle": "Anti-Racism as Ordinary Work",
      "route": "/courses/anti-racism-resource",
      "note": "Method cousin to the DHS Equity Analysis Toolkit.",
+     "role": "course source"
+    }
+   ]
+  },
+  {
+   "sourceId": "url:https://pubmed.ncbi.nlm.nih.gov/36107999",
+   "title": "Rajkumar and colleagues (2022), A causal test of the strength of weak ties",
+   "href": "https://pubmed.ncbi.nlm.nih.gov/36107999/",
+   "host": "pubmed.ncbi.nlm.nih.gov",
+   "kind": "external",
+   "verification": "cited_unverified",
+   "citations": [
+    {
+     "resourceType": "authored_course",
+     "resourceId": "div-a07-networks-opportunity-hoarding",
+     "resourceTitle": "Social Networks, Homophily, and Opportunity Hoarding",
+     "route": "/courses/div-a07-networks-opportunity-hoarding",
+     "note": "Abstract and citation record. Primary experiment on a professional-network platform; its effects do not guarantee results from internal networking programs.",
+     "role": "course source"
+    }
+   ]
+  },
+  {
+   "sourceId": "url:https://journals.sagepub.com/doi/10.1177/0003122418822335",
+   "title": "Ray (2019), A Theory of Racialized Organizations",
+   "href": "https://journals.sagepub.com/doi/10.1177/0003122418822335",
+   "host": "journals.sagepub.com",
+   "kind": "external",
+   "verification": "cited_unverified",
+   "citations": [
+    {
+     "resourceType": "authored_course",
+     "resourceId": "div-a02-whiteness-institutional-norm",
+     "resourceTitle": "Whiteness as an Institutional Norm: A Critical Examination",
+     "route": "/courses/div-a02-whiteness-institutional-norm",
+     "note": "Publisher record; full-text access may depend on the publisher or your library. Organizational theory supports examining resources, agency, credentials, and formal-practice gaps. Local applications require local evidence.",
      "role": "course source"
     }
    ]
@@ -11247,6 +12435,24 @@
      "resourceTitle": "The Record",
      "route": "/courses/the-record",
      "note": "Federal housing policy, redlining, covenants. Evidence for the housing mechanism.",
+     "role": "course source"
+    }
+   ]
+  },
+  {
+   "sourceId": "url:https://eric.ed.gov/?id=EJ448823",
+   "title": "Rubin (1992): Nonlanguage factors in judgments of teaching assistants",
+   "href": "https://eric.ed.gov/?id=EJ448823",
+   "host": "eric.ed.gov",
+   "kind": "external",
+   "verification": "cited_unverified",
+   "citations": [
+    {
+     "resourceType": "authored_course",
+     "resourceId": "div-i09-accent-bias",
+     "resourceTitle": "Accent Bias, Linguistic Prejudice, and Credibility",
+     "route": "/courses/div-i09-accent-bias",
+     "note": "Original studies examining how expectations and ethnicity cues shaped student judgments. The research concerns a specific educational setting.",
      "role": "course source"
     }
    ]
@@ -11450,6 +12656,24 @@
    ]
   },
   {
+   "sourceId": "url:https://journals.sagepub.com/doi/abs/10.1177/0002764207307742",
+   "title": "Smith, Allen, and Danley (2007), Assume the Position… You Fit the Description",
+   "href": "https://journals.sagepub.com/doi/abs/10.1177/0002764207307742",
+   "host": "journals.sagepub.com",
+   "kind": "external",
+   "verification": "cited_unverified",
+   "citations": [
+    {
+     "resourceType": "authored_course",
+     "resourceId": "div-a05-racial-battle-fatigue",
+     "resourceTitle": "Racial Battle Fatigue and Cumulative Identity-Related Stress",
+     "route": "/courses/div-a05-racial-battle-fatigue",
+     "note": "Publisher record; full-text access may depend on the publisher or your library. Primary qualitative research on racial battle fatigue among African American male college students. Its sample and setting do not establish prevalence or diagnosis among DHS staff.",
+     "role": "course source"
+    }
+   ]
+  },
+  {
    "sourceId": "route:/ci/somali",
    "title": "Somali Minnesota — full reference brief",
    "href": "/ci/somali",
@@ -11463,6 +12687,60 @@
      "resourceTitle": "Somali Minnesota",
      "route": "/courses/cultural-intelligence-somali",
      "note": "The complete reference reader behind this compact learning path.",
+     "role": "course source"
+    }
+   ]
+  },
+  {
+   "sourceId": "url:https://pubmed.ncbi.nlm.nih.gov/7473032",
+   "title": "Steele and Aronson (1995): Stereotype threat and intellectual test performance",
+   "href": "https://pubmed.ncbi.nlm.nih.gov/7473032/",
+   "host": "pubmed.ncbi.nlm.nih.gov",
+   "kind": "external",
+   "verification": "cited_unverified",
+   "citations": [
+    {
+     "resourceType": "authored_course",
+     "resourceId": "div-i03-identity-safety",
+     "resourceTitle": "Stereotype Threat and Identity Safety",
+     "route": "/courses/div-i03-identity-safety",
+     "note": "Foundational laboratory experiments with Black college students; these results do not establish a universal effect or explain all group differences.",
+     "role": "course source"
+    }
+   ]
+  },
+  {
+   "sourceId": "url:https://pubmed.ncbi.nlm.nih.gov/22390227",
+   "title": "Stephens and colleagues (2012): Unseen disadvantage",
+   "href": "https://pubmed.ncbi.nlm.nih.gov/22390227/",
+   "host": "pubmed.ncbi.nlm.nih.gov",
+   "kind": "external",
+   "verification": "cited_unverified",
+   "citations": [
+    {
+     "resourceType": "authored_course",
+     "resourceId": "div-i06-classism",
+     "resourceTitle": "Social Class, Classism, and the Myth of a Level Playing Field",
+     "route": "/courses/div-i06-classism",
+     "note": "Studies of first-generation students and institutional norms of independence. Workplace applications here are instructional adaptations, not tested findings from DHS.",
+     "role": "course source"
+    }
+   ]
+  },
+  {
+   "sourceId": "url:https://www.campbellcollaboration.org/review/restorative-justice-conferencing-recidivism-victim-satisfaction",
+   "title": "Strang and colleagues (2013), Restorative justice conferencing systematic review",
+   "href": "https://www.campbellcollaboration.org/review/restorative-justice-conferencing-recidivism-victim-satisfaction/",
+   "host": "www.campbellcollaboration.org",
+   "kind": "external",
+   "verification": "cited_unverified",
+   "citations": [
+    {
+     "resourceType": "authored_course",
+     "resourceId": "div-a06-restorative-identity-harm",
+     "resourceTitle": "Restorative Responses to Identity-Based Harm",
+     "route": "/courses/div-a06-restorative-identity-harm",
+     "note": "Research review on face-to-face criminal-justice conferencing. Outcomes in those studies are not evidence that a workplace identity-harm meeting will be effective or appropriate.",
      "role": "course source"
     }
    ]
@@ -11517,6 +12795,42 @@
      "resourceTitle": "Trauma-Responsive Public Administration",
      "route": "/courses/ipe-25-trauma-responsive-administration",
      "note": "Federal overview of trauma, including the distinction between clinical treatment, which belongs to licensed practitioners, and organizational practices that reduce the chance of a system re-creating harm.",
+     "role": "course source"
+    }
+   ]
+  },
+  {
+   "sourceId": "url:https://www.uwindsor.ca/psychology/sites/uwindsor.ca.psychology/files/sue_et_al._2007_microaggression_in_everyday_life_implications_for_clinical_practice.pdf",
+   "title": "Sue and colleagues (2007) — Racial microaggressions in everyday life",
+   "href": "https://www.uwindsor.ca/psychology/sites/uwindsor.ca.psychology/files/sue_et_al._2007_microaggression_in_everyday_life_implications_for_clinical_practice.pdf",
+   "host": "www.uwindsor.ca",
+   "kind": "external",
+   "verification": "cited_unverified",
+   "citations": [
+    {
+     "resourceType": "authored_course",
+     "resourceId": "div-f02-microaggressions",
+     "resourceTitle": "Microaggressions: Recognition, Intent, and Impact",
+     "route": "/courses/div-f02-microaggressions",
+     "note": "Original conceptual paper; its clinical context is distinct from the original workplace exercises in this course.",
+     "role": "course source"
+    }
+   ]
+  },
+  {
+   "sourceId": "url:https://pubmed.ncbi.nlm.nih.gov/30652905",
+   "title": "Sue and colleagues (2019): Disarming racial microaggressions",
+   "href": "https://pubmed.ncbi.nlm.nih.gov/30652905/",
+   "host": "pubmed.ncbi.nlm.nih.gov",
+   "kind": "external",
+   "verification": "cited_unverified",
+   "citations": [
+    {
+     "resourceType": "authored_course",
+     "resourceId": "div-i01-microinterventions",
+     "resourceTitle": "Responding to Microaggressions: Microintervention Practice",
+     "route": "/courses/div-i01-microinterventions",
+     "note": "The authors propose a microintervention framework. It is a practice framework, not proof that every response works in every setting.",
      "role": "course source"
     }
    ]
@@ -11590,6 +12904,24 @@
      "route": "/learn",
      "note": "",
      "role": "link list (readingLinks)"
+    }
+   ]
+  },
+  {
+   "sourceId": "url:https://pubmed.ncbi.nlm.nih.gov/16313659",
+   "title": "Tropp and Pettigrew (2005), Relationships between intergroup contact and prejudice among minority and majority status groups",
+   "href": "https://pubmed.ncbi.nlm.nih.gov/16313659/",
+   "host": "pubmed.ncbi.nlm.nih.gov",
+   "kind": "external",
+   "verification": "cited_unverified",
+   "citations": [
+    {
+     "resourceType": "authored_course",
+     "resourceId": "div-a09-intergroup-contact",
+     "resourceTitle": "Intergroup Contact: Conditions, Power, and Unintended Effects",
+     "route": "/courses/div-a09-intergroup-contact",
+     "note": "Abstract and citation record. Research on differing relationships across group status; used to prompt examination of unequal benefits and burdens.",
+     "role": "course source"
     }
    ]
   },
@@ -11684,6 +13016,24 @@
    ]
   },
   {
+   "sourceId": "url:https://belonging.berkeley.edu/belongingdesignprinciples",
+   "title": "UC Berkeley Othering & Belonging Institute — Belonging design principles",
+   "href": "https://belonging.berkeley.edu/belongingdesignprinciples",
+   "host": "belonging.berkeley.edu",
+   "kind": "external",
+   "verification": "cited_unverified",
+   "citations": [
+    {
+     "resourceType": "authored_course",
+     "resourceId": "div-f06-social-identity",
+     "resourceTitle": "Social Identity, Group Membership, and Belonging",
+     "route": "/courses/div-f06-social-identity",
+     "note": "Institutional belonging and co-creation; not an individual diagnostic scale.",
+     "role": "course source"
+    }
+   ]
+  },
+  {
    "sourceId": "url:https://www.ucare.org/",
    "title": "UCare — Circles of Health, Minnesota Somali communities (2020)",
    "href": "https://www.ucare.org/",
@@ -11751,6 +13101,24 @@
      "resourceTitle": "Intercultural Competence without a Score",
      "route": "/courses/intercultural-competence-without-a-score",
      "note": "Evidence. Not a DHS badge.",
+     "role": "course source"
+    }
+   ]
+  },
+  {
+   "sourceId": "url:https://www.unodc.org/documents/justice-and-prison-reform/20-01146_Handbook_on_Restorative_Justice_Programmes.pdf",
+   "title": "UNODC (2020), Handbook on Restorative Justice Programmes, second edition",
+   "href": "https://www.unodc.org/documents/justice-and-prison-reform/20-01146_Handbook_on_Restorative_Justice_Programmes.pdf",
+   "host": "www.unodc.org",
+   "kind": "external",
+   "verification": "cited_unverified",
+   "citations": [
+    {
+     "resourceType": "authored_course",
+     "resourceId": "div-a06-restorative-identity-harm",
+     "resourceTitle": "Restorative Responses to Identity-Based Harm",
+     "route": "/courses/div-a06-restorative-identity-harm",
+     "note": "Authoritative guidance on voluntary participation, safeguards, and program design. Its justice-system context is distinct from these program-authored workplace exercises.",
      "role": "course source"
     }
    ]
@@ -12024,9 +13392,42 @@
      "role": "course source"
     }
    ]
+  },
+  {
+   "sourceId": "url:https://www.apa.org/education-career/ce/microaggressions-bystander-intervention.pdf",
+   "title": "Xie and Galliher (2023): Social cost of bystander intervention strategies",
+   "href": "https://www.apa.org/education-career/ce/microaggressions-bystander-intervention.pdf",
+   "host": "www.apa.org",
+   "kind": "external",
+   "verification": "cited_unverified",
+   "citations": [
+    {
+     "resourceType": "authored_course",
+     "resourceId": "div-i01-microinterventions",
+     "resourceTitle": "Responding to Microaggressions: Microintervention Practice",
+     "route": "/courses/div-i01-microinterventions",
+     "note": "Research on how observers evaluate intervention strategies; effects and costs depend on context.",
+     "role": "course source"
+    }
+   ]
   }
  ],
  "resources": [
+  {
+   "resourceType": "authored_course",
+   "resourceId": "div-i09-accent-bias",
+   "title": "Accent Bias, Linguistic Prejudice, and Credibility",
+   "route": "/courses/div-i09-accent-bias",
+   "sourceIds": [
+    "url:https://www.sciencedirect.com/science/article/pii/S0022103110001459",
+    "url:https://eric.ed.gov/?id=EJ448823"
+   ],
+   "externalCount": 2,
+   "programDocumentCount": 0,
+   "programRouteCount": 0,
+   "placeholderCount": 0,
+   "links": []
+  },
   {
    "resourceType": "authored_course",
    "resourceId": "di-access-needs-and-individualized-support",
@@ -12247,6 +13648,22 @@
   },
   {
    "resourceType": "authored_course",
+   "resourceId": "div-a01-aversive-racism",
+   "title": "Aversive Racism and Discrimination Under Ambiguity",
+   "route": "/courses/div-a01-aversive-racism",
+   "sourceIds": [
+    "url:https://pubmed.ncbi.nlm.nih.gov/11273391",
+    "url:https://pubmed.ncbi.nlm.nih.gov/11811635",
+    "url:https://cpi.stanford.edu/_media/pdf/Reference%20Media/Dovidio_Gaertner_2000_Discrimination.pdf"
+   ],
+   "externalCount": 3,
+   "programDocumentCount": 0,
+   "programRouteCount": 0,
+   "placeholderCount": 0,
+   "links": []
+  },
+  {
+   "resourceType": "authored_course",
    "resourceId": "dsd-06-benefits-assets-economic",
    "title": "Benefits, Assets and Economic Stability",
    "route": "/courses/dsd-06-benefits-assets-economic",
@@ -12259,6 +13676,21 @@
     "url:https://www.nationaldisabilityinstitute.org/"
    ],
    "externalCount": 6,
+   "programDocumentCount": 0,
+   "programRouteCount": 0,
+   "placeholderCount": 0,
+   "links": []
+  },
+  {
+   "resourceType": "authored_course",
+   "resourceId": "div-i02-ambiguous-bias",
+   "title": "Bias in Ambiguous Situations: Attribution, Confirmation, and Affinity",
+   "route": "/courses/div-i02-ambiguous-bias",
+   "sourceIds": [
+    "url:https://doi.org/10.1037/1089-2680.2.2.175",
+    "url:https://bear.warrington.ufl.edu/brenner/mar7588/Papers/darley-gross-jpsp1983.pdf"
+   ],
+   "externalCount": 2,
    "programDocumentCount": 0,
    "programRouteCount": 0,
    "placeholderCount": 0,
@@ -12424,6 +13856,36 @@
   },
   {
    "resourceType": "authored_course",
+   "resourceId": "div-i04-code-switching",
+   "title": "Code-Switching, Identity Concealment, and Authenticity",
+   "route": "/courses/div-i04-code-switching",
+   "sourceIds": [
+    "url:https://www.sciencedirect.com/science/article/pii/S0022103121001025",
+    "url:https://rcgd.isr.umich.edu/wp-content/uploads/2018/08/quinn_chaudoir_2009.pdf"
+   ],
+   "externalCount": 2,
+   "programDocumentCount": 0,
+   "programRouteCount": 0,
+   "placeholderCount": 0,
+   "links": []
+  },
+  {
+   "resourceType": "authored_course",
+   "resourceId": "div-i05-colorism",
+   "title": "Colorism and Skin-Tone Bias",
+   "route": "/courses/div-i05-colorism",
+   "sourceIds": [
+    "url:https://scholar.harvard.edu/files/monk/files/monk_-_skin_tone_stratification_-_sf.pdf",
+    "url:https://journals.sagepub.com/doi/10.1177/0146167202282010"
+   ],
+   "externalCount": 2,
+   "programDocumentCount": 0,
+   "programRouteCount": 0,
+   "placeholderCount": 0,
+   "links": []
+  },
+  {
+   "resourceType": "authored_course",
    "resourceId": "dsd-12-communication-methods",
    "title": "Communication Methods and Access",
    "route": "/courses/dsd-12-communication-methods",
@@ -12535,6 +13997,22 @@
   },
   {
    "resourceType": "authored_course",
+   "resourceId": "div-f04-cultural-values",
+   "title": "Cultural Values and Worldviews",
+   "route": "/courses/div-f04-cultural-values",
+   "sourceIds": [
+    "url:https://unesdoc.unesco.org/ark:/48223/pf0000219768",
+    "url:https://unesdoc.unesco.org/ark:/48223/pf0000370336",
+    "url:https://www.idiinventory.com/idc"
+   ],
+   "externalCount": 3,
+   "programDocumentCount": 0,
+   "programRouteCount": 0,
+   "placeholderCount": 0,
+   "links": []
+  },
+  {
+   "resourceType": "authored_course",
    "resourceId": "dsd-05-customized-employment",
    "title": "Customized and Competitive Integrated Employment",
    "route": "/courses/dsd-05-customized-employment",
@@ -12580,6 +14058,22 @@
     "url:https://en.wikipedia.org/wiki/Milton_J._Bennett"
    ],
    "externalCount": 2,
+   "programDocumentCount": 0,
+   "programRouteCount": 0,
+   "placeholderCount": 0,
+   "links": []
+  },
+  {
+   "resourceType": "authored_course",
+   "resourceId": "div-a08-bias-reduction-interventions",
+   "title": "Designing and Testing Bias-Reduction Interventions",
+   "route": "/courses/div-a08-bias-reduction-interventions",
+   "sourceIds": [
+    "url:https://pubmed.ncbi.nlm.nih.gov/23524616",
+    "url:https://pubmed.ncbi.nlm.nih.gov/27454041",
+    "url:https://pmc.ncbi.nlm.nih.gov/articles/PMC3603687"
+   ],
+   "externalCount": 3,
    "programDocumentCount": 0,
    "programRouteCount": 0,
    "placeholderCount": 0,
@@ -12759,6 +14253,38 @@
   },
   {
    "resourceType": "authored_course",
+   "resourceId": "div-a04-epistemic-injustice",
+   "title": "Epistemic Injustice: Whose Knowledge Counts?",
+   "route": "/courses/div-a04-epistemic-injustice",
+   "sourceIds": [
+    "url:https://academic.oup.com/book/32817",
+    "url:https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1527-2001.2011.01177.x",
+    "url:https://www.mirandafricker.com/uploads/1/3/6/2/136236203/introduction.pdf"
+   ],
+   "externalCount": 3,
+   "programDocumentCount": 0,
+   "programRouteCount": 0,
+   "placeholderCount": 0,
+   "links": []
+  },
+  {
+   "resourceType": "authored_course",
+   "resourceId": "div-f10-equality-equity-fairness",
+   "title": "Equality, Equity, and Fairness: A Conceptual Introduction",
+   "route": "/courses/div-f10-equality-equity-fairness",
+   "sourceIds": [
+    "url:https://www.ada.gov/topics/intro-to-ada",
+    "url:https://belonging.berkeley.edu/what-is-belonging",
+    "url:https://chicagounbound.uchicago.edu/uclf/vol1989/iss1/8"
+   ],
+   "externalCount": 3,
+   "programDocumentCount": 0,
+   "programRouteCount": 0,
+   "placeholderCount": 0,
+   "links": []
+  },
+  {
+   "resourceType": "authored_course",
    "resourceId": "ipe-30-policy-procedure-governance",
    "title": "Equitable Policy and Procedure Governance",
    "route": "/courses/ipe-30-policy-procedure-governance",
@@ -12822,6 +14348,22 @@
   },
   {
    "resourceType": "authored_course",
+   "resourceId": "div-f08-ethnocentrism",
+   "title": "Ethnocentrism: When My Normal Becomes the Standard",
+   "route": "/courses/div-f08-ethnocentrism",
+   "sourceIds": [
+    "url:https://unesdoc.unesco.org/ark:/48223/pf0000219768",
+    "url:https://www.idiinventory.com/idc",
+    "url:https://unesdoc.unesco.org/ark:/48223/pf0000370336"
+   ],
+   "externalCount": 3,
+   "programDocumentCount": 0,
+   "programRouteCount": 0,
+   "placeholderCount": 0,
+   "links": []
+  },
+  {
+   "resourceType": "authored_course",
    "resourceId": "dsd-07-executive-function-strengths",
    "title": "Executive Function, Strengths and Support Design",
    "route": "/courses/dsd-07-executive-function-strengths",
@@ -12872,6 +14414,21 @@
     "url:https://acl.gov/"
    ],
    "externalCount": 6,
+   "programDocumentCount": 0,
+   "programRouteCount": 0,
+   "placeholderCount": 0,
+   "links": []
+  },
+  {
+   "resourceType": "authored_course",
+   "resourceId": "div-i07-gender-double-binds",
+   "title": "Gender Stereotypes and Double Binds",
+   "route": "/courses/div-i07-gender-double-binds",
+   "sourceIds": [
+    "url:https://pubmed.ncbi.nlm.nih.gov/15161402",
+    "url:https://pubmed.ncbi.nlm.nih.gov/18315800"
+   ],
+   "externalCount": 2,
    "programDocumentCount": 0,
    "programRouteCount": 0,
    "placeholderCount": 0,
@@ -12947,6 +14504,22 @@
     "url:https://mncpd.org/wp-content/uploads/2016/12/MN_Framework_for_Universal_Multicultural_Instructional_Design.pdf"
    ],
    "externalCount": 8,
+   "programDocumentCount": 0,
+   "programRouteCount": 0,
+   "placeholderCount": 0,
+   "links": []
+  },
+  {
+   "resourceType": "authored_course",
+   "resourceId": "div-f05-implicit-bias-iat",
+   "title": "Implicit Bias and the Implicit Association Test",
+   "route": "/courses/div-f05-implicit-bias-iat",
+   "sourceIds": [
+    "url:https://implicit.harvard.edu/implicit/faqs.html",
+    "url:https://implicit.harvard.edu/implicit/ethics.html",
+    "url:https://nobaproject.com/modules/prejudice-discrimination-and-stereotyping"
+   ],
+   "externalCount": 3,
    "programDocumentCount": 0,
    "programRouteCount": 0,
    "placeholderCount": 0,
@@ -13108,6 +14681,22 @@
   },
   {
    "resourceType": "authored_course",
+   "resourceId": "div-f03-intercultural-communication",
+   "title": "Intercultural Communication Fundamentals",
+   "route": "/courses/div-f03-intercultural-communication",
+   "sourceIds": [
+    "url:https://unesdoc.unesco.org/ark:/48223/pf0000219768",
+    "url:https://thinkculturalhealth.hhs.gov/education/communication-guide",
+    "url:https://unesdoc.unesco.org/ark:/48223/pf0000370336"
+   ],
+   "externalCount": 3,
+   "programDocumentCount": 0,
+   "programRouteCount": 0,
+   "placeholderCount": 0,
+   "links": []
+  },
+  {
+   "resourceType": "authored_course",
    "resourceId": "ipe-01-intercultural-practice",
    "title": "Intercultural Practice in Public Disability Services",
    "route": "/courses/ipe-01-intercultural-practice",
@@ -13122,6 +14711,54 @@
     "url:https://idiinventory.com/generalinformation/the-intercultural-development-continuum-idc"
    ],
    "externalCount": 8,
+   "programDocumentCount": 0,
+   "programRouteCount": 0,
+   "placeholderCount": 0,
+   "links": []
+  },
+  {
+   "resourceType": "authored_course",
+   "resourceId": "div-a09-intergroup-contact",
+   "title": "Intergroup Contact: Conditions, Power, and Unintended Effects",
+   "route": "/courses/div-a09-intergroup-contact",
+   "sourceIds": [
+    "url:https://pubmed.ncbi.nlm.nih.gov/16737372",
+    "url:https://www.cambridge.org/core/journals/behavioural-public-policy/article/contact-hypothesis-reevaluated/142C913E7FA9E121277B29E994124EC5",
+    "url:https://pubmed.ncbi.nlm.nih.gov/16313659",
+    "url:https://sparq.stanford.edu/sites/g/files/sbiybj19021/files/media/file/pettigrew_tropp_2006_-_intergroup_contact_theory.pdf"
+   ],
+   "externalCount": 4,
+   "programDocumentCount": 0,
+   "programRouteCount": 0,
+   "placeholderCount": 0,
+   "links": []
+  },
+  {
+   "resourceType": "authored_course",
+   "resourceId": "div-a03-intersectional-discrimination",
+   "title": "Intersectional Discrimination: Advanced Case Analysis",
+   "route": "/courses/div-a03-intersectional-discrimination",
+   "sourceIds": [
+    "url:https://chicagounbound.uchicago.edu/uclf/vol1989/iss1/8",
+    "url:https://evallab.unm.edu/restricted-materials/crenshaw-1991---intersectionality.pdf"
+   ],
+   "externalCount": 2,
+   "programDocumentCount": 0,
+   "programRouteCount": 0,
+   "placeholderCount": 0,
+   "links": []
+  },
+  {
+   "resourceType": "authored_course",
+   "resourceId": "div-f09-intersectionality",
+   "title": "Intersectionality: Understanding Overlapping Experiences",
+   "route": "/courses/div-f09-intersectionality",
+   "sourceIds": [
+    "url:https://chicagounbound.uchicago.edu/uclf/vol1989/iss1/8",
+    "url:https://belonging.berkeley.edu/what-is-belonging",
+    "url:https://www.ada.gov/topics/intro-to-ada"
+   ],
+   "externalCount": 3,
    "programDocumentCount": 0,
    "programRouteCount": 0,
    "placeholderCount": 0,
@@ -13272,6 +14909,38 @@
     "url:https://www.disability.state.mn.us/"
    ],
    "externalCount": 6,
+   "programDocumentCount": 0,
+   "programRouteCount": 0,
+   "placeholderCount": 0,
+   "links": []
+  },
+  {
+   "resourceType": "authored_course",
+   "resourceId": "div-f02-microaggressions",
+   "title": "Microaggressions: Recognition, Intent, and Impact",
+   "route": "/courses/div-f02-microaggressions",
+   "sourceIds": [
+    "url:https://www.apa.org/news/podcasts/speaking-of-psychology/microaggressions",
+    "url:https://www.uwindsor.ca/psychology/sites/uwindsor.ca.psychology/files/sue_et_al._2007_microaggression_in_everyday_life_implications_for_clinical_practice.pdf"
+   ],
+   "externalCount": 2,
+   "programDocumentCount": 0,
+   "programRouteCount": 0,
+   "placeholderCount": 0,
+   "links": []
+  },
+  {
+   "resourceType": "authored_course",
+   "resourceId": "div-a10-moral-exclusion-dehumanization",
+   "title": "Moral Exclusion, Dehumanization, and Rehumanization",
+   "route": "/courses/div-a10-moral-exclusion-dehumanization",
+   "sourceIds": [
+    "url:https://spssi.onlinelibrary.wiley.com/doi/10.1111/j.1540-4560.1990.tb00268.x",
+    "url:https://pubmed.ncbi.nlm.nih.gov/16859440",
+    "url:https://pubmed.ncbi.nlm.nih.gov/23808915",
+    "url:https://pmc.ncbi.nlm.nih.gov/articles/PMC11083880"
+   ],
+   "externalCount": 4,
    "programDocumentCount": 0,
    "programRouteCount": 0,
    "placeholderCount": 0,
@@ -13525,6 +15194,53 @@
   },
   {
    "resourceType": "authored_course",
+   "resourceId": "div-a05-racial-battle-fatigue",
+   "title": "Racial Battle Fatigue and Cumulative Identity-Related Stress",
+   "route": "/courses/div-a05-racial-battle-fatigue",
+   "sourceIds": [
+    "url:https://journals.sagepub.com/doi/abs/10.1177/0002764207307742",
+    "url:https://pubmed.ncbi.nlm.nih.gov/17200221",
+    "url:https://pubmed.ncbi.nlm.nih.gov/19586161",
+    "url:https://pmc.ncbi.nlm.nih.gov/articles/PMC2747726"
+   ],
+   "externalCount": 4,
+   "programDocumentCount": 0,
+   "programRouteCount": 0,
+   "placeholderCount": 0,
+   "links": []
+  },
+  {
+   "resourceType": "authored_course",
+   "resourceId": "div-i08-racial-socialization",
+   "title": "Racial Socialization: How We Learn Messages About Race",
+   "route": "/courses/div-i08-racial-socialization",
+   "sourceIds": [
+    "url:https://pubmed.ncbi.nlm.nih.gov/16953684",
+    "url:https://journals.sagepub.com/doi/10.1177/0021934704273457"
+   ],
+   "externalCount": 2,
+   "programDocumentCount": 0,
+   "programRouteCount": 0,
+   "placeholderCount": 0,
+   "links": []
+  },
+  {
+   "resourceType": "authored_course",
+   "resourceId": "div-i10-receiving-feedback",
+   "title": "Receiving Feedback About Bias Without Deflection",
+   "route": "/courses/div-i10-receiving-feedback",
+   "sourceIds": [
+    "url:https://pubmed.ncbi.nlm.nih.gov/16737373",
+    "url:https://pubmed.ncbi.nlm.nih.gov/22241812"
+   ],
+   "externalCount": 2,
+   "programDocumentCount": 0,
+   "programRouteCount": 0,
+   "placeholderCount": 0,
+   "links": []
+  },
+  {
+   "resourceType": "authored_course",
    "resourceId": "ipe-24-religion-spirituality-practice",
    "title": "Religion, Spirituality, and Cultural Practice",
    "route": "/courses/ipe-24-religion-spirituality-practice",
@@ -13588,6 +15304,21 @@
   },
   {
    "resourceType": "authored_course",
+   "resourceId": "div-i01-microinterventions",
+   "title": "Responding to Microaggressions: Microintervention Practice",
+   "route": "/courses/div-i01-microinterventions",
+   "sourceIds": [
+    "url:https://pubmed.ncbi.nlm.nih.gov/30652905",
+    "url:https://www.apa.org/education-career/ce/microaggressions-bystander-intervention.pdf"
+   ],
+   "externalCount": 2,
+   "programDocumentCount": 0,
+   "programRouteCount": 0,
+   "placeholderCount": 0,
+   "links": []
+  },
+  {
+   "resourceType": "authored_course",
    "resourceId": "ipe-33-responsible-data-evaluation",
    "title": "Responsible Data and Evaluation",
    "route": "/courses/ipe-33-responsible-data-evaluation",
@@ -13602,6 +15333,21 @@
     "url:https://mncpd.org/wp-content/uploads/2016/12/MN_Framework_for_Universal_Multicultural_Instructional_Design.pdf"
    ],
    "externalCount": 8,
+   "programDocumentCount": 0,
+   "programRouteCount": 0,
+   "placeholderCount": 0,
+   "links": []
+  },
+  {
+   "resourceType": "authored_course",
+   "resourceId": "div-a06-restorative-identity-harm",
+   "title": "Restorative Responses to Identity-Based Harm",
+   "route": "/courses/div-a06-restorative-identity-harm",
+   "sourceIds": [
+    "url:https://www.unodc.org/documents/justice-and-prison-reform/20-01146_Handbook_on_Restorative_Justice_Programmes.pdf",
+    "url:https://www.campbellcollaboration.org/review/restorative-justice-conferencing-recidivism-victim-satisfaction"
+   ],
+   "externalCount": 2,
    "programDocumentCount": 0,
    "programRouteCount": 0,
    "placeholderCount": 0,
@@ -13647,6 +15393,52 @@
   },
   {
    "resourceType": "authored_course",
+   "resourceId": "div-i06-classism",
+   "title": "Social Class, Classism, and the Myth of a Level Playing Field",
+   "route": "/courses/div-i06-classism",
+   "sourceIds": [
+    "url:https://krauslab.com/SESexplainJPSP.2009.pdf",
+    "url:https://pubmed.ncbi.nlm.nih.gov/22390227"
+   ],
+   "externalCount": 2,
+   "programDocumentCount": 0,
+   "programRouteCount": 0,
+   "placeholderCount": 0,
+   "links": []
+  },
+  {
+   "resourceType": "authored_course",
+   "resourceId": "div-f06-social-identity",
+   "title": "Social Identity, Group Membership, and Belonging",
+   "route": "/courses/div-f06-social-identity",
+   "sourceIds": [
+    "url:https://belonging.berkeley.edu/what-is-belonging",
+    "url:https://belonging.berkeley.edu/belongingdesignprinciples",
+    "url:https://nobaproject.com/modules/prejudice-discrimination-and-stereotyping"
+   ],
+   "externalCount": 3,
+   "programDocumentCount": 0,
+   "programRouteCount": 0,
+   "placeholderCount": 0,
+   "links": []
+  },
+  {
+   "resourceType": "authored_course",
+   "resourceId": "div-a07-networks-opportunity-hoarding",
+   "title": "Social Networks, Homophily, and Opportunity Hoarding",
+   "route": "/courses/div-a07-networks-opportunity-hoarding",
+   "sourceIds": [
+    "url:https://sites.santafe.edu/~aaronc/courses/5352/readings/McPherson_Smith-Lovin_Cook_01_BirdsOfAFeature_HomophilyInSocialNetworks.pdf",
+    "url:https://pubmed.ncbi.nlm.nih.gov/36107999"
+   ],
+   "externalCount": 2,
+   "programDocumentCount": 0,
+   "programRouteCount": 0,
+   "placeholderCount": 0,
+   "links": []
+  },
+  {
+   "resourceType": "authored_course",
    "resourceId": "cq-southern-asia",
    "title": "Southern Asia: The Spiritual Diversity Cluster",
    "route": "/courses/cq-southern-asia",
@@ -13654,6 +15446,36 @@
     "url:https://culturalq.com/"
    ],
    "externalCount": 1,
+   "programDocumentCount": 0,
+   "programRouteCount": 0,
+   "placeholderCount": 0,
+   "links": []
+  },
+  {
+   "resourceType": "authored_course",
+   "resourceId": "div-i03-identity-safety",
+   "title": "Stereotype Threat and Identity Safety",
+   "route": "/courses/div-i03-identity-safety",
+   "sourceIds": [
+    "url:https://pubmed.ncbi.nlm.nih.gov/7473032",
+    "url:https://www.tandfonline.com/doi/full/10.1080/23743603.2018.1559647"
+   ],
+   "externalCount": 2,
+   "programDocumentCount": 0,
+   "programRouteCount": 0,
+   "placeholderCount": 0,
+   "links": []
+  },
+  {
+   "resourceType": "authored_course",
+   "resourceId": "div-f07-stereotypes-prejudice-discrimination",
+   "title": "Stereotypes, Prejudice, and Discrimination: Understanding the Differences",
+   "route": "/courses/div-f07-stereotypes-prejudice-discrimination",
+   "sourceIds": [
+    "url:https://nobaproject.com/modules/prejudice-discrimination-and-stereotyping",
+    "url:https://implicit.harvard.edu/implicit/faqs.html"
+   ],
+   "externalCount": 2,
    "programDocumentCount": 0,
    "programRouteCount": 0,
    "placeholderCount": 0,
@@ -13776,6 +15598,21 @@
   },
   {
    "resourceType": "authored_course",
+   "resourceId": "div-f01-white-privilege",
+   "title": "Understanding White Privilege",
+   "route": "/courses/div-f01-white-privilege",
+   "sourceIds": [
+    "url:https://www.wcwonline.org/Fact-Sheets-Briefs/white-privilege-unpacking-the-invisible-knapsack-2",
+    "url:https://nobaproject.com/modules/prejudice-discrimination-and-stereotyping"
+   ],
+   "externalCount": 2,
+   "programDocumentCount": 0,
+   "programRouteCount": 0,
+   "placeholderCount": 0,
+   "links": []
+  },
+  {
+   "resourceType": "authored_course",
    "resourceId": "pi-what-fraud-enforcement-costs",
    "title": "What Fraud Enforcement Actually Costs",
    "route": "/courses/pi-what-fraud-enforcement-costs",
@@ -13786,6 +15623,22 @@
     "url:https://www.mprnews.org/episode/2025/11/04/minnesotas-housing-stabilization-program-has-ended-what-happens-to-minnesotans-that-used-it"
    ],
    "externalCount": 4,
+   "programDocumentCount": 0,
+   "programRouteCount": 0,
+   "placeholderCount": 0,
+   "links": []
+  },
+  {
+   "resourceType": "authored_course",
+   "resourceId": "div-a02-whiteness-institutional-norm",
+   "title": "Whiteness as an Institutional Norm: A Critical Examination",
+   "route": "/courses/div-a02-whiteness-institutional-norm",
+   "sourceIds": [
+    "url:https://harvardlawreview.org/print/no-volume/whiteness-as-property",
+    "url:https://journals.sagepub.com/doi/10.1177/0003122418822335",
+    "url:https://kristelia.com/wp-content/uploads/2021/12/Harris-Whiteness-as-Property.pdf"
+   ],
+   "externalCount": 3,
    "programDocumentCount": 0,
    "programRouteCount": 0,
    "placeholderCount": 0,
