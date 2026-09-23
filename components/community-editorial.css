@@ -13,7 +13,7 @@
 .community-program-band{background:#173951;color:#fff;padding:23px max(24px,calc((100% - 1166px)/2));font-size:20px;line-height:1.5}
 .community-reading-layout{display:grid;grid-template-columns:220px minmax(0,850px);gap:64px;max-width:1230px;margin:0 auto;padding:45px 32px 80px}
 .community-reading-layout aside{align-self:start;position:sticky;top:24px;font-size:15px}
-.community-reading-layout aside>a{display:block;border-bottom:1px solid var(--program-border);padding:10px 0;font-size:18px;font-weight:600}
+.community-reading-layout aside>a{display:block;border-bottom:1px solid #dce3e6;padding:10px 0;font-size:18px;font-weight:600}
 .community-reading-layout aside p{margin-top:20px;color:#456174}
 .community-editorial article{min-width:0}
 .community-editorial h1{font-size:clamp(36px,4.5vw,58px);line-height:1.12;font-weight:500;letter-spacing:-1.2px;color:#173951;margin:10px 0 26px;max-width:22ch}
@@ -21,34 +21,34 @@
 .community-editorial h3{font-size:21px;line-height:1.4;font-weight:600;color:#254b63;margin:24px 0 15px}
 .community-editorial p{margin:0 0 22px;max-width:74ch;overflow-wrap:anywhere}
 .community-editorial .community-eyebrow{color:#426174;font-size:15px}
-.community-editorial .community-opening{font-size:20px;line-height:1.8;padding-bottom:28px;border-bottom:2px solid var(--program-border)}
-.community-editorial section{padding:32px 0;border-bottom:1px solid var(--program-border)}
+.community-editorial .community-opening{font-size:20px;line-height:1.8;padding-bottom:28px;border-bottom:2px solid #ccd9df}
+.community-editorial section{padding:32px 0;border-bottom:1px solid #dce3e6}
 .community-editorial ul,.community-editorial ol{padding-left:24px;margin:18px 0}
 .community-editorial li{padding:5px 0;overflow-wrap:anywhere}
 .community-editorial a{color:#245d7b;text-decoration:underline;text-underline-offset:4px}
-.community-editorial a:hover{color:#102f44;text-decoration-thickness:2px;background:var(--program-surface)}
+.community-editorial a:hover{color:#102f44;text-decoration-thickness:2px;background:#f3f6f8}
 .community-editorial :is(a,button,summary,input,[tabindex]):focus-visible{outline:3px solid #245d7b;outline-offset:4px}
-.community-editorial details{padding:18px 0;border-bottom:1px solid var(--program-border)}
+.community-editorial details{padding:18px 0;border-bottom:1px solid #dce3e6}
 .community-editorial summary{cursor:pointer;color:#274d65;font-weight:600;min-height:44px;padding:8px 0}
-.community-editorial summary:hover{background:var(--program-surface);text-decoration:underline;text-underline-offset:4px}
+.community-editorial summary:hover{background:#f3f6f8;text-decoration:underline;text-underline-offset:4px}
 .community-editorial details>div{padding-top:20px}
-.community-editorial button{font:inherit;font-size:16px;background:#fff;color:#173951;border:1px solid var(--program-border);border-radius:3px;padding:10px 17px;min-height:44px;cursor:pointer}
-.community-editorial button:hover{background:var(--program-surface);text-decoration:underline}
+.community-editorial button{font:inherit;font-size:16px;background:#fff;color:#173951;border:1px solid #9cafbc;border-radius:3px;padding:10px 17px;min-height:44px;cursor:pointer}
+.community-editorial button:hover{background:#edf2f5;text-decoration:underline}
 .community-editorial button[aria-pressed=true]{background:#173951;color:#fff}
-.community-experience-nav{display:flex;flex-wrap:wrap;gap:12px;margin:25px 0 10px;border-bottom:1px solid var(--program-border);padding-bottom:18px}
-.community-practice{background:var(--program-surface);border-left:3px solid #bdac89;padding:24px;margin:28px 0}
+.community-experience-nav{display:flex;flex-wrap:wrap;gap:12px;margin:25px 0 10px;border-bottom:1px solid #ccd9df;padding-bottom:18px}
+.community-practice{background:#faf6ed;border-left:3px solid #bdac89;padding:24px;margin:28px 0}
 .community-practice h3{margin-top:0}
 .community-practice>div{margin-top:20px}
 .community-editorial [hidden]{display:none!important}
 .community-table{overflow-x:auto}
 .community-editorial table{border-collapse:collapse;width:100%;font-size:16px}
-.community-editorial th,.community-editorial td{padding:12px;text-align:left;vertical-align:top;border-bottom:1px solid var(--program-border)}
+.community-editorial th,.community-editorial td{padding:12px;text-align:left;vertical-align:top;border-bottom:1px solid #dce3e6}
 .community-index-layout{max-width:1166px;margin:0 auto;padding:45px 32px 80px}
 .community-editorial .community-directory{list-style:none;padding:0;display:grid;grid-template-columns:1fr 1fr;gap:0 40px}
-.community-directory li{border-bottom:1px solid var(--program-border);padding:0}
+.community-directory li{border-bottom:1px solid #dce3e6;padding:0}
 .community-directory a{display:block;padding:18px 8px;font-size:20px;min-height:54px}
 .community-in-development-tag{color:#5a5347;font-size:14px;font-style:italic}
-.community-search{border-bottom:1px solid var(--program-border);padding:0 0 28px;margin:30px 0}
+.community-search{border-bottom:1px solid #dce3e6;padding:0 0 28px;margin:30px 0}
 .community-search label{display:block;font-size:21px;margin-bottom:12px}
 .community-search>div{display:flex;align-items:center;flex-wrap:wrap;gap:12px}
 .community-search input{font:inherit;min-width:0;width: min(500px,100%);border:1px solid #8093a0;border-radius:3px;padding:9px 12px;min-height:44px}
@@ -56,8 +56,8 @@
 .community-reading-contents{display:flex;flex-wrap:wrap;gap:8px 24px;padding:16px 0}
 .community-reading-contents a{min-height:44px;padding:8px 0;font-size:15px}
 .community-reading-theme>summary{font-size:21px;font-weight:500}
-.community-reading-theme>div{padding:0 0 0 20px;border-left:2px solid var(--program-border)}
-.community-editorial-footer{background:#fff;color:#173951;border-top:1px solid var(--program-border);padding:28px max(22px,calc((100% - 1166px)/2));font:16px/1.7 'Segoe UI',Arial,sans-serif}
+.community-reading-theme>div{padding:0 0 0 20px;border-left:2px solid #dce3e6}
+.community-editorial-footer{background:#fff;color:#173951;border-top:1px solid #dce3e6;padding:28px max(22px,calc((100% - 1166px)/2));font:16px/1.7 'Segoe UI',Arial,sans-serif}
 .community-editorial-footer nav{display:flex;flex-wrap:wrap;gap:8px 28px}
 .community-editorial-footer a{display:inline-block;padding:10px 0;min-height:44px;color:#245d7b;text-decoration:underline;text-underline-offset:4px}
 .community-editorial-footer a:hover{text-decoration-thickness:2px}

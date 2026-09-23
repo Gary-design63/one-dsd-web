@@ -1,9 +1,9 @@
-.feature{display:grid;grid-template-columns:1.15fr 1fr;gap:clamp(2rem,5vw,5rem);border-block:1px solid var(--program-border);padding:2.25rem 0;align-items:center}
+.feature{display:grid;grid-template-columns:1.15fr 1fr;gap:clamp(2rem,5vw,5rem);border-block:1px solid #d7e0e5;padding:2.25rem 0;align-items:center}
 .eyebrow{font-size:.8rem;font-weight:600;color:#4c606d;margin:0 0 .65rem}
 .definition h2{font-size:clamp(1.8rem,2.65vw,2.4rem);font-weight:500;letter-spacing:-.035em}
 .definition>p:not(.eyebrow){font-size:1.05rem;line-height:1.65;margin:1rem 0 .8rem;max-width:53ch}
 .definition a{font-weight:600;min-height:44px;display:inline-flex;align-items:center;gap:.65rem}
-.toolkit{min-width:0;border:1px solid #cdbb9c;border-radius:1rem;background:var(--program-warm-ivory);box-shadow:0 8px 24px #5b4a2d12}
+.toolkit{min-width:0;border:1px solid #d7e0e5;border-radius:1rem;background:#f3f7fa;box-shadow:0 8px 24px #0038650a}
 .toolkitImage{display:block;position:relative;aspect-ratio:16 / 9;overflow:hidden;border-radius:1rem 1rem 0 0}
 .toolkitBody{padding:clamp(1.25rem,2.5vw,1.75rem)}
 .toolkit h2{font-size:clamp(1.8rem,2.65vw,2.4rem);line-height:1.18;color:#003865;margin:0;font-weight:500;letter-spacing:-.035em}

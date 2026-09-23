@@ -1,7 +1,7 @@
 .page { padding-block-end: 4rem; }
 .back { display: inline-block; margin-block: 1rem 0; font-weight: 600; }
 .summary { display: grid; grid-template-columns: repeat(auto-fit, minmax(9rem, 1fr)); gap: 0.75rem; margin-block: 1.25rem 0; max-width: 52rem; }
-.summary div { border: 1px solid var(--color-line); border-radius: var(--radius); padding: 0.75rem 0.9rem; background: var(--program-surface); }
+.summary div { border: 1px solid var(--color-line); border-radius: var(--radius); padding: 0.75rem 0.9rem; background: var(--white); }
 .summary b { display: block; font-size: 1.6rem; font-variant-numeric: tabular-nums; line-height: 1.1; }
 .summary span { color: var(--color-muted); font-size: 0.9rem; }
 .read { display: grid; gap: 1.5rem; grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr)); margin-block: 2rem; max-width: 68rem; }
@@ -13,7 +13,7 @@
 .group h2 { font-size: 1.4rem; margin: 0 0 0.25rem; }
 .groupCount { color: var(--color-muted); margin: 0 0 1rem; }
 .list { list-style: none; margin: 0; padding: 0; display: grid; gap: 0.9rem; max-width: 60rem; }
-.entry { border: 1px solid var(--color-line); border-radius: var(--radius); background: var(--program-surface-raised); padding: 1rem 1.1rem; scroll-margin-top: 5rem; }
+.entry { border: 1px solid var(--color-line); border-radius: var(--radius); background: var(--white); padding: 1rem 1.1rem; scroll-margin-top: 5rem; }
 .entry h3 { font-size: 1.05rem; margin: 0; line-height: 1.35; }
 .meta { display: flex; flex-wrap: wrap; gap: 0.4rem 0.75rem; align-items: center; margin-block: 0.4rem 0; color: var(--color-muted); font-size: 0.9rem; }
 .host { font-variant-numeric: tabular-nums; }
