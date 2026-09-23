@@ -1,0 +1,196 @@
+ONE DHS / ONE DSD PEOPLE, ACCESS AND CULTURE
+Consultant thematic review — 6 September 2026
+
+Purpose
+Organize the recovered collection for Gary's review before changing the application architecture or staff navigation. This is a consultant-only planning document, not a staff page. Theme names and relationships are recommendations, not a claim that these connections already operate in the knowledge graph.
+
+Decision recorded
+Use a shared program foundation with distinct agencywide and One DSD entry experiences. Within the agencywide experience, DSD is one division, not a competing program tab. Preserve equivalent opportunities for other administrations and divisions. Architecture implementation remains on hold during this review.
+
+What this review accounts for
+557 entries in the recovered disposition ledger, assigned once to a primary theme through their existing family.
+21 existing resource families, all included.
+86 recovered course records, assigned once to a proposed primary theme. Forty-one of these are cultural-intelligence records; they are not an additional 41 courses.
+25 current seed records, retained and listed separately.
+144 nested family entries, listed separately as relationships, not added to the 557 total.
+
+The 557 ledger entries comprise 20 active_retain, 32 active_revise, 462 component_merge, and 43 internal_reclassify. The frequently quoted 52 describes the first two decisions combined, not the number of nested family entries. A receipt is an accounting record, not proof that a separate complete course is available to staff.
+
+These populations may overlap. Do not add 557, 86, 25, and 144 and call the result unique resources. Deduplication across collections and end-to-end publication verification remain separate work. The current 25-item catalog does not establish that the recovered material is accessible through the app.
+
+Gary has approved the materials in substance. Historical workflow labels are preserved for reconciliation, not used here to rescind that approval. No publication, database import, or public copy changes are made by this review.
+
+How to read the organization
+Each receipt retains its source family and original title. Each course receives a proposed primary home. Related themes provide multiple ways to find the same material, not copies. Primary placement is a first-pass catalog judgment based on recovered family descriptions and course metadata, not a completed instructional audit of every lesson, slide, audio file, or external link.
+
+The ten themes are review lenses, not ten required navigation tabs, learner levels, or compulsory steps. Consultant operations are separate. Audience and applicability are independent of theme: an internal record within a learning theme does not become public merely because of its placement.
+
+THEMATIC OVERVIEW
+
+1. Equity foundations, anti-racism, and structural change
+Purpose: Understand how inequities arise and examine the decisions, policies, and routines that sustain them.
+Existing families: Equity Analysis and Institutional Change
+Primary accounting: 99 ledger entries; 5 recovered course records; 7 current seed records.
+Useful connections: Accessibility, language access, and communication; Rights, policy, and formal responsibilities; Leadership, organizational change, and improvement.
+
+2. Intercultural practice and community understanding
+Purpose: Build cultural humility and use community context without treating a person as a representative of an entire group.
+Existing families: Intercultural Practice and Cultural Humility; Community Context and Cultural Briefs
+Primary accounting: 94 ledger entries; 50 recovered course records; 2 current seed records.
+Useful connections: Accessibility, language access, and communication; Disability, self-determination, and responsive services; Tribal sovereignty and government-to-government relationships.
+
+3. Disability, self-determination, and responsive services
+Purpose: Connect disability rights, individual choice, family supports, and the everyday experience of receiving services.
+Existing families: Disability Rights, Justice, and History; Person-Centered Choice and Rights; Service Delivery and Program Practice
+Primary accounting: 38 ledger entries; 6 recovered course records; 0 current seed records.
+Useful connections: Intercultural practice and community understanding; Accessibility, language access, and communication; Rights, policy, and formal responsibilities.
+
+4. Accessibility, language access, and communication
+Purpose: Make meetings, information, forms, and services understandable and usable.
+Existing families: Accessibility and Accommodations; Inclusive and Accessible Communication
+Primary accounting: 84 ledger entries; 6 recovered course records; 7 current seed records.
+Useful connections: Disability, self-determination, and responsive services; Hiring, retention, and professional growth; Rights, policy, and formal responsibilities.
+
+5. Hiring, retention, and professional growth
+Purpose: Follow the employee experience from recruitment and onboarding through development, advancement, and retention.
+Existing families: Employment and Workforce Equity; Mentoring and Professional Development; Orientation and Onboarding
+Primary accounting: 74 ledger entries; 10 recovered course records; 0 current seed records.
+Useful connections: Equity foundations, anti-racism, and structural change; Workplace culture, well-being, and staff voice; Leadership, organizational change, and improvement.
+
+6. Workplace culture, well-being, and staff voice
+Purpose: Support belonging, psychological safety, wellness, and meaningful opportunities for staff to contribute.
+Existing families: Workplace Culture and Well-Being
+Primary accounting: 12 ledger entries; 3 recovered course records; 2 current seed records.
+Useful connections: Hiring, retention, and professional growth; Facilitation, reflection, and learning together; Leadership, organizational change, and improvement.
+
+7. Leadership, organizational change, and improvement
+Purpose: Turn learning and staff or community feedback into decisions, accountable action, and evaluation.
+Existing families: Leadership and Supervision; Organizational Change and Strategy; Measurement, Evaluation, and Organizational Learning
+Primary accounting: 73 ledger entries; 3 recovered course records; 2 current seed records.
+Useful connections: Equity foundations, anti-racism, and structural change; Hiring, retention, and professional growth; Workplace culture, well-being, and staff voice.
+
+8. Facilitation, reflection, and learning together
+Purpose: Help people discuss, rehearse, reflect, and apply learning across every other theme.
+Existing families: Communication and Facilitation; Learning, Reflection, and Development; Practice Scenarios and Guided Reflection
+Primary accounting: 70 ledger entries; 2 recovered course records; 3 current seed records.
+Useful connections: Intercultural practice and community understanding; Equity foundations, anti-racism, and structural change; Workplace culture, well-being, and staff voice.
+
+9. Rights, policy, and formal responsibilities
+Purpose: Connect practice to applicable responsibilities while distinguishing official requirements from recommendations.
+Existing families: Policy, Law, Rights, and Compliance
+Primary accounting: 5 ledger entries; 0 recovered course records; 2 current seed records.
+Useful connections: Equity foundations, anti-racism, and structural change; Accessibility, language access, and communication; Hiring, retention, and professional growth.
+
+10. Tribal sovereignty and government-to-government relationships
+Purpose: Keep sovereignty and government-to-government responsibilities distinct from general cultural awareness.
+Existing families: Tribal Relations and Sovereignty
+Primary accounting: 3 ledger entries; 1 recovered course records; 0 current seed records.
+Useful connections: Rights, policy, and formal responsibilities; Intercultural practice and community understanding; Disability, self-determination, and responsive services.
+
+11. Consultant program stewardship
+Purpose: Keep program administration, content care, and operational records outside staff learning.
+Existing families: System and Program Operations
+Primary accounting: 5 ledger entries; 0 recovered course records; 0 current seed records.
+Useful connections: all.
+
+INTERPRETATION AND RECOMMENDATIONS
+
+The recovered course set is weighted toward intercultural and community understanding: 50 of 86 records have that proposed primary home. That includes 40 cultural-intelligence records plus ten related records. One Tribal Nations course is placed separately. This is a count of records, not learning hours, instructional quality, or program importance.
+
+Structural equity has 99 ledger entries but five course records. That suggests an opportunity to connect practical tools with courses; it does not establish that structural learning is absent. Similarly, policy has five primary ledger entries and no primary course here, but obligations also appear within access and employment materials.
+
+Workplace culture and well-being have twelve ledger entries and three courses. Amplify Equity should be explicitly represented in later reconciliation, not assumed present because a related theme exists. Its role, as Gary described it, includes voluntary discussion, wellness, cultural celebration, and staff experience that can inform better work. It is neither a performance test nor a substitute for addressing structural barriers.
+
+Tribal sovereignty remains distinct. Cultural profiles do not replace government-to-government responsibilities. Native American community context may connect to Tribal relations without being treated as equivalent to the eleven Tribal Nations.
+
+Keep learning methods available across all themes. A scenario, reflection prompt, brief tip, discussion, course, or checklist should use the format suited to its purpose. Not every resource needs to become a course or carry a photograph.
+
+Preserve the seed items. Their practical introductions and checklists can serve as useful companions to deeper recovered materials. For example, the seed interpreter guide and the recovered interpreter course are potential companions; they should not be merged automatically on title similarity alone.
+
+Titles are reproduced as found for identification. Some, including "Culture Without Theater" and "A Language Access Plan You Can Walk," warrant the agreed plain-language review. Do not treat this document as approved staff-facing copy.
+
+CONNECTION MAP — readable workflow
+
+A real question, staff experience, or service barrier
+    -> Relevant themes and community/person context
+    -> Learning, examples, and directly usable tools
+    -> A decision or change in practice
+    -> Feedback and review of the result
+    -> Refined tools, learning, and future decisions
+
+This is a program improvement loop, not a prerequisite sequence for accessing resources. People may go directly to any useful resource.
+
+Connection 1: A form is difficult to complete.
+Community understanding + disability and person-centered practice
+    -> language/access tools and the form-change checklist
+    -> equity analysis of steps, burdens, and who is missing
+    -> applicable responsibilities and accountable leadership
+    -> revised service experience
+    -> user feedback and review of remaining barriers.
+
+Connection 2: Recruitment attracts applicants but retention is uneven.
+Hiring and employee-life-cycle resources
+    -> accessibility and equitable screening
+    -> mentoring, sponsorship, and onboarding
+    -> staff voice and workplace climate
+    -> leadership review of patterns and decisions
+    -> revised hiring and retention practices.
+
+Connection 3: A team wants to discuss an equity concern.
+Workplace culture / Amplify Equity opportunity
+    -> intercultural learning and facilitation
+    -> optional reflection or practice scenario
+    -> recurring issues considered for structural improvement
+    -> communication back about what changed.
+Do not turn voluntary participation or identifiable personal reflections into performance judgments.
+
+Connection 4: A decision involves Tribal Nations.
+Tribal sovereignty and the relevant official responsibilities
+    -> appropriate government-to-government process
+    -> service, access, and equity resources as supporting material
+    -> accountable decisions and follow-through.
+A general community-engagement exercise is not a substitute.
+
+Suggested relationship labels for later design:
+"Explains" — a course explains an idea used in a tool.
+"Helps apply" — a checklist supports a practical action.
+"Provides context" — a brief informs preparation without predicting an individual.
+"Sets requirements" — an applicable authoritative source constrains a decision.
+"Helps review" — feedback or evaluation helps assess an outcome.
+"Related practice" — another theme offers a useful perspective.
+These are proposed relationships, not newly installed application behavior.
+
+LEARNING AND PRESENTATION RULES TO CARRY FORWARD
+
+Each lesson should have three to five clear, observable objectives, suitable examples, and a way to practice or check understanding. This is Gary's program requirement; it is not a requirement that every checklist have five objectives.
+
+Keep direct access to resources. Offer suggested connections rather than mandatory levels. Use inviting, accurate language that calls people into the work without disguising real responsibilities. Distinguish required practice from voluntary development and discussion.
+
+Display scope when it matters to action: agencywide, administration, or division. Do not infer agencywide applicability merely because DSD developed a strong resource. Do not infer that other administrations lack resources because this recovered collection is DSD-rich.
+
+OUTSTANDING COVERAGE — do not silently mark complete
+
+The separately recovered local course "Racism in America: History, Structures, and Evidence-Based Perspectives" belongs primarily with equity foundations, with links to history, policy, and service practice. It is not included in the 86-course count above.
+
+Charting the LifeCourse is represented by a separate donor domain candidate (tool-lifecourse), not established here as a completed course. Connect it to person-centered practice and family supports after reviewing the full material.
+
+Amplify Equity has been identified in earlier application work, but its full content is not enumerated in these 557/86/25 lists. Recover and reconcile it explicitly.
+
+The previously supplied slide links, IBI orientation materials, attachments, audio, and presentations still need an item-by-item match against recovered records. This report does not certify that every historical attachment has been ingested. Tim Wise and Robin DiAngelo references likewise need to be distinguished from fully imported learning assets.
+
+No validation in this review establishes that all 73 previously reported audio items are playable, that every external link opens, or that every recovered item appears in search. Those are recovery and delivery checks, not thematic classification.
+
+SOURCE BOUNDARY
+
+Recovered family and ledger records:
+data/source-snapshots/canonical-release/canonical-families.jsonl
+data/source-snapshots/canonical-release/disposition-ledger.jsonl
+
+Recovered courses:
+data/source-snapshots/donor-library/course-candidates.jsonl
+
+Current seeds:
+lib/content/corpus.ts
+
+Full titles and identifiers follow in the companion "Thematic resource accounting.txt". This overview and its companion remain in docs, outside public assets and application routes.
+

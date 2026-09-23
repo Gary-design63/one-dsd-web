@@ -1,0 +1,306 @@
+/** Owner-approved DSD program and scenario source restored intact from reconstruction 5680911. */
+import type { DomainId } from "@/lib/domains";
+
+export type DsdProgram = {
+  id: string;
+  name: string;
+  /** What the function does, in staff language. Verified against recovered DSD role and program material. */
+  whatItDoes: string;
+  domains: DomainId[];
+  /** Where equity shows up in this function first. */
+  equityEntryPoints: string[];
+};
+
+export const DSD_PROGRAMS: DsdProgram[] = [
+  {
+    id: "hcbs-policy",
+    name: "Home and community-based services policy and waivers",
+    whatItDoes: "Sets policy for waiver and community-based services, including eligibility, service menus, rates, and provider standards.",
+    domains: ["policy-program-service", "measurement"],
+    equityEntryPoints: ["Who gets which service mix and why", "Burden of documentation and authorization steps", "Language and format of notices", "Provider capacity in different communities"],
+  },
+  {
+    id: "mnchoices-access",
+    name: "MnCHOICES assessment and access",
+    whatItDoes: "Governs how people are assessed for and connected to long-term services and supports.",
+    domains: ["access-language", "policy-program-service"],
+    equityEntryPoints: ["First contact in the person's language", "Accessibility of the assessment process", "Person-centered practice and supported decision-making", "Wait times and follow-up by community"],
+  },
+  {
+    id: "support-planning",
+    name: "Support planning and case management",
+    whatItDoes: "Standards and support for the people who plan services with individuals and families.",
+    domains: ["policy-program-service", "culture-trust"],
+    equityEntryPoints: ["Plans that reflect the person's goals", "Cultural and linguistic responsiveness of planning conversations", "Caseload and time as equity issues"],
+  },
+  {
+    id: "positive-supports",
+    name: "Positive supports and person-centered practice",
+    whatItDoes: "Guidance and oversight for positive support strategies and person-centered planning.",
+    domains: ["policy-program-service"],
+    equityEntryPoints: ["Restriction versus support", "Whose behavior is treated as a problem", "Access to positive supports across communities"],
+  },
+  {
+    id: "olmstead",
+    name: "Olmstead and community integration",
+    whatItDoes: "Work toward services in the most integrated setting appropriate to the person.",
+    domains: ["policy-program-service", "leadership-systems"],
+    equityEntryPoints: ["Defaults that steer people to segregated settings", "Community capacity by place", "Data on who moves and who does not"],
+  },
+  {
+    id: "employment",
+    name: "Employment and day services",
+    whatItDoes: "Employment-first practice and day service policy.",
+    domains: ["policy-program-service", "workforce"],
+    equityEntryPoints: ["Competitive integrated employment as the first option", "Provider practice with different communities", "Outcomes by disability, race, language, and place"],
+  },
+  {
+    id: "eidbi-children",
+    name: "Early Intensive Developmental and Behavioral Intervention and children's services",
+    whatItDoes: "Services for children with autism and related conditions and their families.",
+    domains: ["access-language", "community-engagement"],
+    equityEntryPoints: ["Family language and cultural context in diagnosis and planning", "Provider availability by community", "Trust with families who have experienced the system badly"],
+  },
+  {
+    id: "tbi-guardianship",
+    name: "Brain injury, guardianship, and related programs",
+    whatItDoes: "Programs for people with brain injury and work related to guardianship and supported decision-making.",
+    domains: ["policy-program-service"],
+    equityEntryPoints: ["Supported decision-making before guardianship", "Accessible communication about rights", "Who is presumed capable"],
+  },
+  {
+    id: "contracts-fiscal",
+    name: "Contracts, grants, fiscal, and capacity work",
+    whatItDoes: "Contracting, grants, rates, and capacity building for the division's providers and partners.",
+    domains: ["leadership-systems", "measurement"],
+    equityEntryPoints: ["Who wins awards and who never applies", "Requirements in solicitations", "Reporting that shows who is served"],
+  },
+  {
+    id: "data-quality",
+    name: "Data, quality, and evaluation",
+    whatItDoes: "Division data, quality assurance, and evaluation of services and outcomes.",
+    domains: ["measurement"],
+    equityEntryPoints: ["Disaggregation with small-group protection", "Systems built for billing rather than equity analysis", "Qualitative evidence alongside numbers"],
+  },
+  {
+    id: "communications-training",
+    name: "Training, communication, and strategic communications",
+    whatItDoes: "Division learning, internal and external communication, and plain-language practice.",
+    domains: ["access-language", "culture-trust"],
+    equityEntryPoints: ["Plain language and accessible documents by default", "Language access in every channel", "Learning that is voluntary and private"],
+  },
+  {
+    id: "leadership-strategy",
+    name: "Division leadership, legislative work, and strategy",
+    whatItDoes: "Division direction, legislative coordination, and the DSD equity implementation plan.",
+    domains: ["leadership-systems"],
+    equityEntryPoints: ["Decision rights and bottlenecks", "Funded and staffed equity commitments", "Reporting back to staff on what changed"],
+  },
+];
+
+export type DsdScenario = {
+  id: string;
+  title: string;
+  domain: DomainId;
+  /** The situation, written for a DSD staff member, with no identifying details. */
+  situation: string;
+  /** What an equity practitioner notices first. */
+  whatToNotice: string[];
+  /** The questions to ask before acting. */
+  questions: string[];
+  /** Practical next moves with program links. */
+  moves: Array<{ label: string; href: string }>;
+  /** Where human judgment belongs. */
+  handoff: string;
+};
+
+export const DSD_SCENARIOS: DsdScenario[] = [
+  {
+    id: "dsd-hiring-panel",
+    title: "A hiring panel keeps choosing the same kind of candidate",
+    domain: "workforce",
+    situation: "A DSD unit has filled three positions in a year. Each time, the panel chose the candidate who interviewed most fluently and had a graduate degree. Two strong internal candidates with years of direct-support and community experience did not advance past screening.",
+    whatToNotice: ["The screening criteria may be proxies for the work rather than the work itself.", "Fluency and confidence in an interview are being rewarded without a rubric that ties them to the job.", "Internal candidates with lived experience are being screened out at the same stage each time."],
+    questions: ["What does each requirement predict about the work?", "Is there a written rubric, and was it applied the same way to everyone?", "At which stage do people drop out, and does that differ by community or path into the work?", "How was accommodation offered?"],
+    moves: [
+      { label: "Inclusive hiring and selection (Practice path)", href: "/paths/gp-6" },
+      { label: "Is this requirement job related?", href: "/resources/ja-job-relatedness-check" },
+    ],
+    handoff: "Bring the pattern, not the names, to your HR partner and Equity Director. Selection procedures are governed by HR, labor agreements, and civil-rights law. DSD staff can also request a consultation to think through the next posting.",
+  },
+  {
+    id: "dsd-advancement-conversation",
+    title: "A team member says they do not know what it takes to advance",
+    domain: "workforce",
+    situation: "In a stay conversation, a team member says they have never been told what the next classification requires, that visible projects go to the same two people, and that they are considering leaving.",
+    whatToNotice: ["Advancement requirements are unwritten and therefore unequal.", "Visible work is assigned by habit.", "This is a pattern with an owner, not a personal failing."],
+    questions: ["What does the next step actually require, and is it written anywhere?", "Who has had a stretch assignment in the last year, and how did that come to be?", "What can you change this month, and what needs HR or labor relations?"],
+    moves: [
+      { label: "Pay, classification, and advancement", href: "/resources/pn-pay-classification-advancement" },
+      { label: "Mentoring, sponsorship, and reverse mentoring", href: "/resources/pn-mentoring-sponsorship" },
+      { label: "Stay conversations", href: "/resources/pn-stay-interviews-and-retention" },
+    ],
+    handoff: "Classification and pay questions go to HR and labor relations. Sponsorship and visible work are yours to change now.",
+  },
+  {
+    id: "dsd-accommodation-cliff",
+    title: "An accommodation disappears during a leadership rotation",
+    domain: "workforce",
+    situation: "A DSD staff member with an established accommodation is selected for an acting lead assignment in another unit. The new unit does not know about the arrangement, the cohort kickoff uses timed small-group activities with no captions, and the person quietly withdraws from the rotation.",
+    whatToNotice: ["Nobody owned the accommodation across the transition.", "The cohort was not accessible by default, so participation depended on disclosure.", "The withdrawal will look like a personal choice in the data, if it appears at all."],
+    questions: ["Who owns accommodations across each transition in this pathway, by name?", "Was accommodation offered to everyone entering the rotation, in the same sentence as the logistics?", "Which cohort activities depend on speed or drag-and-drop, and what would replace them?", "How would the division ever see this pattern in its workforce data?"],
+    moves: [
+      { label: "Accommodations across transitions", href: "/resources/ja-accommodation-across-transitions" },
+      { label: "Accessible leadership pathways and sponsorship", href: "/resources/pn-accessible-leadership-pathways" },
+      { label: "Build a leadership pathway or sponsorship plan (Practice path)", href: "/paths/gp-11" },
+    ],
+    handoff: "Pathway design goes to division leadership and the Equity Director. The individual accommodation goes through the confidential accommodation process with HR. Do not record who the person is here.",
+  },
+  {
+    id: "dsd-policy-change",
+    title: "A waiver policy change is going to leadership next month",
+    domain: "policy-program-service",
+    situation: "A change to documentation requirements for a waiver service is scheduled for leadership approval in four weeks. The change was designed to reduce fraud risk. No one has yet asked which families will find the new requirement hardest to meet.",
+    whatToNotice: ["The decision has a real deadline and is still changeable.", "The design goal is legitimate; the burden analysis has not been done.", "This may require an equity scan or a full analysis under the DHS equity policy."],
+    questions: ["Does the equity policy require a scan or a full analysis here, and who confirms that?", "Who benefits, who carries the new burden, and who is missing from the design conversation?", "What alternatives reduce fraud risk without adding steps for the families with the least margin?", "How will people learn about the change, in which languages and formats?"],
+    moves: [
+      { label: "Equity analysis for a decision (Practice path)", href: "/paths/gp-7" },
+      { label: "Equity scan or full analysis: what goes in", href: "/resources/ja-equity-scan-or-full-analysis" },
+      { label: "Journey and burden questions", href: "/resources/ja-process-burden" },
+    ],
+    handoff: "The policy owner determines whether an analysis is required and keeps the official record. Your Equity Director helps shape it. DSD staff can request a consultation for a difficult decision.",
+  },
+  {
+    id: "dsd-service-redesign",
+    title: "Redesigning an assessment process without adding steps",
+    domain: "policy-program-service",
+    situation: "A DSD team is redesigning how people are assessed for services. Early drafts add a self-service online step that would save staff time. Some of the people assessed do not use English, do not have reliable internet, or need supported decision-making.",
+    whatToNotice: ["Efficiency for staff can become burden for the people with the least margin.", "Person-centered practice and supported decision-making are design requirements, not add-ons.", "The human alternative must be real, not a fallback nobody staffs."],
+    questions: ["How does someone who does not use English or the internet complete this on the first try?", "Where does supported decision-making happen in the new flow?", "What is the human alternative, and who staffs it?", "Who among the people assessed helped design this?"],
+    moves: [
+      { label: "New program or service concept (Practice path)", href: "/paths/gp-1" },
+      { label: "Disability rights and service delivery", href: "/resources/lm-disability-rights-and-service-delivery" },
+      { label: "Language and cultural access planning aid", href: "/resources/ja-language-cultural-access-planning" },
+    ],
+    handoff: "Bring the design to your accessibility lead, language access coordinator, and Equity Director while it is still open. DSD staff can request a consultation.",
+  },
+  {
+    id: "dsd-engagement-late",
+    title: "Community input requested after the decision is effectively final",
+    domain: "community-engagement",
+    situation: "A program change has been approved and funded. A manager asks for listening sessions with affected communities before rollout. Two of those communities were asked similar questions last year by another DHS unit and never heard what happened.",
+    whatToNotice: ["The level of influence is inform, not consult, and saying otherwise would damage trust.", "Prior contacts exist; repeating requests extracts labor.", "A report-back on last year's input is still owed."],
+    questions: ["What can this engagement still change? If nothing, how will you say so honestly?", "Who asked these communities last year, and what were they told?", "What will people receive for their time, and who owns the relationship afterward?"],
+    moves: [
+      { label: "Engagement that shares influence", href: "/resources/ja-engagement-influence-ladder" },
+      { label: "Reporting back", href: "/resources/ja-report-back" },
+      { label: "Community engagement or co-design (Practice path)", href: "/paths/gp-3" },
+    ],
+    handoff: "Connect with your community relations lead so this engagement builds on existing relationships rather than repeating requests. Tribal Nations are a separate government-to-government route.",
+  },
+  {
+    id: "dsd-report-back",
+    title: "Listening sessions are done. Now what?",
+    domain: "community-engagement",
+    situation: "A DSD team completed listening sessions with families and providers. The notes are rich. The team is unsure what to send back and worries about promising things it cannot deliver.",
+    whatToNotice: ["The report-back is the part most often skipped, and the part that builds trust.", "Honesty about what could not change is more valuable than vague promises.", "Participants' words carry more weight than a summary, with permission and no identification."],
+    questions: ["What changed because of the sessions, specifically?", "What could not change, and which rule, budget, or law is the reason?", "Who is the named contact, and when is the next chance to influence the work?"],
+    moves: [
+      { label: "Reporting back", href: "/resources/ja-report-back" },
+      { label: "Plain language and accessible documents", href: "/resources/ja-plain-language" },
+    ],
+    handoff: "The program owner approves the report-back. Send it in the languages, formats, and channels the sessions used.",
+  },
+  {
+    id: "dsd-accessible-form",
+    title: "A required form cannot be completed with a screen reader",
+    domain: "access-language",
+    situation: "A provider reports that a DSD form required for authorization cannot be completed with a screen reader and is only available as a scanned image. No one on the team knows who owns the form.",
+    whatToNotice: ["Unclear accessibility ownership was one of the clearest barriers DSD staff named.", "A scanned image fails the State accessibility standard and excludes people by default.", "The fix is at the source, and it needs an owner today."],
+    questions: ["Who owns this form, and do they know?", "What is the accessible alternative today, while the form is fixed?", "How many other forms in the same family have the same problem?"],
+    moves: [
+      { label: "Plain language and accessible documents", href: "/resources/ja-plain-language" },
+      { label: "Minnesota accessibility standard", href: "/resources/tool-mn-accessibility-standard" },
+      { label: "Find the right person", href: "/support/right-person?matter=accessibility_barrier" },
+    ],
+    handoff: "Route to the form owner and your division's accessibility lead. Ask for an accessible alternative immediately and a fixed form with a date.",
+  },
+  {
+    id: "dsd-interpreter-first-contact",
+    title: "First contact happens in English only",
+    domain: "access-language",
+    situation: "Families calling a DSD intake line reach an English-only greeting and a voicemail. Interpretation is available once a staff member calls back, often days later.",
+    whatToNotice: ["Language access planned per document misses the first phone call.", "Delay is a burden that falls on people who already carry more.", "This is a program-level planning question, not a translation request."],
+    questions: ["How does a person who does not use English reach a human in their language on the first try?", "Which languages does the data owner show, and what does the data not show?", "Who are the trusted messengers for the communities most affected?"],
+    moves: [
+      { label: "Language and cultural access planning aid", href: "/resources/ja-language-cultural-access-planning" },
+      { label: "Language access checklist", href: "/resources/ja-language-access-checklist" },
+    ],
+    handoff: "Bring the plan to your language access coordinator and the intake line's owner. CLAS standards and DHS language access practice govern the decision.",
+  },
+  {
+    id: "dsd-team-silence",
+    title: "The same three people speak in every team meeting",
+    domain: "culture-trust",
+    situation: "A DSD supervisor notices that the same three people speak in meetings while newer staff and staff from other backgrounds stay quiet. One person told the supervisor privately that speaking up once got them nowhere.",
+    whatToNotice: ["Quiet is being read as agreement.", "Input that changed nothing teaches people to stop offering it.", "Positional power and meeting format are shaping who speaks."],
+    questions: ["What changed in the last quarter because someone spoke up, and did the team hear about it?", "How could people contribute without speaking fast in a live meeting?", "Who opens, who summarizes, and who speaks last?"],
+    moves: [
+      { label: "Strengthen team climate (Practice path)", href: "/paths/gp-4" },
+      { label: "Psychological safety and repair", href: "/resources/lm-psychological-safety-and-repair" },
+      { label: "Accessible and culturally responsive meetings", href: "/resources/ja-accessible-meetings" },
+    ],
+    handoff: "This is practice work the supervisor owns. If a complaint about a named person surfaces, use the confidential channel. DSD staff can request a consultation to prepare a team conversation.",
+  },
+  {
+    id: "dsd-repair-after-harm",
+    title: "A comment in a meeting landed badly and nobody addressed it",
+    domain: "culture-trust",
+    situation: "During a planning meeting, a comment about a community's habits went unchallenged. Afterward, two staff members said they felt the room had endorsed it. The person who made the comment did not realize it caused harm.",
+    whatToNotice: ["Silence read as endorsement.", "Unfamiliarity, not intent, is the likely cause, and it still needs repair.", "Repair belongs to the person with more power in the room, not to the staff who were harmed."],
+    questions: ["Who will name what happened and take responsibility for repair?", "What does the person who made the comment need in order to change, and who will offer it?", "How will the team learn that this is not the norm?"],
+    moves: [
+      { label: "Psychological safety and repair", href: "/resources/lm-psychological-safety-and-repair" },
+      { label: "Using community material as questions, not descriptions", href: "/resources/pn-cultural-humility-briefs-as-questions" },
+    ],
+    handoff: "The meeting leader owns the repair. If the behavior continues or is intentional, use the confidential channel.",
+  },
+  {
+    id: "dsd-leadership-bottleneck",
+    title: "Every equity change waits for one approval that never comes",
+    domain: "leadership-systems",
+    situation: "Several DSD teams have equity improvements ready, each waiting on the same approval step. The step exists because of a past problem no one can describe. Staff have begun to treat the process as immovable.",
+    whatToNotice: ["Diffuse responsibility and approval bottlenecks were named repeatedly in DSD listening.", "The step is a choice someone made, which means it can be changed.", "Decision rights are unclear, so nothing moves."],
+    questions: ["Who actually holds the decision right for this step, and what would they need to decide?", "What problem was the step meant to solve, and is there a lighter way to solve it?", "What is the cost of waiting, for whom?"],
+    moves: [
+      { label: "Operational equity review canvas", href: "/resources/ja-operational-equity-canvas" },
+      { label: "Equity analysis for a decision (Practice path)", href: "/paths/gp-7" },
+    ],
+    handoff: "Bring the pattern to division leadership with a proposed decision record. DSD staff can request a consultation to prepare it.",
+  },
+  {
+    id: "dsd-small-group-data",
+    title: "Service data by race would identify a handful of people",
+    domain: "measurement",
+    situation: "A DSD analyst is asked to report service outcomes by race and language for a rural county. In several groups the count is below ten. Leadership wants the numbers next week.",
+    whatToNotice: ["Small groups can be identified from aggregate tables.", "Suppression protects people and must be explained, not hidden.", "Qualitative evidence can carry what the numbers cannot."],
+    questions: ["What is the smallest group you will report, and who set that rule?", "What will change based on the answer, and does that need the county-level cut?", "What do people's accounts add where numbers are suppressed?"],
+    moves: [
+      { label: "Measuring without surveillance", href: "/resources/pn-measurement-without-surveillance" },
+      { label: "Intersectionality foundations", href: "/resources/lm-intersectionality-foundations" },
+    ],
+    handoff: "The data owner and your privacy lead set suppression rules. State the limits in the report.",
+  },
+];
+
+export function getScenario(id: string): DsdScenario | undefined {
+  return DSD_SCENARIOS.find((scenario) => scenario.id === id);
+}
+
+export function scenariosForDomain(domain: DomainId): DsdScenario[] {
+  return DSD_SCENARIOS.filter((scenario) => scenario.domain === domain);
+}
+
+export function getDsdProgram(id: string): DsdProgram | undefined {
+  return DSD_PROGRAMS.find(program => program.id === id);
+}

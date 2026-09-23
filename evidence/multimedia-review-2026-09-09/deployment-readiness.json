@@ -1,0 +1,19 @@
+{
+  "date": "2026-09-09",
+  "project": "equity123/one-dhs-pac",
+  "projectId": "prj_nHxwFMaDXRMFCvvAfkQZ9YhIlxJp",
+  "teamId": "team_FbW5lerkYCfV1Z0jQk1NJKNl",
+  "workingDirectory": "C:/Users/garyb/Projects/one-dhs-pac-repair",
+  "authenticatedReadChecks": ["Vercel connector get_project", "Vercel CLI whoami", "Vercel CLI project inspect"],
+  "runtime": "Next.js; Node 24.x; CLI 59.11.2",
+  "lastFailedCandidate": "dpl_BDBoWncLK4BzSG835DPjgc8PLqFA",
+  "lastFailure": "Hosted tests/dsd-restoration.test.ts failed because the complete ASK response omitted the exact requested Data/quality program link.",
+  "fix": "Keep destinations resolved from current scoped publications in an exact-name navigation fallback, and do not replace that answer with the measurement-planning fallback when a title triggers the same topic.",
+  "focusedValidation": {"dsdRestorationAndLessonRoute": "9 passed", "measurementFallbackAndProgramResources": "14 passed"},
+  "approvalFindings": "No manual approval environment/job in the sole repository verify workflow. Hosted correctness gates remain intact. Platform approval review is separate from Vercel build checks. No per-denial approval tool is exposed in this desktop toolset; documented terminal /approve behavior does not establish desktop UI availability.",
+  "supportedPathAfterCompletion": "Use the existing linked Vercel project, production-target candidate with --skip-domain; verify actual candidate content, assets, behaviors and boundaries before promotion. No prebuilt package made with local static configuration should substitute for the hosted production build.",
+  "sourceSafety": "Dry inspection confirms .env.local, .data, .git, .vercel and local resolver are excluded. The private second-brain folder lies outside this application. Do not upload it or bypass its denied copy.",
+  "publicationParity": "Separate learning-production-before-release.json and program-production-before-release.json verify published route availability. Code companions attach inside existing publication boundaries; no database republishing indicated.",
+  "authorization": "Owner authorized completed local application deployment to existing Vercel application through originating task on September 9. This record is readiness only, not a deployment receipt.",
+  "sources": ["https://vercel.com/docs/cli/deploy", "https://vercel.com/docs/deployment-checks", "https://learn.chatgpt.com/docs/sandboxing/auto-review"]
+}

@@ -1,0 +1,95 @@
+{
+  "recordedAt": "2026-09-09",
+  "status": "implemented and tested locally; browser visual check pending with coordinator",
+  "scope": "Two original web-native learning companions; no existing source content or worksheet export helper changed.",
+  "routes": [
+    {
+      "route": "/practice/measurement",
+      "component": "components/multimedia/measurement-evidence-example.tsx",
+      "integration": "components/measurement-worksheet.tsx",
+      "purpose": "Distinguish activity, outcome and influence; identify what a fictional comparison cannot establish."
+    },
+    {
+      "route": "/courses/plain-language-in-human-services/pl-how",
+      "component": "components/multimedia/plain-language-comparison.tsx",
+      "integration": "app/courses/[courseId]/[lessonId]/page.tsx (coordinator-owned)",
+      "purpose": "Compare action-first writing while preserving facts; identify the missing reply method."
+    }
+  ],
+  "exports": [
+    "MeasurementEvidenceExample (no props)",
+    "PlainLanguageComparison (no props)"
+  ],
+  "tests": {
+    "result": "21 distinct focused tests passed",
+    "files": [
+      {
+        "file": "tests/measurement-practice.test.tsx",
+        "count": 5
+      },
+      {
+        "file": "tests/measurement-route.test.ts",
+        "count": 7
+      },
+      {
+        "file": "tests/multimedia-measurement.test.tsx",
+        "count": 3
+      },
+      {
+        "file": "tests/multimedia-plain-language.test.tsx",
+        "count": 2
+      },
+      {
+        "file": "tests/multimedia-lesson-route.test.tsx",
+        "count": 4
+      }
+    ],
+    "coverage": [
+      "All ten original worksheet fields retain values after companion interaction.",
+      "Only learner notes and the original source reference enter worksheet exports.",
+      "Existing clipboard failure and download behavior preserved.",
+      "Companion interactions do not call fetch or localStorage.setItem.",
+      "Chart values repeated in a labeled HTML table; missing influence record is not represented as zero.",
+      "Interpretation feedback distinguishes activity counts, comparison and causation.",
+      "Both notice drafts retain date, session choices and support offer when highlighting changes.",
+      "Exact lesson placement across both scopes; neighboring lesson and other course excluded.",
+      "Three original lesson blocks stay in original order; no source mutation.",
+      "Database-withheld lesson remains unavailable."
+    ]
+  },
+  "codeChecks": {
+    "scopedEslint": "passed for all six changed/new component and test files",
+    "typescript": "full project tsc --noEmit --incremental false passed"
+  },
+  "accessibility": {
+    "implemented": [
+      "SVG accessible title and description plus full HTML table.",
+      "Table column and row headers.",
+      "Native labeled radio groups and buttons; no timed progression.",
+      "Polite feedback live regions.",
+      "Highlight button exposes pressed state; text remains present; emphasis uses underlining as well as color."
+    ],
+    "manualReview": "Browser and assistive-technology checks are not claimed; coordinator owns local visual review."
+  },
+  "representationQA": {
+    "fictionalData": "Explicitly labeled, no DHS outcome claim.",
+    "peopleImagery": "None in either pilot.",
+    "disability": "No disability is inferred from appearance, no diagnosis or disclosure requested, and no wheelchair depiction is used as a proxy for disability."
+  },
+  "sourceFiles": [
+    {
+      "path": "lib/content/courses/recovered.json",
+      "sha256": "6248A9A39E8CC7B7DF268B22C0E3AA5D44D50BCA3A3360A1D22173205A0E4041"
+    },
+    {
+      "path": "lib/content/measurement-practice.ts",
+      "sha256": "A46E4DC768840094FF7AB80671175272F73A110B55A9C8F0190E90AD9DD41DA6"
+    }
+  ],
+  "previewUrls": [
+    "http://localhost:3115/practice/measurement",
+    "http://localhost:3115/courses/plain-language-in-human-services/pl-how"
+  ],
+  "browserLimitation": "Agent browser kernel failed before navigation: failed to write kernel assets, path not found. Coordinator informed.",
+  "publication": "Local integration only. No deployment, commit, purchase, install or media upload."
+}

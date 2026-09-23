@@ -1,0 +1,230 @@
+{
+  "createdAt": "2026-09-09T12:40:53.964Z",
+  "recording": "anti-racism-public-service",
+  "sourceTranscript": "evidence\\multimedia-review-2026-09-09\\podcast-transcripts\\anti-racism-public-service.json",
+  "sourceSha256": "40ecf7c260729f3f3d3e1efaa94ee6805526c2d81989abd4db8c1e334bac4337",
+  "sourceDurationSeconds": 1584.381,
+  "sourceSegments": 455,
+  "status": "transcript-grounded navigation review; not human audio fidelity verification",
+  "chapters": [
+    {
+      "start": 0,
+      "title": "What anti-racism means for public service",
+      "evidence": {
+        "segmentIndex": 0,
+        "excerpt": "Let me begin with a question that sounds simple and then gets complicated very quickly. What does it mean to be anti-racist? And before anyone answers, it means not being racist. That answer is worth examining. Not because it is always wrong, but because it may be incomplete. We are going to talk about racism as a personal experience, but also as something that can",
+        "basis": "A spoken transition or explicitly named section in the actual machine transcript. Title summarizes navigation, not a verbatim transcript."
+      },
+      "end": 152.91
+    },
+    {
+      "start": 152.91,
+      "title": "Racism, institutions, intent and impact",
+      "evidence": {
+        "segmentIndex": 44,
+        "excerpt": "Let's start with the language. What do we mean when we say racism? At the most familiar level, racism can involve racial prejudice, stereotyping, hostility, discrimination, or unequal treatment between people. Someone uses a slur, a supervisor makes a racial joke, a landlord refuses an applicant because of race, a hiring manager decides that a black candidate is not a culture fit while",
+        "basis": "A spoken transition or explicitly named section in the actual machine transcript. Title summarizes navigation, not a verbatim transcript."
+      },
+      "end": 371.95
+    },
+    {
+      "start": 371.95,
+      "title": "Anti-racism as a deliberate practice",
+      "evidence": {
+        "segmentIndex": 109,
+        "excerpt": "Which brings us to anti-racism. If it is not simply the absence of a racist feeling, what is it? I would describe anti-racism as the deliberate practice of identifying, challenging, preventing, and changing racial inequities in relationships, organizations, and systems. The word deliberate does a lot of work. Think about workplace safety.",
+        "basis": "A spoken transition or explicitly named section in the actual machine transcript. Title summarizes navigation, not a verbatim transcript."
+      },
+      "end": 508.57
+    },
+    {
+      "start": 508.57,
+      "title": "Different claims, evidence and accountability",
+      "evidence": {
+        "segmentIndex": 150,
+        "excerpt": "A good anti-racist process also distinguishes between different kinds of claims. One claim is legal. Did the institution violate a statute, regulation, court order, or policy? Another is empirical. Are outcomes different and why? Another is ethical.",
+        "basis": "A spoken transition or explicitly named section in the actual machine transcript. Title summarizes navigation, not a verbatim transcript."
+      },
+      "end": 596.27
+    },
+    {
+      "start": 596.27,
+      "title": "Examining common claims about DEI",
+      "evidence": {
+        "segmentIndex": 178,
+        "excerpt": "Let's turn to the myths, because a lot of the public argument happens there. What are people being told DEI means? Let's take the first myth. Anti-racism means white people are bad. No. It is possible to discuss racial inequality without declaring that every white person",
+        "basis": "A spoken transition or explicitly named section in the actual machine transcript. Title summarizes navigation, not a verbatim transcript."
+      },
+      "end": 880.81
+    },
+    {
+      "start": 880.81,
+      "title": "History and present-day decisions",
+      "evidence": {
+        "segmentIndex": 252,
+        "excerpt": "Let's sit with history for a moment, because there is a temptation to treat history as either everything or nothing. Right? One version says history explains every current outcome, another says history is over, so current outcomes can only reflect individual choices. Both positions are too simple.",
+        "basis": "A spoken transition or explicitly named section in the actual machine transcript. Title summarizes navigation, not a verbatim transcript."
+      },
+      "end": 948.17
+    },
+    {
+      "start": 948.17,
+      "title": "Government services and public responsibility",
+      "evidence": {
+        "segmentIndex": 271,
+        "excerpt": "Now let's bring that into the public sector directly. Why is this especially important in government institutions? Government is where the abstract questions become concrete. If a private company makes a confusing form, that is frustrating. If a public agency makes a confusing form, someone may lose food assistance, miss a deadline, remain unsafe, or be unable to exercise a right.",
+        "basis": "A spoken transition or explicitly named section in the actual machine transcript. Title summarizes navigation, not a verbatim transcript."
+      },
+      "end": 1123.87
+    },
+    {
+      "start": 1123.87,
+      "title": "Defining problems and evaluating change",
+      "evidence": {
+        "segmentIndex": 317,
+        "excerpt": "Let's talk about what DEI can look like when it is done well. I would start with a clear problem statement. Yes. Not we need more inclusion in the abstract, but our promotion process relies on informal sponsorship and employees in some groups are receiving fewer opportunities. Or residents who need interpretation abandon the application more often.",
+        "basis": "A spoken transition or explicitly named section in the actual machine transcript. Title summarizes navigation, not a verbatim transcript."
+      },
+      "end": 1283.89
+    },
+    {
+      "start": 1283.89,
+      "title": "Taking concerns seriously and building trust",
+      "evidence": {
+        "segmentIndex": 365,
+        "excerpt": "We have talked about systems, but racism is also experienced emotionally. People feel fear, humiliation, anger, exhaustion and sometimes disbelief. A resident may know that a form is technically available and still feel that the institution does not expect someone like them to succeed. And employees can feel that too. A person can be the first or only person of their background in a meeting, asked to",
+        "basis": "A spoken transition or explicitly named section in the actual machine transcript. Title summarizes navigation, not a verbatim transcript."
+      },
+      "end": 1413.43
+    },
+    {
+      "start": 1413.43,
+      "title": "Practical steps for everyday service",
+      "evidence": {
+        "segmentIndex": 404,
+        "excerpt": "If someone listening works in government, what can they do on Monday morning? Start with the service, not the slogan. Choose one process that affects the public and map the actual experience from beginning to end. Where do people wait? What do they have to understand?",
+        "basis": "A spoken transition or explicitly named section in the actual machine transcript. Title summarizes navigation, not a verbatim transcript."
+      },
+      "end": 1500.53
+    },
+    {
+      "start": 1500.53,
+      "title": "Sustaining the work through ordinary decisions",
+      "evidence": {
+        "segmentIndex": 434,
+        "excerpt": "So what is anti-racism? It is not a claim that every white person is bad. It is not permission to stereotype. It is not a substitute for evidence, legality, competence, or individual dignity. It is the practice of looking honestly at how racial inequity can be produced, including through ordinary systems and then changing what can be changed.",
+        "basis": "A spoken transition or explicitly named section in the actual machine transcript. Title summarizes navigation, not a verbatim transcript."
+      },
+      "end": 1584.381
+    }
+  ],
+  "suggestedRegistryChapters": [
+    {
+      "start": 0,
+      "title": "What anti-racism means for public service"
+    },
+    {
+      "start": 152.91,
+      "title": "Racism, institutions, intent and impact"
+    },
+    {
+      "start": 371.95,
+      "title": "Anti-racism as a deliberate practice"
+    },
+    {
+      "start": 508.57,
+      "title": "Different claims, evidence and accountability"
+    },
+    {
+      "start": 596.27,
+      "title": "Examining common claims about DEI"
+    },
+    {
+      "start": 880.81,
+      "title": "History and present-day decisions"
+    },
+    {
+      "start": 948.17,
+      "title": "Government services and public responsibility"
+    },
+    {
+      "start": 1123.87,
+      "title": "Defining problems and evaluating change"
+    },
+    {
+      "start": 1283.89,
+      "title": "Taking concerns seriously and building trust"
+    },
+    {
+      "start": 1413.43,
+      "title": "Practical steps for everyday service"
+    },
+    {
+      "start": 1500.53,
+      "title": "Sustaining the work through ordinary decisions"
+    }
+  ],
+  "possibleRecognitionIssues": [
+    {
+      "segmentIndices": [
+        55,
+        56
+      ],
+      "start": 195.83,
+      "observed": "Students operate through eligibility rules, funding choices schedules, forms, software location, language, staffing, professional norms, and discretion.",
+      "issue": "The subject word is unexpected in a passage discussing how institutions operate; the list punctuation is also uncertain.",
+      "action": "Retain the machine text unchanged. Compare the recording before making any correction; no replacement wording is asserted in this review."
+    },
+    {
+      "segmentIndices": [
+        117
+      ],
+      "start": 405.01,
+      "observed": "failures, and monitors whether the change is helped.",
+      "issue": "The final clause is grammatically unusual and may contain a recognition error.",
+      "action": "Retain the machine text unchanged. Compare the recording before making any correction; no replacement wording is asserted in this review."
+    },
+    {
+      "segmentIndices": [
+        148,
+        149
+      ],
+      "start": 503.89,
+      "observed": "One of those people needs to make a grand statement about American history before improving a process.",
+      "issue": "The opening phrase may contain a recognition error that changes the meaning of the preceding practical examples; audio review is needed before inferring or changing any negation.",
+      "action": "Retain the machine text unchanged. Compare the recording before making any correction; no replacement wording is asserted in this review."
+    },
+    {
+      "segmentIndices": [
+        400
+      ],
+      "start": 1403.27,
+      "observed": "What is the least burdensome effect of change?",
+      "issue": "The phrase about burdens and change is grammatically ambiguous and needs comparison with the audio.",
+      "action": "Retain the machine text unchanged. Compare the recording before making any correction; no replacement wording is asserted in this review."
+    },
+    {
+      "segmentIndices": [
+        445,
+        446
+      ],
+      "start": 1540.93,
+      "observed": "People experience the form, the call, the weight, the decision, and the way they are treated.",
+      "issue": "The word rendered as weight is contextually uncertain in a list of service experiences; a homophone may have been recognized.",
+      "action": "Retain the machine text unchanged. Compare the recording before making any correction; no replacement wording is asserted in this review."
+    }
+  ],
+  "limits": [
+    "The complete machine transcript was reviewed for chronological topics. This review does not establish word-for-word audio fidelity or correct recognition errors.",
+    "Chapter boundaries follow recorded transitions represented in the machine transcript; segment timestamps are approximate navigation aids.",
+    "The first chapter includes the opening silence. The final chapter extends through the complete recording duration, including its ending silence.",
+    "Titles summarize the discussion and do not independently verify its historical, empirical, legal or policy claims. No new citations or agency obligations are inferred.",
+    "The source transcript and recording remain unchanged. Suspected recognition issues are retained explicitly for later audio comparison."
+  ],
+  "checks": {
+    "chapterTimesIncreasing": true,
+    "allChaptersWithinRecording": true,
+    "startsAtBeginning": true,
+    "endsAtRecordingEnd": true
+  }
+}

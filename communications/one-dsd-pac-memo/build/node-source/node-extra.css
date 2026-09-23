@@ -1,0 +1,5 @@
+/* Node-specific additions have been folded into toolkit-extra.css
+   (.eat-entry-grid, .eat-entry, .eat-org, .eat-shared-marker) so the
+   accordion and the node header share one stylesheet. Kept as an empty
+   file, still loaded by build_nodes.py, so a future node-only style has
+   somewhere to go without touching the shared instrument's sheet. */

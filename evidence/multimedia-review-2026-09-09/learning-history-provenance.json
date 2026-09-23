@@ -1,0 +1,32 @@
+{
+  "checkedOn": "2026-09-09",
+  "scope": "New exact-lesson sourced companions only",
+  "photograph": {
+    "file": "public/images/learning-history/rondo-avenue-c1900.jpg",
+    "title": "View of Rondo Avenue from the Josiah B. Cheney residence (604 Rondo Avenue), circa 1900",
+    "holdingInstitution": "Minnesota Historical Society",
+    "rights": "MNopedia explicitly labels this individual photograph Public domain",
+    "sourcePage": "https://www.mnhs.org/mnopedia/search/index/place/rondo-neighborhood-st-paul",
+    "sourceImage": "https://www.mnhs.org/hubfs/Mnopedia%20Blogs/MR2.9%20SP2.2%20r100.jpg",
+    "collectionReference": "http://collections.mnhs.org/cms/display.php?irn=10734127",
+    "visualInspection": "Viewed downloaded image: black-and-white streetscape, houses and leafless trees; no generated reconstruction or invented documentary claim",
+    "sourceResolution": "540 x 426; retained, not claimed as higher resolution",
+    "placement": "/courses/cultural-intelligence-african-american/ci-african-american-place-5",
+    "accessibleEquivalent": "Descriptive alt text and dated institutional caption"
+  },
+  "rondoGeography": {
+    "medium": "Original native SVG schematic, explicitly not to scale and not a parcel or alignment map",
+    "basis": "MNopedia rough neighborhood boundaries and 1956–1968 construction period",
+    "source": "https://www.mnhs.org/mnopedia/search/index/place/rondo-neighborhood-st-paul",
+    "archivalMap": "https://experience.arcgis.com/experience/da3af29276dc4d54a571e587fc972948",
+    "archivalMapProvenance": "https://www.dot.state.mn.us/library/history.html",
+    "delivery": "Schematic and accessible description integrated locally; authentic parcel map opens separately from source link, not rehosted or misrepresented as local"
+  },
+  "timelines": [
+    {"route": "/courses/cultural-intelligence-hmong/ci-hmong-orientation-2", "sources": ["https://www.mnhs.org/hmong/hmong-timeline", "https://www.mnhs.org/mnopedia/search/index/hmong-and-hmong-americans-minnesota"], "originalTextPreserved": true, "dateDiscrepancy": "Original lesson/proposal December 1975; MNHS November 1975 and MNopedia November 5. Companion explicitly shows this source comparison."},
+    {"route": "/courses/cultural-intelligence-bosnian/ci-bosnian-orientation-2", "sources": ["https://main.ushmm.org/genocide-prevention/countries/bosnia-herzegovina/srebrenica-1993", "https://clintonwhitehouse6.archives.gov/1995/12/1995-12-22-president-letter-on-us-support-of-nato-in-bosnia.html"], "delivery": "Original non-graphic native dated timeline with per-entry citations"},
+    {"route": "/courses/cultural-intelligence-cuban/ci-cuban-orientation-2", "sources": ["https://www.loc.gov/classroom-materials/immigration/puerto-rican-cuban/crossing-the-straits/", "https://guides.loc.gov/latinx-civil-rights/cuban-adjustment-act"], "delivery": "Original selected-period timeline, no eligibility guidance or invented personal histories"}
+  ],
+  "populationDefinition": {"route": "/courses/cultural-intelligence-american/ci-american-practice-13", "source": "https://www.census.gov/programs-surveys/decennial-census/decade/2020/planning-management/release/faqs-race-ethnicity.html", "claim": "2020 U.S. White alone non-Hispanic population 57.8% of total U.S. population", "delivery": "Annotated source/year/geography/numerator/denominator table plus expandable fictional-claim correction"},
+  "rightsForAuthoredMaterial": "Original program-authored paraphrases, prompts, layout and schematic; links preserve source attribution. No unlicensed documentary photographs reproduced beyond the specifically public-domain Rondo image."
+}

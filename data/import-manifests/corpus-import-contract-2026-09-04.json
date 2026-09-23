@@ -1,0 +1,223 @@
+{
+  "schemaVersion": "1.0.0",
+  "contractId": "pac-corpus-import-2026-09-04",
+  "createdOn": "2026-09-04",
+  "mode": "lossless_source_import_with_governed_publication",
+  "rules": [
+    "Raw source storage, normalized source records, canonical content, and staff publication are separate layers.",
+    "Owner approval authorizes ingestion; it does not bypass language, currentness, accessibility, scope, placement, rights, or representation review.",
+    "Never import 557 disposition records as 557 staff-visible pages.",
+    "Never deduplicate by title.",
+    "Same business ID with a different content hash is a hard conflict.",
+    "An exact replay is recorded, not silently ignored.",
+    "Extra or missing records fail promotion.",
+    "All 25 current seed IDs remain in their own permanent collection.",
+    "The DHS logo is outside this import and must not be modified."
+  ],
+  "inputs": {
+    "normalizedCatalog": {
+      "sourceId": "complete-normalized-catalog-578",
+      "rows": 578,
+      "staff": 552,
+      "consultant": 26,
+      "bytes": 5020638,
+      "sha256": "8DD2D3FDA3679BAC97668A644A7A5FA1322F207040FA547AD6AB0A845076FF3B"
+    },
+    "brainCarrier": {
+      "sourceId": "brain-export-source-carrier-516",
+      "objects": 516,
+      "bytes": 5171309,
+      "sha256": "F21FC79445A4F2BC7AFEC72457BE2B35E7EBE5B1906E2106877B89C0569C5E33"
+    },
+    "legacyVault": {
+      "sourceId": "legacy-source-vault-62",
+      "files": 62,
+      "missing": 0,
+      "aggregateManifestSha256": "A7602D514CFBA5BF65CDB16033D0237C96EC1087AB7E62F405321C4E4F724AF0"
+    },
+    "builtIns": {
+      "records": 5,
+      "rule": "Generate cryptographic item hashes and retain the old labels only as aliases."
+    },
+    "stagingRelease": {
+      "sourceId": "staging-canonical-release",
+      "repository": "alphaequity123-afk/one-dsd-synthesized-staging",
+      "commit": "dc43370fb41cf8d4e58ae74c1f98193023edd846",
+      "completeReleaseManifestSha256": "52FC8E3DA173D49CD7C42F23F25133D32DB4F053F47252D2D17F934CB8A15C60",
+      "files": {
+        "canonicalResourcesSha256": "DF1BF21C2F745A86A48D2276FBA4EB2B57E661A0393A26932238A00B12E8D52C",
+        "canonicalFamiliesSha256": "09E84F62E64BA40F574F98FFA5842FE3CC3CFE26B9C6F9A07FB83A12B3768E27",
+        "editorBaselineSha256": "3AE5ACA6409662695B59CE48B90C3DF31F4A434CC7B35A6B5CC8B4173B872255",
+        "dispositionLedgerSha256": "3485A69B9D59B4E39B08C038E1DDF654AB4EC374CBB96B2210CCA3CA82B45265",
+        "sourceManifestSha256": "5B26BAF80E0148483939932EEE25600BD9FC8A6B8F31262A9A5C96F08221EA17",
+        "canonicalAudioManifestSha256": "27185D295581B957532290CE6F4B054B9726B23FCA2F9E5919F6B89A690113FE",
+        "productionSeedManifestSha256": "1545405579D4CE83F44A5F8490571FAD39823DA2F001830FA5EE7547C909C923"
+      }
+    },
+    "seedCollection": {
+      "sourceId": "current-seed-collection-2026-09-04",
+      "manifest": "data/source-ledger/current-seed-2026-09-04.json",
+      "items": 25
+    },
+    "suppliedInputLedger": {
+      "manifest": "data/source-ledger/owner-supplied-inputs.json",
+      "entries": 47,
+      "missingOriginals": 3
+    },
+    "sourceSnapshots": {
+      "entries": 34,
+      "local": {
+        "manifest": "data/source-snapshots/local/manifest.json",
+        "entries": 22
+      },
+      "googleDrive": {
+        "manifest": "data/source-snapshots/google-drive/manifest.json",
+        "metadata": "data/source-snapshots/google-drive/metadata.json",
+        "entries": 12,
+        "manualExtractionRequired": 1
+      },
+      "rule": "Snapshots preserve extractable content and capture receipts. They are owner-approved for ingestion and remain held from staff release until the required reviews pass."
+    },
+    "candidateGraph": {
+      "sourceId": "candidate-knowledge-fabric",
+      "nodes": 1824,
+      "edges": 6849,
+      "trustedPercent": 34.03,
+      "sha256": "5D335CE8A0D05BB3D5ED0523D0DBB280C5F4CCA955AEFC09F11A0007531668AD"
+    },
+    "liveDonor": {
+      "sourceId": "live-donor-release",
+      "repository": "alphaequity123-afk/one-dhs-equity-resource",
+      "commit": "fac88a203c6323b61a687132bae65c05247c5474",
+      "courses": 86,
+      "lessons": 780,
+      "communitySummaries": 40,
+      "ciGuides": 41,
+      "observances": 19,
+      "referencedMedia": 261
+    }
+  },
+  "exactLayerCounts": {
+    "logicalSourceRecords": 583,
+    "normalizedCatalogRecords": 578,
+    "builtInSourceRecords": 5,
+    "staffDispositionReceipts": 557,
+    "consultantOnlyWithoutDisposition": 26,
+    "activeSourceCandidates": 52,
+    "mergeComponents": 462,
+    "internalCandidates": 43,
+    "canonicalFamilies": 21,
+    "canonicalChildren": 52,
+    "canonicalEditableUnits": 73,
+    "staffFamilyAreas": 20,
+    "staffTopLevelPublications": 72,
+    "canonicalAudio": 73,
+    "podcastReferences": 1,
+    "currentSeedCollection": 25,
+    "ownerLedgerSourceRecords": 47,
+    "sourceSnapshotReceipts": 34,
+    "shadowSourceRecords": 630
+  },
+  "importOrder": [
+    "Verify logical source locators and hashes without copying redundant files.",
+    "Create immutable source carriers for raw files and source packages.",
+    "Import 578 normalized catalog records plus five built-in records.",
+    "Import 557 disposition receipts and preserve 26 consultant-only records.",
+    "Import 21 canonical families and 52 canonical child resources as 73 editable units.",
+    "Attach 73 audio objects to the matching canonical units; keep the podcast reference separately scoped.",
+    "Import the 25 seeds into their permanent collection without overwriting any canonical item.",
+    "Import candidate graph nodes and edges with their original trust and review state.",
+    "Import donor courses, summaries, guides, observances, and media into held review cohorts.",
+    "Run independent review gates and create staff publication decisions only for cleared revisions."
+  ],
+  "requiredAcceptanceChecks": [
+    {
+      "id": "A01",
+      "assertion": "The complete normalized set contains exactly 578 records and matches its SHA-256."
+    },
+    {
+      "id": "A02",
+      "assertion": "Five built-ins have stable identities and real SHA-256 values."
+    },
+    {
+      "id": "A03",
+      "assertion": "The 557 receipt IDs equal 552 staff source IDs plus five built-ins."
+    },
+    {
+      "id": "A04",
+      "assertion": "All 26 consultant-only records are accounted for and restricted."
+    },
+    {
+      "id": "A05",
+      "assertion": "The 54 records absent from the 524-row GitHub subset remain in source storage and none becomes a competing public page."
+    },
+    {
+      "id": "A06",
+      "assertion": "Disposition partitions equal 52 active, 462 merge, and 43 internal records."
+    },
+    {
+      "id": "A07",
+      "assertion": "Every disposition source ID appears exactly once in canonical source accounting."
+    },
+    {
+      "id": "A08",
+      "assertion": "The 52 canonical child IDs exactly equal the 52 active-candidate IDs."
+    },
+    {
+      "id": "A09",
+      "assertion": "The 73 editable baseline IDs exactly equal 21 family IDs plus 52 child IDs."
+    },
+    {
+      "id": "A10",
+      "assertion": "The 73 canonical audio IDs equal the 73 editable canonical IDs."
+    },
+    {
+      "id": "A11",
+      "assertion": "The staff publication view contains exactly 72 canonical entries before adding separately labeled seed or donor collections."
+    },
+    {
+      "id": "A12",
+      "assertion": "Same business ID plus different canonical hash fails the import."
+    },
+    {
+      "id": "A13",
+      "assertion": "Any missing or extra record in an exact batch fails promotion."
+    },
+    {
+      "id": "A14",
+      "assertion": "Title similarity creates a review suggestion and never automatic deletion or collapse."
+    },
+    {
+      "id": "A15",
+      "assertion": "Every staff-retrievable revision has passed all required review dimensions and has an explicit scope."
+    },
+    {
+      "id": "A16",
+      "assertion": "Under-review briefs are absent from browse, search, Ask, and citations unless the owner deliberately opens review preview."
+    },
+    {
+      "id": "A17",
+      "assertion": "No imported executable HTML can send data to an external endpoint."
+    },
+    {
+      "id": "A18",
+      "assertion": "The protected DHS logo hash remains unchanged."
+    },
+    {
+      "id": "A19",
+      "assertion": "All 22 local snapshots and all 12 Google Drive snapshots reconcile to the 47-entry owner ledger; incomplete extraction remains explicitly held."
+    },
+    {
+      "id": "A20",
+      "assertion": "The shadow stage contains 630 source items: 578 catalog records, five legacy built-ins, and 47 owner-ledger records."
+    },
+    {
+      "id": "A21",
+      "assertion": "The shadow stage creates zero staff publication decisions; owner ingestion approval never substitutes for staff-release approval."
+    }
+  ],
+  "protectedLogo": {
+    "path": "public/images/dhs-logo.png",
+    "sha256": "E9D767446EC871A7FBE829C2A978CF0CB47886AAD31A4FFCFF59A78AE89ADD74"
+  }
+}

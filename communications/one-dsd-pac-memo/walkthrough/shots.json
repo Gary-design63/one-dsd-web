@@ -1,0 +1,200 @@
+{
+ "title": "A walk through the Program",
+ "subtitle": "What a Disability Services Division staff member sees, in the order they see it",
+ "site": "https://one-dhs-pac.vercel.app",
+ "viewport": {
+  "width": 1440,
+  "height": 900,
+  "deviceScaleFactor": 2
+ },
+ "note": "Every entry below is fixed before capture. 'file' is the image the capture step writes into this folder; 'route' is the page to capture; 'caption' prints beneath the figure; 'alt' is the alternative text carried into the HTML and the tagged PDF. Captions are written to be read on their own, so the document works for a reader using a screen reader and for a reader skimming the pictures.",
+ "stages": [
+  {
+   "stage": "Arriving",
+   "gloss": "The first thirty seconds. What the Program is, and that it is for this person.",
+   "shots": [
+    {
+     "file": "01-home.png",
+     "route": "/",
+     "tab": "Home",
+     "title": "The front door",
+     "caption": "The home page as a Disability Services Division staff member first sees it, with the One DSD view selected. The opening line is “Practical support for workplace culture and equitable workforce, policy, program, and service decisions.” Two buttons, Ask a question and Start with your work, are the whole of what is asked of a newcomer.",
+     "alt": "The Program's home page. A navigation bar reads Home, Start, Ask, Areas of work, Learning and resources, Practice, One DSD, Support, and My Work. The heading is “One DSD People, Access and Culture Program” beside a photograph of eight colleagues standing in conversation. Below are three cards headed Learn and explore, Put equity into practice, and Connect with colleagues.",
+     "why": "This is the page every one of the Division's staff would see first. It sets the boundary honestly before it offers anything."
+    },
+    {
+     "file": "02-start.png",
+     "route": "/start",
+     "tab": "Start",
+     "title": "Three questions, then a route",
+     "caption": "The Start page asks three short questions — what role you bring, what kind of work you are doing, and when you need to act — and returns a practical next step. It states on the page that the answers are not saved, not scored, and not sent to a supervisor.",
+     "alt": "The Start page, headed “Where would you like to start?”, with menus for role and area of work, four timing choices from planning ahead to work already in use, and a button reading Show a place to start. A panel beside it says a practical next step will appear there and that answers are not saved, scored, or sent to a supervisor.",
+     "why": "A supervisor with fifteen minutes and a policy analyst with a month-long review are routed to different places by the same three questions."
+    }
+   ]
+  },
+  {
+   "stage": "Finding the work",
+   "gloss": "Entry by responsibility rather than by subject. This is where the 360-degree view is visible.",
+   "shots": [
+    {
+     "file": "03-areas.png",
+     "route": "/areas",
+     "tab": "Areas of work",
+     "title": "Nine doors, one for each kind of responsibility",
+     "caption": "Areas of work is entry by responsibility rather than by subject. Nine areas run from workforce equity through policy and service design to leadership and systems change, and each one gathers the knowledge, questions, tools, practice path and the person who holds the relevant authority.",
+     "alt": "The Areas of work page, headed “Enter through the decision or practice you are responsible for.” A list on the left names areas including workforce equity, policy, program and service design, community engagement and co-design, accessibility and language access, culture, trust and repair, and leadership and systems change. The first area, Workforce equity, is shown open with the work it supports and links to ask a question, find reviewed material, start a practice path, and find the right person.",
+     "why": "This single page is the clearest answer to “is there anything in here for my people?” The answer is visibly yes, for every level of the Division."
+    }
+   ]
+  },
+  {
+   "stage": "Learning",
+   "gloss": "What a staff member can actually study, and what a course looks like inside.",
+   "shots": [
+    {
+     "file": "04-learn-hub.png",
+     "route": "/learn",
+     "tab": "Learning and resources",
+     "title": "Learning and resources",
+     "caption": "Learning and resources is one page, not two systems. Courses, tools, podcasts, ways to grow and practice paths sit behind a single row of links, with the Equity Analysis Toolkit given its own place, so nobody has to guess which of four places holds what they need.",
+     "alt": "The Learning and resources page, headed “Learning and resources” with the line “Knowledge, practical tools, and perspectives for fair services and inclusive workplaces.” Two panels below read “Find a path from learning to practice” and “Equity Analysis Toolkit”, above a row of links: Courses and learning, Tools and resources, Podcasts, Ways to grow, and Practice paths.",
+     "why": "Shows that learning and reference material are one experience, not two systems a person has to move between."
+    },
+    {
+     "file": "05-course-tiles.png",
+     "route": "/learn",
+     "tab": "Learning and resources",
+     "title": "The course selection",
+     "caption": "Part of the course selection, in the two-column tile format every published course uses. This band is the disability sequence and its leadership courses; the tiles carry the course title, a short program-authored description and a photograph, and open the whole course.",
+     "alt": "Eight course tiles in two columns, each with a photograph, a title and a two-line description. The titles are The Leadership Case for Disability Inclusion; Governance, Accountability and Resourcing; Inclusive Policy, Procurement and Technology; Measuring Culture and Sustained Progress; Capstone: Remove a Real Barrier; Conflict Resolution That Works for Neurodivergent Staff; What Fraud Enforcement Actually Costs; and Public Perception, Misperception, and the Communities We Serve.",
+     "why": "Gary asked for the thumbnails specifically. They convey the breadth and the production standard faster than any description."
+    },
+    {
+     "file": "06-course-open.png",
+     "route": "/share/courses/di-disability-diversity-belonging",
+     "tab": "Learning and resources",
+     "title": "Inside a course",
+     "caption": "A course opened: Disability, Diversity and Belonging, the foundation of the disability sequence. Forty-five to fifty minutes, four lessons, and a stated set of things a person will be able to do afterwards rather than a list of things they will have been shown.",
+     "alt": "The course page for “Disability, Diversity and Belonging”, labelled Disability Inclusion, Foundations, with a photograph of two colleagues talking across a desk. It reads 45 to 50 minutes and 4 lessons. A section headed “What you’ll be able to do” lists, under Explore and practice, describing disability as a common and varied part of human diversity and distinguishing impairment, disability, access need and disabling barrier; and under What you can take into your work, a sorting exercise, a knowledge check in every lesson, and a completed barrier map with one written commitment.",
+     "why": "Leadership should see one course in full, not only its tile, to judge the depth."
+    },
+    {
+     "file": "07-job-aid.png",
+     "route": "/share/library/ja-equity-impact-questions",
+     "tab": "Learning and resources",
+     "title": "A job aid, ready to use in the meeting you are already in",
+     "caption": "A job aid, opened on its own address. Equity impact questions for policy, budget, technology, and procurement is four numbered question sets a person can work through before a high-stakes decision, downloadable as Word, Excel, PowerPoint or PDF, and explicit that it frames a decision rather than making it.",
+     "alt": "The job aid “Equity impact questions for policy, budget, technology, and procurement”. Buttons offer it as Word, Excel, PowerPoint or PDF. A panel headed “Why this matters” says the questions help frame a decision but are not legal advice and do not make the decision. Four numbered groups follow, headed Policy, Budget, Technology and Procurement, each a short set of questions about who benefits, who carries the burden, and what must be reviewed by the person with authority to decide.",
+     "why": "Answers the fair objection that a learning program asks for time nobody has."
+    }
+   ]
+  },
+  {
+   "stage": "Doing the work",
+   "gloss": "Where the Program stops being reading and becomes a work product.",
+   "shots": [
+    {
+     "file": "08-practice.png",
+     "route": "/practice",
+     "tab": "Practice",
+     "title": "Turn understanding into a useful work product",
+     "caption": "Practice is where the Program stops being reading. A guided practice path produces a real work product — a checklist, an analysis, a plan, an agenda or a review — for work the person is doing now, and the page states that nothing there scores or ranks anyone.",
+     "alt": "The Practice page, headed “Turn understanding into useful work”, explaining that you can create a checklist, analysis, plan, agenda or review for work you are doing now, and that notes stay in the browser on that computer unless you choose to share them. Below, a section headed “Guided practice paths” begins with “New program or service concept”, which creates an equity and access planning checklist.",
+     "why": "This is the difference between a training library and a program. It is also where the privacy posture is visible."
+    },
+    {
+     "file": "09-toolkit.png",
+     "route": "/share/equity-toolkit",
+     "tab": "Practice",
+     "title": "The Equity Analysis Toolkit",
+     "caption": "The Equity Analysis Toolkit companion, on the standalone address that can be forwarded on its own. It says plainly on the page that its five learning stages are a program companion and not the official toolkit sequence, and that optional practice does not replace the toolkit, required review, or engagement with affected people.",
+     "alt": "The Equity Analysis Toolkit page, carrying the Minnesota Department of Human Services Disability Services Division logo. The heading is “Equity Analysis Toolkit” with the line “Examine how a decision may affect people differently, consider alternatives, and prepare for a conversation about what should happen next”, beside a photograph of three colleagues working together at a table. Links read Optional practice, Your actual work, and Toolkit and related resources. A note says the five learning stages are a program companion, not the official toolkit sequence.",
+     "why": "The critical deliverable. If Heidi Hamilton and Leigh Ann Ahmad open one thing, it is this."
+    },
+    {
+     "file": "10-ask.png",
+     "route": "/ask",
+     "tab": "Ask",
+     "title": "Ask a real question and get a substantiated answer",
+     "caption": "Ask, with a real question typed in: how to make a hiring panel accessible for a candidate who is Deaf. It is not limited to a fixed list of program topics — it can reason, use the Program's own material, and check current public sources. The panel beside it sets out how answers work and what Ask will not do, including that it does not create official policy or make decisions.",
+     "alt": "The Ask page, headed “Ask on your own”. A large box headed “What would you like help thinking through?” contains the typed question “How do I make a hiring panel accessible for a candidate who is Deaf?” Below it a menu reads “Answer the question; check current public sources when helpful”, with buttons Get an answer and Search the Library instead. A panel headed “How answers work” explains that Ask can explain any subject, that public information appears separately from program resources, that it does not create official policy or make decisions, and that question history can be reviewed or cleared from My Work.",
+     "why": "The capability most likely to be used daily, and the one that scales the consultant's reach furthest."
+    }
+   ]
+  },
+  {
+   "stage": "The Division's own program",
+   "gloss": "Where One DSD stops being a copy of One DHS and becomes the Division's.",
+   "shots": [
+    {
+     "file": "11-one-dsd.png",
+     "route": "/one-dsd",
+     "tab": "One DSD",
+     "title": "One DSD",
+     "caption": "The One DSD tab is where the shared foundation becomes the Division's own. A banner confirms the One DSD view is active, and DSD situations, services, relationships and learning are added while everything shared with One DHS stays available.",
+     "alt": "The One DSD page, subtitled “The Disability Services Division reference program”. A banner reads “One DSD view is active. Shared One DHS material stays available, with DSD examples, scenarios, and support added.” Links run across People and connection, Programs and services, Practice situations, Areas of work, and Support, above panels for One DSD Team and Amplify Equity.",
+     "why": "Shows the pilot is a real, populated program rather than a re-labelled copy."
+    },
+    {
+     "file": "12-one-dsd-leadership.png",
+     "route": "/one-dsd/leadership",
+     "tab": "One DSD",
+     "title": "What is here for leadership specifically",
+     "caption": "The leadership material inside One DSD, headed “Grow your DEIA leadership”. It runs from a starting point through the employee life cycle, personal development, succession in practice, and learning with colleagues, and the whole page can be taken away as Word, Excel, PowerPoint or PDF.",
+     "alt": "The One DSD leadership page. Buttons at the top offer the page as Word, Excel, PowerPoint or PDF. The heading is “Grow your DEIA leadership” over the line “People grow. Leadership grows with them”, beside a photograph of four colleagues at a table, one of them a wheelchair user, working at a board of notes. A button reads “Find your starting point”. Links below run across Your starting point, The employee life cycle, Your development, Succession in practice, and Learning and colleagues, above a heading reading “Learn. Reflect. Practice. Return.”",
+     "why": "Gary asked that the screenshots show benefit across levels, leadership included. This is that page, and its audience is the memorandum's own readers."
+    }
+   ]
+  },
+  {
+   "stage": "Getting help, and keeping the work",
+   "gloss": "What happens when the Program is not enough on its own.",
+   "shots": [
+    {
+     "file": "13-support.png",
+     "route": "/support",
+     "tab": "Support",
+     "title": "Work independently, or find the person who decides",
+     "caption": "Support is the honest edge of the Program. Ask, the Library, finding the right person and exploring an area of work sit together, and a panel names what belongs elsewhere: complaints, investigations, grievances, accommodation decisions and discipline go to Employee Culture, Human Resources or the civil-rights channel, and anything touching a Tribal Nation goes to the Office of Indian Policy or the Tribal liaison first. Consultation requests are not open yet, and the page says so rather than taking a request it cannot answer.",
+     "alt": "The Support page, headed “Find the right support”. A panel for Ask sits beside links for Library, Find the right person, and Explore an area of work. A section headed “Preview a consultation request” says requests are not open yet and nothing is saved or sent, with a button reading “See what a request includes”. A panel headed “When another team can help” routes complaints, investigations, grievances, accommodation decisions and discipline to Employee Culture, Human Resources or the civil-rights channel, and anything touching a Tribal Nation to the Office of Indian Policy or the Tribal liaison first. A further panel invites anyone who finds an access barrier to report it.",
+     "why": "Demonstrates the Program's restraint, which matters to a Division Director as much as its reach does."
+    },
+    {
+     "file": "14-my-work.png",
+     "route": "/my-work",
+     "tab": "My Work",
+     "title": "What the person keeps",
+     "caption": "My Work is the whole of what the Program keeps, and it keeps it on the person's own computer. Working notes, path progress, saved consultation references and recent Ask questions, each removable, with a single control to delete everything. There is no sign-in and no staff record of who studied what.",
+     "alt": "The My Work page, headed “Your work, saved on this computer”. Four sections read Working notes, Path progress, Saved consultation references, and Recent Ask questions, each currently empty. A note headed “Your privacy and choices” says consultation requests are not open yet and that nothing entered is sent or saved for the consultant, followed by a button reading “Delete everything saved here” and a line explaining that saved items stay on the device until deleted and are not sent to a supervisor.",
+     "why": "Forecloses the first question a careful director asks: is this quietly building a record on my staff? It is not."
+    }
+   ]
+  }
+ ],
+ "blocked": [
+  {
+   "requested": "The consultant portal request-submission workflow",
+   "routes": [
+    "/support/request",
+    "/support/track"
+   ],
+   "finding": "These pages do not show a submission form. Checked on a local run of this branch on 2026-09-19: /support/track reads “Checking a request is not available right now”, and /support/request routes to “Direct consultation is for DSD work” rather than to intake. Intake is deliberately fail-closed in lib/intelligence/consult/availability.ts: it requires a PostgreSQL store, a runtime database URL, a tracking secret, a rate-limit secret, an approved and matching activation-evidence bundle, an approved policy version, an approved retention period, and seven separate readiness switches for correction, deletion, backup, restore, recovery, incident and delivery processes. Every one of those switches defaults to off in config/environment-contract.json, and the approved retention period in particular has not been set. The production environment's variables cannot be read from here, so this describes the code and the defaults, not an inspection of production.",
+   "consequence": "A screenshot of this workflow would show a closed page to a Division Director, which would undercut the package rather than support it.",
+   "options": [
+    "Leave it out and let the Support screenshot carry the point, since “Find the right person” does work today.",
+    "Show the closed page honestly, captioned as a service awaiting the retention and records decisions that sit above the consultant.",
+    "Capture the workflow from a local run with the switches on, captioned plainly as a demonstration rather than as the live service."
+   ],
+   "recommendation": "The first. The memorandum is strongest where every screenshot is something a staff member can do today.",
+   "decision": "Omitted. Gary chose this on 2026-09-19: the Support screenshot carries the point, because “Find the right person” works today and names the office, the role, and what that office can decide. The memorandum is strongest where every screenshot is something a staff member can do today."
+  }
+ ],
+ "capture": {
+  "taken": "2026-09-19",
+  "method": "The Program was built from this branch and served on this machine, and the pages were photographed there in the One DSD view. The site itself could not be reached from the machine that took them. The images are taken from the same list of pages this record is written from, so the two cannot drift apart.",
+  "commit_note": "Captured from the PR #32 branch head at capture time.",
+  "viewport": "1440 points wide at double resolution, then carried at 1300 across. Every page is photographed whole, from its top to its foot, however long it runs; the tallest here is just over nine thousand pixels. Two figures are exceptions, and both are cut at a real boundary in the page rather than through anything: Learning and resources is one 35,600-pixel page by design, so 04 stops exactly where the module list begins and 05 shows whole course tiles only.",
+  "not_shown": "Two things do not appear in a local run and are not defects of the Program: files attached to a resource, which need the program database, and live checking of current public sources, which needs the research service. Neither was fabricated and nothing in any image was altered."
+ }
+}

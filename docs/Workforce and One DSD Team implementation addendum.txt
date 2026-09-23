@@ -1,0 +1,84 @@
+ONE DHS PEOPLE, ACCESS AND CULTURE PROGRAM
+Workforce relevance and One DSD Team | 6 September 2026
+Owner working document. Not staff-facing copy or agency policy.
+
+Purpose
+Connect organizational context, position responsibilities, current tasks, learning, and practical equity work. Preserve this connection through changes in leadership, funding, staffing, and organizational arrangement. The One DSD Team provides a practice-based contribution to this continuing program, not a parallel engagement group.
+
+Research and coverage
+DHS public directory: https://mn.gov/dhs/about-us/contact-us/agencywide-organization/
+MMB overview: https://mn.gov/mmb/employee-relations/career-paths-and-families/classification-specifications/
+MMB class indexes reviewed: spec-h.jsp and spec-s.jsp under that directory.
+The public directory identifies organizational areas and leadership titles. It does not establish every unit, position allocation, duty, or reporting relationship. The initial code baseline records agency areas and the DSD/ADSA relationship without claiming that agency-area membership means a direct reporting line.
+Ten classification titles/codes are recorded as index references. Their individual specification documents and position-specific duties have not yet been analyzed. They are not assignments of those classes to DHS units.
+The work categories used for recommendations are program-authored categories, not official MMB job families. County, Tribal, provider, and state employees must not be conflated merely because their tasks intersect.
+The entire agency workforce map is NOT complete. A leadership directory plus selected classification references cannot establish a complete workforce inventory.
+
+Existing work preserved
+Broad role choices already exist in lib/product/start.ts.
+Federation currently supports One DHS and One DSD contexts, not independent administration permission scopes.
+My Work retains its existing saved-work, progress, and consultation functions.
+The existing personal One DSD Team community and its program channel are retained.
+Three channels were added to that personal community: Working questions, Learning and resource review, and Decisions and follow-up. Each contains a starter post or reusable work-note structure. No invitations, appointments, or organizational-system changes were made. These are personal Teams posts, not an automated connection to the application.
+
+Implemented increment
+An editable One DSD Team page, connected from One DSD.
+An editable Learning for your work page, connected from My Work and the team page.
+Ten work categories and four task starting points, with editable many-to-many resource associations.
+Task matches precede role matches. Duplicates are removed. Only items supplied by the existing scoped, published content loader can be returned; missing or unpublished associations do not reveal a resource.
+This is deterministic matching, not adaptive agent execution or a complete personalized curriculum. Neither identity nor organizational membership is inferred. Query choices are optional and grant no access.
+The organization and classification research baseline is not exposed as a staff roster.
+
+One DSD Team operating program
+Approximately 20 members with varied expertise, according to the owner. No named roster is invented.
+The consultant provides substantive program direction. Members contribute experience, examine processes, review resources, and help test practical changes. Managers and other responsible officials retain their decision authority.
+General meetings: shared priorities, one substantive question, relevant learning, and updates on accepted work.
+Open hours: voluntary help with a question or work in progress; not a replacement for the general meeting.
+Between meetings: bounded contributions, resource review, and returning what was learned.
+Do not publish dates until confirmed. Do not assign volunteer work solely from job title.
+
+Work cycle
+Identify a real question -> understand the process and affected people -> examine evidence and resources -> agree a proposed improvement and authorized decision owner -> try when authorized -> review results -> retain, revise, or stop -> continue.
+For each item retain: question, scope, task, relevant resources, evidence limits, contribution owner, decision owner, next check-in, and outcome. Do not store case records, personal complaints, or participant profiles.
+Possible first work items: a confusing form or notice; a meeting participation barrier; a resource that does not fit an actual staff task. These are proposals, not an assigned workplan.
+
+Amplify connection
+Amplify remains staff-directed. Co-leads carry only agreed questions, with minimal identifying detail, to an appropriate recipient. The One DSD Team may consider a question but is not automatically its implementation owner. Co-leads return the response. No bulk copying of engagement conversations, transcripts, or personal stories.
+
+Organizational model required for completion
+Separate organizational area, official classification, working position, responsibilities, tasks, competencies, resources, and permissions.
+Stable identifiers outlast display names. Preserve dated relationships and replacements rather than deleting history when an area reorganizes.
+Vacancy is a position state, not removal of its responsibilities. A retirement is not permission to infer a successor.
+Responsibilities may cross units; resources may serve many tasks without duplication.
+Allow unassigned and locally defined roles without inventing official classifications.
+Record what was publicly verified, locally confirmed, proposed, or superseded on the consultant side.
+
+Scoped governance required for completion
+Administration and division stewards require authenticated, explicit grants. A selected role, title, or organizational preference never grants editing, approval, or publishing rights.
+Local stewards propose and maintain their area; shared changes require the shared program's approval rules. No one changes another area's assignments merely by changing a parent selector.
+The owner's ADSA exception remains a specific permission-design question; no administration-wide exception is inferred from DSD responsibility.
+Support review, effective dates, history, rollback, and retirement of mappings. Existing two-scope publishing remains unchanged until tested replacements exist.
+
+Intelligent behavior required for completion
+Use only voluntarily supplied context. Ask about the task when a role is insufficient. Offer tailored examples, 3–5 observable objectives for a lesson, relevant published tools, and appropriate further research. Keep unrestricted exploration available.
+Do not treat a classification description as a person's actual authority. Do not score beliefs, infer identities, or treat missing role data as a deficit.
+External research must be distinguishable from confirmed organizational knowledge. Changes discovered externally become reviewable proposals, not automatic organizational facts.
+Automated work needs an actual execution record, failure handling, scoped tools, and owner disable control. No background automation is claimed by this increment.
+
+Acceptance work still required
+Inventory every relevant organizational area and reconcile with authorized local knowledge.
+Read selected classification specifications and validate actual role/task relationships; expand coverage beyond the current baseline.
+Implement and test administration/division-level permissions and an editable organizational map.
+Connect optional context to Ask with explicit consent, and evaluate task relevance against practitioner-reviewed examples.
+Test: policy analyst planning a meeting; eligibility-related work reviewing a notice; assistant commissioner considering a budget; no role disclosed; multiple roles; changed organization; retired mapping; wrong-scope user; missing published resource.
+Demonstrate persistent assignments and actual approved agent work before calling the complete capability operational.
+
+Portability
+Retain data definitions, tests, research notes, and acceptance criteria in the existing repository so another coding platform can continue. Do not clone the application to preserve a plan. No official DHS access, live deployment, or database migration is included in this increment.
+
+Consultant map increment, 6 September 2026
+Added /consultant/workforce and individual area pages. Each page checks owner access before reading area content. The shared map uses the existing One DHS editing scope, not new administration permissions.
+Each baseline area has editable definitions for name, relationship, confirmation status, leadership responsibilities, working-role descriptions, retained changes, source links, and resource links. The rich-text roles field permits adding role headings and descriptions. This is a maintainable narrative inventory, not yet a structured position graph or an interface for adding organizational nodes.
+Detailed specifications reviewed: Human Services Program Specialist 1 (2458), Human Services Program Consultant (3322), and Human Services Manager 1 (3916). General duties are summarized in the agency-level reference with links to the official specifications. These are not individual position assignments. The documents carry historical revision dates; being available on the current MMB index does not establish a recently revised specification.
+The local .env.local content source defaults to static. A runtime database connection is configured, but the existing saved-editor service requires postgres content mode. Saved controls are therefore hidden with an explanation in this preview. No global mode change was made.
+The browser reached the protected workspace sign-in screen. Authenticated rendering, a real save/review/release, and restored-version interaction remain unverified. Tests cover content validity, editable role additions, scope restrictions, and preventing protected content reads without owner access; existing editor tests also passed.

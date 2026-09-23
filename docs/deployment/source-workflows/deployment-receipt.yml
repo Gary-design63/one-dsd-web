@@ -1,0 +1,66 @@
+name: Deployment receipt (DEPLOY.md step 5)
+
+on:
+  workflow_dispatch:
+    inputs:
+      ref:
+        description: Branch or commit that was deployed
+        default: pac/one-dhs-pac-app
+        required: true
+      base_url:
+        description: Production alias
+        default: https://one-dhs-pac.vercel.app
+        required: true
+
+permissions:
+  contents: read
+  deployments: read
+
+jobs:
+  receipt:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - name: Vercel deployment recorded on GitHub for this commit
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REF: ${{ inputs.ref }}
+          BASE: ${{ inputs.base_url }}
+        run: |
+          set -u
+          api="https://api.github.com/repos/${{ github.repository }}"
+          sha=$(curl -s -H "Authorization: Bearer $GH_TOKEN" "$api/commits/$REF" | jq -r '.sha')
+          echo "checked_at_utc=$(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          echo "deployed_ref=$REF"
+          echo "deployed_sha=$sha"
+          deployments=$(curl -s -H "Authorization: Bearer $GH_TOKEN" "$api/deployments?sha=$sha&per_page=10")
+          count=$(echo "$deployments" | jq 'length')
+          echo "github_deployments_for_sha=$count"
+          if [ "$count" = "0" ]; then echo "No deployment recorded on GitHub for this commit yet."; exit 0; fi
+          echo "$deployments" | jq -r '.[] | "deployment_id=\(.id) environment=\(.environment) creator=\(.creator.login) created_at=\(.created_at)"'
+          for id in $(echo "$deployments" | jq -r '.[].id'); do
+            curl -s -H "Authorization: Bearer $GH_TOKEN" "$api/deployments/$id/statuses?per_page=5" \
+              | jq -r --arg id "$id" '.[] | "  status deployment_id=\($id) state=\(.state) created_at=\(.created_at) environment_url=\(.environment_url // "") log_url=\(.log_url // "")"'
+          done
+          # The repository is connected to more than one Vercel project; the production project is one-dhs-pac.
+          url=""
+          for id in $(echo "$deployments" | jq -r '.[] | select(.environment | test("one-dhs-pac")) | .id'); do
+            candidate=$(curl -s -H "Authorization: Bearer $GH_TOKEN" "$api/deployments/$id/statuses?per_page=5" | jq -r '[.[] | select(.state=="success") | .environment_url // empty][0] // empty')
+            if [ -n "$candidate" ] && [ -z "$url" ]; then url="$candidate"; fi
+          done
+          echo "ready_deployment_url=${url:-none}"
+          if [ -n "$url" ]; then
+            curl -s -o /dev/null -D - "$url/" | grep -i -E "^HTTP/|^x-vercel-id" | tr -d '\r'
+            echo "unique deployment URL answers 302 when deployment protection is on; the production alias below is the served head."
+          fi
+          echo "--- production alias"
+          curl -s -o /dev/null -D - "$BASE/" | grep -i -E "^HTTP/|^x-vercel-id|^age" | tr -d '\r'
+          echo "production alias serves the new head (pause worksheet present): $(curl -s "$BASE/practice/gp-12" | grep -c 'id="f-gp-12-work_name"')"
+      - name: Vercel project listing (only when a VERCEL_TOKEN secret exists)
+        env:
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+        run: |
+          set -u
+          if [ -z "${VERCEL_TOKEN:-}" ]; then echo "VERCEL_TOKEN secret not set; the GitHub deployment record above is the step 5 receipt."; exit 0; fi
+          curl -s -H "Authorization: Bearer $VERCEL_TOKEN" "https://api.vercel.com/v6/deployments?projectId=prj_nHxwFMaDXRMFCvvAfkQZ9YhIlxJp&slug=equity123&limit=8" \
+            | jq -r '.deployments[] | "\(.created | todate) \(.state // .readyState) \(.target // "preview") \(.url) \(.meta.githubCommitSha // "")"'

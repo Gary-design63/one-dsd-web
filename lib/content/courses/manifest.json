@@ -1,0 +1,604 @@
+[
+  {
+    "id": "anti-racism-resource",
+    "contentId": "course-anti-racism-resource",
+    "assetId": "anti-racism-resource",
+    "title": "Anti-Racism as Ordinary Work",
+    "sourceClass": "authored"
+  },
+  {
+    "id": "somali-minnesota-brief",
+    "contentId": "course-somali-minnesota-brief",
+    "assetId": "somali-minnesota-brief",
+    "title": "Somali Minnesota — a Brief, not a Capsule",
+    "sourceClass": "authored"
+  },
+  {
+    "id": "cultural-humility-vs-checklist",
+    "contentId": "course-cultural-humility-vs-checklist",
+    "assetId": "cultural-humility-vs-checklist",
+    "title": "Cultural Humility vs. a Checklist",
+    "sourceClass": "authored"
+  },
+  {
+    "id": "critical-incidents-in-the-work",
+    "contentId": "course-critical-incidents-in-the-work",
+    "assetId": "critical-incidents-in-the-work",
+    "title": "Critical Incidents in the Work",
+    "sourceClass": "authored"
+  },
+  {
+    "id": "intercultural-conflict-styles",
+    "contentId": "course-intercultural-conflict-styles",
+    "assetId": "intercultural-conflict-styles",
+    "title": "Intercultural Conflict Styles at a DHS Desk",
+    "sourceClass": "authored"
+  },
+  {
+    "id": "intercultural-competence-without-a-score",
+    "contentId": "course-intercultural-competence-without-a-score",
+    "assetId": "intercultural-competence-without-a-score",
+    "title": "Intercultural Competence without a Score",
+    "sourceClass": "authored"
+  },
+  {
+    "id": "disability-and-language",
+    "contentId": "course-disability-and-language",
+    "assetId": "disability-and-language",
+    "title": "Disability and Language Together",
+    "sourceClass": "authored"
+  },
+  {
+    "id": "cultural-broker-as-a-role",
+    "contentId": "course-cultural-broker-as-a-role",
+    "assetId": "cultural-broker-as-a-role",
+    "title": "Cultural Broker as a Role",
+    "sourceClass": "authored"
+  },
+  {
+    "id": "language-access-plan",
+    "contentId": "course-language-access-plan",
+    "assetId": "language-access-plan",
+    "title": "A Language Access Plan You Can Walk",
+    "sourceClass": "authored"
+  },
+  {
+    "id": "plain-language-in-human-services",
+    "contentId": "course-plain-language-in-human-services",
+    "assetId": "plain-language-in-human-services",
+    "title": "Plain Language in Human Services",
+    "sourceClass": "authored"
+  },
+  {
+    "id": "working-with-an-interpreter",
+    "contentId": "course-working-with-an-interpreter",
+    "assetId": "working-with-an-interpreter",
+    "title": "Working with an Interpreter",
+    "sourceClass": "authored"
+  },
+  {
+    "id": "language-access-as-a-design",
+    "contentId": "course-language-access-as-a-design",
+    "assetId": "language-access-as-a-design",
+    "title": "Language Access as a Design",
+    "sourceClass": "authored"
+  },
+  {
+    "id": "equal-opportunity-in-employment",
+    "contentId": "course-equal-opportunity-in-employment",
+    "assetId": "equal-opportunity-in-employment",
+    "title": "Equal Opportunity in Employment — the Door and the Lens",
+    "sourceClass": "authored"
+  },
+  {
+    "id": "conflict-at-work",
+    "contentId": "course-conflict-at-work",
+    "assetId": "conflict-at-work",
+    "title": "Conflict at Work — Resolution vs. a Formal Door",
+    "sourceClass": "authored"
+  },
+  {
+    "id": "stay-and-exit-interviews",
+    "contentId": "course-stay-and-exit-interviews",
+    "assetId": "stay-and-exit-interviews",
+    "title": "Stay Interviews and Exit Interviews",
+    "sourceClass": "authored"
+  },
+  {
+    "id": "employee-viewpoint-and-wellbeing-surveys",
+    "contentId": "course-employee-viewpoint-and-wellbeing-surveys",
+    "assetId": "employee-viewpoint-and-wellbeing-surveys",
+    "title": "Employee Viewpoint and Well-Being Surveys",
+    "sourceClass": "authored"
+  },
+  {
+    "id": "mobility-acting-promotion",
+    "contentId": "course-mobility-acting-promotion",
+    "assetId": "mobility-acting-promotion",
+    "title": "Mobility, Acting, and Promotion",
+    "sourceClass": "authored"
+  },
+  {
+    "id": "career-mentorship-and-sponsorship",
+    "contentId": "course-career-mentorship-and-sponsorship",
+    "assetId": "career-mentorship-and-sponsorship",
+    "title": "Career Mentorship and Sponsorship",
+    "sourceClass": "authored"
+  },
+  {
+    "id": "performance-and-development",
+    "contentId": "course-performance-and-development",
+    "assetId": "performance-and-development",
+    "title": "Performance and Development",
+    "sourceClass": "authored"
+  },
+  {
+    "id": "onboarding-and-first-90-days",
+    "contentId": "course-onboarding-and-first-90-days",
+    "assetId": "onboarding-and-first-90-days",
+    "title": "Onboarding and the First 90 Days",
+    "sourceClass": "authored"
+  },
+  {
+    "id": "screening-and-selection",
+    "contentId": "course-screening-and-selection",
+    "assetId": "screening-and-selection",
+    "title": "Screening and Selection",
+    "sourceClass": "authored"
+  },
+  {
+    "id": "sourcing-and-outreach",
+    "contentId": "course-sourcing-and-outreach",
+    "assetId": "sourcing-and-outreach",
+    "title": "Sourcing and Outreach",
+    "sourceClass": "authored"
+  },
+  {
+    "id": "job-design-and-the-posting",
+    "contentId": "course-job-design-and-the-posting",
+    "assetId": "job-design-and-the-posting",
+    "title": "Job Design and the Posting",
+    "sourceClass": "authored"
+  },
+  {
+    "id": "employee-life-cycle-as-a-system",
+    "contentId": "course-employee-life-cycle-as-a-system",
+    "assetId": "employee-life-cycle-as-a-system",
+    "title": "The Employee Life Cycle as a System",
+    "sourceClass": "authored"
+  },
+  {
+    "id": "facilitators-guide-equity-inclusion-curriculum",
+    "contentId": "course-facilitators-guide-equity-inclusion-curriculum",
+    "assetId": "facilitators-guide-equity-inclusion-curriculum",
+    "title": "Facilitator’s Guide: Leading the Equity and Inclusion Curriculum",
+    "sourceClass": "authored"
+  },
+  {
+    "id": "equity-centered-leadership",
+    "contentId": "course-equity-centered-leadership",
+    "assetId": "equity-centered-leadership",
+    "title": "Equity-Centered Leadership",
+    "sourceClass": "authored"
+  },
+  {
+    "id": "equity-champion-contribution-workflow",
+    "contentId": "course-equity-champion-contribution-workflow",
+    "assetId": "equity-champion-contribution-workflow",
+    "title": "Equity Champion Contribution Workflow",
+    "sourceClass": "authored"
+  },
+  {
+    "id": "equity-inclusion-leadership-and-systems",
+    "contentId": "course-equity-inclusion-leadership-and-systems",
+    "assetId": "equity-inclusion-leadership-and-systems",
+    "title": "Equity and Inclusion: Leadership and Systems",
+    "sourceClass": "authored"
+  },
+  {
+    "id": "acceptance-in-dhs-work",
+    "contentId": "course-acceptance-in-dhs-work",
+    "assetId": "acceptance-in-dhs-work",
+    "title": "Acceptance in DHS Work",
+    "sourceClass": "authored"
+  },
+  {
+    "id": "culture-without-theater",
+    "contentId": "course-culture-without-theater",
+    "assetId": "culture-without-theater",
+    "title": "Culture Without Theater",
+    "sourceClass": "authored"
+  },
+  {
+    "id": "teams-in-minimization",
+    "contentId": "course-teams-in-minimization",
+    "assetId": "teams-in-minimization",
+    "title": "Teams in Minimization",
+    "sourceClass": "authored"
+  },
+  {
+    "id": "from-noticing-to-shifting",
+    "contentId": "course-from-noticing-to-shifting",
+    "assetId": "from-noticing-to-shifting",
+    "title": "From Noticing to Shifting",
+    "sourceClass": "authored"
+  },
+  {
+    "id": "outcomes-not-intentions",
+    "contentId": "course-outcomes-not-intentions",
+    "assetId": "outcomes-not-intentions",
+    "title": "Outcomes, Not Intentions",
+    "sourceClass": "authored"
+  },
+  {
+    "id": "how-it-shows-up-in-minnesota-human-services",
+    "contentId": "course-how-it-shows-up-in-minnesota-human-services",
+    "assetId": "how-it-shows-up-in-minnesota-human-services",
+    "title": "How It Shows Up in Minnesota Human Services",
+    "sourceClass": "authored"
+  },
+  {
+    "id": "the-record",
+    "contentId": "course-the-record",
+    "assetId": "the-record",
+    "title": "The Record",
+    "sourceClass": "authored"
+  },
+  {
+    "id": "what-minimization-does-in-dhs-work",
+    "contentId": "course-what-minimization-does-in-dhs-work",
+    "assetId": "what-minimization-does-in-dhs-work",
+    "title": "What Minimization Does in DHS Work",
+    "sourceClass": "authored"
+  },
+  {
+    "id": "dhs-equity-analysis-toolkit",
+    "contentId": "course-dhs-equity-analysis-toolkit",
+    "assetId": "dhs-equity-analysis-toolkit",
+    "title": "DHS Equity Analysis Toolkit",
+    "sourceClass": "authored"
+  },
+  {
+    "id": "family-and-natural-support-systems",
+    "contentId": "course-family-and-natural-support-systems",
+    "assetId": "family-and-natural-support-systems",
+    "title": "Family and Natural Support Systems",
+    "sourceClass": "authored"
+  },
+  {
+    "id": "lgbtq-inclusion-in-disability-services",
+    "contentId": "course-lgbtq-inclusion-in-disability-services",
+    "assetId": "lgbtq-inclusion-in-disability-services",
+    "title": "LGBTQ+ Inclusion in Disability Services",
+    "sourceClass": "authored"
+  },
+  {
+    "id": "brain-injury-and-complex-disability",
+    "contentId": "course-brain-injury-and-complex-disability",
+    "assetId": "brain-injury-and-complex-disability",
+    "title": "Brain Injury and Complex Disability",
+    "sourceClass": "authored"
+  },
+  {
+    "id": "neurodiversity-and-cognitive-difference",
+    "contentId": "course-neurodiversity-and-cognitive-difference",
+    "assetId": "neurodiversity-and-cognitive-difference",
+    "title": "Neurodiversity and Cognitive Difference",
+    "sourceClass": "authored"
+  },
+  {
+    "id": "health-wellness-and-safety",
+    "contentId": "course-health-wellness-and-safety",
+    "assetId": "health-wellness-and-safety",
+    "title": "Health, Wellness, and Safety",
+    "sourceClass": "authored"
+  },
+  {
+    "id": "employment-first-and-economic-inclusion",
+    "contentId": "course-employment-first-and-economic-inclusion",
+    "assetId": "employment-first-and-economic-inclusion",
+    "title": "Employment First and Economic Inclusion",
+    "sourceClass": "authored"
+  },
+  {
+    "id": "change-management-bringing-people-along",
+    "contentId": "course-change-management-bringing-people-along",
+    "assetId": "change-management-bringing-people-along",
+    "title": "Change Management: Bringing People Along",
+    "sourceClass": "authored"
+  },
+  {
+    "id": "accessibility-as-leadership-responsibility",
+    "contentId": "course-accessibility-as-leadership-responsibility",
+    "assetId": "accessibility-as-leadership-responsibility",
+    "title": "Accessibility as Leadership Responsibility",
+    "sourceClass": "authored"
+  },
+  {
+    "id": "cultural-intelligence-american",
+    "contentId": "course-cultural-intelligence-american",
+    "assetId": "cultural-intelligence-american",
+    "title": "American culture",
+    "sourceClass": "generated_curriculum"
+  },
+  {
+    "id": "cultural-intelligence-minnesota",
+    "contentId": "course-cultural-intelligence-minnesota",
+    "assetId": "cultural-intelligence-minnesota",
+    "title": "Minnesota culture",
+    "sourceClass": "generated_curriculum"
+  },
+  {
+    "id": "cultural-intelligence-african-american",
+    "contentId": "course-cultural-intelligence-african-american",
+    "assetId": "cultural-intelligence-african-american",
+    "title": "African American Minnesota",
+    "sourceClass": "generated_curriculum"
+  },
+  {
+    "id": "cultural-intelligence-somali",
+    "contentId": "course-cultural-intelligence-somali",
+    "assetId": "cultural-intelligence-somali",
+    "title": "Somali Minnesota",
+    "sourceClass": "generated_curriculum"
+  },
+  {
+    "id": "cultural-intelligence-hmong",
+    "contentId": "course-cultural-intelligence-hmong",
+    "assetId": "cultural-intelligence-hmong",
+    "title": "Hmong Minnesota",
+    "sourceClass": "generated_curriculum"
+  },
+  {
+    "id": "cultural-intelligence-amharic",
+    "contentId": "course-cultural-intelligence-amharic",
+    "assetId": "cultural-intelligence-amharic",
+    "title": "Amharic-speaking Minnesota",
+    "sourceClass": "generated_curriculum"
+  },
+  {
+    "id": "cultural-intelligence-arabic",
+    "contentId": "course-cultural-intelligence-arabic",
+    "assetId": "cultural-intelligence-arabic",
+    "title": "Arabic-speaking Minnesota",
+    "sourceClass": "generated_curriculum"
+  },
+  {
+    "id": "cultural-intelligence-bosnian",
+    "contentId": "course-cultural-intelligence-bosnian",
+    "assetId": "cultural-intelligence-bosnian",
+    "title": "Bosnian Minnesota",
+    "sourceClass": "generated_curriculum"
+  },
+  {
+    "id": "cultural-intelligence-burmese",
+    "contentId": "course-cultural-intelligence-burmese",
+    "assetId": "cultural-intelligence-burmese",
+    "title": "Burmese Minnesota",
+    "sourceClass": "generated_curriculum"
+  },
+  {
+    "id": "cultural-intelligence-cambodian",
+    "contentId": "course-cultural-intelligence-cambodian",
+    "assetId": "cultural-intelligence-cambodian",
+    "title": "Cambodian / Khmer Minnesota",
+    "sourceClass": "generated_curriculum"
+  },
+  {
+    "id": "cultural-intelligence-chinese",
+    "contentId": "course-cultural-intelligence-chinese",
+    "assetId": "cultural-intelligence-chinese",
+    "title": "Chinese Minnesota",
+    "sourceClass": "generated_curriculum"
+  },
+  {
+    "id": "cultural-intelligence-colombian",
+    "contentId": "course-cultural-intelligence-colombian",
+    "assetId": "cultural-intelligence-colombian",
+    "title": "Colombian Minnesota",
+    "sourceClass": "generated_curriculum"
+  },
+  {
+    "id": "cultural-intelligence-cuban",
+    "contentId": "course-cultural-intelligence-cuban",
+    "assetId": "cultural-intelligence-cuban",
+    "title": "Cuban Minnesota",
+    "sourceClass": "generated_curriculum"
+  },
+  {
+    "id": "cultural-intelligence-ecuadorian",
+    "contentId": "course-cultural-intelligence-ecuadorian",
+    "assetId": "cultural-intelligence-ecuadorian",
+    "title": "Ecuadorian Minnesota",
+    "sourceClass": "generated_curriculum"
+  },
+  {
+    "id": "cultural-intelligence-ethiopian",
+    "contentId": "course-cultural-intelligence-ethiopian",
+    "assetId": "cultural-intelligence-ethiopian",
+    "title": "Ethiopian Minnesota",
+    "sourceClass": "generated_curriculum"
+  },
+  {
+    "id": "cultural-intelligence-filipino",
+    "contentId": "course-cultural-intelligence-filipino",
+    "assetId": "cultural-intelligence-filipino",
+    "title": "Filipino Minnesota",
+    "sourceClass": "generated_curriculum"
+  },
+  {
+    "id": "cultural-intelligence-french",
+    "contentId": "course-cultural-intelligence-french",
+    "assetId": "cultural-intelligence-french",
+    "title": "French-speaking Minnesota",
+    "sourceClass": "generated_curriculum"
+  },
+  {
+    "id": "cultural-intelligence-guatemalan",
+    "contentId": "course-cultural-intelligence-guatemalan",
+    "assetId": "cultural-intelligence-guatemalan",
+    "title": "Guatemalan Minnesota",
+    "sourceClass": "generated_curriculum"
+  },
+  {
+    "id": "cultural-intelligence-indian",
+    "contentId": "course-cultural-intelligence-indian",
+    "assetId": "cultural-intelligence-indian",
+    "title": "Indian (Asian Indian) Minnesota",
+    "sourceClass": "generated_curriculum"
+  },
+  {
+    "id": "cultural-intelligence-japanese",
+    "contentId": "course-cultural-intelligence-japanese",
+    "assetId": "cultural-intelligence-japanese",
+    "title": "Japanese Minnesota",
+    "sourceClass": "generated_curriculum"
+  },
+  {
+    "id": "cultural-intelligence-karen",
+    "contentId": "course-cultural-intelligence-karen",
+    "assetId": "cultural-intelligence-karen",
+    "title": "Karen Minnesota",
+    "sourceClass": "generated_curriculum"
+  },
+  {
+    "id": "cultural-intelligence-kenyan",
+    "contentId": "course-cultural-intelligence-kenyan",
+    "assetId": "cultural-intelligence-kenyan",
+    "title": "Kenyan Minnesota",
+    "sourceClass": "generated_curriculum"
+  },
+  {
+    "id": "cultural-intelligence-korean",
+    "contentId": "course-cultural-intelligence-korean",
+    "assetId": "cultural-intelligence-korean",
+    "title": "Korean Minnesota",
+    "sourceClass": "generated_curriculum"
+  },
+  {
+    "id": "cultural-intelligence-lao",
+    "contentId": "course-cultural-intelligence-lao",
+    "assetId": "cultural-intelligence-lao",
+    "title": "Lao Minnesota",
+    "sourceClass": "generated_curriculum"
+  },
+  {
+    "id": "cultural-intelligence-latino",
+    "contentId": "course-cultural-intelligence-latino",
+    "assetId": "cultural-intelligence-latino",
+    "title": "Latino / Hispanic Minnesota (disaggregate)",
+    "sourceClass": "generated_curriculum"
+  },
+  {
+    "id": "cultural-intelligence-lebanese",
+    "contentId": "course-cultural-intelligence-lebanese",
+    "assetId": "cultural-intelligence-lebanese",
+    "title": "Lebanese Minnesota",
+    "sourceClass": "generated_curriculum"
+  },
+  {
+    "id": "cultural-intelligence-liberian",
+    "contentId": "course-cultural-intelligence-liberian",
+    "assetId": "cultural-intelligence-liberian",
+    "title": "Liberian Minnesota",
+    "sourceClass": "generated_curriculum"
+  },
+  {
+    "id": "cultural-intelligence-mexican",
+    "contentId": "course-cultural-intelligence-mexican",
+    "assetId": "cultural-intelligence-mexican",
+    "title": "Mexican Minnesota",
+    "sourceClass": "generated_curriculum"
+  },
+  {
+    "id": "cultural-intelligence-nigerian",
+    "contentId": "course-cultural-intelligence-nigerian",
+    "assetId": "cultural-intelligence-nigerian",
+    "title": "Nigerian Minnesota",
+    "sourceClass": "generated_curriculum"
+  },
+  {
+    "id": "cultural-intelligence-oromo",
+    "contentId": "course-cultural-intelligence-oromo",
+    "assetId": "cultural-intelligence-oromo",
+    "title": "Oromo Minnesota",
+    "sourceClass": "generated_curriculum"
+  },
+  {
+    "id": "cultural-intelligence-puerto-rican",
+    "contentId": "course-cultural-intelligence-puerto-rican",
+    "assetId": "cultural-intelligence-puerto-rican",
+    "title": "Puerto Rican Minnesota",
+    "sourceClass": "generated_curriculum"
+  },
+  {
+    "id": "cultural-intelligence-russian",
+    "contentId": "course-cultural-intelligence-russian",
+    "assetId": "cultural-intelligence-russian",
+    "title": "Russian-speaking Minnesota",
+    "sourceClass": "generated_curriculum"
+  },
+  {
+    "id": "cultural-intelligence-salvadoran",
+    "contentId": "course-cultural-intelligence-salvadoran",
+    "assetId": "cultural-intelligence-salvadoran",
+    "title": "Salvadoran Minnesota",
+    "sourceClass": "generated_curriculum"
+  },
+  {
+    "id": "cultural-intelligence-thai",
+    "contentId": "course-cultural-intelligence-thai",
+    "assetId": "cultural-intelligence-thai",
+    "title": "Thai Minnesota",
+    "sourceClass": "generated_curriculum"
+  },
+  {
+    "id": "cultural-intelligence-ukrainian",
+    "contentId": "course-cultural-intelligence-ukrainian",
+    "assetId": "cultural-intelligence-ukrainian",
+    "title": "Ukrainian Minnesota",
+    "sourceClass": "generated_curriculum"
+  },
+  {
+    "id": "cultural-intelligence-vietnamese",
+    "contentId": "course-cultural-intelligence-vietnamese",
+    "assetId": "cultural-intelligence-vietnamese",
+    "title": "Vietnamese Minnesota",
+    "sourceClass": "generated_curriculum"
+  },
+  {
+    "id": "cultural-intelligence-tribal",
+    "contentId": "course-cultural-intelligence-tribal",
+    "assetId": "cultural-intelligence-tribal",
+    "title": "Eleven Tribal Nations of Minnesota",
+    "sourceClass": "generated_curriculum"
+  },
+  {
+    "id": "cultural-intelligence-alaska-native",
+    "contentId": "course-cultural-intelligence-alaska-native",
+    "assetId": "cultural-intelligence-alaska-native",
+    "title": "Alaska Native people in Minnesota",
+    "sourceClass": "generated_curriculum"
+  },
+  {
+    "id": "cultural-intelligence-rural",
+    "contentId": "course-cultural-intelligence-rural",
+    "assetId": "cultural-intelligence-rural",
+    "title": "Rural Minnesota (place, not a race)",
+    "sourceClass": "generated_curriculum"
+  },
+  {
+    "id": "cultural-intelligence-european-american",
+    "contentId": "course-cultural-intelligence-european-american",
+    "assetId": "cultural-intelligence-european-american",
+    "title": "European America in Minnesota — historic cultures, not a ‘white’ mash",
+    "sourceClass": "generated_curriculum"
+  },
+  {
+    "id": "cultural-intelligence-native-american",
+    "contentId": "course-cultural-intelligence-native-american",
+    "assetId": "cultural-intelligence-native-american",
+    "title": "Native American (Compass profile — not the 11 nations)",
+    "sourceClass": "generated_curriculum"
+  }
+]

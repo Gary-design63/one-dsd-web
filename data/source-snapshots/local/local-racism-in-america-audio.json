@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "1.0.0",
+  "capturedOn": "2026-09-04",
+  "sourceId": "local-racism-in-america-audio",
+  "title": "Racism in America course narration",
+  "sourceType": "mp3",
+  "sourceFileName": "course-featured-racism-in-america-html.mp3",
+  "sourceBytes": 11105216,
+  "sourceSha256": "7B61CF2CD944C0D0D6F17484D4A6561C06341AED9D37D09D7D0BCAE98CB92D03",
+  "ownerApproval": "owner_approved_for_ingestion",
+  "staffRelease": "not_staff_released",
+  "snapshotSanitization": "Private Windows user-folder prefixes are removed; the original file hash remains unchanged.",
+  "extraction": {
+    "format": "mp3",
+    "metadata": {
+      "format": {
+        "format_name": "mp3",
+        "duration": "694.021224",
+        "bit_rate": "128010",
+        "tags": {
+          "encoder": "Lavf58.76.100"
+        }
+      }
+    },
+    "text": "",
+    "transcriptStatus": "transcript_required_before_staff_release"
+  },
+  "extractedTextCharacters": 0,
+  "extractedTextSha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+}

@@ -1,0 +1,19 @@
+{
+  "asset": "public/images/media-minnehaha-nps-dietzman.jpg",
+  "sha256": "85c1685da275f2807b84dbae1d35de2e74123583f33e8e0204a58f307c6c3d8c",
+  "dimensions": [
+    1000,
+    666
+  ],
+  "creditedPhotographer": "NPS/Gordon Dietzman",
+  "source": "https://npgallery.nps.gov/AssetDetail/6D680AA3-1DD8-B71B-0B4788AB317C0219",
+  "originalDownload": "https://npgallery.nps.gov/GetAsset/6D680AA3-1DD8-B71B-0B4788AB317C0219/proxyhires.jpg",
+  "rights": "Source metadata explicitly says Public domain:Full Granting Rights",
+  "sourceLocation": "Minnehaha Falls Regional Park",
+  "embeddedTimestamp": "2016-09-09",
+  "retrieved": "2026-09-09",
+  "alteration": "None; retained source image bytes",
+  "actualUse": "dsd:amplify-activity-minnesota",
+  "visualReview": "Viewed locally: stream beneath low stone bridge, rocks and wooded banks match description. No people, no fabricated historical reconstruction.",
+  "relatedReading": "https://www.minneapolisparks.org/parks-destinations/parks-lakes/minnehaha_regional_park/"
+}

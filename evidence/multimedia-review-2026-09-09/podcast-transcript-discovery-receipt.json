@@ -1,0 +1,62 @@
+{
+  "timestamp": "2026-09-09T12:40:23.551142+00:00",
+  "status": "scoped-podcast-discovery-implemented-and-targeted-tests-passed",
+  "files": [
+    "lib/intelligence/retrieval/podcast-reading.ts",
+    "lib/intelligence/retrieval/program-resources.ts",
+    "tests/podcast-transcript-discovery.test.ts"
+  ],
+  "sourcePolicy": "Static imports of only the two actual public recording-derived JSON files. No private brain, user notes, archived drafts or remote fetches.",
+  "sources": [
+    "public/audio/transcripts/dhs-equity-policy-and-toolkit.json",
+    "public/audio/transcripts/anti-racism-public-service.json"
+  ],
+  "behavior": [
+    "Matching podcast surface must be present in current requested-scope published rows before any transcript contribution is indexed",
+    "Enriches the existing podcast destination at its actual anchor; creates no extra destination or duplicate full-page record",
+    "Transcript text bounded to64000 characters per recording; both current full transcripts fit, including their final passages",
+    "Grounded chapter titles enrich tags; actual spoken text is searchable as body content",
+    "Always labels indexed text as machine-generated and not an official transcript",
+    "Preserves original published surface revision evidence and adds a distinct transcript/chapter payload hash",
+    "Scope cache key includes supplement fingerprints and is recalculated after current-publication checks; withdrawals remove transcript terms immediately"
+  ],
+  "verification": {
+    "passed": 9,
+    "newTests": 6,
+    "existingPodcastAskTests": 3,
+    "command": "node scripts/testing/run-tests.mjs --config vitest.hosted.config.mts tests/podcast-transcript-discovery.test.ts tests/podcast-ask.test.ts --maxWorkers 1 --no-file-parallelism",
+    "seconds": 11.82,
+    "covered": [
+      "Recording-derived sustainability query finds exact podcast anchor in both scopes",
+      "Actual transcript final passage preserved",
+      "Original revision evidence retained plus machine-transcript hash",
+      "Withdrawal after cached read removes result",
+      "One DHS scoped recording not injected into empty DSD scope",
+      "Second actual recording indexed once and independently removed",
+      "Existing named podcast discovery preserved"
+    ]
+  },
+  "limits": [
+    "Keyword relevance scoring remains the existing program search policy; not every incidental word warrants a recommendation.",
+    "This is transcript-aware podcast discovery, not certified transcript fidelity or current-policy verification.",
+    "Final full app lint/typecheck/build and browser ASK verification owned by root/DSD agent."
+  ],
+  "downstreamEvidenceReview": {
+    "checkedAt": "2026-09-09T12:43:43.733781+00:00",
+    "test": "tests/podcast-transcript-evidence.test.ts",
+    "passed": 1,
+    "seconds": 8.2,
+    "question": "Which DHS podcast discusses sustainability?",
+    "actualPath": [
+      "ask orchestrator with actual recording-derived corpus and scoped published rows",
+      "Source citation retains original surface evidence and machine-transcript hash descriptor",
+      "toStaffAskResult preserves evidence and identifies practice approach as not DHS policy",
+      "createAskResponseRecord and MemoryAskRecordsStore accept and preserve the source snapshot",
+      "Exact actual sentence Step eight is sustainability. passes current-source evidence validation",
+      "Changing only transcript payload hash invalidates prior evidence",
+      "Withdrawing the scoped podcast invalidates prior evidence"
+    ],
+    "sourceIdHandling": "EvidenceRevision sourceId is an opaque schema-validated descriptor. Revalidation uses the current scoped document identity and all revisions/content hashes; it does not resolve each descriptor as an editable surface ID.",
+    "journalLimit": "Historical journal validation preserves the recorded snapshot. Current publication eligibility is separately rechecked by current-source evidence validation; journal persistence is not permission to expose a withdrawn source as current."
+  }
+}

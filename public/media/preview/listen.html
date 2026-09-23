@@ -1,0 +1,10 @@
+<!doctype html><meta charset="utf-8"><title>Listen: your recording</title>
+<style>body{font-family:system-ui,sans-serif;max-width:720px;margin:40px auto;padding:0 20px;color:#123f60}h1{font-size:28px}section{margin:28px 0;padding:20px;border:1px solid #d6dee6;border-radius:12px}audio{width:100%}p{color:#333}</style>
+<h1>Your recording</h1>
+<section><h2>Version 4: NPR tone (close-mic warmth, clear presence, steady level, 8% faster)</h2><audio id="npr" controls preload="auto" src="/media/preview/voice-npr.mp3"></audio></section>
+<section><h2>Version 3: warmer (fuller low end, softer highs), 10% faster</h2><audio id="v3" controls preload="auto" src="/media/preview/voice-cleaned-v3.mp3"></audio></section>
+<section><h2>Version 2: gentle noise cut, no metallic ring, 10% faster</h2><audio id="v2" controls preload="auto" src="/media/preview/voice-cleaned-v2.mp3"></audio></section>
+<section><h2>Version 1: heavy noise cut (the metallic one)</h2><audio id="clean" controls preload="auto" src="/media/preview/voice-cleaned.mp3"></audio></section>
+<section><h2>Original, for comparison</h2><audio id="orig" controls preload="auto" src="/media/preview/voice-original.m4a"></audio></section>
+<p>Press play on either one. Only one plays at a time.</p>
+<script>for(const a of document.querySelectorAll('audio'))a.addEventListener('play',()=>{for(const b of document.querySelectorAll('audio'))if(b!==a)b.pause()});</script>

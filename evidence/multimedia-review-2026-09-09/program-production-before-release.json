@@ -1,0 +1,1804 @@
+{
+  "checkedAt": "2026-09-09T12:19:38.548Z",
+  "origin": "https://one-dhs-pac.vercel.app",
+  "access": "Public unauthenticated GET only, no credentials/database/staff rows or writes",
+  "summary": {
+    "records": 117,
+    "distinctUrls": 63,
+    "http200": 63,
+    "non200": 0,
+    "errors": 0
+  },
+  "pages": [
+    {
+      "route": "/",
+      "status": 200,
+      "redirected": false,
+      "finalUrl": "https://one-dhs-pac.vercel.app/",
+      "h1": [
+        "One DHS People, Access and Culture Program"
+      ],
+      "surfaceIds": [],
+      "rows": [
+        {
+          "recordKey": "program:home-entry",
+          "title": "One DHS program home",
+          "state": "retained",
+          "expectedTitlePresent": false,
+          "anchor": null,
+          "anchorPresent": null
+        }
+      ]
+    },
+    {
+      "route": "/about",
+      "status": 200,
+      "redirected": false,
+      "finalUrl": "https://one-dhs-pac.vercel.app/about",
+      "h1": [
+        "About this program"
+      ],
+      "surfaceIds": [
+        "about.page",
+        "equity.practice"
+      ],
+      "rows": [
+        {
+          "recordKey": "program:about-dhs",
+          "title": "About — our connection to DHS",
+          "state": "integrated",
+          "expectedTitlePresent": false,
+          "anchor": "dhs-connection-title",
+          "anchorPresent": true
+        }
+      ]
+    },
+    {
+      "route": "/ask",
+      "status": 200,
+      "redirected": false,
+      "finalUrl": "https://one-dhs-pac.vercel.app/ask",
+      "h1": [
+        "Ask"
+      ],
+      "surfaceIds": [
+        "ask.page"
+      ],
+      "rows": [
+        {
+          "recordKey": "program:ask-media",
+          "title": "ASK — resource recommendations",
+          "state": "partial",
+          "expectedTitlePresent": false,
+          "anchor": null,
+          "anchorPresent": null
+        }
+      ]
+    },
+    {
+      "route": "/employee-resource-groups",
+      "status": 200,
+      "redirected": false,
+      "finalUrl": "https://one-dhs-pac.vercel.app/employee-resource-groups",
+      "h1": [
+        "Employee resource groups"
+      ],
+      "surfaceIds": [],
+      "rows": [
+        {
+          "recordKey": "dsd:erg-dhs",
+          "title": "DHS groups",
+          "state": "retained",
+          "expectedTitlePresent": true,
+          "anchor": "dhs-groups",
+          "anchorPresent": true
+        },
+        {
+          "recordKey": "dsd:erg-statewide",
+          "title": "Across Minnesota state government",
+          "state": "retained",
+          "expectedTitlePresent": true,
+          "anchor": "statewide-groups",
+          "anchorPresent": true
+        },
+        {
+          "recordKey": "dsd:erg-connections",
+          "title": "How these connections can enrich the program",
+          "state": "awaiting-contributor",
+          "expectedTitlePresent": true,
+          "anchor": "erg-connections",
+          "anchorPresent": true
+        }
+      ]
+    },
+    {
+      "route": "/learn",
+      "status": 200,
+      "redirected": false,
+      "finalUrl": "https://one-dhs-pac.vercel.app/learn",
+      "h1": [
+        "Learning and resources"
+      ],
+      "surfaceIds": [
+        "learn.page",
+        "learn.hub",
+        "learn.catalog",
+        "podcast.equity-toolkit",
+        "podcast.anti-racism-public-service"
+      ],
+      "rows": [
+        {
+          "recordKey": "program:learning-catalog",
+          "title": "Learning and resources",
+          "state": "retained",
+          "expectedTitlePresent": true,
+          "anchor": "catalog",
+          "anchorPresent": true
+        },
+        {
+          "recordKey": "program:podcast-anti-racism",
+          "title": "Anti-racism in public service — podcast",
+          "state": "partial",
+          "expectedTitlePresent": false,
+          "anchor": "podcast-anti-racism-public-service",
+          "anchorPresent": true
+        }
+      ]
+    },
+    {
+      "route": "/learn/community-connections",
+      "status": 200,
+      "redirected": false,
+      "finalUrl": "https://one-dhs-pac.vercel.app/learn/community-connections",
+      "h1": [
+        "Community engagement: from input to action"
+      ],
+      "surfaceIds": [
+        "community-connections.home"
+      ],
+      "rows": [
+        {
+          "recordKey": "program:community-learning",
+          "title": "Community engagement: from input to action",
+          "state": "integrated",
+          "expectedTitlePresent": true,
+          "anchor": null,
+          "anchorPresent": null
+        }
+      ]
+    },
+    {
+      "route": "/learn/equity-toolkit",
+      "status": 200,
+      "redirected": false,
+      "finalUrl": "https://one-dhs-pac.vercel.app/learn/equity-toolkit",
+      "h1": [
+        "Equity Analysis Toolkit"
+      ],
+      "surfaceIds": [
+        "equity-toolkit.home",
+        "podcast.equity-toolkit"
+      ],
+      "rows": [
+        {
+          "recordKey": "program:toolkit-companion",
+          "title": "Equity Analysis Toolkit companion",
+          "state": "integrated",
+          "expectedTitlePresent": false,
+          "anchor": "toolkit-practice",
+          "anchorPresent": true
+        },
+        {
+          "recordKey": "program:podcast-toolkit",
+          "title": "DHS equity policy and toolkit — podcast",
+          "state": "partial",
+          "expectedTitlePresent": false,
+          "anchor": "podcast-equity-toolkit",
+          "anchorPresent": true
+        }
+      ]
+    },
+    {
+      "route": "/learn/intercultural",
+      "status": 200,
+      "redirected": false,
+      "finalUrl": "https://one-dhs-pac.vercel.app/learn/intercultural",
+      "h1": [
+        "Intercultural learning in everyday work"
+      ],
+      "surfaceIds": [
+        "learn.intercultural"
+      ],
+      "rows": [
+        {
+          "recordKey": "program:journey-foundations",
+          "title": "Begin with curiosity",
+          "state": "integrated",
+          "expectedTitlePresent": true,
+          "anchor": "foundations",
+          "anchorPresent": true
+        },
+        {
+          "recordKey": "program:journey-perspectives",
+          "title": "Make room for different experiences",
+          "state": "integrated",
+          "expectedTitlePresent": true,
+          "anchor": "perspectives",
+          "anchorPresent": true
+        },
+        {
+          "recordKey": "program:journey-communication",
+          "title": "Adapt how you communicate",
+          "state": "integrated",
+          "expectedTitlePresent": true,
+          "anchor": "communication",
+          "anchorPresent": true
+        },
+        {
+          "recordKey": "program:journey-decisions",
+          "title": "Carry learning into a decision",
+          "state": "integrated",
+          "expectedTitlePresent": true,
+          "anchor": "decisions",
+          "anchorPresent": true
+        },
+        {
+          "recordKey": "program:journey-reflection",
+          "title": "Learn from what happens next",
+          "state": "integrated",
+          "expectedTitlePresent": true,
+          "anchor": "reflection",
+          "anchorPresent": true
+        }
+      ]
+    },
+    {
+      "route": "/library",
+      "status": 200,
+      "redirected": false,
+      "finalUrl": "https://one-dhs-pac.vercel.app/library",
+      "h1": [
+        "Library"
+      ],
+      "surfaceIds": [
+        "library.page"
+      ],
+      "rows": [
+        {
+          "recordKey": "program:library-directory",
+          "title": "Library",
+          "state": "integrated",
+          "expectedTitlePresent": true,
+          "anchor": null,
+          "anchorPresent": null
+        }
+      ]
+    },
+    {
+      "route": "/my-work",
+      "status": 200,
+      "redirected": false,
+      "finalUrl": "https://one-dhs-pac.vercel.app/my-work",
+      "h1": [
+        "My Work"
+      ],
+      "surfaceIds": [
+        "my-work.page",
+        "my-work.client"
+      ],
+      "rows": [
+        {
+          "recordKey": "program:my-work-reflect",
+          "title": "My Work",
+          "state": "integrated",
+          "expectedTitlePresent": true,
+          "anchor": null,
+          "anchorPresent": null
+        }
+      ]
+    },
+    {
+      "route": "/my-work/explore",
+      "status": 200,
+      "redirected": false,
+      "finalUrl": "https://one-dhs-pac.vercel.app/my-work/explore",
+      "h1": [
+        "Learning for your work"
+      ],
+      "surfaceIds": [
+        "work-learning.home"
+      ],
+      "rows": [
+        {
+          "recordKey": "program:my-work-explore",
+          "title": "Learning for your work",
+          "state": "integrated",
+          "expectedTitlePresent": true,
+          "anchor": null,
+          "anchorPresent": null
+        }
+      ]
+    },
+    {
+      "route": "/one-dsd",
+      "status": 200,
+      "redirected": false,
+      "finalUrl": "https://one-dhs-pac.vercel.app/one-dsd",
+      "h1": [
+        "One DSD"
+      ],
+      "surfaceIds": [
+        "one-dsd.page",
+        "one-dsd.inventory"
+      ],
+      "rows": [
+        {
+          "recordKey": "dsd:dsd-inventory-map",
+          "title": "One DSD",
+          "state": "integrated",
+          "expectedTitlePresent": true,
+          "anchor": "programs",
+          "anchorPresent": true
+        }
+      ]
+    },
+    {
+      "route": "/one-dsd/amplify",
+      "status": 200,
+      "redirected": false,
+      "finalUrl": "https://one-dhs-pac.vercel.app/one-dsd/amplify",
+      "h1": [
+        "Amplify Equity"
+      ],
+      "surfaceIds": [
+        "amplify.home"
+      ],
+      "rows": [
+        {
+          "recordKey": "dsd:amplify-home",
+          "title": "Amplify Equity",
+          "state": "retained",
+          "expectedTitlePresent": true,
+          "anchor": "amplify-possibilities",
+          "anchorPresent": true
+        }
+      ]
+    },
+    {
+      "route": "/one-dsd/amplify/co-leads",
+      "status": 200,
+      "redirected": false,
+      "finalUrl": "https://one-dhs-pac.vercel.app/one-dsd/amplify/co-leads",
+      "h1": [
+        "For co-leads"
+      ],
+      "surfaceIds": [
+        "amplify.co-leads"
+      ],
+      "rows": [
+        {
+          "recordKey": "dsd:amplify-co-leads",
+          "title": "For co-leads",
+          "state": "integrated",
+          "expectedTitlePresent": true,
+          "anchor": "amplify-section-3",
+          "anchorPresent": true
+        }
+      ]
+    },
+    {
+      "route": "/one-dsd/amplify/gatherings",
+      "status": 200,
+      "redirected": false,
+      "finalUrl": "https://one-dhs-pac.vercel.app/one-dsd/amplify/gatherings",
+      "h1": [
+        "Ideas for gathering"
+      ],
+      "surfaceIds": [
+        "amplify.gatherings"
+      ],
+      "rows": [
+        {
+          "recordKey": "dsd:amplify-gatherings",
+          "title": "Ideas for gathering",
+          "state": "integrated",
+          "expectedTitlePresent": true,
+          "anchor": "activity-studio",
+          "anchorPresent": true
+        },
+        {
+          "recordKey": "dsd:amplify-activity-joy",
+          "title": "A little joy",
+          "state": "retained",
+          "expectedTitlePresent": true,
+          "anchor": "activity-studio",
+          "anchorPresent": true
+        },
+        {
+          "recordKey": "dsd:amplify-activity-minnesota",
+          "title": "Minnesota through our eyes",
+          "state": "integrated",
+          "expectedTitlePresent": true,
+          "anchor": "activity-studio",
+          "anchorPresent": true
+        },
+        {
+          "recordKey": "dsd:amplify-activity-story",
+          "title": "The story behind it",
+          "state": "retained",
+          "expectedTitlePresent": true,
+          "anchor": "activity-studio",
+          "anchorPresent": true
+        },
+        {
+          "recordKey": "dsd:amplify-activity-borrow",
+          "title": "Borrow a good idea",
+          "state": "integrated",
+          "expectedTitlePresent": true,
+          "anchor": "activity-studio",
+          "anchorPresent": true
+        },
+        {
+          "recordKey": "dsd:amplify-activity-question",
+          "title": "The question we share",
+          "state": "integrated",
+          "expectedTitlePresent": true,
+          "anchor": "activity-studio",
+          "anchorPresent": true
+        },
+        {
+          "recordKey": "dsd:amplify-activity-listen",
+          "title": "Listen, then linger",
+          "state": "retained",
+          "expectedTitlePresent": true,
+          "anchor": "activity-studio",
+          "anchorPresent": true
+        },
+        {
+          "recordKey": "dsd:amplify-activity-known",
+          "title": "What I wish I had known",
+          "state": "retained",
+          "expectedTitlePresent": true,
+          "anchor": "activity-studio",
+          "anchorPresent": true
+        },
+        {
+          "recordKey": "dsd:amplify-activity-window",
+          "title": "A window into my work",
+          "state": "integrated",
+          "expectedTitlePresent": true,
+          "anchor": "activity-studio",
+          "anchorPresent": true
+        },
+        {
+          "recordKey": "dsd:amplify-activity-friction",
+          "title": "One less friction",
+          "state": "integrated",
+          "expectedTitlePresent": true,
+          "anchor": "activity-studio",
+          "anchorPresent": true
+        },
+        {
+          "recordKey": "dsd:amplify-activity-pause",
+          "title": "A pause that fits",
+          "state": "retained",
+          "expectedTitlePresent": true,
+          "anchor": "activity-studio",
+          "anchorPresent": true
+        },
+        {
+          "recordKey": "dsd:amplify-activity-opportunity",
+          "title": "Opportunity exchange",
+          "state": "retained",
+          "expectedTitlePresent": true,
+          "anchor": "activity-studio",
+          "anchorPresent": true
+        },
+        {
+          "recordKey": "dsd:amplify-activity-kindness",
+          "title": "Small kindnesses",
+          "state": "retained",
+          "expectedTitlePresent": true,
+          "anchor": "activity-studio",
+          "anchorPresent": true
+        }
+      ]
+    },
+    {
+      "route": "/one-dsd/amplify/ideas",
+      "status": 200,
+      "redirected": false,
+      "finalUrl": "https://one-dhs-pac.vercel.app/one-dsd/amplify/ideas",
+      "h1": [
+        "Ideas into practice"
+      ],
+      "surfaceIds": [
+        "amplify.ideas"
+      ],
+      "rows": [
+        {
+          "recordKey": "dsd:amplify-ideas",
+          "title": "Ideas into practice",
+          "state": "integrated",
+          "expectedTitlePresent": true,
+          "anchor": "idea-tool",
+          "anchorPresent": true
+        }
+      ]
+    },
+    {
+      "route": "/one-dsd/amplify/materials",
+      "status": 200,
+      "redirected": false,
+      "finalUrl": "https://one-dhs-pac.vercel.app/one-dsd/amplify/materials",
+      "h1": [
+        "Make it your own"
+      ],
+      "surfaceIds": [
+        "amplify.materials"
+      ],
+      "rows": [
+        {
+          "recordKey": "dsd:amplify-materials",
+          "title": "Make it your own",
+          "state": "integrated",
+          "expectedTitlePresent": true,
+          "anchor": "amplify-section-3",
+          "anchorPresent": true
+        }
+      ]
+    },
+    {
+      "route": "/one-dsd/amplify/mentoring",
+      "status": 200,
+      "redirected": false,
+      "finalUrl": "https://one-dhs-pac.vercel.app/one-dsd/amplify/mentoring",
+      "h1": [
+        "Grow with one another"
+      ],
+      "surfaceIds": [
+        "amplify.mentoring"
+      ],
+      "rows": [
+        {
+          "recordKey": "dsd:amplify-mentoring",
+          "title": "Grow with one another",
+          "state": "integrated",
+          "expectedTitlePresent": true,
+          "anchor": "mentoring-tool",
+          "anchorPresent": true
+        }
+      ]
+    },
+    {
+      "route": "/one-dsd/amplify/well-being",
+      "status": 200,
+      "redirected": false,
+      "finalUrl": "https://one-dhs-pac.vercel.app/one-dsd/amplify/well-being",
+      "h1": [
+        "Room to recharge"
+      ],
+      "surfaceIds": [
+        "amplify.well-being"
+      ],
+      "rows": [
+        {
+          "recordKey": "dsd:amplify-well-being",
+          "title": "Room to recharge",
+          "state": "integrated",
+          "expectedTitlePresent": true,
+          "anchor": "amplify-section-2",
+          "anchorPresent": true
+        }
+      ]
+    },
+    {
+      "route": "/one-dsd/leadership",
+      "status": 200,
+      "redirected": false,
+      "finalUrl": "https://one-dhs-pac.vercel.app/one-dsd/leadership",
+      "h1": [
+        "Grow your DEIA leadership"
+      ],
+      "surfaceIds": [],
+      "rows": [
+        {
+          "recordKey": "dsd:leadership-overview",
+          "title": "Grow your DEIA leadership",
+          "state": "retained",
+          "expectedTitlePresent": true,
+          "anchor": "starting-points",
+          "anchorPresent": true
+        },
+        {
+          "recordKey": "dsd:leadership-development-map",
+          "title": "Make your development map",
+          "state": "integrated",
+          "expectedTitlePresent": true,
+          "anchor": "development-map",
+          "anchorPresent": true
+        },
+        {
+          "recordKey": "dsd:leadership-continuity-plan",
+          "title": "Make succession planning concrete",
+          "state": "integrated",
+          "expectedTitlePresent": true,
+          "anchor": "continuity-plan",
+          "anchorPresent": true
+        }
+      ]
+    },
+    {
+      "route": "/one-dsd/leadership?stage=advance",
+      "status": 200,
+      "redirected": false,
+      "finalUrl": "https://one-dhs-pac.vercel.app/one-dsd/leadership?stage=advance",
+      "h1": [
+        "Grow your DEIA leadership"
+      ],
+      "surfaceIds": [],
+      "rows": [
+        {
+          "recordKey": "dsd:leadership-stage-advance",
+          "title": "Make advancement understandable",
+          "state": "integrated",
+          "expectedTitlePresent": true,
+          "anchor": "life-cycle",
+          "anchorPresent": true
+        }
+      ]
+    },
+    {
+      "route": "/one-dsd/leadership?stage=design",
+      "status": 200,
+      "redirected": false,
+      "finalUrl": "https://one-dhs-pac.vercel.app/one-dsd/leadership?stage=design",
+      "h1": [
+        "Grow your DEIA leadership"
+      ],
+      "surfaceIds": [],
+      "rows": [
+        {
+          "recordKey": "dsd:leadership-stage-design",
+          "title": "Design the role and posting",
+          "state": "retained",
+          "expectedTitlePresent": true,
+          "anchor": "life-cycle",
+          "anchorPresent": true
+        }
+      ]
+    },
+    {
+      "route": "/one-dsd/leadership?stage=develop",
+      "status": 200,
+      "redirected": false,
+      "finalUrl": "https://one-dhs-pac.vercel.app/one-dsd/leadership?stage=develop",
+      "h1": [
+        "Grow your DEIA leadership"
+      ],
+      "surfaceIds": [],
+      "rows": [
+        {
+          "recordKey": "dsd:leadership-stage-develop",
+          "title": "Mentor, sponsor, and develop",
+          "state": "integrated",
+          "expectedTitlePresent": true,
+          "anchor": "life-cycle",
+          "anchorPresent": true
+        }
+      ]
+    },
+    {
+      "route": "/one-dsd/leadership?stage=everyday",
+      "status": 200,
+      "redirected": false,
+      "finalUrl": "https://one-dhs-pac.vercel.app/one-dsd/leadership?stage=everyday",
+      "h1": [
+        "Grow your DEIA leadership"
+      ],
+      "surfaceIds": [],
+      "rows": [
+        {
+          "recordKey": "dsd:leadership-stage-everyday",
+          "title": "Support everyday contribution",
+          "state": "integrated",
+          "expectedTitlePresent": true,
+          "anchor": "life-cycle",
+          "anchorPresent": true
+        }
+      ]
+    },
+    {
+      "route": "/one-dsd/leadership?stage=interview",
+      "status": 200,
+      "redirected": false,
+      "finalUrl": "https://one-dhs-pac.vercel.app/one-dsd/leadership?stage=interview",
+      "h1": [
+        "Grow your DEIA leadership"
+      ],
+      "surfaceIds": [],
+      "rows": [
+        {
+          "recordKey": "dsd:leadership-stage-interview",
+          "title": "Interview and assess fairly",
+          "state": "integrated",
+          "expectedTitlePresent": true,
+          "anchor": "life-cycle",
+          "anchorPresent": true
+        }
+      ]
+    },
+    {
+      "route": "/one-dsd/leadership?stage=onboard",
+      "status": 200,
+      "redirected": false,
+      "finalUrl": "https://one-dhs-pac.vercel.app/one-dsd/leadership?stage=onboard",
+      "h1": [
+        "Grow your DEIA leadership"
+      ],
+      "surfaceIds": [],
+      "rows": [
+        {
+          "recordKey": "dsd:leadership-stage-onboard",
+          "title": "Welcome and orient",
+          "state": "retained",
+          "expectedTitlePresent": true,
+          "anchor": "life-cycle",
+          "anchorPresent": true
+        }
+      ]
+    },
+    {
+      "route": "/one-dsd/leadership?stage=recruit",
+      "status": 200,
+      "redirected": false,
+      "finalUrl": "https://one-dhs-pac.vercel.app/one-dsd/leadership?stage=recruit",
+      "h1": [
+        "Grow your DEIA leadership"
+      ],
+      "surfaceIds": [],
+      "rows": [
+        {
+          "recordKey": "dsd:leadership-stage-recruit",
+          "title": "Reach and welcome applicants",
+          "state": "integrated",
+          "expectedTitlePresent": true,
+          "anchor": "life-cycle",
+          "anchorPresent": true
+        }
+      ]
+    },
+    {
+      "route": "/one-dsd/leadership?stage=retain",
+      "status": 200,
+      "redirected": false,
+      "finalUrl": "https://one-dhs-pac.vercel.app/one-dsd/leadership?stage=retain",
+      "h1": [
+        "Grow your DEIA leadership"
+      ],
+      "surfaceIds": [],
+      "rows": [
+        {
+          "recordKey": "dsd:leadership-stage-retain",
+          "title": "Listen, respond, and sustain",
+          "state": "integrated",
+          "expectedTitlePresent": true,
+          "anchor": "life-cycle",
+          "anchorPresent": true
+        }
+      ]
+    },
+    {
+      "route": "/one-dsd/leadership?stage=succession",
+      "status": 200,
+      "redirected": false,
+      "finalUrl": "https://one-dhs-pac.vercel.app/one-dsd/leadership?stage=succession",
+      "h1": [
+        "Grow your DEIA leadership"
+      ],
+      "surfaceIds": [],
+      "rows": [
+        {
+          "recordKey": "dsd:leadership-stage-succession",
+          "title": "Build continuity and future leadership",
+          "state": "integrated",
+          "expectedTitlePresent": true,
+          "anchor": "life-cycle",
+          "anchorPresent": true
+        }
+      ]
+    },
+    {
+      "route": "/one-dsd/leadership?stage=transition",
+      "status": 200,
+      "redirected": false,
+      "finalUrl": "https://one-dhs-pac.vercel.app/one-dsd/leadership?stage=transition",
+      "h1": [
+        "Grow your DEIA leadership"
+      ],
+      "surfaceIds": [],
+      "rows": [
+        {
+          "recordKey": "dsd:leadership-stage-transition",
+          "title": "Learn from transitions and departures",
+          "state": "retained",
+          "expectedTitlePresent": true,
+          "anchor": "life-cycle",
+          "anchorPresent": true
+        }
+      ]
+    },
+    {
+      "route": "/one-dsd/programs/communications-training",
+      "status": 200,
+      "redirected": false,
+      "finalUrl": "https://one-dhs-pac.vercel.app/one-dsd/programs/communications-training",
+      "h1": [
+        "Training, communication, and strategic communications"
+      ],
+      "surfaceIds": [
+        "dsd-program.communications-training"
+      ],
+      "rows": [
+        {
+          "recordKey": "dsd:dsd-program-communications-training",
+          "title": "Training, communication, and strategic communications",
+          "state": "integrated",
+          "expectedTitlePresent": true,
+          "anchor": null,
+          "anchorPresent": null
+        }
+      ]
+    },
+    {
+      "route": "/one-dsd/programs/contracts-fiscal",
+      "status": 200,
+      "redirected": false,
+      "finalUrl": "https://one-dhs-pac.vercel.app/one-dsd/programs/contracts-fiscal",
+      "h1": [
+        "Contracts, grants, fiscal, and capacity work"
+      ],
+      "surfaceIds": [
+        "dsd-program.contracts-fiscal"
+      ],
+      "rows": [
+        {
+          "recordKey": "dsd:dsd-program-contracts-fiscal",
+          "title": "Contracts, grants, fiscal, and capacity work",
+          "state": "integrated",
+          "expectedTitlePresent": true,
+          "anchor": null,
+          "anchorPresent": null
+        }
+      ]
+    },
+    {
+      "route": "/one-dsd/programs/data-quality",
+      "status": 200,
+      "redirected": false,
+      "finalUrl": "https://one-dhs-pac.vercel.app/one-dsd/programs/data-quality",
+      "h1": [
+        "Data, quality, and evaluation"
+      ],
+      "surfaceIds": [
+        "dsd-program.data-quality"
+      ],
+      "rows": [
+        {
+          "recordKey": "dsd:dsd-program-data-quality",
+          "title": "Data, quality, and evaluation",
+          "state": "integrated",
+          "expectedTitlePresent": true,
+          "anchor": null,
+          "anchorPresent": null
+        }
+      ]
+    },
+    {
+      "route": "/one-dsd/programs/eidbi-children",
+      "status": 200,
+      "redirected": false,
+      "finalUrl": "https://one-dhs-pac.vercel.app/one-dsd/programs/eidbi-children",
+      "h1": [
+        "Early Intensive Developmental and Behavioral Intervention and children's services"
+      ],
+      "surfaceIds": [
+        "dsd-program.eidbi-children"
+      ],
+      "rows": [
+        {
+          "recordKey": "dsd:dsd-program-eidbi-children",
+          "title": "Early Intensive Developmental and Behavioral Intervention and children's services",
+          "state": "integrated",
+          "expectedTitlePresent": true,
+          "anchor": null,
+          "anchorPresent": null
+        }
+      ]
+    },
+    {
+      "route": "/one-dsd/programs/employment",
+      "status": 200,
+      "redirected": false,
+      "finalUrl": "https://one-dhs-pac.vercel.app/one-dsd/programs/employment",
+      "h1": [
+        "Employment and day services"
+      ],
+      "surfaceIds": [
+        "dsd-program.employment"
+      ],
+      "rows": [
+        {
+          "recordKey": "dsd:dsd-program-employment",
+          "title": "Employment and day services",
+          "state": "integrated",
+          "expectedTitlePresent": true,
+          "anchor": null,
+          "anchorPresent": null
+        }
+      ]
+    },
+    {
+      "route": "/one-dsd/programs/hcbs-policy",
+      "status": 200,
+      "redirected": false,
+      "finalUrl": "https://one-dhs-pac.vercel.app/one-dsd/programs/hcbs-policy",
+      "h1": [
+        "Home and community-based services policy and waivers"
+      ],
+      "surfaceIds": [
+        "dsd-program.hcbs-policy"
+      ],
+      "rows": [
+        {
+          "recordKey": "dsd:dsd-program-hcbs-policy",
+          "title": "Home and community-based services policy and waivers",
+          "state": "integrated",
+          "expectedTitlePresent": true,
+          "anchor": null,
+          "anchorPresent": null
+        }
+      ]
+    },
+    {
+      "route": "/one-dsd/programs/leadership-strategy",
+      "status": 200,
+      "redirected": false,
+      "finalUrl": "https://one-dhs-pac.vercel.app/one-dsd/programs/leadership-strategy",
+      "h1": [
+        "Division leadership, legislative work, and strategy"
+      ],
+      "surfaceIds": [
+        "dsd-program.leadership-strategy"
+      ],
+      "rows": [
+        {
+          "recordKey": "dsd:dsd-program-leadership-strategy",
+          "title": "Division leadership, legislative work, and strategy",
+          "state": "integrated",
+          "expectedTitlePresent": true,
+          "anchor": null,
+          "anchorPresent": null
+        }
+      ]
+    },
+    {
+      "route": "/one-dsd/programs/mnchoices-access",
+      "status": 200,
+      "redirected": false,
+      "finalUrl": "https://one-dhs-pac.vercel.app/one-dsd/programs/mnchoices-access",
+      "h1": [
+        "MnCHOICES assessment and access"
+      ],
+      "surfaceIds": [
+        "dsd-program.mnchoices-access"
+      ],
+      "rows": [
+        {
+          "recordKey": "dsd:dsd-program-mnchoices-access",
+          "title": "MnCHOICES assessment and access",
+          "state": "integrated",
+          "expectedTitlePresent": true,
+          "anchor": null,
+          "anchorPresent": null
+        }
+      ]
+    },
+    {
+      "route": "/one-dsd/programs/olmstead",
+      "status": 200,
+      "redirected": false,
+      "finalUrl": "https://one-dhs-pac.vercel.app/one-dsd/programs/olmstead",
+      "h1": [
+        "Olmstead and community integration"
+      ],
+      "surfaceIds": [
+        "dsd-program.olmstead"
+      ],
+      "rows": [
+        {
+          "recordKey": "dsd:dsd-program-olmstead",
+          "title": "Olmstead and community integration",
+          "state": "integrated",
+          "expectedTitlePresent": true,
+          "anchor": null,
+          "anchorPresent": null
+        }
+      ]
+    },
+    {
+      "route": "/one-dsd/programs/positive-supports",
+      "status": 200,
+      "redirected": false,
+      "finalUrl": "https://one-dhs-pac.vercel.app/one-dsd/programs/positive-supports",
+      "h1": [
+        "Positive supports and person-centered practice"
+      ],
+      "surfaceIds": [
+        "dsd-program.positive-supports"
+      ],
+      "rows": [
+        {
+          "recordKey": "dsd:dsd-program-positive-supports",
+          "title": "Positive supports and person-centered practice",
+          "state": "integrated",
+          "expectedTitlePresent": true,
+          "anchor": null,
+          "anchorPresent": null
+        }
+      ]
+    },
+    {
+      "route": "/one-dsd/programs/support-planning",
+      "status": 200,
+      "redirected": false,
+      "finalUrl": "https://one-dhs-pac.vercel.app/one-dsd/programs/support-planning",
+      "h1": [
+        "Support planning and case management"
+      ],
+      "surfaceIds": [
+        "dsd-program.support-planning"
+      ],
+      "rows": [
+        {
+          "recordKey": "dsd:dsd-program-support-planning",
+          "title": "Support planning and case management",
+          "state": "integrated",
+          "expectedTitlePresent": true,
+          "anchor": null,
+          "anchorPresent": null
+        }
+      ]
+    },
+    {
+      "route": "/one-dsd/programs/tbi-guardianship",
+      "status": 200,
+      "redirected": false,
+      "finalUrl": "https://one-dhs-pac.vercel.app/one-dsd/programs/tbi-guardianship",
+      "h1": [
+        "Brain injury, guardianship, and related programs"
+      ],
+      "surfaceIds": [
+        "dsd-program.tbi-guardianship"
+      ],
+      "rows": [
+        {
+          "recordKey": "dsd:dsd-program-tbi-guardianship",
+          "title": "Brain injury, guardianship, and related programs",
+          "state": "integrated",
+          "expectedTitlePresent": true,
+          "anchor": null,
+          "anchorPresent": null
+        }
+      ]
+    },
+    {
+      "route": "/one-dsd/scenarios/dsd-accessible-form",
+      "status": 200,
+      "redirected": false,
+      "finalUrl": "https://one-dhs-pac.vercel.app/one-dsd/scenarios/dsd-accessible-form",
+      "h1": [
+        "A required form cannot be completed with a screen reader"
+      ],
+      "surfaceIds": [
+        "dsd-scenario.dsd-accessible-form"
+      ],
+      "rows": [
+        {
+          "recordKey": "dsd:scenario-dsd-accessible-form",
+          "title": "A required form cannot be completed with a screen reader",
+          "state": "integrated",
+          "expectedTitlePresent": true,
+          "anchor": "situation-title",
+          "anchorPresent": true
+        }
+      ]
+    },
+    {
+      "route": "/one-dsd/scenarios/dsd-accommodation-cliff",
+      "status": 200,
+      "redirected": false,
+      "finalUrl": "https://one-dhs-pac.vercel.app/one-dsd/scenarios/dsd-accommodation-cliff",
+      "h1": [
+        "An accommodation disappears during a leadership rotation"
+      ],
+      "surfaceIds": [
+        "dsd-scenario.dsd-accommodation-cliff"
+      ],
+      "rows": [
+        {
+          "recordKey": "dsd:scenario-dsd-accommodation-cliff",
+          "title": "An accommodation disappears during a leadership rotation",
+          "state": "integrated",
+          "expectedTitlePresent": true,
+          "anchor": "situation-title",
+          "anchorPresent": true
+        }
+      ]
+    },
+    {
+      "route": "/one-dsd/scenarios/dsd-advancement-conversation",
+      "status": 200,
+      "redirected": false,
+      "finalUrl": "https://one-dhs-pac.vercel.app/one-dsd/scenarios/dsd-advancement-conversation",
+      "h1": [
+        "A team member says they do not know what it takes to advance"
+      ],
+      "surfaceIds": [
+        "dsd-scenario.dsd-advancement-conversation"
+      ],
+      "rows": [
+        {
+          "recordKey": "dsd:scenario-dsd-advancement-conversation",
+          "title": "A team member says they do not know what it takes to advance",
+          "state": "integrated",
+          "expectedTitlePresent": true,
+          "anchor": "situation-title",
+          "anchorPresent": true
+        }
+      ]
+    },
+    {
+      "route": "/one-dsd/scenarios/dsd-engagement-late",
+      "status": 200,
+      "redirected": false,
+      "finalUrl": "https://one-dhs-pac.vercel.app/one-dsd/scenarios/dsd-engagement-late",
+      "h1": [
+        "Community input requested after the decision is effectively final"
+      ],
+      "surfaceIds": [
+        "dsd-scenario.dsd-engagement-late"
+      ],
+      "rows": [
+        {
+          "recordKey": "dsd:scenario-dsd-engagement-late",
+          "title": "Community input requested after the decision is effectively final",
+          "state": "integrated",
+          "expectedTitlePresent": true,
+          "anchor": "situation-title",
+          "anchorPresent": true
+        }
+      ]
+    },
+    {
+      "route": "/one-dsd/scenarios/dsd-hiring-panel",
+      "status": 200,
+      "redirected": false,
+      "finalUrl": "https://one-dhs-pac.vercel.app/one-dsd/scenarios/dsd-hiring-panel",
+      "h1": [
+        "A hiring panel keeps choosing the same kind of candidate"
+      ],
+      "surfaceIds": [
+        "dsd-scenario.dsd-hiring-panel"
+      ],
+      "rows": [
+        {
+          "recordKey": "dsd:scenario-dsd-hiring-panel",
+          "title": "A hiring panel keeps choosing the same kind of candidate",
+          "state": "integrated",
+          "expectedTitlePresent": true,
+          "anchor": "situation-title",
+          "anchorPresent": true
+        }
+      ]
+    },
+    {
+      "route": "/one-dsd/scenarios/dsd-interpreter-first-contact",
+      "status": 200,
+      "redirected": false,
+      "finalUrl": "https://one-dhs-pac.vercel.app/one-dsd/scenarios/dsd-interpreter-first-contact",
+      "h1": [
+        "First contact happens in English only"
+      ],
+      "surfaceIds": [
+        "dsd-scenario.dsd-interpreter-first-contact"
+      ],
+      "rows": [
+        {
+          "recordKey": "dsd:scenario-dsd-interpreter-first-contact",
+          "title": "First contact happens in English only",
+          "state": "integrated",
+          "expectedTitlePresent": true,
+          "anchor": "situation-title",
+          "anchorPresent": true
+        }
+      ]
+    },
+    {
+      "route": "/one-dsd/scenarios/dsd-leadership-bottleneck",
+      "status": 200,
+      "redirected": false,
+      "finalUrl": "https://one-dhs-pac.vercel.app/one-dsd/scenarios/dsd-leadership-bottleneck",
+      "h1": [
+        "Every equity change waits for one approval that never comes"
+      ],
+      "surfaceIds": [
+        "dsd-scenario.dsd-leadership-bottleneck"
+      ],
+      "rows": [
+        {
+          "recordKey": "dsd:scenario-dsd-leadership-bottleneck",
+          "title": "Every equity change waits for one approval that never comes",
+          "state": "integrated",
+          "expectedTitlePresent": true,
+          "anchor": "situation-title",
+          "anchorPresent": true
+        }
+      ]
+    },
+    {
+      "route": "/one-dsd/scenarios/dsd-policy-change",
+      "status": 200,
+      "redirected": false,
+      "finalUrl": "https://one-dhs-pac.vercel.app/one-dsd/scenarios/dsd-policy-change",
+      "h1": [
+        "A waiver policy change is going to leadership next month"
+      ],
+      "surfaceIds": [
+        "dsd-scenario.dsd-policy-change"
+      ],
+      "rows": [
+        {
+          "recordKey": "dsd:scenario-dsd-policy-change",
+          "title": "A waiver policy change is going to leadership next month",
+          "state": "integrated",
+          "expectedTitlePresent": true,
+          "anchor": "situation-title",
+          "anchorPresent": true
+        }
+      ]
+    },
+    {
+      "route": "/one-dsd/scenarios/dsd-repair-after-harm",
+      "status": 200,
+      "redirected": false,
+      "finalUrl": "https://one-dhs-pac.vercel.app/one-dsd/scenarios/dsd-repair-after-harm",
+      "h1": [
+        "A comment in a meeting landed badly and nobody addressed it"
+      ],
+      "surfaceIds": [
+        "dsd-scenario.dsd-repair-after-harm"
+      ],
+      "rows": [
+        {
+          "recordKey": "dsd:scenario-dsd-repair-after-harm",
+          "title": "A comment in a meeting landed badly and nobody addressed it",
+          "state": "integrated",
+          "expectedTitlePresent": true,
+          "anchor": "situation-title",
+          "anchorPresent": true
+        }
+      ]
+    },
+    {
+      "route": "/one-dsd/scenarios/dsd-report-back",
+      "status": 200,
+      "redirected": false,
+      "finalUrl": "https://one-dhs-pac.vercel.app/one-dsd/scenarios/dsd-report-back",
+      "h1": [
+        "Listening sessions are done. Now what?"
+      ],
+      "surfaceIds": [
+        "dsd-scenario.dsd-report-back"
+      ],
+      "rows": [
+        {
+          "recordKey": "dsd:scenario-dsd-report-back",
+          "title": "Listening sessions are done. Now what?",
+          "state": "integrated",
+          "expectedTitlePresent": true,
+          "anchor": "situation-title",
+          "anchorPresent": true
+        }
+      ]
+    },
+    {
+      "route": "/one-dsd/scenarios/dsd-service-redesign",
+      "status": 200,
+      "redirected": false,
+      "finalUrl": "https://one-dhs-pac.vercel.app/one-dsd/scenarios/dsd-service-redesign",
+      "h1": [
+        "Redesigning an assessment process without adding steps"
+      ],
+      "surfaceIds": [
+        "dsd-scenario.dsd-service-redesign"
+      ],
+      "rows": [
+        {
+          "recordKey": "dsd:scenario-dsd-service-redesign",
+          "title": "Redesigning an assessment process without adding steps",
+          "state": "integrated",
+          "expectedTitlePresent": true,
+          "anchor": "situation-title",
+          "anchorPresent": true
+        }
+      ]
+    },
+    {
+      "route": "/one-dsd/scenarios/dsd-small-group-data",
+      "status": 200,
+      "redirected": false,
+      "finalUrl": "https://one-dhs-pac.vercel.app/one-dsd/scenarios/dsd-small-group-data",
+      "h1": [
+        "Service data by race would identify a handful of people"
+      ],
+      "surfaceIds": [
+        "dsd-scenario.dsd-small-group-data"
+      ],
+      "rows": [
+        {
+          "recordKey": "dsd:scenario-dsd-small-group-data",
+          "title": "Service data by race would identify a handful of people",
+          "state": "integrated",
+          "expectedTitlePresent": true,
+          "anchor": "situation-title",
+          "anchorPresent": true
+        }
+      ]
+    },
+    {
+      "route": "/one-dsd/scenarios/dsd-team-silence",
+      "status": 200,
+      "redirected": false,
+      "finalUrl": "https://one-dhs-pac.vercel.app/one-dsd/scenarios/dsd-team-silence",
+      "h1": [
+        "The same three people speak in every team meeting"
+      ],
+      "surfaceIds": [
+        "dsd-scenario.dsd-team-silence"
+      ],
+      "rows": [
+        {
+          "recordKey": "dsd:scenario-dsd-team-silence",
+          "title": "The same three people speak in every team meeting",
+          "state": "integrated",
+          "expectedTitlePresent": true,
+          "anchor": "situation-title",
+          "anchorPresent": true
+        }
+      ]
+    },
+    {
+      "route": "/one-dsd/team",
+      "status": 200,
+      "redirected": false,
+      "finalUrl": "https://one-dhs-pac.vercel.app/one-dsd/team",
+      "h1": [
+        "One DSD Team"
+      ],
+      "surfaceIds": [
+        "dsd-team.home"
+      ],
+      "rows": [
+        {
+          "recordKey": "dsd:dsd-team",
+          "title": "One DSD Team",
+          "state": "integrated",
+          "expectedTitlePresent": true,
+          "anchor": null,
+          "anchorPresent": null
+        }
+      ]
+    },
+    {
+      "route": "/one-dsd/team/learning-lab",
+      "status": 200,
+      "redirected": false,
+      "finalUrl": "https://one-dhs-pac.vercel.app/one-dsd/team/learning-lab",
+      "h1": [
+        "Learning Lab and open hours"
+      ],
+      "surfaceIds": [],
+      "rows": [
+        {
+          "recordKey": "dsd:dsd-learning-lab",
+          "title": "Learning Lab and open hours",
+          "state": "integrated",
+          "expectedTitlePresent": true,
+          "anchor": null,
+          "anchorPresent": null
+        }
+      ]
+    },
+    {
+      "route": "/operationalizing-equity",
+      "status": 200,
+      "redirected": false,
+      "finalUrl": "https://one-dhs-pac.vercel.app/operationalizing-equity",
+      "h1": [
+        "Operationalizing equity"
+      ],
+      "surfaceIds": [],
+      "rows": [
+        {
+          "recordKey": "program:operational-equity-meeting",
+          "title": "Operationalizing equity — participation in meetings",
+          "state": "integrated",
+          "expectedTitlePresent": false,
+          "anchor": "everyday-examples",
+          "anchorPresent": true
+        },
+        {
+          "recordKey": "program:operational-equity-form",
+          "title": "Operationalizing equity — forms and service processes",
+          "state": "integrated",
+          "expectedTitlePresent": false,
+          "anchor": "everyday-examples",
+          "anchorPresent": true
+        },
+        {
+          "recordKey": "program:operational-equity-opportunity",
+          "title": "Operationalizing equity — workplace opportunities",
+          "state": "integrated",
+          "expectedTitlePresent": false,
+          "anchor": "everyday-examples",
+          "anchorPresent": true
+        }
+      ]
+    },
+    {
+      "route": "/orientation",
+      "status": 200,
+      "redirected": false,
+      "finalUrl": "https://one-dhs-pac.vercel.app/orientation",
+      "h1": [
+        "Find your way. Make it your own."
+      ],
+      "surfaceIds": [],
+      "rows": [
+        {
+          "recordKey": "dsd:orientation-directory",
+          "title": "Find your way. Make it your own.",
+          "state": "integrated",
+          "expectedTitlePresent": true,
+          "anchor": "program-directory",
+          "anchorPresent": true
+        },
+        {
+          "recordKey": "dsd:orientation-joining-team",
+          "title": "Joining the One DSD Team?",
+          "state": "retained",
+          "expectedTitlePresent": true,
+          "anchor": "joining-dsd",
+          "anchorPresent": true
+        }
+      ]
+    },
+    {
+      "route": "/start",
+      "status": 200,
+      "redirected": false,
+      "finalUrl": "https://one-dhs-pac.vercel.app/start",
+      "h1": [
+        "Where would you like to start?"
+      ],
+      "surfaceIds": [
+        "start.page"
+      ],
+      "rows": [
+        {
+          "recordKey": "program:start-entry",
+          "title": "Start",
+          "state": "retained",
+          "expectedTitlePresent": true,
+          "anchor": null,
+          "anchorPresent": null
+        }
+      ]
+    },
+    {
+      "route": "/support/right-person",
+      "status": 200,
+      "redirected": false,
+      "finalUrl": "https://one-dhs-pac.vercel.app/support/right-person",
+      "h1": [
+        "Find the right person"
+      ],
+      "surfaceIds": [
+        "support.right-person"
+      ],
+      "rows": [
+        {
+          "recordKey": "program:support-right-person",
+          "title": "Find the right person",
+          "state": "integrated",
+          "expectedTitlePresent": true,
+          "anchor": null,
+          "anchorPresent": null
+        }
+      ]
+    },
+    {
+      "route": "/support/share-result",
+      "status": 200,
+      "redirected": false,
+      "finalUrl": "https://one-dhs-pac.vercel.app/support/share-result",
+      "h1": [
+        "Share a result"
+      ],
+      "surfaceIds": [],
+      "rows": [
+        {
+          "recordKey": "program:support-result",
+          "title": "Share a result",
+          "state": "integrated",
+          "expectedTitlePresent": true,
+          "anchor": null,
+          "anchorPresent": null
+        }
+      ]
+    },
+    {
+      "route": "/understanding-dhs",
+      "status": 200,
+      "redirected": false,
+      "finalUrl": "https://one-dhs-pac.vercel.app/understanding-dhs",
+      "h1": [
+        "Understanding DHS"
+      ],
+      "surfaceIds": [],
+      "rows": [
+        {
+          "recordKey": "dsd:dhs-reference-purpose",
+          "title": "DHS purpose and service relationships",
+          "state": "integrated",
+          "expectedTitlePresent": true,
+          "anchor": "purpose",
+          "anchorPresent": true
+        },
+        {
+          "recordKey": "dsd:dhs-reference-structure",
+          "title": "DHS organizational responsibilities",
+          "state": "integrated",
+          "expectedTitlePresent": true,
+          "anchor": "structure",
+          "anchorPresent": true
+        },
+        {
+          "recordKey": "dsd:dhs-reference-dsd-placement",
+          "title": "Where Disability Services sits",
+          "state": "integrated",
+          "expectedTitlePresent": true,
+          "anchor": "dsd-placement",
+          "anchorPresent": true
+        },
+        {
+          "recordKey": "dsd:dhs-reference-strategy",
+          "title": "DHS strategic direction and staff culture",
+          "state": "retained",
+          "expectedTitlePresent": true,
+          "anchor": "strategy",
+          "anchorPresent": true
+        },
+        {
+          "recordKey": "dsd:dhs-reference-county-tribal",
+          "title": "County and Tribal partnerships",
+          "state": "integrated",
+          "expectedTitlePresent": true,
+          "anchor": "county-tribal",
+          "anchorPresent": true
+        },
+        {
+          "recordKey": "dsd:dhs-reference-dsd-choice",
+          "title": "DSD priorities and person-centered outcomes",
+          "state": "retained",
+          "expectedTitlePresent": true,
+          "anchor": "dsd-choice",
+          "anchorPresent": true
+        },
+        {
+          "recordKey": "dsd:dhs-reference-manuals",
+          "title": "Finding DSD policy and operational guidance",
+          "state": "retained",
+          "expectedTitlePresent": true,
+          "anchor": "manuals",
+          "anchorPresent": true
+        },
+        {
+          "recordKey": "dsd:dhs-reference-assessment",
+          "title": "MnCHOICES assessment and support planning",
+          "state": "integrated",
+          "expectedTitlePresent": true,
+          "anchor": "assessment",
+          "anchorPresent": true
+        },
+        {
+          "recordKey": "dsd:dhs-reference-person-centered",
+          "title": "Person-centered planning across partners",
+          "state": "integrated",
+          "expectedTitlePresent": true,
+          "anchor": "person-centered",
+          "anchorPresent": true
+        },
+        {
+          "recordKey": "dsd:dhs-reference-cfss",
+          "title": "CFSS and the transition from PCA and CSG",
+          "state": "retained",
+          "expectedTitlePresent": true,
+          "anchor": "cfss",
+          "anchorPresent": true
+        },
+        {
+          "recordKey": "dsd:dhs-reference-waiver-change",
+          "title": "Disability Waiver Program changes",
+          "state": "retained",
+          "expectedTitlePresent": true,
+          "anchor": "waiver-change",
+          "anchorPresent": true
+        },
+        {
+          "recordKey": "dsd:dhs-reference-rates",
+          "title": "Disability Waiver Rate System",
+          "state": "retained",
+          "expectedTitlePresent": true,
+          "anchor": "rates",
+          "anchorPresent": true
+        },
+        {
+          "recordKey": "dsd:dhs-reference-employment",
+          "title": "Employment First and E1MN",
+          "state": "integrated",
+          "expectedTitlePresent": true,
+          "anchor": "employment",
+          "anchorPresent": true
+        },
+        {
+          "recordKey": "dsd:dhs-reference-licensing",
+          "title": "HCBS licensing versus enrollment and service planning",
+          "state": "integrated",
+          "expectedTitlePresent": true,
+          "anchor": "licensing",
+          "anchorPresent": true
+        },
+        {
+          "recordKey": "dsd:dhs-reference-transitions",
+          "title": "Complex transitions back to community",
+          "state": "integrated",
+          "expectedTitlePresent": true,
+          "anchor": "transitions",
+          "anchorPresent": true
+        },
+        {
+          "recordKey": "dsd:dhs-reference-navigation",
+          "title": "DSD contacts and Disability Hub MN",
+          "state": "retained",
+          "expectedTitlePresent": true,
+          "anchor": "navigation",
+          "anchorPresent": true
+        },
+        {
+          "recordKey": "dsd:dhs-reference-grants",
+          "title": "DSD competitive grants and funding opportunities",
+          "state": "retained",
+          "expectedTitlePresent": true,
+          "anchor": "grants",
+          "anchorPresent": true
+        },
+        {
+          "recordKey": "dsd:dhs-reference-civil-rights",
+          "title": "Civil rights and equal service access",
+          "state": "retained",
+          "expectedTitlePresent": true,
+          "anchor": "civil-rights",
+          "anchorPresent": true
+        },
+        {
+          "recordKey": "dsd:dhs-reference-language-access",
+          "title": "Language access and translated information",
+          "state": "integrated",
+          "expectedTitlePresent": true,
+          "anchor": "language-access",
+          "anchorPresent": true
+        },
+        {
+          "recordKey": "dsd:dhs-reference-operations",
+          "title": "Finance, appeals and data requests",
+          "state": "integrated",
+          "expectedTitlePresent": true,
+          "anchor": "operations",
+          "anchorPresent": true
+        },
+        {
+          "recordKey": "dsd:dhs-reference-workforce",
+          "title": "Staff development, technology and communication",
+          "state": "retained",
+          "expectedTitlePresent": true,
+          "anchor": "workforce",
+          "anchorPresent": true
+        },
+        {
+          "recordKey": "dsd:dhs-reference-behavioral-health",
+          "title": "Behavioral health and coordinated care",
+          "state": "integrated",
+          "expectedTitlePresent": true,
+          "anchor": "behavioral-health",
+          "anchorPresent": true
+        },
+        {
+          "recordKey": "dsd:dhs-reference-dcyf",
+          "title": "DHS and DCYF boundaries",
+          "state": "retained",
+          "expectedTitlePresent": true,
+          "anchor": "dcyf",
+          "anchorPresent": true
+        },
+        {
+          "recordKey": "dsd:dhs-reference-dct",
+          "title": "DHS and Direct Care and Treatment boundaries",
+          "state": "retained",
+          "expectedTitlePresent": true,
+          "anchor": "dct",
+          "anchorPresent": true
+        },
+        {
+          "recordKey": "dsd:dhs-reference-mhcp",
+          "title": "Minnesota Health Care Programs and Medicaid",
+          "state": "integrated",
+          "expectedTitlePresent": true,
+          "anchor": "mhcp",
+          "anchorPresent": true
+        },
+        {
+          "recordKey": "dsd:dhs-reference-housing",
+          "title": "Housing and homelessness relationships",
+          "state": "integrated",
+          "expectedTitlePresent": true,
+          "anchor": "housing",
+          "anchorPresent": true
+        },
+        {
+          "recordKey": "dsd:dhs-reference-aging",
+          "title": "Aging services and community support",
+          "state": "retained",
+          "expectedTitlePresent": true,
+          "anchor": "aging",
+          "anchorPresent": true
+        },
+        {
+          "recordKey": "dsd:dhs-reference-tribal-relations",
+          "title": "Tribal and Urban Indian Relations",
+          "state": "retained",
+          "expectedTitlePresent": true,
+          "anchor": "tribal-relations",
+          "anchorPresent": true
+        },
+        {
+          "recordKey": "dsd:dhs-reference-adult-protection",
+          "title": "Adult protection and reporting routes",
+          "state": "retained",
+          "expectedTitlePresent": true,
+          "anchor": "adult-protection",
+          "anchorPresent": true
+        },
+        {
+          "recordKey": "dsd:dhs-reference-legislative",
+          "title": "Legislation, budgets and evidence",
+          "state": "integrated",
+          "expectedTitlePresent": true,
+          "anchor": "legislative",
+          "anchorPresent": true
+        }
+      ]
+    }
+  ]
+}

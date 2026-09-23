@@ -1,0 +1,142 @@
+{
+  "date": "2026-09-09",
+  "environment": "Actual Next.js local preview at localhost:3115 with process-only static publication source; no production configuration changed",
+  "browser": "Codex in-app browser, actual controls and read-only rendered DOM",
+  "scope": "Representative interaction checks below, not a browser inspection of all 780 lessons",
+  "checks": [
+    {
+      "route": "/practice/measurement",
+      "passed": [
+        "Causal-claim choice gives specific feedback",
+        "Complete fictional evidence table retains all 10 fields",
+        "375px layout contains table scrolling; page does not overflow",
+        "Table scrolling region has keyboard focus and visible focus style"
+      ]
+    },
+    {
+      "route": "/courses/critical-incidents-in-the-work/ci-write",
+      "passed": [
+        "Manual scene moments 2 and 3 change the displayed scene",
+        "Motive-claim choice gives corrective feedback",
+        "Fictional photographic image loads",
+        "375px page has no horizontal overflow"
+      ]
+    },
+    {
+      "route": "/courses/intercultural-conflict-styles/cs-notice",
+      "passed": [
+        "Two native recording controls and complete text are present",
+        "First recording actually plays through its 7.228-second duration without media error",
+        "Fictional test note survives reload and is then cleared back to the original blank state"
+      ]
+    },
+    {
+      "route": "/courses/working-with-an-interpreter/wi-time",
+      "passed": [
+        "Three actual audio moments and their transcripts appear in the exact lesson"
+      ],
+      "limit": "Playback not separately clicked here; asset decoding and speech-recognition checks recorded separately"
+    },
+    {
+      "route": "/one-dsd/scenarios/dsd-accessible-form",
+      "passed": [
+        "Repaired-form example opens",
+        "Empty confirmation gives format-selection error",
+        "Video conversation choice yields the corresponding confirmation without making an appointment"
+      ]
+    },
+    {
+      "route": "/one-dsd/scenarios/dsd-service-redesign",
+      "passed": [
+        "Route example opens",
+        "Phone choice changes the displayed steps and limitations"
+      ]
+    },
+    {
+      "route": "/learn/intercultural#perspectives",
+      "passed": [
+        "Exact paired-meeting companion opens",
+        "Image loads after disclosure",
+        "Caption describes visible participation without claiming increased influence",
+        "375px page has no horizontal overflow"
+      ]
+    },
+    {
+      "route": "/courses/cultural-intelligence-african-american/ci-african-american-place-5",
+      "passed": [
+        "Authentic Rondo photograph loads with source information",
+        "Separate labeled schematic and historical map link are present",
+        "375px page has no horizontal overflow"
+      ]
+    },
+    {
+      "route": "/courses/cultural-intelligence-hmong/ci-hmong-orientation-2",
+      "passed": [
+        "Source-supported November timeline appears as a separate companion",
+        "375px page has no horizontal overflow"
+      ],
+      "limit": "Original December source wording retained; discrepancy is explained in companion and provenance"
+    },
+    {
+      "route": "/courses/anti-racism-resource/ar-tokenism",
+      "passed": [
+        "Invitation, Entry, Staying and Decision rights sections are present in the exact companion"
+      ]
+    },
+    {
+      "route": "/one-dsd/scenarios/dsd-interpreter-first-contact",
+      "passed": [
+        "Two actual recordings and complete transcripts appear in the exact scenario"
+      ],
+      "limit": "Playback verified by asset decoding and speech recognition; not separately clicked here"
+    },
+    {
+      "route": "/one-dsd/leadership",
+      "passed": [
+        "Seventh stage button selects Make advancement understandable",
+        "Selected stage companion renders"
+      ],
+      "screenshot": "browser/leadership-stage.png"
+    },
+    {
+      "route": "/learn/equity-toolkit#podcast-equity-toolkit",
+      "passed": [
+        "Nine actual chapter buttons are displayed",
+        "Machine-generated label is visible",
+        "Transcript disclosure loads complete reading support",
+        "Search accountability finds 11 passages",
+        "Play from 36:05 seeks to 2165.48 seconds and playback advances to 2178.62 with readyState4 and no media error",
+        "Chapter start button seeks recording",
+        "375px controls wrap without page overflow"
+      ],
+      "screenshot": "browser/toolkit-podcast-mobile.png"
+    },
+    {
+      "route": "/learn#podcast-anti-racism-public-service",
+      "passed": [
+        "Eleven actual chapter buttons are displayed",
+        "Machine-generated label is visible",
+        "Search workplace safety finds one actual passage",
+        "Play from 6:32 seeks to 392.27 seconds and playback advances to 427.68 with readyState4 and no media error",
+        "375px controls wrap without page overflow"
+      ],
+      "screenshot": "browser/anti-racism-podcast-mobile.png"
+    },
+    {
+      "route": "/ask",
+      "passed": [
+        "In One DSD view, Open the One DSD Data/quality program produces an exact Open Data, quality, and evaluation link",
+        "Clicking the link opens /one-dsd/programs/data-quality with the expected heading"
+      ],
+      "limit": "The local response explicitly reported tailored generation unavailable; this check verifies destination retention in that fallback, not generation availability."
+    }
+  ],
+  "transcriptLimits": "Machine transcription and transcript-grounded chapter review are delivered. Human audio fidelity verification and independent verification of recording claims are not asserted.",
+  "originalContentEvidence": "learning-original-block-parity.json independently compares all 58 selected original rendered lesson block trees against existing production; learner indexes unchanged",
+  "notClaimed": [
+    "Whole-corpus human review",
+    "Human listening review of all audio",
+    "Production deployment based on these local checks",
+    "Live staff records modified"
+  ]
+}

@@ -1,0 +1,501 @@
+{
+  "updatedAt": "2026-09-09T12:42:47.599Z",
+  "scope": "Saved recommendation rows only; not an all-course/all-chapter census.",
+  "totalRecords": 22,
+  "counts": {
+    "integrated": 19,
+    "retained": 3
+  },
+  "records": [
+    {
+      "recordKey": "program:journey-foundations",
+      "title": "Begin with curiosity",
+      "route": "/learn/intercultural#foundations",
+      "placement": "Everyday example, before the practice notebook",
+      "purpose": "Turn the existing pause example into a usable observation-and-inquiry practice.",
+      "proposedMedia": "Three-frame conversation storyboard",
+      "deliveredMediaAndDecision": "Exact conversation/process/evidence table expands this focus immediately before its original practice. Full described text, not generated people images.",
+      "state": "integrated",
+      "source": "lib/content/learning-journey.ts",
+      "sourceBasis": "The source asks learners to separate an observed pause from assumptions about its meaning.",
+      "implementationFiles": [
+        "components/multimedia/engagement-learning-scenes.tsx"
+      ],
+      "accessibility": "Native headings, lists, tables or field labels provide the content; image descriptions and source links accompany photos. No autoplay. Original learning notes and form data remain separate.",
+      "checks": {
+        "implementationFilesExist": true,
+        "behavioralSuite": "107 passing tests across DSD, engagement, exact media previews, library continuity and toolkit boundaries; not every row is independently behavior-tested",
+        "browser": "See root browser receipt; no blanket browser verification claimed here"
+      },
+      "remaining": "Any suggested recording not delivered above remains an alternative medium, not a completed recording."
+    },
+    {
+      "recordKey": "program:journey-perspectives",
+      "title": "Make room for different experiences",
+      "route": "/learn/intercultural#perspectives",
+      "placement": "Fast-moving meeting example",
+      "purpose": "Show why an identical invitation can create different participation conditions.",
+      "proposedMedia": "Before-and-after meeting stills",
+      "deliveredMediaAndDecision": "Photorealistic paired fictional meeting still and an exact evidence/influence comparison; original example and notebook remain intact.",
+      "state": "integrated",
+      "source": "lib/content/learning-journey.ts",
+      "sourceBasis": "The source contrasts the same opportunity to speak with different ways people can contribute.",
+      "implementationFiles": [
+        "components/multimedia/engagement-learning-scenes.tsx"
+      ],
+      "accessibility": "Native headings, lists, tables or field labels provide the content; image descriptions and source links accompany photos. No autoplay. Original learning notes and form data remain separate.",
+      "checks": {
+        "implementationFilesExist": true,
+        "behavioralSuite": "107 passing tests across DSD, engagement, exact media previews, library continuity and toolkit boundaries; not every row is independently behavior-tested",
+        "browser": "See root browser receipt; no blanket browser verification claimed here"
+      },
+      "remaining": "Any suggested recording not delivered above remains an alternative medium, not a completed recording."
+    },
+    {
+      "recordKey": "program:journey-communication",
+      "title": "Adapt how you communicate",
+      "route": "/learn/intercultural#communication",
+      "placement": "Service explanation example",
+      "purpose": "Make communication adaptation visible as a response to a stated need.",
+      "proposedMedia": "Captioned conversation or described storyboard",
+      "deliveredMediaAndDecision": "Exact conversation/process/evidence table expands this focus immediately before its original practice. Full described text, not generated people images.",
+      "state": "integrated",
+      "source": "lib/content/learning-journey.ts",
+      "sourceBasis": "The example identifies clearer questions, written summaries, accessible information and qualified language support.",
+      "implementationFiles": [
+        "components/multimedia/engagement-learning-scenes.tsx"
+      ],
+      "accessibility": "Native headings, lists, tables or field labels provide the content; image descriptions and source links accompany photos. No autoplay. Original learning notes and form data remain separate.",
+      "checks": {
+        "implementationFilesExist": true,
+        "behavioralSuite": "107 passing tests across DSD, engagement, exact media previews, library continuity and toolkit boundaries; not every row is independently behavior-tested",
+        "browser": "See root browser receipt; no blanket browser verification claimed here"
+      },
+      "remaining": "Any suggested recording not delivered above remains an alternative medium, not a completed recording."
+    },
+    {
+      "recordKey": "program:journey-decisions",
+      "title": "Carry learning into a decision",
+      "route": "/learn/intercultural#decisions",
+      "placement": "Renewal-notice example",
+      "purpose": "Connect a communication issue to the surrounding process and an open decision.",
+      "proposedMedia": "Annotated notice and process diagram",
+      "deliveredMediaAndDecision": "Exact conversation/process/evidence table expands this focus immediately before its original practice. Full described text, not generated people images.",
+      "state": "integrated",
+      "source": "lib/content/learning-journey.ts",
+      "sourceBasis": "The example explicitly moves from unclear notices to documentation burden, formats and required response steps.",
+      "implementationFiles": [
+        "components/multimedia/engagement-learning-scenes.tsx"
+      ],
+      "accessibility": "Native headings, lists, tables or field labels provide the content; image descriptions and source links accompany photos. No autoplay. Original learning notes and form data remain separate.",
+      "checks": {
+        "implementationFilesExist": true,
+        "behavioralSuite": "107 passing tests across DSD, engagement, exact media previews, library continuity and toolkit boundaries; not every row is independently behavior-tested",
+        "browser": "See root browser receipt; no blanket browser verification claimed here"
+      },
+      "remaining": "Any suggested recording not delivered above remains an alternative medium, not a completed recording."
+    },
+    {
+      "recordKey": "program:journey-reflection",
+      "title": "Learn from what happens next",
+      "route": "/learn/intercultural#reflection",
+      "placement": "Written-contribution reflection example",
+      "purpose": "Distinguish participation activity from evidence of influence.",
+      "proposedMedia": "Evidence comparison table",
+      "deliveredMediaAndDecision": "Exact conversation/process/evidence table expands this focus immediately before its original practice. Full described text, not generated people images.",
+      "state": "integrated",
+      "source": "lib/content/learning-journey.ts",
+      "sourceBasis": "The source says more ideas do not alone establish greater influence.",
+      "implementationFiles": [
+        "components/multimedia/engagement-learning-scenes.tsx"
+      ],
+      "accessibility": "Native headings, lists, tables or field labels provide the content; image descriptions and source links accompany photos. No autoplay. Original learning notes and form data remain separate.",
+      "checks": {
+        "implementationFilesExist": true,
+        "behavioralSuite": "107 passing tests across DSD, engagement, exact media previews, library continuity and toolkit boundaries; not every row is independently behavior-tested",
+        "browser": "See root browser receipt; no blanket browser verification claimed here"
+      },
+      "remaining": "Any suggested recording not delivered above remains an alternative medium, not a completed recording."
+    },
+    {
+      "recordKey": "program:toolkit-companion",
+      "title": "Equity Analysis Toolkit companion",
+      "route": "/learn/equity-toolkit#toolkit-practice",
+      "placement": "Reminder decision and existing choice feedback",
+      "purpose": "Help staff see how a decision changes benefits, burdens and responsibilities.",
+      "proposedMedia": "Interactive process diagram",
+      "deliveredMediaAndDecision": "Working two-route reminder comparison; original toolkit choices and drafting controls remain intact.",
+      "state": "integrated",
+      "source": "app/learn/equity-toolkit/page.tsx",
+      "sourceBasis": "The existing companion uses five stages and a fictional reminder decision.",
+      "implementationFiles": [
+        "components/multimedia/engagement-toolkit-route.tsx"
+      ],
+      "accessibility": "Native headings, lists, tables or field labels provide the content; image descriptions and source links accompany photos. No autoplay. Original learning notes and form data remain separate.",
+      "checks": {
+        "implementationFilesExist": true,
+        "behavioralSuite": "107 passing tests across DSD, engagement, exact media previews, library continuity and toolkit boundaries; not every row is independently behavior-tested",
+        "browser": "See root browser receipt; no blanket browser verification claimed here"
+      },
+      "remaining": "Any suggested recording not delivered above remains an alternative medium, not a completed recording."
+    },
+    {
+      "recordKey": "program:community-learning",
+      "title": "Community engagement: from input to action",
+      "route": "/learn/community-connections",
+      "placement": "Fictional employment-learning example: activity, influence, result, return",
+      "purpose": "Show the connection between participation, influence, action and reporting back.",
+      "proposedMedia": "Four-panel illustrated sequence",
+      "deliveredMediaAndDecision": "Four-part native HTML sequence follows one stated barrier through influence, evidence and report-back; not a representational illustration.",
+      "state": "integrated",
+      "source": "lib/content/community-connections.ts",
+      "sourceBasis": "The source separates activity, influence, result and return in its fictional example.",
+      "implementationFiles": [
+        "components/multimedia/engagement-learning-scenes.tsx"
+      ],
+      "accessibility": "Native headings, lists, tables or field labels provide the content; image descriptions and source links accompany photos. No autoplay. Original learning notes and form data remain separate.",
+      "checks": {
+        "implementationFilesExist": true,
+        "behavioralSuite": "107 passing tests across DSD, engagement, exact media previews, library continuity and toolkit boundaries; not every row is independently behavior-tested",
+        "browser": "See root browser receipt; no blanket browser verification claimed here"
+      },
+      "remaining": "Any suggested recording not delivered above remains an alternative medium, not a completed recording."
+    },
+    {
+      "recordKey": "program:operational-equity-meeting",
+      "title": "Operationalizing equity — participation in meetings",
+      "route": "/operationalizing-equity#everyday-examples",
+      "placement": "Participation in meetings example",
+      "purpose": "Make the program definition concrete through one everyday practice.",
+      "proposedMedia": "Three described stills",
+      "deliveredMediaAndDecision": "Three described meeting moments show preparation, participation and report-back.",
+      "state": "integrated",
+      "source": "app/operationalizing-equity/page.tsx",
+      "sourceBasis": "The source asks who shapes the agenda, which formats help contribution and how contributions influence decisions.",
+      "implementationFiles": [
+        "components/multimedia/worked-practice-examples.tsx"
+      ],
+      "accessibility": "Native headings, lists, tables or field labels provide the content; image descriptions and source links accompany photos. No autoplay. Original learning notes and form data remain separate.",
+      "checks": {
+        "implementationFilesExist": true,
+        "behavioralSuite": "107 passing tests across DSD, engagement, exact media previews, library continuity and toolkit boundaries; not every row is independently behavior-tested",
+        "browser": "See root browser receipt; no blanket browser verification claimed here"
+      },
+      "remaining": "Any suggested recording not delivered above remains an alternative medium, not a completed recording."
+    },
+    {
+      "recordKey": "program:operational-equity-form",
+      "title": "Operationalizing equity — forms and service processes",
+      "route": "/operationalizing-equity#everyday-examples",
+      "placement": "Forms and service processes example",
+      "purpose": "Connect equity analysis to the steps of a service rather than awareness alone.",
+      "proposedMedia": "Annotated form and journey map",
+      "deliveredMediaAndDecision": "Complete-task comparison table traces burdens and alternatives.",
+      "state": "integrated",
+      "source": "app/operationalizing-equity/page.tsx",
+      "sourceBasis": "The example names language, disability access, technology and documentation burdens.",
+      "implementationFiles": [
+        "components/multimedia/worked-practice-examples.tsx"
+      ],
+      "accessibility": "Native headings, lists, tables or field labels provide the content; image descriptions and source links accompany photos. No autoplay. Original learning notes and form data remain separate.",
+      "checks": {
+        "implementationFilesExist": true,
+        "behavioralSuite": "107 passing tests across DSD, engagement, exact media previews, library continuity and toolkit boundaries; not every row is independently behavior-tested",
+        "browser": "See root browser receipt; no blanket browser verification claimed here"
+      },
+      "remaining": "Any suggested recording not delivered above remains an alternative medium, not a completed recording."
+    },
+    {
+      "recordKey": "program:operational-equity-opportunity",
+      "title": "Operationalizing equity — workplace opportunities",
+      "route": "/operationalizing-equity#everyday-examples",
+      "placement": "Workplace opportunities example",
+      "purpose": "Make access to development opportunities visible and discussable.",
+      "proposedMedia": "Opportunity pathway diagram",
+      "deliveredMediaAndDecision": "Native opportunity pathway maps discovery, participation and decision.",
+      "state": "integrated",
+      "source": "app/operationalizing-equity/page.tsx",
+      "sourceBasis": "The example asks how opportunities are communicated, criteria shaping access and support for participation.",
+      "implementationFiles": [
+        "components/multimedia/opportunity-pathway.tsx"
+      ],
+      "accessibility": "Native headings, lists, tables or field labels provide the content; image descriptions and source links accompany photos. No autoplay. Original learning notes and form data remain separate.",
+      "checks": {
+        "implementationFilesExist": true,
+        "behavioralSuite": "107 passing tests across DSD, engagement, exact media previews, library continuity and toolkit boundaries; not every row is independently behavior-tested",
+        "browser": "See root browser receipt; no blanket browser verification claimed here"
+      },
+      "remaining": "Any suggested recording not delivered above remains an alternative medium, not a completed recording."
+    },
+    {
+      "recordKey": "program:home-entry",
+      "title": "One DHS program home",
+      "route": "/",
+      "placement": "What brings you here?",
+      "purpose": "Maintain a clear, welcoming entry with useful choices.",
+      "proposedMedia": "Reuse existing hero and compact visual invitations",
+      "deliveredMediaAndDecision": "Retained the existing functional entry and original media: Home already offers Learn and explore, Put equity into practice and Connect with colleagues. The current destination supplies the detailed activity without duplicating it in entry navigation.",
+      "state": "retained",
+      "source": "app/page.tsx",
+      "sourceBasis": "Home already offers Learn and explore, Put equity into practice and Connect with colleagues.",
+      "implementationFiles": [
+        "app/page.tsx"
+      ],
+      "accessibility": "Native headings, lists, tables or field labels provide the content; image descriptions and source links accompany photos. No autoplay. Original learning notes and form data remain separate.",
+      "checks": {
+        "implementationFilesExist": true,
+        "behavioralSuite": "107 passing tests across DSD, engagement, exact media previews, library continuity and toolkit boundaries; not every row is independently behavior-tested",
+        "browser": "See root browser receipt; no blanket browser verification claimed here"
+      },
+      "remaining": "Any suggested recording not delivered above remains an alternative medium, not a completed recording."
+    },
+    {
+      "recordKey": "program:about-dhs",
+      "title": "About — our connection to DHS",
+      "route": "/about#dhs-connection-title",
+      "placement": "Our connection to DHS",
+      "purpose": "Help readers understand what the resource program connects.",
+      "proposedMedia": "Small relationship diagram",
+      "deliveredMediaAndDecision": "Linked knowledge/practice/support relationship map.",
+      "state": "integrated",
+      "source": "app/about/page.tsx",
+      "sourceBasis": "The section connects programs, partners, responsibilities and everyday decisions.",
+      "implementationFiles": [
+        "components/multimedia/worked-practice-examples.tsx"
+      ],
+      "accessibility": "Native headings, lists, tables or field labels provide the content; image descriptions and source links accompany photos. No autoplay. Original learning notes and form data remain separate.",
+      "checks": {
+        "implementationFilesExist": true,
+        "behavioralSuite": "107 passing tests across DSD, engagement, exact media previews, library continuity and toolkit boundaries; not every row is independently behavior-tested",
+        "browser": "See root browser receipt; no blanket browser verification claimed here"
+      },
+      "remaining": "Any suggested recording not delivered above remains an alternative medium, not a completed recording."
+    },
+    {
+      "recordKey": "program:start-entry",
+      "title": "Start",
+      "route": "/start",
+      "placement": "New here, or taking a fresh look?",
+      "purpose": "Help someone find a useful starting point without a required sequence.",
+      "proposedMedia": "Reuse orientation map",
+      "deliveredMediaAndDecision": "Retained the existing functional entry and original media: The page explicitly invites new and returning colleagues to orientation. The current destination supplies the detailed activity without duplicating it in entry navigation.",
+      "state": "retained",
+      "source": "app/start/page.tsx",
+      "sourceBasis": "The page explicitly invites new and returning colleagues to orientation.",
+      "implementationFiles": [
+        "app/start/page.tsx"
+      ],
+      "accessibility": "Native headings, lists, tables or field labels provide the content; image descriptions and source links accompany photos. No autoplay. Original learning notes and form data remain separate.",
+      "checks": {
+        "implementationFilesExist": true,
+        "behavioralSuite": "107 passing tests across DSD, engagement, exact media previews, library continuity and toolkit boundaries; not every row is independently behavior-tested",
+        "browser": "See root browser receipt; no blanket browser verification claimed here"
+      },
+      "remaining": "Any suggested recording not delivered above remains an alternative medium, not a completed recording."
+    },
+    {
+      "recordKey": "program:learning-catalog",
+      "title": "Learning and resources",
+      "route": "/learn#catalog",
+      "placement": "Course and resource catalog",
+      "purpose": "Help visitors select learning that fits what they want to do.",
+      "proposedMedia": "Reuse covers and introduction audio",
+      "deliveredMediaAndDecision": "Retained the existing functional entry and original media: The catalog combines courses, resources, podcast surfaces and practice paths. The current destination supplies the detailed activity without duplicating it in entry navigation.",
+      "state": "retained",
+      "source": "app/learn/page.tsx",
+      "sourceBasis": "The catalog combines courses, resources, podcast surfaces and practice paths.",
+      "implementationFiles": [
+        "app/learn/page.tsx"
+      ],
+      "accessibility": "Native headings, lists, tables or field labels provide the content; image descriptions and source links accompany photos. No autoplay. Original learning notes and form data remain separate.",
+      "checks": {
+        "implementationFilesExist": true,
+        "behavioralSuite": "107 passing tests across DSD, engagement, exact media previews, library continuity and toolkit boundaries; not every row is independently behavior-tested",
+        "browser": "See root browser receipt; no blanket browser verification claimed here"
+      },
+      "remaining": "Any suggested recording not delivered above remains an alternative medium, not a completed recording."
+    },
+    {
+      "recordKey": "program:library-directory",
+      "title": "Library",
+      "route": "/library",
+      "placement": "Resource results",
+      "purpose": "Help people recognize the work product a resource supports.",
+      "proposedMedia": "Annotated tool thumbnails where useful",
+      "deliveredMediaAndDecision": "Resource-specific previews appear only inside already-visible results.",
+      "state": "integrated",
+      "source": "app/library/page.tsx",
+      "sourceBasis": "The shared library lists scoped resources and published courses.",
+      "implementationFiles": [
+        "components/multimedia/resource-media-preview.tsx"
+      ],
+      "accessibility": "Native headings, lists, tables or field labels provide the content; image descriptions and source links accompany photos. No autoplay. Original learning notes and form data remain separate.",
+      "checks": {
+        "implementationFilesExist": true,
+        "behavioralSuite": "107 passing tests across DSD, engagement, exact media previews, library continuity and toolkit boundaries; not every row is independently behavior-tested",
+        "browser": "See root browser receipt; no blanket browser verification claimed here"
+      },
+      "remaining": "Any suggested recording not delivered above remains an alternative medium, not a completed recording."
+    },
+    {
+      "recordKey": "program:ask-media",
+      "title": "ASK — resource recommendations",
+      "route": "/ask",
+      "placement": "Answer with related resources",
+      "purpose": "Let a question lead to an example and useful next action.",
+      "proposedMedia": "Transcript-linked media recommendation",
+      "deliveredMediaAndDecision": "Three exact companion previews and two exact podcast-anchor reading/playback previews support already-visible cited resources. Both actual draft podcast transcripts enrich only current scoped published podcast rows; no extra destinations, no private notes and no global full-corpus transcript claim. Nine discovery tests plus exact media-preview tests pass; source-scope and withdrawal behavior retained.",
+      "state": "integrated",
+      "source": "app/ask/page.tsx",
+      "sourceBasis": "ASK already responds to questions and provides program resource routes.",
+      "implementationFiles": [
+        "components/multimedia/resource-media-preview.tsx",
+        "components/ask-client.tsx",
+        "lib/intelligence/retrieval/podcast-reading.ts"
+      ],
+      "accessibility": "Native headings, lists, tables or field labels provide the content; image descriptions and source links accompany photos. No autoplay. Original learning notes and form data remain separate.",
+      "checks": {
+        "implementationFilesExist": true,
+        "behavioralSuite": "107 passing tests across DSD, engagement, exact media previews, library continuity and toolkit boundaries; not every row is independently behavior-tested",
+        "browser": "See root browser receipt; no blanket browser verification claimed here"
+      },
+      "remaining": "Any suggested recording not delivered above remains an alternative medium, not a completed recording."
+    },
+    {
+      "recordKey": "program:my-work-explore",
+      "title": "Learning for your work",
+      "route": "/my-work/explore",
+      "placement": "Resource recommendations after task choice",
+      "purpose": "Connect a current task to useful learning and a work product.",
+      "proposedMedia": "Worked-example preview",
+      "deliveredMediaAndDecision": "Plain-language worked notice preview appears only when its course is available.",
+      "state": "integrated",
+      "source": "app/my-work/explore/page.tsx",
+      "sourceBasis": "The current page filters a scoped resource snapshot by role and task.",
+      "implementationFiles": [
+        "components/multimedia/resource-media-preview.tsx"
+      ],
+      "accessibility": "Native headings, lists, tables or field labels provide the content; image descriptions and source links accompany photos. No autoplay. Original learning notes and form data remain separate.",
+      "checks": {
+        "implementationFilesExist": true,
+        "behavioralSuite": "107 passing tests across DSD, engagement, exact media previews, library continuity and toolkit boundaries; not every row is independently behavior-tested",
+        "browser": "See root browser receipt; no blanket browser verification claimed here"
+      },
+      "remaining": "Any suggested recording not delivered above remains an alternative medium, not a completed recording."
+    },
+    {
+      "recordKey": "program:my-work-reflect",
+      "title": "My Work",
+      "route": "/my-work",
+      "placement": "Saved learning and working notes",
+      "purpose": "Show how a learning activity can become a change and a later reflection.",
+      "proposedMedia": "Optional before-and-after artifact comparison",
+      "deliveredMediaAndDecision": "Fictional before/during/after reflection example; no comparison or copying of personal saved artifacts.",
+      "state": "integrated",
+      "source": "app/my-work/page.tsx",
+      "sourceBasis": "The page combines current learning, course lessons and working notes.",
+      "implementationFiles": [
+        "components/multimedia/worked-practice-examples.tsx"
+      ],
+      "accessibility": "Native headings, lists, tables or field labels provide the content; image descriptions and source links accompany photos. No autoplay. Original learning notes and form data remain separate.",
+      "checks": {
+        "implementationFilesExist": true,
+        "behavioralSuite": "107 passing tests across DSD, engagement, exact media previews, library continuity and toolkit boundaries; not every row is independently behavior-tested",
+        "browser": "See root browser receipt; no blanket browser verification claimed here"
+      },
+      "remaining": "Any suggested recording not delivered above remains an alternative medium, not a completed recording."
+    },
+    {
+      "recordKey": "program:support-right-person",
+      "title": "Find the right person",
+      "route": "/support/right-person",
+      "placement": "Task recommendation result",
+      "purpose": "Clarify why each recommended destination is relevant.",
+      "proposedMedia": "Decision-path diagram",
+      "deliveredMediaAndDecision": "Three questions about one reminder map to distinct responsible functions.",
+      "state": "integrated",
+      "source": "app/support/right-person/page.tsx",
+      "sourceBasis": "The tool uses task, role, work area and urgency to suggest sourced destinations.",
+      "implementationFiles": [
+        "components/multimedia/worked-practice-examples.tsx"
+      ],
+      "accessibility": "Native headings, lists, tables or field labels provide the content; image descriptions and source links accompany photos. No autoplay. Original learning notes and form data remain separate.",
+      "checks": {
+        "implementationFilesExist": true,
+        "behavioralSuite": "107 passing tests across DSD, engagement, exact media previews, library continuity and toolkit boundaries; not every row is independently behavior-tested",
+        "browser": "See root browser receipt; no blanket browser verification claimed here"
+      },
+      "remaining": "Any suggested recording not delivered above remains an alternative medium, not a completed recording."
+    },
+    {
+      "recordKey": "program:support-result",
+      "title": "Share a result",
+      "route": "/support/share-result",
+      "placement": "Before the outcome form",
+      "purpose": "Help people describe experience without turning a personal account into a verified causal result.",
+      "proposedMedia": "Annotated fictional outcome record",
+      "deliveredMediaAndDecision": "Fictional outcome record separates changed work, observations, uncertainty and next action before the existing form.",
+      "state": "integrated",
+      "source": "components/program-outcome-form.tsx",
+      "sourceBasis": "The form asks for action, adopted change, observed result, follow-up and sharing choice.",
+      "implementationFiles": [
+        "components/multimedia/worked-practice-examples.tsx"
+      ],
+      "accessibility": "Native headings, lists, tables or field labels provide the content; image descriptions and source links accompany photos. No autoplay. Original learning notes and form data remain separate.",
+      "checks": {
+        "implementationFilesExist": true,
+        "behavioralSuite": "107 passing tests across DSD, engagement, exact media previews, library continuity and toolkit boundaries; not every row is independently behavior-tested",
+        "browser": "See root browser receipt; no blanket browser verification claimed here"
+      },
+      "remaining": "Any suggested recording not delivered above remains an alternative medium, not a completed recording."
+    },
+    {
+      "recordKey": "program:podcast-toolkit",
+      "title": "DHS equity policy and toolkit — podcast",
+      "route": "/learn/equity-toolkit#podcast-equity-toolkit",
+      "placement": "Existing podcast player",
+      "purpose": "Make the existing long-form discussion easier to revisit and apply.",
+      "proposedMedia": "Reuse audio with transcript and chapter navigation",
+      "deliveredMediaAndDecision": "Existing original audio retained with actual recording-derived draft transcript, passage search, timestamp seek and reviewed chapter topics: 9 toolkit chapters, 11 anti-racism chapters. Root browser reviewed actual search/seek/playback. Machine transcript fidelity remains qualified; not a certified or official transcript.",
+      "state": "integrated",
+      "source": "lib/content/podcasts.ts",
+      "sourceBasis": "The source registers the approved toolkit podcast at this location.",
+      "implementationFiles": [
+        "components/published-podcast.tsx",
+        "components/podcast-player.tsx",
+        "lib/content/podcast-supplements.ts"
+      ],
+      "accessibility": "Native headings, lists, tables or field labels provide the content; image descriptions and source links accompany photos. No autoplay. Original learning notes and form data remain separate.",
+      "checks": {
+        "implementationFilesExist": true,
+        "behavioralSuite": "107 passing tests across DSD, engagement, exact media previews, library continuity and toolkit boundaries; not every row is independently behavior-tested",
+        "browser": "See root browser receipt; no blanket browser verification claimed here"
+      },
+      "remaining": "Any suggested recording not delivered above remains an alternative medium, not a completed recording."
+    },
+    {
+      "recordKey": "program:podcast-anti-racism",
+      "title": "Anti-racism in public service — podcast",
+      "route": "/learn#podcast-anti-racism-public-service",
+      "placement": "Existing podcast player",
+      "purpose": "Connect listening to voluntary dialogue and application.",
+      "proposedMedia": "Reuse audio with described excerpt companions",
+      "deliveredMediaAndDecision": "Existing original audio retained with actual recording-derived draft transcript, passage search, timestamp seek and reviewed chapter topics: 9 toolkit chapters, 11 anti-racism chapters. Root browser reviewed actual search/seek/playback. Machine transcript fidelity remains qualified; not a certified or official transcript.",
+      "state": "integrated",
+      "source": "lib/content/podcasts.ts",
+      "sourceBasis": "The source registers the approved anti-racism podcast in Learning.",
+      "implementationFiles": [
+        "components/published-podcast.tsx",
+        "components/podcast-player.tsx",
+        "lib/content/podcast-supplements.ts"
+      ],
+      "accessibility": "Native headings, lists, tables or field labels provide the content; image descriptions and source links accompany photos. No autoplay. Original learning notes and form data remain separate.",
+      "checks": {
+        "implementationFilesExist": true,
+        "behavioralSuite": "107 passing tests across DSD, engagement, exact media previews, library continuity and toolkit boundaries; not every row is independently behavior-tested",
+        "browser": "See root browser receipt; no blanket browser verification claimed here"
+      },
+      "remaining": "Any suggested recording not delivered above remains an alternative medium, not a completed recording."
+    }
+  ]
+}

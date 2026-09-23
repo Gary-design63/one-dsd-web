@@ -1,0 +1,610 @@
+import type { CoursePack } from "../../source-types";
+
+// Intercultural Practice and Equity · Public-service practice · Module 10: Language access in state programs.
+// Program-authored for internal DHS and DSD staff. Voluntary, self-directed, no scores and no completion requirement.
+const pack: CoursePack = {
+  course: {
+    id: "ipe-10-language-access",
+    indexNumber: 1152,
+    seriesLabel: "Intercultural Practice and Equity · Public-service practice",
+    title: "Language Access in State Programs",
+    subtitle: "Interpretation is live, translation takes time, and both have to be in the budget before they can be in the room. Four lessons ending with a language-access plan for one real project or meeting.",
+    scope: "For internal DHS and DSD staff who plan projects, run meetings, publish materials, or manage the money and schedule behind them: communications and training staff, administrative and support staff, policy and program staff, engagement staff, contract and grant staff, and anyone arranging a session members of the public will attend. Four short lessons you can take in any order and return to. Voluntary and self-directed: no score, no ranking, no completion requirement, and nothing you write in a reflection is collected. Completion here does not count toward DHS-required training credits unless management, a director, or DHS leadership expressly approves an exception.",
+    treatment: "Four short lessons with Minnesota examples, scenarios, sorting and flashcard practice, private reflection prompts, and a one-page language-access plan you can copy into your own project or meeting",
+    duration: "40–45 minutes",
+    author: "One DSD — People, Access and Culture",
+    coverImage: "/images/covers/working-with-interpreter.jpg",
+    coverAlt: "Three people sit at a table with a professional interpreter.",
+    introTranscript: "Language access fails in predictable places, and almost none of them are the moment an interpreter opens their mouth. It fails in a budget written without a line for it, a schedule that puts translation in the final week, a notice offering help in a language the reader does not read, and a request log that looks empty because the request route was never usable. This module is about the planning that happens before any of that. It covers what language access actually includes, how to recognize a need without waiting for a request, how to work with interpreters and translators so their work can be accurate, and how to write a short plan for one project or meeting you are responsible for. The plan is the point; everything before it exists so the plan is worth writing.",
+    kind: "course",
+    contentType: "practice",
+    learning: {
+      objectives: [
+        "Define language access in a state program, including spoken interpretation, written translation, signed and tactile communication, and the plain wording that makes all of them work.",
+        "Separate what carries a settled obligation from what your unit decides through planning, budget and schedule.",
+        "Recognize a language-access need from program facts and partner knowledge rather than from the number of requests your unit has received.",
+        "Plan an interpreted meeting and a translated document so the interpreter and the translator can do accurate work.",
+        "Write a short language-access plan for one real project or meeting, including money, calendar, limits and repair.",
+      ],
+      evidence: [
+        "Four worked scenarios drawn from program, quality, engagement and project work, each with a recommended response and the reasoning behind it.",
+        "A knowledge check in every lesson with feedback that explains the usable answer.",
+        "Sorting practice that separates facts about the need from facts about your own process, and scoping decisions from drafting decisions.",
+        "A completed one-page language-access plan for a real project or meeting on your calendar.",
+      ],
+      appliedNextStep: "Take the next project or public meeting you are responsible for and fill in the one-page plan: languages covered, how you decided, who books interpretation, which documents are translated and reviewed, the budget line, the schedule point, what is not covered, and what happens on the day if someone arrives speaking a language nobody planned for.",
+    },
+    governance: {
+      contentOwner: "One DSD — People, Access and Culture",
+      reviewers: ["Equity and Inclusion Operations Consultant"],
+      evidenceDate: "Public sources checked at authoring",
+      lastReviewed: "At authoring",
+      nextReview: "At the agreed review point and whenever an update trigger occurs",
+      updateTriggers: [
+        "A change in federal language-access direction under Title VI, or in Americans with Disabilities Act guidance on effective communication and auxiliary aids",
+        "A change in DHS language-access direction, in the set of languages the department identifies for translation, or in the interpreter and translation contracts staff are expected to use",
+        "Feedback from interpreters, translators, community reviewers or the organizations DSD partners with that an example, a practice or a timeline in this module does not match how the work actually runs",
+      ],
+      relatedDoor: "Formal decisions about a required notice, a vital-document translation, an interpreter contract, an accommodation request or a civil-rights complaint belong to the responsible DHS language-access, communications, contracting and civil-rights offices; this module helps you plan and ask well, it does not approve or clear anything.",
+      toolkitQuestion: "Who could be helped, burdened, excluded or misunderstood by the way this project handles language, and how would we know?",
+      status: "reviewed",
+    },
+    lessons: [
+      {
+        id: "ipe-10-1",
+        number: 1,
+        title: "Four different things called one thing",
+        summary: "Interpretation, translation, signed communication and plain wording are not interchangeable. Knowing which one you need, and which part of it is settled, is where planning starts.",
+        minutes: 11,
+        learning: {
+          objective: "Distinguish interpretation, translation, signed and tactile communication, and plain wording in a real piece of your own work, and name which part carries a settled obligation and which part your unit decides.",
+          takeaways: [
+            "Interpretation is spoken or signed and happens live, in real time, with a person present or on a line. Translation is written, takes days or weeks, and requires a decision about which documents matter most. Planning as if they are the same service is the most common and most expensive error.",
+            "Language access also covers American Sign Language and other signed and tactile communication, captioning, and the written and spoken plain wording that decides whether any of the rest can be accurate.",
+            "Part of this is settled. Programs that receive federal financial assistance take reasonable steps to give people with limited English proficiency meaningful access under Title VI, including interpretation at no cost to the person and translation of vital documents. Under Title II of the Americans with Disabilities Act, state and local government communicates as effectively with people who are deaf, deafblind or hard of hearing as with anyone else, which can require qualified interpreters, captioning, or other auxiliary aids and services.",
+            "The obligation sits with the program, not with the person who needs it. Nobody has to prove a need, and a request is not what creates the duty.",
+            "Everything above that floor is planning: which languages you covered, what you priced, how early you asked, and whose knowledge you used to decide.",
+          ],
+          evidence: "A scenario about a public information session announced in English only, and a knowledge check that separates interpretation from translation and settled obligations from planning choices.",
+          appliedNextStep: "Take the next thing your unit is publishing or hosting and write down which of the four — spoken interpretation, written translation, signed or tactile communication, plain wording — someone actually decided on, and which one is being left to chance.",
+        },
+        scenario: {
+          context: "A Disability Services Division program unit is holding a public information session about a change in how a service is requested. The session is announced on a state web page in English. The announcement ends with a line that reads: “Interpreters available on request. Please give two weeks’ notice.” The notice goes up eleven days before the session.",
+          prompt: "What should the unit change before this announcement stands as it is?",
+          options: [
+            {
+              label: "Leave it. The offer of interpreters is there, two weeks is a reasonable booking window, and anyone who needs help can ask.",
+              response: "The offer is real but it cannot be reached. A person who does not read English will not read the sentence telling them help is available, so the offer is invisible to exactly the people it is for. And an eleven-day notice cannot honor a two-week request window; the door is closed before it opens.",
+            },
+            {
+              label: "Decide in advance which languages will be covered live, based on who the program serves and what partner organizations expect; publish the announcement in those languages alongside English; arrange sign language interpretation and captioning as a default rather than on request; and keep an on-request line, with a named contact and a date that is actually reachable, for what you could not anticipate.",
+              response: "This is the recommended path. It moves the decision from the person who is already outside the process to the unit that controls the process. The on-request line still matters, but it is now a backstop for the unexpected rather than the whole plan.",
+              recommended: true,
+            },
+            {
+              label: "Publish the English announcement now and ask bilingual staff to interpret at the session.",
+              response: "Bilingual colleagues are valuable, and this is not the job. Holding a conversation in a language is not the same as interpreting accurately in a public meeting where a program term carries a consequence for someone’s services. It also pulls a staff member out of their own role and leaves them personally responsible for an error. Pay for qualified interpreting, and let bilingual staff do welcome, wayfinding and follow-up, which are real contributions.",
+            },
+          ],
+        },
+        transfer: {
+          prompt: "Look at the next public-facing thing on your unit’s calendar. Which language decisions have already been made by default rather than on purpose?",
+          options: [
+            "Name the item and the audience someone actually pictured while writing it",
+            "Say which of the four — interpretation, translation, signed and tactile communication, plain wording — nobody decided",
+            "Write the one change you would make if this were going out again next month",
+          ],
+        },
+        blocks: [
+          {
+            type: "text",
+            heading: "The vocabulary is not pedantry; it is the schedule",
+            body: "<p>People use “translation” for everything. In a plan, the imprecision costs money and time. Interpretation is live: a person converting spoken or signed language in the moment, in a room, on a video call or over a phone line. It is booked by the hour, needs to be scheduled around a human being’s availability, and cannot be done twice. Translation is written: a document converted by a qualified translator, checked by a second qualified person, and — for anything the public relies on — reviewed before it is published. It is priced by the word and measured in days or weeks.</p><p>Put those two on the same line of a project schedule and one of them will fail. The usual failure is translation: the English source is finished late, the schedule has one week left, and somebody asks whether an automatic tool would do. It would not, and the reason is in the next lesson.</p><p>Two more things belong under the same heading and are often forgotten until the day. American Sign Language is a full language with its own grammar; it is not English on the hands, and an interpreter working into it needs the same preparation any interpreter needs. Some people who are deafblind use tactile signing or other close-range methods that change how a room has to be arranged. Captioning is not a substitute for a sign language interpreter and a sign language interpreter is not a substitute for captioning; which one a person needs is the person’s call, not yours.</p><p>Underneath all of it sits plain wording. A sentence with three nested clauses, two acronyms and one program shorthand is expensive to translate, easy to get wrong, and hard for an interpreter to render quickly under pressure. Clear English is the cheapest language-access decision available to you, and you make it while you draft.</p>",
+          },
+          {
+            type: "tabs",
+            heading: "Which one do you actually need?",
+            tabs: [
+              { label: "Spoken interpretation", body: "<p>Live conversion of spoken language, in person, by video or by phone. Use it for meetings, sessions, calls, hearings and any conversation where a person has to be able to speak and be answered. Booked by the hour, usually with a minimum. Long sessions need two interpreters per language so they can trade off; interpreting is sustained concentration and accuracy falls off sharply after about half an hour of continuous work.</p>" },
+              { label: "Written translation", body: "<p>A written document converted by a qualified translator and reviewed by a second qualified person. Use it for notices, forms, applications, rights statements, appeal information, anything that carries a consequence. Decide which documents are vital before you decide which languages; translating the wrong document well is still the wrong document.</p>" },
+              { label: "Signed and tactile communication", body: "<p>American Sign Language interpretation, tactile and close-vision methods used by some people who are deafblind, and captioning of live and recorded material. Arrange sightlines, lighting and seating in advance — an interpreter placed where participants cannot see both the interpreter and the speaker is not usable. The person tells you what works for them; guidance is clear that their expressed preference carries weight.</p>" },
+              { label: "Plain wording", body: "<p>The English source, written so it can be understood the first time and translated without guesswork. Short sentences, one idea each, defined terms, no idioms, no acronyms that have not been spelled out, no program shorthand. This is free, it happens at drafting, and it improves every other item on this list.</p>" },
+            ],
+          },
+          {
+            type: "accordion",
+            heading: "What is settled, and what your unit decides",
+            items: [
+              { title: "Meaningful access under Title VI", body: "<p>Programs and activities receiving federal financial assistance take reasonable steps to ensure that people with limited English proficiency can meaningfully access them. In practice that means interpretation provided at no cost to the person, translation of vital documents, and a way for people to learn that both exist. What counts as reasonable is assessed against factors such as how many people a program serves in a given language, how often they encounter it, how important the service is, and what resources the program has. Your responsible language-access office holds the current direction for DHS; your job is to plan inside it rather than to decide it alone.</p>" },
+              { title: "Effective communication under the Americans with Disabilities Act", body: "<p>Under Title II, state and local government must communicate as effectively with people with disabilities as with everyone else. For people who are deaf, deafblind or hard of hearing this can require qualified interpreters, real-time captioning, assistive listening systems, or written materials in accessible formats. Guidance directs public entities to give primary consideration to what the person says works for them. Companions are covered too, which matters at any meeting where a family member or supporter is the one who needs to follow the conversation.</p>" },
+              { title: "The practice that sits above the floor", body: "<p>National standards for culturally and linguistically appropriate services treat language assistance as part of quality rather than as an accommodation added at the end: telling people that services are available in their language, using competent individuals and avoiding untrained people and children, and offering easy-to-understand materials and signage. None of that is triggered by a request. It is decided when a project is scoped, and it is the part of the work this module spends the most time on.</p>" },
+              { title: "What a settled obligation does not do", body: "<p>It does not tell you which languages to cover this year, which document is vital in your program, how much to budget, whether the notice goes out four weeks or four days ahead, or whether you asked a partner organization before you decided. Meeting the floor is the beginning of the job. The floor is also not a reason to wait: nothing in it stops you from doing more, sooner.</p>" },
+            ],
+          },
+          {
+            type: "flashcards",
+            heading: "Terms worth keeping straight",
+            cards: [
+              { front: "Interpretation", back: "<p>Live conversion of spoken or signed language. Booked by the hour, scheduled around a person, impossible to redo after the meeting ends.</p>" },
+              { front: "Translation", back: "<p>Written conversion of a document by a qualified translator, checked by a second qualified person. Priced by the word, measured in days or weeks, reviewable before anyone sees it.</p>" },
+              { front: "Sight translation", back: "<p>An interpreter reading a written document aloud in another language on the spot. Useful in a pinch for a short, simple item; not a substitute for translating a form, a notice or anything a person has to keep.</p>" },
+              { front: "Vital document", back: "<p>A document whose content a person needs in order to get, keep or contest a service: applications, consent forms, notices of rights, notices of denial or reduction, appeal information. These are the ones translated first.</p>" },
+              { front: "Qualified interpreter", back: "<p>Someone able to interpret effectively, accurately and impartially, with any specialized vocabulary the setting requires. Being bilingual is not the same qualification, and a relative is never the default.</p>" },
+              { front: "Meaningful access", back: "<p>The standard Title VI sets: not that a program technically exists for someone, but that they can actually use it, understand it and act on it.</p>" },
+            ],
+          },
+          {
+            type: "leaderMove",
+            heading: "Decide the four, on purpose, while you can still change them",
+            control: "You control which of the four you plan for, and when in the project you decide. Both of those are almost always inside your own authority.",
+            failure: "Do not let “interpreters available on request” stand as the whole plan. An on-request line written only in English is an offer nobody it is meant for can read.",
+            next: "On the next thing you send or host, write the four words down the margin — interpretation, translation, signed and tactile, plain wording — and put a name and a date next to each one that applies.",
+          },
+          {
+            type: "knowledgeCheck",
+            id: "ipe-10-1-check",
+            question: "A program unit has four weeks before a service change takes effect. It needs a public notice that people can read, and a public session where they can ask questions. Which statement plans this correctly?",
+            options: [
+              { text: "Book interpreters for the session now, and send the notice for translation in the final week so the wording is final before it is translated.", correct: false },
+              { text: "Book interpreters for the session now, finish the English notice early and written for translation, send it for translation and review with time to spare, and publish the translated versions alongside the English one before the effective date.", correct: true },
+              { text: "Publish the English notice immediately, announce that translated versions and interpreters are available on request, and respond as requests arrive.", correct: false },
+            ],
+            feedbackCorrect: "Yes. Interpretation is booked around a person’s availability and translation is a process with review in it, so the English source has to be finished early. Late-final wording is the usual reason translation gets skipped.",
+            feedbackIncorrect: "Compare what each service needs. Interpretation is live and booked ahead; translation needs a finished source, a qualified translator, review, and time before the effective date. An on-request model asks the people already outside the process to do the work of getting in.",
+          },
+          {
+            type: "statement",
+            body: "Private reflection, kept by you and not collected anywhere: think about the last notice, page or invitation you had a hand in. Whose language were you picturing when you wrote it, and who would have needed something you did not plan for?",
+          },
+        ],
+      },
+      {
+        id: "ipe-10-2",
+        number: 2,
+        title: "Recognizing the need before anyone asks",
+        summary: "An empty request log is a fact about your request route, not about the people it never reached. Where the real evidence is, and whose knowledge you are missing.",
+        minutes: 10,
+        learning: {
+          objective: "Identify a language-access need in a process you touch using program facts and partner knowledge, and explain why the count of requests received is evidence about your own process rather than about the need.",
+          takeaways: [
+            "“Nobody ever asks” is usually evidence that the request route is unusable, unadvertised, or advertised only in the language the person does not read. It is rarely evidence that the need is absent.",
+            "Your program already holds better signals: who enrolls and who does not, where people stop between steps, which notices come back undelivered, which questions partner organizations field that never reach your unit.",
+            "Counting requests measures your process. Counting who the program serves, who left partway through, and who never arrived measures the need.",
+            "The people who can tell you fastest are the community organizations, interpreters and family-led groups already working with those households. Their knowledge is expertise, and expertise is paid for, not borrowed.",
+            "A team that sincerely believes everyone can manage in English if they try is usually not hostile. This program calls that stage Minimization: the honest belief that a shared process is a neutral one. Naming the stage is a statement about a design, never a label about a colleague.",
+          ],
+          evidence: "A scenario about incomplete renewals and a near-empty interpreter-request log, and a sorting exercise that separates facts about the need from facts about your own process.",
+          appliedNextStep: "Pick one process you touch and write down three points where a person who does not read English well would stop. Then ask one partner organization whether they see people stopping at the same three points, and pay them for the time it takes to answer.",
+        },
+        scenario: {
+          context: "A quality unit is reviewing why a set of annual renewals came back incomplete. Incomplete renewals cluster in a handful of communities. The unit pulls the interpreter-request log for the same period and finds almost no requests at all. A member of the group concludes that language is not a factor here and suggests looking at the form design instead.",
+          prompt: "What is the better read of this evidence?",
+          options: [
+            {
+              label: "Accept the conclusion. The request log is the most direct measure available, and it is nearly empty, so the unit should spend its time on the form.",
+              response: "The log measures one thing only: how many people found the request route, could use it, and did. It cannot distinguish “no need” from “no route.” Treating it as a measure of need converts a gap in your own process into a finding about the public.",
+            },
+            {
+              label: "Treat the near-empty log as a finding about the request route rather than about the need. Check what language the renewal notice is in, how the request is supposed to be made, whether the offer appears in a language the reader actually reads, and what happens to someone who calls and cannot be understood. Then ask the partner organizations serving those communities what they see, and pay them for the time.",
+              response: "This is the recommended path. It keeps the two questions apart — is there a need, and does our route work — and it brings in the people who already know the answer. It also produces a finding somebody can act on rather than a conclusion that closes the file.",
+              recommended: true,
+            },
+            {
+              label: "Skip the analysis and translate the full renewal packet into the ten most commonly requested languages right away, so the gap is covered either way.",
+              response: "Fast, expensive, and possibly beside the point. If the packet is unreadable in English it will be unreadable in ten more languages, and you will have spent the budget before finding out which document actually stops people. It also decides on behalf of communities you did not ask.",
+            },
+          ],
+        },
+        transfer: {
+          prompt: "Where in your own work does a low count get read as a low need?",
+          options: [
+            "Name one count your unit treats as a measure of demand — requests, calls, complaints, sign-ups",
+            "Write down what that count actually measures about your own process",
+            "Name one partner or colleague who would know the part the count cannot see, and what it would take to ask them properly",
+          ],
+        },
+        blocks: [
+          {
+            type: "text",
+            heading: "The request log is the wrong first evidence",
+            body: "<p>Every unit has some version of this number: interpreter requests booked, translated documents ordered, accommodation requests received. It is the easiest figure to pull and the most misleading one to reason from, because it only ever counts people who got all the way through a route you built. To appear in that log, a person had to learn the route exists, understand the words describing it, be able to use the channel it runs through, believe that asking would not cost them anything, and have enough time before the deadline for the request to be filled.</p><p>Fail any one of those and the person disappears from your data entirely. They do not appear as an unmet need. They appear as an incomplete renewal, a missed appointment, a call that ended, a household that did not apply. The absence looks like their choice.</p><p>This is why a language-access review starts somewhere else. It starts with who the program serves, where people stop between steps, and what the organizations already working with those households can tell you in an hour. Then it comes back to the request log and asks a much better question: if the need exists and the log is empty, what is wrong with our route?</p><p>Programs do not usually get this wrong out of indifference. They get it wrong because a process that works for the people running it feels like a neutral process. The intercultural development continuum this program uses as its theory of change — Denial, Polarization, Minimization, Acceptance, Adaptation, Integration — has a name for that comfortable middle: Minimization, where difference is acknowledged in principle and quietly treated as something that should not change how the work is done. The move toward Acceptance and Adaptation is not a change of heart. It is a change in what you count and whom you ask first. The continuum describes designs and organizations here; it is never a rating of a colleague, and nothing in this module records anything about any individual.</p>",
+          },
+          {
+            type: "list",
+            heading: "Signals your program already holds",
+            items: [
+              "Who enrolls, and who starts an application and does not finish it.",
+              "Where people stop between steps: the step before the packet, the step before the appointment, the step before the appeal window closes.",
+              "Notices returned undelivered, and repeat calls asking the same question about the same paragraph.",
+              "Which offices, clinics or counties see a different pattern from the statewide one.",
+              "What partner and community organizations are fielding on your behalf without being asked or paid.",
+              "What interpreters and bilingual staff already know from being in the room, if anyone has ever asked them.",
+              "Which of your materials exist in English only, and how long that has been true.",
+            ],
+          },
+          {
+            type: "sorting",
+            id: "ipe-10-2-sort",
+            heading: "Fact about the need, fact about your process, or assumption?",
+            categories: ["A fact about the need", "A fact about your own process", "An assumption"],
+            items: [
+              { text: "Applications from one region are finished at half the rate of the statewide pattern.", category: "A fact about the need" },
+              { text: "The interpreter-request line is answered in English only, during business hours.", category: "A fact about your own process" },
+              { text: "Families who needed another language would have called us by now.", category: "An assumption" },
+              { text: "Two partner organizations report helping the same households read the renewal packet every year.", category: "A fact about the need" },
+              { text: "The renewal notice and the offer of interpretation are both published in English only.", category: "A fact about your own process" },
+              { text: "People who speak English at home do not need language help with our forms.", category: "An assumption" },
+              { text: "A quarter of the returned forms from one county are missing the same two pages.", category: "A fact about your own process" },
+              { text: "If it mattered, someone would have complained.", category: "An assumption" },
+            ],
+          },
+          {
+            type: "accordion",
+            heading: "Three explanations people reach for, and what to check instead",
+            items: [
+              { title: "“We have never had a request.”", body: "<p>Check where the offer appears and in what language, how a person makes the request, who answers, and what a caller hears if they cannot be understood in the first ten seconds. Check whether the offer arrives with enough time to be usable. An offer that only exists in the language the reader cannot read has never actually been made.</p>" },
+              { title: "“They all bring someone with them.”", body: "<p>Check what that costs the household. Bringing a relative usually means a working adult takes a day off, or a teenager leaves school to interpret a conversation about their own family’s income, health or benefits. The person’s privacy is gone and the accuracy is unverified. Some people do want a family member present, and that is their right — but wanting company is not the same as being told there is no other option.</p>" },
+              { title: "“Our numbers are too small to justify it.”", body: "<p>Check the numbers you are using. Size is one of several considerations, alongside how often the program encounters the language, how serious the consequence is for the person, and what resources exist. A small number of households facing the loss of a service is not the same as a small number of website visits. And check whether the count is low because the program has been closed to those households for years.</p>" },
+            ],
+          },
+          {
+            type: "leaderMove",
+            heading: "Ask the partner before you buy the translation",
+            control: "You control whether the people who already work with these households get asked before a decision is made, and whether their time is paid for.",
+            failure: "Do not collect community expertise for free, act on it, and describe the result as your unit’s analysis. Do not ask a partner organization to review a document in three days because your schedule slipped.",
+            next: "Before the next translation or interpretation decision, find one organization already serving those households, ask them which document matters most and what they see people struggle with, arrange compensation for the time, and say in your write-up what changed because of the conversation.",
+          },
+          {
+            type: "flashcards",
+            heading: "Better questions than “how many requests did we get?”",
+            cards: [
+              { front: "Who does this program serve?", back: "<p>Not who asks for help — who is eligible, enrolled, applying, or affected by the change. That is the population the plan is sized against.</p>" },
+              { front: "Where do people stop?", back: "<p>Find the step with the sharpest drop-off, then look at what that step asks a person to read, understand and do, and in what language.</p>" },
+              { front: "Who is fielding this instead of us?", back: "<p>If a partner organization is translating your packet at their own cost, the need is documented and the invoice is landing in the wrong place.</p>" },
+              { front: "Can our offer be found?", back: "<p>Read the offer of interpretation as someone who does not read English. If it disappears, it was never an offer.</p>" },
+              { front: "Whose expertise is missing?", back: "<p>Interpreters, bilingual staff, community organizations and family-led groups usually know the answer already. Ask early, pay for the time, and report what changed.</p>" },
+            ],
+          },
+          {
+            type: "knowledgeCheck",
+            id: "ipe-10-2-check",
+            question: "A unit reports: “We received three interpreter requests this year out of four thousand contacts, so language access is not a significant issue for this program.” What is the strongest objection?",
+            options: [
+              { text: "Three is still three; the unit should provide interpretation for those three and move on.", correct: false },
+              { text: "The count measures how many people found and successfully used the request route. It cannot tell you about anyone the route never reached, so it is evidence about the unit’s process rather than about the need.", correct: true },
+              { text: "Four thousand contacts is too small a number to draw any conclusion from.", correct: false },
+            ],
+            feedbackCorrect: "Yes. The log counts completed journeys through a route you designed. Read it as a finding about the route, then go looking for the need somewhere the route did not filter it out.",
+            feedbackIncorrect: "Ask what a person had to do in order to appear in that count: find the offer, read it, use the channel, trust the ask, and have time. Anyone who failed at any of those steps is missing from the number entirely.",
+          },
+          {
+            type: "statement",
+            body: "Private reflection, kept by you and not collected anywhere: is there a number your team uses to settle a question about need? What would you have to look at instead if that number were only telling you about your own process?",
+          },
+        ],
+      },
+      {
+        id: "ipe-10-3",
+        number: 3,
+        title: "Working well with interpreters and translators",
+        summary: "What a professional needs in order to be accurate, why the shortcuts fail, and how a meeting or a document has to be arranged around the work rather than the other way round.",
+        minutes: 10,
+        learning: {
+          objective: "Plan an interpreted meeting and a translated document so that the interpreter and translator can work accurately, and explain to a colleague why relatives, children and untested bilingual staff are not a substitute.",
+          takeaways: [
+            "Interpreters are professionals doing sustained, technical work in real time. They need what any professional needs: materials in advance, terms defined, a realistic schedule, sightlines, and breaks. None of that is a courtesy; all of it changes accuracy.",
+            "Long sessions need two interpreters per language. Sign language interpreters need to be placed where participants can see the interpreter and the speaker at once, with lighting and seating arranged before people arrive.",
+            "Using a child to interpret is never acceptable. Using a relative should be the person’s own informed choice, never the program’s default, and never for a conversation about the household’s money, health or eligibility.",
+            "Translation is a process: a source written to be translated, a qualified translator, review by a second qualified person, and community review for anything the public will rely on. Automatic translation tools can help a colleague get the gist of an incoming message; they do not produce a document a person’s benefits depend on.",
+            "Plain wording is the part you control for free. Idioms, acronyms, nested clauses and program shorthand raise the cost, slow the schedule and multiply the chances of an error in every language at once.",
+          ],
+          evidence: "A scenario about a two-hour listening session with three interpreted languages, and a knowledge check about what to do when a family member offers to interpret.",
+          appliedNextStep: "Before your next interpreted meeting, send the agenda, the slides and a short list of your program’s terms to the interpreters several working days ahead, and put a line in the agenda for the pauses that make accurate interpretation possible.",
+        },
+        scenario: {
+          context: "An engagement lead has booked a two-hour listening session with interpretation in two spoken languages and American Sign Language. The agenda goes to the interpreters on the morning of the session. The slides use six program acronyms that are never spelled out. One interpreter is booked per language for the full two hours. The room has a single screen at the front, and the sign language interpreter has been placed at the back so as not to block anyone’s view.",
+          prompt: "Which change matters most before the session runs?",
+          options: [
+            {
+              label: "Add a second screen so the slides are visible from the back of the room, and print the acronyms on a handout.",
+              response: "Both are worth doing and neither touches the two things most likely to produce errors: interpreters who have never seen the material, and interpreters working alone past the point where accuracy holds. The sightline problem is also not solved by a second screen — participants need to see the interpreter and the speaker together.",
+            },
+            {
+              label: "Send the agenda, slides and a short glossary of program terms to all three interpreters several working days ahead; book interpreters in pairs for a session this long; move the sign language interpreter to the front where participants can see the interpreter and the speaker at once, with the lighting and seating checked; and write pauses into the agenda.",
+              response: "This is the recommended path. Preparation and pairing protect accuracy, placement makes the signed interpretation usable at all, and the pauses are what let a two-hour agenda actually fit into an interpreted two hours. None of it is a favor to the interpreters; all of it is what makes the session worth holding.",
+              recommended: true,
+            },
+            {
+              label: "Ask presenters to speak slowly, avoid acronyms and check in with the interpreters during the session.",
+              response: "A good instruction that cannot survive a live meeting on its own. Presenters speed up, acronyms come back, and an interpreter asking a room of forty people to slow down carries a social cost they should not have to pay. Fix it in the preparation, then give the instruction as well.",
+            },
+          ],
+        },
+        transfer: {
+          prompt: "Think about the last interpreted meeting or translated document you were part of. What would have made the professional’s work more accurate?",
+          options: [
+            "Name what the interpreter or translator received, and when they received it",
+            "Name one thing about the room, the schedule or the source text that made accuracy harder",
+            "Write the one preparation step you will make routine for the next one",
+          ],
+        },
+        blocks: [
+          {
+            type: "text",
+            heading: "Accuracy is built before anyone speaks",
+            body: "<p>An interpreter in a meeting is holding a sentence in one language while producing it in another, tracking who is speaking, keeping a term consistent across two hours, and doing it without pausing the room. It is dense cognitive work, and the things that break it are mundane: an acronym nobody defined, a policy term with no settled equivalent, a speaker reading numbers from a slide the interpreter has never seen, a session that runs forty minutes past the point where any person can sustain that concentration.</p><p>Almost all of that is fixed before the meeting starts, by you. Send the agenda, the slides and the numbers ahead. Send a short list of your program’s terms with a plain sentence explaining each one — the interpreter may know the language perfectly and still need to know what your unit means by a particular phrase, because your unit gave it a specific meaning. Book in pairs for anything long. Arrange the room so signed interpretation can be seen. Write pauses into the agenda, because interpreted time is longer than uninterpreted time and pretending otherwise just means the last agenda item gets dropped.</p><p>Translation has the same shape with a different clock. A source text written for translation — short sentences, one idea each, defined terms, no idioms — is faster, cheaper and more accurate in every target language at once. A source finished at the last minute and handed over with “can you turn this around by Friday” produces exactly what you would expect. And for anything the public relies on, a second qualified person reviews the translation, and the people who will actually read it get a look before it is published, with their time paid for.</p>",
+          },
+          {
+            type: "tabs",
+            heading: "Four settings, four sets of practical decisions",
+            tabs: [
+              { label: "Spoken, in the room", body: "<p>Book by the hour with a realistic end time. Two interpreters per language for anything over about an hour. Seat the interpreter where they can hear everyone and be heard. Speak to the person, not to the interpreter — “what would you like to do?” rather than “ask her what she wants to do.” Pause at the ends of thoughts rather than mid-sentence. Expect the meeting to take longer and plan the agenda for the time you actually have.</p>" },
+              { label: "Sign language and tactile communication", body: "<p>Confirm with the participant what they use; American Sign Language, tactile methods and close-vision methods are different, and captioning is a separate service, not a substitute. Place the interpreter near the speaker so both are visible at once. Check lighting and background. Keep a clear line of sight when people stand up or the room rearranges. For a person who is deafblind, ask in advance about spacing, pace and the physical setup.</p>" },
+              { label: "By phone or video", body: "<p>Useful for unscheduled needs, short conversations and places you cannot staff in person. It costs you tone, gesture and the ability to see confusion on someone’s face. Test the connection before the participant is on it, say who is in the room, and do not use a video line for a signed conversation without confirming that the picture, framing and bandwidth are good enough for it to be usable.</p>" },
+              { label: "Written translation", body: "<p>Decide which documents are vital before deciding which languages. Write the source for translation. Use a qualified translator and have a second qualified person review. Send the whole document, not fragments, so the translator can see context. Keep a shared list of program terms and their agreed renderings so the same phrase does not arrive three different ways across three documents. Build in community review, and pay for it.</p>" },
+            ],
+          },
+          {
+            type: "accordion",
+            heading: "Why the shortcuts fail",
+            items: [
+              { title: "A child interpreting", body: "<p>Never acceptable, in any setting, for any reason. A child is being asked to carry adult information about their own family, to deliver bad news to their own parent, and to be accurate about terms they have no way of knowing. National standards for culturally and linguistically appropriate services direct programs to avoid using minors as interpreters. If a child is the only option in the room, the answer is to stop and get an interpreter, not to proceed carefully.</p>" },
+              { title: "A relative or friend interpreting", body: "<p>Sometimes the person genuinely wants a family member present, and that is their choice to make. It is not the program’s default. A relative has a stake in the outcome, may summarize or soften, may not know the vocabulary, and is now holding private information about the person’s health, income or eligibility. Offer a qualified interpreter first, at no cost, and make clear that accepting one costs the person nothing.</p>" },
+              { title: "A bilingual colleague stepping in", body: "<p>Bilingual staff are an asset and interpreting is a separate skill with its own standards of accuracy, completeness and impartiality. Asking a colleague to interpret a benefits conversation puts them personally on the line for an error, pulls them off their own work, and gives you no way to check the result. Where bilingual staff do serve people directly in their own language, that capability should be assessed and recognized as part of the role, not borrowed in a corridor.</p>" },
+              { title: "Automatic translation used alone", body: "<p>An automatic tool can help a colleague understand the gist of an incoming email. It cannot produce a notice a person’s services depend on. It does not know your program’s terms, it fails unpredictably on exactly the sentences that matter, and nobody in the process is accountable for the result. If it is used at all, it is used as a first draft that a qualified translator edits and a second qualified person reviews — and it is never used for a vital document without that human review.</p>" },
+            ],
+          },
+          {
+            type: "quote",
+            text: "Send me the slides. I am not asking for a favor — I am asking because at minute fifty, when someone reads a program name I have never heard, I have about one second to decide what to do with it, and everyone in that room will live with whatever I choose.",
+            cite: "Composite interpreter perspective, illustrative",
+          },
+          {
+            type: "leaderMove",
+            heading: "Make the preparation packet routine",
+            control: "You control what the interpreter or translator receives and when. The agenda, the slides, the numbers and the list of program terms are all yours to send.",
+            failure: "Do not hand over material on the morning of the session, send fragments of a document without context, or book a single interpreter for a long meeting to save a line in the budget.",
+            next: "Build one short preparation packet — agenda, materials, glossary, room arrangement, who is attending — and send it for every interpreted meeting from now on. It takes fifteen minutes and it is the highest-value thing on this page.",
+          },
+          {
+            type: "flashcards",
+            heading: "Working practices worth making routine",
+            cards: [
+              { front: "Materials ahead", back: "<p>Agenda, slides, numbers and a short glossary of program terms, several working days before the meeting. The single most effective accuracy measure available to you.</p>" },
+              { front: "Two per language", back: "<p>For anything much over an hour, book interpreters in pairs so they can trade off. Accuracy falls off sharply with sustained continuous interpreting.</p>" },
+              { front: "Speak to the person", back: "<p>“What would you like to do?” — not “ask him what he wants.” The interpreter is the channel, not the participant.</p>" },
+              { front: "Sightlines first", back: "<p>Participants have to see the sign language interpreter and the speaker at the same time, with usable lighting. Check it before the room fills.</p>" },
+              { front: "Source written for translation", back: "<p>Short sentences, one idea each, defined terms, no idioms, no undefined acronyms. Cheaper and more accurate in every language at once.</p>" },
+              { front: "Review by a second qualified person", back: "<p>Standard practice for translation, and required in practice for anything the public relies on. Community review sits alongside it, and is paid.</p>" },
+            ],
+          },
+          {
+            type: "knowledgeCheck",
+            id: "ipe-10-3-check",
+            question: "A person arrives for an appointment with their adult daughter, who offers to interpret. What is the best response from staff?",
+            options: [
+              { text: "Accept the offer; the person brought her, so the family has already decided, and it saves everyone time.", correct: false },
+              { text: "Tell the person a qualified interpreter is available at no cost to them, explain that they can have their daughter stay with them as support either way, and let the person decide with that information in hand.", correct: true },
+              { text: "Decline the daughter’s help and ask the person to rebook once an interpreter can be scheduled.", correct: false },
+            ],
+            feedbackCorrect: "Yes. The person chooses, and they can only choose if they know a free qualified interpreter exists. Support and interpretation are also two different roles; the daughter can stay as one without being made responsible for the other.",
+            feedbackIncorrect: "Two things have to be true at once: the person keeps the decision, and the decision has to be informed. Accepting by default removes the choice, and sending the person away to rebook makes their access someone else’s scheduling problem.",
+          },
+          {
+            type: "statement",
+            body: "Private reflection, kept by you and not collected anywhere: think of a time an interpreted conversation went badly, or a translated document came back wrong. Looking at it now, which of the preparation steps above was missing — and who was carrying the cost of it?",
+          },
+        ],
+      },
+      {
+        id: "ipe-10-4",
+        number: 4,
+        title: "Your language-access plan",
+        summary: "One page for one project or meeting: languages, decisions, money, calendar, limits, and what happens on the day when something was missed.",
+        minutes: 11,
+        learning: {
+          objective: "Write a one-page language-access plan for a project or meeting you are responsible for, naming the languages covered and how you decided, the budget line, the schedule point, the limits, and what happens when a need you did not plan for arrives.",
+          takeaways: [
+            "A plan that fits on one page and names people and dates is worth more than a policy nobody opens. Eight lines someone else could act on is the target.",
+            "Money and calendar are the plan. Interpretation and translation fail most often because they were priced last and scheduled last, not because anyone objected to them.",
+            "Name what you are not covering and why, with a route to ask. An honest limit with a real contact is better than an implied promise the project cannot keep.",
+            "Repair belongs in the plan before it is needed: what a staff member actually does when a person arrives speaking a language nobody planned for, in the next ten minutes and in the following week.",
+            "Write down whose knowledge shaped the plan and what changed because of it. A plan that no affected person saw is a draft.",
+          ],
+          evidence: "A scenario about a project scope with no line for language access, a sorting exercise about when each decision has to be made, and a completed one-page plan for a real project or meeting.",
+          appliedNextStep: "Fill in the plan for the next real project or meeting on your calendar, send it to the people who have to act on it, put the review point in the calendar now, and tell the partners who helped shape it what you decided.",
+        },
+        scenario: {
+          context: "A Disability Services Division project team is scoping a set of public-facing materials and a series of information sessions around a program change. The draft budget has lines for design, printing and venue costs. There is no line for interpretation or translation. The draft schedule ends with a single task in the final week, labeled “translate.”",
+          prompt: "What should the team change in the scope?",
+          options: [
+            {
+              label: "Keep the structure and move the translation task two weeks earlier so there is room if it slips.",
+              response: "Closer, and still short on both counts. There is no money attached to the task, and the English source will not have been written for translation, so an earlier start just means discovering the problem sooner.",
+            },
+            {
+              label: "Put language access into the scope, the budget and the schedule at the same time as design: name the languages and how that was decided, price interpretation and translation as their own budget lines, write the English source to be translated, build in translator review and paid community review, and set session dates with interpreter availability in mind.",
+              response: "This is the recommended path. Language access stops being a task at the end and becomes a set of decisions made when they can still be acted on — which is the only time a budget line can actually be added.",
+              recommended: true,
+            },
+            {
+              label: "Publish and run everything in English first, then add translated materials and interpretation later if demand appears.",
+              response: "This is the empty request log again, built into a project plan. Demand cannot appear from people who could not read the announcement, and “later” competes with the next project for money that was never set aside.",
+            },
+          ],
+        },
+        transfer: {
+          prompt: "Pick the next project or meeting you are responsible for. What would it take to have the plan written before the scope is locked?",
+          options: [
+            "Name the project and the person who controls its budget",
+            "Name the one decision that has to happen at scoping rather than at drafting",
+            "Name the partner or colleague whose knowledge should shape the languages you cover, and how their time will be paid for",
+          ],
+        },
+        blocks: [
+          {
+            type: "text",
+            heading: "A plan that fits on one page",
+            body: "<p>A language-access plan for a project or a meeting is not a policy document. It is a short, specific note that another person could pick up and act on. It says which languages are covered and how that was decided, who is booking what and by when, which documents are being translated and who reviews them, where the money is coming from, what is not covered, and what a staff member does on the day when the plan turns out to be incomplete. Eight lines is enough. Eight lines that name people and dates is better than eight pages that name neither.</p><p>Two of those lines do most of the work. The budget line is the plan: a project with interpretation priced into it will have interpretation, and one without it will have a conversation in week eleven about whether it is really necessary. The schedule line is the other half: translation needs a finished source and a review cycle, and interpreters are booked around a human being’s calendar, so both have to appear early enough to be real.</p><p>The last line matters more than it looks. No plan covers everything. Someone will arrive speaking a language nobody anticipated, or ask for a format that was not on the list. Deciding in advance what happens in that moment — which line to call, who has authority to spend, what the person is told, and what gets recorded so the next plan is better — is the difference between a gap and a failure. It is also where accountability and repair actually live: not in the apology, but in what changes afterwards and who is told.</p>",
+          },
+          {
+            type: "artifact",
+            kind: "tagged-document",
+            label: "Practical tool",
+            title: "A language-access plan for one project or meeting",
+            summary: "One page you can copy into a project folder or a meeting invitation. Fill it in for something real that is already on your calendar.",
+            fields: [
+              { label: "Project or meeting, and who it reaches", value: "Public information sessions and the printed notice for a change in how a service is requested. Reaches current participants, families, and the community organizations that support them." },
+              { label: "Languages covered, and how you decided", value: "English plus the languages identified with the responsible language-access office and confirmed with two partner organizations serving the affected households. American Sign Language and live captioning provided as a default at every session, not on request." },
+              { label: "Interpretation: what, when, and who books it", value: "Two interpreters per spoken language per session; sign language interpreters placed at the front with sightlines checked. Booked by the project coordinator at least three weeks ahead. Preparation packet — agenda, slides, glossary, room layout — sent five working days ahead." },
+              { label: "Translation: which documents, who translates, who reviews", value: "The notice, the request form and the rights-and-appeal page. Translated under the department’s translation arrangement, reviewed by a second qualified translator, then reviewed by two community reviewers who are paid for their time." },
+              { label: "Budget line and schedule point", value: "Interpretation and translation carried as their own budget lines in the project scope, not inside the design line. English source finished six weeks before the effective date; translation and review complete two weeks before; everything published together." },
+              { label: "Not covered, and the route to ask", value: "Languages outside the planned set, braille, and large print are arranged on request. Named contact, working phone and email, and a commitment to respond within a stated number of working days appear on every version of the notice, in every language." },
+              { label: "If someone’s language was not planned for", value: "Staff on the day call the telephone interpreting line rather than asking a companion to interpret; nobody is turned away or asked to come back. The occurrence is written down, and the language is considered for the next round of materials." },
+              { label: "Review point and who hears what changed", value: "Reviewed with the project team and the two partner organizations at the agreed point after the last session. What changed because of their input goes back to them in writing, along with what did not change and why." },
+            ],
+            action: "Copy the eight lines into your own project folder or meeting invitation, fill them in for something real on your calendar, and send it to the people who have to act on it — including whoever controls the budget.",
+          },
+          {
+            type: "sorting",
+            id: "ipe-10-4-sort",
+            heading: "When does each decision have to be made?",
+            categories: ["At scoping", "While drafting", "Before the day"],
+            items: [
+              { text: "Interpretation and translation carried as their own budget lines.", category: "At scoping" },
+              { text: "Which documents in this project count as vital.", category: "At scoping" },
+              { text: "Sentences kept short, terms defined, acronyms spelled out.", category: "While drafting" },
+              { text: "A shared list of program terms for translators and interpreters.", category: "While drafting" },
+              { text: "Two interpreters per language booked for a long session.", category: "Before the day" },
+              { text: "Sightlines, lighting and seating checked for signed interpretation.", category: "Before the day" },
+              { text: "Which languages are covered, decided with partner organizations.", category: "At scoping" },
+              { text: "The preparation packet sent to every interpreter.", category: "Before the day" },
+              { text: "The named contact and response commitment written into the notice.", category: "While drafting" },
+            ],
+          },
+          {
+            type: "list",
+            heading: "First moves that need nobody’s permission",
+            items: [
+              "Put interpretation and translation on the budget worksheet as their own lines, even at zero, so somebody has to decide rather than forget.",
+              "Move the translation task out of the final week and attach the English source deadline to it.",
+              "Write the offer of interpretation into every version of a notice, in the language of that version.",
+              "Send a preparation packet to interpreters for every interpreted meeting, starting with the next one.",
+              "Put a named contact and a real response time on public materials instead of a general mailbox.",
+              "Ask one partner organization which document matters most, and arrange payment for the time before you ask.",
+              "Write down what happened when a plan fell short, so the next plan starts from it rather than from memory.",
+            ],
+          },
+          {
+            type: "leaderMove",
+            heading: "Put the line in the budget while the budget is still open",
+            control: "You control whether language access appears as its own cost and its own schedule item, or as an unfunded task at the end. In most projects that is a decision one person makes quietly in week one.",
+            failure: "Do not fold interpretation and translation into a design or printing line where they disappear. Do not write “as needed” in a budget; it means nothing was reserved.",
+            next: "On the next project worksheet you touch, add the two lines with an actual figure, and name who is responsible for each. If the figure has to be argued for, argue for it in week one rather than in week eleven.",
+          },
+          {
+            type: "knowledgeCheck",
+            id: "ipe-10-4-check",
+            question: "Which of these is a complete line in a language-access plan?",
+            options: [
+              { text: "“Translation: materials will be translated as needed before launch.”", correct: false },
+              { text: "“Notice, request form and appeal page translated under the department’s arrangement, reviewed by a second qualified translator and by two paid community reviewers; English source final six weeks ahead; translation complete two weeks ahead; owner: project coordinator.”", correct: true },
+              { text: "“Language access: interpreters available on request; contact the program mailbox.”", correct: false },
+            ],
+            feedbackCorrect: "Yes. It names the documents, the process, the review, the dates and an owner. Someone else could pick it up and act on it, which is the test.",
+            feedbackIncorrect: "Check for five things: which documents, who does the work, who reviews it, by when, and who owns it. “As needed” and “on request” answer none of them.",
+          },
+          {
+            type: "statement",
+            body: "Private reflection, kept by you and not collected anywhere: think about the project or meeting you just planned for. How could the people most affected have shaped it earlier than they did — and if a language gap has already caused harm in this work, what would accountability and repair actually require, beyond quietly fixing it next time?",
+          },
+        ],
+      },
+    ],
+  },
+  jobAid: {
+    title: "Language access in state programs",
+    subtitle: "One page for planning a project, a meeting or a document that has to reach more than one language",
+    quote: "Interpretation is live. Translation takes time. Neither one can be in the room if it was never in the budget.",
+    use: {
+      purpose: "Keep the plan, the timing and the working practices in view while you scope a project, book a meeting, or send a document for translation.",
+      remember: [
+        "Interpretation is live and booked around a person. Translation is written, reviewed, and measured in weeks. They are not the same service and they do not belong on the same line.",
+        "Signed and tactile communication and captioning are separate services; the person tells you which they use, and their expressed preference carries weight.",
+        "An empty request log is a finding about your request route, not about the need.",
+        "Never a child. A relative only by the person’s own informed choice, after a free qualified interpreter has been offered.",
+        "Materials several working days ahead, two interpreters per language for long sessions, sightlines checked, pauses in the agenda.",
+        "Plain wording is free and improves accuracy in every language at once.",
+        "Name what is not covered, with a real contact and a real response time, and decide in advance what happens on the day when the plan falls short.",
+      ],
+      doNext: "Fill in the eight-line plan for the next project or meeting on your calendar and send it to whoever controls its budget and its schedule.",
+    },
+    sections: [
+      {
+        heading: "The plan, in eight lines",
+        items: [
+          "Project or meeting, and who it reaches.",
+          "Languages covered, and how you decided — including who you asked and how their time was paid for.",
+          "Interpretation: what, when, and who books it, with the preparation packet date.",
+          "Translation: which documents, who translates, who reviews, and who from the community reviews.",
+          "Budget line and schedule point, both named as their own items rather than folded into design.",
+          "Not covered, and the route to ask: a named contact, a working number, and a real response time.",
+          "If someone’s language was not planned for: what staff do in the next ten minutes, and what gets recorded.",
+          "Review point, and who hears what changed because of their input.",
+        ],
+      },
+      {
+        heading: "Before an interpreted meeting",
+        items: [
+          "Send the agenda, slides, numbers and a short glossary of program terms several working days ahead.",
+          "Book two interpreters per language for anything much over an hour.",
+          "Place sign language interpreters where participants can see the interpreter and the speaker at once; check lighting and seating before the room fills.",
+          "Write pauses into the agenda — interpreted time runs longer, and the last item is what gets dropped.",
+          "Speak to the participant, not to the interpreter.",
+        ],
+      },
+      {
+        heading: "Before a document goes out",
+        items: [
+          "Decide which documents are vital before deciding which languages.",
+          "Write the English source to be translated: short sentences, one idea each, defined terms, no idioms, no undefined acronyms.",
+          "Send the whole document rather than fragments, with the shared list of program terms.",
+          "Have a second qualified person review the translation, and arrange paid community review for anything the public will rely on.",
+          "Publish the translated versions with the English one, before the effective date — not after it.",
+        ],
+      },
+      {
+        heading: "Who this helps",
+        items: [
+          "Communications and training staff, who own the notice, the page, the session and the invitation most people will actually meet — a useful place to start.",
+          "Administrative and support staff, who book the interpreters, arrange the rooms and send the standing notices — the deeper material here is written with you in mind.",
+          "Policy and program staff, whose wording becomes the source text somebody has to translate.",
+          "Fiscal, contract and grant staff, who decide whether interpretation and translation exist as funded lines.",
+          "Quality, data and engagement staff, who decide what counts as evidence that a need exists.",
+        ],
+      },
+      {
+        heading: "Related modules",
+        items: [
+          "Accessible public communications",
+          "Inclusive meetings and engagement",
+          "Program and service design",
+          "Equitable stakeholder partnership",
+          "Responding to concerns and feedback",
+        ],
+      },
+    ],
+  },
+  sources: [
+    { title: "Minnesota Department of Human Services, Language access", href: "https://mn.gov/dhs/general-public/about-dhs/language-access/", note: "The department's own information on interpreting, translation and language access for people who use DHS services; the starting point for what is currently arranged and who holds it." },
+    { title: "U.S. Department of Health and Human Services, National CLAS Standards", href: "https://thinkculturalhealth.hhs.gov/clas/standards", note: "The language assistance standards used in this module: offering language assistance at no cost, informing people it is available, using competent individuals and avoiding untrained people and minors, and providing easy-to-understand materials and signage." },
+    { title: "ADA.gov, Effective communication", href: "https://www.ada.gov/resources/effective-communication/", note: "U.S. Department of Justice guidance on Title II effective communication, qualified interpreters, auxiliary aids and services, companions, and primary consideration of the person's expressed preference." },
+    { title: "Minnesota Commission of the Deaf, DeafBlind and Hard of Hearing", href: "https://mn.gov/deaf-commission/", note: "Minnesota's state commission on communication access for people who are deaf, deafblind and hard of hearing, including interpreting quality and access to state services." },
+    { title: "National Council on Interpreting in Health Care", href: "https://www.ncihc.org/", note: "National code of ethics and standards of practice for interpreters, and guidance on working with interpreters that informs the preparation practices in Lesson 3." },
+    { title: "PlainLanguage.gov, Federal plain language guidelines", href: "https://www.plainlanguage.gov/guidelines/", note: "Guidance on audience, organization, sentence structure and words to avoid; the basis for writing an English source that can be translated accurately." },
+    { title: "Minnesota Council on Disability", href: "https://www.disability.state.mn.us/", note: "Minnesota's advisory council on disability policy, access and rights, including communication access in state programs and public meetings." },
+    { title: "Minnesota Framework for Universal Multicultural Instructional Design", href: "https://mncpd.org/wp-content/uploads/2016/12/MN_Framework_for_Universal_Multicultural_Instructional_Design.pdf", note: "The design reference for this curriculum: multiple ways to engage, culturally responsive materials, and accessible instruction without timed or scored interactions." },
+  ],
+};
+
+export default pack;

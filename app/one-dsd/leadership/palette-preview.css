@@ -1,0 +1,17 @@
+/* Local leadership comparison: blue and gold, with open white reading space. */
+main .leadership-palette-preview { color:#263b49; }
+main .leadership-palette-preview :is(h1,h2,h3,h4) { color:#103f62; }
+main .leadership-palette-preview > header { background:#f2f6fa!important; border:0!important; box-shadow:none!important; }
+main .leadership-palette-preview > header::before { background:#b78a29!important; width:5rem; }
+main .leadership-palette-preview > header a[href="#starting-points"] { background:#1767ad!important; color:#fff!important; border-radius:.5rem; }
+main .leadership-palette-preview > nav { border-color:#c4d4e0; }
+main .leadership-palette-preview > nav a { color:#103f62; }
+main .leadership-palette-preview > nav a:hover { background:#eaf2f8; }
+main .leadership-palette-preview > section > div > article { box-shadow:none; }
+main .leadership-palette-preview > section:has(> h2 + p) { border-color:#d5dfe6; }
+main .leadership-palette-preview > section:has(> p:first-child + h2) { background:#eff4f8; }
+main .leadership-palette-preview #connections { background:#103f62!important; color:#fff; border:0; }
+main .leadership-palette-preview #connections :is(h2,p,a) { color:#fff!important; }
+main .leadership-palette-preview #connections h2::after { content:""; display:block; width:4rem; height:3px; background:#ddb456; margin-top:1rem; }
+main .leadership-palette-preview a:focus-visible { outline:3px solid #1767ad; outline-offset:4px; }
+main .leadership-palette-preview #connections a:focus-visible { outline-color:#fff; }

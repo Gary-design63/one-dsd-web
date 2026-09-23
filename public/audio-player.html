@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>One DSD Audio Player</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: #f8f9fa; padding: 20px; }
+.container { max-width: 1400px; margin: 0 auto; }
+h1 { color: #333; margin-bottom: 10px; font-size: 28px; }
+.subtitle { color: #666; margin-bottom: 20px; font-size: 14px; }
+.count { color: #999; font-size: 12px; margin-bottom: 15px; }
+.player-table { background: white; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); overflow: hidden; }
+.table-header { display: grid; grid-template-columns: 50px 2fr 150px 100px 120px; gap: 15px; padding: 15px 20px; background: #f0f2f5; font-weight: 600; color: #555; font-size: 12px; text-transform: uppercase; border-bottom: 2px solid #e0e0e0; }
+.table-row { display: grid; grid-template-columns: 50px 2fr 150px 100px 120px; gap: 15px; padding: 15px 20px; border-bottom: 1px solid #f0f0f0; align-items: center; }
+.table-row:hover { background: #fafbfc; }
+.play-btn { width: 40px; height: 40px; border-radius: 50%; background: #007bff; border: none; color: white; cursor: pointer; display: flex; align-items: center; justify-content: center; font-size: 18px; transition: background 0.2s; }
+.play-btn:hover { background: #0056b3; }
+.play-btn:disabled { background: #999; cursor: not-allowed; }
+.file-name { color: #333; font-weight: 500; word-break: break-word; font-size: 13px; line-height: 1.4; }
+.file-size { color: #999; font-size: 12px; text-align: right; }
+.time-display { color: #666; font-size: 12px; text-align: center; min-width: 80px; }
+.hidden-audio { display: none; }
+.loading { text-align: center; padding: 40px; color: #666; }
+</style>
+</head>
+<body>
+<div class="container">
+<h1>🎙️ Audio Recordings Library</h1>
+<p class="subtitle">All recordings — Gary voice samples, learning examples, voice testing samples</p>
+<div id="fileCount" class="count"></div>
+<div class="player-table">
+<div class="table-header">
+<div>Play</div>
+<div>Filename</div>
+<div>File Size</div>
+<div>Duration</div>
+<div>Controls</div>
+</div>
+<div id="audioList" class="loading">Loading audio files...</div>
+</div>
+</div>
+
+<script>
+const audioList = document.getElementById('audioList');
+const fileCount = document.getElementById('fileCount');
+let currentAudio = null;
+let audioElements = [];
+
+async function loadAudioFiles() {
+  try {
+    // ALL audio files from public/audio folder
+    const audioFiles = [
+      'anti-racism-public-service.mp3',
+      'dhs-equity-policy-and-toolkit.mp3',
+      '018-dhs-equity-policy-and-toolkit-1.wav',
+      '034-racial-disparities-in-minnesota-s-home-and-community-based-services.wav',
+      'Blackwell Ct N 6.m4a',
+      'Blackwell Ct N 9.m4a',
+      'Blackwell Ct N 15.m4a',
+      'Blackwell Ct N 15 - voice cleaned.mp3',
+      'Blackwell Ct N 15 - voice cleaned v2.mp3',
+      'Blackwell Ct N 15 - voice cleaned v3 warm.mp3',
+      'Blackwell Ct N 15 - voice NPR tone.mp3',
+      'Blackwell Ct N 15 - voice NPR tone (web).mp3',
+      'Blackwell Ct N 20.m4a',
+      'Blackwell Ct N 20 (cleaned).m4a',
+      'GARY-VOICE-Measured-NPR.mp3',
+      'voice_preview_blaire rose- calm & friendly narrator.mp3',
+      'Beyond_checkboxes_for_historic_Black_Minnesotans.m4a',
+      'accessible-meetings-geffen.mp3',
+      'cultural-humility-geffen.mp3',
+      'one-dsd-readaloud-LIVE-test.mp3',
+      'racism-in-america-audio-only-gary-measured-npr.mp3',
+      'download.mp3',
+      'download (1).mp3'
+    ];
+
+    const files = audioFiles.map((name, idx) => ({
+      id: idx,
+      name: name,
+      path: `/audio/${encodeURIComponent(name)}`
+    }));
+
+    fileCount.textContent = `${files.length} recordings available`;
+    renderAudioFiles(files);
+  } catch (e) {
+    console.error(e);
+    audioList.innerHTML = '<div style="padding: 20px; color: #999;">Error loading audio files.</div>';
+  }
+}
+
+function renderAudioFiles(files) {
+  audioList.innerHTML = '';
+  audioElements = [];
+
+  files.forEach((file, index) => {
+    const row = document.createElement('div');
+    row.className = 'table-row';
+
+    const audio = document.createElement('audio');
+    audio.className = 'hidden-audio';
+    audio.src = file.path;
+    audio.preload = 'metadata';
+    audioElements.push(audio);
+
+    const playBtn = document.createElement('button');
+    playBtn.className = 'play-btn';
+    playBtn.textContent = '▶';
+    playBtn.title = 'Play';
+    playBtn.onclick = (e) => {
+      e.stopPropagation();
+      togglePlayback(audio, playBtn);
+    };
+
+    audio.onplay = () => {
+      audioElements.forEach((a, i) => {
+        if (a !== audio && !a.paused) a.pause();
+      });
+      playBtn.textContent = '⏸';
+    };
+
+    audio.onpause = () => playBtn.textContent = '▶';
+    audio.onended = () => playBtn.textContent = '▶';
+
+    const nameDiv = document.createElement('div');
+    nameDiv.className = 'file-name';
+    nameDiv.textContent = file.name;
+
+    const sizeDiv = document.createElement('div');
+    sizeDiv.className = 'file-size';
+    sizeDiv.textContent = '—';
+
+    const timeDiv = document.createElement('div');
+    timeDiv.className = 'time-display';
+    timeDiv.textContent = '—';
+
+    const controlsDiv = document.createElement('div');
+    controlsDiv.style.display = 'flex';
+    controlsDiv.style.gap = '8px';
+    controlsDiv.style.alignItems = 'center';
+
+    const timeSlider = document.createElement('input');
+    timeSlider.type = 'range';
+    timeSlider.min = '0';
+    timeSlider.value = '0';
+    timeSlider.style.width = '100px';
+    timeSlider.title = 'Seek';
+
+    audio.onloadedmetadata = () => {
+      timeSlider.max = audio.duration || 0;
+      updateDuration(audio, timeDiv);
+    };
+
+    audio.ontimeupdate = () => {
+      timeSlider.value = audio.currentTime;
+    };
+
+    timeSlider.oninput = () => {
+      audio.currentTime = timeSlider.value;
+    };
+
+    controlsDiv.appendChild(timeSlider);
+
+    row.appendChild(playBtn);
+    row.appendChild(nameDiv);
+    row.appendChild(sizeDiv);
+    row.appendChild(timeDiv);
+    row.appendChild(controlsDiv);
+
+    audioList.appendChild(row);
+  });
+}
+
+function togglePlayback(audio, btn) {
+  if (audio.paused) {
+    audio.play().catch(e => console.error('Play error:', e));
+  } else {
+    audio.pause();
+  }
+}
+
+function updateDuration(audio, timeDiv) {
+  if (audio.duration && !isNaN(audio.duration)) {
+    timeDiv.textContent = formatTime(audio.duration);
+  }
+}
+
+function formatTime(seconds) {
+  const hrs = Math.floor(seconds / 3600);
+  const mins = Math.floor((seconds % 3600) / 60);
+  const secs = Math.floor(seconds % 60);
+  if (hrs > 0) return `${hrs}:${mins.toString().padStart(2, '0')}:${secs.toString().padStart(2, '0')}`;
+  return `${mins}:${secs.toString().padStart(2, '0')}`;
+}
+
+loadAudioFiles();
+</script>
+</body>
+</html>

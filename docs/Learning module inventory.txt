@@ -1,0 +1,145 @@
+LEARNING MODULE INVENTORY — OWNER REVIEW
+September 6, 2026
+
+This inventory is for our planning conversation, not staff-facing program copy.
+Titles are preserved as found. Their appearance here does not endorse their wording or certify instructional completeness.
+
+WHAT THE CURRENT PREVIEW SHOWS
+The 25-resource count covers all resource types, not 25 courses.
+Three substantive learning modules:
+1. Team climate basics: participation, honest conversation, and fair opportunities
+2. Facilitation that participants can use in their work
+3. Working with a spoken-language interpreter
+A fourth record is the separate staff guide: How to use this program.
+
+RECOVERED COURSE COLLECTION
+86 course records: 45 general learning records and 41 cultural-intelligence records.
+The saved records currently carry pending-review/publication status. That is the recorded workflow state, not a rejection of the owner's approval of their underlying quality.
+Some records may be source versions of present modules or overlapping treatments. Do not add these counts together as a verified unique-course total.
+The grouping below is provisional; it does not determine menu order or what must be featured. A resource may belong under more than one theme in the actual program.
+
+ANTI-RACISM, EVIDENCE, AND STRUCTURAL EQUITY (5)
+1. Anti-Racism as Ordinary Work
+2. Outcomes, Not Intentions
+3. How It Shows Up in Minnesota Human Services
+4. The Record
+5. DHS Equity Analysis Toolkit
+
+DISABILITY INCLUSION, WELL-BEING, AND PERSON-CENTERED PRACTICE (6)
+6. Family and Natural Support Systems
+7. LGBTQ+ Inclusion in Disability Services
+8. Brain Injury and Complex Disability
+9. Neurodiversity and Cognitive Difference
+10. Health, Wellness, and Safety
+11. Employment First and Economic Inclusion
+
+INTERCULTURAL LEARNING AND COMMUNITY CONTEXT (10)
+12. Somali Minnesota — a Brief, not a Capsule
+13. Cultural Humility vs. a Checklist
+14. Critical Incidents in the Work
+15. Intercultural Conflict Styles at a DHS Desk
+16. Intercultural Competence without a Score
+17. Cultural Broker as a Role
+18. Acceptance in DHS Work
+19. Teams in Minimization
+20. From Noticing to Shifting
+21. What Minimization Does in DHS Work
+
+LANGUAGE AND COMMUNICATION ACCESS (5)
+22. Disability and Language Together
+23. A Language Access Plan You Can Walk
+24. Plain Language in Human Services
+25. Working with an Interpreter
+26. Language Access as a Design
+
+HIRING, RETENTION, AND EMPLOYEE DEVELOPMENT (10)
+27. Equal Opportunity in Employment — the Door and the Lens
+28. Stay Interviews and Exit Interviews
+29. Mobility, Acting, and Promotion
+30. Career Mentorship and Sponsorship
+31. Performance and Development
+32. Onboarding and the First 90 Days
+33. Screening and Selection
+34. Sourcing and Outreach
+35. Job Design and the Posting
+36. The Employee Life Cycle as a System
+
+WORKPLACE CULTURE, LEADERSHIP, AND FACILITATION (9)
+37. Conflict at Work — Resolution vs. a Formal Door
+38. Employee Viewpoint and Well-Being Surveys
+39. Facilitator’s Guide: Leading the Equity and Inclusion Curriculum
+40. Equity-Centered Leadership
+41. Equity Champion Contribution Workflow
+42. Equity and Inclusion: Leadership and Systems
+43. Culture Without Theater
+44. Change Management: Bringing People Along
+45. Accessibility as Leadership Responsibility
+
+CULTURAL-INTELLIGENCE RECORDS (41)
+46. Cultural intelligence: American culture
+47. Cultural intelligence: Minnesota culture
+48. Cultural intelligence: African American Minnesota
+49. Cultural intelligence: Somali Minnesota
+50. Cultural intelligence: Hmong Minnesota
+51. Cultural intelligence: Amharic-speaking Minnesota
+52. Cultural intelligence: Arabic-speaking Minnesota
+53. Cultural intelligence: Bosnian Minnesota
+54. Cultural intelligence: Burmese Minnesota
+55. Cultural intelligence: Cambodian / Khmer Minnesota
+56. Cultural intelligence: Chinese Minnesota
+57. Cultural intelligence: Colombian Minnesota
+58. Cultural intelligence: Cuban Minnesota
+59. Cultural intelligence: Ecuadorian Minnesota
+60. Cultural intelligence: Ethiopian Minnesota
+61. Cultural intelligence: Filipino Minnesota
+62. Cultural intelligence: French-speaking Minnesota
+63. Cultural intelligence: Guatemalan Minnesota
+64. Cultural intelligence: Indian (Asian Indian) Minnesota
+65. Cultural intelligence: Japanese Minnesota
+66. Cultural intelligence: Karen Minnesota
+67. Cultural intelligence: Kenyan Minnesota
+68. Cultural intelligence: Korean Minnesota
+69. Cultural intelligence: Lao Minnesota
+70. Cultural intelligence: Latino / Hispanic Minnesota (disaggregate)
+71. Cultural intelligence: Lebanese Minnesota
+72. Cultural intelligence: Liberian Minnesota
+73. Cultural intelligence: Mexican Minnesota
+74. Cultural intelligence: Nigerian Minnesota
+75. Cultural intelligence: Oromo Minnesota
+76. Cultural intelligence: Puerto Rican Minnesota
+77. Cultural intelligence: Russian-speaking Minnesota
+78. Cultural intelligence: Salvadoran Minnesota
+79. Cultural intelligence: Thai Minnesota
+80. Cultural intelligence: Ukrainian Minnesota
+81. Cultural intelligence: Vietnamese Minnesota
+82. Cultural intelligence: Eleven Tribal Nations of Minnesota
+83. Cultural intelligence: Alaska Native people in Minnesota
+84. Cultural intelligence: Rural Minnesota (place, not a race)
+85. Cultural intelligence: European America in Minnesota — historic cultures, not a ‘white’ mash
+86. Cultural intelligence: Native American (Compass profile — not the 11 nations)
+
+SEPARATELY PRESERVED LOCAL COURSE
+Racism in America: History, Structures, and Evidence-Based Perspectives
+A local source snapshot is present. This inventory does not establish whether it duplicates any recovered course above.
+
+ALSO IDENTIFIED, NOT COUNTED AS COURSES ABOVE
+Tim Wise: Minds That Matter — PBS conversation with captions and transcript.
+White Fragility by Robin DiAngelo — publisher information and original essay identified; a complete instructional lesson has not been built from these sources.
+Amplify Equity — prior participation model and pages recovered; current collaboration space not restored.
+Charting the LifeCourse — recovered tool candidate, not a currently published course.
+
+INSTRUCTIONAL REQUIREMENTS CONFIRMED WITH THE OWNER
+Each lesson needs three to five meaningful learning objectives, expressed as things a learner can explain, examine, apply, or do.
+The structure should be clear through headings, sequence, examples, and related materials, without public level labels or a forced progression.
+Resources remain directly accessible. Optional learning does not create an artificial prerequisite for using a tool.
+Use a calling-in approach: welcome questions, examine evidence and practices, and do not shame people or infer motives from group identity.
+Keep actual policy requirements accurate and distinct from optional learning and discussion.
+Workplace well-being and support belong alongside service outcomes and structural change, not in place of them.
+Do not claim that every existing lesson meets these requirements until the lesson-level audit has been completed.
+
+SOURCE COVERAGE
+Current static collection: lib/content/corpus.ts
+Recovered course records: data/source-snapshots/donor-library/course-candidates.jsonl
+Local course snapshot: data/source-snapshots/local/local-race-racism-minnesota-course.json
+This is an inventory of the available application collection and recovered course records, not certification that every historical attachment, slide deck, audio file, or linked source has been reconciled.
+

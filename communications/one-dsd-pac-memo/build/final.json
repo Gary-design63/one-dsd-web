@@ -1,0 +1,662 @@
+{
+ "subject": "The One DSD People, Access and Culture Program: its purpose, its architecture, its present state, and an invitation to shape it with me",
+ "sections": [
+  {
+   "heading": "Preface",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Let me begin with something I want said plainly. **In my professional judgment, both of you are genuinely interested in equity and in the cultural and organizational change this work asks for.** I have witnessed both of you earnestly engaging in that work, and it is a large part of why I am glad to bring this to you now."
+    },
+    {
+     "type": "p",
+     "text": "This memorandum sets out what the One DSD People, Access and Culture Program is, whom it serves, how it aligns with what the Department has already determined, and where the work genuinely stands. The Program is still under construction, so what I am bringing you is a work in progress rather than a finished instrument. What would help me most is your considered reading and your candid assessment by December 1. I have laid it out at length deliberately, because I would rather give you the whole picture than a tidier one."
+    },
+    {
+     "type": "p",
+     "text": "What follows is offered in the spirit of consultation. It rests on professional judgment about how equity work is operationalized — judgment formed over twenty-two years of doing this inside organizations, no two of which have been alike. There is no template for this, and I have not worked from one here."
+    },
+    {
+     "type": "p",
+     "text": "My orientation to the role is service: to put instruments in the hands of staff and leaders so that they can do work which belongs to them, and to credit others wherever credit is owed. The question that matters most is **what the staff of this Division genuinely need**, and my hope is that we can consider it together on that basis, above the level of any particular personality or situation, my own included."
+    },
+    {
+     "type": "p",
+     "text": "One point belongs at the front. **What has been built is immediately usable as it stands.** A staff member could open it today and find something that answers a real question, though it is not yet open to staff and I would not want it opened before it is genuinely ready for them. The build has moved quickly and it will continue to, because I have kept it moving in the background while larger questions were being worked out above my level."
+    },
+    {
+     "type": "p",
+     "text": "One instrument deserves naming here rather than further down, because it is the one I would most like you to open. **The Equity Analysis Toolkit companion** takes a decision someone is actually facing — a policy, a service, a change in practice — and works through it in five stages: the decision and what is genuinely still open, who is affected and how, what the options are, how affected people can influence it, and what to review before it is settled. Each stage carries a worked example to try and a place to draft the analysis of one's own work."
+    },
+    {
+     "type": "p",
+     "text": "It has an address of its own, which opens it without the rest of the Program around it and can be forwarded to anyone who should see it: https://one-dhs-pac.vercel.app/share/equity-toolkit. It is the Program's companion to the Minnesota Equity Analysis Toolkit and not a substitute for it: it submits nothing to DHS, it grants no approval, and it does not replace required review or engagement with the people a decision affects."
+    }
+   ]
+  },
+  {
+   "heading": "I.  Origin: what the Division itself established",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Between January and July of 2023 I conducted 71 interviews across this Division. From April of that year the inquiry widened, in collaboration with Sarah Shepherd, into 23 facilitated sessions spanning program staff through directors. **The division-wide assessment concluded in December 2023**, having produced 172 discrete findings and 131 recommendations, attributed to teams and de-identified at the individual level. That collaboration addressed general equity matters and the planning for the Program now under construction."
+    },
+    {
+     "type": "p",
+     "text": "The finding that organizes everything since is this: what the Division exhibited was not a shortage of commitment but a shortage of infrastructure. Staff were already carrying equity work — individually, in whatever margins they could find, without common instruments, without a shared method, and without any means of determining whether their effort altered anything. One team characterized its own position precisely: willing, and in need of guidance and support on how to proceed well. Improvisation at that scale is not a culture problem. It is an operational gap, and operational gaps are addressed by building something."
+    },
+    {
+     "type": "p",
+     "text": "The first two quarters of 2024 were given over to a different undertaking. **Maria Pabon**, an external consultant whom I vetted, was engaged to deliver basic equity training to all staff and all leadership, and that training was the bulk of what took place in that period. Sourcing outside expertise of this kind is itself one of the duties in the agreed decomposition of this position, and it is worth noting that the Division has already seen the position used that way."
+    },
+    {
+     "type": "p",
+     "text": "At the conclusion of that series, the question leadership itself posed was what comes next, and what was to be done with what had been learned. **That question is the Program's founding premise.** Instruction concludes; the work does not. What was missing was the durable structure into which learning could be deposited and from which it could be drawn once the facilitator had left the room."
+    },
+    {
+     "type": "p",
+     "text": "Sarah Shepherd left the agency at the end of 2024. From January 2025 I took up the work alone, and it is in that period that the main structure of the Program was completed. The pace of what has been produced since then is a matter of record, and I return to it in the next section because it bears on who built what."
+    }
+   ]
+  },
+  {
+   "heading": "II.  Credit where it is due: the project manager's role",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "One point of record is worth setting out, because it gives credit where it is due."
+    },
+    {
+     "type": "p",
+     "text": "Because Sarah Shepherd, the project manager, was visible in the work, it was natural to understand her as carrying it. I want to set this out carefully, because it runs in two directions: she deserves the credit she earned, and the record of who built this should be accurate."
+    },
+    {
+     "type": "p",
+     "text": "**What she did.** She was recommended by Jen Strei, the first manager I reported to on entering this Division, together with the then operations manager. What she brought was project-management expertise, and that is what she was brought for: she helped structure and organize work that had until then been solitary, and she gave the division-wide assessment reach and continuity it would not otherwise have had. Her specialty was project management, and she brought it; in equity practice she was still developing, as many of us are. I credited her contribution at the time and I credit it now."
+    },
+    {
+     "type": "p",
+     "text": "**What was mine.** The design and authorship of the Program, and two facts show it. The 71 interviews that established the need were conducted before she joined the work. And the main structure of the Program was completed after she left the agency — from January 2025 onward, working alone, I produced the bulk of what you are now looking at. The work did not pause when she left; it accelerated."
+    },
+    {
+     "type": "p",
+     "text": "The impression that followed was a natural one, and there is a reason for it that I come back to further on, in the section on who leads this work. I record this only so that the work can be weighed on its merits, with an accurate account of who produced it."
+    }
+   ]
+  },
+  {
+   "heading": "III.  What the Program is, and whom it serves",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "The Program is an operational resource a staff member consults at the moment a question surfaces in live work. It comprises courses and applied practice material, community briefs on the populations this Division serves, concise job aids, and a facility for posing a question and receiving a substantiated answer with its sources attached. Nearly every element can be downloaded, adapted to a unit's circumstances, or transmitted to a colleague without mediation."
+    },
+    {
+     "type": "p",
+     "text": "**For staff,** the relevant guidance is available at the point of need, without first locating the right person or awaiting the next scheduled training. **For supervisors and managers,** it supplies material that is ready for use with a team, which is decisive when preparation time is the scarcest resource a supervisor has. **For you and for other leaders,** it constitutes a single vantage point on what this Division is doing on equity, and a record you can point to whenever the Administration or the Department asks."
+    },
+    {
+     "type": "p",
+     "text": "It is also, and first in order of purpose, the operating platform this role requires: the repository I draw from when preparing to facilitate, and the channel through which staff tell me what they still lack."
+    },
+    {
+     "type": "p",
+     "text": "The courses, the curriculum, the practice material, the community briefs, the job aids and the download capability exist now and function now. What remains outstanding is the apparatus around the resource rather than the resource itself, and I set that out in section XII without minimizing it."
+    }
+   ]
+  },
+  {
+   "heading": "IV.  How the Program connects to what the Department is asking for",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Equity work is easiest to carry when a person can see how it connects to the levels above them. The architecture below shows those connections. Four levels govern this work, each of which determines something the others do not, and the Program's function is to render each level legible to the one beneath it."
+    },
+    {
+     "type": "figure",
+     "file": "../diagrams/diagram-a-how-the-levels-connect.png",
+     "caption": "Figure 1.  The four levels, what each one determines, and the direction of authority."
+    },
+    {
+     "type": "p",
+     "text": "**The Department sets the course. It is the North Star.** I want to be unambiguous: my intention is to follow the Department's mandate and its Equity Policy, and to work alongside the Aging and Disability Services Administration in doing so. We are all in this together. It is all part of the DHS equity ecosystem the Department contemplates, which I hope to see rolled out in the near future, and I am trying to remain in alignment with that possibility and with everything that flows from it. I also have to recognize that Department policy and programs may direct things I cannot foresee, and I have to stay alert to those so that the work we are doing here does not become unduly disjointed from them. What I contribute is a body of resources drawn from experience in operationalizing equity, offered because I judge it capable of serving this Division, the Administration, and DHS more broadly."
+    }
+   ]
+  },
+  {
+   "heading": "V.  What is fixed, and what is genuinely open",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "One of the most useful features of the policy is how much room it leaves. Here is where the boundary sits, and how much is open beneath it."
+    },
+    {
+     "type": "figure",
+     "file": "../diagrams/diagram-b-fixed-and-flexible.png",
+     "caption": "Figure 2.  One boundary is fixed. The remainder is open."
+    },
+    {
+     "type": "p",
+     "text": "**The DHS Equity Policy, and the DEIA principles beneath it, constitute the only non-negotiable.** Everything else is eminently malleable provided it remains within those principles. The Administration's six equity goals specify what must be achieved; they do not prescribe how. That reading is not my inference alone: asked directly, Deqa Sayid, the Administration's Equity Director, affirmed that this Division is distinct and that, so long as the work remains consistent with the six goals, the Division retains discretion over the manner of their implementation. That discretion is precisely what this Program exercises."
+    },
+    {
+     "type": "p",
+     "text": "The practical consequence is an opportunity worth naming. Across the Department, administrations and divisions are largely building their equity work in parallel. The latitude the policy affords is enough to let us connect ours with theirs, and I raise that as an opportunity worth taking."
+    }
+   ]
+  },
+  {
+   "heading": "VI.  Executing all six goals, and how the work divides",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Leigh Ann, this section begins with a meeting we both attended, because it settled the scope of everything that follows. Before we met with Deqa Sayid, the Administration's Equity Director, the working understanding between us had been that we might concentrate on one or two of the Administration's equity goals. In that meeting she was unambiguous: **the Division is responsible for the execution of all six.** That direction is hers to set, it is consistent with the Department's own, and I support and respect it without reservation. It means the Program is built to serve all six goals rather than one or two, and that the responsibility for them is collective and belongs to the Division."
+    },
+    {
+     "type": "p",
+     "text": "She was equally clear about something else in the same meeting, and the two statements have to be read together. **We have the freedom and the latitude to shape this work whichever way we judge best, provided it meets the Administration's goals across those six areas.** The obligation is the destination; the route is ours. That is the discretion this Program exercises, and it is why what has been built is designed for this Division rather than lifted from a template."
+    },
+    {
+     "type": "p",
+     "text": "That changes the calculus, and it leaves one genuinely open question: **how does the work divide across this Division — who is responsible for what, staff-wise and leadership-wise?** Six goals are more than any one position can carry, and they are met through work that identifiable people own within their own areas of responsibility."
+    },
+    {
+     "type": "p",
+     "text": "I have set out my proposal for how that division should fall in the accompanying goal allocation worksheet, which decomposes each of the six goals, names the kind of owner each part requires, and leaves the owner column itself blank because naming the owner is yours to do. Alongside it, the crosswalk sets out the starting point honestly: goal by goal, what the Program has built, what status each goal is in, and where work remains. Two of the six are substantially answered; three are partly answered, each with a specific and nameable gap rather than a general shortfall; and one — contracts and procurement — is where the most remains to be built. That is the honest starting point, and I would rather give it to you plainly."
+    },
+    {
+     "type": "p",
+     "text": "**What follows from that are workplans for managers and supervisors to use with their own staff**, so that the goals are met through the Division's existing lines of supervision rather than around them. This is what the role contemplates: equity work that is the Division's own, carried through its own lines of supervision, rather than an activity one position carries on its behalf. That is how six goals become six goals in operation."
+    }
+   ]
+  },
+  {
+   "heading": "VII.  Where the organization stands, and the opportunity in it",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Accompanying the build, I maintain a standing assessment of how the Department is functioning with respect to equity — what exists, what is operating effectively, and where the connections between components are attenuated. That assessment is a separate report, and I have placed it first among the accompanying documents because understanding how the organization functions is intrinsic to this role rather than incidental to it. It is offered in support. It is directed at no individual or office, and its object is to connect the equity work already under way, which I regard as promising."
+    },
+    {
+     "type": "p",
+     "text": "Its central finding is that the Department possesses substantial foundations, and that the opportunity now is to connect learning and intention to the mechanisms that determine outcomes: budgets, contracts, data definitions, hiring, technology, and the architecture of decision-making itself."
+    },
+    {
+     "type": "p",
+     "text": "There is a developmental dimension to this that bears stating candidly. The intercultural development work conducted within the Department, reported by Nicole Urbach, the DHS Intercultural Development Inventory coordinator, indicates that DHS as an enterprise is operating in Minimization, the orientation that emphasizes what people have in common, and from which the next step is Acceptance. The last appraisal placed DSD leadership in Acceptance already, which is a materially stronger position. The Department is moving too: the Office of Employee Culture and the Innovation and Impact team are previewing changes to our practices, which is what an organization does when it intends to grow."
+    },
+    {
+     "type": "p",
+     "text": "This Program is built to help the organization keep moving forward. Growth of this kind asks something of all of us, and the question that matters is whether conditions are improving; the consultant develops alongside the Division, and I expect to be changed by the work as much as anyone else."
+    },
+    {
+     "type": "p",
+     "text": "People take up equity work most readily when it is offered rather than imposed; that is well documented, and it matches my experience. It is the reason the Program is built as an invitation to learn and to reflect, which is the sequence that produces changes in behavior."
+    }
+   ]
+  },
+  {
+   "heading": "VIII.  How this role operates, and where its limits fall",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "The position was established to serve this Division and is the only one of its kind in the Department. I collaborate with the Administration's Equity Director, and the position's work direction sits within the Division; that was written into it deliberately. This is a guidance instrument, built to support what the Division is already doing. The position was constructed with a boundary as clear as its duties: my charge is to supply the knowledge, the instruments and the resources so that staff can embed equity in work they already own."
+    },
+    {
+     "type": "p",
+     "text": "Three examples make the boundary concrete:"
+    },
+    {
+     "type": "bullets",
+     "items": [
+      "**The Program supplies the equity analysis instrument and demonstrates its application.** The manager weighing a policy change conducts that analysis on their own proposal.",
+      "**The Program supplies the community briefs and the engagement planner.** The team entering a community conducts the engagement.",
+      "**The Program supplies the courses, the practice paths and the job aids.** A supervisor determines what their own unit requires, and when."
+     ]
+    },
+    {
+     "type": "p",
+     "text": "In each instance the Program supplies the capability and staff carry the work. That is how the position is defined, and it is the arrangement under which equity becomes a capability the Division owns."
+    },
+    {
+     "type": "p",
+     "text": "The resources exist so that leadership can craft and further design its own projects and programs, distinctively, according to what each area requires. The design authority stays where it belongs, with the people who own the work."
+    },
+    {
+     "type": "p",
+     "text": "What I offer is professional judgment, honestly arrived at and honestly reported. I recommend; how it is put to use is the Division's to shape. Accountability sits in three places at once — mine, for what I produce and how faithfully I report it; staff, for what they take up; and leadership, for the determinations only leadership can make. **The DHS Equity Policy is explicit that this responsibility is shared**, and the Program is built on that: leaders, staff and consultant each carry a part, and the work goes furthest when each part is held. That is also what the DEIA principles the policy rests on describe. The Program is built to remain stable through a change in leadership, because any program resting on one individual's preferences destabilizes the moment that individual departs."
+    }
+   ]
+  },
+  {
+   "heading": "IX.  The position as it was decomposed and agreed",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "In early 2023 this position was decomposed into its constituent parts, and that decomposition was agreed. It was a co-creation among three parties standing in three different relations to the work: the consultant, who knows the work; the operations manager, who wanted the work done; and the leadership team, which agreed to it. That was the operational understanding we proceeded under. The document is reproduced in full in the accompanying record, and I am setting it against what has been built so that the two can be read together."
+    },
+    {
+     "type": "p",
+     "text": "Before the crosswalk itself, two features of the agreed document settle questions that have otherwise been left to interpretation. **The first is in the verbs.** The core duties open with provide consultation, provide expert knowledge, plan and lead and facilitate, develop recommendations, establish benchmarks, build the capacity of, lead staff and leadership to assess, work with leadership to oversee, collaborate with hiring managers, serve as technical expert, coordinate, support integration, provide expertise, provide just-in-time training. Almost without exception these are duties discharged **with** or **to** other people. The position is consultative, capacity-building and coordinating by construction. It was written as a position that works with and through others."
+    },
+    {
+     "type": "p",
+     "text": "**The second is the heading on the final section of the agreed document:** “Use judgment and creativity (Secondary and/or shared duties).” The word **shared** appears in the agreement itself. The distribution of responsibility described throughout this memorandum is therefore the structure of the role as it was agreed with leadership in early 2023."
+    },
+    {
+     "type": "p",
+     "text": "The table below sets each duty against what exists today."
+    },
+    {
+     "type": "table",
+     "headers": [
+      "The duty, as agreed",
+      "What has been built against it",
+      "Status"
+     ],
+     "rows": [
+      [
+       "Consultation, collaboration and leadership on the design, development and management of DEIA throughout the division, aligned to the DSD strategic plan and the DHS anti-racism initiative",
+       "The Program in its entirety, and the requirements document that governs it. Alignment traced level by level in this memorandum and goal by goal in the crosswalk.",
+       "Built"
+      ],
+      [
+       "Expert knowledge and feedback to leadership and staff; guiding policy development, implementation and compliance",
+       "Courses, curriculum, community briefs, job aids, and a facility for asking a question and receiving a sourced answer. This memorandum and the accompanying analysis.",
+       "Built"
+      ],
+      [
+       "Plan, lead and facilitate internal work groups on system and organizational culture change",
+       "The One DSD Team and Amplify Equity, and the workstream structure they run inside.",
+       "Built; needs staff time"
+      ],
+      [
+       "Develop, document and present recommendations as continuous improvement",
+       "The analysis of the 2023 sessions and its seven recommendations; the reporting process; the monthly release note.",
+       "Built"
+      ],
+      [
+       "Build the capacity of staff and managers; assess awareness and capacity; identify and implement professional development",
+       "The 38-module intercultural practice and equity curriculum, Intercultural Development Inventory orientation material, practice paths, and the leadership series.",
+       "Built"
+      ],
+      [
+       "Establish benchmarks and targets; lead internal accountability mechanisms; collaborate with the DSD data team and FARM to measure, track and analyze effectiveness",
+       "Specified but not built. This is the largest outstanding gap in the Program, and the agreed document names the counterpart: the data team and FARM.",
+       "Not yet built"
+      ],
+      [
+       "Work with leadership to oversee compliance with the DHS Equity Policy; equity considered in all DSD policies and processes",
+       "The equity analysis instrument, and the practice of conducting that analysis before a decision rather than after it.",
+       "Partly built"
+      ],
+      [
+       "Promote workforce diversity with hiring managers; build pipelines of diverse talent for succession; promote consistent onboarding",
+       "Inclusive hiring and mentoring material exists. Recruitment design, succession planning and onboarding require hiring managers and Human Resources.",
+       "Partly built"
+      ],
+      [
+       "Just-in-time training and consultation on equity tools, including capacity for equity analyses in legislative proposals",
+       "Job aids and the question facility are built. Legislative analysis capacity is not, and it is one of the three items named as outstanding.",
+       "Partly built"
+      ],
+      [
+       "Integrate CLAS standards into grants and waiver and state plan services",
+       "Accessibility, plain language, language access and interpreter practice are built as operating standards. Their integration into grants and waiver services is not.",
+       "Partly built"
+      ],
+      [
+       "Culturally responsive service development; consultation to subject matter experts on policies, standard operating procedures and manuals",
+       "Community briefs, the engagement planner, and culturally responsive practice material. Consultation requires notice that a policy or manual is being revised.",
+       "Built; needs notice"
+      ],
+      [
+       "Build diversity and inclusion into each phase of the contract cycle; common data elements in RFPs, scoring tools and quarterly progress reports",
+       "Nothing built. This matches, from the position's side, the finding already recorded in the crosswalk that the Administration's contracts and procurement goal has essentially no provision.",
+       "Not yet built"
+      ],
+      [
+       "Secondary and shared duties: currency in the field; monitoring workforce demographics and retention; fostering culture; representing the division; assessments; employee engagement and feedback; a culture of accountability with leadership",
+       "Currency, culture, representation and feedback channels are built into how the Program operates. Demographic and retention monitoring depends on the same data access named above.",
+       "Mixed; shared by designation"
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "text": "Two conclusions follow. The first is that **the Program is the discharge of these duties, not an initiative running alongside them.** Every element built traces to a duty agreed in early 2023. Where the table reads “not yet built,” that is an honest gap rather than a change of direction, and each one is already named as outstanding elsewhere in this memorandum."
+    },
+    {
+     "type": "p",
+     "text": "The second concerns what the agreement assumed. A substantial number of these duties name their counterpart in the text itself: hiring managers, subject matter experts, contract managers, the DSD data team, Fiscal Analysis and Results Management, divisional partners, division leadership. Those duties can be performed as written when that collaboration is in place. Benchmarks need the data team and FARM. Diversity in the contract cycle needs contract managers. A culturally responsive review of a policy needs notice that the policy is being written. **This is why what I ask for in section XVI is collaboration rather than endorsement.** It is not an expansion of the role; it is what the agreed decomposition already assumed would be in place."
+    },
+    {
+     "type": "p",
+     "text": "One design point is worth drawing out, because it is the part that makes this durable. The decomposition assumed a consultant who architects and a Division that operates — and that division of labor is precisely what allows the work to outgrow any one position, including mine. The more of it that lives with the people who own the work, the less any of it depends on me being in the room. That is the outcome I am building toward, and it is the strongest argument for the collaboration set out in section XVI."
+    }
+   ]
+  },
+  {
+   "heading": "X.  How the work moves",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "The operating cycle below is the Program in motion. Its essential property is that it runs continuously."
+    },
+    {
+     "type": "figure",
+     "file": "../diagrams/diagram-c-how-the-work-moves.png",
+     "caption": "Figure 3.  The working cycle, and the division of responsibility around it."
+    },
+    {
+     "type": "p",
+     "text": "Staff were clear on one point, and it shaped this design more than any other consideration: they want help that meets the work where it is, when it is needed. The Program is built on that principle. Nothing is compulsory, nothing must be undertaken in sequence, and nothing is recorded against an individual. A staff member takes what is useful when it is useful, and a supervisor may reconfigure any resource to suit their own unit. Equity work carries irreducible ambiguity, and a program that pretended otherwise would issue people a script that does not correspond to the work in front of them. It is built to be adapted, by design."
+    }
+   ]
+  },
+  {
+   "heading": "XI.  What would help me do this well",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "What would help most is room to exercise professional judgment about method while staying squarely inside Department and Administration objectives. In practice that means letting these resources stand available at all times, which is what frees my own time for direct work with your teams and work groups. That is far and away the most valuable thing I can do for the Division, and it is the first thing lost whenever I become the sole route to every answer."
+    },
+    {
+     "type": "p",
+     "text": "What I can offer is experience building equity programs tailored to the particular circumstances of particular organizations, and a continuing willingness to adapt this one, which is what I have been doing throughout. What no one can offer in this work is a predictive, step-by-step account of everything that will occur: equity practice is not linear, it does not end at a fixed point, and it is conducted with human beings — some receptive, some hesitant, most somewhere in between. What I would ask is a measure of trust to build the structure, on the understanding that the conversation gets easier once there is something concrete in front of us to talk about."
+    },
+    {
+     "type": "p",
+     "text": "The second thing would help more than anything else on this list. Where it is practical, being in the room — present where the Division's work is being planned and discussed — lets me build for what is happening rather than for what I imagine is happening. Where that is not practical, a note afterward about what is under way in an area does nearly as well. **The more of the work I can see, the better what I build will fit it.** A program built at a distance from the work fits the work less well, and I would rather build something that fits. It asks only that I be able to see the same picture you see, so that what I build is worth your people's time."
+    },
+    {
+     "type": "p",
+     "text": "Equity work rewards a second set of eyes. This is a field where a well-intended design can land badly on the very people it was meant to serve, and where that happens it tends to fall hardest on those least able to absorb it. That is as true of my own work as of anyone's, which is exactly why I want mine looked at too. **Offering that second look is part of the function of this position.**"
+    },
+    {
+     "type": "p",
+     "text": "**There is real appetite for this in the Division.** More than once, staff have asked me, unprompted, for resources of exactly this kind, and that is expressly what this Program is designed to deliver. That readiness is an asset. It is here now, and it is one of the better reasons to make use of what has been built. The best use of it is the ordinary one: equity work goes better when everyone carrying it can see the whole of it, which is the familiar principle of nothing about us without us applied to ourselves as much as to the communities we serve."
+    }
+   ]
+  },
+  {
+   "heading": "XII.  Where the work honestly stands",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "The work is well advanced and approaching the point of readiness. A substantial portion is built: the courses and the curriculum, the applied practice material, the community briefs, the job aids, and the capacity for any staff member to take a resource away and use it with a team. A substantial portion remains. No member of staff is using it yet, and I would not want it opened before it is genuinely ready for them. My intention is to open it across the Division in January 2027, following the November election. That date is chosen so that staff are told properly what this is before it opens; the material itself is usable now."
+    },
+    {
+     "type": "p",
+     "text": "Three matters are outstanding. The first, and the most consequential, is establishing a means of determining whether any of this is altering conditions for people; and building a reliable instrument for seeing that is the question on which I would most value your thinking. The second is a defined pathway for developing leaders, which requires a decision and funding above my level. The third is the relationship to state law and policy, where the shape of the work remains genuinely open."
+    },
+    {
+     "type": "p",
+     "text": "One matter should be placed beyond doubt. **If no further progress were made on the Program from today, there is already enough material in hand to begin operationalizing equity now with staff and leadership across this Division — managers, supervisors and its other leadership structures included — and to sustain that work for somewhere between one and five years.** That is not a projection. It is an inventory of what exists. The Program will continue to evolve in coordination with the Administration and the Division, in support of the Division building and holding its own equity ecosystem, but the capacity to begin does not depend on that evolution. **It is offered in service of goals the Department has already set, and it is ready for that service now.**"
+    },
+    {
+     "type": "p",
+     "text": "One further point, offered in the same spirit. At the outset I identified several needs directly: a website, a newsletter, and occasions to recognize and celebrate the Division's work. On the first of the three I have begun: **an equity website is in development as the formal interface to the Program for all staff**, work I have been carrying on behind the scenes for the same reason as everything else set out here. Where a need is already clear, I would rather build toward it than wait, and this Program is the result of working that way. What I would most like from here is simply a closer working rhythm between the levels: my honest assessment is that the three of us in closer contact would move this further and faster than any amount of additional building on my part. That is what I am offering, and it is the part I cannot do alone."
+    }
+   ]
+  },
+  {
+   "heading": "XIII.  Where this begins: the pilot in HCBS",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Leigh Ann, this is the other commitment I want on the record. **Once the Program opens, your unit — Home and Community-Based Services — is the first to pilot it.** That commitment is unchanged. As my manager you would see firsthand what it accomplishes and what it does not, which is the correct arrangement: the person supervising this work ought to be the person best positioned to appraise it."
+    },
+    {
+     "type": "p",
+     "text": "The design is a deliberate edge case. Rather than opening to the entire Division at once, the Program operates within a single unit for a defined interval — six months to a year, or whatever duration you judge appropriate — after which we examine whether anything changed measurably. Behavioral change first: whether staff are demonstrably conducting the work differently. Cognitive change alongside it: whether the way people construe the work has shifted. If the result withstands scrutiny, expansion across the Division proceeds on evidence rather than on assertion."
+    },
+    {
+     "type": "p",
+     "text": "**Other units continue doing exactly what they are doing.** This is a controlled test within our own unit first, which is the ordinary and conservative method of introducing anything before asking an organization to adopt it."
+    },
+    {
+     "type": "p",
+     "text": "What the pilot requires is only that the Program exist and be available, and it does. I have the means to educate, to furnish guidance, and to put resources in front of staff wherever they sit within the Division, concurrently with completing the build as it is presently architected. That matters as a point of fairness to staff, and with what is now in hand there is no reason for them to wait."
+    }
+   ]
+  },
+  {
+   "heading": "XIV.  On the question of strong convictions",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Leigh Ann, in our last meeting you raised something that has stayed with me: your sense that I appear to hold strong convictions about this work. I took it as a genuine question rather than a criticism, and I would rather answer it directly than leave it to be inferred."
+    },
+    {
+     "type": "p",
+     "text": "The answer is yes. I do. Conviction of the kind I am describing is a positive thing. It is the reason this work is sourced, documented and open to inspection at every point. I have deliberately constructed it so that anyone can go to the research and the underlying record and check it independently; no one has to take my word for anything."
+    },
+    {
+     "type": "p",
+     "text": "You are also entitled to know why the conviction is there, because I would sooner state my interest than have it surmised. I am a Black man, and a member of a protected class. I belong to other marginalized groups as well, and I live with a non-apparent disability. Those facts intersect — intersectionality is not an abstraction in my case — and they mean that my interest in this work is both professional and personal. **For me this is a moral imperative.** That extends specifically to workforce matters: equitable hiring, and the other practices carrying equity implications for who is admitted, who advances, and who remains."
+    },
+    {
+     "type": "p",
+     "text": "What I would ask is that the conviction be weighed alongside the method rather than in place of it. Holding a stake in an outcome and assessing it accurately go together when the method is visible, and I have tried throughout to keep it visible: the evidence is cited, the gaps are named as gaps, the weakest components of the Program are identified as the weakest, and the recommendation remains a recommendation. I am a better consultant for holding this work close."
+    }
+   ]
+  },
+  {
+   "heading": "XV.  Who leads this work, and the common understanding I am seeking",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "A word for you both, offered as praise. Equity work in open forums, and in settings that concern the Administration as a whole, is visibly **staff-led and leadership-led**, carried by colleagues on the ADSA equity and engagement committees. **I approve of it.** They are good people doing good work, and I have no question about either."
+    },
+    {
+     "type": "p",
+     "text": "I approve of it because that is what effective practice looks like. Members of the dominant community taking the lead, and being the face of the change, is the point. At the DHS equity summit a substantial number of awards went to allies in the work, and that was exactly right — it is how a commitment becomes provable, by being converted into action by people who chose to act. **Equity work belongs to everyone in this agency**, not to people of color alone, and it asks each of us to be an active participant in it."
+    },
+    {
+     "type": "p",
+     "text": "There is a second observation that belongs beside that one, and I want the two read together, because they are not in tension. In predominantly white organizational spaces, consultants of color frequently rely on colleagues who are white to obtain access — to carry a message into rooms that would otherwise be closed, and to reach people who do not share their background. It is a common professional reality, and it was operating in this Division's own work. **Allies stepping forward is the thing itself, and it is a good.**"
+    },
+    {
+     "type": "p",
+     "text": "The open question is a different one, and it is the question this memorandum exists to address: **what do we do with the goals that have been set forth?** That is what I am attempting to answer, in the role I hold."
+    },
+    {
+     "type": "p",
+     "text": "That is what all of this is ultimately for. The objective is to move this organization from one centered on minimization toward acceptance and beyond. **That is the destination the work I am offering is meant to serve** — by advising, and by laying the groundwork for how an equity program can operate and what one looks like in practice."
+    },
+    {
+     "type": "p",
+     "text": "What this memorandum is, formally, is an official communication seeking common ground: a shared understanding of how this work goes forward, and of what it was meant to achieve under the role I operate in. **That is all that is being sought here — a common understanding.**"
+    }
+   ]
+  },
+  {
+   "heading": "XVI.  What would help most",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Four things would help most, and I am setting them out concretely so that none of them has to be inferred."
+    },
+    {
+     "type": "numbered",
+     "items": [
+      "**Your assessment, by December 1**, and nothing more formal than that. It would be most useful to hear whether this appears capable of genuinely assisting your people, whether anything is absent that you would expect to find, and what you would change. I will use December to prepare how we introduce it to staff, so that people understand what this is in advance of its opening rather than simultaneously with it.",
+      "**That staff be invited to work with me on building this.** A program of this kind cannot be built well in isolation from the people it is for, and the quality of what the Division ends up with depends materially on that collaboration.",
+      "**A line of sight into what is under way — the Division's OneNote, or an equivalent.** I had that access for some six months previously, and it served exactly this purpose. This is for awareness, not for direction: what I can see, I can build for.",
+      "**An inventory of the equity-related work currently underway across the Division.** The reason is practical rather than procedural."
+     ]
+    },
+    {
+     "type": "p",
+     "text": "Awareness and the inventory serve the same practical purpose: making sure none of us builds the same thing twice. If something I am working on already exists somewhere in the Division, you and your teams are the only people who would know, and I would far rather hear that than spend months producing a second version of it. Knowing what is already under way also lets me build around good work rather than past it, which makes everything I produce more useful to you."
+    },
+    {
+     "type": "p",
+     "text": "What I am offering is advice, guidance, and whatever leadership is useful to you — to staff and to leadership alike. I am glad to take either of you through any portion of it, at whatever length is useful, and I would welcome the conversation more than the reading."
+    },
+    {
+     "type": "p",
+     "text": "Why this is written out at such length: **so that our conversation rests on the fullest picture I am able to give you.** I would rather set out the whole of it — including the parts that are unfinished, the places where the Program is weakest, and the things I am uncertain about — than present a tidier account that leaves you with less than you should have. That is the whole of what I am trying to serve here."
+    },
+    {
+     "type": "p",
+     "text": "What is presented here is meant to be dispassionate, objective and substantiated. That is precisely why the accompanying documents carry their sources and citations throughout: the research and the underlying record are there to examine directly, so that nothing has to rest on my word alone. This has practical weight, and the Program is constructed to address what staff and leaders require now as well as what they will require subsequently."
+    },
+    {
+     "type": "p",
+     "text": "**This is advisory. It is offered as a tool in service of the Division's goals, the Administration's six equity goals, and the Department's Equity Policy.** I advise, and how the Program is put to use is where your judgment matters most. My own professional judgment is that what is presented here is sound, that it rests on defensible ground, and that it constitutes a substantial step toward where the Department has said we are going. This is what I am presenting for your consideration, and I am grateful for the time you give it."
+    }
+   ]
+  },
+  {
+   "heading": "XVII.  A pattern worth guarding against together",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "There is a pattern worth guarding against together, and I raise it as a shared risk rather than as a comment on anyone here. Equity work has a tendency, in every organization I have worked in, to soften as it travels. Nobody decides to dilute it. It happens through ordinary and well-meant adjustments — a sharper question rounded off, a measure postponed because the timing is awkward, a commitment restated in gentler terms each time it is repeated — until what remains is comfortable and no longer does very much. I have seen it happen in places where everyone involved was acting in good faith, and the way to keep this work strong is to name the pattern early and watch for it together. If you see me doing it, I would want you to say so."
+    },
+    {
+     "type": "p",
+     "text": "This belongs with the first of those four. Where any part of this seems off to you, the most useful thing you can give me is the thinking behind that, so I can adjust rather than guess. I am asking to understand how you see it well enough to be genuinely useful to you."
+    },
+    {
+     "type": "p",
+     "text": "A last word, and it is the one I would most like to leave with you. Everything here serves something the Department has already named and that this Division is entirely capable of reaching: becoming a multicultural, anti-racist organization in daily practice, and not only in commitment. **It is work a division does together** — not a consultant's alone, or a manager's, or a director's — and a division is the smallest thing large enough to do it. Staff, supervisors, managers and leadership each hold a piece of it that no one else can hold for them, and my part is simply to make sure none of you has to invent your piece from scratch. **What I am asking for, in the end, is the chance to do this with you.** I think we are capable of it. I would be glad to be part of it. I am ready to begin, and I would be glad to begin alongside you."
+    }
+   ]
+  },
+  {
+   "heading": "XVIII.  A walk through the Program",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "What follows is the Program as a member of your staff meets it, page by page, in the order they meet them. Every tab is here. The Program was built from this branch and served on this machine, and the pages were photographed there in the One DSD view. The site itself could not be reached from the machine that took them. The images are taken from the same list of pages this record is written from, so the two cannot drift apart. Two things do not appear in a local run and are not defects of the Program: files attached to a resource, which need the program database, and live checking of current public sources, which needs the research service. Neither was fabricated and nothing in any image was altered."
+    },
+    {
+     "type": "p",
+     "text": "**Arriving.** The first thirty seconds. What the Program is, and that it is for this person."
+    },
+    {
+     "type": "figure",
+     "file": "../walkthrough/shots/01-home.png",
+     "caption": "The front door — /. The home page as a Disability Services Division staff member first sees it, with the One DSD view selected. The opening line is “Practical support for workplace culture and equitable workforce, policy, program, and service decisions.” Two buttons, Ask a question and Start with your work, are the whole of what is asked of a newcomer.",
+     "alt": "The Program's home page. A navigation bar reads Home, Start, Ask, Areas of work, Learning and resources, Practice, One DSD, Support, and My Work. The heading is “One DSD People, Access and Culture Program” beside a photograph of eight colleagues standing in conversation. Below are three cards headed Learn and explore, Put equity into practice, and Connect with colleagues."
+    },
+    {
+     "type": "figure",
+     "file": "../walkthrough/shots/02-start.png",
+     "caption": "Three questions, then a route — /start. The Start page asks three short questions — what role you bring, what kind of work you are doing, and when you need to act — and returns a practical next step. It states on the page that the answers are not saved, not scored, and not sent to a supervisor.",
+     "alt": "The Start page, headed “Where would you like to start?”, with menus for role and area of work, four timing choices from planning ahead to work already in use, and a button reading Show a place to start. A panel beside it says a practical next step will appear there and that answers are not saved, scored, or sent to a supervisor."
+    },
+    {
+     "type": "p",
+     "text": "**Finding the work.** Entry by responsibility rather than by subject. This is where the 360-degree view is visible."
+    },
+    {
+     "type": "figure",
+     "file": "../walkthrough/shots/03-areas.png",
+     "caption": "Nine doors, one for each kind of responsibility — /areas. Areas of work is entry by responsibility rather than by subject. Nine areas run from workforce equity through policy and service design to leadership and systems change, and each one gathers the knowledge, questions, tools, practice path and the person who holds the relevant authority.",
+     "alt": "The Areas of work page, headed “Enter through the decision or practice you are responsible for.” A list on the left names areas including workforce equity, policy, program and service design, community engagement and co-design, accessibility and language access, culture, trust and repair, and leadership and systems change. The first area, Workforce equity, is shown open with the work it supports and links to ask a question, find reviewed material, start a practice path, and find the right person."
+    },
+    {
+     "type": "p",
+     "text": "**Learning.** What a staff member can actually study, and what a course looks like inside."
+    },
+    {
+     "type": "figure",
+     "file": "../walkthrough/shots/04-learn-hub.png",
+     "caption": "Learning and resources — /learn. Learning and resources is one page, not two systems. Courses, tools, podcasts, ways to grow and practice paths sit behind a single row of links, with the Equity Analysis Toolkit given its own place, so nobody has to guess which of four places holds what they need.",
+     "alt": "The Learning and resources page, headed “Learning and resources” with the line “Knowledge, practical tools, and perspectives for fair services and inclusive workplaces.” Two panels below read “Find a path from learning to practice” and “Equity Analysis Toolkit”, above a row of links: Courses and learning, Tools and resources, Podcasts, Ways to grow, and Practice paths."
+    },
+    {
+     "type": "figure",
+     "file": "../walkthrough/shots/05-course-tiles.png",
+     "caption": "The course selection — /learn. Part of the course selection, in the two-column tile format every published course uses. This band is the disability sequence and its leadership courses; the tiles carry the course title, a short program-authored description and a photograph, and open the whole course.",
+     "alt": "Eight course tiles in two columns, each with a photograph, a title and a two-line description. The titles are The Leadership Case for Disability Inclusion; Governance, Accountability and Resourcing; Inclusive Policy, Procurement and Technology; Measuring Culture and Sustained Progress; Capstone: Remove a Real Barrier; Conflict Resolution That Works for Neurodivergent Staff; What Fraud Enforcement Actually Costs; and Public Perception, Misperception, and the Communities We Serve."
+    },
+    {
+     "type": "figure",
+     "file": "../walkthrough/shots/06-course-open.png",
+     "caption": "Inside a course — /share/courses/di-disability-diversity-belonging. A course opened: Disability, Diversity and Belonging, the foundation of the disability sequence. Forty-five to fifty minutes, four lessons, and a stated set of things a person will be able to do afterwards rather than a list of things they will have been shown.",
+     "alt": "The course page for “Disability, Diversity and Belonging”, labelled Disability Inclusion, Foundations, with a photograph of two colleagues talking across a desk. It reads 45 to 50 minutes and 4 lessons. A section headed “What you’ll be able to do” lists, under Explore and practice, describing disability as a common and varied part of human diversity and distinguishing impairment, disability, access need and disabling barrier; and under What you can take into your work, a sorting exercise, a knowledge check in every lesson, and a completed barrier map with one written commitment."
+    },
+    {
+     "type": "figure",
+     "file": "../walkthrough/shots/07-job-aid.png",
+     "caption": "A job aid, ready to use in the meeting you are already in — /share/library/ja-equity-impact-questions. A job aid, opened on its own address. Equity impact questions for policy, budget, technology, and procurement is four numbered question sets a person can work through before a high-stakes decision, downloadable as Word, Excel, PowerPoint or PDF, and explicit that it frames a decision rather than making it.",
+     "alt": "The job aid “Equity impact questions for policy, budget, technology, and procurement”. Buttons offer it as Word, Excel, PowerPoint or PDF. A panel headed “Why this matters” says the questions help frame a decision but are not legal advice and do not make the decision. Four numbered groups follow, headed Policy, Budget, Technology and Procurement, each a short set of questions about who benefits, who carries the burden, and what must be reviewed by the person with authority to decide."
+    },
+    {
+     "type": "p",
+     "text": "**Doing the work.** Where the Program stops being reading and becomes a work product."
+    },
+    {
+     "type": "figure",
+     "file": "../walkthrough/shots/08-practice.png",
+     "caption": "Turn understanding into a useful work product — /practice. Practice is where the Program stops being reading. A guided practice path produces a real work product — a checklist, an analysis, a plan, an agenda or a review — for work the person is doing now, and the page states that nothing there scores or ranks anyone.",
+     "alt": "The Practice page, headed “Turn understanding into useful work”, explaining that you can create a checklist, analysis, plan, agenda or review for work you are doing now, and that notes stay in the browser on that computer unless you choose to share them. Below, a section headed “Guided practice paths” begins with “New program or service concept”, which creates an equity and access planning checklist."
+    },
+    {
+     "type": "figure",
+     "file": "../walkthrough/shots/09-toolkit.png",
+     "caption": "The Equity Analysis Toolkit — /share/equity-toolkit. The Equity Analysis Toolkit companion, on the standalone address that can be forwarded on its own. It says plainly on the page that its five learning stages are a program companion and not the official toolkit sequence, and that optional practice does not replace the toolkit, required review, or engagement with affected people.",
+     "alt": "The Equity Analysis Toolkit page, carrying the Minnesota Department of Human Services Disability Services Division logo. The heading is “Equity Analysis Toolkit” with the line “Examine how a decision may affect people differently, consider alternatives, and prepare for a conversation about what should happen next”, beside a photograph of three colleagues working together at a table. Links read Optional practice, Your actual work, and Toolkit and related resources. A note says the five learning stages are a program companion, not the official toolkit sequence."
+    },
+    {
+     "type": "figure",
+     "file": "../walkthrough/shots/10-ask.png",
+     "caption": "Ask a real question and get a substantiated answer — /ask. Ask, with a real question typed in: how to make a hiring panel accessible for a candidate who is Deaf. It is not limited to a fixed list of program topics — it can reason, use the Program's own material, and check current public sources. The panel beside it sets out how answers work and what Ask will not do, including that it does not create official policy or make decisions.",
+     "alt": "The Ask page, headed “Ask on your own”. A large box headed “What would you like help thinking through?” contains the typed question “How do I make a hiring panel accessible for a candidate who is Deaf?” Below it a menu reads “Answer the question; check current public sources when helpful”, with buttons Get an answer and Search the Library instead. A panel headed “How answers work” explains that Ask can explain any subject, that public information appears separately from program resources, that it does not create official policy or make decisions, and that question history can be reviewed or cleared from My Work."
+    },
+    {
+     "type": "p",
+     "text": "**The Division's own program.** Where One DSD stops being a copy of One DHS and becomes the Division's."
+    },
+    {
+     "type": "figure",
+     "file": "../walkthrough/shots/11-one-dsd.png",
+     "caption": "One DSD — /one-dsd. The One DSD tab is where the shared foundation becomes the Division's own. A banner confirms the One DSD view is active, and DSD situations, services, relationships and learning are added while everything shared with One DHS stays available.",
+     "alt": "The One DSD page, subtitled “The Disability Services Division reference program”. A banner reads “One DSD view is active. Shared One DHS material stays available, with DSD examples, scenarios, and support added.” Links run across People and connection, Programs and services, Practice situations, Areas of work, and Support, above panels for One DSD Team and Amplify Equity."
+    },
+    {
+     "type": "figure",
+     "file": "../walkthrough/shots/12-one-dsd-leadership.png",
+     "caption": "What is here for leadership specifically — /one-dsd/leadership. The leadership material inside One DSD, headed “Grow your DEIA leadership”. It runs from a starting point through the employee life cycle, personal development, succession in practice, and learning with colleagues, and the whole page can be taken away as Word, Excel, PowerPoint or PDF.",
+     "alt": "The One DSD leadership page. Buttons at the top offer the page as Word, Excel, PowerPoint or PDF. The heading is “Grow your DEIA leadership” over the line “People grow. Leadership grows with them”, beside a photograph of four colleagues at a table, one of them a wheelchair user, working at a board of notes. A button reads “Find your starting point”. Links below run across Your starting point, The employee life cycle, Your development, Succession in practice, and Learning and colleagues, above a heading reading “Learn. Reflect. Practice. Return.”"
+    },
+    {
+     "type": "p",
+     "text": "**Getting help, and keeping the work.** What happens when the Program is not enough on its own."
+    },
+    {
+     "type": "figure",
+     "file": "../walkthrough/shots/13-support.png",
+     "caption": "Work independently, or find the person who decides — /support. Support is the honest edge of the Program. Ask, the Library, finding the right person and exploring an area of work sit together, and a panel names what belongs elsewhere: complaints, investigations, grievances, accommodation decisions and discipline go to Employee Culture, Human Resources or the civil-rights channel, and anything touching a Tribal Nation goes to the Office of Indian Policy or the Tribal liaison first. Consultation requests are not open yet, and the page says so rather than taking a request it cannot answer.",
+     "alt": "The Support page, headed “Find the right support”. A panel for Ask sits beside links for Library, Find the right person, and Explore an area of work. A section headed “Preview a consultation request” says requests are not open yet and nothing is saved or sent, with a button reading “See what a request includes”. A panel headed “When another team can help” routes complaints, investigations, grievances, accommodation decisions and discipline to Employee Culture, Human Resources or the civil-rights channel, and anything touching a Tribal Nation to the Office of Indian Policy or the Tribal liaison first. A further panel invites anyone who finds an access barrier to report it."
+    },
+    {
+     "type": "figure",
+     "file": "../walkthrough/shots/14-my-work.png",
+     "caption": "What the person keeps — /my-work. My Work is the whole of what the Program keeps, and it keeps it on the person's own computer. Working notes, path progress, saved consultation references and recent Ask questions, each removable, with a single control to delete everything. There is no sign-in and no staff record of who studied what.",
+     "alt": "The My Work page, headed “Your work, saved on this computer”. Four sections read Working notes, Path progress, Saved consultation references, and Recent Ask questions, each currently empty. A note headed “Your privacy and choices” says consultation requests are not open yet and that nothing entered is sent or saved for the consultant, followed by a button reading “Delete everything saved here” and a line explaining that saved items stay on the device until deleted and are not sent to a supervisor."
+    }
+   ]
+  },
+  {
+   "heading": "XIX.  The supporting record",
+   "blocks": [
+    {
+     "type": "link",
+     "label": "Everything in one file",
+     "text": "The One DSD People, Access and Culture package",
+     "note": "opens in any browser — nothing to install, and no link capable of expiring"
+    },
+    {
+     "type": "p",
+     "text": "There is no expectation that you read it in full. It opens with the equity landscape and climate report, and then holds the Program's requirements document, the complete record of what staff said, the analysis of those findings, the operational workplan for the coming months, the three-year plan beyond it, and the process by which I intend to keep you informed."
+    }
+   ]
+  }
+ ]
+}

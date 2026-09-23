@@ -1,0 +1,46 @@
+{
+  "date": "2026-09-09",
+  "status": "Validated source snapshot; production deployment pending transfer recovery",
+  "project": "equity123/one-dhs-pac",
+  "projectId": "prj_nHxwFMaDXRMFCvvAfkQZ9YhIlxJp",
+  "existingLiveUrl": "https://one-dhs-pac.vercel.app",
+  "deployment": {
+    "state": "pending",
+    "newDeploymentId": null,
+    "existingLiveSiteChanged": false,
+    "failureStage": "Vercel source-file upload, before a hosted build",
+    "observedCause": "UND_ERR_SOCKET at api.vercel.com/v2/files; subsequent uploads aborted",
+    "attempts": ["Standard CLI source upload", "Official tgz archive", "Official split-tgz option (CLI reports synonym for tgz)"],
+    "notAnApprovalDenial": true,
+    "continuing": "Recover supported source transfer, run hosted gates, verify candidate and existing production domain, then refresh this source archive receipt"
+  },
+  "validation": {
+    "optimizedLocalBuild": "passed",
+    "typecheck": "passed, including late transcript evidence test",
+    "lint": {"errors": 0, "existingWarnings": 4},
+    "hostedStyleSuite": {"passedFiles": 188, "skippedFiles": 1, "passedTests": 1751, "skippedTests": 1, "failedTests": 0, "durationSeconds": 657.95},
+    "separateLatePodcastChecks": "9 discovery and 1 complete ASK evidence-chain checks passed; overlapping test totals are not added",
+    "excludedFromHostedStyleSuite": "17 local PostgreSQL integration suites; not claimed rerun here",
+    "environmentGate": "passed; no client secret settings",
+    "sourceGate": "passed; 25 local original files hash verified",
+    "browserEvidence": "local-browser-acceptance.json",
+    "sourcePreservation": "58 of 58 original selected lesson block trees match existing production; hero/source originals retained"
+  },
+  "media": {
+    "selectedRecommendations": 175,
+    "integratedPlacements": 127,
+    "retainedSourceBackedDecisions": 47,
+    "optionalContributorPending": 1,
+    "newAudioClips": 14,
+    "podcastsWithMachineTranscripts": 2,
+    "podcastChapters": 20,
+    "limitations": ["No claim of human audio fidelity review for machine podcast transcripts", "Selected 58 lesson decisions do not constitute individual multimedia review of all 780 lessons", "Optional ERG contribution awaits a contributor's own choice and consent", "No filmed-actor or full-motion-video claim for manual conversation adaptations"]
+  },
+  "secondBrain": {
+    "state": "Context-only service; combined installation incomplete",
+    "restriction": "Earlier automatic approval review denied 28 full source/report file copies and 3 staged UI files into the second-brain folder",
+    "preserved": "No alternate route, encoding, repackaging or source transfer used to bypass that restriction",
+    "unaffectedWork": "32 isolated API tests passed; revision-aware notes, connections, citations, exports and on-demand audits"
+  },
+  "handoff": "Complete actual application source, required public media, local search model, lockfile, 47 migrations, tests, configuration template, PRD/TRD and verification receipts; real credentials, staff stores and caches excluded. This snapshot is useful independently of the pending deployment."
+}

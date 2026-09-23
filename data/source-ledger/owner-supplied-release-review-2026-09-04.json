@@ -1,0 +1,129 @@
+{
+  "schemaVersion": "1.0.0",
+  "reviewId": "owner-supplied-input-release-review-2026-09-04",
+  "reviewedTopLevelItems": 34,
+  "decision": "all_owner_approved_for_ingestion_none_approved_for_unchanged_staff_release",
+  "corrections": {
+    "ibi": "No IBI source was found. The evidence identifies IDI and IDC materials.",
+    "idiOrientations": [
+      "Denial",
+      "Polarization",
+      "Minimization",
+      "Acceptance",
+      "Adaptation"
+    ],
+    "integration": "Integration is a DMIS extension beyond the IDI and is not an IDI score.",
+    "dataBoundary": "The consultant-owned platform does not connect to DHS, ADSA, or DSD systems. Dashboards and workflows may use templates, demonstrations, or manually entered approved aggregates, not live agency data."
+  },
+  "criticalHolds": [
+    {
+      "sourceId": "local-race-racism-minnesota-course",
+      "issues": [
+        "corrupted characters",
+        "15 instructional images with empty alternative text",
+        "icons or emoji",
+        "no usable claim-level bibliography",
+        "unprotected inline editor",
+        "completion POST sends full name, optional email, and team to an external Supabase endpoint"
+      ],
+      "disposition": "quarantine_raw_source_never_execute_or_publish_unchanged"
+    },
+    {
+      "sourceId": "local-racism-in-america-audio",
+      "issues": [
+        "no descriptive metadata",
+        "no transcript",
+        "voice and music rights not recorded",
+        "course-version relationship not recorded"
+      ],
+      "disposition": "hold_for_transcript_metadata_accessible_player_and_rights"
+    },
+    {
+      "sourceId": "local-equity-cascade-crosswalk",
+      "issues": [
+        "24 of 25 tables lack header-row markup",
+        "supporting DHS, ADSA, and DSD plan versions are missing"
+      ],
+      "disposition": "hold_for_accessibility_and_source_reconciliation"
+    },
+    {
+      "sourceId": "drive-cfs-idi-seminar-part-1",
+      "issues": [
+        "deck states copyright 2015 IDI LLC, used with permission, and DHS does not own it",
+        "permission scope for app hosting, extraction, or adaptation is unknown"
+      ],
+      "disposition": "restricted_facilitated_use_only_until_rights_confirmed"
+    },
+    {
+      "sourceId": "drive-intergenerational-handout",
+      "issues": [
+        "connected extraction returned almost no readable text",
+        "likely image-only or otherwise inaccessible",
+        "author and license not established"
+      ],
+      "disposition": "hold_for_native_source_accessibility_and_rights"
+    },
+    {
+      "sourceId": "cultural-terms-glossary",
+      "issues": [
+        "third-party text and terminology rights need item-level review",
+        "sources often lack direct links or editions",
+        "outdated, stereotyping, or pejorative terms require review"
+      ],
+      "disposition": "internal_candidate_term_inventory_only"
+    }
+  ],
+  "driveReleaseGroups": {
+    "restricted_idi": [
+      "drive-cfs-idi-seminar-part-1",
+      "drive-idi-denial",
+      "drive-idi-polarization",
+      "drive-idi-minimization",
+      "drive-idi-acceptance",
+      "drive-idi-integration"
+    ],
+    "internal_rights_review": [
+      "drive-cq-expand-borders",
+      "drive-cultural-intelligence-workshop",
+      "drive-bipoc-suggestions",
+      "drive-intergenerational-handout"
+    ],
+    "staff_candidates_after_review": [
+      "drive-conflict-repair-accountability",
+      "drive-inclusive-practices"
+    ]
+  },
+  "missingSourceQueue": [
+    "Copy of Equity-Outcome-Map-2025-2026-Final.pptx",
+    "Current approved ADSA Implementation Plan",
+    "Current approved DSD Equity and Inclusion Operational Plan",
+    "Concept Map_ Ethnocentrism, Cultural Relativism, and White Supremacy.html",
+    "Connecting Anti-Racism to Everyday Life.docx",
+    "Current written IDI LLC permissions and qualified-administrator requirements",
+    "Cultural Intelligence Center or Livermore reuse permissions and exact editions",
+    "Leslie Aguilar or Ouch! That Stereotype Hurts reuse permission",
+    "Freepik asset identifier and license for the conflict deck",
+    "Author, license, and native accessible source for the intergenerational handout",
+    "Source and license records for both package hero photographs and the 15 embedded race-course images",
+    "Race-course claim-level bibliography, completion-data privacy and retention rules, and MP3 transcript and voice rights",
+    "Current official DHS, ADSA, DSD, DCYF, and DCT organizational documents for scope statements",
+    "Current HR, labor-relations, accommodation, records, Tribal consultation, public-data, and communications authorities",
+    "Current official Perplexity API or Agent API documentation and data terms reflecting the no-Sonar decision"
+  ],
+  "duplicateHandling": [
+    {
+      "sourceId": "partnership-framework-duplicate-receipt",
+      "duplicateOf": "partnership-framework-canonical",
+      "rule": "Preserve both receipts; ingest one payload."
+    },
+    {
+      "sourceId": "prd-package-export-zip",
+      "duplicatePayloadOf": "prd-package-named-zip",
+      "rule": "Use the named PRD package as the handoff; keep the export receipt without duplicating its 43-file payload."
+    }
+  ],
+  "imageryRule": "Stock or generated imagery may be used after human approval, documented rights, contextual and representation review, useful alternative text, and a clear rule against presenting a synthetic person as documentary evidence. Real-person likenesses require consent and an approved use.",
+  "iconRule": "Use text-first controls and never rely on a symbol alone. Any visual symbol must have a clear text label and pass accessibility review.",
+  "protectedLogoRule": "The package DHS logo is a locked reference. Do not modify, regenerate, recolor, crop, or replace the application logo."
+}
+

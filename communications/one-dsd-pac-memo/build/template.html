@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>One DSD People, Access and Culture Program</title>
+<style>
+:root{
+  --navy:#003865; --navy-d:#002544; --ink:#111110; --muted:#5A5A57;
+  --line:#D8D8D4; --panel:#F6F6F4; --bg:#fff;
+  --serif:"Aptos Serif",Georgia,"Times New Roman",serif;
+  --sans:Aptos,"Aptos Display","Segoe UI Variable Text",Calibri,"Segoe UI",system-ui,-apple-system,sans-serif;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--panel);color:var(--ink);font-family:var(--sans);
+  font-size:16px;line-height:1.55;font-feature-settings:"kern" 1;text-rendering:optimizeLegibility}
+.sheet{max-width:8.5in;margin:26px auto;background:var(--bg);padding:0.85in 0.9in 0.8in;
+  box-shadow:0 1px 3px rgba(0,0,0,.09),0 10px 34px rgba(0,0,0,.07)}
+h1,h2,h3,h4{color:var(--navy);line-height:1.22;margin:0 0 .45em;font-weight:700}
+p{margin:0 0 .72em}
+a{color:var(--navy)}
+em{font-style:italic}
+a:focus-visible,button:focus-visible{outline:3px solid var(--navy);outline-offset:2px}
+.skip{position:absolute;left:-999px;top:8px;background:#fff;color:var(--navy);padding:8px 12px;border:2px solid var(--navy);z-index:100}
+.skip:focus{left:8px}
+
+/* ---------- memorandum ---------- */
+.memo-head{border-bottom:3px solid var(--navy);padding-bottom:13px;margin-bottom:15px}
+.memo-word{font-size:1.72rem;font-weight:700;color:var(--navy);letter-spacing:.115em;
+  text-transform:uppercase;line-height:1.1}
+.memo-logo{display:block;width:250px;max-width:60%;height:auto;margin:0 0 16px}
+.memo-org{margin-top:7px;font-size:.86rem;color:var(--muted);line-height:1.45}
+.memo-meta{width:100%;border-collapse:collapse;margin:0 0 17px}
+.memo-meta th{width:4.9rem;text-align:left;vertical-align:top;padding:2.5px 12px 2.5px 0;
+  font-size:.73rem;letter-spacing:.11em;text-transform:uppercase;color:var(--navy);font-weight:700}
+.memo-meta td{vertical-align:top;padding:2.5px 0;font-size:.95rem;line-height:1.42}
+h2.memo-h{font-size:.8rem;letter-spacing:.1em;text-transform:uppercase;color:var(--navy);
+  margin:14px 0 5px;font-weight:700}
+.sheet--memo p{font-size:.95rem;line-height:1.55;margin:0 0 .6em}
+.seq{width:100%;border-collapse:collapse;margin:9px 0 11px;font-size:.88rem}
+.seq th{width:9.2rem;text-align:left;vertical-align:top;background:var(--navy);color:#fff;
+  padding:6px 10px;font-weight:700;border-bottom:2px solid #fff}
+.seq td{vertical-align:top;padding:6px 11px;border-bottom:1px solid var(--line);background:var(--panel)}
+.memo-close{font-size:.9rem;color:var(--muted);border-top:1px solid var(--line);padding-top:9px;margin-top:11px}
+
+/* ---------- library ---------- */
+.library{max-width:8.5in;margin:0 auto 40px;padding:0 0 4px}
+.lib-head{padding:26px 0 13px}
+.lib-head h2{font-size:1.06rem;letter-spacing:.02em;margin:0 0 5px}
+.lib-head p{color:var(--muted);font-size:.92rem;margin:0}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:12px}
+.card{display:grid;grid-template-rows:auto auto 1fr auto;gap:5px;text-align:left;cursor:pointer;
+  background:var(--bg);border:1px solid var(--line);border-top:3px solid var(--navy);
+  padding:15px 16px 13px;font:inherit;color:inherit;transition:box-shadow .13s,transform .13s}
+.card:hover{box-shadow:0 3px 14px rgba(0,0,0,.11);transform:translateY(-1px)}
+.card:focus-visible{outline:3px solid var(--navy);outline-offset:2px}
+.card-n{font-size:.72rem;letter-spacing:.13em;color:var(--muted);font-variant-numeric:tabular-nums}
+.card-t{font-weight:700;color:var(--navy);font-size:1.02rem;line-height:1.25}
+.card-b{font-size:.86rem;color:var(--muted);line-height:1.45}
+.card-go{font-size:.8rem;font-weight:700;color:var(--navy);letter-spacing:.04em;padding-top:3px}
+
+/* ---------- documents ---------- */
+.doc{max-width:8.5in;margin:26px auto;background:var(--bg);padding:.7in .9in .8in;
+  box-shadow:0 1px 3px rgba(0,0,0,.09),0 10px 34px rgba(0,0,0,.07)}
+.doc-top{display:flex;justify-content:space-between;align-items:center;gap:14px;
+  border-bottom:1px solid var(--line);padding-bottom:11px;margin-bottom:17px}
+.doc-of{font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+.back{background:none;border:1px solid var(--navy);color:var(--navy);font:inherit;font-size:.84rem;
+  font-weight:700;padding:6px 12px;cursor:pointer}
+.back:hover{background:var(--navy);color:#fff}
+.doc-title{font-size:1.62rem;margin:0 0 6px}
+.doc-blurb{color:var(--muted);font-size:.95rem;margin:0 0 17px;padding-bottom:13px;
+  border-bottom:2px solid var(--navy)}
+.doc-foot{margin-top:24px;padding-top:15px;border-top:1px solid var(--line)}
+.doc-body{font-size:.95rem;line-height:1.58}
+.doc-body h1{font-size:1.12rem;margin:1.5em 0 .42em;padding-bottom:.24em;border-bottom:1px solid var(--navy)}
+.doc-body h2{font-size:.98rem;margin:1.25em 0 .35em}
+.doc-body h3{font-size:.9rem;margin:1.1em 0 .3em}
+.doc-body p{margin:0 0 .62em}
+.doc-body ul,.doc-body ol{margin:.3em 0 .78em;padding-left:1.35em}
+.doc-body li{margin:0 0 .32em}
+.doc-body table{width:100%;border-collapse:collapse;margin:.75em 0 1.05em;font-size:.84rem}
+.doc-body th{background:var(--navy);color:#fff;text-align:left;padding:7px 9px;
+  vertical-align:top;font-weight:700;border:1px solid var(--navy)}
+.doc-body td{padding:7px 9px;vertical-align:top;border:1px solid var(--line)}
+.doc-body tbody tr:nth-child(even) td{background:var(--panel)}
+.doc-body img{max-width:100%;height:auto;display:block;margin:14px auto;border:1px solid var(--line)}
+.doc-body p.metaline{display:grid;grid-template-columns:10.5rem 1fr;gap:10px;margin:0 0 .22em;
+  font-size:.86rem;border:0}
+.metakey{font-size:.7rem;letter-spacing:.1em;text-transform:uppercase;color:var(--navy);
+  font-weight:700;padding-top:.22em}
+.metaval{color:var(--ink)}
+.doc-body p.metaline+p:not(.metaline){margin-top:.9em}
+
+/* ---------- chrome ---------- */
+.topbar{position:sticky;top:0;z-index:40;background:var(--navy);color:#fff}
+.topbar-in{max-width:8.5in;margin:0 auto;display:flex;justify-content:space-between;
+  align-items:center;gap:12px;padding:9px 0;font-size:.84rem}
+.topbar strong{font-weight:700;letter-spacing:.02em}
+.topbar .prt{background:none;border:1px solid rgba(255,255,255,.75);color:#fff;font:inherit;
+  font-size:.8rem;font-weight:700;padding:5px 11px;cursor:pointer}
+.topbar .prt:hover{background:#fff;color:var(--navy)}
+footer.pg{max-width:8.5in;margin:0 auto;padding:16px 0 42px;color:var(--muted);font-size:.84rem;
+  border-top:1px solid var(--line)}
+@media(max-width:900px){
+  .sheet,.doc{padding:26px 20px;margin:12px 10px}
+  .library{padding:0 10px}
+  .topbar-in,footer.pg{padding-left:10px;padding-right:10px}
+  .memo-meta th{width:3.6rem;font-size:.62rem}
+  .seq th{width:6.6rem}
+  .doc-body p.metaline{grid-template-columns:1fr;gap:0}
+}
+
+
+/* jump links, contents, pull quote, full-memo tables */
+a.jump{color:var(--navy);font-weight:600;text-decoration:none;border-bottom:1px solid rgba(0,56,101,.6);
+  white-space:nowrap;cursor:pointer}
+@media (max-width:640px){a.jump{white-space:normal}}
+a.jump:hover{border-bottom-color:var(--navy)}
+.pull{border-left:4px solid var(--navy);background:#F6F8FA;padding:14px 18px;margin:1.3rem 0}
+.orient{border:1px solid var(--line);background:var(--panel);padding:14px 18px 14px 20px;margin:1.3rem 0}
+.orient ol{margin:0;padding-left:1.15rem}
+.orient li{margin:0 0 .55rem;line-height:1.5}
+.orient li:last-child{margin-bottom:0}
+.pull p{margin:0}
+.pull-more{margin-top:.55rem !important;font-size:.9rem}
+.deliverable{border:2px solid var(--navy);border-radius:5px;padding:15px 18px;margin:1.3rem 0}
+.deliverable p{margin:0 0 .6rem}
+.deliverable p:last-child{margin-bottom:0}
+.deliverable-open{margin:.85rem 0 !important}
+a.open-link{display:inline-block;color:var(--navy);font-weight:700;text-decoration:none;
+  border-bottom:2px solid var(--navy);padding-bottom:1px}
+a.open-link:hover{background:#F6F8FA}
+.showcase{list-style:none;margin:1rem 0;padding:0}
+.showcase li{border-top:1px solid var(--line);padding:.7rem 0}
+.showcase li:last-child{border-bottom:1px solid var(--line)}
+.showcase-why{display:block;margin-top:.3rem;font-size:.9rem;color:var(--muted)}
+.toc{display:grid;gap:8px;margin-top:4px}
+.toc-row{display:block;width:100%;text-align:left;background:#fff;border:1px solid var(--line);
+  border-radius:4px;padding:11px 14px;cursor:pointer;font:inherit}
+.toc-row:hover{border-color:var(--navy);box-shadow:0 1px 4px rgba(0,56,101,.10)}
+.toc-t{display:block;font-weight:700;color:var(--navy);font-size:.95rem}
+.toc-b{display:block;color:var(--muted);font-size:.86rem;margin-top:3px;line-height:1.45}
+.memo-tbl{width:100%;border-collapse:collapse;margin:1rem 0;font-size:.88rem}
+.memo-tbl th{background:var(--navy);color:#fff;text-align:left;padding:7px 9px;font-size:.82rem}
+.memo-tbl td{border:1px solid var(--line);padding:7px 9px;vertical-align:top}
+.memo-sec{scroll-margin-top:70px}
+.memo-sec:target h2.memo-h{background:#FFF6D6;padding-left:6px;margin-left:-6px}
+
+/* Progressive enhancement. Without scripting every document is simply present on
+   the page and every link is a real anchor, so the file still works in a preview
+   pane, an email client, or a browser with scripting disabled. With scripting the
+   same links become the card interface. */
+.doc{scroll-margin-top:64px}
+.memo-sec{scroll-margin-top:64px}
+.js .doc{display:none}
+.js .doc.is-open{display:block}
+a.card,a.toc-row,a.back{text-decoration:none;color:inherit}
+a.card{display:block}
+a.back{cursor:pointer}
+/* Whole pages, one under the other, in the order the caption promises. Two
+   across looked tidier when these were viewport crops of a common height; as
+   whole pages they run from 1,270 to 9,393 pixels, and a grid row is as tall
+   as its tallest tile, so half of them sat over a void. */
+.snapgrid{margin:1.3rem 0 1.5rem}
+.snapgrid .memo-fig{margin:0 0 1.5rem}
+.snapgrid .memo-fig:last-child{margin-bottom:0}
+.snapgrid .memo-fig figcaption{font-size:.84rem;margin-top:.45rem;text-align:left;font-style:normal;color:#222;line-height:1.45}
+.snapgrid .memo-fig figcaption strong{color:var(--navy)}
+/* Folds. Heavy material sits behind a click so the landing page reads in
+   one sitting. Native <details>, so it needs no script, is reached and
+   operated from the keyboard, is announced as expandable, and prints in
+   full: the paper copy shows everything and the screen lets the reader
+   choose. The heading is the control; the line under it says what opens. */
+details.fold{margin:1.3rem 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+details.fold+details.fold{border-top:0;margin-top:-1.3rem}
+details.fold>summary{list-style:none;cursor:pointer;position:relative;padding:.8rem 0 .8rem 1.6rem}
+details.fold>summary::-webkit-details-marker{display:none}
+details.fold>summary::before{content:"";position:absolute;left:.2rem;top:1.15rem;width:.5rem;height:.5rem;
+  border-right:2px solid var(--navy);border-bottom:2px solid var(--navy);transform:rotate(-45deg)}
+details.fold[open]>summary::before{transform:rotate(45deg);top:1rem}
+details.fold>summary h2.memo-h{display:inline;margin:0}
+details.fold>summary .fold-hint{display:block;margin-top:.3rem;font-size:.92rem;line-height:1.45;color:var(--muted);
+  font-weight:400;text-transform:none;letter-spacing:0}
+details.fold>summary:hover h2.memo-h{text-decoration:underline;text-underline-offset:3px}
+details.fold>summary:focus-visible{outline:3px solid var(--navy);outline-offset:2px}
+details.fold>.fold-body{padding:.2rem 0 1rem}
+details.fold>.fold-body>h2.memo-h:first-child{display:none}
+/* The two pictures that carry the argument, side by side and early. */
+.diagram-pair{display:flex;gap:18px;align-items:flex-start;margin:1.3rem 0 1.5rem}
+.diagram-pair .memo-fig{flex:2 1 0;min-width:0;margin:0}
+.diagram-pair .memo-fig:first-child{flex:3 1 0}  /* the levels diagram carries small text; give it the wider share */
+@media (max-width:640px){.diagram-pair{display:block}.diagram-pair .memo-fig{margin:0 0 1.2rem}}
+.memo-fig{margin:1.5rem 0 1.7rem}
+.memo-fig img{width:100%;height:auto;display:block;border:1px solid var(--line);border-radius:3px}
+.memo-fig figcaption{margin-top:.5rem;text-align:center;font-size:.84rem;color:var(--navy);font-style:italic}
+.memo-h3{margin:1.6rem 0 .2rem;font-size:1.02rem;color:var(--navy)}
+.stage-gloss{margin:0 0 .6rem;font-size:.9rem;color:#444}
+.memo-fig.shot figcaption{text-align:left;font-style:normal;font-size:.86rem;color:#222;line-height:1.45}
+.memo-fig.shot figcaption strong{color:var(--navy);font-style:normal}
+.shot-note{margin:1rem 0 1.4rem;font-size:.84rem;color:#444}
+.memo-list{margin:.35rem 0 1rem;padding-left:1.2rem}
+.memo-list li{margin:0 0 .45rem}
+
+/* ---------- print ---------- */
+@media print{
+  @page{size:Letter;margin:0.75in}
+  body{background:#fff;font-size:10.5pt}
+  .topbar,.library,.back,.doc-foot,footer.pg,.doc-top,.toc{display:none !important}
+  .sheet{max-width:none;margin:0;padding:0;box-shadow:none}
+  .sheet--memo p{font-size:10.2pt;line-height:1.38;margin:0 0 .52em}
+  .memo-word{font-size:19pt}
+  .memo-org{font-size:8.4pt}
+  .memo-logo{width:2.4in;margin-bottom:10px}
+  .memo-meta td{font-size:9.9pt;padding:2px 0}
+  .memo-meta th{font-size:7.4pt;padding:1.6px 12px 1.6px 0}
+  h2.memo-h{font-size:8.6pt;margin:13px 0 4px;break-after:avoid}
+  .seq{font-size:9.4pt;margin:6px 0 8px}
+  .seq th,.seq td{padding:4px 8px}
+  .memo-close{font-size:8.8pt;padding-top:6px;margin-top:6px}
+  /* A whole page can be taller than a sheet, so these are allowed to break
+     rather than trapping the layout engine. */
+  .snapgrid{margin:8px 0 10px}
+  .snapgrid .memo-fig{margin:0 0 11px}
+  .snapgrid .memo-fig figcaption{font-size:7.8pt;margin-top:3px}
+  /* On paper every fold is open and reads as an ordinary section. A closed
+     details hides its contents through content-visibility on the browser's own
+     ::details-content, not through display, so overriding display alone prints
+     the heading and silently drops everything under it. */
+  details.fold:not([open])::details-content{content-visibility:visible}
+  details.fold{border:0;margin:0}
+  details.fold>summary{padding:0;cursor:default}
+  details.fold>summary::before{display:none}
+  details.fold>summary .fold-hint{display:none}
+  details.fold>summary h2.memo-h{display:block;margin:13px 0 4px}
+  details.fold>.fold-body{padding:0}
+  /* Side by side on paper puts the levels diagram's labels near five points,
+     so in print the two stack, each at full width. */
+  .diagram-pair{display:block;margin:8px 0 10px;break-inside:avoid}
+  .diagram-pair .memo-fig{margin:0 0 10px;break-inside:avoid}
+  .diagram-pair .memo-fig:last-child img{max-width:3.8in;margin:0 auto}  /* both pictures on one sheet */
+  .memo-fig{margin:10px 0 12px;break-inside:avoid}
+  .pull{background:none;padding:8px 0 8px 12px;margin:10px 0}
+  .pull-more{display:none}
+  a.jump{display:none}
+  .deliverable{border:1pt solid var(--navy);padding:9px 11px;margin:10px 0}
+  a.open-link{border-bottom:none;text-decoration:underline}
+  a.open-link::after{content:" (" attr(href) ")";font-weight:400;font-size:8.4pt;color:var(--muted)}
+  .showcase{margin:8px 0}
+  .showcase li{padding:5px 0;break-inside:avoid}
+  .showcase-why{font-size:8.8pt}
+  .memo-tbl{font-size:8pt}
+  .memo-sec{break-inside:auto}
+  .memo-fig figcaption{font-size:8.2pt;margin-top:4px}
+  .memo-h3{break-after:avoid}
+  .memo-fig.shot figcaption{font-size:8.4pt;text-align:left}
+  .shot-note{font-size:8pt}
+  .memo-list{font-size:10.2pt;line-height:1.38;margin:.2em 0 .6em;padding-left:1.15em}
+  .memo-list li{margin:0 0 .34em}
+  .doc{display:none}
+  .doc.is-open{display:block;max-width:none;margin:0;padding:0;box-shadow:none}
+  .doc-body table{font-size:8.4pt}
+  .doc-body{font-size:10pt}
+  a{text-decoration:none;color:var(--ink)}
+}
+</style>
+<script>document.documentElement.className+=" js";</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to the memorandum</a>
+<header class="topbar"><div class="topbar-in">
+  <strong>One DSD People, Access and Culture Program</strong>
+  <button class="prt" type="button" id="print">Print / Save as PDF</button>
+</div></header>
+
+<main id="main">
+  <section class="sheet sheet--memo" id="memo">{{MEMO}}</section>
+
+  <section class="library" id="contents" aria-labelledby="contents-h">
+    <div class="lib-head">
+      <h2 id="contents-h">The memorandum in full</h2>
+      <p>The landing page above carries what matters immediately. This is the complete communication,
+         section by section &mdash; open any part directly.</p>
+    </div>
+    <div class="toc">{{CONTENTS}}</div>
+  </section>
+
+  <section class="library" id="library" aria-labelledby="library-h">
+    <div class="lib-head">
+      <h2 id="library-h">The supporting record</h2>
+      <p>Everything referred to in the memorandum is here. There is no need to read it all — these are provided so that anything you want to look into is one click away.</p>
+    </div>
+    <div class="cards">{{CARDS}}</div>
+  </section>
+
+  {{DOCS}}
+</main>
+
+<footer class="pg">
+  Prepared by Gary Banks, Equity and Inclusion Operations Consultant, Disability Services Division,
+  in collaboration with Sarah Shepherd, Project Manager, Disability Services Division.
+  Draft for review, September 18, 2026.
+</footer>
+
+<script>
+(function(){
+  var memo=document.getElementById("memo"),lib=document.getElementById("library"),
+      toc=document.getElementById("contents");
+  var docs=[].slice.call(document.querySelectorAll(".doc"));
+  function showMemo(){
+    memo.hidden=false;lib.hidden=false;toc.hidden=false;
+    docs.forEach(function(d){d.classList.remove("is-open")});
+    if(location.hash)history.replaceState(null,"",location.pathname);
+    window.scrollTo(0,0);
+  }
+  function showDoc(id,anchor){
+    var el=document.getElementById(id);if(!el)return;
+    memo.hidden=true;lib.hidden=true;toc.hidden=true;
+    docs.forEach(function(d){d.classList.toggle("is-open",d===el)});
+    var target=anchor?document.getElementById(anchor):null;
+    if(target){
+      target.scrollIntoView();
+      var hh=target.querySelector(".memo-h");
+      if(hh){hh.setAttribute("tabindex","-1");hh.focus({preventScroll:true})}
+    }else{
+      window.scrollTo(0,0);
+      var h=el.querySelector(".doc-title");if(h){h.setAttribute("tabindex","-1");h.focus()}
+    }
+    history.replaceState(null,"","#"+(anchor||id));
+  }
+  document.addEventListener("click",function(e){
+    var open=e.target.closest("[data-open]");
+    if(open){e.preventDefault();showDoc(open.getAttribute("data-open"),open.getAttribute("data-anchor"));return}
+    if(e.target.closest("[data-back]")){showMemo();return}
+  });
+  document.getElementById("print").addEventListener("click",function(){window.print()});
+  // A closed fold must still print. Modern browsers are handled in the print
+  // stylesheet, through ::details-content; browsers without it need the folds
+  // opened for the duration of the print and put back afterwards. Without
+  // script the stylesheet alone carries it.
+  var reopen=[];
+  window.addEventListener("beforeprint",function(){
+    reopen=[].slice.call(document.querySelectorAll("details.fold:not([open])"));
+    reopen.forEach(function(d){d.open=true});
+  });
+  window.addEventListener("afterprint",function(){
+    reopen.forEach(function(d){d.open=false}); reopen=[];
+  });
+  document.addEventListener("keydown",function(e){
+    if(e.key==="Escape"&&docs.some(function(d){return !d.hidden}))showMemo();
+  });
+  function applyHash(){
+    var frag=location.hash.slice(1),node=frag&&document.getElementById(frag);
+    if(node&&node.classList.contains("doc")){showDoc(frag);return true}
+    if(node&&node.classList.contains("memo-sec")){showDoc("doc-memofull",frag);return true}
+    return false;
+  }
+  if(!applyHash())showMemo();
+  window.addEventListener("hashchange",function(){if(!applyHash())showMemo()});
+})();
+</script>
+</body>
+</html>

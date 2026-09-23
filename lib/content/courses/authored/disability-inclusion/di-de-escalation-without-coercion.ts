@@ -1,0 +1,358 @@
+import type { CoursePack } from "../../source-types";
+
+// Disability Inclusion curriculum, Level 2 module 5: De-escalation Without Coercion.
+// Program-authored for supervisors, program staff, direct-support professionals, care coordinators and intake teams.
+const pack: CoursePack = {
+  course: {
+    id: "di-de-escalation-without-coercion",
+    indexNumber: 1110,
+    seriesLabel: "Disability Inclusion · Applied inclusion",
+    title: "De-escalation Without Coercion",
+    subtitle: "Tell distress, communication, sensory overload, trauma response and behavioral risk apart, change the environment first, and write it down without stigma.",
+    scope: "For supervisors, program staff, direct-support professionals, care coordinators, intake teams and customer-facing staff. Five short lessons on preventing and responding to escalation without control, threat or restraint. Participation in this program is voluntary and does not replace required training, including any crisis-response or positive-supports training your role requires.",
+    treatment: "Five short lessons with a waiting-room scenario, a sorting exercise, scripts, flashcards, a documentation template and knowledge checks",
+    duration: "48–55 minutes",
+    author: "One DHS — People, Access and Culture",
+    coverImage: "/images/covers/conflict-at-work.jpg",
+    coverAlt: "Two men stand by a desk in a professional disagreement.",
+    introTranscript: "Most escalation in a human-services setting is not a person deciding to be difficult. It is a person in distress, a person who cannot get a message through, a person whose senses are overloaded, or a person whose body has recognized a threat before their mind has. This course teaches you to tell those apart, to change the room before you try to change the person, and to reserve any restrictive response for real, imminent risk under your program’s policy. It ends with the skill that protects people longest: documentation that describes what happened without labeling who they are.",
+    kind: "course",
+    contentType: "practice",
+    learning: {
+      objectives: [
+        "Distinguish distress, a communication breakdown, sensory overload, a trauma response and behavioral risk from what you can observe, and name the response each one calls for.",
+        "Identify features of a waiting area, office or home visit that escalate distress and choose environmental adjustments that prevent it.",
+        "Use communication that lowers arousal: position, pace, fewer words, real choices, time and the person’s own communication method.",
+        "Apply a response sequence that puts prevention, communication, environmental adjustment and collaborative problem-solving before any restrictive response, and state when and under whose policy a restrictive response is permitted.",
+        "Write an objective account of an incident that records observable behavior, context, staff actions and outcome without stigmatizing language.",
+      ],
+      evidence: [
+        "Five scenario decisions and five knowledge checks with explanations.",
+        "A completed sort of observations into the five categories.",
+        "One incident note rewritten from a stigmatizing version to an objective one.",
+      ],
+      appliedNextStep: "Walk your own waiting area, office or visit routine as someone who is overloaded, and change one thing about it this month. Then rewrite the last incident note you saw using the template from lesson five.",
+    },
+    governance: {
+      contentOwner: "One DHS — People, Access and Culture",
+      reviewers: ["Equity and Inclusion Operations Consultant"],
+      evidenceDate: "Public sources checked at authoring",
+      lastReviewed: "At authoring",
+      nextReview: "At the agreed review point and whenever an update trigger occurs",
+      updateTriggers: ["Change in ADA, Section 504 or Section 508 guidance", "Change in DHS accessibility or language access standards", "Feedback from disabled staff or participants that a scenario reads as unrealistic or stigmatizing"],
+      relatedDoor: "Emergency response, restrictive interventions and incident reporting follow your program’s policy, licensing requirements and Minnesota’s positive supports rules where they apply; this course prepares you, it does not replace that policy or the training your role requires.",
+      toolkitQuestion: "What in this environment, this process or my own approach is raising the tension, and what can I change before I ask the person to change?",
+      status: "reviewed",
+    },
+    lessons: [
+      {
+        id: "de-escalation-without-coercion-1",
+        number: 1,
+        title: "Five things that look alike",
+        summary: "Learn to tell distress, communication breakdown, sensory overload, trauma response and behavioral risk apart, because each one calls for a different response and only one is about safety.",
+        minutes: 12,
+        learning: {
+          objective: "Sort observable behavior into distress, communication, sensory overload, trauma response or behavioral risk, and name the first response each one calls for.",
+          takeaways: [
+            "Pacing, loud speech, refusal and repetition can come from five different sources; the same response to all five will fail four of them.",
+            "Behavioral risk means a credible, imminent risk of serious harm to a person; it is the least common of the five and the only one that may justify a restrictive response under policy.",
+            "When you cannot tell which it is, respond as if it is the least dangerous explanation while keeping people safe.",
+          ],
+          evidence: "A completed sort and a knowledge check.",
+          appliedNextStep: "Recall the last time you saw someone described as escalating. Decide which of the five it most likely was and what response it actually called for.",
+        },
+        scenario: {
+          context: "A man in his thirties arrives at a county human-services lobby for a scheduled appointment. The lobby is full, a television is on, a child is crying and the number board is broken. After twenty minutes he stands, paces the length of the room, and begins repeating loudly that he has been waiting and no one has called him.",
+          prompt: "What is the first thing to do?",
+          options: [
+            { label: "Tell him to sit down and wait his turn, and warn him that he will be asked to leave if he keeps shouting.", response: "This treats the behavior as defiance before you know what it is. A warning adds threat to a room that is already too much, and it is the most reliable way to turn overload into a crisis." },
+            { label: "Approach calmly, at an angle, and say his wait is real, ask whether the noise is making it harder, and offer a quieter place to wait where he will still be called.", response: "You have acknowledged the wait, tested the most likely explanation, and offered an environmental change. If it is overload, this resolves it; if it is something else, you have lost nothing.", recommended: true },
+            { label: "Call security so they are nearby in case he becomes aggressive.", response: "A uniform appearing while a person is overwhelmed is a threat signal. There is no sign of risk to anyone; there is a broken number board and a loud room." },
+          ],
+        },
+        transfer: {
+          prompt: "Which of the five does your team most often mistake for another, and what is the cost?",
+          options: ["Name one recent incident and re-sort it using the five categories", "Ask a colleague which explanation they reached for first and why", "Agree on one question your team will ask before treating anyone as noncompliant"],
+        },
+        blocks: [
+          { type: "text", heading: "Same surface, different sources", body: "<p>From the outside, a person pacing and speaking loudly looks like one thing. Underneath, it can be at least five. <strong>Distress</strong> is emotional pain: fear about a decision, grief, humiliation, exhaustion. <strong>Communication breakdown</strong> is a message that is not getting through in either direction: the person cannot make you understand, or cannot understand you, and the volume rises because that is what people do when they are not heard. <strong>Sensory overload</strong> is a nervous system receiving more input than it can process, common for autistic people, people with brain injuries, people with certain mental health conditions and many others, and it is caused by the room. <strong>Trauma response</strong> is the body reacting to a present cue as if it were a past danger; the person may be fighting, fleeing, freezing or complying without being able to think. <strong>Behavioral risk</strong> is a credible, imminent risk of serious physical harm to the person or someone else.</p><p>The distinction matters because each source has a different remedy. Distress needs acknowledgment and time. Communication breakdown needs a different channel: writing, pictures, an interpreter, the person’s own device. Sensory overload needs a change in the environment, not in the person. Trauma response needs safety signals, distance and choice, and usually the removal of whatever is acting as the cue. Behavioral risk needs a safety response, under your program’s policy, and even then the least restrictive one that works.</p><p>Diagnosis does not tell you which one you are seeing. An autistic person can be in distress about a decision; a person with a psychiatric disability can be overloaded by a loud room; a person with no disability at all can have a trauma response to a uniform. Watch what is happening and what is in the room, then test the least dangerous explanation first.</p>" },
+          { type: "tabs", heading: "What you see, what may be underneath, what helps first", tabs: [
+            { label: "Distress", body: "<p><strong>You may see:</strong> tears, raised voice, pleading, repeated questions about the same decision.</p><p><strong>Underneath:</strong> fear, grief, shame, exhaustion, a decision that changes their life.</p><p><strong>First:</strong> name what you see without judgment, slow down, sit if they sit, tell them what you can do and what you cannot.</p>" },
+            { label: "Communication", body: "<p><strong>You may see:</strong> louder repetition, frustration, walking away, a companion answering instead.</p><p><strong>Underneath:</strong> language, hearing, speech, processing or literacy differences; a form or a phrase that made no sense.</p><p><strong>First:</strong> change the channel. Offer paper, pictures, a text message, a professional interpreter, or the person’s own communication device. Address the person.</p>" },
+            { label: "Sensory overload", body: "<p><strong>You may see:</strong> covering ears or eyes, pacing, rocking, shutting down, sudden irritability, leaving the room.</p><p><strong>Underneath:</strong> noise, fluorescent light, crowding, smells, unpredictability, no end in sight.</p><p><strong>First:</strong> reduce input. Offer a quieter space, turn something off, dim what you can, give a clear time estimate, allow movement.</p>" },
+            { label: "Trauma response", body: "<p><strong>You may see:</strong> sudden freezing, going blank, startling, agreeing to everything, bolting, or anger that arrives out of proportion to the moment.</p><p><strong>Underneath:</strong> a cue, such as a raised voice, a blocked door, a uniform, being touched or being told to calm down, that matches a past danger.</p><p><strong>First:</strong> give space and an open exit, lower your voice, remove the cue if you can, offer a choice, and do not touch.</p>" },
+            { label: "Behavioral risk", body: "<p><strong>You may see:</strong> specific threats, a weapon, striking or attempting to strike, self-injury that could cause serious harm.</p><p><strong>Underneath:</strong> often one of the other four that was not met in time; sometimes intoxication, acute illness or something you cannot know.</p><p><strong>First:</strong> follow your program’s safety policy, protect people including the person, use the least restrictive response that works, and call for help you have been trained to call.</p>" },
+          ] },
+          { type: "sorting", id: "de-escalation-without-coercion-1-sort", heading: "Which is the most likely source?", categories: ["Distress", "Communication", "Sensory overload", "Trauma response", "Behavioral risk"], items: [
+            { text: "A woman covers her ears and rocks after the fire-alarm test begins.", category: "Sensory overload" },
+            { text: "A man goes silent, stares at the floor and stops answering when a supervisor stands between him and the door.", category: "Trauma response" },
+            { text: "A participant raises his voice and repeats the same three words while pointing at the form.", category: "Communication" },
+            { text: "A parent cries and asks four times whether the decision can be changed.", category: "Distress" },
+            { text: "A person picks up a chair and says clearly that he will hit the next person who comes close.", category: "Behavioral risk" },
+            { text: "A young man with a brain injury becomes irritable and paces after forty minutes in a room with a loud television.", category: "Sensory overload" },
+          ] },
+          { type: "leaderMove", heading: "Test the least dangerous explanation first", control: "You control which explanation you act on when a person’s behavior changes: the one that treats them as a threat, or the one that treats the room, the message or the moment as the problem.", failure: "Do not reach for “noncompliant” or “aggressive” because it is the fastest word. Do not call for backup before you have changed anything about the environment.", next: "The next time someone’s voice rises, ask yourself which of the five it is, and change one thing in the room before you ask them to change." },
+          { type: "flashcards", heading: "Five words, kept apart", cards: [
+            { front: "Distress", back: "<p>Emotional pain with an ordinary cause: a decision, a loss, a humiliation. Acknowledge it. Do not manage it away.</p>" },
+            { front: "Communication breakdown", back: "<p>A message not getting through in either direction. Volume rises because the person is not heard. Change the channel, not the volume.</p>" },
+            { front: "Sensory overload", back: "<p>More input than the nervous system can process. The cause is in the room. Remove input; do not add instructions.</p>" },
+            { front: "Trauma response", back: "<p>The body reacting to a present cue as past danger. Reasoning is offline. Give space, an exit, a lower voice and a choice.</p>" },
+            { front: "Behavioral risk", back: "<p>Credible, imminent risk of serious harm. The least common of the five and the only one that may justify a restrictive response, under policy, as a last resort.</p>" },
+            { front: "The rule when unsure", back: "<p>Act on the least dangerous explanation while keeping everyone safe. You can escalate your response if you were wrong; you often cannot undo a threat you made.</p>" },
+          ] },
+          { type: "knowledgeCheck", id: "de-escalation-without-coercion-1-check", question: "A Deaf woman at a front desk begins speaking loudly and gesturing at the intake form after the receptionist repeats the same sentence three times. What is happening, most likely, and what comes first?", options: [
+            { text: "Behavioral risk; ask her to lower her voice and step back from the desk.", correct: false },
+            { text: "Communication breakdown; write it down, offer a video relay or interpreter, and address her directly.", correct: true },
+            { text: "Distress; tell her everything will be fine and offer her a seat.", correct: false },
+          ], feedbackCorrect: "Yes. The volume is a symptom of not being heard. Change the channel and the escalation ends.", feedbackIncorrect: "Nothing here suggests risk, and reassurance does not deliver the message. Repeating a sentence louder is the breakdown; a different channel is the fix." },
+        ],
+      },
+      {
+        id: "de-escalation-without-coercion-2",
+        number: 2,
+        title: "The environment escalates first",
+        summary: "Find the features of waiting areas, offices and visits that push people toward crisis, and fix them before anyone arrives.",
+        minutes: 10,
+        learning: {
+          objective: "Identify at least five environmental features that raise arousal in a service setting and pair each with a prevention step you or your team can take.",
+          takeaways: [
+            "Noise, harsh light, crowding, unpredictable waits and no way to know what happens next are the most common triggers, and all of them are controlled by the organization.",
+            "A person told what to expect, how long, and what to do if they need something rarely reaches the point of pacing and shouting.",
+            "Prevention is cheaper, safer and more respectful than any response.",
+          ],
+          evidence: "A scenario decision, a knowledge check and a walkthrough of your own setting with at least three changes named.",
+          appliedNextStep: "Walk your lobby, interview room or visit routine as an overloaded person, list what raises the tension, and change one thing you control this month.",
+        },
+        scenario: {
+          context: "A supervisor at a Disability Services Division office reviews three incident reports in one month. All three happened in the same waiting area between eleven and one, when it is busiest. Each report describes a different person becoming agitated after a long wait.",
+          prompt: "What is the most useful response?",
+          options: [
+            { label: "Schedule an extra security presence during the busy window.", response: "Adding a uniform to a crowded, loud room raises the tension for the people most likely to be overloaded. It addresses none of the causes the three reports share." },
+            { label: "Treat the pattern as an environmental problem: fix the wait information, reduce noise, add a quiet space, spread appointments, and tell people what to expect when they check in.", response: "Three incidents in one room at one time is a room problem. Prevention changes the next hundred visits.", recommended: true },
+            { label: "Flag the three individuals in the system so staff are prepared next time.", response: "Flagging people for reacting to a poorly designed room follows them through every future encounter and does nothing about the room." },
+          ],
+        },
+        transfer: {
+          prompt: "What does a person in your setting know about how long they will wait and what happens next?",
+          options: ["Stand in your own waiting area for ten minutes at its busiest and write down what you hear, see and do not know", "Post or hand out a plain-language “what to expect” notice at check-in", "Identify one quieter space that can be offered without making the person lose their place"],
+        },
+        blocks: [
+          { type: "text", heading: "Rooms raise voices", body: "<p>Most incidents that end up in a report began with a room. Fluorescent light that flickers, a television no one chose, a number board that does not move, chairs bolted in rows facing a counter, a child crying, no window, no clock, no idea whether the wait is ten minutes or two hours. For a person with a sensory processing difference, a brain injury, a psychiatric disability, chronic pain or a history of being trapped somewhere like this, the room is doing work against them before anyone has said a word.</p><p>Add the process on top: a form the person cannot read, a name called once from across the room, a policy that anyone who steps outside loses their place, a staff member who is visibly rushed. Now the person has no information, no control, and no way to get either. Pacing and loud speech are what people do when they have run out of other options. The behavior is a message about the design.</p><p>Prevention means designing the room and the process so that people keep information, control and a way to ask. It is not expensive. Most of it is a sign, a chair somewhere quieter, a text message when it is your turn, and a staff habit of saying what happens next.</p>" },
+          { type: "list", heading: "What raises the tension, and what lowers it", items: ["Unknown wait: post realistic times, update them, and offer a text or pager so people can step out without losing their place.", "Noise: turn the television off or to captions, fix the buzzing light, and provide a quieter space that is not a punishment room.", "Crowding and blocked exits: keep a clear path to the door visible from every seat, and never stand between a person and the exit.", "Unclear process: tell people at check-in what will happen, in order, and what to do if they need water, a restroom or a break.", "Being called out across the room: approach the person, use their name at a normal volume, and offer to walk with them.", "Forms on a clipboard in bad light: offer to complete the form together, in a private space, in the person’s language or format.", "Staff tone: a rushed, clipped voice is a signal of danger to someone already on edge; slow down before you speak."] },
+          { type: "artifact", kind: "plain-language-flyer", label: "Practical artifact", title: "What to expect while you wait", summary: "A one-page notice for check-in that gives people the information and control that prevent most escalation.", fields: [
+            { label: "How long", value: "Current waits are posted at the desk and updated every fifteen minutes. If you give us a mobile number, we will text you when it is your turn." },
+            { label: "What happens", value: "You will be called by name and walked to a private room. The meeting usually takes about thirty minutes. You can bring someone with you." },
+            { label: "If you need something", value: "A quieter room, water, a restroom, a break outside or help with the form: ask anyone at the desk. You will not lose your place." },
+            { label: "Language and access", value: "Interpreters, large print and other formats are available. Tell us what you need and we will arrange it before your meeting starts." },
+          ], action: "Adapt this for your setting, translate it into your top languages, and post it where people check in. Then make sure every line is true." },
+          { type: "leaderMove", heading: "Fix the room before the report", control: "You control whether a pattern of incidents is read as a pattern of difficult people or as a pattern in the environment they were placed in.", failure: "Do not respond to repeated incidents in the same place and time with more staff presence and individual flags. Look at the light, the noise, the wait and the information.", next: "Pull the last three incident reports from your setting and check whether they share a room, a time or a step in the process." },
+          { type: "flashcards", heading: "Prevention habits", cards: [
+            { front: "Information", back: "<p>How long, what happens next, what to do if you need something. A person who knows these three things rarely escalates.</p>" },
+            { front: "Control", back: "<p>The ability to step out, choose a seat, take a break, have a companion, or complete a form somewhere quieter, without penalty.</p>" },
+            { front: "A way to ask", back: "<p>A named person, a visible desk, a text number. If asking is hard, people stop asking and start pacing.</p>" },
+            { front: "Exit visible, exit open", back: "<p>Never block the door, physically or by policy. A person who can leave usually stays.</p>" },
+          ] },
+          { type: "knowledgeCheck", id: "de-escalation-without-coercion-2-check", question: "Which change does the most to prevent escalation in a busy waiting area?", options: [
+            { text: "A sign stating that abusive behavior will not be tolerated and may result in removal.", correct: false },
+            { text: "Realistic wait times posted and updated, a text-when-ready option, and a quieter space people can use without losing their place.", correct: true },
+            { text: "A staff member stationed at the door to monitor the room.", correct: false },
+          ], feedbackCorrect: "Yes. Information, control and a way to ask remove the conditions that produce most incidents.", feedbackIncorrect: "A warning sign and a monitor add threat to a room that needs information and control. Prevention changes the conditions, not the consequences." },
+        ],
+      },
+      {
+        id: "de-escalation-without-coercion-3",
+        number: 3,
+        title: "Communication that lowers the tension",
+        summary: "Use position, pace, fewer words, real choices, time and the person’s own communication method to bring a moment down rather than push it up.",
+        minutes: 12,
+        learning: {
+          objective: "Demonstrate at least six communication practices that reduce arousal and identify four common staff habits that increase it.",
+          takeaways: [
+            "One calm voice, at an angle, at a distance, with an open exit, does more than any script.",
+            "Fewer words, more time: an overloaded or frightened person cannot process a paragraph, and silence while they think is not a problem to fill.",
+            "Never demand eye contact, calm, or an explanation; offer a choice instead.",
+          ],
+          evidence: "A scenario decision, a knowledge check and one script rewritten in your own words.",
+          appliedNextStep: "Choose two phrases from this lesson and use them the next time someone is upset with you, then notice what changed.",
+        },
+        scenario: {
+          context: "A direct-support professional is with an autistic man in his twenties who uses a tablet to communicate. His ride is late, the day program is closing, and he is hitting the table with his palm and vocalizing loudly. A colleague says, “Look at me and calm down, or we are calling your mother.”",
+          prompt: "What should the direct-support professional do?",
+          options: [
+            { label: "Back up the colleague so the two of you present a consistent message.", response: "The message is a demand for eye contact, a demand for calm and a threat. Consistency in a wrong approach makes it worse." },
+            { label: "Step in calmly, ask the colleague to give space, lower the noise, and give him his tablet and time: “Your ride is late. It is coming. Do you want to wait here or by the window?”", response: "You have removed the demands and the threat, restored his communication method, told him what is happening and offered a choice. That is de-escalation.", recommended: true },
+            { label: "Call his mother now so she can talk him down.", response: "Using a family member as a consequence teaches him that upset means loss of control. It also skips the information and the choice that would actually help." },
+          ],
+        },
+        transfer: {
+          prompt: "Which habit that raises the tension do you recognize in yourself, and what will you replace it with?",
+          options: ["Practice saying what is happening in one short sentence, then waiting", "Replace “calm down” with a real choice in your next difficult moment", "Make sure every person you support has their communication method within reach before anything goes wrong"],
+        },
+        blocks: [
+          { type: "text", heading: "Your body speaks first", body: "<p>Before you say anything, a distressed person has already read your body: how fast you approached, whether you are square-on or at an angle, how close you stand, whether your hands are visible, whether you are between them and the door. Approach slowly, stop outside arm’s reach, stand at a slight angle with your hands open and low, and leave the exit clear. If the person is seated, sit or crouch to their level if it is safe. If two staff are present, one speaks. The other manages the environment: the noise, the onlookers, the door.</p><p>Then use fewer words than feel natural. A person in overload or a trauma response can process a short sentence and a pause; they cannot process reasoning, policy or reassurance. Say what is happening, say what you can do, offer a choice, and wait. Silence is processing time. Do not fill it with more words, and do not repeat the same words louder.</p><p>Some habits feel helpful and are not. Telling someone to calm down tells them their feeling is the problem. Demanding eye contact is painful or impossible for many autistic people and threatening for people with trauma histories. Asking “why” in the moment demands a report from someone who cannot give one. Touching without permission, even a hand on the shoulder, can turn overload into a fight. Standing over a seated person, blocking the door, or bringing in more staff signals danger. Each of these raises the tension you are trying to lower.</p>" },
+          { type: "accordion", heading: "Say this, not that", items: [
+            { title: "Instead of “Calm down”", body: "<p>Say: “I can see this is a lot. I am here. Take the time you need.” You are acknowledging the feeling instead of correcting it.</p>" },
+            { title: "Instead of “Look at me”", body: "<p>Say nothing about eye contact. Position yourself at an angle and speak; the person is listening whether or not they look at you.</p>" },
+            { title: "Instead of “Why are you doing this?”", body: "<p>Say: “Something is wrong. Is it the noise, the wait, or something else? You can point or show me.” Offer categories instead of demanding a narrative.</p>" },
+            { title: "Instead of “If you do not stop, we will…”", body: "<p>Say: “Here is what I can do right now. Which would you like?” A threat removes choice; an offer restores it.</p>" },
+            { title: "Instead of “You need to…”", body: "<p>Say: “When you are ready, we can…” The person controls the timing, and the door stays open.</p>" },
+            { title: "Instead of speaking for the person’s device or interpreter", body: "<p>Hand the device back, make sure the interpreter is present, and address the person. Losing your communication method during distress is itself an emergency.</p>" },
+          ] },
+          { type: "leaderMove", heading: "One voice, fewer words", control: "You control how many people speak, how many words are used, and whether the person’s communication method is in their hands.", failure: "Do not let three staff talk at once, and do not take a tablet, a communication board or a phone away from someone in distress “until they calm down.” That removes their voice at the moment they need it most.", next: "Agree with your team who speaks and who manages the environment when a moment escalates, before the next one happens." },
+          { type: "list", heading: "The practices, in order of use", ordered: true, items: ["Slow your approach and your breathing before you speak.", "Position at an angle, outside arm’s reach, hands visible, exit clear.", "One voice. The second person handles noise, space and onlookers.", "Acknowledge: “This is a lot.” “You have been waiting a long time.”", "Inform in one sentence: what is happening and what you can do.", "Offer a real choice between two acceptable options.", "Restore the person’s communication method and wait, in silence, for as long as it takes.", "When it eases, ask what would help next time, and write that down."] },
+          { type: "quote", text: "When I am overwhelmed, I cannot find words, and every word you add is another thing I have to carry. Say one thing. Then be quiet with me.", cite: "Composite participant perspective, illustrative" },
+          { type: "flashcards", heading: "Habits that raise the tension", cards: [
+            { front: "Demanding calm", back: "<p>Tells the person their feeling is the problem and that you are grading them. Acknowledge instead.</p>" },
+            { front: "Demanding eye contact", back: "<p>Painful or impossible for many autistic people, threatening for many trauma survivors, and irrelevant to whether they hear you.</p>" },
+            { front: "Asking why", back: "<p>Requires reflection a person in overload or fear cannot do. Offer categories they can point to.</p>" },
+            { front: "Touching, crowding, blocking", back: "<p>The three fastest ways to turn distress into a fight. Distance, angle and an open exit do the opposite.</p>" },
+            { front: "Bringing in more staff", back: "<p>Reads as a threat and multiplies voices. One speaker; the rest manage the room from a distance.</p>" },
+          ] },
+          { type: "knowledgeCheck", id: "de-escalation-without-coercion-3-check", question: "A woman in an interview room is crying, breathing fast and not answering. Which staff response follows this lesson?", options: [
+            { text: "Sit beside her, put a hand on her shoulder, and say she needs to take a breath and explain what is wrong.", correct: false },
+            { text: "Stay seated at an angle, say “Take your time. I am not going anywhere,” and wait in silence, then offer water or a break when she looks up.", correct: true },
+            { text: "Step out and ask a colleague to come in so the two of you can help her together.", correct: false },
+          ], feedbackCorrect: "Yes. Distance, acknowledgment, silence and an offered choice. Nothing is demanded.", feedbackIncorrect: "Touch, a demand to explain and a second staff member each raise the tension. One calm voice and time bring it down." },
+        ],
+      },
+      {
+        id: "de-escalation-without-coercion-4",
+        number: 4,
+        title: "Collaborative problem-solving and the last-resort line",
+        summary: "Follow a response sequence that ends most moments before they become incidents, and know exactly where the line to a restrictive response sits and who draws it.",
+        minutes: 11,
+        learning: {
+          objective: "Apply a response sequence that places prevention, communication, environmental adjustment and collaborative problem-solving before any restrictive response, and state the conditions under which a restrictive response is permitted in your setting.",
+          takeaways: [
+            "Most escalation ends at the environmental or communication step; collaborative problem-solving prevents the next one.",
+            "A restrictive response is permitted only for an imminent risk of serious harm, only in the least restrictive form that works, only for as long as the risk lasts, and only under your program’s policy; in licensed Minnesota services, positive supports rules also apply.",
+            "Noncompliance is never, by itself, a reason for a restrictive response.",
+          ],
+          evidence: "A scenario decision and a knowledge check, plus a written statement of where the last-resort line sits in your own setting and who you call.",
+          appliedNextStep: "Find your program’s policy on emergency and restrictive responses, read the conditions and reporting requirements, and write the one-sentence version you will remember under pressure.",
+        },
+        scenario: {
+          context: "In a licensed community residence, a man with an intellectual disability refuses to leave the kitchen at the scheduled time, raises his voice, and pushes a chair over. No one is within reach of him. A new staff member asks whether this is the point to use the hold they were trained in.",
+          prompt: "What is the right answer?",
+          options: [
+            { label: "Yes; he has become physical, and the hold prevents further escalation.", response: "A pushed chair with no one within reach is not an imminent risk of serious harm. A hold here is coercion for noncompliance, which policy does not permit and which will make the next kitchen conflict worse." },
+            { label: "No. Give him space and time, remove the schedule pressure, find out what the kitchen means to him right now, and problem-solve the routine with him afterward.", response: "Nothing here meets the threshold for a restrictive response. The collaborative step is where this gets solved, tonight and for the future.", recommended: true },
+            { label: "Call the on-call supervisor and clear the room until he complies.", response: "Clearing the room may be sensible for space, but waiting for compliance keeps the power struggle in place. Change what you are asking, not just who is asking." },
+          ],
+        },
+        transfer: {
+          prompt: "What is the last-resort line in your setting, and can you state it in one sentence?",
+          options: ["Read your program’s emergency and restrictive-response policy this week and write the one-sentence version", "Ask your supervisor who is called and what is documented when the line is reached", "Choose one recurring conflict and schedule a collaborative problem-solving conversation with the person when things are calm"],
+        },
+        blocks: [
+          { type: "text", heading: "The sequence, and why order matters", body: "<p>De-escalation is a sequence, not a toolkit you reach into at random. Prevention comes first, because a well-designed room and process stop most moments from starting. Communication comes next, because most of what remains is a message not getting through. Environmental adjustment runs alongside: turn it down, open it up, move somewhere quieter. Collaborative problem-solving is the step people skip: when the moment eases, or later that day, ask the person what happened from their side and what would help next time, and change the routine together. That is what prevents the next incident.</p><p>A restrictive response, meaning anything that limits a person’s movement, freedom or access as a way of controlling behavior, sits at the end of the sequence and is reached rarely. Your program’s policy defines when it is permitted, in what form, for how long, who must be told and what must be documented. In licensed Minnesota disability services, positive supports rules govern this as well, prohibiting some interventions entirely and allowing an emergency manual restraint only under strict conditions. Read your own policy; it is the authority, not this course.</p><p>Two principles hold everywhere. The threshold is imminent risk of serious harm, not disobedience, not disruption, not a schedule. And the response must be the least restrictive one that works, ended the moment the risk passes. A person who will not leave the kitchen is not a safety emergency. A person about to walk into traffic is. Staff who confuse the two cause harm and lose the trust that made the next conversation possible.</p>" },
+          { type: "list", heading: "The response sequence", ordered: true, items: ["Prevent: information, control, a way to ask, a room designed for overload.", "Notice early: a change in pace, volume, movement or withdrawal is the moment to act, not the moment it becomes a report.", "Communicate: one voice, angle and distance, acknowledge, inform, offer a choice, restore the person’s communication method.", "Adjust the environment: reduce noise and light, move to a quieter space, remove onlookers, open the exit, drop the demand.", "Give time: wait in silence; most moments resolve here.", "Problem-solve together: when calm, ask what happened and what would help, and change the routine with the person.", "Only for imminent risk of serious harm: the least restrictive response that works, under policy, for the shortest time, with the required notification and documentation.", "Debrief: with the person, with the team, and in the record, so the next time is different."] },
+          { type: "leaderMove", heading: "Drop the demand before you enforce it", control: "You control whether a moment is about safety or about a schedule, a rule or your own authority. Most standoffs end when the demand is withdrawn or reshaped, not when it is enforced.", failure: "Do not turn “it is time to leave the kitchen” into a test of who wins. Do not describe refusal as a danger in order to justify a response the policy reserves for danger.", next: "The next time a person refuses a routine, ask yourself what would happen if the routine waited fifteen minutes. Usually the answer is nothing." },
+          { type: "accordion", heading: "When the risk is real", items: [
+            { title: "What counts as imminent risk of serious harm", body: "<p>A specific action that is about to cause serious physical injury: striking someone within reach, moving toward traffic, self-injury that could cause serious harm, a weapon in hand. Loud voices, property damage away from people and refusal to comply do not, by themselves, meet the threshold.</p>" },
+            { title: "Least restrictive first", body: "<p>Move people away rather than moving the person. Block the hazard rather than the person. Use verbal direction before physical contact. Use the briefest physical intervention your policy permits and your training covers, and stop the moment the risk has passed.</p>" },
+            { title: "What is never permitted", body: "<p>Your program’s policy and, in licensed services, Minnesota’s positive supports rules list prohibited procedures. Restraint as punishment, as a consequence for noncompliance, for staff convenience or to prevent property damage alone is not permitted anywhere in DHS-funded work. Check your policy for the full list.</p>" },
+            { title: "Who to call and what to record", body: "<p>Your policy names who must be notified, within what time, and what the incident report must contain. Follow it exactly. Lesson five covers how to write the account so that it is accurate and non-stigmatizing.</p>" },
+            { title: "After", body: "<p>The person is owed a conversation about what happened, in a form they can use, and a say in what changes. The team is owed a debrief that looks at the environment and the sequence, not just the person.</p>" },
+          ] },
+          { type: "flashcards", heading: "Where the line is", cards: [
+            { front: "The threshold", back: "<p>Imminent risk of serious physical harm. Not refusal, not noise, not disruption, not property, not a schedule.</p>" },
+            { front: "Least restrictive", back: "<p>The response that works with the least limitation on the person, for the shortest time, ended when the risk ends.</p>" },
+            { front: "Policy is the authority", back: "<p>Your program’s policy and, where it applies, Minnesota’s positive supports rules define what is permitted, prohibited, notified and documented. Know them before you need them.</p>" },
+            { front: "Collaborative problem-solving", back: "<p>When calm, ask the person what happened and what would help, and change the routine with them. This is the step that prevents the next incident.</p>" },
+            { front: "The debrief", back: "<p>Look at the room, the timing, the demand and the sequence, not only at the person. Change what the organization controls.</p>" },
+          ] },
+          { type: "knowledgeCheck", id: "de-escalation-without-coercion-4-check", question: "Which situation meets the threshold for considering a restrictive response under a typical program policy?", options: [
+            { text: "A participant refuses to leave a room at closing time and swears at staff.", correct: false },
+            { text: "A participant has broken a cup and is throwing the pieces at the wall on the far side of an otherwise empty room.", correct: false },
+            { text: "A participant is walking quickly toward a busy road and does not respond to their name or to staff moving alongside them.", correct: true },
+          ], feedbackCorrect: "Yes. Imminent risk of serious harm, and even then the least restrictive response that works, under policy.", feedbackIncorrect: "Refusal, swearing and property damage away from people do not meet the threshold. Only imminent risk of serious harm does." },
+        ],
+      },
+      {
+        id: "de-escalation-without-coercion-5",
+        number: 5,
+        title: "Writing it down without stigma",
+        summary: "Record what happened in a way that is accurate, useful to the next reader and fair to the person, and learn the words that quietly follow people for years.",
+        minutes: 10,
+        learning: {
+          objective: "Write an incident note that records observable behavior, context, staff actions and outcome, and identify at least five stigmatizing words or phrases to remove from documentation.",
+          takeaways: [
+            "A record follows a person into every future encounter; a label written once is read as fact by everyone after.",
+            "Describe what you saw and heard, what was happening in the room, what staff did and what happened next; leave out motives, diagnoses as explanations and character judgments.",
+            "Objective documentation protects the person, protects you and gives the team something it can actually fix.",
+          ],
+          evidence: "One stigmatizing incident note rewritten objectively using the template, and a knowledge check.",
+          appliedNextStep: "Take the last incident or progress note you wrote or read, underline every judgment word, and rewrite it with the observable facts and the environmental context.",
+        },
+        scenario: {
+          context: "A care coordinator must write up a home visit that ended early. Her first draft reads: “Client became aggressive and manipulative when told about the service change, refused to cooperate, and displayed typical borderline behavior. Visit terminated for safety.”",
+          prompt: "What should the note say instead?",
+          options: [
+            { label: "Keep the note; it is short, honest and warns the next worker.", response: "It contains four labels and no facts. The next worker will arrive expecting aggression and will find whatever they expect." },
+            { label: "Rewrite it: what was said and in what order, what the client did and said, what the room was like, what the coordinator did, and how the visit ended. Remove the diagnosis and the character words.", response: "Now the note is evidence. It tells the next worker what happened, what triggered it and what to do differently, without sentencing the person to a reputation.", recommended: true },
+            { label: "Soften it: “Client was upset and the visit ended early.”", response: "Vague is not the same as objective. The note needs the observable facts, the context and the staff actions, or it is useless to everyone." },
+          ],
+        },
+        transfer: {
+          prompt: "Which word in your team’s notes would you retire first, and what facts would replace it?",
+          options: ["Pull three recent notes and underline every judgment word", "Rewrite one using the template and share it with a colleague", "Propose that your team adopt the four-part structure for every incident note"],
+        },
+        blocks: [
+          { type: "text", heading: "The record outlives the moment", body: "<p>An incident note is read by people who were not there, sometimes for years. A supervisor reads it to decide what happened. A new worker reads it before a first visit. A reviewer reads it when a complaint is filed. A person may read it themselves, or their advocate may. Each of those readers will take a label as a finding. “Aggressive” becomes a fact about the person. “Manipulative” becomes a reason not to believe them. “Noncompliant” becomes a reason to stop offering choices. The note you write in five minutes shapes every encounter that follows.</p><p>Objective documentation records four things. <strong>Behavior</strong>: what you saw and heard, in plain words, in order. <strong>Context</strong>: what was happening in the room and the process, including what had just been said to the person, the noise, the wait, who was present. <strong>Staff actions</strong>: what you and others did, including what you tried before anything else. <strong>Outcome</strong>: how it ended and what the person said or did afterward. Leave out motives you cannot know, diagnoses used as explanations, comparisons to other people, and any word that describes character rather than action.</p><p>This is not softening. A note that says “he stood, pushed a chair over with his foot so that it fell away from staff, and said loudly that no one was listening to him” is more precise and more useful than “he became aggressive.” It tells the reader exactly how serious it was, what preceded it, and what the person was communicating. It also happens to be fair.</p>" },
+          { type: "accordion", heading: "Words that stigmatize, and what to write instead", items: [
+            { title: "Aggressive, violent, dangerous", body: "<p>Write the action: “raised his voice,” “struck the desk twice with an open hand,” “threw a cup toward the wall, away from people.” Let the reader judge the seriousness from the facts.</p>" },
+            { title: "Noncompliant, refused, uncooperative", body: "<p>Write what was asked and what the person did or said: “was asked to move to room 2 and remained seated, saying she wanted to finish reading the letter first.” Refusal has a content; record it.</p>" },
+            { title: "Manipulative, attention-seeking, drug-seeking", body: "<p>These assign a motive you cannot see. Write what the person asked for and what they said about why.</p>" },
+            { title: "Typical for her diagnosis, borderline behavior, being autistic about it", body: "<p>A diagnosis is not an explanation for behavior and does not belong in an incident note as one. Write the behavior and the context.</p>" },
+            { title: "Escalated, meltdown, acting out", body: "<p>Write the sequence: what changed, when, after what. “After twenty minutes in the lobby with the television on, began pacing and speaking loudly.”</p>" },
+            { title: "Calmed down, de-escalated by staff", body: "<p>Write what staff did and what the person did next: “staff offered the quiet room; he accepted, sat, and after about five minutes asked for water.” Credit goes to specific actions, not to a verb.</p>" },
+          ] },
+          { type: "artifact", kind: "tagged-document", label: "Practical artifact", title: "Incident note, four parts", summary: "A structure that produces accurate, useful, non-stigmatizing records every time.", fields: [
+            { label: "Behavior", value: "What you saw and heard, in plain words, in order, with approximate times. Quote the person where you can. No motives, no labels, no diagnosis as explanation." },
+            { label: "Context", value: "Where it happened, who was present, the noise and light, how long the person had waited, what had just been said or asked, and anything the person said about what was wrong." },
+            { label: "Staff actions", value: "What was tried, in order: acknowledgment, information, choices offered, environmental changes, time given. If a restrictive response was used, the policy basis, duration, notifications and who authorized it." },
+            { label: "Outcome and follow-up", value: "How it ended, what the person said or did afterward, what they asked for next time, and what the team will change in the environment or routine." },
+          ], action: "Use these four headings for your next incident note. Read it back as if you were the person, then as if you were the next worker." },
+          { type: "leaderMove", heading: "Underline the judgments", control: "You control whether a note describes what happened or delivers a verdict on who the person is.", failure: "Do not sign off on a note that contains “aggressive,” “manipulative,” “noncompliant” or a diagnosis as an explanation without asking the writer for the observable facts behind each word.", next: "Review the next three incident notes you see for judgment words, and coach the writer to replace each with what was seen and heard." },
+          { type: "flashcards", heading: "Before and after", cards: [
+            { front: "“Client was hostile.”", back: "<p>“Client said, in a raised voice, that she had been given the wrong information twice and did not trust the letter. She remained seated and did not approach staff.”</p>" },
+            { front: "“Refused to participate.”", back: "<p>“Was asked to begin the assessment questions and said he wanted his sister present first. Assessment was rescheduled for Thursday with his sister attending.”</p>" },
+            { front: "“Had a meltdown in the lobby.”", back: "<p>“After about thirty minutes in the lobby, with the television on and roughly fifteen people present, began pacing and covering his ears. Accepted the offer of the quiet room within two minutes.”</p>" },
+            { front: "“Staff de-escalated the situation.”", back: "<p>“Staff turned off the television, offered water and a seat by the window, and waited. After approximately five minutes the client sat down and asked how much longer the wait would be.”</p>" },
+          ] },
+          { type: "statement", body: "Write every note as if the person will read it, the next worker will act on it, and a reviewer will test each word against what was actually seen. Good documentation passes all three." },
+          { type: "knowledgeCheck", id: "de-escalation-without-coercion-5-check", question: "Which sentence belongs in an objective incident note?", options: [
+            { text: "“Client became verbally aggressive and noncompliant when redirected.”", correct: false },
+            { text: "“When asked to move to the interview room, client said loudly that she would not go anywhere until someone explained the letter, and remained seated. Staff sat nearby and explained the letter; she moved to the room about four minutes later.”", correct: true },
+            { text: "“Client exhibited behaviors consistent with her diagnosis and was calmed down by staff.”", correct: false },
+          ], feedbackCorrect: "Yes. Behavior, context, staff action and outcome, in plain words, with no labels.", feedbackIncorrect: "Both other sentences contain labels or a diagnosis as explanation and no observable facts. Write what was seen, heard, done and what happened next." },
+        ],
+      },
+    ],
+  },
+  jobAid: {
+    title: "De-escalation without coercion",
+    subtitle: "A one-page reminder for lobbies, interview rooms, homes and programs",
+    quote: "Change the room before the person. One voice, fewer words, a real choice. The line is imminent serious harm, and policy draws it.",
+    use: {
+      purpose: "Keep the five sources, the sequence and the documentation standard in view when a moment starts to rise.",
+      remember: ["Distress, communication, overload, trauma response and risk look alike from outside and need different responses.", "Information, control and a way to ask prevent most incidents.", "Noncompliance is never a reason for a restrictive response.", "The note you write follows the person; record behavior, context, staff actions and outcome."],
+      doNext: "Walk your own setting as an overloaded person this month and change one thing you control.",
+    },
+    sections: [
+      { heading: "In the moment", items: ["Slow down. Approach at an angle, outside arm’s reach, hands visible, exit clear.", "One voice. Acknowledge, inform in one sentence, offer two acceptable choices, then wait.", "Reduce input: noise off, quieter space, onlookers gone, demand dropped.", "Restore the person’s communication method; never take it away."] },
+      { heading: "The line", items: ["Threshold: imminent risk of serious physical harm, nothing less.", "Least restrictive response that works, for the shortest time, ended when the risk ends.", "Your program’s policy and, in licensed services, Minnesota’s positive supports rules govern what is permitted, notified and documented."] },
+      { heading: "Afterward", items: ["Ask the person what happened and what would help next time; change the routine together.", "Debrief the room, the timing and the demand, not only the person.", "Write behavior, context, staff actions and outcome. Remove every label and every diagnosis used as an explanation."] },
+    ],
+  },
+  sources: [
+    { title: "Minnesota Department of Human Services", href: "https://mn.gov/dhs/", note: "Home of the department’s policies for licensed services, including positive supports requirements that restrict restrictive interventions and set emergency-use conditions and reporting." },
+    { title: "Substance Abuse and Mental Health Services Administration", href: "https://www.samhsa.gov/", note: "Federal guidance on trauma-informed approaches and on reducing seclusion and restraint in service settings." },
+    { title: "ADA National Network", href: "https://adata.org/", note: "Guidance on effective communication and on serving people with disabilities in public programs, including when behavior is related to disability." },
+    { title: "U.S. Department of Justice, ADA.gov, Effective Communication", href: "https://www.ada.gov/topics/effective-communication/", note: "Public entities must communicate as effectively with people with disabilities as with others, including through auxiliary aids and services." },
+    { title: "Minnesota Olmstead Plan, Minnesota Department of Human Services", href: "https://mn.gov/dhs/general-public/about-dhs/olmstead/", note: "State commitments on positive supports and on reducing the use of restrictive procedures for people with disabilities." },
+  ],
+};
+
+export default pack;

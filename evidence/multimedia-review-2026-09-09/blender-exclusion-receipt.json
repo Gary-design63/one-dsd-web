@@ -1,0 +1,18 @@
+{
+  "checkedOn": "2026-09-09",
+  "authority": "Current owner explicitly excludes Blender altogether; not an optional or paused integration",
+  "changes": [
+    "Removed Consultant Workspace Visual Studio navigation; legacy page preserves owner leaf guard and invokes notFound for authenticated access, with no authoring work.",
+    "Legacy GET, POST and asset endpoints return410 with no-store before authentication, request parsing, file discovery or execution.",
+    "Removed studio.scene_create from tool catalog and every agent allowlist.",
+    "Removed localStudioAudit special-case execution from shared tool runtime; legacy tool calls follow audited unregistered-tool denial.",
+    "Agent compatibility function throws integration_removed410 without parsing or executing a brief.",
+    "localExecutionAllowed always returnsfalse regardless of platform or historical flags. Direct discovery returnsundefined and direct render rejects410 before filesystem/subprocess activity.",
+    "Service create/list/open/launch/asset/audit methods retain assertLocal and now reject with integration_removed410; status returns unavailable without probing installation.",
+    "Historical program multimedia map and Blender reference explicitly marked superseded/retired at opening."
+  ],
+  "preservation": "Existing renderer implementation, pure argument builder, bounded source contracts, Python scene source and historical output files remain. Overwritten prototype handlers/page/agent and3 earlier test suites are preserved as .txt under superseded-blender-prototype. No software uninstall, record deletion or historical scene removal.",
+  "tests": {"command": "npx vitest run tests/visual-studio-api.test.ts tests/visual-studio-audit.test.ts tests/visual-studio-renderer.test.ts", "passed": 21, "coverage": "No execution across6 platform/environment combinations including explicit old enable flags; malformed/oversized/launch/traversal/remote/cookie requests; no backend/FS/subprocess calls; direct discovery/render denial; no registered tool/allowlist; staff/owner/other-agent/dry-run all denied with bounded audit; original brief validation and safe pure argument construction retained."},
+  "additionalProtectionChecks": {"apiAndStudioSuitesPassed": 56, "protectedPagesAndRg3SuitesPassed": 14, "exhaustiveInventory": "Both retired API paths and retired page explicitly retained in inventories; no skipped discovery or weakened owner/auth checks for active routes", "lint": "Passed for all edited exclusion/protection files"},
+  "limits": "Root coordinates post-change full typecheck/build and deployment verification. This receipt does not claim production deployment."
+}

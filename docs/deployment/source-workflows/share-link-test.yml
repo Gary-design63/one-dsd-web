@@ -1,0 +1,45 @@
+name: Share-link test (three resources, emailed to the owner)
+
+on:
+  workflow_dispatch:
+    inputs:
+      base_url:
+        description: Site to check
+        default: https://one-dhs-pac.vercel.app
+        required: true
+      send_email:
+        description: Email the report to the owner through the app's Resend route
+        type: boolean
+        default: true
+      source_ref:
+        description: Branch the live site is built from (supplies the share rule)
+        default: pac/one-dhs-pac-app
+        required: true
+
+permissions:
+  contents: read
+
+jobs:
+  share-links:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ inputs.source_ref }}
+          path: live-source
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - name: Build three share links, open each on the live site, email the report
+        env:
+          SHARE_CHECK_BASE_URL: ${{ inputs.base_url }}
+          SHARE_CHECK_SEND: ${{ inputs.send_email }}
+          SHARE_CHECK_SOURCE_DIR: live-source
+        run: node scripts/share-link-test.mjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: share-link-test-report
+          path: share-link-test-report.json

@@ -1,0 +1,89 @@
+{
+  "stage": "2",
+  "plan": "docs/PRACTICE-INFRASTRUCTURE-BUILD-PLAN-2026-09-12.md",
+  "checkedAtUtc": "2026-09-12T04:02:37Z",
+  "environment": "Local development container, Node 24.14.0; static content mode; no database",
+  "placements": [
+    {
+      "course": "di-inclusive-meetings-events-learning",
+      "jobAidSection": "Standing arrangements and requests",
+      "source": "DEIA integration framework, Accessibility Compliance System, meeting accessibility protocol",
+      "forwardLinks": [
+        "/practice/gp-12",
+        "/practice/gp-8"
+      ],
+      "placement": "jobAid.sections (fourth section); last lesson text block 'Take it to your work'"
+    },
+    {
+      "course": "di-accessible-content-and-digital-learning",
+      "jobAidSection": "Documents, PDF files and email",
+      "source": "Accessibility Compliance System, PDF and email accessibility procedures",
+      "forwardLinks": [
+        "/practice/gp-13",
+        "/practice/gp-2"
+      ],
+      "placement": "jobAid.sections (fourth section); last lesson text block"
+    },
+    {
+      "course": "di-accommodations-and-interactive-process",
+      "jobAidSection": "What an accessible process looks like",
+      "source": "Accessibility Compliance System, accommodation request process (described as features of a good process, not as DHS policy)",
+      "forwardLinks": [
+        "/support/right-person",
+        "/practice/gp-4"
+      ],
+      "placement": "jobAid.sections (fourth section); last lesson text block"
+    },
+    {
+      "course": "di-inclusive-supervision-and-team-culture",
+      "jobAidSection": "Interviewing and selecting",
+      "source": "Inclusive Hiring Protocol, position analysis and structured interviewing (practice guidance; HR policy governs)",
+      "forwardLinks": [
+        "/practice/gp-12",
+        "/practice/gp-6"
+      ],
+      "placement": "jobAid.sections (fourth section); last lesson text block"
+    }
+  ],
+  "deliveredMedium": "Text job-aid sections and linked text blocks; no new imagery or audio",
+  "verification": {
+    "typecheck": "tsc --noEmit exit 0",
+    "lint": "npm run lint exit 0 (0 errors, 4 pre-existing warnings)",
+    "tests": "authored-courses, course-controls-and-sources, course-interactions, course-index-performance passed; library-search-continuity updated to count recovered plus program-authored courses and passed (7 tests)",
+    "browser": [
+      {
+        "route": "/courses/di-inclusive-meetings-events-learning",
+        "sectionRendered": true,
+        "overflowAt400px": false
+      },
+      {
+        "route": "/courses/di-inclusive-meetings-events-learning/inclusive-meetings-events-learning-5",
+        "linksRendered": [
+          "/practice/gp-12",
+          "/practice/gp-8"
+        ],
+        "overflowAt400px": false
+      },
+      {
+        "route": "/courses/di-accessible-content-and-digital-learning",
+        "sectionRendered": true
+      },
+      {
+        "route": "/courses/di-accommodations-and-interactive-process/accommodations-and-interactive-process-4",
+        "linksRendered": [
+          "/support/right-person",
+          "/practice/gp-4"
+        ]
+      },
+      {
+        "route": "/courses/di-inclusive-supervision-and-team-culture",
+        "sectionRendered": true
+      }
+    ]
+  },
+  "notDone": [
+    "Not deployed",
+    "Job aids live inside the courses; no new library resources were added because the seed release pins the corpus at 25 items",
+    "Vectors unchanged: course job aids and lesson blocks are not part of the indexed text (titles and summaries only)"
+  ]
+}

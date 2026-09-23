@@ -1,0 +1,42 @@
+{
+  "schemaVersion": "1.0.0",
+  "recordedOn": "2026-09-05",
+  "purpose": "Non-secret receipt for the completed PAC shadow import.",
+  "database": {
+    "projectRef": "qhiawdhehhfuccxvhldo",
+    "projectName": "one-dsd-vercel-staging",
+    "legacyEventsPreserved": 574
+  },
+  "migration": {
+    "name": "0001_pac_content_foundation.sql",
+    "sha256": "7C1C2BE6DE36A2611A9BDB9E3BD54B193FF8A2D94D0F0004E762AFBE7C692AE8"
+  },
+  "ingestRun": {
+    "runId": "bac47fd8-6fc5-4e52-bc49-030fb847b8ff",
+    "stageId": "pac-corpus-import-2026-09-04",
+    "stageSetSha256": "AB1FAD81831A5A9C43073235CEF05045041C2DCCA867EC279AE84A8564D294FC",
+    "status": "promoted",
+    "inserted": 1207,
+    "exactReplay": 0
+  },
+  "counts": {
+    "sourceCarriers": 44,
+    "sourceItems": 630,
+    "sourceReviews": 282,
+    "collections": 1,
+    "contentItems": 25,
+    "contentRevisions": 25,
+    "membershipDecisions": 25,
+    "publicationDecisions": 0,
+    "staffPublications": 0
+  },
+  "security": {
+    "pacRelationsWithRowLevelSecurity": 27,
+    "pacRelationsChecked": 27,
+    "schemaUsageGrantedToPublic": false,
+    "schemaUsageGrantedToAnon": false,
+    "schemaUsageGrantedToAuthenticated": false
+  },
+  "canonicalProjectionLoaded": false,
+  "credentialsIncluded": false
+}

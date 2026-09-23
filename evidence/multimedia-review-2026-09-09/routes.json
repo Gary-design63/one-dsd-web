@@ -1,0 +1,468 @@
+{
+  "createdAt": "2026-09-09T05:00:02.5332177Z",
+  "routeTemplateCount": 77,
+  "routes": [
+    {
+      "source": "app/about/page.tsx",
+      "route": "/about",
+      "scope": "staff-or-alias",
+      "review": "Local source structure and media opportunities; not a live browser certification"
+    },
+    {
+      "source": "app/areas/[id]/page.tsx",
+      "route": "/areas/[id]",
+      "scope": "staff-or-alias",
+      "review": "Local source structure and media opportunities; not a live browser certification"
+    },
+    {
+      "source": "app/areas/page.tsx",
+      "route": "/areas",
+      "scope": "staff-or-alias",
+      "review": "Local source structure and media opportunities; not a live browser certification"
+    },
+    {
+      "source": "app/ask/page.tsx",
+      "route": "/ask",
+      "scope": "staff-or-alias",
+      "review": "Local source structure and media opportunities; not a live browser certification"
+    },
+    {
+      "source": "app/consultant/ask-records/page.tsx",
+      "route": "/consultant/ask-records",
+      "scope": "protected-authoring",
+      "review": "Local source structure and media opportunities; not a live browser certification"
+    },
+    {
+      "source": "app/consultant/audit/page.tsx",
+      "route": "/consultant/audit",
+      "scope": "protected-authoring",
+      "review": "Local source structure and media opportunities; not a live browser certification"
+    },
+    {
+      "source": "app/consultant/evals/page.tsx",
+      "route": "/consultant/evals",
+      "scope": "protected-authoring",
+      "review": "Local source structure and media opportunities; not a live browser certification"
+    },
+    {
+      "source": "app/consultant/library/[id]/page.tsx",
+      "route": "/consultant/library/[id]",
+      "scope": "protected-authoring",
+      "review": "Local source structure and media opportunities; not a live browser certification"
+    },
+    {
+      "source": "app/consultant/library/page.tsx",
+      "route": "/consultant/library",
+      "scope": "protected-authoring",
+      "review": "Local source structure and media opportunities; not a live browser certification"
+    },
+    {
+      "source": "app/consultant/one-dsd-team/page.tsx",
+      "route": "/consultant/one-dsd-team",
+      "scope": "protected-authoring",
+      "review": "Local source structure and media opportunities; not a live browser certification"
+    },
+    {
+      "source": "app/consultant/orchestrator/page.tsx",
+      "route": "/consultant/orchestrator",
+      "scope": "protected-authoring",
+      "review": "Local source structure and media opportunities; not a live browser certification"
+    },
+    {
+      "source": "app/consultant/page.tsx",
+      "route": "/consultant",
+      "scope": "protected-authoring",
+      "review": "Local source structure and media opportunities; not a live browser certification"
+    },
+    {
+      "source": "app/consultant/program/page.tsx",
+      "route": "/consultant/program",
+      "scope": "protected-authoring",
+      "review": "Local source structure and media opportunities; not a live browser certification"
+    },
+    {
+      "source": "app/consultant/queue/[id]/page.tsx",
+      "route": "/consultant/queue/[id]",
+      "scope": "protected-authoring",
+      "review": "Local source structure and media opportunities; not a live browser certification"
+    },
+    {
+      "source": "app/consultant/registry/page.tsx",
+      "route": "/consultant/registry",
+      "scope": "protected-authoring",
+      "review": "Local source structure and media opportunities; not a live browser certification"
+    },
+    {
+      "source": "app/consultant/research/page.tsx",
+      "route": "/consultant/research",
+      "scope": "protected-authoring",
+      "review": "Local source structure and media opportunities; not a live browser certification"
+    },
+    {
+      "source": "app/consultant/resources/[id]/page.tsx",
+      "route": "/consultant/resources/[id]",
+      "scope": "protected-authoring",
+      "review": "Local source structure and media opportunities; not a live browser certification"
+    },
+    {
+      "source": "app/consultant/resources/page.tsx",
+      "route": "/consultant/resources",
+      "scope": "protected-authoring",
+      "review": "Local source structure and media opportunities; not a live browser certification"
+    },
+    {
+      "source": "app/consultant/review/page.tsx",
+      "route": "/consultant/review",
+      "scope": "protected-authoring",
+      "review": "Local source structure and media opportunities; not a live browser certification"
+    },
+    {
+      "source": "app/consultant/studio/page.tsx",
+      "route": "/consultant/studio",
+      "scope": "protected-authoring",
+      "review": "Local source structure and media opportunities; not a live browser certification"
+    },
+    {
+      "source": "app/consultant/workforce/[areaId]/page.tsx",
+      "route": "/consultant/workforce/[areaId]",
+      "scope": "protected-authoring",
+      "review": "Local source structure and media opportunities; not a live browser certification"
+    },
+    {
+      "source": "app/consultant/workforce/page.tsx",
+      "route": "/consultant/workforce",
+      "scope": "protected-authoring",
+      "review": "Local source structure and media opportunities; not a live browser certification"
+    },
+    {
+      "source": "app/contribute/accept/page.tsx",
+      "route": "/contribute/accept",
+      "scope": "protected-authoring",
+      "review": "Local source structure and media opportunities; not a live browser certification"
+    },
+    {
+      "source": "app/contribute/access/page.tsx",
+      "route": "/contribute/access",
+      "scope": "protected-authoring",
+      "review": "Local source structure and media opportunities; not a live browser certification"
+    },
+    {
+      "source": "app/contribute/page.tsx",
+      "route": "/contribute",
+      "scope": "protected-authoring",
+      "review": "Local source structure and media opportunities; not a live browser certification"
+    },
+    {
+      "source": "app/contribute/resources/[id]/edit/page.tsx",
+      "route": "/contribute/resources/[id]/edit",
+      "scope": "protected-authoring",
+      "review": "Local source structure and media opportunities; not a live browser certification"
+    },
+    {
+      "source": "app/contribute/resources/[id]/page.tsx",
+      "route": "/contribute/resources/[id]",
+      "scope": "protected-authoring",
+      "review": "Local source structure and media opportunities; not a live browser certification"
+    },
+    {
+      "source": "app/contribute/resources/page.tsx",
+      "route": "/contribute/resources",
+      "scope": "protected-authoring",
+      "review": "Local source structure and media opportunities; not a live browser certification"
+    },
+    {
+      "source": "app/courses/[courseId]/[lessonId]/page.tsx",
+      "route": "/courses/[courseId]/[lessonId]",
+      "scope": "staff-or-alias",
+      "review": "Local source structure and media opportunities; not a live browser certification"
+    },
+    {
+      "source": "app/courses/[courseId]/page.tsx",
+      "route": "/courses/[courseId]",
+      "scope": "staff-or-alias",
+      "review": "Local source structure and media opportunities; not a live browser certification"
+    },
+    {
+      "source": "app/domains/[id]/page.tsx",
+      "route": "/domains/[id]",
+      "scope": "staff-or-alias",
+      "review": "Local source structure and media opportunities; not a live browser certification"
+    },
+    {
+      "source": "app/domains/page.tsx",
+      "route": "/domains",
+      "scope": "staff-or-alias",
+      "review": "Local source structure and media opportunities; not a live browser certification"
+    },
+    {
+      "source": "app/employee-resource-groups/page.tsx",
+      "route": "/employee-resource-groups",
+      "scope": "staff-or-alias",
+      "review": "Local source structure and media opportunities; not a live browser certification"
+    },
+    {
+      "source": "app/guided-start/page.tsx",
+      "route": "/guided-start",
+      "scope": "staff-or-alias",
+      "review": "Local source structure and media opportunities; not a live browser certification"
+    },
+    {
+      "source": "app/learn/[stage]/page.tsx",
+      "route": "/learn/[stage]",
+      "scope": "staff-or-alias",
+      "review": "Local source structure and media opportunities; not a live browser certification"
+    },
+    {
+      "source": "app/learn/community-connections/page.tsx",
+      "route": "/learn/community-connections",
+      "scope": "staff-or-alias",
+      "review": "Local source structure and media opportunities; not a live browser certification"
+    },
+    {
+      "source": "app/learn/equity-toolkit/page.tsx",
+      "route": "/learn/equity-toolkit",
+      "scope": "staff-or-alias",
+      "review": "Local source structure and media opportunities; not a live browser certification"
+    },
+    {
+      "source": "app/learn/intercultural/page.tsx",
+      "route": "/learn/intercultural",
+      "scope": "staff-or-alias",
+      "review": "Local source structure and media opportunities; not a live browser certification"
+    },
+    {
+      "source": "app/learn/page.tsx",
+      "route": "/learn",
+      "scope": "staff-or-alias",
+      "review": "Local source structure and media opportunities; not a live browser certification"
+    },
+    {
+      "source": "app/library/[id]/page.tsx",
+      "route": "/library/[id]",
+      "scope": "staff-or-alias",
+      "review": "Local source structure and media opportunities; not a live browser certification"
+    },
+    {
+      "source": "app/library/page.tsx",
+      "route": "/library",
+      "scope": "staff-or-alias",
+      "review": "Local source structure and media opportunities; not a live browser certification"
+    },
+    {
+      "source": "app/minnesota-communities/[id]/page.tsx",
+      "route": "/minnesota-communities/[id]",
+      "scope": "staff-or-alias",
+      "review": "Local source structure and media opportunities; not a live browser certification"
+    },
+    {
+      "source": "app/minnesota-communities/page.tsx",
+      "route": "/minnesota-communities",
+      "scope": "staff-or-alias",
+      "review": "Local source structure and media opportunities; not a live browser certification"
+    },
+    {
+      "source": "app/my-view/page.tsx",
+      "route": "/my-view",
+      "scope": "staff-or-alias",
+      "review": "Local source structure and media opportunities; not a live browser certification"
+    },
+    {
+      "source": "app/my-work/explore/page.tsx",
+      "route": "/my-work/explore",
+      "scope": "staff-or-alias",
+      "review": "Local source structure and media opportunities; not a live browser certification"
+    },
+    {
+      "source": "app/my-work/page.tsx",
+      "route": "/my-work",
+      "scope": "staff-or-alias",
+      "review": "Local source structure and media opportunities; not a live browser certification"
+    },
+    {
+      "source": "app/one-dsd/amplify/co-leads/page.tsx",
+      "route": "/one-dsd/amplify/co-leads",
+      "scope": "staff-or-alias",
+      "review": "Local source structure and media opportunities; not a live browser certification"
+    },
+    {
+      "source": "app/one-dsd/amplify/gatherings/page.tsx",
+      "route": "/one-dsd/amplify/gatherings",
+      "scope": "staff-or-alias",
+      "review": "Local source structure and media opportunities; not a live browser certification"
+    },
+    {
+      "source": "app/one-dsd/amplify/ideas/page.tsx",
+      "route": "/one-dsd/amplify/ideas",
+      "scope": "staff-or-alias",
+      "review": "Local source structure and media opportunities; not a live browser certification"
+    },
+    {
+      "source": "app/one-dsd/amplify/materials/page.tsx",
+      "route": "/one-dsd/amplify/materials",
+      "scope": "staff-or-alias",
+      "review": "Local source structure and media opportunities; not a live browser certification"
+    },
+    {
+      "source": "app/one-dsd/amplify/mentoring/page.tsx",
+      "route": "/one-dsd/amplify/mentoring",
+      "scope": "staff-or-alias",
+      "review": "Local source structure and media opportunities; not a live browser certification"
+    },
+    {
+      "source": "app/one-dsd/amplify/page.tsx",
+      "route": "/one-dsd/amplify",
+      "scope": "staff-or-alias",
+      "review": "Local source structure and media opportunities; not a live browser certification"
+    },
+    {
+      "source": "app/one-dsd/amplify/well-being/page.tsx",
+      "route": "/one-dsd/amplify/well-being",
+      "scope": "staff-or-alias",
+      "review": "Local source structure and media opportunities; not a live browser certification"
+    },
+    {
+      "source": "app/one-dsd/leadership/page.tsx",
+      "route": "/one-dsd/leadership",
+      "scope": "staff-or-alias",
+      "review": "Local source structure and media opportunities; not a live browser certification"
+    },
+    {
+      "source": "app/one-dsd/page.tsx",
+      "route": "/one-dsd",
+      "scope": "staff-or-alias",
+      "review": "Local source structure and media opportunities; not a live browser certification"
+    },
+    {
+      "source": "app/one-dsd/programs/[id]/page.tsx",
+      "route": "/one-dsd/programs/[id]",
+      "scope": "staff-or-alias",
+      "review": "Local source structure and media opportunities; not a live browser certification"
+    },
+    {
+      "source": "app/one-dsd/scenarios/[id]/page.tsx",
+      "route": "/one-dsd/scenarios/[id]",
+      "scope": "staff-or-alias",
+      "review": "Local source structure and media opportunities; not a live browser certification"
+    },
+    {
+      "source": "app/one-dsd/team/learning-lab/page.tsx",
+      "route": "/one-dsd/team/learning-lab",
+      "scope": "staff-or-alias",
+      "review": "Local source structure and media opportunities; not a live browser certification"
+    },
+    {
+      "source": "app/one-dsd/team/page.tsx",
+      "route": "/one-dsd/team",
+      "scope": "staff-or-alias",
+      "review": "Local source structure and media opportunities; not a live browser certification"
+    },
+    {
+      "source": "app/operationalizing-equity/page.tsx",
+      "route": "/operationalizing-equity",
+      "scope": "staff-or-alias",
+      "review": "Local source structure and media opportunities; not a live browser certification"
+    },
+    {
+      "source": "app/orientation/page.tsx",
+      "route": "/orientation",
+      "scope": "staff-or-alias",
+      "review": "Local source structure and media opportunities; not a live browser certification"
+    },
+    {
+      "source": "app/page.tsx",
+      "route": "/",
+      "scope": "staff-or-alias",
+      "review": "Local source structure and media opportunities; not a live browser certification"
+    },
+    {
+      "source": "app/paths/[id]/page.tsx",
+      "route": "/paths/[id]",
+      "scope": "staff-or-alias",
+      "review": "Local source structure and media opportunities; not a live browser certification"
+    },
+    {
+      "source": "app/paths/page.tsx",
+      "route": "/paths",
+      "scope": "staff-or-alias",
+      "review": "Local source structure and media opportunities; not a live browser certification"
+    },
+    {
+      "source": "app/practice/[id]/page.tsx",
+      "route": "/practice/[id]",
+      "scope": "staff-or-alias",
+      "review": "Local source structure and media opportunities; not a live browser certification"
+    },
+    {
+      "source": "app/practice/measurement/page.tsx",
+      "route": "/practice/measurement",
+      "scope": "staff-or-alias",
+      "review": "Local source structure and media opportunities; not a live browser certification"
+    },
+    {
+      "source": "app/practice/page.tsx",
+      "route": "/practice",
+      "scope": "staff-or-alias",
+      "review": "Local source structure and media opportunities; not a live browser certification"
+    },
+    {
+      "source": "app/resources/[id]/page.tsx",
+      "route": "/resources/[id]",
+      "scope": "staff-or-alias",
+      "review": "Local source structure and media opportunities; not a live browser certification"
+    },
+    {
+      "source": "app/resources/page.tsx",
+      "route": "/resources",
+      "scope": "staff-or-alias",
+      "review": "Local source structure and media opportunities; not a live browser certification"
+    },
+    {
+      "source": "app/start/page.tsx",
+      "route": "/start",
+      "scope": "staff-or-alias",
+      "review": "Local source structure and media opportunities; not a live browser certification"
+    },
+    {
+      "source": "app/support/directory/page.tsx",
+      "route": "/support/directory",
+      "scope": "staff-or-alias",
+      "review": "Local source structure and media opportunities; not a live browser certification"
+    },
+    {
+      "source": "app/support/page.tsx",
+      "route": "/support",
+      "scope": "staff-or-alias",
+      "review": "Local source structure and media opportunities; not a live browser certification"
+    },
+    {
+      "source": "app/support/request/page.tsx",
+      "route": "/support/request",
+      "scope": "staff-or-alias",
+      "review": "Local source structure and media opportunities; not a live browser certification"
+    },
+    {
+      "source": "app/support/right-person/page.tsx",
+      "route": "/support/right-person",
+      "scope": "staff-or-alias",
+      "review": "Local source structure and media opportunities; not a live browser certification"
+    },
+    {
+      "source": "app/support/share-result/page.tsx",
+      "route": "/support/share-result",
+      "scope": "staff-or-alias",
+      "review": "Local source structure and media opportunities; not a live browser certification"
+    },
+    {
+      "source": "app/support/track/page.tsx",
+      "route": "/support/track",
+      "scope": "staff-or-alias",
+      "review": "Local source structure and media opportunities; not a live browser certification"
+    },
+    {
+      "source": "app/understanding-dhs/page.tsx",
+      "route": "/understanding-dhs",
+      "scope": "staff-or-alias",
+      "review": "Local source structure and media opportunities; not a live browser certification"
+    }
+  ]
+}

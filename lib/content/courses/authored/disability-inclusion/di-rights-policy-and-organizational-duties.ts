@@ -1,0 +1,297 @@
+import type { CoursePack } from "../../source-types";
+
+// Disability Inclusion · Practitioner, Module 1: Disability Rights, Policy and Organizational Duties.
+// Program-authored course for accessibility coordinators, equity professionals, supervisors, policy analysts and inclusion champions.
+const pack: CoursePack = {
+  course: {
+    id: "di-rights-policy-and-organizational-duties",
+    indexNumber: 1112,
+    seriesLabel: "Disability Inclusion · Practitioner",
+    title: "Disability Rights, Policy and Organizational Duties",
+    subtitle: "Read the ADA, Section 504, Section 508, the Minnesota Human Rights Act and the Olmstead Plan as duties your organization owns, then know exactly who answers which question.",
+    scope: "For accessibility coordinators, equity professionals, learning leaders, human resources partners, program managers, supervisors, policy analysts, internal trainers and inclusion champions. Four lessons that orient you to the laws behind the work without offering legal advice, and that end with a referral map you can use tomorrow. Participation in this program is voluntary and does not replace required training.",
+    treatment: "Four short lessons with scenarios, flashcards, a sorting activity, a referral map and knowledge checks",
+    duration: "45–55 minutes",
+    author: "One DHS — People, Access and Culture",
+    coverImage: "/images/covers/equal-opportunity-employment.jpg",
+    coverAlt: "A woman reviews an employment packet at a table.",
+    introTranscript: "Most of the people who make disability inclusion real in a public agency are not lawyers. They are supervisors, coordinators, analysts and trainers who need to understand what the organization owes people and where a question should go. This course reads five sources of duty, the Americans with Disabilities Act, Section 504, Section 508, the Minnesota Human Rights Act and the Minnesota Olmstead Plan, as organizational responsibilities in employment, programs, services, communication and digital environments. You will learn to tell compliance, accessibility, equity and belonging apart, to spot policy language that builds barriers, and to build a referral map for your own team.",
+    kind: "course",
+    contentType: "practice",
+    learning: {
+      objectives: [
+        "Describe, in plain terms, what the ADA (Titles I and II), Section 504, Section 508, the Minnesota Human Rights Act and the Minnesota Olmstead Plan ask of a state human-services organization in employment, programs, services, communication and digital environments.",
+        "Distinguish a compliance question from an accessibility, equity or belonging question, and explain why answering only the first one leaves people out.",
+        "Identify policy and procedure language that creates unnecessary barriers and propose a rewrite that keeps the legitimate purpose.",
+        "Route a disability-related question to the responsible office using a referral map, and explain to the person what will happen next.",
+        "Explain the difference between preparing a question well and making a legal or official determination, and stay on the right side of that line.",
+      ],
+      evidence: [
+        "Four knowledge checks that explain why an answer respects the duty or misses it.",
+        "A sorting activity that separates compliance, accessibility, equity and belonging questions.",
+        "A completed referral map for your own unit with named offices, not job titles alone.",
+      ],
+      appliedNextStep: "Take one policy, procedure or form your unit owns. Mark every sentence that dictates a single method of participation, and write the referral you would make if a person could not use that method.",
+    },
+    governance: {
+      contentOwner: "One DHS — People, Access and Culture",
+      reviewers: ["Equity and Inclusion Operations Consultant"],
+      evidenceDate: "Public sources checked at authoring",
+      lastReviewed: "At authoring",
+      nextReview: "At the agreed review point and whenever an update trigger occurs",
+      updateTriggers: ["Change in ADA, Section 504 or Section 508 guidance", "Change in the Minnesota Human Rights Act, the Minnesota Olmstead Plan or DHS accessibility standards", "Feedback from disabled staff or participants that a scenario reads as unrealistic or stigmatizing"],
+      relatedDoor: "Legal interpretation, accommodation decisions and complaint determinations belong to the responsible human resources, ADA coordinator, civil rights or legal office; this course helps you recognize and route a question, it does not decide one.",
+      toolkitQuestion: "Which duty is in play here, who owns the decision, and what does the person need from us while that decision is made?",
+      status: "reviewed",
+    },
+    lessons: [
+      {
+        id: "rights-policy-and-organizational-duties-1",
+        number: 1,
+        title: "Five sources of duty, read as an organization",
+        summary: "See what the ADA, Section 504, Section 508, the Minnesota Human Rights Act and the Olmstead Plan each ask of a public human-services agency, and where they overlap.",
+        minutes: 13,
+        learning: {
+          objective: "Explain in plain terms which duty applies to employment, program access, communication and digital environments, and name the office responsible for deciding hard cases.",
+          takeaways: [
+            "The ADA’s Title I covers employment and Title II covers everything a state or local government does; Section 504 reaches any program that receives federal funds, which includes most of DHS.",
+            "Section 508 is a federal standard for information and communication technology; Minnesota state agencies follow a state accessibility standard built on the same web accessibility guidelines.",
+            "The Minnesota Human Rights Act adds a state layer and its own complaint process, and the Minnesota Olmstead Plan turns the most-integrated-setting principle into measurable state commitments.",
+          ],
+          evidence: "A knowledge check that matches a situation to the duty in play; a set of flashcards you can explain to a colleague without notes.",
+          appliedNextStep: "Write one sentence for each of the five sources describing what it asks of your unit specifically, and check the sentences with your ADA coordinator or civil rights office.",
+        },
+        scenario: {
+          context: "A county eligibility office contracts with DHS to run interviews for a benefit program. A supervisor there tells you, “We are a county, not the federal government, so Section 508 and the ADA do not really apply to our web forms.”",
+          prompt: "What is the most accurate and useful response?",
+          options: [
+            { label: "Agree that federal rules do not reach county web forms, and suggest they follow good practice anyway.", response: "This misreads the layers. Title II of the ADA applies to state and local governments, Section 504 follows federal funding, and Minnesota’s own standards apply to state systems. Good practice is not optional here." },
+            { label: "Explain that ADA Title II, Section 504 and state accessibility requirements all reach public web forms, and offer to connect them with the accessibility team and ADA coordinator to confirm the specifics.", response: "This names the duties correctly, keeps the legal detail with the people responsible for it, and turns a misconception into a referral rather than an argument.", recommended: true },
+            { label: "Tell them their forms are illegal and must be taken down until they are fixed.", response: "You are not the enforcement authority and you have not seen the forms. Overstating your role costs credibility and does nothing for the applicant who needs the form to work today." },
+          ],
+        },
+        transfer: {
+          prompt: "Which of the five sources of duty is most often misunderstood in your area of work?",
+          options: ["Name the misconception you hear most and the sentence that corrects it", "Identify who in your organization can confirm the correction", "Decide where that sentence belongs: a staff guide, a training, a team meeting"],
+        },
+        blocks: [
+          { type: "text", heading: "Duties, not slogans", body: "<p>Disability rights law can be taught as history or as a list of prohibitions. For a practitioner inside a public agency, it is more useful to read it as a set of duties the organization already owns. Each source answers a different question: who must we hire and accommodate fairly, what must our programs and services do for the public, how must we communicate, what must our technology support, and where must people be able to live and receive services.</p><p>The <strong>Americans with Disabilities Act</strong> has two titles that matter most here. <strong>Title I</strong> covers employment: hiring, promotion, discipline, benefits and reasonable accommodation for qualified people with disabilities. <strong>Title II</strong> covers state and local governments in everything they do, including programs, services, activities, communication and, under current federal rules, web content and mobile applications. <strong>Section 504 of the Rehabilitation Act</strong> reaches any program or activity that receives federal financial assistance, which describes most of what DHS and its county and tribal partners do. <strong>Section 508</strong> sets accessibility standards for federal information and communication technology; Minnesota state agencies follow a state standard built on the same web accessibility guidelines, so the practical expectation is the same.</p><p>Two Minnesota sources complete the picture. The <strong>Minnesota Human Rights Act</strong> prohibits disability discrimination in employment, public services, public accommodations, housing and education, and gives people a state complaint route through the Minnesota Department of Human Rights. The <strong>Minnesota Olmstead Plan</strong> is the state’s commitment, following the Supreme Court’s Olmstead decision, that people with disabilities will live, learn, work and enjoy life in the most integrated setting they choose, with measurable goals across agencies. For DHS staff, Olmstead is not an abstraction; it shapes waiver services, housing, employment supports and how the Disability Services Division measures progress.</p><p>None of this makes you a lawyer, and this course is not legal advice. It makes you someone who can recognize which duty is in play, describe it accurately, and put the question in front of the office that decides it.</p>" },
+          { type: "tabs", heading: "What each source asks of us", tabs: [
+            { label: "ADA Title I", body: "<p><strong>Employment.</strong> Do not discriminate against qualified people with disabilities in any part of the employment relationship. Provide reasonable accommodation unless it would create an undue hardship, decided through an interactive process. Keep medical information confidential and separate from personnel files. The Equal Employment Opportunity Commission enforces this title and publishes detailed guidance.</p>" },
+            { label: "ADA Title II", body: "<p><strong>State and local government.</strong> Give people with disabilities an equal opportunity to benefit from every program, service and activity. Communicate as effectively with disabled people as with everyone else, giving primary consideration to the person’s preferred aid or service. Make reasonable modifications to policies unless they would fundamentally alter the program. Agencies of a certain size must designate an ADA coordinator and have a grievance procedure.</p>" },
+            { label: "Section 504", body: "<p><strong>Federally funded programs.</strong> Very similar substance to Title II, attached to federal money rather than to government status. It is why nonprofits, hospitals, clinics and other grantees carry the same duties. Complaints about health and human services programs go to the U.S. Department of Health and Human Services Office for Civil Rights.</p>" },
+            { label: "Section 508 and state standards", body: "<p><strong>Technology.</strong> Information and communication technology that a federal agency buys, builds or uses must be accessible. Minnesota state agencies follow a state accessibility standard for information technology built on the same web accessibility guidelines. The practical result: forms, documents, learning platforms and public websites are expected to work with keyboards and screen readers, carry captions, and meet contrast requirements.</p>" },
+            { label: "Minnesota Human Rights Act", body: "<p><strong>State law.</strong> Prohibits disability discrimination in employment, public services, public accommodations, housing and education. The Minnesota Department of Human Rights investigates charges. Because state law can define terms and processes differently than federal law, a question about which law governs a specific situation belongs with your civil rights office or agency counsel, not with a training.</p>" },
+            { label: "Minnesota Olmstead Plan", body: "<p><strong>Integration.</strong> The state’s plan for people with disabilities to live, learn, work and enjoy life in the most integrated setting of their choosing, with measurable goals and public reporting. For DHS, it touches housing, employment supports, transition from institutions and segregated settings, person-centered planning and how services are counted.</p>" },
+          ] },
+          { type: "flashcards", heading: "Five sources in your own words", cards: [
+            { front: "ADA Title I", back: "<p>Employment. Fair treatment and reasonable accommodation for qualified people with disabilities, decided through an interactive process. Medical information stays confidential.</p>" },
+            { front: "ADA Title II", back: "<p>Everything a state or local government does. Equal opportunity to benefit, effective communication, reasonable modification of policies, an ADA coordinator and a grievance procedure.</p>" },
+            { front: "Section 504", back: "<p>The same substance, attached to federal funding. This is why county partners, grantees and providers share the duty.</p>" },
+            { front: "Section 508 and Minnesota’s standard", back: "<p>Accessible technology: forms, documents, websites, learning platforms and applications that work with keyboards, screen readers and captions.</p>" },
+            { front: "Minnesota Human Rights Act", back: "<p>The state civil rights law, with its own definitions and a complaint route through the Minnesota Department of Human Rights.</p>" },
+            { front: "Minnesota Olmstead Plan", back: "<p>Measurable state commitments that people with disabilities live, learn, work and receive services in the most integrated setting they choose.</p>" },
+          ] },
+          { type: "leaderMove", heading: "Know the duty; do not play the judge", control: "You control whether your team can name which duty a situation touches and who decides the hard cases.", failure: "Do not let a supervisor say “the law does not apply to us” or “the law says we must deny this” without checking. Both statements usually come from someone who has not asked the responsible office.", next: "At your next team meeting, ask each person to name the office they would call for an employment accommodation, a program access request and a broken online form. Fill the gaps you hear." },
+          { type: "statement", body: "A practitioner does not need to cite a statute section. A practitioner needs to say, accurately, “This is a program access question under Title II and Section 504, our ADA coordinator decides it, and here is what we will do for you while that happens.”" },
+          { type: "knowledgeCheck", id: "rights-policy-and-organizational-duties-1-check", question: "A person who is Deaf asks a county human-services office to provide a sign language interpreter for an eligibility interview. Which description of the duty is most accurate?", options: [
+            { text: "This is an employment accommodation under ADA Title I, so human resources decides it.", correct: false },
+            { text: "This is an effective communication duty under ADA Title II and Section 504; the office must give primary consideration to the person’s requested aid, and the ADA coordinator or language access team resolves how.", correct: true },
+            { text: "This is a courtesy the office may offer if an interpreter happens to be available.", correct: false },
+          ], feedbackCorrect: "Yes. A member of the public seeking a service is a Title II and Section 504 matter, and effective communication is a duty, not a favor.", feedbackIncorrect: "Title I is about employees and applicants for jobs. A member of the public receiving a public service is covered by Title II and, because of federal funding, Section 504. Effective communication is required." },
+        ],
+      },
+      {
+        id: "rights-policy-and-organizational-duties-2",
+        number: 2,
+        title: "Compliance, accessibility, equity and belonging are four questions",
+        summary: "Learn why an organization can meet every legal requirement and still leave people out, and how to ask the next three questions.",
+        minutes: 12,
+        learning: {
+          objective: "Classify a workplace or service situation as a compliance, accessibility, equity or belonging question, and explain what each question adds to the previous one.",
+          takeaways: [
+            "Compliance asks whether we met the minimum duty; accessibility asks whether a person can actually use the thing; equity asks whether outcomes are fair across groups; belonging asks whether people can be themselves and influence decisions.",
+            "Meeting the compliance floor while failing the next three is common, and it usually shows up as low participation that nobody investigates.",
+            "Each question has a different owner, a different kind of evidence and a different fix.",
+          ],
+          evidence: "A completed sort of twelve situations into the four questions; a knowledge check about a compliant program with poor outcomes.",
+          appliedNextStep: "Pick one program measure your unit already tracks. Ask all four questions about it in writing and note which ones you cannot answer with the data you have.",
+        },
+        scenario: {
+          context: "A DHS learning team reports that its required training platform passed an accessibility review, and completion rates are strong overall. A staff member who is blind tells a colleague that she finishes each module by phone with a coworker reading the screen, because the quiz buttons are not announced by her screen reader.",
+          prompt: "How should the learning team describe where it stands?",
+          options: [
+            { label: "The platform is compliant; the staff member has found a workaround, so no action is needed.", response: "A workaround that depends on a coworker’s time is evidence of a barrier, not evidence of access. Compliance paperwork does not override what a user is telling you." },
+            { label: "The platform may meet a documented standard, but it is not accessible to this user; the team should log the defect, provide an equivalent way to complete the quiz now, and ask how many others are quietly doing the same.", response: "This keeps the compliance record honest, fixes access for the person, and opens the equity question about who else is affected.", recommended: true },
+            { label: "Ask the staff member to file a formal complaint so the vendor is forced to act.", response: "A complaint is her right, but putting the burden on the person to escalate before the organization acts on a known defect is backwards. Act on what you know, and tell her the complaint route exists." },
+          ],
+        },
+        transfer: {
+          prompt: "Where in your work is a compliant process producing poor participation?",
+          options: ["Name the process and the group whose participation looks low", "Identify which of the four questions your current evidence answers", "Decide who you would ask to help answer the ones it does not"],
+        },
+        blocks: [
+          { type: "text", heading: "Four questions, in order, with different owners", body: "<p>Compliance is the first question and the easiest to document: did we meet the duty the law places on us? It matters, and failing it has consequences. But it is a floor. A form can carry an accessibility statement, an office can have an ADA coordinator and a grievance procedure, and a person can still be unable to apply.</p><p><strong>Accessibility</strong> asks whether a specific person can actually use the thing: read it, hear it, navigate it, understand it, complete it, in a reasonable time and without depending on someone else. Its evidence is a test with real assistive technology or a real user, not a certificate. <strong>Equity</strong> asks whether outcomes are fair across groups: do disabled applicants get hired, promoted and retained at similar rates; do disabled participants finish the program, appeal successfully, or leave earlier? Its evidence is disaggregated data and the stories behind it. <strong>Belonging</strong> asks whether people can be themselves, disclose safely, ask for what they need and influence the decisions that affect them. Its evidence comes from people, through surveys, exit conversations and advisory panels that are actually listened to.</p><p>The questions build on each other. A program can be compliant and inaccessible, accessible and inequitable, equitable in outcomes and still a place where people hide. Practitioners get into trouble when they answer one question and report it as if it answered all four.</p>" },
+          { type: "sorting", id: "rights-policy-and-organizational-duties-2-sort", heading: "Which question is this?", categories: ["Compliance", "Accessibility", "Equity", "Belonging"], items: [
+            { text: "Does the agency have a designated ADA coordinator and a published grievance procedure?", category: "Compliance" },
+            { text: "Can a person using a screen reader complete the online renewal without help?", category: "Accessibility" },
+            { text: "Do disabled applicants advance from interview to offer at the same rate as other applicants?", category: "Equity" },
+            { text: "Do staff with non-apparent disabilities feel safe requesting an accommodation from their supervisor?", category: "Belonging" },
+            { text: "Was the notice sent in the person’s requested alternative format within the required time?", category: "Compliance" },
+            { text: "Do participants who need interpreters wait longer for their first appointment than participants who do not?", category: "Equity" },
+          ] },
+          { type: "quote", text: "The review said the platform passed. I know what passing looks like from my side: I call a friend on my lunch break and she reads me the buttons. Nobody counted her.", cite: "Composite staff perspective, illustrative" },
+          { type: "list", heading: "Evidence each question needs", items: ["Compliance: the policy, the designation, the notice, the record of the decision and its date.", "Accessibility: a test with a keyboard, a screen reader, captions on, magnification on, or a person who uses them, done before launch and after every major change.", "Equity: participation and outcome data broken out by disability where it is lawfully and safely collected, and interviews with people who left.", "Belonging: what people tell you when they trust the question, including what they do not disclose and why."] },
+          { type: "leaderMove", heading: "Report the question you answered", control: "You control whether a report says “compliant” when it means “compliant,” and says “accessible” only when someone actually tested it.", failure: "Do not let “we passed the review” travel upward as “our training is accessible.” The gap between those two sentences is where people are quietly excluded.", next: "Add one line to your next status report naming which of the four questions your evidence answers, and which remain open." },
+          { type: "flashcards", heading: "Four questions, kept apart", cards: [
+            { front: "Compliance", back: "<p>Did we meet the duty? Evidence: policy, designation, notice, documented decision. Owner: the responsible office and its records.</p>" },
+            { front: "Accessibility", back: "<p>Can this person use it? Evidence: a real test with assistive technology or a real user. Owner: whoever owns the form, room, document or system.</p>" },
+            { front: "Equity", back: "<p>Are outcomes fair across groups? Evidence: disaggregated data and the stories behind it. Owner: program leadership and analysts.</p>" },
+            { front: "Belonging", back: "<p>Can people be themselves and shape decisions? Evidence: what people say when they trust the question. Owner: every supervisor, and the culture leaders set.</p>" },
+          ] },
+          { type: "knowledgeCheck", id: "rights-policy-and-organizational-duties-2-check", question: "A county office documents that it offers interpreters, alternative formats and a grievance procedure. Its data shows that people who request interpreters wait almost twice as long for a first appointment. Which statement is most accurate?", options: [
+            { text: "The office is compliant, so the wait time is not an accessibility concern.", correct: false },
+            { text: "The office may be compliant on paper, but the wait-time gap is an equity finding that needs investigation and a fix, and it may also signal an effective-communication problem.", correct: true },
+            { text: "The wait is acceptable because interpreters take time to schedule.", correct: false },
+          ], feedbackCorrect: "Yes. Documented compliance does not explain away a disparate outcome. The gap is evidence, and the effective-communication duty may be implicated as well.", feedbackIncorrect: "Compliance answers whether the duty was met on paper. A group waiting twice as long is an equity finding that has to be investigated, and the delay itself may undercut effective communication." },
+        ],
+      },
+      {
+        id: "rights-policy-and-organizational-duties-3",
+        number: 3,
+        title: "Policy language that builds barriers",
+        summary: "Find the sentences in ordinary policies, postings and procedures that quietly exclude people, and rewrite them without losing the legitimate purpose.",
+        minutes: 12,
+        learning: {
+          objective: "Identify policy, posting and procedure language that dictates a single method of participation or adds an unnecessary requirement, and propose a rewrite that keeps the purpose and opens the method.",
+          takeaways: [
+            "Most barrier language is a method masquerading as a purpose: “in person,” “in writing,” “by phone,” “must lift fifty pounds,” “no exceptions.”",
+            "Separate the essential outcome from the way it has always been done, then write the outcome and allow more than one way to reach it.",
+            "Decisions about fundamental alteration, undue burden or essential functions belong to a responsible official with documentation, not to a form or a front-line habit.",
+          ],
+          evidence: "An accordion of barrier phrases with rewrites; a knowledge check on a job posting; one policy from your unit marked and rewritten.",
+          appliedNextStep: "Take a policy, notice or posting you own. Underline every method requirement. For each, write the purpose it serves and at least one additional way to meet it.",
+        },
+        scenario: {
+          context: "A DHS licensing unit’s procedure says applicants “must attend the orientation session in person at the St. Paul office and sign the attestation in ink.” A prospective provider who uses a power wheelchair and lives four hours away asks whether there is another way. A colleague replies that the procedure is clear and has always been done this way.",
+          prompt: "What is the practitioner’s best move?",
+          options: [
+            { label: "Confirm the procedure and suggest the applicant plan the trip early.", response: "This treats the method as the purpose. The purpose is an informed applicant and a valid attestation; neither requires ink or a particular room." },
+            { label: "Identify the purpose behind each requirement, offer the applicant an equivalent way now, and bring the language to the policy owner and ADA coordinator for a rewrite.", response: "This serves the person today and fixes the sentence for everyone after them, while leaving the formal policy decision with the office that owns it.", recommended: true },
+            { label: "Tell the applicant to file an ADA grievance so the procedure gets changed.", response: "The grievance route exists and the applicant may use it, but a practitioner who sees an unnecessary barrier should act on it, not route the person into a complaint as the first step." },
+          ],
+        },
+        transfer: {
+          prompt: "Which policy or procedure sentence in your unit would you rewrite first?",
+          options: ["Write the sentence and the purpose it actually serves", "Draft the rewrite with more than one method", "Name the policy owner who has to approve it and the office you would consult"],
+        },
+        blocks: [
+          { type: "text", heading: "Method is not purpose", body: "<p>Few policies say “people with disabilities need not apply.” Barriers are built from sentences that look neutral: “must appear in person,” “original signed documents only,” “call between 8 and 4:30,” “complete within the 20-minute session or start over,” “must be able to lift fifty pounds and stand for long periods.” Each one chooses a method and forgets to say why. Reading policy for barriers means asking, of every requirement, what outcome it protects and whether that outcome truly needs this method.</p><p>Three reading habits help. First, look for <strong>single-channel</strong> language: one way to apply, one way to notify, one place to appear. Second, look for <strong>time and format rigidity</strong>: deadlines with no exception process, timed sessions with no extension, ink signatures, image-only PDFs. Third, look for <strong>job requirements stated as physical traits</strong> instead of essential functions: “must lift fifty pounds” when the essential function is moving supplies, which can be done with equipment or another method.</p><p>Rewriting keeps the purpose and opens the method. “Attend orientation in person” becomes “complete the orientation, which is offered in person, by video with captions, or by phone with materials sent in advance.” “Sign in ink” becomes “sign the attestation; electronic signature and alternative formats are available.” Where a requirement really is essential, the rewrite says so and names how a person asks for a modification and who decides. That last sentence matters most: fundamental alteration, undue burden and essential function are decisions made by a responsible official with documentation, not by whoever is holding the form.</p>" },
+          { type: "accordion", heading: "Barrier phrase, purpose, rewrite", items: [
+            { title: "“Applicants must apply online.”", body: "<p><strong>Purpose:</strong> a complete, timely application in a system staff can process. <strong>Rewrite:</strong> “Apply online, by phone with a staff member, or on paper. If you need the application in another format or need help completing it, contact [named office].” The online route stays primary; it stops being the only door.</p>" },
+            { title: "“Interviews are conducted in person at the county office.”", body: "<p><strong>Purpose:</strong> verification of identity and information, and a conversation. <strong>Rewrite:</strong> “Interviews are available in person, by video or by phone. Tell us if you need an interpreter, captions, a different location or more time.” Verification can be met more than one way.</p>" },
+            { title: "“Must be able to lift 50 pounds and stand for extended periods.”", body: "<p><strong>Purpose:</strong> the essential function, usually moving materials or being present at a work station. <strong>Rewrite:</strong> describe the function, not the body: “Moves supplies weighing up to 50 pounds using available equipment; works at a service counter for scheduled shifts.” Then human resources decides essential functions and accommodations through its process.</p>" },
+            { title: "“Requests received after the deadline will not be considered. No exceptions.”", body: "<p><strong>Purpose:</strong> orderly processing. <strong>Rewrite:</strong> keep the deadline and add the door: “If a disability or an accessibility problem with our materials prevented you from meeting the deadline, contact [named office]; reasonable modifications are considered case by case.” Blanket no-exception language invites a reasonable-modification problem.</p>" },
+            { title: "“You have 20 minutes to complete this session before it expires.”", body: "<p><strong>Purpose:</strong> security and system load. <strong>Rewrite:</strong> warn before expiry, allow the person to extend, and save progress. Timing limits without extension are a known digital barrier for many disabled users.</p>" },
+            { title: "“Accommodation requests must be submitted on Form 12 in writing.”", body: "<p><strong>Purpose:</strong> a record of the request. <strong>Rewrite:</strong> “You can request an accommodation in any way that works for you, including by phone, email or in person; we will write it down for you.” The organization can create the record; the person does not have to.</p>" },
+          ] },
+          { type: "list", heading: "Reading a policy for barriers, in order", ordered: true, items: ["Underline every requirement that names a method, a place, a time window or a physical trait.", "For each, write the outcome the requirement protects in one sentence.", "Ask whether the outcome needs this method or simply arrived with it. If the answer is habit, open the method.", "Where the requirement is essential, say so plainly and add the sentence that tells a person how to ask for a modification and who decides.", "Send the marked policy to its owner with the rewrites, and copy the ADA coordinator or civil rights office so the formal decision has the right hands on it."] },
+          { type: "leaderMove", heading: "Own the sentence, not just the exception", control: "You control whether your team fixes barrier language at the source or handles the same exception request every month.", failure: "Do not solve the problem by quietly granting exceptions to one person while the policy keeps stopping everyone who does not ask.", next: "Bring one rewritten sentence to the policy owner this month, with the purpose statement beside it, and ask for a decision date." },
+          { type: "flashcards", heading: "Words that decide access", cards: [
+            { front: "Reasonable modification", back: "<p>A change to a policy, practice or procedure so a person with a disability can take part in a program or service. Required unless it would fundamentally alter the program. Decided by the responsible office, documented, and explained to the person.</p>" },
+            { front: "Fundamental alteration", back: "<p>A change so significant it alters the essential nature of the program. A high bar. A claim that a modification would be a fundamental alteration should come from a responsible official with a written reason, not from a front-line refusal.</p>" },
+            { front: "Undue hardship or undue burden", back: "<p>Significant difficulty or expense measured against the whole organization’s resources, not one unit’s budget. Also a high bar, also a documented decision, and it does not end the duty: an alternative that provides access must still be offered.</p>" },
+            { front: "Essential function", back: "<p>The fundamental duties of a job, as distinct from marginal tasks or the way the job has been done. Written job descriptions should describe outcomes, not bodies. Human resources owns the determination.</p>" },
+            { front: "Single-channel language", back: "<p>Any sentence that offers exactly one way to apply, notify, appear, sign or complete. The first thing to underline in a policy review.</p>" },
+          ] },
+          { type: "knowledgeCheck", id: "rights-policy-and-organizational-duties-3-check", question: "A posting for a case aide says “must be able to drive a state vehicle to client homes.” Home visits are a real part of the job. Which rewrite best keeps the purpose and opens the method?", options: [
+            { text: "“Must hold a valid driver’s license and have reliable transportation.”", correct: false },
+            { text: "“Travels to client homes across the county on a scheduled basis; the agency provides a state vehicle, and alternative transportation arrangements are considered through the accommodation process.”", correct: true },
+            { text: "Leave the sentence as written, because travel is essential.", correct: false },
+          ], feedbackCorrect: "Yes. Travel to client homes is the essential function; driving is one method. The rewrite names the function and the door, and leaves the determination with human resources.", feedbackIncorrect: "Getting to client homes is the essential function. Driving is a method. Describe the function, and name the process through which alternatives are considered." },
+        ],
+      },
+      {
+        id: "rights-policy-and-organizational-duties-4",
+        number: 4,
+        title: "Build the referral map",
+        summary: "Turn the duties into a working map of who answers what, so a question reaches the right office the first time and the person hears what happens next.",
+        minutes: 12,
+        learning: {
+          objective: "Build and use a referral map that routes employment, program access, communication, digital, complaint and legal-interpretation questions to named offices, with a plain explanation for the person asking.",
+          takeaways: [
+            "A referral map names offices and contact routes, not job titles alone, and says what each office decides.",
+            "The practitioner’s job is to recognize, route, support the person in the meantime, and follow up; the decision belongs to the office that owns it.",
+            "Complaints have both internal and external routes, and people are entitled to know both.",
+          ],
+          evidence: "A completed referral map for your own unit; a knowledge check about a question that touches more than one office.",
+          appliedNextStep: "Fill the referral map with the real offices and contact routes for your unit, confirm each entry with that office, and post it where your team can see it.",
+        },
+        scenario: {
+          context: "A supervisor in a DHS call center comes to you with three things at once: an employee has asked for a modified schedule because of a chronic condition, a caller who is hard of hearing complained that the call-back system has no text option, and a team member wants to know whether the state’s standards require captions on the unit’s recorded training videos.",
+          prompt: "How do you handle the bundle?",
+          options: [
+            { label: "Give the supervisor your best answer to all three so they can move quickly.", response: "You may be right on some points, but an employment accommodation, a public effective-communication complaint and a digital standards question each have an owner. Answering for them risks a wrong decision and no record." },
+            { label: "Sort the three by owner: human resources and the ADA coordinator for the schedule request, the ADA coordinator and civil rights office for the caller’s complaint with the accessibility team for the fix, and the accessibility team for the captions question. Tell the supervisor what to do for the employee and the caller today.", response: "Three questions, three routes, and the people affected are not left waiting while the routing happens.", recommended: true },
+            { label: "Tell the supervisor to send all three to agency counsel.", response: "Counsel interprets law when the responsible office needs it. Sending routine accommodation, access and standards questions there delays them and skips the offices that actually decide." },
+          ],
+        },
+        transfer: {
+          prompt: "Whose name would you write on your referral map first?",
+          options: ["Confirm who your unit’s ADA coordinator and human resources partner actually are", "Find the accessibility team’s intake route for digital defects", "Locate the internal grievance procedure and the external complaint offices, and check the links work"],
+        },
+        blocks: [
+          { type: "text", heading: "Recognize, route, support, follow up", body: "<p>A referral map is the practical end of everything in this course. It answers the question a colleague actually asks: “Someone brought me this. Where does it go?” A good map names offices and their intake routes, says in one line what each office decides, and tells the practitioner what to do for the person while the decision is made. It replaces job titles that change and hallway knowledge that leaves with the person who had it.</p><p>The practitioner’s role has four verbs. <strong>Recognize</strong> which duty is in play: employment, program access, effective communication, digital accessibility, integration, or a complaint about any of them. <strong>Route</strong> the question to the office that owns the decision, with enough detail that the person does not have to tell the story twice. <strong>Support</strong> the person in the meantime: an interim accommodation, an alternative format, a call-back with a real name, a note of what was promised. <strong>Follow up</strong> until the decision is made and communicated, then record what happened so the next practitioner can see it.</p><p>Two things a referral map should never do. It should not turn the practitioner into the decision maker; “I think you would qualify” is a promise you cannot keep. And it should not hide the complaint routes. People are entitled to know that an internal grievance procedure exists and that external offices, including the Minnesota Department of Human Rights, the Equal Employment Opportunity Commission and the U.S. Department of Health and Human Services Office for Civil Rights, accept complaints. Saying so is not disloyal; it is part of the duty.</p>" },
+          { type: "artifact", kind: "tagged-document", label: "Practical artifact", title: "Referral map for disability-related questions", summary: "A one-page map your team can post and use. Replace the bracketed entries with your unit’s real offices and confirmed contact routes before you rely on it.", fields: [
+            { label: "Employment: accommodation, schedule, equipment, leave, hiring process", value: "Human resources partner [name and route] with the ADA coordinator [name and route]. They run the interactive process and decide. You: acknowledge the request in writing, offer an interim measure, keep medical details out of email and personnel files." },
+            { label: "Program and service access: modifications, interpreters, alternative formats, physical access", value: "ADA coordinator [name and route]; language access or accessibility team for interpreters and formats [route]; facilities for physical barriers [route]. You: provide the service another way now, log the request, tell the person the date they will hear back." },
+            { label: "Digital: forms, documents, websites, learning platforms, applications", value: "Accessibility team intake [route]; system owner [name]. You: give the person an accessible alternative today, report the defect with the exact page or file, and ask for a fix date." },
+            { label: "Integration and community services: Olmstead-related questions about settings, employment supports, housing and person-centered planning", value: "Disability Services Division contact [route] and the program’s Olmstead lead [route]. You: document the person’s stated preference in their own words and connect them with the responsible planner." },
+            { label: "Complaints: internal grievance and external routes", value: "Internal ADA grievance procedure [link and route]; civil rights office [route]. External: Minnesota Department of Human Rights, Equal Employment Opportunity Commission (employment), U.S. Department of Health and Human Services Office for Civil Rights (federally funded health and human services). You: give the person both routes in writing without discouraging either." },
+            { label: "Legal interpretation: which law governs, definitions, conflicts between rules", value: "Agency counsel through the responsible office, not directly from front-line staff. You: describe the facts and the question in writing to the ADA coordinator or civil rights office, who decide whether counsel is needed." },
+          ], action: "Fill in every bracket, confirm each entry with that office, and post the map where your team can reach it in under a minute." },
+          { type: "list", heading: "What the person should hear from you", items: ["What you understood them to ask, in their words.", "Which office decides, and that you have sent it there today.", "What will happen for them in the meantime.", "When they will hear back, from whom, and how to reach you if they do not.", "That a grievance procedure and external complaint offices exist, stated plainly, not as a warning."] },
+          { type: "leaderMove", heading: "A map is only as good as its last check", control: "You control whether the referral map has real names, live routes and a date it was last confirmed.", failure: "Do not post a map with job titles and generic mailboxes that nobody monitors. A referral that goes nowhere is worse than none, because the person believes something is happening.", next: "Put a confirmation date on the map, assign one person to re-check it each quarter, and test one route yourself by sending a real question through it." },
+          { type: "flashcards", heading: "Routing by question", cards: [
+            { front: "“Can I change my schedule because of my condition?”", back: "<p>Employment accommodation. Human resources and the ADA coordinator through the interactive process. You acknowledge, offer an interim measure and keep the medical detail confidential.</p>" },
+            { front: "“The renewal form does not work with my screen reader.”", back: "<p>Digital accessibility defect and a program access issue. Accessibility team and the system owner for the fix; you provide an alternative way to renew today and log the report.</p>" },
+            { front: "“I need an interpreter for my appointment.”", back: "<p>Effective communication under Title II and Section 504. Language access or accessibility team schedules; the person’s preferred aid gets primary consideration. Do not ask a family member to interpret.</p>" },
+            { front: "“I want to move out of the group home and work in the community.”", back: "<p>An Olmstead and person-centered planning matter. Document the preference in the person’s words and connect them with the responsible planner in Disability Services.</p>" },
+            { front: "“I want to file a complaint.”", back: "<p>Give the internal grievance route and the external offices in writing. Do not talk the person out of it, and do not make them choose one before they understand both.</p>" },
+          ] },
+          { type: "knowledgeCheck", id: "rights-policy-and-organizational-duties-4-check", question: "An applicant for a DHS position says the online application timed out twice and she could not finish because she uses voice input. Which routing is most complete?", options: [
+            { text: "Send it to the accessibility team as a website defect and wait for the fix.", correct: false },
+            { text: "Report the defect to the accessibility team and the system owner, and, because this is a hiring process, involve human resources now so the applicant gets an accessible way to apply before the posting closes.", correct: true },
+            { text: "Tell the applicant to try a different device.", correct: false },
+          ], feedbackCorrect: "Yes. The defect goes to the people who fix systems, and the applicant’s access to the hiring process is a Title I matter that human resources must address before the deadline passes.", feedbackIncorrect: "A defect report alone leaves the applicant out of the hiring process. Because this is employment, human resources needs to act now so she can apply, while the system gets fixed." },
+          { type: "statement", body: "You do not have to decide the case to serve the person well. Recognize the duty, route it to the office that owns it, take care of the person while it is decided, and follow up until they have an answer." },
+        ],
+      },
+    ],
+  },
+  jobAid: {
+    title: "Duties and doors",
+    subtitle: "A one-page reference for practitioners who route disability-related questions",
+    quote: "Recognize the duty. Route it to the owner. Support the person now. Follow up until they hear back.",
+    use: {
+      purpose: "Keep the five sources of duty, the four questions and the referral routes in view when a colleague brings you something.",
+      remember: ["Title I is employment; Title II and Section 504 are programs and services; Section 508 and the state standard are technology; the Minnesota Human Rights Act is the state layer; Olmstead is integration.", "Compliant is not the same as accessible, equitable or a place people can belong.", "Method is not purpose. Open the method; keep the purpose; name who decides exceptions.", "You recognize and route; the responsible office decides; the person hears what happens next."],
+      doNext: "Fill your unit’s referral map with confirmed names and routes, and test one route yourself.",
+    },
+    sections: [
+      { heading: "Which duty is in play", items: ["An employee or job applicant: ADA Title I and the Minnesota Human Rights Act, through human resources and the ADA coordinator.", "A member of the public seeking a service: ADA Title II and Section 504, through the ADA coordinator, civil rights and language access.", "A form, document, site or platform: Section 508 and the state accessibility standard, through the accessibility team and system owner.", "Where someone lives, works or receives services: the Minnesota Olmstead Plan, through Disability Services and person-centered planning."] },
+      { heading: "Reading policy for barriers", items: ["Underline every method, place, time window and physical trait.", "Write the purpose each one protects.", "Open the method; keep the purpose; add the sentence that says how to ask for a modification and who decides.", "Fundamental alteration, undue burden and essential function are documented decisions by a responsible official."] },
+      { heading: "What the person hears", items: ["What you understood them to ask, and which office decides.", "What will happen for them in the meantime, with a date and a name.", "That an internal grievance procedure and external complaint offices exist, stated plainly."] },
+    ],
+  },
+  sources: [
+    { title: "ADA.gov, A Guide to Disability Rights Laws", href: "https://www.ada.gov/resources/disability-rights-guide/", note: "Plain-language overview of the ADA’s titles, Section 504, Section 508 and related federal laws, with the agencies that enforce each." },
+    { title: "ADA National Network", href: "https://adata.org/", note: "Regional centers offering ADA information, guidance and training for employers, state and local governments and the public." },
+    { title: "U.S. Equal Employment Opportunity Commission, Enforcement Guidance on Reasonable Accommodation and Undue Hardship", href: "https://www.eeoc.gov/laws/guidance/enforcement-guidance-reasonable-accommodation-and-undue-hardship-under-ada", note: "The federal agency’s explanation of the interactive process, reasonable accommodation and undue hardship under Title I." },
+    { title: "U.S. Department of Health and Human Services, Office for Civil Rights", href: "https://www.hhs.gov/civil-rights/", note: "Section 504 and disability rights information for federally funded health and human services programs, including how to file a complaint." },
+    { title: "Minnesota Department of Human Services, Olmstead Plan", href: "https://mn.gov/dhs/general-public/about-dhs/olmstead/", note: "How DHS carries out Minnesota’s Olmstead Plan commitments to integrated settings and measurable progress." },
+    { title: "Minnesota Council on Disability", href: "https://www.disability.state.mn.us/", note: "State council providing information on Minnesota disability law, accessibility and policy for agencies and the public." },
+  ],
+};
+
+export default pack;

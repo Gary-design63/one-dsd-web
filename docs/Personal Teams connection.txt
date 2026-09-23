@@ -1,0 +1,13 @@
+Personal Teams connection — 6 September 2026
+
+The local One DSD Team page links to its existing personal Teams community. The local Amplify pages link to their separate personal community. Both addresses were obtained through Teams' Share join link control, not guessed.
+
+The visible Require approval to join setting was on for both communities. No membership settings, invitations, roles, or meetings were changed. The links may present Microsoft's browser/app chooser before opening the community; nonmembers remain subject to community admission settings.
+
+Links and labels are in the existing editable content definitions. Saved editing still depends on the application's existing database-backed content mode. These changes are present in the local static preview and have not been deployed to Vercel.
+
+This connection is navigation, not synchronization, embedding, Microsoft sign-in for the application, or an agent integration. No conversation, file, or member list is copied into the application. No official DHS system was accessed.
+
+The previously reported Oops error was not reproduced while opening the communities and their settings. Its cause remains undetermined. No browser cache or stored sign-in data was cleared.
+
+If an owner regenerates a community link, update the matching program link. Do not use a personal community link as authorization for consultant editing. Automatic sharing and unified sign-in require separate supported integration and testing.

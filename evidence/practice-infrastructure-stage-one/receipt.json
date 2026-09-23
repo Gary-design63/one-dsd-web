@@ -1,0 +1,48 @@
+{
+  "stage": "1",
+  "plan": "docs/PRACTICE-INFRASTRUCTURE-BUILD-PLAN-2026-09-12.md",
+  "checkedAtUtc": "2026-09-12T03:35:41Z",
+  "environment": "Local development container, Node 24.14.0 for typecheck, lint, vitest and next dev; static content mode; no database",
+  "built": [
+    "Practice path gp-12 Equity Pause (lib/content/paths-practice-infrastructure.ts)",
+    "Practice path gp-13 three-pass material check",
+    "Guided Start routing signals pause and material",
+    "ASK path suggestion rules for both paths; program-related rule widened to gp-12 and gp-13",
+    "Register form kind pause: steps frame, results, burdens, disposition; walkthrough card and ?kind=pause link; register filter, dashboard series and totals"
+  ],
+  "verification": {
+    "typecheck": "tsc --noEmit exit 0",
+    "lint": "npm run lint exit 0 (0 errors, 4 pre-existing warnings)",
+    "tests": "18 files, 154 tests passed: practice-infrastructure-stage-one, practice-path-pages, practice-path-restoration, staff-surface-registry, equity-analysis, ask-work-area-routing, ask-research-paths, measurement-practice, staff-content-voice, learning-presentation, restored-support-links, private-learning-continuity, practice-workspace-voice, restored-path-consultation, ask-practice-artifact, practice-export, ask-practice-handoff-ui, practice-artifact",
+    "browser": [
+      {
+        "route": "/practice/gp-12",
+        "status": 200,
+        "h1": "Equity Pause for a routine decision",
+        "horizontalOverflowAt400px": false
+      },
+      {
+        "route": "/practice/gp-13",
+        "status": 200,
+        "h1": "Checking your own material for access, assumptions, and tone",
+        "horizontalOverflowAt400px": false
+      },
+      {
+        "route": "/equity-policy/analysis?kind=pause",
+        "status": 200,
+        "autoStarted": "Equity Pause, Name the work; steps Start, Step 1, Step 4, Decide",
+        "horizontalOverflowAt400px": false
+      },
+      {
+        "route": "/practice",
+        "status": 200,
+        "listsBothNewPaths": true
+      }
+    ]
+  },
+  "notDone": [
+    "Not deployed; live checks run after the deploy branch carries this work",
+    "/start does not yet surface the new paths; that routing belongs to stage three with Learning for your work",
+    "The 13-point rubric score is not computed; the three passes are recorded as findings and changes"
+  ]
+}

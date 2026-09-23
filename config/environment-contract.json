@@ -1,0 +1,764 @@
+{
+  "schema_version": "1.0.0",
+  "node": "24.x",
+  "package_manager": "npm@11.9.0",
+  "settings": [
+    {
+      "name": "PAC_ORG_LIVE_TEST",
+      "class": "test_control",
+      "surface": "organization_live_verification",
+      "example": false,
+      "allowed": [
+        "0",
+        "1"
+      ],
+      "default": "0",
+      "required_when": "explicitly running the optional real-provider organizational check; ordinary isolated test runs remove it"
+    },
+    {
+      "name": "PAC_OWNER_KEY",
+      "class": "server_secret",
+      "surface": "owner_workspace",
+      "example": true,
+      "required_when": "owner workspace is enabled outside local development"
+    },
+    {
+      "name": "PAC_RATE_LIMIT_SECRET",
+      "class": "server_secret",
+      "surface": "request_limits",
+      "example": true,
+      "required_when": "every preview and production deployment"
+    },
+    {
+      "name": "PAC_STORE",
+      "class": "configuration",
+      "surface": "runtime",
+      "example": true,
+      "allowed": [
+        "memory",
+        "file",
+        "postgres"
+      ],
+      "required_when": "always; defaults are environment-specific"
+    },
+    {
+      "name": "PAC_ASK_RECORD_RETENTION_DAYS",
+      "class": "configuration",
+      "surface": "ask_observability",
+      "example": true,
+      "required_when": "optional; blank keeps owner-deletable ASK records without automatic expiry; positive days apply to new records"
+    },
+    {
+      "name": "PAC_DATA_ENV",
+      "class": "deployment_boundary",
+      "surface": "runtime",
+      "example": true,
+      "allowed": [
+        "local",
+        "preview",
+        "production"
+      ],
+      "default": "local",
+      "required_when": "every Vercel preview and production deployment"
+    },
+    {
+      "name": "PAC_DATABASE_URL",
+      "class": "server_secret",
+      "surface": "migration_and_import",
+      "example": true,
+      "required_when": "migrations, imports, or runtime-role provisioning run"
+    },
+    {
+      "name": "PAC_DATABASE_SSL",
+      "class": "configuration",
+      "surface": "migration_and_import",
+      "example": true,
+      "allowed": [
+        "require",
+        "disable",
+        "true",
+        "false"
+      ],
+      "required_when": "database transport requires an explicit SSL mode"
+    },
+    {
+      "name": "PAC_RUNTIME_DATABASE_URL",
+      "class": "server_secret",
+      "surface": "runtime",
+      "example": true,
+      "required_when": "PAC_STORE=postgres or PAC_CONTENT_SOURCE=postgres"
+    },
+    {
+      "name": "PAC_RUNTIME_DATABASE_SSL",
+      "class": "configuration",
+      "surface": "runtime",
+      "example": true,
+      "allowed": [
+        "require",
+        "disable"
+      ],
+      "required_when": "runtime database transport requires an explicit SSL mode"
+    },
+    {
+      "name": "PAC_IMPORT_ACTOR",
+      "class": "configuration",
+      "surface": "migration_and_import",
+      "example": true,
+      "required_when": "an import actor must be attributed explicitly"
+    },
+    {
+      "name": "PAC_IMPORT_BATCH_SIZE",
+      "class": "configuration",
+      "surface": "migration_and_import",
+      "example": true,
+      "default": "500"
+    },
+    {
+      "name": "PAC_IMPORT_BATCH_BYTES",
+      "class": "configuration",
+      "surface": "migration_and_import",
+      "example": true,
+      "default": "1048576"
+    },
+    {
+      "name": "PAC_CONTENT_SOURCE",
+      "class": "configuration",
+      "surface": "staff_publication",
+      "example": true,
+      "allowed": [
+        "static",
+        "postgres"
+      ],
+      "default": "static"
+    },
+    {
+      "name": "PAC_DATABASE_EDITABLE_SURFACES",
+      "class": "configuration",
+      "surface": "staff_publication",
+      "example": true,
+      "required_when": "selected editable surfaces use PostgreSQL during local staged rollout; production uses PAC_CONTENT_SOURCE=postgres for all surfaces"
+    },
+    {
+      "name": "PAC_STAFF_SCOPE",
+      "class": "configuration",
+      "surface": "staff_publication",
+      "example": true,
+      "allowed": [
+        "one-dhs",
+        "dsd"
+      ],
+      "default": "one-dhs"
+    },
+    {
+      "name": "PAC_SUPABASE_URL",
+      "class": "server_configuration",
+      "surface": "private_source_objects",
+      "example": true,
+      "required_when": "private source-object loading is explicitly run"
+    },
+    {
+      "name": "PAC_SUPABASE_BUCKET",
+      "class": "server_configuration",
+      "surface": "private_source_objects",
+      "example": true,
+      "default": "one-dsd-private"
+    },
+    {
+      "name": "PAC_SUPABASE_SECRET_KEY",
+      "class": "server_secret",
+      "surface": "private_source_objects",
+      "example": true,
+      "required_when": "private source-object loading is explicitly run"
+    },
+    {
+      "name": "PAC_CONSULTATION_INTAKE_ENABLED",
+      "class": "feature_control",
+      "surface": "consultation",
+      "example": true,
+      "allowed": [
+        "on",
+        "off"
+      ],
+      "default": "off"
+    },
+    {
+      "name": "PAC_CONSULTATION_TRACKING_SECRET",
+      "class": "server_secret",
+      "surface": "consultation",
+      "example": true,
+      "required_when": "consultation intake is activated, PAC_CONSULTATION_ACTIVATION_EVIDENCE_ID is selected for existing-request tracking, or this secret is configured in production; must pass the production non-placeholder and variation checks even when new intake is off"
+    },
+    {
+      "name": "PAC_CONSULTATION_POLICY_VERSION",
+      "class": "policy_control",
+      "surface": "consultation",
+      "example": true,
+      "required_when": "consultation intake is activated"
+    },
+    {
+      "name": "PAC_CONSULTATION_ACTIVATION_EVIDENCE_ID",
+      "class": "policy_control",
+      "surface": "consultation",
+      "example": true,
+      "required_when": "consultation intake or tracking is activated; must match an approved committed evidence bundle"
+    },
+    {
+      "name": "PAC_CONSULTATION_RETENTION_DAYS",
+      "class": "policy_control",
+      "surface": "consultation",
+      "example": true,
+      "required_when": "consultation intake is activated"
+    },
+    {
+      "name": "PAC_CONSULTATION_CORRECTION_READY",
+      "class": "feature_control",
+      "surface": "consultation",
+      "example": true,
+      "allowed": [
+        "on",
+        "off"
+      ],
+      "default": "off"
+    },
+    {
+      "name": "PAC_CONSULTATION_DELETION_READY",
+      "class": "feature_control",
+      "surface": "consultation",
+      "example": true,
+      "allowed": [
+        "on",
+        "off"
+      ],
+      "default": "off"
+    },
+    {
+      "name": "PAC_CONSULTATION_BACKUP_READY",
+      "class": "feature_control",
+      "surface": "consultation",
+      "example": true,
+      "allowed": [
+        "on",
+        "off"
+      ],
+      "default": "off"
+    },
+    {
+      "name": "PAC_CONSULTATION_RESTORE_READY",
+      "class": "feature_control",
+      "surface": "consultation",
+      "example": true,
+      "allowed": [
+        "on",
+        "off"
+      ],
+      "default": "off"
+    },
+    {
+      "name": "PAC_CONSULTATION_RECOVERY_READY",
+      "class": "feature_control",
+      "surface": "consultation",
+      "example": true,
+      "allowed": [
+        "on",
+        "off"
+      ],
+      "default": "off"
+    },
+    {
+      "name": "PAC_CONSULTATION_INCIDENT_READY",
+      "class": "feature_control",
+      "surface": "consultation",
+      "example": true,
+      "allowed": [
+        "on",
+        "off"
+      ],
+      "default": "off"
+    },
+    {
+      "name": "PAC_CONSULTATION_DELIVERY_READY",
+      "class": "feature_control",
+      "surface": "consultation",
+      "example": true,
+      "allowed": [
+        "on",
+        "off"
+      ],
+      "default": "off"
+    },
+    {
+      "name": "PAC_GENERATIVE_PILOT",
+      "class": "feature_control",
+      "surface": "ai",
+      "example": true,
+      "allowed": [
+        "on",
+        "off"
+      ],
+      "default": "off"
+    },
+    {
+      "name": "ANTHROPIC_API_KEY",
+      "class": "server_secret",
+      "surface": "ai",
+      "example": true,
+      "required_when": "the approved Anthropic adapter is activated"
+    },
+    {
+      "name": "OPENAI_API_KEY",
+      "class": "server_secret",
+      "surface": "ai",
+      "example": true,
+      "required_when": "the approved OpenAI adapter is activated"
+    },
+    {
+      "name": "PAC_AUTONOMY_MAX",
+      "class": "feature_control",
+      "surface": "operations",
+      "example": true,
+      "allowed": [
+        "A0",
+        "A1",
+        "A2",
+        "A3",
+        "A4",
+        "A5"
+      ],
+      "default": "A0"
+    },
+    {
+      "name": "PAC_KILL_SWITCH",
+      "class": "feature_control",
+      "surface": "operations",
+      "example": true,
+      "allowed": [
+        "on",
+        "off"
+      ],
+      "default": "off"
+    },
+    {
+      "name": "CRON_SECRET",
+      "class": "server_secret",
+      "surface": "scheduled_operations",
+      "example": true,
+      "required_when": "a Vercel cron schedule is activated"
+    },
+    {
+      "name": "PAC_RESEARCH_ENABLED",
+      "class": "feature_control",
+      "surface": "research",
+      "example": true,
+      "allowed": [
+        "on",
+        "off"
+      ],
+      "default": "off"
+    },
+    {
+      "name": "PAC_RESEARCH_KILL_SWITCH",
+      "class": "feature_control",
+      "surface": "research",
+      "example": true,
+      "allowed": [
+        "on",
+        "off"
+      ],
+      "default": "off"
+    },
+    {
+      "name": "PAC_RESEARCH_MONTHLY_USD_CAP",
+      "class": "configuration",
+      "surface": "research",
+      "example": true,
+      "default": "0"
+    },
+    {
+      "name": "PERPLEXITY_API_KEY",
+      "class": "server_secret",
+      "surface": "research",
+      "example": true,
+      "required_when": "approved live Perplexity research is activated"
+    },
+    {
+      "name": "PAC_PERPLEXITY_CURRENT_PRESET",
+      "class": "configuration",
+      "surface": "research",
+      "example": true,
+      "default": "low"
+    },
+    {
+      "name": "PAC_PERPLEXITY_DEEP_PRESET",
+      "class": "configuration",
+      "surface": "research",
+      "example": true,
+      "default": "medium"
+    },
+    {
+      "name": "PAC_MICROSOFT_ADAPTER",
+      "class": "feature_control",
+      "surface": "microsoft_boundary",
+      "example": true,
+      "default": "attended_personal_teams_bridge"
+    },
+    {
+      "name": "PAC_MICROSOFT_KILL_SWITCH",
+      "class": "feature_control",
+      "surface": "microsoft_boundary",
+      "example": true,
+      "allowed": [
+        "on",
+        "off"
+      ],
+      "default": "on"
+    },
+    {
+      "name": "PAC_CATALOG_PATH",
+      "class": "local_path",
+      "surface": "owner_machine_source_verification",
+      "example": true,
+      "required_when": "the ignored resolver does not provide the 578-record catalog"
+    },
+    {
+      "name": "PAC_IMPORT_BENCHMARK_DATABASE_URL",
+      "class": "local_secret",
+      "surface": "owner_machine_benchmark",
+      "example": true,
+      "required_when": "the optional local import benchmark is run"
+    },
+    {
+      "name": "PAC_RESEARCH_FIXTURE",
+      "class": "test_control",
+      "surface": "test",
+      "example": true,
+      "allowed": [
+        "on",
+        "off"
+      ],
+      "default": "off"
+    },
+    {
+      "name": "PAC_REQUIRE_LOCAL_CORPUS",
+      "class": "test_control",
+      "surface": "test",
+      "example": true,
+      "allowed": [
+        "0",
+        "1"
+      ],
+      "default": "0"
+    },
+    {
+      "name": "PAC_TEST_POSTGRES_BIN",
+      "class": "local_path",
+      "surface": "postgres_integration_test",
+      "example": false,
+      "required_when": "the optional local PostgreSQL integration suites cannot discover the server binaries"
+    },
+    {
+      "name": "NODE_ENV",
+      "class": "system",
+      "surface": "platform",
+      "example": false,
+      "allowed": [
+        "development",
+        "test",
+        "production"
+      ]
+    },
+    {
+      "name": "VERCEL",
+      "class": "system",
+      "surface": "platform",
+      "example": false
+    },
+    {
+      "name": "VERCEL_ENV",
+      "class": "system",
+      "surface": "platform",
+      "example": false,
+      "allowed": [
+        "development",
+        "preview",
+        "production"
+      ]
+    },
+    {
+      "name": "NEXT_DEPLOYMENT_ID",
+      "class": "system",
+      "surface": "platform",
+      "example": false,
+      "required_when": "Optional framework-provided deployment identifier used by Next.js for asset versioning; never a credential or an application activation setting."
+    },
+    {
+      "name": "PAC_CONTRIBUTOR_DATABASE_URL",
+      "class": "server_secret",
+      "surface": "named_contributor_access",
+      "example": false,
+      "required_when": "Named contributor access is explicitly configured; separate from existing owner and consultation settings."
+    },
+    {
+      "name": "PAC_CONTRIBUTOR_DATABASE_SSL",
+      "class": "configuration",
+      "surface": "named_contributor_access",
+      "example": false,
+      "required_when": "Named contributor access is explicitly configured; separate from existing owner and consultation settings.",
+      "allowed": [
+        "disable",
+        "verify-full"
+      ]
+    },
+    {
+      "name": "PAC_PROGRAM_AUTH_DATABASE_URL",
+      "class": "server_secret",
+      "surface": "named_contributor_access",
+      "example": false,
+      "required_when": "Named contributor access is explicitly configured; separate from existing owner and consultation settings."
+    },
+    {
+      "name": "PAC_PROGRAM_AUTH_DATABASE_SSL",
+      "class": "configuration",
+      "surface": "named_contributor_access",
+      "example": false,
+      "required_when": "Named contributor access is explicitly configured; separate from existing owner and consultation settings.",
+      "allowed": [
+        "disable",
+        "verify-full"
+      ]
+    },
+    {
+      "name": "PAC_PROTECTED_IDENTITY_ENABLED",
+      "class": "feature_control",
+      "surface": "named_contributor_access",
+      "example": false,
+      "required_when": "Named contributor access is explicitly configured; separate from existing owner and consultation settings.",
+      "allowed": [
+        "on",
+        "off"
+      ],
+      "default": "off"
+    },
+    {
+      "name": "PAC_PROTECTED_IDENTITY_ACTIVATION_EVIDENCE_ID",
+      "class": "configuration",
+      "surface": "named_contributor_access",
+      "example": false,
+      "required_when": "Named contributor access is explicitly configured; separate from existing owner and consultation settings."
+    },
+    {
+      "name": "PAC_PROTECTED_IDENTITY_ACTIVATION_BUNDLE_SHA256",
+      "class": "configuration",
+      "surface": "named_contributor_access",
+      "example": false,
+      "required_when": "Named contributor access is explicitly configured; separate from existing owner and consultation settings."
+    },
+    {
+      "name": "PAC_PROTECTED_CONTRIBUTION_ENABLED",
+      "class": "feature_control",
+      "surface": "named_contributor_access",
+      "example": false,
+      "required_when": "Named contributor access is explicitly configured; separate from existing owner and consultation settings.",
+      "allowed": [
+        "on",
+        "off"
+      ],
+      "default": "off"
+    },
+    {
+      "name": "PAC_PROTECTED_CONTRIBUTION_ACTIVATION_EVIDENCE_ID",
+      "class": "configuration",
+      "surface": "named_contributor_access",
+      "example": false,
+      "required_when": "Named contributor access is explicitly configured; separate from existing owner and consultation settings."
+    },
+    {
+      "name": "PAC_PROTECTED_CONTRIBUTION_ACTIVATION_BUNDLE_SHA256",
+      "class": "configuration",
+      "surface": "named_contributor_access",
+      "example": false,
+      "required_when": "Named contributor access is explicitly configured; separate from existing owner and consultation settings."
+    },
+    {
+      "name": "PAC_CONTRIBUTOR_WRITES_PAUSED",
+      "class": "feature_control",
+      "surface": "named_contributor_access",
+      "example": false,
+      "required_when": "Named contributor access is explicitly configured; separate from existing owner and consultation settings.",
+      "allowed": [
+        "on",
+        "off"
+      ],
+      "default": "off"
+    },
+    {
+      "name": "PAC_PROGRAM_OUTCOME_COLLECTION_ENABLED",
+      "class": "feature_control",
+      "surface": "program_outcomes",
+      "example": false,
+      "allowed": [
+        "on",
+        "off"
+      ],
+      "default": "off",
+      "required_when": "Existing optional program-outcome collection is explicitly activated."
+    },
+    {
+      "example": false,
+      "class": "configuration",
+      "surface": "local_visual_studio",
+      "name": "PAC_BLENDER_PATH",
+      "required_when": "Optional owner-configured absolute path to an installed Blender executable on the local Windows computer; never a request field."
+    },
+    {
+      "name": "PAC_VISUAL_STUDIO_LOCAL",
+      "allowed": [
+        "0",
+        "1"
+      ],
+      "class": "deployment_boundary",
+      "required_when": "Only for a locally served optimized Windows build; never enables Blender execution on Vercel.",
+      "default": "0",
+      "surface": "local_visual_studio",
+      "example": false
+    },
+    {
+      "name": "VERCEL_URL",
+      "class": "system",
+      "surface": "platform",
+      "example": false
+    },
+    {
+      "name": "PROGRAMFILES",
+      "class": "system",
+      "surface": "local_visual_studio_windows",
+      "example": false,
+      "required_when": "Optional Windows-provided runtime value, read case-insensitively or passed only through the allowlisted local Blender environment. ProgramFiles and SystemRoot casing aliases are supported. This is not a credential or a studio activation setting."
+    },
+    {
+      "name": "SYSTEMROOT",
+      "class": "system",
+      "surface": "local_visual_studio_windows",
+      "example": false,
+      "required_when": "Optional Windows-provided runtime value, read case-insensitively or passed only through the allowlisted local Blender environment. ProgramFiles and SystemRoot casing aliases are supported. This is not a credential or a studio activation setting."
+    },
+    {
+      "name": "WINDIR",
+      "class": "system",
+      "surface": "local_visual_studio_windows",
+      "example": false,
+      "required_when": "Optional Windows-provided runtime value, read case-insensitively or passed only through the allowlisted local Blender environment. ProgramFiles and SystemRoot casing aliases are supported. This is not a credential or a studio activation setting."
+    },
+    {
+      "name": "SYSTEMDRIVE",
+      "class": "system",
+      "surface": "local_visual_studio_windows",
+      "example": false,
+      "required_when": "Optional Windows-provided runtime value, read case-insensitively or passed only through the allowlisted local Blender environment. ProgramFiles and SystemRoot casing aliases are supported. This is not a credential or a studio activation setting."
+    },
+    {
+      "name": "TEMP",
+      "class": "system",
+      "surface": "local_visual_studio_windows",
+      "example": false,
+      "required_when": "Optional Windows-provided runtime value, read case-insensitively or passed only through the allowlisted local Blender environment. ProgramFiles and SystemRoot casing aliases are supported. This is not a credential or a studio activation setting."
+    },
+    {
+      "name": "TMP",
+      "class": "system",
+      "surface": "local_visual_studio_windows",
+      "example": false,
+      "required_when": "Optional Windows-provided runtime value, read case-insensitively or passed only through the allowlisted local Blender environment. ProgramFiles and SystemRoot casing aliases are supported. This is not a credential or a studio activation setting."
+    },
+    {
+      "name": "USERPROFILE",
+      "class": "system",
+      "surface": "local_visual_studio_windows",
+      "example": false,
+      "required_when": "Optional Windows-provided runtime value, read case-insensitively or passed only through the allowlisted local Blender environment. ProgramFiles and SystemRoot casing aliases are supported. This is not a credential or a studio activation setting."
+    },
+    {
+      "name": "APPDATA",
+      "class": "system",
+      "surface": "local_visual_studio_windows",
+      "example": false,
+      "required_when": "Optional Windows-provided runtime value, read case-insensitively or passed only through the allowlisted local Blender environment. ProgramFiles and SystemRoot casing aliases are supported. This is not a credential or a studio activation setting."
+    },
+    {
+      "name": "LOCALAPPDATA",
+      "class": "system",
+      "surface": "local_visual_studio_windows",
+      "example": false,
+      "required_when": "Optional Windows-provided runtime value, read case-insensitively or passed only through the allowlisted local Blender environment. ProgramFiles and SystemRoot casing aliases are supported. This is not a credential or a studio activation setting."
+    },
+    {
+      "name": "PATH",
+      "class": "system",
+      "surface": "local_visual_studio_windows",
+      "example": false,
+      "required_when": "Optional Windows-provided runtime value, read case-insensitively or passed only through the allowlisted local Blender environment. ProgramFiles and SystemRoot casing aliases are supported. This is not a credential or a studio activation setting."
+    },
+    {
+      "name": "PROGRAMFILES(X86)",
+      "class": "system",
+      "surface": "local_visual_studio_windows",
+      "example": false,
+      "required_when": "Optional Windows-provided runtime value, read case-insensitively or passed only through the allowlisted local Blender environment. ProgramFiles and SystemRoot casing aliases are supported. This is not a credential or a studio activation setting."
+    },
+    {
+      "name": "PAC_TEAM_KEY",
+      "class": "server_secret",
+      "surface": "legacy_team_session",
+      "example": true,
+      "required_when": "optional legacy team-key sign-in only; direct owner access does not require it"
+    },
+    {
+      "name": "SP_CLONE_RESEND_API_KEY",
+      "class": "server_secret",
+      "surface": "sp_clone_request_notification",
+      "example": false,
+      "required_when": "only when the standalone SharePoint-style clone's request-support workflow should email a notification through the owner's own Resend account; the /api/sp-clone-request route degrades to save-only, no email, when unset"
+    },
+    {
+      "name": "SP_CLONE_NOTIFY_EMAIL",
+      "class": "server_secret",
+      "surface": "sp_clone_request_notification",
+      "example": false,
+      "required_when": "paired with SP_CLONE_RESEND_API_KEY; the owner's own recipient address for sp-clone request notifications"
+    },
+    {
+      "name": "SHARE_CHECK_SOURCE_DIR",
+      "class": "test_control",
+      "surface": "share_link_runner_check",
+      "example": false,
+      "required_when": "only for scripts/share-link-test.mjs when the share rule should be read from a different checkout, as the runner workflow does with the deployed branch; defaults to the current checkout"
+    },
+    {
+      "name": "SHARE_CHECK_BASE_URL",
+      "class": "test_control",
+      "surface": "share_link_runner_check",
+      "example": false,
+      "required_when": "only for scripts/share-link-test.mjs to check a site other than the production address"
+    },
+    {
+      "name": "SHARE_CHECK_SEND",
+      "class": "test_control",
+      "surface": "share_link_runner_check",
+      "example": false,
+      "required_when": "only for scripts/share-link-test.mjs; set to true to post the report to /api/sp-clone-request so the owner receives it by email"
+    }
+  ],
+  "forbidden_client_settings": [
+    "NEXT_PUBLIC_PAC_OWNER_KEY",
+    "NEXT_PUBLIC_PAC_RATE_LIMIT_SECRET",
+    "NEXT_PUBLIC_PAC_CONSULTATION_TRACKING_SECRET",
+    "NEXT_PUBLIC_PAC_DATABASE_URL",
+    "NEXT_PUBLIC_PAC_RUNTIME_DATABASE_URL",
+    "NEXT_PUBLIC_PAC_SUPABASE_SECRET_KEY",
+    "NEXT_PUBLIC_ANTHROPIC_API_KEY",
+    "NEXT_PUBLIC_OPENAI_API_KEY",
+    "NEXT_PUBLIC_PERPLEXITY_API_KEY",
+    "NEXT_PUBLIC_CRON_SECRET",
+    "NEXT_PUBLIC_PAC_CONTRIBUTOR_DATABASE_URL",
+    "NEXT_PUBLIC_PAC_PROGRAM_AUTH_DATABASE_URL"
+  ]
+}

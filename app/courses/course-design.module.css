@@ -1,0 +1,75 @@
+.page:global(.course-page) { max-width: 1240px; margin-inline: auto; padding: 2rem clamp(1.25rem,4vw,3.5rem) 4.5rem; color: #182c3a; background: #F7F5EF; }
+.page :is(a,button,input,summary,textarea,select):focus-visible { outline: 3px solid #176B65; outline-offset: 4px; }
+.breadcrumb { display: inline-block; margin-bottom: 1.8rem; color: #183247; font-size: .9rem; font-weight: 600; text-underline-offset: .25em; }
+.hero { display: grid; grid-template-columns: minmax(0,1.2fr) minmax(0,1fr); gap: clamp(2rem,4vw,3.5rem); align-items: center; padding-block: .5rem 2.5rem; border-bottom: 1px solid #d9e0e4; }
+.page .hero h1 { margin: .65rem 0 1.15rem; color: #183247; font-size: clamp(2rem,3.5vw,3.3rem); line-height: 1.13; letter-spacing: -.035em; font-weight: 600; text-wrap: balance; }
+.eyebrow { color: #607581; font-size: .78rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; }
+.description { max-width: 65ch; color: #415766; font-size: 1.08rem; line-height: 1.75; }
+.duration { margin-block: 1.2rem; font-size: .85rem; color: #596f7d; }
+.cover { position: relative; min-width: 0; aspect-ratio: 4/3; overflow: hidden; border-radius: 1rem; background: #F7F5EF; }
+.sectionNav { display: flex; gap: 1rem 2rem; flex-wrap: wrap; padding-block: 1rem; border-bottom: 1px solid #d9e0e4; font-size: .9rem; font-weight: 650; }
+.sectionNav a { color: #183247; text-underline-offset: .3em; }
+.page section { margin-top: 2.5rem; scroll-margin-top: 1.5rem; }
+.page:global(.course-page) h2 { color: #183247; font-size: clamp(1.55rem,2.6vw,2rem); font-weight: 600; letter-spacing: -.025em; line-height: 1.25; }
+.page:global(.course-page) h3 { color: #183c56; font-weight: 600; line-height: 1.35; }
+.outcomes { border-top: 2px solid #93a9ba; display: grid; grid-template-columns: 1fr 1fr; gap: 1.25rem 2.5rem; padding: 1.75rem; border-radius: .75rem; background: #F7F5EF; }
+.outcomes h2, .outcomes > p { grid-column: 1/-1; margin: 0; }
+.outcomes h3 { margin-top: 0; font-size: 1rem; }
+.outcomes ul { margin: .75rem 0 0; }
+.page .lessons { list-style: none; margin: 1rem 0 0; padding: 0; display: block; }
+.page .lessons > li { display: grid; grid-template-columns: 2.5rem minmax(0,1fr) auto; gap: 1rem; align-items: start; margin: 0; padding: 1.25rem 0; border: 0; border-bottom: 1px solid #d9e0e4; border-radius: 0; background: transparent; }
+.lessonNumber { color: #7b8e9a; font-size: .9rem; padding-top: .25rem; font-variant-numeric: tabular-nums; }
+.page .lessons h3 { margin: 0; font-size: 1.15rem; }
+.lessons h3 a { color: #183247; text-decoration: none; }
+.lessons h3 a:hover { text-decoration: underline; }
+.page .lessons p { margin: .5rem 0 0; max-width: 80ch; color: #536874; font-size: .95rem; line-height: 1.7; }
+.lessonTime { color: #657a87; font-size: .8rem; white-space: nowrap; padding-top: .3rem; }
+.jobAid { padding: 2rem 0; border: 0; border-top: 2px solid #E8BD62; border-bottom: 1px solid #d9e0e4; border-radius: 0; background: #fff; }
+.jobAid > h2 { margin-top: 0; }
+.jobSections { display: grid; grid-template-columns: 1fr 1fr; gap: .5rem 2.5rem; }
+.sources { max-width: 85ch; }
+.sources ul { list-style: none; padding: 0; }
+.sources li { padding-block: 1rem; border-top: 1px solid #d9e0e4; }
+.sources li p { font-size: .9rem; color: #526b7c; margin: .55rem 0 0; }
+.credit { padding-block: 1.25rem; color: #526573; font-size: .85rem; line-height: 1.7; border-bottom: 1px solid #d9e0e4; }
+.lessonLayout { display: grid; grid-template-columns: minmax(0,1fr) 15rem; gap: 3rem; align-items: start; }
+.lessonMain { min-width: 0; }
+.outline { padding: 1.3rem; background: #F7F5EF; border: 1px solid #d9e0e4; border-radius: .6rem; }
+.outline h2 { margin: 0 0 .8rem; font-size: 1.05rem; }
+.outline ol { margin: 0; padding-left: 1.2rem; }
+.outline li { padding-block: .45rem; color: #617381; font-size: .85rem; line-height: 1.6; }
+.outline a { color: #38576c; text-decoration: none; }
+.outline a:hover { text-decoration: underline; }
+.outline a[aria-current] { font-weight: 750; color: #183247; text-decoration: underline; text-underline-offset: .2em; }
+.lessonMain :global(.course-lesson) > header { padding: 1.5rem 0 2rem; border-bottom: 1px solid #d9e0e4; }
+.lessonMain :global(.course-lesson) h1 { color: #183247; font-size: clamp(2rem,3.5vw,3rem); font-weight: 600; letter-spacing: -.03em; line-height: 1.16; }
+.lessonMain :global(.course-lesson) > section { max-width: 78ch; }
+.lessonMain :global(.course-lesson) p { line-height: 1.8; }
+.lessonMain :global(.course-lesson) :is(button,.btn) { border-radius: .4rem; }
+@media(max-width: 900px) { .lessonLayout { grid-template-columns: minmax(0,1fr); gap: 1.5rem; } .outline { grid-row: 1; } .outline ol { display: grid; grid-template-columns: 1fr 1fr; gap: .25rem 1.5rem; } }
+@media(max-width: 700px) { .hero, .outcomes, .jobSections { grid-template-columns: minmax(0,1fr); } .cover { aspect-ratio: 16/9; } .page .lessons > li { grid-template-columns: 1.75rem minmax(0,1fr); gap: .7rem; } .lessonTime { grid-column: 2; padding-top: 0; } .jobAid, .outcomes { padding: 1.35rem; } .outline ol { display: block; } }
+@media print { .sectionNav,.outline { display: none; } .lessonLayout,.hero,.outcomes { border-top: 2px solid #93a9ba; display: block; } .page:global(.course-page) { max-width: none; padding: 0; } }
+/* Calm emphasis while keeping the reading area open. */
+.page .hero > div:first-child::before { content: ""; display: block; width: 3rem; height: 3px; margin-bottom: 1rem; background: #E8BD62; }
+.page .lessons h3 a:focus-visible { outline-offset: 5px; }
+.page .lessons > li:hover { background: #F7F5EF; }
+
+.page:global(.course-page) { background: #F7F5EF; }
+.page :global(.button) { background: #176B65; border-color: #176B65; color: #fff; font-weight: 650; }
+.page :global(.button):hover { background: #125953; color: #fff; }
+.outcomes { background: #F0ECE2; border: 0; }
+.page .lessons, .jobAid, .lessonMain { background: #fff; border: 1px solid #d8ded8; border-radius: .75rem; padding: clamp(1.25rem,3vw,2rem); }
+.page .lessons > li:last-child { border-bottom: 0; }
+.page .lessons > li:hover { background: #fff; }
+.outline { background: #fff; }
+.outline a[aria-current] { color: #176B65; }
+.supporting { margin-top: 2rem; }
+.supporting summary { min-height: 44px; color: #183247; }
+.page :is(h1,h2,h3,p,a) { overflow-wrap: break-word; }
+@media (max-width: 900px) { .outline { grid-row: auto; } }
+@media print { .page:global(.course-page) { background: #fff; } }
+
+
+.page:global(.course-page), .outcomes { background: #fff; }
+.outcomes { border: 1px solid #c6cfd3; }
+.page :is(h2,h3) { font-weight: 600; }

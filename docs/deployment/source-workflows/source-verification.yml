@@ -1,0 +1,33 @@
+name: Source verification (source register receipts)
+
+on:
+  workflow_dispatch:
+    inputs:
+      ref:
+        description: Branch or commit whose source register should be checked
+        default: claude/youthful-mendel-fbk166
+        required: true
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ inputs.ref }}
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - name: Fetch every outside source in the register and record a receipt
+        run: |
+          echo "checked_at_utc=$(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          echo "register_ref=${{ inputs.ref }}"
+          node scripts/content/verify-sources.mjs data/source-register/source-register.json verification-receipts.json
+      - uses: actions/upload-artifact@v4
+        with:
+          name: verification-receipts
+          path: verification-receipts.json

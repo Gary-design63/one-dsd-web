@@ -1,0 +1,84 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://one-dhs-pac.local/schemas/donor-candidate-snapshot-v1.json",
+  "title": "Recovered donor candidate snapshot",
+  "type": "object",
+  "required": [
+    "schemaVersion",
+    "assetKind",
+    "assetId",
+    "contentItemId",
+    "contentKind",
+    "title",
+    "sourceClass",
+    "donor",
+    "ownerDirection",
+    "richOriginal",
+    "renderable"
+  ],
+  "properties": {
+    "schemaVersion": { "const": "1.0.0" },
+    "assetKind": {
+      "enum": [
+        "course",
+        "community_brief",
+        "community_brief_unmatched_guide",
+        "religion_brief",
+        "domain_resource"
+      ]
+    },
+    "assetId": { "type": "string", "minLength": 1 },
+    "contentItemId": { "type": "string", "minLength": 1 },
+    "contentKind": { "enum": ["course", "community_brief", "resource"] },
+    "title": { "type": "string", "minLength": 1 },
+    "sourceClass": { "enum": ["authored", "generated_curriculum"] },
+    "donor": {
+      "type": "object",
+      "required": ["repository", "commit", "entryPaths", "registryOrdinal", "capturedFrom"],
+      "properties": {
+        "repository": { "type": "string", "minLength": 1 },
+        "commit": { "type": "string", "pattern": "^[0-9a-f]{40}$" },
+        "entryPaths": { "type": "array", "minItems": 1, "items": { "type": "string" } },
+        "registryOrdinal": { "type": "integer", "minimum": 0 },
+        "capturedFrom": { "const": "pinned_git_tree" }
+      },
+      "additionalProperties": true
+    },
+    "ownerDirection": {
+      "type": "object",
+      "required": ["ingestionApproval", "contentPosture", "publicationAuthorization"],
+      "properties": {
+        "ingestionApproval": { "const": "owner_approved_for_ingestion" },
+        "contentPosture": { "const": "candidate_revision_with_pending_reviews" },
+        "publicationAuthorization": { "const": "none" }
+      },
+      "additionalProperties": false
+    },
+    "richOriginal": { "type": "object" },
+    "renderable": {
+      "type": "object",
+      "required": ["schemaVersion", "presentation", "title", "summary", "sections", "appliesTo"],
+      "properties": {
+        "schemaVersion": { "const": "1.0.0" },
+        "presentation": { "const": "plain_resource" },
+        "title": { "type": "string", "minLength": 1 },
+        "summary": { "type": "string" },
+        "sections": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["heading", "paragraphs"],
+            "properties": {
+              "heading": { "type": "string", "minLength": 1 },
+              "paragraphs": { "type": "array", "items": { "type": "string" } }
+            },
+            "additionalProperties": false
+          }
+        },
+        "appliesTo": { "type": "string", "minLength": 1 }
+      },
+      "additionalProperties": true
+    }
+  },
+  "additionalProperties": false
+}

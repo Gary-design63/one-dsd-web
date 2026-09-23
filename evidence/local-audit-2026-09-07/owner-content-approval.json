@@ -1,0 +1,13 @@
+{
+  "recorded_at": "2026-09-07T20:41:49.872038+00:00",
+  "authority": "Gary, program owner, explicit instructions in this conversation",
+  "scope": "All content personally curated and supplied by the owner for this program",
+  "decision": "approved",
+  "human_review_item": "CI-E7",
+  "human_review_decision": "owner approved",
+  "asset": {
+    "path": "public/images/staff-hero-office.jpg",
+    "sha256": "61ad84b3ca7449636db7b43e01415213d22b72b1db660073670bc032d2a34a80"
+  },
+  "limits": "Records owner content approval. Does not assert that automated functional, security, or accessibility tests passed."
+}

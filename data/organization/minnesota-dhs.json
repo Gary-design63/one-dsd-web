@@ -1,0 +1,932 @@
+{
+  "version": "2026-09-08.1",
+  "checkedOn": "2026-09-08",
+  "purpose": "Organizational reference for DHS staff support and Chief of Staff coordination.",
+  "sources": [
+    {
+      "id": "mission",
+      "title": "DHS: About human services",
+      "url": "https://mn.gov/dhs/about-us/",
+      "checkedOn": "2026-09-08",
+      "reviewAfterDays": 90
+    },
+    {
+      "id": "organization",
+      "title": "DHS: Agencywide organization",
+      "url": "https://mn.gov/dhs/about-us/contact-us/agencywide-organization/",
+      "checkedOn": "2026-09-08",
+      "reviewAfterDays": 7
+    },
+    {
+      "id": "strategy",
+      "title": "DHS: 2023–2027 agencywide strategic plan",
+      "url": "https://mn.gov/dhs/about-us/strategic-plan/",
+      "checkedOn": "2026-09-08",
+      "reviewAfterDays": 30
+    },
+    {
+      "id": "operations",
+      "title": "DHS: Department operations",
+      "url": "https://mn.gov/dhs/about-us/about-human-services/",
+      "checkedOn": "2026-09-08",
+      "reviewAfterDays": 90
+    },
+    {
+      "id": "policies",
+      "title": "DHS: Department and state policies",
+      "url": "https://mn.gov/dhs/about-us/state-department-policies/",
+      "checkedOn": "2026-09-08",
+      "reviewAfterDays": 30
+    },
+    {
+      "id": "dsd-intro",
+      "title": "CBSM: Introduction to DSD",
+      "url": "https://www.dhs.state.mn.us/main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=id_000721",
+      "checkedOn": "2026-09-08",
+      "reviewAfterDays": 30
+    },
+    {
+      "id": "dsd-legacy",
+      "title": "DHS: Disability Services about us (legacy organization wording)",
+      "url": "https://mn.gov/dhs/people-we-serve/people-with-disabilities/services/home-community/about-us/",
+      "checkedOn": "2026-09-08",
+      "reviewAfterDays": 30
+    },
+    {
+      "id": "cbsm",
+      "title": "Community-Based Services Manual",
+      "url": "https://www.dhs.state.mn.us/main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=id_000402",
+      "checkedOn": "2026-09-08",
+      "reviewAfterDays": 30
+    },
+    {
+      "id": "ltss-policy",
+      "title": "DHS: Long-term services and supports policies and procedures",
+      "url": "https://mn.gov/dhs/partners-and-providers/policies-procedures/long-term-services-and-supports/",
+      "checkedOn": "2026-09-08",
+      "reviewAfterDays": 30
+    },
+    {
+      "id": "case-management",
+      "title": "DHS: Case manager and care coordinator essentials",
+      "url": "https://mn.gov/dhs/partners-and-providers/news-initiatives-reports-workgroups/long-term-services-and-supports/cm/cm-essentials/",
+      "checkedOn": "2026-09-08",
+      "reviewAfterDays": 30
+    },
+    {
+      "id": "mnchoices",
+      "title": "DHS: MnCHOICES",
+      "url": "https://mn.gov/dhs/partners-and-providers/news-initiatives-reports-workgroups/long-term-services-and-supports/mnchoices/",
+      "checkedOn": "2026-09-08",
+      "reviewAfterDays": 30
+    },
+    {
+      "id": "ltss-news",
+      "title": "DHS: Long-term services and supports initiatives",
+      "url": "https://mn.gov/dhs/partners-and-providers/news-initiatives-reports-workgroups/long-term-services-and-supports/",
+      "checkedOn": "2026-09-08",
+      "reviewAfterDays": 7
+    },
+    {
+      "id": "cfss",
+      "title": "DHS: CFSS and lead agencies FAQ",
+      "url": "https://mn.gov/dhs/partners-and-providers/news-initiatives-reports-workgroups/long-term-services-and-supports/cfss/cfss-faq-la.jsp",
+      "checkedOn": "2026-09-08",
+      "reviewAfterDays": 7
+    },
+    {
+      "id": "waiver-change",
+      "title": "DHS: New Disability Waiver Program",
+      "url": "https://mn.gov/dhs/disability-waiver-program/",
+      "checkedOn": "2026-09-08",
+      "reviewAfterDays": 7
+    },
+    {
+      "id": "dwrs",
+      "title": "DHS: Disability Waiver Rate System",
+      "url": "https://mn.gov/dhs/partners-and-providers/news-initiatives-reports-workgroups/long-term-services-and-supports/disability-waiver-rates-system/",
+      "checkedOn": "2026-09-08",
+      "reviewAfterDays": 7
+    },
+    {
+      "id": "employment",
+      "title": "DHS: Employment First",
+      "url": "https://mn.gov/dhs/partners-and-providers/news-initiatives-reports-workgroups/long-term-services-and-supports/employment-first/",
+      "checkedOn": "2026-09-08",
+      "reviewAfterDays": 30
+    },
+    {
+      "id": "licensing",
+      "title": "DHS: HCBS 245D licensing",
+      "url": "https://mn.gov/dhs/partners-and-providers/partners-licensing/hcbs-245d/",
+      "checkedOn": "2026-09-08",
+      "reviewAfterDays": 7
+    },
+    {
+      "id": "hcbs-settings",
+      "title": "DHS: HCBS settings transition plan",
+      "url": "https://mn.gov/dhs/partners-and-providers/news-initiatives-reports-workgroups/long-term-services-and-supports/hcbs-transition/",
+      "checkedOn": "2026-09-08",
+      "reviewAfterDays": 30
+    },
+    {
+      "id": "complex-transitions",
+      "title": "DHS: Complex transitions team",
+      "url": "https://mn.gov/dhs/partners-and-providers/news-initiatives-reports-workgroups/long-term-services-and-supports/acute-care-transitions-advisory-council/complex-transitions.jsp",
+      "checkedOn": "2026-09-08",
+      "reviewAfterDays": 30
+    },
+    {
+      "id": "civil-rights",
+      "title": "DHS: Civil rights in human services",
+      "url": "https://mn.gov/dhs/about-us/about-human-services/terms-rights-access/civil-rights-human-services/",
+      "checkedOn": "2026-09-08",
+      "reviewAfterDays": 30
+    },
+    {
+      "id": "language",
+      "title": "DHS: Limited English proficiency resources",
+      "url": "https://mn.gov/dhs/about-us/about-human-services/terms-rights-access/lep/",
+      "checkedOn": "2026-09-08",
+      "reviewAfterDays": 30
+    },
+    {
+      "id": "contacts",
+      "title": "DHS: Division addresses and phone numbers",
+      "url": "https://mn.gov/dhs/about-us/contact-us/address-phone-divisions/division-addresses.jsp",
+      "checkedOn": "2026-09-08",
+      "reviewAfterDays": 7
+    },
+    {
+      "id": "dcyf",
+      "title": "Department of Children, Youth, and Families",
+      "url": "https://dcyf.mn.gov/",
+      "checkedOn": "2026-09-08",
+      "reviewAfterDays": 30
+    },
+    {
+      "id": "dcyf-transfer",
+      "title": "DHS: Licensing transition to DCYF",
+      "url": "https://content.govdelivery.com/accounts/MNDHS/bulletins/3e335d0",
+      "checkedOn": "2026-09-08",
+      "reviewAfterDays": 90
+    },
+    {
+      "id": "dct-transfer",
+      "title": "DCT: 2026 legislative fast facts on agency separation",
+      "url": "https://mn.gov/dct/assets/2026-02-10-tort-statute-revision-fact-sheet_tcm1217-725916.pdf",
+      "checkedOn": "2026-09-08",
+      "reviewAfterDays": 90
+    },
+    {
+      "id": "grants",
+      "title": "DHS: DSD grants FAQ",
+      "url": "https://mn.gov/dhs/partners-and-providers/grants-rfps/disability-innovation-grants/dsd-grants-faq.jsp",
+      "checkedOn": "2026-09-08",
+      "reviewAfterDays": 30
+    },
+    {
+      "id": "behavioral-health",
+      "title": "DHS: Certified Community Behavioral Health Clinics",
+      "url": "https://mn.gov/dhs/partners-and-providers/policies-procedures/behavioral-health/ccbhc/",
+      "checkedOn": "2026-09-08",
+      "reviewAfterDays": 30
+    },
+    {
+      "id": "capital-plan",
+      "title": "MMB: DHS 2026 capital budget request",
+      "url": "https://mn.gov/mmb-stat/documents/budget/capital-budget/final-capital-budget/2026/human-services.pdf",
+      "checkedOn": "2026-09-08",
+      "reviewAfterDays": 90
+    },
+    {
+      "id": "mhcp",
+      "title": "DHS: Minnesota Health Care Programs",
+      "url": "https://mn.gov/dhs/partners-and-providers/program-overviews/mhcp/",
+      "checkedOn": "2026-09-08",
+      "reviewAfterDays": 30
+    },
+    {
+      "id": "housing",
+      "title": "DHS: Housing and homelessness",
+      "url": "https://mn.gov/dhs/partners-and-providers/program-overviews/housing-and-homelessness/",
+      "checkedOn": "2026-09-08",
+      "reviewAfterDays": 30
+    },
+    {
+      "id": "aging",
+      "title": "DHS: Aging program overview",
+      "url": "https://mn.gov/dhs/partners-and-providers/program-overviews/aging/",
+      "checkedOn": "2026-09-08",
+      "reviewAfterDays": 30
+    },
+    {
+      "id": "tribal-relations",
+      "title": "DHS: Tribal and Urban Indian Relations",
+      "url": "https://mn.gov/dhs/partners-and-providers/program-overviews/tribal-and-urban-indian-relations/",
+      "checkedOn": "2026-09-08",
+      "reviewAfterDays": 30
+    },
+    {
+      "id": "adult-protection",
+      "title": "DHS: Adult protection",
+      "url": "https://mn.gov/dhs/partners-and-providers/program-overviews/adult-protection/",
+      "checkedOn": "2026-09-08",
+      "reviewAfterDays": 30
+    },
+    {
+      "id": "legislative",
+      "title": "DHS: Legislative and media",
+      "url": "https://mn.gov/dhs/about-us/legislative-media/",
+      "checkedOn": "2026-09-08",
+      "reviewAfterDays": 30
+    }
+  ],
+  "entries": [
+    {
+      "id": "ext-dhs-org-purpose",
+      "title": "DHS purpose and service relationships",
+      "sourceIds": [
+        "mission"
+      ],
+      "aliases": [
+        "DHS mission",
+        "organization",
+        "agency overview",
+        "human services"
+      ],
+      "facts": "DHS works with counties, Tribal Nations, communities and providers to support Minnesotans' health, independence and life in community. Its public participation channels include meetings, comment opportunities and advisory bodies.",
+      "application": "Map the affected people, service partners and decision owners before proposing a change. Public participation is a source of knowledge about service experience.",
+      "units": [
+        "DHS",
+        "Counties",
+        "Tribal Nations",
+        "Service providers"
+      ]
+    },
+    {
+      "id": "ext-dhs-org-structure",
+      "title": "DHS organizational responsibilities",
+      "sourceIds": [
+        "organization"
+      ],
+      "aliases": [
+        "organizational chart",
+        "division",
+        "administration",
+        "commissioner",
+        "leadership"
+      ],
+      "facts": "The agency directory lists Aging and Disability Services, Behavioral Health, Health Care, and Homelessness, Housing and Support Services. Cross-agency functions include finance, compliance, legal counsel, inspector general, strategy and performance, employee culture, equity and inclusion, communications, and MNIT.",
+      "application": "Use the function responsible for the question. A division name alone does not establish authority over every step of a service.",
+      "units": [
+        "Aging and Disability Services",
+        "Behavioral Health",
+        "Health Care",
+        "Homelessness, Housing and Support Services"
+      ]
+    },
+    {
+      "id": "ext-dhs-org-dsd-placement",
+      "title": "Where Disability Services sits",
+      "sourceIds": [
+        "organization",
+        "dsd-intro"
+      ],
+      "aliases": [
+        "DSD",
+        "Disability Services Division",
+        "Aging and Disability Services",
+        "Continuing Care Administration"
+      ],
+      "facts": "The agency directory and CBSM introduction place Disability Services within Aging and Disability Services. DSD manages publicly funded supports for people with developmental or physical disabilities, chronic medical conditions, and acquired or traumatic brain injuries. DSD is not the DHS Licensing function; DHS retaining a license category does not mean DSD administers that license.",
+      "application": "Separate DSD program expertise from licensing, billing and individual lead-agency responsibilities.",
+      "units": [
+        "Disability Services Division",
+        "Aging and Disability Services"
+      ]
+    },
+    {
+      "id": "ext-dhs-org-strategy",
+      "title": "DHS strategic direction and staff culture",
+      "sourceIds": [
+        "strategy"
+      ],
+      "aliases": [
+        "strategic plan",
+        "2023 2027",
+        "psychological safety",
+        "staff culture",
+        "career pathways",
+        "anti racism",
+        "equity inclusion"
+      ],
+      "facts": "The published 2023–2027 plan has three outcomes: Minnesotans thrive, people experience high-quality services, and DHS employees thrive in an inclusive environment. Its goals address equitable access, community choice, caregiving capacity, service quality, program integrity, partnerships, inclusion, psychological safety and career growth. It also addresses continuity during agency separation.",
+      "application": "Connect a recommendation to a concrete staff or service outcome. Identify the experience to improve, an observable measure and the work that can be simplified.",
+      "units": [
+        "Office of Employee Culture",
+        "Equity and Inclusion",
+        "Office of Strategy and Performance"
+      ]
+    },
+    {
+      "id": "ext-dhs-org-county-tribal",
+      "title": "County and Tribal partnerships",
+      "sourceIds": [
+        "organization",
+        "mission",
+        "case-management"
+      ],
+      "aliases": [
+        "county",
+        "lead agency",
+        "Tribal Nation",
+        "Office of Indian Policy",
+        "government to government",
+        "consultation",
+        "sovereignty"
+      ],
+      "facts": "County Relations supports DHS relationships with Minnesota's 87 counties. The Office of Indian Policy coordinates consultation with Tribal governments. Lead-agency reviews examine HCBS administration and outcomes and inform improvements.",
+      "application": "Include county operational knowledge where relevant. Government-to-government consultation and community engagement have different participants and purposes; identify the appropriate Office of Indian Policy route for formal Tribal consultation.",
+      "units": [
+        "County Relations",
+        "Office of Indian Policy",
+        "County and Tribal lead agencies"
+      ]
+    },
+    {
+      "id": "ext-dhs-org-dsd-choice",
+      "title": "DSD priorities and person-centered outcomes",
+      "sourceIds": [
+        "dsd-intro"
+      ],
+      "aliases": [
+        "CHOICE",
+        "person centered",
+        "self determination",
+        "DSD goals",
+        "independence"
+      ],
+      "facts": "DSD's published priorities cover community participation; health, wellness and safety; a home of one's choosing; enduring relationships; control of supports; and work and income. Its goals address access, timely service, quality, partnership, innovation and person-centered decisions. The introduction displays an old review date, so it does not establish current internal targets.",
+      "application": "Use the person's own goals and preferences to frame alternatives. Assess burden, accessibility, continuity and opportunities for self-direction.",
+      "units": [
+        "Disability Services Division",
+        "County and Tribal lead agencies"
+      ]
+    },
+    {
+      "id": "ext-dhs-org-manuals",
+      "title": "Finding DSD policy and operational guidance",
+      "sourceIds": [
+        "cbsm",
+        "ltss-policy"
+      ],
+      "aliases": [
+        "CBSM",
+        "Community Based Services Manual",
+        "policy manual",
+        "waiver",
+        "BI",
+        "CAC",
+        "CADI",
+        "DD",
+        "Elderly Waiver",
+        "CDCS",
+        "EIDBI",
+        "HIV"
+      ],
+      "facts": "The CBSM organizes assessment, support planning, case management, safeguards, eligibility, employment, service options and waiver guidance. It distinguishes BI, CAC, CADI, DD and Elderly Waiver topics. The LTSS policy directory links additional manuals for CDCS, EIDBI, Moving Home Minnesota and other programs.",
+      "application": "Start with the specific service and current manual page. A directory is a route to policy, not proof of an individual's eligibility or a particular rate.",
+      "units": [
+        "Disability Services Division",
+        "Aging and Adult Services",
+        "Lead agency"
+      ]
+    },
+    {
+      "id": "ext-dhs-org-assessment",
+      "title": "MnCHOICES assessment and support planning",
+      "sourceIds": [
+        "mnchoices",
+        "case-management",
+        "organization"
+      ],
+      "aliases": [
+        "MnCHOICES",
+        "assessment",
+        "support planning",
+        "managed care organization",
+        "case manager",
+        "care coordinator"
+      ],
+      "facts": "MnCHOICES supports long-term services and supports assessment and planning by counties, Tribal Nations and managed care organizations. DHS coordinates related updates through aging, disability and MnCHOICES communication channels. The CBSM provides case-management policy guidance. MNIT provides technology support; managed care organizations use MnCHOICES in care coordination. Using the application does not establish responsibility for system administration.",
+      "application": "For an assessment-process change, distinguish policy, the person's support-planning experience, lead-agency workflow and application support. Use those distinctions to identify collaborators.",
+      "units": [
+        "County and Tribal lead agencies",
+        "Managed care organizations",
+        "Disability Services Division",
+        "Aging and Adult Services"
+      ]
+    },
+    {
+      "id": "ext-dhs-org-person-centered",
+      "title": "Person-centered planning across partners",
+      "sourceIds": [
+        "ltss-policy",
+        "hcbs-settings"
+      ],
+      "aliases": [
+        "informed choice",
+        "person centered protocol",
+        "transition",
+        "HCBS settings",
+        "community integration"
+      ],
+      "facts": "DHS's person-centered, informed choice and transition protocol addresses support planning by counties, Tribal organizations and managed care organizations. HCBS settings oversight includes provider enrollment, case management and licensing.",
+      "application": "Ask how the proposed change affects meaningful choice, community participation and continuity. Trace the effect across planning, provider practice and oversight.",
+      "units": [
+        "Lead agency",
+        "Service providers",
+        "DHS Licensing",
+        "Disability Services Division"
+      ]
+    },
+    {
+      "id": "ext-dhs-org-cfss",
+      "title": "CFSS and the transition from PCA and CSG",
+      "sourceIds": [
+        "cfss",
+        "ltss-news"
+      ],
+      "aliases": [
+        "CFSS",
+        "Community First Services Supports",
+        "PCA",
+        "personal care assistance",
+        "CSG",
+        "Consumer Support Grant"
+      ],
+      "facts": "Community First Services and Supports offers flexible home and community support options and replaces personal care assistance and the Consumer Support Grant. DHS directs lead agencies to the CFSS Manual for transition guidance.",
+      "application": "Use the current transition manual for deadlines and individual circumstances. Explain the service change in accessible language and identify the person's lead-agency contact.",
+      "units": [
+        "Lead agency",
+        "Disability Services Division"
+      ]
+    },
+    {
+      "id": "ext-dhs-org-waiver-change",
+      "title": "Disability Waiver Program changes",
+      "sourceIds": [
+        "waiver-change"
+      ],
+      "aliases": [
+        "Waiver Reimagine",
+        "new Disability Waiver Program",
+        "individual budgets",
+        "waiver reform"
+      ],
+      "facts": "The new Disability Waiver Program site describes a simpler structure, individual budgets and online tools. At the September 8 review, it said implementation timing was still being determined. It provides resources, community input and Advisory Task Force on Waiver Reimagine routes.",
+      "application": "Separate planned changes from rules already in effect. Use the official update page before giving a launch date, and connect communications to the affected people and partners.",
+      "units": [
+        "Disability Services Division",
+        "Counties",
+        "Tribal Nations",
+        "Providers"
+      ]
+    },
+    {
+      "id": "ext-dhs-org-rates",
+      "title": "Disability Waiver Rate System",
+      "sourceIds": [
+        "dwrs"
+      ],
+      "aliases": [
+        "DWRS",
+        "Rate Management System",
+        "RMS",
+        "rates",
+        "rate remediation"
+      ],
+      "facts": "DHS's Disability Waiver Rate System page provides rate-setting guidance and 2026 remediation updates. Current policy for the Rate Management System is linked through the CBSM.",
+      "application": "Locate the exact service, effective period and authoritative rate guidance. Do not turn a general organizational summary into a rate calculation.",
+      "units": [
+        "Disability Services Division",
+        "Lead agency",
+        "Service provider"
+      ]
+    },
+    {
+      "id": "ext-dhs-org-employment",
+      "title": "Employment First and E1MN",
+      "sourceIds": [
+        "employment"
+      ],
+      "aliases": [
+        "Employment First",
+        "E1MN",
+        "DEED",
+        "MDE",
+        "competitive integrated employment",
+        "work benefits",
+        "DB101"
+      ],
+      "facts": "Employment First prioritizes competitive, integrated work. E1MN connects DHS, the Department of Employment and Economic Development and the Department of Education. DHS links employment exploration, development and support services, benefits-planning tools and lead-agency employment liaisons.",
+      "application": "Map school-to-work, vocational rehabilitation, waiver support and benefits-planning handoffs. The person's employment goals determine the starting point.",
+      "units": [
+        "DHS",
+        "DEED Vocational Rehabilitation Services",
+        "MDE",
+        "Lead-agency employment liaison"
+      ]
+    },
+    {
+      "id": "ext-dhs-org-licensing",
+      "title": "HCBS licensing versus enrollment and service planning",
+      "sourceIds": [
+        "licensing"
+      ],
+      "aliases": [
+        "245D",
+        "license",
+        "licensing",
+        "provider enrollment",
+        "moratorium",
+        "new provider"
+      ],
+      "facts": "DHS licenses certain home and community-based services under chapter 245D. Its licensing page distinguishes licensure from MHCP enrollment. It describes a licensing moratorium beginning January 1, 2026, anticipated through December 31, 2027, with a lead-agency-based exception process.",
+      "application": "Verify the current exception criteria and process before advising a provider. Keep licensing, Medicaid enrollment and individual service authorization distinct.",
+      "units": [
+        "DHS Licensing",
+        "MHCP Provider Enrollment",
+        "Lead agency"
+      ]
+    },
+    {
+      "id": "ext-dhs-org-transitions",
+      "title": "Complex transitions back to community",
+      "sourceIds": [
+        "complex-transitions"
+      ],
+      "aliases": [
+        "hospital discharge",
+        "complex transitions",
+        "institution",
+        "discharge barrier",
+        "transition team"
+      ],
+      "facts": "DHS's Complex Transitions Team connects expertise for people facing barriers moving from hospital or institutional settings to community. Its technical assistance supplements existing processes; hospitals first work with the person's lead agency.",
+      "application": "Identify the barrier, lead agency, hospital and needed expertise. Support preparation and navigation without claiming a referral has been sent or a requirement waived.",
+      "units": [
+        "Complex Transitions Team",
+        "Hospital",
+        "Lead agency",
+        "Support team"
+      ]
+    },
+    {
+      "id": "ext-dhs-org-navigation",
+      "title": "DSD contacts and Disability Hub MN",
+      "sourceIds": [
+        "contacts",
+        "grants"
+      ],
+      "aliases": [
+        "contact DSD",
+        "Disability Hub",
+        "help finding services",
+        "benefits navigation"
+      ],
+      "facts": "DHS's division directory lists DSD at 651-431-4300 or 866-267-7655 and Disability Hub MN at 866-333-2466. The Hub helps people navigate services and options. DSD competitive grants are a separate route from an individual's request for service assistance.",
+      "application": "Choose the service-navigation or grant route according to the actual request. Recheck phone numbers before relying on an older reference.",
+      "units": [
+        "Disability Services Division",
+        "Disability Hub MN"
+      ]
+    },
+    {
+      "id": "ext-dhs-org-grants",
+      "title": "DSD competitive grants and funding opportunities",
+      "sourceIds": [
+        "grants"
+      ],
+      "aliases": [
+        "grant",
+        "RFP",
+        "innovation",
+        "funding opportunity",
+        "procurement"
+      ],
+      "facts": "DSD's grants FAQ links current opportunities and explains that eligibility, deadlines and submission instructions belong to each RFP. It also provides a grants contact form and an online grant-management route.",
+      "application": "Help compare requirements, develop accessible proposals and track deliverables. Do not infer an open funding opportunity from an older award announcement.",
+      "units": [
+        "DSD grants staff",
+        "DHS procurement and grants"
+      ]
+    },
+    {
+      "id": "ext-dhs-org-civil-rights",
+      "title": "Civil rights and equal service access",
+      "sourceIds": [
+        "civil-rights"
+      ],
+      "aliases": [
+        "discrimination",
+        "civil rights",
+        "Equal Opportunity Access",
+        "fair treatment",
+        "complaint"
+      ],
+      "facts": "DHS describes equal access responsibilities across the department, county human-services agencies and providers. Its civil-rights contact handles service discrimination complaints, information, records, liaison work and training through Equal Opportunity and Access.",
+      "application": "Distinguish learning or process improvement from a person seeking the complaint route. Provide the relevant published contact without making a formal finding.",
+      "units": [
+        "Equal Opportunity and Access",
+        "County agency",
+        "Service provider"
+      ]
+    },
+    {
+      "id": "ext-dhs-org-language-access",
+      "title": "Language access and translated information",
+      "sourceIds": [
+        "language"
+      ],
+      "aliases": [
+        "interpreter",
+        "translation",
+        "language access",
+        "LEP",
+        "translated notice"
+      ],
+      "facts": "DHS publishes language-access resources and translated program documents to support access to information and benefits.",
+      "application": "Identify the audience's requested languages and communication needs, the document owner and the appropriate translation or interpretation support. Do not infer an individual's language needs from identity.",
+      "units": [
+        "Program document owner",
+        "Language-access support",
+        "Communications"
+      ]
+    },
+    {
+      "id": "ext-dhs-org-operations",
+      "title": "Finance, appeals and data requests",
+      "sourceIds": [
+        "operations"
+      ],
+      "aliases": [
+        "finance",
+        "budget",
+        "appeal",
+        "fair hearing",
+        "data request",
+        "privacy"
+      ],
+      "facts": "DHS's operations directory separates financial operations, appeals, privacy information and data requests. Financial operations includes budgets, payments and payroll support. Appeals concerns disputed benefits, services or other program decisions.",
+      "application": "Route by the actual issue: a benefits appeal, a public data request and an internal budget question require different processes.",
+      "units": [
+        "Financial Operations",
+        "Appeals Division",
+        "Data-request contact"
+      ]
+    },
+    {
+      "id": "ext-dhs-org-workforce",
+      "title": "Staff development, technology and communication",
+      "sourceIds": [
+        "organization"
+      ],
+      "aliases": [
+        "human resources",
+        "HR",
+        "staff development",
+        "employee culture",
+        "communications",
+        "MNIT",
+        "technology",
+        "workforce"
+      ],
+      "facts": "The directory lists development and learning, human resources and workforce planning within Employee Culture. Communications supports public and media information. MNIT supplies information infrastructure, application services and technology coordination.",
+      "application": "For staff-facing changes, identify learning, workforce, communication and technology dependencies. Confirm the internal process owner rather than inventing a reporting line.",
+      "units": [
+        "Office of Employee Culture",
+        "Communications",
+        "MNIT"
+      ]
+    },
+    {
+      "id": "ext-dhs-org-behavioral-health",
+      "title": "Behavioral health and coordinated care",
+      "sourceIds": [
+        "behavioral-health"
+      ],
+      "aliases": [
+        "behavioral health",
+        "mental health",
+        "substance use",
+        "CCBHC",
+        "clinic"
+      ],
+      "facts": "DHS's CCBHC materials describe integration of mental-health and substance-use services and care coordination. They distinguish service requirements, Medicaid coverage, licensing and background-study responsibilities, and include implementation updates.",
+      "application": "For a cross-service initiative, separate care continuity, program policy and provider requirements. Consult dated updates before asserting an implementation deadline.",
+      "units": [
+        "Behavioral Health Administration",
+        "Health Care Administration",
+        "DHS Licensing",
+        "Providers"
+      ]
+    },
+    {
+      "id": "ext-dhs-org-dcyf",
+      "title": "DHS and DCYF boundaries",
+      "sourceIds": [
+        "dcyf-transfer",
+        "dcyf"
+      ],
+      "aliases": [
+        "DCYF",
+        "child care",
+        "child support",
+        "child protection",
+        "food nutrition",
+        "SNAP",
+        "family child foster care"
+      ],
+      "facts": "DCYF's public site covers child care, child support, child safety, family supports, food and cash assistance, and youth services. DHS's June 2025 bulletin transferred specified child-care and child-foster-care licensing functions to DCYF, while retaining other categories including HCBS and children's residential facilities.",
+      "application": "Route by program and license type, not just the age of the people served. A child-related question does not automatically belong to DCYF.",
+      "units": [
+        "Department of Children, Youth, and Families",
+        "DHS Licensing"
+      ]
+    },
+    {
+      "id": "ext-dhs-org-dct",
+      "title": "DHS and Direct Care and Treatment boundaries",
+      "sourceIds": [
+        "dct-transfer"
+      ],
+      "aliases": [
+        "DCT",
+        "Direct Care Treatment",
+        "state operated",
+        "separate agency"
+      ],
+      "facts": "DCT's 2026 fact sheet states that Direct Care and Treatment became a standalone agency on July 1, 2025.",
+      "application": "Treat state-operated treatment responsibilities as a distinct agency relationship. DSD and DCT are different organizations.",
+      "units": [
+        "Direct Care and Treatment",
+        "DHS"
+      ]
+    },
+    {
+      "id": "ext-dhs-org-mhcp",
+      "title": "Minnesota Health Care Programs and Medicaid",
+      "sourceIds": [
+        "mhcp"
+      ],
+      "aliases": [
+        "MHCP",
+        "Medical Assistance",
+        "Medicaid",
+        "MinnesotaCare",
+        "MNsure",
+        "fee for service",
+        "health coverage"
+      ],
+      "facts": "MHCP includes Medical Assistance, MinnesotaCare and the Minnesota Family Planning Program. DHS works with county and Tribal workers and other partners on eligibility and enrollment. Depending on the program, delivery uses fee-for-service providers or contracted managed care organizations.",
+      "application": "Identify coverage, enrollment, billing and care-delivery questions separately. A change to one part of this process may affect other partners.",
+      "units": [
+        "Health Care Administration",
+        "County and Tribal eligibility workers",
+        "Managed care organizations",
+        "MHCP providers"
+      ]
+    },
+    {
+      "id": "ext-dhs-org-housing",
+      "title": "Housing and homelessness relationships",
+      "sourceIds": [
+        "housing"
+      ],
+      "aliases": [
+        "housing",
+        "homelessness",
+        "housing support",
+        "income supports"
+      ],
+      "facts": "DHS's housing work connects housing, services and income supports so people can live in their chosen communities.",
+      "application": "Distinguish housing availability, income support and service coordination. Verify current program availability before suggesting a specific benefit.",
+      "units": [
+        "Homelessness, Housing and Support Services",
+        "Local housing and service partners"
+      ]
+    },
+    {
+      "id": "ext-dhs-org-aging",
+      "title": "Aging services and community support",
+      "sourceIds": [
+        "aging"
+      ],
+      "aliases": [
+        "aging",
+        "older adults",
+        "caregiver",
+        "Minnesota Aging Pathways",
+        "Alternative Care"
+      ],
+      "facts": "DHS works with providers and community organizations on home and community-based supports for older adults, needs assessment and training. Its aging overview points people to Minnesota Aging Pathways and related community resources.",
+      "application": "Connect aging and disability supports where needs overlap, while preserving the specific program's eligibility and operational routes.",
+      "units": [
+        "Aging and Adult Services",
+        "Minnesota Aging Pathways",
+        "Community providers"
+      ]
+    },
+    {
+      "id": "ext-dhs-org-tribal-relations",
+      "title": "Tribal and Urban Indian Relations",
+      "sourceIds": [
+        "tribal-relations"
+      ],
+      "aliases": [
+        "Tribal and Urban Indian Relations",
+        "government to government",
+        "tribal consultation",
+        "urban Indian"
+      ],
+      "facts": "DHS describes Tribal and Urban Indian Relations as supporting consultation and program development with Tribal governments. Its published focus includes sovereignty relationships, infrastructure, access, disparities, culturally appropriate programs and fiscal resources.",
+      "application": "Identify the relevant Tribal government or urban Indian organization based on the work. They are not interchangeable, and an organization does not represent every individual.",
+      "units": [
+        "Office of Indian Policy",
+        "Tribal governments",
+        "Urban Indian organizations"
+      ]
+    },
+    {
+      "id": "ext-dhs-org-adult-protection",
+      "title": "Adult protection and reporting routes",
+      "sourceIds": [
+        "adult-protection"
+      ],
+      "aliases": [
+        "adult protection",
+        "MAARC",
+        "maltreatment",
+        "vulnerable adult",
+        "abuse reporting"
+      ],
+      "facts": "DHS Adult Protection provides policy, training, consultation and data work and operates the Minnesota Adult Abuse Reporting Center. The overview links reporting guidance for the public and mandated reporters.",
+      "application": "Provide the published reporting route when someone seeks it; preparation or learning in this program does not submit a report.",
+      "units": [
+        "Adult Protection",
+        "Minnesota Adult Abuse Reporting Center"
+      ]
+    },
+    {
+      "id": "ext-dhs-org-legislative",
+      "title": "Legislation, budgets and evidence",
+      "sourceIds": [
+        "legislative"
+      ],
+      "aliases": [
+        "legislature",
+        "legislation",
+        "legislative report",
+        "budget proposal",
+        "appropriation",
+        "fact sheet"
+      ],
+      "facts": "DHS legislative staff work with lawmakers on proposals, reports and budget topics. The department publishes session fact sheets, legislative reports and background materials.",
+      "application": "Distinguish a proposal from enacted law and an appropriation from an open grant. Use the relevant report and effective date when explaining a change.",
+      "units": [
+        "Legislative Relations",
+        "Program policy staff",
+        "Finance"
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "id": "internal-relationships",
+      "detail": "Public sources do not establish current DSD internal teams, informal working relationships, delegated decision authority, or the pilot's internal sponsor and operational contacts.",
+      "resolution": "Add Gary's role-based relationship map and authorized internal materials when available. No private staff directory was inferred."
+    },
+    {
+      "id": "legacy-dsd-placement",
+      "detail": "The older DSD About us page says Continuing Care Administration; the agency directory and CBSM introduction say Aging and Disability Services.",
+      "resolution": "Use the corroborated Aging and Disability Services placement; retain the legacy source as historical evidence, not current structure."
+    },
+    {
+      "id": "leadership-currency",
+      "detail": "The agencywide directory and older executive biographies differ on Aging and Disability Services leadership. The directory contains vacancies and interim appointments.",
+      "resolution": "Use role-based routing. Recheck the live directory for person-specific questions; no permanent officeholder list is embedded."
+    },
+    {
+      "id": "strategy-scope",
+      "detail": "The agencywide public page presents the 2023–2027 plan. A 2026 capital-budget document labels a different set of treatment-oriented goals 2026–2028.",
+      "resolution": "Keep the agencywide plan and capital-budget document distinct. Do not silently replace one with the other."
+    },
+    {
+      "id": "restricted-operations",
+      "detail": "PartnerLink and internal operational systems may require authorized access. Public source research does not establish access to their contents.",
+      "resolution": "Use public manuals and directory routes now; add authorized internal material with its actual access scope."
+    }
+  ]
+}

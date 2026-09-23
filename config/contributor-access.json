@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "features": {
+    "protected_identity": {
+      "evidence_id": "named-identity-contract-v1",
+      "policy_version": "contributor-access-v1",
+      "bindings": {
+        "identity_contract_version": "program-identity-v1",
+        "credential_contract_version": "pac-scrypt-v1",
+        "identity_correction_contract_version": "program-identity-correction-v1",
+        "session_audience": "pac-protected-workspace",
+        "session_hours": 8,
+        "runtime_database_role": "pac_contributor_runtime",
+        "authentication_broker_database_role": "pac_authentication_broker"
+      }
+    },
+    "protected_contribution": {
+      "evidence_id": "named-resource-contribution-v1",
+      "policy_version": "contributor-access-v1",
+      "bindings": {
+        "identity_contract_version": "program-identity-v1",
+        "mutation_contract_version": "named-resource-mutation-v1",
+        "scopes": [
+          "one-dhs",
+          "dsd"
+        ],
+        "operations": [
+          "resource_draft_save",
+          "resource_review_record",
+          "resource_publish",
+          "resource_withdraw",
+          "resource_republish"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,38 @@
+Saved page editing — September 6, 2026
+
+This supersedes the missing-tables finding in Local consultant access verification.txt.
+
+Database setup
+Applied only 0018_pac_editable_surfaces.sql after transactional trial runs.
+Existing migration checksums were verified. Existing resource and operational
+tables were not replaced. The migration registered 76 areas and captured the
+current application wording, including workforce and personal Teams links.
+The previously unapplied migration was corrected for schema-independent hashing
+and optional field limits that the application already supports.
+Do not resynchronize this migration now that its checksum is recorded; future
+registry updates require a new forward migration.
+
+Local activation
+.env.development.local selects 62 registered areas using
+PAC_DATABASE_EDITABLE_SURFACES. Resource content still uses its existing source.
+Fourteen community-brief areas remain on the previous presentation because their
+separate publication reviews are pending. This is not a claim that every field,
+resource, file, layout, or community brief has complete inline editing.
+The DHS logo remains outside editable fields.
+
+Observed end-to-end test
+Signed-in browser, One DHS view, /consultant/workforce/dsd:
+Saved a draft containing one additional sentence, then reloaded the page and
+reopened the editor. The saved draft returned, while the displayed wording had
+remained unchanged. Recorded five reviews and published the private-page change.
+Reloaded and confirmed the published sentence. Restored version 1 through the
+existing restoration control. Reloaded and confirmed the original wording.
+The test history remains in the database. No test sentence remains displayed.
+
+Recovery
+Remove the relevant IDs from PAC_DATABASE_EDITABLE_SURFACES to return those
+areas to their prior content source, without deleting database history.
+Do not drop tables or overwrite the current resource corpus to disable editing.
+
+No Vercel deployment, official agency-system connection, or Teams content change
+was made as part of this work.

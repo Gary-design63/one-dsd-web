@@ -1,0 +1,2271 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "schema_version": "1.0.0",
+  "register_id": "one-dhs-pac-data-lifecycle-v1",
+  "effective_date": "2026-09-08",
+  "authority": [
+    "BUILD_EXECUTION.md sections 3, 7, 10, 12, 13, 16, 19, and 21",
+    "lib/participation/contracts.ts",
+    "docs/operations/data-lifecycle-and-recovery.md",
+    "docs/OWNER-DIRECTIVE-2026-09-07.md",
+    "docs/PROGRAM-OPERATING-CHARTER.md"
+  ],
+  "release_rule": "A persisted class may be used in production only when its profile is defined, its implementation matches that profile, and any class-level blocking conditions are closed in release evidence. A blocked protected class stays off without blocking unrelated reading or browser-private practice.",
+  "required_dimensions": [
+    "retention",
+    "deletion",
+    "correction",
+    "backup",
+    "restore",
+    "incident",
+    "recovery",
+    "end_of_program"
+  ],
+  "status_definitions": {
+    "defined": "The lifecycle rule is explicit. Release still requires implementation and environment evidence.",
+    "defined_feature_off": "The lifecycle is explicit, but the protected feature remains off until its separate activation evidence passes.",
+    "blocked_pending_authorization": "A required policy decision or terminal lifecycle is unresolved. Production creation of this class is prohibited.",
+    "preview_sample_only": "Only synthetic or sample records may be stored. Real participant records are prohibited.",
+    "nonproduction_only": "This storage variant is limited to local development or tests and is not a production recovery mechanism."
+  },
+  "storage_variants": [
+    {
+      "id": "postgres",
+      "production_eligible": true,
+      "purpose": "Durable shared program storage in the private pac schema through the restricted runtime role.",
+      "applies_profiles": "Each logical class retains its named lifecycle profile.",
+      "backup_boundary": "Encrypted database backups are environment-specific; their schedule, region, retention, encryption, recovery roles, RPO, and RTO are release evidence rather than database rows.",
+      "source": "lib/intelligence/memory/postgres-store.ts"
+    },
+    {
+      "id": "file_store",
+      "production_eligible": false,
+      "purpose": "Local development persistence under .data: one JSON file per work object, idem_<key> JSON receipts, audit.jsonl, and counters.json. Rate-limit buckets remain process memory.",
+      "applies_profiles": "Logical profiles still describe the data, but local_development_only overrides production backup and recovery claims.",
+      "profile_override": "local_development_only",
+      "source": "lib/intelligence/memory/store.ts"
+    },
+    {
+      "id": "memory_store",
+      "production_eligible": false,
+      "purpose": "Process-local test or explicitly temporary storage for work objects, idempotency receipts, audit events, counters, and rate-limit buckets.",
+      "applies_profiles": "No durability, backup, or recovery claim may be made.",
+      "profile_override": "volatile_test_only",
+      "source": "lib/intelligence/memory/store.ts"
+    }
+  ],
+  "lifecycle_profiles": {
+    "migration_ledger": {
+      "retention": {
+        "rule": "Retain for the life of the program and through final disposition verification."
+      },
+      "deletion": {
+        "rule": "No ordinary deletion. Remove only as part of the verified end-of-program disposition after dependent data is handled."
+      },
+      "correction": {
+        "rule": "Never rewrite an applied migration entry; add a new migration that records the correction."
+      },
+      "backup": {
+        "rule": "Include in every database backup and record the migration level with the backup manifest."
+      },
+      "restore": {
+        "rule": "Restore before application access, verify checksums and ordering, then apply only missing migrations."
+      },
+      "incident": {
+        "rule": "Preserve the ledger as recovery evidence; do not edit it to conceal a failed or partial migration."
+      },
+      "recovery": {
+        "rule": "Compare the restored ledger with repository migrations and the release manifest before reopening traffic."
+      },
+      "end_of_program": {
+        "rule": "Export with the final disposition manifest, then remove when the approved backup-expiry schedule completes."
+      }
+    },
+    "program_configuration": {
+      "retention": {
+        "rule": "Retain while the program or a dependent record exists, plus the final disposition verification period."
+      },
+      "deletion": {
+        "rule": "Revoke or supersede in normal operation; physical deletion requires an owner-approved, dependency-checked disposition."
+      },
+      "correction": {
+        "rule": "Use a new version, replacement row, revocation, or append-only decision; preserve the prior authority trail."
+      },
+      "backup": {
+        "rule": "Include in encrypted database backups with the environment and release manifest."
+      },
+      "restore": {
+        "rule": "Restore before dependent records and verify referential integrity, scope, and current status."
+      },
+      "incident": {
+        "rule": "Freeze mutations, identify affected scopes and grants, and preserve a redacted decision trail."
+      },
+      "recovery": {
+        "rule": "Reconcile active configuration with owner decisions and revoke any grant or policy whose validity cannot be proved."
+      },
+      "end_of_program": {
+        "rule": "Export the authority and disposition trail; remove live and backup copies according to the approved closure manifest."
+      }
+    },
+    "source_evidence_preserved": {
+      "retention": {
+        "rule": "Preserve throughout the build and program. No source has a deletion date until a separate itemized owner-approved disposition exists."
+      },
+      "deletion": {
+        "rule": "Prohibited during the build. Later deletion requires verified hashes, lineage, rights, sensitivity, records status, backups, and an item-level owner disposition."
+      },
+      "correction": {
+        "rule": "Do not overwrite evidence. Append a new carrier, receipt, review, hold, location, or supersession relationship."
+      },
+      "backup": {
+        "rule": "Back up database evidence and every available external carrier independently; record hashes, byte counts, provider, bucket, object key, and backup verification."
+      },
+      "restore": {
+        "rule": "Restore metadata and blobs into an isolated target; verify every available carrier by SHA-256 and byte count before declaring recovery."
+      },
+      "incident": {
+        "rule": "Quarantine affected carriers without executing active content, preserve original evidence, and restrict access by sensitivity."
+      },
+      "recovery": {
+        "rule": "Recover from an independently verified carrier or backup and append a new location/verification record rather than rewriting provenance."
+      },
+      "end_of_program": {
+        "rule": "Require a separate itemized owner disposition and any applicable records or rights review; preserve or delete each carrier exactly as that manifest directs."
+      }
+    },
+    "versioned_program_record": {
+      "retention": {
+        "rule": "Retain content, revisions, reviews, decisions, relationships, and release history for the life of the program unless a governing requirement requires longer."
+      },
+      "deletion": {
+        "rule": "Withdraw or supersede in normal operation. Physical deletion requires dependency analysis, propagation evidence, and an owner-approved disposition."
+      },
+      "correction": {
+        "rule": "Create a new revision or decision with attribution, scope, reason, review, and supersession; never silently replace released history."
+      },
+      "backup": {
+        "rule": "Include in encrypted database backups; include referenced asset blobs under the external_asset_blob profile."
+      },
+      "restore": {
+        "rule": "Restore canonical records before projections, verify publication state and source links, and rebuild derived indexes."
+      },
+      "incident": {
+        "rule": "Withdraw compromised projections, preserve version and release evidence, and identify every affected downstream use."
+      },
+      "recovery": {
+        "rule": "Restore the last verified canonical version, repeat review where integrity is uncertain, and regenerate all affected projections."
+      },
+      "end_of_program": {
+        "rule": "Export canonical history and the disposition manifest; delete or transfer records and assets only after dependency and backup-expiry verification."
+      }
+    },
+    "derived_projection": {
+      "retention": {
+        "rule": "Retain only while the supporting canonical version is current and approved for the projection's audience."
+      },
+      "deletion": {
+        "rule": "Delete or invalidate promptly when a source revision is corrected, expired, withdrawn, or loses audience authorization."
+      },
+      "correction": {
+        "rule": "Never hand-edit as authority. Rebuild from the reviewed canonical record and record the propagation event."
+      },
+      "backup": {
+        "rule": "A separate backup is optional because the class is reproducibly rebuildable; canonical records and build/version metadata remain mandatory backups."
+      },
+      "restore": {
+        "rule": "Rebuild after canonical restore, then verify counts, source revision identifiers, audience gates, and retrieval behavior."
+      },
+      "incident": {
+        "rule": "Disable affected retrieval or projection surfaces and invalidate the compromised projection."
+      },
+      "recovery": {
+        "rule": "Rebuild from a verified canonical snapshot and rerun search, graph, citation, scope, and withdrawal tests."
+      },
+      "end_of_program": {
+        "rule": "Delete after the canonical export is verified; no independent archival value is claimed."
+      }
+    },
+    "access_control_record": {
+      "retention": {
+        "rule": "Retain active grants and their revocation/expiry history for the life of the program so authority can be reconstructed."
+      },
+      "deletion": {
+        "rule": "Revoke or expire access immediately when authority ends; physical deletion waits for final program disposition."
+      },
+      "correction": {
+        "rule": "Do not broaden an existing grant silently; revoke it and issue a new, narrower or corrected grant with attribution."
+      },
+      "backup": {
+        "rule": "Include in encrypted database backups restricted to recovery operators."
+      },
+      "restore": {
+        "rule": "Restore fail closed; treat unverified or expired grants as inactive and reconcile named authority before access."
+      },
+      "incident": {
+        "rule": "Revoke affected grants, rotate related credentials, preserve minimal redacted authorization evidence, and review access scope."
+      },
+      "recovery": {
+        "rule": "Reissue only grants whose subject, role, scope, and approval can be revalidated."
+      },
+      "end_of_program": {
+        "rule": "Revoke all grants, export the authority trail if approved, and remove live and backup copies on the closure schedule."
+      }
+    },
+    "consultation_request": {
+      "retention": {
+        "rule": "At creation, bind the S3 request to the approved policy identifier and immutable UTC expiry. Correction, withdrawal, and status changes never restart the period."
+      },
+      "deletion": {
+        "rule": "At expiry, atomically replace the S3 payload with the exact consultation tombstone; no request text, packet, owner note, or history may remain."
+      },
+      "correction": {
+        "rule": "Allowlisted requester and owner changes use version-checked compare-and-swap, repeat validation, preserve immutable retention fields, and record content-free audit evidence."
+      },
+      "backup": {
+        "rule": "Include only in encrypted, environment-specific database backups with restricted recovery roles and a documented backup-expiry schedule."
+      },
+      "restore": {
+        "rule": "Restore only into an isolated environment, rotate secrets as required, and run consultation retention before owner or requester access so expired S3 text cannot be resurrected."
+      },
+      "incident": {
+        "rule": "Disable intake, restrict access, preserve redacted logs, identify affected references/backups, rotate affected secrets, and follow the approved consultant incident process."
+      },
+      "recovery": {
+        "rule": "Restore a verified backup, apply migrations, redact expired requests, reconcile counts and synthetic references, then rerun consultation security suites before activation."
+      },
+      "end_of_program": {
+        "rule": "Stop intake, fulfill approved requester lifecycle actions, redact all remaining S3 payloads, complete the 30-day tombstone period, remove linked idempotency receipts before tombstones, and let encrypted backups expire on the recorded schedule."
+      }
+    },
+    "consultation_tombstone_30d": {
+      "retention_days": 30,
+      "retention": {
+        "rule": "Retain the minimal tombstone for 30 days after redaction so late requester lookups and replay attempts fail consistently."
+      },
+      "deletion": {
+        "rule": "After 30 days, bounded housekeeping removes every linked consultation idempotency receipt before deleting the strict tombstone. A tombstone remains if a linked receipt remains."
+      },
+      "correction": {
+        "rule": "Tombstones are not editable. A malformed tombstone is retained fail closed and remediated through an incident/recovery record."
+      },
+      "backup": {
+        "rule": "Backups may contain tombstones only within the environment's approved backup schedule; terminal deletion must be reapplied after any restore."
+      },
+      "restore": {
+        "rule": "Run terminal-tombstone and consultation retention housekeeping before access."
+      },
+      "incident": {
+        "rule": "Treat the tracking hash and reference as confidential authentication metadata; rotate the tracking pepper if compromised and preserve no plaintext credential."
+      },
+      "recovery": {
+        "rule": "Recover only the exact minimal shape and verify that no S3 payload fields reappear."
+      },
+      "end_of_program": {
+        "rule": "Delete all tombstones, associated idempotency receipts, and remaining backup copies after approved closure evidence."
+      }
+    },
+    "operational_90d": {
+      "retention_days": 90,
+      "batch_limit": 10000,
+      "retention": {
+        "rule": "Retain content-free tool audit events and privacy-minimized outside-research usage records for 90 days."
+      },
+      "deletion": {
+        "rule": "A daily bounded housekeeping operation removes only well-formed records whose canonical UTC timestamp is at least 90 days old; malformed records remain fail closed."
+      },
+      "correction": {
+        "rule": "Operational events are append-only. Record a later corrective event; do not edit the original."
+      },
+      "backup": {
+        "rule": "Database backups may contain these records only for the backup schedule; restored copies are immediately subject to the same 90-day cutoff."
+      },
+      "restore": {
+        "rule": "Run security housekeeping before traffic so an older backup cannot extend the 90-day period."
+      },
+      "incident": {
+        "rule": "Preserve only content-free evidence, restrict access, and never add questions, answers, form text, or generated content to incident notes."
+      },
+      "recovery": {
+        "rule": "Restore only well-formed minimized records, rerun housekeeping, and reconcile counts without reconstructing deleted content."
+      },
+      "end_of_program": {
+        "rule": "Run final housekeeping, delete remaining live records, and let backup copies expire; do not promote them into program memory."
+      }
+    },
+    "session_revocation": {
+      "session_hours": 8,
+      "clock_skew_minutes": 10,
+      "retention": {
+        "rule": "Retain each revocation only through the signed session's fixed expiry plus the ten-minute clock-skew guard."
+      },
+      "deletion": {
+        "rule": "Bounded authenticated housekeeping removes only a well-formed revocation after its guarded expiry."
+      },
+      "correction": {
+        "rule": "Never edit a revocation. Create a new session identifier through reauthentication and revoke the prior identifier."
+      },
+      "backup": {
+        "rule": "May be included in encrypted database backups, but a restore is never authority to trust an older session state."
+      },
+      "restore": {
+        "rule": "Rotate PAC_OWNER_KEY after any restore or rollback that could lose revocations, invalidating all pre-restore cookies before access."
+      },
+      "incident": {
+        "rule": "Rotate the owner key, revoke active access, restrict deployment/database roles, and preserve content-free authentication evidence."
+      },
+      "recovery": {
+        "rule": "Require fresh owner authentication after key rotation and verify revocation-store fail-closed behavior."
+      },
+      "end_of_program": {
+        "rule": "Rotate or destroy the signing key, expire every cookie, purge guarded revocations, and remove backup copies on schedule."
+      }
+    },
+    "rate_limit_bucket": {
+      "retention": {
+        "rule": "Retain only until the stored reset_at for the fixed request window."
+      },
+      "deletion": {
+        "rule": "Bounded housekeeping removes expired buckets; consumption also starts a new bucket after expiry. Raw network identifiers are never stored."
+      },
+      "correction": {
+        "rule": "Do not edit counts administratively. Let the window expire or rotate the HMAC secret after a documented security event."
+      },
+      "backup": {
+        "rule": "No independent archival value. A database backup may contain buckets incidentally."
+      },
+      "restore": {
+        "rule": "Purge every bucket already past reset_at before traffic; restored active buckets may be retained only through their original reset_at."
+      },
+      "incident": {
+        "rule": "Rotate the HMAC secret if subject hashes may be compromised and verify abuse protection before reopening public endpoints."
+      },
+      "recovery": {
+        "rule": "Recreate empty buckets through normal requests; do not reconstruct user activity."
+      },
+      "end_of_program": {
+        "rule": "Delete all buckets and destroy the HMAC secret."
+      }
+    },
+    "runtime_governance": {
+      "retention": {
+        "rule": "Retain policies, cycles, proposals, rejections, stale flags, and evaluation results for the life of the program unless a governing requirement requires longer."
+      },
+      "deletion": {
+        "rule": "No ordinary physical deletion. Stop, reject, undo, revoke, or supersede through the authorized workflow; final deletion requires an owner disposition."
+      },
+      "correction": {
+        "rule": "Policy changes require an authorized write and audit event; proposals receive dispositions; cycles and evaluations are corrected by a new record or explicit undo/supersession evidence."
+      },
+      "backup": {
+        "rule": "Include in encrypted database backups and the release/recovery manifest."
+      },
+      "restore": {
+        "rule": "Restore with the kill switch engaged and write-capable/live-provider flags off; reconcile current policy with owner authority before scheduled work."
+      },
+      "incident": {
+        "rule": "Engage kill switches, preserve content-free audit evidence, identify affected decisions and cycles, and prevent automatic replay."
+      },
+      "recovery": {
+        "rule": "Restore the last verified policy, review proposals and scheduled cycles, and require explicit authorization before reenabling writes or providers."
+      },
+      "end_of_program": {
+        "rule": "Export the decision and release trail, stop all schedules/providers, and dispose of live and backup copies under the closure manifest."
+      }
+    },
+    "runtime_idempotency": {
+      "retention": {
+        "rule": "Retain consultation receipts through the active request and its 30-day tombstone period. Retain other runtime receipts with program governance records until their target's owner-approved final disposition."
+      },
+      "deletion": {
+        "rule": "Bounded housekeeping deletes consultation receipts before deleting the related 30-day tombstone. Other receipts are deleted with their target during the approved end-of-program or item-level disposition."
+      },
+      "correction": {
+        "rule": "Receipts are immutable. A conflict returns the original referenced result; malformed or orphaned receipts fail closed."
+      },
+      "backup": {
+        "rule": "Include with the referenced durable object so replay behavior remains consistent after restore."
+      },
+      "restore": {
+        "rule": "Verify every restored receipt resolves to the same work kind and object identifier; block writes when an orphan or mismatch exists."
+      },
+      "incident": {
+        "rule": "Freeze affected mutations, preserve receipt/object identifiers without payload content, and investigate duplicate or orphaned writes."
+      },
+      "recovery": {
+        "rule": "Restore receipt and target together or remove both through an approved remediation; never point a receipt at a different object."
+      },
+      "end_of_program": {
+        "rule": "Delete receipts with their referenced objects and verify no local idem_<key> files or database rows remain."
+      }
+    },
+    "runtime_counter": {
+      "retention": {
+        "rule": "Retain each technical sequence counter for the life of the program or its dependent identifier namespace."
+      },
+      "deletion": {
+        "rule": "Do not reset or delete while dependent identifiers exist; remove only during verified end-of-program disposition."
+      },
+      "correction": {
+        "rule": "Advance only atomically. On corruption, stop writes and restore a value proven to be at least the highest issued sequence."
+      },
+      "backup": {
+        "rule": "Include with durable runtime data and the recovery manifest."
+      },
+      "restore": {
+        "rule": "Verify restored values cannot reissue an existing identifier before enabling mutations."
+      },
+      "incident": {
+        "rule": "Disable identifier-creating mutations and reconcile issued identifiers against the counter."
+      },
+      "recovery": {
+        "rule": "Set through a controlled recovery to a collision-safe value, record the action, and test the next allocation."
+      },
+      "end_of_program": {
+        "rule": "Export only if needed to explain identifiers, then delete with dependent runtime data and backups."
+      }
+    },
+    "collaboration_workspace_pending": {
+      "retention": {
+        "rule": "Current sample working records remain for the life of the program. Real participant records require an approved removal and terminal-retention policy before activation."
+      },
+      "deletion": {
+        "rule": "Synthetic preview data may be reset as a whole. Real records may be removed only through a role-authorized lifecycle with referential and audit handling; that lifecycle is not yet active."
+      },
+      "correction": {
+        "rule": "Current mutations replace the versioned workspace state and increment its revision. Real use requires attributable history or reversible correction evidence for material changes."
+      },
+      "backup": {
+        "rule": "Back up the single workspace object with its revision and environment; real use also requires attachment and identity recovery evidence."
+      },
+      "restore": {
+        "rule": "Restore with collaboration mutations disabled, validate the entire nested contract and references, then reconcile membership authority."
+      },
+      "incident": {
+        "rule": "Disable workspace mutations and notifications, restrict access, preserve a redacted revision snapshot, and remove no participant content outside the approved process."
+      },
+      "recovery": {
+        "rule": "Restore one verified revision, validate every nested reference and processed key, and keep real participation off if provenance cannot be proved."
+      },
+      "end_of_program": {
+        "rule": "Notify/route participants only under the approved process, export authorized records, disable automations and notifications, then dispose of nested records and backups."
+      }
+    },
+    "browser_session_private": {
+      "retention": {
+        "rule": "Retain only in the current browser tab until the person clears it or the tab/session closes."
+      },
+      "deletion": {
+        "rule": "The person may clear it at any time; the browser removes it when the session ends."
+      },
+      "correction": {
+        "rule": "The person edits or replaces their own browser value. This creates no server copy of browser history or staff profile; a submitted ASK interaction has a separate owner-accessible response record described by owner_ask_response_record."
+      },
+      "backup": {
+        "rule": "No application or server backup."
+      },
+      "restore": {
+        "rule": "No application restore. Loss is expected and does not imply a server record."
+      },
+      "incident": {
+        "rule": "Clear the tab/site data and avoid shared devices; no server incident record should reproduce the content."
+      },
+      "recovery": {
+        "rule": "Recreate voluntarily from the person's own information; the application cannot recover deleted content."
+      },
+      "end_of_program": {
+        "rule": "Clear registered session keys; closing the tab also removes them."
+      }
+    },
+    "browser_local_private": {
+      "retention": {
+        "rule": "Retain on this browser/device until the person deletes it or clears site data."
+      },
+      "deletion": {
+        "rule": "Provide item-level and clear-all deletion through the registered storage keys; browser site-data controls are an additional path."
+      },
+      "correction": {
+        "rule": "The person edits or replaces the local value; no server history or supervisor record is created."
+      },
+      "backup": {
+        "rule": "No application or server backup. Browser/device backup behavior is outside the application boundary and must not be represented as program recovery."
+      },
+      "restore": {
+        "rule": "No application restore. A device/browser restore may reintroduce local data, so the person can clear it again through My Work."
+      },
+      "incident": {
+        "rule": "Clear registered site data on a shared or compromised device and do not copy private working content into tickets."
+      },
+      "recovery": {
+        "rule": "Recreate voluntarily; the application cannot recover deleted local notes or progress."
+      },
+      "end_of_program": {
+        "rule": "Clear every registered local key and publish shutdown instructions; no server-side copy exists."
+      }
+    },
+    "browser_tracking_credential": {
+      "retention": {
+        "rule": "Keep the plaintext reference/access-key pair in session storage until tab close; persist it in local storage only after the requester explicitly opts in, until they delete it or clear site data."
+      },
+      "deletion": {
+        "rule": "Item-level and clear-all controls remove the browser copy. Deleting it does not withdraw or delete the separate server request."
+      },
+      "correction": {
+        "rule": "The credential is not editable or reissued by changing browser data; a malformed or lost value cannot authenticate a request."
+      },
+      "backup": {
+        "rule": "No application or server backup of plaintext. The server stores only the one-way hash; browser/device backup behavior is outside the application boundary."
+      },
+      "restore": {
+        "rule": "No application restore of plaintext credentials. A browser/device restore may reintroduce a saved copy, which the requester can delete."
+      },
+      "incident": {
+        "rule": "Clear browser data on a shared/compromised device and rotate the server tracking pepper if hashes may be compromised; never place plaintext in logs or tickets."
+      },
+      "recovery": {
+        "rule": "The program does not reconstruct plaintext from the hash. Any future credential replacement process requires separate authorization and evidence."
+      },
+      "end_of_program": {
+        "rule": "Clear registered browser keys, delete server hashes through the consultation terminal lifecycle, and destroy the tracking pepper."
+      }
+    },
+    "owner_cookie": {
+      "retention": {
+        "rule": "The signed, environment-bound cookie has a fixed maximum lifetime of eight hours and is not silently extended."
+      },
+      "deletion": {
+        "rule": "Clear on sign-out and browser expiry; sign-out first persists a revocation marker so a copied value cannot be reused."
+      },
+      "correction": {
+        "rule": "Never edit a cookie. Reauthenticate to issue a new identifier and revoke the valid prior session."
+      },
+      "backup": {
+        "rule": "Never back up through the application. The signing key is a secret, not record data."
+      },
+      "restore": {
+        "rule": "Rotate PAC_OWNER_KEY after restore/rollback when revocation loss is possible, invalidating all pre-restore cookies."
+      },
+      "incident": {
+        "rule": "Rotate the owner key, revoke access, clear cookies, review protected activity, and keep secrets out of evidence."
+      },
+      "recovery": {
+        "rule": "Require fresh owner authentication and verify secure attributes, environment binding, expiry, rotation, and fail-closed revocation checks."
+      },
+      "end_of_program": {
+        "rule": "Destroy the signing key, clear cookies, and purge revocations after their guard period."
+      }
+    },
+    "external_source_blob": {
+      "retention": {
+        "rule": "Preserve every available original, derived snapshot, and repository-source representation under the source-preservation rule until an itemized owner disposition."
+      },
+      "deletion": {
+        "rule": "No deletion during the build. Later removal requires verified independent backup, hash/byte evidence, rights and records review, and an exact owner disposition."
+      },
+      "correction": {
+        "rule": "Write a new content-addressed object and append a verified location; never overwrite the object named by an existing provenance record."
+      },
+      "backup": {
+        "rule": "Maintain an independently recoverable encrypted copy or provider version and verify SHA-256 plus byte count."
+      },
+      "restore": {
+        "rule": "Restore into a private quarantine bucket, download for hash/byte verification, and append a new location record."
+      },
+      "incident": {
+        "rule": "Quarantine without executing active content, restrict bucket access, preserve the original, and rotate storage credentials when affected."
+      },
+      "recovery": {
+        "rule": "Recover from the verified independent carrier and prove object identity before reconnecting it to source metadata."
+      },
+      "end_of_program": {
+        "rule": "Follow the itemized source disposition; verify provider deletion/version expiry only for objects approved for destruction."
+      }
+    },
+    "external_asset_blob": {
+      "retention": {
+        "rule": "Retain while any content revision references the asset and through the canonical release-history disposition period."
+      },
+      "deletion": {
+        "rule": "Withdraw staff access first; delete only after no retained revision requires it and an owner-approved dependency/disposition check passes."
+      },
+      "correction": {
+        "rule": "Create a new immutable asset revision with a new object key and hash; never overwrite a released object in place."
+      },
+      "backup": {
+        "rule": "Include encrypted object storage and an independently verifiable inventory of object key, hash, byte count, rights, and accessibility status."
+      },
+      "restore": {
+        "rule": "Restore before staff projection release, verify hash/byte count and rights/accessibility state, then reconnect revision links."
+      },
+      "incident": {
+        "rule": "Withdraw or quarantine affected assets, preserve version evidence, rotate storage credentials, and identify every staff projection that referenced them."
+      },
+      "recovery": {
+        "rule": "Restore the last verified immutable version and rerun accessibility, rights, publication, and propagation checks."
+      },
+      "end_of_program": {
+        "rule": "Export or delete according to the canonical content disposition, then verify object-version and backup expiry."
+      }
+    },
+    "local_development_only": {
+      "retention": {
+        "rule": "Retain only for the current local development need; never use as the authoritative production store."
+      },
+      "deletion": {
+        "rule": "Delete only the exact project .data target after confirming no required evidence or active local drill depends on it."
+      },
+      "correction": {
+        "rule": "Use application contracts; local manual edits are not release evidence."
+      },
+      "backup": {
+        "rule": "No production backup claim. Copy only synthetic fixtures needed for a documented local test."
+      },
+      "restore": {
+        "rule": "Recreate from fixtures or a separately authorized isolated drill; never restore local files into production."
+      },
+      "incident": {
+        "rule": "Stop the local process, remove secrets, preserve only synthetic evidence, and treat any real protected record as a boundary failure."
+      },
+      "recovery": {
+        "rule": "Rebuild the local store from non-sensitive fixtures."
+      },
+      "end_of_program": {
+        "rule": "Remove the exact .data directory after validation; no program archival role is assigned."
+      }
+    },
+    "volatile_test_only": {
+      "retention": {
+        "rule": "Process lifetime only."
+      },
+      "deletion": {
+        "rule": "Automatic on process termination or explicit test reset."
+      },
+      "correction": {
+        "rule": "Replace through the test/application contract; no durable authority."
+      },
+      "backup": {
+        "rule": "None."
+      },
+      "restore": {
+        "rule": "None; rebuild from fixtures."
+      },
+      "incident": {
+        "rule": "Do not place real protected data in this variant."
+      },
+      "recovery": {
+        "rule": "Restart from non-sensitive fixtures."
+      },
+      "end_of_program": {
+        "rule": "Terminate the process; no persisted copy remains."
+      }
+    },
+    "immutable_owner_approval": {
+      "retention": {
+        "rule": "The current approval tables have no expiry field or automatic purge. Preserve their exact revision/hash binding with the canonical release history; this entry does not establish a new retention duration."
+      },
+      "deletion": {
+        "rule": "Application and public roles cannot delete approval rows, and immutable-history triggers reject ordinary update or deletion. Withdrawal changes publication availability and does not erase approval evidence."
+      },
+      "correction": {
+        "rule": "Save a new scoped revision and matching approval record, or record a new restore/withdrawal decision. Do not alter the original approval or claim that it represents an independent factual or accessibility review."
+      },
+      "backup": {
+        "rule": "Approval rows belong with their referenced revisions, sources and publication history in a restricted database backup. The migrations do not implement a separate backup service or guarantee."
+      },
+      "restore": {
+        "rule": "Restore approval records with their referenced immutable revisions and verify payload hashes, scope and publication decisions before making content available. Restoring a backup must not reactivate withdrawn content."
+      },
+      "incident": {
+        "rule": "Restrict affected access, withdraw affected publications where necessary, and preserve original approval/hash evidence for integrity review."
+      },
+      "recovery": {
+        "rule": "Recover the matching approval, original source and revision history together. Validate integrity and restore only the intended published revision; a missing or mismatched approval is not replaced with a fabricated review."
+      },
+      "end_of_program": {
+        "rule": "Include approval evidence in canonical-history disposition and archive decisions. No automated terminal deletion path for these immutable tables is implemented; any physical disposition must account for referenced revisions and backup copies."
+      }
+    },
+    "owner_ask_response_record": {
+      "retention": {
+        "rule": "By default expires_at is null and there is no automatic expiry. PAC_ASK_RECORD_RETENTION_DAYS may assign an immutable expiry to new records; changing configuration does not reset earlier expiry values. The owner may delete individual records. This class does not inherit the 90-day operational or consultation retention periods."
+      },
+      "deletion": {
+        "rule": "Owner-authenticated deletion physically removes selected ASK bodies and writes an immutable, content-free receipt containing only record ID, deletion time and reason. Expiry cleanup uses the same receipt boundary. Reappend and listing reject deleted identifiers. Deleting browser history does not delete the separate durable record."
+      },
+      "correction": {
+        "rule": "A repeated UUID is accepted only for the identical record. There is no in-place response editing API; retain a separate actual response for a later ASK interaction or use owner deletion for the selected record."
+      },
+      "backup": {
+        "rule": "The ASK module does not remove older external backup copies or establish an authoritative external deletion journal. Backups require restricted access and explicit disposition. Preserve current deletion receipts separately from any older data snapshot when the operating recovery design provides that capability; no hosted journal is claimed here."
+      },
+      "restore": {
+        "rule": "Before any access to an isolated restored target, run the migration-owner restore preparation or the nonproduction file restore preparation. Without a surviving authoritative deletion journal the implemented path excludes ALL restored ASK bodies and records restore_excluded receipts; it does not infer which historical answers remain eligible. Original expiry must still be respected."
+      },
+      "incident": {
+        "rule": "Restrict owner record access and protect question-and-response content. Record failures using bounded content-free diagnostics. A failed record write is reported separately while answer delivery continues; private-information questions rejected by the safety gate are omitted from their response record."
+      },
+      "recovery": {
+        "rule": "Current deletion receipts prevent reappend and hide an accidentally copied deleted body. The implemented restore-preparation path excludes recovered bodies rather than replaying an authoritative external journal. This is verified local containment, not complete hosted backup recovery or selective history recovery."
+      },
+      "end_of_program": {
+        "rule": "Stop new recording and complete owner-directed record disposition using physical deletion, then account for any backup copies separately. No dedicated automated end-of-program purge or backup disposition process is implemented."
+      }
+    },
+    "named_identity_evidence": {
+      "retention": {
+        "rule": "Retain named account, invitation metadata, versioned credentials, attributed authorization, correction and ownership evidence while the account or a dependent program contribution requires it; there is no automatic staff-record expiry."
+      },
+      "deletion": {
+        "rule": "No ordinary hard deletion of referenced identity evidence. Suspend/revoke access and use append-only corrections; final disposal follows the program disposition decision."
+      },
+      "correction": {
+        "rule": "Use the protected identity-correction operation with exact account ID, current sign-in ID and identity version. Corrections revoke stale sessions and reserve historical identifiers."
+      },
+      "backup": {
+        "rule": "Local tests use disposable synthetic databases. A future hosted installation must keep encrypted environment-specific backups with access restricted to recovery operators; no hosted recovery capability is claimed here."
+      },
+      "restore": {
+        "rule": "Restore the matching environment and migration level in isolation. Keep named access inactive until identity, grants, current credentials and activation evidence are reconciled."
+      },
+      "incident": {
+        "rule": "Disable named identity or contribution through its environment-specific control and database activation record; revoke affected sessions and rotate compromised credentials. Preserve attributed security evidence without copying bearer tokens."
+      },
+      "recovery": {
+        "rule": "Use the existing named account identifier for correction or recovery. Owner recovery rotates only that named owner credential; it never creates additional owner authority or changes the separate legacy owner workspace."
+      },
+      "end_of_program": {
+        "rule": "Disable access, destroy remaining bearer/credential secrets, and dispose of security metadata with its dependent contribution evidence under the final program disposition decision. No arbitrary90-day staff-record expiry is introduced."
+      }
+    },
+    "named_identity_secret": {
+      "retention": {
+        "rule": "Keep only the current credential verifier. Invitation digests live only until acceptance, cancellation, replacement or expiry. Plaintext passphrases and bearer tokens are never stored in database rows."
+      },
+      "deletion": {
+        "rule": "Acceptance/closure and credential reset/recovery delete obsolete secret material transactionally. Bounded housekeeping deletes expired invitation secrets even when named features or agents are stopped."
+      },
+      "correction": {
+        "rule": "Replace a secret through a new invitation/reset or credential version; never alter an old verifier or reuse an invitation bearer."
+      },
+      "backup": {
+        "rule": "Local tests use disposable synthetic databases. A future hosted installation must keep encrypted environment-specific backups with access restricted to recovery operators; no hosted recovery capability is claimed here."
+      },
+      "restore": {
+        "rule": "Restore the matching environment and migration level in isolation. Keep named access inactive until identity, grants, current credentials and activation evidence are reconciled."
+      },
+      "incident": {
+        "rule": "Disable named identity or contribution through its environment-specific control and database activation record; revoke affected sessions and rotate compromised credentials. Preserve attributed security evidence without copying bearer tokens."
+      },
+      "recovery": {
+        "rule": "Use the existing named account identifier for correction or recovery. Owner recovery rotates only that named owner credential; it never creates additional owner authority or changes the separate legacy owner workspace."
+      },
+      "end_of_program": {
+        "rule": "Disable access, destroy remaining bearer/credential secrets, and dispose of security metadata with its dependent contribution evidence under the final program disposition decision. No arbitrary90-day staff-record expiry is introduced."
+      }
+    },
+    "named_identity_session": {
+      "retention": {
+        "rule": "Named sessions expire after eight hours. Expired session rows are removed after a ten-minute grace period by bounded housekeeping; revocations never extend the session lifetime."
+      },
+      "deletion": {
+        "rule": "Revoke immediately on sign-out, suspension, permanent revocation, identity correction, credential replacement or ownership transfer. Cleanup removes expired session rows and related transient revocations; attributed action evidence remains."
+      },
+      "correction": {
+        "rule": "Issue a fresh opaque session after successful verification; never edit an expired or revoked session into renewed authority."
+      },
+      "backup": {
+        "rule": "Local tests use disposable synthetic databases. A future hosted installation must keep encrypted environment-specific backups with access restricted to recovery operators; no hosted recovery capability is claimed here."
+      },
+      "restore": {
+        "rule": "Restore the matching environment and migration level in isolation. Keep named access inactive until identity, grants, current credentials and activation evidence are reconciled."
+      },
+      "incident": {
+        "rule": "Disable named identity or contribution through its environment-specific control and database activation record; revoke affected sessions and rotate compromised credentials. Preserve attributed security evidence without copying bearer tokens."
+      },
+      "recovery": {
+        "rule": "Use the existing named account identifier for correction or recovery. Owner recovery rotates only that named owner credential; it never creates additional owner authority or changes the separate legacy owner workspace."
+      },
+      "end_of_program": {
+        "rule": "Disable access, destroy remaining bearer/credential secrets, and dispose of security metadata with its dependent contribution evidence under the final program disposition decision. No arbitrary90-day staff-record expiry is introduced."
+      }
+    },
+    "named_identity_cookie": {
+      "retention": {
+        "rule": "The HttpOnly, SameSite=Strict named-session cookie has an eight-hour lifetime and is Secure on deployed environments. It is distinct from the owner cookie."
+      },
+      "deletion": {
+        "rule": "Clear on explicit sign-out; attempt server-side revocation and clearly report if only browser sign-out succeeded. Expiry and server revocation independently deny reuse."
+      },
+      "correction": {
+        "rule": "Replace after a fresh sign-in or accepted one-time invitation. Never expose cookie values to staff content, logs, analytics or URLs."
+      },
+      "backup": {
+        "rule": "Local tests use disposable synthetic databases. A future hosted installation must keep encrypted environment-specific backups with access restricted to recovery operators; no hosted recovery capability is claimed here."
+      },
+      "restore": {
+        "rule": "Restore the matching environment and migration level in isolation. Keep named access inactive until identity, grants, current credentials and activation evidence are reconciled."
+      },
+      "incident": {
+        "rule": "Disable named identity or contribution through its environment-specific control and database activation record; revoke affected sessions and rotate compromised credentials. Preserve attributed security evidence without copying bearer tokens."
+      },
+      "recovery": {
+        "rule": "Use the existing named account identifier for correction or recovery. Owner recovery rotates only that named owner credential; it never creates additional owner authority or changes the separate legacy owner workspace."
+      },
+      "end_of_program": {
+        "rule": "Disable access, destroy remaining bearer/credential secrets, and dispose of security metadata with its dependent contribution evidence under the final program disposition decision. No arbitrary90-day staff-record expiry is introduced."
+      }
+    },
+    "ask_deletion_evidence": {
+      "retention": {
+        "rule": "No automatic expiry or new retention duration is assigned. Preserve content-free deletion evidence while a recoverable older copy could otherwise reintroduce that record; final disposition must account for backups."
+      },
+      "deletion": {
+        "rule": "No ordinary update or physical deletion is exposed for PostgreSQL receipts. Local file receipts survive deletion of their associated body. End-of-program disposal requires explicit treatment of older copies."
+      },
+      "correction": {
+        "rule": "Append no question, answer, person or bearer credential. A deletion receipt identifies only its record UUID, time and owner_delete, retention_expired or restore_excluded reason."
+      },
+      "backup": {
+        "rule": "Include deletion metadata in the isolated recovery inventory. A receipt inside an old snapshot is not proof that it contains all later deletions; no independent hosted journal is established by this implementation."
+      },
+      "restore": {
+        "rule": "Preserve a surviving current receipt set when available. The implemented preparation excludes all restored ASK bodies when current authoritative deletion history cannot be established."
+      },
+      "incident": {
+        "rule": "Restrict receipt administration, preserve the content-free trail and block reappend of deleted identifiers."
+      },
+      "recovery": {
+        "rule": "Verify list and append suppression against existing receipts and restore exclusion before opening record access. Selective reconstruction from an external authoritative journal is not implemented."
+      },
+      "end_of_program": {
+        "rule": "Dispose of receipts only through the explicit final records/backup disposition; do not discard them while remaining restored copies could revive excluded data."
+      }
+    },
+    "isolated_recovery_preparation": {
+      "retention": {
+        "rule": "Preserve the immutable recovery preparation receipt with recovery evidence. No automatic expiry or new staff-record retention duration is introduced."
+      },
+      "deletion": {
+        "rule": "No application deletion or unlock exists. Do not delete the receipt or bypass its activation guard to resume named access."
+      },
+      "correction": {
+        "rule": "Use a new recovery identifier for a distinct isolated preparation. Reusing an identifier in the same environment returns its original receipt; another environment is rejected."
+      },
+      "backup": {
+        "rule": "Inventory recovery ID, environment, preparation time and counts only. The receipt contains no ASK body or named credential secret and does not establish a hosted backup schedule."
+      },
+      "restore": {
+        "rule": "Migration-owner-only preparation pauses restored named features, revokes restored named sessions, closes/removes invitation secrets, removes credential verifiers and excludes all restored ASK bodies."
+      },
+      "incident": {
+        "rule": "Keep the restored target isolated and named features inactive. A receipt blocks active feature events in that environment even if credentials are subsequently regenerated."
+      },
+      "recovery": {
+        "rule": "A complete current-grant reconciliation and authorized unlock workflow has not been implemented or proved. Named authority therefore remains quarantined; legacy PAC_OWNER_KEY rotation is a separate operator action outside SQL."
+      },
+      "end_of_program": {
+        "rule": "Retain or dispose of preparation evidence under the final recovery and records disposition; no automated release of restored authority is implied."
+      }
+    }
+  },
+  "database_classes": [
+    {
+      "id": "db.owner_release_legacy_archive",
+      "physical_members": [
+        "pac.owner_release_legacy_archive"
+      ],
+      "profile": "versioned_program_record",
+      "sensitivity_classes": [
+        "S2"
+      ],
+      "participation_classes": [
+        "not_interactive"
+      ],
+      "official_record": false,
+      "purpose": "Owner-only preservation of the exact legacy connection-verification record removed from active persistence during the release. No application runtime, staff, or anonymous access is permitted.",
+      "status": "defined",
+      "source": "db/migrations/0027_pac_owner_release_legacy_archive.sql"
+    },
+    {
+      "id": "db.migration_ledger",
+      "physical_members": [
+        "pac.schema_migrations"
+      ],
+      "profile": "migration_ledger",
+      "sensitivity_classes": [
+        "S2"
+      ],
+      "participation_classes": [
+        "not_interactive"
+      ],
+      "official_record": false,
+      "purpose": "Applied database migration ledger.",
+      "status": "defined",
+      "source": "db/migrations/0001_pac_content_foundation.sql"
+    },
+    {
+      "id": "db.program_configuration",
+      "physical_members": [
+        "pac.program_scopes",
+        "pac.participation_classes",
+        "pac.retention_policies",
+        "pac.surface_definitions"
+      ],
+      "profile": "program_configuration",
+      "sensitivity_classes": [
+        "S2"
+      ],
+      "participation_classes": [
+        "not_interactive"
+      ],
+      "official_record": false,
+      "purpose": "Program scope, participation, retention configuration, and scoped editable-page field contracts.",
+      "status": "defined",
+      "source": "db/migrations/0001_pac_content_foundation.sql, 0009_pac_data_trust_foundation.sql, and 0018_pac_editable_surfaces.sql"
+    },
+    {
+      "id": "db.source_evidence",
+      "physical_members": [
+        "pac.ingest_runs",
+        "pac.source_carriers",
+        "pac.source_items",
+        "pac.ingest_entries",
+        "pac.source_receipts",
+        "pac.source_review_records",
+        "pac.source_carrier_locations",
+        "pac.source_binary_holds"
+      ],
+      "profile": "source_evidence_preserved",
+      "sensitivity_classes": [
+        "S0",
+        "S1",
+        "S2",
+        "S3",
+        "S4"
+      ],
+      "participation_classes": [
+        "not_interactive"
+      ],
+      "official_record": false,
+      "purpose": "Immutable or append-only source provenance, ingest, review, carrier-location, and preservation-hold evidence.",
+      "status": "defined",
+      "source": "db/migrations/0001_pac_content_foundation.sql and 0003_pac_private_source_objects.sql"
+    },
+    {
+      "id": "db.canonical_content",
+      "physical_members": [
+        "pac.content_collections",
+        "pac.content_items",
+        "pac.content_revisions",
+        "pac.revision_sources",
+        "pac.content_aliases",
+        "pac.collection_membership_decisions",
+        "pac.review_records",
+        "pac.publication_decisions",
+        "pac.assets",
+        "pac.revision_assets",
+        "pac.content_relations",
+        "pac.surface_revisions",
+        "pac.surface_reviews",
+        "pac.surface_publication_decisions",
+        "pac.surface_change_events"
+      ],
+      "profile": "versioned_program_record",
+      "sensitivity_classes": [
+        "S0",
+        "S1",
+        "S2",
+        "S3",
+        "S4"
+      ],
+      "participation_classes": [
+        "not_interactive",
+        "voluntary_shared",
+        "supports_required"
+      ],
+      "official_record": false,
+      "purpose": "Canonical content, editable page text, versions, reviews, publication decisions, relationships, and asset metadata. Page changes retain their scope and append-only release history.",
+      "status": "defined",
+      "source": "db/migrations/0001_pac_content_foundation.sql"
+    },
+    {
+      "id": "db.derived_retrieval_and_graph",
+      "physical_members": [
+        "pac.search_chunks",
+        "pac.search_embeddings",
+        "pac.knowledge_nodes",
+        "pac.knowledge_edges",
+        "pac.knowledge_edge_evidence",
+        "pac.graph_snapshots"
+      ],
+      "profile": "derived_projection",
+      "sensitivity_classes": [
+        "S0",
+        "S1",
+        "S2"
+      ],
+      "participation_classes": [
+        "not_interactive"
+      ],
+      "official_record": false,
+      "purpose": "Rebuildable search and graph projections derived from reviewed canonical versions.",
+      "status": "defined",
+      "source": "db/migrations/0001_pac_content_foundation.sql"
+    },
+    {
+      "id": "db.access_grants",
+      "physical_members": [
+        "pac.access_grants"
+      ],
+      "profile": "access_control_record",
+      "sensitivity_classes": [
+        "S3"
+      ],
+      "participation_classes": [
+        "not_interactive"
+      ],
+      "official_record": false,
+      "purpose": "Program role and scope grants, expiry, and revocation history.",
+      "status": "defined",
+      "source": "db/migrations/0001_pac_content_foundation.sql"
+    },
+    {
+      "id": "db.change_events",
+      "physical_members": [
+        "pac.change_events"
+      ],
+      "profile": "versioned_program_record",
+      "sensitivity_classes": [
+        "S2",
+        "S3"
+      ],
+      "participation_classes": [
+        "not_interactive"
+      ],
+      "official_record": false,
+      "purpose": "Append-only change and propagation evidence for canonical lifecycle actions.",
+      "status": "defined",
+      "source": "db/migrations/0001_pac_content_foundation.sql"
+    },
+    {
+      "id": "db.runtime_work_objects",
+      "physical_members": [
+        "pac.runtime_work_objects"
+      ],
+      "profile": "runtime_governance",
+      "sensitivity_classes": [
+        "S2",
+        "S3"
+      ],
+      "participation_classes": [
+        "voluntary_shared",
+        "not_interactive"
+      ],
+      "official_record": false,
+      "purpose": "Physical envelope for the subtype-specific records enumerated in runtime_work_object_subtypes.",
+      "status": "defined",
+      "source": "db/migrations/0002_pac_runtime_store.sql and lib/trust/work-object-contract.ts"
+    },
+    {
+      "id": "db.runtime_idempotency",
+      "physical_members": [
+        "pac.runtime_idempotency"
+      ],
+      "profile": "runtime_idempotency",
+      "sensitivity_classes": [
+        "S2",
+        "S3"
+      ],
+      "participation_classes": [
+        "not_interactive"
+      ],
+      "official_record": false,
+      "purpose": "Mutation replay receipts that bind an idempotency key to one work object.",
+      "status": "defined",
+      "source": "db/migrations/0002_pac_runtime_store.sql, 0015_pac_terminal_consultation_cleanup.sql, and lib/intelligence/memory/store.ts"
+    },
+    {
+      "id": "db.runtime_audit_events",
+      "physical_members": [
+        "pac.runtime_audit_events"
+      ],
+      "profile": "operational_90d",
+      "sensitivity_classes": [
+        "S2"
+      ],
+      "participation_classes": [
+        "not_interactive"
+      ],
+      "official_record": false,
+      "purpose": "Content-free technical tool-call events for security, reliability, and cost review.",
+      "status": "defined",
+      "source": "db/migrations/0002_pac_runtime_store.sql and 0013_pac_security_housekeeping.sql"
+    },
+    {
+      "id": "db.runtime_counters",
+      "physical_members": [
+        "pac.runtime_counters"
+      ],
+      "profile": "runtime_counter",
+      "sensitivity_classes": [
+        "S2"
+      ],
+      "participation_classes": [
+        "not_interactive"
+      ],
+      "official_record": false,
+      "purpose": "Atomic technical sequence counters.",
+      "status": "defined",
+      "source": "db/migrations/0002_pac_runtime_store.sql"
+    },
+    {
+      "id": "db.runtime_rate_limits",
+      "physical_members": [
+        "pac.runtime_rate_limits"
+      ],
+      "profile": "rate_limit_bucket",
+      "sensitivity_classes": [
+        "S2"
+      ],
+      "participation_classes": [
+        "not_interactive"
+      ],
+      "official_record": false,
+      "purpose": "Short-lived HMAC subject buckets for endpoint abuse protection.",
+      "status": "defined",
+      "source": "db/migrations/0009_pac_data_trust_foundation.sql and 0013_pac_security_housekeeping.sql"
+    },
+    {
+      "id": "db.owner_content_approvals",
+      "physical_members": [
+        "pac.surface_owner_approvals",
+        "pac.page_block_owner_approvals",
+        "pac.resource_owner_approvals"
+      ],
+      "profile": "immutable_owner_approval",
+      "sensitivity_classes": [
+        "S2"
+      ],
+      "participation_classes": [
+        "not_interactive"
+      ],
+      "official_record": false,
+      "purpose": "Immutable evidence that the owner approved the exact scoped page, wording or original domain-resource revision. Records bind the actual revision/hash and original source where applicable, without fabricating factual or accessibility review results.",
+      "status": "defined",
+      "source": "db/migrations/0031_pac_owner_approved_surface_saves.sql, 0032_pac_owner_approved_page_copy_saves.sql, and 0033_pac_owner_approved_domain_resources.sql"
+    },
+    {
+      "id": "db.ask_response_records",
+      "physical_members": [
+        "pac.ask_response_records"
+      ],
+      "profile": "owner_ask_response_record",
+      "sensitivity_classes": [
+        "S2",
+        "S3"
+      ],
+      "participation_classes": [
+        "voluntary_shared"
+      ],
+      "official_record": false,
+      "purpose": "Owner-accessible ASK question, actual complete response, time, program scope, research result and outcome record. Private-information questions refused by the safety gate are omitted; no account, IP, cookie, session identifier or previous-turn transcript is stored.",
+      "status": "defined",
+      "source": "db/migrations/0030_pac_ask_response_records.sql, lib/intelligence/observability/ask-records.ts, app/api/consultant/ask-records/route.ts, and lib/participation/contracts.ts"
+    },
+    {
+      "id": "db.program_accounts",
+      "physical_members": [
+        "pac.program_accounts"
+      ],
+      "profile": "named_identity_evidence",
+      "sensitivity_classes": [
+        "S3"
+      ],
+      "participation_classes": [
+        "not_interactive"
+      ],
+      "official_record": false,
+      "purpose": "Named contributor access and attributed security evidence, separate from staff learning, ASK questions and the existing owner workspace.",
+      "status": "defined_feature_off",
+      "source": "db/migrations/0042_pac_named_contributor_identity.sql",
+      "blocking_conditions": [
+        "Hosted named access has not been activated; this pass implements and tests the capability locally only."
+      ]
+    },
+    {
+      "id": "db.program_account_state_events",
+      "physical_members": [
+        "pac.program_account_state_events"
+      ],
+      "profile": "named_identity_evidence",
+      "sensitivity_classes": [
+        "S3"
+      ],
+      "participation_classes": [
+        "not_interactive"
+      ],
+      "official_record": false,
+      "purpose": "Named contributor access and attributed security evidence, separate from staff learning, ASK questions and the existing owner workspace.",
+      "status": "defined_feature_off",
+      "source": "db/migrations/0042_pac_named_contributor_identity.sql",
+      "blocking_conditions": [
+        "Hosted named access has not been activated; this pass implements and tests the capability locally only."
+      ]
+    },
+    {
+      "id": "db.program_account_invitations",
+      "physical_members": [
+        "pac.program_account_invitations"
+      ],
+      "profile": "named_identity_evidence",
+      "sensitivity_classes": [
+        "S3"
+      ],
+      "participation_classes": [
+        "not_interactive"
+      ],
+      "official_record": false,
+      "purpose": "Named contributor access and attributed security evidence, separate from staff learning, ASK questions and the existing owner workspace.",
+      "status": "defined_feature_off",
+      "source": "db/migrations/0042_pac_named_contributor_identity.sql",
+      "blocking_conditions": [
+        "Hosted named access has not been activated; this pass implements and tests the capability locally only."
+      ]
+    },
+    {
+      "id": "db.program_account_invitation_secrets",
+      "physical_members": [
+        "pac.program_account_invitation_secrets"
+      ],
+      "profile": "named_identity_secret",
+      "sensitivity_classes": [
+        "S3"
+      ],
+      "participation_classes": [
+        "not_interactive"
+      ],
+      "official_record": false,
+      "purpose": "Named contributor access and attributed security evidence, separate from staff learning, ASK questions and the existing owner workspace.",
+      "status": "defined_feature_off",
+      "source": "db/migrations/0042_pac_named_contributor_identity.sql",
+      "blocking_conditions": [
+        "Hosted named access has not been activated; this pass implements and tests the capability locally only."
+      ]
+    },
+    {
+      "id": "db.program_account_invitation_closures",
+      "physical_members": [
+        "pac.program_account_invitation_closures"
+      ],
+      "profile": "named_identity_evidence",
+      "sensitivity_classes": [
+        "S3"
+      ],
+      "participation_classes": [
+        "not_interactive"
+      ],
+      "official_record": false,
+      "purpose": "Named contributor access and attributed security evidence, separate from staff learning, ASK questions and the existing owner workspace.",
+      "status": "defined_feature_off",
+      "source": "db/migrations/0042_pac_named_contributor_identity.sql",
+      "blocking_conditions": [
+        "Hosted named access has not been activated; this pass implements and tests the capability locally only."
+      ]
+    },
+    {
+      "id": "db.program_account_credentials",
+      "physical_members": [
+        "pac.program_account_credentials"
+      ],
+      "profile": "named_identity_evidence",
+      "sensitivity_classes": [
+        "S3"
+      ],
+      "participation_classes": [
+        "not_interactive"
+      ],
+      "official_record": false,
+      "purpose": "Named contributor access and attributed security evidence, separate from staff learning, ASK questions and the existing owner workspace.",
+      "status": "defined_feature_off",
+      "source": "db/migrations/0042_pac_named_contributor_identity.sql",
+      "blocking_conditions": [
+        "Hosted named access has not been activated; this pass implements and tests the capability locally only."
+      ]
+    },
+    {
+      "id": "db.program_account_credential_secrets",
+      "physical_members": [
+        "pac.program_account_credential_secrets"
+      ],
+      "profile": "named_identity_secret",
+      "sensitivity_classes": [
+        "S3"
+      ],
+      "participation_classes": [
+        "not_interactive"
+      ],
+      "official_record": false,
+      "purpose": "Named contributor access and attributed security evidence, separate from staff learning, ASK questions and the existing owner workspace.",
+      "status": "defined_feature_off",
+      "source": "db/migrations/0042_pac_named_contributor_identity.sql",
+      "blocking_conditions": [
+        "Hosted named access has not been activated; this pass implements and tests the capability locally only."
+      ]
+    },
+    {
+      "id": "db.program_account_sessions",
+      "physical_members": [
+        "pac.program_account_sessions"
+      ],
+      "profile": "named_identity_session",
+      "sensitivity_classes": [
+        "S3"
+      ],
+      "participation_classes": [
+        "not_interactive"
+      ],
+      "official_record": false,
+      "purpose": "Named contributor access and attributed security evidence, separate from staff learning, ASK questions and the existing owner workspace.",
+      "status": "defined_feature_off",
+      "source": "db/migrations/0042_pac_named_contributor_identity.sql",
+      "blocking_conditions": [
+        "Hosted named access has not been activated; this pass implements and tests the capability locally only."
+      ]
+    },
+    {
+      "id": "db.program_account_session_revocations",
+      "physical_members": [
+        "pac.program_account_session_revocations"
+      ],
+      "profile": "named_identity_session",
+      "sensitivity_classes": [
+        "S3"
+      ],
+      "participation_classes": [
+        "not_interactive"
+      ],
+      "official_record": false,
+      "purpose": "Named contributor access and attributed security evidence, separate from staff learning, ASK questions and the existing owner workspace.",
+      "status": "defined_feature_off",
+      "source": "db/migrations/0042_pac_named_contributor_identity.sql",
+      "blocking_conditions": [
+        "Hosted named access has not been activated; this pass implements and tests the capability locally only."
+      ]
+    },
+    {
+      "id": "db.protected_action_authorizations",
+      "physical_members": [
+        "pac.protected_action_authorizations"
+      ],
+      "profile": "named_identity_evidence",
+      "sensitivity_classes": [
+        "S3"
+      ],
+      "participation_classes": [
+        "not_interactive"
+      ],
+      "official_record": false,
+      "purpose": "Named contributor access and attributed security evidence, separate from staff learning, ASK questions and the existing owner workspace.",
+      "status": "defined_feature_off",
+      "source": "db/migrations/0042_pac_named_contributor_identity.sql",
+      "blocking_conditions": [
+        "Hosted named access has not been activated; this pass implements and tests the capability locally only."
+      ]
+    },
+    {
+      "id": "db.protected_action_consumptions",
+      "physical_members": [
+        "pac.protected_action_consumptions"
+      ],
+      "profile": "named_identity_evidence",
+      "sensitivity_classes": [
+        "S3"
+      ],
+      "participation_classes": [
+        "not_interactive"
+      ],
+      "official_record": false,
+      "purpose": "Named contributor access and attributed security evidence, separate from staff learning, ASK questions and the existing owner workspace.",
+      "status": "defined_feature_off",
+      "source": "db/migrations/0042_pac_named_contributor_identity.sql",
+      "blocking_conditions": [
+        "Hosted named access has not been activated; this pass implements and tests the capability locally only."
+      ]
+    },
+    {
+      "id": "db.database_installation_identity",
+      "physical_members": [
+        "pac.database_installation_identity"
+      ],
+      "profile": "named_identity_evidence",
+      "sensitivity_classes": [
+        "S3"
+      ],
+      "participation_classes": [
+        "not_interactive"
+      ],
+      "official_record": false,
+      "purpose": "Named contributor access and attributed security evidence, separate from staff learning, ASK questions and the existing owner workspace.",
+      "status": "defined_feature_off",
+      "source": "db/migrations/0043_pac_contributor_authentication_boundary.sql",
+      "blocking_conditions": [
+        "Hosted named access has not been activated; this pass implements and tests the capability locally only."
+      ]
+    },
+    {
+      "id": "db.protected_feature_activation_events",
+      "physical_members": [
+        "pac.protected_feature_activation_events"
+      ],
+      "profile": "named_identity_evidence",
+      "sensitivity_classes": [
+        "S3"
+      ],
+      "participation_classes": [
+        "not_interactive"
+      ],
+      "official_record": false,
+      "purpose": "Named contributor access and attributed security evidence, separate from staff learning, ASK questions and the existing owner workspace.",
+      "status": "defined_feature_off",
+      "source": "db/migrations/0043_pac_contributor_authentication_boundary.sql",
+      "blocking_conditions": [
+        "Hosted named access has not been activated; this pass implements and tests the capability locally only."
+      ]
+    },
+    {
+      "id": "db.protected_mutation_feature_evidence",
+      "physical_members": [
+        "pac.protected_mutation_feature_evidence"
+      ],
+      "profile": "named_identity_evidence",
+      "sensitivity_classes": [
+        "S3"
+      ],
+      "participation_classes": [
+        "not_interactive"
+      ],
+      "official_record": false,
+      "purpose": "Named contributor access and attributed security evidence, separate from staff learning, ASK questions and the existing owner workspace.",
+      "status": "defined_feature_off",
+      "source": "db/migrations/0043_pac_contributor_authentication_boundary.sql",
+      "blocking_conditions": [
+        "Hosted named access has not been activated; this pass implements and tests the capability locally only."
+      ]
+    },
+    {
+      "id": "db.program_owner_transfers",
+      "physical_members": [
+        "pac.program_owner_transfers"
+      ],
+      "profile": "named_identity_evidence",
+      "sensitivity_classes": [
+        "S3"
+      ],
+      "participation_classes": [
+        "not_interactive"
+      ],
+      "official_record": false,
+      "purpose": "Named contributor access and attributed security evidence, separate from staff learning, ASK questions and the existing owner workspace.",
+      "status": "defined_feature_off",
+      "source": "db/migrations/0043_pac_contributor_authentication_boundary.sql",
+      "blocking_conditions": [
+        "Hosted named access has not been activated; this pass implements and tests the capability locally only."
+      ]
+    },
+    {
+      "id": "db.program_account_identity_corrections",
+      "physical_members": [
+        "pac.program_account_identity_corrections"
+      ],
+      "profile": "named_identity_evidence",
+      "sensitivity_classes": [
+        "S3"
+      ],
+      "participation_classes": [
+        "not_interactive"
+      ],
+      "official_record": false,
+      "purpose": "Named contributor access and attributed security evidence, separate from staff learning, ASK questions and the existing owner workspace.",
+      "status": "defined_feature_off",
+      "source": "db/migrations/0044_pac_named_identity_corrections_and_current_activation.sql",
+      "blocking_conditions": [
+        "Hosted named access has not been activated; this pass implements and tests the capability locally only."
+      ]
+    },
+    {
+      "id": "db.ask_response_deletions",
+      "physical_members": [
+        "pac.ask_response_deletions"
+      ],
+      "profile": "ask_deletion_evidence",
+      "purpose": "Immutable content-free ASK deletion/exclusion evidence: record UUID, deletion time and reason only.",
+      "sensitivity_classes": [
+        "S2"
+      ],
+      "participation_classes": [
+        "not_interactive"
+      ],
+      "official_record": false,
+      "status": "defined",
+      "source": "db/migrations/0046_pac_ask_deletion_and_restore_preparation.sql"
+    },
+    {
+      "id": "db.program_recovery_preparations",
+      "physical_members": [
+        "pac.program_recovery_preparations"
+      ],
+      "profile": "isolated_recovery_preparation",
+      "purpose": "Immutable isolated-restore preparation ID/environment/time/counts and persistent named-authority quarantine.",
+      "sensitivity_classes": [
+        "S2"
+      ],
+      "participation_classes": [
+        "not_interactive"
+      ],
+      "official_record": false,
+      "status": "defined",
+      "source": "db/migrations/0046_pac_ask_deletion_and_restore_preparation.sql"
+    },
+    {
+      "id": "db.owner_page_overrides",
+      "physical_members": [
+        "pac.page_text_overrides",
+        "pac.page_image_overrides"
+      ],
+      "profile": "immutable_owner_approval",
+      "sensitivity_classes": [
+        "S2"
+      ],
+      "participation_classes": [
+        "not_interactive"
+      ],
+      "official_record": false,
+      "purpose": "The owner's saved in-place wording and image replacements for a page, applied on top of the page's published copy. One row per element/image per scope and route.",
+      "status": "defined",
+      "source": "db/migrations/0049_pac_page_text_overrides.sql and 0052_pac_page_image_overrides_skip_missing.sql"
+    },
+    {
+      "id": "db.resource_media",
+      "physical_members": [
+        "pac.media_files",
+        "pac.resource_media"
+      ],
+      "profile": "external_asset_blob",
+      "sensitivity_classes": [
+        "S2"
+      ],
+      "participation_classes": [
+        "not_interactive"
+      ],
+      "official_record": false,
+      "purpose": "Uploaded media (images, audio, video, documents) attached to a resource by the owner, and the stored binary content backing each upload.",
+      "status": "defined",
+      "source": "db/migrations/0051_pac_consultant_media_and_new_resources.sql, 0053_pac_resource_media_audio.sql, and 0054_pac_resource_media_script.sql"
+    }
+  ],
+  "runtime_work_object_subtypes": [
+    {
+      "id": "runtime.consultation_request.active",
+      "work_kind": "consult_request",
+      "selector": "record_type=consultation_request",
+      "profile": "consultation_request",
+      "sensitivity_classes": [
+        "S3"
+      ],
+      "participation_classes": [
+        "voluntary_shared"
+      ],
+      "official_record": false,
+      "purpose": "Confidential DSD consultation request before retention redaction.",
+      "status": "defined_feature_off",
+      "blocking_conditions": [
+        "Current approved policy identifier and duration",
+        "Backup/restore drill",
+        "Named incident and recovery evidence",
+        "Delivery and correction readiness"
+      ],
+      "source": "lib/trust/work-object-contract.ts and docs/operations/consultation-lifecycle.md"
+    },
+    {
+      "id": "runtime.consultation_request.tombstone",
+      "work_kind": "consult_request",
+      "selector": "record_type=consultation_tombstone",
+      "profile": "consultation_tombstone_30d",
+      "sensitivity_classes": [
+        "S3"
+      ],
+      "participation_classes": [
+        "voluntary_shared"
+      ],
+      "official_record": false,
+      "purpose": "Minimal terminal authentication and expired-status record after S3 payload redaction.",
+      "status": "defined_feature_off",
+      "blocking_conditions": [
+        "Real intake still requires its separate approved active-request policy, backup/restore drill, incident evidence, and delivery readiness."
+      ],
+      "source": "lib/privacy/consultation-terminal-retention.ts and db/migrations/0014_pac_consultation_persistence_contract.sql and 0015_pac_terminal_consultation_cleanup.sql"
+    },
+    {
+      "id": "runtime.decision.autonomy_policy",
+      "work_kind": "decision",
+      "selector": "object_id=autonomy_policy",
+      "profile": "runtime_governance",
+      "sensitivity_classes": [
+        "S2"
+      ],
+      "participation_classes": [
+        "not_interactive"
+      ],
+      "official_record": false,
+      "purpose": "Owner autonomy ceiling, kill switch, agent, and feature policy.",
+      "status": "defined",
+      "source": "lib/trust/work-object-contract.ts"
+    },
+    {
+      "id": "runtime.decision.research_policy",
+      "work_kind": "decision",
+      "selector": "object_id=research_policy",
+      "profile": "runtime_governance",
+      "sensitivity_classes": [
+        "S2"
+      ],
+      "participation_classes": [
+        "not_interactive"
+      ],
+      "official_record": false,
+      "purpose": "Owner-controlled live-research provider, cost, and kill-switch policy.",
+      "status": "defined_feature_off",
+      "blocking_conditions": [
+        "Live provider activation evidence remains separate under RG-6."
+      ],
+      "source": "lib/trust/work-object-contract.ts"
+    },
+    {
+      "id": "runtime.decision.research_usage",
+      "work_kind": "decision",
+      "selector": "object_id starts research_usage:",
+      "profile": "operational_90d",
+      "sensitivity_classes": [
+        "S2"
+      ],
+      "participation_classes": [
+        "not_interactive"
+      ],
+      "official_record": false,
+      "purpose": "Privacy-minimized outside-research usage and cost record without query or result text.",
+      "status": "defined",
+      "source": "lib/trust/work-object-contract.ts and db/migrations/0013_pac_security_housekeeping.sql"
+    },
+    {
+      "id": "runtime.decision.owner_session_revocation",
+      "work_kind": "decision",
+      "selector": "object_id matches owner-session-revoked-<sha256>",
+      "profile": "session_revocation",
+      "sensitivity_classes": [
+        "S2"
+      ],
+      "participation_classes": [
+        "not_interactive"
+      ],
+      "official_record": false,
+      "purpose": "One-way session identifier marker that prevents a signed-out owner cookie from being reused.",
+      "status": "defined",
+      "source": "lib/auth/owner-session-revocation.ts and db/migrations/0013_pac_security_housekeeping.sql"
+    },
+    {
+      "id": "runtime.decision.cycle",
+      "work_kind": "decision",
+      "selector": "object_id starts cycle:",
+      "profile": "runtime_governance",
+      "sensitivity_classes": [
+        "S2"
+      ],
+      "participation_classes": [
+        "not_interactive"
+      ],
+      "official_record": false,
+      "purpose": "Bounded orchestration cycle report and undo evidence.",
+      "status": "defined",
+      "source": "lib/trust/work-object-contract.ts"
+    },
+    {
+      "id": "runtime.decision.stale_flag",
+      "work_kind": "decision",
+      "selector": "object_id starts stale_flag:",
+      "profile": "runtime_governance",
+      "sensitivity_classes": [
+        "S2"
+      ],
+      "participation_classes": [
+        "not_interactive"
+      ],
+      "official_record": false,
+      "purpose": "Review-needed flag derived from content freshness checks.",
+      "status": "defined",
+      "source": "lib/trust/work-object-contract.ts"
+    },
+    {
+      "id": "runtime.decision.proposal",
+      "work_kind": "decision",
+      "selector": "object_id starts proposal:",
+      "profile": "runtime_governance",
+      "sensitivity_classes": [
+        "S2"
+      ],
+      "participation_classes": [
+        "not_interactive"
+      ],
+      "official_record": false,
+      "purpose": "Owner-dispositioned adaptation proposal.",
+      "status": "defined",
+      "source": "lib/trust/work-object-contract.ts"
+    },
+    {
+      "id": "runtime.decision.rejected_recommendation",
+      "work_kind": "decision",
+      "selector": "object_id starts rejected_rec:",
+      "profile": "runtime_governance",
+      "sensitivity_classes": [
+        "S2"
+      ],
+      "participation_classes": [
+        "not_interactive"
+      ],
+      "official_record": false,
+      "purpose": "Minimal record preventing a rejected recommendation from silently reappearing.",
+      "status": "defined",
+      "source": "lib/trust/work-object-contract.ts"
+    },
+    {
+      "id": "runtime.eval_result",
+      "work_kind": "eval_result",
+      "selector": "object_id starts eval-",
+      "profile": "runtime_governance",
+      "sensitivity_classes": [
+        "S2"
+      ],
+      "participation_classes": [
+        "not_interactive"
+      ],
+      "official_record": false,
+      "purpose": "Evaluation report used for owner review and release gating.",
+      "status": "defined",
+      "source": "lib/trust/work-object-contract.ts"
+    },
+    {
+      "id": "runtime.collaboration_workspace",
+      "work_kind": "collaboration_workspace",
+      "selector": "object_id=one_dsd_team",
+      "profile": "collaboration_workspace_pending",
+      "sensitivity_classes": [
+        "S2"
+      ],
+      "participation_classes": [
+        "voluntary_shared"
+      ],
+      "official_record": false,
+      "purpose": "Single versioned One DSD Team working-space aggregate.",
+      "status": "preview_sample_only",
+      "blocking_conditions": [
+        "Approve real-participant retention/removal policy",
+        "Implement attributable correction/removal history",
+        "Complete identity, notification, attachment, backup, incident, and recovery evidence"
+      ],
+      "source": "lib/trust/work-object-contract.ts and lib/collaboration/schema.ts"
+    },
+    {
+      "id": "runtime.decision.equity_analysis",
+      "work_kind": "decision",
+      "selector": "object_id starts equity_analysis:",
+      "profile": "versioned_program_record",
+      "sensitivity_classes": [
+        "S2"
+      ],
+      "participation_classes": [
+        "voluntary_shared"
+      ],
+      "official_record": false,
+      "purpose": "A full equity analysis or equity scan filed through the guided Equity Analysis Toolkit walkthrough: the work, kind of work, administration, approval date, disposition, and step answers. Roles and dates only; open to DHS staff by design. Append-only.",
+      "status": "defined",
+      "source": "lib/trust/work-object-contract.ts, lib/equity-analysis/schema.ts and db/migrations/0056_pac_equity_analysis_records.sql"
+    },
+    {
+      "id": "runtime.decision.equity_analysis_followup",
+      "work_kind": "decision",
+      "selector": "object_id starts equity_followup:",
+      "profile": "versioned_program_record",
+      "sensitivity_classes": [
+        "S2"
+      ],
+      "participation_classes": [
+        "voluntary_shared"
+      ],
+      "official_record": false,
+      "purpose": "An append-only event marking one of an analysis's promised follow-ups (approval or launch, impact review, outcome review) done or not done, including reversals. Current state is the latest event.",
+      "status": "defined",
+      "source": "lib/trust/work-object-contract.ts, lib/equity-analysis/schema.ts and db/migrations/0056_pac_equity_analysis_records.sql"
+    },
+    {
+      "id": "runtime.decision.equity_survey_wave",
+      "work_kind": "decision",
+      "selector": "object_id starts equity_survey:",
+      "profile": "versioned_program_record",
+      "sensitivity_classes": [
+        "S2"
+      ],
+      "participation_classes": [
+        "voluntary_shared"
+      ],
+      "official_record": false,
+      "purpose": "An append-only event setting or removing one culture survey wave's department-wide percent-favorable figures, respondents, and response rate, including reversals. Never per person.",
+      "status": "defined",
+      "source": "lib/trust/work-object-contract.ts, lib/equity-analysis/schema.ts and db/migrations/0056_pac_equity_analysis_records.sql"
+    }
+  ],
+  "collaboration_nested_records": [
+    {
+      "id": "runtime.collaboration_workspace.one_dsd_team.nested",
+      "physical_parent": "runtime.collaboration_workspace",
+      "members": [
+        "workspace",
+        "memberships",
+        "channels",
+        "channelMemberships",
+        "threads",
+        "posts",
+        "reactions",
+        "attachments",
+        "meetingSeries",
+        "meetingOccurrences",
+        "agendaItems",
+        "decisions",
+        "polls",
+        "pollResponses",
+        "feedback",
+        "feedbackResponses",
+        "learningActivities",
+        "notificationPreferences",
+        "notificationDeliveries",
+        "actionItems",
+        "contentProposals",
+        "automationPolicies",
+        "automationRuns",
+        "processedKeys",
+        "revision"
+      ],
+      "profile": "collaboration_workspace_pending",
+      "sensitivity_classes": [
+        "S2"
+      ],
+      "participation_classes": [
+        "voluntary_shared"
+      ],
+      "official_record": false,
+      "purpose": "Every nested collection, replay key, and revision scalar inside the single persisted collaboration aggregate; attachments currently persist metadata only, not file bytes.",
+      "status": "preview_sample_only",
+      "blocking_conditions": [
+        "The parent workspace blocking conditions apply to every member."
+      ],
+      "source": "lib/collaboration/schema.ts and lib/trust/work-object-contract.ts"
+    }
+  ],
+  "file_store_records": [
+    {
+      "id": "file_store.work_object_json",
+      "physical_members": [
+        ".data/consult_request/*.json",
+        ".data/decision/*.json",
+        ".data/eval_result/*.json",
+        ".data/collaboration_workspace/*.json"
+      ],
+      "profile": "local_development_only",
+      "sensitivity_classes": [
+        "S2",
+        "S3"
+      ],
+      "participation_classes": [
+        "voluntary_shared",
+        "not_interactive"
+      ],
+      "official_record": false,
+      "purpose": "Nonproduction filesystem representation of logical work objects.",
+      "status": "nonproduction_only",
+      "source": "lib/intelligence/memory/store.ts"
+    },
+    {
+      "id": "file_store.idempotency_receipt",
+      "physical_members": [
+        ".data/decision/idem_<idempotency_key>.json"
+      ],
+      "profile": "runtime_idempotency",
+      "sensitivity_classes": [
+        "S2",
+        "S3"
+      ],
+      "participation_classes": [
+        "not_interactive"
+      ],
+      "official_record": false,
+      "purpose": "Local work-kind/object reference used for replay prevention.",
+      "status": "nonproduction_only",
+      "source": "lib/intelligence/memory/store.ts"
+    },
+    {
+      "id": "file_store.audit_jsonl",
+      "physical_members": [
+        ".data/audit.jsonl"
+      ],
+      "profile": "operational_90d",
+      "sensitivity_classes": [
+        "S2"
+      ],
+      "participation_classes": [
+        "not_interactive"
+      ],
+      "official_record": false,
+      "purpose": "Nonproduction content-free operational events.",
+      "status": "nonproduction_only",
+      "source": "lib/intelligence/memory/store.ts"
+    },
+    {
+      "id": "file_store.counters_json",
+      "physical_members": [
+        ".data/counters.json"
+      ],
+      "profile": "runtime_counter",
+      "sensitivity_classes": [
+        "S2"
+      ],
+      "participation_classes": [
+        "not_interactive"
+      ],
+      "official_record": false,
+      "purpose": "Nonproduction technical counters.",
+      "status": "nonproduction_only",
+      "source": "lib/intelligence/memory/store.ts"
+    },
+    {
+      "id": "file_store.ask_response_records",
+      "physical_members": [
+        ".data/ask-response-records/*.json"
+      ],
+      "profile": "owner_ask_response_record",
+      "sensitivity_classes": [
+        "S2",
+        "S3"
+      ],
+      "participation_classes": [
+        "voluntary_shared"
+      ],
+      "official_record": false,
+      "purpose": "Nonproduction filesystem representation of the same dedicated ASK response record, with owner deletion and optional expiry. It is separate from transcript-free work-object and audit storage.",
+      "status": "nonproduction_only",
+      "source": "lib/intelligence/observability/ask-records.ts"
+    },
+    {
+      "id": "file_store.ask_response_deletions",
+      "physical_members": [
+        ".data/ask-response-records/.deletions/*.json"
+      ],
+      "profile": "ask_deletion_evidence",
+      "sensitivity_classes": [
+        "S2"
+      ],
+      "participation_classes": [
+        "not_interactive"
+      ],
+      "official_record": false,
+      "purpose": "Nonproduction file receipts containing only deleted ASK record UUID, deletion time and reason. Surviving receipts suppress restored bodies; prepareFileAskRecordRestore excludes all recovered bodies.",
+      "status": "nonproduction_only",
+      "source": "lib/intelligence/observability/ask-records.ts"
+    }
+  ],
+  "browser_records": [
+    {
+      "id": "browser.ask_history",
+      "storage_area": "session",
+      "key": "pac_ask_session_v2",
+      "storage_purpose": "ask_history",
+      "profile": "browser_session_private",
+      "sensitivity_classes": [
+        "S2"
+      ],
+      "participation_classes": [
+        "voluntary_private"
+      ],
+      "official_record": false,
+      "purpose": "Up to 30 recent ASK questions and answers in the current tab. Clearing this history does not delete the separately recorded owner-accessible ASK response.",
+      "status": "defined",
+      "source": "lib/client/storage-keys.ts and lib/participation/contracts.ts"
+    },
+    {
+      "id": "browser.consultation_prefill",
+      "storage_area": "session",
+      "key": "pac_intake_prefill",
+      "storage_purpose": "consultation_prefill",
+      "profile": "browser_session_private",
+      "sensitivity_classes": [
+        "S2"
+      ],
+      "participation_classes": [
+        "voluntary_private"
+      ],
+      "official_record": false,
+      "purpose": "Optional editable Ask/path excerpt carried into a consultation preview within the current tab.",
+      "status": "defined",
+      "source": "lib/client/storage-keys.ts"
+    },
+    {
+      "id": "browser.consultation_reference_session",
+      "storage_area": "session",
+      "key": "pac_requests_session",
+      "storage_purpose": "saved_request_reference",
+      "profile": "browser_tracking_credential",
+      "sensitivity_classes": [
+        "S3"
+      ],
+      "participation_classes": [
+        "voluntary_shared"
+      ],
+      "official_record": false,
+      "purpose": "Reference ID, plaintext requester access key, work label, and submission time kept in the current tab after submission.",
+      "status": "defined_feature_off",
+      "blocking_conditions": [
+        "Consultation activation evidence remains required."
+      ],
+      "source": "lib/client/storage-keys.ts and components/intake-client.tsx"
+    },
+    {
+      "id": "browser.consultation_reference_local",
+      "storage_area": "local",
+      "key": "pac_requests",
+      "storage_purpose": "saved_request_reference",
+      "profile": "browser_tracking_credential",
+      "sensitivity_classes": [
+        "S3"
+      ],
+      "participation_classes": [
+        "voluntary_shared"
+      ],
+      "official_record": false,
+      "purpose": "Reference ID and plaintext requester access key saved beyond tab close only after explicit requester opt-in.",
+      "status": "defined_feature_off",
+      "blocking_conditions": [
+        "Consultation activation evidence remains required."
+      ],
+      "source": "lib/client/storage-keys.ts and components/intake-client.tsx"
+    },
+    {
+      "id": "browser.path_notes",
+      "storage_area": "local",
+      "key_pattern": "^pac_artifact_[A-Za-z0-9_-]+$",
+      "storage_purpose": "path_notes",
+      "profile": "browser_local_private",
+      "sensitivity_classes": [
+        "S2"
+      ],
+      "participation_classes": [
+        "voluntary_private"
+      ],
+      "official_record": false,
+      "purpose": "Private browser-only path working notes and self-review.",
+      "status": "defined",
+      "source": "lib/client/storage-keys.ts"
+    },
+    {
+      "id": "browser.path_progress",
+      "storage_area": "local",
+      "key_pattern": "^pac_progress_[A-Za-z0-9_-]+$",
+      "storage_purpose": "path_progress",
+      "profile": "browser_local_private",
+      "sensitivity_classes": [
+        "S2"
+      ],
+      "participation_classes": [
+        "voluntary_private"
+      ],
+      "official_record": false,
+      "purpose": "Private browser-only learning/path progress without a staff profile or completion record.",
+      "status": "defined",
+      "source": "lib/client/storage-keys.ts"
+    },
+    {
+      "id": "browser.owner_session_cookie",
+      "storage_area": "cookie",
+      "key": "pac_owner",
+      "storage_purpose": "owner_session_cookie",
+      "profile": "owner_cookie",
+      "sensitivity_classes": [
+        "S3"
+      ],
+      "participation_classes": [
+        "not_interactive"
+      ],
+      "official_record": false,
+      "purpose": "HTTP-only signed authorization session for the protected consultant workspace.",
+      "status": "defined",
+      "source": "lib/auth/owner.ts and docs/operations/owner-session-lifecycle.md"
+    },
+    {
+      "id": "browser.learning_notes",
+      "storage_area": "local",
+      "key": "one-dhs-learning-practice-v1",
+      "storage_purpose": "learning_notes",
+      "profile": "browser_local_private",
+      "sensitivity_classes": [
+        "S2"
+      ],
+      "participation_classes": [
+        "voluntary_private"
+      ],
+      "official_record": false,
+      "purpose": "Optional private intercultural practice notes and reflection, saved on the device until removed by the staff member.",
+      "status": "defined",
+      "source": "lib/client/storage-keys.ts"
+    },
+    {
+      "id": "browser.ask_practice_handoff",
+      "storage_area": "session",
+      "key": "pac_ask_practice_handoff_v1",
+      "storage_purpose": "practice_handoff",
+      "profile": "browser_session_private",
+      "sensitivity_classes": [
+        "S2"
+      ],
+      "participation_classes": [
+        "voluntary_private"
+      ],
+      "official_record": false,
+      "purpose": "An optional ASK draft carried to a practice worksheet in the current tab; importing does not save it or mark work complete.",
+      "status": "defined",
+      "source": "lib/client/storage-keys.ts"
+    },
+    {
+      "id": "browser.course_notes",
+      "storage_area": "local",
+      "key_pattern": "^pac-course:[a-z0-9][a-z0-9-]{0,159}:[a-z0-9][a-z0-9-]{0,159}$",
+      "storage_purpose": "course_notes",
+      "profile": "browser_local_private",
+      "sensitivity_classes": [
+        "S2"
+      ],
+      "participation_classes": [
+        "voluntary_private"
+      ],
+      "official_record": false,
+      "purpose": "Private course answers, working notes, and staff-marked lesson completion; course completion is not an organizational training-credit record.",
+      "status": "defined",
+      "source": "lib/client/storage-keys.ts"
+    },
+    {
+      "id": "browser.course_progress",
+      "storage_area": "local",
+      "key_pattern": "^pac-course-resume:[a-z0-9][a-z0-9-]{0,159}$",
+      "storage_purpose": "course_progress",
+      "profile": "browser_local_private",
+      "sensitivity_classes": [
+        "S2"
+      ],
+      "participation_classes": [
+        "voluntary_private"
+      ],
+      "official_record": false,
+      "purpose": "The last opened lesson identifier used to resume a course on this device.",
+      "status": "defined",
+      "source": "lib/client/storage-keys.ts"
+    },
+    {
+      "id": "browser.named_program_session_cookie",
+      "storage_area": "cookie",
+      "key": "pac_program_session",
+      "storage_purpose": "named_program_session",
+      "profile": "named_identity_cookie",
+      "sensitivity_classes": [
+        "S3"
+      ],
+      "participation_classes": [
+        "not_interactive"
+      ],
+      "official_record": false,
+      "purpose": "Opaque named-contributor sign-in session; independent of the legacy owner session and private learning notes.",
+      "status": "defined_feature_off",
+      "source": "lib/auth/program-identity.ts and lib/auth/program-cookie.ts",
+      "blocking_conditions": [
+        "Hosted named access has not been activated in this local pass."
+      ]
+    },
+    {
+      "id": "browser.equity_analysis_draft",
+      "storage_area": "local",
+      "key": "pac_equity_analysis_draft_v1",
+      "storage_purpose": "equity_analysis_draft",
+      "profile": "browser_local_private",
+      "sensitivity_classes": [
+        "S2"
+      ],
+      "participation_classes": [
+        "voluntary_private"
+      ],
+      "official_record": false,
+      "purpose": "An unfinished Equity Analysis Toolkit walkthrough (chosen form, current step, and answers) kept on the person's own device until they add the analysis to the program record or start over.",
+      "status": "defined",
+      "source": "lib/client/storage-keys.ts and components/equity-analysis/walkthrough.tsx"
+    }
+  ],
+  "external_blob_classes": [
+    {
+      "id": "blob.source_carrier_representation",
+      "physical_members": [
+        "original",
+        "derived_snapshot",
+        "repository_source"
+      ],
+      "locator": "pac.source_carrier_locations(storage_provider, bucket_name, object_key)",
+      "profile": "external_source_blob",
+      "sensitivity_classes": [
+        "S0",
+        "S1",
+        "S2",
+        "S3",
+        "S4"
+      ],
+      "participation_classes": [
+        "not_interactive"
+      ],
+      "official_record": false,
+      "purpose": "Hash-verified private original and derived source carriers in object storage.",
+      "status": "defined",
+      "source": "db/migrations/0003_pac_private_source_objects.sql"
+    },
+    {
+      "id": "blob.content_asset",
+      "physical_members": [
+        "primary",
+        "audio",
+        "transcript",
+        "caption",
+        "thumbnail",
+        "download",
+        "source",
+        "supplement"
+      ],
+      "locator": "pac.assets.object_key",
+      "profile": "external_asset_blob",
+      "sensitivity_classes": [
+        "S0",
+        "S1",
+        "S2",
+        "S3",
+        "S4"
+      ],
+      "participation_classes": [
+        "not_interactive",
+        "voluntary_shared",
+        "supports_required"
+      ],
+      "official_record": false,
+      "purpose": "Immutable versioned content asset bytes referenced by canonical content revisions.",
+      "status": "defined",
+      "source": "db/migrations/0001_pac_content_foundation.sql"
+    }
+  ]
+}

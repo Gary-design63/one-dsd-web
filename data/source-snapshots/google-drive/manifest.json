@@ -1,0 +1,123 @@
+{
+  "schemaVersion": "1.0.0",
+  "capturedOn": "2026-09-04",
+  "purpose": "Content-addressed text snapshots of every Google Drive presentation supplied by the program owner. These snapshots enter the corpus intake pipeline but are not staff-release approvals.",
+  "counts": {
+    "registered": 12,
+    "textCaptured": 11,
+    "manualExtractionRequired": 1
+  },
+  "entries": [
+    {
+      "sourceId": "drive-bipoc-suggestions",
+      "snapshotPath": "data/source-snapshots/google-drive/drive-bipoc-suggestions.json",
+      "aliases": [
+        "drive-bias-microaggressions-stereotypes-lab"
+      ],
+      "textCharacters": 7623,
+      "textSha256": "5252D52343D80ECA0D06FA8D723AC549B867A4AE15B7A9CB20E4035BEAC836E2",
+      "status": "captured",
+      "ownerApproval": "owner_approved_for_ingestion",
+      "staffRelease": "not_staff_released"
+    },
+    {
+      "sourceId": "drive-cfs-idi-seminar-part-1",
+      "snapshotPath": "data/source-snapshots/google-drive/drive-cfs-idi-seminar-part-1.json",
+      "textCharacters": 34939,
+      "textSha256": "1E3E3A6D938F0670BA69978E9FF0E581BC18703B2DB8C29331CF0CFBC001722D",
+      "status": "captured_rights_review_required",
+      "ownerApproval": "owner_approved_for_ingestion",
+      "staffRelease": "not_staff_released"
+    },
+    {
+      "sourceId": "drive-conflict-repair-accountability",
+      "snapshotPath": "data/source-snapshots/google-drive/drive-conflict-repair-accountability.json",
+      "textCharacters": 3515,
+      "textSha256": "585D74C3C0B734118B408BD23BE5E6D01EA9E159D8CE8BA069484FF5096DEC41",
+      "status": "captured",
+      "ownerApproval": "owner_approved_for_ingestion",
+      "staffRelease": "not_staff_released"
+    },
+    {
+      "sourceId": "drive-cq-expand-borders",
+      "snapshotPath": "data/source-snapshots/google-drive/drive-cq-expand-borders.json",
+      "textCharacters": 41303,
+      "textSha256": "1A821639F1116A9032967B561EFD372B8676C02875FB57EF0E2B4FBFBAE001F6",
+      "status": "captured_rights_review_required",
+      "ownerApproval": "owner_approved_for_ingestion",
+      "staffRelease": "not_staff_released"
+    },
+    {
+      "sourceId": "drive-cultural-intelligence-workshop",
+      "snapshotPath": "data/source-snapshots/google-drive/drive-cultural-intelligence-workshop.json",
+      "textCharacters": 12065,
+      "textSha256": "9034161DF5A63240CA426E62D816BDE7C5186B0D9B84B6D04D10A4A3E4EEBFAD",
+      "status": "captured",
+      "ownerApproval": "owner_approved_for_ingestion",
+      "staffRelease": "not_staff_released"
+    },
+    {
+      "sourceId": "drive-idi-acceptance",
+      "snapshotPath": "data/source-snapshots/google-drive/drive-idi-acceptance.json",
+      "textCharacters": 19244,
+      "textSha256": "1285AB4A5016496198DE216AC7A0E23F6DBAF0F640E2F7EDC1320AAC287A2C55",
+      "status": "captured",
+      "ownerApproval": "owner_approved_for_ingestion",
+      "staffRelease": "not_staff_released"
+    },
+    {
+      "sourceId": "drive-idi-denial",
+      "snapshotPath": "data/source-snapshots/google-drive/drive-idi-denial.json",
+      "textCharacters": 13705,
+      "textSha256": "70A9688568255779ECABB0182FB31C5654D3297B3F5C420F420CF03BD7AF3000",
+      "status": "captured",
+      "ownerApproval": "owner_approved_for_ingestion",
+      "staffRelease": "not_staff_released"
+    },
+    {
+      "sourceId": "drive-idi-integration",
+      "snapshotPath": "data/source-snapshots/google-drive/drive-idi-integration.json",
+      "textCharacters": 20073,
+      "textSha256": "862EB579DBAFCF5ECCE4DA5989351EB69D53028DA7F1BE36890F213FFE1ADF39",
+      "status": "captured_model_distinction_review_required",
+      "ownerApproval": "owner_approved_for_ingestion",
+      "staffRelease": "not_staff_released"
+    },
+    {
+      "sourceId": "drive-idi-minimization",
+      "snapshotPath": "data/source-snapshots/google-drive/drive-idi-minimization.json",
+      "textCharacters": 16828,
+      "textSha256": "91F926D0B2413D6EB3245A4387005EAFC744F1A7D10F084BCB3C37FE6C6A47D6",
+      "status": "captured",
+      "ownerApproval": "owner_approved_for_ingestion",
+      "staffRelease": "not_staff_released"
+    },
+    {
+      "sourceId": "drive-idi-polarization",
+      "snapshotPath": "data/source-snapshots/google-drive/drive-idi-polarization.json",
+      "textCharacters": 16129,
+      "textSha256": "ABF250B1CA0233056006D6B8A8279B339B85FFFAE9982F6D5F7570BF87669F9A",
+      "status": "captured",
+      "ownerApproval": "owner_approved_for_ingestion",
+      "staffRelease": "not_staff_released"
+    },
+    {
+      "sourceId": "drive-inclusive-practices",
+      "snapshotPath": "data/source-snapshots/google-drive/drive-inclusive-practices.json",
+      "textCharacters": 4818,
+      "textSha256": "EB4489ABC66D461E443E0C74B31D275FF04277AF71320379F0C4F607E62BCA02",
+      "status": "captured",
+      "ownerApproval": "owner_approved_for_ingestion",
+      "staffRelease": "not_staff_released"
+    },
+    {
+      "sourceId": "drive-intergenerational-handout",
+      "snapshotPath": "data/source-snapshots/google-drive/drive-intergenerational-handout.json",
+      "textCharacters": 2,
+      "textSha256": "7060584C3E59F0B2F12F34AA0B40FAADF4AA5790A0459F3319852BCD63262CBB",
+      "status": "manual_raw_file_extraction_required",
+      "ownerApproval": "owner_approved_for_ingestion",
+      "staffRelease": "not_staff_released"
+    }
+  ]
+}

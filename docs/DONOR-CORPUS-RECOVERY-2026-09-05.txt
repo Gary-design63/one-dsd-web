@@ -1,0 +1,47 @@
+DONOR CORPUS RECOVERY — 2026-09-05
+
+Decision
+
+The governed import uses the counts produced by the pinned executable registries. It does not infer content counts from TypeScript filenames and it does not repeat earlier unsupported estimates of 52 courses or 56 community briefs.
+
+Verified inventory
+
+45 authored course packs are present at commit 3aed64676b90a91983bd7eee4e511f1f333e0784.
+86 total course packs are present at release commit fac88a203c6323b61a687132bae65c05247c5474: 45 authored packs and 41 generated cultural-intelligence curriculum packs.
+40 staff-indexed community briefs are present in the release registry.
+One additional unmatched cultural-intelligence guide, Native American, is retained as its own candidate.
+Eight religion briefs are retained as their own candidates.
+34 reconstruction domain resources are present at commit 5680911e68dcf07414de5f003b18ac8e813a8cb1 and match the 34-item release manifest.
+
+The resulting governed donor inventory contains 169 candidates.
+
+Candidate payload
+
+Every candidate has two representations in one revision payload.
+
+richOriginal retains the complete recovered course pack, community record, intelligence guide, brief body, religion brief, or domain resource. For the 45 authored courses, it retains both the base authored pack and its release pack.
+
+renderable is a plain resource representation with title, summary, sections, and applicability. It is intended for the consultant editorial inventory and can be adapted into staff pages after review without discarding the rich original.
+
+Release posture
+
+The source item records the owner’s approval for ingestion. This is not publication approval.
+
+Every source and candidate revision enters eight pending review queues: language alignment, factual currentness, accessibility, scope, placement, rights and consent, community representation, and legal-policy review.
+
+All recovered content items are restricted and all recovered sources use consultant access. The import produces zero publication decisions. Promotion of collection membership still does not publish any item.
+
+Commands
+
+Rebuild the three pinned snapshots:
+
+node scripts/corpus/donor-course-snapshot.mjs
+node scripts/corpus/donor-community-snapshot.mjs
+node scripts/corpus/donor-domain-snapshot.mjs
+
+Build and validate the database-ready stage without changing a database:
+
+node scripts/corpus/build-donor-library-import.mjs --write
+node scripts/corpus/load-donor-library-import.mjs
+
+An explicit --apply is required for a database write. This recovery work did not use --apply, did not promote an ingest run, and did not create a publication decision.

@@ -1,0 +1,56 @@
+Equity Analysis Toolkit companion — September 6, 2026
+
+Local route: /learn/equity-toolkit
+Entry: Learning and resources, unfiltered or a selection containing the DHS toolkit.
+
+Implemented
+Five freely accessible learning stages, each with four observable objectives.
+Ten work-area contexts, matching the existing work-learning categories.
+Fifteen fictional choices and consequences across a reminder-method example.
+Separate working notes, clear confirmation, and print/save action. Notes are
+held only while the page remains open; they are not submitted or retained.
+Registered editable wording and source links, with the existing scoped review
+and publication controls. Initial wording is a program-authored companion.
+The original recovered course and DHS source documents remain unchanged.
+
+Boundaries and remaining inputs
+This is not a verified reproduction of the current DHS InfoLink toolkit.
+Its five learning stages are not represented as mandated DHS steps.
+Exact toolkit/User Guide mapping and official dashboard handoff await the
+approved current materials and dashboard destination. LTTS remains unresolved.
+No DHS system, official submission, training credit, or dashboard import added.
+The owner will provide the podcast later; no media search or empty player.
+Community briefs remain behind their existing publication/scope rules.
+Role context does not claim a complete job-classification-specific course.
+
+Sources checked during requirements research
+DHS Equity Policy 8150.140, version 2.0, effective August 4, 2023:
+https://mn.gov/dhs/assets/equity-policy_tcm1053-646921.pdf
+Public statewide tool (distinct from unverified current DHS instrument):
+https://mn.gov/oeoa/resources/equity-analysis-toolkit/
+Historical dashboard/rollout context, not current operating instructions:
+https://www.lrl.mn.gov/docs/2024/mandated/240364.pdf
+
+Recovery
+Only new toolkit files, its registry entry, and its Learning entry were added.
+No whole-repository reset, resource replacement, or production deployment.
+Migration 0022 was transactionally validated with rollback, then applied only
+for the new toolkit area. The local editable-area selection now includes it.
+Migration 0018 was not changed; no other pending migration was activated.
+Verification: 32 focused tests passed across five files; TypeScript passed.
+Focused lint passed. Preview checks exercised role selection, stage changes,
+choice feedback, independent notes, clearing, and the narrow layout.
+The owner editor opened after activation. An unchanged baseline draft was
+saved in DSD scope to verify saving; staff wording was not changed. The editor
+reopened successfully after reload. This test draft remains unpublished.
+The toolkit-only setup script validates existing migration checksums and does
+not run other pending migrations. Removing its ID from the local editable-area
+selection restores static presentation without deleting revision history.
+
+Addendum, 2026-09-11 (owner decision recorded in evidence/equity-analysis-2026-09-11/VERIFICATION.md):
+The companion above is unchanged: its five learning stages remain browser-only practice and are not submitted or retained.
+Separately, the program now offers a guided walkthrough of the official toolkit steps at /equity-policy/analysis. When a staff member chooses to add
+an analysis or scan there, it is recorded (roles and dates only, no names), counted on /equity-policy, and listed on /equity-policy/register with its
+promised follow-up dates. The record is open to all DHS staff by design; changes to follow-ups and survey waves are appended events with a visible,
+reversible history. This still does not submit anything to DHS systems, grant approval, or replace the official toolkit, civil rights, Tribal
+consultation, or labor relations.

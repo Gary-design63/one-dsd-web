@@ -1,0 +1,106 @@
+name: Live site checks (DEPLOY.md step 6)
+
+on:
+  workflow_dispatch:
+    inputs:
+      base_url:
+        description: Site to check
+        default: https://one-dhs-pac.vercel.app
+        required: true
+
+permissions:
+  contents: read
+
+jobs:
+  live-checks:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - name: Standard checks from DEPLOY.md step 6
+        env:
+          BASE: ${{ inputs.base_url }}
+        run: |
+          set -u
+          echo "checked_at_utc=$(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          curl -s -o /dev/null -w "home %{http_code}\n" "$BASE/"
+          echo "editing controls for staff (expect 0): $(curl -sL "$BASE/" | grep -c 'data-pac-editor')"
+          echo "editing controls with editing turned on (expect 1): $(curl -sL -H 'Cookie: pac_editing=on' "$BASE/" | grep -c 'data-pac-editor')"
+          curl -s -o /dev/null -w "consultant api %{http_code}\n" "$BASE/api/consultant/program"
+          for p in ja-equity-impact-questions lm-facilitation-application lm-how-this-program-works lm-interpreter lm-workplace-climate; do
+            curl -s -o /dev/null -w "$p %{http_code}\n" "$BASE/library/$p"
+          done
+      - name: Equity policy and framework pages
+        env:
+          BASE: ${{ inputs.base_url }}
+        run: |
+          set -u
+          for p in /equity-policy /equity-policy/analysis /equity-policy/register /equity-framework /operationalizing-equity; do
+            curl -s -o /dev/null -w "$p %{http_code}\n" "$BASE$p"
+          done
+          echo "policy dashboard heading: $(curl -s "$BASE/equity-policy" | grep -c 'Equity Policy dashboard')"
+          echo "framework bibliography: $(curl -s "$BASE/equity-framework" | grep -c 'Bibliography')"
+          echo "footer link to framework: $(curl -s "$BASE/" | grep -c 'href="/equity-framework"')"
+          curl -s -o /dev/null -w "unknown record %{http_code}\n" "$BASE/equity-policy/analysis/equity-analysis-00000000-0000-4000-8000-000000000000"
+          curl -s -o /dev/null -w "analysis post without body %{http_code}\n" -X POST -H 'content-type: application/json' -H "origin: $BASE" --data '{}' "$BASE/api/equity-analysis"
+      - name: Practice infrastructure stage one (Equity Pause, material check, pause register form)
+        env:
+          BASE: ${{ inputs.base_url }}
+        run: |
+          set -u
+          for p in /practice/gp-12 /practice/gp-13 "/equity-policy/analysis?kind=pause"; do
+            curl -s -o /dev/null -w "$p %{http_code}\n" "$BASE$p"
+          done
+          echo "practice index lists both paths: $(curl -s "$BASE/practice" | grep -c 'href="/practice/gp-1[23]"')"
+          echo "register offers the pause form: $(curl -s "$BASE/equity-policy/analysis" | grep -c 'Equity Pause')"
+          echo "pause worksheet renders: $(curl -s "$BASE/practice/gp-12" | grep -c 'id="f-gp-12-work_name"')"
+          echo "material check worksheet renders: $(curl -s "$BASE/practice/gp-13" | grep -c 'id="f-gp-13-work_name"')"
+      - name: Header share control and podcast pages
+        env:
+          BASE: ${{ inputs.base_url }}
+        run: |
+          set -u
+          for p in /podcasts/equity-toolkit /podcasts/anti-racism-public-service /podcasts/not-a-podcast; do
+            curl -s -o /dev/null -w "$p %{http_code}\n" "$BASE$p"
+          done
+          echo "share controls on home (header and footer): $(curl -s "$BASE/" | grep -o 'data-share-page="true"' | wc -l)"
+          echo "podcast page has its own player: $(curl -s "$BASE/podcasts/equity-toolkit" | grep -o '<audio' | wc -l)"
+          echo "learn page links to podcast pages: $(curl -s "$BASE/learn" | grep -o 'href="/podcasts/[a-z-]*"' | sort -u | wc -l)"
+      - name: Plain-language release and the neurodiversity conflict-resolution course
+        env:
+          BASE: ${{ inputs.base_url }}
+        run: |
+          set -u
+          for p in /courses/di-conflict-resolution-and-neurodiversity /courses/di-conflict-resolution-and-neurodiversity/conflict-resolution-and-neurodiversity-1 /learn /start /ask /support; do
+            curl -s -o /dev/null -w "$p %{http_code}\n" "$BASE$p"
+          done
+          echo "learn lists the new course tile: $(curl -s "$BASE/learn" | grep -c 'data-learning-id=\"course-di-conflict-resolution-and-neurodiversity\"')"
+          echo "learn access theme includes the course: $(curl -s "$BASE/learn?theme=access" | grep -c 'data-learning-id=\"course-di-conflict-resolution-and-neurodiversity\"')"
+          echo "course page shows five lessons: $(curl -s "$BASE/courses/di-conflict-resolution-and-neurodiversity" | grep -o 'href="/courses/di-conflict-resolution-and-neurodiversity/conflict-resolution-and-neurodiversity-[1-5]"' | sort -u | wc -l)"
+          for p in / /start /ask /support /practice /areas /learn /about; do
+            echo "ruled-out phrases on $p (expect 0): $(curl -sL "$BASE$p" | grep -oiE 'human support|human guidance|protected work|does not grant access|web browser you are using|tailored answer|Edit site header|Choose what staff see' | wc -l)"
+          done
+          echo "where the phrase appears on the home page:"
+          curl -sL "$BASE/" | grep -oiE '.{120}(human support|human guidance|protected work|does not grant access|web browser you are using|tailored answer|Edit site header|Choose what staff see).{80}' | head -3
+      - name: One DSD view
+        env:
+          BASE: ${{ inputs.base_url }}
+        run: |
+          set -u
+          for p in / /learn /start /ask /practice /areas /support /one-dsd /paths /practice/gp-1 /practice/gp-12 /about /minnesota-communities /library/ja-plain-language /equity-policy /learn/equity-toolkit /my-work /orientation /understanding-dhs "/learn?theme=access" "/learn?q=meeting"; do
+            code=$(curl -s -o /tmp/page.html -w "%{http_code}" -H 'Cookie: pac_context=one_dsd' "$BASE$p")
+            echo "$p (One DSD view) $code; error page shown: $(grep -c 'Something did not load' /tmp/page.html)"
+          done
+          echo "/learn?view=one_dsd $(curl -s -o /tmp/page.html -w "%{http_code}" -L "$BASE/learn?view=one_dsd"); error page shown: $(grep -c 'Something did not load' /tmp/page.html)"
+          echo "/learn (One DHS view) $(curl -s -o /tmp/page.html -w "%{http_code}" "$BASE/learn"); error page shown: $(grep -c 'Something did not load' /tmp/page.html)"
+      - name: Research and sources section
+        env:
+          BASE: ${{ inputs.base_url }}
+        run: |
+          set -u
+          curl -s -o /tmp/sources.html -w "/learn/sources %{http_code}\n" "$BASE/learn/sources"
+          echo "source entries on the page: $(grep -o 'id="source-[a-z0-9-]*"' /tmp/sources.html | wc -l)"
+          echo "reached states shown: $(grep -o 'Reached on [A-Za-z]* [0-9]*, [0-9]*' /tmp/sources.html | sort -u | head -1)"
+          echo "not-reached states shown: $(grep -o 'Not reached on' /tmp/sources.html | wc -l)"
+          echo "course page shows source states: $(curl -s "$BASE/courses/di-conflict-resolution-and-neurodiversity" | grep -o 'class="source-state"' | wc -l)"
+          echo "library tool card shows sources panel: $(curl -s "$BASE/library/tool-gare-racial-equity-toolkit" | grep -c 'Sources behind this resource')"
+          echo "learn links to the section: $(curl -s "$BASE/learn" | grep -c 'href="/learn/sources"')"

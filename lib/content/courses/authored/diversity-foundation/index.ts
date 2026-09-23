@@ -1,0 +1,11 @@
+import f01 from './div-f01-white-privilege';
+import f02 from './div-f02-microaggressions';
+import f03 from './div-f03-intercultural-communication';
+import f04 from './div-f04-cultural-values';
+import f05 from './div-f05-implicit-bias-iat';
+import f06 from './div-f06-social-identity';
+import f07 from './div-f07-stereotypes-prejudice-discrimination';
+import f08 from './div-f08-ethnocentrism';
+import f09 from './div-f09-intersectionality';
+import f10 from './div-f10-equality-equity-fairness';
+export const FOUNDATION_DIVERSITY_PACKS = [f01,f02,f03,f04,f05,f06,f07,f08,f09,f10];

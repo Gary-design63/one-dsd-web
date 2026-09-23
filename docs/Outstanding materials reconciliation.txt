@@ -1,0 +1,393 @@
+OUTSTANDING MATERIALS — RECONCILIATION
+Consultant review only | 6 September 2026
+
+Result
+The earlier slide links are accounted for, but content capture and staff availability are different. All twelve Google presentation identifiers from the conversation match saved snapshots. Eleven contain substantial text. The Intergenerational Handout contains only two form-feed characters and remains an extraction gap.
+
+This review changes no application pages, architecture, publication status, database, or source material. Source labels reflect historical records, not a reversal of Gary's substantive approval. Thematic assignments below are recommendations.
+
+1. EARLIER SLIDE LINKS
+
+Lab 2: Addressing Bias, Microaggressions, and Stereotypes in the Workplace
+Source identifier: drive-bipoc-suggestions
+Original link: https://docs.google.com/presentation/d/1_1W9Bgpb6G2qsSVMTA4UtrJvNwHTxZQl/edit
+Saved snapshot: data/source-snapshots/google-drive/drive-bipoc-suggestions.json
+Extracted characters: 7623
+Finding: Text captured; original slide visuals, notes completeness, current remote access, and staff delivery are not verified by this check.
+Primary theme: Intercultural practice and community understanding.
+Related themes: Workplace culture; structural equity; facilitation.
+
+CFS IDI Seminar Part 1
+Source identifier: drive-cfs-idi-seminar-part-1
+Original link: https://docs.google.com/presentation/d/1qcIOp-A8iJaeFyp8du1r9x_tC3sopNAt/edit
+Saved snapshot: data/source-snapshots/google-drive/drive-cfs-idi-seminar-part-1.json
+Extracted characters: 34939
+Finding: Text captured; original slide visuals, notes completeness, current remote access, and staff delivery are not verified by this check.
+Primary theme: Intercultural practice and community understanding.
+Related themes: Workplace culture; structural equity; facilitation.
+
+Conflict, Repair, and Accountability with a DEIA Lens
+Source identifier: drive-conflict-repair-accountability
+Original link: https://docs.google.com/presentation/d/1ASNKgsPGZP91pQ_-OK5QQXbjNxzz8bzluHb2JeqqQEY/edit
+Saved snapshot: data/source-snapshots/google-drive/drive-conflict-repair-accountability.json
+Extracted characters: 3515
+Finding: Text captured; original slide visuals, notes completeness, current remote access, and staff delivery are not verified by this check.
+Primary theme: Facilitation, reflection, and learning together.
+Related themes: Workplace culture; structural equity; facilitation.
+
+CQ Expand Your Borders Curriculum
+Source identifier: drive-cq-expand-borders
+Original link: https://docs.google.com/presentation/d/1KEd8mhazoNIjFUF0iX0OFMvKsAK6VVkm/edit
+Saved snapshot: data/source-snapshots/google-drive/drive-cq-expand-borders.json
+Extracted characters: 41303
+Finding: Text captured; original slide visuals, notes completeness, current remote access, and staff delivery are not verified by this check.
+Primary theme: Intercultural practice and community understanding.
+Related themes: Workplace culture; structural equity; facilitation.
+
+Cultural Intelligence Workshop Cohort 1
+Source identifier: drive-cultural-intelligence-workshop
+Original link: https://docs.google.com/presentation/d/1HmDVjnDGR9rsOJP-rcZ-QdNzlNDvnMNr/edit
+Saved snapshot: data/source-snapshots/google-drive/drive-cultural-intelligence-workshop.json
+Extracted characters: 12065
+Finding: Text captured; original slide visuals, notes completeness, current remote access, and staff delivery are not verified by this check.
+Primary theme: Intercultural practice and community understanding.
+Related themes: Workplace culture; structural equity; facilitation.
+
+IDI Acceptance Tutorials
+Source identifier: drive-idi-acceptance
+Original link: https://docs.google.com/presentation/d/1NbI7HkyH16v-ULmwQ_6yDaSkLKZCjjYo/edit
+Saved snapshot: data/source-snapshots/google-drive/drive-idi-acceptance.json
+Extracted characters: 19244
+Finding: Text captured; original slide visuals, notes completeness, current remote access, and staff delivery are not verified by this check.
+Primary theme: Intercultural practice and community understanding.
+Related themes: Workplace culture; structural equity; facilitation.
+
+IDI Denial Tutorials
+Source identifier: drive-idi-denial
+Original link: https://docs.google.com/presentation/d/1WqGkZh6ZBCl41lKDdiwW8lz6fr6z8_M1/edit
+Saved snapshot: data/source-snapshots/google-drive/drive-idi-denial.json
+Extracted characters: 13705
+Finding: Text captured; original slide visuals, notes completeness, current remote access, and staff delivery are not verified by this check.
+Primary theme: Intercultural practice and community understanding.
+Related themes: Workplace culture; structural equity; facilitation.
+
+IDI Integration Tutorials
+Source identifier: drive-idi-integration
+Original link: https://docs.google.com/presentation/d/1Tx-k2fBFcalYntCQx__toqHAWBvLcabDfgXLbwYkVok/edit
+Saved snapshot: data/source-snapshots/google-drive/drive-idi-integration.json
+Extracted characters: 20073
+Finding: Text captured; original slide visuals, notes completeness, current remote access, and staff delivery are not verified by this check.
+Primary theme: Intercultural practice and community understanding.
+Related themes: Workplace culture; structural equity; facilitation.
+
+IDI Minimization Tutorials
+Source identifier: drive-idi-minimization
+Original link: https://docs.google.com/presentation/d/1u4VcTt9lpG21yGOi-nZlHVVTBKj7MJ08/edit
+Saved snapshot: data/source-snapshots/google-drive/drive-idi-minimization.json
+Extracted characters: 16828
+Finding: Text captured; original slide visuals, notes completeness, current remote access, and staff delivery are not verified by this check.
+Primary theme: Intercultural practice and community understanding.
+Related themes: Workplace culture; structural equity; facilitation.
+
+IDI Polarization Tutorials
+Source identifier: drive-idi-polarization
+Original link: https://docs.google.com/presentation/d/1U0cCfV-wtHU1t6wzSc0f2jl3u_eAXlLO/edit
+Saved snapshot: data/source-snapshots/google-drive/drive-idi-polarization.json
+Extracted characters: 16129
+Finding: Text captured; original slide visuals, notes completeness, current remote access, and staff delivery are not verified by this check.
+Primary theme: Intercultural practice and community understanding.
+Related themes: Workplace culture; structural equity; facilitation.
+
+Inclusive Practices Presentation
+Source identifier: drive-inclusive-practices
+Original link: https://docs.google.com/presentation/d/1PtK6oBa9wkcPYaZNSwDGi5Bev9c_bT4mnLdbAHzy1i4/edit
+Saved snapshot: data/source-snapshots/google-drive/drive-inclusive-practices.json
+Extracted characters: 4818
+Finding: Text captured; original slide visuals, notes completeness, current remote access, and staff delivery are not verified by this check.
+Primary theme: Intercultural practice and community understanding.
+Related themes: Workplace culture; structural equity; facilitation.
+
+Intergenerational Handout
+Source identifier: drive-intergenerational-handout
+Original link: https://docs.google.com/presentation/d/1MS6PQvLtaxn8EpbBIdQ7QVbbwiXM06Re/edit
+Saved snapshot: data/source-snapshots/google-drive/drive-intergenerational-handout.json
+Extracted characters: 2
+Finding: Incomplete: only form-feed characters; original file or image-based extraction is needed.
+Primary theme: Intercultural practice and community understanding.
+Related themes: Workplace culture; structural equity; facilitation.
+
+These links are accounted for as source materials, not automatically added as twelve new courses on top of the 86 recovered course records. Their relationship to existing courses requires content-level matching. An IDI tutorial deck may contain multiple lessons; file counts and lesson counts are not interchangeable.
+
+2. ORIENTATION — TWO DIFFERENT MEANINGS
+
+Intercultural orientation:
+The donor domain record tool-idi explicitly preserves "IBI orientation" as an alias for the supplied IDI material. CFS IDI Seminar Part 1 and the Denial, Polarization, Minimization, Acceptance, and Integration tutorial snapshots are present. Preserve the association as recorded; do not invent a separate IBI curriculum or assume every assessment-related activity is ready for general release.
+Theme: Intercultural practice. Links: facilitation, workplace practice, structural equity.
+The existing manifest flags rights review for CFS IDI and CQ Expand Your Borders, and a model-distinction review for Integration. These remain specific follow-up questions, not blanket rejection of the owner's materials.
+
+New-staff onboarding:
+A saved earlier-page transcription survives at:
+C:/Users/garyb/Documents/kimi/workspace/one-dsd-program/research/orientation-leadership.md
+It identifies an orientation hub featuring Accessible Meetings Checklist, Cultural Humility Core Practices, and Inclusive Language Basics. This is evidence of a prior composition, not proof that all linked resources are currently delivered.
+The current recovered ledger has one entry assigned to orientation-and-onboarding:
+CORPUS-V2-0525 | d6e8349a-0cf8-4c0a-9c0a-b2216a11e3bb | Video: What Is Community-Informed Practice?
+The recovered course Onboarding and the First 90 Days is another distinct record.
+Theme: Hiring, retention, and professional growth. Links: access, intercultural practice, facilitation.
+Do not collapse onboarding and intercultural assessment orientations into one course.
+
+3. AMPLIFY EQUITY
+
+Fuller prior application content was found in local Git history:
+Commit: fac88a203c6323b61a687132bae65c05247c5474
+Content: src/lib/program/equity-at-work.ts
+Related routes: equity-at-work.amplify.tsx, equity-at-work.for-hosts.tsx, equity-at-work.intent-and-impact.tsx, equity-at-work.index.tsx.
+
+The content includes:
+- The voluntary staff forum's purpose and participation.
+- Discussion, readings, speakers, and observances.
+- Host preparation, discussion, and follow-up guidance.
+- An intent-and-impact brief.
+- Connections to further learning, practical tools, and consultation.
+- Distinctions from complaint handling, formal policy authority, and required coursework.
+
+The current lib/content/learning-hub.ts contains an Amplify Equity introduction only. The fuller engagement experience has not been restored by that introduction.
+
+Recommended primary home: Workplace culture, well-being, and staff voice.
+Connections: Facilitation and shared learning; intercultural practice; leadership and structural improvement.
+Gary's current direction includes wellness, workplace stress, cultural celebration, and lived experience informing the consultant's understanding of staff needs. Preserve those purposes during later integration.
+Old statements about dates, administrative authority, and organizational responsibilities are historical copy, not independently verified facts or current commitments. Reconcile them before reuse. Keep this separate from the standing One DSD Team equity committee.
+
+4. OWNER-SUPPLIED LOCAL MATERIALS
+
+The local manifest registers 22 inputs. It includes resource content, planning context, and duplicate receipts; these must not become 22 new staff resources by default.
+
+consultant-mindset
+Saved snapshot: data/source-snapshots/local/consultant-mindset.json
+Recorded state: captured
+Extracted characters recorded: 6749
+
+consultant-role-and-supporting-files-receipt
+Saved snapshot: data/source-snapshots/local/consultant-role-and-supporting-files-receipt.json
+Recorded state: captured
+Extracted characters recorded: 13858
+
+consultant-twin-prd
+Saved snapshot: data/source-snapshots/local/consultant-twin-prd.json
+Recorded state: captured
+Extracted characters recorded: 46791
+
+cultural-terms-glossary
+Saved snapshot: data/source-snapshots/local/cultural-terms-glossary.json
+Recorded state: captured
+Extracted characters recorded: 92344
+
+dhs-equity-ecosystem-inventory
+Saved snapshot: data/source-snapshots/local/dhs-equity-ecosystem-inventory.json
+Recorded state: captured
+Extracted characters recorded: 7946
+
+future-model-adaptability-context
+Saved snapshot: data/source-snapshots/local/future-model-adaptability-context.json
+Recorded state: captured
+Extracted characters recorded: 32533
+
+local-benefits-prd-early-2027
+Saved snapshot: data/source-snapshots/local/local-benefits-prd-early-2027.json
+Recorded state: captured
+Extracted characters recorded: 34212
+
+local-community-engagement-done-well
+Saved snapshot: data/source-snapshots/local/local-community-engagement-done-well.json
+Recorded state: captured
+Extracted characters recorded: 2109
+
+local-equitable-hiring-retention-rubric
+Saved snapshot: data/source-snapshots/local/local-equitable-hiring-retention-rubric.json
+Recorded state: captured
+Extracted characters recorded: 3296
+
+local-equity-cascade-crosswalk
+Saved snapshot: data/source-snapshots/local/local-equity-cascade-crosswalk.json
+Recorded state: captured
+Extracted characters recorded: 4765
+
+local-landscape-climate-report
+Saved snapshot: data/source-snapshots/local/local-landscape-climate-report.json
+Recorded state: captured
+Extracted characters recorded: 60401
+
+local-person-centered-practice-slides
+Saved snapshot: data/source-snapshots/local/local-person-centered-practice-slides.json
+Recorded state: captured
+Extracted characters recorded: 1933
+
+local-race-racism-minnesota-course
+Saved snapshot: data/source-snapshots/local/local-race-racism-minnesota-course.json
+Recorded state: captured_quarantined_never_execute
+Extracted characters recorded: 71
+
+local-racism-in-america-audio
+Saved snapshot: data/source-snapshots/local/local-racism-in-america-audio.json
+Recorded state: captured_transcript_required
+Extracted characters recorded: 0
+
+old-live-app-analysis
+Saved snapshot: data/source-snapshots/local/old-live-app-analysis.json
+Recorded state: captured
+Extracted characters recorded: 19098
+
+partnership-framework-canonical
+Saved snapshot: data/source-snapshots/local/partnership-framework-canonical.json
+Recorded state: captured
+Extracted characters recorded: 20615
+
+partnership-framework-duplicate-receipt
+Saved snapshot: data/source-snapshots/local/partnership-framework-duplicate-receipt.json
+Recorded state: captured
+Extracted characters recorded: 20615
+
+partnership-framework-receipt-a
+Saved snapshot: data/source-snapshots/local/partnership-framework-receipt-a.json
+Recorded state: captured
+Extracted characters recorded: 17949
+
+prd-package-export-zip
+Saved snapshot: data/source-snapshots/local/prd-package-export-zip.json
+Recorded state: captured_duplicate_receipt_only
+Extracted characters recorded: 0
+
+prd-package-named-zip
+Saved snapshot: data/source-snapshots/local/prd-package-named-zip.json
+Recorded state: captured
+Extracted characters recorded: 255494
+
+program-initiative-project-distinction
+Saved snapshot: data/source-snapshots/local/program-initiative-project-distinction.json
+Recorded state: captured
+Extracted characters recorded: 13263
+
+thread-process-history
+Saved snapshot: data/source-snapshots/local/thread-process-history.json
+Recorded state: captured
+Extracted characters recorded: 5055
+
+
+Thematic placement of substantive supporting materials:
+- Community Engagement Done Well: intercultural/community understanding; links to partnership, facilitation, and structural change.
+- Equitable Hiring and Retention Rubric: hiring and retention; links to policy, access, leadership, and structural equity.
+- Equity Cascade Crosswalk: structural change and leadership; links to implementation and evaluation.
+- Landscape and Climate Report: workplace culture and leadership; links to evidence and structural change.
+- Person-Centered Practice and Self-Determination slides: disability and responsive services; links to access and family supports.
+- Cultural Terms Glossary: intercultural practice; a reference companion, not a compulsory course.
+- Partnership framework: structural equity and leadership; supporting program-wide practice.
+- Consultant mindset, PRDs, process history, and model-adaptability materials: consultant planning context unless a specific staff resource is deliberately derived.
+- Duplicate partnership and export receipts: retain for accounting, not duplicate tiles.
+
+Capture caution:
+The local Racism in America HTML snapshot contains only 71 characters: its title. It does not contain the lesson text. The existing safety handling states that scripts were not executed. Recover lesson content through safe static inspection of the original package; do not treat this snapshot as a full recovered course or run the file merely to resolve the count.
+
+5. AUDIO
+
+Owner-supplied MP3:
+C:/Users/garyb/OneDrive/Desktop - Copy/course-featured-racism-in-america-html.mp3
+Verified present: 11,105,216 bytes.
+Verified SHA-256: 7B61CF2CD944C0D0D6F17484D4A6561C06341AED9D37D09D7D0BCAE98CB92D03
+This matches its saved source snapshot.
+Recorded duration in the snapshot: 694.021224 seconds (approximately 11 minutes 34 seconds).
+Transcript: absent from the snapshot; playback and transcript alignment were not tested in this review.
+Theme: equity foundations and anti-racism, as a companion to the separately supplied course.
+
+Earlier 73-item narration collection:
+Manifest located at:
+C:/Users/garyb/Documents/kimi/workspace/one-dsd-cloud/packages/content/corpus/canonical-audio-artifact-manifest.json
+
+It contains 73 artifact records and 73 media-object records, including object keys and checksums. Its historical complete=true value is not evidence that the new app can play these files.
+A filename-and-asset-ID search of WAV files under C:/Users/garyb/Documents/kimi/workspace found zero matching files for these 73 object keys. This is a bounded negative result, not a claim that the files are gone everywhere.
+Recovery needs the actual media objects from their previous storage or another retained package, followed by checksum and playback checks. Do not regenerate or duplicate them before checking the existing storage.
+
+Recorded audio objects:
+00d2a8f6-8573-4a39-acb7-1b2f32940700 | audio/read-aloud/generated/00d2a8f6-8573-4a39-acb7-1b2f32940700/1784666960086-local-qwen3.wav | recorded bytes 5136674 | matches in searched workspace 0
+0b4b623f-ae8e-415c-be1b-865247a483cd | audio/read-aloud/generated/0b4b623f-ae8e-415c-be1b-865247a483cd/1784655617066-local-qwen3.wav | recorded bytes 3098534 | matches in searched workspace 0
+1089a05b-2ad1-448d-ae3c-16f0bd808abd | audio/read-aloud/generated/1089a05b-2ad1-448d-ae3c-16f0bd808abd/1784664719864-local-qwen3.wav | recorded bytes 5111804 | matches in searched workspace 0
+11a03f35-5714-489b-9dec-458586178996 | audio/read-aloud/generated/11a03f35-5714-489b-9dec-458586178996/1784664492107-local-qwen3.wav | recorded bytes 4557794 | matches in searched workspace 0
+124e27f7-1916-4c79-96c2-0159f674f3dc | audio/read-aloud/generated/124e27f7-1916-4c79-96c2-0159f674f3dc/1784660290203-local-qwen3.wav | recorded bytes 4970384 | matches in searched workspace 0
+14dd0152-cf0f-4fbb-9c46-fec6631f1794 | audio/read-aloud/generated/14dd0152-cf0f-4fbb-9c46-fec6631f1794/1784656579337-local-qwen3.wav | recorded bytes 3213074 | matches in searched workspace 0
+17f10913-364d-4fed-b522-d08385b2abfc | audio/read-aloud/generated/17f10913-364d-4fed-b522-d08385b2abfc/1784661901903-local-qwen3.wav | recorded bytes 4665914 | matches in searched workspace 0
+22f16ce7-3341-45bc-8644-5497bd58ad61 | audio/read-aloud/generated/22f16ce7-3341-45bc-8644-5497bd58ad61/1784655449695-local-qwen3.wav | recorded bytes 3748814 | matches in searched workspace 0
+278c73dc-e046-4df2-82d8-28d0366cb284 | audio/read-aloud/generated/278c73dc-e046-4df2-82d8-28d0366cb284/1784665917772-local-qwen3.wav | recorded bytes 5043704 | matches in searched workspace 0
+310b4346-9d3b-4aea-a214-a32a39548c01 | audio/read-aloud/generated/310b4346-9d3b-4aea-a214-a32a39548c01/1784665692741-local-qwen3.wav | recorded bytes 5321294 | matches in searched workspace 0
+32f79601-fccc-4676-860b-9ace065be821 | audio/read-aloud/generated/32f79601-fccc-4676-860b-9ace065be821/1784657457889-local-qwen3.wav | recorded bytes 4145294 | matches in searched workspace 0
+33a94d6e-21bb-496c-a506-88784b3c8efa | audio/read-aloud/generated/33a94d6e-21bb-496c-a506-88784b3c8efa/1784657947277-local-qwen3.wav | recorded bytes 4653944 | matches in searched workspace 0
+41161fe8-61bc-42fa-94a9-1f82c4a21acc | audio/read-aloud/generated/41161fe8-61bc-42fa-94a9-1f82c4a21acc/1784662935040-local-qwen3.wav | recorded bytes 5244134 | matches in searched workspace 0
+477993b7-24d5-4539-816e-433e14bf5581 | audio/read-aloud/generated/477993b7-24d5-4539-816e-433e14bf5581/1784662308522-local-qwen3.wav | recorded bytes 4960484 | matches in searched workspace 0
+4dbd4e45-5ca9-429c-9db9-b2d217ac5c6d | audio/read-aloud/generated/4dbd4e45-5ca9-429c-9db9-b2d217ac5c6d/1784666187155-local-qwen3.wav | recorded bytes 6178514 | matches in searched workspace 0
+541b2283-647c-450e-a504-17a455dc749f | audio/read-aloud/generated/541b2283-647c-450e-a504-17a455dc749f/1784658685978-local-qwen3.wav | recorded bytes 3780344 | matches in searched workspace 0
+54490c26-0f60-47c2-b12f-1d72070a98dd | audio/read-aloud/generated/54490c26-0f60-47c2-b12f-1d72070a98dd/1784659242457-local-qwen3.wav | recorded bytes 4353764 | matches in searched workspace 0
+5ae9b9de-6be7-48a8-a761-168b857ee177 | audio/read-aloud/generated/5ae9b9de-6be7-48a8-a761-168b857ee177/1784665446461-local-qwen3.wav | recorded bytes 4845704 | matches in searched workspace 0
+5bfb06fe-1855-43c7-8ff3-7de1ef9b1516 | audio/read-aloud/generated/5bfb06fe-1855-43c7-8ff3-7de1ef9b1516/1784662516912-local-qwen3.wav | recorded bytes 5189984 | matches in searched workspace 0
+60b083cd-57e6-4349-8669-014d1ba0577a | audio/read-aloud/generated/60b083cd-57e6-4349-8669-014d1ba0577a/1784659740422-local-qwen3.wav | recorded bytes 4467554 | matches in searched workspace 0
+60e4f6f9-c930-4600-a6b5-6ae6ca0f601a | audio/read-aloud/generated/60e4f6f9-c930-4600-a6b5-6ae6ca0f601a/1784657242388-local-qwen3.wav | recorded bytes 3875084 | matches in searched workspace 0
+63fba988-b6f3-453d-8633-594bc7e29543 | audio/read-aloud/generated/63fba988-b6f3-453d-8633-594bc7e29543/1784657023437-local-qwen3.wav | recorded bytes 3717134 | matches in searched workspace 0
+6e0cc885-0cd1-40b8-ace9-3f958285bdb7 | audio/read-aloud/generated/6e0cc885-0cd1-40b8-ace9-3f958285bdb7/1784656399424-local-qwen3.wav | recorded bytes 3160934 | matches in searched workspace 0
+723cefd4-2aa1-42ad-b81f-08bfc17542a1 | audio/read-aloud/generated/723cefd4-2aa1-42ad-b81f-08bfc17542a1/1784656802165-local-qwen3.wav | recorded bytes 3849464 | matches in searched workspace 0
+8151ab53-5e91-48be-aac2-67c70b0c58b9 | audio/read-aloud/generated/8151ab53-5e91-48be-aac2-67c70b0c58b9/1784664981397-local-qwen3.wav | recorded bytes 5154254 | matches in searched workspace 0
+874517b8-df04-4fac-93f5-7e95a825084b | audio/read-aloud/generated/874517b8-df04-4fac-93f5-7e95a825084b/1784658468983-local-qwen3.wav | recorded bytes 4283834 | matches in searched workspace 0
+8d4f4906-62a9-4866-919e-b511b51243f4 | audio/read-aloud/generated/8d4f4906-62a9-4866-919e-b511b51243f4/1784666440982-local-qwen3.wav | recorded bytes 4950584 | matches in searched workspace 0
+8ea9ca5f-27c8-4504-898a-61d3a55ea5ca | audio/read-aloud/generated/8ea9ca5f-27c8-4504-898a-61d3a55ea5ca/1784667564509-local-qwen3.wav | recorded bytes 6580454 | matches in searched workspace 0
+940c583c-1df1-42a6-b838-fe358962abe3 | audio/read-aloud/generated/940c583c-1df1-42a6-b838-fe358962abe3/1784661529034-local-qwen3.wav | recorded bytes 4623164 | matches in searched workspace 0
+94ddb235-bc6b-417f-8d12-973eb6f8ec30 | audio/read-aloud/generated/94ddb235-bc6b-417f-8d12-973eb6f8ec30/1784660568681-local-qwen3.wav | recorded bytes 4492664 | matches in searched workspace 0
+967077ba-4076-4e4b-b89e-e2e468b66ab9 | audio/read-aloud/generated/967077ba-4076-4e4b-b89e-e2e468b66ab9/1784663143077-local-qwen3.wav | recorded bytes 5393144 | matches in searched workspace 0
+974dcd3b-c3e5-4db9-8826-9d79dedc83a9 | audio/read-aloud/generated/974dcd3b-c3e5-4db9-8826-9d79dedc83a9/1784661288395-local-qwen3.wav | recorded bytes 4520954 | matches in searched workspace 0
+980110dd-1540-4149-8815-6406897626ce | audio/read-aloud/generated/980110dd-1540-4149-8815-6406897626ce/1784661052957-local-qwen3.wav | recorded bytes 4448444 | matches in searched workspace 0
+9ee3790e-12de-48e0-b833-49bfb5f1772f | audio/read-aloud/generated/9ee3790e-12de-48e0-b833-49bfb5f1772f/1784668194728-local-qwen3.wav | recorded bytes 6597434 | matches in searched workspace 0
+a0e1fcc6-3b33-4bb7-a38e-925d5810c178 | audio/read-aloud/generated/a0e1fcc6-3b33-4bb7-a38e-925d5810c178/1784665216851-local-qwen3.wav | recorded bytes 5305274 | matches in searched workspace 0
+a8a66578-9ed2-4aef-af9d-ce597acf3447 | audio/read-aloud/generated/a8a66578-9ed2-4aef-af9d-ce597acf3447/1784663544620-local-qwen3.wav | recorded bytes 4737614 | matches in searched workspace 0
+ab90cad5-35e1-4741-b9ef-779938c5d12c | audio/read-aloud/generated/ab90cad5-35e1-4741-b9ef-779938c5d12c/1784655243485-local-qwen3.wav | recorded bytes 3358244 | matches in searched workspace 0
+aca32717-9f4b-442c-a4b5-53fb5c5b4792 | audio/read-aloud/generated/aca32717-9f4b-442c-a4b5-53fb5c5b4792/1784662113256-local-qwen3.wav | recorded bytes 5380814 | matches in searched workspace 0
+accessibility-and-accommodations | audio/read-aloud/generated/accessibility-and-accommodations/1784655044102-local-qwen3.wav | recorded bytes 2756114 | matches in searched workspace 0
+aee94cc5-be01-42a0-8420-bcd8fe2e922e | audio/read-aloud/generated/aee94cc5-be01-42a0-8420-bcd8fe2e922e/1784662735446-local-qwen3.wav | recorded bytes 5680784 | matches in searched workspace 0
+asset-cultural-humility | audio/read-aloud/generated/asset-cultural-humility/1784658954214-local-qwen3.wav | recorded bytes 4400444 | matches in searched workspace 0
+bbc570b2-2a5f-4745-8636-d1457d0b8ece | audio/read-aloud/generated/bbc570b2-2a5f-4745-8636-d1457d0b8ece/1784656020810-local-qwen3.wav | recorded bytes 4193144 | matches in searched workspace 0
+bea8a137-8a05-4505-89f8-d96d005cea7e | audio/read-aloud/generated/bea8a137-8a05-4505-89f8-d96d005cea7e/1784663342341-local-qwen3.wav | recorded bytes 5217914 | matches in searched workspace 0
+c24eef6a-2bc2-4e3a-9a53-e4428f90b642 | audio/read-aloud/generated/c24eef6a-2bc2-4e3a-9a53-e4428f90b642/1784667270453-local-qwen3.wav | recorded bytes 6445754 | matches in searched workspace 0
+c2d13ae2-b7ea-44cc-bb33-9d34383b0679 | audio/read-aloud/generated/c2d13ae2-b7ea-44cc-bb33-9d34383b0679/1784657681705-local-qwen3.wav | recorded bytes 4252754 | matches in searched workspace 0
+c4731d8a-9566-4884-b82c-a53ae5cc9bc9 | audio/read-aloud/generated/c4731d8a-9566-4884-b82c-a53ae5cc9bc9/1784660822647-local-qwen3.wav | recorded bytes 5176994 | matches in searched workspace 0
+communication-and-facilitation | audio/read-aloud/generated/communication-and-facilitation/1784653549907-local-qwen3.wav | recorded bytes 2272784 | matches in searched workspace 0
+community-cultural-context | audio/read-aloud/generated/community-cultural-context/1784653683445-local-qwen3.wav | recorded bytes 2527334 | matches in searched workspace 0
+d08966ab-24e1-45f4-8ba7-1afdf8db1f85 | audio/read-aloud/generated/d08966ab-24e1-45f4-8ba7-1afdf8db1f85/1784666706047-local-qwen3.wav | recorded bytes 5224244 | matches in searched workspace 0
+dcbf3c05-a5fc-4d2b-936e-0c0013dfd50b | audio/read-aloud/generated/dcbf3c05-a5fc-4d2b-936e-0c0013dfd50b/1784656232791-local-qwen3.wav | recorded bytes 4084664 | matches in searched workspace 0
+disability-rights-justice-and-history | audio/read-aloud/generated/disability-rights-justice-and-history/1784654618380-local-qwen3.wav | recorded bytes 2774204 | matches in searched workspace 0
+ea9675a2-f766-4231-9eaa-624ec5cd7cb0 | audio/read-aloud/generated/ea9675a2-f766-4231-9eaa-624ec5cd7cb0/1784660001382-local-qwen3.wav | recorded bytes 4658144 | matches in searched workspace 0
+eec56294-a81f-47d2-bf99-d243b3da21be | audio/read-aloud/generated/eec56294-a81f-47d2-bf99-d243b3da21be/1784655806066-local-qwen3.wav | recorded bytes 3150524 | matches in searched workspace 0
+employment-and-workforce-equity | audio/read-aloud/generated/employment-and-workforce-equity/1784654469368-local-qwen3.wav | recorded bytes 2444474 | matches in searched workspace 0
+equity-analysis-and-institutional-change | audio/read-aloud/generated/equity-analysis-and-institutional-change/1784652932022-local-qwen3.wav | recorded bytes 2530064 | matches in searched workspace 0
+f56e38db-41a6-4554-8f4c-e02641a962a4 | audio/read-aloud/generated/f56e38db-41a6-4554-8f4c-e02641a962a4/1784659509702-local-qwen3.wav | recorded bytes 4234424 | matches in searched workspace 0
+f82fef5e-750e-42bc-ae03-78d651b6adcf | audio/read-aloud/generated/f82fef5e-750e-42bc-ae03-78d651b6adcf/1784658205305-local-qwen3.wav | recorded bytes 4078694 | matches in searched workspace 0
+fbb27587-04d2-4eae-b0a6-8f65abfec1bf | audio/read-aloud/generated/fbb27587-04d2-4eae-b0a6-8f65abfec1bf/1784667866447-local-qwen3.wav | recorded bytes 6011534 | matches in searched workspace 0
+inclusive-communication | audio/read-aloud/generated/inclusive-communication/1784653807431-local-qwen3.wav | recorded bytes 2546534 | matches in searched workspace 0
+intercultural-practice | audio/read-aloud/generated/intercultural-practice/1784652803870-local-qwen3.wav | recorded bytes 2011304 | matches in searched workspace 0
+leadership-and-supervision | audio/read-aloud/generated/leadership-and-supervision/1784654063683-local-qwen3.wav | recorded bytes 2417084 | matches in searched workspace 0
+learning-and-reflection | audio/read-aloud/generated/learning-and-reflection/1784653045733-local-qwen3.wav | recorded bytes 2106044 | matches in searched workspace 0
+measurement-evaluation-and-learning | audio/read-aloud/generated/measurement-evaluation-and-learning/1784652436015-local-qwen3.wav | recorded bytes 1859324 | matches in searched workspace 0
+mentoring-and-development | audio/read-aloud/generated/mentoring-and-development/1784652576015-local-qwen3.wav | recorded bytes 1897574 | matches in searched workspace 0
+organizational-change-and-strategy | audio/read-aloud/generated/organizational-change-and-strategy/1784653415698-local-qwen3.wav | recorded bytes 2654054 | matches in searched workspace 0
+orientation-and-onboarding | audio/read-aloud/generated/orientation-and-onboarding/1784653278308-local-qwen3.wav | recorded bytes 2117564 | matches in searched workspace 0
+person-centered-choice-and-rights | audio/read-aloud/generated/person-centered-choice-and-rights/1784653928120-local-qwen3.wav | recorded bytes 2083004 | matches in searched workspace 0
+policy-law-and-compliance | audio/read-aloud/generated/policy-law-and-compliance/1784654334148-local-qwen3.wav | recorded bytes 2296934 | matches in searched workspace 0
+practice-scenarios | audio/read-aloud/generated/practice-scenarios/1784653161246-local-qwen3.wav | recorded bytes 2244284 | matches in searched workspace 0
+service-delivery-and-program-practice | audio/read-aloud/generated/service-delivery-and-program-practice/1784654732355-local-qwen3.wav | recorded bytes 2373734 | matches in searched workspace 0
+system-and-program-operations | audio/read-aloud/generated/system-and-program-operations/1784652693562-local-qwen3.wav | recorded bytes 2033594 | matches in searched workspace 0
+tribal-relations-and-sovereignty | audio/read-aloud/generated/tribal-relations-and-sovereignty/1784729394695-local-qwen3.wav | recorded bytes 2016614 | matches in searched workspace 0
+workplace-culture-and-wellbeing | audio/read-aloud/generated/workplace-culture-and-wellbeing/1784654893687-local-qwen3.wav | recorded bytes 2555834 | matches in searched workspace 0
+
+6. PRIORITIZED FOLLOW-THROUGH
+
+First: recover usable content for the Intergenerational Handout and the HTML course's lessons; retrieve the 73 media objects and obtain the separate MP3 transcript.
+Second: compare the eleven text-captured slide sources with the existing 86 course records, preserving source material and identifying genuine companion resources versus duplicates.
+Third: restore Amplify Equity's content as a planned engagement component, after reconciling historical wording with Gary's current direction. Do not equate this with rebuilding collaboration features.
+Fourth: verify each recovered resource's full content, accessibility, links, and availability through the application before presenting it as accessible to staff.
+Then: use the completed thematic inventory with Gary to choose prominence on the learning page.
+
+Completed in this pass: link-to-snapshot matching, local-manifest accounting, Amplify source identification and review, orientation distinction, MP3 existence/hash check, and 73-item audio manifest reconciliation.
+Not completed: missing-file extraction, audio retrieval/playback, transcription, full slide rendering, course-level deduplication, or staff publication.
+

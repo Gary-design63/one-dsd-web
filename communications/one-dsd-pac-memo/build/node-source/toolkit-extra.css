@@ -1,0 +1,164 @@
+/* ---- Equity Analysis Toolkit companion: additions in the Program's own tokens ---- */
+
+.eat-back{margin:0}
+.eat-back a{font-size:.94rem;font-weight:600}
+
+.eat-eyebrow{font-size:.78rem;font-weight:700;letter-spacing:.13em;text-transform:uppercase;
+  color:var(--blue);margin:0}
+
+.eat-tagline{margin:0;color:var(--color-muted);font-size:.94rem}
+.eat-tagline strong{color:var(--blue)}
+
+.eat-quiet{color:var(--color-muted);font-size:.94rem}
+
+.eat-quote{margin:0;border-left:4px solid var(--blue);background:var(--color-panel);
+  padding:.9rem 1.1rem;font-size:1.06rem;font-style:normal}
+
+/* the direct/indirect job-family <-> program crosswalk, surfaced on the
+   landing page itself rather than behind a fold */
+.eat-cross{border-left:4px solid var(--blue);background:var(--color-panel);
+  padding:.8rem 1.1rem}
+
+/* the ADSA equity-cascade mandate: why the toolkit is not optional, given
+   top billing on the index page rather than folded like everything else */
+.eat-mandate{border:1px solid var(--color-line);border-top:4px solid var(--blue);
+  background:var(--color-panel);padding:1.2rem 1.3rem}
+.eat-mandate .eat-card{background:#fff}
+.eat-cross p{margin:0}
+
+/* accordion: every reference section collapses behind this, so a reader sees
+   the shape of the page at a glance and opens only what they need. */
+.eat-fold{border:1px solid var(--color-line);border-top:3px solid var(--color-line);
+  margin:0 0 .6rem;background:var(--paper,#fff)}
+.eat-fold[open]{border-top-color:var(--blue)}
+.eat-fold>summary{cursor:pointer;list-style:none;padding:.85rem 1.1rem;
+  font-weight:700;color:var(--blue);font-size:1.05rem;
+  display:flex;align-items:center;justify-content:space-between;gap:.75rem}
+.eat-fold>summary::-webkit-details-marker{display:none}
+.eat-fold>summary::after{content:"+";font-weight:400;color:var(--color-muted);font-size:1.2rem;flex:none}
+.eat-fold[open]>summary::after{content:"\2212"}
+.eat-fold>summary:focus-visible{outline:2px solid var(--blue);outline-offset:2px}
+.eat-fold-body{padding:0 1.1rem 1.1rem}
+.eat-fold-count{display:inline-block;min-width:1.4rem;padding:0 .3rem;margin-left:.4rem;
+  background:var(--color-panel);color:var(--color-muted);font-size:.78rem;font-weight:700;
+  text-align:center;border-radius:999px}
+/* Chromium hides closed <details> content via content-visibility on the UA
+   ::details-content pseudo-element rather than display:none, so a naive
+   print stylesheet silently prints nothing from a fold left closed. */
+@media print{ .eat-fold:not([open])::details-content{content-visibility:visible} }
+
+/* the gate */
+.eat-gate{border:1px solid var(--color-line);border-top:4px solid var(--blue);
+  padding:1.2rem 1.3rem;display:flex;flex-direction:column;gap:.9rem;max-width:52rem}
+.eat-gate-lead{margin:0;font-weight:600}
+.eat-gate-q{margin:0;padding-left:1.5rem;display:block}
+.eat-gate-q li{margin-bottom:.6rem}
+.eat-gate-q li:last-child{margin-bottom:0}
+.eat-gate-out{display:flex;flex-direction:column;gap:.55rem;
+  border-top:1px solid var(--color-line);padding-top:.9rem}
+.eat-gate-out p{margin:0}
+.eat-tag{display:inline-block;min-width:6.4rem;margin-right:.55rem;padding:.12rem .5rem;
+  background:var(--blue);color:#fff;font-size:.76rem;font-weight:700;
+  letter-spacing:.06em;text-transform:uppercase;vertical-align:.08em}
+
+/* figures */
+.eat-fig{margin:0;border:1px solid var(--color-line);padding:1.1rem;color:var(--color-ink);
+  overflow-x:auto}
+.eat-fig svg{display:block;margin:0 auto}
+.eat-fig figcaption{margin-top:.85rem;font-size:.9rem;color:var(--color-muted);text-align:left}
+
+/* the numbered instruments */
+.eat-steps{margin:0;padding-left:1.6rem;display:block;max-width:52rem}
+.eat-steps>li{margin-bottom:.85rem}
+.eat-steps>li:last-child{margin-bottom:0}
+.eat-steps li{padding-left:.2rem}
+.eat-steps span{display:block;margin-top:.2rem;color:var(--color-muted)}
+
+/* the standing door / org note */
+.eat-door{border:1px solid var(--color-line);border-left:5px solid var(--blue);
+  background:var(--color-panel);padding:.85rem 1.1rem;
+  display:flex;flex-direction:column;gap:.5rem;max-width:52rem}
+.eat-door p{margin:0}
+.eat-door--soft{border-left-color:var(--color-line)}
+.eat-org{border:1px solid var(--color-line);background:var(--color-panel);
+  padding:.85rem 1.1rem;max-width:52rem}
+.eat-org p{margin:0}
+
+/* card grids: five surfaces, entry points, partners, job families */
+.eat-grid{display:grid;gap:1rem;grid-template-columns:repeat(auto-fit,minmax(15rem,1fr))}
+.eat-card{border:1px solid var(--color-line);padding:1rem 1.1rem;
+  display:flex;flex-direction:column;gap:.45rem}
+.eat-card h3{margin:0;font-size:1.08rem;font-weight:700;color:var(--blue)}
+.eat-card p{margin:0}
+.eat-card-q{font-size:.82rem;font-weight:700;letter-spacing:.04em;
+  text-transform:uppercase;color:var(--color-muted)}
+
+.eat-entry-grid{display:grid;gap:1rem;grid-template-columns:repeat(auto-fit,minmax(16rem,1fr))}
+.eat-entry{border:1px solid var(--color-line);border-top:3px solid var(--blue);
+  padding:1rem 1.1rem;display:flex;flex-direction:column;gap:.5rem}
+.eat-entry-q{margin:0;font-weight:700;color:var(--blue)}
+.eat-entry p:last-child{margin:0}
+
+/* specimens */
+.eat-case{border:1px solid var(--color-line);padding:1rem 1.2rem;max-width:52rem;
+  display:flex;flex-direction:column;gap:.6rem}
+.eat-case p{margin:0}
+.eat-case-h{font-size:.82rem;font-weight:700;letter-spacing:.06em;
+  text-transform:uppercase;color:var(--blue)}
+
+.eat-tabs{display:flex;flex-wrap:wrap;gap:.5rem}
+.eat-tabs button{font:inherit;font-size:.94rem;cursor:pointer;
+  min-height:2.75rem;padding:.5rem 1rem;
+  border:1px solid var(--color-line);background:#fff;color:var(--color-ink)}
+.eat-tabs button[aria-pressed="true"]{background:var(--blue);border-color:var(--blue);color:#fff}
+
+.eat-spec{border:1px solid var(--color-line);border-top-width:5px;
+  display:flex;flex-direction:column}
+.eat-spec--good{border-top-color:var(--green-strong)}
+.eat-spec--weak{border-top-color:var(--amber-strong)}
+.eat-spec--hollow{border-top-color:var(--red-strong)}
+.eat-spec-verdict{margin:0;padding:.95rem 1.2rem;font-weight:600;
+  border-bottom:1px solid var(--color-line)}
+.eat-spec--good .eat-spec-verdict{background:var(--green-soft)}
+.eat-spec--weak .eat-spec-verdict{background:var(--amber-soft)}
+.eat-spec--hollow .eat-spec-verdict{background:var(--red-soft)}
+.eat-spec-row{padding:1rem 1.2rem;border-bottom:1px solid var(--color-line);
+  display:flex;flex-direction:column;gap:.5rem}
+.eat-spec-row:last-child{border-bottom:0}
+.eat-spec-row h3{margin:0;font-size:1rem;font-weight:700;color:var(--blue)}
+.eat-spec-row p{margin:0;max-width:52rem}
+.eat-note{border-left:3px solid var(--amber-strong);background:var(--amber-soft);
+  padding:.6rem .85rem;font-size:.94rem}
+.eat-spec--hollow .eat-note{border-left-color:var(--red-strong);background:var(--red-soft)}
+.eat-note-k{display:block;font-size:.74rem;font-weight:700;letter-spacing:.06em;
+  text-transform:uppercase;margin-bottom:.2rem}
+
+/* working draft */
+.eat-guard{border:1px solid var(--color-line);background:var(--color-panel);
+  padding:.9rem 1.1rem;display:flex;flex-direction:column;gap:.5rem;max-width:52rem}
+.eat-guard p{margin:0}
+.eat-help{margin:0;max-width:52rem;color:var(--color-muted)}
+.eat-area{min-height:8rem;width:100%;border:1px solid var(--color-line);
+  background:#fff;padding:.75rem;font:inherit;color:var(--color-ink)}
+.eat-mirror{display:none;white-space:pre-wrap;overflow-wrap:break-word;margin:0}
+.eat-said{margin:0;font-weight:600;color:var(--blue)}
+
+.eat-shared-marker{margin:0;padding-top:.2rem;font-size:.76rem;font-weight:700;
+  letter-spacing:.06em;text-transform:uppercase;color:var(--color-muted)}
+
+.eat-foot{font-size:.84rem;color:var(--color-muted);
+  border-top:1px solid var(--color-line);padding-top:1rem;margin:0}
+
+@media print{
+  .eat-tabs,.print\:hidden{display:none!important}
+  .eat-fold{border-top-color:var(--color-line)!important}
+  .eat-fold>summary::after{display:none}
+  .eat-area{display:none}
+  .eat-mirror{display:block;border:1px solid #999;padding:.5rem;min-height:3rem}
+  .eat-fig,.eat-spec,.eat-card,.eat-case,.eat-entry{break-inside:avoid}
+}
+@media (max-width:640px){
+  .eat-tabs button{width:100%}
+  .eat-tag{display:block;margin-bottom:.3rem}
+}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}

@@ -1,0 +1,35 @@
+# Keep governed text inputs and source files byte-stable across operating systems.
+.gitattributes text eol=lf
+.gitignore text eol=lf
+.env.example text eol=lf
+*.json text eol=lf
+*.jsonl text eol=lf
+*.mjs text eol=lf
+*.js text eol=lf
+*.ts text eol=lf
+*.tsx text eol=lf
+*.mts text eol=lf
+*.sql text eol=lf
+*.md text eol=lf
+*.css text eol=lf
+*.html text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.toml text eol=lf
+*.txt text eol=lf
+*.csv text eol=lf
+
+# Never apply text conversion to source documents, audio, archives, or images.
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+*.ico binary
+*.pdf binary
+*.docx binary
+*.pptx binary
+*.xlsx binary
+*.mp3 binary
+*.wav binary
+*.zip binary
