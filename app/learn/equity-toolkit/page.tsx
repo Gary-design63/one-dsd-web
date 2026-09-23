@@ -29,17 +29,17 @@ export default async function Page() {
           <p className="text-xl">{text("intro")}</p>
           <p>{text("companionNote")}</p>
           <p><Link href="/operationalizing-equity">Explore operationalizing equity in everyday work</Link></p>
-          <p><Link href="/toolkit-studio">Walk the official eight steps in Toolkit Studio and download the pack. Staff pages do not collect typed analyses.</Link></p>
+          <p><Link className={styles.primaryAction} href="/toolkit-studio">Start with Toolkit Studio</Link></p>
           <nav className="flex flex-wrap gap-6">
             <a href="#toolkit-practice">{text("practiceLabel")}</a>
             <a href="#toolkit-draft">{text("workLabel")}</a>
             <a href="#toolkit-resources">{text("resourcesTitle")}</a>
           </nav>
-          <div className={styles.shareRow}>
+          <details><summary>Download or share this toolkit</summary><div className={styles.shareRow}>
             <Link href="/share/equity-toolkit" className="btn btn--primary">Get a link to share this toolkit</Link>
           </div>
           <p className={styles.shareNote}>The shared link opens the Equity Analysis Toolkit on its own, so you can send it to someone without the rest of the program.</p>
-          {surface.available ? <ResourceDownloads kind="equity-toolkit" id="companion" noun="toolkit" scope={scope} /> : null}
+          {surface.available ? <ResourceDownloads kind="equity-toolkit" id="companion" noun="toolkit" scope={scope} /> : null}</details>
         </div>
         <div className={styles.heroCover}>
           <Image src={EQUITY_TOOLKIT_HERO_IMAGE} alt="Five colleagues of different backgrounds gather around a table, reviewing printed photos and notes together." fill sizes="(max-width: 760px) 90vw, 46vw" priority unoptimized />

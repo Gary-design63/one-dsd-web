@@ -8,11 +8,13 @@ const state=vi.hoisted(()=>({scope:'one-dhs' as 'one-dhs'|'dsd'}));
 vi.mock('@/lib/product/request-context',()=>({requestedContentScope:async()=>state.scope}));
 vi.mock('@/lib/auth/request',()=>({ownerFromCookies:async()=>false,editingModeFromCookies:async()=>false}));
 vi.mock('@/components/program-context',()=>({ProgramContextNote:()=>null}));
+vi.mock('@/components/area-bookmark-redirect',()=>({AreaBookmarkRedirect:()=>null}));
 vi.mock('@/components/equity-practice',()=>({EquityPractice:()=>null}));
 vi.mock('@/components/learning-journey-link',()=>({LearningJourneyLink:()=>null}));
 import { indexedProgramResources } from '@/lib/intelligence/retrieval/program-resources';
 import MeasurementPage from '@/app/practice/measurement/page';
 import AreasPage from '@/app/areas/page';
+import {WorkAreaDetail} from '@/components/work-area-detail';
 import DomainPage from '@/app/areas/[id]/page';
 import PracticePage from '@/app/practice/page';
 afterEach(()=>{vi.restoreAllMocks();state.scope='one-dhs'});
@@ -20,13 +22,14 @@ it.each(['one-dhs','dsd'] as const)('opens an editable scoped worksheet and reta
  state.scope=scope;const html=renderToStaticMarkup(await MeasurementPage({searchParams:Promise.resolve({originArea:'data_research_quality_measurement',area:'measurement',task:'evaluation-plan'})}));
  expect(html).toContain('data-editable-surface="practice.measurement"');expect(html).toContain('Responsible roles and next decisions');expect(html).toContain('task=evaluation-plan');expect(html).toContain(TRAINING_CREDIT_NOTICE.replaceAll('&','&amp;'));expect(html).not.toContain('Mark complete');
 });
-it('connects Areas, the evaluation task and Practice directly to this worksheet',async()=>{
- for(const html of [renderToStaticMarkup(await AreasPage()),renderToStaticMarkup(await DomainPage({params:Promise.resolve({id:'measurement'})})),renderToStaticMarkup(await PracticePage({}))]) expect(html).toContain('href="/practice/measurement?');
+it('connects the Areas overview to its detail and the evaluation task and Practice to this worksheet',async()=>{
+ expect(renderToStaticMarkup(await AreasPage())).toContain('href="/areas/work/data_research_quality_measurement"');
+ for(const html of [renderToStaticMarkup(await WorkAreaDetail({areaId:'data_research_quality_measurement'})),renderToStaticMarkup(await DomainPage({params:Promise.resolve({id:'measurement'})})),renderToStaticMarkup(await PracticePage({}))]) expect(html).toContain('href="/practice/measurement?');
 });
 it('withdrawal of the source removes the worksheet route and every supplement link',async()=>{
  const original=sources.loadStaffContentSnapshot;vi.spyOn(sources,'loadStaffContentSnapshot').mockImplementation(async options=>{const s=await original(options);return {...s,items:s.items.filter(item=>item.id!==MEASUREMENT_RESOURCE_ID)}});
  await expect(MeasurementPage({})).rejects.toThrow('NEXT_HTTP_ERROR_FALLBACK;404');
- for(const html of [renderToStaticMarkup(await AreasPage()),renderToStaticMarkup(await DomainPage({params:Promise.resolve({id:'measurement'})})),renderToStaticMarkup(await PracticePage({}))])expect(html).not.toContain('href="/practice/measurement');
+ for(const html of [renderToStaticMarkup(await WorkAreaDetail({areaId:'data_research_quality_measurement'})),renderToStaticMarkup(await DomainPage({params:Promise.resolve({id:'measurement'})})),renderToStaticMarkup(await PracticePage({}))])expect(html).not.toContain('href="/practice/measurement');
 });
 it('uses owner-edited worksheet labels and hides a withheld worksheet',async()=>{
  const original=publications.loadPublishedEditableSurface;let withheld=false;

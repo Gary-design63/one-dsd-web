@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { LearningTile } from "@/components/learning-tile";
-import { PageIntro } from "@/components/ui";
+
 import { editingModeFromCookies } from "@/lib/auth/request";
 import { groupDiversityCourses } from "@/lib/content/courses/diversity-series";
 import { courseContentItem, courseHref, courseSummary, publishedCourses } from "@/lib/content/courses/published";
@@ -16,12 +16,13 @@ export default async function DiversityCoursesPage() {
   const scope = await requestedContentScope();
   const [published, owner] = await Promise.all([publishedCourses(scope), editingModeFromCookies()]);
   const groups = groupDiversityCourses(published.map(row => row.pack));
-  return <div>
-    <PageIntro kicker="People, Access and Culture" title="Diversity: understanding and practice"
-      lede="Explore identity, culture, privilege, bias, and belonging through explanation, realistic situations, reflection, and practice." />
+  const firstCourse = groups[0]?.courses[0];
+  return <div className={styles.page}>
+    <header className={styles.hero}><div className={styles.heroInner}><p className={styles.eyebrow}>People, Access and Culture</p><h1>Diversity: understanding and practice</h1><p className={styles.intro}>Explore identity, culture, privilege, bias, and belonging through explanation, realistic situations, reflection, and practice.</p></div></header>
     <div className="wrap space-y-10 py-10">
       <p><Link href="/learn">← Learning and resources</Link></p>
       <p>Choose a course that speaks to a question or experience you want to explore. Foundation, Intermediate, and Advanced describe the depth of the material. They do not label you or restrict where you can begin. Each course includes four lessons, activities with feedback, a practical job aid, and sources for further reading.</p>
+      {firstCourse ? <section className={styles.topicStart}><h2>Start here</h2><p>{courseSummary(firstCourse)}</p><Link className={styles.primaryAction} href={courseHref(firstCourse.course.id)}>{firstCourse.course.title}</Link></section> : null}
       <nav className={styles.themes} aria-label="Diversity course groups">
         {groups.map(group => <a href={`#${group.id}`} key={group.id}>{group.title}</a>)}
       </nav>

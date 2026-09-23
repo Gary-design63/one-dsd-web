@@ -14,6 +14,9 @@ const eslintConfig = defineConfig([
     "next-env.d.ts",
     // Private local databases, temporary audit harnesses, and their generated output.
     ".data/**",
+    "evidence/**",
+    "work/**",
+    "work-*/**",
     // Local Vercel metadata and transport scratch files are not application source.
     ".vercel/**",
     // Standalone document generators for the leadership communication. These run by

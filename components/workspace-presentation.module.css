@@ -128,3 +128,83 @@
 @media (prefers-reduced-motion: reduce) { .space *, .space *::before, .space *::after { scroll-behavior: auto; } }
 
 @media (max-height: 780px) { .atlasNav { position: static; } }
+
+/* Areas of work: a distinct, professional chooser beside light reading sections. */
+.atlasNav { background: #183247; color: #fff; border: 1px solid #183247; border-radius: .65rem; padding: 1.5rem; }
+.atlasNav h2 { color: #fff; font-size: 1.3rem; font-weight: 650; line-height: 1.45; letter-spacing: -.01em; margin-top: .6rem; }
+.atlasNav :global(.kicker) { color: #e5e9ed; font-weight: 500; }
+.atlasNav ul { margin-top: 1.35rem; }
+.atlasNav a { color: #fff; font-size: 1.08rem; font-weight: 500; line-height: 1.5; min-height: 48px; padding: .85rem .6rem; border-bottom: 1px solid #667d8e; border-radius: .2rem; overflow-wrap: break-word; }
+.atlasNav a:hover { background: #2b4960; color: #fff; text-decoration: underline; text-underline-offset: .25em; }
+.atlasNav a:focus-visible { outline: 3px solid #E8BD62; outline-offset: 3px; background: #2b4960; }
+.atlasNav a:active { background: #fff; color: #183247; }
+.areaSection { scroll-margin-top: 2rem; }
+.areaSection:target { border-top: 3px solid #183247; }
+.areaSection h2 { color: #183247; font-weight: 600; }
+
+/* White reading space and restrained emphasis across support and work tools. */
+.space { background: #fff; }
+.space :global(.page-intro) { background: #f3f6f8; border-color: #dce4e9; }
+.askComposer { box-shadow: none; border-radius: .8rem; }
+.supportDirectory > li:first-child { background: #f1f5f8; border-radius: .8rem; }
+.supportDirectory > li:first-child::before, .recommendation::before { background: #aa8136; }
+.supportNotes { border: 0; border-top: 2px solid #a5bbc9; border-radius: 0; padding-inline: 0; }
+.recommendation { background: #f3f6f8; border-color: #dce4e9; border-radius: .8rem; }
+.workInvitation { background: #f3f6f8; border-left-color: #a5bbc9; }
+.practiceMore { border: 0; border-top: 1px solid #c5d0d7; border-radius: 0; padding-inline: 0; }
+
+/* Shared work, support, practice, and personal-work surfaces retain their different layouts. */
+.space { background: #F7F5EF; }
+.space :global(.page-intro) { background: #F0ECE2; border-color: #c6cbd0; }
+.space :global(.page-intro) h1, .space :is(h2,h3) { color: #183247; }
+.supportDirectory > li:first-child, .recommendation, .workInvitation { background: #F0ECE2; border-radius: .75rem; }
+.supportDirectory > li:first-child::before, .recommendation::before { background: #E8BD62; }
+.supportDirectory > li:first-child strong { font-size: clamp(1.6rem,3vw,2.5rem); }
+.workFilters { background: #F0ECE2; border-color: #a9b2b7; }
+.workFilters :is(input,select) { background: #fff; color: #183247; }
+.practiceRow, .domainTask { background: #fff; padding: clamp(1.25rem,3vw,2rem); border: 1px solid #d4d9dc; border-radius: .65rem; margin-bottom: 1.25rem; }
+.practiceList { border-top: 0; }
+.domainBody > section { background: #fff; padding: clamp(1.25rem,3vw,2rem); border: 1px solid #d4d9dc; border-radius: .65rem; }
+.areaChooser { background: #183247; padding: clamp(1.5rem,3vw,2.5rem); border-radius: .75rem; color: #fff; }
+.areaChooser h2, .space .atlasNav h2 { color: #fff; font-size: 1.3rem; font-weight: 650; line-height: 1.45; }
+.areaChooser :global(.kicker) { color: #e5e9ed; font-weight: 500; }
+.areaChooser ul { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); list-style: none; padding: 0; gap: .8rem; margin: 1.5rem 0 0; }
+.areaChooser li { min-width: 0; scroll-margin-top: 2rem; }
+.areaChooser a { display: flex; justify-content: space-between; align-items: center; gap: 1rem; height: 100%; min-height: 80px; padding: 1.1rem; color: #fff; background: #213f55; border: 1px solid #78909f; border-radius: .4rem; font-size: 1.08rem; font-weight: 500; line-height: 1.5; text-decoration: none; }
+.areaChooser a:hover, .atlasNav a[aria-current] { background: #fff; color: #183247; text-decoration: underline; text-underline-offset: .25em; }
+.areaChooser a:focus-visible { outline: 3px solid #E8BD62; outline-offset: 3px; box-shadow: none; }
+.areaContext { background: #fff; border: 1px solid #d4d9dc; border-radius: .5rem; padding: 1rem 1.5rem; }
+.areaContext > summary { font-weight: 600; color: #183247; cursor: pointer; }
+.backToAreas { display: inline-block; min-height: 44px; font-weight: 600; color: #183247; }
+.areaSection { background: #fff; padding: clamp(1.25rem,3vw,2rem); border: 1px solid #d4d9dc; border-top: 3px solid #183247; border-radius: .6rem; }
+@media(max-width:950px) { .areaChooser ul { grid-template-columns: repeat(2,minmax(0,1fr)); } }
+@media(max-width:640px) { .areaChooser ul { grid-template-columns: minmax(0,1fr); } .areaChooser a { min-height: 62px; } }
+@media print { .areaChooser, .atlasNav { background: #fff; color: #183247; } .areaChooser a, .atlasNav a, .areaChooser h2, .space .atlasNav h2 { color: #183247; background: #fff; } }
+.areaChooser a { display: flex; flex-direction: column; align-items: stretch; justify-content: start; padding: 0; gap: 0; overflow: hidden; }
+.areaThumbnail { display: block; width: 100%; height: auto; aspect-ratio: 16/9; object-fit: cover; }
+.areaChoiceLabel { display: flex; justify-content: space-between; align-items: center; gap: .75rem; padding: 1rem; flex: 1; }
+.areaDetailPhoto { display: block; width: min(100%, 36rem); height: auto; aspect-ratio: 16/9; object-fit: cover; border-radius: .4rem; margin-bottom: 1.75rem; }
+/* The work chooser is light and structured; photographs carry the variation. */
+.areaChooser { background: #fff; border: 1px solid #c4cfd6; color: #183247; }
+.areaChooser h2, .areaChooser :global(.kicker) { color: #183247; }
+.areaChooser a { background: #fff; color: #183247; border-color: #9eafb9; }
+.areaChooser a:hover { background: #f7f9fa; border-color: #183247; }
+.areaChooser a:focus-visible { outline-color: #183247; }
+.atlasNav { background: #edf2f5; border-color: #c4cfd6; color: #183247; }
+.space .atlasNav h2, .atlasNav :global(.kicker), .atlasNav a { color: #183247; }
+.atlasNav a { border-color: #bcc9d1; }
+.atlasNav a:hover { background: #fff; color: #183247; }
+.atlasNav a[aria-current] { background: #183247; color: #fff; }
+.atlasNav a:focus-visible { background: #fff; color: #183247; outline-color: #183247; box-shadow: none; }
+
+.areasOverview { background: #fff; }
+.areasOverview :global(.scope-note), .areasOverview :global(.page-intro) { background: #fff; }
+
+/* Approved white inner-page surfaces; layout and small accents identify each purpose. */
+.space, .space :global(.page-intro), .researchPanel, .supportDirectory > li:first-child, .recommendation, .workInvitation, .atlasNav { background: #fff; }
+.space :is(h1,h2,h3), .directoryLink strong { color: #183247; font-weight: 600; }
+.space :global(.page-intro) h1 { font-weight: 550; }
+.supportDirectory > li:first-child { border: 1px solid #c6cfd3; border-radius: .65rem; }
+.supportDirectory > li:first-child strong { font-size: clamp(1.5rem,2.5vw,2rem); font-weight: 600; }
+.atlasNav a[aria-current] { background: #fff; color: #183247; border-left: 3px solid #183247; font-weight: 600; text-decoration: underline; }
+.space .atlasNav h2 { color: #183247; }

@@ -1,4 +1,5 @@
 import styles from "@/components/dsd-experience.module.css";
+import mentoringStyles from "./mentoring-preview.module.css";
 import { LearningJourneyLink } from "./learning-journey-link";
 import { ProgramConnections } from "./program-connections";
 import Image from "next/image";
@@ -28,7 +29,7 @@ export async function AmplifyPage({ id }: { id: typeof AMPLIFY_PAGES[number]["id
     {typeof body === "string" ? <p className="mt-3 leading-8">{stringValue(copy, `section${index}Body`)}</p> : <ul className="mt-3 list-disc space-y-3 pl-5 leading-7">{stringListValue(copy, `section${index}Body`).map(item => <li key={item}>{item}</li>)}</ul>}
     {((id === "well-being" && index === 2) || (id === "co-leads" && index === 3) || (id === "materials" && index === 4)) && <EngagementWorkedExample kind={id} />}
   </section>)}</div>;
-  return <EditableSurfaceRegion surface={surface} className={styles.page}>
+  return <EditableSurfaceRegion surface={surface} className={`${styles.page} ${id === "mentoring" ? mentoringStyles.page : ""}`}>
     <div className="wrap max-w-6xl py-10">
       <Link href="/one-dsd">{stringValue(copy, "backLabel")}</Link>
       <header className={home ? `${styles.hero} my-7 grid overflow-hidden rounded-2xl border border-[#e0d7c9] bg-[#faf7f1] lg:grid-cols-2` : `${styles.hero} my-7 p-7 sm:p-9`}>
@@ -36,12 +37,23 @@ export async function AmplifyPage({ id }: { id: typeof AMPLIFY_PAGES[number]["id
           {home && <p className={`${styles.eyebrow} mb-4`}>Good company. Shared possibilities.</p>}
           <h1 className="text-4xl font-semibold tracking-tight md:text-5xl">{stringValue(copy,"title")}</h1>
           <p className="mt-5 text-xl leading-relaxed">{stringValue(copy,"intro")}</p>
+          {id === "mentoring" && <Link href="#mentoring-tool" className={mentoringStyles.invitation}>Prepare a conversation</Link>}
           {home && community && <Link href={community.href} className="mt-7 inline-block rounded-full bg-[#123f60] px-6 py-3 font-semibold text-white no-underline hover:bg-[#092b44]">{community.label} →</Link>}
         </div>
         {home && <div className="relative min-h-64 lg:min-h-96"><Image src="/images/program-workplace-conversation.webp" alt="Three people sharing a conversation around a table in a bright sitting area." fill sizes="(min-width: 1024px) 50vw, 100vw" className="object-cover" /></div>}
       </header>
       <nav aria-label="Amplify Equity" className={styles.sectionNav}>{linkListValue(copy,"navigation").map(link=><Link key={link.href} href={link.href} aria-current={link.href===surface.definition.route ? "page" : undefined} className={link.href===surface.definition.route ? "font-semibold" : ""}>{link.label}</Link>)}</nav>
       {surface.available ? <ResourceDownloads kind="amplify" id={id} noun="page" scope="dsd" /> : null}
+      {id === "mentoring" && <section className={mentoringStyles.pathway} aria-labelledby="mentoring-pathway-title">
+        <p className={mentoringStyles.eyebrow}>A place to begin</p>
+        <h2 id="mentoring-pathway-title">One conversation. A possibility to explore.</h2>
+        <p className={mentoringStyles.intro}>Start small and shape it together. A single conversation can be enough; you decide whether to continue.</p>
+        <ol className={mentoringStyles.steps}>
+          <li><span className={mentoringStyles.number} aria-hidden="true">01</span><h3>Bring a question</h3><p>Name something you want to learn, practice, or understand.</p></li>
+          <li><span className={mentoringStyles.number} aria-hidden="true">02</span><h3>Find a willing colleague</h3><p>Invite someone to exchange perspectives. Agree on a time and a way to connect that works for both of you.</p></li>
+          <li><span className={mentoringStyles.number} aria-hidden="true">03</span><h3>Choose a next step together</h3><p>Try one useful idea, reflect on the conversation, or agree to meet again.</p></li>
+        </ol>
+      </section>}
       {home ? <>
         <section className="py-10" aria-labelledby="amplify-possibilities"><h2 id="amplify-possibilities" className="text-3xl font-semibold">What brings you here today?</h2><p className="mt-3">Follow an interest, share a perspective, or simply spend time with colleagues.</p>
           <div className={`${styles.entryCards} mt-6 grid gap-5 md:grid-cols-3`}>{entrances.map(item=><article key={item.href} className={`flex flex-col rounded-xl p-6 ${item.tone}`}><h3 className="text-2xl font-semibold">{item.title}</h3><p className="my-4 grow leading-7">{item.text}</p><Link href={item.href} className="font-semibold underline">{item.link} →</Link></article>)}</div>

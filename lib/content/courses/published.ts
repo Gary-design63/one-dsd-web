@@ -4,12 +4,13 @@ import type { CoursePack, Lesson } from "./source-types";
 import { ALL_COURSE_SURFACES } from "./definitions";
 import { loadPublishedEditableSurfaces } from "../editable-surfaces";
 import type { StaffProgramScope } from "../staff-publications";
+import { withCourseCover } from "./cover-overrides";
 
 
 export function courseHref(id:string, lessonId?:string) { return `/courses/${encodeURIComponent(id)}${lessonId?`/${encodeURIComponent(lessonId)}`:""}`; }
 export async function publishedCourses(scope:StaffProgramScope) {
   const rows=await loadPublishedEditableSurfaces(ALL_COURSE_SURFACES.map(surface=>surface.surfaceId),scope);
-  return rows.map(row=>({pack:row.values.pack as CoursePack,publication:row}));
+  return rows.map(row=>({pack:withCourseCover(row.values.pack as CoursePack),publication:row}));
 }
 export function courseText(value:unknown):string {
   if(typeof value==="string") return sanitizeHtml(value,{allowedTags:[],allowedAttributes:{}});
@@ -20,7 +21,17 @@ export function courseText(value:unknown):string {
 export function courseLink(href:string):string | undefined {
   if(href==="#" || !href) return undefined;
   const retired:Record<string,string>={"/blueprint":"/about","/communities":"/minnesota-communities","/communities/from-the-list":"/minnesota-communities","/professional-support":"/support","https://one-dhs-equity-resource.vercel.app/equal-opportunity-access":"/courses/equal-opportunity-in-employment"};
-  const base=href.split(/[?#]/)[0];if(retired[base])return retired[base]+href.slice(base.length);
+  // Rendering aliases preserve the original citation and stored source history.
+  // These two destinations returned 404 during the September 2026 link audit.
+  // EEOC is the Title I enforcement source; Cuyahoga Arts & Culture hosts the
+  // same named Crossroads continuum worksheet with the original attribution.
+  const repairedSources:Record<string,string>={
+    "https://www.ada.gov/topics/title-i/":"https://www.eeoc.gov/disability-discrimination-and-employment-decisions",
+    "https://philanos.org/resources/Documents/Conference%202020/Pre-Read%20PDFs/Continuum_AntiRacist.pdf":"https://www.cacgrants.org/assets/ce/Documents/continuum.pdf",
+  };
+  const base=href.split(/[?#]/)[0];
+  const replacement=retired[base]??repairedSources[base];
+  if(replacement)return replacement+href.slice(base.length);
   if(href.startsWith("/c/")) return href.replace(/^\/c\//,"/courses/");
   if(href.startsWith("/ci/")) return href.replace(/^\/ci\//,"/courses/cultural-intelligence-");
   if(/^(?:\/(?!\/)|#[a-zA-Z0-9_-]|https:\/\/)/.test(href) && !/[\u0000-\u0020\\]/.test(href)) return href;
@@ -47,6 +58,7 @@ export function lessonObjectives(lesson:Lesson):string[] {
 }
 export function courseSummary(pack:CoursePack):string { return courseText(pack.course.subtitle || pack.course.introTranscript || pack.course.title); }
 
-export function courseContentItem(pack:CoursePack): import("../types").ContentItem {
-  return {id:`course-${pack.course.id}`,title:pack.course.title,type:"learning_module",authority:"learning",layer:"L2",summary:courseSummary(pack),body:pack.course.lessons.map(lesson=>courseText(lesson)),nextActions:[],tags:[pack.course.contentType??"learning"],intents:[],owner:pack.course.author,reviewDate:"",status:"approved",scope:"agencywide",accessibility:"pending",version:"1",href:courseHref(pack.course.id)};
+export function courseContentItem(pack:CoursePack, options: { includeLessonBody?: boolean } = {}): import("../types").ContentItem {
+  // Catalog cards need metadata only. Full-text search and other readers keep the complete lesson text.
+  return {id:`course-${pack.course.id}`,title:pack.course.title,type:"learning_module",authority:"learning",layer:"L2",summary:courseSummary(pack),body:options.includeLessonBody === false ? [] : pack.course.lessons.map(lesson=>courseText(lesson)),nextActions:[],tags:[pack.course.contentType??"learning"],intents:[],owner:pack.course.author,reviewDate:"",status:"approved",scope:"agencywide",accessibility:"pending",version:"1",href:courseHref(pack.course.id)};
 }

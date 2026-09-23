@@ -66,3 +66,24 @@
 @media(max-width:850px){.community-reading-layout{grid-template-columns:1fr;gap:25px;padding:25px 22px 60px}.community-reading-layout aside{position:static}.community-reading-layout aside p{display:none}.community-index-layout{padding:25px 22px 60px}.community-editorial .community-directory{grid-template-columns:1fr}.community-program-band{padding:18px 22px;font-size:17px}.community-editorial h1{letter-spacing:-.5px}.community-editorial .community-opening{font-size:18px}.community-editorial-brand{padding:18px 22px;gap:18px;font-size:16px}.community-editorial-brand img{width:150px;max-width:100%}.community-editorial-brand>a{flex:0 0 150px}.community-editorial-header nav{padding:0 22px 8px;gap:0 18px}.community-header-editing{padding:0 22px 8px}}
 @media(max-width:400px){.community-editorial-brand{flex-wrap:wrap}.community-editorial h1{font-size:34px}}
 @media print{.community-experience-nav,.community-reading-layout aside{display:none}.community-reading-layout{display:block}.community-editorial details::details-content{content-visibility:visible;display:block}.community-program-band{color:#173951;background:#fff}}
+
+/* Quiet reading and practice surfaces, preserving the community content and imagery. */
+.community-editorial .community-practice{background:#f3f6f8;border-left-color:#a5bbc9}
+.community-editorial .community-opening{border-bottom:1px solid #d5dfe6}
+.community-editorial .community-directory a{background:#fff;text-decoration-thickness:1px}
+.community-editorial .community-directory a:hover{background:#f3f6f8}
+.community-editorial .community-reading-theme>summary{padding-block:14px}
+.community-editorial .community-reading-theme>div{border-left-color:#d5dfe6}
+.community-editorial{background:#F7F5EF}
+.community-editorial .community-practice{background:#F0ECE2;border-left-color:#183247}
+.community-editorial .community-directory a{border:1px solid #c6cfd3;border-radius:.5rem;padding:1.25rem}
+.community-editorial .community-directory a:hover{background:#F0ECE2}
+.community-editorial .community-reading-layout>article{background:#fff;border:1px solid #d8dfe3;border-radius:.6rem;padding:clamp(1.25rem,3vw,2.5rem)}
+.community-editorial .community-experience-nav a{display:inline-flex;align-items:center;min-height:44px;border:1px solid #8799a3;border-radius:.35rem;padding:.6rem 1rem;background:#fff;color:#183247}
+@media print{.community-editorial{background:#fff}.community-editorial .community-reading-layout>article{border:0;padding:0}}
+
+.community-editorial, .community-editorial .community-practice { background:#fff; }
+.community-editorial :is(h2,h3) { font-weight:600; }
+.community-editorial .community-practice { border:1px solid #c6cfd3; border-left:3px solid #183247; }
+
+.community-program-band { background:#fff; color:#183247; border-bottom:1px solid #c6cfd3; }

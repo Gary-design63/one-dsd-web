@@ -7,7 +7,7 @@ import {parseEditableSurfaceValues} from "@/lib/content/editable-surface-contrac
 import {courseContentItem} from "@/lib/content/courses/published";
 import {CoursePackSchema} from "@/lib/content/courses/contract";
 const values=LEARNING_JOURNEY_SURFACE.approvedValues;
-const items=[...staffCorpus(),...recovered.map(pack=>courseContentItem(CoursePackSchema.parse(pack))),...AUTHORED_COURSES.map(courseContentItem)];
+const items=[...staffCorpus(),...recovered.map(pack=>courseContentItem(CoursePackSchema.parse(pack))),...AUTHORED_COURSES.map(pack=>courseContentItem(pack))];
 describe("intercultural learning progression",()=>{
  it("resolves every curated reference to an existing complete resource without dropping the course collection",()=>{
   const stops=getLearningJourney(values);

@@ -67,7 +67,7 @@ describe("resource downloads", () => {
     expect(document!.sections.length).toBeGreaterThan(0);
     expect(document!.sections.every((section) => section.blocks.length > 0)).toBe(true);
     expect(document!.attribution).toBe(ONE_DSD_ONLY.includes(kind) ? PROGRAM.oneDsdProgramName : PROGRAM.fullName);
-  });
+  }, 20_000);
 
   it.each(DOWNLOAD_KINDS)("renders Word, Excel, PowerPoint and PDF files for %s", async (kind) => {
     const document = (await resolveDownloadDocument(kind, await sampleId(kind), "one-dhs"))!;

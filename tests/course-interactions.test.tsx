@@ -5,6 +5,8 @@ import { render, fireEvent, within, act, cleanup } from "@testing-library/react"
 import { writeEvidenceReceipt } from "@/tests/helpers/evidence-receipts";
 import { CourseLesson } from "@/components/course-lesson";
 import { RECOVERED_COURSES } from "@/lib/content/courses/definitions";
+import { lessonImageOverrides } from "@/lib/content/courses/lesson-image-overrides";
+import { duplicateLessonImageKeys } from "@/lib/content/courses/lesson-image-repeat-suppression";
 import { sanitizedLesson, lessonObjectives } from "@/lib/content/courses/published";
 
 const receipts:Array<{course:string;lesson:string;blocks:number;types:string[];optionsChecked:number;notesReloaded:boolean}>=[];
@@ -42,7 +44,16 @@ for(const pack of RECOVERED_COURSES) it(`all lesson interactions and saved notes
         expect(element.textContent).toContain(plain(block.title));
         expect(ui.queryAllByRole("textbox")).toHaveLength(0);
         fireEvent.click(ui.getByRole("button",{name:"Download this published draft"}));optionsChecked++;
-      }else if(block.type==="image")expect(ui.getByRole("img").getAttribute("src")).toBe(block.src);
+      }else if(block.type==="image"){
+        const replacement=lessonImageOverrides[block.src];
+        const expectedCaption=replacement?.caption??block.caption;
+        if(duplicateLessonImageKeys.has(`${pack.course.id}|${lesson.id}|${index}`)){
+          expect(ui.queryByRole("img")).toBeNull();
+          if(expectedCaption)expect(element.textContent).toContain(plain(expectedCaption));
+        }else{
+          expect(ui.getByRole("img").getAttribute("src")).toBe(replacement?.src??block.src);
+        }
+      }
     }
     if(lesson.scenario){const group=within(view.getByRole("group",{name:plain(lesson.scenario.prompt)}));const radios=group.getAllByRole("radio");for(const [index,option]of lesson.scenario.options.entries()){fireEvent.click(radios[index]);fireEvent.click(group.getByRole("button",{name:"Consider your choice"}));expect(group.getByRole("status").textContent).toContain(plain(option.response));optionsChecked++;}}
     expect(view.queryByRole("textbox",{name:"Notes to take with you"})).toBeNull();

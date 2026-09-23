@@ -37,12 +37,12 @@ describe("Learning thumbnail presentation", () => {
   beforeEach(() => { state.catalogAvailable = true; state.hubAvailable = true; });
 
   it("combines resources without changing canonical links or exposing unavailable themes", async () => {
-    let html = await renderAsync(await LearnPage({}));
+    let html = await renderAsync(await LearnPage({ searchParams: Promise.resolve({ browse: "all" }) }));
     expect(html).toContain("Learning and resources");
     expect(html).toContain('href="/library/ext-dhs-equity-toolkit"');
     expect(html).toContain('href="/library/ext-clas"');
     state.hubAvailable = false;
-    html = await renderAsync(await LearnPage({}));
+    html = await renderAsync(await LearnPage({ searchParams: Promise.resolve({ browse: "all" }) }));
     expect(html).not.toContain("learning-hub-search");
     expect(html).not.toContain("Amplify Equity");
     expect(html.match(/data-learning-id=/g)).toHaveLength(212);
@@ -56,7 +56,7 @@ describe("Learning thumbnail presentation", () => {
   });
 
   it("shows real modules first and keeps stages, practice paths, and the staff guide distinct", async () => {
-    const html = await renderAsync(await LearnPage({}));
+    const html = await renderAsync(await LearnPage({ searchParams: Promise.resolve({ browse: "all" }) }));
     expect(html.match(/data-learning-id=/g)).toHaveLength(212);
     expect(html).toContain('href="/library/lm-how-this-program-works"');
     expect(html).not.toContain('data-learning-id="lm-how-this-program-works"');
@@ -75,7 +75,7 @@ describe("Learning thumbnail presentation", () => {
 
   it("does not expose unpublished images or hide the underlying learning resources", async () => {
     state.catalogAvailable = false;
-    const html = await renderAsync(await LearnPage({}));
+    const html = await renderAsync(await LearnPage({ searchParams: Promise.resolve({ browse: "all" }) }));
     expect(html.match(/data-learning-id=/g)).toHaveLength(212);
     const originalTile = html.match(/<a[^>]*data-learning-id="lm-interpreter"[\s\S]*?<\/a>/)?.[0] ?? html.match(/<a[^>]*href="\/library\/lm-interpreter"[\s\S]*?<\/a>/)?.[0];
     expect(originalTile).toBeDefined();

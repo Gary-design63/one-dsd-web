@@ -1,3 +1,4 @@
+import { NextRequest } from "next/server";
 import { readFileSync } from "node:fs";
 import path from "node:path";
 import { expect } from "vitest";
@@ -7,7 +8,7 @@ import { STAFF_WRITE_CLOSED_CODE, STAFF_WRITE_CLOSED_MESSAGE } from "@/lib/produ
 
 /** Staff Ask is browse-and-download only. Typed AskClient / localStorage suites are retired. */
 export async function expectStaffAskClosed() {
-  const response = await postAsk();
+  const response = await postAsk(new NextRequest("http://localhost/api/ask", { method: "POST" }));
   expect(response.status).toBe(403);
   expect(await response.json()).toEqual({
     error: STAFF_WRITE_CLOSED_MESSAGE,

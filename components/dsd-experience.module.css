@@ -135,3 +135,35 @@
   .page .hero::before { background: CanvasText; }
   .sectionNav a[aria-current="page"] { outline: 1px solid CanvasText; }
 }
+
+/* Restrained inner-page treatment; retain the approved leadership and mentoring previews. */
+.page:not(:global(.leadership-palette-preview)):not(:has(:global(#mentoring-tool))) { background: #fff; }
+.page:not(:global(.leadership-palette-preview)):not(:has(:global(#mentoring-tool))) .hero { background: #f3f6f8; border: 0; border-bottom: 1px solid #dce4e9; border-radius: .75rem; box-shadow: none; }
+.page:not(:global(.leadership-palette-preview)):not(:has(:global(#mentoring-tool))) .hero::before { background: #aa8136; }
+.page:not(:global(.leadership-palette-preview)):not(:has(:global(#mentoring-tool))) .entryCards > article { background: #fff; border: 0; border-top: 2px solid #a5bbc9; border-radius: 0; padding-inline: 0; box-shadow: none; }
+.page:not(:global(.leadership-palette-preview)):not(:has(:global(#mentoring-tool))) .entryCards > article:nth-child(2) { border-top-color: #b89a64; }
+.page:not(:global(.leadership-palette-preview)):not(:has(:global(#mentoring-tool))) .entryCards > article:nth-child(3) { border-top-color: #8e9cb5; }
+.page:not(:global(.leadership-palette-preview)):not(:has(:global(#mentoring-tool))) .sidebar { background: #fff; border: 0; border-left: 1px solid #d7dfe3; border-radius: 0; }
+.page:not(:global(.leadership-palette-preview)):not(:has(:global(#mentoring-tool))) :is(.welcomeNote, .statewide, .communityDoor) { background: #f5f7f8; border-color: #dce4e9; box-shadow: none; }
+.page:not(:global(.leadership-palette-preview)):not(:has(:global(#mentoring-tool))) .scenarioStory > section:first-child { background: #f3f6f8; border-left-color: #a5bbc9; }
+.page:not(:global(.leadership-palette-preview)):not(:has(:global(#mentoring-tool))) .groupReferences > article { border: 0; border-top: 2px solid #a5bbc9; padding-inline: 0; }
+@media (max-width:767px) {
+  .page:not(:global(.leadership-palette-preview)):not(:has(:global(#mentoring-tool))) .sidebar { border-left: 0; border-top: 1px solid #d7dfe3; padding-inline: 0; }
+}
+.page:not(:global(.leadership-palette-preview)):not(:has(:global(#mentoring-tool))) { background: #F7F5EF; }
+.page:not(:global(.leadership-palette-preview)):not(:has(:global(#mentoring-tool))) .hero { background: #F0ECE2; border: 1px solid #c6cbd0; }
+.page:not(:global(.leadership-palette-preview)):not(:has(:global(#mentoring-tool))) .hero::before { background: #E8BD62; }
+.page:not(:global(.leadership-palette-preview)):not(:has(:global(#mentoring-tool))) .entryCards > article { border: 1px solid #c6cfd3; border-radius: .65rem; padding: 1.5rem; }
+.page:not(:global(.leadership-palette-preview)):not(:has(:global(#mentoring-tool))) :is(.welcomeNote,.statewide,.communityDoor) { background: #fff; }
+.sectionNav a { background: #fff; border: 1px solid #8799a3; border-radius: .4rem; color: #183247; }
+.sectionNav a:hover { background: #F0ECE2; }
+.sectionNav a[aria-current="page"] { background: #183247; color: #fff; }
+.page .hero h1 { color: #183247; font-weight: 550; }
+.page:not(:global(.leadership-palette-preview)):not(:has(:global(#mentoring-tool))) .hero { background: #edf2f5; }
+
+.page:not(:global(.leadership-palette-preview)):not(:has(:global(#mentoring-tool))),
+.page:not(:global(.leadership-palette-preview)):not(:has(:global(#mentoring-tool))) :is(.hero,.welcomeNote,.statewide,.communityDoor),
+.page:not(:global(.leadership-palette-preview)):not(:has(:global(#mentoring-tool))) .scenarioStory > section:first-child { background: #fff; }
+.page:not(:global(.leadership-palette-preview)):not(:has(:global(#mentoring-tool))) :is(h2,h3) { color: #183247; font-weight: 600; }
+
+.page:not(:global(.leadership-palette-preview)):not(:has(:global(#mentoring-tool))) :is(.leadershipInvitation,.supportBand,.connections) { background: #fff; }

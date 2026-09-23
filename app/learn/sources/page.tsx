@@ -1,3 +1,4 @@
+import { courseLink } from "@/lib/content/courses/published";
 import type { Metadata } from "next";
 import Link from "next/link";
 import styles from "./sources.module.css";
@@ -54,11 +55,11 @@ export default async function SourcesPage() {
                 const notes = annotationsFor(source);
                 return (
                   <li key={source.sourceId} id={sourceAnchor(source)} className={styles.entry}>
-                    <h3>{source.kind === "external" && source.href ? <a href={source.href} rel="noreferrer">{source.title}</a> : source.title}</h3>
+                    <h3>{source.kind === "external" && source.href ? <a href={courseLink(source.href)} rel="noreferrer">{source.title}</a> : source.title}</h3>
                     <p className={styles.meta}>
                       {source.host ? <span className={styles.host}>{source.host}</span> : null}
                       <span className={styles.state} data-state={verification.state} title={verification.detail}>{verification.label}</span>
-                      {verification.state === "reached_moved" && verification.finalUrl ? <a href={verification.finalUrl} rel="noreferrer">{text("movedLabel")}</a> : null}
+                      {verification.state === "reached_moved" && verification.finalUrl ? <a href={courseLink(verification.finalUrl)} rel="noreferrer">{text("movedLabel")}</a> : null}
                     </p>
                     {notes.length ? <><span className={styles.notesLabel}>{text("annotationLabel")}</span><ul className={styles.notes}>{notes.map((note, index) => <li key={index}>{note}</li>)}</ul></> : null}
                     <span className={styles.usedLabel}>{text("usedInLabel")}</span>

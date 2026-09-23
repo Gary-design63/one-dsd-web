@@ -17,14 +17,14 @@ body.program-design{--radius:8px;--radius-lg:14px;--shadow:0 6px 20px #17395108;
 .program-design .primary-nav-link--current{color:#003865;border-bottom-color:#003865;font-weight:700;background:#f4f7f8}
 .program-design .primary-nav-link:hover{color:#003865;background:#f0f5f7;text-decoration:underline;text-underline-offset:.3em}
 .program-design .program-menu-toggle{display:none;font:inherit;min-height:44px;padding:.5rem 1rem;border:1px solid #94a9b7;border-radius:8px;background:white;color:#003865;font-weight:600}
-.program-design .page-intro{background:#f7f5f0;border-bottom:1px solid #e7e7e0;color:#182c3a}
+.program-design .page-intro{background:#f3f6f8;border-bottom:1px solid #dce4e9;color:#182c3a}
 .program-design .page-intro>.wrap{padding-top:clamp(2rem,4vw,3.5rem);padding-bottom:clamp(2rem,4vw,3.5rem)}
 .program-design .page-intro h1{font-size:clamp(2.2rem,4vw,3.4rem);line-height:1.12;letter-spacing:-.035em;font-weight:500;color:#003865;max-width:26ch;text-wrap:balance}
 .program-design .page-intro .kicker{font-size:.85rem;font-weight:600;margin-bottom:.65rem;color:#4c606d;text-transform:none}
 .program-design .page-intro h1+p{line-height:1.7;color:#4c606d;font-size:1.1rem;max-width:65ch}
 .program-design :is(.card,.panel){box-shadow:none;border-width:1px}
 .program-design .card{border-left:1px solid #d8e0e4;padding:1.4rem}
-.program-design .panel{background:#f7f8f8;padding:1.4rem}
+.program-design .panel{background:#fff;padding:1.4rem}
 .program-design .notice:not(.notice--warn):not(.notice--stop){border:1px solid #d8e0e4;border-left:3px solid #9eb0bb;background:#f5f8f9;color:#304551}
 .program-design .door{background:white;border:1px solid #d8e0e4;box-shadow:none}
 .program-design .door:hover{border-color:#567b91;background:#f5f8fa}
@@ -76,3 +76,51 @@ body.program-design{--radius:8px;--radius-lg:14px;--shadow:0 6px 20px #17395108;
 .program-design .scope-note details p{max-width:65ch;margin:.5rem 0 1rem;line-height:1.65}
 .program-design .scope-note>a{min-height:36px;display:inline-flex;align-items:center}
 
+/* Navigation contrast preview: one continuous band beneath the white brand row. */
+body.program-design .program-navigation{background:#194f4d;border-top:0}
+body.program-design .program-navigation .primary-nav-link{color:#fff;background:transparent}
+body.program-design .program-navigation .primary-nav-link--current{color:#fff;background:#214f4d;border-bottom-color:#e0b85f;font-weight:700}
+body.program-design .program-navigation .primary-nav-link:hover{background:#286663;color:#fff}
+body.program-design .program-navigation .primary-nav-link:focus-visible{background:#286663;color:#fff;outline:2px solid #fff;outline-offset:-5px;box-shadow:none}
+@media(max-width:849px){body.program-design .program-navigation .primary-nav-link--current{border-left-color:#e0b85f}}
+
+.program-agency-brand{display:inline-flex;flex-direction:column;gap:.6rem}.program-division-label{display:none}
+
+/* Inner-page continuity: neutral reading surfaces and navy navigation. */
+.program-design .page-intro{background:#F0ECE2;border-bottom-color:#c6cbd0}
+.program-design .page-intro h1{color:#183247;font-weight:550}
+.program-design .page-intro .kicker{color:#183247;font-weight:550}
+body.program-design .program-navigation{background:#183247}
+body.program-design .program-navigation .primary-nav-link--current{background:#2b4960;border-bottom-color:#E8BD62;font-weight:600}
+body.program-design .program-navigation .primary-nav-link:hover,body.program-design .program-navigation .primary-nav-link:focus-visible{background:#2b4960}
+.program-design main .btn--primary{background:#176B65;border-color:#176B65;color:#fff}
+.program-design main .btn--primary:hover{background:#125953;color:#fff}
+.program-design main :is(.card,.panel,.door){background:#fff;border-color:#c6cfd3}
+.program-design main .door:hover{background:#F0ECE2;border-color:#183247}
+.program-design main :is(.page-intro,.card,.panel,.door) :is(p,li){line-height:1.75}
+.program-design main :is(h1,h2,h3,a){overflow-wrap:break-word}
+@media print{.program-design .page-intro{background:#fff}}
+
+
+
+/* White is the common reading surface across staff inner pages. */
+.program-design main, .program-design .page-intro { background: #fff; }
+.program-design main :is(h2,h3) { font-weight: 600; }
+.program-design main .notice { background: #fff; border-color: #c6cfd3; }
+/* Shared approved DHS banner across both programs. */
+body.program-design .program-header{background:#003865;border-top:0;border-bottom:5px solid #78be21;color:#fff}
+body.program-design .program-brand-row{padding-top:1.65rem;padding-bottom:1.65rem}
+body.program-design .program-brand-link img{filter:none;mix-blend-mode:normal;background:#fff;padding:.55rem .7rem;box-sizing:content-box;border-radius:0}
+body.program-design .program-division-label{display:block;color:#fff;font-size:.95rem;font-weight:500;letter-spacing:.015em}
+body.program-design .program-wordmark{color:#fff;border-color:#ffffff55}
+body.program-design .program-navigation{background:#003865;border-top:1px solid #ffffff30}
+body.program-design .program-navigation .primary-nav-link{color:#fff;background:transparent}
+body.program-design .program-navigation .primary-nav-link--current{background:#ffffff12;border-bottom-color:#e0b85f}
+body.program-design .program-header-actions button,body.program-design .program-header-actions a{background:transparent;color:#fff;border-color:#ffffff70}
+body.program-design .program-header-actions [data-share-page] button{background:#fff;color:#003865;border:1px solid #fff;min-height:36px!important}
+body.program-design .program-header-actions .context-switcher__choices{background:#fff;border:1px solid #fff;padding:4px}
+body.program-design .program-header-actions .context-switcher__choices a{background:#fff;color:#003865;border-color:transparent}
+body.program-design .program-header-actions .context-switcher__choices a[aria-current="true"]{background:#e6eef5;color:#003865;box-shadow:inset 0 -3px #003865;font-weight:700}
+body.program-design .program-header-actions [data-share-page] button:hover,body.program-design .program-header-actions .context-switcher__choices a:hover{background:#e6eef5;color:#003865}
+body.program-design .program-header :focus-visible{outline:3px solid #fff;outline-offset:3px}
+body.program-design .program-header-actions [data-share-page] button:focus-visible,body.program-design .program-header-actions .context-switcher__choices a:focus-visible{outline:3px solid #003865;outline-offset:2px;box-shadow:0 0 0 6px #fff}

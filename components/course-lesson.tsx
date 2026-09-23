@@ -2,6 +2,8 @@
 import { useEffect, useId, useState, type ReactNode } from "react";
 import Link from "next/link";
 import type { Block, Lesson } from "@/lib/content/courses/source-types";
+import { lessonImageOverrides } from "@/lib/content/courses/lesson-image-overrides";
+import { duplicateLessonImageKeys } from "@/lib/content/courses/lesson-image-repeat-suppression";
 
 type State={schemaVersion:1;fields:Record<string,string>;submitted:Record<string,boolean>;completed:boolean};
 const blank=():State=>({schemaVersion:1,fields:{},submitted:{},completed:false});
@@ -20,7 +22,7 @@ export function CourseLesson({courseId,lesson,objectives,previous,next,companion
     const key=`block-${index}`;const inputId=`${uid}-${key}`;
     switch(block.type){
       case "text":return <section>{block.heading?<h2>{block.heading}</h2>:null}<Rich text={block.body}/></section>;
-      case "image":return <figure><img src={block.src} alt={block.alt} loading="lazy"/>{block.caption?<figcaption>{block.caption}</figcaption>:null}</figure>;
+      case "image":{const replacement=lessonImageOverrides[block.src];const caption=replacement?.caption??block.caption;if(duplicateLessonImageKeys.has(`${courseId}|${lesson.id}|${index}`))return caption?<p className="course-image-note">{caption}</p>:null;return <figure><img src={replacement?.src??block.src} alt={replacement?.alt??block.alt} loading="lazy"/>{caption?<figcaption>{caption}</figcaption>:null}</figure>;}
       case "statement":return <aside className="course-statement"><Rich text={block.body}/></aside>;
       case "quote":return <blockquote><Rich text={block.text}/>{block.cite?<cite>{block.cite}</cite>:null}</blockquote>;
       case "list":{const List=block.ordered?"ol":"ul";return <section>{block.heading?<h2>{block.heading}</h2>:null}<List>{block.items.map((item,i)=><li key={i}><Rich text={item}/></li>)}</List></section>;}

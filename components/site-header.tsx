@@ -26,9 +26,13 @@ export function SiteHeader({ headerSurface, contextSurface }: {
   const pathname = usePathname();
   const [menuOpen, setMenuOpen] = useState(false);
   const menuButton = useRef<HTMLButtonElement>(null);
-  const primaryNavigation = linksValue(headerSurface.values, "primaryNavigation");
+  const primaryNavigation = [...linksValue(headerSurface.values, "primaryNavigation")];
+  const priorDefaultRoutes = ["/", "/start", "/ask", "/areas", "/learn", "/practice", "/one-dsd", "/support"];
+  if (primaryNavigation.map(route => route.href).join("|") === priorDefaultRoutes.join("|")) {
+    primaryNavigation.splice(7, 0, { label: "Amplify Equity", href: "/one-dsd/amplify" });
+  }
   const personalNavigation = linksValue(headerSurface.values, "personalNavigation");
-  const isCurrent = (href: string) => href === "/" ? pathname === "/" : pathname === href || pathname.startsWith(href + "/") ||
+  const isCurrent = (href: string) => href === "/" ? pathname === "/" : (href === "/one-dsd" && pathname.startsWith("/one-dsd/amplify")) ? false : pathname === href || pathname.startsWith(href + "/") ||
     (href === "/learn" && ["/library", "/resources", "/courses"].some(base => pathname === base || pathname.startsWith(base + "/")));
 
   return <header className="program-header" onKeyDown={event => {
@@ -40,7 +44,7 @@ export function SiteHeader({ headerSurface, contextSurface }: {
     </div> : null}
     <div className="program-brand-row wrap">
       <Link href="/" className="program-brand-link">
-        <Image src="/images/dhs-logo.png" alt="Minnesota Department of Human Services" width={319} height={68} priority />
+        <span className="program-agency-brand"><Image src="/images/dhs-logo.png" alt="Minnesota Department of Human Services" width={319} height={68} priority /><span className="program-division-label">Disability Services Division</span></span>
         {headerSurface.available ? <span className="program-wordmark">{textValue(headerSurface.values, "programName")}</span> : null}
       </Link>
       <div className="program-header-actions">

@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import "./dark-preview.css";
 import { PageIntro } from "@/components/ui";
 import { ResourceDownloads } from "@/components/resource-downloads";
 import { OPERATIONALIZING_EQUITY } from "@/lib/program/equity";
@@ -19,8 +20,9 @@ const questions = [
   ["Support the work", "What skills, resources, accessibility measures and agreed responsibilities would help carry the approach forward?"],
   ["Learn and adapt", "How will people hear what happened to their input? What would help them assess the effects and decide whether to retain, revise or stop an approach?"],
 ];
-export default function OperationalizingEquityPage() {
-  return <><PageIntro kicker="People, Access and Culture" title="Operationalizing equity" lede="Connecting equity to everyday decisions, workplace practices, policies and services." />
+export default async function OperationalizingEquityPage({ searchParams }: { searchParams: Promise<{ appearance?: string }> }) {
+  const dark = (await searchParams).appearance === "dark";
+  return <><span hidden data-equity-dark-preview={dark ? "true" : undefined} /><PageIntro kicker="People, Access and Culture" title="Operationalizing equity" lede="Connecting equity to everyday decisions, workplace practices, policies and services." />
     <div className="wrap max-w-6xl py-10 [&_p]:my-3">
       <ResourceDownloads kind="operationalizing-equity" id="program" noun="page" />
       <section aria-labelledby="shared-understanding" className="mt-8 max-w-4xl">

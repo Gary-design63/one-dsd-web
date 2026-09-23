@@ -50,26 +50,26 @@ describe("owner-authorized program design", () => {
     expect(html).not.toContain("WORK_AREAS");
   });
 
-  it("preserves the still approved photo, descriptive alternative text, and whole-image rendering", async () => {
+  it("preserves the approved 4K photo, descriptive alternative text, and static hero rendering", async () => {
     const html = renderToStaticMarkup(await HomePage());
     const heroImage = html.match(/<img\b[^>]*\bsrc="([^"]+)"/);
     expect(heroImage).not.toBeNull();
     const imageUrl = new URL(heroImage![1].replaceAll("&amp;", "&"), "https://local-program.test");
     expect(imageUrl.origin).toBe("https://local-program.test");
-    expect(imageUrl.pathname).toBe("/images/minnesota-communities-group-v2.png");
+    expect(imageUrl.pathname).toBe("/images/one-dhs-dsd-pac-landing-hero-4k-3d.jpg");
     expect(imageUrl.hash).toBe("");
     expect([...imageUrl.searchParams.keys()].every(key => key === "dpl")).toBe(true);
     expect(imageUrl.searchParams.getAll("dpl").length).toBeLessThanOrEqual(1);
     if (imageUrl.searchParams.has("dpl")) {
       expect(imageUrl.searchParams.get("dpl")).toBe(process.env.NEXT_DEPLOYMENT_ID);
     }
-    expect(html).toContain('alt="' + STATIC_HOME_COPY.heroImageAlt + '"');
-    expect(html).toContain("object-fit:contain");
+    expect(html).toContain('alt="A diverse group of colleagues smiling together around a conference table in an office."');
+    expect(html).toContain("object-fit:cover");
     expect(file("app/page.tsx")).not.toContain("HeroDepthPhoto");
     expect(file("app/home.module.css")).toContain("transform:none!important;animation:none!important;transition:none!important");
     const { default: sharp } = await import("sharp");
-    const metadata = await sharp(path.join(root, "public/images/minnesota-communities-group-v2.png")).metadata();
-    expect([metadata.width, metadata.height]).toEqual([1774, 887]);
+    const metadata = await sharp(path.join(root, "public/images/one-dhs-dsd-pac-landing-hero-4k-3d.jpg")).metadata();
+    expect([metadata.width, metadata.height]).toEqual([3840, 2560]);
   });
 
   it("retains commitments and the supporting explanation on About", async () => {

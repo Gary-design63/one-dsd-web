@@ -14,7 +14,7 @@ import { staffWriteClosedResponse } from "@/lib/product/staff-lock";
 
 const NO_STORE = { headers: { "cache-control": "no-store" } };
 
-export async function POST(request?: NextRequest) {
+export async function POST(request: NextRequest) {
   void request;
   return staffWriteClosedResponse();
 }

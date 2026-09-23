@@ -1,3 +1,5 @@
+> Current website target verified September 23, 2026: see [Railway website target](docs/WEBSITE-DEPLOYMENT-TARGET-2026-09-23.md). The Vercel target and local paths below are historical. Production publication remains on hold; use the verified website service only after separate release approval.
+
 # DEPLOY.md — how a change gets onto the live One DHS / One DSD app, with proof
 
 This is the only accepted deployment pathway. Every step has a check whose output is the receipt.

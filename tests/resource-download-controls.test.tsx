@@ -6,7 +6,7 @@ import { getEditableSurfaceDefinition } from "@/lib/content/staff-surface-regist
 import { DSD_SCENARIOS } from "@/lib/dsd";
 import { ResourceDownloads } from "@/components/resource-downloads";
 
-const state = vi.hoisted(() => ({ editing: false }));
+const state = vi.hoisted(() => ({ editing: false, omitLearning: false }));
 vi.mock("@/lib/auth/request", () => ({ ownerFromCookies: async () => true, editingModeFromCookies: async () => state.editing }));
 vi.mock("@/lib/product/request-context", () => ({ requestedContentScope: async () => "one-dhs", requestedProductContext: async () => "one_dhs" }));
 vi.mock("@/components/program-context", () => ({ ProgramContextNote: () => null, OneDsdContextPanel: () => null }));
@@ -15,7 +15,12 @@ vi.mock("@/components/course-resume", () => ({ CourseResume: () => null }));
 vi.mock("@/components/editable-surface", () => ({
   prepareEditableSurface: async (id: string) => {
     const definition = getEditableSurfaceDefinition(id)!;
-    return { definition, values: definition.approvedValues, published: null, available: true, canEdit: state.editing, scope: "one-dhs" };
+    const values = structuredClone(definition.approvedValues);
+    if (state.omitLearning && id.startsWith("course.")) {
+      const pack = values.pack as { course: { learning?: unknown } };
+      delete pack.course.learning;
+    }
+    return { definition, values, published: null, available: true, canEdit: state.editing, scope: "one-dhs" };
   },
   EditableSurfaceRegion: ({ children }: { children: ReactNode }) => children,
 }));
@@ -29,7 +34,7 @@ import ScenarioPage from "@/app/one-dsd/scenarios/[id]/page";
 import SourcesPage from "@/app/learn/sources/page";
 
 const course = RECOVERED_COURSES[0].course;
-afterEach(() => { state.editing = false; });
+afterEach(() => { state.editing = false; state.omitLearning = false; });
 
 describe("download control", () => {
   it("offers Word, Excel, PowerPoint and PDF with text labels and the page's own view", () => {
@@ -63,6 +68,16 @@ describe("resource pages", () => {
 });
 
 describe("courses stay on the program", () => {
+  it("omits the Outcomes jump link when optional learning metadata is absent", async () => {
+    state.omitLearning = true;
+    const html = renderToStaticMarkup(await CoursePage({ params: Promise.resolve({ courseId: course.id }) }));
+    expect(html).not.toContain('href="#outcomes"');
+    expect(html).not.toContain('id="outcomes"');
+    expect(html).toContain('href="#lessons"');
+    expect(html).toContain('id="lessons"');
+    expect(html).toContain(course.title);
+  });
+
   it("shows every staff member a course with its share link and nothing to download", async () => {
     const html = renderToStaticMarkup(await CoursePage({ params: Promise.resolve({ courseId: course.id }) }));
     expect(html).toContain(course.title);

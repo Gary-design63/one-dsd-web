@@ -182,6 +182,9 @@ describe.skipIf(!INITDB || !PG_CTL)("governed editable surfaces in PostgreSQL", 
 
   it("preserves One DHS while DSD drafts, publishes, masks, resumes, and restores its own wording", async () => {
     const definition = getEditableSurfaceDefinition("about.page")!;
+    // This suite intentionally installs migration 0018 only. Its published
+    // baseline is immutable even when today's program copy changes.
+    const historicalAbout = historicalRegistry.find(surface => surface.surfaceId === "about.page")!;
     const oneDhs = await store!.readPublished("about.page", "one-dhs");
     const inherited = await store!.readPublished("about.page", "dsd");
     expect(oneDhs?.revisionId).toBeTruthy();
@@ -213,7 +216,7 @@ describe.skipIf(!INITDB || !PG_CTL)("governed editable surfaces in PostgreSQL", 
     expect(changed.draft?.basedOnRevisionId).toBe(oneDhs?.revisionId);
     expect(changed.draft?.reviews.every(({ status }) => status === "pending")).toBe(true);
     expect((await store!.readPublished("about.page", "dsd"))?.values.introLede).toBe(
-      definition.approvedValues.introLede,
+      historicalAbout.approvedValues.introLede,
     );
 
     await expect(store!.mutate("about.page", {
@@ -247,7 +250,7 @@ describe.skipIf(!INITDB || !PG_CTL)("governed editable surfaces in PostgreSQL", 
     expect(changed).toMatchObject({ draft: null, inheritedFrom: null, hasUnpublishedChanges: false });
     expect(changed.effective?.values.introLede).toBe(changedLede);
     expect((await store!.readPublished("about.page", "one-dhs"))?.values.introLede).toBe(
-      definition.approvedValues.introLede,
+      historicalAbout.approvedValues.introLede,
     );
 
     changed = await store!.mutate("about.page", {

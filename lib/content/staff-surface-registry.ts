@@ -192,7 +192,7 @@ const NON_BRIEF_SURFACES: readonly StaffSurfaceDefinition[] = [
       programName: "One DHS People, Access and Culture Program",
       programSubtitle: "Staff learning and practical support",
       programDescriptor: "an independently managed resource for DHS staff",
-      primaryNavigation: [{"label":"Home","href":"/"},{"label":"Start","href":"/start"},{"label":"Ask","href":"/ask"},{"label":"Areas of work","href":"/areas"},{"label":"Learning and resources","href":"/learn"},{"label":"Practice","href":"/practice"},{"label":"One DSD","href":"/one-dsd"},{"label":"Support","href":"/support"}],
+      primaryNavigation: [{"label":"Home","href":"/"},{"label":"Start","href":"/start"},{"label":"Ask","href":"/ask"},{"label":"Areas of work","href":"/areas"},{"label":"Learning and resources","href":"/learn"},{"label":"Practice","href":"/practice"},{"label":"One DSD","href":"/one-dsd"},{"label":"Amplify Equity","href":"/one-dsd/amplify"},{"label":"Support","href":"/support"}],
       personalNavigation: [{ label: "My Work", href: "/my-work" }],
     },
   }),

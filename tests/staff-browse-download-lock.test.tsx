@@ -42,13 +42,13 @@ describe("staff browse-and-download lock", () => {
   });
 
   it.each([
-    ["ask", () => postAsk()],
-    ["intake", () => postIntake()],
-    ["intake-id", () => postIntakeId()],
-    ["equity-analysis", () => postAnalysis()],
-    ["follow-ups", () => postFollowUp()],
-    ["survey-waves", () => postSurvey()],
-    ["outcomes", () => postOutcome()],
+    ["ask", () => postAsk(new NextRequest("http://localhost/api/test", { method: "POST" }))],
+    ["intake", () => postIntake(new NextRequest("http://localhost/api/test", { method: "POST" }))],
+    ["intake-id", () => postIntakeId(new NextRequest("http://localhost/api/test", { method: "POST" }))],
+    ["equity-analysis", () => postAnalysis(new NextRequest("http://localhost/api/test", { method: "POST" }))],
+    ["follow-ups", () => postFollowUp(new NextRequest("http://localhost/api/test", { method: "POST" }))],
+    ["survey-waves", () => postSurvey(new NextRequest("http://localhost/api/test", { method: "POST" }))],
+    ["outcomes", () => postOutcome(new NextRequest("http://localhost/api/test", { method: "POST" }))],
   ])("refuses the staff %s write without reading a body", async (_name, send) => {
     const response = await send();
     expect(response.status).toBe(403);
@@ -209,7 +209,7 @@ describe("owner session gates (F-01 / F-02 / F-03)", () => {
     const source = readFileSync(path.join(process.cwd(), "app/api/sp-clone-request/route.ts"), "utf8");
     expect(source).not.toContain("access-control-allow-origin");
     expect(source).not.toContain('"*"');
-    expect((await spClonePost()).status).toBe(403);
+    expect((await spClonePost(anonymous("http://localhost/api/sp-clone-request", "POST", {}))).status).toBe(403);
   });
 
   it("closes page-text, media, and public team writes without an owner session", async () => {

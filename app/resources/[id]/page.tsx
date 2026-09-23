@@ -75,7 +75,7 @@ export default async function ResourcePage({ params, searchParams }: { params: P
 
   return (
     <EditableSurfaceRegion surface={shellSurface} className={styles.page}>
-      <header className={styles.hero}><div className={styles.heroInner}><Link href="/learn" className={styles.back}>← Learning and resources</Link><p className={styles.eyebrow}>{CONTENT_TYPE_LABEL[c.type]} · {LAYER_LABEL[c.layer]}</p><h1>{c.title}</h1><p className={styles.lede}>{c.summary}</p><ResourceShare title={c.title} href={`/share/library/${encodeURIComponent(c.id)}`} /><ResourceDownloads kind="library" id={c.id} scope={scope} />{owner ? <ResourceRemove contentItemId={c.id} title={c.title} /> : null}<ResourceMediaGallery contentItemId={c.id} owner={owner} />
+      <header className={styles.hero}><div className={styles.heroInner}><Link href="/learn" className={styles.back}>← Learning and resources</Link><p className={styles.eyebrow}>{CONTENT_TYPE_LABEL[c.type]} · {LAYER_LABEL[c.layer]}</p><h1>{c.title}</h1><p className={styles.lede}>{c.summary}</p><div className={styles.resourceActions}><a href="#resource-reading" className={styles.primaryAction}>Read this resource</a>{c.href ? <a href={c.href} rel="noreferrer">Open {c.sourceName || "the original source"}</a> : null}</div><details className={styles.downloadOptions}><summary>Download or share</summary><ResourceDownloads kind="library" id={c.id} scope={scope} /><ResourceShare title={c.title} href={"/share/library/" + encodeURIComponent(c.id)} /></details>{owner ? <ResourceRemove contentItemId={c.id} title={c.title} /> : null}<ResourceMediaGallery contentItemId={c.id} owner={owner} />
         <p className={styles.meta}>
           {stringValue(shell, "preparedByLabel")} {c.owner}. {reviewDateText(c.reviewDate)}. {stringValue(shell, "forLabel")}: {c.scope === "dsd" ? PROGRAM.oneDsdProgramName : PROGRAM.fullName}.
         </p>
@@ -107,7 +107,7 @@ export default async function ResourcePage({ params, searchParams }: { params: P
             <p className="m-0">{c.whyItMatters}</p>
           </div>
         ) : null}
-        <section className={styles.reading} aria-label="Content">
+        <section id="resource-reading" className={styles.reading} aria-label="Content"><h2>{c.type === "checklist" ? "Use the checklist" : c.type === "question_bank" ? "Questions to consider" : "Read and explore"}</h2>
           {isList ? (
             <ol className="list-decimal space-y-2 pl-6">
               {c.body.map((p) => (

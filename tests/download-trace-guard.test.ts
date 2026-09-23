@@ -82,14 +82,20 @@ describe("download function trace guard", () => {
   it("keeps ONNX/ASK excludes from matching office or pdfkit trees", async () => {
     const { default: picomatch } = await import("next/dist/compiled/picomatch");
     const root = process.cwd();
+    // Glob syntax uses forward slashes on every host, including Windows.
+    const globPath = (value: string) => value.replaceAll("\\", "/");
     const pageDir = path.join(root, ".next/server/app/api/downloads/[kind]/[id]");
     const excludes = [
       "./models/bge-small-en-v1.5/**/*",
       "./node_modules/onnxruntime-node/**/*",
       "./node_modules/onnxruntime-common/**/*",
       "./node_modules/@huggingface/transformers/**/*",
-    ].map((pattern) => path.join(root, pattern));
-    const isExcluded = picomatch(excludes, { dot: true, contains: true });
+    ].map((pattern) => pattern.replace(/^\.\//, ""));
+    // Match the project-relative paths the configuration describes. Absolute
+    // checkout names may contain glob syntax, such as the parentheses in this
+    // Windows workspace; those characters are directory names, not patterns.
+    const matchExclude = picomatch(excludes, { dot: true, contains: true });
+    const isExcluded = (file: string) => matchExclude(globPath(path.relative(root, file)));
     const keep = [
       "node_modules/pdfkit/js/data/Helvetica.afm",
       "node_modules/pdfkit/js/standard-fonts/Helvetica.cjs",

@@ -44,6 +44,7 @@ export default async function InterculturalLearningPage({searchParams}:{searchPa
       <Link href="/learn">All learning and resources</Link>
       <ResourceDownloads kind="learning-journey" id="intercultural" noun="learning journey" scope={scope} />
       <div className="max-w-4xl"><p className="text-lg leading-8">{text("choice")}</p><p className="mt-3 text-sm leading-6">{TRAINING_CREDIT_NOTICE}</p></div>
+      <section className={styles.topicStart} aria-labelledby="journey-start-title"><h2 id="journey-start-title">Start here: {stops[0].title}</h2><p>{stops[0].purpose}</p><Link className={styles.primaryAction} href={"#" + stops[0].id}>Explore the foundations</Link></section>
       <nav aria-label="Choose a learning focus" className="grid gap-3 sm:grid-cols-2 lg:grid-cols-5">
         {stops.map(stop=><Link key={stop.id} href={"#"+stop.id} className="rounded-xl border border-[#d5c8b4] bg-[#faf7f0] p-4 font-semibold leading-6 hover:bg-[#f0e8db]">{stop.title}</Link>)}
       </nav>
