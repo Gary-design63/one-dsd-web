@@ -17,9 +17,9 @@
 .sectionHeading .eyebrow{margin-bottom:.35rem}
 .gateways{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0}
 .gateways article{padding:1.5rem clamp(1.2rem,2.3vw,2rem);min-width:0;display:flex;flex-direction:column}
-.learning{background:var(--program-surface-active);border-radius:1rem 0 0 1rem}
-.practice{background:var(--program-surface)}
-.connection{background:var(--program-surface-raised);border-radius:0 1rem 1rem 0}
+.learning{background:var(--program-warm-ivory);border-color:#d6c8ae!important;border-radius:1rem 0 0 1rem}
+.practice{background:var(--program-soft-sage);border-color:#b9cdb8!important}
+.connection{background:var(--program-soft-sand);border-color:#d3bfa4!important;border-radius:0 1rem 1rem 0}
 .gateways article{border:1px solid var(--program-border)}
 .number{margin:0 0 1.3rem;font-size:.8rem;color:#4c606d;font-weight:600}
 .gateways h3{font-size:1.5rem;font-weight:500;letter-spacing:-.025em;line-height:1.2}

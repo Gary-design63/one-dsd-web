@@ -6,13 +6,13 @@
 .eyebrow { color: #607581; font-size: .78rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; }
 .description { max-width: 65ch; color: #415766; font-size: 1.08rem; line-height: 1.75; }
 .duration { margin-block: 1.2rem; font-size: .85rem; color: #596f7d; }
-.cover { position: relative; min-width: 0; aspect-ratio: 4/3; overflow: hidden; border-radius: 1rem; background: var(--program-surface); }
+.cover { position: relative; min-width: 0; aspect-ratio: 4/3; overflow: hidden; border-radius: 1rem; background: var(--program-neutral); }
 .sectionNav { display: flex; gap: 1rem 2rem; flex-wrap: wrap; padding-block: 1rem; border-bottom: 1px solid var(--program-border); font-size: .9rem; font-weight: 650; }
 .sectionNav a { color: #003865; text-underline-offset: .3em; }
 .page section { margin-top: 2.5rem; scroll-margin-top: 1.5rem; }
 .page:global(.course-page) h2 { color: #003865; font-size: clamp(1.55rem,2.6vw,2rem); font-weight: 600; letter-spacing: -.025em; line-height: 1.25; }
 .page:global(.course-page) h3 { color: #183c56; font-weight: 600; line-height: 1.35; }
-.outcomes { display: grid; grid-template-columns: 1fr 1fr; gap: 1.25rem 2.5rem; padding: 1.75rem; border-radius: .75rem; background: var(--program-surface); }
+.outcomes { display: grid; grid-template-columns: 1fr 1fr; gap: 1.25rem 2.5rem; padding: 1.75rem; border-radius: .75rem; background: var(--program-soft-sage); }
 .outcomes h2, .outcomes > p { grid-column: 1/-1; margin: 0; }
 .outcomes h3 { margin-top: 0; font-size: 1rem; }
 .outcomes ul { margin: .75rem 0 0; }
@@ -34,7 +34,7 @@
 .credit { padding-block: 1.25rem; color: #526573; font-size: .85rem; line-height: 1.7; border-bottom: 1px solid var(--program-border); }
 .lessonLayout { display: grid; grid-template-columns: minmax(0,1fr) 15rem; gap: 3rem; align-items: start; }
 .lessonMain { min-width: 0; }
-.outline { padding: 1.3rem; background: var(--program-surface); border-radius: .75rem; }
+.outline { padding: 1.3rem; background: var(--program-warm-ivory); border: 1px solid #d6c8ae; border-radius: .75rem; }
 .outline h2 { margin: 0 0 .8rem; font-size: 1.05rem; }
 .outline ol { margin: 0; padding-left: 1.2rem; }
 .outline li { padding-block: .45rem; color: #4c606d; font-size: .85rem; line-height: 1.6; }

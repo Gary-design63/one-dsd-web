@@ -10,7 +10,7 @@
   isolation: isolate;
   border: 1px solid var(--program-border);
   border-radius: 1.6rem;
-  background: var(--program-surface);
+  background: var(--program-soft-sage);
   box-shadow: 0 16px 44px -32px #00386555;
 }
 .page .hero::before {
@@ -50,7 +50,7 @@
 .page .entryCards a { text-underline-offset: .25em; }
 .page .conversationBand { padding: 2rem 0; column-gap: 3rem; }
 .page .conversationBand > div:last-child { border-left: 2px solid var(--program-border); padding-left: 2rem; }
-.page .sidebar { align-self: start; padding: 1.5rem; border: 1px solid var(--program-border); border-radius: 1rem; background: var(--program-surface); }
+.page .sidebar { align-self: start; padding: 1.5rem; border: 1px solid #d6c8ae; border-radius: 1rem; background: var(--program-warm-ivory); }
 .page .sidebar ul { margin-top: 1rem; }
 .page .sidebar li + li { border-top: 1px solid var(--program-border); padding-top: .9rem; }
 .page .sidebar a { color: #003865; line-height: 1.55; text-underline-offset: .23em; }
@@ -58,16 +58,16 @@
 .page .readingSections > section:last-child { border-bottom: 0; }
 .page .readingSections h2 { color: #003865; }
 .page .rhythm { padding: 2.5rem 0; border-top: 1px solid var(--program-border); border-bottom: 1px solid var(--program-border); }
-.page .leadershipInvitation { background: var(--program-surface); border-left: 4px solid #003865; border-radius: 0 1rem 1rem 0; }
+.page .leadershipInvitation { background: var(--program-soft-plum); border-left: 4px solid #76577f; border-radius: 0 1rem 1rem 0; }
 .page .learningCycle { gap: 0; border-top: 1px solid var(--program-border); border-bottom: 1px solid var(--program-border); }
 .page .learningCycle > article { background: transparent; border-radius: 0; padding: 1.5rem; }
 .page .learningCycle > article + article { border-left: 1px solid var(--program-border); }
 .page .learningCycle h3 { color: #003865; }
-.page .supportBand { background: var(--program-surface); border: 1px solid var(--program-border); }
+.page .supportBand { background: var(--program-soft-teal); border: 1px solid #afc9ca; }
 .page .growthCards { gap: 1.5rem; }
 .page .growthCards > article { border: 0; border-top: 3px solid #003865; border-radius: 0; padding: 1.25rem 0; }
 .page .growthCards h3 { font-size: 1.35rem; color: #003865; }
-.connections { margin-block: 3.5rem; padding: clamp(1.5rem, 4vw, 2.5rem); border: 1px solid var(--program-border); border-radius: 1.5rem; background: var(--program-surface); color: #182c3a; }
+.connections { margin-block: 3.5rem; padding: clamp(1.5rem, 4vw, 2.5rem); border: 1px solid #afc9ca; border-radius: 1.5rem; background: var(--program-soft-teal); color: #182c3a; }
 .connections h2 { color: #003865; }
 .connectionGrid { display: grid; grid-template-columns: minmax(0,1fr) 2.5rem minmax(0,1fr); align-items: stretch; gap: .5rem; margin-top: 1.75rem; }
 .connectionGrid > article { border: 1px solid var(--program-border); border-radius: 1rem; padding: 1.75rem; background: #fff; }

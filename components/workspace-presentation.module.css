@@ -1,6 +1,6 @@
 .space {
   color: #182c3a;
-  background: var(--program-surface);
+  background: #fff;
   padding-bottom: 2.5rem;
   overflow-wrap: anywhere;
 }
@@ -27,10 +27,10 @@
 .answer > p:nth-child(2) { border-bottom: 1px solid var(--program-border); padding-bottom: 1.4rem; font-size: 1.2rem; color: #003865; }
 .answer :is(details, section) { margin-top: 1.5rem; }
 .answer summary { color: #003865; font-weight: 650; padding-block: .4rem; }
-.researchPanel { border-left: 3px solid var(--program-border); background: var(--program-surface); padding: 1.3rem; border-radius: 0 .6rem .6rem 0; }
+.researchPanel { border-left: 3px solid #9b7653; background: var(--program-warm-ivory); padding: 1.3rem; border-radius: 0 .6rem .6rem 0; }
 .supportDirectory { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.15fr); gap: 0 3.5rem; list-style: none; margin: 0; padding: 0; }
 .supportDirectory > li { border-bottom: 1px solid var(--program-border); }
-.supportDirectory > li:first-child { grid-row: span 3; border-bottom: 0; background: var(--program-surface); padding: clamp(1.5rem, 4vw, 3rem); border-radius: 1rem 3rem 1rem 1rem; position: relative; }
+.supportDirectory > li:first-child { grid-row: span 3; border-bottom: 0; background: var(--program-soft-teal); padding: clamp(1.5rem, 4vw, 3rem); border-radius: 1rem 3rem 1rem 1rem; position: relative; }
 .supportDirectory > li:first-child::before { content: ''; display: block; width: 3rem; height: .3rem; border-radius: 2rem; background: #78be21; margin-bottom: 2.25rem; }
 .directoryLink { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: .5rem 1.5rem; padding: 1.45rem 0; color: #003865; text-decoration: none; }
 .directoryLink strong { font-size: clamp(1.2rem, 2vw, 1.6rem); line-height: 1.3; }
@@ -44,7 +44,7 @@
 .supportOption { padding: 2rem 0; border-top: 2px solid #003865; background: transparent; }
 .supportOption h2 { font-size: clamp(1.45rem, 2vw, 2rem); font-weight: 650; }
 .supportOption p { line-height: 1.75; max-width: 62ch; }
-.supportNotes { padding: 2rem; background: #fff; border-radius: 1rem; border: 1px solid var(--program-border); }
+.supportNotes { padding: 2rem; background: var(--program-neutral); border-radius: 1rem; border: 1px solid #c7d0d5; }
 .supportNotes > * + * { border-top: 1px solid var(--program-border); margin-top: 1.5rem; padding-top: 1.5rem; }
 .resultInvitation { border-top: 1px solid var(--program-border); padding-block: 2rem; }
 .resultInvitation h2 { font-size: 1.4rem; }
@@ -56,7 +56,7 @@
 .practiceArtifact { align-self: center; border-left: 2px solid var(--program-border); padding-left: 1.5rem; color: #415664; font-size: .94rem; }
 .practiceArtifact strong { display: block; font-size: .72rem; letter-spacing: .1em; text-transform: uppercase; color: #003865; margin-bottom: .65rem; }
 .practiceConnections { display: flex; gap: 1rem 2.5rem; align-items: start; justify-content: space-between; flex-wrap: wrap; border-bottom: 1px solid var(--program-border); padding-bottom: 1.5rem; }
-.practiceMore { padding: 2rem; border: 1px solid var(--program-border); border-radius: 1rem; background: #fff; max-width: 52rem; }
+.practiceMore { padding: 2rem; border: 1px solid #b9cdb8; border-radius: 1rem; background: var(--program-soft-sage); max-width: 52rem; }
 .atlas { display: grid; grid-template-columns: minmax(14rem, .32fr) minmax(0, 1fr); gap: clamp(2rem, 5vw, 5rem); align-items: start; }
 .atlasNav { position: sticky; top: 7.5rem; border-top: 3px solid #003865; padding-top: 1.25rem; }
 .atlasNav h2 { font-size: 1.3rem; line-height: 1.4; }
@@ -81,7 +81,7 @@
 .formPanel :global(.field) { margin-block: 1.7rem; }
 .formPanel :global(.checks) { gap: .75rem; }
 .formPanel :global(.checks) label { border-radius: .5rem; background: var(--program-surface); border: 1px solid var(--program-border); padding: .85rem; }
-.recommendation { background: var(--program-surface); padding: clamp(1.3rem, 3.4vw, 2.75rem); border-radius: 1rem; border: 1px solid var(--program-border); }
+.recommendation { background: var(--program-soft-sage); padding: clamp(1.3rem, 3.4vw, 2.75rem); border-radius: 1rem; border: 1px solid #b9cdb8; }
 .recommendation::before { content: ''; display: block; background: #78be21; width: 3rem; height: .25rem; margin-bottom: 1.65rem; border-radius: 1rem; }
 .recommendation h2 { line-height: 1.3; font-weight: 650; }
 .recommendation p { line-height: 1.75; }
@@ -89,7 +89,7 @@
 .orientationInvitation h2 { font-weight: 650; font-size: 1.5rem; }
 .orientationInvitation p { color: #415664; margin-block: .75rem 0; }
 .orientationInvitation a { font-weight: 650; max-width: 17rem; }
-.workInvitation { display: grid; grid-template-columns: minmax(0, 1fr) minmax(14rem, .65fr); gap: 2rem; padding: clamp(1.25rem, 3vw, 2.5rem); background: var(--program-surface); border-left: 4px solid #003865; border-radius: 0 1rem 1rem 0; align-items: center; }
+.workInvitation { display: grid; grid-template-columns: minmax(0, 1fr) minmax(14rem, .65fr); gap: 2rem; padding: clamp(1.25rem, 3vw, 2.5rem); background: var(--program-soft-plum); border-left: 4px solid #76577f; border-radius: 0 1rem 1rem 0; align-items: center; }
 .workInvitation h2 { font-size: clamp(1.5rem, 2.5vw, 2rem); font-weight: 650; margin: 0; }
 .workInvitation p { margin: 0; color: #415664; line-height: 1.75; }
 .notebook { display: grid; gap: 0; border-top: 2px solid #003865; margin-top: 2rem; }

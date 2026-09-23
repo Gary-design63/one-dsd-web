@@ -1,6 +1,6 @@
 .page { color: #182c3a; background: #fff; }
 .page :is(a,button,input,summary):focus-visible { outline: 3px solid #0066a5; outline-offset: 4px; }
-.hero { background: var(--program-surface); border-bottom: 1px solid var(--program-border); }
+.hero { background: var(--program-soft-sand); border-bottom: 1px solid #d3bfa4; }
 .heroInner,.content { max-width: 1240px; margin-inline: auto; padding-inline: clamp(1.25rem,4vw,3.5rem); }
 .heroInner { padding-block: clamp(2.25rem,5vw,4rem); }
 .hero h1 { max-width: 25ch; margin: .75rem 0 1rem; color: #003865; font-size: clamp(2.1rem,4vw,3.5rem); font-weight: 600; letter-spacing: -.035em; line-height: 1.12; text-wrap: balance; }
@@ -9,7 +9,7 @@
 .meta { color: #526b7c; font-size: .83rem; line-height: 1.7; margin-top: 1.25rem; max-width: 95ch; }
 .back { color: #003865; font-size: .88rem; text-underline-offset: .25em; }
 .content { padding-block: 2rem 4rem; }
-.search { padding: 1.5rem; border: 1px solid var(--program-border); background: var(--program-surface); border-radius: .7rem; }
+.search { padding: 1.5rem; border: 1px solid #c7d0d5; background: var(--program-neutral); border-radius: .7rem; }
 .search > label { color: #003865; font-weight: 600; }
 .search input { min-width: min(100%,15rem); color: #182c3a; background: #fff; }
 .filters { display: flex; flex-wrap: wrap; gap: 1rem 2rem; padding-top: 1rem; font-size: .8rem; line-height: 2; }
@@ -31,7 +31,7 @@
 .context > aside { margin-top: 0; padding: 0 0 1.5rem; border: 0; border-radius: 0; }
 .context h2 { font-size: 1.25rem; color: #003865; }
 .authority { display: flex; flex-wrap: wrap; align-items: center; gap: .75rem; margin: 0 0 1.5rem; }
-.why { padding: 1.5rem; margin: 1.75rem 0; background: var(--program-surface); border-left: 3px solid #003865; max-width: 85ch; }
+.why { padding: 1.5rem; margin: 1.75rem 0; background: var(--program-warm-ivory); border-left: 3px solid #9b7653; max-width: 85ch; }
 .why p { line-height: 1.8; }
 .reading { max-width: 82ch; font-size: 1.03rem; line-height: 1.9; margin-top: 1.75rem; }
 .reading :is(p,li) { margin-bottom: 1rem; }

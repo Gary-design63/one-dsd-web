@@ -1,6 +1,6 @@
 .page { color: #182c3a; background: #fff; --learning-blue: #003865; --learning-line: var(--program-border); }
 .page :is(a, button, input, select, summary):focus-visible { outline: 3px solid #0066a5; outline-offset: 4px; }
-.hero { background: var(--program-surface); border-bottom: 1px solid var(--program-border); }
+.hero { background: var(--program-warm-ivory); border-bottom: 1px solid #d6c8ae; }
 .heroInner, .content { width: min(100%, 1320px); margin-inline: auto; padding-inline: clamp(1.25rem, 4vw, 3.5rem); }
 .heroInner { padding-block: clamp(2.25rem, 5vw, 4rem); }
 .eyebrow { margin: 0 0 1rem; color: #526777; font-size: .76rem; font-weight: 750; letter-spacing: .13em; text-transform: uppercase; }
@@ -11,7 +11,7 @@
 .content { padding-block: 2rem 4.5rem; }
 .startingPoints { display: grid; grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr); gap: 2rem; margin-bottom: 2.5rem; }
 .startingPoints > :first-child { min-width: 0; }
-.journeyFeature > aside { margin: 0; padding: clamp(1.5rem, 3vw, 2.5rem); height: 100%; border: 0; border-radius: 1rem; background: var(--program-surface); }
+.journeyFeature > aside { margin: 0; padding: clamp(1.5rem, 3vw, 2.5rem); height: 100%; border: 0; border-radius: 1rem; background: var(--program-soft-sage); }
 .journeyFeature h2 { max-width: 25ch; font-size: clamp(1.55rem, 2.5vw, 2.1rem); font-weight: 600; line-height: 1.2; letter-spacing: -.02em; }
 .journeyFeature h2 a { color: #003865; text-decoration: none; }
 .journeyFeature h2 a:hover { text-decoration: underline; }
@@ -25,7 +25,7 @@
 .sectionNav a { display: inline-block; padding-block: .5rem; color: #003865; font-size: .92rem; font-weight: 650; text-decoration: none; }
 .sectionNav a:hover { text-decoration: underline; text-underline-offset: .3em; }
 .catalog { scroll-margin-top: 1.5rem; }
-.search { padding: 1.5rem; border: 1px solid var(--program-border); border-radius: .85rem; background: var(--program-surface); }
+.search { padding: 1.5rem; border: 1px solid #c7d0d5; border-radius: .85rem; background: var(--program-neutral); }
 .search label { display: block; color: #182c3a; font-size: .88rem; font-weight: 650; }
 .query { display: flex; gap: .75rem; margin-top: .65rem; }
 .query input { flex: 1; min-width: 0; }
@@ -42,7 +42,7 @@
 .themeNote { display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; padding-block: 1.5rem; margin-bottom: 1.5rem; border-bottom: 1px solid var(--program-border); }
 .themeNote h2, .themeNote h3 { margin: 0; font-size: 1.25rem; font-weight: 650; color: #003865; }
 .themeNote p { margin: .75rem 0 0; line-height: 1.7; }
-.readingLinks { padding: 1.25rem 1.5rem; background: var(--program-surface); border-radius: .6rem; }
+.readingLinks { padding: 1.25rem 1.5rem; background: var(--program-warm-ivory); border-radius: .6rem; }
 .readingLinks h2 { font-size: 1.3rem; }
 .readingLinks li { margin-block: .65rem; }
 .resultCount { margin-block: 1.25rem 2rem; font-size: .86rem; color: #566b79; }
@@ -100,8 +100,8 @@
 .readingPage > section { scroll-margin-top: 1.5rem; }
 .readingPage > section > h2 { color: #003865; font-size: 1.8rem; font-weight: 600; letter-spacing: -.02em; }
 .journeyBody > nav { display: flex; flex-wrap: wrap; gap: .5rem; padding-block: .5rem 1.5rem; }
-.journeyBody > nav a { flex: 1; min-width: 10rem; padding: .75rem .9rem; color: #003865; font-size: .85rem; font-weight: 650; background: var(--program-surface); border: 0; border-radius: .35rem; }
-.journeyBody > aside { border: 0; border-left: 3px solid #003865; border-radius: 0; background: var(--program-surface); }
+.journeyBody > nav a { flex: 1; min-width: 10rem; padding: .75rem .9rem; color: #003865; font-size: .85rem; font-weight: 650; background: var(--program-warm-ivory); border: 0; border-radius: .35rem; }
+.journeyBody > aside { border: 0; border-left: 3px solid #597c5d; border-radius: 0; background: var(--program-soft-sage); }
 .journeyFocus { padding-top: 2.5rem; }
 .journeyFocus > h2 { max-width: 29ch; color: #003865; font-weight: 600; letter-spacing: -.03em; }
 .journeyFocus > div:nth-of-type(1) > div:nth-child(2) { background: var(--program-surface); border: 0; border-radius: .65rem; }

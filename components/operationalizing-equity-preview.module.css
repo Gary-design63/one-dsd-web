@@ -3,7 +3,7 @@
 .definition h2{font-size:clamp(1.8rem,2.65vw,2.4rem);font-weight:500;letter-spacing:-.035em}
 .definition>p:not(.eyebrow){font-size:1.05rem;line-height:1.65;margin:1rem 0 .8rem;max-width:53ch}
 .definition a{font-weight:600;min-height:44px;display:inline-flex;align-items:center;gap:.65rem}
-.toolkit{min-width:0;border:1px solid var(--program-border);border-radius:1rem;background:var(--program-surface);box-shadow:0 8px 24px #0038650a}
+.toolkit{min-width:0;border:1px solid #cdbb9c;border-radius:1rem;background:var(--program-warm-ivory);box-shadow:0 8px 24px #5b4a2d12}
 .toolkitImage{display:block;position:relative;aspect-ratio:16 / 9;overflow:hidden;border-radius:1rem 1rem 0 0}
 .toolkitBody{padding:clamp(1.25rem,2.5vw,1.75rem)}
 .toolkit h2{font-size:clamp(1.8rem,2.65vw,2.4rem);line-height:1.18;color:#003865;margin:0;font-weight:500;letter-spacing:-.035em}

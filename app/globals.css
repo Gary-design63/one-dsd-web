@@ -43,7 +43,13 @@
   --program-surface: #edf5fb;
   --program-surface-raised: #f5f9fd;
   --program-surface-active: #dcebf7;
-  --program-header: #dcecf7;
+  --program-header: #cfdfe9;
+  --program-neutral: #f7f7f4;
+  --program-warm-ivory: #f8f2e7;
+  --program-soft-sand: #f3eadb;
+  --program-soft-sage: #e8f0e7;
+  --program-soft-teal: #e5f0f0;
+  --program-soft-plum: #f1ebf3;
   --blue: #003865;
   --blue-dark: #002244;
   --blue-mid: #004f90;
