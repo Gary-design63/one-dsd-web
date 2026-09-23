@@ -9,7 +9,7 @@ import styles from "./home.module.css";
 
 export const dynamic = "force-dynamic";
 
-const LANDING_HERO_IMAGE = "/images/one-dhs-dsd-pac-landing-hero.png";
+const LANDING_HERO_IMAGE = "/images/one-dhs-dsd-pac-landing-hero-4k-3d.jpg";
 const LANDING_HERO_ALT = "A diverse group of colleagues smiling together around a conference table in an office.";
 
 export default async function HomePage() {
