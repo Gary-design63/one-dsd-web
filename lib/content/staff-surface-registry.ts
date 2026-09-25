@@ -189,7 +189,7 @@ const NON_BRIEF_SURFACES: readonly StaffSurfaceDefinition[] = [
       linkList("personalNavigation", "Personal workspace navigation"),
     ],
     approvedValues: {
-      programName: "One DHS People, Access and Culture Program",
+      programName: "One DHS People, Access and Culture",
       programSubtitle: "Staff learning and practical support",
       programDescriptor: "an independently managed resource for DHS staff",
       primaryNavigation: [{"label":"Home","href":"/"},{"label":"Start","href":"/start"},{"label":"Ask","href":"/ask"},{"label":"Areas of work","href":"/areas"},{"label":"Learning and resources","href":"/learn"},{"label":"Practice","href":"/practice"},{"label":"One DSD","href":"/one-dsd"},{"label":"Amplify Equity","href":"/one-dsd/amplify"},{"label":"Support","href":"/support"}],
@@ -255,7 +255,7 @@ const NON_BRIEF_SURFACES: readonly StaffSurfaceDefinition[] = [
     approvedValues: {
       introKicker: "Purpose, trust, and limits",
       introTitle: "About this program",
-      introLede: "The People, Access and Culture Program is an independently managed resource for Minnesota Department of Human Services staff. It brings learning, evidence, practical tools, and ways to reach the right person into one place.",
+      introLede: "People, Access and Culture is an independently managed resource for Minnesota Department of Human Services staff. It brings learning, evidence, practical tools, and ways to reach the right person into one place.",
       purposeKicker: "From understanding to action",
       purposeTitle: "Built for the whole person, not only the job",
       purposeBody: "This program has two equally real purposes, not one dressed up as the other. It helps you examine a decision, learn a concept, prepare for a conversation, or serve someone well — and it helps you grow, personally, in how you understand culture, including your own. Examining your own cultural default is real work here, not a detour from it, whatever background you bring to that work. A colleague studying their own German, Norwegian, Irish, or Iron Range background is doing exactly as legitimate a thing here as a colleague building the specific knowledge needed to serve a particular client community well.",

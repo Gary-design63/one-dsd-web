@@ -21,7 +21,7 @@ export default async function HomePage() {
       ...publishedCopy,
       headlineLine1: "One DSD People,",
       headlineLine2: "Access and Culture",
-      headlineLine3: "Program",
+      headlineLine3: "",
     }
     : publishedCopy;
 
@@ -31,7 +31,7 @@ export default async function HomePage() {
         <section className={styles.hero} aria-labelledby="hero-title">
           <div className={styles.opening}>
             <p className={styles.eyebrow}>People at the heart of public service</p>
-            <h1 id="hero-title">{copy.headlineLine1} {copy.headlineLine2} {copy.headlineLine3}</h1>
+            <h1 id="hero-title">{[copy.headlineLine1, copy.headlineLine2, copy.headlineLine3].filter(Boolean).join(" ")}</h1>
             <div className={styles.rule} aria-hidden="true" />
             <p className={styles.lede}>{copy.heroLede}</p>
             {copy.heroNote ? <p className={styles.note}>{copy.heroNote}</p> : null}

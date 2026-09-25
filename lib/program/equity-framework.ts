@@ -1,6 +1,6 @@
 /**
  * Equity Strategic Framework: the operational spine of the One DHS and One DSD
- * People, Access and Culture Program. Adapted from the owner's concept map and
+ * People, Access and Culture. Adapted from the owner's concept map and
  * resource suite. All timelines, years and cadences are intentionally left open;
  * agreed review points replace fixed dates. Program-facing copy only.
  */
@@ -51,7 +51,7 @@ export const EQUITY_FRAMEWORK = {
   title: "Equity Strategic Framework",
   kicker: "People, Access and Culture · Operational spine",
   lede:
-    "The framework that every part of the One DHS and One DSD People, Access and Culture Program is mapped to: six pillars, one improvement cycle, shared measures and a practical tool suite. Timelines are left open on purpose; the work moves at agreed review points.",
+    "The framework that every part of the One DHS and One DSD People, Access and Culture is mapped to: six pillars, one improvement cycle, shared measures and a practical tool suite. Timelines are left open on purpose; the work moves at agreed review points.",
   summary:
     "The Equity Strategic Framework makes equity, access and belonging a sustained part of leadership practice, workforce systems, service delivery, community relationships and decision-making. It moves the organization from isolated activities toward coordinated, measurable and accountable equity work.¹ In this program it is the operational spine: each page, tool, meeting pattern and record connects to a pillar and to a stage of the improvement cycle.",
   howToRead: [
@@ -644,8 +644,8 @@ export const EQUITY_FRAMEWORK = {
 
   /** Chicago-style notes. Superscript numerals in the page text refer to these. */
   notes: [
-    "One DHS People, Access and Culture Program, “Equity Strategic Plan Concept Map and Resource and Tool Suite,” internal planning document supplied by the Equity and Inclusion Operations Consultant (2026), adapted here with all timelines removed and “equity” used in place of earlier terminology.",
-    "One DHS People, Access and Culture Program, “Stage Zero,” internal program record, September 4, 2026, which names the One DSD Team as the standing volunteer DSD equity committee.",
+    "One DHS People, Access and Culture, “Equity Strategic Plan Concept Map and Resource and Tool Suite,” internal planning document supplied by the Equity and Inclusion Operations Consultant (2026), adapted here with all timelines removed and “equity” used in place of earlier terminology.",
+    "One DHS People, Access and Culture, “Stage Zero,” internal program record, September 4, 2026, which names the One DSD Team as the standing volunteer DSD equity committee.",
     "The One DSD ecosystem proposal, as summarized in the concept map cited in note 1, positions technology tools as aids that require testing and review by people. The underlying proposal was not available for independent review; the summary is relied on as reported.",
     "The One DSD ecosystem proposal, as summarized in note 1, describes the Equity Activity Inventory as the “central nervous system” for coordinating equity work across units.",
     "State of Minnesota, Equity Analysis Toolkit, accessed September 8, 2026, https://mn.gov/oeoa/resources/equity-analysis-toolkit/; Minnesota Department of Human Services, DHS Equity Policy, version 2.0 (St. Paul: Minnesota Department of Human Services, August 4, 2023), https://mn.gov/dhs/assets/equity-policy_tcm1053-646921.pdf.",
@@ -654,17 +654,17 @@ export const EQUITY_FRAMEWORK = {
     "The One DSD ecosystem proposal, as summarized in note 1, recommends cultural community profiles developed with paid community reviewers, formal Tribal consultation, a stipend process, funded translation and a community advisory board, and names Somali, Hmong, Ojibwe communities connected to White Earth and Red Lake, Mexican and Karen communities as first priorities in that proposal.",
     "The One DSD framework, as summarized in note 1, recommends foundational, applied and advanced learning with a multi-module intercultural pathway and facilitator preparation; the program’s pathway is at /learn/intercultural.",
     "The One DSD ecosystem proposal, as summarized in note 1, proposes that service data be analyzed by race, disability type, language and geography, with a dashboard and early-warning process.",
-    "One DHS People, Access and Culture Program, “One DHS and One DSD Program Operating Charter,” internal program guidance, September 8, 2026, which defines the six-step value sequence, the thirteen program functions, the seven intended outcomes and the rule that program measures evaluate practice rather than individuals.",
-    "One DHS People, Access and Culture Program, “Operationalizing Equity,” program definition, version 2026-09-08.1, drawing on the DHS Equity Policy, the Minnesota Equity Analysis Tool and the Government Alliance on Race and Equity, “Our Approach,” accessed September 8, 2026, https://www.racialequityalliance.org/who-we-are/our-approach.",
+    "One DHS People, Access and Culture, “One DHS and One DSD Program Operating Charter,” internal program guidance, September 8, 2026, which defines the six-step value sequence, the thirteen program functions, the seven intended outcomes and the rule that program measures evaluate practice rather than individuals.",
+    "One DHS People, Access and Culture, “Operationalizing Equity,” program definition, version 2026-09-08.1, drawing on the DHS Equity Policy, the Minnesota Equity Analysis Tool and the Government Alliance on Race and Equity, “Our Approach,” accessed September 8, 2026, https://www.racialequityalliance.org/who-we-are/our-approach.",
   ],
   bibliography: [
     "Americans with Disabilities Act of 1990. Pub. L. No. 101-336, 104 Stat. 327 (1990).",
     "Government Alliance on Race and Equity. “Our Approach.” Accessed September 8, 2026. https://www.racialequityalliance.org/who-we-are/our-approach.",
     "Minnesota Department of Human Services. DHS Equity Policy. Version 2.0. St. Paul: Minnesota Department of Human Services, August 4, 2023. https://mn.gov/dhs/assets/equity-policy_tcm1053-646921.pdf.",
-    "One DHS People, Access and Culture Program. “Equity Strategic Plan Concept Map and Resource and Tool Suite.” Internal planning document, 2026.",
-    "One DHS People, Access and Culture Program. “One DHS and One DSD Program Operating Charter.” Internal program guidance, September 8, 2026.",
-    "One DHS People, Access and Culture Program. “Operationalizing Equity.” Program definition, version 2026-09-08.1.",
-    "One DHS People, Access and Culture Program. “Stage Zero.” Internal program record, September 4, 2026.",
+    "One DHS People, Access and Culture. “Equity Strategic Plan Concept Map and Resource and Tool Suite.” Internal planning document, 2026.",
+    "One DHS People, Access and Culture. “One DHS and One DSD Program Operating Charter.” Internal program guidance, September 8, 2026.",
+    "One DHS People, Access and Culture. “Operationalizing Equity.” Program definition, version 2026-09-08.1.",
+    "One DHS People, Access and Culture. “Stage Zero.” Internal program record, September 4, 2026.",
     "Rehabilitation Act of 1973, § 508. 29 U.S.C. § 794d.",
     "State of Minnesota. Equity Analysis Toolkit. Accessed September 8, 2026. https://mn.gov/oeoa/resources/equity-analysis-toolkit/.",
   ],

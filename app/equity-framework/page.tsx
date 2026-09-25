@@ -7,7 +7,7 @@ import { programFunctions } from "@/lib/program/model";
 
 export const metadata: Metadata = {
   title: "Equity Strategic Framework",
-  description: "The operational spine of the One DHS and One DSD People, Access and Culture Program: six pillars, one improvement cycle, shared measures and a practical tool suite, with timelines left open.",
+  description: "The operational spine of the One DHS and One DSD People, Access and Culture: six pillars, one improvement cycle, shared measures and a practical tool suite, with timelines left open.",
 };
 
 const STATUS_CLASS: Record<ToolStatus, string> = {

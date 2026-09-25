@@ -5,9 +5,9 @@
  */
 export const PROGRAM = {
   /** Full program name (Home headline). */
-  fullName: "One DHS People, Access and Culture Program",
+  fullName: "One DHS People, Access and Culture",
   /** Staff-facing name used in navigation, answers, and support routes. */
-  staffBrand: "One DHS People, Access and Culture Program",
+  staffBrand: "One DHS People, Access and Culture",
   /** Short descriptor used in copy. */
   descriptor: "an independently managed resource for DHS staff",
   /** Ownership and system boundary shown wherever the program identity appears. */
@@ -21,7 +21,7 @@ export const PROGRAM = {
   practiceOwnerName: "Gary Banks",
   /** DSD context and standing committee names. */
   oneDsdShortName: "One DSD",
-  oneDsdProgramName: "One DSD People, Access and Culture Program",
+  oneDsdProgramName: "One DSD People, Access and Culture",
   oneDsdTeamName: "One DSD Team",
   oneDsdScope:
     "Disability Services Division within the Aging and Disability Services Administration",

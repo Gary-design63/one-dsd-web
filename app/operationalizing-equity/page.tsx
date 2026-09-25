@@ -55,7 +55,7 @@ export default async function OperationalizingEquityPage({ searchParams }: { sea
       </section>
       <section aria-labelledby="choose-support" className="mt-12 rounded-xl border border-line bg-white p-6 md:p-8">
         <h2 id="choose-support" className="mt-0 text-3xl font-bold">Connect it to your work</h2>
-        <p>Explore at your own pace and choose what is useful. Participation in the People, Access and Culture Program is voluntary.</p>
+        <p>Explore at your own pace and choose what is useful. Participation in People, Access and Culture is voluntary.</p>
         <ul className="grid gap-4 pl-5 md:grid-cols-2">
           <li><Link href="/ask">Browse common questions</Link> to read a published answer and download a copy.</li>
           <li><Link href="/learn/equity-toolkit">Use the Equity Analysis Toolkit companion</Link> to explore decisions, participation and practical application.</li>
