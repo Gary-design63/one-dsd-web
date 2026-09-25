@@ -54,16 +54,13 @@ export default async function DomainPage({ params, searchParams }: Props) {
     <div className={`wrap space-y-8 py-8 ${styles.domainBody}`}>
       <Link href="/areas">{stringValue(copy,"backLabel")}</Link>
       <WorkOriginLinks origin={origin} domainAvailable={surface.available} />
-      {surface.available ? <ResourceDownloads kind="area" id={source.id} noun="area of work" scope={scope} /> : null}
       {source.id === "leadership-systems" && <section className="rounded-xl bg-[#faf3e8] p-6"><h2 className="text-2xl font-semibold">DEIA leadership and growth in DSD</h2><p className="my-4 leading-7">Find a starting point as an aspiring or current leader. Build a development map and connect DEIA learning with DSD practice, feedback, and succession.</p><Link href="/one-dsd/leadership">Explore the One DSD leadership experience →</Link></section>}
       <div className={styles.goalTags}>{domain.goals.map(goal => <span key={goal}>{goal}</span>)}</div>
-      <section><h2 className="text-2xl font-extrabold">{stringValue(copy,"whyTitle")}</h2><p>{domain.whyItMatters}</p></section>
-      <section><h2 className="text-2xl font-extrabold">{stringValue(copy,"questionsTitle")}</h2><ul className="list-disc space-y-2 pl-6">{domain.firstQuestions.map(question => <li key={question}>{question}</li>)}</ul></section>
       <section aria-labelledby="work-tasks-title"><h2 id="work-tasks-title" className="text-3xl font-extrabold">{stringValue(copy,"tasksTitle")}</h2><div className="mt-6 space-y-8">{domain.tasks.map(task => {
         const path = task.pathId ? publications.get(`graduation-path.${task.pathId}`) : undefined;
         const practiceHref = taskPracticeHref(source.id, task, new Set(publications.keys()), new Set(content.keys()));
         const readings = task.contentIds.flatMap(id => content.has(id) ? [content.get(id)!] : []);
-        return <article id={`task-${task.id}`} key={task.id} className={styles.domainTask}>
+        return <article id={`task-${task.id}`} key={task.id} className="border-t border-line py-6 first:border-t-0">
           <span id={task.id} aria-hidden="true" className="scroll-mt-6" />
           <h3 className="text-2xl font-bold">{task.label}</h3><p>{task.outcome}</p>
           <p className="text-sm text-muted">{task.roles.map(role => ROLE_FAMILY_LABEL[role]).join(" · ")}{task.supportsRequired ? ` · ${stringValue(copy,"requiredLabel")}` : ""}</p>
@@ -75,6 +72,14 @@ export default async function DomainPage({ params, searchParams }: Props) {
           </div>
         </article>;
       })}</div></section>
+      <details className="border-t border-line py-5">
+        <summary className="cursor-pointer font-semibold text-[#183247]">Background and questions for this area</summary>
+        <div className="max-w-3xl space-y-6 pt-5">
+          <section><h2 className="text-2xl font-extrabold">{stringValue(copy,"whyTitle")}</h2><p>{domain.whyItMatters}</p></section>
+          <section><h2 className="text-2xl font-extrabold">{stringValue(copy,"questionsTitle")}</h2><ul className="list-disc space-y-2 pl-6">{domain.firstQuestions.map(question => <li key={question}>{question}</li>)}</ul></section>
+        </div>
+      </details>
+      {surface.available ? <details className="border-t border-line py-5"><summary className="cursor-pointer font-semibold text-[#183247]">Download this area of work</summary><ResourceDownloads kind="area" id={source.id} noun="area of work" scope={scope} /></details> : null}
       {tools.length ? <section className="border-t border-line pt-5"><h2 className="text-2xl font-extrabold">{stringValue(copy,"toolsTitle")}</h2><ul className="space-y-4">{tools.map(item => <li key={item.id}><Link href={withWorkOrigin(`/library/${item.id}`, origin)} className="font-bold">{item.title}</Link><p>{item.summary}</p>{item.sourceName ? <p className="text-sm text-muted">{item.sourceName}</p> : null}</li>)}</ul></section> : null}
       {stages.length || (libraryAvailable && areaResources.length) ? <section className="border-t border-line pt-5" aria-labelledby="area-learning-title">
         <h2 id="area-learning-title" className="text-2xl font-extrabold">{stringValue(copy,"learningTitle")}</h2>

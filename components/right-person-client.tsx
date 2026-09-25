@@ -46,6 +46,7 @@ export function RightPersonClient({ initialArea, copy }: { initialArea?: string;
     && decision.basis.urgency === urgency
     ? decision
     : null;
+  const dsdSupport = activeDecision?.kind === "dsd_consultation";
 
   const selectedArea = useMemo(() => WORK_AREAS.find((area) => area.id === task), [task]);
 
@@ -120,7 +121,7 @@ export function RightPersonClient({ initialArea, copy }: { initialArea?: string;
                   />
                   <span>
                     <strong>{textValue(copy, keyFor("eligibility", option.id, "Label"))}</strong>
-                    <span className="block text-sm text-muted">{textValue(copy, keyFor("eligibility", option.id, "Description"))}</span>
+                    <span className="block text-sm text-muted">{option.id === "not_checked" || option.id === "self_attested_dsd" ? option.description : textValue(copy, keyFor("eligibility", option.id, "Description"))}</span>
                   </span>
                 </label>
               ))}
@@ -138,13 +139,13 @@ export function RightPersonClient({ initialArea, copy }: { initialArea?: string;
       <section className={styles.recommendation} aria-live="polite" aria-labelledby="support-result-title">
         <p className="kicker">{textValue(copy, "resultKicker")}</p>
         <h2 id="support-result-title" className="text-2xl font-extrabold">
-          {activeDecision ? textValue(copy, activeDecision.kind === "dsd_consultation" ? "oneDsdDecisionLabel" : "oneDhsDecisionLabel") : textValue(copy, "emptyResultTitle")}
+          {activeDecision ? (dsdSupport ? "Find support for DSD work" : textValue(copy, "oneDhsDecisionLabel")) : textValue(copy, "emptyResultTitle")}
         </h2>
         {!activeDecision ? (
           <p className="text-muted">{textValue(copy, "emptyResultBody")}</p>
         ) : (
           <>
-            <p>{textValue(copy, activeDecision.kind === "dsd_consultation" ? "oneDsdDecisionBody" : "oneDhsDecisionBody")}</p>
+            <p>{dsdSupport ? "Staff consultation request forms are closed. Start with the people and offices below for help with this work." : textValue(copy, "oneDhsDecisionBody")}</p>
             <div className="notice mt-4">
               <strong>{textValue(copy, "beginLead")} </strong>
               {textValue(copy, keyFor("urgency", activeDecision.urgency.id, "Guidance"))}
@@ -168,16 +169,6 @@ export function RightPersonClient({ initialArea, copy }: { initialArea?: string;
               {textValue(copy, "directoryNote")} <Link href="/support/directory">DHS offices and guidance</Link>
             </p>
 
-            {activeDecision.kind === "dsd_consultation" ? (
-              <div className="card mt-6">
-                <p className="kicker">{textValue(copy, "dsdOptionKicker")}</p>
-                <h3 className="text-xl font-extrabold">{textValue(copy, "dsdOptionTitle")}</h3>
-                <p>
-                  {textValue(copy, "dsdOptionBody")}
-                </p>
-                <Link href="/support/request" className="btn btn--secondary">{textValue(copy, "dsdOptionLink")}</Link>
-              </div>
-            ) : null}
           </>
         )}
         {selectedArea && !activeDecision ? <p className="mt-4 text-sm">{textValue(copy, "selectedAreaLabel")}: {textValue(copy, keyFor("area", selectedArea.id, "Label"))}</p> : null}

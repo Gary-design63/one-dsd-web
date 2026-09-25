@@ -95,7 +95,7 @@ const CORE_PATHS: GraduationPath[] = [
       { key: "resources", title: "Choose practical resources", guidance: "Use the launch checklist, the journey and burden questions, and the partner map to work through your idea.", links: [{ label: "Launch equity and access checklist", href: "/library/ja-launch-embed-checklist" }, { label: "Journey and burden questions", href: "/library/ja-process-burden" }, { label: "Partner map", href: "/library/ja-stakeholder-map" }] },
       { key: "artifact", title: "Draft your equity and access checklist", guidance: "Complete the checklist for your program. It is saved in the web browser you are using, so please leave out client names and case details.", links: [] },
       { key: "selfcheck", title: "Review your work", guidance: "Confirm who is responsible, the access needs you considered, who was involved, what you chose not to assume, the review date, and any questions that remain.", links: [] },
-      { key: "consult", title: "Talk it through with a consultant (optional)", guidance: "A consultation can help with early program ideas, high-stakes decisions, or questions that remain after you use these resources. Your checklist will help fill in the request form.", links: [{ label: "Request a consultation", href: "/support/request?path=gp-1" }] },
+      { key: "consult", title: "Find the right person when needed", guidance: "If the idea is high stakes or questions remain, use your checklist to explain the work to the responsible person or office. Staff consultation request forms are closed.", links: [{ label: "Find the right person", href: "/support/right-person?area=policy_program_service_design" }] },
     ],
     artifactTitle: "Equity and access planning checklist",
     artifactFields: [
@@ -138,7 +138,7 @@ const CORE_PATHS: GraduationPath[] = [
       { key: "resources", title: "Choose practical resources", guidance: "Use the change-planning guide, plain-language checklist, language access checklist, and equity impact questions as needed.", links: [{ label: "Form, notice, or letter change guide", href: "/library/ja-form-notice-change" }, { label: "Plain language and accessible documents", href: "/library/ja-plain-language" }, { label: "Language access checklist", href: "/library/ja-language-access-checklist" }] },
       { key: "artifact", title: "Draft your change and access notes", guidance: "Record who will be affected, access needs, the effort the process asks of people, source labels, follow-up responsibilities, and a review date.", links: [] },
       { key: "selfcheck", title: "Review your work", guidance: "Confirm that every source is clearly labeled, access needs and process barriers are specific, and the next steps have responsible people and dates.", links: [] },
-      { key: "consult", title: "Talk it through with a consultant (optional)", guidance: "A consultation can help when the stakes are high or Official sources conflict. Most day-to-day access questions can be worked through with these resources.", links: [{ label: "Request a consultation", href: "/support/request?path=gp-2" }] },
+      { key: "consult", title: "Find the right person when needed", guidance: "If the stakes are high or official sources conflict, find the person or office responsible for the decision. Most day-to-day access questions can be worked through with these resources.", links: [{ label: "Find the right person", href: "/support/right-person?area=policy_program_service_design" }] },
     ],
     artifactTitle: "Change impact notes and access checklist",
     artifactFields: [
@@ -186,7 +186,7 @@ const CORE_PATHS: GraduationPath[] = [
       { key: "resources", title: "Choose practical resources", guidance: "Use the meeting and outreach access checklist, partner map, and language access checklist as needed.", links: [{ label: "Access checks before a meeting or outreach", href: "/library/ja-access-checks" }, { label: "Partner map", href: "/library/ja-stakeholder-map" }] },
       { key: "artifact", title: "Draft your engagement plan", guidance: "Include the questions you will ask, access needs, who to involve, what not to assume, compensation, and how you will report back.", links: [] },
       { key: "selfcheck", title: "Review your work", guidance: "Confirm that you reviewed the relevant briefs, recognized differences within each community, noted what remains unknown, and did not apply group information to any one person.", links: [] },
-      { key: "consult", title: "Talk it through with a consultant (optional)", guidance: "A consultation can help when a brief does not address your question, the work may involve trauma, or Tribal consultation may be required.", links: [{ label: "Request a consultation", href: "/support/request?path=gp-3" }] },
+      { key: "consult", title: "Find the right person when needed", guidance: "If a brief does not address your question, the work may involve trauma, or Tribal consultation may be required, find the responsible person or office before proceeding.", links: [{ label: "Find the right person", href: "/support/right-person?area=community_engagement_co_design" }] },
     ],
     artifactTitle: "Engagement plan",
     artifactFields: [
@@ -235,7 +235,7 @@ const CORE_PATHS: GraduationPath[] = [
       { key: "resources", title: "Choose practical resources", guidance: "Review the team climate basics and use the action plan template.", links: [{ label: "Team climate basics", href: "/library/lm-workplace-climate" }, { label: "Team climate action plan template", href: "/library/ja-climate-action-plan" }] },
       { key: "artifact", title: "Draft your team climate action plan", guidance: "Describe the practices, participation agreements, responsible people, and a follow-up date. Please leave out names and complaint details.", links: [] },
       { key: "selfcheck", title: "Review your work", guidance: "Confirm that the practices are observable, each one has a responsible person and date, and the plan contains no complaint details.", links: [] },
-      { key: "consult", title: "Talk it through with a consultant (optional)", guidance: "A consultation can help you prepare to facilitate a team conversation. Complaints and investigations belong with Employee Culture, Human Resources, or the civil-rights channel.", links: [{ label: "Request a consultation", href: "/support/request?path=gp-4" }] },
+      { key: "consult", title: "Find the right person when needed", guidance: "For help preparing a team conversation, find the responsible supervisor or equity lead. Complaints and investigations belong with Employee Culture, Human Resources, or the civil-rights channel.", links: [{ label: "Find the right person", href: "/support/right-person?area=culture_trust_repair" }] },
     ],
     artifactTitle: "Team climate action plan",
     artifactFields: [
@@ -283,7 +283,7 @@ const CORE_PATHS: GraduationPath[] = [
       { key: "resources", title: "Choose practical resources", guidance: "Use the session plan template, facilitation learning guide, and access checklist as needed.", links: [{ label: "Session plan template", href: "/library/ja-facilitation-session-plan" }, { label: "Facilitation that leads to practical use", href: "/library/lm-facilitation-application" }, { label: "Access checks before a session", href: "/library/ja-access-checks" }] },
       { key: "artifact", title: "Draft your session plan", guidance: "Include the objective, activity, work participants will complete, accessibility arrangements, and follow-up.", links: [] },
       { key: "selfcheck", title: "Review your work", guidance: "Confirm that participants will leave with something useful, the access arrangements are specific, and the follow-up has a date.", links: [] },
-      { key: "consult", title: "Talk it through with a consultant (optional)", guidance: "A consultation can help when you would like another person to think through the session with you after using these resources.", links: [{ label: "Request a consultation", href: "/support/request?path=gp-5" }] },
+      { key: "consult", title: "Find the right person when needed", guidance: "If another person should help you plan the session, use Find the right person to identify the responsible role or office.", links: [{ label: "Find the right person", href: "/support/right-person?area=community_engagement_co_design" }] },
     ],
     artifactTitle: "Session plan",
     artifactFields: [

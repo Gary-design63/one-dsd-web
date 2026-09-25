@@ -8,6 +8,7 @@ import { ParticipationNotice } from "@/components/participation-notice";
 import { EditableSurfaceRegion, prepareEditableSurface } from "@/components/editable-surface";
 import { applyGraduationPathValues, graduationPathSurfaceId, stringValue } from "@/lib/content/staff-surface-registry";
 import { requestedContentScope } from "@/lib/product/request-context";
+import { publishedPracticePath, withoutPublishedSaveClaims, PUBLISHED_PATH_STORAGE_NOTICE } from "@/lib/content/published-practice-path";
 
 export const metadata: Metadata = { title: ROUTES.paths.label };
 
@@ -19,10 +20,10 @@ export default async function PathsPage() {
     ...GRADUATION_PATHS.map((path) => prepareEditableSurface(graduationPathSurfaceId(path.id), { scope, includeOwner: false })),
   ]);
   const copy = surface.values;
-  const paths = GRADUATION_PATHS.flatMap((path, index) => pathSurfaces[index].available ? [applyGraduationPathValues(path, pathSurfaces[index].values)] : []);
+  const paths = GRADUATION_PATHS.flatMap((path, index) => pathSurfaces[index].available ? [publishedPracticePath(applyGraduationPathValues(path, pathSurfaces[index].values))] : []);
   return (
     <EditableSurfaceRegion surface={surface}>
-      <PageIntro kicker={stringValue(copy, "introKicker")} title={stringValue(copy, "introTitle")} lede={stringValue(copy, "introLede")} />
+      <PageIntro kicker={stringValue(copy, "introKicker")} title={stringValue(copy, "introTitle")} lede={withoutPublishedSaveClaims(stringValue(copy, "introLede"))} />
       <div className="wrap py-8">
         <ul className="grid list-none gap-x-10 gap-y-6 p-0 md:grid-cols-2">
           {paths.map((p) => (
@@ -38,7 +39,7 @@ export default async function PathsPage() {
         </ul>
         <div className="mt-8 max-w-3xl border-t border-line pt-5">
           <p className="kicker">{stringValue(copy, "completionKicker")}</p>
-          <p className="m-0">{stringValue(copy, intakeEnabled ? "completionOpenBody" : "completionPreviewBody")}</p>
+          <p className="m-0">{withoutPublishedSaveClaims(stringValue(copy, intakeEnabled ? "completionOpenBody" : "completionPreviewBody"))} {PUBLISHED_PATH_STORAGE_NOTICE}</p>
         </div>
         <div className="mt-10">
           <ParticipationNotice surface="learning" />

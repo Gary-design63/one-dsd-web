@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useMemo, useState } from "react";
 import { ROUTING_SIGNALS } from "@/lib/content/paths";
 import { pathRecommend } from "@/lib/intelligence/agents/graduation";
+import { contextualizeSupportAction } from "@/lib/product";
 
 export function GuidedStartClient({ intakeEnabled }: { intakeEnabled: boolean }) {
   const [selected, setSelected] = useState<string[]>([]);
@@ -50,8 +51,8 @@ export function GuidedStartClient({ intakeEnabled }: { intakeEnabled: boolean })
                 </>
               ) : r.route ? (
                 <>
-                  <Link href={r.route.href} className="font-bold">
-                    {!intakeEnabled && r.route.href.startsWith("/support/request") ? "See what a consultation request asks" : r.route.label}
+                  <Link href={contextualizeSupportAction(r.route, "one_dsd", intakeEnabled).href} className="font-bold">
+                    {contextualizeSupportAction(r.route, "one_dsd", intakeEnabled).label}
                   </Link>
                   <span className="block text-sm text-muted">{r.why}</span>
                   {r.escalate ? <span className="block text-sm font-bold" style={{ color: "var(--red-strong)" }}>For your privacy and protection, please use the formal channel for this.</span> : null}

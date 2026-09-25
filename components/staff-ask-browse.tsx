@@ -21,24 +21,30 @@ export function StaffAskBrowse({
   const visible = selected === "all" ? topics : topics.filter((topic) => topic.facet === selected);
 
   return (
-    <div className={styles.askLayout}>
+    <div className="max-w-4xl">
       <div>
         <div className="mb-4 flex flex-wrap items-end gap-3">
           <p className="help m-0 max-w-xl">These are published answers from the knowledge base. Choosing a topic is not stored on the server.</p>
           <Link href="/library" className="btn btn--light">Browse the Library</Link>
         </div>
-        <nav aria-label="Browse by kind of work" className="mb-4 flex flex-wrap gap-2">
-          <Link href="/ask" className={selected === "all" ? "btn btn--primary" : "btn btn--light"}>All published topics</Link>
-          {facets.map((item) => (
-            <Link
-              key={item}
-              href={`/ask?facet=${encodeURIComponent(item)}`}
-              className={selected === item ? "btn btn--primary" : "btn btn--light"}
-            >
-              {item}
-            </Link>
-          ))}
-        </nav>
+        <details className="mb-4 border-b border-[#c5d0d7]">
+          <summary className="cursor-pointer py-3 font-semibold text-[#003865]">
+            Browse by kind of work: {selected === "all" ? "All published topics" : selected}
+          </summary>
+          <nav aria-label="Browse by kind of work" className="flex flex-wrap gap-2 pb-4 pt-1">
+            <Link href="/ask" aria-current={selected === "all" ? "page" : undefined} className={selected === "all" ? "btn btn--primary" : "btn btn--light"}>All published topics</Link>
+            {facets.map((item) => (
+              <Link
+                key={item}
+                href={`/ask?facet=${encodeURIComponent(item)}`}
+                aria-current={selected === item ? "page" : undefined}
+                className={selected === item ? "btn btn--primary" : "btn btn--light"}
+              >
+                {item}
+              </Link>
+            ))}
+          </nav>
+        </details>
 
         <ul className="m-0 grid list-none gap-3 p-0">
           {visible.map((topic) => (
@@ -78,7 +84,9 @@ export function StaffAskBrowse({
           ))}
         </ul>
       </div>
-      <aside className={styles.askRail}>
+      <details className="mt-8 border-t border-[#c5d0d7] pt-4">
+        <summary className="cursor-pointer font-semibold text-[#003865]">How to use these answers</summary>
+        <aside className={styles.askRail}>
         <div className={styles.railNote}>
           <p className="kicker">How this page works</p>
           <ul className="list-disc pl-5 text-sm">
@@ -93,7 +101,8 @@ export function StaffAskBrowse({
           <p className="text-sm">Use Find the right person to match the work with its responsible supervisor, Equity Director or Specialist, policy owner, or office.</p>
           <p className="mt-2"><Link href="/support/right-person">Find the right person</Link></p>
         </div>
-      </aside>
+        </aside>
+      </details>
     </div>
   );
 }

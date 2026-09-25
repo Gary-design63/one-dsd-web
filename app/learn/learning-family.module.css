@@ -1,5 +1,5 @@
 .page { color: #182c3a; background: #F7F5EF; --learning-blue: #183247; --learning-line: #d9e0e4; }
-.page :is(a, button, input, select, summary):focus-visible { outline: 3px solid #003865; outline-offset: 4px; }
+.page :is(a, button, input, select, summary):focus-visible { outline: 3px solid #176B65; outline-offset: 4px; }
 .hero { background: #F7F5EF; border-bottom: 1px solid #dce4e9; }
 .heroInner, .content { width: min(100%, 1320px); margin-inline: auto; padding-inline: clamp(1.25rem, 4vw, 3.5rem); }
 .heroInner { padding-block: clamp(2.25rem, 5vw, 4rem); }
@@ -42,7 +42,7 @@
 .themeNote { display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; padding-block: 1.5rem; margin-bottom: 1.5rem; border-bottom: 1px solid #d9e0e4; }
 .themeNote h2, .themeNote h3 { margin: 0; font-size: 1.25rem; font-weight: 650; color: #183247; }
 .themeNote p { margin: .75rem 0 0; line-height: 1.7; }
-.readingLinks { padding: 1.25rem 1.5rem; background: #fff; border: 1px solid #d9e0e4; border-left: 4px solid #E8BD62; border-radius: .6rem; }
+.readingLinks { padding: 1.25rem 1.5rem; background: #f7f5f0; border-radius: .6rem; }
 .readingLinks h2 { font-size: 1.3rem; }
 .readingLinks li { margin-block: .65rem; }
 .resultCount { margin-block: 1.25rem 2rem; font-size: .86rem; color: #566b79; }
@@ -52,6 +52,11 @@
 .sectionHeading > span { color: #526777; font-size: .85rem; }
 .courseGrid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .5rem 2.75rem; list-style: none; margin: 0; padding: 0; }
 .courseGrid > li { min-width: 0; }
+.courseGroup { border-top: 1px solid #becbd4; }
+.courseGroupSummary { cursor: pointer; padding: 1.2rem 0; color: #526777; font-size: .9rem; }
+.courseGroupSummary::marker { color: #183247; }
+.courseGroupTitle { display: inline-block; margin-right: 1rem; color: #183247; font-size: clamp(1.6rem, 2.7vw, 2rem); font-weight: 600; letter-spacing: -.025em; line-height: 1.25; }
+.courseGroup > p { max-width: 75ch; margin: 0 0 1.25rem; line-height: 1.7; }
 .resourceList { list-style: none; padding: 0; margin: 0; }
 .resourceList > li { display: grid; grid-template-columns: minmax(9rem, .8fr) minmax(0, 3fr); column-gap: 2rem; padding-block: 1.25rem; border-bottom: 1px solid #e0e5e8; }
 .resourceList h3 { margin: 0; color: #183247; font-size: 1.1rem; font-weight: 600; line-height: 1.45; }
@@ -129,15 +134,15 @@
 .page { --program-surface: #fff; --program-border: #d8ded8; }
 .page :is(h1,h2,h3) { color: #183247; }
 .search, .readingLinks, .journeyFocus { background: #fff; }
-.search button, .themes a[aria-current] { background: #003865; border-color: #003865; color: #fff; }
-.search button:hover { background: #002b4f; }
+.search button, .themes a[aria-current] { background: #176B65; border-color: #176B65; color: #fff; }
+.search button:hover { background: #125953; }
 .search :is(input,select) { border-color: #7c8d88; }
-.heroLinks > a:first-child, .primaryAction { display: inline-block; background: #003865; color: #fff; padding: .8rem 1.2rem; border-radius: .4rem; text-decoration: none; font-weight: 650; }
+.heroLinks > a:first-child, .primaryAction { display: inline-block; background: #176B65; color: #fff; padding: .8rem 1.2rem; border-radius: .4rem; text-decoration: none; font-weight: 650; }
 .heroLinks { align-items: center; }
-.heroLinks > a:first-child:hover, .primaryAction:hover { background: #002b4f; color: #fff; }
+.heroLinks > a:first-child:hover, .primaryAction:hover { background: #125953; color: #fff; }
 .journeyFocus { border: 1px solid #d8ded8; border-radius: .8rem; padding: clamp(1.25rem,3vw,2.5rem); }
 .journeyBody > aside { background: #fff; }
-.topicStart { padding: clamp(1.25rem,3vw,2rem); background: #fff; border: 1px solid #d8ded8; border-left: .75rem solid #F0ECE2; border-radius: .8rem; }
+.topicStart { padding: clamp(1.25rem,3vw,2rem); background: #F0ECE2; border-radius: .8rem; }
 .topicStart h2 { margin: 0 0 .75rem; font-size: 1.5rem; color: #183247; }
 .topicStart p { max-width: 75ch; line-height: 1.75; }
 .readingPage > section { background: #fff; padding: clamp(1.25rem,3vw,2rem); border: 1px solid #d8ded8; border-radius: .75rem; }
@@ -148,11 +153,11 @@
 /* Topic controls stay distinct from the search panel and the reading cards. */
 .themes { gap: .75rem; margin-block: 1.5rem 2rem; }
 .themes a { min-height: 46px; display: inline-flex; align-items: center; padding: .65rem 1rem; background: #fff; border: 1.5px solid #71877e; color: #183247; font-size: .94rem; font-weight: 650; line-height: 1.5; border-radius: .45rem; }
-.themes a:hover { background: #F0ECE2; border-color: #003865; color: #183247; text-decoration: underline; text-underline-offset: .25em; }
-.themes a[aria-current] { background: #003865; border-color: #003865; color: #fff; }
-.themes a[aria-current]:hover { background: #002b4f; color: #fff; }
+.themes a:hover { background: #F0ECE2; border-color: #176B65; color: #183247; text-decoration: underline; text-underline-offset: .25em; }
+.themes a[aria-current] { background: #176B65; border-color: #176B65; color: #fff; }
+.themes a[aria-current]:hover { background: #125953; color: #fff; }
 .themes a:focus-visible { outline: 3px solid #183247; outline-offset: 4px; }
-.search { background: #fff; padding: clamp(1.25rem,2.5vw,2rem); border: 1px solid #a9b2b7; border-top: 4px solid #E8BD62; box-shadow: 0 3px 0 #f3efe6; }
+.search { background: #F0ECE2; padding: clamp(1.25rem,2.5vw,2rem); border: 1px solid #a9b2b7; box-shadow: 0 3px 0 #e4dfd3; }
 .search :is(input,select) { background: #fff; color: #183247; border: 1px solid #71877e; }
 .search label { color: #183247; }
 .resultCount { padding-bottom: 1rem; border-bottom: 1px solid #d8ded8; }
@@ -161,3 +166,12 @@
 
 .page, .hero, .topicStart { background: #fff; }
 .topicStart { border: 1px solid #c6cfd3; }
+
+/* The first learning choice stays prominent; the complete journey remains one click away. */
+.journeyNav { max-width: 64rem; border-block: 1px solid #d9e0e4; padding-block: .75rem; }
+.journeyNav > summary { min-height: 44px; cursor: pointer; color: #183247; font-weight: 650; line-height: 2.75rem; }
+.journeyNav nav { display: flex; flex-wrap: wrap; gap: .5rem 1.5rem; padding: .65rem 0 .5rem; }
+.journeyNav nav a { color: #183247; font-weight: 600; text-underline-offset: .25em; }
+.journeyDownloads { max-width: 64rem; border-bottom: 1px solid #d9e0e4; padding-bottom: .7rem; }
+.journeyDownloads > summary { min-height: 44px; cursor: pointer; color: #183247; font-weight: 650; line-height: 2.75rem; }
+.journeyDownloads [data-resource-download] { padding-bottom: .5rem; }

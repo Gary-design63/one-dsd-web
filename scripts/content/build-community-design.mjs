@@ -10,10 +10,10 @@ const communities=rows.filter(r=>r.assetKind==='community_brief'||r.assetKind===
  const sections=chapters.map(c=>({heading:c.heading,body:c.body.split(/\n\s*\n/).filter(p=>{
    // Internal production commentary is retained in the source and recorded here,
    // not presented as community knowledge in the design preview.
-   const internal=/Nothing from the consultant|living candidate|staff keep a stable doorway|Wikipedia lines|ERGs inside DHS are a verification|This copy is|promote.*administration/i.test(p);
+   const internal=/Nothing from the consultant|living candidate|staff keep a stable doorway|lines were not allowed to be the voice|ERGs inside DHS are a verification|This copy is|promote.*administration/i.test(p);
    if(internal)omitted.push({id:r.assetId,heading:c.heading,text:p});
    return !internal;
- }).join('\n\n')})).filter(c=>c.body);
+ }).join('\n\n').replace(/Community and media estimates have been cited near 20,000 Karen in Minnesota \([^)]*\). Date them as estimates. They are not Compass\./, 'Community and local news accounts sometimes offer estimates, but they are not Minnesota Compass counts. Do not treat them as a confirmed count for this page.')})).filter(c=>c.body);
  const titles={black:'African American Minnesota','native-american':'Native American Minnesotans',lao:'Lao Minnesota','european-american':'European American Minnesota'};
  return {id:aliases[r.assetId]||r.assetId,sourceId:r.assetId,title:titles[r.assetId]||r.title,sections};
 });

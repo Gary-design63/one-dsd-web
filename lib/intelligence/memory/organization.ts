@@ -16,7 +16,7 @@ export function organizationalDocs(now = new Date()): Doc[] {
     const sources = entry.sourceIds.map(id => reference.sources.find(source => source.id === id)!);
     const due = sources.some(source => sourceReviewDue(source, now));
     const summary = due
-      ? `Last checked ${reference.checkedOn}; a source refresh is due. This is a dated reference, not a claim of current verification. ${entry.facts}`
+      ? `A source refresh is due. This reference does not establish that details are current. ${entry.facts}`
       : entry.facts;
     return {
       kind: "content", id: entry.id, title: entry.title,

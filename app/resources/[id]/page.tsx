@@ -16,7 +16,7 @@ import { editingModeFromCookies } from "@/lib/auth/request";
 import { loadEditableResourceState } from "@/lib/content/resource-drafts";
 import { getPublishedStaffContent } from "@/lib/content/staff-publications";
 import { getPath, GRADUATION_PATHS } from "@/lib/content/paths";
-import { AUTHORITY, CONTENT_TYPE_LABEL, LAYER_LABEL, reviewDateText } from "@/lib/content/types";
+import { AUTHORITY, CONTENT_TYPE_LABEL, LAYER_LABEL } from "@/lib/content/types";
 import { PROGRAM } from "@/lib/constants";
 import { consultationIntakeEnabled } from "@/lib/intelligence/consult/availability";
 import { requestedContentScope } from "@/lib/product/request-context";
@@ -77,7 +77,7 @@ export default async function ResourcePage({ params, searchParams }: { params: P
     <EditableSurfaceRegion surface={shellSurface} className={styles.page}>
       <header className={styles.hero}><div className={styles.heroInner}><Link href="/learn" className={styles.back}>← Learning and resources</Link><p className={styles.eyebrow}>{CONTENT_TYPE_LABEL[c.type]} · {LAYER_LABEL[c.layer]}</p><h1>{c.title}</h1><p className={styles.lede}>{c.summary}</p><div className={styles.resourceActions}><a href="#resource-reading" className={styles.primaryAction}>Read this resource</a>{c.href ? <a href={c.href} rel="noreferrer">Open {c.sourceName || "the original source"}</a> : null}</div><details className={styles.downloadOptions}><summary>Download or share</summary><ResourceDownloads kind="library" id={c.id} scope={scope} /><ResourceShare title={c.title} href={"/share/library/" + encodeURIComponent(c.id)} /></details>{owner ? <ResourceRemove contentItemId={c.id} title={c.title} /> : null}<ResourceMediaGallery contentItemId={c.id} owner={owner} />
         <p className={styles.meta}>
-          {stringValue(shell, "preparedByLabel")} {c.owner}. {reviewDateText(c.reviewDate)}. {stringValue(shell, "forLabel")}: {c.scope === "dsd" ? PROGRAM.oneDsdProgramName : PROGRAM.fullName}.
+          {stringValue(shell, "preparedByLabel")} {c.owner}. {stringValue(shell, "forLabel")}: {c.scope === "dsd" ? PROGRAM.oneDsdProgramName : PROGRAM.fullName}.
         </p>
       </div></header>
       <div className={styles.content}>

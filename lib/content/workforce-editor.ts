@@ -27,6 +27,11 @@ const CLASS_ROLES: EditableRichBlock[] = [
   { type: "paragraph", text: "The specification describes program management involving priorities, people, resources, and evaluation. Suggested learning connection: examine resource decisions, clarify responsibility, and assess an improvement. A general classification description does not establish an individual's delegated authority." },
 ];
 
+/** Published work maps can retain the older dated directory status. */
+export function workforceStatusText(status: string): string {
+  return status.replace(/\b(Public directory reference)\s+(?:checked|reviewed)\s+(?:on\s+)?(?:[A-Za-z]+\s+\d{1,2},\s+\d{4}|\d{4}-\d{2}-\d{2})\b/gi, "$1");
+}
+
 export const WORKFORCE_SURFACES = ORGANIZATIONAL_AREAS.map(area => defineEditableSurface({
   surfaceId: `workforce.${area.id}`, route: `/consultant/workforce/${area.id}`, label: `Work map: ${area.name}`, scopePolicy: "one-dhs",
   fields: [
@@ -42,7 +47,7 @@ export const WORKFORCE_SURFACES = ORGANIZATIONAL_AREAS.map(area => defineEditabl
   approvedValues: {
     name: area.name,
     relationship: area.id === "dsd" ? "Within the Aging and Disability Services Administration." : area.parentId ? "Listed as an agency area or associated service. This does not establish a direct reporting line." : "Agency-level reference.",
-    status: "Public directory reference checked September 6, 2026. Detailed positions and local responsibilities still need confirmation.",
+    status: "Public directory reference. Detailed positions and local responsibilities still need confirmation.",
     leadership: LEADERSHIP[area.id] ?? [], roles: area.id === "dsd" ? DSD_ROLES : area.id === "dhs" ? CLASS_ROLES : [], changes: [],
     sources: [{ label: "DHS organizational information", href: WORKFORCE_RESEARCH.organizationSource }, ...(area.id === "dhs" ? [
       { label: "Program Specialist 1 specification", href: "https://mn.gov/mmb-stat/hr-toolbox/002-class-and-compensation/001-classification/class-specs/h/2458-hum-serv-prog-spec-1.pdf" },

@@ -54,6 +54,7 @@ describe("source register", () => {
     const groups = registerSourcesForStaff();
     expect(groups.map(group => group.group)).toContain("government");
     expect(groups.flatMap(group => group.sources).some(source => source.kind === "program_route")).toBe(false);
+    expect(groups.flatMap(group => group.sources).some(source => /wiki(?:pedia|media|data)/i.test(`${source.title} ${source.href ?? ""}`))).toBe(false);
     expect(authorityGroupFor({ host: "mn.gov", kind: "external" })).toBe("government");
     expect(authorityGroupFor({ host: "www.w3.org", kind: "external" })).toBe("standards");
     expect(authorityGroupFor({ host: "askjan.org", kind: "external" })).toBe("disability_and_civil_rights");

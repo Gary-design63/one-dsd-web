@@ -235,7 +235,7 @@ const pack: CoursePack = {
   },
   sources: [
     { title: "Hammer, M. R. (2011). The Intercultural Development Inventory. IDI, LLC.", href: "https://www.idiinventory.com/", note: "Source for the five orientations a licensed IDI assessment measures — Denial, Polarization, Minimization, Acceptance, and Adaptation — which this program's continuum draws on. The IDI does not measure Integration." },
-    { title: "Bennett, M. J. (1993). Towards Ethnorelativism: A Developmental Model of Intercultural Sensitivity.", href: "https://en.wikipedia.org/wiki/Milton_J._Bennett", note: "Source for Integration, the sixth stage of this program's continuum and this module's stage description; the developmental model the IDI grew from." },
+    { title: "Bennett, M. J. (1993). Towards Ethnorelativism: A Developmental Model of Intercultural Sensitivity.", href: "https://www.idrinstitute.org/resources/chapters-on-dmis/", note: "Source for Integration, the sixth stage of this program's continuum and this module's stage description; the developmental model the IDI grew from." },
   ],
 };
 

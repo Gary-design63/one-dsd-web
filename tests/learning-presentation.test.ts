@@ -5,6 +5,7 @@ import { createElement, type ReactNode } from "react";
 import { renderToStaticMarkup, renderToReadableStream } from "react-dom/server";
 import { beforeEach, describe, expect, it, vi } from "vitest";
 import { CORPUS } from "@/lib/content/corpus";
+import { ALL_COURSE_SURFACES } from "@/lib/content/courses/definitions";
 import { GRADUATION_PATHS } from "@/lib/content/paths";
 import { LEARNING_STAGES } from "@/lib/product/learning";
 import { getEditableSurfaceDefinition } from "@/lib/content/staff-surface-registry";
@@ -32,6 +33,7 @@ vi.mock("@/components/editable-surface", () => ({
 import LearnPage from "@/app/learn/page";
 
 const root = path.resolve(import.meta.dirname, "..");
+const expectedLearningCount = CORPUS.filter((item) => item.status === "approved" && (item.type === "learning_module" || item.type === "scenario") && item.id !== "lm-how-this-program-works").length + ALL_COURSE_SURFACES.length;
 
 describe("Learning thumbnail presentation", () => {
   beforeEach(() => { state.catalogAvailable = true; state.hubAvailable = true; });
@@ -45,7 +47,7 @@ describe("Learning thumbnail presentation", () => {
     html = await renderAsync(await LearnPage({ searchParams: Promise.resolve({ browse: "all" }) }));
     expect(html).not.toContain("learning-hub-search");
     expect(html).not.toContain("Amplify Equity");
-    expect(html.match(/data-learning-id=/g)).toHaveLength(212);
+    expect(html.match(/data-learning-id=/g)).toHaveLength(expectedLearningCount);
   });
 
   it("keeps filtered results focused while retaining direct resource access", async () => {
@@ -57,7 +59,7 @@ describe("Learning thumbnail presentation", () => {
 
   it("shows real modules first and keeps stages, practice paths, and the staff guide distinct", async () => {
     const html = await renderAsync(await LearnPage({ searchParams: Promise.resolve({ browse: "all" }) }));
-    expect(html.match(/data-learning-id=/g)).toHaveLength(212);
+    expect(html.match(/data-learning-id=/g)).toHaveLength(expectedLearningCount);
     expect(html).toContain('href="/library/lm-how-this-program-works"');
     expect(html).not.toContain('data-learning-id="lm-how-this-program-works"');
     expect(html.indexOf('id="modules-title"')).toBeLessThan(html.indexOf('id="stages-title"'));
@@ -76,7 +78,7 @@ describe("Learning thumbnail presentation", () => {
   it("does not expose unpublished images or hide the underlying learning resources", async () => {
     state.catalogAvailable = false;
     const html = await renderAsync(await LearnPage({ searchParams: Promise.resolve({ browse: "all" }) }));
-    expect(html.match(/data-learning-id=/g)).toHaveLength(212);
+    expect(html.match(/data-learning-id=/g)).toHaveLength(expectedLearningCount);
     const originalTile = html.match(/<a[^>]*data-learning-id="lm-interpreter"[\s\S]*?<\/a>/)?.[0] ?? html.match(/<a[^>]*href="\/library\/lm-interpreter"[\s\S]*?<\/a>/)?.[0];
     expect(originalTile).toBeDefined();
     expect(originalTile).not.toContain("<img");

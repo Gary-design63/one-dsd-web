@@ -26,7 +26,6 @@ export default async function ReviewPage() {
                 <tr>
                   <th scope="col">Item</th>
                   <th scope="col">Problem</th>
-                  <th scope="col">Review date</th>
                   <th scope="col">Owner</th>
                 </tr>
               </thead>
@@ -35,7 +34,6 @@ export default async function ReviewPage() {
                   <tr key={f.id + f.problem}>
                     <td>{f.title}</td>
                     <td>{f.problem.replace(/_/g, " ")}</td>
-                    <td>{f.reviewDate}</td>
                     <td className="text-xs">{f.owner}</td>
                   </tr>
                 ))}

@@ -11,9 +11,15 @@ describe("the program training-credit rule", () => {
     expect(html).toContain(TRAINING_CREDIT_NOTICE);
     expect(html).toContain("do not count toward DHS-required training credits unless management, a director, or DHS leadership expressly approves an exception");
     expect(html.split(TRAINING_CREDIT_NOTICE)).toHaveLength(2);
-    expect(html).toContain("stay on this device until you delete them");
-    expect(html).toContain("anyone using this computer may see them");
-    expect(html).toMatch(/not shared with supervisors|not sent to your supervisor/);
+    if (surface === "learning") {
+      expect(html).toContain("stay on this device until you delete them");
+      expect(html).toContain("anyone using this computer may see them");
+      expect(html).toContain("not shared with supervisors");
+    } else {
+      expect(html).toContain("This page does not save your answers or progress");
+      expect(html).toContain("Notes saved through an earlier version may still be in this browser");
+      expect(html).toContain("Nothing you read or download here is sent to your supervisor");
+    }
   });
 
   it("keeps the exception consistent across optional learning, support, and collaboration contracts", () => {

@@ -3,6 +3,7 @@ import { MEASUREMENT_FIELD_IDS, MEASUREMENT_RESOURCE_ID, measurementText } from 
 import { getPath } from "@/lib/content/paths";
 import { loadStaffContentSnapshot, type StaffProgramScope } from "@/lib/content/staff-publications";
 import { applyGraduationPathValues, graduationPathSurfaceId, stringValue } from "@/lib/content/staff-surface-registry";
+import { publishedPracticePath, PUBLISHED_PATH_FILE_NOTICE } from "@/lib/content/published-practice-path";
 import { bullets, callout, compactSections, fields, paragraph, section, type InlineRun, type ResourceDocument } from "../model";
 import { kicker, linkRuns, programName } from "./shared";
 
@@ -14,7 +15,7 @@ export async function pathDocument(id: string, scope: StaffProgramScope): Promis
     prepareEditableSurface("practice.path-shell", { scope, includeOwner: false }),
   ]);
   if (!pathSurface.available || !shellSurface.available) return null;
-  const path = applyGraduationPathValues(raw, pathSurface.values);
+  const path = publishedPracticePath(applyGraduationPathValues(raw, pathSurface.values));
   const shell = shellSurface.values;
   const outcomeLead = /^By the end\b/i.test(path.graduatedLooksLike) ? "" : `${stringValue(shell, "outcomeLead")}: `;
 
@@ -46,7 +47,7 @@ export async function pathDocument(id: string, scope: StaffProgramScope): Promis
         path.hrWall ? callout(stringValue(shell, "confidentialRouteNote")) : null,
       ]),
       section(path.artifactTitle, [
-        callout(stringValue(shell, "artifactPrivacy"), "Privacy"),
+        callout(PUBLISHED_PATH_FILE_NOTICE, "Privacy"),
         fields(path.artifactFields.map((field) => ({ label: `${field.label}${field.required ? " (required)" : ""}`, value: field.help || " " }))),
         { kind: "heading", level: 3, text: "Review your notes against" },
         bullets(path.rubric.map((rule) => rule.label)),

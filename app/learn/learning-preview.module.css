@@ -3,28 +3,32 @@
 .page .hero { background: #fff; border-bottom: 1px solid #d8ded8; }
 .hero h1::after { content: ""; display: block; width: 3.5rem; height: 3px; margin-top: 1.25rem; background: #E8BD62; }
 .hero > div > p:first-child { display: inline-block; color: #183247; font-size: .94rem; font-weight: 550; letter-spacing: .025em; text-transform: none; background: #fff; border: 1px solid #9ba8b0; border-left: 3px solid #183247; border-radius: .25rem; padding: .65rem 1rem; margin-bottom: 1.5rem; }
-.startHere { margin: 0 0 3.5rem; padding: clamp(1.4rem,3vw,2.5rem); background: linear-gradient(135deg,#edf2f5 0%,#f7f9fa 58%,#fff 100%); border: 1px solid #cbd6dd; border-radius: .85rem; box-shadow: 0 4px 0 #e7ecef; scroll-margin-top: 2rem; }
-.startHere > p:first-child { display: inline-block; margin-bottom: 1rem; color: #183247; background: #fff; border: 1px solid #c6d1d8; border-left: 3px solid #E8BD62; border-radius: .35rem; padding: .45rem .75rem; }
+.startHere { margin: 0 0 3.5rem; padding: clamp(1.4rem,3vw,2.5rem); background: #eef2f5; border-radius: 1rem; scroll-margin-top: 2rem; }
 .startHere h2 { margin: 0; color: #183247; font-size: clamp(1.7rem,3vw,2.3rem); font-weight: 600; letter-spacing: -.025em; }
 .startHere > p { max-width: 70ch; line-height: 1.75; }
 .startGrid { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 2rem; margin-block: 2rem; }
-.startGrid article { min-width: 0; padding: 1.15rem; background: #fff; border: 1px solid #d5dee4; border-top: 3px solid #E8BD62; border-radius: .65rem; }
+.startGrid article { border-top: 1px solid #aebdca; padding-top: 1.25rem; min-width: 0; }
 .startGrid h3 { margin: 0; font-size: 1.2rem; line-height: 1.4; }
 .startGrid h3 a { color: #183247; text-decoration: none; }
-.startGrid p { line-height: 1.75; color: #354b49; margin-block: .8rem 1.1rem; }
-.startGrid article > a { color: #003865; font-weight: 650; text-underline-offset: .25em; }
+.startGrid p { line-height: 1.75; color: #405361; margin-block: .8rem 1.1rem; }
+.startGrid article > a { color: #183247; font-weight: 650; text-underline-offset: .25em; }
 .voluntary, .credit { font-size: .9rem; line-height: 1.7; }
 .credit summary { cursor: pointer; padding-block: .6rem; color: #183247; font-weight: 600; }
 .topicFirst { background: #fff; border-radius: .6rem; margin-block: 1.5rem; padding: 1.5rem; max-width: 78ch; }
 .topicFirst h3 { font-size: .85rem; margin: 0 0 .7rem; }
-.topicFirst > a { font-size: 1.2rem; font-weight: 600; color: #003865; }
+.topicFirst > a { font-size: 1.2rem; font-weight: 600; color: #183247; }
 .topicFirst p { line-height: 1.75; margin-bottom: 0; }
 .collectionTitle { color: #183247; font-size: 1.8rem; margin-bottom: 1.4rem; font-weight: 600; }
 .collectionIntro { max-width: 65ch; color: #415563; line-height: 1.7; margin-bottom: 1.5rem; }
 .browseAll { margin-top: 1.5rem; }
-.browseAll a { display: inline-block; padding: .9rem 1.2rem; background: #003865; color: #fff; border-radius: .4rem; font-weight: 600; text-decoration: none; }
-.browseAll a:hover { background: #002b4f; }
-.disclosure { border-block: 1px solid #c9d5ce; margin-top: 1.4rem; padding: .25rem 0; }
+.browseAll a { display: inline-block; padding: .9rem 1.2rem; background: #183247; color: #fff; border-radius: .4rem; font-weight: 600; text-decoration: none; }
+.browseAll a:hover { background: #284a64; }
+.filterOptions { margin-top: 1.15rem; border-top: 1px solid #d2dce3; }
+.filterOptions > summary { min-height: 44px; padding-top: .9rem; color: #183247; font-size: .94rem; font-weight: 650; cursor: pointer; }
+.filterOptions[open] > summary { margin-bottom: .25rem; }
+.filterOptions :global(label) { margin-bottom: .3rem; }
+.clearFilters { display: inline-block; margin-top: 1rem; color: #183247; font-weight: 650; text-underline-offset: .25em; }
+.disclosure { border-block: 1px solid #cbd6df; margin-top: 1.4rem; padding: .25rem 0; }
 .disclosure > summary { cursor: pointer; padding: 1rem .3rem; color: #183247; font-weight: 650; line-height: 1.5; min-height: 48px; }
 .disclosure[open] > summary { margin-bottom: 1.25rem; border-bottom: 1px solid #d8ded8; }
 .disclosure > summary:hover { background: #fff; }

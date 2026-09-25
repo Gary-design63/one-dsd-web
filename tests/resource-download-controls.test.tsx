@@ -68,13 +68,13 @@ describe("resource pages", () => {
 });
 
 describe("courses stay on the program", () => {
-  it("omits the Outcomes jump link when optional learning metadata is absent", async () => {
+  it("omits optional outcomes while keeping the course outline visible", async () => {
     state.omitLearning = true;
     const html = renderToStaticMarkup(await CoursePage({ params: Promise.resolve({ courseId: course.id }) }));
     expect(html).not.toContain('href="#outcomes"');
     expect(html).not.toContain('id="outcomes"');
-    expect(html).toContain('href="#lessons"');
     expect(html).toContain('id="lessons"');
+    expect(html).toContain("<h2>Course outline</h2>");
     expect(html).toContain(course.title);
   });
 

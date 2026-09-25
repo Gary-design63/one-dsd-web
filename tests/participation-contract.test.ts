@@ -130,7 +130,7 @@ describe("staff participation contracts", () => {
       const text = Object.values(PARTICIPATION_CONTRACTS[surface].disclosure).join(" ");
       expect(text).toMatch(/not required training or compliance/i);
       expect(text).toMatch(/supervisor/i);
-      expect(text).toMatch(/not (?:sent|receive|used)/i);
+      expect(text).toMatch(/not (?:sent|receive|used)|does not send/i);
     }
   });
 

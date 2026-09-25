@@ -23,7 +23,7 @@ function reviewNote(value: string) {
     .replace("Downgraded to Under review until a human confirms authority.", "Shown as Under review until a person confirms its authority.")
     .replace("owner must choose", "you must choose")
     .replace("No authority declared. Draft label is Under review; you must choose Guidance, Practice note, or Learning.", "No authority was provided. Keep this resource Under review until you choose Guidance, Practice note, or Learning.")
-    .replace("No review date; currency unknown.", "No review date was provided, so it is not clear whether this resource is current.");
+    .replace("No review date; currency unknown.", "It is not clear whether this resource is current.");
 }
 
 export function ReviewClient() {

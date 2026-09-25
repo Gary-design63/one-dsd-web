@@ -36,7 +36,7 @@ export function AskRecordDetail({ record }: { record: AskResponseRecord }) {
         {response.answer.whyItMatters && <Text>{response.answer.whyItMatters}</Text>}
         {response.answer.notice && <Text>{response.answer.notice}</Text>}
         {!!response.answer.limits.length && <div><h4 className="font-bold">Limits</h4><ul className="list-disc pl-5">{response.answer.limits.map((limit, index) => <li key={index}>{limit}</li>)}</ul></div>}
-        {!!response.answer.sources.length && <div><h4 className="font-bold">Program sources</h4><ul className="list-disc pl-5">{response.answer.sources.map((source, index) => <li key={index}><LinkText href={source.href}>{source.title}</LinkText><p className="text-sm">{source.authorityLabel}. {source.authorityDescription} {source.reviewLabel}</p></li>)}</ul></div>}
+        {!!response.answer.sources.length && <div><h4 className="font-bold">Program sources</h4><ul className="list-disc pl-5">{response.answer.sources.map((source, index) => <li key={index}><LinkText href={source.href}>{source.title}</LinkText><p className="text-sm">{source.authorityLabel}. {source.authorityDescription}</p></li>)}</ul></div>}
         {response.answer.publicResearch && <div>
           <h4 className="font-bold">{response.answer.publicResearch.heading}</h4>
           {response.answer.publicResearch.answer && <Text>{response.answer.publicResearch.answer}</Text>}
@@ -45,7 +45,7 @@ export function AskRecordDetail({ record }: { record: AskResponseRecord }) {
         </div>}
         {!!response.answer.nextActions.length && <div><h4 className="font-bold">Suggested next steps</h4><ul className="list-disc pl-5">{response.answer.nextActions.map((item, index) => <li key={index}><LinkText href={item.href}>{item.label}</LinkText></li>)}</ul></div>}
         {!!response.answer.questions?.length && <div><h4 className="font-bold">Follow-up questions</h4><ul className="list-disc pl-5">{response.answer.questions.map((item, index) => <li key={index}>{item.categoryLabel}: {item.text}</li>)}</ul></div>}
-        {response.answer.conflict && <div><h4 className="font-bold">Source differences</h4><Text>{response.answer.conflict.message}</Text><ul className="list-disc pl-5">{response.answer.conflict.sources.map((source, index) => <li key={index}><LinkText href={source.href}>{source.title}</LinkText> — {source.authorityLabel}. {source.authorityDescription} {source.reviewLabel}</li>)}</ul></div>}
+        {response.answer.conflict && <div><h4 className="font-bold">Source differences</h4><Text>{response.answer.conflict.message}</Text><ul className="list-disc pl-5">{response.answer.conflict.sources.map((source, index) => <li key={index}><LinkText href={source.href}>{source.title}</LinkText> — {source.authorityLabel}. {source.authorityDescription}</li>)}</ul></div>}
         {response.answer.pathSuggestion && <div><h4 className="font-bold">Suggested practice</h4><p><LinkText href={response.answer.pathSuggestion.href}>{response.answer.pathSuggestion.title}</LinkText></p><Text>{response.answer.pathSuggestion.why}</Text></div>}
         {response.answer.consultation && <div><h4 className="font-bold">Consultation option</h4><Text>{response.answer.consultation.reason}</Text><Text>{response.answer.consultation.questionSummary}</Text></div>}
       </>}

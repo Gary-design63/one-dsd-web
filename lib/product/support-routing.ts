@@ -100,12 +100,12 @@ export const DSD_ELIGIBILITY_OPTIONS = [
   {
     id: "not_checked",
     label: "I’m not sure whether this work is within One DSD",
-    description: "Find the right person now, or confirm the division before requesting a DSD consultation.",
+    description: "Find the right person now, or confirm which division owns the work.",
   },
   {
     id: "self_attested_dsd",
     label: "This work is within the Disability Services Division",
-    description: "A consultation request can be sent for DSD eligibility review.",
+    description: "See the people and offices responsible for this DSD work.",
   },
   {
     id: "not_dsd",
@@ -160,6 +160,8 @@ export type DsdConsultationSupportRoute = SupportRouteBase & Readonly<{
 export type SupportRouteDecision = RightPersonSupportRoute | DsdConsultationSupportRoute;
 
 export const DSD_CONSULTATION_PATH = "/support/request";
+/** Staff consultation intake remains closed on the published request page. */
+export const STAFF_CONSULTATION_REQUESTS_OPEN = false;
 
 export function contextualizeSupportAction(
   action: Readonly<{ label: string; href: string }>,
@@ -167,6 +169,10 @@ export function contextualizeSupportAction(
   intakeEnabled: boolean,
 ): { label: string; href: string } {
   if (!action.href.startsWith(DSD_CONSULTATION_PATH)) return { ...action };
+  // Keep every staff handoff aligned with the published, closed request page.
+  if (!STAFF_CONSULTATION_REQUESTS_OPEN) {
+    return { label: "Find the right person or office", href: "/support/right-person" };
+  }
   if (context !== "one_dsd") {
     return {
       label: "Find the right person or office",

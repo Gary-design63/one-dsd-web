@@ -13,11 +13,12 @@ export const metadata = { title: "One DSD Team" };
 export default async function Page() {
   const surface = await prepareEditableSurface("dsd-team.home");
   const copy = surface.values;
+  const teamSection = (index: number) => <section key={index}><h2 className="text-2xl font-semibold">{stringValue(copy, `heading${index}`)}</h2><p className="mt-3 leading-relaxed">{stringValue(copy, `body${index}`)}</p>{index === 1 && <EngagementContributionMap />}</section>;
   return <EditableSurfaceRegion surface={surface} className={styles.page}>
     <div className="wrap max-w-6xl py-10">
       <Link href="/one-dsd">{stringValue(copy, "backLabel")}</Link>
-      {surface.available ? <ResourceDownloads kind="team" id="one-dsd" noun="page" scope="dsd" /> : null}
       <header className={`${styles.hero} my-7 overflow-hidden rounded-2xl border border-[#dfd8cb] bg-[#faf7f1]`}><div className="grid lg:grid-cols-2"><div className="p-7 sm:p-10"><p className={styles.eyebrow}>Shared knowledge. Practical change.</p><h1 className="mt-4 text-4xl font-semibold md:text-5xl">{stringValue(copy, "title")}</h1><p className="mt-5 text-xl leading-relaxed">{stringValue(copy, "intro")}</p><p className="mt-5 leading-7">A voluntary, staff-driven team led by the Equity and Inclusion Operations Consultant. Bring your experience, grow alongside colleagues, and help make equity part of how our division works.</p><div className="mt-6 flex flex-wrap items-center gap-5"><Link className="inline-block rounded-full bg-[#123f60] px-6 py-3 font-semibold text-white" href="/orientation">New here? Find your starting point →</Link><Link className="font-semibold" href="/one-dsd/team/workspace">Team members: open the team space →</Link></div></div><Image src="/images/one-dsd-planning-together.webp" alt="Four colleagues planning together around a table and arranging ideas on a board." width={1536} height={1024} className="h-auto w-full self-center" sizes="(min-width: 1024px) 50vw, 100vw" /></div></header>
+      {surface.available ? <details className="my-6 border-y border-line py-4"><summary className="cursor-pointer font-semibold">Download this team page</summary><div className="mt-4"><ResourceDownloads kind="team" id="one-dsd" noun="page" scope="dsd" compact /></div></details> : null}
       <section className="my-10"><h2 className="text-3xl font-semibold">A doing space. A growing space.</h2><div className={`${styles.entryCards} mt-6 grid gap-5 md:grid-cols-3`}>{[
         ["Explore the work", "Look across workforce practices, policy, programs, services, access, partnerships, resources, and the evidence that helps us understand results.", "/one-dsd", "Explore DSD program areas"],
         ["Learn together", "Bring a question, explore a topic with the consultant, or listen to another perspective. Learning Labs and open hours leave room for curiosity.", "/one-dsd/team/learning-lab", "Visit the Learning Lab"],
@@ -27,7 +28,13 @@ export default async function Page() {
       <section className={`${styles.leadershipInvitation} my-9 rounded-xl bg-[#f2edf7] p-7`}><h2 className="text-2xl font-semibold">Grow the practice of leadership</h2><p className="my-4 leading-7">Explore how DEIA shapes hiring, everyday support, development, and succession. Bring a reflection or a practice question back to the team.</p><Link href="/one-dsd/leadership">Explore DEIA leadership and growth →</Link></section>
       <ProgramConnections /><LearningJourneyLink scope="dsd" compact />
       <div className="grid gap-12 lg:grid-cols-[minmax(0,1fr)_17rem]">
-        <div className={`${styles.readingSections} space-y-8`}>{TEAM_SECTIONS.map((_, i) => <section key={i}><h2 className="text-2xl font-semibold">{stringValue(copy, `heading${i}`)}</h2><p className="mt-3 leading-relaxed">{stringValue(copy, `body${i}`)}</p>{i === 1 && <EngagementContributionMap />}</section>)}</div>
+        <div className={`${styles.readingSections} space-y-6`}>
+          {teamSection(0)}
+          <details className="border-t border-line pt-5">
+            <summary className="cursor-pointer text-xl font-semibold">How the team works in practice</summary>
+            <div className="mt-6 space-y-8">{TEAM_SECTIONS.slice(1).map((_, index) => teamSection(index + 1))}</div>
+          </details>
+        </div>
         <aside className={styles.sidebar}><h2 className="text-xl font-semibold">{stringValue(copy, "linksTitle")}</h2><ul className="mt-5 space-y-5">{linkListValue(copy, "links").map(link => <li key={link.href}><Link href={link.href}>{link.label}</Link></li>)}</ul></aside>
       </div>
     </div>

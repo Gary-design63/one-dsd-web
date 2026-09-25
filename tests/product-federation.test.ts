@@ -135,7 +135,7 @@ describe("work-area and Start contracts", () => {
 });
 
 describe("institutional support routing", () => {
-  it("never exposes a DSD consultation action in the One DHS view", () => {
+  it("routes staff consultation links to usable support while intake is closed", () => {
     const consultation = { label: "Request a consultation", href: "/support/request?from=resource" };
 
     expect(contextualizeSupportAction(consultation, "one_dhs", true)).toEqual({
@@ -147,10 +147,13 @@ describe("institutional support routing", () => {
       href: "/support/right-person",
     });
     expect(contextualizeSupportAction(consultation, "one_dsd", false)).toEqual({
-      label: "Preview a DSD consultation request",
-      href: "/support/request?from=resource",
+      label: "Find the right person or office",
+      href: "/support/right-person",
     });
-    expect(contextualizeSupportAction(consultation, "one_dsd", true)).toEqual(consultation);
+    expect(contextualizeSupportAction(consultation, "one_dsd", true)).toEqual({
+      label: "Find the right person or office",
+      href: "/support/right-person",
+    });
   });
 
   it("offers DSD consultation only for DSD context with a separate DSD attestation", () => {

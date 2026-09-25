@@ -73,3 +73,32 @@
 .page:global(.course-page), .outcomes { background: #fff; }
 .outcomes { border: 1px solid #c6cfd3; }
 .page :is(h2,h3) { font-weight: 600; }
+
+/* Course introductions lead with a clear start and lesson sequence. */
+.courseLanding:global(.course-page) { background: #fff; }
+.courseLanding .hero { border-bottom-color: #d9e0e4; }
+.courseLanding :global(.button) { background: #183247; border-color: #183247; color: #fff; }
+.courseLanding :global(.button):hover { background: #244c68; border-color: #244c68; }
+.courseLanding section { margin-top: 2.25rem; }
+.courseLanding .lessons { padding: 0; border: 0; border-radius: 0; }
+.courseLanding .lessons > li:hover { background: #f7f9fa; }
+.courseLanding .outcomes,
+.courseLanding .jobAid,
+.courseLanding .introduction { margin-top: 2.25rem; scroll-margin-top: 1.5rem; }
+.courseLanding .outcomes { display: block; padding: 1.15rem 1.5rem; border: 1px solid #dbe3e8; border-left: 3px solid #93a9ba; border-radius: .4rem; background: #f5f8fa; }
+.courseLanding .outcomes > summary,
+.courseLanding .jobAid > summary,
+.courseLanding .introduction > summary { min-height: 44px; cursor: pointer; color: #183247; }
+.courseLanding .outcomes > summary h2,
+.courseLanding .jobAid > summary h2 { display: inline; margin: 0; font-size: clamp(1.3rem,2.2vw,1.6rem); }
+.courseLanding .outcomeBody { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem 2rem; padding-top: 1.25rem; }
+.courseLanding .outcomeBody > p { grid-column: 1/-1; margin: 0; }
+.courseLanding .jobAid { padding: 1.5rem 0; border: 0; border-top: 2px solid #e8bd62; border-bottom: 1px solid #d9e0e4; border-radius: 0; background: #fff; }
+.courseLanding .jobAid > summary span { display: block; margin: .55rem 0 0 1.5rem; color: #526b7c; font-size: .95rem; line-height: 1.6; }
+.courseLanding .jobAidBody { max-width: 88ch; padding-top: 1.25rem; }
+.courseLanding .introduction { max-width: 78ch; }
+.courseLanding .introduction > summary { padding-block: .65rem; font-weight: 650; }
+@media (max-width: 700px) {
+  .courseLanding .outcomeBody { grid-template-columns: 1fr; }
+  .courseLanding .outcomes { padding: 1.15rem; }
+}

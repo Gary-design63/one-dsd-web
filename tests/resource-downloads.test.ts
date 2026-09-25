@@ -51,6 +51,20 @@ async function download(kind: string, id: string, query: string) {
 }
 
 describe("resource downloads", () => {
+  it("describes GP-1 as a blank download rather than a saved browser worksheet", async () => {
+    const document = (await resolveDownloadDocument("path", "gp-1", "one-dhs"))!;
+    const copy = JSON.stringify(document);
+    expect(copy).toContain("Use the downloaded checklist to write your answers");
+    expect(copy).toContain("Nothing you write in that file is saved back to this page");
+    expect(copy).not.toContain("Your notes are saved only on this computer");
+    expect(copy).not.toContain("Your progress is saved only on this computer");
+  });
+
+  it("omits review dates from downloaded library resource metadata", async () => {
+    const document = (await resolveDownloadDocument("library", await sampleId("library"), "one-dhs"))!;
+    expect(document.meta.map((entry) => entry.label)).toEqual(["Prepared by", "Standing", "For"]);
+  });
+
   it("never offers a course for download", () => {
     expect(isDownloadKind("course")).toBe(false);
     expect(isDownloadKind("lesson")).toBe(false);

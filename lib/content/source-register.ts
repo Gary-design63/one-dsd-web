@@ -66,12 +66,6 @@ const SOURCE_BY_ID = new Map(SOURCE_REGISTER.sources.map(source => [source.sourc
 const RECEIPT_BY_ID = new Map(VERIFICATION_RECEIPTS.receipts.map(receipt => [receipt.sourceId, receipt]));
 const RESOURCE_BY_KEY = new Map(SOURCE_REGISTER.resources.map(resource => [`${resource.resourceType}:${resource.resourceId}`, resource]));
 
-function day(iso: string | undefined): string {
-  if (!iso) return "";
-  const date = new Date(iso);
-  return Number.isNaN(date.valueOf()) ? iso : date.toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric", timeZone: "UTC" });
-}
-
 export function verificationFor(source: RegisterSource): Verification {
   if (source.kind === "program_route") return { state: "program_page", label: "Program page", detail: "Points to another page inside this program." };
   if (source.kind === "program_document") return { state: "program_document", label: "Program document", detail: "A program-authored or internal document." };

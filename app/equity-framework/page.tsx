@@ -64,18 +64,23 @@ export default function EquityFrameworkPage() {
     <>
       <PageIntro kicker={F.kicker} title={F.title} lede={F.lede} />
       <div className="wrap max-w-6xl py-10 [&_p]:my-3">
-        <ResourceDownloads kind="equity-framework" id="framework" noun="framework" />
-        <section aria-labelledby="summary-title" className="mt-8 grid gap-8 lg:grid-cols-3">
-          <div className="lg:col-span-2 min-w-0">
-            <H2 id="summary-title">What this framework is for</H2>
-            <p className="text-lg leading-relaxed">{F.summary}</p>
-            <h3 className="mt-6 text-xl font-bold">How to read this page</h3>
-            <Bullets items={F.howToRead} />
-          </div>
-          <nav aria-label="On this page" className="card min-w-0 self-start">
-            <p className="kicker m-0">On this page</p>
-            <ol className="mt-2 list-decimal space-y-1 pl-5 text-sm">{TOC.map(([id, label]) => <li key={id}><a href={`#${id}`}>{label}</a></li>)}</ol>
-          </nav>
+        <section aria-labelledby="summary-title" className="mt-8 max-w-4xl">
+          <H2 id="summary-title">What this framework is for</H2>
+          <p className="text-lg leading-relaxed">{F.summary}</p>
+          <details className="mt-7 border-t border-line py-4">
+            <summary className="cursor-pointer font-semibold">Download the framework in another format</summary>
+            <div className="mt-4"><ResourceDownloads kind="equity-framework" id="framework" noun="framework" compact /></div>
+          </details>
+          <details className="border-y border-line py-4">
+            <summary className="cursor-pointer font-semibold">How to read and browse this framework</summary>
+            <div className="mt-5">
+              <Bullets items={F.howToRead} />
+              <nav aria-label="On this page" className="mt-5 border-t border-line pt-4">
+                <p className="kicker m-0">On this page</p>
+                <ol className="mt-2 grid list-decimal gap-x-8 gap-y-1 pl-5 text-sm sm:grid-cols-2">{TOC.map(([id, label]) => <li key={id}><a href={`#${id}`}>{label}</a></li>)}</ol>
+              </nav>
+            </div>
+          </details>
         </section>
 
         <section aria-labelledby="cycle" className="mt-14">
@@ -116,21 +121,24 @@ export default function EquityFrameworkPage() {
         <section aria-labelledby="pillars" className="mt-14">
           <H2 id="pillars">Six pillars</H2>
           <p className="max-w-3xl">Each pillar has objectives, key initiatives, sample measures and the places in both programs where that work already lives. Together they keep equity in the operating model rather than in training or communications alone.</p>
-          <div className="mt-6 space-y-8">{F.pillars.map((p, i) => (
-            <article key={p.id} id={`pillar-${p.id}`} aria-labelledby={`pillar-${p.id}-title`} className="card min-w-0 scroll-mt-24">
+          <div className="mt-6 space-y-2">{F.pillars.map((p, i) => (
+            <article key={p.id} id={`pillar-${p.id}`} aria-labelledby={`pillar-${p.id}-title`} className="min-w-0 scroll-mt-24 border-t border-line py-5">
               <p className="kicker m-0">Pillar {i + 1}</p>
               <h3 id={`pillar-${p.id}-title`} className="m-0 mt-1 text-2xl font-bold">{p.title}</h3>
               <p className="max-w-3xl">{p.purpose}</p>
-              <div className="grid gap-6 lg:grid-cols-3">
-                <div className="min-w-0"><h4 className="m-0 text-base font-bold">Strategic objectives</h4><Bullets items={p.objectives} /></div>
-                <div className="min-w-0"><h4 className="m-0 text-base font-bold">Key initiatives</h4><Bullets items={p.initiatives} /></div>
-                <div className="min-w-0"><h4 className="m-0 text-base font-bold">Sample measures</h4><Bullets items={p.measures} /></div>
-              </div>
-              <div className="mt-6 grid gap-6 border-t border-line pt-4 text-sm md:grid-cols-3">
-                <div className="min-w-0"><h4 className="m-0 text-base font-bold">Areas of work</h4><div className="mt-2"><Links links={p.workAreas} /></div></div>
-                <div className="min-w-0"><h4 className="m-0 text-base font-bold">In One DHS</h4><div className="mt-2"><Links links={p.oneDhs} /></div></div>
-                <div className="min-w-0"><h4 className="m-0 text-base font-bold">In One DSD</h4><div className="mt-2"><Links links={p.oneDsd} /></div></div>
-              </div>
+              <details className="mt-4 rounded-lg border border-line bg-white px-5 py-3">
+                <summary className="cursor-pointer font-semibold">Objectives, measures and related program work</summary>
+                <div className="mt-5 grid gap-6 lg:grid-cols-3">
+                  <div className="min-w-0"><h4 className="m-0 text-base font-bold">Strategic objectives</h4><Bullets items={p.objectives} /></div>
+                  <div className="min-w-0"><h4 className="m-0 text-base font-bold">Key initiatives</h4><Bullets items={p.initiatives} /></div>
+                  <div className="min-w-0"><h4 className="m-0 text-base font-bold">Sample measures</h4><Bullets items={p.measures} /></div>
+                </div>
+                <div className="mt-6 grid gap-6 border-t border-line pt-4 text-sm md:grid-cols-3">
+                  <div className="min-w-0"><h4 className="m-0 text-base font-bold">Areas of work</h4><div className="mt-2"><Links links={p.workAreas} /></div></div>
+                  <div className="min-w-0"><h4 className="m-0 text-base font-bold">In One DHS</h4><div className="mt-2"><Links links={p.oneDhs} /></div></div>
+                  <div className="min-w-0"><h4 className="m-0 text-base font-bold">In One DSD</h4><div className="mt-2"><Links links={p.oneDsd} /></div></div>
+                </div>
+              </details>
             </article>
           ))}</div>
         </section>
@@ -297,7 +305,7 @@ export default function EquityFrameworkPage() {
           <ol className="mt-3 list-decimal space-y-2 pl-6 text-sm">{F.notes.map((n, i) => <li key={i}>{n}</li>)}</ol>
           <h3 className="mt-8 text-2xl font-bold">Bibliography</h3>
           <ul className="mt-3 list-none space-y-2 p-0 text-sm [&_li]:pl-8 [&_li]:-indent-8">{F.bibliography.map((b) => <li key={b}>{b}</li>)}</ul>
-          <p className="text-sm text-muted">Notes and bibliography follow the Chicago Manual of Style notes-and-bibliography system. Internal program documents are cited as unpublished sources. Sources reviewed September 8, 2026.</p>
+          <p className="text-sm text-muted">Notes and bibliography follow the Chicago Manual of Style notes-and-bibliography system. Internal program documents are cited as unpublished sources.</p>
           <p><Link href="/">Return to the program home</Link></p>
         </section>
       </div>

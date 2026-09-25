@@ -4,7 +4,6 @@ import { communityDesignEnabled } from "@/lib/content/community-design";
 import Link from "next/link";
 import { ActionList, Notice, PageIntro } from "@/components/ui";
 import { ROUTES } from "@/lib/constants";
-import { reviewDateText } from "@/lib/content/types";
 import { communities, communityQuery, paused, PAUSED_MESSAGE } from "@/lib/intelligence/orchestrator";
 import { BRIEFS } from "@/lib/content/briefs";
 import { briefVisible, type CiResult } from "@/lib/intelligence/agents/ci";
@@ -154,7 +153,7 @@ export default async function CommunitiesPage({ searchParams }: { searchParams: 
                   </Link>
                   <span className="text-sm">{shortDescription(b.whoAndWhere)}</span>
                   <span className="text-sm text-muted">
-                    {stringValue(pageSurface.values, "languagesLabel")}: {b.languages.join(", ")}. {b.status === "under_review" ? stringValue(pageSurface.values, "underReviewLabel") : b.status === "gated" ? stringValue(pageSurface.values, "gatedLabel") : stringValue(pageSurface.values, "reviewCompleteLabel")} {reviewDateText(b.reviewDate)}.
+                    {stringValue(pageSurface.values, "languagesLabel")}: {b.languages.join(", ")}. {b.status === "under_review" ? stringValue(pageSurface.values, "underReviewLabel") : b.status === "gated" ? stringValue(pageSurface.values, "gatedLabel") : stringValue(pageSurface.values, "reviewCompleteLabel")}.
                   </span>
                 </li>
               ))}

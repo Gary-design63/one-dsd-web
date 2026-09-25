@@ -30,7 +30,7 @@ export default async function DsdProgramPage({ params }: { params: Promise<{ id:
     <PageIntro kicker="One DSD" title={stringValue(copy, "title")} lede={stringValue(copy, "intro")} />
     <div className={`${styles.readingPage} wrap max-w-4xl space-y-8 py-8`}>
       <Link href="/one-dsd#programs">{stringValue(copy, "backLabel")}</Link>
-      {surface.available ? <ResourceDownloads kind="program" id={id} noun="program page" scope="dsd" /> : null}
+      {surface.available ? <details className="border-t border-line pt-4"><summary className="cursor-pointer font-semibold text-[#123f60]">Download this program page</summary><ResourceDownloads kind="program" id={id} noun="program page" scope="dsd" /></details> : null}
       <section>
         <h2 className="text-2xl font-semibold">{stringValue(copy, "entryPointsTitle")}</h2>
         <ul className="list-disc space-y-2 pl-6">{stringListValue(copy, "equityEntryPoints").map((point, index) => <li key={index}>{point}</li>)}</ul>

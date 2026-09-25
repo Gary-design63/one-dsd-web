@@ -16,6 +16,7 @@ import { canonicalStaffHref, contextualizeSupportAction } from "@/lib/product";
 import { requestedContentScope, requestedProductContext } from "@/lib/product/request-context";
 import { EditableSurfaceRegion, prepareEditableSurface } from "@/components/editable-surface";
 import { applyGraduationPathValues, graduationPathSurfaceId, stringValue } from "@/lib/content/staff-surface-registry";
+import { publishedPracticePath } from "@/lib/content/published-practice-path";
 
 export async function generateMetadata({ params }: { params: Promise<{ id: string }> }): Promise<Metadata> {
   const { id } = await params;
@@ -32,7 +33,7 @@ export default async function PathPage({ params, searchParams }: { params: Promi
     prepareEditableSurface(graduationPathSurfaceId(id), { scope }),
     prepareEditableSurface("practice.path-shell", { scope }),
   ]);
-  const p = applyGraduationPathValues(rawPath, pathSurface.values);
+  const p = publishedPracticePath(applyGraduationPathValues(rawPath, pathSurface.values));
   const shell = shellSurface.values;
   const intakeEnabled = consultationIntakeEnabled();
   const context = await requestedProductContext();
@@ -53,7 +54,7 @@ export default async function PathPage({ params, searchParams }: { params: Promi
         ) : null}
       </PageIntro>
       <div className="wrap py-8">
-        <div className="mb-6 space-y-3"><ProgramContextNote /><WorkOriginLinks origin={origin} domainAvailable={domainSurface?.available} />{pathSurface.available ? <ResourceDownloads kind="path" id={p.id} noun="practice path" scope={scope} /> : null}</div>
+        <div className="mb-6 space-y-3"><ProgramContextNote /><WorkOriginLinks origin={origin} domainAvailable={domainSurface?.available} />{pathSurface.available ? <details className="border-b border-line pb-3 print:hidden"><summary className="min-h-11 cursor-pointer py-2 font-semibold text-[#183247]">Download this practice path</summary><ResourceDownloads kind="path" id={p.id} noun="practice path" scope={scope} /></details> : null}</div>
         <section className="grid gap-4 md:grid-cols-2" aria-labelledby="steps-title">
           <div className="border-t border-line pt-5">
             <p className="kicker">{stringValue(shell, "pathKicker")}</p>
@@ -63,9 +64,11 @@ export default async function PathPage({ params, searchParams }: { params: Promi
             <ol className="mt-2 list-decimal space-y-2 pl-6">
               {p.steps.map((s) => (
                 <li key={s.key}>
-                  <strong>{s.title}</strong>
+                  <strong>{s.links.some((link) => link.href.startsWith("/support/request")) ? "Find the right person when needed" : s.title}</strong>
                   {s.required ? <span className="label-pill ml-2">{stringValue(shell, "requiredLabel")}</span> : s.optional ? <span className="label-pill ml-2">{stringValue(shell, "optionalLabel")}</span> : null}
-                  <span className="block text-sm">{s.guidance}</span>
+                  <span className="block text-sm">{s.links.some((link) => link.href.startsWith("/support/request"))
+                    ? "If another perspective would help, use Find the right person to identify the responsible role or office. Staff consultation request forms are closed."
+                    : s.guidance}</span>
                   {s.links.length ? (
                     <span className="block text-sm">
                       {s.links.map((l, i) => (
@@ -108,7 +111,7 @@ export default async function PathPage({ params, searchParams }: { params: Promi
         </section>
 
         <section className="mt-8" aria-labelledby="artifact-title">
-          <p className="kicker">{stringValue(shell, "notesKicker")}</p>
+          <p className="kicker">Published checklist</p>
           <h2 id="artifact-title" className="text-2xl font-extrabold">
             {p.artifactTitle}
           </h2>

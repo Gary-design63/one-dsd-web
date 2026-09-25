@@ -1,9 +1,9 @@
 {
  "summary": {
-  "checkedAt": "2026-09-22T21:25:10.644844+00:00",
-  "registerBuiltAt": "2026-09-19T03:13:31.069Z",
-  "total": 339,
-  "ok": 309,
+  "checkedAt": "2026-09-25T00:37:57.157Z",
+  "registerBuiltAt": "2026-09-25T03:01:21.127Z",
+  "total": 343,
+  "ok": 313,
   "redirected": 26,
   "clientErrors": 27,
   "serverErrors": 0,
@@ -76,19 +76,6 @@
    "error": null
   },
   {
-   "sourceId": "url:https://adata.org/factsheet/ADANN-writing",
-   "href": "https://adata.org/factsheet/ADANN-writing",
-   "status": 200,
-   "ok": true,
-   "finalUrl": "https://adata.org/factsheet/adann-writing/",
-   "redirected": true,
-   "contentType": "text/html; charset=UTF-8",
-   "title": "Guidelines for Writing About People with Disabilities | ADATA.org",
-   "bytes": 44734,
-   "checkedAt": "2026-09-15T12:07:35.437Z",
-   "error": null
-  },
-  {
    "sourceId": "url:https://adata.org/factsheet/adann-writing",
    "href": "https://adata.org/factsheet/adann-writing/",
    "status": 200,
@@ -99,6 +86,19 @@
    "title": "Guidelines for Writing About People with Disabilities | ADATA.org",
    "bytes": 44734,
    "checkedAt": "2026-09-15T12:07:34.235Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://adata.org/factsheet/ADANN-writing",
+   "href": "https://adata.org/factsheet/ADANN-writing",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://adata.org/factsheet/adann-writing/",
+   "redirected": true,
+   "contentType": "text/html; charset=UTF-8",
+   "title": "Guidelines for Writing About People with Disabilities | ADATA.org",
+   "bytes": 44734,
+   "checkedAt": "2026-09-15T12:07:35.437Z",
    "error": null
   },
   {
@@ -200,7 +200,7 @@
    "finalUrl": "https://bjs.ojp.gov/press-release/prisoners-2022-statistical-tables",
    "redirected": false,
    "contentType": "text/html; charset=UTF-8",
-   "title": "Prisoners in 2022 \u2013 Statistical Tables | Bureau of Justice Statistics",
+   "title": "Prisoners in 2022 – Statistical Tables | Bureau of Justice Statistics",
    "bytes": 56502,
    "checkedAt": "2026-09-15T12:07:36.280Z",
    "error": null
@@ -2078,6 +2078,19 @@
    "error": null
   },
   {
+   "sourceId": "url:https://pmc.ncbi.nlm.nih.gov/articles/PMC7011517",
+   "href": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7011517/",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7011517/",
+   "redirected": false,
+   "contentType": "text/html; charset=utf-8",
+   "title": "A systematic review exploring the content and outcomes of interventions to improve psychological safety, speaking up and voice behaviour - PMC",
+   "bytes": 193166,
+   "checkedAt": "2026-09-25T00:37:56.572Z",
+   "error": null
+  },
+  {
    "sourceId": "url:https://pubmed.ncbi.nlm.nih.gov/11273391",
    "href": "https://pubmed.ncbi.nlm.nih.gov/11273391/",
    "status": 203,
@@ -3027,19 +3040,6 @@
    "error": null
   },
   {
-   "sourceId": "url:https://www.dhs.state.mn.us/main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=DHS-312489",
-   "href": "https://www.dhs.state.mn.us/main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=DHS-312489",
-   "status": 200,
-   "ok": true,
-   "finalUrl": "https://www.dhs.state.mn.us/main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=DHS-312489",
-   "redirected": false,
-   "contentType": "text/html; charset=UTF-8",
-   "title": "Radware Page",
-   "bytes": 118391,
-   "checkedAt": "2026-09-15T12:07:41.039Z",
-   "error": null
-  },
-  {
    "sourceId": "url:https://www.dhs.state.mn.us/main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=dhs-299403",
    "href": "https://www.dhs.state.mn.us/main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=dhs-299403",
    "status": 200,
@@ -3050,6 +3050,19 @@
    "title": "Radware Page",
    "bytes": 118391,
    "checkedAt": "2026-09-15T12:07:36.535Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://www.dhs.state.mn.us/main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=DHS-312489",
+   "href": "https://www.dhs.state.mn.us/main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=DHS-312489",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://www.dhs.state.mn.us/main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=DHS-312489",
+   "redirected": false,
+   "contentType": "text/html; charset=UTF-8",
+   "title": "Radware Page",
+   "bytes": 118391,
+   "checkedAt": "2026-09-15T12:07:41.039Z",
    "error": null
   },
   {
@@ -3300,6 +3313,19 @@
    "error": null
   },
   {
+   "sourceId": "url:https://www.idrinstitute.org/resources/chapters-on-dmis",
+   "href": "https://www.idrinstitute.org/resources/chapters-on-dmis/",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://www.idrinstitute.org/resources/chapters-on-dmis/",
+   "redirected": false,
+   "contentType": "text/html; charset=UTF-8",
+   "title": "Chapters on DMIS - IDRInstitute",
+   "bytes": 94391,
+   "checkedAt": "2026-09-25T03:02:51.301Z",
+   "error": null
+  },
+  {
    "sourceId": "url:https://www.justice.gov/crt",
    "href": "https://www.justice.gov/crt",
    "status": 200,
@@ -3333,7 +3359,7 @@
    "finalUrl": "https://www.justice.gov/crt/fcs/TitleVI-Overview",
    "redirected": false,
    "contentType": "text/html; charset=UTF-8",
-   "title": "Civil Rights Division | Title VI Of The Civil Rights Act Of 1964 42 U.S.C. \u00a7 2000d Et Seq.",
+   "title": "Civil Rights Division | Title VI Of The Civil Rights Act Of 1964 42 U.S.C. § 2000d Et Seq.",
    "bytes": 92826,
    "checkedAt": "2026-09-15T12:07:42.558Z",
    "error": null
@@ -3729,6 +3755,19 @@
    "error": null
   },
   {
+   "sourceId": "url:https://www.revisor.mn.gov/statutes?id=245D",
+   "href": "https://www.revisor.mn.gov/statutes/?id=245D",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://www.revisor.mn.gov/statutes/cite/245D",
+   "redirected": true,
+   "contentType": "text/html; charset=utf-8",
+   "title": "Ch. 245D MN Statutes",
+   "bytes": 70535,
+   "checkedAt": "2026-09-15T12:07:33.640Z",
+   "error": null
+  },
+  {
    "sourceId": "url:https://www.revisor.mn.gov/statutes/cite/10.65",
    "href": "https://www.revisor.mn.gov/statutes/cite/10.65",
    "status": 200,
@@ -3843,19 +3882,6 @@
    "title": "Sec. 626.557 MN Statutes",
    "bytes": 173399,
    "checkedAt": "2026-09-15T12:07:33.446Z",
-   "error": null
-  },
-  {
-   "sourceId": "url:https://www.revisor.mn.gov/statutes?id=245D",
-   "href": "https://www.revisor.mn.gov/statutes/?id=245D",
-   "status": 200,
-   "ok": true,
-   "finalUrl": "https://www.revisor.mn.gov/statutes/cite/245D",
-   "redirected": true,
-   "contentType": "text/html; charset=utf-8",
-   "title": "Ch. 245D MN Statutes",
-   "bytes": 70535,
-   "checkedAt": "2026-09-15T12:07:33.640Z",
    "error": null
   },
   {
@@ -4347,7 +4373,7 @@
    "finalUrl": "https://www.w3.org/WAI/test-evaluate/easy-checks/",
    "redirected": false,
    "contentType": "text/html; charset=utf-8",
-   "title": "[Draft] Easy Checks \u2013 A First Review of Web Accessibility | Web Accessibility Initiative (WAI) | W3C",
+   "title": "[Draft] Easy Checks – A First Review of Web Accessibility | Web Accessibility Initiative (WAI) | W3C",
    "bytes": 42230,
    "checkedAt": "2026-09-15T12:07:43.510Z",
    "error": null
@@ -4360,7 +4386,7 @@
    "finalUrl": "https://www.w3.org/WAI/test-evaluate/preliminary/",
    "redirected": false,
    "contentType": "text/html; charset=utf-8",
-   "title": "Easy Checks \u2013 A First Review of Web Accessibility | Web Accessibility Initiative (WAI) | W3C",
+   "title": "Easy Checks – A First Review of Web Accessibility | Web Accessibility Initiative (WAI) | W3C",
    "bytes": 129785,
    "checkedAt": "2026-09-15T12:07:43.515Z",
    "error": null
@@ -4373,7 +4399,7 @@
    "finalUrl": "https://www.w3.org/WAI/tips/writing/",
    "redirected": false,
    "contentType": "text/html; charset=utf-8",
-   "title": "Writing for Web Accessibility \u2013 Tips for Getting Started | Web Accessibility Initiative (WAI) | W3C",
+   "title": "Writing for Web Accessibility – Tips for Getting Started | Web Accessibility Initiative (WAI) | W3C",
    "bytes": 66543,
    "checkedAt": "2026-09-15T12:07:35.418Z",
    "error": null
@@ -4415,6 +4441,32 @@
    "title": "White Privilege: Unpacking the Invisible Knapsack - Wellesley Centers for Women",
    "bytes": 54464,
    "checkedAt": "2026-09-22T21:15:36.510Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://www.whitesupremacyculture.info/characteristics.html",
+   "href": "https://www.whitesupremacyculture.info/characteristics.html",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://www.whitesupremacyculture.info/characteristics.html",
+   "redirected": false,
+   "contentType": "text/html; charset=UTF-8",
+   "title": "CHARACTERISTICS - WHITE SUPREMACY CULTURE",
+   "bytes": 153236,
+   "checkedAt": "2026-09-25T00:37:56.634Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://www.whitesupremacyculture.info/racial-equity-principles.html",
+   "href": "https://www.whitesupremacyculture.info/racial-equity-principles.html",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://www.whitesupremacyculture.info/racial-equity-principles.html",
+   "redirected": false,
+   "contentType": "text/html; charset=UTF-8",
+   "title": "RACIAL EQUITY PRINCIPLES - WHITE SUPREMACY CULTURE",
+   "bytes": 162712,
+   "checkedAt": "2026-09-25T00:37:56.633Z",
    "error": null
   }
  ]

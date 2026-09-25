@@ -21,9 +21,9 @@ export default async function StartPage() {
         lede={stringValue(copy, "introLede")}
       />
       <div className="wrap space-y-6 py-8">
-        <section className={styles.orientationInvitation}><div><h2 className="text-2xl font-semibold">New here, or taking a fresh look?</h2><p className="my-3">See how the whole program fits together and discover a place to begin.</p></div><Link href="/orientation">Explore the program orientation →</Link></section>
         <ProgramContextNote />
         <StartClient copy={copy} />
+        <section className={styles.orientationInvitation}><div><h2 className="text-2xl font-semibold">New here, or taking a fresh look?</h2><p className="my-3">See how the whole program fits together and discover a place to begin.</p></div><Link href="/orientation">Explore the program orientation →</Link></section>
         <ParticipationNotice surface="start_routing" />
       </div>
     </EditableSurfaceRegion>

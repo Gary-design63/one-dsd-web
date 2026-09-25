@@ -1,6 +1,6 @@
 import { getPath } from "@/lib/content/paths";
 import { getPublishedStaffContent, type StaffProgramScope } from "@/lib/content/staff-publications";
-import { AUTHORITY, CONTENT_TYPE_LABEL, LAYER_LABEL, reviewDateText } from "@/lib/content/types";
+import { AUTHORITY, CONTENT_TYPE_LABEL, LAYER_LABEL } from "@/lib/content/types";
 import { bullets, callout, compactSections, paragraph, section, type ResourceDocument } from "../model";
 import { kicker, linkList, programName } from "./shared";
 
@@ -17,7 +17,6 @@ export async function libraryDocument(id: string, scope: StaffProgramScope): Pro
     subtitle: item.summary,
     meta: [
       { label: "Prepared by", value: item.owner },
-      { label: "Review", value: reviewDateText(item.reviewDate) },
       { label: "Standing", value: authority.label },
       { label: "For", value: item.scope === "dsd" ? programName("dsd") : programName("one-dhs") },
     ],

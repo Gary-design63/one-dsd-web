@@ -5,12 +5,13 @@ import { ALL_COURSE_SURFACES } from "./definitions";
 import { loadPublishedEditableSurfaces } from "../editable-surfaces";
 import type { StaffProgramScope } from "../staff-publications";
 import { withCourseCover } from "./cover-overrides";
+import { coursePackWithoutWikipedia } from "./source-cleanup";
 
 
 export function courseHref(id:string, lessonId?:string) { return `/courses/${encodeURIComponent(id)}${lessonId?`/${encodeURIComponent(lessonId)}`:""}`; }
 export async function publishedCourses(scope:StaffProgramScope) {
   const rows=await loadPublishedEditableSurfaces(ALL_COURSE_SURFACES.map(surface=>surface.surfaceId),scope);
-  return rows.map(row=>({pack:withCourseCover(row.values.pack as CoursePack),publication:row}));
+  return rows.map(row=>({pack:withCourseCover(coursePackWithoutWikipedia(row.values.pack as CoursePack)),publication:row}));
 }
 export function courseText(value:unknown):string {
   if(typeof value==="string") return sanitizeHtml(value,{allowedTags:[],allowedAttributes:{}});

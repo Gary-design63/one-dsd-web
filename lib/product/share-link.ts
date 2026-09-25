@@ -12,7 +12,7 @@ export const SHARE_VIEW_QUERY = "view";
 /** Query parameters that define what a list page shows; everything else is dropped. */
 const KEPT_QUERY: ReadonlyArray<readonly [RegExp, readonly string[]]> = [
   [/^\/learn$/, ["theme", "q", "type"]],
-  [/^\/(?:library|resources)$/, ["q", "type", "authority", "area", "task", "role", "topic", "freshness"]],
+  [/^\/(?:library|resources)$/, ["q", "type", "authority", "area", "task", "role", "topic"]],
 ];
 
 const ANCHOR = /^#[A-Za-z0-9][A-Za-z0-9_.:-]{0,119}$/;

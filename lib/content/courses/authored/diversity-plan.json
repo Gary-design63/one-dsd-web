@@ -328,5 +328,16 @@
     "coverImage": "/images/covers/stock-people-10.jpg",
     "coverAlt": "Five colleagues seated around a white conference table in a glass-walled meeting room.",
     "contentType": "practice"
+  },
+  {
+    "level": "Advanced",
+    "module": 11,
+    "id": "div-a11-white-supremacy-culture",
+    "title": "White Supremacy Culture: Examine Workplace Norms",
+    "indexNumber": 1331,
+    "seriesLabel": "Diversity learning · Advanced",
+    "coverImage": "/images/covers/white-supremacy-culture-workplace.png",
+    "coverAlt": "Four colleagues in a meeting room reviewing a proposed work process together.",
+    "contentType": "practice"
   }
 ]

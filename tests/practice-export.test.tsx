@@ -44,11 +44,12 @@ it('keeps corrupt stored data intact while allowing readable notes to open',()=>
  expect(document.getElementById('f-gp-8-ahead')).toHaveProperty('value','Keep my notes');
  expect(JSON.parse(localStorage.getItem(key)!)).toEqual(raw);expect(screen.getByText(/Some saved information could not be read/)).toBeTruthy();
 });
-it('retains the work area and task on the client consultation link',()=>{
+it('retains the work area and task on the available support link',()=>{
  render(<PathClient path={meetingPath} intakeEnabled={false} copy={copy} origin={{originArea:'accessibility_language_access',area:'access-language',task:'accessible-meeting'}}/>);
- const link=screen.getByRole('link',{name:String(copy.supportDsdPreviewLabel)});
+ const link=screen.getByRole('link',{name:'Find the right person or office'});
  const url=new URL(link.getAttribute('href')!,'https://program.test');
- expect(url.searchParams.get('path')).toBe('gp-8');expect(url.searchParams.get('area')).toBe('accessibility_language_access');expect(url.searchParams.get('domain')).toBe('access-language');expect(url.searchParams.get('task')).toBe('accessible-meeting');
+ expect(url.pathname).toBe('/support/right-person');expect(url.searchParams.get('area')).toBe('accessibility_language_access');expect(url.searchParams.get('domain')).toBe('access-language');expect(url.searchParams.get('task')).toBe('accessible-meeting');
+ expect(url.searchParams.get('path')).toBeNull();
 });
 it('downloads current notes without requiring a successful save',async()=>{
  render(<PathClient path={meetingPath} intakeEnabled={false} copy={copy}/>);

@@ -231,7 +231,7 @@ export function operationalizingEquityDocument(scope: StaffProgramScope): Resour
       section("Questions that help move the work forward", [numbered([...OPERATIONALIZING_EQUITY.practiceQuestions])]),
       section("How the program applies this", [bullets([...OPERATIONALIZING_EQUITY.applicationRules])]),
     ]),
-    sources: OPERATIONALIZING_EQUITY.sources.map((source) => ({ title: source.title, href: source.url, note: `Checked ${source.checkedOn}.` })),
+    sources: OPERATIONALIZING_EQUITY.sources.map((source) => ({ title: source.title, href: source.url })),
     attribution: programName(scope),
   };
 }
@@ -242,7 +242,7 @@ export function understandingDhsDocument(scope: StaffProgramScope): ResourceDocu
     kicker: kicker(scope, "Reference"),
     title: "Understanding DHS",
     subtitle: "People, programs and partnerships across Minnesota DHS, with a closer look at Disability Services and the work we share.",
-    meta: [{ label: "Sources reviewed", value: reference.checkedOn }],
+    meta: [],
     sections: compactSections(
       DHS_REFERENCE_GROUPS.map((group) =>
         section(
@@ -274,7 +274,7 @@ export function supportDirectoryDocument(scope: StaffProgramScope): ResourceDocu
           paragraph(`${source.purpose} ${source.limitation}`),
           paragraph(linkRuns({ label: source.label, href: source.href })),
           paragraph(
-            `Published by ${source.publisher}. Link and subject checked ${source.checkedOn}.${source.sourceDate ? ` The source identifies its date as ${source.sourceDate}.` : " No publication date is stated."}`,
+            `Published by ${source.publisher}.${source.sourceDate ? ` The source identifies its date as ${source.sourceDate}.` : " No publication date is stated."}`,
           ),
         ]),
       ),

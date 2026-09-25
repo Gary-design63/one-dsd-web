@@ -14,6 +14,8 @@ import {
 import { getEditableSurfaceDefinition } from "@/lib/content/staff-surface-registry";
 import type { StaffProgramScope } from "@/lib/content/staff-publications";
 import { requestedContentScope } from "@/lib/product/request-context";
+import { CoursePackSchema } from "@/lib/content/courses/contract";
+import { coursePackWithoutWikipedia } from "@/lib/content/courses/source-cleanup";
 
 export type PreparedEditableSurface = Readonly<{
   definition: EditableSurfaceDefinition;
@@ -43,10 +45,16 @@ export async function prepareEditableSurface(
     options.includeOwner === false ? Promise.resolve(false) : editingModeFromCookies(),
   ]);
 
+  const originalValues = published?.values ?? definition.approvedValues;
+  const coursePack = surfaceId.startsWith("course.") ? CoursePackSchema.safeParse(originalValues.pack) : null;
+  const values = coursePack?.success
+    ? { ...originalValues, pack: coursePackWithoutWikipedia(coursePack.data) }
+    : originalValues;
+
   return {
     definition,
     scope: readingScope,
-    values: published?.values ?? definition.approvedValues,
+    values,
     published: published ?? null,
     available: source === "static" || Boolean(published),
     canEdit: owner && surfaceMayBeEditedInScope(definition, requestedScope) && readingScope === requestedScope,

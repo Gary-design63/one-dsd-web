@@ -6,6 +6,7 @@ import { EditableSurfaceRegion, prepareEditableSurface } from "@/components/edit
 import { stringValue, stringListValue, linkListValue } from "@/lib/content/staff-surface-registry";
 import type { EditableRichBlock } from "@/lib/content/editable-surface-contract";
 import { editableSurfaceEditingAvailable } from "@/lib/content/editable-surfaces";
+import { workforceStatusText } from "@/lib/content/workforce-editor";
 
 export const dynamic = "force-dynamic";
 export const metadata = { title: "Area work map" };
@@ -24,7 +25,7 @@ export default async function Page({ params }: { params: Promise<{ areaId: strin
     <p>Keep official classifications separate from working titles. Add a heading for each working role, followed by its responsibilities, tasks, and what still needs confirmation. Retain changes rather than silently replacing the past.</p>
     <EditableSurfaceRegion surface={{ ...surface, canEdit: surface.canEdit && savingAvailable }}>
       <h1 className="text-3xl font-semibold">{stringValue(copy, "name")}</h1>
-      <p>{stringValue(copy, "relationship")}</p><p>{stringValue(copy, "status")}</p>
+      <p>{stringValue(copy, "relationship")}</p><p>{workforceStatusText(stringValue(copy, "status"))}</p>
       <section className="my-8"><h2 className="text-2xl font-semibold">Leadership and decisions</h2><ul className="mt-4 list-disc pl-5">{stringListValue(copy, "leadership").map(item => <li key={item}>{item}</li>)}</ul></section>
       <section className="my-8 space-y-4"><h2 className="text-2xl font-semibold">Working roles</h2>{blocks.map((block, i) => {
         if (block.type === "heading") return <h3 className="text-xl font-semibold" key={i}>{block.text}</h3>;

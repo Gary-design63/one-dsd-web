@@ -6,11 +6,11 @@ import { groupDiversityCourses } from "@/lib/content/courses/diversity-series";
 import { loadPublishedEditableSurface } from "@/lib/content/editable-surfaces";
 
 const packs = AUTHORED_COURSES.filter(pack => /^div-[fia]/.test(pack.course.id));
-describe("the owner's thirty new diversity courses", () => {
-  it("contains ten distinct new courses at each level and preserves existing courses", () => {
-    expect(packs).toHaveLength(30);
-    expect(groupDiversityCourses(packs).map(group => group.courses.length)).toEqual([10, 10, 10]);
-    expect(new Set(packs.map(pack => pack.course.title)).size).toBe(30);
+describe("the diversity courses", () => {
+  it("contains ten foundation, ten intermediate, and eleven advanced courses while preserving existing courses", () => {
+    expect(packs).toHaveLength(31);
+    expect(groupDiversityCourses(packs).map(group => group.courses.length)).toEqual([10, 10, 11]);
+    expect(new Set(packs.map(pack => pack.course.title)).size).toBe(packs.length);
     const originalTitles = new Set([...RECOVERED_COURSES, ...AUTHORED_COURSES.filter(pack => !packs.includes(pack))].map(pack => pack.course.title));
     for (const pack of packs) expect(originalTitles.has(pack.course.title)).toBe(false);
     expect(RECOVERED_COURSES).toHaveLength(86);
@@ -46,10 +46,10 @@ describe("the owner's thirty new diversity courses", () => {
         }
       }
     }
-    expect(bodies.size).toBe(120);
+    expect(bodies.size).toBe(packs.length * 4);
   });
 
-  it("resolves all thirty for both program scopes without a database publication", async () => {
+  it("resolves every course for both program scopes without a database publication", async () => {
     for (const scope of ["one-dhs", "dsd"] as const) {
       for (const pack of packs) {
         const publication = await loadPublishedEditableSurface(`course.${pack.course.id}`, {
@@ -63,7 +63,7 @@ describe("the owner's thirty new diversity courses", () => {
 
   it("never restores an absent course through the series grouping", () => {
     const allowed = packs.filter((_, index) => index % 2 === 0);
-    expect(groupDiversityCourses(allowed).flatMap(group => group.courses)).toHaveLength(15);
+    expect(groupDiversityCourses(allowed).flatMap(group => group.courses)).toHaveLength(allowed.length);
     expect(groupDiversityCourses([]).every(group => group.courses.length === 0)).toBe(true);
   });
 });

@@ -3,8 +3,8 @@ import { normalizeWorkOrigin } from "@/lib/product/work-origin";
 import { DOMAINS } from "@/lib/domains";
 import { AUTHORITY, CONTENT_TYPE_LABEL, type ContentItem } from "./types";
 
-export type LibraryFilters = { originArea?: string; area?: string; task?: string; type?: string; authority?: string; role?: string; topic?: string; freshness?: "reviewed_recently" | "review_planned" | "date_unknown" };
-export const LIBRARY_FILTER_KEYS = ["area", "task", "type", "authority", "originArea", "role", "topic", "freshness"] as const;
+export type LibraryFilters = { originArea?: string; area?: string; task?: string; type?: string; authority?: string; role?: string; topic?: string };
+export const LIBRARY_FILTER_KEYS = ["area", "task", "type", "authority", "originArea", "role", "topic"] as const;
 export function libraryQueryValue(value: string | string[] | undefined): string {
   return (Array.isArray(value) ? value[0] : value)?.trim() ?? "";
 }
@@ -13,12 +13,11 @@ export function normalizeLibraryFilters(input: Record<string, string | string[] 
   const type = libraryQueryValue(input.type); const authority = libraryQueryValue(input.authority);
   const domain = DOMAINS.find(candidate => candidate.id === area);
   const origin = normalizeWorkOrigin(input);
-  const role = libraryQueryValue(input.role); const topic = libraryQueryValue(input.topic); const freshness = libraryQueryValue(input.freshness);
+  const role = libraryQueryValue(input.role); const topic = libraryQueryValue(input.topic);
   return {
     ...(origin.originArea ? { originArea: origin.originArea } : {}),
     ...(role && role.length <= 100 ? { role } : {}),
     ...(topic && topic.length <= 100 ? { topic } : {}),
-    ...(freshness === "reviewed_recently" || freshness === "review_planned" || freshness === "date_unknown" ? { freshness } : {}),
     ...(domain ? { area: domain.id } : {}),
     ...(domain?.tasks.some(candidate => candidate.id === task) ? { task } : {}),
     ...(Object.hasOwn(CONTENT_TYPE_LABEL, type) ? { type } : {}),

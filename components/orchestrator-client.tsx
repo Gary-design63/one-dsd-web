@@ -44,7 +44,7 @@ const STEP_NAME: Record<string, string> = {
 };
 
 const FEATURE_COPY: Record<string, { label: string; description: string }> = {
-  "agent.content_sentinel": { label: "Review dates and missing owners", description: "Points out content that may be out of date or does not name a responsible owner." },
+  "agent.content_sentinel": { label: "Content currency and missing owners", description: "Points out content that may be out of date or does not name a responsible owner." },
   "agent.eval_steward_write": { label: "Save readiness results and improvement proposals", description: "Keeps readiness results and proposals for your review." },
   "model.generative_pilot": { label: "Connected drafting support", description: "Uses the approved drafting connection when its private key is present. Otherwise, standard program wording remains in use." },
   "autonomy.a3_calendar_schedule": { label: "Calendar scheduling", description: "Reserved for a future calendar connection. It is not ready for use." },

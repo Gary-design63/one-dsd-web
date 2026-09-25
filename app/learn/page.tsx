@@ -120,22 +120,19 @@ export default async function LearnPage({ searchParams }: { searchParams?: Promi
             <form key={`${query.q}:${query.theme}:${query.type}`} action="/learn" method="get" role="search" className={styles.search}>
               <label htmlFor="hub-q">{hubText("searchLabel")}</label>
               <div className={styles.query}><input id="hub-q" name="q" type="search" defaultValue={query.q ?? ""} /><button type="submit">{hubText("searchButton")}</button></div>
-              <div className={styles.filters}>
-                <label>{hubText("themeLabel")}<select name="theme" defaultValue={selectedTheme?.id ?? ""}><option value="">{hubText("allLabel")}</option>{HUB_THEMES.map((theme) => <option key={theme.id} value={theme.id}>{hubText(`${theme.id}Title`)}</option>)}</select></label>
-                <label>{hubText("formatLabel")}<select name="type" defaultValue={types.includes(query.type as ContentType) || (query.type === "podcast" && podcastAvailable) ? query.type : ""}><option value="">{hubText("allFormats")}</option>{types.map((type) => <option key={type} value={type}>{CONTENT_TYPE_LABEL[type]}</option>)}{podcastAvailable ? <option value="podcast">Podcast</option> : null}</select></label>
-                {query.q || query.theme || query.type ? <Link href="/learn">{hubText("clearLabel")}</Link> : null}
-              </div>
+              <details className={preview.filterOptions} open={Boolean(query.theme || query.type)}>
+                <summary>Choose a topic or format</summary>
+                <div className={styles.filters}>
+                  <label>{hubText("themeLabel")}<select name="theme" defaultValue={selectedTheme?.id ?? ""}><option value="">{hubText("allLabel")}</option>{HUB_THEMES.map((theme) => <option key={theme.id} value={theme.id}>{hubText(`${theme.id}Title`)}</option>)}</select></label>
+                  <label>{hubText("formatLabel")}<select name="type" defaultValue={types.includes(query.type as ContentType) || (query.type === "podcast" && podcastAvailable) ? query.type : ""}><option value="">{hubText("allFormats")}</option>{types.map((type) => <option key={type} value={type}>{CONTENT_TYPE_LABEL[type]}</option>)}{podcastAvailable ? <option value="podcast">Podcast</option> : null}</select></label>
+                </div>
+              </details>
+              {query.q || query.theme || query.type ? <Link className={preview.clearFilters} href="/learn">{hubText("clearLabel")}</Link> : null}
             </form>
-            <nav aria-label={hubText("themeLabel")} className={styles.themes}>{HUB_THEMES.map((theme) => <Link key={theme.id} href={`/learn?${new URLSearchParams({ theme: theme.id, ...(query.q ? { q: query.q } : {}), ...(query.type ? { type: query.type } : {}) })}`} aria-current={selectedTheme?.id === theme.id ? "page" : undefined}>{hubText(`${theme.id}Title`)}</Link>)}</nav>
             {selectedTheme?.id === "structural" ? <aside className={styles.readingLinks}><h2>{hubText("readingTitle")}</h2><ul>{linkListValue(hub.values, "readingLinks").map((link) => <li key={link.href}><a href={link.href}>{link.label}</a></li>)}</ul><p>{hubText("readingNote")}</p></aside> : null}
-            <p role="status" className={styles.resultCount}>{totalFound} {hubText(totalFound === 1 ? "countSingular" : "countLabel")}</p>
+            {expanded ? <p role="status" className={styles.resultCount}>{totalFound} {hubText(totalFound === 1 ? "countSingular" : "countLabel")}</p> : null}
             {!totalFound ? <div><h2>{hubText("emptyTitle")}</h2><p>{hubText("emptyBody")}</p></div> : null}
           </EditableSurfaceRegion>
-        <nav className={styles.sectionNav} aria-label="In the collection">
-          {learning.length ? <Link href="#modules-title">Learning</Link> : null}
-          {resources.length ? <Link href="#hub-resources-title">Resources</Link> : null}
-          {podcasts.length ? <Link href="#podcasts-title">Podcasts</Link> : null}
-        </nav>
           <EditableSurfaceRegion surface={catalog}>{null}</EditableSurfaceRegion>
           {!filtered && courses.some(({pack}) => /^div-[fia]/.test(pack.course.id)) ? <p><Link href="/learn/diversity">Explore diversity courses: Foundation, Intermediate, and Advanced</Link></p> : null}
           {learning.length ? <section className={styles.section} aria-labelledby="modules-title">
@@ -145,18 +142,25 @@ export default async function LearnPage({ searchParams }: { searchParams?: Promi
               {remainingLearning.length ? <p className={preview.browseAll}><Link href="/learn?browse=all#modules-title">Browse all {learning.length} courses and learning resources →</Link></p> : null}
             </>}
           </section> : null}
-          {hub.available && resources.length ? <section className={styles.section} aria-labelledby="hub-resources-title"><div className={styles.sectionHeading}><h2 id="hub-resources-title">{hubText("resourcesTitle")}</h2><span>{resources.length} resources</span></div><details className={preview.disclosure} open={expanded}><summary>Browse tools, guidance, and further reading</summary><ul className={styles.resourceList}>{resources.map((item) => <li key={item.id} data-hub-resource={item.id}><span className={styles.resourceKind}>{CONTENT_TYPE_LABEL[item.type]}</span><h3><Link href={`/library/${item.id}`}>{item.title}</Link></h3><p>{shortSummary(item.summary)}</p><AuthorityPill authority={item.authority} />{owner ? <> <ResourceRemove contentItemId={item.id} title={item.title} compact /></> : null}</li>)}</ul></details></section> : null}
-          {podcasts.length ? <section className={styles.section} aria-labelledby="podcasts-title"><div className={styles.sectionHeading}><h2 id="podcasts-title">Podcasts</h2></div><details className={preview.disclosure} open={expanded}><summary>Explore podcasts</summary><div className={styles.podcastGrid}>{podcasts.map(({ podcast, surface: podcastSurface }) => <PublishedPodcast key={podcast.id} podcast={podcast} surface={podcastSurface} />)}</div></details></section> : null}
+          {hub.available && resources.length ? <section className={styles.section} aria-labelledby="hub-resources-title"><div className={styles.sectionHeading}><h2 id="hub-resources-title">{hubText("resourcesTitle")}</h2><span>{resources.length} resources</span></div><details className={preview.disclosure} open={filtered}><summary>Browse tools, guidance, and further reading</summary><ul className={styles.resourceList}>{resources.map((item) => <li key={item.id} data-hub-resource={item.id}><span className={styles.resourceKind}>{CONTENT_TYPE_LABEL[item.type]}</span><h3><Link href={`/library/${item.id}`}>{item.title}</Link></h3><p>{shortSummary(item.summary)}</p><AuthorityPill authority={item.authority} />{owner ? <> <ResourceRemove contentItemId={item.id} title={item.title} compact /></> : null}</li>)}</ul></details></section> : null}
+          {podcasts.length ? <section className={styles.section} aria-labelledby="podcasts-title"><div className={styles.sectionHeading}><h2 id="podcasts-title">Podcasts</h2></div><details className={preview.disclosure} open={filtered}><summary>Explore podcasts</summary><div className={styles.podcastGrid}>{podcasts.map(({ podcast, surface: podcastSurface }) => <PublishedPodcast key={podcast.id} podcast={podcast} surface={podcastSurface} />)}</div></details></section> : null}
         </div>
         {staffGuide && (!filtered || selected.some((item) => item.id === staffGuide.id)) ? <aside className={styles.guide} aria-labelledby="learning-guide-title"><div><h2 id="learning-guide-title">{catalog.available ? stringValue(catalog.values, "staffGuideTitle") : staffGuide.title}</h2>{catalog.available ? <p>{stringValue(catalog.values, "staffGuideIntro")}</p> : null}</div><Link href={`/library/${staffGuide.id}`}>{staffGuide.title}</Link></aside> : null}
         {!filtered ? <>
-          <section className={styles.section} aria-labelledby="stages-title">
-            <p className={styles.eyebrow}>{stringValue(copy, "stagesKicker")}</p>
-            <h2 id="stages-title">{stringValue(copy, "stagesTitle")}</h2>
-            <p className={styles.intro}>{stringValue(copy, "stagesIntro")}</p>
-            <details className={preview.disclosure} open={expanded}><summary>Explore the learning stages</summary><ol className={styles.stages}>{stages.map((stage) => <li id={stage.id} key={stage.id}><div><span className={styles.stageNumber}>{stringValue(copy, "stageLabel")} {stage.stage}</span><h3>{stage.label}</h3></div><div><p>{stage.purpose}</p><ul>{stage.outcomes.map((outcome) => <li key={outcome}>{outcome}</li>)}</ul><p><Link href={learningStageHref(stage.id)}>{stringValue(copy, "stageLinkLabel")}</Link></p></div></li>)}</ol></details>
+          <section className={styles.section} aria-labelledby="more-learning-title">
+            <h2 id="more-learning-title">More ways to learn</h2>
+            <details className={preview.disclosure}>
+              <summary id="stages-title">{stringValue(copy, "stagesTitle")}</summary>
+              <p className={styles.eyebrow}>{stringValue(copy, "stagesKicker")}</p>
+              <p className={styles.intro}>{stringValue(copy, "stagesIntro")}</p>
+              <ol className={styles.stages}>{stages.map((stage) => <li id={stage.id} key={stage.id}><div><span className={styles.stageNumber}>{stringValue(copy, "stageLabel")} {stage.stage}</span><h3>{stage.label}</h3></div><div><p>{stage.purpose}</p><ul>{stage.outcomes.map((outcome) => <li key={outcome}>{outcome}</li>)}</ul><p><Link href={learningStageHref(stage.id)}>{stringValue(copy, "stageLinkLabel")}</Link></p></div></li>)}</ol>
+            </details>
+            <details className={preview.disclosure}>
+              <summary id="paths-title">{stringValue(copy, "pathsTitle")}</summary>
+              <p className={styles.intro}>{stringValue(copy, "pathsIntro")}</p>
+              <ul className={styles.pathList}>{graduationPaths.map((p) => <li key={p.id}><Link href={`/practice/${p.id}`}>{p.title}</Link><p>{p.startingCompetence}</p></li>)}</ul>
+            </details>
           </section>
-          <section className={styles.section} aria-labelledby="paths-title"><h2 id="paths-title">{stringValue(copy, "pathsTitle")}</h2><p className={styles.intro}>{stringValue(copy, "pathsIntro")}</p><details className={preview.disclosure} open={expanded}><summary>Explore practice paths</summary><ul className={styles.pathList}>{graduationPaths.map((p) => <li key={p.id}><Link href={`/practice/${p.id}`}>{p.title}</Link><p>{p.startingCompetence}</p></li>)}</ul></details></section>
           {!hub.available ? <section className={styles.section} aria-labelledby="notes-title"><h2 id="notes-title">{stringValue(copy, "notesTitle")}</h2><ul className={styles.pathList}>{practice.map((c) => <li key={c.id}><Link href={`/library/${c.id}`}>{c.title}</Link>{owner ? <> <ResourceRemove contentItemId={c.id} title={c.title} compact /></> : null}<p>{shortSummary(c.summary)}</p></li>)}</ul></section> : null}
         </> : null}
         <div className={styles.context}><p><Link href="/learn/sources">Research and sources</Link> · <Link href="/ask">Common questions</Link> · <Link href="/toolkit-studio">Toolkit Studio</Link></p><details className={preview.disclosure}><summary>About these learning resources</summary><DhsReferenceLink /><ProgramContextNote /></details></div>

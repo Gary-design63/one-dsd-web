@@ -212,7 +212,7 @@ export function ResourceReleaseClient({
                   {draft.payload.body.map((part, index) => <p className="m-0" key={`draft-${index}`}>{part}</p>)}
                 </div>
                 <p className="mt-4 mb-0 text-sm">
-                  Applies to: {draft.payload.scope === "dsd" ? "Disability Services Division" : "One DHS agencywide"}. Maintained by {draft.payload.owner}. Review date: {draft.payload.reviewDate}.
+                  Applies to: {draft.payload.scope === "dsd" ? "Disability Services Division" : "One DHS agencywide"}. Maintained by {draft.payload.owner}.
                 </p>
               </div>
             </div>

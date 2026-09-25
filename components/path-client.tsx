@@ -229,9 +229,9 @@ export function PathClient({ path, intakeEnabled, copy, contract = "", origin: i
             {check.passed ? (
               <div className="notice mt-3">
                 <strong>{copyText(copy, "readyLead")} </strong>
-                {intakeEnabled
-                  ? copyText(copy, "readyOpenBody")
-                  : copyText(copy, "readyPreviewBody")}
+              {consultationAction.href.startsWith("/support/request")
+                  ? copyText(copy, intakeEnabled ? "readyOpenBody" : "readyPreviewBody")
+                  : copyText(copy, "supportOneDhsBody")}
               </div>
             ) : (
               <p className="mt-3 text-sm">{copyText(copy, "missingDetailsBody")}</p>
@@ -255,20 +255,16 @@ export function PathClient({ path, intakeEnabled, copy, contract = "", origin: i
           <p className="mt-2 text-sm text-muted">{copyText(copy, "reviewStatusPrefix")} {(!draft && progress.complete) ? copyText(copy, "completeStatus") : copyText(copy, "incompleteStatus")}. {copyText(copy, "browserStorageBody")}</p>
         </div>
         <div className="panel">
-          <p className="kicker">{context === "one_dsd" ? copyText(copy, "dsdConsultKicker") : copyText(copy, "humanSupportKicker")}</p>
+          <p className="kicker">{consultationAction.href.startsWith("/support/request") ? copyText(copy, "dsdConsultKicker") : copyText(copy, "humanSupportKicker")}</p>
           <p className="text-sm">
-            {context !== "one_dsd"
+            {!consultationAction.href.startsWith("/support/request")
               ? copyText(copy, "supportOneDhsBody")
               : intakeEnabled
                 ? copyText(copy, "supportDsdOpenBody")
                 : copyText(copy, "supportDsdPreviewBody")}
           </p>
-          <Link href={withWorkOrigin(consultationAction.href, origin)} className="btn btn--light" onClick={context === "one_dsd" ? prefillConsult : undefined}>
-            {context !== "one_dsd"
-              ? copyText(copy, "supportOneDhsLabel")
-              : intakeEnabled
-                ? copyText(copy, "supportDsdOpenLabel")
-                : copyText(copy, "supportDsdPreviewLabel")}
+          <Link href={withWorkOrigin(consultationAction.href, origin)} className="btn btn--light" onClick={consultationAction.href.startsWith("/support/request") ? prefillConsult : undefined}>
+            {consultationAction.label}
           </Link>
         </div>
       </aside>

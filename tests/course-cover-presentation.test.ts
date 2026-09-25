@@ -36,7 +36,7 @@ describe("course cover presentation", () => {
   });
 
   it("uses a unique image for every active course cover", () => {
-    expect(displayed).toHaveLength(209);
+    expect(displayed).toHaveLength(210);
     const hashes = new Map<string, string>();
     for (const pack of displayed) {
       const file = path.join(root, "public", pack.course.coverImage.split("?")[0].slice(1));

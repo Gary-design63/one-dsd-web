@@ -18,6 +18,7 @@ export default async function AboutPage() {
   ]);
   const copy = surface.values;
   const supportLinks = linkListValue(copy, "supportLinks");
+  const sourcesBody = stringValue(copy, "sourcesBody").replace(/\b(?:its\s+)?review date,\s*/gi, "");
   // The opening text follows the selected program view (One DHS or One DSD), like the header wordmark.
   const forView = (text: string) => context === "one_dsd"
     ? text.replaceAll(PROGRAM.staffBrand, PROGRAM.oneDsdProgramName)
@@ -88,7 +89,7 @@ export default async function AboutPage() {
             {stringValue(copy, "sourcesTitle")}
           </h2>
           <p>
-            {stringValue(copy, "sourcesBody")}
+            {sourcesBody}
           </p>
           <p className="m-0">
             {stringValue(copy, "sourcesBoundary")}

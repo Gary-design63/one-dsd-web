@@ -23,18 +23,20 @@ export default async function DiversityCoursesPage() {
       <p><Link href="/learn">← Learning and resources</Link></p>
       <p>Choose a course that speaks to a question or experience you want to explore. Foundation, Intermediate, and Advanced describe the depth of the material. They do not label you or restrict where you can begin. Each course includes four lessons, activities with feedback, a practical job aid, and sources for further reading.</p>
       {firstCourse ? <section className={styles.topicStart}><h2>Start here</h2><p>{courseSummary(firstCourse)}</p><Link className={styles.primaryAction} href={courseHref(firstCourse.course.id)}>{firstCourse.course.title}</Link></section> : null}
-      <nav className={styles.themes} aria-label="Diversity course groups">
-        {groups.map(group => <a href={`#${group.id}`} key={group.id}>{group.title}</a>)}
-      </nav>
-      {groups.map(group => <section key={group.id} id={group.id} className={styles.section} aria-labelledby={`${group.id}-heading`}>
-        <div className={styles.sectionHeading}><h2 id={`${group.id}-heading`}>{group.title}</h2><span>{group.courses.length} courses</span></div>
-        <p>{group.description}</p>
-        {group.courses.length ? <ul className={styles.courseGrid}>
-          {group.courses.map(pack => <li key={pack.course.id}><LearningTile
-            item={courseContentItem(pack)} href={courseHref(pack.course.id)} owner={owner}
-            presentation={{ imageSrc: pack.course.coverImage, imageAlt: pack.course.coverAlt, summary: courseSummary(pack) }} />
-          </li>)}
-        </ul> : <p>No courses in this group are currently published for this view.</p>}
+      {groups.map((group, index) => <section key={group.id} id={group.id} className={styles.section} aria-label={`${group.title} courses`}>
+        <details className={styles.courseGroup} open={index === 0}>
+          <summary className={styles.courseGroupSummary}>
+            <h2 className={styles.courseGroupTitle}>{group.title}</h2>
+            <span>{group.courses.length} courses</span>
+          </summary>
+          <p>{group.description}</p>
+          {group.courses.length ? <ul className={styles.courseGrid}>
+            {group.courses.map(pack => <li key={pack.course.id}><LearningTile
+              item={courseContentItem(pack)} href={courseHref(pack.course.id)} owner={owner}
+              presentation={{ imageSrc: pack.course.coverImage, imageAlt: pack.course.coverAlt, summary: courseSummary(pack) }} />
+            </li>)}
+          </ul> : <p>No courses in this group are currently published for this view.</p>}
+        </details>
       </section>)}
       <p>{TRAINING_CREDIT_NOTICE}</p>
     </div>

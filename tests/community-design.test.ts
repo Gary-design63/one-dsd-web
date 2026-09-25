@@ -21,8 +21,17 @@ describe("complete community design preview", () => {
     for (const source of sources) {
       const reading = recovered.find(b => b.sourceId === source.assetId)!;
       expect(reading.sections).toHaveLength(source.richOriginal.intelligenceGuide.chapters.length);
-      for (const [i, chapter] of reading.sections.entries()) expect(chapter.body).toBe(source.richOriginal.intelligenceGuide.chapters[i].body);
+      for (const [i, chapter] of reading.sections.entries()) {
+        const sourceBody = source.richOriginal.intelligenceGuide.chapters[i].body as string;
+        const publicBody = sourceBody.replace(
+          /Community and media estimates have been cited near 20,000 Karen in Minnesota \([^)]*\). Date them as estimates. They are not Compass\./,
+          "Community and local news accounts sometimes offer estimates, but they are not Minnesota Compass counts. Do not treat them as a confirmed count for this page.",
+        );
+        expect(chapter.body).toBe(publicBody);
+      }
     }
+    expect(JSON.stringify(recovered)).not.toMatch(/wiki(?:pedia|media|data)/i);
+    expect(JSON.stringify(recovered)).not.toContain("staff keep a stable doorway");
     expect(communityDesignEntries()).toHaveLength(42);
     expect(communityDesignEntries().some(b => b.id === "deaf-deafblind-hard-of-hearing")).toBe(true);
     for (const brief of BRIEFS) expect(communityDesignEntries().some(b => b.id === brief.id)).toBe(true);

@@ -20,13 +20,13 @@ export default async function SupportPage() {
   }));
   return (
     <EditableSurfaceRegion surface={surface}>
-      <PageIntro kicker={stringValue(copy, "introKicker")} title={stringValue(copy, "introTitle")} lede={stringValue(copy, "introLede")} />
+      <PageIntro kicker={stringValue(copy, "introKicker")} title={stringValue(copy, "introTitle")} lede="Work independently when that is enough, or connect with the person or office responsible for the decision. Staff consultation request forms are closed." />
       <div className="wrap space-y-8 py-8">
         <ProgramContextNote />
-        <p><Link href="/support/directory">DHS offices and guidance</Link></p>
         <ul className={styles.supportDirectory}>
           {doors.map((door) => <li key={door.href}><Link href={door.href} className={styles.directoryLink}><strong>{door.title}</strong><span>{door.description}</span><span className={styles.directoryArrow} aria-hidden="true">→</span></Link></li>)}
         </ul>
+        <p><Link href="/support/directory">DHS offices and guidance</Link></p>
         <div className={styles.supportLower}>
         <SupportContextOptions copy={copy} />
         <aside className={styles.supportNotes}>

@@ -34,11 +34,11 @@ describe("work origin continuity",()=>{
     expect(withWorkOrigin("//example.org/guide",{originArea,area})).toBe("//example.org/guide");
   });
   it("retains coordinated optional facets and origin while removing invalid values",()=>{
-    const input={originArea,area,task:task.id,role:"supervisor",topic:"access",freshness:"review_planned"};
+    const input={originArea,area,task:task.id,role:"supervisor",topic:"access"};
     const filters=normalizeLibraryFilters(input);expect(filters).toMatchObject(input);
     const url=new URL(libraryHref(filters,"equity"),"http://local");
     for(const [key,value]of Object.entries(input))expect(url.searchParams.get(key)).toBe(value);
-    expect(normalizeLibraryFilters({role:"a".repeat(101),topic:"a".repeat(101),freshness:"expired"})).toEqual({});
+    expect(normalizeLibraryFilters({role:"a".repeat(101),topic:"a".repeat(101),freshness:"review_planned"})).toEqual({});
   });
 });
 describe("GP11 responsibility without identifying people",()=>{

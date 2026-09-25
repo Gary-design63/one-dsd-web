@@ -39,7 +39,7 @@ export default async function SourcesPage() {
         </div>
       </PageIntro>
       <div className="wrap">
-        {surface.available ? <ResourceDownloads kind="sources" id="register" noun="source register" scope={scope} /> : null}
+        {surface.available ? <details className="max-w-4xl border-b border-line pb-3 print:hidden"><summary className="min-h-11 cursor-pointer py-2 font-semibold text-[#183247]">Download the source register</summary><ResourceDownloads kind="sources" id="register" noun="source register" scope={scope} /></details> : null}
         <div className={styles.read}>
           <section><h2>{text("readTitle")}</h2><p>{text("readBody")}</p></section>
           <section><h2>{text("statesTitle")}</h2><p>{text("statesBody")}</p></section>
@@ -61,9 +61,12 @@ export default async function SourcesPage() {
                       <span className={styles.state} data-state={verification.state} title={verification.detail}>{verification.label}</span>
                       {verification.state === "reached_moved" && verification.finalUrl ? <a href={courseLink(verification.finalUrl)} rel="noreferrer">{text("movedLabel")}</a> : null}
                     </p>
-                    {notes.length ? <><span className={styles.notesLabel}>{text("annotationLabel")}</span><ul className={styles.notes}>{notes.map((note, index) => <li key={index}>{note}</li>)}</ul></> : null}
-                    <span className={styles.usedLabel}>{text("usedInLabel")}</span>
-                    <ul className={styles.used}>{source.citations.map(citation => <li key={`${citation.resourceType}:${citation.resourceId}:${citation.role}`}><Link href={citation.route}>{citation.resourceTitle}</Link> <span>· {RESOURCE_TYPE_LABEL[citation.resourceType] ?? citation.resourceType}</span></li>)}</ul>
+                    {notes.length || source.citations.length ? <details className={styles.supporting}>
+                      <summary>{notes.length ? "Notes and where this source is used" : "Where this source is used"}</summary>
+                      {notes.length ? <><span className={styles.notesLabel}>{text("annotationLabel")}</span><ul className={styles.notes}>{notes.map((note, index) => <li key={index}>{note}</li>)}</ul></> : null}
+                      {source.citations.length ? <><span className={styles.usedLabel}>{text("usedInLabel")}</span>
+                        <ul className={styles.used}>{source.citations.map(citation => <li key={`${citation.resourceType}:${citation.resourceId}:${citation.role}`}><Link href={citation.route}>{citation.resourceTitle}</Link> <span>· {RESOURCE_TYPE_LABEL[citation.resourceType] ?? citation.resourceType}</span></li>)}</ul></> : null}
+                    </details> : null}
                   </li>
                 );
               })}

@@ -65,3 +65,35 @@
 
 .page, .hero, .why { background: #fff; }
 .why { border: 1px solid #c6cfd3; border-left: 3px solid #176B65; }
+
+/* The directory stays open and readable; filters and supplementary media sit one level down. */
+.directoryPage .search { background: #f3f6f8; border-color: #d8e1e8; box-shadow: none; }
+.directoryPage .filterDisclosure { margin-top: 1rem; border-top: 1px solid #d8e1e8; padding-top: .5rem; }
+.directoryPage .filterDisclosure > summary,
+.directoryPage .mediaDisclosure > summary { min-height: 44px; padding-block: .65rem; color: #183247; font-weight: 650; cursor: pointer; text-underline-offset: .25em; }
+.directoryPage .filterDisclosure[open] > summary,
+.directoryPage .mediaDisclosure[open] > summary { margin-bottom: .35rem; }
+.directoryPage .filters { gap: .5rem 2rem; border-top: 1px solid #d8e1e8; margin-top: 1.1rem; padding-top: 1rem; }
+.directoryPage .filters a { min-height: 38px; padding: .35rem .65rem; background: #fff; border-color: #abbcc8; font-weight: 500; }
+.directoryPage .filters a[aria-current] { background: #183247; border-color: #183247; color: #fff; }
+.directoryPage .activeFilters { display: flex; flex-wrap: wrap; align-items: center; gap: .35rem .8rem; margin-top: 1rem; font-size: .85rem; }
+.directoryPage .activeFilters a { color: #183247; text-underline-offset: .2em; }
+.directoryPage .directory > li { display: block; padding: 1.25rem 0 1.35rem; }
+.directoryPage .results li { padding: 1.25rem 0 1.35rem; }
+.directoryPage .directory > li:hover { background: #f7f9fa; }
+.resultRow, .directoryRow { scroll-margin-top: 1.5rem; }
+.directoryPage .rowMeta { margin: 0 0 .35rem; color: #526b7c; font-size: .8rem; line-height: 1.5; }
+.directoryPage .rowTitle { display: flex; align-items: baseline; flex-wrap: wrap; gap: .2rem .7rem; }
+.directoryPage .rowTitle h3 { margin: 0; font-size: 1.14rem; font-weight: 650; line-height: 1.4; }
+.directoryPage .rowTitle a { color: #183247; text-decoration: none; }
+.directoryPage .rowTitle a:hover { text-decoration: underline; text-underline-offset: .18em; }
+.directoryPage .rowSummary { max-width: 78ch; margin: .35rem 0 0; color: #415966; font-size: .94rem; line-height: 1.65; }
+.directoryPage .mediaDisclosure { max-width: 48rem; margin-top: .25rem; }
+.directoryPage .mediaDisclosure :global(figure) { margin: .25rem 0 .75rem; }
+.directoryPage .moreResults { margin: 1rem 0 0; color: #415966; line-height: 1.6; }
+.directoryPage .moreResults a { color: #183247; font-weight: 650; text-underline-offset: .2em; }
+.directoryPage .remaining { margin-top: 1.25rem; border-top: 1px solid #d8e1e8; }
+.directoryPage .remaining > summary { min-height: 44px; padding: .9rem 0; color: #183247; font-weight: 650; cursor: pointer; }
+.directoryPage .remaining > summary:hover { text-decoration: underline; text-underline-offset: .2em; }
+.directoryPage .remaining > ul { margin-top: .25rem; }
+@media (max-width: 700px) { .directoryPage .rowTitle { align-items: flex-start; } }

@@ -42,6 +42,8 @@ describe("governed editable surface migration", () => {
     // September 12, 2026: the owner ordered all staff-facing wording humanized (plain English, no system or machine language).
     const addedPracticeKeys = ["handoffTitle","handoffBody","handoffUseLabel","draftSourceSummary","draftPreparedPrefix","draftOwnershipBody"];
     const forwardValues: Record<string, string[]> = {
+      // The shared header now includes the approved Amplify Equity navigation link.
+      "site.header": ["primaryNavigation"],
       "learn.hub": ["cultureIds","interculturalIds","accessIds","structuralIds","partnershipIds","facilitationIds"],
       "amplify.materials": ["navigation"],
       "amplify.home": ["intro","navigation"],
@@ -65,19 +67,26 @@ describe("governed editable surface migration", () => {
       "support.page": ["introLede","oneDhsBody","oneDsdOpenBody","oneDsdPreviewBody","oneDsdPreviewLink"],
       "support.request.one-dhs": ["introLede","supportBody"],
       "support.request.dsd": ["previewKicker","previewLede","previewPrivacyNote"],
-      "support.right-person": ["destinationCommunicationsOrPublicInformationOfficeDescription","destinationOfficeOfIndianPolicyOrTribalLiaisonDescription","eligibilityNotCheckedDescription","eligibilityNotDsdDescription","introKicker","introLede","formKicker","oneDhsRouteNote","submitLabel","resultKicker","emptyResultBody","directoryNote","dsdOptionBody","oneDhsDecisionBody","oneDsdDecisionBody"],
+      "support.right-person": ["destinationCommunicationsOrPublicInformationOfficeDescription","destinationOfficeOfIndianPolicyOrTribalLiaisonDescription","eligibilityNotCheckedDescription","eligibilitySelfAttestedDsdDescription","eligibilityNotDsdDescription","introKicker","introLede","formKicker","oneDhsRouteNote","submitLabel","resultKicker","emptyResultBody","directoryNote","dsdOptionBody","oneDhsDecisionBody","oneDsdDecisionBody"],
       "support.track.unavailable": ["introLede","availabilityNote"],
       "my-work.page": ["introKicker"],
       "my-view.page": ["introKicker","introLede"],
-      "library.page": ["noResultsBody"],
+      "library.page": ["introLede","noResultsBody"],
       "graduation-path.gp-4": ["artifactField2Help","privacy"],
       "graduation-path.gp-2": ["graduatedLooksLike"],
       "graduation-path.gp-1": ["artifactField2Help","artifactField3Help","privacy","step3Guidance"],
       "learn.page": ["stageApplicationOutcomes"],
     };
+    for (const surface of EDITABLE_SURFACE_REGISTRY.filter(item => item.surfaceId.startsWith("workforce."))) {
+      forwardValues[surface.surfaceId] = ["status"];
+    }
     for (const number of [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]) {
       const id = `graduation-path.gp-${number}`;
       forwardValues[id] = [...new Set([...(forwardValues[id] ?? []), "step0Links"])];
+    }
+    for (const number of [1, 2, 3, 4, 5]) {
+      const id = `graduation-path.gp-${number}`;
+      forwardValues[id] = [...new Set([...(forwardValues[id] ?? []), "step5Title", "step5Guidance", "step5Links"])];
     }
     const laterBriefKeys = ["spotlightTitle","spotlightBody","spotlightLinkLabel","spotlightHref","reflectionTitle","reflectionBody"];
     const addedAskKeys = ["draftReadyBody","draftContinueLabel","draftTransferError","reviewDraftLabel","reviewDraftHelp","reviewDraftPlaceholder","evidencePassagesLabel","inferenceLabel","relatedReadingLabel"];

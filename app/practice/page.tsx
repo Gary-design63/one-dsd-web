@@ -13,6 +13,7 @@ import { GRADUATION_PATHS } from "@/lib/content/paths";
 import { EditableSurfaceRegion, prepareEditableSurface } from "@/components/editable-surface";
 import { applyGraduationPathValues, graduationPathSurfaceId, linkListValue, stringValue } from "@/lib/content/staff-surface-registry";
 import { requestedContentScope } from "@/lib/product/request-context";
+import { publishedPracticePath, withoutPublishedSaveClaims } from "@/lib/content/published-practice-path";
 
 export const metadata: Metadata = { title: "Practice" };
 
@@ -27,27 +28,23 @@ export default async function PracticePage({ searchParams }: { searchParams?: Pr
   const measurementAvailable = measurement.available && measurementSources.items.some(item => item.id === MEASUREMENT_RESOURCE_ID);
   const copy = surface.values;
   const moreLinks = linkListValue(copy, "moreLinks");
-  const paths = GRADUATION_PATHS.flatMap((path, index) => pathSurfaces[index].available ? [applyGraduationPathValues(path, pathSurfaces[index].values)] : []);
+  const paths = GRADUATION_PATHS.flatMap((path, index) => pathSurfaces[index].available ? [publishedPracticePath(applyGraduationPathValues(path, pathSurfaces[index].values))] : []);
   return (
     <EditableSurfaceRegion surface={surface}>
       <PageIntro
         kicker={stringValue(copy, "introKicker")}
         title={stringValue(copy, "introTitle")}
-        lede={stringValue(copy, "introLede")}
+        lede={withoutPublishedSaveClaims(stringValue(copy, "introLede"))}
       />
       <div className="wrap space-y-7 py-8">
         <ProgramContextNote />
         <WorkOriginLinks origin={origin} />
-        <div className={styles.practiceConnections}>
-          <LearningJourneyLink scope={scope} compact />
-          <p><Link href="/operationalizing-equity">Explore how guided practice connects to operationalizing equity</Link></p>
-        </div>
 
         <section aria-labelledby="practice-choices-title">
           <p className="kicker">{stringValue(copy, "choicesKicker")}</p>
           <h2 id="practice-choices-title" className="text-2xl font-extrabold">{stringValue(copy, "choicesTitle")}</h2>
           <p className="max-w-3xl text-muted">
-            {stringValue(copy, "choicesIntro")}
+            {withoutPublishedSaveClaims(stringValue(copy, "choicesIntro"))}
           </p>
           <ul className={styles.practiceList}>
             {paths.map((path) => (
@@ -62,6 +59,11 @@ export default async function PracticePage({ searchParams }: { searchParams?: Pr
             ))}
           </ul>
         </section>
+
+        <div className={styles.practiceConnections}>
+          <LearningJourneyLink scope={scope} compact />
+          <p><Link href="/operationalizing-equity">Explore how guided practice connects to operationalizing equity</Link></p>
+        </div>
 
         {measurementAvailable ? <section className={styles.practiceMore}><h2 className="text-2xl font-bold"><Link href={withWorkOrigin(MEASUREMENT_HREF, normalizeWorkOrigin({ ...origin, area: "measurement", task: "evaluation-plan" }))}>{stringValue(measurement.values, "title")}</Link></h2><p>{stringValue(measurement.values, "intro")}</p></section> : null}
 

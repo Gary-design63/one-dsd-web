@@ -34,7 +34,7 @@ export default async function ScenarioPage({ params }: { params: Promise<{ id: s
         <Link href="/one-dsd#scenarios">{stringValue(copy, "backLabel")}</Link>
         {destinations.has(domainHref) ? <Link href={domainHref}>{destinations.get(domainHref)}</Link> : null}
       </nav>
-      {surface.available ? <ResourceDownloads kind="scenario" id={id} noun="scenario" scope="dsd" /> : null}
+      {surface.available ? <details className="border-t border-line pt-4"><summary className="cursor-pointer font-semibold text-[#123f60]">Download this scenario</summary><ResourceDownloads kind="scenario" id={id} noun="scenario" scope="dsd" /></details> : null}
       <article className={`${styles.scenarioStory} space-y-8`} aria-labelledby="situation-title">
         <section>
           <h2 id="situation-title" className="text-2xl font-semibold">{stringValue(copy, "situationTitle")}</h2>

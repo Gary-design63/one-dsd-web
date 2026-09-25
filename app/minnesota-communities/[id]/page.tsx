@@ -7,7 +7,6 @@ import { notFound } from "next/navigation";
 import { Notice, PageIntro } from "@/components/ui";
 import { getBrief } from "@/lib/content/briefs";
 import { getPath } from "@/lib/content/paths";
-import { reviewDateText } from "@/lib/content/types";
 import { communityBrief, paused } from "@/lib/intelligence/orchestrator";
 import { briefVisible, toView } from "@/lib/intelligence/agents/ci";
 import { consultationIntakeEnabled } from "@/lib/intelligence/consult/availability";
@@ -88,7 +87,7 @@ export default async function BriefPage({ params, searchParams }: { params: Prom
         </nav>
       </header> : <PageIntro kicker={b.kicker} title={b.title} lede={b.level0.whoAndWhere}>
         <p className="mt-3 text-sm text-muted">
-          {stringValue(shellSurface.values, "maintainedByLabel")} {b.owner}. {reviewDateText(b.reviewDate)}. {stringValue(shellSurface.values, "appliesToLabel")}: {PROGRAM.fullName}. {b.representationReview}. {stringValue(shellSurface.values, "languagesLabel")}: {b.languages.join(", ")}.
+          {stringValue(shellSurface.values, "maintainedByLabel")} {b.owner}. {stringValue(shellSurface.values, "appliesToLabel")}: {PROGRAM.fullName}. {b.representationReview}. {stringValue(shellSurface.values, "languagesLabel")}: {b.languages.join(", ")}.
         </p>
       </PageIntro>}
       <div className="wrap py-8">

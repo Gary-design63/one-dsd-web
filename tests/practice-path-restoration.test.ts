@@ -51,11 +51,25 @@ function withBrowseOnlyAskLabels<T>(value: T): T {
 }
 
 describe("Original practice paths restored intact", () => {
-  it("restores the original six-path blob except browse-only Ask labels, and preserves existing GP1–5 content", () => {
+  it("preserves the original paths apart from browse-only Ask and the closed consultation handoff", () => {
     const currentDomain = readFileSync("lib/content/paths-domain.ts", "utf8").replaceAll("\r\n", "\n");
     expect(currentDomain.replaceAll(BROWSE_ASK_LINK, TYPED_ASK_LINK)).toBe(historicalSource("domains"));
     expect(DOMAIN_PATHS).toEqual(withBrowseOnlyAskLabels(historicalExports("domains").DOMAIN_PATHS));
-    expect(GRADUATION_PATHS.slice(0, 5)).toEqual(withBrowseOnlyAskLabels(historicalExports("core").GRADUATION_PATHS));
+    const historicalCore = withBrowseOnlyAskLabels(historicalExports("core").GRADUATION_PATHS) as GraduationPath[];
+    const restoredCore = GRADUATION_PATHS.slice(0, 5).map((path, index) => ({
+      ...path,
+      steps: path.steps.map(step => step.key === "consult"
+        ? historicalCore[index].steps.find(original => original.key === "consult")!
+        : step),
+    }));
+    expect(restoredCore).toEqual(historicalCore);
+    for (const path of GRADUATION_PATHS.slice(0, 5)) {
+      const handoff = path.steps.find(step => step.key === "consult")!;
+      expect(handoff.title).toBe("Find the right person when needed");
+      expect(handoff.links).toHaveLength(1);
+      expect(handoff.links[0].label).toBe("Find the right person");
+      expect(handoff.links[0].href).toMatch(/^\/support\/right-person\?area=/);
+    }
     expect(GRADUATION_PATHS.map(path => path.id)).toEqual(Array.from({ length: 13 }, (_, index) => "gp-" + (index + 1)));
     expect(DOMAIN_PATHS.map(path => path.artifactFields.length)).toEqual([9, 12, 9, 10, 11, 11]);
   });

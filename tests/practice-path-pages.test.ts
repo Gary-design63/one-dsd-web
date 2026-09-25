@@ -8,7 +8,7 @@ import { domainForPath } from "@/lib/domains";
 import { getEditableSurfaceDefinition, graduationPathSurfaceId } from "@/lib/content/staff-surface-registry";
 import { canonicalStaffHref } from "@/lib/product";
 
-const state = vi.hoisted(() => ({ scope: "one-dhs", hidden: new Set<string>() }));
+const state = vi.hoisted(() => ({ scope: "one-dhs", hidden: new Set<string>(), overrides: new Map<string, Record<string, unknown>>() }));
 vi.mock("@/lib/product/request-context", () => ({
   requestedContentScope: async () => state.scope,
   requestedProductContext: async () => state.scope === "dsd" ? "one_dsd" : "one_dhs",
@@ -17,7 +17,7 @@ vi.mock("@/components/program-context", () => ({ ProgramContextNote: () => null,
 vi.mock("@/components/editable-surface", () => ({
   prepareEditableSurface: async (id: string) => ({
     definition: getEditableSurfaceDefinition(id),
-    values: getEditableSurfaceDefinition(id)!.approvedValues,
+    values: { ...getEditableSurfaceDefinition(id)!.approvedValues, ...state.overrides.get(id) },
     available: !state.hidden.has(id), canEdit: false, scope: state.scope,
   }),
   EditableSurfaceRegion: ({ children, surface }: { children: ReactNode; surface: { available: boolean } }) => surface.available ? children : null,
@@ -28,7 +28,7 @@ import PathPage from "@/app/paths/[id]/page";
 import PracticePage from "@/app/practice/page";
 import AskPage from "@/app/ask/page";
 const text = (value: string) => renderToStaticMarkup(createElement("span", null, value)).slice(6, -7);
-beforeEach(() => { state.scope = "one-dhs"; state.hidden.clear(); });
+beforeEach(() => { state.scope = "one-dhs"; state.hidden.clear(); state.overrides.clear(); });
 
 describe("Complete practice page rendering", () => {
   it.each(GRADUATION_PATHS)("renders every worksheet control and complete step text for $id", async sourcePath => {
@@ -37,9 +37,13 @@ describe("Complete practice page rendering", () => {
       state.scope = scope;
       const html = await renderServerPage(await PathPage({ params: Promise.resolve({ id: path.id }) }));
       expect(html).toContain(text(path.title));
-      expect(html).toContain(text(path.privacy));
+      expect(html).toContain("This page does not save your answers or progress");
       for (const step of path.steps) {
-        expect(html).toContain(text(step.guidance));
+        if (step.key === "artifact") {
+          expect(html).toContain("Use the downloaded checklist to write your answers");
+        } else {
+          expect(html).toContain(text(step.guidance));
+        }
         for (const link of step.links) {
           const href = scope === "one-dhs" && link.href.startsWith("/support/request") ? "/support/right-person" : canonicalStaffHref(link.href);
           expect(html).toContain(href.replaceAll("&", "&amp;"));
@@ -50,11 +54,29 @@ describe("Complete practice page rendering", () => {
         if (field.help) expect(html).toContain(text(field.help));
       }
       expect(html).toContain("Browse and download only");
+      expect(html).not.toContain("Your notes and progress stay on this device until you delete them");
       expect(html).not.toContain("Save these notes");
       expect(html).not.toContain("<textarea");
       const domain = domainForPath(path.id);
       if (domain) expect(html).toContain('href="/areas/' + domain.id + '"');
     }
+  });
+
+  it("does not republish outdated save claims from editable GP-1 copy", async () => {
+    state.overrides.set(graduationPathSurfaceId("gp-1"), {
+      startingCompetence: "These notes are saved in your browser. Consider access early.",
+      graduatedLooksLike: "Your progress is saved on this computer. You will have a checklist for your program.",
+      step3Guidance: "Complete the checklist. These notes and progress are saved in your browser.",
+      privacy: "Do not include client names. Your work is saved only on this computer.",
+    });
+    const html = await renderServerPage(await PathPage({ params: Promise.resolve({ id: "gp-1" }) }));
+    expect(html).toContain("Consider access early.");
+    expect(html).toContain("Do not include client names.");
+    expect(html).toContain("Use the downloaded checklist to write your answers");
+    expect(html).toContain("Notes saved through an earlier version may still be in this browser");
+    expect(html).not.toContain("These notes and progress are saved in your browser");
+    expect(html).not.toContain("Your work is saved only on this computer");
+    expect(html).not.toContain("Your progress is saved on this computer");
   });
 
   it("lists all eleven paths and omits a withdrawn worksheet from both list and detail", async () => {

@@ -4,6 +4,7 @@ import { PageIntro } from "@/components/ui";
 import { ownerPageGuard } from "@/lib/auth/owner-page";
 import { ProgramWorkControls, ProgramObservationForm } from "@/components/program-work-controls";
 import { listProgramWork, summarizeProgramWork } from "@/lib/program/work";
+import { receiptBodyForDisplay } from "@/lib/program/receipt-display";
 import { programFunctions } from "@/lib/program/model";
 import { getStore } from "@/lib/intelligence/memory/store";
 export const metadata:Metadata={title:"Program work"};
@@ -33,15 +34,14 @@ export default async function ProgramWorkPage(){
           <p className="mt-3">{task.objective}</p>
           <p className="text-sm text-muted">Ready from {task.dueAt.slice(0,10)} · Attempt {task.attempts} · {task.evidenceMode==="verification"?"Verification work":"Operational preparation"}</p>
           {task.receipt&&<section className="mt-5 border-t pt-5" aria-label={"Result for "+task.title}>
-            <h4 className="font-semibold">Saved result</h4><div className="mt-3 whitespace-pre-wrap">{task.receipt.body}</div>
+            <h4 className="font-semibold">Saved result</h4><div className="mt-3 whitespace-pre-wrap">{receiptBodyForDisplay(task.receipt.body, task.receipt.method)}</div>
             <ul className="mt-4 list-disc pl-5">{task.receipt.references.map((reference,index)=><li key={reference.href+index}><Link href={reference.href}>{reference.label}</Link></li>)}</ul>
           </section>}
           <ProgramObservationForm task={task}/>
           <details className="mt-5"><summary className="cursor-pointer font-semibold">Attempts and receipts ({task.events.length})</summary>
             <ol className="mt-3 space-y-4">{task.events.map(event=><li key={event.id} className="border-t pt-3">
               <p><strong>{labels[event.phase]??event.phase}</strong> · {event.at} · {event.actor==="owner"?"You":"The program"}</p><p>{event.note}</p>
-              {event.receipt&&<details><summary>See what this attempt produced</summary><div className="mt-3 whitespace-pre-wrap">{event.receipt.body}</div><p className="break-all text-sm">Receipt {event.id} · {event.receipt.method} · content fingerprint {event.receipt.contentHash}</p></details>}
-              {event.followUpAt&&<p>Next review: {event.followUpAt.slice(0,10)}{event.disposition==="stop"?" (stopped)":""}</p>}
+              {event.receipt&&<details><summary>See what this attempt produced</summary><div className="mt-3 whitespace-pre-wrap">{receiptBodyForDisplay(event.receipt.body, event.receipt.method)}</div><p className="break-all text-sm">Receipt {event.id} · {event.receipt.method} · content fingerprint {event.receipt.contentHash}</p></details>}
             </li>)}</ol>
           </details>
         </article>)}</div>

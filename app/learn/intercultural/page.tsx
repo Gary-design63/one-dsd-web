@@ -42,12 +42,18 @@ export default async function InterculturalLearningPage({searchParams}:{searchPa
     <header className={styles.hero}><div className={styles.heroInner}><p className={styles.eyebrow}>Learning for everyday work</p><h1>{text("title")}</h1><p className={styles.intro}>{text("intro")}</p></div></header>
     <div className={`${styles.content} ${styles.journeyBody} space-y-10`}>
       <Link href="/learn">All learning and resources</Link>
-      <ResourceDownloads kind="learning-journey" id="intercultural" noun="learning journey" scope={scope} />
+      <details className={styles.journeyDownloads}>
+        <summary>Download this learning journey</summary>
+        <ResourceDownloads kind="learning-journey" id="intercultural" noun="learning journey" scope={scope} />
+      </details>
       <div className="max-w-4xl"><p className="text-lg leading-8">{text("choice")}</p><p className="mt-3 text-sm leading-6">{TRAINING_CREDIT_NOTICE}</p></div>
       <section className={styles.topicStart} aria-labelledby="journey-start-title"><h2 id="journey-start-title">Start here: {stops[0].title}</h2><p>{stops[0].purpose}</p><Link className={styles.primaryAction} href={"#" + stops[0].id}>Explore the foundations</Link></section>
-      <nav aria-label="Choose a learning focus" className="grid gap-3 sm:grid-cols-2 lg:grid-cols-5">
-        {stops.map(stop=><Link key={stop.id} href={"#"+stop.id} className="rounded-xl border border-[#d5c8b4] bg-[#faf7f0] p-4 font-semibold leading-6 hover:bg-[#f0e8db]">{stop.title}</Link>)}
-      </nav>
+      <details className={styles.journeyNav}>
+        <summary>Explore all five learning focuses</summary>
+        <nav aria-label="Choose a learning focus">
+          {stops.map(stop=><Link key={stop.id} href={"#"+stop.id}>{stop.title}</Link>)}
+        </nav>
+      </details>
       <aside className="rounded-xl border border-line bg-white p-6" aria-labelledby="idi-context">
         <h2 id="idi-context" className="text-xl font-semibold">{text("idiTitle")}</h2><p className="my-3 max-w-4xl leading-7">{text("idiBody")}</p>
         <a className="underline" href={text("idiLink")}>About the IDI and individual development plans</a>
@@ -85,5 +91,3 @@ export default async function InterculturalLearningPage({searchParams}:{searchPa
     </div>
   </EditableSurfaceRegion>;
 }
-
-

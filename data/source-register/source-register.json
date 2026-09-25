@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-09-22T21:42:43.399Z",
+ "builtAt": "2026-09-25T03:01:21.127Z",
  "scope": "Citations as they stand in program code and data on the build date. Nothing here was fetched or verified during the build.",
  "verificationStates": {
   "cited_unverified": "An outside address cited at authoring and not yet checked by the program.",
@@ -10,21 +10,21 @@
   "placeholder": "A citation with no address, kept as the source text left it."
  },
  "totals": {
-  "sources": 420,
-  "external": 337,
+  "sources": 423,
+  "external": 340,
   "programDocuments": 7,
   "programRoutes": 69,
   "legalCitations": 2,
   "placeholders": 5,
-  "citations": 1058,
-  "resources": 328,
+  "citations": 1063,
+  "resources": 329,
   "resourcesWithoutSources": 32,
-  "hosts": 129
+  "hosts": 130
  },
  "byResourceType": {
   "authored_course": {
-   "resources": 123,
-   "withExternal": 123,
+   "resources": 124,
+   "withExternal": 124,
    "withNone": 0
   },
   "community_brief": {
@@ -72,7 +72,7 @@
   {
    "host": "mn.gov",
    "sources": 94,
-   "citations": 212
+   "citations": 214
   },
   {
    "host": "www.disability.state.mn.us",
@@ -210,7 +210,7 @@
    "citations": 5
   },
   {
-   "host": "en.wikipedia.org",
+   "host": "www.idrinstitute.org",
    "sources": 1,
    "citations": 4
   },
@@ -227,6 +227,11 @@
   {
    "host": "implicit.harvard.edu",
    "sources": 3,
+   "citations": 4
+  },
+  {
+   "host": "pmc.ncbi.nlm.nih.gov",
+   "sources": 4,
    "citations": 4
   },
   {
@@ -247,11 +252,6 @@
   {
    "host": "www.braininjurymn.org",
    "sources": 1,
-   "citations": 3
-  },
-  {
-   "host": "pmc.ncbi.nlm.nih.gov",
-   "sources": 3,
    "citations": 3
   },
   {
@@ -316,6 +316,11 @@
   },
   {
    "host": "www.sciencedirect.com",
+   "sources": 2,
+   "citations": 2
+  },
+  {
+   "host": "www.whitesupremacyculture.info",
    "sources": 2,
    "citations": 2
   },
@@ -3290,12 +3295,20 @@
   },
   {
    "sourceId": "url:https://mn.gov/dhs/assets/equity-policy_tcm1053-646921.pdf",
-   "title": "DHS Equity Policy (4 Aug 2023)",
+   "title": "Minnesota Department of Human Services, Equity Policy",
    "href": "https://mn.gov/dhs/assets/equity-policy_tcm1053-646921.pdf",
    "host": "mn.gov",
    "kind": "external",
    "verification": "cited_unverified",
    "citations": [
+    {
+     "resourceType": "authored_course",
+     "resourceId": "div-a11-white-supremacy-culture",
+     "resourceTitle": "White Supremacy Culture: Examine Workplace Norms",
+     "route": "/courses/div-a11-white-supremacy-culture",
+     "note": "Agency policy on considering equity in daily work and using the DHS Equity Analysis Toolkit for decisions across policy, budgets, procurement, hiring, and service delivery. This course is learning material, not a substitute for the policy.",
+     "role": "course source"
+    },
     {
      "resourceType": "recovered_course",
      "resourceId": "equal-opportunity-in-employment",
@@ -5682,10 +5695,10 @@
    ]
   },
   {
-   "sourceId": "url:https://en.wikipedia.org/wiki/Milton_J._Bennett",
+   "sourceId": "url:https://www.idrinstitute.org/resources/chapters-on-dmis",
    "title": "Bennett, M. J. (1993). Towards Ethnorelativism: A Developmental Model of Intercultural Sensitivity.",
-   "href": "https://en.wikipedia.org/wiki/Milton_J._Bennett",
-   "host": "en.wikipedia.org",
+   "href": "https://www.idrinstitute.org/resources/chapters-on-dmis/",
+   "host": "www.idrinstitute.org",
    "kind": "external",
    "verification": "cited_unverified",
    "citations": [
@@ -6642,6 +6655,40 @@
      "route": "/courses/ipe-38-sustaining-voluntary-learning",
      "note": "Federal guidance on running an accessibility program over time, including workforce training, shared responsibility and periodic review — the operational parallel to a learning rhythm that has to outlast its founder.",
      "role": "course source"
+    }
+   ]
+  },
+  {
+   "sourceId": "url:https://mn.gov/oeoa/resources/equity-analysis-toolkit",
+   "title": "State of Minnesota, Equity Analysis Toolkit",
+   "href": "https://mn.gov/oeoa/resources/equity-analysis-toolkit/",
+   "host": "mn.gov",
+   "kind": "external",
+   "verification": "cited_unverified",
+   "citations": [
+    {
+     "resourceType": "authored_course",
+     "resourceId": "div-a11-white-supremacy-culture",
+     "resourceTitle": "White Supremacy Culture: Examine Workplace Norms",
+     "route": "/courses/div-a11-white-supremacy-culture",
+     "note": "A state-government resource for asking who is affected, engaging people meaningfully, and reviewing equity impacts in a decision.",
+     "role": "course source"
+    },
+    {
+     "resourceType": "recovered_course",
+     "resourceId": "dhs-equity-analysis-toolkit",
+     "resourceTitle": "DHS Equity Analysis Toolkit",
+     "route": "/courses/dhs-equity-analysis-toolkit",
+     "note": "Enterprise tool created with DHS and other agencies. Evidence, not this course.",
+     "role": "course source"
+    },
+    {
+     "resourceType": "equity_framework",
+     "resourceId": "equity-framework",
+     "resourceTitle": "Equity Framework",
+     "route": "/equity-framework",
+     "note": "State of Minnesota. Equity Analysis Toolkit. Accessed September 8, 2026. https://mn.gov/oeoa/resources/equity-analysis-toolkit/.",
+     "role": "bibliography"
     }
    ]
   },
@@ -7865,32 +7912,6 @@
      "route": "/courses/dsd-06-benefits-assets-economic",
      "note": "Federal information on work incentives for people receiving disability benefits, including trial work and expense provisions.",
      "role": "course source"
-    }
-   ]
-  },
-  {
-   "sourceId": "url:https://mn.gov/oeoa/resources/equity-analysis-toolkit",
-   "title": "State of Minnesota Equity Analysis Tool — OEOA",
-   "href": "https://mn.gov/oeoa/resources/equity-analysis-toolkit/",
-   "host": "mn.gov",
-   "kind": "external",
-   "verification": "cited_unverified",
-   "citations": [
-    {
-     "resourceType": "recovered_course",
-     "resourceId": "dhs-equity-analysis-toolkit",
-     "resourceTitle": "DHS Equity Analysis Toolkit",
-     "route": "/courses/dhs-equity-analysis-toolkit",
-     "note": "Enterprise tool created with DHS and other agencies. Evidence, not this course.",
-     "role": "course source"
-    },
-    {
-     "resourceType": "equity_framework",
-     "resourceId": "equity-framework",
-     "resourceTitle": "Equity Framework",
-     "route": "/equity-framework",
-     "note": "State of Minnesota. Equity Analysis Toolkit. Accessed September 8, 2026. https://mn.gov/oeoa/resources/equity-analysis-toolkit/.",
-     "role": "bibliography"
     }
    ]
   },
@@ -11864,6 +11885,24 @@
    ]
   },
   {
+   "sourceId": "url:https://pmc.ncbi.nlm.nih.gov/articles/PMC7011517",
+   "title": "O'Donovan and McAuliffe, systematic review of speaking-up and psychological-safety interventions",
+   "href": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7011517/",
+   "host": "pmc.ncbi.nlm.nih.gov",
+   "kind": "external",
+   "verification": "cited_unverified",
+   "citations": [
+    {
+     "resourceType": "authored_course",
+     "resourceId": "div-a11-white-supremacy-culture",
+     "resourceTitle": "White Supremacy Culture: Examine Workplace Norms",
+     "route": "/courses/div-a11-white-supremacy-culture",
+     "note": "A peer-reviewed review finding mixed results from interventions to improve psychological safety and voice. It supports checking effects rather than assuming a single workshop or invitation changes a workplace.",
+     "role": "course source"
+    }
+   ]
+  },
+  {
    "sourceId": "url:https://www.dol.gov/agencies/odep/program-areas/customized-employment",
    "title": "Office of Disability Employment Policy, customized employment",
    "href": "https://www.dol.gov/agencies/odep/program-areas/customized-employment",
@@ -12836,6 +12875,42 @@
    ]
   },
   {
+   "sourceId": "url:https://www.whitesupremacyculture.info/racial-equity-principles.html",
+   "title": "Tema Okun, Racial Equity Principles",
+   "href": "https://www.whitesupremacyculture.info/racial-equity-principles.html",
+   "host": "www.whitesupremacyculture.info",
+   "kind": "external",
+   "verification": "cited_unverified",
+   "citations": [
+    {
+     "resourceType": "authored_course",
+     "resourceId": "div-a11-white-supremacy-culture",
+     "resourceTitle": "White Supremacy Culture: Examine Workplace Norms",
+     "route": "/courses/div-a11-white-supremacy-culture",
+     "note": "Companion principles for shared power, accountability, and more equitable ways of working. Read alongside the characteristics, as the author recommends.",
+     "role": "course source"
+    }
+   ]
+  },
+  {
+   "sourceId": "url:https://www.whitesupremacyculture.info/characteristics.html",
+   "title": "Tema Okun, White Supremacy Culture: Characteristics (updated 2025)",
+   "href": "https://www.whitesupremacyculture.info/characteristics.html",
+   "host": "www.whitesupremacyculture.info",
+   "kind": "external",
+   "verification": "cited_unverified",
+   "citations": [
+    {
+     "resourceType": "authored_course",
+     "resourceId": "div-a11-white-supremacy-culture",
+     "resourceTitle": "White Supremacy Culture: Examine Workplace Norms",
+     "route": "/courses/div-a11-white-supremacy-culture",
+     "note": "The primary framework. Okun describes it as an analytical tool, cautions against using it to accuse people, and distinguishes high standards from perfectionism and sound writing from treating written words as the only valid knowledge. The framework draws on practice and reflection; the original list was not an empirical diagnostic instrument.",
+     "role": "course source"
+    }
+   ]
+  },
+  {
    "sourceId": "route:/ci/thai",
    "title": "Thai Minnesota — full reference brief",
    "href": "/ci/thai",
@@ -13572,7 +13647,7 @@
    "route": "/courses/idi-adaptation",
    "sourceIds": [
     "url:https://www.idiinventory.com/",
-    "url:https://en.wikipedia.org/wiki/Milton_J._Bennett"
+    "url:https://www.idrinstitute.org/resources/chapters-on-dmis"
    ],
    "externalCount": 2,
    "programDocumentCount": 0,
@@ -14055,7 +14130,7 @@
    "route": "/courses/idi-denial",
    "sourceIds": [
     "url:https://www.idiinventory.com/",
-    "url:https://en.wikipedia.org/wiki/Milton_J._Bennett"
+    "url:https://www.idrinstitute.org/resources/chapters-on-dmis"
    ],
    "externalCount": 2,
    "programDocumentCount": 0,
@@ -14671,7 +14746,7 @@
    "route": "/courses/idi-integration",
    "sourceIds": [
     "url:https://www.idiinventory.com/",
-    "url:https://en.wikipedia.org/wiki/Milton_J._Bennett"
+    "url:https://www.idrinstitute.org/resources/chapters-on-dmis"
    ],
    "externalCount": 2,
    "programDocumentCount": 0,
@@ -15028,7 +15103,7 @@
    "route": "/courses/idi-polarization",
    "sourceIds": [
     "url:https://www.idiinventory.com/",
-    "url:https://en.wikipedia.org/wiki/Milton_J._Bennett"
+    "url:https://www.idrinstitute.org/resources/chapters-on-dmis"
    ],
    "externalCount": 2,
    "programDocumentCount": 0,
@@ -15623,6 +15698,24 @@
     "url:https://www.mprnews.org/episode/2025/11/04/minnesotas-housing-stabilization-program-has-ended-what-happens-to-minnesotans-that-used-it"
    ],
    "externalCount": 4,
+   "programDocumentCount": 0,
+   "programRouteCount": 0,
+   "placeholderCount": 0,
+   "links": []
+  },
+  {
+   "resourceType": "authored_course",
+   "resourceId": "div-a11-white-supremacy-culture",
+   "title": "White Supremacy Culture: Examine Workplace Norms",
+   "route": "/courses/div-a11-white-supremacy-culture",
+   "sourceIds": [
+    "url:https://www.whitesupremacyculture.info/characteristics.html",
+    "url:https://www.whitesupremacyculture.info/racial-equity-principles.html",
+    "url:https://mn.gov/dhs/assets/equity-policy_tcm1053-646921.pdf",
+    "url:https://mn.gov/oeoa/resources/equity-analysis-toolkit",
+    "url:https://pmc.ncbi.nlm.nih.gov/articles/PMC7011517"
+   ],
+   "externalCount": 5,
    "programDocumentCount": 0,
    "programRouteCount": 0,
    "placeholderCount": 0,
@@ -17171,7 +17264,7 @@
     "/minnesota-communities",
     "/library/ja-access-checks",
     "/library/ja-stakeholder-map",
-    "/support/request?path=gp-3"
+    "/support/right-person?area=community_engagement_co_design"
    ],
    "sourceIds": [],
    "externalCount": 0,
@@ -17269,7 +17362,7 @@
     "/library/ja-launch-embed-checklist",
     "/library/ja-process-burden",
     "/library/ja-stakeholder-map",
-    "/support/request?path=gp-1"
+    "/support/right-person?area=policy_program_service_design"
    ],
    "sourceIds": [],
    "externalCount": 0,
@@ -17288,7 +17381,7 @@
     "/library/ja-facilitation-session-plan",
     "/library/lm-facilitation-application",
     "/library/ja-access-checks",
-    "/support/request?path=gp-5"
+    "/support/right-person?area=community_engagement_co_design"
    ],
    "sourceIds": [],
    "externalCount": 0,
@@ -17307,7 +17400,7 @@
     "/library/ja-form-notice-change",
     "/library/ja-plain-language",
     "/library/ja-language-access-checklist",
-    "/support/request?path=gp-2"
+    "/support/right-person?area=policy_program_service_design"
    ],
    "sourceIds": [],
    "externalCount": 0,
@@ -17362,7 +17455,7 @@
     "/minnesota-communities",
     "/library/lm-workplace-climate",
     "/library/ja-climate-action-plan",
-    "/support/request?path=gp-4"
+    "/support/right-person?area=culture_trust_repair"
    ],
    "sourceIds": [],
    "externalCount": 0,

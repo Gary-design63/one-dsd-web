@@ -10,6 +10,25 @@ it("retains all original course packs, 780 lessons, and 5334 blocks without flat
   const snapshot = JSON.parse(JSON.stringify(original));
   expect(recovered).toHaveLength(snapshot.length);
 
+  // These two staff-facing sentences were editorially updated to remove
+  // encyclopedia references. Keep the donor snapshot unchanged for provenance.
+  const approvedCopyEdit = (courseId: string, lessonIndex: number, blockIndex: number, before: string, after: string) => {
+    const pack = snapshot.find((item: { course: { id: string } }) => item.course.id === courseId);
+    const block = pack.course.lessons[lessonIndex].blocks[blockIndex];
+    expect(block.body).toContain(before);
+    block.body = block.body.replace(before, after);
+  };
+  approvedCopyEdit(
+    "cultural-intelligence-african-american", 0, 0,
+    "Wikipedia lines were not allowed to be the voice.",
+    "Claims in the brief should be grounded in cited evidence.",
+  );
+  approvedCopyEdit(
+    "cultural-intelligence-karen", 12, 0,
+    "Community and media estimates have been cited near 20,000 Karen in Minnesota (including Wikipedia-style round numbers and local news). Date them as estimates. They are not Compass.",
+    "Community estimates vary and should not be treated as a Minnesota Compass count. Verify the source and date before using a figure.",
+  );
+
   // The community course titles were deliberately shortened after this snapshot was taken
   // (the "Cultural intelligence: " prefix was dropped). That is an editorial change, not a
   // loss: every current title must still be the tail of its snapshot title, and everything

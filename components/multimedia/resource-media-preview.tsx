@@ -1,6 +1,18 @@
 import Image from "next/image";
 import Link from "next/link";
 
+const resourcesWithMedia = new Set([
+  "podcast-equity-toolkit",
+  "podcast-anti-racism-public-service",
+  "course-critical-incidents-in-the-work",
+  "course-plain-language-in-human-services",
+  "pn-measurement-without-surveillance",
+]);
+
+export function hasResourceMediaPreview(resourceId: string): boolean {
+  return resourcesWithMedia.has(resourceId);
+}
+
 /** Call only for an already-visible resource, such as a published result or ASK source. */
 export function ResourceMediaPreview({ resourceId }: { resourceId: string }) {
   const frame = "mt-4 flex max-w-xl flex-wrap items-center gap-4 rounded-lg border border-[#cbd8e0] bg-[#f5f8fa] p-4";
