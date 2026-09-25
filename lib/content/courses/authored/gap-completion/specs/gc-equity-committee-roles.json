@@ -1,0 +1,245 @@
+{
+ "id": "gc-equity-committee-roles",
+ "subtitle": "Charter, staff and steer an equity committee or unit equity team so it has clear decision rights, fair membership, owned actions and accountability that measures systems rather than people.",
+ "audience": "For DHS and DSD leaders, executive sponsors, committee chairs, unit equity team members and facilitators who set up, run or support equity committees.",
+ "lessons": [
+  {
+   "title": "Purpose, charter and decision rights",
+   "objectives": [
+    "Distinguish an advisory equity committee from a decision-making body and from formal offices such as EOAD and Human Resources.",
+    "Draft the core elements of a committee or unit equity team charter.",
+    "Identify where a committee's work connects to state and agency equity commitments.",
+    "Plan a decision-rights map that states what the group decides, recommends, is consulted on and is informed about."
+   ],
+   "teaching": "Equity committees and unit equity teams are common in Minnesota state government, and they are easy to set up badly. A group forms with energy, meets monthly, generates ideas, and a year later members cannot say what changed or who was supposed to act. Most of these problems trace back to an unclear purpose and unclear decision rights, not to the people involved.\n\nStart with context. Governor Walz's first executive order created the One Minnesota Council on Diversity, Inclusion, and Equity, and a later order replaced that first order, renewing the council alongside the Governor's Community Council on Inclusion and Equity. That later order refers to agency-specific equity plans and a statewide long-range plan, with annual reporting to the Governor. Executive orders can be changed by future governors, so check the current order before citing it. Within DHS, the agency's published equity policy has called for equity committees in each administration to advise leadership and for equity analysis of legislative proposals. Your committee sits inside this landscape: it helps the agency carry out commitments that leaders are already accountable for, rather than inventing a parallel mission.\n\nA charter makes the group's role explicit. At minimum it should state the purpose in one or two sentences, the scope (which division, unit or program), membership and terms, how members are selected, meeting time and whether it is paid work time, the executive sponsor, how decisions are made, how the group reports and to whom, and when the charter will be reviewed. It should also state what the group does not do. An equity committee does not investigate complaints, decide accommodations, handle grievances, conduct Tribal consultation or give legal advice. Those belong to the Equal Opportunity and Access Division, Human Resources, labor relations, the ADA coordinator, the Tribal liaison and legal counsel. Knowing when to refer is one of the most valuable things a committee can do.\n\nDecision rights are the heart of the charter. For each kind of work, say whether the group decides, recommends, is consulted or is informed. A unit equity team might decide its own meeting agenda and training topics, recommend changes to a notice template, be consulted on a hiring process redesign and be informed of budget decisions. Writing this down protects members from being blamed for decisions they never controlled and protects leaders from surprise when a recommendation arrives.",
+   "keyPoint": "A clear charter names the purpose, the sponsor, paid time, what the group decides versus recommends, and what it refers to formal offices. Most committee frustration comes from unclear decision rights.",
+   "example": "Fictional case: The newly formed equity team in a DSD policy unit has met four times. At the latest meeting, Lwazi reports that a colleague asked the team to look into how a supervisor treated her in a performance conversation. Rebecca, a team member, suggests the group interview the people involved. The team has no charter yet, and the executive sponsor, Carlos, has only attended the first meeting.",
+   "question": "What should the team do next?",
+   "choices": [
+    "Interview the people involved, since the team was formed to address equity problems and staff are trusting it.",
+    "Explain to the colleague that concerns about individual treatment go to EOAD or Human Resources, share how to reach them, and draft a charter with Carlos that makes referral paths explicit.",
+    "Ask Carlos to decide whether the supervisor acted fairly and report back to the team."
+   ],
+   "feedback": [
+    "The team has no authority or process to investigate, and doing so could harm the colleague, the supervisor and any formal process. Good intentions do not create investigative authority.",
+    "This is the strongest response. It connects the colleague to the offices that can act, avoids an improper investigation and uses the moment to clarify the team's role in a charter.",
+    "An executive sponsor is not a substitute for the formal complaint process, and routing the concern this way still bypasses the offices responsible."
+   ],
+   "recommended": 1,
+   "reflection": "If you serve on or lead an equity group, could every member state in one sentence what the group decides and what it only recommends? Privately note where you would guess differently from your colleagues.",
+   "action": "Draft a one-page charter or charter revision using the job aid headings. Fill in the decision-rights section for at least four kinds of work, list the formal offices the group refers to, and ask your executive sponsor to review it.",
+   "check": {
+    "question": "Which item belongs in an equity committee charter's list of things the group does not do?",
+    "correct": "Investigate complaints about an individual employee's conduct.",
+    "wrong": [
+     "Recommend changes to a notice template.",
+     "Review data on how a process performs for different groups."
+    ],
+    "feedback": "Investigating individual conduct belongs to EOAD and Human Resources. Recommending process changes and reviewing data are typical committee work, as long as the charter says whether the group decides or recommends."
+   }
+  },
+  {
+   "title": "Membership without extracting unpaid labor",
+   "objectives": [
+    "Explain the minority tax and how it can appear in equity committee work.",
+    "Identify membership practices that spread workload and protect members' core responsibilities.",
+    "Distinguish an equity committee from an employee resource group and a labor-management committee.",
+    "Draft a workload agreement between a member and a supervisor."
+   ],
+   "teaching": "Researchers in academic medicine coined the phrase minority tax to describe the extra responsibilities placed on faculty from underrepresented groups in the name of diversity efforts. Rodriguez, Campbell and Pololi described how these faculty are often asked to serve on diversity committees and represent their communities, while that work is not recognized in promotion. The setting is different from state government, but the pattern is familiar: the same few colleagues, often staff of color, disabled staff or others with lived experience of exclusion, carry equity work on top of a full workload, and that effort is invisible when it comes time for assignments, reviews or advancement.\n\nA committee that depends on unrecognized labor is not equitable in its own design. Leaders can prevent this in concrete ways. Make committee service paid work time, and say so in the charter. Agree with each member's supervisor on how much time the role takes and what other work will move to make room. Use fixed terms with rotation so the work does not settle on the same people. Recruit broadly, including colleagues who hold positional power and people who are new to the topic, so that the burden of explaining inequity does not fall only on those who experience it. Recognize the work in position descriptions and development plans where appropriate, without turning it into a rating.\n\nBe careful about representation. No member speaks for an entire community, and no one should be expected to disclose their race, disability, faith, immigration history or other identity to join or contribute. Invite people because of their interest, skills and role. When the group needs community perspective, go to the community through proper engagement, advisory bodies or Tribal consultation, rather than asking a staff member to stand in.\n\nKeep structures distinct. Enterprise employee resource groups, coordinated by Minnesota Management and Budget, are employee-led groups with their own bylaws, work plans and executive sponsors, and MMB guidelines state they cannot replace labor-management committees. An agency equity committee is a management-chartered body that advises on programs and operations. Labor-management committees handle issues under collective bargaining agreements. Confusing these can lead to a committee drifting into matters that belong to bargaining or to ERG members being treated as unpaid consultants.",
+   "keyPoint": "Design membership so equity work is paid, time-limited, shared and recognized, and never depends on colleagues disclosing identity or speaking for a whole community.",
+   "example": "Fictional case: Ayaan manages a DSD unit and is forming a unit equity team. Three staff volunteer, all of whom already serve on other equity efforts and two of whom recently told Ayaan their caseloads feel heavy. A senior analyst, Beth, has not volunteered. Ayaan wonders whether to accept the three volunteers as the team and move quickly, because the division director has asked every unit to have a team in place by next month and nobody else has come forward on their own.",
+   "question": "What is the best next step for Ayaan?",
+   "choices": [
+    "Accept the three volunteers, since they have the most experience and enthusiasm.",
+    "Postpone the team until workloads are lighter across the unit.",
+    "Set up the team with paid time and a written workload agreement for each member, invite a wider group including Beth, and use rotating terms."
+   ],
+   "feedback": [
+    "Speed would come at the cost of concentrating more unrecognized work on people who are already stretched. That repeats the pattern the team is meant to address.",
+    "Workloads may never feel light. Postponing indefinitely signals that equity work is optional rather than planning for it properly.",
+    "This is the best response. It makes the time real, protects members' core work, spreads responsibility beyond the usual volunteers and builds in turnover."
+   ],
+   "recommended": 2,
+   "reflection": "Privately consider whether equity-related work you do, or that colleagues do, is visible when assignments and workload are discussed. What would make it visible without turning it into a rating?",
+   "action": "For one current equity team member (yourself or someone you supervise), write a short workload agreement: hours per month, which duties move to make room, the term length and how the work will be recognized in the development plan. Review it together.",
+   "check": {
+    "question": "According to MMB's enterprise ERG guidelines, which statement is accurate?",
+    "correct": "Employee resource groups cannot replace labor-management committees.",
+    "wrong": [
+     "ERGs are the official body for agency equity analysis of legislation.",
+     "ERGs replace the need for agency equity committees."
+    ],
+    "feedback": "MMB guidelines describe ERGs as employee-led groups with bylaws, work plans and executive sponsors, and state that they cannot replace labor-management committees. Agency equity committees, ERGs and labor-management committees have different purposes and authority."
+   }
+  },
+  {
+   "title": "Activity inventory and action plans",
+   "objectives": [
+    "Draft an inventory of equity-related activities already underway in a division or unit.",
+    "Compare activities against agency priorities to find gaps and duplication.",
+    "Plan an action with a clear change, owner, resources and review date.",
+    "Explain why a short list of owned actions is stronger than a long list of ideas."
+   ],
+   "teaching": "Before a committee proposes new work, it should know what already exists. In a large agency, equity-related activity is often scattered: a program team running an equity analysis on a policy change, a communications unit testing plain-language notices, a data team disaggregating results, a training cohort, a county partnership, an interpreter access project. An activity inventory lists these in one place with a few fields each: what the activity is, who owns it, which population or process it affects, what change it aims for, its status, and any evidence of results. The inventory is not an audit of anyone's performance. It is a map.\n\nThe inventory reveals three things. First, duplication: two units separately building the same resource. Second, gaps: a process with known disparities that no one is working on. Third, orphaned work: good efforts that lost their owner when someone changed jobs. Compare the inventory with the agency's equity plan and division priorities. The State of Minnesota Equity Analysis Toolkit emphasizes defining intended outcomes, the people affected, resources and accountability, and those same headings work well for sorting what you find.\n\nThen write action plans, and keep them short. A committee that adopts twenty actions will finish very few. Choose a small number of actions that are within the group's decision rights or that a named leader has agreed to own. Each action should state the specific change (not the topic), the owner, the partners who must be involved, the resources and time needed, the first milestone, how you will know whether it worked, and when you will review it. The GARE toolkit cautions that implementation must be realistic and adequately resourced; an unfunded action is a wish.\n\nInclude the people affected. If an action changes how people receive services, plan how self-advocates, families, county and Tribal staff or community partners will be engaged before the design is fixed, and how you will report back to them. If an action touches Tribal Nations, involve the DHS Tribal liaison and follow the agency's consultation policy; Minnesota law requires DHS and other listed agencies to consult with Tribal governments on matters with Tribal implications. The committee's role is to coordinate and advise, not to substitute for that government-to-government relationship.",
+   "keyPoint": "Map what already exists before adding work, then commit to a few owned, resourced actions with a review date, and plan engagement with the people affected from the start.",
+   "example": "Fictional case: Fatima chairs a division equity committee that has collected forty-two ideas from a staff survey. Members are excited and want to adopt them all. Fatima also knows that a data team is already building disaggregated reports and that a communications unit is revising notice templates. Leslie, the executive sponsor, has said she can support two or three priority actions with staff time this year.",
+   "question": "What should Fatima propose?",
+   "choices": [
+    "Build an inventory of current activities, connect with the data and communications teams, and select two or three actions with owners, resources and review dates that Leslie will support.",
+    "Adopt all forty-two ideas as the committee's work plan so no staff member feels unheard.",
+    "Ask the data and communications teams to stop their work so the committee can coordinate everything centrally."
+   ],
+   "feedback": [
+    "This is the strongest response. It avoids duplication, matches commitments to the resources the sponsor can actually provide and keeps the other ideas visible for later.",
+    "A forty-two item plan without resources sets the committee up to fail and can erode staff trust more than a short, honest list.",
+    "Stopping owned work to centralize control wastes progress. The committee's role is to coordinate and connect, not to take over."
+   ],
+   "recommended": 0,
+   "reflection": "Think about equity-related efforts you know of in your area. Privately, which ones have a clear owner today, and which may have quietly lost one?",
+   "action": "Start an activity inventory for your unit or division using the fields in the job aid. Aim for at least five entries this week, and note one duplication, one gap or one orphaned effort to raise with your committee or sponsor.",
+   "check": {
+    "question": "What is the main purpose of an equity activity inventory?",
+    "correct": "To map existing work so the group can find duplication, gaps and orphaned efforts before adding new actions.",
+    "wrong": [
+     "To rate which employees are contributing most to equity work.",
+     "To replace the agency equity plan with a committee plan."
+    ],
+    "feedback": "An inventory is a map, not a performance tool. It supports coordination with the agency plan and helps a committee choose a small number of well-placed actions."
+   }
+  },
+  {
+   "title": "Accountability measures and executive sponsors",
+   "objectives": [
+    "Distinguish measures of processes and outcomes from measures that score or rank individuals.",
+    "Draft two accountability measures for a committee action.",
+    "Identify the responsibilities of an executive sponsor and how a committee escalates a stalled decision.",
+    "Plan a regular report that is honest about what changed and what did not."
+   ],
+   "teaching": "Accountability for equity work should fall on commitments and systems, not on scoring individual people. This program does not rank staff, and committees should not build tools that do. Measures that tally which employees completed the most equity activities, or that rate units against each other in a public list, tend to reward appearance over change, invite gaming and can expose staff who already carry more of this work. They also shift attention away from the question that matters: did the process get better for the people it serves?\n\nUseful measures fall into three types. Process measures show whether the committed work happened: the share of policy proposals that received an equity analysis before submission, or whether notice templates were tested with readers. Outcome measures show whether the process performs better: time to arrange an interpreter, the rate at which people respond to a notice by the deadline, or the gap in approval rates for a service across groups, where data quality supports it. Experience measures come from the people affected, gathered with consent and without requiring identity disclosure. For each measure, state the source, the baseline, how often you will look and who will interpret it. Report the limits of your data along with the results.\n\nThe executive sponsor is the committee's link to authority. A good sponsor attends often enough to understand the work, carries recommendations to the leadership table, secures time and resources, removes barriers, and tells the committee plainly when a recommendation is declined and why. A sponsor is not the committee's supervisor, spokesperson in every setting or a substitute for formal offices. Agree on how the committee will bring decisions to the sponsor: a short written recommendation stating the change, the evidence, the options considered, the owner proposed and the decision needed by a date.\n\nWhen a decision stalls, escalate respectfully and in writing. Remind the sponsor of the decision needed and its effect on people served. If the matter belongs elsewhere, such as a legislative proposal, a contract change or a statewide policy, ask the sponsor to route it. At least once a year, report what changed, what did not and why, both to leadership and to the staff and community partners who contributed. Honest reporting about slow progress builds more trust than a polished summary.",
+   "keyPoint": "Measure whether processes and outcomes improve, never who scored highest. A sponsor carries decisions and resources; the committee brings clear written recommendations and reports honestly.",
+   "example": "Fictional case: An equity committee wants to show progress to division leadership. Jamal proposes a public chart ranking each unit by how many staff attended equity trainings. Wren suggests instead tracking two things for the notice-redesign action: whether revised notices were tested with readers before release, and whether the rate of on-time responses changes across language groups. The sponsor, Mei, has asked for a report next month.",
+   "question": "What should the committee bring to Mei?",
+   "choices": [
+    "Both proposals, letting Mei choose which one to publish.",
+    "Wren's process and outcome measures, with the baseline, data limits and a recommendation on what decision is needed next.",
+    "Jamal's ranking chart, because attendance is easy to count and will motivate units to compete."
+   ],
+   "feedback": [
+    "Presenting a ranking as an option lends it legitimacy. The committee should advise against measures that score people or units.",
+    "This is the best response. The measures track whether the committed work happened and whether the process improved, and the report gives the sponsor a clear decision to make.",
+    "Rankings reward attendance rather than change and create pressure that can harm staff. Easy to count is not the same as meaningful."
+   ],
+   "recommended": 1,
+   "reflection": "Privately recall a measure at work that changed behavior in a way nobody intended. What did it reward, and what would a better measure have looked at instead?",
+   "action": "For one committee action, write one process measure and one outcome measure. For each, name the data source, baseline, review frequency and one limit. Draft a one-paragraph recommendation to your sponsor naming the decision you need and by when.",
+   "check": {
+    "question": "Which is an example of an outcome measure for an equity action on notices?",
+    "correct": "Change in the on-time response rate to a notice across language groups.",
+    "wrong": [
+     "The number of staff in each unit who attended an equity workshop.",
+     "A ranking of units by the number of equity activities they reported."
+    ],
+    "feedback": "Outcome measures show whether a process performs better for people served. Attendance counts and unit rankings describe activity or comparison, and rankings in particular can distort behavior and score people rather than systems."
+   }
+  }
+ ],
+ "cards": [
+  {
+   "front": "Charter",
+   "back": "A short written agreement stating a group's purpose, scope, membership, paid time, sponsor, decision rights, reporting and what it refers to formal offices."
+  },
+  {
+   "front": "Decision rights",
+   "back": "A statement, for each kind of work, of whether the group decides, recommends, is consulted or is informed."
+  },
+  {
+   "front": "Minority tax",
+   "back": "Extra, often unrecognized responsibilities placed on staff from underrepresented groups in the name of diversity efforts (Rodriguez, Campbell and Pololi)."
+  },
+  {
+   "front": "Activity inventory",
+   "back": "A map of equity-related work already underway, with owner, focus, intended change, status and evidence, used to find duplication, gaps and orphaned efforts."
+  },
+  {
+   "front": "Executive sponsor",
+   "back": "A leader who carries the group's recommendations to decision-makers, secures time and resources, removes barriers and explains decisions back to the group."
+  }
+ ],
+ "aid": [
+  {
+   "heading": "Charter checklist",
+   "items": [
+    "Purpose in one or two sentences and the scope it covers.",
+    "Membership, selection, fixed terms and rotation.",
+    "Meeting time stated as paid work time, with supervisor agreement.",
+    "Decision rights for each kind of work: decide, recommend, consulted, informed.",
+    "Referral paths to EOAD, Human Resources, labor relations, the ADA coordinator, the Tribal liaison and legal counsel.",
+    "Executive sponsor, reporting line and charter review date."
+   ]
+  },
+  {
+   "heading": "Fair membership",
+   "items": [
+    "Write a workload agreement for each member.",
+    "Recruit beyond the usual volunteers, including people with positional power.",
+    "Never require identity disclosure or ask a member to speak for a community.",
+    "Seek community perspective through engagement or consultation, not staff stand-ins."
+   ]
+  },
+  {
+   "heading": "Inventory and action plan fields",
+   "items": [
+    "Activity, owner, population or process affected, intended change, status, evidence.",
+    "For each action: specific change, owner, partners, resources, first milestone, measure, review date.",
+    "Engagement plan for people affected, including Tribal liaison involvement where relevant."
+   ]
+  },
+  {
+   "heading": "Accountability without scoring people",
+   "items": [
+    "Use process, outcome and experience measures; avoid rankings of staff or units.",
+    "State source, baseline, frequency, interpreter and limits for each measure.",
+    "Bring written recommendations with a decision date to the sponsor.",
+    "Report annually what changed, what did not and why, to leaders and contributors."
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "title": "Office of the Governor — Executive Order 23-12, Providing Equitable, Inclusive, and Effective Government for All (Legislative Reference Library copy)",
+   "href": "https://www.lrl.mn.gov/archive/execorders/23-12.pdf",
+   "note": "Supports the renewal of the One Minnesota Council and the Governor's Community Council, references to agency-specific equity plans and the long-range plan, and annual reporting. Executive orders can be amended or rescinded; check current status."
+  },
+  {
+   "title": "Office of the Governor — Executive Order 19-01, Establishing the One Minnesota Council on Diversity, Inclusion, and Equity",
+   "href": "https://mn.gov/governor/assets/2019_01_09_EO-19-01_(FINAL)_tcm1055-364605.pdf",
+   "note": "Supports the origin of the One Minnesota Council and its focus on recruitment, retention, contracting, engagement and a long-range plan. Historical: this order was rescinded and replaced by Executive Order 23-12."
+  },
+  {
+   "title": "Minnesota Department of Human Services — Equity Policy (dated March 2017, copy hosted by the federal PeerTA network)",
+   "href": "https://peerta.acf.hhs.gov/sites/default/files/public/uploaded_files/Equity_Policy_3.07.2017-508_0.pdf",
+   "note": "Supports the statement that DHS policy has called for equity committees in each administration and equity analysis of legislative proposals. This is an older version; confirm the current DHS policy internally before citing it as current."
+  },
+  {
+   "title": "Rodriguez, Campbell and Pololi — Addressing disparities in academic medicine: what of the minority tax? BMC Medical Education (2015)",
+   "href": "https://bmcmededuc.biomedcentral.com/articles/10.1186/s12909-015-0290-9",
+   "note": "Source of the minority tax concept in lesson 2. Research is from academic medicine; the course applies the idea by analogy to state committee work."
+  },
+  {
+   "title": "Minnesota Management and Budget — Enterprise Employee Resource Groups (ERGs) Guidelines",
+   "href": "https://mn.gov/mmb/assets/Enterprise%20ERG%20Guidelines_tcm1059-595436.pdf",
+   "note": "Supports the description of ERGs (executive sponsors, bylaws, work plans) and the statement that ERGs cannot replace labor-management committees."
+  },
+  {
+   "title": "Office of Equity, Opportunity, and Accessibility — Equity Analysis Toolkit",
+   "href": "https://mn.gov/oeoa/resources/equity-analysis-toolkit",
+   "note": "Supports the use of the state Equity Analysis Toolkit headings for sorting activities and planning accountable actions."
+  },
+  {
+   "title": "Minnesota Statutes section 10.65 — Government-to-government relationship with Tribal governments",
+   "href": "https://www.revisor.mn.gov/statutes/cite/10.65",
+   "note": "Supports the statement that DHS is among agencies required to have a Tribal consultation policy and a Tribal liaison and to consult on matters with Tribal implications."
+  }
+ ]
+}

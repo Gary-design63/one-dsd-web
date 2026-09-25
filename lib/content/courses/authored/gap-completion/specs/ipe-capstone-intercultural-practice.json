@@ -1,0 +1,230 @@
+{
+ "id": "ipe-capstone-intercultural-practice",
+ "subtitle": "Lead a team through choosing a real recurring process, analyzing it with the Equity Analysis Toolkit, co-designing a change with the people affected and presenting an accountable decision request.",
+ "audience": "For DHS and DSD leaders, practitioners and facilitators who have completed earlier intercultural practice courses and want to apply them to a real process with a small team and a sponsor.",
+ "lessons": [
+  {
+   "title": "Choose a real process and the people it affects",
+   "objectives": [
+    "Select a recurring DHS or DSD process that affects communities and that the team can influence.",
+    "Map the people affected, including those who rarely appear in the room where the process is designed.",
+    "Identify which parts of the work require formal routes such as Tribal consultation, Human Resources or legal review.",
+    "Draft a scope statement that names the process, its purpose, its owner and the team's authority."
+   ],
+   "teaching": "This capstone asks a team of two to five colleagues to improve one real process, not a hypothetical one. It follows the same shape as the program's Disability Inclusion capstone: choose, analyze, co-design, then decide. The goal is not a perfect process. It is a documented change that the people affected helped shape, with an owner and a way to know whether it worked.\n\nChoose a process that recurs, touches communities and sits within your team's reach. Good candidates include a notice that explains a service change or denial, an intake or assessment step, a recurring stakeholder or advisory meeting, a grant or contract requirement, a provider reporting form, or a public comment process. Avoid anything that depends mainly on a statute you cannot change, and avoid individual personnel matters, which belong to Human Resources. Ask four questions: Does it happen often enough that a change will matter? Do we know, or can we find out, who it affects and how? Can our team or sponsor actually change it? Is there a decision maker who will receive our request?\n\nThen map the people. Start with those who experience the process directly, such as people receiving services, families, guardians, providers, county and Tribal staff, and DHS staff who carry it out. Then add those who are affected but rarely consulted: people with limited English proficiency, Deaf and hard of hearing people, people who use assistive technology, people in Greater Minnesota with limited internet, people who distrust government for good historical reasons, and staff at small culturally specific providers. Note which relationships your team already has and which it does not.\n\nSome parts of the work have formal routes. When a process affects Minnesota Tribal nations, Minnesota law requires agencies, including DHS, to have a Tribal consultation policy and a Tribal liaison, and it describes consultation as the direct and interactive involvement of Tribal governments in developing policy. That is government-to-government and is not replaced by community input sessions. Accommodation, discrimination and legal questions go to their offices.\n\nFinally, pay attention to the team's own lens. The Minimization orientation on the Intercultural Development Continuum describes a common tendency to assume that one process, applied the same way, is fair to everyone. You do not need to know anyone's stage to name that assumption early so the analysis can test it.",
+   "keyPoint": "Pick a recurring process your team can change, map everyone it affects including people rarely consulted, and identify the formal routes such as Tribal consultation before you begin.",
+   "example": "Fictional case: A capstone team led by Aaliyah, with Scott, Ngoc and Pedro, is choosing its project. Scott proposes rewriting the entire waiver eligibility statute. Ngoc proposes improving the annual reassessment appointment letter that DSD sends through lead agencies, which families often say they misunderstand. Pedro notes that the letter goes to people served by counties and Tribal nations. The team's sponsor, a DSD manager, has authority over the letter template.",
+   "question": "What should the team do next?",
+   "choices": [
+    "Choose the statute, because it has the largest effect on people.",
+    "Choose the reassessment letter, map everyone who receives or uses it, and ask the Tribal liaison how Tribal nations should be involved.",
+    "Choose the letter but limit input to DSD staff, since the sponsor controls the template."
+   ],
+   "feedback": [
+    "The statute is outside the team's authority, so the capstone would end in recommendations no one can act on soon.",
+    "This is the strongest response. The process recurs, the sponsor can change it, the people affected are clear and the formal route for Tribal nations is identified early.",
+    "Staff input is useful, but a letter that families misunderstand cannot be fixed well without the people who read it."
+   ],
+   "recommended": 1,
+   "reflection": "Which processes in your own work do you suspect are harder for some people than others, but have never been examined? What has kept them unexamined?",
+   "action": "With your team, list three candidate processes and score each on the four questions: recurrence, knowledge of who is affected, authority to change and a decision maker. Draft a one-paragraph scope statement for the strongest candidate.",
+   "check": {
+    "question": "Under Minnesota law, how is Tribal consultation described?",
+    "correct": "As the direct and interactive involvement of Minnesota Tribal governments in developing policy, carried out under each agency's consultation policy.",
+    "wrong": [
+     "As any public comment period that Tribal members may join.",
+     "As an optional courtesy that a project team can decide to skip."
+    ],
+    "feedback": "Minnesota Statutes section 10.65 requires covered agencies, including DHS, to have a Tribal consultation policy and a Tribal liaison. Consultation is government-to-government and is not replaced by general community engagement."
+   }
+  },
+  {
+   "title": "Map assumptions and evidence with the Equity Analysis Toolkit",
+   "objectives": [
+    "Apply the criteria of the State of Minnesota Equity Analysis Toolkit to the chosen process.",
+    "Identify the assumptions built into the current process and who it was designed for.",
+    "Compare available data with what community input reveals, and name gaps in each.",
+    "Explain the limits of the evidence the team has gathered."
+   ],
+   "teaching": "The State of Minnesota Equity Analysis Toolkit, published with the Office of Equity, Opportunity, and Accessibility, gives teams a structured way to examine decisions, policies, programs and processes. Its quick guide is organized around seven criteria: impact assessment, equitable partner engagement, data and evidence, access and accessibility, monitoring and evaluation, resources, and implementation and accountability. Its questions include who will experience positive or negative effects, whether Tribal nations and urban Native communities were consulted, how data are disaggregated, what barriers to access exist, and how impact will be monitored over time. Use the toolkit as your analysis frame for this capstone.\n\nStart by writing down the assumptions behind the current process. Every form, notice and meeting was built for someone. Ask: Who did the designers imagine reading this letter or attending this meeting? What does the process assume about literacy, language, internet access, work schedules, transportation, disability, trust in government and family structure? Which steps exist because of a legal requirement, and which exist because that is how it has always been done? Mark each assumption as tested, untested or contradicted by evidence.\n\nNext, gather evidence from more than one direction. Administrative data can show who completes a step, who misses deadlines, who appeals and how results differ by language, region, race and ethnicity, disability or age, where the data allow. Disaggregate carefully, suppress small numbers to protect privacy and follow data practices rules. Data will have gaps. Disability and language are often poorly recorded, and a missing pattern may mean the agency cannot see it, not that it does not exist. Community input fills in what numbers cannot: why a step is confusing, what people fear, and what they already do to work around it. Use existing sources first, such as complaints, appeals, call center notes and prior engagement reports, so you do not ask people to repeat themselves.\n\nThe National Center for Cultural Competence describes organizational cultural competence as including self-assessment and managing the dynamics of difference. Your assumption map is a form of self-assessment. Be honest about its limits. A handful of interviews does not represent a whole community, and one data set does not explain a cause. Write down what you know, what you suspect and what you still need to learn.",
+   "keyPoint": "Use the Equity Analysis Toolkit to test the assumptions built into your process, combine data with community input, and be explicit about what the evidence can and cannot show.",
+   "example": "Fictional case: The capstone team reviewing the reassessment letter finds that families who speak languages other than English miss their appointments at about twice the rate of English-speaking families. Scott concludes that those families do not value the service. Ngoc has call center notes showing that many callers could not find the appointment date in the letter, and that the translated version arrives a week later than the English one. Data on disability among recipients is incomplete.",
+   "question": "What should the team do next?",
+   "choices": [
+    "Accept Scott's conclusion and focus the project on explaining the value of reassessment.",
+    "Drop the language finding because the disability data is incomplete.",
+    "Record Scott's explanation as an untested assumption, add the call center evidence and the translation delay to the analysis, and note the disability data gap as a limit."
+   ],
+   "feedback": [
+    "This treats an assumption about motivation as a finding, even though the evidence points to design problems in the letter and its timing.",
+    "Incomplete data on one factor is a limit to state, not a reason to ignore a clear pattern on another.",
+    "This is the strongest response. It separates assumptions from evidence, follows the most likely causes and is honest about what the data cannot show."
+   ],
+   "recommended": 2,
+   "reflection": "When you see a gap in outcomes between groups, what explanation comes to mind first? How often does it point to the people rather than to the process?",
+   "action": "Complete the assumption map for your chosen process: list each assumption, mark it tested, untested or contradicted, and note the evidence source. Share it with one person outside your team who experiences the process and ask what you missed.",
+   "check": {
+    "question": "Which is one of the seven criteria in the State of Minnesota Equity Analysis Toolkit quick guide?",
+    "correct": "Access and accessibility, including disability access and language and cultural provisions.",
+    "wrong": [
+     "Individual employee performance ratings.",
+     "A single overall equity score for the agency."
+    ],
+    "feedback": "The toolkit's criteria cover impact, partner engagement, data and evidence, access and accessibility, monitoring and evaluation, resources, and implementation and accountability. It is a method for examining decisions, not a way to score people or agencies."
+   }
+  },
+  {
+   "title": "Co-design the change with the people affected",
+   "objectives": [
+    "Select and state an honest level of participation using the IAP2 Spectrum of Public Participation.",
+    "Plan compensated partnership with community members and organizations.",
+    "Build language access and disability access into every co-design activity.",
+    "Distinguish community co-design from Tribal consultation and from formal approval."
+   ],
+   "teaching": "Co-design means the people affected help shape the change, not just react to a finished draft. Start by deciding, and saying out loud, how much influence partners will have. The International Association for Public Participation's Spectrum describes five levels, each with a promise. Inform promises to keep people informed. Consult promises to listen, acknowledge concerns and report how input influenced the decision. Involve promises that concerns will be directly reflected in the alternatives developed. Collaborate promises to look to partners for advice and innovation and incorporate their recommendations to the maximum extent possible. Empower promises to implement what the public decides. For most capstone projects, involve or collaborate is realistic. The worst outcome is promising collaboration and delivering consultation.\n\nCompensate people for their time and expertise. Community members, family members and self-advocates who help redesign a process are doing work. Work with your contracts, grants or finance staff to learn the approved ways to pay stipends or contract with community organizations, and budget for it at the start. Also cover practical costs such as transportation, child care and interpreters. Pay partner organizations for convening, not just individuals.\n\nMake every activity accessible and available in the languages people use. The National CLAS Standards, a voluntary national framework from the U.S. Department of Health and Human Services, call for offering language assistance at no cost, informing people that it is available, using competent interpreters rather than untrained people or minors, and partnering with the community to design, implement and evaluate services. For people with disabilities, the ADA's effective communication rules for state and local governments require appropriate aids and services, with primary consideration to the person's choice, such as interpreters, captioning, accessible documents and plain language. Offer several ways to take part: in person, online, by phone, in writing or through a trusted organization.\n\nKeep formal routes separate. Co-design sessions do not replace Tribal consultation, which stays government-to-government through the Tribal liaison. Partners shape options; the accountable DHS decision maker still decides, and your team should say so honestly. Treat partners as experts in their own experience, not as a panel who must educate staff about their identity, and do not ask anyone to retell traumatic experiences to justify a change.",
+   "keyPoint": "Name the level of participation honestly and keep its promise, pay partners, build in language and disability access from the start, and keep Tribal consultation and formal decisions on their own routes.",
+   "example": "Fictional case: The capstone team plans a redesign session for the reassessment letter. Pedro suggests a single weekday afternoon session in English at the DHS building, with an invitation that says partners will help decide the new letter. Aaliyah points out that the team's sponsor will make the final decision, and that the team has a small budget line it has not yet used. Two community organizations serving Hmong and Somali families have offered to host.",
+   "question": "What should the team do next?",
+   "choices": [
+    "Accept the organizations' offer, fund them to host sessions in the languages their members use, offer stipends and accessible formats, and describe the process honestly as collaboration with the sponsor deciding.",
+    "Hold Pedro's session as planned and send translated minutes afterward.",
+    "Cancel in-person sessions and post an English survey online to reach more people quickly."
+   ],
+   "feedback": [
+    "This is the strongest response. It removes language, place and cost barriers, compensates partners and makes an accurate promise about their influence.",
+    "Translating minutes afterward excludes people from shaping the design, and the invitation overpromises decision power the partners will not have.",
+    "A single English online survey reaches fewer of the people most affected and turns co-design into a one-way comment process."
+   ],
+   "recommended": 0,
+   "reflection": "Think of a time you were asked for input and never heard what happened to it. How did that shape whether you would take part again?",
+   "action": "Write a one-paragraph participation promise for your capstone that names the IAP2 level, who decides, how partners will be paid and how you will report back. Check it with your sponsor before sharing it with partners.",
+   "check": {
+    "question": "What does the IAP2 Spectrum promise at the Consult level?",
+    "correct": "To keep people informed, listen to and acknowledge concerns, and provide feedback on how input influenced the decision.",
+    "wrong": [
+     "To implement whatever the public decides.",
+     "To incorporate the public's recommendations to the maximum extent possible."
+    ],
+    "feedback": "Consult promises listening and feedback on influence. Collaborate promises to incorporate advice to the maximum extent possible, and Empower promises to implement what the public decides. Naming the level honestly prevents broken promises."
+   }
+  },
+  {
+   "title": "Write the plan and present the decision request",
+   "objectives": [
+    "Draft an implementation plan with a named owner, measures, resources and a review date.",
+    "Select measures that show whether the change reduced the barrier for the people most affected.",
+    "Prepare a concise decision request that states the ask, the evidence, the options and the risks.",
+    "Plan how the team will report back to partners on what was decided and why."
+   ],
+   "teaching": "A capstone ends with a decision, not a slide deck. Your written plan should answer the last three criteria of the Equity Analysis Toolkit: how the change will be monitored and evaluated, what resources it needs, and how it will be implemented with accountability. Name one owner, a person with authority over the process, not a committee. List the steps, milestones and who does each. State the resources needed, including staff time, translation, accessibility work, systems changes and partner compensation. Set a review date, typically after two or three cycles of the process.\n\nChoose measures that show whether the barrier actually changed for the people most affected. Useful measures are specific and comparable before and after, such as the share of families who attend their reassessment appointment, broken out by language where the numbers allow; the time between the English and translated versions of a notice; the number of calls asking what a letter means; or partner ratings of whether a meeting was accessible. Pair each number with a qualitative check, such as follow-up conversations with a few families. Avoid measures that only count activity, such as the number of sessions held. Protect privacy, suppress small numbers and never track individual staff or participants for this purpose.\n\nThe decision request is a short document, usually one or two pages, and a brief presentation to the accountable decision maker. Include: the process and why it matters; who is affected and what the evidence shows, including limits; what partners said and how they were involved; two or three options with benefits, costs and risks, including the option of no change; the recommended option; the owner, measures and review date; and the specific decision you are asking for. Be precise about what requires another office, such as legal review, labor relations, Tribal consultation or budget approval.\n\nAfter the decision, close the loop. The National CLAS Standards call for communicating progress to stakeholders and the public, and the IAP2 promises at the consult level and above include reporting how input influenced the decision. Tell partners what was decided, what changed because of their input, what did not change and why, and when the review will happen. A capstone that improves one process, credits the people who shaped it and sets up its own review is a model others can reuse.",
+   "keyPoint": "End with a decision: a plan with one owner, measures of real change, resources and a review date, a clear request to the decision maker, and a report back to partners.",
+   "example": "Fictional case: The capstone team has redesigned the reassessment letter with partners and is preparing to present to the DSD director. Scott's draft presentation lists twelve workshop activities, thanks everyone and closes with Questions? It does not name an owner, state the cost of faster translation or propose measures. Ngoc has partner feedback showing strong support for putting the appointment date and a phone number in the first two lines, in the family's language.",
+   "question": "What should the team do next?",
+   "choices": [
+    "Present Scott's draft, since the director can ask for details later.",
+    "Rewrite it as a decision request with the evidence, partner input, options and costs, a named owner, measures such as attendance by language and a review date, and a specific ask.",
+    "Delay the presentation until the team can survey every family who received the old letter."
+   ],
+   "feedback": [
+    "Activity lists and thanks do not give the director what is needed to decide, so the change may stall.",
+    "This is the strongest response. It gives the decision maker a clear, evidence-based choice and builds accountability into the change.",
+    "More evidence can help, but the team already has enough to recommend a change with a review date. Waiting for complete data delays a fix partners support."
+   ],
+   "recommended": 1,
+   "reflection": "Think of a good idea you have seen fail to become a real change. What was missing: an owner, a clear request, resources or a review?",
+   "action": "Draft your team's one-page decision request using the structure in the job aid. Ask a colleague outside the team to read it in five minutes and tell you what decision you are asking for. Revise until they can answer.",
+   "check": {
+    "question": "Which measure best shows whether a redesigned notice reduced a barrier?",
+    "correct": "The change in appointment attendance for families who speak languages other than English, compared before and after, with small numbers suppressed.",
+    "wrong": [
+     "The number of co-design sessions the team held.",
+     "Whether the team's sponsor liked the new design."
+    ],
+    "feedback": "Good measures track the barrier for the people most affected and can be compared over time. Counts of activities and internal approval do not show whether the process works better for families."
+   }
+  }
+ ],
+ "cards": [
+  {
+   "front": "Capstone scope statement",
+   "back": "A short description of the recurring process, its purpose, its current owner, the people affected and the team's authority to change it."
+  },
+  {
+   "front": "Assumption map",
+   "back": "A list of what the current process assumes about the people using it, each marked tested, untested or contradicted by evidence."
+  },
+  {
+   "front": "IAP2 Spectrum",
+   "back": "Five levels of public participation, inform, consult, involve, collaborate and empower, each with a promise about the public's influence on the decision."
+  },
+  {
+   "front": "Compensated partnership",
+   "back": "Paying community members and organizations for their time and expertise in co-design, and covering practical costs such as travel, child care and interpreters."
+  },
+  {
+   "front": "Decision request",
+   "back": "A short document asking an accountable decision maker for a specific decision, with evidence, partner input, options, costs, risks, owner, measures and a review date."
+  }
+ ],
+ "aid": [
+  {
+   "heading": "Choose and scope",
+   "items": [
+    "Pick a process that recurs, affects communities and is within your sponsor's authority.",
+    "Map people affected, including those rarely consulted.",
+    "Contact the Tribal liaison early if Tribal nations are affected.",
+    "Write a one-paragraph scope statement and confirm it with your sponsor."
+   ]
+  },
+  {
+   "heading": "Analyze and co-design",
+   "items": [
+    "Work through the seven Equity Analysis Toolkit criteria.",
+    "Map assumptions and test them against data and community input; state the limits.",
+    "Name the IAP2 level and who decides before inviting partners.",
+    "Budget for stipends, interpreters, accessible formats and partner organizations."
+   ]
+  },
+  {
+   "heading": "Decide and close the loop",
+   "items": [
+    "Name one owner, the resources needed and a review date.",
+    "Choose measures that show change for the people most affected, with small numbers suppressed.",
+    "Present options including no change, a recommendation and a specific ask.",
+    "Report back to partners on what changed, what did not and why."
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "title": "State of Minnesota — Equity Analysis Toolkit: A Quick Guide",
+   "href": "https://mn.gov/mmb-stat/equal-opportunity/office-of-inclusion/equity-analysis-toolkit.pdf",
+   "note": "The seven criteria and sample questions used as the capstone's analysis frame, including Tribal and urban Native consultation, disaggregated data, access and accessibility, monitoring and accountability."
+  },
+  {
+   "title": "Minnesota Statutes 10.65 — Government-to-Government Relationship with Tribal Governments",
+   "href": "https://www.revisor.mn.gov/statutes/cite/10.65",
+   "note": "Requires covered agencies, including DHS, to have Tribal consultation policies and liaisons, and defines consultation. Consultation is separate from community co-design."
+  },
+  {
+   "title": "U.S. Department of Health and Human Services, Think Cultural Health — National CLAS Standards",
+   "href": "https://thinkculturalhealth.hhs.gov/clas/standards",
+   "note": "Voluntary national standards on language assistance, community partnership and reporting progress. Used as a practice framework, not a statement of legal requirements."
+  },
+  {
+   "title": "Georgetown University National Center for Cultural Competence — Conceptual Frameworks and Definitions",
+   "href": "https://nccc.georgetown.edu/foundations/framework.php",
+   "note": "Five organizational elements of cultural competence, including self-assessment and managing the dynamics of difference, and a definition of linguistic competence."
+  },
+  {
+   "title": "International Association for Public Participation — IAP2 Spectrum of Public Participation",
+   "href": "https://cdn.ymaws.com/www.iap2.org/resource/resmgr/pillars/spectrum_8.5x11_print.pdf",
+   "note": "Goals and promises for the inform, consult, involve, collaborate and empower levels of participation."
+  },
+  {
+   "title": "U.S. Department of Justice, ADA.gov — ADA Requirements: Effective Communication",
+   "href": "https://www.ada.gov/resources/effective-communication/",
+   "note": "Title II duty for state and local governments to communicate effectively with people with disabilities, auxiliary aids and services, and primary consideration to the person's choice."
+  }
+ ]
+}

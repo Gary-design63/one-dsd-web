@@ -1,0 +1,233 @@
+{
+ "id": "gc-career-pathways-succession",
+ "subtitle": "Make advancement paths visible, share development opportunities fairly, plan succession on job-related criteria and know when to bring in HR and labor relations.",
+ "audience": "For supervisors, managers and HR partners at DHS and DSD who shape assignments, development and succession. Staff interested in their own path will also find it useful.",
+ "lessons": [
+  {
+   "title": "Making pathways visible",
+   "objectives": [
+    "Explain how job classification specifications and position descriptions shape advancement in Minnesota state service.",
+    "Identify at least three ways advancement requirements stay invisible on a team.",
+    "Draft a plain-language description of what the next step requires in your unit.",
+    "Distinguish what a supervisor can clarify from what only Human Resources can determine."
+   ],
+   "teaching": "Many people in state service can describe their own job in detail but cannot say what it would take to move to the next level. That gap is not a personal failing. Advancement in Minnesota state government runs through a classification system that most staff never see explained. Minnesota Management and Budget maintains job classification specifications, organized into career paths and job families, that describe the typical work and qualifications of each class. Each position also has a position description. MMB describes an accurate position description as a Human Resources requirement used primarily for classification and for filling vacancies. In practice, the duties written in a position description, compared against class specifications, are a large part of how a position is classified.\n\nBecause the system is technical, requirements for advancement often stay unspoken. Common patterns include: people learn what a promotion requires only by asking someone who already got one; stretch work goes to whoever is closest to the supervisor or whoever asks first; and the difference between being good at your current job and being ready for the next class is never named. These patterns tend to favor people who already have networks, confidence to ask, or time outside work to seek out information. Staff in DSD have described exactly this: unclear pathways and inconsistent recognition of their work. Those are patterns in how a unit operates, and they respond to practice.\n\nA supervisor can change a lot without touching classification. You can say out loud what advancement in your unit usually requires and write it down. You can walk each person through the class series their position belongs to and point to the public class specifications. You can explain which experiences tend to matter for the next class, such as leading a workgroup, drafting policy or managing a contract, and which are nice to have. You can make sure every person hears this, not only the ones who ask.\n\nWhat a supervisor cannot do is promise a reclassification, a promotion or a pay change. Those decisions belong to HR classification staff and, where a labor agreement applies, to labor relations. Being clear about that boundary is part of transparency. It protects staff from expectations no one can keep, and it tells them where the real decision sits.",
+   "keyPoint": "Transparency starts with saying plainly what the next step requires and where that decision is made. Supervisors can explain the path. Only HR can classify a position.",
+   "example": "Fictional case: Perpetua has worked as a DSD program consultant for four years and is widely relied on for her knowledge of waiver rules. She asks her supervisor, Leopold, why a colleague hired after her moved into a senior class last year. Leopold realizes he has never explained the class series to anyone on the team. He also suspects Perpetua's current duties may have grown beyond her position description, but he is not sure.",
+   "question": "What is the most useful next step for Leopold?",
+   "choices": [
+    "Tell Perpetua he will get her reclassified, since her work clearly deserves it.",
+    "Explain the class series and what the senior class typically involves, review her current duties against her position description with her, and bring the question of whether the description needs updating to HR.",
+    "Advise Perpetua to apply for outside jobs if she wants advancement, since classification is out of his hands."
+   ],
+   "feedback": [
+    "Leopold cannot promise a reclassification. That determination belongs to HR, and a promise he cannot keep would damage trust.",
+    "This is the best response. Leopold closes the information gap, uses what he can influence, which is an accurate position description, and routes the classification question to the people who decide it.",
+    "Classification is not his decision, but explaining the pathway and updating the position description are within his role. Sending her away skips steps he can take."
+   ],
+   "recommended": 1,
+   "reflection": "When did you first learn what it takes to move up in your current organization? Who told you, and who on your team might not have had that conversation?",
+   "action": "Look up the job classification specification for your own class and for the next class in the series on the MMB website. Write three sentences describing the difference in plain language, as if explaining it to a new colleague.",
+   "check": {
+    "question": "According to MMB, what is the primary use of a position description?",
+    "correct": "Classification and filling vacancies.",
+    "wrong": [
+     "Rating employee performance for merit increases.",
+     "Documenting individual development goals."
+    ],
+    "feedback": "MMB describes an accurate position description as an HR requirement used primarily for classification and vacancy filling. It can also support performance and training conversations, but its accuracy matters most because it feeds classification decisions."
+   }
+  },
+  {
+   "title": "Fair development: assignments, conversations and sponsorship",
+   "objectives": [
+    "Describe how individual development plans are meant to work under state administrative procedure.",
+    "Compare mentoring and sponsorship and when each is useful.",
+    "Plan a deliberate rotation of visible assignments on your team.",
+    "Identify risks when development tools become hidden records or unpaid labor."
+   ],
+   "teaching": "Competence grows through experience, and experience is handed out. Who leads the workgroup, who presents to the assistant commissioner, who drafts the legislative report: these assignments build the record that later counts in hiring and promotion decisions. When they are given by habit, the same people get them again and again, and others never have a chance to show what they can do.\n\nMinnesota's state administrative procedure on employee learning and development sets an expectation that supervisors and employees jointly discuss, prepare, review and annually update an individual development plan. It describes development as part of performance management and names coaching, mentoring and continuous learning as methods. Used well, an individual development plan is a shared agreement about growth. It should not become a hidden record of weaknesses or a checkbox that proves someone was offered development. Keep it forward-looking and make sure the employee has a copy and a voice in what it says.\n\nThree practices make development fairer. First, hold a career conversation with every person on your team, not only those who ask. Ask what they want to learn, what kind of work energizes them and what they need to know about the next step. Second, rotate visible assignments deliberately. Keep a simple list of high-visibility work over the past year and look at who has had it. Third, understand the difference between mentoring and sponsorship. A mentor gives advice about how rooms work. A sponsor uses their own standing to put someone in those rooms: recommending them for a project, naming their work to leadership or inviting them to a meeting where decisions are made. Both matter. Sponsorship is often what moves careers, and it is less often extended to people outside the sponsor's own networks.\n\nWatch two risks. Reverse mentoring, where a junior staff member teaches a senior leader, can be valuable, but it should not become unpaid equity work expected of staff from underrepresented communities. If someone is regularly asked to educate others about their community, recognize that as real work in their assignments and performance record. And development plans should not be used as a substitute for classification review when someone is already doing higher-level work.",
+   "keyPoint": "Visible assignments build careers. Rotate them deliberately, talk with everyone about growth, and sponsor people into decision rooms, not only mentor them about those rooms.",
+   "example": "Fictional case: Hyacinth supervises nine staff in a DSD provider oversight unit. Reviewing the past year, she sees that the same two analysts presented at every leadership briefing and led both cross-division workgroups. Both are people she worked with before becoming supervisor. A third analyst, Emeka, has quietly written most of the technical content they presented. Hyacinth has an upcoming briefing with the division director.",
+   "question": "What should Hyacinth do next?",
+   "choices": [
+    "Ask for volunteers for the briefing at the next staff meeting.",
+    "Keep the current presenters, since they have the most experience presenting to leadership.",
+    "Talk with Emeka about presenting the briefing, offer preparation support, and start a simple rotation list for visible assignments going forward."
+   ],
+   "feedback": [
+    "Asking for volunteers seems open but tends to favor the people already confident with leadership. It does not correct the pattern Hyacinth noticed.",
+    "Experience presenting comes from being asked to present. Keeping the same presenters repeats the pattern and keeps Emeka's work invisible.",
+    "This is the best response. Hyacinth uses her authority to sponsor Emeka, supports him to succeed and puts a practice in place so the pattern does not return."
+   ],
+   "recommended": 2,
+   "reflection": "Who sponsored you, perhaps without calling it that? Whose work on your team is visible to leadership only through someone else's name?",
+   "action": "List the five most visible assignments your team handled in the past year and who led each one. If you supervise, pick one upcoming assignment to offer deliberately to someone who has not had one.",
+   "check": {
+    "question": "What is the main difference between mentoring and sponsorship?",
+    "correct": "A mentor gives advice and guidance, while a sponsor uses their own standing to create opportunities and advocate for someone.",
+    "wrong": [
+     "Mentoring is formal and paid, while sponsorship is informal and voluntary.",
+     "Sponsorship is only for senior leaders, while mentoring is for new employees."
+    ],
+    "feedback": "Both can happen at any level and in formal or informal ways. The difference is what the more senior person does: advise, or actively open doors. Both matter, and fair sponsorship reaches beyond the sponsor's own circle."
+   }
+  },
+  {
+   "title": "Succession planning without fit bias",
+   "objectives": [
+    "Explain what succession planning is and why it goes beyond replacing one person.",
+    "Identify how judgments of cultural fit can distort talent decisions.",
+    "Draft job-related criteria for a critical role before naming possible successors.",
+    "Plan a talent pool approach that includes people who want the path, including staff with disabilities."
+   ],
+   "teaching": "Succession planning is how an organization prepares for the loss of key people and knowledge. The U.S. Office of Personnel Management describes it as identifying, assessing and developing talent to support continuity, built on workforce analysis, competency modeling and gap analysis. The point is not to crown an heir for each manager. It is to make sure critical knowledge is shared and that several people are developing toward important roles.\n\nSuccession planning is also where bias can hide. When leaders are asked who could step into a role, they often name people who remind them of themselves. Sociologist Lauren Rivera studied hiring in elite professional service firms and found that evaluators often weighed cultural similarity, or fit, heavily. They tended to construct merit in their own image, using their own experiences to judge ability, and felt more excitement about candidates who shared their interests. Her study was in a particular private-sector setting, so it does not prove the same thing happens in state government, but the mechanism is familiar. Words like fit, polish, presence and leadership potential can carry a lot of unexamined preference.\n\nThe fix is to decide what the role needs before thinking about people. Start with the competencies and knowledge the role actually requires, drawn from the position description and the work. Describe each in observable terms: for example, can explain a rule change to county partners in plain language, or has managed a contract through a dispute. Then ask who has shown those things and who could, with development. Build a pool of several people rather than one designated successor. Share the criteria openly so staff know what to build toward.\n\nInclude people who have been left out of informal networks. Minnesota Management and Budget guidance on retaining employees with disabilities calls for succession planning that includes a strategy to recruit and retain people with disabilities for the positions and career paths they are interested in. The same logic applies more broadly: ask people what paths they want, instead of assuming. Finally, remember that succession planning is a development tool, not a hiring decision. Formal selection for a vacancy still follows state hiring rules and any labor agreement, and HR is your partner in keeping it fair.",
+   "keyPoint": "Define what a role needs in observable terms before naming people, develop a pool rather than an heir, and ask people what paths they want.",
+   "example": "Fictional case: The DSD leadership team is asked to identify successors for three manager roles expected to open through retirements. In the discussion, one director, Barnaby, says the obvious choice for one role is Declan, who has great presence and fits the team. Another manager, Solveig, notices that no one has described what the role requires, and that two strong analysts who work mostly with Tribal and county partners have not come up at all.",
+   "question": "What should Solveig suggest?",
+   "choices": [
+    "That the team first write down the observable competencies each role needs, then consider a pool of candidates against those criteria, including people not yet mentioned.",
+    "That Declan be ruled out, since fit-based nominations are biased.",
+    "That the team leave succession planning to HR entirely, to avoid bias."
+   ],
+   "feedback": [
+    "This is the best response. Setting criteria first makes the discussion about the work, opens the pool and gives Declan and others a fair basis to be considered.",
+    "Declan may be well qualified. The problem is the basis for the nomination, not the person. Ruling anyone out is as unfounded as ruling them in.",
+    "HR is a key partner, but leaders know the work and are responsible for developing staff. Stepping away does not remove bias. Clear criteria do."
+   ],
+   "recommended": 0,
+   "reflection": "When you think of someone as a natural leader, what are you actually noticing? Which of those qualities are required by the work, and which are familiar to you?",
+   "action": "Pick one critical role in your area. Write four to six observable competencies it requires, without naming anyone. Then list who has shown each one and who could develop it.",
+   "check": {
+    "question": "What did Lauren Rivera's research find about how evaluators judged candidates in elite professional service firms?",
+    "correct": "Evaluators often favored candidates who were culturally similar to themselves and judged merit through their own experiences.",
+    "wrong": [
+     "Evaluators relied almost entirely on structured tests of skills.",
+     "Cultural fit had no measurable effect on hiring decisions."
+    ],
+    "feedback": "Rivera found that cultural similarity shaped evaluations in those firms. Her study was in a specific setting, so it is a warning about a mechanism, not a measurement of every workplace. Defining job-related criteria first is a practical guard against it."
+   }
+  },
+  {
+   "title": "Acting assignments and knowing when to bring in HR",
+   "objectives": [
+    "Describe what a work out of class assignment is under state administrative procedure.",
+    "Explain how acting and interim assignments can open or close advancement opportunities.",
+    "Distinguish decisions a supervisor can make from those that need HR, classification or labor relations partners.",
+    "Draft a pattern-based request to HR about advancement concerns on a team."
+   ],
+   "teaching": "Acting assignments are one of the most powerful and least examined advancement tools. In Minnesota state service, the formal version is called a work out of class assignment. State administrative procedure describes it as a temporary assignment in which a permanent or probationary classified employee performs substantially all the duties of a temporarily unoccupied position in a different classification. Pay may be adjusted as required or permitted by the applicable labor agreement or compensation plan, time limits apply, longer assignments need additional approval, and the appointing authority may end an assignment at any time. The details depend on the labor agreement, so HR is the partner for how any specific assignment works.\n\nActing assignments matter because they create exactly the experience that later selection processes reward. Someone who acted as a supervisor for six months has a track record that others do not. If these assignments go to whoever is nearest, whoever the departing leader recommended or whoever asked first, the pattern compounds over time. A fair approach sets out, in advance, how interim opportunities will be offered, uses job-related criteria, and rotates when there are several qualified people. Explaining the choice to the team is part of fairness too.\n\nIt helps to be clear about the boundary between what a supervisor can change and what needs a partner. A supervisor can: state plainly what advancement requires, rotate visible and acting opportunities, hold career conversations with everyone, keep position descriptions accurate, and sponsor people. A supervisor needs a partner for: classification questions and reallocation requests, pay equity reviews, anything governed by a labor agreement, and formal selection. Those go to HR classification staff, labor relations and leadership.\n\nWhen you bring a concern to HR, bring the pattern you noticed and describe the people affected in general terms, not a case built around one person. For example: over two years, most acting lead roles in our unit went to staff in one location, and staff who work mainly with Tribal partners have not had one. Patterns point to changes in practice. A single case can turn a systems question into a dispute about one person, and may raise privacy concerns under the Minnesota Government Data Practices Act.",
+   "keyPoint": "Acting assignments build the record that later selection rewards. Offer them by clear, job-related criteria, and bring classification, pay and contract questions to HR and labor relations as patterns.",
+   "example": "Fictional case: A DSD unit supervisor position will be vacant for several months during a hiring process. The departing supervisor, Wendeline, suggests that her longtime deputy, Ansel, act in the role. The division manager, Priya, knows three other staff have expressed interest in supervision in their career conversations, and one has already led the unit's largest project. Priya wants to fill the gap quickly without repeating an old pattern.",
+   "question": "What should Priya do?",
+   "choices": [
+    "Appoint Ansel, since the departing supervisor knows the unit best.",
+    "Consult HR about how to structure a work out of class assignment under the relevant labor agreement, define the criteria, and offer the opportunity openly to interested qualified staff, considering rotation if several qualify.",
+    "Split the supervisor's duties informally among the three interested staff without any formal assignment."
+   ],
+   "feedback": [
+    "Wendeline's view is useful input, but appointing by recommendation alone repeats the pattern of acting roles going to those closest to the departing leader.",
+    "This is the best response. Priya uses HR for the parts governed by procedure and contract, sets criteria first and gives interested staff a fair chance at experience that will matter later.",
+    "Informal splitting can mean people do higher-level work without recognition, pay rules or clear authority. Substantial higher-level duties raise questions HR should review."
+   ],
+   "recommended": 1,
+   "reflection": "Think of acting or interim roles you have seen filled. How was the person chosen, and did others know the opportunity existed?",
+   "action": "With your HR partner, find out how work out of class assignments are handled under the labor agreements that cover your team. Write down one practice you will use the next time an interim opportunity arises.",
+   "check": {
+    "question": "Which of these should a supervisor bring to HR or labor relations rather than decide alone?",
+    "correct": "Whether a position should be reallocated to a different classification.",
+    "wrong": [
+     "Which team member leads the next visible project.",
+     "Holding a career conversation with a staff member."
+    ],
+    "feedback": "Assigning projects and holding career conversations are within a supervisor's role. Classification decisions, pay equity reviews and matters governed by labor agreements need HR and labor relations partners."
+   }
+  }
+ ],
+ "cards": [
+  {
+   "front": "Job classification specification",
+   "back": "An MMB document describing the typical work and qualifications of a job class. Classes are grouped into career paths and job families."
+  },
+  {
+   "front": "Position description",
+   "back": "A description of a specific position's duties, used primarily for classification and filling vacancies. Keeping it accurate is a supervisor responsibility."
+  },
+  {
+   "front": "Sponsorship",
+   "back": "Using your own standing to create opportunities for someone, such as recommending them for a project or naming their work to leadership."
+  },
+  {
+   "front": "Work out of class assignment",
+   "back": "A temporary assignment in which a classified employee performs substantially all the duties of a temporarily unoccupied position in a different class. Pay and time limits follow procedure and labor agreements."
+  },
+  {
+   "front": "Fit bias",
+   "back": "Favoring people who seem culturally similar to decision-makers, often described as fit, polish or presence, rather than using job-related criteria."
+  }
+ ],
+ "aid": [
+  {
+   "heading": "What a supervisor can change now",
+   "items": [
+    "Write down what advancement in your unit requires and share it with everyone.",
+    "Hold a career conversation with every person, not only those who ask.",
+    "Rotate visible and acting assignments using a simple list.",
+    "Keep position descriptions accurate as duties change.",
+    "Sponsor people into rooms where decisions are made."
+   ]
+  },
+  {
+   "heading": "What needs a partner",
+   "items": [
+    "Classification questions and reallocation requests go to HR classification staff.",
+    "Pay equity questions go to HR.",
+    "Anything governed by a labor agreement goes to labor relations.",
+    "Formal selection for a vacancy follows state hiring rules with HR.",
+    "Bring patterns and describe affected people in general terms."
+   ]
+  },
+  {
+   "heading": "Succession planning check",
+   "items": [
+    "Define observable competencies for the role before naming anyone.",
+    "Build a pool of several people, not one heir.",
+    "Ask people what paths they want instead of assuming.",
+    "Include people outside informal networks, including staff with disabilities.",
+    "Replace words like fit and presence with the job-related behavior you mean."
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "title": "Minnesota Management and Budget — Position Descriptions",
+   "href": "https://mn.gov/mmb/mad/resources/pd/",
+   "note": "Supports that an accurate position description is an HR requirement used primarily for classification and vacancy filling. Classification decisions rest with HR."
+  },
+  {
+   "title": "Minnesota Management and Budget — Administrative Procedure 17.1, Work Out of Class Assignments (revised 2024)",
+   "href": "https://mn.gov/mmb/assets/17-1-workoutofclass_tcm1059-124229.pdf",
+   "note": "Supports the description of work out of class assignments, pay under labor agreements, time limits and approval rules. Specific terms depend on the applicable agreement, so consult HR."
+  },
+  {
+   "title": "Minnesota Management and Budget — Administrative Procedure 21, Employee Learning and Development",
+   "href": "https://mn.gov/mmb-stat/hr-toolbox/21-eelearningdevelopment.pdf",
+   "note": "Supports the expectation that individual development plans are jointly prepared and annually updated as part of performance management."
+  },
+  {
+   "title": "Minnesota Management and Budget — Retention (Executive Order 19-15 resources)",
+   "href": "https://mn.gov/mmb/employee-relations/equal-opportunity/eo-19-15/retention/",
+   "note": "Supports the recommendation that succession planning include a strategy to recruit and retain people with disabilities for the paths they are interested in. Page contents confirmed by direct retrieval."
+  },
+  {
+   "title": "U.S. Office of Personnel Management — Succession Planning",
+   "href": "https://www.opm.gov/agency-services/talent-management-services/strategic-consulting/workforce-and-succession-planning/succession-planning/",
+   "note": "Supports the description of succession planning as identifying, assessing and developing talent for continuity using workforce analysis, competency modeling and gap analysis. Federal guidance, used here for concepts only."
+  },
+  {
+   "title": "Rivera, L. A. — Hiring as Cultural Matching: The Case of Elite Professional Service Firms, American Sociological Review (2012)",
+   "href": "https://journals.sagepub.com/doi/10.1177/0003122412463213",
+   "note": "Supports the finding that evaluators weighed cultural similarity in hiring. The study covered elite private firms and may not generalize to public service; used to illustrate a mechanism."
+  }
+ ]
+}

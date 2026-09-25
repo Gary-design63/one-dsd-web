@@ -88,7 +88,19 @@
     "course-ipe-32-complaints-incident-learning",
     "course-ipe-33-responsible-data-evaluation",
     "course-ipe-36-leading-difficult-dialogue",
-    "course-dsd-12-communication-methods"
+    "course-dsd-12-communication-methods",
+    "course-cq-afghan-minnesota",
+    "course-idi-minimization",
+    "course-idi-acceptance",
+    "course-gc-faith-in-minnesota",
+    "course-gc-using-community-briefs",
+    "course-cq-tibetan-minnesota",
+    "course-cq-eritrean-minnesota",
+    "course-cq-sudanese-south-sudanese-minnesota",
+    "course-gc-deaf-minnesota",
+    "course-cq-cluster-frameworks-foundations",
+    "course-ipe-capstone-intercultural-practice",
+    "course-cq-leading-multicultural-teams"
   ],
   "access": [
     "course-disability-and-language",
@@ -153,7 +165,17 @@
     "course-dsd-09-aging-health-access",
     "course-dsd-10-early-adversity-resilience",
     "course-dsd-11-community-mapping-belonging",
-    "course-dsd-12-communication-methods"
+    "course-dsd-12-communication-methods",
+    "course-dsd-mental-health-psychiatric-disability",
+    "course-gc-deaf-minnesota",
+    "course-dsd-positive-supports",
+    "course-dsd-co-occurring-substance-use",
+    "course-gc-accommodation-transitions",
+    "course-dsd-leading-system-change",
+    "course-gc-automated-decisions",
+    "course-gc-remote-hybrid-equity",
+    "course-dsd-housing-instability",
+    "course-dsd-justice-involvement-reentry"
   ],
   "culture": [
     "course-intercultural-conflict-styles",
@@ -206,7 +228,16 @@
     "course-dsd-05-customized-employment",
     "course-dsd-07-executive-function-strengths",
     "course-dsd-10-early-adversity-resilience",
-    "course-dsd-13-coaching-direct-support"
+    "course-dsd-13-coaching-direct-support",
+    "course-gc-respectful-workplace",
+    "course-gc-career-pathways-succession",
+    "course-gc-new-supervisor-inclusive-leadership",
+    "course-gc-employee-resource-groups",
+    "course-gc-accommodation-transitions",
+    "course-cq-leading-multicultural-teams",
+    "course-gc-age-inclusion",
+    "course-gc-remote-hybrid-equity",
+    "course-gc-sustaining-the-work"
   ],
   "structural": [
     "course-anti-racism-resource",
@@ -248,7 +279,16 @@
     "course-ipe-34-co-design-partnership",
     "course-ipe-37-resource-allocation-equity",
     "course-dsd-06-benefits-assets-economic",
-    "course-dsd-10-early-adversity-resilience"
+    "course-dsd-10-early-adversity-resilience",
+    "course-gc-respectful-workplace",
+    "course-gc-career-pathways-succession",
+    "course-gc-structural-racism",
+    "course-dsd-leading-system-change",
+    "course-gc-equity-committee-roles",
+    "course-pi-equitable-oversight-design",
+    "course-gc-automated-decisions",
+    "course-dsd-housing-instability",
+    "course-dsd-justice-involvement-reentry"
   ],
   "partnership": [
     "course-somali-minnesota-brief",
@@ -283,7 +323,14 @@
     "course-dsd-03-self-direction-independent-living",
     "course-dsd-04-personal-outcomes-quality",
     "course-dsd-09-aging-health-access",
-    "course-dsd-11-community-mapping-belonging"
+    "course-dsd-11-community-mapping-belonging",
+    "course-cq-afghan-minnesota",
+    "course-gc-faith-in-minnesota",
+    "course-gc-using-community-briefs",
+    "course-cq-tibetan-minnesota",
+    "course-cq-eritrean-minnesota",
+    "course-cq-sudanese-south-sudanese-minnesota",
+    "course-gc-employee-resource-groups"
   ],
   "facilitation": [
     "course-cultural-humility-vs-checklist",
@@ -348,6 +395,11 @@
     "course-ipe-36-leading-difficult-dialogue",
     "course-ipe-38-sustaining-voluntary-learning",
     "course-dsd-08-brain-injury-practice",
-    "course-dsd-13-coaching-direct-support"
+    "course-dsd-13-coaching-direct-support",
+    "course-idi-minimization",
+    "course-idi-acceptance",
+    "course-gc-new-supervisor-inclusive-leadership",
+    "course-gc-equity-committee-roles",
+    "course-ipe-capstone-intercultural-practice"
   ]
 }

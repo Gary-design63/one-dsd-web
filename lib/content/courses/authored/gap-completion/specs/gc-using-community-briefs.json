@@ -1,0 +1,237 @@
+{
+ "id": "gc-using-community-briefs",
+ "subtitle": "Use the program's Minnesota community briefs to ask better questions, plan access with people and partners, and avoid profiling in intake, oversight and communications.",
+ "audience": "For case managers, intake and eligibility staff, program integrity staff, communications staff, policy and program staff and supervisors who use the program's community briefs in their work.",
+ "lessons": [
+  {
+   "title": "What a community brief is for: questions, not predictions",
+   "objectives": [
+    "Explain the purpose of the program's Minnesota community briefs as starting points for respectful inquiry.",
+    "Distinguish a general statement about a community from a prediction about an individual.",
+    "Identify within-group variation in history, faith, language, disability, age and class that a brief cannot capture.",
+    "Convert a descriptive statement from a brief into a question you could ask a person or a community partner."
+   ],
+   "teaching": "The program maintains more than forty briefs on Minnesota communities, covering history, migration, languages, faith traditions, family and naming practices, and what those patterns may mean for service. They are some of the most used resources in the program, and they are useful. They can help you prepare for a first meeting, notice that you might need a particular interpreter, or understand why a family might hesitate to share information with a government agency. But every brief carries the same instruction: it is a starting point, not a verdict. It can help you ask better questions and plan access. It cannot tell you what any one person wants, believes or needs.\n\nThe core habit is simple: read a brief for what to ask, not what to conclude. Take a sentence such as \"Many families in this community make major decisions together.\" Read as a prediction, it becomes \"This person will want family involved,\" and you may schedule a meeting with relatives the person never invited. Read as a question, it becomes \"Who, if anyone, would you like to be part of this conversation?\" The second version uses the same knowledge and leaves the answer with the person. A generalization about literacy, oral tradition, health beliefs or family roles becomes a stereotype at the moment it is applied to a person without asking.\n\nWithin-group variation is the reason. Differences inside a community in immigration history, generation, faith, language, disability, age, education, gender, region of origin and class can be as large as differences between communities. A person who arrived as a refugee decades ago, their child born in Saint Paul, and a recent arrival from a different region may share a community name and little else in daily practice. Some people served are also members of several communities at once. A brief describes patterns found across many people; you are working with one.\n\nThe National Center for Cultural Competence at Georgetown University describes cultural competence as something organizations build through values, behaviors, policies and structures, including the capacity to acquire and institutionalize cultural knowledge and to adapt to the communities served. Knowledge is one element among several. A brief supplies some knowledge. The other elements, such as self-assessment, managing the dynamics of difference and adapting practice, are the work you do with it. The following lessons show that work in intake and case management, program integrity and communications, and partnership with communities.",
+   "keyPoint": "Read a community brief for what to ask, not what to conclude. Turn each statement into a question for the person or a community partner; the answer belongs to them.",
+   "example": "Fictional case: Before a first home visit, Kayla, a case manager at a county partner, reads the program's brief on a Minnesota East African community. The brief notes that many families in the community are Muslim and that some prefer same-gender staff for personal care. Kayla's colleague Troy suggests she simply assign a female aide and skip asking, to avoid an awkward conversation. The person Kayla is visiting, Hodan, is a young woman who recently moved from another state, and Kayla knows nothing else about her preferences.",
+   "question": "What should Kayla do?",
+   "choices": [
+    "Follow Troy's suggestion, since the brief says this is a common preference.",
+    "Ask Hodan, as she would ask anyone receiving personal care, whether she has preferences about who provides her care, and plan from her answer.",
+    "Avoid the topic entirely, since asking about preferences related to faith could be intrusive."
+   ],
+   "feedback": [
+    "Acting on a community pattern without asking turns a starting point into a prediction. Hodan may or may not share the preference, and she has not been given the choice.",
+    "This is the strongest response. Kayla uses the brief to remember an important question, asks it in the same way she would ask anyone, and does not require Hodan to explain her faith.",
+    "Care preferences are a standard, appropriate question in person-centered planning. Avoiding it may leave Hodan uncomfortable with care she did not choose."
+   ],
+   "recommended": 1,
+   "reflection": "Think of a statement you have read or heard about a community you serve. How have you used it: as a question to ask, or as an expectation about the next person you meet?",
+   "action": "Open one community brief you have used recently. Choose three sentences and rewrite each as a question you could ask a person served or a community partner. Keep the questions for your next relevant meeting.",
+   "check": {
+    "question": "What is the main reason a community brief cannot predict what an individual needs?",
+    "correct": "Differences within a community, in history, faith, language, generation, disability, class and more, can be as large as differences between communities.",
+    "wrong": [
+     "Community briefs are usually inaccurate and should not be used.",
+     "Individuals rarely identify with any community."
+    ],
+    "feedback": "Briefs can be accurate and helpful about patterns across many people, and many people identify strongly with their communities. The limit is that a pattern across a group does not tell you where one person stands, so the brief supplies questions and the person supplies answers."
+   }
+  },
+  {
+   "title": "Intake and case work: ask the person, collect only what you need",
+   "objectives": [
+    "Plan access decisions, including language, interpreter, format, timing, setting, technology and trusted messenger, with the person rather than for them.",
+    "Distinguish asking about a person's needs and preferences from profiling them based on a presumed community.",
+    "Explain how the Minnesota Government Data Practices Act limits data collection to what a program needs and requires notice when private data is requested.",
+    "Identify why immigration status and similar sensitive information should not be collected unless a program requires it."
+   ],
+   "teaching": "Intake is where a brief can do the most good and the most harm. It can help you anticipate that a person may prefer a particular language or dialect, may be wary of government agencies because of past experience, or may have a name order that differs from your system's fields. It can harm when staff use a person's apparent community to fill in answers, choose an interpreter based on a surname, or ask extra questions of some people and not others. That second pattern is profiling: treating a person differently because of assumptions about a group they appear to belong to.\n\nA practical rule is to plan access from what people tell you. Language, interpreter, format, timing, setting, technology and trusted messenger are decisions to make with people, not for them. Ask everyone the same core access questions, such as what language they prefer for spoken and written communication, whether they want an interpreter, how they prefer to receive information and whether anyone should be involved. The brief can remind you why these questions matter and help you prepare, for example by checking that interpreter services can cover a less common language. It should not decide the answers. The National CLAS Standards, which the DHS Equity Policy incorporates, call for language assistance at no cost to people with limited English proficiency or other communication needs.\n\nData law reinforces the same discipline. Under the Minnesota Government Data Practices Act, collection and storage of data on individuals must be limited to what is necessary to administer programs authorized by law. When staff ask a person for private or confidential data, the person must be told the purpose and intended use, whether they may refuse or are legally required to answer, the known consequences of answering or not, and who else is authorized to receive the data. This notice is often called a Tennessen warning. Your program's intake forms and data practices staff set how this works in your role.\n\nFor the same reasons, do not ask about immigration status, faith, refugee history or experiences of trauma because a brief suggests they might be relevant. Ask only what the program actually requires, in the way the program requires it. If eligibility rules do require immigration information, follow the program's procedure exactly and explain why it is asked. Never ask a person to retell a traumatic migration story to justify a service or satisfy curiosity. Questions about data use belong with your unit's data practices contact or legal counsel.",
+   "keyPoint": "Ask everyone the same core access questions and plan from their answers. Collect only the data your program requires, give the required notice, and never use a brief to decide what to ask one person but not another.",
+   "example": "Fictional case: Intake worker Lisa receives a referral for Mr. Vang, an older man. Based on his surname and the program's Hmong community brief, her coworker Greg has already scheduled a Hmong interpreter and added a note to the file suggesting the family may use traditional healing and may distrust hospitals. Greg also drafted a question asking how the family came to Minnesota, to \"understand the background.\" None of this came from Mr. Vang or the referral.",
+   "question": "What should Lisa do before the intake appointment?",
+   "choices": [
+    "Keep the interpreter and the note, since they are likely to be accurate and could save time.",
+    "Remove the interpreter booking so she does not assume anything, and conduct intake in English.",
+    "Contact Mr. Vang or the referral source to ask his language and interpreter preferences, remove the speculative note from the file, and drop the migration question because the program does not require it."
+   ],
+   "feedback": [
+    "Even likely assumptions become file content that follows the person and shapes how others treat him. Speculation about healing practices and trust is not data the program needs.",
+    "Cancelling help without asking creates a new barrier. The problem was not the interpreter but deciding without asking.",
+    "This is the strongest response. Lisa asks the person, keeps the file limited to what is necessary, and avoids a question that could require retelling a painful history for no program purpose."
+   ],
+   "recommended": 2,
+   "reflection": "Which questions in your intake or case work do you ask of some people but not others? What prompts the difference?",
+   "action": "Review the access questions you use at intake or first contact. Confirm that you ask them of every person in the same way, and remove any note or habit that fills in answers based on a person's presumed community.",
+   "check": {
+    "question": "Under the Minnesota Government Data Practices Act, what must generally be explained when a person is asked for private or confidential data about themselves?",
+    "correct": "The purpose and intended use, whether they may refuse or must answer, the known consequences of answering or refusing, and who else is authorized to receive the data.",
+    "wrong": [
+     "Only the name of the staff person collecting the data.",
+     "Nothing, as long as the data will be kept confidential."
+    ],
+    "feedback": "This required notice, often called a Tennessen warning, lets people make an informed choice about what they share. It works together with the rule that data collection be limited to what the program needs. Your data practices contact can advise on specific forms."
+   }
+  },
+  {
+   "title": "Program integrity and communications: avoiding profiling at scale",
+   "objectives": [
+    "Identify how community-level patterns can become profiling when used to target oversight or review.",
+    "Distinguish conduct-based and data-based review criteria from criteria based on a community's presumed characteristics.",
+    "Explain why the date and source of data in a brief matter before it is used in a decision or public message.",
+    "Draft a communications approach that uses brief content to shape questions for partners rather than to describe a community to itself."
+   ],
+   "teaching": "Program integrity work protects public funds and the people services are meant for. It also carries a particular risk when community material enters the picture. If a pattern in a brief, such as a community's reliance on family-owned provider agencies or informal networks, becomes a reason to review providers who serve that community more closely, a description has turned into a targeting rule. That is profiling at the scale of a program, and it can produce exactly the unequal treatment that Title VI of the Civil Rights Act and the Minnesota Human Rights Act are meant to prevent. Review criteria should rest on conduct and data about billing, documentation, service delivery and complaints, applied the same way across providers. Questions about whether a review approach raises civil rights concerns go to EOAD and legal counsel.\n\nData in briefs also has a date and a source, and both matter. The Minnesota State Demographic Center, for example, notes that its immigration figures come mainly from the American Community Survey, that survey estimates have margins of error, and that census estimates likely undercount immigrant populations because trust and language issues reduce response rates. A population number that was accurate several years ago may not reflect recent arrivals, secondary migration from other states or changes in which languages are needed. Before a number from a brief goes into a funding decision, a slide or a news release, check its date and original source, and look for more current data from the agency that produces it.\n\nCommunications staff use briefs in a different way. A brief can help you learn which languages to plan for, which media and organizations a community relies on, and which topics may need care. It should not supply the description of a community in a public message. A news release, social post or flyer that describes a community's beliefs or problems in the department's voice can feel like being spoken about rather than spoken with. The better use is to turn brief content into questions for community partners: how would you describe this change to your members, which channels reach people, what words or images should we avoid, and who should deliver the message?\n\nFinally, a brief that marks a section as pending, or that leaves a community's self-description unfinished, is telling you something important: the department does not yet know, and someone should go ask. Community material needs authoritative sources and community review before it becomes a program fact. Material still in review is not a description of anyone.",
+   "keyPoint": "Community patterns must not become targeting rules for oversight. Check the date and source of any figure, base review on conduct and data, and use briefs to shape questions for partners rather than public descriptions of a community.",
+   "example": "Fictional case: A program integrity analyst, Nate, is drafting criteria for a focused review of personal care provider agencies after several billing errors. A colleague, Vanessa, suggests adding \"agencies primarily serving immigrant communities\" as a risk factor, citing a brief that notes many such agencies are small and family-run. Meanwhile, the communications office plans a news release about the review and wants a paragraph describing the communities involved.",
+   "question": "What should Nate recommend?",
+   "choices": [
+    "Build the review criteria on specific billing and documentation indicators applied to all agencies, raise the proposed community factor with EOAD and legal counsel, and suggest the news release describe the review process rather than any community.",
+    "Include the community factor, since it is based on the program's own brief.",
+    "Include the community factor but leave it out of the news release to avoid negative attention."
+   ],
+   "feedback": [
+    "This is the strongest response. Nate grounds oversight in conduct and data, routes a civil rights question to the responsible offices, and keeps the public message from characterizing a community.",
+    "A brief describing patterns is not evidence of wrongdoing. Using it as a risk factor targets providers by who they serve, which raises serious fairness and legal concerns.",
+    "Hiding the criterion does not fix the problem; it adds a transparency problem to a fairness problem."
+   ],
+   "recommended": 0,
+   "reflection": "When you have used a number or description about a community in your work, how did you know how current it was and where it came from?",
+   "action": "Find one figure about a community in a document you use or produce. Trace it to its original source, note its date, and check whether more current data exists from the agency that published it.",
+   "check": {
+    "question": "Why should staff check the date and original source of population data in a community brief before using it in a decision?",
+    "correct": "Because survey estimates have margins of error, may undercount some communities, and can become outdated as migration and language needs change.",
+    "wrong": [
+     "Because data in briefs is usually invented.",
+     "Because only data from the current month can be used in public decisions."
+    ],
+    "feedback": "Briefs rely on real sources, but those sources have limits. The Minnesota State Demographic Center notes margins of error and likely undercounts of immigrant populations in census estimates. Checking the date and source helps you decide whether a figure is fit for the use you have in mind."
+   }
+  },
+  {
+   "title": "Working with community partners and cultural brokers",
+   "objectives": [
+    "Describe the roles cultural brokers can play, such as liaison, cultural guide, mediator and catalyst for change.",
+    "Distinguish a respectful, reciprocal request to a community partner from an extractive one.",
+    "Plan how partner input will be used, credited and reported back.",
+    "Explain how community review turns brief content into verified program material."
+   ],
+   "teaching": "A brief is only as good as the relationships behind it. The people who can tell you whether a brief fits real life are community members, community organizations and cultural brokers. The National Center for Cultural Competence defines cultural brokering as bridging, linking or mediating between groups or persons of differing cultural backgrounds, and describes cultural brokers as go-betweens who may also advocate for others. In its guide on cultural broker programs, it describes several roles: liaison between people and services, cultural guide helping an organization adapt its practice, mediator easing distrust, and catalyst for change. It emphasizes that expertise resides within communities.\n\nWorking well with brokers and partners starts with being clear about what you are asking. A cultural broker is not automatically an interpreter, and an interpreter should not be asked to act as a broker or advocate unless that is their agreed role. A community organization is not a free consulting service. Many partners are asked by multiple agencies for the same input, often without payment, follow-up or visible results. Before asking, check whether your unit has a contract, stipend or other way to compensate time, and whether another part of the department has already asked the same question.\n\nA respectful request is specific and reciprocal. It explains the decision being made, what input is needed and by when, how the input will be used, who will see it, and how the partner will hear what happened. It does not ask partners to speak for everyone in their community, to share private information about individuals, or to retell traumatic experiences. It credits the partner where they want credit, and respects when they prefer not to be named. The National CLAS Standards call for partnering with the community to design, implement and evaluate culturally and linguistically appropriate services, and the DHS Equity Policy expects engagement to be authentic, meaningful and ongoing, not a single meeting.\n\nPartners are also how briefs get better. When a person or partner tells you a brief is outdated, incomplete or wrong, pass that feedback to the program team that maintains the briefs. Community material needs authoritative sources and community review before it becomes a program fact, and a brief with sections still pending review should be read as an open question. Engagement with Tribal nations is a distinct matter: it follows government-to-government consultation rather than community partnership alone. Your unit's Tribal relations staff can advise on the right path.",
+   "keyPoint": "Cultural brokers and community partners hold the expertise that makes briefs useful. Ask specifically, compensate where possible, report back, and route feedback so briefs improve over time.",
+   "example": "Fictional case: Maya, a DSD program consultant, needs input on a new family guide to waiver services. She plans to email the leaders of five community organizations asking them to \"share how their community views disability\" by Friday, with no mention of payment. Her colleague Ahmed, who worked as a cultural broker at a county agency before joining DHS, suggests another approach. One organization already answered a similar question for another DHS division last month.",
+   "question": "What should Maya do?",
+   "choices": [
+    "Send the email as planned, since partners want to be included.",
+    "Check what input the department already received, then send a specific request explaining the decision, the timeline, how input will be used and credited, and any available compensation, and commit to reporting back.",
+    "Skip partner input and rely on the community briefs, since the organizations are busy."
+   ],
+   "feedback": [
+    "Being included matters, but a vague, rushed, unpaid request asking one leader to speak for a whole community is extractive and may duplicate work already done.",
+    "This is the strongest response. Maya avoids duplicate asks, makes the request specific and reciprocal, and builds in the follow-up that keeps relationships healthy.",
+    "Briefs are not a substitute for current input on a specific product. Skipping partners removes the check that tells you whether the guide fits real families."
+   ],
+   "recommended": 1,
+   "reflection": "Think of the last time you asked a community partner or colleague for cultural insight. What did they get in return, and did they hear how their input was used?",
+   "action": "Before your next request to a community partner, write a short note covering: the decision, what you need, the deadline, how input will be used and credited, compensation if available, and when you will report back.",
+   "check": {
+    "question": "Which description best matches the National Center for Cultural Competence's definition of cultural brokering?",
+    "correct": "Bridging, linking or mediating between groups or persons of differing cultural backgrounds.",
+    "wrong": [
+     "Translating documents word for word from one language into another.",
+     "Deciding on behalf of a community what services it should receive."
+    ],
+    "feedback": "Cultural brokering is broader than translation and does not mean deciding for a community. Brokers bridge and mediate, and may advocate. Translation and interpretation are distinct professional roles with their own standards."
+   }
+  }
+ ],
+ "cards": [
+  {
+   "front": "A starting point, not a verdict",
+   "back": "The rule for every community brief: it helps you ask better questions and plan access, but it cannot tell you what any one person wants, believes or needs."
+  },
+  {
+   "front": "Within-group variation",
+   "back": "Differences inside a community in history, faith, language, generation, disability, age and class, often as large as differences between communities."
+  },
+  {
+   "front": "Profiling",
+   "back": "Treating a person or organization differently because of assumptions about a group they appear to belong to, rather than on what they tell you or what they have done."
+  },
+  {
+   "front": "Tennessen warning",
+   "back": "The notice required under the Minnesota Government Data Practices Act when a person is asked for private or confidential data: purpose, whether they may refuse, consequences and who may receive it."
+  },
+  {
+   "front": "Cultural broker",
+   "back": "A person who bridges, links or mediates between groups or persons of differing cultural backgrounds, and who may advocate on behalf of others."
+  }
+ ],
+ "aid": [
+  {
+   "heading": "Before you use a brief",
+   "items": [
+    "Check the date and original source of any figure.",
+    "Note sections marked pending review and treat them as open questions.",
+    "Rewrite key statements as questions for the person or a partner.",
+    "Remember that differences within the community may be larger than differences between communities."
+   ]
+  },
+  {
+   "heading": "At intake and in case work",
+   "items": [
+    "Ask every person the same core access questions about language, interpreter, format, timing, setting, technology and who to involve.",
+    "Plan from the person's answers, not from a surname or presumed community.",
+    "Collect only data the program requires and give the required notice for private data.",
+    "Do not ask about immigration status, faith or migration history unless the program requires it.",
+    "Never ask anyone to retell trauma."
+   ]
+  },
+  {
+   "heading": "In oversight, communications and partnership",
+   "items": [
+    "Base review criteria on conduct and data applied to everyone; take civil rights questions to EOAD and legal counsel.",
+    "Use briefs to shape questions for partners, not public descriptions of a community.",
+    "Make requests to partners specific, compensated where possible, credited as they wish and reported back.",
+    "Send feedback about outdated or incorrect briefs to the program team.",
+    "Use government-to-government consultation for matters involving Tribal nations."
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "title": "Georgetown University National Center for Cultural Competence — Foundations of Cultural and Linguistic Competence: Conceptual Frameworks",
+   "href": "https://nccc.georgetown.edu/foundations/framework.php",
+   "note": "Definition of cultural competence and the five organizational capacities, including acquiring and institutionalizing cultural knowledge and adapting to communities served. Supports the framing of briefs as one element among several."
+  },
+  {
+   "title": "Georgetown University National Center for Cultural Competence — Bridging the Cultural Divide in Health Care Settings: The Essential Role of Cultural Broker Programs (2004)",
+   "href": "https://nccc.georgetown.edu/documents/Cultural_Broker_Guide_English.pdf",
+   "note": "Definitions of cultural brokering and cultural brokers and the roles of liaison, cultural guide, mediator and catalyst for change. Written for health care; applied here to human services partnership."
+  },
+  {
+   "title": "U.S. Department of Health and Human Services, Think Cultural Health — National CLAS Standards",
+   "href": "https://thinkculturalhealth.hhs.gov/clas/standards",
+   "note": "Standards on language assistance at no cost, demographic data, community assessment and partnering with communities. The standards are framed for health and health care organizations; the DHS Equity Policy incorporates them."
+  },
+  {
+   "title": "Minnesota State Demographic Center — Immigration and Language",
+   "href": "https://mn.gov/admin/demography/data-by-topic/immigration-language/",
+   "note": "Notes that immigrant population figures rely mainly on the American Community Survey, have margins of error and likely undercount immigrant populations. Supports checking the date and source of figures in briefs."
+  },
+  {
+   "title": "Minnesota Department of Human Services — Equity Policy (2023)",
+   "href": "https://mn.gov/dhs/assets/equity-policy_tcm1053-646921.pdf",
+   "note": "Department expectations for authentic, ongoing community engagement, CLAS standards in everyday work, and language access."
+  },
+  {
+   "title": "Minnesota Revisor of Statutes — Minnesota Statutes section 13.04 (Rights of subjects of data)",
+   "href": "https://www.revisor.mn.gov/statutes/cite/13.04",
+   "note": "Subdivision 2 sets out the notice required when an individual is asked for private or confidential data. Specific application belongs to data practices staff and legal counsel."
+  },
+  {
+   "title": "Minnesota Revisor of Statutes — Minnesota Statutes section 13.05 (Duties of responsible authority)",
+   "href": "https://www.revisor.mn.gov/statutes/cite/13.05",
+   "note": "Subdivision 3 limits collection and storage of data on individuals to what is necessary for authorized programs. Supports collecting only what a program requires."
+  }
+ ]
+}

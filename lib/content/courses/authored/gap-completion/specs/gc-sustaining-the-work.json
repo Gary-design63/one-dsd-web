@@ -1,0 +1,230 @@
+{
+ "id": "gc-sustaining-the-work",
+ "subtitle": "Distinguish secondary traumatic stress, vicarious trauma, compassion fatigue and burnout, and take organizational, supervisory and personal steps that sustain people doing hard work.",
+ "audience": "For all DHS and DSD employees whose work involves difficult material, including case managers, intake, incident review, licensing, policy and communications staff, and for supervisors who shape how that work is organized.",
+ "lessons": [
+  {
+   "title": "Naming the strain: secondary traumatic stress, vicarious trauma, compassion fatigue and burnout",
+   "objectives": [
+    "Distinguish secondary traumatic stress, vicarious trauma, compassion fatigue and burnout in plain language.",
+    "Identify ways DHS and DSD work exposes staff to other people's trauma, including indirect exposure.",
+    "Explain why these terms describe work experiences rather than diagnoses of colleagues.",
+    "Describe compassion satisfaction and vicarious resilience as part of the same picture."
+   ],
+   "teaching": "People who work in human services carry other people's hardest moments. At DHS and DSD that can mean reading maltreatment reports, taking calls from families in crisis, reviewing a death or serious injury, investigating a provider, reading public comments full of grief or anger, or hearing, again and again, what a system failure meant for someone's life. You do not have to be in the room when something terrible happens for it to affect you. Staff whose own families or communities have lived through similar events may feel the work more sharply.\n\nSeveral terms describe what can happen, and they overlap. The National Child Traumatic Stress Network defines secondary traumatic stress as the emotional duress that results when a person hears about the firsthand trauma experiences of another, and calls it a common occupational hazard for helping professionals. Vicarious trauma, as the federal Office for Victims of Crime describes it, is an occupational challenge that comes from continuous exposure to other people's trauma; over time it can produce a range of negative psychological and social reactions. Compassion fatigue is often used as an umbrella term; SAMHSA describes it as a combination of burnout and secondary traumatic stress. Burnout, in the World Health Organization's definition, is a syndrome resulting from chronic workplace stress that has not been successfully managed, marked by exhaustion, mental distance or cynicism about the job, and reduced sense of effectiveness. WHO classifies burnout as an occupational phenomenon, not a medical condition. Burnout can come from workload and conditions without any trauma exposure.\n\nThe same work also brings meaning. Compassion satisfaction is the sense of fulfillment that comes from helping, and vicarious resilience describes the strength some workers draw from witnessing how people recover and adapt. Both can exist alongside strain.\n\nThese words are for understanding work, not for labeling colleagues. Supervisors and coworkers should not decide that someone has secondary trauma or is burned out, and no one is required to tell anyone at work about their health or history. What matters for a team is noticing the conditions of the work, such as exposure, workload and support, and changing what can be changed. The rest of this course treats sustaining the work as a shared responsibility, not a test of personal toughness.",
+   "keyPoint": "Secondary traumatic stress, vicarious trauma, compassion fatigue and burnout are related work experiences, not diagnoses. Use the words to understand working conditions, never to label a colleague.",
+   "example": "Fictional case: Jada works in a DSD unit that reviews reports of serious incidents involving people receiving waiver services. After a hard month, she tells a coworker, Ben, that she has stopped reading the full reports and just skims for the required fields. Ben replies that she sounds burned out and should probably see someone. Jada says she is fine and just busy. Later, Ben wonders whether he should tell their supervisor that Jada has secondary trauma.",
+   "question": "What should Ben do next?",
+   "choices": [
+    "Tell the supervisor that Jada has secondary trauma so she can be taken off incident reviews.",
+    "Drop it completely, since Jada said she was fine.",
+    "Check in with Jada without labeling her, mention that the work has been heavy for everyone, and suggest raising workload and exposure at the next team meeting."
+   ],
+   "feedback": [
+    "Ben cannot diagnose Jada, and reporting a label about her health without her agreement breaks trust and may affect her work unfairly.",
+    "Respecting her answer matters, but the heavy month is a team condition worth raising. Ben can do that without singling Jada out.",
+    "This is the strongest response. It offers support without a label, respects Jada's privacy and turns attention to the conditions the whole team shares."
+   ],
+   "recommended": 2,
+   "reflection": "Which parts of your work bring you closest to other people's suffering, even indirectly? Which parts bring you a sense of meaning?",
+   "action": "List the main ways your role exposes you to difficult material, such as reports, calls, files, reviews or public comments. Note which ones arrive without warning, and bring one idea for predictability or support to your next check-in with your supervisor.",
+   "check": {
+    "question": "How does the World Health Organization classify burnout?",
+    "correct": "As an occupational phenomenon resulting from chronic workplace stress that has not been successfully managed, not as a medical condition.",
+    "wrong": [
+     "As a mental illness that requires a clinical diagnosis.",
+     "As the same thing as secondary traumatic stress."
+    ],
+    "feedback": "WHO describes burnout as specific to the work context, with exhaustion, mental distance or cynicism, and reduced effectiveness. It can occur without trauma exposure, which is why it is distinct from secondary traumatic stress."
+   }
+  },
+  {
+   "title": "Why the response must be organizational",
+   "objectives": [
+    "Explain the demands and resources view of burnout used by NIOSH.",
+    "Identify organizational conditions that increase or reduce strain in DHS and DSD work.",
+    "Compare individual coping advice with changes that teams and leaders can make.",
+    "Plan one change to how difficult material reaches a team."
+   ],
+   "teaching": "Advice about sleep, exercise and deep breathing is useful, but it cannot fix a job that is designed to wear people down. The National Institute for Occupational Safety and Health, in its burnout training for public health supervisors and managers, frames burnout as a mismatch between demands and resources: too many demands that require effort, and not enough of what people need to meet them. Resources include time, staffing, clear information, decision authority, trust and support. When the mismatch is chronic, it creates what NIOSH calls drain cycles. The Office for Victims of Crime's toolkit likewise stresses that organizations have roles and responsibilities in addressing vicarious trauma, not only individual workers.\n\nThis matters for fairness as well as health. If well-being is treated only as a personal matter, the people who struggle are blamed for conditions they did not create. Staff with caregiving responsibilities, disabilities, or personal connections to the communities in crisis may carry more, and the people who absorb the extra load are often the most committed.\n\nLook at how the work is designed. How much difficult material does each person handle, and is it spread fairly? Does distressing content arrive without warning, for example graphic details in an email subject line or a forwarded file with no summary? Are caseloads and deadlines realistic? Do staff know what is expected, and do they have enough say in how they work? Is there time to recover after a critical incident, a death review or a hostile public meeting? Do people have a place to talk about the work that is not a performance conversation?\n\nPractical changes are often small. Add a content note to emails that contain graphic detail and put the summary first. Rotate the most intense assignments. Build a short pause into the schedule after critical reviews. Clarify priorities so that not everything is urgent. Protect breaks and leave. Make it normal for leaders to talk about the weight of the work. When bigger mismatches exist, such as chronic understaffing, name them and raise them through management and, where relevant, labor-management channels. Well-being efforts that ignore workload tend to lose credibility quickly.",
+   "keyPoint": "Burnout and trauma-related strain grow from a mismatch between demands and resources. Teams and leaders can change exposure, workload, clarity and recovery time; individual coping alone is not enough.",
+   "example": "Fictional case: Omar supervises a DSD team that reviews provider licensing violations. Every morning, one inbox receives incident reports with full graphic detail in the email text, and whoever checks it first reads them all. The same two staff members, Priya and Joel, usually arrive earliest. The division has just launched a wellness challenge that awards points for steps walked. Priya mentions that she has started dreading mornings.",
+   "question": "What should Omar do next?",
+   "choices": [
+    "Work with the team to change how reports arrive, adding a summary and content note, rotating who triages the inbox, and scheduling a brief pause after the worst cases.",
+    "Encourage Priya to join the wellness challenge and take a walk before opening the inbox.",
+    "Ask Priya whether she needs to see a counselor before deciding what to do."
+   ],
+   "feedback": [
+    "This is the strongest response. It changes the exposure and spreads it fairly, which addresses the cause rather than asking one person to cope better.",
+    "Walking may help, but it leaves an unfair and unpredictable exposure in place for the same two people.",
+    "Mentioning the Employee Assistance Program is fine, but asking about counseling first treats a design problem as Priya's personal issue."
+   ],
+   "recommended": 0,
+   "reflection": "Where in your work do demands most outpace resources? Which part of that gap could your team influence, and which part needs leaders?",
+   "action": "Identify one way difficult material reaches your team, such as an inbox, a report queue or a meeting agenda. Propose one change this week, such as a summary first, a content note or a rotation, and ask your team whether it helped after two weeks.",
+   "check": {
+    "question": "In the NIOSH framing, what drives burnout?",
+    "correct": "A chronic mismatch between job demands and the resources people have to meet them.",
+    "wrong": [
+     "A lack of personal resilience among individual workers.",
+     "Any exposure to difficult material, regardless of workload or support."
+    ],
+    "feedback": "NIOSH emphasizes demands and resources such as time, staffing, information and support. Individual habits help, but lasting prevention requires changing the conditions of work."
+   }
+  },
+  {
+   "title": "Supervision that sustains people",
+   "objectives": [
+    "Describe supervision practices that reduce the effects of indirect trauma exposure.",
+    "Draft check-in questions that focus on the work rather than on a person's health.",
+    "Explain why supervisors must not diagnose staff or require disclosure.",
+    "Identify when to bring in Human Resources or the Employee Assistance Program."
+   ],
+   "teaching": "The National Child Traumatic Stress Network notes that individual and supervisory awareness of indirect trauma exposure is a basic part of protecting workers' health. Supervisors shape how heavy the work feels. SAMHSA's guidance for supervisors of crisis counselors lists practical steps: plan regular meetings where staff can share experiences and concerns, keep people informed about peer support and debriefing options, encourage breaks and connection with others, build buddy systems and team connection, and follow up after intense periods.\n\nIn DHS and DSD settings, that can look like regular one-to-ones with a standing question about workload and difficult cases, reflective case discussion where staff can talk through what a case brought up without judgment, fair rotation of the hardest assignments, and a short team check-in after a death review, a hostile hearing or a crisis call. It also looks like modeling: taking leave, ending meetings on time, and saying out loud that a case was hard.\n\nKeep the conversation about the work. Useful questions include: How is your workload this week? Which parts of your cases are weighing on you? What would make the next few weeks more manageable? Is there anything you would like me to change about how assignments or information reach you? Avoid questions about symptoms, sleep, diagnoses or personal history. Supervisors are not clinicians, and staff are not required to disclose health information or past trauma to anyone at work. If an employee chooses to share something, listen, thank them and keep it private.\n\nIf an employee's performance changes, address the work respectfully and specifically, and offer resources without guessing at the cause. You can say: I have noticed deadlines slipping this month, and I want to help. Here is how to reach the Employee Assistance Program, which is free and confidential, and if anything about your situation would benefit from a change at work, Human Resources can help with that too. If an employee asks for a change in schedule or duties for a health reason, treat it as a possible accommodation request and involve Human Resources or the ADA coordinator. If anyone is in immediate danger, follow your emergency procedures; the 988 Suicide and Crisis Lifeline is available by call or text.",
+   "keyPoint": "Supervisors sustain teams through regular, work-focused check-ins, fair rotation, recovery time and modeling. They offer resources without diagnosing, and they never require anyone to disclose health or history.",
+   "example": "Fictional case: Hannah supervises intake staff who take calls from families seeking disability services, some of them in crisis. One staff member, Luis, has been short with callers lately and missed two call-backs. Hannah remembers that Luis handled a call last month where a caller described a family member's death. A peer supervisor, Doug, suggests Hannah ask Luis directly whether he is dealing with trauma.",
+   "question": "What should Hannah do next?",
+   "choices": [
+    "Ask Luis whether he is dealing with trauma from that call so she can understand what is happening.",
+    "Meet with Luis, name the specific work issues kindly, ask what would make the workload more manageable, and offer the Employee Assistance Program and Human Resources as options.",
+    "Move Luis off the phones without discussion to protect callers."
+   ],
+   "feedback": [
+    "This asks Luis to disclose health information and treats Hannah's guess as a diagnosis. It may make him less likely to ask for help.",
+    "This is the strongest response. It addresses the work honestly, invites Luis to shape a solution and offers support without requiring any disclosure.",
+    "Removing Luis from his duties without a conversation may feel punitive and does not address what is making the work hard."
+   ],
+   "recommended": 1,
+   "reflection": "When a colleague seems to be struggling, what is your first instinct? How could you respond in a way that offers support without guessing at the cause?",
+   "action": "Add one standing, work-focused question to your next round of one-to-ones or team meetings, such as: Which parts of the work are weighing on you, and what would help? Save the Employee Assistance Program contact where you can share it quickly.",
+   "check": {
+    "question": "Which question is most appropriate for a supervisor to ask during a check-in?",
+    "correct": "Which parts of your workload are weighing on you, and what would make the next few weeks more manageable?",
+    "wrong": [
+     "Have you been having trouble sleeping since that difficult case?",
+     "Do you think you might have secondary traumatic stress?"
+    ],
+    "feedback": "Supervisors support people by focusing on the work and what can change. Questions about symptoms or possible conditions ask for health information that no one is required to share at work."
+   }
+  },
+  {
+   "title": "Support, recovery and meaning",
+   "objectives": [
+    "Describe what the State of Minnesota Employee Assistance Program offers and how confidentiality works.",
+    "Identify individual recovery practices that complement organizational changes.",
+    "Plan a personal and team approach to recovery after intense work periods.",
+    "Recognize when to seek professional help or urgent support."
+   ],
+   "teaching": "Organizations are responsible for the conditions of work, and individuals still benefit from knowing what support exists and how to use it. State of Minnesota employees have an Employee Assistance Program, currently provided through LifeMatters. According to the state's current information, services are free for employees and the people they live with, available at any hour, and include confidential counseling by phone, online or in person, with up to six sessions per topic each year, as well as help with everyday life issues. Contact with the program is not shared with supervisors or Human Resources without the employee's written permission, except where the law requires a report to protect a child or vulnerable adult. Check the Minnesota Management and Budget benefits pages for current details, since vendors and terms can change.\n\nIndividual practices help most when they are realistic and chosen, not assigned. SAMHSA's guidance for crisis counselors highlights adequate sleep, healthy eating, regular physical activity and active relaxation, along with staying connected to friends and family, building positive relationships with coworkers, taking breaks and time away, and having a self-care buddy or regular group check-in. A short ritual that marks the end of the workday, such as a walk, closing the laptop at a set time or a few minutes of quiet, can help separate work from home, especially for people working remotely.\n\nMeaning matters too. Many staff stay in this work because it matters to them and because they see change happen. Noticing moments of compassion satisfaction, such as a family who finally got services or a policy fix that removed a barrier, is not denial of the hard parts. Teams can make space to name what went well alongside what was hard.\n\nKnow when to reach for more help. SAMHSA advises seeking professional help if signs of compassion fatigue continue for more than two weeks or affect quality of life. The Employee Assistance Program is one place to start, and your own health care provider is another. If you or someone else is in immediate danger or considering self-harm, call or text 988 or follow emergency procedures. None of these steps requires telling your supervisor or coworkers anything. If you would like a change at work, such as a schedule adjustment or leave, Human Resources can explain your options.",
+   "keyPoint": "Use organizational fixes and personal support together. The Employee Assistance Program is free and confidential for state employees and the people they live with, and seeking help never requires telling your supervisor.",
+   "example": "Fictional case: After a long legislative session and several difficult death reviews, a DSD policy team led by Grace is exhausted. Grace wants to help. One team member, Tomas, suggests holding a mandatory group debrief where everyone shares how the reviews affected them personally. Another, Mei, would rather take a quiet day. Grace also realizes that several people do not know the Employee Assistance Program covers the people they live with.",
+   "question": "What should Grace do next?",
+   "choices": [
+    "Hold the mandatory debrief so that everyone processes the experience together.",
+    "Skip any team response and trust people to find their own support.",
+    "Offer an optional team conversation about the work, protect a lighter week for recovery, and share Employee Assistance Program information with everyone."
+   ],
+   "feedback": [
+    "Requiring people to share personal reactions can feel intrusive and may be harmful for some. Support should be offered, not compelled.",
+    "Leaving everything to individuals ignores what the team and leader can change after an intense period.",
+    "This is the strongest response. It gives choice, changes the workload to allow recovery and makes sure everyone knows what confidential support exists."
+   ],
+   "recommended": 2,
+   "reflection": "What helps you recover after an intense stretch of work? What gets in the way of doing it, and is any of that within your control or your team's?",
+   "action": "Save the Employee Assistance Program contact in your phone, and choose one small end-of-day practice to try for two weeks. If you lead a team, plan one recovery step for after your next intense period, such as protected time or a lighter week.",
+   "check": {
+    "question": "Under the State of Minnesota Employee Assistance Program, who learns that an employee has used the service?",
+    "correct": "No one at work, including supervisors and Human Resources, without the employee's written permission, except where the law requires a safety report.",
+    "wrong": [
+     "The employee's supervisor, so that workload can be adjusted.",
+     "Human Resources, which keeps a record in the personnel file."
+    ],
+    "feedback": "The program is confidential. Employees decide whether to share anything at work. If they want a workplace change, they can ask Human Resources or their supervisor separately."
+   }
+  }
+ ],
+ "cards": [
+  {
+   "front": "Secondary traumatic stress",
+   "back": "The emotional duress that results from hearing about another person's firsthand trauma, described by NCTSN as a common occupational hazard for helping professionals."
+  },
+  {
+   "front": "Vicarious trauma",
+   "back": "An occupational challenge from continuous exposure to other people's trauma that can produce a range of negative psychological and social reactions over time."
+  },
+  {
+   "front": "Compassion fatigue",
+   "back": "A broad term that SAMHSA describes as a combination of burnout and secondary traumatic stress."
+  },
+  {
+   "front": "Burnout",
+   "back": "In WHO's definition, an occupational phenomenon from chronic workplace stress that has not been successfully managed, with exhaustion, cynicism and reduced effectiveness. Not a medical diagnosis."
+  },
+  {
+   "front": "Compassion satisfaction",
+   "back": "The sense of fulfillment that comes from helping others, which can exist alongside strain."
+  }
+ ],
+ "aid": [
+  {
+   "heading": "Team and leader changes",
+   "items": [
+    "Put a summary and content note before graphic or distressing material.",
+    "Rotate the most intense assignments and track that exposure is shared fairly.",
+    "Build recovery time after critical reviews, crisis calls and hostile meetings.",
+    "Name chronic understaffing or workload gaps and raise them through management."
+   ]
+  },
+  {
+   "heading": "Supervisor check-ins",
+   "items": [
+    "Ask about workload and which cases are weighing on people, not about symptoms.",
+    "Never diagnose or require disclosure; keep anything shared private.",
+    "Offer the Employee Assistance Program to everyone as a routine resource.",
+    "Treat requests for schedule or duty changes for health reasons as possible accommodation requests and involve Human Resources."
+   ]
+  },
+  {
+   "heading": "Personal support",
+   "items": [
+    "Save the Employee Assistance Program contact; it is free and confidential for you and the people you live with.",
+    "Choose a small end-of-day routine that separates work from home.",
+    "Notice moments of meaning alongside the hard parts.",
+    "Seek professional help if strain lasts more than two weeks or affects daily life; call or text 988 in a crisis."
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "title": "National Child Traumatic Stress Network — Secondary Traumatic Stress",
+   "href": "https://www.nctsn.org/trauma-informed-care/secondary-traumatic-stress",
+   "note": "Definition of secondary traumatic stress as an occupational hazard and the importance of individual and supervisory awareness. Written for child-serving professionals; applied here to human services work generally."
+  },
+  {
+   "title": "Office for Victims of Crime — Vicarious Trauma Toolkit: What Is Vicarious Trauma?",
+   "href": "https://ovc.ojp.gov/program/vtt/what-is-vicarious-trauma",
+   "note": "Describes vicarious trauma as an occupational challenge, related terms, compassion satisfaction and vicarious resilience, and organizational responsibilities."
+  },
+  {
+   "title": "SAMHSA — Compassion Fatigue and Self-care Resources for Crisis Counselors",
+   "href": "https://www.samhsa.gov/technical-assistance/dtac/ccp/self-care",
+   "note": "Describes compassion fatigue as a combination of burnout and secondary traumatic stress, signs, individual strategies, supervisor strategies and when to seek help. Written for disaster crisis counselors."
+  },
+  {
+   "title": "World Health Organization — Burn-out an occupational phenomenon: International Classification of Diseases",
+   "href": "https://www.who.int/news/item/28-05-2019-burn-out-an-occupational-phenomenon-international-classification-of-diseases",
+   "note": "Defines burnout as an occupational phenomenon, not a medical condition, with three dimensions."
+  },
+  {
+   "title": "NIOSH (CDC archive) — Burnout and Public Health Workers training series, series overview",
+   "href": "https://archive.cdc.gov/www_cdc_gov/niosh/learning/publichealthburnoutprevention/module-11/outline.html",
+   "note": "Archived NIOSH training for supervisors and managers framing burnout as a mismatch between demands and resources, with organizational prevention. Archived page; content may not be updated."
+  },
+  {
+   "title": "Minnesota Management and Budget — Counseling and Lifestyle Benefits FAQ (Employee Assistance Program)",
+   "href": "https://mn.gov/mmb/segip/life-and-well-being/help-with-everyday-life/faq.jsp",
+   "note": "Current State of Minnesota EAP details: free for employees and the people they live with, confidentiality, counseling sessions per topic and 24-hour access. Terms and vendor may change; check before quoting specifics."
+  }
+ ]
+}
