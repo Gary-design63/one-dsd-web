@@ -23,10 +23,10 @@ afterEach(() => {
 describe("One DSD Team Stage Zero workspace", () => {
   it("uses the exact program, committee, division, and administration names", () => {
     expect(ONE_DSD_TEAM_SEED.workspace.name).toBe("One DSD Team");
-    expect(ONE_DSD_TEAM_SEED.workspace.programName).toBe("One DSD People, Access and Culture Program");
+    expect(ONE_DSD_TEAM_SEED.workspace.programName).toBe("One DSD People, Access and Culture");
     expect(ONE_DSD_TEAM_SEED.workspace.scopeLabel).toContain("Disability Services Division");
     expect(ONE_DSD_TEAM_SEED.workspace.scopeLabel).toContain("Aging and Disability Services Administration");
-    expect(PROGRAM.fullName).toBe("One DHS People, Access and Culture Program");
+    expect(PROGRAM.fullName).toBe("One DHS People, Access and Culture");
     expect(ONE_DSD_TEAM_SEED.workspace.status).toBe("preview");
     expect(PRIMARY_NAV.map((item) => String(item.href))).not.toContain(ROUTES.oneDsdTeam.href);
   });

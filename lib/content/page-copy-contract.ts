@@ -143,7 +143,7 @@ export const HomePageCopySchema = z
     heroKicker: plainText(200),
     headlineLine1: plainText(200),
     headlineLine2: plainText(200),
-    headlineLine3: plainText(200),
+    headlineLine3: plainText(200, 0),
     heroLede: plainText(1_000),
     heroNote: plainText(2_000, 0),
     heroImageAlt: plainText(500),
@@ -263,10 +263,10 @@ export const PageBlockPayloadSchema = z.discriminatedUnion("blockType", [
 export type PageBlockPayload = z.infer<typeof PageBlockPayloadSchema>;
 
 export const STATIC_HOME_COPY: HomePageCopy = HomePageCopySchema.parse({
-  heroKicker: "One DHS People, Access and Culture Program",
+  heroKicker: "One DHS People, Access and Culture",
   headlineLine1: "One DHS People,",
   headlineLine2: "Access and Culture",
-  headlineLine3: "Program",
+  headlineLine3: "",
   heroLede: PROGRAM.heroLede,
   heroNote: "",
   heroImageAlt: "A diverse group of colleagues smiling together around a conference table in an office.",
@@ -315,7 +315,7 @@ export const STATIC_HOME_COPY: HomePageCopy = HomePageCopySchema.parse({
 });
 
 export const STATIC_FOOTER_COPY: FooterCopy = FooterCopySchema.parse({
-  identityKicker: "One DHS People, Access and Culture Program",
+  identityKicker: "One DHS People, Access and Culture",
   identityText: "A resource for DHS staff, run by the program. It is not connected to DHS information technology, case, or personnel systems. Its guidance supports everyday work and does not replace policy, legal advice, formal processes, or decisions made by responsible DHS offices. Authority labels show what each item can and cannot establish.",
   helpHeading: "Find your next step",
   askLabel: "Ask a question",

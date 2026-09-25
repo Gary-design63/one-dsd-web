@@ -9,7 +9,7 @@ export function CommunityFooterFrame({ children, editing }: { children: ReactNod
   const pathname = usePathname();
   if (!pathname.startsWith("/minnesota-communities")) return children;
   return <footer className="community-editorial-footer">
-    <p>One DHS People, Access and Culture Program</p>
+    <p>One DHS People, Access and Culture</p>
     <nav aria-label="More support"><Link href="/learn">Learning and resources</Link><Link href="/support">Support</Link><Link href="/about">About the program</Link></nav>
     {editing ? <details><summary>Page editing</summary>{editing}</details> : null}
   </footer>;
