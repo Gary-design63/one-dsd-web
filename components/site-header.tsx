@@ -9,6 +9,7 @@ import { SharePage } from "@/components/share-page";
 import { EditableSurfaceEditor } from "@/components/editable-surface-editor";
 import type { PreparedEditableSurface } from "@/components/editable-surface";
 import type { EditableSurfaceLink, EditableSurfaceValues } from "@/lib/content/editable-surface-contract";
+import { displayProgramName } from "@/lib/brand/legacy-program-name";
 
 function textValue(values: EditableSurfaceValues, key: string): string {
   return typeof values[key] === "string" ? values[key] as string : "";
@@ -45,7 +46,7 @@ export function SiteHeader({ headerSurface, contextSurface }: {
     <div className="program-brand-row wrap">
       <Link href="/" className="program-brand-link">
         <span className="program-agency-brand"><Image src="/images/dhs-logo.png" alt="Minnesota Department of Human Services" width={319} height={68} priority /><span className="program-division-label">Disability Services Division</span></span>
-        {headerSurface.available ? <span className="program-wordmark">{textValue(headerSurface.values, "programName")}</span> : null}
+        {headerSurface.available ? <span className="program-wordmark">{displayProgramName(textValue(headerSurface.values, "programName"))}</span> : null}
       </Link>
       <div className="program-header-actions">
         <SharePage compact />

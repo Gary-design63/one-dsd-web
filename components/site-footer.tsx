@@ -5,10 +5,12 @@ import { loadPageBlockEditingState, loadPublishedPageCopy } from "@/lib/content/
 import { consultationIntakeEnabled } from "@/lib/intelligence/consult/availability";
 import { PROGRAM } from "@/lib/constants";
 import { requestedProductContext } from "@/lib/product/request-context";
+import { displayProgramName } from "@/lib/brand/legacy-program-name";
 
 /** The footer identity line follows the selected program view (One DHS or One DSD), matching the header wordmark. */
 function brandForContext(text: string, oneDsd: boolean): string {
-  return oneDsd ? text.split(PROGRAM.staffBrand).join(PROGRAM.oneDsdProgramName) : text;
+  const currentName = displayProgramName(text);
+  return oneDsd ? currentName.split(PROGRAM.staffBrand).join(PROGRAM.oneDsdProgramName) : currentName;
 }
 
 export async function SiteFooter() {
