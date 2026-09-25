@@ -123,7 +123,7 @@ const CYCLE_ID = /^cycle-[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-
 const PROPOSAL_ID = /^cycle-[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}-[pg][1-9][0-9]*$/;
 const RESOURCE_ID = /^(?:(?:pn|ja|lm|ext|asset|tool)-[a-z0-9][a-z0-9-]{0,119}|somali|hmong|karen|oromo|african-american|latino|vietnamese|khmer|lao|russian-speaking|arabic-speaking|deaf-deafblind-hard-of-hearing|rural|tribal-nations)$/;
 const CYCLE_OBJECT_ID = /^cycle:cycle-[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/;
-const STALE_FLAG_OBJECT_ID = /^stale_flag:(?:(?:pn|ja|lm|ext|asset|tool)-[a-z0-9][a-z0-9-]{0,119}|somali|hmong|karen|oromo|african-american|latino|vietnamese|khmer|lao|russian-speaking|arabic-speaking|deaf-deafblind-hard-of-hearing|rural|tribal-nations):(?:past_review_date|review_due_soon|missing_owner|accessibility_pending)$/;
+const STALE_FLAG_OBJECT_ID = /^stale_flag:([^:]+):(past_review_date|review_due_soon|missing_owner|accessibility_pending)$/;
 const PROPOSAL_OBJECT_ID = /^(?:proposal|rejected_rec):cycle-[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}-[pg][1-9][0-9]*$/;
 const EVAL_OBJECT_ID = /^eval-[0-9]{10,16}$/;
 const PROFILE_LIKE_PERSISTENCE_ID = /(?:employee|worker|personnel)[-_]?\d{1,12}.*(?:belief|ideolog|equity|readiness|bias|inclusion|participation|engagement)|(?:belief|ideolog|equity|readiness|bias|inclusion|participation|engagement).*(?:employee|worker|personnel)[-_]?\d{1,12}/i;
@@ -142,6 +142,17 @@ const RESEARCH_MODEL_IDS = new Set([
 ]);
 const OPAQUE_RESEARCH_MODEL_ID = /^msh_[a-f0-9]{64}$/;
 const RESEARCH_DOMAIN = /^(?=.{1,253}$)(?:[a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?\.)+[a-z](?:[a-z0-9-]{0,61}[a-z0-9])?$/;
+
+// Published staff content keeps its original ID. Older items use named IDs;
+// approved database publications can instead use opaque UUIDs.
+function isResourceId(value: unknown): value is string {
+  return isString(value) && (RESOURCE_ID.test(value) || UUID_V4.test(value));
+}
+
+function isStaleFlagObjectId(id: string): boolean {
+  const match = STALE_FLAG_OBJECT_ID.exec(id);
+  return match !== null && isResourceId(match[1]);
+}
 
 function isResearchModelId(value: unknown): value is string {
   return isString(value)
@@ -433,14 +444,14 @@ function validCycle(value: ObjectValue): boolean {
       isString(entry.request_id) && CONSULTATION_OBJECT_ID.test(entry.request_id)
       && isString(entry.from) && isString(entry.to)],
     [value.stale_flags, ["id", "title", "owner", "reviewDate", "problem"], (entry) =>
-      isString(entry.id) && RESOURCE_ID.test(entry.id)
+      isResourceId(entry.id)
       && isString(entry.title) && typeof entry.owner === "string"
       && isString(entry.reviewDate) && isString(entry.problem)
       && new Set(["past_review_date", "review_due_soon", "missing_owner", "accessibility_pending"]).has(entry.problem)],
     [value.quality_problems, ["id", "problems"], (entry) =>
-      isString(entry.id) && RESOURCE_ID.test(entry.id) && isStringArray(entry.problems)],
+      isResourceId(entry.id) && isStringArray(entry.problems)],
     [value.a11y, ["id", "blockers", "should_fix"], (entry) =>
-      isString(entry.id) && RESOURCE_ID.test(entry.id)
+      isResourceId(entry.id)
       && isFiniteNumber(entry.blockers) && isFiniteNumber(entry.should_fix)],
   ];
   for (const [raw, keys, validate] of collections) {
@@ -546,14 +557,14 @@ function assertDecision(id: string, value: ObjectValue): void {
     valid = validCycle(value) && id === `cycle:${value.id}`;
   } else if (id.startsWith("stale_flag:")) {
     valid = hasOnlyKeys(value, ["id", "title", "owner", "reviewDate", "problem", "cycle_id", "flagged_at", "disposition", "undone_at"])
-      && isString(value.id) && RESOURCE_ID.test(value.id)
+      && isResourceId(value.id)
       && isString(value.title) && typeof value.owner === "string"
       && isString(value.reviewDate) && isString(value.problem)
       && new Set(["past_review_date", "review_due_soon", "missing_owner", "accessibility_pending"]).has(value.problem)
       && isString(value.cycle_id) && CYCLE_ID.test(value.cycle_id)
       && isString(value.flagged_at) && isString(value.disposition)
       && isOptionalString(value.undone_at)
-      && STALE_FLAG_OBJECT_ID.test(id)
+      && isStaleFlagObjectId(id)
       && id === `stale_flag:${value.id}:${value.problem}`;
   } else if (id.startsWith("proposal:")) {
     valid = validProposal(value) && id === `proposal:${value.id}`;
@@ -901,7 +912,7 @@ function canonicalReceiptObjectId(kind: PersistedWorkObjectKind, id: string): bo
     || /^research_usage:ru_[0-9]{14}_[a-f0-9]{6}_[a-f0-9]{4}$/.test(id)
     || /^owner-session-revoked-[a-f0-9]{64}$/.test(id)
     || CYCLE_OBJECT_ID.test(id)
-    || STALE_FLAG_OBJECT_ID.test(id)
+    || isStaleFlagObjectId(id)
     || PROPOSAL_OBJECT_ID.test(id)
     || /^program_task:task-[a-f0-9]{32}$/.test(id)
     || /^program_event:[a-f0-9-]{36}$/.test(id)
@@ -999,7 +1010,8 @@ function validAuditContentIds(value: unknown): value is string[] {
   return isStringArray(value)
     && value.length <= 100
     && new Set(value).size === value.length
-    && value.every((id) => CANONICAL_AUDIT_CONTENT_ID.test(id) && !PROFILE_LIKE_AUDIT_ID.test(id));
+    && value.every((id) => (CANONICAL_AUDIT_CONTENT_ID.test(id) || UUID_V4.test(id))
+      && !PROFILE_LIKE_AUDIT_ID.test(id));
 }
 
 function validAllowlistReason(value: unknown): boolean {

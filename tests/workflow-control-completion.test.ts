@@ -8,6 +8,8 @@ import { getModel } from "@/lib/intelligence/registry/models";
 import * as providers from "@/lib/intelligence/providers";
 import * as publications from "@/lib/content/staff-publications";
 import { staffCorpus } from "@/lib/content/corpus";
+import { ProhibitedProfileFieldError } from "@/lib/trust/data-classification";
+import { assertIdempotencyReceiptPersistence, assertWorkObjectPersistence, WorkObjectContractError } from "@/lib/trust/work-object-contract";
 import { testTraceId } from "@/tests/helpers/opaque-identifiers";
 
 const context = (id: Parameters<typeof getAgent>[0]) => ({
@@ -57,6 +59,41 @@ describe("workflow controls apply to every cycle path", () => {
     const report = await runCycle("owner");
     expect(report.stale_flags.map(f => f.id)).toEqual(["asset-reviewed-publication"]);
     expect(report.steps.find(s => s.name === "scan corpus accessibility")?.detail).toContain("1 items scanned");
+  });
+
+  it("persists a scheduled cycle with UUID publication IDs without opening a profile bucket", async () => {
+    const publicationId = "0b4b623f-ae8e-415c-be1b-865247a483cd";
+    vi.spyOn(publications, "loadStaffContentSnapshot").mockResolvedValue({
+      source: "postgres", requestedScope: "dsd", items: [{
+        ...staffCorpus()[0], id: publicationId, title: "Published accessible meetings resource",
+        reviewDate: "2020-01-01", accessibility: "pending",
+        body: ["Pursuant to this rule, staff may request an accessible meeting."],
+      }],
+    });
+    await setPolicy({ max_autonomy: "A3", flags: { "autonomy.a3_stale_flag": true } });
+
+    const report = await runCycle("cron");
+    expect(report.stale_flags.map(flag => flag.id)).toEqual([publicationId, publicationId]);
+    expect(report.a11y.map(item => item.id)).toEqual([publicationId]);
+    expect(report.steps.find(step => step.name === "flag stale content (reversible)")?.outcome).toBe("done");
+    expect(report.exceptions.every(message => message.startsWith("DHS organizational reference:"))).toBe(true);
+    expect(await getStore().get("decision", `cycle:${report.id}`)).toEqual(report);
+    for (const flag of report.stale_flags) {
+      expect(await getStore().get("decision", `stale_flag:${publicationId}:${flag.problem}`)).toMatchObject({ id: publicationId });
+    }
+    expect(() => assertIdempotencyReceiptPersistence(
+      "decision", `stale_flag:${publicationId}:past_review_date`, `idem-${testTraceId("uuid-publication-replay")}`,
+    )).not.toThrow();
+    expect(() => assertIdempotencyReceiptPersistence(
+      "decision", "stale_flag:arbitrary-resource:past_review_date", `idem-${testTraceId("invalid-publication-replay")}`,
+    )).toThrow(WorkObjectContractError);
+
+    const invalid = { ...report, a11y: [{ ...report.a11y[0], id: "arbitrary-resource" }] };
+    expect(() => assertWorkObjectPersistence("decision", `cycle:${report.id}`, invalid))
+      .toThrow(WorkObjectContractError);
+    expect(() => assertWorkObjectPersistence("decision", `cycle:${report.id}`, {
+      ...report, employeeProfile: { belief_profile: "must not persist" },
+    })).toThrow(ProhibitedProfileFieldError);
   });
 
   it("requires the stale writing flag even at full autonomy", async () => {

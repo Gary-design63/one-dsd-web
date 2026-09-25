@@ -72,6 +72,8 @@
   },
   "overrides": {
     "sharp": "0.35.4",
-    "onnxruntime-node": "1.29.0"
+    "onnxruntime-node": "1.29.0",
+    "image-size": "2.0.4",
+    "uuid": "11.1.1"
   }
 }

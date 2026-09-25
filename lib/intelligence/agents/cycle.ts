@@ -323,7 +323,7 @@ export async function runCycle(by: CycleReport["by"]): Promise<CycleReport> {
           for (const f of stale) {
             await store.put("decision", `stale_flag:${f.id}:${f.problem}`, { ...f, cycle_id: report.id, flagged_at: new Date().toISOString(), disposition: "pending" });
           }
-        }, { contentIds: stale.map((s) => s.id) });
+        }, { contentIds: [...new Set(stale.map((s) => s.id))] });
         return `${stale.length} flags written`;
       });
     }
