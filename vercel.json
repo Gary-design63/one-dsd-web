@@ -2,6 +2,9 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "installCommand": "ONNXRUNTIME_NODE_INSTALL=skip npx --yes npm@11.9.0 ci",
   "buildCommand": "npx --yes npm@11.9.0 run build:vercel",
+  "git": {
+    "deploymentEnabled": false
+  },
   "crons": [
     {
       "path": "/api/cron/orchestrate",
