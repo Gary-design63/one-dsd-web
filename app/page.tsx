@@ -5,6 +5,7 @@ import { PageCopyEditor } from "@/components/page-copy-editor";
 import { editingModeFromCookies } from "@/lib/auth/request";
 import { loadPageBlockEditingState, loadPublishedPageCopy } from "@/lib/content/page-copy";
 import { requestedProductContext } from "@/lib/product/request-context";
+import { displayLegacyHomeCopy } from "@/lib/brand/legacy-program-name";
 import styles from "./home.module.css";
 
 export const dynamic = "force-dynamic";
@@ -16,14 +17,15 @@ export default async function HomePage() {
   const [publishedCopy, owner, context] = await Promise.all([loadPublishedPageCopy("home"), editingModeFromCookies(), requestedProductContext()]);
   const editing = owner ? await loadPageBlockEditingState("home") : undefined;
   // In the One DSD view the opening of the page speaks as One DSD; everything else is shared.
-  const copy = publishedCopy && context === "one_dsd"
+  const displayCopy = publishedCopy ? displayLegacyHomeCopy(publishedCopy) : undefined;
+  const copy = displayCopy && context === "one_dsd"
     ? {
-      ...publishedCopy,
+      ...displayCopy,
       headlineLine1: "One DSD People,",
       headlineLine2: "Access and Culture",
       headlineLine3: "",
     }
-    : publishedCopy;
+    : displayCopy;
 
   return (
     <>
