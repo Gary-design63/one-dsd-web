@@ -1,0 +1,244 @@
+{
+ "id": "gc-automated-decisions",
+ "subtitle": "Govern automated decision tools in human services so they are tested for bias, explainable to the people affected, subject to real staff review and appeal, and accountable through inventories and vendor contracts.",
+ "audience": "For DHS and DSD leaders, program and policy managers, data and technology partners, procurement and contract managers, and facilitators who approve, oversee or explain risk scores, eligibility automation, budget formulas and screening tools.",
+ "lessons": [
+  {
+   "title": "Where automated decision tools appear and what is at stake",
+   "objectives": [
+    "Identify common types of automated decision tools in human services, including risk scores, eligibility rules engines, budget formulas and fraud flags.",
+    "Explain how a tool can improve consistency and still reproduce or widen disparities.",
+    "Compare the claims made for and against a child welfare screening tool using published research.",
+    "Distinguish a tool that informs a staff decision from one that effectively makes the decision."
+   ],
+   "teaching": "Automated decision tools are already part of human services. Some are simple rules engines that apply eligibility criteria to application data. Some are budget or resource allocation formulas that turn assessment answers into a dollar amount or a service range. Some are predictive models that produce a risk score, such as a child welfare screening score or a fraud flag. Some sort work queues, decide which cases get a second look or trigger an automatic notice. Leaders do not need to be data scientists to govern these tools, but they do need to know where they are, what they decide and who they affect.\n\nThese tools are adopted for real reasons. They can apply rules consistently, process large volumes quickly and draw on more information than one worker can hold in mind. Staff decisions have their own inconsistencies and biases. In a published case study of the Allegheny Family Screening Tool in Pennsylvania, which gives call screeners a risk score for child maltreatment referrals, the developers argued that a well-designed and audited tool can help screeners, while acknowledging that relying on public administrative data means some communities, such as people in poverty or particular racial and ethnic groups, will be disadvantaged because they appear in those systems more often.\n\nCritics have examined the same tool closely. An ACLU analysis argued that specific design choices built values into the tool: combining individual scores into a household score, drawing on criminal legal and behavioral health system data that carry their own disparities, and using historical features a family can never change. It reported that under the protocols it examined, Black households were labeled high risk at a substantially higher rate than non-Black households, and it described thresholds that developers themselves characterized as set by trial and error. You do not have to settle this debate to learn from it. The lesson for leaders is that technical choices are policy choices, and they should be made and reviewed as such.\n\nIt is also important to be clear about how much weight a tool carries. A tool that informs a worker who has time, training and authority to decide differently is different from one whose output is accepted almost automatically. People can come to defer to a computer's recommendation even when other evidence points elsewhere, a pattern often called automation bias. If staff rarely depart from a score, the tool is effectively making the decision, whatever the policy says.",
+   "keyPoint": "Automated decision tools make or shape real decisions about people. Their design choices are policy choices, and a tool that staff almost never override is effectively the decision-maker.",
+   "example": "Fictional case: A DSD unit uses a scoring tool to rank requests for a limited grant program. Staff can override the ranking with a written reason. Beatriz, the unit supervisor, reviews a year of decisions and finds that staff changed the ranking in fewer than one in a hundred cases. When she asks why, staff say they assumed the score was more reliable than their own reading of the request and that writing a reason took time they did not have.",
+   "question": "What should Beatriz conclude and do?",
+   "choices": [
+    "Conclude the tool is working well because staff agree with it almost every time.",
+    "Treat the tool as effectively making the decision, review how it was validated and how it performs for different groups, and make sure staff have the time and authority to depart from it.",
+    "Remove the override option, since staff are not using it."
+   ],
+   "feedback": [
+    "Agreement could reflect accuracy or could reflect deference and workload pressure. The staff comments point to deference, so agreement alone is not evidence the tool is sound.",
+    "This is the strongest response. It recognizes the tool's real role, checks its evidence and equity performance, and makes staff review meaningful rather than nominal.",
+    "Removing the override would make the tool fully automated without examining whether it is accurate or fair, and would remove a safeguard for the people affected."
+   ],
+   "recommended": 1,
+   "reflection": "Privately consider a tool, template or score you rely on at work. How often do you depart from what it suggests, and what makes that easy or hard?",
+   "action": "List every automated tool your unit uses that scores, sorts, flags or decides something about people or providers. For each, note what it decides, who owns it and roughly how often staff depart from its output. Share the list with your manager.",
+   "check": {
+    "question": "What is the most accurate lesson from the published debate over the Allegheny Family Screening Tool?",
+    "correct": "Technical design choices, such as which data to include and where to set thresholds, are policy choices that can affect disparities and need open review.",
+    "wrong": [
+     "Predictive tools in child welfare are always more biased than caseworkers.",
+     "Once a tool is statistically validated, disparities in its outputs no longer matter."
+    ],
+    "feedback": "The developers and critics disagree about the tool's overall value, but both engage with how data and design choices affect different communities. Neither blanket rejection nor blind trust follows from the evidence; open review of design choices does."
+   }
+  },
+  {
+   "title": "Data quality, disparate impact and testing for bias",
+   "objectives": [
+    "Explain how historical data, proxies and missing data can produce biased outputs.",
+    "Identify tests that compare a tool's accuracy and error rates across groups.",
+    "Describe the four functions of the NIST risk management framework for automated systems.",
+    "Plan a pre-launch and ongoing testing approach for a tool in a DHS program."
+   ],
+   "teaching": "A predictive model or formula learns from past data, so it inherits whatever that data contains. Past decisions may reflect unequal treatment, uneven access to services or differences in who was watched more closely. A variable that looks neutral, such as a zip code, the number of prior contacts with public systems or a gap in employment, can act as a proxy for race, disability, poverty or national origin. Missing data can be concentrated in some groups, for example when language preference or disability information is recorded inconsistently. And data may simply be wrong. In the Idaho Medicaid case K.W. v. Armstrong, involving a formula that set budgets for adults with developmental disabilities, the ACLU reported that expert review found errors in the historical data so serious that about two-thirds of records had to be discarded, along with regional disparities the state could not explain.\n\nTesting for bias starts with clear questions. Is the tool accurate overall for the decision it supports? Is it similarly accurate across groups defined by race, ethnicity, language, disability, age, sex and region, where data allows? Do false positives (flagging someone who should not be flagged) and false negatives (missing someone who needs attention) fall more heavily on some groups? Does the tool's output lead to different results for groups in practice, once staff act on it? These questions echo the disparate impact analysis used in civil rights law: is there a disproportionate adverse effect, is the tool necessary to meet a legitimate goal, and is there a less discriminatory alternative that would work as well? Legal conclusions belong to counsel and the Equal Opportunity and Access Division, but program leaders should insist that the testing happens.\n\nThe National Institute of Standards and Technology (NIST) has published a voluntary risk management framework for these systems. It organizes the work into four functions: govern (set policies, roles and accountability), map (understand the context, purpose and people affected), measure (analyze and track risks, including harmful bias), and manage (prioritize and act on risks). It describes trustworthy systems as valid and reliable, safe, secure and resilient, accountable and transparent, explainable and interpretable, privacy-enhanced, and fair with harmful bias managed. NIST has indicated the framework is being revised, so check the current version.\n\nTesting is not a one-time event. Populations, policies and data systems change. Plan tests before launch, on a regular schedule after launch and whenever the underlying data or rules change, and publish a summary of results in plain language.",
+   "keyPoint": "Tools inherit the flaws of their data. Test accuracy and error rates across groups before and after launch, look for proxies and missing data, and use a structured framework such as NIST's govern, map, measure, manage.",
+   "example": "Fictional case: A vendor presents a new predictive model to prioritize which disability services applications get a quality review. The vendor reports high overall accuracy. Keisha, a DHS data lead, asks whether accuracy was tested separately for applicants who requested an interpreter and for applicants from rural counties. The vendor says overall results were strong enough that subgroup testing was not needed. The program director, Luis, wants to start using the model next quarter.",
+   "question": "What should Keisha recommend to Luis?",
+   "choices": [
+    "Accept the overall accuracy result, since it is high and the vendor is experienced.",
+    "Reject the model entirely, since any predictive model will be biased.",
+    "Require subgroup testing of accuracy and error rates on Minnesota data, including interpreter users and rural applicants, before use and on a set schedule afterward."
+   ],
+   "feedback": [
+    "High overall accuracy can hide poor performance for smaller groups. Without subgroup testing, DHS cannot know who bears the errors.",
+    "A blanket rejection skips the evidence. The model might be useful if it performs fairly and meets a legitimate need.",
+    "This is the best response. It asks for the evidence needed to judge fairness, on the population the tool will actually serve, and builds in ongoing monitoring."
+   ],
+   "recommended": 2,
+   "reflection": "Privately consider a dataset you use. Which groups are most likely to be missing, miscoded or combined into broad categories, and how would that affect a tool built on it?",
+   "action": "For one tool on your unit's list, write three questions you would want answered about its data and testing: what data it uses, whether accuracy and error rates were compared across groups, and when it was last tested. Send the questions to the tool's owner.",
+   "check": {
+    "question": "Which list names the four functions of the NIST risk management framework for automated systems?",
+    "correct": "Govern, map, measure, manage.",
+    "wrong": [
+     "Collect, train, test, launch.",
+     "Plan, build, audit, retire."
+    ],
+    "feedback": "NIST organizes risk management into govern, map, measure and manage. Governance comes first and runs throughout; mapping establishes context and who is affected; measuring tracks risks including harmful bias; managing acts on them."
+   }
+  },
+  {
+   "title": "Notice, explanation, appeal and meaningful staff review",
+   "objectives": [
+    "Explain why people affected by an automated decision need notice, an understandable explanation and a way to appeal.",
+    "Identify rights under the Minnesota Government Data Practices Act that apply when data about people feeds a tool.",
+    "Distinguish meaningful staff review from a nominal sign-off.",
+    "Draft a plain-language explanation of how a tool contributed to a decision."
+   ],
+   "teaching": "When a tool contributes to a decision about someone's benefits, services or family, the person needs to know that, understand in plain terms how it affected the result, and have a real way to challenge it. The Idaho K.W. v. Armstrong litigation is a clear example. After people's disability service budgets were cut by a formula, the state initially declined to disclose how the amounts were calculated, citing the formula as proprietary. The ACLU of Idaho reported that the court found it a due process violation to reduce services based on an undisclosed method and later found the formula produced arbitrary results. The settlement described by Idaho's health department includes a new budget methodology, help to file appeals and the ability to see one's full assessment. For DSD, where budget methods are part of Waiver Reimagine, the lesson is direct: people must be able to understand and contest how a number was produced.\n\nThe White House Office of Science and Technology Policy published a Blueprint in the early twenty-twenties describing principles for automated systems, including notice and explanation and access to a person who can consider and remedy problems. The page is now archived and is not current federal policy, but its principles remain a useful checklist. Minnesota law adds concrete duties. Under the Minnesota Government Data Practices Act, when a government entity asks a person for private or confidential data, it must tell them the purpose and intended use, whether they may refuse, the known consequences of supplying or refusing, and who else is authorized to receive it. People have the right to see data about themselves and to contest its accuracy or completeness. If data feeding a tool is wrong, those rights are a path to correcting it, and staff should know how to route such requests to the responsible authority.\n\nAn explanation must be understandable to the person, not only technically accurate. It should say which information was used, which factors mattered most, what the person can do if information is wrong or incomplete, and how to appeal. Avoid explanations that restate the output, such as your score was high.\n\nMeaningful staff review means a trained person with time and authority considers the case and can reach a different result. A signature on a pre-filled decision is not review. Track how often staff depart from tool outputs, why, and whether departures differ across groups. Build in easy ways for people to reach a person when a tool does not fit their situation, including people with disabilities who may need an accommodation to use or respond to an automated process.",
+   "keyPoint": "People affected by a tool need notice, an explanation they can understand, access to and correction of their data, and a real appeal. Staff review counts only when a person has the time and authority to decide differently.",
+   "example": "Fictional case: A new budget method produces a lower service budget for Yusuf, an adult with a developmental disability. His case manager, Clara, receives a notice from the system that says his budget was determined by an assessment-based formula and lists his appeal rights. Yusuf's sister asks Clara why the budget dropped. Clara cannot tell from the notice which assessment answers affected the amount, and she suspects one answer was recorded incorrectly.",
+   "question": "What should Clara do?",
+   "choices": [
+    "Help Yusuf and his sister request his assessment data, flag the suspected error through the process for contesting data accuracy, explain appeal deadlines, and report to the program team that the notice does not explain how the amount was set.",
+    "Tell the family that the formula is standard and appeals rarely succeed, so they should accept the budget.",
+    "Change the assessment answer herself in the system so the budget recalculates."
+   ],
+   "feedback": [
+    "This is the strongest response. It uses the family's data rights and appeal rights, respects the deadline and routes a systemic problem with the notice to the people who can fix it.",
+    "Discouraging an appeal undermines due process, and a standard formula can still rest on wrong data. Clara's suspicion of an error is exactly what appeals and data correction exist to address.",
+    "Altering a recorded answer outside the proper correction process could violate procedure and data integrity, even if Clara believes it is wrong."
+   ],
+   "recommended": 0,
+   "reflection": "Privately think about a time a system or automated message told you a result without a reason. How did that affect your trust and your ability to respond?",
+   "action": "Find one notice or letter in your area that reports a decision a tool contributed to. Rewrite its explanation in plain language: what information was used, what mattered most, how to correct wrong information and how to appeal. Share the draft with the notice owner.",
+   "check": {
+    "question": "Under Minnesota Statutes section 13.04, what may a person do if they believe government data about them is inaccurate or incomplete?",
+    "correct": "Contest the accuracy or completeness of the data with the responsible authority, who must respond and either correct the data or explain why it is accurate.",
+    "wrong": [
+     "Nothing, if the data was produced by an automated tool.",
+     "Only request a copy, without any right to challenge it."
+    ],
+    "feedback": "Section 13.04 gives data subjects the right to access their data and to contest its accuracy or completeness, with a required response from the responsible authority and a path to appeal. These rights apply whether or not a tool uses the data."
+   }
+  },
+  {
+   "title": "Governing tools: inventories, vendor contracts and accountability",
+   "objectives": [
+    "Draft governance elements for automated decision tools, including an inventory, owners and review points.",
+    "Identify contract terms that protect testing, transparency, data practices and due process when a vendor supplies a tool.",
+    "Explain how Minnesota data practices law applies to vendors performing government functions.",
+    "Plan community engagement and criteria for pausing or retiring a tool."
+   ],
+   "teaching": "Good governance starts with knowing what tools you have. Keep an inventory that records, for each tool, its purpose, the decision it supports, the data it uses, who owns it, who is affected, when it was last tested, how staff can depart from it and how people can appeal. Assign an accountable owner who has authority over the tool's use, not just its technical upkeep. Require a review before any new tool is used and whenever an existing one changes. The NIST framework puts governance first for a reason: without clear roles, testing and fixes fall between offices.\n\nMany tools come from vendors, so contracts are where much of the protection is won or lost. Before signing, ask for documentation of the data used to build the tool, the validation method and results by group, known limits, and how the tool will be tested on Minnesota's population. Build in the right to independent testing and audit, access to the information needed to explain decisions to affected people and to hearing officers, notice and approval before the vendor changes the model or its data, regular performance and equity reporting, prompt correction of errors, and an exit plan that lets DHS keep its data and move away from the tool. Do not accept a claim that the method is too proprietary to explain in an appeal; the Idaho litigation shows the cost of that position.\n\nMinnesota's data practices law follows the work. Under Minnesota Statutes section 13.05, subdivision 11, when a government entity contracts with a private person to perform any of its functions, the data that person creates, collects, receives, stores, uses, maintains or disseminates in performing those functions is subject to the Data Practices Act, and the contractor must comply as if it were a government entity. Contracts must include a notice that this applies. Involve the DHS data practices and privacy staff, procurement and legal counsel early in any tool acquisition.\n\nAccountability also runs outward. Engage people affected, including self-advocates, families, community organizations, counties and Tribal Nations, when deciding whether to use a tool, what it should and should not do, and how its results will be explained; involve the Tribal liaison where Tribal Nations are affected. Publish plain-language summaries of what tools are used and how they are tested. Set criteria in advance for pausing or retiring a tool, such as unexplained disparities, rising error rates, appeals that reveal systematic problems or data changes that invalidate testing. Deciding to stop using a tool is a sign of working governance, not failure.",
+   "keyPoint": "Govern tools like policies: keep an inventory with accountable owners, write contracts that guarantee testing, explanation and data practices compliance, engage people affected, and decide in advance when to pause or retire a tool.",
+   "example": "Fictional case: Procurement staff bring DSD a contract for a vendor tool that flags providers for billing review. The draft says the vendor's methods are confidential, the vendor may update the model at any time, and DHS receives monthly lists of flagged providers. Oksana, the DSD program lead, is asked to approve the program terms by Friday. The contract does not mention data practices, subgroup testing or how flagged providers can learn why they were selected.",
+   "question": "What should Oksana do?",
+   "choices": [
+    "Approve by Friday to avoid delaying program integrity work, and plan to address concerns at renewal.",
+    "Return the draft with required terms: data practices notice, subgroup testing and reporting, audit rights, approval before model changes, explanation support for appeals and an exit plan, and involve legal and data practices staff.",
+    "Decline to use any vendor tool for oversight, since the risks are too high."
+   ],
+   "feedback": [
+    "Contract terms are hardest to add after signing. Accepting confidential methods and unilateral changes could leave DHS unable to test the tool or explain its decisions.",
+    "This is the best response. It secures the protections the program needs before commitment and brings in the offices responsible for legal and data practices review.",
+    "A blanket refusal forecloses a tool that might help if governed well. The better path is to require terms that make responsible use possible."
+   ],
+   "recommended": 1,
+   "reflection": "Privately consider what you would need to know about a tool before you would feel comfortable explaining its role to a person it affected. How much of that do you know today about tools in your area?",
+   "action": "Using the job aid, review one current or planned vendor contract for an automated tool. Mark which protections it includes and which are missing, and send the list to the contract manager with a request to involve legal and data practices staff.",
+   "check": {
+    "question": "Under Minnesota Statutes section 13.05, subdivision 11, what happens to data a private contractor handles while performing a government function?",
+    "correct": "It is subject to the Data Practices Act, and the contractor must comply as if it were a government entity.",
+    "wrong": [
+     "It becomes the contractor's proprietary data once the contract is signed.",
+     "It is covered only if the contract explicitly says so."
+    ],
+    "feedback": "Subdivision 11 applies the Data Practices Act to data a contractor handles in performing government functions. Contracts must include a notice, but the statute says failure to include it does not stop the law from applying."
+   }
+  }
+ ],
+ "cards": [
+  {
+   "front": "Automated decision tool",
+   "back": "A rules engine, formula, predictive model or risk score that makes or shapes a decision about people, providers or cases."
+  },
+  {
+   "front": "Proxy variable",
+   "back": "A seemingly neutral data point, such as zip code or prior system contact, that stands in for race, disability, poverty or national origin."
+  },
+  {
+   "front": "Subgroup testing",
+   "back": "Comparing a tool's accuracy, false positives and false negatives across groups to see who bears its errors."
+  },
+  {
+   "front": "Meaningful staff review",
+   "back": "Review by a trained person with time and authority to reach a different result; a sign-off on a pre-filled decision does not count."
+  },
+  {
+   "front": "Tool inventory",
+   "back": "A record of each tool's purpose, data, owner, people affected, testing history, override process and appeal route."
+  }
+ ],
+ "aid": [
+  {
+   "heading": "Before using a tool",
+   "items": [
+    "State the decision it supports and whether staff can depart from it.",
+    "Identify data sources, proxies and groups likely to be missing or miscoded.",
+    "Require accuracy and error-rate testing across groups on Minnesota data.",
+    "Engage people affected and involve the Tribal liaison where Tribal Nations are affected."
+   ]
+  },
+  {
+   "heading": "Protect people affected",
+   "items": [
+    "Give notice that a tool contributed and a plain-language explanation of the main factors.",
+    "Give the required data practices notice when collecting private or confidential data.",
+    "Make data access, correction and appeal routes easy to use, with accommodations.",
+    "Track staff departures from tool outputs and review them by group."
+   ]
+  },
+  {
+   "heading": "Vendor contract terms",
+   "items": [
+    "Data practices notice under section 13.05, subdivision 11.",
+    "Validation documentation, subgroup results and independent audit rights.",
+    "Approval before changes to the model or its data; regular performance and equity reports.",
+    "Support for explaining decisions in appeals, error correction and an exit plan."
+   ]
+  },
+  {
+   "heading": "Ongoing governance",
+   "items": [
+    "Keep an inventory with an accountable owner for each tool.",
+    "Retest on a schedule and whenever data or rules change.",
+    "Publish plain-language summaries of tools and testing.",
+    "Set criteria in advance for pausing or retiring a tool."
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "title": "National Institute of Standards and Technology — AI Risk Management Framework",
+   "href": "https://www.nist.gov/itl/ai-risk-management-framework",
+   "note": "Supports the voluntary framework's four functions (govern, map, measure, manage) and trustworthiness characteristics. NIST notes the framework is being revised; check the current version."
+  },
+  {
+   "title": "White House Office of Science and Technology Policy (archived) — Blueprint for an AI Bill of Rights",
+   "href": "https://bidenwhitehouse.archives.gov/ostp/ai-bill-of-rights/",
+   "note": "Archived historical material, not current federal policy. Used only for its principles on notice and explanation, algorithmic discrimination protections and access to a person who can remedy problems."
+  },
+  {
+   "title": "Minnesota Statutes section 13.04 — Rights of subjects of data",
+   "href": "https://www.revisor.mn.gov/statutes/cite/13.04",
+   "note": "Supports the required notice when collecting private or confidential data, the right to access one's data and the right to contest accuracy or completeness."
+  },
+  {
+   "title": "Minnesota Statutes section 13.05 — Duties of responsible authority (subdivision 11, Privatization)",
+   "href": "https://www.revisor.mn.gov/statutes/cite/13.05",
+   "note": "Supports the statement that contractors performing government functions must comply with the Data Practices Act and that contracts must include a notice."
+  },
+  {
+   "title": "Chouldechova, Benavides-Prado, Fialko and Vaithianathan — A case study of algorithm-assisted decision making in child maltreatment hotline screening decisions, Proceedings of Machine Learning Research (2018)",
+   "href": "https://proceedings.mlr.press/v81/chouldechova18a.html",
+   "note": "Developers' account of the Allegheny Family Screening Tool, including the acknowledgment that administrative data can disadvantage some communities. Represents one side of a debated tool."
+  },
+  {
+   "title": "American Civil Liberties Union — The Devil is in the Details: Interrogating Values Embedded in the Allegheny Family Screening Tool (2023)",
+   "href": "https://www.aclu.org/the-devil-is-in-the-details-interrogating-values-embedded-in-the-allegheny-family-screening-tool",
+   "note": "Critical analysis of design choices and reported racial disparities in high-risk labels. An advocacy organization's analysis; read alongside the developers' account."
+  },
+  {
+   "title": "American Civil Liberties Union — Pitfalls of Artificial Intelligence Decisionmaking Highlighted In Idaho ACLU Case",
+   "href": "https://www.aclu.org/news/privacy-technology/pitfalls-artificial-intelligence-decisionmaking-highlighted-idaho-aclu-case",
+   "note": "Supports the K.W. v. Armstrong account: undisclosed budget formula, data errors, regional disparities and the court's due process findings. Written by the plaintiffs' counsel organization; Idaho's own description of the settlement is at healthandwelfare.idaho.gov."
+  }
+ ]
+}

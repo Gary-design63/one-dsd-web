@@ -1,0 +1,231 @@
+{
+ "id": "cq-leading-multicultural-teams",
+ "subtitle": "Diagnose team friction across communication, feedback, hierarchy, decision, trust and time styles, and design team practices and agreements so no single style becomes the default.",
+ "audience": "For DHS and DSD supervisors, managers, team leads and facilitators who lead culturally diverse teams and want system-level tools for norms, voice, decisions and accountability. The Cultural Intelligence Foundations course is recommended first.",
+ "lessons": [
+  {
+   "title": "Seeing team friction as culture and structure, not personality",
+   "objectives": [
+    "Identify the four common challenges of multicultural teams described by Brett, Behfar and Kern.",
+    "Describe the eight behavior scales of Erin Meyer's Culture Map and why positions on them are relative.",
+    "Distinguish a cultural or structural explanation for team friction from a judgment about someone's personality or competence.",
+    "Analyze a team conflict for the default working style it assumes."
+   ],
+   "teaching": "Leaders of diverse teams often meet friction that looks personal: one person seems blunt, another evasive, one keeps deferring to the supervisor, another challenges decisions in public. Research on multicultural teams suggests that many of these moments have cultural and structural roots. In a widely cited study, Jeanne Brett, Kristin Behfar and Mary Kern identified four recurring challenges: direct versus indirect communication, trouble with accents and fluency, differing attitudes toward hierarchy and authority, and conflicting norms for decision-making. They found that effective managers intervened early, set norms, tried to engage everyone, and helped teams see challenges as stemming from culture rather than personality.\n\nErin Meyer's Culture Map offers a vocabulary for the same territory. It plots working styles along eight behavior scales: communicating, evaluating (how negative feedback is given), persuading, leading, deciding, trusting, disagreeing and scheduling. Meyer stresses that what matters is relative position. A person who seems very direct to one colleague may seem careful to another. Two people from different backgrounds may clash not because either is extreme but because they sit at different points on the same scale. This is a helpful correction to the common habit of treating one's own style as neutral and everyone else's as a deviation.\n\nThese frameworks come with the same cautions as any cluster research. Meyer's scales place national cultures by general tendency; Brett and colleagues describe patterns observed across many teams. None of it predicts an individual. On a DHS team, working styles are also shaped by profession, years in state service, disability and access needs, union and management roles, generation, and the organizational culture of the department itself. A leader who says \"she is from that region, so she must be indirect\" has turned a useful map into a stereotype.\n\nThe leadership move is to analyze the system before judging the person. When friction shows up, ask: which scale might this sit on, whose style is the team's current default, and what in our structure, such as meeting format, decision rules or feedback practices, rewards that default? A team where fast verbal debate is the unspoken norm will read quieter members as disengaged. A team where decisions happen informally after meetings will frustrate people who expect the meeting to decide. Naming the default is the first step toward designing practices where no single style is automatically the right one.",
+   "keyPoint": "Much team friction sits on dimensions like communication, feedback, hierarchy, decision-making, trust and time. Positions are relative; analyze the team's default and structure before judging anyone's personality.",
+   "example": "Fictional case: In a DSD project team, Marcus, a data analyst, openly challenges the project lead's timeline in weekly meetings. Nadia, a policy specialist, never disagrees in meetings but sends the lead careful emails afterward with concerns. Another member, Sione, tells the supervisor, Elena, that Marcus is \"disrespectful\" and Nadia is \"not a team player.\" Elena notices the meetings are run as open debate, and decisions are treated as final by the end of each meeting.",
+   "question": "What is Elena's most useful first step?",
+   "choices": [
+    "Coach Marcus to be less confrontational and Nadia to speak up more, so both match the team's middle ground.",
+    "Treat the pattern as a difference in disagreement styles and a meeting structure that rewards one of them, and discuss with the team how disagreement can be raised in more than one way before decisions are final.",
+    "Speculate with Sione about which cultural backgrounds explain Marcus's and Nadia's behavior."
+   ],
+   "feedback": [
+    "Coaching individuals to a middle ground treats the problem as personal and leaves the structure unchanged. It may also cost the team the concerns both are raising.",
+    "This is the strongest response. Elena looks at the dimension and the structure, and invites the team to design a practice that captures disagreement from people with different styles.",
+    "Guessing colleagues' backgrounds and discussing them with a third person is stereotyping and could create a respectful workplace concern."
+   ],
+   "recommended": 1,
+   "reflection": "Think of a colleague whose style frustrates you. Where might each of you sit on one of the eight scales, and how might your style look from their position?",
+   "action": "In your next team meeting, observe one scale, such as disagreeing or deciding. Note what the meeting format rewards, and write down one structural change you could test.",
+   "check": {
+    "question": "Why does Erin Meyer emphasize relative position on her culture scales?",
+    "correct": "Because how a style is perceived depends on the observer's own position; the same behavior can seem direct to one person and cautious to another.",
+    "wrong": [
+     "Because every culture has a single correct position on each scale.",
+     "Because relative position lets leaders rank team members from most to least effective."
+    ],
+    "feedback": "The scales describe differences, not quality. Friction often comes from the gap between two positions, and naming that gap helps people stop reading their own position as the neutral standard."
+   }
+  },
+  {
+   "title": "Communication and feedback across styles",
+   "objectives": [
+    "Distinguish more explicit communication from communication that relies more on context and shared understanding.",
+    "Explain how upgraders and downgraders shape how negative feedback is heard.",
+    "Plan feedback practices that make expectations clear regardless of style.",
+    "Compare adapting to a colleague's style with imitating it."
+   ],
+   "teaching": "Communication styles vary in how much meaning is carried by the words themselves and how much by context, relationship and what is left unsaid. Some people and groups tend to say exactly what they mean and expect others to do the same. Others rely on shared understanding, tone and what is not said, and may find very explicit messages simplistic or even rude. Neither is better. Problems arise when a team treats one pattern as the default and assumes everyone reads messages the same way.\n\nFeedback is where this becomes most consequential for supervisors. Erin Meyer describes two sets of language tools. Upgraders, words like \"absolutely\" or \"totally,\" strengthen criticism. Downgraders, words like \"kind of,\" \"sort of\" or \"a little,\" soften it. In her examples, a manager who used heavy downgraders was understood by a colleague from a more direct setting as offering a mild suggestion, when the manager meant that something had to change right away. Meyer also warns that people who try to imitate a much more direct style than their own can come across as aggressive. The goal is not to copy a style but to make sure the message lands.\n\nFor a supervisor in state service, the stakes are high. Performance expectations, coaching and formal feedback can affect a person's career. A message that one employee hears as clear direction and another hears as an optional idea is not a fair process. Practical safeguards include stating the level of importance plainly, whatever your style: \"This is a required change\" or \"This is an idea to consider.\" Put expectations in writing after a conversation. Ask the person to say back what they took away. Balance positive and negative feedback over time. And learn how each team member prefers to receive feedback, asked of everyone as part of onboarding, not guessed from background.\n\nAccent and fluency also shape communication. Brett and colleagues list trouble with accents and fluency as one of their four challenges. In practice, people working in a second language may be interrupted, overlooked or judged on fluency rather than substance, while fluent speakers can dominate discussion. A leader can slow the pace, use pre-reads and written follow-ups, invite input in writing, and address any comments that mock accents or speech. Where a team member has a disability affecting communication, accommodation questions go through the ADA coordinator or the accommodation process. Formal performance processes follow HR policy and, where applicable, the collective bargaining agreement; your HR partner can advise.",
+   "keyPoint": "Make the weight of feedback explicit no matter your style: say whether a change is required, confirm understanding and follow up in writing. Adapt to be understood, not to imitate.",
+   "example": "Fictional case: Carmen, a DSD unit supervisor, tells a new case consultant, Oskar, that it \"might be worth taking another look\" at how he documents provider visits. She means the documentation does not meet requirements and must be fixed within two weeks. Oskar hears a small suggestion and moves on. A month later, an audit flags the same issue, and Carmen is frustrated that he ignored her. Oskar is surprised and upset.",
+   "question": "What should Carmen do now?",
+   "choices": [
+    "Start using stronger language with Oskar, since he seems to need blunt feedback.",
+    "Treat the missed message as Oskar's failure to listen and begin a formal performance process.",
+    "Acknowledge that her first message was unclear, state plainly that the documentation must meet the requirement, agree on a deadline and support, confirm the plan in writing, and adopt this practice with everyone she supervises."
+   ],
+   "feedback": [
+    "Switching to a harsher style for one person risks seeming aggressive and still guesses at his preference instead of making the message clear.",
+    "Starting a formal process over a message that was ambiguous is unfair, and it skips a simple fix. Any formal step should follow HR policy with an HR partner.",
+    "This is the strongest response. Carmen owns the ambiguity, states the importance explicitly, confirms understanding in writing and makes the fix a team practice rather than a special rule for Oskar."
+   ],
+   "recommended": 2,
+   "reflection": "When you give critical feedback, what words do you use to soften or strengthen it? How might someone with a different style hear them?",
+   "action": "For the next piece of corrective feedback you give, write one sentence stating how important it is, and ask the person to summarize what they heard. Follow up in writing.",
+   "check": {
+    "question": "According to Erin Meyer, what is a risk of trying to imitate a much more direct feedback style than your own?",
+    "correct": "You may come across as aggressive or harsh rather than clear.",
+    "wrong": [
+     "Colleagues will always appreciate the extra clarity.",
+     "It guarantees that your message will be understood."
+    ],
+    "feedback": "Meyer's examples show that imitation can backfire. A better approach is to keep your own voice while making the level of importance explicit and confirming understanding."
+   }
+  },
+  {
+   "title": "Hierarchy, voice and decision-making",
+   "objectives": [
+    "Explain how attitudes toward hierarchy can affect whether team members speak up to a supervisor.",
+    "Distinguish decision norms that seek broad agreement from norms where a leader decides quickly, and the frustrations each can create for people used to the other.",
+    "Describe team psychological safety and its link to learning behavior.",
+    "Design decision rules and voice practices that do not depend on a single style of speaking up."
+   ],
+   "teaching": "Teams differ in how they relate to authority. In some working cultures, people expect to challenge the boss openly and see that as engagement. In others, people show respect by deferring to the person in charge, especially in public, and raise concerns privately or through someone else. In a state agency, these patterns meet a formal hierarchy of classifications, supervisors and managers, plus labor-management roles. A supervisor who says \"my door is always open\" may assume the invitation is enough. For some team members, speaking up to a supervisor in front of peers may feel inappropriate no matter how often they are invited.\n\nDecision norms vary too, and deciding is one of the eight scales on Meyer's Culture Map. Some teams expect to reach broad agreement before a decision is made, which can take longer but brings people along. Others expect a leader to decide quickly and the group to adjust afterward. People used to one often misread the other. Someone expecting consensus may see a fast top-down decision as disrespectful; someone expecting a leader to decide may see a long consensus process as weak leadership. Brett and colleagues found that conflicting decision norms were a frequent source of friction in multicultural teams.\n\nTeam psychological safety connects these threads. Amy Edmondson defined it as a shared belief held by members of a team that the team is safe for interpersonal risk taking. In her field study of work teams, psychological safety was associated with learning behavior, such as asking questions, seeking feedback and discussing errors, which in turn was associated with performance. For leaders, this means voice is not a personality trait to hope for. It is a team condition leaders shape through structure and response.\n\nPractical designs help. Make decision rights explicit: for each type of decision, say who decides, who is consulted, and whether the decision is final or open to revision. Build in several ways to contribute: written input before meetings, round-robin turns, small-group discussion, and anonymous input for sensitive topics. Ask for the strongest case against a proposal before deciding, and thank the person who raises a concern in front of others. Follow up privately with people whose views you have not heard, without singling them out. Separate these team practices from formal channels: concerns about discrimination go to EOAD, concerns about contract rights go through labor relations, and workplace conduct concerns go through HR.",
+   "keyPoint": "Voice depends on structure, not only invitation. Make decision rights explicit, create several routes to contribute, and respond to concerns in ways that build psychological safety.",
+   "example": "Fictional case: Terrence, a DSD section manager, leads a team that includes long-time staff and several recent hires from other states and countries. At a planning session he asks, \"Any objections?\" and hears none, so the plan moves forward. A week later, a recent hire, Anjali, tells a peer she saw a serious problem with the plan's data source but felt it was not her place to contradict the manager in front of senior staff. The peer passes this along to Terrence.",
+   "question": "What should Terrence change first?",
+   "choices": [
+    "Change how decisions are made: send proposals ahead with a written comment option, ask specifically for risks before deciding, state when a decision is final, and follow up on Anjali's point about the data source.",
+    "Tell Anjali privately that she needs to be more confident about speaking up in meetings.",
+    "Announce to the team that everyone must voice objections in meetings from now on."
+   ],
+   "feedback": [
+    "This is the strongest response. Terrence changes the structure so concerns can surface in more than one way, and acts on the problem Anjali raised, which shows the team that speaking up is worth it.",
+    "Putting the burden on Anjali treats her style as the problem and ignores why the meeting format did not surface a serious risk.",
+    "A rule requiring spoken objections reinforces a single style and may make people who prefer other routes less likely to contribute."
+   ],
+   "recommended": 0,
+   "reflection": "On your team, who speaks up in meetings, and whose views do you mostly hear another way or not at all? What in the structure might explain the difference?",
+   "action": "For one decision your team will make this month, write down who decides, who is consulted, how input can be given in writing, and whether the decision is final or open to revision. Share it with the team before the meeting.",
+   "check": {
+    "question": "How did Amy Edmondson define team psychological safety?",
+    "correct": "A shared belief held by members of a team that the team is safe for interpersonal risk taking.",
+    "wrong": [
+     "A policy that guarantees no one will ever disagree in meetings.",
+     "An individual's personal confidence about speaking in groups."
+    ],
+    "feedback": "Psychological safety is a shared team belief, not an individual trait or an absence of disagreement. Edmondson's research linked it to learning behaviors like raising concerns and discussing errors, which leaders can shape through structure and response."
+   }
+  },
+  {
+   "title": "Time, trust and team agreements where no single style is the default",
+   "objectives": [
+    "Compare task-based and relationship-based approaches to building trust, and linear and flexible approaches to scheduling.",
+    "Design a team agreement that makes working norms explicit and adjustable.",
+    "Plan how to review team agreements over time and hold the team, including the leader, accountable to them.",
+    "Identify which team concerns belong in formal channels rather than in a team agreement."
+   ],
+   "teaching": "Two more scales complete the picture. On trust, some people build it mainly through doing reliable work together: you trust me because I deliver. Others build it mainly through personal relationship: you trust me because we have come to know each other. On time, some people treat schedules and deadlines as fixed commitments, while others treat them as flexible and responsive to relationships and changing circumstances. On a DHS team, these differences can show up as frustration over meeting start times, over whether small talk is wasted time, or over when a deadline is truly a deadline.\n\nThe leader's job is not to pick the right style and enforce it. It is to design practices where expectations are explicit, so that no single style is the invisible default. Brett and colleagues describe four strategies for multicultural teams: adaptation, where members acknowledge cultural gaps and work around them; structural intervention, changing how the team is organized; managerial intervention, setting norms early or bringing in a higher-level manager; and exit, removing a member when other options fail. In public service, exit involves HR, labor relations and due process and is never a shortcut around a style difference. The most useful everyday tools are the first three, and a team agreement is where they come together.\n\nA good team agreement is written together, not handed down. It names norms for each area where styles differ: how meetings start and end and what happens when someone joins late; which deadlines are fixed by law, contract or leadership and which are working targets; how feedback is given and how importance is signaled; how disagreement is raised, including written and private routes; who decides what; and how the team builds relationships, such as a brief check-in at the start of meetings that people can join or skip. The agreement should respect what the team cannot change on its own, such as hours, telework and scheduling provisions set by HR policy and collective bargaining agreements, and accommodation processes led by the ADA coordinator.\n\nAccountability makes the agreement real. Review it at set intervals and when the team changes. Ask anonymously whether the agreement is working and for whom. Notice whose participation has changed. Leaders should hold themselves to it first, because a supervisor who ignores the agreement signals that it applies only to others. Erin Meyer's advice fits here: expect the work to be hard, look at your own style from others' positions, find the value in other approaches, and keep adjusting. A team agreement is a living tool, not a finished product.",
+   "keyPoint": "Design team agreements that make norms for time, trust, feedback, disagreement and decisions explicit. Build them together, review them regularly, hold leaders to them first, and respect formal HR, labor and accommodation processes.",
+   "example": "Fictional case: Kofi, a DSD manager, has combined two units into one team. One group is used to starting meetings exactly on time and moving straight to the agenda. The other begins with ten minutes of check-in and treats internal deadlines as flexible when partner relationships need attention. Tension is growing, and one person, Bridget, has asked Kofi to just \"set a rule\" so everyone works the same way. A union steward has also mentioned that some staff have questions about schedule changes.",
+   "question": "What should Kofi do?",
+   "choices": [
+    "Set a rule matching the group that seems most efficient, since a clear standard is fairer.",
+    "Let each subgroup keep its own norms and avoid the issue, since both styles are valid.",
+    "Facilitate a team agreement that names which deadlines are fixed and which are working targets, how meetings open and when the agenda starts, and how disagreement is raised, while taking the schedule questions to HR and labor relations."
+   ],
+   "feedback": [
+    "Choosing one group's style makes it the invisible default and signals that the other group's way of working was wrong.",
+    "Avoiding the issue keeps the tension and leaves new members guessing which norms apply.",
+    "This is the strongest response. Kofi makes expectations explicit through a shared process, blends both needs where possible, and sends questions that involve employment terms to the right partners."
+   ],
+   "recommended": 2,
+   "reflection": "How do you tend to build trust at work: mainly through reliable work, mainly through relationship, or a mix? How might a colleague with a different approach read your behavior?",
+   "action": "Draft three questions to open a team agreement conversation: one about time, one about trust and relationship, and one about how disagreement is raised. Schedule the conversation and plan a date to review what the team agrees.",
+   "check": {
+    "question": "Which of Brett, Behfar and Kern's strategies involves setting norms early or bringing in a higher-level manager?",
+    "correct": "Managerial intervention.",
+    "wrong": [
+     "Exit.",
+     "Structural intervention."
+    ],
+    "feedback": "Managerial intervention means a leader sets norms or steps in. Structural intervention changes the team's makeup or organization, and exit removes a member. In state service, exit involves HR, labor relations and due process and is a last resort, not a response to style differences."
+   }
+  }
+ ],
+ "cards": [
+  {
+   "front": "Four multicultural team challenges",
+   "back": "Brett, Behfar and Kern's list: direct versus indirect communication, accents and fluency, attitudes toward hierarchy, and conflicting decision-making norms."
+  },
+  {
+   "front": "The Culture Map's eight scales",
+   "back": "Erin Meyer's scales: communicating, evaluating, persuading, leading, deciding, trusting, disagreeing and scheduling. Positions are relative, not absolute."
+  },
+  {
+   "front": "Upgraders and downgraders",
+   "back": "Words that strengthen criticism, such as absolutely, or soften it, such as kind of. They change how strongly feedback is heard."
+  },
+  {
+   "front": "Team psychological safety",
+   "back": "A shared belief held by members of a team that the team is safe for interpersonal risk taking."
+  },
+  {
+   "front": "Team agreement",
+   "back": "A jointly written, regularly reviewed set of norms for time, trust, feedback, disagreement and decisions, designed so no single style is the default."
+  }
+ ],
+ "aid": [
+  {
+   "heading": "Diagnose before judging",
+   "items": [
+    "Name the scale the friction may sit on: communicating, evaluating, persuading, leading, deciding, trusting, disagreeing or scheduling.",
+    "Identify the team's current default and who designed it.",
+    "Look for structures, such as meeting format or decision rules, that reward one style.",
+    "Never guess a colleague's background or explain behavior by a presumed culture."
+   ]
+  },
+  {
+   "heading": "Design for more than one style",
+   "items": [
+    "State the importance of feedback plainly and confirm understanding in writing.",
+    "Make decision rights explicit: who decides, who is consulted, and whether it is final.",
+    "Offer written, spoken, small-group and anonymous routes for input.",
+    "Ask for risks and the strongest counterargument before deciding.",
+    "Use pre-reads and a steady pace to support people working in a second language."
+   ]
+  },
+  {
+   "heading": "Keep agreements accountable",
+   "items": [
+    "Write the team agreement together and review it on a set schedule.",
+    "Hold leaders to the agreement first.",
+    "Check anonymously whether it works and for whom.",
+    "Send discrimination concerns to EOAD, schedule and contract questions to HR and labor relations, and accommodation to the ADA coordinator."
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "title": "Harvard Business Review — Brett, Behfar and Kern, Managing Multicultural Teams (2006)",
+   "href": "https://hbr.org/2006/11/managing-multicultural-teams",
+   "note": "Source for the four challenges of multicultural teams and the strategies of adaptation, structural intervention, managerial intervention and exit, and for the finding that effective managers set norms early. Research drew on business teams; applied here with public sector limits on exit."
+  },
+  {
+   "title": "Harvard Business Review — Erin Meyer, Navigating the Cultural Minefield (2014)",
+   "href": "https://hbr.org/2014/05/navigating-the-cultural-minefield",
+   "note": "Names the Culture Map's eight behavior scales and emphasizes relative position, plus advice to expect difficulty, apply multiple perspectives, find the positive in other approaches and keep adjusting. Scale placements describe national tendencies, not individuals."
+  },
+  {
+   "title": "INSEAD Knowledge — Erin Meyer, Giving Negative Feedback Across Cultures",
+   "href": "https://knowledge.insead.edu/leadership-organisations/giving-negative-feedback-across-cultures",
+   "note": "Source for upgraders and downgraders and the warning that imitating a more direct style can backfire."
+  },
+  {
+   "title": "ERIC, Institute of Education Sciences — Edmondson, Psychological Safety and Learning Behavior in Work Teams, Administrative Science Quarterly (1999)",
+   "href": "https://eric.ed.gov/?id=EJ589456",
+   "note": "Record of the field study linking team psychological safety to learning behavior and performance; the definition quoted in the course comes from the article itself."
+  },
+  {
+   "title": "University of California, Berkeley, Department of Statistics — David A. Freedman, The Ecological Fallacy",
+   "href": "https://www.stat.berkeley.edu/~census/ecofall.txt",
+   "note": "Supports the caution that group-level patterns, such as national scale placements, do not predict individual team members."
+  },
+  {
+   "title": "Minnesota Department of Human Services — Equity Policy (2023)",
+   "href": "https://mn.gov/dhs/assets/equity-policy_tcm1053-646921.pdf",
+   "note": "Department commitment to operate as an antiracist, multicultural and intercultural organization and to examine personal beliefs and biases, which frames leaders' responsibilities in this course."
+  }
+ ]
+}

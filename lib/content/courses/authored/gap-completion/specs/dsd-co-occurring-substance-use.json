@@ -1,0 +1,245 @@
+{
+  "id": "dsd-co-occurring-substance-use",
+  "subtitle": "Recognize the barriers people with disabilities face in substance use treatment, help them reach accessible care in Minnesota's system, and use harm reduction and stigma-free practice in disability services work.",
+  "audience": "For case managers and care coordinators, lead agency staff, 245D provider oversight staff, and DSD program, policy and supervisory staff who support or make decisions affecting people with disabilities who use alcohol or other drugs.",
+  "lessons": [
+    {
+      "title": "Why co-occurring substance use deserves attention",
+      "objectives": [
+        "Describe what federal guidance says about substance use disorders among people with physical and cognitive disabilities.",
+        "Identify common barriers that keep people with disabilities out of substance use treatment.",
+        "Explain how invisible and cognitive disabilities can be mistaken for poor motivation.",
+        "Compare a disability-aware response with a system response that passes the person between departments."
+      ],
+      "teaching": "A federal advisory from the Substance Abuse and Mental Health Services Administration, or SAMHSA, reports that people with physical and cognitive disabilities have a higher prevalence of serious mental illness and substance use disorders, and lower treatment rates for both, than people without these disabilities. The advisory notes several paths into substance use: some people begin using to cope with chronic pain, isolation, stigma or trauma, including physical or sexual abuse. Unemployment and impulsivity are also risk factors. For others, substance use came first and contributed to the injury that caused a disability.\n\nThe same advisory lists barriers that come from treatment programs themselves: inaccessible parking, entrances and rooms; policies that exclude people with disabilities, such as a rule that clients must be able to evacuate a building unassisted; counseling that is not adapted for people with cognitive disabilities; no materials in Braille, large print or electronic formats; and staff who do not know how to communicate with people who are deaf. It also describes a pattern familiar to many case managers: disability departments saying people with serious mental illness are not their responsibility, and mental health departments saying the same about people with disabilities. Providers may also overestimate how accessible they are.\n\nSome disabilities are not obvious. SAMHSA cautions that behavior linked to cognitive disabilities can be mistaken for willful nonadherence or lack of motivation. Reduced stamina can look like laziness, memory problems can look like not caring, and impaired judgment can look like rebellion. A person may also say they understand more than they do, to avoid embarrassment. When a person with a disability keeps missing appointments or breaking program rules, ask whether the program fits them before concluding they are not ready.\n\nDisability services staff are well placed to notice these gaps. You do not diagnose substance use disorders, and you do not decide whether someone needs treatment. You can notice when substance use is affecting a person's goals, ask whether they want help, and make sure that when they seek treatment, their disability is part of the conversation from the first call. Treat evidence on prevalence as a reason to be alert, not as a prediction about any one person.",
+      "keyPoint": "People with disabilities face higher rates of substance use disorders and lower treatment rates, often because programs are not built for them. Ask whether a program fits the person before deciding the person is not ready.",
+      "example": "Lucia is a care coordinator for Andre, who uses a wheelchair after a spinal cord injury and receives waiver services. Andre tells her he has been drinking more to manage pain and loneliness and wants to cut back. The first outpatient program she calls says its groups meet on a second floor with no elevator, and the intake worker suggests Andre wait until a spot opens in a program across the county, three months away.",
+      "question": "What should Lucia do next?",
+      "choices": [
+        "Tell Andre to wait for the other program because the first one cannot serve him.",
+        "Suggest Andre try to manage on his own until something opens up.",
+        "Ask the first program how it can meet Andre's access needs, such as an accessible location or alternative format, and at the same time look for other accessible programs so Andre is not left waiting."
+      ],
+      "feedback": [
+        "Accepting a three-month wait because of a physical barrier leaves Andre without help at the moment he asked for it. Programs often have a responsibility to meet access needs, and the question should at least be asked.",
+        "Andre has asked for help. Sending him away to manage alone ignores his request and the risks of increasing alcohol use.",
+        "This is the strongest response. It treats the stairs as an access problem to solve, not a reason to exclude Andre, and keeps other options moving so he gets timely care."
+      ],
+      "recommended": 2,
+      "reflection": "When someone you serve has struggled to stay in a program, what explanations came to mind first? What other explanations were possible?",
+      "action": "Choose one substance use treatment program you refer people to and find out how it handles access requests for mobility, sensory and cognitive disabilities. Note what you learn for your team.",
+      "check": {
+        "question": "According to SAMHSA's advisory, how might behavior linked to a cognitive disability be misread in treatment?",
+        "correct": "As willful nonadherence or lack of motivation.",
+        "wrong": [
+          "As evidence that the person has no substance use disorder.",
+          "As a sign the person needs a more restrictive setting."
+        ],
+        "feedback": "SAMHSA warns that memory problems, reduced stamina or impaired judgment can look like not caring or not trying. Recognizing this helps staff ask for adaptations instead of discharging people for problems the program could have addressed."
+      }
+    },
+    {
+      "title": "Accessible treatment and Minnesota's substance use disorder system",
+      "objectives": [
+        "Explain the general obligation of treatment programs to provide equal access for people with disabilities.",
+        "Identify the comprehensive assessment and Behavioral Health Fund as parts of Minnesota's treatment pathway.",
+        "Plan how to help a person request access supports at intake.",
+        "Distinguish questions staff can answer from questions to route to legal counsel or civil rights offices."
+      ],
+      "teaching": "Disability rights laws, including the ADA and Section 504, generally require treatment programs to give people with disabilities an equal opportunity to take part in and benefit from services, with limited exceptions. SAMHSA's advisory notes that clients often do not know that programs have the ability, and often the legal responsibility, to meet physical, communication and program access needs, so they do not ask. It recommends that front-line staff tell every potential client at first contact that the program can meet a range of access needs, give examples and act on requests. It also recommends a client pathway analysis: walking through the program from the perspective of people with different disabilities, with help from people with disabilities and groups such as Centers for Independent Living.\n\nThe law has some nuances. SAMHSA notes that a history of opioid use disorder is generally considered a disability, that some protections do not apply to a person currently using drugs illegally in certain situations, and that people with serious mental illness are protected. It also notes that programs may violate the law if they exclude people who take FDA-approved medications for opioid use disorder as prescribed. Those are legal questions. If a person may have been turned away because of a disability or a medication, route it to your supervisor, legal counsel or the appropriate civil rights office rather than deciding it yourself.\n\nIn Minnesota, the usual starting point for publicly funded treatment is a comprehensive assessment, which looks at a person's substance use and needs and informs the level of care, using the ASAM criteria that providers certify against. The DHS provider manual notes that a licensed program can begin services before the comprehensive assessment is finished, as long as the assessment is completed within the timeframe in chapter 245G. Covered services include outpatient and residential treatment, withdrawal management, treatment coordination and peer recovery support. People with Medical Assistance or MinnesotaCare use those programs. People without that coverage may qualify for the Behavioral Health Fund, with financial and clinical eligibility determined by their county or Tribe.\n\nRules and access points change, so check current DHS information or ask your county or Tribal substance use disorder contact before advising. Your most useful role is practical: help the person find a program, raise access needs at the first call, and stay involved so their disability supports and treatment work together.",
+      "keyPoint": "Treatment programs generally must provide equal access, and people often do not know they can ask. In Minnesota, a comprehensive assessment usually opens the door to publicly funded treatment, and the Behavioral Health Fund can help people without Medical Assistance.",
+      "example": "Hamid, a lead agency case manager, supports Grace, who is Deaf and uses American Sign Language. Grace has asked for help with her methamphetamine use. The residential program Grace chose tells Hamid it can offer group counseling in English only and suggests Grace read the workbook on her own. Grace has Medical Assistance and has already scheduled her comprehensive assessment with an assessor who says an interpreter will be provided.",
+      "question": "What should Hamid do next?",
+      "choices": [
+        "Tell Grace this program will not work and look only for Deaf-specific programs, even if none have openings.",
+        "Help Grace make a written request to the program for qualified interpreters and accessible materials, explain her communication needs, and ask his supervisor to route the question to legal or civil rights staff if the program refuses.",
+        "Suggest Grace bring a family member to interpret during groups."
+      ],
+      "feedback": [
+        "A specialized program may be a good option, but ruling out Grace's choice without asking the program to meet her needs gives up on her preference and on the program's obligations.",
+        "This is the strongest response. It supports Grace's choice, uses the access request process, documents the request and routes a refusal to the offices that decide legal questions.",
+        "Family members are generally not appropriate interpreters for treatment, where privacy and accuracy matter. Effective communication usually calls for qualified interpreters, and the program, not Grace, is responsible for arranging them."
+      ],
+      "recommended": 1,
+      "reflection": "If you were starting treatment and needed an accommodation, what would make it easier to ask for it?",
+      "action": "Write a short script you can use when calling a treatment program on someone's behalf that names the person's access needs and asks how the program will meet them.",
+      "check": {
+        "question": "In Minnesota, how can a person without Medical Assistance or MinnesotaCare get publicly funded substance use disorder treatment?",
+        "correct": "They may qualify for the Behavioral Health Fund, with eligibility determined by their county or Tribe.",
+        "wrong": [
+          "They must wait until they qualify for Medical Assistance.",
+          "They can only use private insurance or pay out of pocket."
+        ],
+        "feedback": "The DHS provider manual describes the Behavioral Health Fund for people with treatment needs who are not enrolled in Medical Assistance, with financial and clinical eligibility determined by the county or Tribe. Check current rules with your local contact."
+      }
+    },
+    {
+      "title": "Brain injury, cognitive disability and substance use",
+      "objectives": [
+        "Describe the two-way relationship between traumatic brain injury and substance use.",
+        "Identify treatment adaptations that help people with cognitive disabilities succeed.",
+        "Explain why cognitive screening in treatment should be voluntary and purpose-driven.",
+        "Plan supports a case manager can add to help a person stay in treatment."
+      ],
+      "teaching": "Brain injury and substance use are closely linked. The Ohio Valley Center for Brain Injury Prevention and Rehabilitation notes that many people who have a traumatic brain injury had a substance use problem before the injury, and that others develop problems after it. People hospitalized for brain injury tend to drink more heavily than their peers. SAMHSA's advisory adds that people with brain injury, fetal alcohol spectrum disorder, intellectual disability, autism and other conditions that affect thinking make up a significant share of people in substance use treatment, even when their disability is not documented.\n\nThat matters because standard treatment asks a lot of memory, attention, reading and abstract thinking. SAMHSA lists adaptations that help: appointment and activity reminders by phone call, alarm or app; simplified handouts and forms; adjusted group and individual counseling; and staff who understand that a person may say they understand more than they do. It recommends that programs offer voluntary brief cognitive screening at intake when cognitive impairment is not already documented, and explain that the purpose is to make sure treatment fits the person. The screening is a clinical task for trained providers, not something disability services staff administer.\n\nSAMHSA also flags medication interactions. Some medications used for seizures, which people with brain injury or developmental disabilities may take, can interact with methadone. That is a question for prescribers and pharmacists, but case managers can help by making sure each provider has an accurate, current medication list, with the person's consent.\n\nCase managers and waiver teams can do a great deal to make treatment workable. With the person's agreement, you might help set up reminders, arrange transportation that matches appointment times, share a one-page summary of how the person learns best, or connect independent living skills support with recovery goals. Keep the person in charge: ask what has helped them in the past, what has not, and who they want involved. A person with a brain injury who drops out of a program that never adapted to them has not failed treatment. The fit failed.",
+      "keyPoint": "Brain injury and substance use often occur together, and standard treatment can be hard for people with cognitive disabilities. Simple adaptations and coordinated supports can make the difference between dropping out and staying in.",
+      "example": "Nadia, a CADI waiver case manager, supports Curtis, who has a traumatic brain injury from a car crash and is in outpatient treatment for alcohol use. His counselor reports that Curtis keeps forgetting homework, arrives late and nods through groups but cannot repeat what was discussed. The counselor is considering discharging him for not engaging. Curtis tells Nadia he wants to stay but feels lost.",
+      "question": "What should Nadia do next?",
+      "choices": [
+        "With Curtis's consent, share with the counselor how his brain injury affects memory and learning, and work with both of them on adaptations such as reminders, simplified materials and shorter check-ins.",
+        "Agree that Curtis should be discharged and try again later.",
+        "Tell Curtis he needs to try harder and write things down."
+      ],
+      "feedback": [
+        "This is the strongest response. It uses Curtis's consent, gives the counselor useful context and brings in the kinds of adaptations SAMHSA recommends so he can stay in treatment.",
+        "Discharge would treat a predictable effect of brain injury as a lack of motivation. Curtis wants to continue, and the program has not yet tried to adapt.",
+        "Placing the whole burden on Curtis ignores that memory problems are part of his disability. Writing things down may help, but only as part of supports the team builds with him."
+      ],
+      "recommended": 0,
+      "reflection": "What adaptations do you rely on in your own work to remember and organize information? How might that insight help you support someone else?",
+      "action": "For one person you support who has a cognitive disability, draft a one-page summary, with their input and consent, of how they learn best that they can choose to share with a treatment provider.",
+      "check": {
+        "question": "What does SAMHSA recommend about cognitive screening at intake to substance use treatment?",
+        "correct": "Offer brief screening on a voluntary basis, explaining that the purpose is to make treatment fit the person.",
+        "wrong": [
+          "Require screening for everyone and deny admission to people who score low.",
+          "Avoid screening because it can stigmatize people."
+        ],
+        "feedback": "SAMHSA recommends voluntary screening when cognitive impairment is not already documented, with a clear explanation of its purpose. The aim is better treatment, not exclusion."
+      }
+    },
+    {
+      "title": "Harm reduction, naloxone and stigma-free language",
+      "objectives": [
+        "Explain what naloxone does and where Minnesotans can get it, according to the Minnesota Department of Health.",
+        "Describe the harm reduction approach in plain terms.",
+        "Identify stigmatizing terms and their preferred alternatives.",
+        "Draft a case note that describes substance use without labeling the person."
+      ],
+      "teaching": "Harm reduction means meeting people where they are and lowering the risks of substance use, whether or not a person is ready to stop. It sits comfortably alongside recovery: keeping someone alive and connected keeps the door to recovery open. In disability services, harm reduction can look like talking openly about safer use, making sure the person knows how to get help in an overdose, and not making services conditional on abstinence unless a program rule truly requires it.\n\nNaloxone is a core harm reduction tool. The Minnesota Department of Health describes naloxone as a lifesaving medication that can reverse an opioid overdose in minutes. MDH notes that it is harmless if given to someone having a different health emergency, although it works only on opioids. People can ask their pharmacy whether it carries naloxone, and MDH points to syringe service programs and harm reduction organizations for free naloxone. MDH advises giving naloxone in any suspected overdose and calling 911 right away, and notes that Minnesota's Good Samaritan law offers legal protections for people who give naloxone and call 911 in good faith. Details of legal protections are for legal counsel. Whether staff carry or give naloxone in a particular setting follows your agency's and the provider's policies and training.\n\nWords shape whether people seek help. The National Institute on Drug Abuse recommends person-first language, such as a person with a substance use disorder rather than addict or user, because it shows that the person has a condition rather than is the problem. NIDA suggests in recovery or in remission instead of clean, testing positive instead of dirty, and medication treatment for opioid use disorder instead of terms that suggest medication is a crutch. NIDA notes that stigma can make people less willing to seek treatment.\n\nLanguage in records matters especially, because case notes and provider reports follow people for years. A note that says a person was using again and noncompliant tells the next reader less than one that says what happened, what the person said they wanted and what support was offered. Neutral, specific language is more accurate and more respectful, and it avoids closing doors to services.",
+      "keyPoint": "Harm reduction keeps people alive and connected so recovery stays possible. Know how naloxone works and where to get it, follow your agency's policy, and use person-first, neutral language in speech and records.",
+      "example": "Kai supervises a team of case managers. Reviewing notes, Kai sees phrases like 'addict,' 'dirty UA' and 'refuses sobriety' in files for several people, including Selam, who has an intellectual disability and uses opioids. Selam's roommate recently had an overdose that was reversed with naloxone by a neighbor. Selam's provider has asked whether it should keep naloxone in the home, and staff are unsure what they are allowed to do.",
+      "question": "What should Kai do next?",
+      "choices": [
+        "Tell staff that language does not matter as long as services are delivered.",
+        "Coach the team on person-first language for future notes, share MDH information on naloxone with Selam and her provider, and ask the provider to check its own policy and training on keeping and using naloxone.",
+        "Tell the provider to stop serving Selam until she stops using opioids."
+      ],
+      "feedback": [
+        "Language in records shapes how future staff, providers and reviewers see Selam and others. Stigmatizing terms can also discourage people from seeking help.",
+        "This is the strongest response. It improves records going forward, gives Selam and her provider authoritative information about naloxone and respects the provider's responsibility for its own policy and training.",
+        "Making services conditional on abstinence could leave Selam without support at a dangerous time, when her household has just experienced an overdose."
+      ],
+      "recommended": 1,
+      "reflection": "Which words about substance use did you learn early in life or in your career? Which ones would you now choose differently?",
+      "action": "Look up where naloxone is available in the communities you serve using MDH information, and find out what your agency's policy says about naloxone for staff.",
+      "check": {
+        "question": "According to the Minnesota Department of Health, what happens if naloxone is given to someone who is not having an opioid overdose?",
+        "correct": "It is harmless, although it works only on opioid overdoses.",
+        "wrong": [
+          "It can cause a dangerous overdose of its own.",
+          "It should never be given without first confirming opioids with a test."
+        ],
+        "feedback": "MDH describes naloxone as harmless when given to someone experiencing another health episode, and advises giving it in any suspected overdose and calling 911 immediately. Waiting to confirm opioids can cost precious time."
+      }
+    }
+  ],
+  "cards": [
+    {
+      "front": "Co-occurring disability and substance use",
+      "back": "When a person has a physical, cognitive or psychiatric disability and a substance use condition at the same time. Each can affect access to treatment for the other."
+    },
+    {
+      "front": "Comprehensive assessment",
+      "back": "The Minnesota assessment that informs the level of substance use disorder treatment a person needs, using the ASAM criteria."
+    },
+    {
+      "front": "Behavioral Health Fund",
+      "back": "Minnesota funding for substance use disorder treatment for people not enrolled in Medical Assistance who meet financial and clinical eligibility determined by their county or Tribe."
+    },
+    {
+      "front": "Naloxone",
+      "back": "A medication that can reverse an opioid overdose in minutes. MDH says it is harmless if given to someone having a different emergency. Give it and call 911."
+    },
+    {
+      "front": "Harm reduction",
+      "back": "An approach that lowers the risks of substance use and keeps people alive and connected, whether or not they are ready to stop."
+    },
+    {
+      "front": "Person-first language",
+      "back": "Wording such as a person with a substance use disorder or a person in recovery, which describes a condition rather than labeling the person."
+    }
+  ],
+  "aid": [
+    {
+      "heading": "Before a treatment referral",
+      "items": [
+        "Ask the person what they want help with and what has worked before.",
+        "List the person's access needs: mobility, sensory, communication, cognitive and medication.",
+        "Tell the program about access needs at the first call and ask how it will meet them.",
+        "Confirm the person's consent before sharing disability or health information."
+      ]
+    },
+    {
+      "heading": "Supports that help people stay in treatment",
+      "items": [
+        "Appointment reminders by call, text, alarm or app.",
+        "Transportation matched to appointment times.",
+        "Plain-language or alternative-format materials.",
+        "A one-page learning summary the person chooses to share.",
+        "A current medication list for every prescriber and pharmacist, with consent."
+      ]
+    },
+    {
+      "heading": "Harm reduction basics",
+      "items": [
+        "Know where the person can get naloxone, using MDH information.",
+        "In a suspected overdose, give naloxone if available and trained, and call 911.",
+        "Follow your agency's and provider's policies on naloxone and training.",
+        "Avoid making disability services conditional on abstinence unless a rule truly requires it."
+      ]
+    },
+    {
+      "heading": "Words to use",
+      "items": [
+        "Person with a substance use disorder, not addict or user.",
+        "In recovery or in remission, not clean.",
+        "Testing positive, not dirty.",
+        "Medication treatment for opioid use disorder, not a crutch.",
+        "Describe what happened and what support was offered, not labels like noncompliant."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "SAMHSA Library — Advisory: Mental and Substance Use Disorder Treatment for People With Physical and Cognitive Disabilities (PEP19-02-00-002, 2019)",
+      "href": "https://library.samhsa.gov/product/advisory-mental-and-substance-use-disorder-treatment-people-physical-and-cognitive",
+      "note": "Supports prevalence and treatment-rate statements, barriers, the misreading of cognitive disability as poor motivation, access request and client pathway recommendations, voluntary cognitive screening and notes on disability rights and medications for opioid use disorder. SAMHSA says the advisory is not legal compliance guidance."
+    },
+    {
+      "title": "Minnesota DHS MHCP Provider Manual — Substance Use Disorder (SUD) Services",
+      "href": "https://www.dhs.state.mn.us/id_008949/",
+      "note": "Supports statements about the comprehensive assessment, ASAM levels of care, covered services such as withdrawal management, treatment coordination and peer recovery support, and the Behavioral Health Fund. A provider billing manual; check current DHS guidance for the public-facing process."
+    },
+    {
+      "title": "Minnesota Department of Health — Naloxone",
+      "href": "https://www.health.state.mn.us/communities/overdose/harmreduce/naloxone.html",
+      "note": "Supports what naloxone does, that it is harmless in other emergencies, where to get it, the advice to call 911, and the existence of Minnesota's Good Samaritan protections. Legal specifics go to counsel."
+    },
+    {
+      "title": "National Institute on Drug Abuse — Words Matter: Preferred Language for Talking About Addiction",
+      "href": "https://nida.nih.gov/research-topics/addiction-science/words-matter-preferred-language-talking-about-addiction",
+      "note": "Supports the person-first and stigma-free language guidance and the link between stigma and willingness to seek treatment."
+    },
+    {
+      "title": "The Ohio State University Wexner Medical Center, Ohio Valley Center for Brain Injury Prevention and Rehabilitation — Substance Use and TBI",
+      "href": "https://wexnermedical.osu.edu/neurological-institute/neuroscience-research-institute/research-centers/ohio-valley-center-for-brain-injury-prevention-and-rehabilitation/for-professionals/substance-use-and-tbi",
+      "note": "Supports the two-way relationship between traumatic brain injury and substance use described in Lesson 3."
+    },
+    {
+      "title": "SAMHSA — Recovery and Recovery Support",
+      "href": "https://www.samhsa.gov/substance-use/recovery",
+      "note": "Supports the framing of recovery as a process of change for people with mental health and substance use conditions, used alongside harm reduction in Lesson 4."
+    }
+  ]
+}

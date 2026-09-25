@@ -1,0 +1,230 @@
+{
+ "id": "gc-accommodation-transitions",
+ "subtitle": "Plan how accommodations carry across job changes, supervisors, locations and systems, and test leadership pathways so they are job related and open to staff with disabilities.",
+ "audience": "For DHS and DSD supervisors, hiring managers, leadership program coordinators, Human Resources partners and leaders who design or run transitions and advancement pathways.",
+ "lessons": [
+  {
+   "title": "The accommodation cliff",
+   "objectives": [
+    "Identify the workplace transitions where existing accommodations are most often lost.",
+    "Explain why accommodation duties extend to applications, training and leadership programs, not only the current job.",
+    "Describe what a new supervisor should and should not do about accommodations already in place.",
+    "Distinguish a structural gap in ownership from an individual's failure to ask again."
+   ],
+   "teaching": "An employee can have an accommodation that works well in their current role and lose it the moment something changes. They apply for a promotion and the interview is a rapid-fire panel. They join a leadership cohort where materials arrive the night before and activities are timed. They start an acting assignment in another building. A new supervisor arrives with a different view of telework. The agency moves to a new case management system that their screen reader cannot use. This course calls that pattern the accommodation cliff: the accommodation existed, but nobody owned carrying it across the transition, so the employee falls off the edge and has to start again, often while trying to make a good impression.\n\nThe law does not stop at the current desk. The EEOC's guidance on reasonable accommodation describes three kinds: changes to the application process, changes that let a person perform the essential functions of a job, and changes that let an employee enjoy equal benefits and privileges of employment, including employer-sponsored training. The EEOC also describes the duty as ongoing, since needs can change over time. So an interview, a leadership program and a new position are all places where accommodation applies, even when the employee's current arrangement was set up for different work.\n\nNew supervisors are a common point of failure. The Job Accommodation Network notes that accommodations are sometimes rescinded or changed, on purpose or by accident, when new management arrives, for example through a new telework or attendance rule. JAN advises that a new supervisor should not automatically demand fresh medical information for an accommodation that was already approved, and that it helps to tell the whole team that the new supervisor is available to talk about accommodations. A reasonable step is to confirm the arrangement is still working, not to reopen whether the person deserves it.\n\nThe cliff is structural. It happens because each transition has a different owner, no one is told what works, and the employee is left to disclose again to a stranger. That repeated disclosure has real costs, and many people choose to go without rather than explain their disability one more time. Seeing the cliff as a gap in ownership, rather than as an employee's failure to ask, is the first step toward closing it.",
+   "keyPoint": "Accommodations are often lost at transitions because no one owns carrying them forward. Accommodation duties apply to applications, training and new roles, and a new supervisor should continue what works rather than start over.",
+   "example": "Fictional case: Abdi, a DSD program analyst, has used a flexible start time and a large second monitor for two years. He is selected for a six-month acting supervisor assignment in another unit. On his first day, the receiving manager, Colleen, tells him the unit starts at eight sharp and the spare desk has one small screen. She adds that if he needs anything special he can file a new request with Human Resources. Abdi is worried that asking will make him look unready for the role.",
+   "question": "What should Colleen do next?",
+   "choices": [
+    "Keep the unit's start time for consistency, since the acting role is temporary.",
+    "Ask Abdi what arrangements have been working, put them in place while confirming with Human Resources or the ADA coordinator, and avoid asking why.",
+    "Ask Abdi to explain his medical condition so she can decide what the new role needs."
+   ],
+   "feedback": [
+    "A temporary role is still a job with accommodation duties. Dropping arrangements that work sets Abdi up to struggle in a stretch assignment.",
+    "This is the strongest response. It carries the accommodation forward, involves the formal process and does not make Abdi disclose again to be treated fairly.",
+    "The receiving manager needs to know what works, not the diagnosis. Medical information belongs with the accommodation process."
+   ],
+   "recommended": 1,
+   "reflection": "Think of a transition in your own career, such as a new role, supervisor or system. What had to be rebuilt from scratch, and who, if anyone, helped carry it across?",
+   "action": "List the transitions your unit regularly puts people through, such as interviews, acting assignments, cohorts, moves, new systems and returns from leave. For each, write down who currently makes sure existing accommodations carry forward. Mark any with no clear owner.",
+   "check": {
+    "question": "According to EEOC guidance, which of these is covered by reasonable accommodation duties?",
+    "correct": "The application process, performing the essential functions of the job, and equal access to benefits and privileges such as employer-sponsored training.",
+    "wrong": [
+     "Only the essential functions of the job the employee currently holds.",
+     "Only changes that the employee's current supervisor originally approved."
+    ],
+    "feedback": "The EEOC describes all three categories. Interviews, leadership programs and new positions are within accommodation duties, which is why transitions need an owner who carries accommodations forward."
+   }
+  },
+  {
+   "title": "Carrying accommodations forward",
+   "objectives": [
+    "Assign a named owner for accommodations at each common transition.",
+    "Apply the principle of carrying the accommodation, not the diagnosis.",
+    "Explain the roles of the supervisor, Human Resources and the agency ADA coordinator under State of Minnesota policy.",
+    "Plan a check after each transition to confirm arrangements are working."
+   ],
+   "teaching": "Closing the accommodation cliff starts with ownership. For each transition an employee may go through, name one person, not a process, who is responsible for two things: carrying existing accommodations forward and offering accommodation to everyone entering the transition. For a promotional interview, that might be the hiring manager working with Human Resources. For a leadership cohort, it is the program coordinator. For an acting assignment or reassignment, it is the receiving supervisor. For a return from leave or a move to a new system, it may be the supervisor with the ADA coordinator and the technology team.\n\nCarry the accommodation, not the diagnosis. The receiving supervisor or program needs to know what works: a later start, captioning, materials in advance, a screen reader compatible system, a quiet workspace, rest breaks. They do not need to know why. Under Minnesota Management and Budget's reasonable accommodation policy for executive branch agencies, medical information is kept confidential and separate from personnel files, and the fact that someone has an accommodation is shared only with those who need to know to put it in place. The agency ADA coordinator guides the process and must be consulted before any request is denied. With the employee's agreement, the accommodation process can tell the receiving supervisor what to continue.\n\nCost is rarely a good reason to drop an arrangement at a transition. Minnesota law created a state accommodation account that can reimburse agencies for part of the cost of certain accommodations, including accommodations for applicants and ongoing services, as funds allow. Check with Human Resources or the ADA coordinator about how DHS uses it. A unit's budget should not decide whether an employee keeps what already works.\n\nOffer accommodation to everyone at every transition, in the same sentence used for logistics: The interview will be at ten in room four or by video; let us know about any accommodation you need for any part of the process. That way no one must disclose to receive it. After the transition, check in. Ask everyone, not only the people who requested something, whether the arrangements worked, and fix what did not. Remember that this course is about pathway design and ownership. Decisions about any individual accommodation, and any disagreement about one, belong to Human Resources and the accommodation process.",
+   "keyPoint": "Name a person who owns accommodations at each transition, carry forward what works without the diagnosis, offer accommodation to everyone, and check afterward.",
+   "example": "Fictional case: Rosa coordinates a DSD leadership development cohort of twenty staff. The first session includes a timed group exercise using sticky notes on a wall and handouts given out at the door. Last year, one participant dropped out after the second session, and exit comments mentioned that materials were not available in advance. Rosa's manager, Gene, says participants can always request accommodations through Human Resources if they need them.",
+   "question": "What should Rosa do next?",
+   "choices": [
+    "Redesign the sessions to be accessible by default, send materials in advance, offer accommodation to everyone in the welcome message and name herself as the owner for carrying existing accommodations into the cohort.",
+    "Keep the design and add a line to the welcome message referring people to Human Resources.",
+    "Ask participants to tell the group about their disabilities at the first session so everyone can plan together."
+   ],
+   "feedback": [
+    "This is the strongest response. It removes predictable barriers for everyone, makes asking ordinary and gives the cohort a clear owner.",
+    "A referral alone keeps the barrier in place and puts the whole burden on participants to disclose and wait.",
+    "Group disclosure is intrusive and unnecessary. Accessible design and a private route to accommodation work without anyone revealing health information."
+   ],
+   "recommended": 0,
+   "reflection": "If you moved to a new team tomorrow, how much would you have to explain again to get what helps you work well? Who would you have to explain it to?",
+   "action": "Choose one transition you control, such as an interview, a training, a new-hire start or a system change. Add a standard accommodation offer to its logistics message and name the person responsible for carrying existing arrangements forward.",
+   "check": {
+    "question": "What does carry the accommodation, not the diagnosis mean?",
+    "correct": "The receiving supervisor or program learns what arrangements work, while medical details stay with the confidential accommodation process.",
+    "wrong": [
+     "The employee must share their diagnosis with each new supervisor so the arrangement can be reviewed.",
+     "Accommodations transfer automatically without the accommodation process being involved."
+    ],
+    "feedback": "Receiving supervisors need to know what to put in place, not why. Medical information stays confidential with the accommodation process, which remains responsible for decisions and any changes."
+   }
+  },
+  {
+   "title": "Leadership criteria that are job related",
+   "objectives": [
+    "List formal and informal criteria used to judge readiness for lead and supervisory roles.",
+    "Distinguish criteria that predict leadership work from proxies that screen people out.",
+    "Draft alternative ways for candidates to demonstrate leadership behaviors.",
+    "Describe how structured, accessible selection processes reduce disability bias."
+   ],
+   "teaching": "Many leadership criteria are never written down. People are described as ready, confident, strategic or having presence. They are invited to present because they think quickly on their feet. They are expected to travel, work long hours or answer messages at night. These expectations can screen out many disabled staff, and many people without disabilities, and they are rarely tied to what leaders at DHS actually do: make sound decisions, develop people, resolve conflicts, deliver plans and serve communities.\n\nA useful test is to list every criterion actually used, including the unwritten ones, and for each one write the leadership work it predicts. If you cannot connect a criterion to that work, it is probably a proxy. Then ask who each criterion screens out. Quick verbal response screens out people who process or communicate differently, including some colleagues who are Deaf, autistic or living with a brain injury, and people working in a second language. Travel and long hours screen out people with energy, mobility or caregiving limits. Always-on availability screens out many people with chronic health conditions. Executive presence often measures resemblance to past leaders.\n\nReplace proxies with observable behaviors and let people show them in more than one way: a written analysis, a portfolio of past work, a structured conversation with questions provided in advance, or a work sample with time to prepare. Use a written rubric applied the same way to every candidate, and prepare the panel on disability bias before interviews. Offer accommodation for every stage in the same message used for scheduling, without asking why.\n\nThe State of Minnesota already recognizes that standard selection methods do not always measure what people can do. Its Connect 700 program lets eligible applicants with disabilities who meet minimum qualifications demonstrate their ability to perform a specific job for up to seven hundred hours on the job, as an alternative to the usual competitive process. That program is about entry, not leadership, but the principle carries over: judge people on the work itself. When your unit reviews its leadership criteria, record who reviewed them, such as leadership, the Human Resources partner and the equity lead, and keep the reasoning with the pathway map so it can be examined later.",
+   "keyPoint": "Every leadership criterion should connect to real leadership work. Replace proxies such as presence, speed and constant availability with observable behaviors that people can demonstrate in more than one way.",
+   "example": "Fictional case: Nadia is on a panel choosing a new team lead in DSD. The draft posting lists strong executive presence, ability to respond quickly in high-pressure meetings and willingness to work extended hours as needed. The interview plan is six questions asked aloud with no advance notice. Another panelist, Rick, says these are just what leaders need. Nadia recalls that the team lead's main duties are reviewing plans, coaching staff and resolving provider questions.",
+   "question": "What should Nadia do next?",
+   "choices": [
+    "Accept the criteria but offer accommodations if a candidate asks.",
+    "Remove all criteria about communication so no one is disadvantaged.",
+    "Propose tying each criterion to a duty, replacing proxies with observable behaviors, sharing questions in advance, adding a work sample and offering accommodation to every candidate."
+   ],
+   "feedback": [
+    "Offering accommodation helps, but it leaves criteria in place that are not tied to the work and may still screen people out.",
+    "Communication is part of leading. The goal is to measure the communication the job needs, in ways people can show, not to drop it.",
+    "This is the strongest response. It keeps real standards, removes proxies and gives candidates several fair ways to show what they can do."
+   ],
+   "recommended": 2,
+   "reflection": "Which unwritten leadership criteria have you seen rewarded where you work? Which of them have you applied yourself without testing them?",
+   "action": "Take one leadership posting, interview guide or nomination form your unit uses. For each criterion, write the leadership duty it predicts. Mark any you cannot connect and draft a replacement based on observable behavior.",
+   "check": {
+    "question": "What is the best test of whether a leadership criterion is appropriate?",
+    "correct": "Whether it predicts actual leadership work, such as decisions, developing people and delivering plans, and can be shown in more than one way.",
+    "wrong": [
+     "Whether current leaders in the agency share the trait.",
+     "Whether candidates can meet it without any accommodation."
+    ],
+    "feedback": "Criteria should connect to the work leaders actually do. Resemblance to current leaders measures familiarity, and a criterion that only works without accommodation may screen out qualified people."
+   }
+  },
+  {
+   "title": "Sponsorship and accessible leadership pathways",
+   "objectives": [
+    "Distinguish mentoring, sponsorship and reverse mentoring.",
+    "Plan a transparent pathway map for a lead or supervisory role.",
+    "Explain how to hear from disabled staff about pathways without requiring disclosure.",
+    "Identify who owns pathway design and who owns accommodation decisions."
+   ],
+   "teaching": "Mentoring and sponsorship are different. A mentor gives advice, shares knowledge and helps someone think through choices. A sponsor uses their own standing to put someone's name forward for assignments, acting roles, committees and promotions. A research brief from the Employer Assistance and Resource Network on Disability Inclusion, funded by the U.S. Department of Labor's Office of Disability Employment Policy, identifies barriers to professional development and advancement for employees with disabilities and recommends making development opportunities open and accessible, with mentoring as one strategy. Mentoring alone does not move people into leadership roles. Pair disabled staff who want it with sponsors who hold real decision power, and track at the program level whether sponsorship leads to assignments.\n\nReverse mentoring, in which staff with lived experience of disability advise leaders on what accessible leadership looks like, can shift practice quickly. It should come with recognized time or compensation, and it should never become a standing expectation that disabled staff educate everyone else.\n\nTransparent pathway maps help most of all. For each lead or supervisory role, write down what it requires, which experiences count, how to get them, and how accommodation works at every step. When the path is written, advancement depends less on informal networks and hallway invitations. Leadership programs should be accessible by default: materials in advance, captioning, flexible participation, no timed or drag-and-drop activities, and time to rest.\n\nListening must not force disclosure. Many staff will not identify as disabled to a supervisor or a program, and that choice deserves respect. Ask about the pathway, not the person: What does it take to be seen as ready here? Who explains it? What happens when someone asks for an accommodation during an interview or stretch assignment? Use anonymous input, disability employee resource groups and trusted intermediaries, and suppress small numbers in any report. Disability is often missing from workforce data, so the first honest finding may be that the agency cannot yet see the pattern. Say so, then close the loop by reporting what changed, what did not and who owns the next step.\n\nKeep ownership clear. Pathway design belongs to leadership and the equity practice. Accommodation decisions belong to Human Resources and the ADA coordinator. This program never guesses who is disabled from behavior, accommodation history or participation, and it does not track individuals.",
+   "keyPoint": "Sponsorship puts names forward; mentoring gives advice. Make pathways transparent and accessible by default, listen without requiring disclosure, and keep pathway design and accommodation decisions with their owners.",
+   "example": "Fictional case: Terrence leads a DSD division that wants more staff with disabilities in supervisory roles. His deputy, Amy, proposes asking every supervisor to identify employees they believe have disabilities so the division can offer them mentors. Terrence also learns that acting supervisor assignments have usually gone to people who were personally invited, and that there is no written description of what makes someone ready.",
+   "question": "What should Terrence do next?",
+   "choices": [
+    "Use Amy's list, since it would help the division reach the right people quickly.",
+    "Drop the identification idea, publish a pathway map with an open process for acting assignments, invite anyone interested to sponsorship, and gather input through anonymous channels and the disability employee resource group.",
+    "Wait for better workforce data on disability before changing anything."
+   ],
+   "feedback": [
+    "Asking supervisors to guess who is disabled is intrusive, unreliable and could expose staff to harm. It also leaves the informal pathway unchanged.",
+    "This is the strongest response. It fixes the structure for everyone, offers sponsorship without requiring disclosure and gathers input safely.",
+    "Missing data is a finding in itself, but the structural fixes do not depend on knowing who is disabled and can start now."
+   ],
+   "recommended": 1,
+   "reflection": "Who has sponsored you, putting your name forward when you were not in the room? Whose name have you put forward, and how did you choose?",
+   "action": "Draft a one-page pathway map for one lead or supervisory role you know well: what it requires, which experiences count, how to get them and how accommodation works at each step. Share it with your Human Resources partner for review.",
+   "check": {
+    "question": "What is the main difference between mentoring and sponsorship?",
+    "correct": "A mentor offers advice and guidance; a sponsor uses their standing to put someone forward for opportunities.",
+    "wrong": [
+     "A mentor is always more senior than a sponsor.",
+     "Sponsorship requires the employee to disclose a disability; mentoring does not."
+    ],
+    "feedback": "Mentoring builds knowledge and confidence. Sponsorship changes who gets considered for assignments and promotions. Neither should require anyone to disclose a disability."
+   }
+  }
+ ],
+ "cards": [
+  {
+   "front": "Accommodation cliff",
+   "back": "The loss of a working accommodation at a transition, such as an interview, acting role, cohort, new supervisor, new location or new system, because no one owns carrying it forward."
+  },
+  {
+   "front": "Carry the accommodation, not the diagnosis",
+   "back": "Receiving supervisors learn what arrangements work. Medical information stays confidential with the accommodation process."
+  },
+  {
+   "front": "Proxy criterion",
+   "back": "A leadership expectation, such as executive presence, speed or constant availability, that is not tied to leadership work and may screen out qualified people."
+  },
+  {
+   "front": "Sponsorship",
+   "back": "Using one's standing to put another person's name forward for assignments and promotions, as distinct from mentoring, which offers advice."
+  },
+  {
+   "front": "Connect 700",
+   "back": "A State of Minnesota program that lets eligible applicants with disabilities demonstrate their ability to do a specific job for up to seven hundred hours on the job instead of the usual competitive process."
+  }
+ ],
+ "aid": [
+  {
+   "heading": "For every transition",
+   "items": [
+    "Name one person who owns carrying accommodations forward.",
+    "Offer accommodation to everyone in the same message as logistics.",
+    "Ask what works, not why; medical details stay with the accommodation process.",
+    "Check afterward with everyone whether arrangements worked, and fix what did not."
+   ]
+  },
+  {
+   "heading": "Testing leadership criteria",
+   "items": [
+    "List every criterion used, including unwritten ones.",
+    "Write the leadership duty each criterion predicts; replace any that are proxies.",
+    "Offer more than one way to demonstrate each behavior.",
+    "Use a written rubric, share questions in advance and prepare the panel on disability bias."
+   ]
+  },
+  {
+   "heading": "Pathways and ownership",
+   "items": [
+    "Publish a pathway map for each lead or supervisory role.",
+    "Pair interested staff with sponsors who hold decision power and track outcomes in aggregate.",
+    "Gather input anonymously and never ask anyone to identify who is disabled.",
+    "Send accommodation decisions to Human Resources and the ADA coordinator; pathway design stays with leadership and the equity practice."
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "title": "U.S. EEOC — Enforcement Guidance on Reasonable Accommodation and Undue Hardship under the ADA",
+   "href": "https://www.eeoc.gov/laws/guidance/enforcement-guidance-reasonable-accommodation-and-undue-hardship-under-ada",
+   "note": "Three categories of accommodation, including the application process and equal access to employer-sponsored training, and the ongoing nature of the duty. Formal determinations belong to the accommodation process."
+  },
+  {
+   "title": "Job Accommodation Network — Out with the Old, In with the New Supervisor",
+   "href": "https://askjan.org/articles/Out-with-the-Old-and-In-with-the-New-Supervisor.cfm",
+   "note": "Risks of accommodations being rescinded when management changes, and advice not to demand new medical information for approved accommodations."
+  },
+  {
+   "title": "Minnesota Management and Budget — HR/LR Policy 1433, ADA Reasonable Accommodations",
+   "href": "https://mn.gov/mmb-stat/equal-opportunity/ada/1433-reasonable-accommodation.pdf",
+   "note": "Executive branch roles for supervisors, Human Resources and agency ADA coordinators, and confidentiality of medical information. The policy does not itself address carrying accommodations across transitions; that practice is this course's recommendation."
+  },
+  {
+   "title": "Minnesota Statutes 16B.4805 — Accommodation Reimbursement",
+   "href": "https://www.revisor.mn.gov/statutes/cite/16B.4805",
+   "note": "State accommodation account that can reimburse agencies for part of certain accommodation costs, including for applicants and ongoing services, as funds allow."
+  },
+  {
+   "title": "Minnesota Management and Budget — Connect 700 Program",
+   "href": "https://mn.gov/mmb/careers/diverse-workforce/people-with-disabilities/connect700",
+   "note": "Describes the up to 700-hour on-the-job demonstration for eligible applicants with disabilities as an alternative to standard selection. An entry program, used here to illustrate job-related assessment."
+  },
+  {
+   "title": "Employer Assistance and Resource Network on Disability Inclusion (EARN) — Professional Development and Advancement of Employees with Disabilities",
+   "href": "https://askearn.org/publication/professional-development-and-advancement-research-brief",
+   "note": "Federally funded research brief on barriers to advancement and recommendations including mentoring and accessible development opportunities. The mentoring and sponsorship distinction in this course is program practice."
+  }
+ ]
+}

@@ -1,0 +1,237 @@
+{
+ "id": "gc-remote-hybrid-equity",
+ "subtitle": "Reduce proximity bias, run hybrid meetings where location does not decide who is heard, build accessible digital work and tell general telework apart from telework as an accommodation.",
+ "audience": "For supervisors, team leads, HR partners and staff who plan meetings or assign work on hybrid and remote teams at DHS and DSD. It does not replace the ADA coordinator, HR or labor relations.",
+ "lessons": [
+  {
+   "title": "Proximity bias and fair visibility",
+   "objectives": [
+    "Explain proximity bias and the research on passive face time.",
+    "Summarize what a large randomized trial found about hybrid work, performance and promotion, and its limits.",
+    "Identify signals that visibility, not results, is shaping assignments or evaluations.",
+    "Plan an output-based way to track assignments and recognition across on-site and remote staff."
+   ],
+   "teaching": "Proximity bias is the tendency to favor people we see in person more often. It usually operates without intent. Researchers Kimberly Elsbach, Dan Cable and Jeffrey Sherman studied what they called passive face time: simply being seen at work, without any interaction. In interviews and an experiment, they found that being seen during normal hours led observers to describe someone as dependable, and being seen outside normal hours led observers to describe them as committed. Observers formed these impressions spontaneously, without being aware of it. Being seen was standing in for evidence about work.\n\nThat matters in a hybrid workplace, where some people are in the office on a given day and others are not. A supervisor who works on-site may simply know more about the work of people nearby, notice their effort more and think of them first for new assignments. Over time, that can shape who gets visible projects, who is described as a leader and whose name comes up in succession discussions.\n\nDoes hybrid work itself hurt performance or advancement? One of the largest studies so far, a randomized trial at a large travel company in China published in the journal Nature, assigned more than sixteen hundred employees to either full-time office work or a hybrid schedule with two home days a week. Hybrid work reduced quitting by about a third, and the researchers found no evidence of differences in performance reviews or promotions over the following two years. Managers who expected hybrid work to lower productivity became more positive after the trial. This is one company in one country with one hybrid design, so it does not settle every question for a Minnesota state agency. It does suggest that remote days do not automatically mean weaker work, and that manager expectations may drive perceptions more than performance does.\n\nThe practical response is to make evidence of work, not presence, the basis for decisions. Define expected results and review them the same way for everyone. Keep a simple record of who received visible assignments and recognition, and check whether on-site and remote staff are both represented. Before you nominate someone, ask: am I choosing based on results, or on who I happened to see this week?",
+   "keyPoint": "Being seen is not the same as doing good work. Base assignments, recognition and evaluations on defined results, and check whether on-site staff are being favored by habit.",
+   "example": "Fictional case: Benedikta supervises a hybrid DSD team. Three staff work on-site most days because of where they live, and four telework the maximum allowed. When a request comes from the division director for someone to lead a new cross-agency workgroup, Benedikta immediately thinks of Casimir, who sits near her office and often stops by. Afterward, she realizes that Winifred, who teleworks, produced the team's strongest analysis last quarter.",
+   "question": "What should Benedikta do before deciding?",
+   "choices": [
+    "Check the workgroup's requirements against recent results from everyone on the team, talk with interested staff and choose on that basis.",
+    "Choose Casimir, since in-person availability will matter for a cross-agency workgroup.",
+    "Choose Winifred to make up for past favoritism toward on-site staff."
+   ],
+   "feedback": [
+    "This is the best response. Benedikta recognizes that her first thought came from proximity and returns to job-related evidence and interest.",
+    "Cross-agency workgroups at the state often meet virtually or in hybrid form. Assuming in-person availability is required repeats the bias unless the work truly needs it.",
+    "Correcting for bias by choosing someone to compensate is still a decision not based on the work. Winifred may be the best choice, but for the right reasons."
+   ],
+   "recommended": 0,
+   "reflection": "Whose work do you know best on your team or in your partner network? How much of that knowledge comes from seeing them, and how much from their results?",
+   "action": "List the visible assignments and public recognition your team gave in the last three months. Note whether each person was mostly on-site or remote at the time, and look for a pattern.",
+   "check": {
+    "question": "What did Elsbach and colleagues find about passive face time?",
+    "correct": "Being seen at work led observers to infer traits like dependability and commitment, often without realizing it.",
+    "wrong": [
+     "Being seen at work had no effect on how others judged employees.",
+     "Observers carefully compared actual output before judging dependability."
+    ],
+    "feedback": "The research showed spontaneous trait judgments from simply being seen. That is why output-based evaluation matters in hybrid teams: presence can substitute for evidence without anyone intending it."
+   }
+  },
+  {
+   "title": "Meeting equity in hybrid work",
+   "objectives": [
+    "Identify common ways hybrid meetings disadvantage remote participants.",
+    "Plan a meeting structure that gives remote and in-room participants equal access to the conversation and decisions.",
+    "Describe accessible meeting practices, including captions and advance materials.",
+    "Compare meeting norms and choose ones that fit a specific DHS meeting."
+   ],
+   "teaching": "Hybrid meetings can quietly create two classes of participant. People in the room see each other's faces, catch side comments and can jump into a pause. People joining remotely may hear a muffled microphone, see a wide shot of a table, miss what was written on a whiteboard and wait for a gap that never comes. After the meeting, the in-room group may keep talking in the hallway, and decisions get made there. None of this requires anyone to be unkind. It is a design problem, and it has design answers.\n\nStart with equal access to the conversation. Many teams find that the fairest approach is for everyone to join from their own device, even people in the same room, so faces, names and hand-raise features work the same for everyone. If a room system is used, test audio before the meeting and make sure remote people can see who is speaking. Name a facilitator who watches the chat and the virtual hands, and invite remote participants to speak first on key questions rather than last.\n\nNext, make information equally available. Send materials ahead of time in accessible formats, so people using screen readers, people with slower connections and people who process better in writing can prepare. Turn on captions. Share the screen rather than referring to papers only people in the room can see. Say decisions out loud and write them in the chat or notes, and send a short summary with owners and deadlines. If a conversation continues after the meeting, bring the results back to everyone before acting on them.\n\nFinally, consider the purpose and the people. Some meetings, like a relationship-building session with a Tribal or county partner, may work best fully in person or fully virtual, and that choice should be made on purpose. Some staff may need a different arrangement for disability-related reasons, and those needs go through the accommodation process. The question to ask for any meeting is simple: could someone joining from anywhere participate fully, contribute to the decision and know what was decided?",
+   "keyPoint": "Design hybrid meetings so location does not decide who is heard: equal access to audio and video, remote voices first, accessible materials, captions and decisions written down for everyone.",
+   "example": "Fictional case: A DSD policy team holds weekly hybrid meetings. Five people sit around a conference table with one camera and one microphone, and four join online. Remote staff often say afterward that they could not hear parts of the discussion. Last week, a remote analyst, Isadora, learned that a key decision about a provider notice had been finalized in a hallway conversation after the meeting. The team lead, Magnus, wants to fix this without adding more meetings.",
+   "question": "What change would help most?",
+   "choices": [
+    "Ask remote staff to come into the office on meeting days.",
+    "Remind remote staff to speak up more when they cannot hear.",
+    "Have everyone join from their own device, use a facilitator to call on remote participants first, turn on captions, and post decisions in writing, including any made after the meeting, before acting on them."
+   ],
+   "feedback": [
+    "Requiring attendance shifts the burden to remote staff and may conflict with approved telework or accommodation arrangements. It does not fix the meeting design.",
+    "Asking the less-heard group to push harder puts the burden on them. The problem is the setup, not their effort.",
+    "This is the best response. It addresses audio, participation order, access and decision transparency together, and it needs no extra meetings."
+   ],
+   "recommended": 2,
+   "reflection": "In the last hybrid meeting you attended, who spoke most and who spoke least? How much of that had to do with where people were sitting?",
+   "action": "Choose one recurring hybrid meeting you lead or attend. Propose two changes, such as captions on and decisions posted in writing, and ask participants after two weeks whether it helped.",
+   "check": {
+    "question": "Why is asking remote participants to speak up more not an effective fix for hybrid meeting inequity?",
+    "correct": "It puts the burden on the people disadvantaged by the meeting design instead of changing the design.",
+    "wrong": [
+     "Because remote participants are not allowed to speak in state meetings.",
+     "Because remote staff usually have less to contribute."
+    ],
+    "feedback": "The disadvantages come from audio, visibility, turn-taking and decisions made outside the meeting. Changing those conditions works better than asking the people affected to compensate."
+   }
+  },
+  {
+   "title": "Accessible tools and digital accessibility",
+   "objectives": [
+    "Describe the State of Minnesota Digital Accessibility Standard and what it requires.",
+    "Distinguish building accessibility into shared tools from handling individual accommodation requests.",
+    "Identify common accessibility barriers in remote collaboration tools and documents.",
+    "Plan an accessibility check for a document or meeting your team produces."
+   ],
+   "teaching": "Remote and hybrid work run on digital tools: video meetings, chat, shared documents, online forms, whiteboards and case management systems. When those tools are not accessible, some employees are shut out of work they are fully able to do, and some people DHS serves are shut out of services. Accessibility in remote work is not an extra. It is the ground everything else stands on.\n\nMinnesota has a statewide standard. Minnesota IT Services explains that the State of Minnesota Digital Accessibility Standard applies to state agencies' information technology and incorporates the Web Content Accessibility Guidelines at level AA, currently version two point one. MNIT also notes that Minnesota law in the Minnesota Human Rights Act, sections 363A.42 and 363A.43, can make agencies financially liable for inaccessible public records and course materials. That means accessibility is part of how state work is supposed to be produced, not a courtesy offered on request.\n\nIt helps to separate two things. Building accessibility in means making shared tools and documents usable by as many people as possible from the start: headings and alt text in documents, readable slides, captions in meetings, color that is not the only way information is conveyed, forms that work with a keyboard and screen reader, and chat tools that do not rely only on emoji or images to carry meaning. Individual accommodation means providing something specific for one person, such as particular assistive technology, a sign language interpreter or a modified schedule. Accommodations go through the supervisor, HR and the agency ADA coordinator. Building accessibility in reduces how often people need to ask, but it does not replace the accommodation process.\n\nCommon barriers in remote work are predictable. Whiteboard tools may not work with screen readers. Scanned documents are often images with no readable text. Video meetings without captions exclude people who are deaf or hard of hearing, and help many others. Rapid, overlapping chat can be hard to follow for people using assistive technology. A short checklist, using the accessibility checkers built into common office software and asking colleagues what works for them, catches most problems. For questions about specific tools, contact your agency's accessibility or MNIT resources.",
+   "keyPoint": "State agencies are expected to produce accessible digital work, following WCAG at level AA. Build accessibility into shared tools and documents, and route individual needs through the accommodation process.",
+   "example": "Fictional case: A DSD team starts using a new online whiteboard for brainstorming in hybrid planning sessions. Most of the team likes it. Leocadia, a team member who uses a screen reader, finds she cannot read or add to the whiteboard and has been emailing her ideas to a colleague to post for her. She has not made a formal request. Her team lead, Rafferty, notices her ideas always arrive late in the discussion.",
+   "question": "What is the most appropriate response for Rafferty?",
+   "choices": [
+    "Check with Leocadia privately about what is and is not working, bring the tool's accessibility to MNIT or agency accessibility staff, use an accessible alternative for now, and make sure Leocadia knows how to request an accommodation if she wants one.",
+    "Keep using the whiteboard, since Leocadia has found a workaround.",
+    "Ask Leocadia to submit an accommodation request so the team can keep using the tool."
+   ],
+   "feedback": [
+    "This is the best response. Rafferty treats the tool's inaccessibility as a team and state accessibility issue, fixes the immediate exclusion and leaves any individual request to Leocadia's choice.",
+    "A workaround that depends on a colleague delays her contributions and keeps her out of the live discussion. The tool itself is the barrier.",
+    "An accommodation process is available, but the underlying problem is that a shared tool does not meet accessibility expectations. Putting the burden on Leocadia alone misses that."
+   ],
+   "recommended": 0,
+   "reflection": "Which tools or document habits on your team might be hard to use for someone with a different way of seeing, hearing, moving or processing information? How would you find out?",
+   "action": "Run the built-in accessibility checker on one document or slide deck you are sharing this week, fix what it finds, and turn on captions in your next meeting you host.",
+   "check": {
+    "question": "What is the difference between building accessibility in and providing an individual accommodation?",
+    "correct": "Building accessibility in makes shared tools usable by many people from the start, while an accommodation is a specific adjustment for one person arranged through the accommodation process.",
+    "wrong": [
+     "They are the same thing under different names.",
+     "Building accessibility in is only required when an employee asks for it."
+    ],
+    "feedback": "State standards expect digital work to be accessible from the start. Accommodations still exist for specific individual needs. Both matter, and doing the first well reduces how often people have to ask for the second."
+   }
+  },
+  {
+   "title": "Telework as policy and telework as accommodation",
+   "objectives": [
+    "Describe the main features of the statewide telework policy for executive branch employees.",
+    "Explain how telework as a reasonable accommodation differs from telework under general policy.",
+    "Identify the supervisor's role when an employee asks for more telework for a disability-related reason.",
+    "Apply telework policy consistently across team members."
+   ],
+   "teaching": "Telework in Minnesota state service is governed by statewide policy, and the policy has changed in recent years, so always check the current version. Minnesota Management and Budget's telework policy states that telework is not an employee right or benefit, but a staffing arrangement at the discretion of the appointing authority. Under the current policy and its companion guidance, most executive branch employees may telework up to half of their scheduled workdays in a month, with more possible at agency discretion for people who live far from their work location. Employees and supervisors sign a telework schedule and acknowledgment, and supervisors and employees work out schedules based on business needs.\n\nTelework can also be a reasonable accommodation under the Americans with Disabilities Act, which is a different pathway. The U.S. Equal Employment Opportunity Commission explains that changing where work is done may be a reasonable accommodation even if the employer does not allow other employees to telework, and that an employer may need to modify a telework policy for an employee with a disability. The employer can choose among effective accommodations, so telework is not the only possible answer, and the employer does not have to remove essential job functions. The Job Accommodation Network adds that telework as an accommodation should match what the disability actually requires, whether full-time or part-time. The statewide policy itself notes that an ADA reasonable accommodation acknowledgment can modify its provisions, and MMB's guidance says employees can request telework beyond the policy limit as an accommodation through their supervisor, HR or the agency ADA coordinator.\n\nFor supervisors, the key is to recognize the request and route it. If an employee says they need more telework because of a health condition or disability, that is an accommodation request, even if they do not use those words. Do not decide it on your own, do not ask for a diagnosis and do not tell the employee that policy caps are final. Connect them to the ADA coordinator or HR, take part in the interactive process and keep any medical information confidential.\n\nFairness also matters for everyone else. Apply the general telework policy consistently. Do not grant or deny ordinary telework based on who you trust more or who is more visible. And when a colleague has an accommodation, do not explain or discuss the reason with the team.",
+   "keyPoint": "General telework is discretionary under statewide policy. Disability-related telework is an accommodation question that goes to the ADA coordinator or HR through the interactive process, and can go beyond policy limits.",
+   "example": "Fictional case: Tobiah, a DSD policy analyst, tells his supervisor, Genevieve, that commuting four days a week has become very difficult because of a chronic condition and asks whether he can telework more than the statewide limit. Genevieve wants to help but worries that approving it would be unfair to others who have also asked for more telework. She is tempted to say the limit applies to everyone.",
+   "question": "What should Genevieve do?",
+   "choices": [
+    "Tell Tobiah the limit applies to everyone, to keep things fair for the team.",
+    "Recognize this as a possible accommodation request, connect Tobiah with the ADA coordinator or HR, take part in the interactive process and keep his health information confidential.",
+    "Approve extra telework informally herself, without involving HR, to spare Tobiah paperwork."
+   ],
+   "feedback": [
+    "Treating the policy limit as final can deny a reasonable accommodation. The EEOC explains that telework policies may need to be modified for an employee with a disability.",
+    "This is the best response. It routes the request to the office responsible, protects Tobiah's privacy and respects the interactive process, which may result in telework or another effective accommodation.",
+    "Informal approval skips the process that protects Tobiah and the agency, leaves the arrangement undocumented and may be inconsistent with policy. Accommodations need the proper route."
+   ],
+   "recommended": 1,
+   "reflection": "If someone on your team asked you for a change in where or when they work, what words would signal that it might be an accommodation request? What would you do first?",
+   "action": "Find your agency's ADA coordinator contact and the current statewide telework policy and guidance. If you supervise, check that you apply the general policy the same way to everyone on your team.",
+   "check": {
+    "question": "According to the EEOC, can telework be a reasonable accommodation when an employer does not allow other employees to telework?",
+    "correct": "Yes. Changing the location of work can be a reasonable accommodation even when the employer does not generally allow telework, though the employer may choose another effective accommodation.",
+    "wrong": [
+     "No. Accommodations may never go beyond what a general policy allows.",
+     "Yes, and the employer must always grant exactly the telework schedule the employee requests."
+    ],
+    "feedback": "The ADA can require modifying workplace policies, including telework rules. The employer may still choose among effective accommodations and does not have to remove essential job functions. The interactive process decides what works."
+   }
+  }
+ ],
+ "cards": [
+  {
+   "front": "Proximity bias",
+   "back": "The tendency to favor people we see in person more often, often without intent, in assignments, recognition and evaluations."
+  },
+  {
+   "front": "Passive face time",
+   "back": "Being seen at work without interacting. Research found it leads observers to spontaneously judge people as dependable or committed."
+  },
+  {
+   "front": "Digital Accessibility Standard",
+   "back": "The State of Minnesota standard for accessible information technology, which incorporates WCAG at level AA."
+  },
+  {
+   "front": "Telework under general policy",
+   "back": "A staffing arrangement at the appointing authority's discretion under the statewide telework policy, with limits on how many days may be teleworked."
+  },
+  {
+   "front": "Telework as accommodation",
+   "back": "Telework provided as a reasonable accommodation for a disability through the interactive process. It can go beyond general policy limits, and the employer may choose another effective option."
+  }
+ ],
+ "aid": [
+  {
+   "heading": "Fair visibility checklist",
+   "items": [
+    "Define expected results for each role and review them the same way for everyone.",
+    "Track visible assignments and recognition by person each quarter.",
+    "Check whether on-site and remote staff are both represented.",
+    "Before nominating someone, ask whether results or presence drove the choice."
+   ]
+  },
+  {
+   "heading": "Hybrid meeting setup",
+   "items": [
+    "Everyone joins from their own device, or test room audio and video first.",
+    "Name a facilitator to watch chat and raised hands.",
+    "Invite remote participants to speak first on key questions.",
+    "Turn on captions and send accessible materials in advance.",
+    "Write decisions down and share any decisions made after the meeting."
+   ]
+  },
+  {
+   "heading": "When telework or tool access comes up",
+   "items": [
+    "Apply the general telework policy consistently to everyone.",
+    "Treat a disability-related request as a possible accommodation even without those words.",
+    "Route accommodation requests to the ADA coordinator or HR and do not ask for a diagnosis.",
+    "Keep medical information confidential.",
+    "Report inaccessible shared tools to agency accessibility or MNIT resources."
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "title": "Minnesota Management and Budget — HR/LR Policy 1422, Telework (revised 2025)",
+   "href": "https://mn.gov/mmb-stat/policies/1422-telework.pdf",
+   "note": "Supports that telework is a discretionary arrangement, the monthly limit on telework days for most employees, the acknowledgment form and that an ADA accommodation acknowledgment can modify the policy. Policy changes, so check the current version."
+  },
+  {
+   "title": "Minnesota Management and Budget — HR/LR Memo 2025-1, Telework Frequently Asked Questions",
+   "href": "https://mn.gov/mmb-stat/policies/1422-telework-memo.pdf",
+   "note": "Supports that employees may request telework beyond the policy limit as a reasonable accommodation through supervisors, HR or the ADA coordinator, and details on scheduling."
+  },
+  {
+   "title": "U.S. Equal Employment Opportunity Commission — Work at Home/Telework as a Reasonable Accommodation",
+   "href": "https://www.eeoc.gov/laws/guidance/work-hometelework-reasonable-accommodation",
+   "note": "Supports that telework may be a reasonable accommodation even where the employer does not otherwise allow it, that the employer may choose among effective accommodations and need not remove essential functions."
+  },
+  {
+   "title": "Job Accommodation Network — Telework",
+   "href": "https://askjan.org/topics/telework.cfm",
+   "note": "Supports that telework as an accommodation should match what the disability requires and that the employer may choose any effective accommodation. JAN provides guidance, not legal determinations."
+  },
+  {
+   "title": "Bloom, Han and Liang — Hybrid working from home improves retention without damaging performance, Nature (2024)",
+   "href": "https://www.nature.com/articles/s41586-024-07500-2",
+   "note": "Supports the randomized trial findings on retention, performance reviews, promotions and manager perceptions. The study covers one company in China and may not generalize."
+  },
+  {
+   "title": "Elsbach, Cable and Sherman — How passive face time affects perceptions of employees, Human Relations (2010), UC eScholarship",
+   "href": "https://escholarship.org/uc/item/42p1t2v4",
+   "note": "Supports the finding that being seen at work leads observers to spontaneously judge employees as dependable or committed. Based on interviews and an experiment with office workers."
+  },
+  {
+   "title": "Minnesota IT Services — Accessibility Policies and Standards",
+   "href": "https://mn.gov/mnit/government/policies/accessibility/",
+   "note": "Supports that the State of Minnesota Digital Accessibility Standard incorporates WCAG 2.1 level AA and that Minnesota law can make agencies liable for inaccessible records and course materials."
+  }
+ ]
+}

@@ -1,0 +1,444 @@
+[
+ {
+  "level": "Foundation",
+  "module": 1,
+  "id": "gc-respectful-workplace",
+  "title": "Respectful Workplace: Harassment, Bystander Action and Psychological Safety",
+  "indexNumber": 1401,
+  "seriesLabel": "Workforce and culture · Foundation",
+  "coverImage": "/images/covers/gc-respectful-workplace.webp",
+  "coverAlt": "Photograph of colleagues in a scene of respectful communication practice.",
+  "contentType": "foundation",
+  "themes": [
+   "culture",
+   "structural"
+  ]
+ },
+ {
+  "level": "Foundation",
+  "module": 2,
+  "id": "cq-afghan-minnesota",
+  "title": "Afghan Minnesota",
+  "indexNumber": 1402,
+  "seriesLabel": "Cultural Intelligence · Communities",
+  "coverImage": "/images/covers/cq-afghan-minnesota.webp",
+  "coverAlt": "Photograph of colleagues in a scene of multilingual family support.",
+  "contentType": "community-context",
+  "themes": [
+   "intercultural",
+   "partnership"
+  ]
+ },
+ {
+  "level": "Intermediate",
+  "module": 3,
+  "id": "dsd-mental-health-psychiatric-disability",
+  "title": "Mental Health and Psychiatric Disability in Disability Services",
+  "indexNumber": 1403,
+  "seriesLabel": "DSD Service System · Practice",
+  "coverImage": "/images/covers/dsd-mental-health-psychiatric-disability.webp",
+  "coverAlt": "Photograph of colleagues in a scene of trauma informed service.",
+  "contentType": "practice",
+  "themes": [
+   "access"
+  ]
+ },
+ {
+  "level": "Foundation",
+  "module": 4,
+  "id": "idi-minimization",
+  "title": "Minimization: When Sameness Feels Like Fairness",
+  "indexNumber": 1404,
+  "seriesLabel": "Intercultural Development Continuum · Stage 3 of 6",
+  "coverImage": "/images/covers/idi-minimization.webp",
+  "coverAlt": "Photograph of colleagues in a scene of cultural humility reflection.",
+  "contentType": "practice",
+  "themes": [
+   "intercultural",
+   "facilitation"
+  ]
+ },
+ {
+  "level": "Intermediate",
+  "module": 5,
+  "id": "idi-acceptance",
+  "title": "Acceptance: Recognizing Difference Without Judging It",
+  "indexNumber": 1405,
+  "seriesLabel": "Intercultural Development Continuum · Stage 4 of 6",
+  "coverImage": "/images/covers/idi-acceptance.webp",
+  "coverAlt": "Photograph of colleagues in a scene of workplace belonging.",
+  "contentType": "practice",
+  "themes": [
+   "intercultural",
+   "facilitation"
+  ]
+ },
+ {
+  "level": "Foundation",
+  "module": 6,
+  "id": "gc-faith-in-minnesota",
+  "title": "Faith and Religious Life in Minnesota",
+  "indexNumber": 1406,
+  "seriesLabel": "Cultural Intelligence · Communities",
+  "coverImage": "/images/covers/gc-faith-in-minnesota.webp",
+  "coverAlt": "Photograph of colleagues in a scene of community advisory table.",
+  "contentType": "community-context",
+  "themes": [
+   "intercultural",
+   "partnership"
+  ]
+ },
+ {
+  "level": "Intermediate",
+  "module": 7,
+  "id": "gc-career-pathways-succession",
+  "title": "Career Pathways, Succession and Advancement",
+  "indexNumber": 1407,
+  "seriesLabel": "Workforce and culture · Intermediate",
+  "coverImage": "/images/covers/gc-career-pathways-succession.webp",
+  "coverAlt": "Photograph of colleagues in a scene of cross role mentoring.",
+  "contentType": "practice",
+  "themes": [
+   "culture",
+   "structural"
+  ]
+ },
+ {
+  "level": "Advanced",
+  "module": 8,
+  "id": "gc-structural-racism",
+  "title": "Structural Racism and Institutional Power",
+  "indexNumber": 1408,
+  "seriesLabel": "Equity practice · Advanced",
+  "coverImage": "/images/covers/gc-structural-racism.webp",
+  "coverAlt": "Photograph of colleagues in a scene of anti racism learning dialogue.",
+  "contentType": "practice",
+  "themes": [
+   "structural"
+  ]
+ },
+ {
+  "level": "Intermediate",
+  "module": 9,
+  "id": "gc-using-community-briefs",
+  "title": "Using Community Briefs Well: Questions, Not Descriptions",
+  "indexNumber": 1409,
+  "seriesLabel": "Cultural Intelligence · Practice",
+  "coverImage": "/images/covers/gc-using-community-briefs.webp",
+  "coverAlt": "Photograph of colleagues in a scene of community partnership planning.",
+  "contentType": "practice",
+  "themes": [
+   "intercultural",
+   "partnership"
+  ]
+ },
+ {
+  "level": "Intermediate",
+  "module": 10,
+  "id": "gc-new-supervisor-inclusive-leadership",
+  "title": "New Supervisor Foundations: Inclusive Leadership Basics",
+  "indexNumber": 1410,
+  "seriesLabel": "Leadership practice · Supervisor foundations",
+  "coverImage": "/images/covers/gc-new-supervisor-inclusive-leadership.webp",
+  "coverAlt": "Photograph of colleagues in a scene of inclusive leadership coaching.",
+  "contentType": "practice",
+  "themes": [
+   "culture",
+   "facilitation"
+  ]
+ },
+ {
+  "level": "Foundation",
+  "module": 11,
+  "id": "cq-tibetan-minnesota",
+  "title": "Tibetan Minnesota",
+  "indexNumber": 1411,
+  "seriesLabel": "Cultural Intelligence · Communities",
+  "coverImage": "/images/covers/cq-tibetan-minnesota.webp",
+  "coverAlt": "Photograph of colleagues in a scene of community health navigation.",
+  "contentType": "community-context",
+  "themes": [
+   "intercultural",
+   "partnership"
+  ]
+ },
+ {
+  "level": "Foundation",
+  "module": 12,
+  "id": "cq-eritrean-minnesota",
+  "title": "Eritrean Minnesota",
+  "indexNumber": 1412,
+  "seriesLabel": "Cultural Intelligence · Communities",
+  "coverImage": "/images/covers/cq-eritrean-minnesota.webp",
+  "coverAlt": "Photograph of colleagues in a scene of language access planning.",
+  "contentType": "community-context",
+  "themes": [
+   "intercultural",
+   "partnership"
+  ]
+ },
+ {
+  "level": "Foundation",
+  "module": 13,
+  "id": "cq-sudanese-south-sudanese-minnesota",
+  "title": "Sudanese and South Sudanese Minnesota",
+  "indexNumber": 1413,
+  "seriesLabel": "Cultural Intelligence · Communities",
+  "coverImage": "/images/covers/cq-sudanese-south-sudanese-minnesota.webp",
+  "coverAlt": "Photograph of colleagues in a scene of caregiving support.",
+  "contentType": "community-context",
+  "themes": [
+   "intercultural",
+   "partnership"
+  ]
+ },
+ {
+  "level": "Foundation",
+  "module": 14,
+  "id": "gc-deaf-minnesota",
+  "title": "Deaf Minnesota: ASL, Language and Culture",
+  "indexNumber": 1414,
+  "seriesLabel": "Cultural Intelligence · Communities",
+  "coverImage": "/images/covers/gc-deaf-minnesota.webp",
+  "coverAlt": "Photograph of colleagues in a scene of communication access.",
+  "contentType": "community-context",
+  "themes": [
+   "access",
+   "intercultural"
+  ]
+ },
+ {
+  "level": "Intermediate",
+  "module": 15,
+  "id": "dsd-positive-supports",
+  "title": "Positive Supports and Reducing Restrictive Practices",
+  "indexNumber": 1415,
+  "seriesLabel": "DSD Service System · Practice",
+  "coverImage": "/images/covers/dsd-positive-supports.webp",
+  "coverAlt": "Photograph of colleagues in a scene of sensory friendly environments.",
+  "contentType": "practice",
+  "themes": [
+   "access"
+  ]
+ },
+ {
+  "level": "Intermediate",
+  "module": 16,
+  "id": "dsd-co-occurring-substance-use",
+  "title": "Co-occurring Substance Use and Disability",
+  "indexNumber": 1416,
+  "seriesLabel": "DSD Service System · Practice",
+  "coverImage": "/images/covers/dsd-co-occurring-substance-use.webp",
+  "coverAlt": "Photograph of colleagues in a scene of conflict de escalation.",
+  "contentType": "practice",
+  "themes": [
+   "access"
+  ]
+ },
+ {
+  "level": "Intermediate",
+  "module": 17,
+  "id": "gc-employee-resource-groups",
+  "title": "Employee Resource Groups and Affinity Spaces",
+  "indexNumber": 1417,
+  "seriesLabel": "Workforce and culture · Intermediate",
+  "coverImage": "/images/covers/gc-employee-resource-groups.webp",
+  "coverAlt": "Photograph of colleagues in a scene of employee resource group.",
+  "contentType": "practice",
+  "themes": [
+   "culture",
+   "partnership"
+  ]
+ },
+ {
+  "level": "Intermediate",
+  "module": 18,
+  "id": "gc-accommodation-transitions",
+  "title": "Accommodations Across Transitions and Accessible Leadership Pathways",
+  "indexNumber": 1418,
+  "seriesLabel": "Workforce and culture · Intermediate",
+  "coverImage": "/images/covers/gc-accommodation-transitions.webp",
+  "coverAlt": "Photograph of colleagues in a scene of low vision accessibility.",
+  "contentType": "practice",
+  "themes": [
+   "access",
+   "culture"
+  ]
+ },
+ {
+  "level": "Foundation",
+  "module": 19,
+  "id": "cq-cluster-frameworks-foundations",
+  "title": "Cultural Intelligence Foundations: Using Cluster Frameworks Without Stereotyping",
+  "indexNumber": 1419,
+  "seriesLabel": "Cultural Intelligence · Expand Your Borders",
+  "coverImage": "/images/covers/cq-cluster-frameworks-foundations.webp",
+  "coverAlt": "Photograph of colleagues in a scene of cross department collaboration.",
+  "contentType": "foundation",
+  "themes": [
+   "intercultural"
+  ]
+ },
+ {
+  "level": "Advanced",
+  "module": 20,
+  "id": "dsd-leading-system-change",
+  "title": "Leading System Change in Disability Services",
+  "indexNumber": 1420,
+  "seriesLabel": "DSD Service System · Leadership",
+  "coverImage": "/images/covers/dsd-leading-system-change.webp",
+  "coverAlt": "Photograph of colleagues in a scene of service journey mapping.",
+  "contentType": "practice",
+  "themes": [
+   "structural",
+   "access"
+  ]
+ },
+ {
+  "level": "Advanced",
+  "module": 21,
+  "id": "gc-equity-committee-roles",
+  "title": "Equity Committee and Unit Equity Team Roles",
+  "indexNumber": 1421,
+  "seriesLabel": "Equity practice · Advanced",
+  "coverImage": "/images/covers/gc-equity-committee-roles.webp",
+  "coverAlt": "Photograph of colleagues in a scene of equity impact assessment.",
+  "contentType": "practice",
+  "themes": [
+   "structural",
+   "facilitation"
+  ]
+ },
+ {
+  "level": "Advanced",
+  "module": 22,
+  "id": "ipe-capstone-intercultural-practice",
+  "title": "Capstone: Intercultural Practice in Action",
+  "indexNumber": 1422,
+  "seriesLabel": "Intercultural Practice and Equity · Capstone",
+  "coverImage": "/images/covers/ipe-capstone-intercultural-practice.webp",
+  "coverAlt": "Photograph of colleagues in a scene of action plan follow through.",
+  "contentType": "practice",
+  "themes": [
+   "intercultural",
+   "facilitation"
+  ]
+ },
+ {
+  "level": "Advanced",
+  "module": 23,
+  "id": "pi-equitable-oversight-design",
+  "title": "Equitable Oversight Design for Program Integrity Leaders",
+  "indexNumber": 1423,
+  "seriesLabel": "Program Integrity",
+  "coverImage": "/images/covers/pi-equitable-oversight-design.webp",
+  "coverAlt": "Photograph of colleagues in a scene of decision transparency.",
+  "contentType": "practice",
+  "themes": [
+   "structural"
+  ]
+ },
+ {
+  "level": "Advanced",
+  "module": 24,
+  "id": "cq-leading-multicultural-teams",
+  "title": "Leading Multicultural Teams Across Clusters",
+  "indexNumber": 1424,
+  "seriesLabel": "Cultural Intelligence · Expand Your Borders",
+  "coverImage": "/images/covers/cq-leading-multicultural-teams.webp",
+  "coverAlt": "Photograph of colleagues in a scene of inclusive facilitation skills.",
+  "contentType": "practice",
+  "themes": [
+   "intercultural",
+   "culture"
+  ]
+ },
+ {
+  "level": "Advanced",
+  "module": 25,
+  "id": "gc-automated-decisions",
+  "title": "Equity in Automated and Algorithm-Assisted Decisions",
+  "indexNumber": 1425,
+  "seriesLabel": "Equity practice · Advanced",
+  "coverImage": "/images/covers/gc-automated-decisions.webp",
+  "coverAlt": "Photograph of colleagues in a scene of data equity review.",
+  "contentType": "practice",
+  "themes": [
+   "structural",
+   "access"
+  ]
+ },
+ {
+  "level": "Foundation",
+  "module": 26,
+  "id": "gc-age-inclusion",
+  "title": "Age Inclusion and Ageism",
+  "indexNumber": 1426,
+  "seriesLabel": "Workforce and culture · Foundation",
+  "coverImage": "/images/covers/gc-age-inclusion.webp",
+  "coverAlt": "Photograph of colleagues in a scene of intergenerational collaboration.",
+  "contentType": "foundation",
+  "themes": [
+   "culture"
+  ]
+ },
+ {
+  "level": "Intermediate",
+  "module": 27,
+  "id": "gc-remote-hybrid-equity",
+  "title": "Equity in Remote and Hybrid Work",
+  "indexNumber": 1427,
+  "seriesLabel": "Workforce and culture · Intermediate",
+  "coverImage": "/images/covers/gc-remote-hybrid-equity.webp",
+  "coverAlt": "Photograph of colleagues in a scene of flexible work access.",
+  "contentType": "practice",
+  "themes": [
+   "culture",
+   "access"
+  ]
+ },
+ {
+  "level": "Intermediate",
+  "module": 28,
+  "id": "dsd-housing-instability",
+  "title": "Housing Instability, Homelessness and Service Access",
+  "indexNumber": 1428,
+  "seriesLabel": "DSD Service System · Practice",
+  "coverImage": "/images/covers/dsd-housing-instability.webp",
+  "coverAlt": "Photograph of colleagues in a scene of rural virtual access.",
+  "contentType": "practice",
+  "themes": [
+   "access",
+   "structural"
+  ]
+ },
+ {
+  "level": "Intermediate",
+  "module": 29,
+  "id": "dsd-justice-involvement-reentry",
+  "title": "Justice Involvement, Reentry and Service Access",
+  "indexNumber": 1429,
+  "seriesLabel": "DSD Service System · Practice",
+  "coverImage": "/images/covers/dsd-justice-involvement-reentry.webp",
+  "coverAlt": "Photograph of colleagues in a scene of feedback co design.",
+  "contentType": "practice",
+  "themes": [
+   "access",
+   "structural"
+  ]
+ },
+ {
+  "level": "Foundation",
+  "module": 30,
+  "id": "gc-sustaining-the-work",
+  "title": "Sustaining the Work: Secondary Trauma and Staff Well-Being",
+  "indexNumber": 1430,
+  "seriesLabel": "Workforce and culture · Foundation",
+  "coverImage": "/images/covers/gc-sustaining-the-work.webp",
+  "coverAlt": "Photograph of colleagues in a scene of learning lab reflection.",
+  "contentType": "foundation",
+  "themes": [
+   "culture"
+  ]
+ }
+]

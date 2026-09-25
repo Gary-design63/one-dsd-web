@@ -1,0 +1,242 @@
+{
+ "id": "gc-structural-racism",
+ "subtitle": "Analyze how rules, defaults and resources in public programs can produce racial inequity without intent, and lead a policy review that ends in an owned change.",
+ "audience": "For DHS and DSD leaders, managers, policy and program practitioners, and equity facilitators who review policies, design processes or guide team conversations about racial equity.",
+ "lessons": [
+  {
+   "title": "Individual, institutional and structural racism",
+   "objectives": [
+    "Distinguish individual, institutional and structural racism using published definitions.",
+    "Explain why a policy can produce racial inequity without anyone intending harm.",
+    "Identify which level of analysis a workplace concern belongs to before choosing a response.",
+    "Compare an intent-focused question with an effect-focused question about the same rule."
+   ],
+   "teaching": "Conversations about racism in public agencies often stall because people are using the same word for different things. One person hears an accusation about someone's character. Another is describing a pattern in outcomes that no single person created. Leaders can make these conversations more productive by naming the level of analysis first. The Government Alliance on Race and Equity (GARE), in its Racial Equity Toolkit, separates three levels. Individual racism is pre-judgment, bias or discrimination based on race by an individual. Institutional racism is policies, practices and procedures that work better for white people than for people of color, often unintentionally. Structural racism is the history and current reality of institutional racism across many institutions, combining to create a system that negatively affects communities of color.\n\nRace Forward uses a similar map. It describes internalized and interpersonal racism as the individual level, and institutional and structural racism as the systemic level. Its definition of structural racism stresses that inequities accumulate across institutions, policies, history and culture, so that an advantage or burden in one system (housing, for example) carries into others (schooling, employment, health, benefits). The details of wording differ between organizations, and you should cite the definition you actually use. What the definitions share is more important than their differences: the institutional and structural levels are about how systems operate, not about what is in any one person's heart.\n\nThis matters for DHS and DSD leaders because most of our influence is institutional. We write eligibility procedures, design notices, set office hours, choose which data to collect, approve contracts and decide how quickly an appeal is heard. Each of these is a place where a pattern can be reproduced or interrupted. An individual-level response, such as training one employee about bias, cannot fix a procedure that produces unequal results no matter who carries it out. An institutional-level response, such as changing the procedure, can.\n\nNaming the level is not a way to avoid individual accountability. Discriminatory conduct by an employee is serious and goes to the Equal Opportunity and Access Division and Human Resources, which make formal determinations. The point is to match the response to the problem. When outcomes differ by race and nobody can point to a biased act, the right next question is usually not who did this, but which rule, default or resource is producing the pattern and who has the authority to change it.",
+   "keyPoint": "Name the level before you choose the fix. Institutional and structural racism describe how systems produce unequal results, and they are changed by changing rules, defaults and resources, not by searching for a villain.",
+   "example": "Fictional case: In a DSD program team meeting, Marisol shares that families of color on the team's waiting list are less likely than white families to return a required follow-up form within the deadline. Dennis responds that the form is the same for everyone and staff treat all families the same. Priya, the supervisor, notices that Dennis is answering an individual-level question about staff conduct, while Marisol is raising an institutional-level question about how a deadline, a mailing process and an English-only form perform across different households.",
+   "question": "What should Priya do next?",
+   "choices": [
+    "Ask the team to review their own interactions with families for signs of personal bias before looking at anything else.",
+    "Name the two levels, thank both colleagues, and propose mapping how the form, deadline and mailing process work for different households.",
+    "Close the topic, since no one has identified a discriminatory act and the form treats everyone identically."
+   ],
+   "feedback": [
+    "Self-reflection has value, but starting here treats a possible process pattern as a question about personal character. It may make staff defensive and leave the form and deadline unexamined.",
+    "This is the strongest response. It separates the questions without dismissing either one and moves the team toward examining the institutional features that could be producing the pattern.",
+    "Identical treatment does not establish equal results. Closing the topic ignores an outcome pattern that the team has the authority to examine."
+   ],
+   "recommended": 1,
+   "reflection": "Think of a recent conversation about fairness in your work where people seemed to talk past each other. Privately, which level of analysis was each person using, and how might naming it have changed the conversation?",
+   "action": "Choose one routine process your team owns, such as a notice, a deadline or an intake step. Write two questions about it: one intent question (did anyone mean to treat people differently?) and one effect question (does it work equally well for people in different circumstances?). Bring the effect question to your next team meeting.",
+   "check": {
+    "question": "According to the GARE Racial Equity Toolkit, which description best fits institutional racism?",
+    "correct": "Policies, practices and procedures that work better for white people than for people of color, often unintentionally.",
+    "wrong": [
+     "Prejudiced actions by one employee toward one client.",
+     "Only practices that were designed with the intent to exclude people of color."
+    ],
+    "feedback": "GARE defines institutional racism by its effects within an institution, and it notes the effect is often unintentional. Individual acts are a separate level. Intent is not required for a practice to reproduce inequity, which is why effect questions matter."
+   }
+  },
+  {
+   "title": "How neutral rules land on unequal histories",
+   "objectives": [
+    "Describe Minnesota examples, such as racial covenants and redlining, that shaped present-day conditions.",
+    "Explain how a rule written the same for everyone can produce different results because of the conditions it meets.",
+    "Identify common DHS process features that may carry historical disadvantage forward.",
+    "Draft a question that connects a present rule to the history it lands on."
+   ],
+   "teaching": "A neutral rule is written without reference to race. A neutral result is something else: it means the rule works about equally well for everyone it touches. The gap between the two is where structural racism often operates. A rule meets people who arrive with different amounts of wealth, time, trust, transportation, documentation and prior experience with government, and those differences did not arise by accident.\n\nMinnesota has a well-documented example. The University of Minnesota Libraries' Mapping Prejudice project has identified thousands of racial covenants, clauses inserted into property deeds to prevent people who were not white from buying or occupying land, with a focus on Minneapolis and Hennepin County. The Federal Reserve Bank of Minneapolis has described how covenants, federal redlining maps that marked neighborhoods of color as high risk, and federal mortgage insurance practices that largely excluded buyers of color combined to shape who could buy homes and build wealth. It also describes freeway construction that cut through St. Paul's Rondo neighborhood, a center of Black community life. The Minneapolis Fed has reported that Minnesota's gap between white homeownership and homeownership among households of color and Native American households is among the largest in the nation. MN Compass publishes Minnesota homeownership rates broken out by race if you want to see current figures; use the published numbers and their date rather than repeating a figure from memory.\n\nHome equity is how many families pay for emergencies, education, care and a stable address. When wealth was blocked for some families across generations, that history shows up today in who can meet an asset limit, who has a fixed address for mail, who can take unpaid time off for a daytime appointment, and who has reason to be cautious with a government agency. None of this requires any present-day employee to act with bias. The rule simply lands on conditions that history produced.\n\nFor DHS and DSD work, the practical skill is to look at a rule and ask what it assumes about the person on the other side. Documentation requirements assume access to records. Mailed notices with short deadlines assume stable housing. English-only phone lines assume a language. A degree requirement for a position assumes a particular path through education. Some of these requirements are necessary and legally required; others are habits. Separating the two is institutional work that leaders and program staff can actually do.",
+   "keyPoint": "A rule can be neutral on paper and unequal in effect, because it lands on conditions shaped by history. Ask what each requirement assumes about the person who has to meet it.",
+   "example": "Fictional case: Tomas manages a unit that verifies information for a disability services program. The unit requires three months of paper bank statements. Staff report that some applicants repeatedly miss the deadline. When Tomas asks the team what the requirement assumes, they list: a bank account, mail at a stable address, and the ability to visit a branch or print statements. Kiana, a newer analyst, asks whether the program rule actually requires paper statements or whether other verification is allowed.",
+   "question": "What should Tomas do with Kiana's question?",
+   "choices": [
+    "Check with the policy owner what the rule actually requires, list acceptable alternatives if any exist, and look at who is missing the deadline.",
+    "Keep the current practice because changing it could look like lowering the standard for some applicants.",
+    "Allow staff to waive the requirement for anyone who seems to be struggling."
+   ],
+   "feedback": [
+    "This is the best response. It separates the legal requirement from the unit's habit, keeps the standard intact, and brings evidence to the question instead of guessing.",
+    "Keeping a habit that is not required is not the same as protecting a standard. The verification goal can stay the same while the acceptable methods change.",
+    "Individual waivers based on impressions are inconsistent, may exceed staff authority and can introduce new unfairness. The fix belongs at the level of the rule and the policy owner."
+   ],
+   "recommended": 0,
+   "reflection": "Privately consider one requirement in your own work that feels ordinary to you. What does it assume about the people who must meet it, and how confident are you that the assumption holds for everyone?",
+   "action": "Pick one requirement in a form, notice or process you touch. Write down what it assumes about the person (address, time, language, records, transportation, trust). Then find out whether the requirement comes from law, rule, policy or habit, and note who owns it.",
+   "check": {
+    "question": "What does it mean to say a rule is neutral but its results are not?",
+    "correct": "The rule does not mention race, yet it works less well for some groups because of the conditions and histories it meets.",
+    "wrong": [
+     "The rule was secretly written to exclude a group.",
+     "The rule is fair because everyone is treated identically, so any difference must come from individual choices."
+    ],
+    "feedback": "Neutral wording describes the text of a rule. Neutral results describe how it performs. Structural analysis looks at the gap between the two without assuming hidden intent, and without assuming that different results reflect only personal choices."
+   }
+  },
+  {
+   "title": "Disparate impact and reading data responsibly",
+   "objectives": [
+    "Explain the three questions in a disparate impact analysis under Title VI regulations.",
+    "Identify the limits of public disparity data before using it to support a conclusion.",
+    "Distinguish an internal equity review from a formal legal determination.",
+    "Plan how to combine data with the account of people affected."
+   ],
+   "teaching": "Disparate impact is a legal concept that is useful for leaders to understand at a working level. Title VI of the Civil Rights Act prohibits discrimination based on race, color or national origin in programs that receive federal funds, and federal regulations also reach criteria or methods of administration that have discriminatory effects. The U.S. Department of Justice Title VI Legal Manual describes the analysis in three parts. First, is there an adverse disparate impact: a specific policy that causes a harm falling disproportionately on a protected group? Second, does the recipient have a substantial legitimate justification: is the policy necessary to meet an important, integral goal, supported by evidence rather than speculation? Third, is there a less discriminatory alternative that would meet the same goal?\n\nYou do not need to be a lawyer to use these three questions as a design discipline. They are the same questions a careful program team would ask anyway: What is the effect? Why do we need this? Is there another way? What you should not do is announce a legal conclusion. Whether a practice violates Title VI, the Minnesota Human Rights Act or any other law is a formal determination for legal counsel, the Equal Opportunity and Access Division, or an enforcement agency. Your job in an equity review is to surface the pattern, document the reasoning and route concerns to the right office.\n\nData is where many reviews go wrong. Public sources such as MN Compass, Minnesota Department of Health equity reports, and DHS program dashboards can show disparities by race and ethnicity. They cannot, on their own, tell you why a disparity exists. Before using a number, check its date, its definitions, which groups were combined, how small the counts are, and whether data is missing more often for some groups. A combined category can hide large differences between, for example, Somali, Hmong, Karen and Ethiopian Minnesotans. Small numbers can swing sharply from year to year. Never invent or estimate a figure to make a point, and always cite where a number came from.\n\nNumbers describe patterns; people describe how the pattern is lived. The GARE toolkit pairs data with community engagement for this reason. Talk with the people and partners affected, including counties and Tribal Nations where they administer services, about what the process is like from their side. Their account often points to the mechanism that the data only hints at.",
+   "keyPoint": "Use the disparate impact questions as a design discipline (effect, justification, alternatives), read data with its limits in view, and leave legal conclusions to the offices that make them.",
+   "example": "Fictional case: Grace, a data analyst, finds that denials for a service authorization are more common in two racial groups. Her manager, Olu, is drafting a briefing for leadership. A colleague suggests titling the briefing 'Evidence of discrimination in authorizations.' Grace notes that the counts for one group are small, that race is missing for many records, and that the team has not yet looked at which denial reasons drive the pattern.",
+   "question": "How should Olu frame the briefing?",
+   "choices": [
+    "Title it as evidence of discrimination, because naming the problem strongly is the best way to get leadership attention.",
+    "Leave out the disparity until the data is perfect, to avoid alarming anyone.",
+    "Describe the pattern and its data limits, list the next analytic steps, and note that any legal question will be referred to counsel and EOAD."
+   ],
+   "feedback": [
+    "The briefing would state a legal conclusion the team cannot make and the data cannot yet support. That can undermine trust in a real pattern.",
+    "Data is rarely perfect. Withholding a credible pattern delays examination and can leave a harmful process in place.",
+    "This is the strongest response. It reports what is known, is honest about limits, proposes how to learn more and routes formal questions to the right offices."
+   ],
+   "recommended": 2,
+   "reflection": "When you have seen a disparity number used at work, how often was its date, definition or data gap mentioned? What would help you ask about those limits comfortably?",
+   "action": "Find one published Minnesota disparity figure relevant to your area, from MN Compass, MDH or a DHS report. Write down its source, date, definitions, which groups are combined and one thing it cannot tell you. Share the note with a colleague who uses the same data.",
+   "check": {
+    "question": "In the Title VI disparate impact framework described by the Department of Justice, what is the third question?",
+    "correct": "Whether a less discriminatory alternative exists that would meet the same legitimate goal.",
+    "wrong": [
+     "Whether the staff who applied the policy intended to discriminate.",
+     "Whether the affected group is larger than a set percentage of the population."
+    ],
+    "feedback": "The analysis asks about adverse impact, then substantial legitimate justification, then less discriminatory alternatives. Intent is not part of the effects test, and there is no single population threshold. A justified policy can still be a problem if a less harmful alternative would meet the same goal."
+   }
+  },
+  {
+   "title": "Analyzing a policy with the Equity Analysis Toolkit",
+   "objectives": [
+    "Apply the State of Minnesota Equity Analysis Toolkit questions to a fictional DHS policy.",
+    "Identify who holds decision rights over a rule, default or resource under review.",
+    "Explain how workplace norms can operate as unexamined defaults without accusing anyone.",
+    "Plan a change with an owner, a date to look again and a way to report back to people affected."
+   ],
+   "teaching": "The State of Minnesota Equity Analysis Toolkit, now published by the Office of Equity, Opportunity, and Accessibility, gives agencies a structured way to examine who a decision affects. Its quick guide works through impact assessment, equitable partner engagement, data and evidence, access and accessibility, monitoring and evaluation, resources, and implementation and accountability. Its core questions are plain: What outcomes do we intend? Who are we including? How can we collaborate? What impact will result? How will we be accountable? How will we communicate? The GARE toolkit follows a similar arc: describe the proposal, examine data, engage community, analyze benefits and burdens, plan implementation, and report results.\n\nAt the advanced level, the toolkit is only as strong as the power analysis you bring to it. Institutions reproduce what they do not examine, and defaults persist because they work for the people who set them. So for each part of a policy, ask who decided it, who can change it and who bears the cost if it stays. Some features are set by federal or state law. Others are set by DHS policy, by a division, by a contract, or by a supervisor's habit. Mapping decision rights keeps a review from ending in recommendations that no one has the authority to act on.\n\nNorms deserve the same scrutiny as rules. Ideas about what counts as professional communication, a reasonable pace, credible evidence or appropriate expertise often reflect one culture's habits presented as universal standards. In many U.S. institutions that default culture has been white and middle class. Naming this is a design observation, not an accusation. If a hiring panel treats one communication style as a proxy for competence, or a stakeholder meeting assumes everyone can attend on a weekday afternoon, those are defaults you can test and change.\n\nFinally, connect the analysis to a decision with an owner. An equity analysis that produces a thoughtful document and no change has not done its job. Choose what to change (the rule, the default or the resource), who will do it, when you will look again, and how you will tell the people who informed the review what happened. The toolkit's own guidance is that equity work is about action and needs continuous reassessment. Expect the first change to reveal a second problem, and treat that as progress rather than failure.",
+   "keyPoint": "An equity analysis is complete when it names who holds power over the rule, changes something with an owner and a date, and reports back to the people affected.",
+   "example": "Fictional case: A DSD policy team is revising how people request a change in their service plan. Current practice requires a request by phone during business hours. Hye-jin leads an equity analysis. Engagement with self-advocates and two county case managers shows that people who work hourly jobs or rely on interpreters struggle to reach staff. The team drafts a written and online request option. Ahmed points out that the phone-only practice is set by a division procedure, not by law.",
+   "question": "What should Hye-jin do next?",
+   "choices": [
+    "Publish the equity analysis as a report and let division leaders decide later whether to act on it.",
+    "Take the draft change to the procedure owner with the analysis, propose a start date and a review date, and plan how to tell participants what changed.",
+    "Pause until the team can prove the phone-only practice caused worse outcomes for specific racial groups."
+   ],
+   "feedback": [
+    "A report without an owner or decision point is how equity analyses stall. The team already knows who controls the procedure.",
+    "This is the best response. It uses the decision-rights map, connects the analysis to a concrete change, sets a time to look again and closes the loop with the people who contributed.",
+    "Evidence matters, but the team already has credible accounts of a barrier within its own authority to fix. Waiting for proof of racial causation can leave an avoidable barrier in place."
+   ],
+   "recommended": 1,
+   "reflection": "Consider a workplace norm you rely on, such as a meeting format, a writing style or a way of showing expertise. Privately, who does this norm work well for, and who might it quietly screen out?",
+   "action": "Use the job aid to map decision rights for one policy or practice your team owns: list each feature, whether it comes from law, rule, policy, contract or habit, and who can change it. Choose one feature within your authority to test changing, and set a date to look again.",
+   "check": {
+    "question": "Why does an advanced equity analysis map decision rights?",
+    "correct": "So recommendations are directed to the person or body that actually has authority to change the rule, default or resource.",
+    "wrong": [
+     "So the team can assign blame to the person who created the original rule.",
+     "So features set by law can be ignored in the analysis."
+    ],
+    "feedback": "Mapping decision rights is about moving from analysis to action. It is not a blame exercise. Features set by law still matter; they may call for a legislative proposal, guidance or mitigation rather than a local change."
+   }
+  }
+ ],
+ "cards": [
+  {
+   "front": "Individual racism",
+   "back": "Pre-judgment, bias or discrimination based on race by an individual (GARE Racial Equity Toolkit)."
+  },
+  {
+   "front": "Institutional racism",
+   "back": "Policies, practices and procedures within an institution that work better for white people than for people of color, often unintentionally."
+  },
+  {
+   "front": "Structural racism",
+   "back": "The history and current reality of institutional racism across many institutions, combining to produce inequity across housing, health, work, education and public services."
+  },
+  {
+   "front": "Disparate impact",
+   "back": "A facially neutral policy that causes a harm falling disproportionately on a protected group. The analysis asks about impact, legitimate justification and less discriminatory alternatives."
+  },
+  {
+   "front": "Neutral rule, unequal result",
+   "back": "A rule written the same for everyone that performs differently because of the conditions and histories it meets."
+  }
+ ],
+ "aid": [
+  {
+   "heading": "Name the level",
+   "items": [
+    "Ask whether the concern is about one person's conduct, an institutional rule or practice, or a pattern across systems.",
+    "Route alleged discriminatory conduct to EOAD and Human Resources; do not investigate it yourself.",
+    "For outcome patterns, ask which rule, default or resource could be producing them."
+   ]
+  },
+  {
+   "heading": "Examine the rule",
+   "items": [
+    "Write what the requirement assumes about the person who must meet it.",
+    "Find whether it comes from law, rule, policy, contract or habit, and who owns it.",
+    "Ask the three disparate impact questions: effect, justification, alternative.",
+    "Leave legal conclusions to legal counsel and EOAD."
+   ]
+  },
+  {
+   "heading": "Use data carefully",
+   "items": [
+    "Cite every figure with source and date; never estimate or invent a number.",
+    "Check definitions, combined groups, small counts and missing data.",
+    "Pair data with the account of people affected, including county and Tribal partners."
+   ]
+  },
+  {
+   "heading": "Close the loop",
+   "items": [
+    "Choose what to change: the rule, the default or the resource.",
+    "Name an owner, a start date and a date to look again.",
+    "Tell the people who informed the review what changed and what did not.",
+    "Treat a newly discovered barrier as the next question, not a failure."
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "title": "Government Alliance on Race and Equity — Racial Equity Toolkit: An Opportunity to Operationalize Equity (2015, archived copy hosted by UC Berkeley Othering and Belonging Institute)",
+   "href": "https://belonging.berkeley.edu/sites/default/files/ARCHIVE/gare-racial_equity_toolkit.pdf",
+   "note": "Source of the individual, institutional and structural racism definitions (Appendix A) and the six-step analysis used in lessons 1, 3 and 4. An archived copy; cite as a GARE publication."
+  },
+  {
+   "title": "Race Forward — What is Racial Equity?",
+   "href": "https://www.raceforward.org/what-racial-equity-0",
+   "note": "Supports the internalized, interpersonal, institutional and structural levels described in lesson 1. Wording differs from GARE; cite whichever definition you use."
+  },
+  {
+   "title": "U.S. Department of Justice, Civil Rights Division — Title VI Legal Manual, Section VII: Proving Discrimination, Disparate Impact",
+   "href": "https://www.justice.gov/crt/fcs/T6Manual7",
+   "note": "Supports the three-part disparate impact framework in lesson 3. Used for working-level understanding only; formal determinations belong to counsel and enforcement agencies."
+  },
+  {
+   "title": "Federal Reserve Bank of Minneapolis — Systemic racism haunts homeownership rates in Minnesota (2021)",
+   "href": "https://www.minneapolisfed.org/article/2021/systemic-racism-haunts-homeownership-rates-in-minnesota",
+   "note": "Supports the history of covenants, redlining, federal mortgage practices and the Rondo freeway, and the finding that Minnesota's homeownership gap ranks among the largest nationally. The ranking reflects the article's date."
+  },
+  {
+   "title": "University of Minnesota Libraries — Mapping Prejudice",
+   "href": "https://mappingprejudice.umn.edu/",
+   "note": "Supports the definition of racial covenants and the project's documentation of covenants in Minneapolis and Hennepin County."
+  },
+  {
+   "title": "MN Compass — Housing (homeownership rate by race)",
+   "href": "https://www.mncompass.org/topics/quality-of-life/housing",
+   "note": "Public source of current Minnesota homeownership rates by race. The course points learners to it rather than quoting figures; check the date of any number used."
+  },
+  {
+   "title": "State of Minnesota — Equity Analysis Toolkit: A Quick Guide",
+   "href": "https://mn.gov/mmb-stat/equal-opportunity/office-of-inclusion/equity-analysis-toolkit.pdf",
+   "note": "Supports the toolkit criteria and core questions in lesson 4. The toolkit is now presented on the Office of Equity, Opportunity, and Accessibility site (mn.gov/oeoa/resources/equity-analysis-toolkit)."
+  }
+ ]
+}

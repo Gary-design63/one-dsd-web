@@ -1,0 +1,248 @@
+{
+  "id": "dsd-mental-health-psychiatric-disability",
+  "subtitle": "Apply disability rights, recovery orientation and Minnesota crisis resources to case, program and oversight decisions that involve people with psychiatric disabilities.",
+  "audience": "For Disability Services Division staff, case managers and care coordinators, lead agencies, 245D provider oversight staff, and program, policy and supervisory staff who serve or make decisions affecting people with mental illness, including people who also have intellectual or developmental disabilities.",
+  "lessons": [
+    {
+      "title": "Psychiatric disability is disability",
+      "objectives": [
+        "Explain why a mental health condition can be a disability under the ADA and Section 504.",
+        "Describe the Olmstead decision and the conditions the Supreme Court set for community-based services.",
+        "Distinguish the binding court decision from shifting federal enforcement guidance.",
+        "Identify when to route a rights question to the ADA coordinator or legal counsel."
+      ],
+      "teaching": "Disability services staff sometimes treat mental illness as someone else's business: a health care matter for clinics and hospitals rather than a disability matter for waivers, case management and provider oversight. The law does not draw that line. Under the Americans with Disabilities Act and Section 504 of the Rehabilitation Act, a mental impairment that substantially limits a major life activity can be a disability, just as a physical or intellectual impairment can. Psychiatric disability is often invisible and often episodic. A person may do well for long stretches and then need more support. That pattern does not make the disability less real, and it does not remove the person's right to equal access to public programs.\n\nThe Olmstead decision is a reminder of how closely mental illness and disability services are tied. The case was brought on behalf of two Georgia women with mental illness and intellectual disabilities who stayed confined in a state psychiatric hospital after their own treatment professionals agreed they could live in the community. The Supreme Court held that unjustified segregation of people with disabilities is a form of discrimination under Title II of the ADA. Public entities must provide community-based services when those services are appropriate, the person does not oppose them, and they can be reasonably accommodated given the state's resources and the needs of others it serves.\n\nMinnesota's Olmstead Plan is a set of goals for state agencies that puts this principle into practice across housing, employment, person-centered planning, transportation and more. Federal enforcement positions can change. In recent months the U.S. Department of Justice issued a legal opinion that reads Olmstead more narrowly than the federal government had for years, and the Minnesota Olmstead Implementation Office has publicly described it as a significant departure from the long-standing interpretation. The Supreme Court's decision itself was not overturned, and Minnesota has said it remains committed to its Olmstead work. You do not need to resolve those legal debates in your daily work.\n\nWhat you do need is a habit of noticing when a decision touches rights. If a person's psychiatric disability affects whether they can use a service, attend a meeting, meet a deadline or live in the setting they choose, that is a disability access question, not only a clinical one. Formal determinations about ADA obligations, reasonable modifications and legal risk belong to the ADA coordinator and legal counsel. Your job is to spot the question early, describe it accurately and route it.",
+      "keyPoint": "Mental illness can be a disability, and people with psychiatric disabilities have the same right to community services and equal access as anyone else. Spot rights questions early and route formal determinations to the responsible office.",
+      "example": "Marisol, a lead agency case manager, supports Terrence, who receives waiver services and has a psychiatric disability. A provider emails that Terrence has missed two planning meetings and asks whether his services should be reduced because he is not engaged. Marisol notices that both meetings were scheduled for early morning, when Terrence has told her his medication makes it hard to be alert. The provider's message frames the absences as a choice, but Marisol sees a possible access issue that has not been discussed with Terrence at all.",
+      "question": "What should Marisol do next?",
+      "choices": [
+        "Tell the provider that reducing services is reasonable because missed meetings show Terrence does not want support.",
+        "Talk with Terrence about what times and formats work for him, reschedule accordingly, and ask her supervisor or the ADA coordinator if a formal modification question comes up.",
+        "Ask Terrence's psychiatrist to confirm in writing that he has a disability before changing anything."
+      ],
+      "feedback": [
+        "Treating missed meetings as refusal skips the more likely explanation. It can also lead to a service reduction based on a barrier the system created, which raises both fairness and rights concerns.",
+        "This is the strongest response. It treats the absences as a possible access barrier, asks Terrence directly, makes a simple change that is within Marisol's role, and routes any formal ADA question to the office that decides it.",
+        "Asking for clinical proof before making an ordinary scheduling change places an unnecessary burden on Terrence and shares health information beyond what the task needs. A flexible meeting time does not require a formal disability determination."
+      ],
+      "recommended": 1,
+      "reflection": "Think about a recent situation in your work where someone's participation was described as a lack of motivation. What other explanations could you have considered?",
+      "action": "Review one standard process you use, such as meeting scheduling or deadline reminders, and write down one way it could be adjusted for someone whose symptoms vary by time of day or week.",
+      "check": {
+        "question": "Which statement best describes the Olmstead decision?",
+        "correct": "Unjustified segregation of people with disabilities is discrimination, and public entities must offer community services when appropriate, not opposed by the person, and reasonably accommodated.",
+        "wrong": [
+          "It applies only to people with intellectual disabilities and does not cover people with mental illness.",
+          "It requires states to close all institutions regardless of a person's needs or wishes."
+        ],
+        "feedback": "The case involved two women with both mental illness and intellectual disabilities. The Court set three conditions for community-based services rather than ordering every institution closed. Federal enforcement guidance has shifted recently, but the decision itself still stands, and legal questions go to counsel."
+      }
+    },
+    {
+      "title": "Recovery, stigma and diagnostic overshadowing",
+      "objectives": [
+        "Explain what a recovery orientation means in disability services planning.",
+        "Identify how stigma can shape case notes, referrals and provider decisions.",
+        "Describe diagnostic overshadowing and why it matters for people with intellectual or developmental disabilities.",
+        "Draft a neutral, behavior-based description to replace a labeling statement."
+      ],
+      "teaching": "The federal Substance Abuse and Mental Health Services Administration describes recovery as a process of change through which people improve their health and wellness, live self-directed lives and strive to reach their full potential. Recovery does not mean the absence of symptoms. It means a person has a life they value and a real say in how it goes. For disability services, a recovery orientation fits naturally with person-centered planning: start with what matters to the person, build on strengths, and expect growth rather than decline.\n\nStigma works against recovery in small, repeated ways. A case note that says a person is noncompliant, manipulative or attention seeking travels from file to file and shapes how new staff and providers see them. Labels like these describe an interpretation, not a behavior. A more useful note records what happened, what the person said they needed and what was tried. Neutral language protects the person's dignity, and it also makes the record more accurate for everyone who relies on it later, including reviewers and the person themselves, who has a right to see much of what is written about them.\n\nDiagnostic overshadowing is a specific kind of stigma. It happens when a new sign of distress is assumed to be part of an existing disability instead of being checked as a separate health or mental health concern. For people with intellectual or developmental disabilities, a change in sleep, appetite, mood or behavior may be written off as the disability when it could signal depression, anxiety, trauma, pain or a medical problem. A recent umbrella review of research found that some mental health conditions, including psychotic disorders, appear more common among people with intellectual disabilities than in the general population, and that under-diagnosis is a real concern. The same review rated most of the underlying studies as low quality, so the exact numbers should be treated with caution.\n\nYou are not the person who makes a diagnosis. You are often the person who notices a change first, or who reads a provider report and asks whether anyone has looked into it. The practical skill is simple: when behavior changes, ask what else might be going on, and make sure the right professional is involved.",
+      "keyPoint": "Recovery means a self-directed life the person values, not the absence of symptoms. When behavior changes, ask whether a health or mental health concern is being overlooked rather than assuming it is part of an existing disability.",
+      "example": "Jonah reviews incident reports for 245D providers. A report about Adaeze, who has an intellectual disability, says she has become aggressive and has stopped eating with housemates, and that this is typical for her diagnosis. Jonah checks earlier reports and sees no similar incidents in the past year. The provider's plan proposes more structure and fewer outings. Nothing in the file shows that anyone has asked Adaeze what has changed or arranged a health or mental health check.",
+      "question": "What should Jonah do next?",
+      "choices": [
+        "Ask the provider and case manager whether a medical and mental health review has been arranged, and whether anyone has asked Adaeze what has changed, before the plan is narrowed.",
+        "Accept the provider's explanation because staff who see Adaeze daily know her best.",
+        "Flag the provider for a licensing violation because the report uses labeling language."
+      ],
+      "feedback": [
+        "This is the strongest response. It names the risk of diagnostic overshadowing, keeps the person's voice at the center and asks the right professionals to look before restrictions are added.",
+        "Daily staff insight is valuable, but a sudden change is exactly the situation where assumptions about a diagnosis can hide a new health or mental health need. Accepting the explanation without a check could delay care.",
+        "The language in the report is worth addressing, but jumping to a violation finding does not answer the more urgent question about Adaeze's health. Formal licensing determinations also follow their own process and office."
+      ],
+      "recommended": 0,
+      "reflection": "Recall a phrase you have seen in case files that labels a person rather than describing what happened. How might it have shaped the next reader's view?",
+      "action": "Pick three recent notes you wrote and rewrite any labeling phrase as a description of what happened, what the person said and what was tried.",
+      "check": {
+        "question": "What is diagnostic overshadowing?",
+        "correct": "Attributing a new symptom or change to an existing disability so that a separate health or mental health condition is overlooked.",
+        "wrong": [
+          "Giving a person too many diagnoses so that the main disability is hidden.",
+          "A clinician's decision to keep a diagnosis private from the support team."
+        ],
+        "feedback": "Diagnostic overshadowing happens when a known disability becomes the explanation for everything. It can delay treatment for depression, anxiety, pain or medical illness, especially for people with intellectual or developmental disabilities. Staff do not diagnose, but they can ask whether a change has been checked."
+      }
+    },
+    {
+      "title": "Crisis resources and crisis planning in Minnesota",
+      "objectives": [
+        "Identify the main crisis options described by DHS, including 988, county and Tribal mobile crisis teams and follow-up crisis services.",
+        "Distinguish a mental health crisis response from a medical emergency that requires 911.",
+        "Plan how to help a person build a crisis plan in advance using their own preferences.",
+        "Explain how crisis calls connect to provider reporting duties under the Positive Supports Rule."
+      ],
+      "teaching": "The Minnesota Department of Human Services tells people who are thinking about suicide or having a mental health crisis to call or text 988 to reach the Suicide and Crisis Lifeline, and to call 911 for a medical emergency. People can also contact their local mobile crisis team directly. DHS keeps a directory of mental health crisis phone numbers by county and Tribe, and describes crisis services as available around the clock across the state. Because numbers and local arrangements change, point people to the current DHS directory rather than keeping an old list in a desk drawer.\n\nDHS describes mobile crisis teams as mental health professionals and practitioners who provide psychiatric services in a person's home or another place outside the usual clinic setting. Crisis help in Minnesota can include mobile crisis response, where trained responders come to the person's home or a place the person chooses; residential crisis services, where a person can stay for a few days in a facility until the crisis is under control; and crisis stabilization, which follows a crisis and helps the person connect with other providers and build skills to prevent the next one. For many people, a mental health response is safer and more helpful than a law enforcement response, but medical emergencies still call for 911.\n\nThe best time to plan for a crisis is when the person is well. A useful crisis plan is written with the person, in their words. It records early warning signs, what helps and what makes things worse, who they want contacted and who they do not, preferred crisis services, current medications and any trauma-related triggers such as being touched or being in a locked room. A trauma-informed plan avoids forcing the person to retell painful history and focuses on what they want others to know.\n\nFor 245D licensed providers, crisis events also carry reporting duties. The Positive Supports Rule requires license holders to report certain events to DHS on the behavior intervention report form, including an incident that requires a call to mental health mobile crisis services and a behavioral incident that results in a call to 911. Oversight staff should read these reports as signals about whether a person's supports are working, not only as paperwork.",
+      "keyPoint": "Know the current Minnesota crisis options, including 988 and county or Tribal mobile crisis teams, and help people plan ahead in their own words. For licensed providers, crisis calls are also reportable events that should prompt a look at supports.",
+      "example": "Imani supervises case managers at a county lead agency. During a team meeting, a case manager mentions that Walt, who receives waiver services and lives in his own apartment, called her late one night in distress, and she did not know whom to call besides 911. The team realizes their printed crisis list is out of date and that few of the people they serve have written crisis plans. Walt has said before that police at his door frightens him.",
+      "question": "What should Imani do next?",
+      "choices": [
+        "Tell case managers to call 911 in every situation to be safe.",
+        "Leave crisis planning to mental health providers because it is outside disability case management.",
+        "Replace the printed list with a link to the current DHS crisis directory, and set a goal for case managers to help each person who wants one write a crisis plan, starting with Walt."
+      ],
+      "feedback": [
+        "911 is right for medical emergencies, but using it for every mental health crisis ignores faster, more suitable options such as 988 and mobile crisis, and it disregards what Walt has said frightens him.",
+        "Case managers coordinate services across systems. Crisis planning is part of person-centered support, and mental health providers can contribute, but the case manager is often the one who can bring it together.",
+        "This is the strongest response. It fixes the out-of-date information, uses DHS as the authoritative source and builds a person-centered crisis plan that reflects Walt's own preferences."
+      ],
+      "recommended": 2,
+      "reflection": "If someone you serve called you in crisis tomorrow, how confident would you feel about your next step? What would make you more confident?",
+      "action": "Find the current DHS mental health crisis phone directory for the counties or Tribes you work with, save the link where your team can reach it, and check that it matches any printed materials you hand out.",
+      "check": {
+        "question": "According to DHS, which option is designed to send trained responders to a person's home or a place the person chooses during a mental health crisis?",
+        "correct": "Mobile crisis response services.",
+        "wrong": [
+          "Residential crisis services.",
+          "Crisis stabilization services."
+        ],
+        "feedback": "Mobile crisis response brings one or two trained responders to the person. Residential crisis services offer a short stay in a facility, and crisis stabilization follows a crisis to connect the person with ongoing supports. Knowing the difference helps you explain choices to people and families."
+      }
+    },
+    {
+      "title": "Working across mental health and disability services",
+      "objectives": [
+        "Describe how CADI waiver eligibility and adult mental health services such as ARMHS can fit together in one person's plan.",
+        "Identify gaps that appear when mental health and disability systems each assume the other is responsible.",
+        "Plan a coordinated, person-centered team conversation that respects data privacy rules.",
+        "Compare trauma-informed and compliance-driven approaches to a service change."
+      ],
+      "teaching": "Many people with psychiatric disabilities are served by both disability and mental health systems. According to the DHS Community-Based Services Manual, the Community Access for Disability Inclusion, or CADI, waiver is for people who are eligible for Medical Assistance based on disability or another basis, are certified disabled by Social Security or the State Medical Review Team, are under sixty-five when they first open to the waiver, are assessed through MnCHOICES as needing the level of care provided in a nursing facility, and need supports beyond what the Medical Assistance state plan offers. The disability certification can rest on a mental illness, so people whose primary disability is psychiatric can qualify when they meet the other criteria. Waiver rules and program structures change, so check the current manual for details.\n\nAdult mental health services can sit alongside waiver services. The DHS provider manual describes Adult Rehabilitative Mental Health Services, often called ARMHS, as services that help adults develop psychiatric stability, social skills, personal adjustment and independent living skills when those abilities are affected by symptoms of mental illness. People may also work with mental health targeted case managers, therapists, psychiatric prescribers and crisis teams. Each has a different role, funding source and set of rules.\n\nThe risk is a gap in the middle. A federal advisory on treatment for people with disabilities describes disability departments saying people with serious mental illness are not theirs, and mental health departments saying the same about people with disabilities. The person then carries the burden of connecting everyone. A person-centered approach puts the person's goals first and asks each part of the team what it contributes. Coordination still has to respect privacy. The Minnesota Government Data Practices Act and health privacy laws limit what can be shared and with whom, so get the person's informed consent or confirm the legal basis before sharing, and ask your data practices contact when unsure.\n\nTrauma-informed practice matters here because many people with psychiatric disabilities have experienced trauma, including trauma in service systems. A compliance-driven response to a problem asks which rule was broken. A trauma-informed response asks what happened, what the person needs to feel safe, and how the system can avoid repeating harm. Both matter, but starting with safety and choice usually leads to better plans.",
+      "keyPoint": "People with psychiatric disabilities often need both disability and mental health services. Close the gap between systems through person-centered coordination that respects data privacy and avoids repeating harm.",
+      "example": "Rosa is a DSD program consultant helping a county resolve a stuck case. Kwame receives CADI waiver services in an apartment and also sees an ARMHS practitioner. His waiver provider says his hoarding and missed rent are a mental health issue; his ARMHS practitioner says housing problems are for the waiver team. Kwame has told his case manager he is afraid of losing his apartment and being sent back to a facility. No one has met together, and Kwame has not been asked who he wants involved.",
+      "question": "What should Rosa suggest?",
+      "choices": [
+        "Suggest the case manager ask Kwame whom he wants at a joint planning meeting, get his signed consent to share information, and use the meeting to agree on who does what toward his goal of keeping his home.",
+        "Recommend that the waiver provider end services because the issues are clinical.",
+        "Ask each provider to send Rosa its records so she can decide which system is responsible."
+      ],
+      "feedback": [
+        "This is the strongest response. It centers Kwame's goal, builds a shared plan across both systems and handles information sharing through his consent.",
+        "Ending waiver services because a problem is labeled clinical is exactly the gap this lesson describes. It raises the risk that Kwame loses his home and moves to a more restrictive setting.",
+        "Collecting records without Kwame's consent and without a clear legal basis risks a data practices violation, and it keeps the decision away from the person it affects."
+      ],
+      "recommended": 0,
+      "reflection": "Where in your own work do handoffs between systems tend to stall? What is one question that could get a stalled handoff moving?",
+      "action": "For one person on your caseload or in your review queue who uses both disability and mental health services, list every provider involved and note whether they have ever met together with the person.",
+      "check": {
+        "question": "Which statement about coordinating care across mental health and disability services is most accurate?",
+        "correct": "Staff should confirm the person's informed consent or another legal basis before sharing private data, even when coordination would help.",
+        "wrong": [
+          "Any provider on the team may share any information with any other provider because they all serve the same person.",
+          "Mental health information can never be shared with disability services staff under any circumstances."
+        ],
+        "feedback": "Minnesota's Government Data Practices Act and health privacy laws allow sharing in some situations and limit it in others. The safe habit is to get informed consent or confirm the legal basis first, and to ask your data practices contact when you are not sure."
+      }
+    }
+  ],
+  "cards": [
+    {
+      "front": "Psychiatric disability",
+      "back": "A mental health condition that substantially limits one or more major life activities. It can be a disability under the ADA and Section 504 and is often invisible or episodic."
+    },
+    {
+      "front": "Olmstead decision",
+      "back": "The Supreme Court decision holding that unjustified segregation of people with disabilities is discrimination under Title II of the ADA. Minnesota's Olmstead Plan sets state agency goals to carry it out."
+    },
+    {
+      "front": "Recovery",
+      "back": "SAMHSA describes recovery as a process of change through which people improve their health and wellness, live self-directed lives and strive to reach their full potential."
+    },
+    {
+      "front": "Diagnostic overshadowing",
+      "back": "Assuming a new symptom or change is part of an existing disability, so a separate health or mental health condition goes unrecognized."
+    },
+    {
+      "front": "Mobile crisis response",
+      "back": "Trained crisis responders who come to a person's home or a place the person chooses. DHS lists county and Tribal crisis numbers, and people can also call or text 988."
+    },
+    {
+      "front": "ARMHS",
+      "back": "Adult Rehabilitative Mental Health Services: Medical Assistance services that help adults build psychiatric stability, social skills and independent living skills affected by mental illness."
+    }
+  ],
+  "aid": [
+    {
+      "heading": "Spot the rights question",
+      "items": [
+        "Ask whether a person's psychiatric disability is affecting access to a meeting, deadline, service or setting.",
+        "Try simple, within-role changes first, such as a different time, format or reminder.",
+        "Route formal ADA, reasonable modification or legal risk questions to the ADA coordinator or legal counsel.",
+        "Remember that the Olmstead decision still stands even when federal enforcement guidance shifts."
+      ]
+    },
+    {
+      "heading": "When behavior changes",
+      "items": [
+        "Compare with past reports to see whether this is new.",
+        "Ask the person what has changed, in a way that does not require retelling trauma.",
+        "Ask whether a medical and mental health review has been arranged before adding restrictions.",
+        "Replace labels such as noncompliant with a description of what happened and what was tried."
+      ]
+    },
+    {
+      "heading": "Crisis readiness",
+      "items": [
+        "Use the current DHS crisis directory by county and Tribe, not an old printed list.",
+        "Share 988 for call, text or chat, and 911 for medical emergencies.",
+        "Help each person who wants one write a crisis plan in their own words while they are well.",
+        "For 245D providers, check that crisis calls and 911 calls are reported as the Positive Supports Rule requires and reviewed for changes to supports."
+      ]
+    },
+    {
+      "heading": "Coordinating across systems",
+      "items": [
+        "Start with the person's goal and ask whom they want involved.",
+        "Get informed consent or confirm the legal basis before sharing private data.",
+        "Agree in writing on who does what, and set a date to check progress.",
+        "Check current CADI and mental health service rules in the DHS manuals before advising."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Minnesota Department of Human Services — Mental health crisis response",
+      "href": "https://mn.gov/dhs/mental-health/crisis-response/",
+      "note": "Supports the guidance to call or text 988, call 911 for medical emergencies, use the county and Tribal crisis directory, and the descriptions of mobile crisis, residential crisis and crisis stabilization services. Check the directory for current local numbers."
+    },
+    {
+      "title": "Minnesota Olmstead Implementation Office — Minnesota's Olmstead Plan",
+      "href": "https://mn.gov/olmstead/",
+      "note": "Supports the description of the Olmstead Plan as goals for state agencies and Minnesota's public statement that a recent U.S. Department of Justice memo departs from the long-standing reading of Olmstead. Not a legal opinion."
+    },
+    {
+      "title": "U.S. Department of Justice, ADA.gov — Statement on Enforcement of the Integration Mandate of Title II of the ADA and Olmstead v. L.C.",
+      "href": "https://www.ada.gov/resources/olmstead-mandate-statement/",
+      "note": "Used for the Supreme Court's holding and three conditions. This is federal technical assistance with no binding legal effect, and federal enforcement positions have since shifted; route legal questions to counsel."
+    },
+    {
+      "title": "SAMHSA — Recovery and Recovery Support",
+      "href": "https://www.samhsa.gov/substance-use/recovery",
+      "note": "Supports the federal working definition of recovery used in Lesson 2."
+    },
+    {
+      "title": "BJPsych Open (via PubMed Central) — Prevalence of mental disorders in people with intellectual disabilities across the lifespan: umbrella review (2026)",
+      "href": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13227151/",
+      "note": "Supports statements on diagnostic overshadowing, under-diagnosis and higher rates of some conditions. The authors rate most underlying reviews as low quality, so figures are not cited as precise."
+    },
+    {
+      "title": "Minnesota DHS Community-Based Services Manual — Community Access for Disability Inclusion (CADI) Waiver",
+      "href": "https://www.dhs.state.mn.us/id_000855/",
+      "note": "Supports the CADI eligibility criteria summarized in Lesson 4. Waiver rules change; check the current manual page before advising."
+    },
+    {
+      "title": "Minnesota DHS MHCP Provider Manual — Adult Rehabilitative Mental Health Services (ARMHS)",
+      "href": "https://www.dhs.state.mn.us/id_058153/",
+      "note": "Supports the description of ARMHS purpose and general eligibility. Clinical eligibility is determined by qualified providers, not by disability services staff."
+    }
+  ]
+}

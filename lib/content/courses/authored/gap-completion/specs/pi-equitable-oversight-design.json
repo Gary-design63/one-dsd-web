@@ -1,0 +1,235 @@
+{
+ "id": "pi-equitable-oversight-design",
+ "subtitle": "Design program integrity reviews that prevent and address fraud while staying proportionate, avoiding profiling, protecting due process and continuity of care, and communicating accurately.",
+ "audience": "For DHS program integrity leaders and staff, DSD program and policy leaders who work with oversight, supervisors of review and audit teams, and facilitators who support fair enforcement design.",
+ "lessons": [
+  {
+   "title": "Two kinds of harm: fraud and careless enforcement",
+   "objectives": [
+    "Explain how fraud harms people who rely on public programs, not only public budgets.",
+    "Identify ways that poorly designed enforcement can harm people served, honest providers and communities.",
+    "Distinguish fraud from other improper payments such as errors and documentation gaps.",
+    "Describe the four components of the GAO Fraud Risk Management Framework."
+   ],
+   "teaching": "Program integrity leaders hold two responsibilities at once. Fraud in human services programs is real and it hurts people. When a provider bills for services never delivered, the person who needed those services goes without, public trust erodes, and money that could have supported others is lost. Some schemes also exploit the people enrolled, using their identities or cutting their care. DHS has publicly described a stronger program integrity effort under its Office of Inspector General, including heightened scrutiny of services it has designated as high risk, revalidation of providers, pauses on new enrollment in some services, payment withholds and third-party billing reviews. Leaders in this work need to take fraud seriously.\n\nCareless enforcement also causes harm. An enforcement action against a provider can abruptly end services for people who had nothing to do with any wrongdoing. Broad sweeps can burden honest small providers, many of them owned by or serving immigrant, Black, Indigenous or disabled communities, with paperwork they cannot absorb. Public statements that link a community to fraud can stigmatize people who receive services lawfully and discourage eligible families from seeking help. Mistaken findings, when they happen, cost people money, reputation and care. None of this argues for less oversight; it argues for better-designed oversight.\n\nA first discipline is precise language. The Centers for Medicare and Medicaid Services treats improper payments and fraud as related but distinct. An improper payment can come from an error, a missing signature, a misunderstanding of a rule or a system problem. Fraud involves intentional deception. Waste and abuse are different again. Treating every error as fraud leads to disproportionate responses and poisons relationships with providers who could have fixed a problem with guidance.\n\nThe U.S. Government Accountability Office Fraud Risk Management Framework gives leaders a structure. It has four components: commit to combating fraud by creating a culture and structure for managing fraud risk; assess by planning regular fraud risk assessments and building a risk profile; design and implement a strategy with specific control activities; and evaluate outcomes and adapt. The framework emphasizes prevention and asks managers to set a fraud risk tolerance. It openly acknowledges that managers may weigh the program's mission, such as getting help to people quickly, against lowering the likelihood of fraud. Holding both goals in view is part of the method, not a compromise of it.",
+   "keyPoint": "Fraud harms people and so can careless enforcement. Use precise terms (error, improper payment, fraud) and a structured approach such as the GAO framework that weighs program mission alongside fraud risk.",
+   "example": "Fictional case: A program integrity unit finds that a group of providers in one service have claims with missing documentation. A team member, Ryan, drafts a memo describing the findings as a fraud problem in that service and suggests immediate payment withholds across the group. His manager, Selam, notices that the documentation rule changed recently and several providers asked for guidance that was never sent.",
+   "question": "What should Selam do?",
+   "choices": [
+    "Approve the memo, since strong language will deter wrongdoing across the service.",
+    "Separate the findings into possible errors and possible fraud indicators, send guidance where confusion is likely, and refer only credible fraud indicators through the proper investigative path.",
+    "Drop the review, because the rule change means nobody can be held accountable."
+   ],
+   "feedback": [
+    "Labeling documentation gaps as fraud without evidence of intent is inaccurate and can trigger harmful, disproportionate responses against providers and the people they serve.",
+    "This is the strongest response. It uses precise categories, fixes the likely source of error and keeps a path open for real fraud to be investigated.",
+    "Errors still need correction and recovery where appropriate, and a rule change does not rule out fraud. Dropping the review abandons both responsibilities."
+   ],
+   "recommended": 1,
+   "reflection": "Privately consider how you and your colleagues use the word fraud. Where might a more precise term change how a finding is handled?",
+   "action": "Review one recent finding or report from your area. Classify each issue as error, improper payment, possible waste or abuse, or credible fraud indicator, and note what evidence supports each label. Share the classification approach with your team.",
+   "check": {
+    "question": "Which list gives the four components of the GAO Fraud Risk Management Framework?",
+    "correct": "Commit, assess, design and implement, evaluate and adapt.",
+    "wrong": [
+     "Detect, investigate, prosecute, recover.",
+     "Identify, punish, publicize, deter."
+    ],
+    "feedback": "The GAO framework moves from creating a culture and structure (commit) through risk assessment, designing and implementing controls with an emphasis on prevention, and evaluating and adapting. Investigation and recovery are parts of a response, not the whole framework."
+   }
+  },
+  {
+   "title": "Proportionate reviews that target conduct, not communities",
+   "objectives": [
+    "Distinguish risk indicators based on conduct or billing patterns from proxies for race, national origin, language or disability.",
+    "Explain how Title VI's effects standard applies to the criteria used to select providers or recipients for review.",
+    "Plan a tiered set of responses matched to the strength of evidence.",
+    "Draft a check that tests review selection criteria for disparate impact before use."
+   ],
+   "teaching": "Proportionality means the intensity of an oversight response matches the strength of the evidence and the seriousness of the risk. A tiered approach helps. At the lightest level are education and technical assistance for common errors. Next are targeted reviews of specific claims or records. More serious responses include corrective action plans, recovery of overpayments, payment withholds and referral for investigation or licensing action. Each step should have written criteria for when it is used, so that similar situations are treated similarly and decisions can be explained.\n\nSelection criteria are where profiling can slip in. Good risk indicators describe conduct or patterns: billing for more hours than a staff member could work, services billed while a person was hospitalized, sudden spikes in claims, shared addresses or bank accounts among supposedly separate providers, or claims that do not match authorizations. Poor indicators rely on who people are or where they come from: a provider's national origin, the languages spoken by staff, a neighborhood, a faith community or the ethnicity of people served. Even when not intended, indicators like these can become proxies that concentrate scrutiny on particular communities while missing fraud elsewhere.\n\nThis is also a legal issue. Title VI of the Civil Rights Act and its regulations prohibit recipients of federal funds from using criteria or methods of administration that have the effect of discriminating on the basis of race, color or national origin. The Department of Justice describes an effects analysis that asks whether a practice causes a disproportionate adverse impact, whether it is justified by a substantial legitimate need, and whether a less discriminatory alternative would meet that need. Oversight programs can apply the same questions before they use a selection method: test whether it flags some groups far more than others, check whether the flagged patterns actually predict confirmed problems, and look for alternatives that are equally effective and less skewed. Formal legal conclusions belong to counsel and the Equal Opportunity and Access Division.\n\nDocument the reasons for each selection and each escalation. Documentation protects the integrity of a case, lets supervisors review consistency and makes it possible to learn whether the approach works. Review your own results by provider size, region and the communities served, where data allows, and ask whether the pattern reflects actual risk or the design of the review.",
+   "keyPoint": "Match the response to the evidence, select for review based on conduct and billing patterns rather than identity proxies, and test selection criteria for disparate effects before relying on them.",
+   "example": "Fictional case: An analytics team proposes a new rule to flag providers for review. One criterion is that the provider's staff primarily speak a language other than English. The team lead, Hana, asks why it was included. The analyst, Victor, says several past fraud cases involved providers whose staff spoke the same language, so the criterion seemed predictive. The rule is scheduled to go live next week, and Hana has not yet seen any testing of how it performs across provider groups.",
+   "question": "What should Hana decide?",
+   "choices": [
+    "Remove the language criterion, replace it with the conduct patterns found in those past cases, and test the revised rule for disparate effects and accuracy before use.",
+    "Keep the language criterion because it is based on real past cases.",
+    "Keep the criterion but do not document it, so it is not controversial."
+   ],
+   "feedback": [
+    "This is the best response. It keeps what was useful in the past cases (the conduct patterns), removes a proxy for national origin, and tests the rule before it is used.",
+    "Past cases reflect who was previously looked at as well as who committed fraud. A language criterion targets a community rather than conduct and raises serious Title VI concerns.",
+    "Hiding a criterion makes the problem worse. It removes accountability and would be very difficult to defend."
+   ],
+   "recommended": 0,
+   "reflection": "Privately consider a review or audit process you have seen. Did its selection criteria describe what people did, or who they were? How would you know?",
+   "action": "List the selection criteria used in one review process you influence. Mark each as a conduct or pattern indicator or a possible identity proxy. For any proxy, draft a conduct-based alternative and a simple test to compare how each performs.",
+   "check": {
+    "question": "Why can a past-case pattern based on a community's language be a poor fraud indicator?",
+    "correct": "Past cases reflect where reviewers previously looked, and the criterion targets identity rather than conduct, which can produce discriminatory effects.",
+    "wrong": [
+     "Because language data is always inaccurate.",
+     "Because Title VI only applies when discrimination is intentional."
+    ],
+    "feedback": "Historical enforcement data reflects prior attention as well as actual wrongdoing, and identity-based criteria can concentrate scrutiny on a community. Title VI regulations reach methods of administration with discriminatory effects, not only intentional discrimination."
+   }
+  },
+  {
+   "title": "Due process: notice, appeal rights and continuity of care",
+   "objectives": [
+    "Explain the core due process elements recognized in Goldberg v. Kelly.",
+    "Identify Medicaid notice and fair hearing protections for people whose services are reduced or ended.",
+    "Describe notice requirements and good cause exceptions for provider payment suspensions based on a credible allegation of fraud.",
+    "Plan continuity-of-care steps when an oversight action affects people's services."
+   ],
+   "teaching": "Due process is not an obstacle to program integrity; it is part of what makes enforcement legitimate and accurate. In Goldberg v. Kelly, the U.S. Supreme Court held that people receiving public assistance are entitled to an evidentiary hearing before benefits are terminated. The Court described timely and adequate notice detailing the reasons, an opportunity to be heard and present evidence, the chance to confront adverse witnesses, an impartial decision-maker who was not involved in the original decision, and a decision that states its reasons and the evidence relied on. These ideas shape how public programs treat people today.\n\nFor people who receive Medicaid, federal fair hearing rules at 42 CFR part 431, subpart E, spell out protections. Notices must state the intended action and its effective date, the specific reasons, the rules that support it, the right to a hearing and the circumstances in which services continue during an appeal. Agencies generally must send notice at least ten days before the action, with limited exceptions, including a shorter period when there are facts indicating probable fraud by the recipient. When a person requests a hearing in time, services generally continue until the hearing decision. Program integrity actions that affect people's eligibility or services must follow these rules, and the state's appeals office decides the hearing.\n\nProviders have protections too. Under 42 CFR 455.23, a state Medicaid agency must suspend payments to a provider after determining there is a credible allegation of fraud, unless it finds good cause not to. The agency must send notice within a short time frame, generally five days, unless law enforcement asks for a delay. The notice must say payments are suspended, describe the general allegations without disclosing investigative details, explain that the suspension is temporary, identify the affected claims or business units, tell the provider it may submit written evidence and describe the administrative appeal process. The good cause exceptions include situations where beneficiary access to items or services would be jeopardized, as defined in the rule: the provider is the sole community physician or sole source of essential specialized services in a community, or serves a large number of beneficiaries in a federally designated medically underserved area.\n\nThat last point connects enforcement to people served. When a withhold, sanction or enrollment action will disrupt services, plan for continuity of care before or alongside the action, where investigative needs allow. Coordinate with counties, Tribal Nations and case managers, and help people find another provider. Formal decisions about suspensions, hearings and exceptions belong to the responsible DHS offices and legal counsel.",
+   "keyPoint": "Due process makes enforcement fair and accurate: clear notice with reasons, a real chance to respond, an impartial decision and continuity of care. Federal rules include access-based exceptions for provider payment suspensions.",
+   "example": "Fictional case: The Office of Inspector General is preparing a payment withhold against a home care provider based on a credible allegation of fraud. Joy, a DSD program lead, learns the provider is the only agency in two rural counties offering a particular service to several people with high support needs. Her colleague Pete says continuity of care is not their problem because the provider brought the action on itself.",
+   "question": "What should Joy do?",
+   "choices": [
+    "Agree with Pete and stay out of the matter, since the withhold is the inspector general's decision.",
+    "Contact the provider directly to warn them about the withhold so they can make arrangements for clients.",
+    "Share the access information with the responsible OIG staff through proper channels, since federal rules include good cause exceptions tied to beneficiary access, and prepare with counties to support affected people."
+   ],
+   "feedback": [
+    "The withhold decision does belong to the responsible office, but the people served are DSD's concern, and access information is relevant to a good cause decision.",
+    "Warning the provider could compromise an investigation and exceed Joy's authority. Continuity planning must be coordinated with the responsible office.",
+    "This is the strongest response. It gives decision-makers information federal rules treat as relevant, respects their authority and prepares to protect people's care."
+   ],
+   "recommended": 2,
+   "reflection": "Privately recall a notice or decision letter you have seen that left the reader unsure why an action was taken or what they could do. What would clearer due process have looked like?",
+   "action": "Take one notice template or enforcement letter your area uses. Check it against the elements in the job aid: action and effective date, specific reasons, supporting rules, rights to respond or appeal, deadlines, continuation of services and a plain-language contact. List the gaps for the template owner.",
+   "check": {
+    "question": "Under 42 CFR 455.23, which is a good cause reason a state may decide not to suspend, or only partially suspend, provider payments?",
+    "correct": "Beneficiary access to items or services would be jeopardized by the suspension.",
+    "wrong": [
+     "The provider promises to repay any overpayment later.",
+     "The provider is a large organization with many contracts."
+    ],
+    "feedback": "The regulation lists good cause exceptions, including jeopardized beneficiary access, law enforcement requests and other listed grounds. A promise to repay or a provider's size is not among them. The responsible office decides whether an exception applies."
+   }
+  },
+  {
+   "title": "Using data responsibly and communicating with care",
+   "objectives": [
+    "Explain why an analytic flag is a lead for review rather than a finding.",
+    "Identify checks that reduce false positives and unequal error rates in data-driven oversight.",
+    "Draft public or partner communication about integrity actions that is accurate and avoids stigmatizing communities.",
+    "Plan measures that evaluate both fraud prevention and effects on access."
+   ],
+   "teaching": "Data analytics can help oversight staff find patterns people would miss, and CMS encourages stronger data use in Medicaid program integrity. But a flag from a data model or query is a lead, not a finding. Data can be wrong: a claim may be coded incorrectly, an authorization may not have loaded, two providers may share an address for innocent reasons such as a shared office building. Before any action, a person should verify the underlying records, consider innocent explanations and document the reasoning. Treating a flag as proof is how accurate programs make unfair mistakes.\n\nLook at error rates, not only hit rates. A review approach can catch real problems and still generate many false positives, and those false positives may fall more heavily on some groups, such as small providers, rural providers or providers serving particular communities. Track how many flagged cases were confirmed, and compare that across provider types and regions where data allows. If one group is flagged often but rarely confirmed, the method is imposing burden without benefit and should be revised. The GAO framework's final component, evaluate and adapt, applies here: measure whether controls work and change them when they do not.\n\nCommunication shapes whether integrity work builds or erodes trust. Public statements should describe conduct and actions accurately, avoid implying that a community, language group or faith group is responsible for fraud, and never disclose information protected by data practices law or an ongoing investigation. Coordinate with the DHS communications office and legal counsel before speaking publicly. Messages to people receiving services should be practical: what is happening, whether their services are affected, how to find another provider and who to call. DHS has created public resources to help people find care after service disruptions; point people to official resources rather than improvising.\n\nFinally, measure both sides of the mission. Useful measures include confirmed fraud and recoveries, but also the share of flagged cases confirmed, time to resolve reviews, the number of people whose services were disrupted and how quickly they were reconnected, and appeal outcomes. Reporting these together tells leaders whether oversight is protecting people from both kinds of harm, and it gives staff permission to raise concerns when a method is not working.",
+   "keyPoint": "Treat data flags as leads to verify, track false positives across groups, communicate about conduct rather than communities, and measure access effects alongside fraud results.",
+   "example": "Fictional case: A data review flags forty providers in one service for unusual billing. Most are small agencies in one metro area serving East African families. A reporter asks the DHS communications office about the review. Min-jun, a program integrity manager, is asked for talking points. So far, staff have verified records for only six of the flagged providers, and two of those had innocent explanations for their billing patterns.",
+   "question": "What should Min-jun provide?",
+   "choices": [
+    "Talking points describing a growing fraud problem in the East African provider community, to show DHS is acting.",
+    "Accurate talking points about the review process and the conduct it looks for, with no reference to a community and no claim of fraud before verification, and a note that verification is ongoing.",
+    "A recommendation to decline all comment and stop the review until public attention fades."
+   ],
+   "feedback": [
+    "Linking fraud to a community before verification is inaccurate, stigmatizing and could harm families and honest providers. Two of six verified cases were already explained.",
+    "This is the best response. It is truthful, describes conduct rather than identity, respects the unfinished verification and avoids prejudging providers.",
+    "Stopping legitimate review because of media attention abandons the integrity mission. Communication and review can both continue responsibly."
+   ],
+   "recommended": 1,
+   "reflection": "Privately consider how a public statement about fraud might be heard by a family that receives services lawfully from a provider in the same community. What would you want them to hear?",
+   "action": "Choose one data flag or report your area uses. Find out how many flagged cases were confirmed after review in a recent period and whether that rate differs by provider size or region. If you cannot find out, write down what data would be needed and who owns it.",
+   "check": {
+    "question": "Why should oversight teams track the share of flagged cases later confirmed, by group?",
+    "correct": "To detect whether a method imposes burden on some groups through false positives without finding real problems.",
+    "wrong": [
+     "To set quotas for how many providers each group must have reviewed.",
+     "To prove that fraud is more common in some communities."
+    ],
+    "feedback": "Confirmation rates by group reveal whether a method is accurate and fair in practice. Quotas and conclusions about communities would repeat the profiling problem. The goal is to evaluate and adapt the method, as the GAO framework recommends."
+   }
+  }
+ ],
+ "cards": [
+  {
+   "front": "Improper payment versus fraud",
+   "back": "An improper payment can result from error or missing documentation; fraud involves intentional deception. Precise labels lead to proportionate responses."
+  },
+  {
+   "front": "Fraud risk tolerance",
+   "back": "In the GAO framework, the level of fraud risk managers accept after weighing program objectives, such as timely help, against lowering fraud likelihood."
+  },
+  {
+   "front": "Credible allegation of fraud",
+   "back": "The federal standard that triggers a required Medicaid provider payment suspension under 42 CFR 455.23, unless the state finds good cause not to suspend."
+  },
+  {
+   "front": "Identity proxy",
+   "back": "A review criterion, such as language or neighborhood, that stands in for race, national origin or another protected trait and can concentrate scrutiny on a community."
+  },
+  {
+   "front": "Due process",
+   "back": "Fair procedure before adverse action: timely notice with reasons, a chance to respond, an impartial decision-maker and a reasoned decision."
+  }
+ ],
+ "aid": [
+  {
+   "heading": "Design proportionate reviews",
+   "items": [
+    "Label each issue precisely: error, improper payment, waste or abuse, or credible fraud indicator.",
+    "Use tiered responses with written criteria: education, targeted review, corrective action, recovery, withhold, referral.",
+    "Select for review on conduct and billing patterns, not identity proxies.",
+    "Test selection criteria for disparate effects and accuracy before use; refer legal questions to counsel and EOAD."
+   ]
+  },
+  {
+   "heading": "Protect due process",
+   "items": [
+    "Notices state the action, effective date, specific reasons, supporting rules and appeal rights.",
+    "Follow Medicaid advance notice and continuation-of-services rules for people served.",
+    "For provider suspensions, follow 42 CFR 455.23 notice content and consider good cause exceptions, including access.",
+    "Plan continuity of care with counties, Tribal Nations and case managers."
+   ]
+  },
+  {
+   "heading": "Use data and words carefully",
+   "items": [
+    "Treat every flag as a lead; verify records and consider innocent explanations.",
+    "Track confirmation rates and false positives by provider type and region.",
+    "Describe conduct, never communities, in public statements; coordinate with communications and legal.",
+    "Report fraud results and access effects together."
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "title": "Minnesota Department of Human Services — Program Integrity",
+   "href": "https://mn.gov/dhs/program-integrity/",
+   "note": "Supports the description of DHS program integrity work under the Office of Inspector General, including high-risk service designation, revalidation, enrollment pauses, payment withholds, third-party billing review and resources to help people find care. Specific figures on the page are time-sensitive and are not repeated in the course."
+  },
+  {
+   "title": "U.S. Government Accountability Office — A Framework for Managing Fraud Risks in Federal Programs (GAO-15-593SP)",
+   "href": "https://www.gao.gov/assets/gao-15-593sp.pdf",
+   "note": "Supports the four components (commit, assess, design and implement, evaluate and adapt), the emphasis on prevention and the discussion of fraud risk tolerance and weighing program objectives. Written for federal managers; applied here by analogy."
+  },
+  {
+   "title": "Centers for Medicare and Medicaid Services — Medicaid Program Integrity",
+   "href": "https://www.medicaid.gov/medicaid/program-integrity/index.html",
+   "note": "Supports shared federal-state responsibility for program integrity, the distinction between improper payments and fraud, waste and abuse, and the emphasis on data."
+  },
+  {
+   "title": "Electronic Code of Federal Regulations — 42 CFR 455.23, Suspension of payments in cases of fraud",
+   "href": "https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-C/part-455/subpart-A/section-455.23",
+   "note": "Supports the credible allegation of fraud standard, notice timing and content, and good cause exceptions including jeopardized beneficiary access."
+  },
+  {
+   "title": "Electronic Code of Federal Regulations — 42 CFR part 431, subpart E, Fair Hearings for Applicants and Beneficiaries",
+   "href": "https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-C/part-431/subpart-E",
+   "note": "Supports notice content, advance notice timing and exceptions, the right to a hearing and continuation of services pending a hearing decision."
+  },
+  {
+   "title": "Justia — Goldberg v. Kelly, 397 U.S. 254 (1970)",
+   "href": "https://supreme.justia.com/cases/federal/us/397/254/",
+   "note": "Supports the due process elements for termination of public assistance described in lesson 3."
+  },
+  {
+   "title": "U.S. Department of Justice, Civil Rights Division — Title VI Legal Manual, Section VII: Disparate Impact",
+   "href": "https://www.justice.gov/crt/fcs/T6Manual7",
+   "note": "Supports the effects standard and three-part analysis applied to review selection criteria in lesson 2. Formal determinations belong to counsel and enforcement agencies."
+  }
+ ]
+}

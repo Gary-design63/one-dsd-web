@@ -1,0 +1,245 @@
+{
+  "id": "dsd-housing-instability",
+  "subtitle": "Anticipate how housing instability disrupts eligibility and services, connect people to current Minnesota housing supports, and design contact and notice practices that keep people with disabilities connected.",
+  "audience": "For case managers and care coordinators, lead agency staff, 245D provider oversight staff, and DSD program, policy and supervisory staff who support people with disabilities at risk of or experiencing homelessness, or who design notices, renewals and contact processes.",
+  "lessons": [
+    {
+      "title": "How housing instability breaks the service chain",
+      "objectives": [
+        "Identify the points where losing stable housing can interrupt eligibility, renewals and waiver services.",
+        "Explain why mail-based processes fail people without a stable address.",
+        "Describe the risk that a housing crisis leads to a more restrictive setting.",
+        "Plan early steps a case manager can take when housing becomes unstable."
+      ],
+      "teaching": "For people with disabilities, housing is not only shelter. Many services are organized around where a person lives: the county responsible for case management, the providers that come to the home, the setting a waiver plan is built around and the address where every notice is sent. When housing becomes unstable, each of those links can break at once. A person staying on a friend's couch, in a shelter or in a car may still be eligible for everything they had last month, but the system may no longer be able to reach them.\n\nMuch of public benefits administration still runs on mail. Renewal packets, requests for information, notices of change and appeal rights are often sent to the address on file. DHS tells people who get Medical Assistance or MinnesotaCare that they must report changes, including a new address, within a set number of days. For someone who has just lost housing, that duty competes with finding a place to sleep, keeping belongings safe and managing a disability. Missed mail can lead to a missed renewal, and a missed renewal can lead to a gap in coverage, which can in turn interrupt waiver services that depend on Medical Assistance. Check current reporting rules with the county or Tribe rather than relying on memory.\n\nThere is a second risk. When a person loses community housing, the fastest available bed may be in a hospital, a nursing facility or another congregate setting. A short emergency stay can quietly become permanent if no one is actively planning a return to the community. That outcome can run against the person's wishes and against Minnesota's Olmstead commitments.\n\nCase managers and care coordinators are often the first to hear that housing is at risk: a late rent notice, a conflict with a landlord, a provider giving notice, a hospital discharge with nowhere to go. Early action matters. With the person's consent, update contact information, note alternate ways to reach them, flag upcoming renewal dates, alert the team and start housing problem-solving before an eviction or discharge date arrives.",
+      "keyPoint": "Losing housing can break eligibility, renewals and waiver services all at once, mostly because systems lose contact. Act early to keep the person reachable and to prevent an emergency placement from becoming permanent.",
+      "example": "Joanna, a county case manager, learns in a phone call that Ruben, who has a brain injury and receives waiver services, was evicted two weeks ago and is staying in different places. His Medical Assistance renewal is due next month, and the renewal packet will go to his old apartment. Ruben has a phone that works when he can charge it, and he trusts a staff member at a drop-in center he visits most days.",
+      "question": "What should Joanna do next?",
+      "choices": [
+        "With Ruben's consent, report his change of address and add alternate contacts, such as his phone and the drop-in center, and flag his renewal date so she can help him complete it.",
+        "Wait for Ruben to find housing before updating anything, so the county has a permanent address on file.",
+        "Close Ruben's waiver case because he no longer lives in the setting his plan was built around."
+      ],
+      "feedback": [
+        "This is the strongest response. It keeps Ruben reachable, respects his consent, uses the people and places he already trusts and protects his coverage before the renewal is missed.",
+        "Waiting leaves the renewal going to an address Ruben cannot reach, which can cause a gap in coverage and services at the worst possible time.",
+        "Losing housing does not by itself end eligibility. Closing services would cut Ruben off from the support he needs to regain housing and could raise Olmstead concerns."
+      ],
+      "recommended": 0,
+      "reflection": "Think of a process in your work that assumes people have a stable mailing address. What happens to someone who does not?",
+      "action": "Check your caseload or review queue for anyone whose housing may be unstable, and confirm that each has a current address, an alternate contact method and a noted renewal date.",
+      "check": {
+        "question": "Why is a renewal packet a particular risk for someone who has just lost housing?",
+        "correct": "It is usually sent by mail to the address on file, so a person who has moved may miss it and lose coverage and connected services.",
+        "wrong": [
+          "Renewals are suspended automatically when a person becomes homeless.",
+          "People experiencing homelessness are not required to renew Medical Assistance."
+        ],
+        "feedback": "Renewals continue whether or not a person has housing, and much of the process runs on mail. Keeping contact information current and adding alternate ways to reach the person reduces the risk of losing coverage for procedural reasons."
+      }
+    },
+    {
+      "title": "Minnesota housing supports for people with disabilities",
+      "objectives": [
+        "Describe the Housing Support program, formerly Group Residential Housing, and how people apply.",
+        "Explain the end of the Housing Stabilization Services program and where DHS points people now.",
+        "Identify HousingLink and Housing Benefits 101 as navigation tools.",
+        "Distinguish information you can share from eligibility decisions that belong to counties, Tribes and DHS."
+      ],
+      "teaching": "Minnesota has several resources that can help people with disabilities get and keep housing. One of the most important is Housing Support, formerly called Group Residential Housing. DHS describes it as providing help with housing costs for some people at risk of institutional placement or homelessness. According to Housing Benefits 101, a Minnesota benefits information site, Housing Support serves people with disabilities and older adults with low income, pays for room and board in certain settings such as adult foster care, assisted living, board and lodge and supportive housing, and can fund some supplemental services. People can apply online through MNbenefits or with the Combined Application Form at their county or Tribal human services office, which administers the program.\n\nPrograms change, and staff need current information. Minnesota ended the Housing Stabilization Services program, a Medical Assistance benefit that had helped people find and keep housing, at the end of October after DHS cited widespread fraud and the federal Centers for Medicare and Medicaid Services approved the termination. DHS said it was coordinating with counties, Tribes, Urban Indian organizations and managed care organizations to identify resources for people affected, and it posted resources on its housing resources page. If a plan, form or resource list still refers to Housing Stabilization Services, it is out of date.\n\nTwo navigation tools help staff and the people they serve. HousingLink is a Minnesota nonprofit that helps renters find affordable and subsidized housing and offers information on Housing Choice Vouchers, fair housing, legal help and a program for renters with criminal, credit or rental history barriers. Housing Benefits 101 explains Minnesota housing programs in plain language and suggests next steps, including connecting with case managers and county or Tribal human services.\n\nWaiver services and other disability programs may also include housing-related supports, and rules change. Your role is to know where current information lives, help the person explore options and connect them with the office that decides eligibility. Counties, Tribes and DHS make eligibility determinations. Avoid promising a specific benefit before that office has reviewed the person's situation.",
+      "keyPoint": "Housing Support, formerly Group Residential Housing, remains a key Minnesota resource, and Housing Stabilization Services has ended. Use current DHS, county, Tribal, HousingLink and Housing Benefits 101 information, and leave eligibility decisions to the responsible office.",
+      "example": "Gabriel, a DSD program specialist, is updating a resource sheet that lead agencies hand to people with disabilities facing housing loss. The sheet was last revised some time ago. It lists Housing Stabilization Services as the first option, calls Housing Support by its old name only, and gives a phone number for a county office that has since moved. Several county partners have asked DSD to send the updated version soon.",
+      "question": "What should Gabriel do next?",
+      "choices": [
+        "Send the current sheet now and fix it later, since partners are waiting.",
+        "Keep Housing Stabilization Services on the sheet because some people may still be receiving it.",
+        "Remove Housing Stabilization Services, use the current name for Housing Support, link to DHS, HousingLink and Housing Benefits 101 pages instead of fixed phone numbers where possible, and ask program owners to confirm the content before release."
+      ],
+      "feedback": [
+        "Sending out-of-date information could send people to a program that no longer exists at a moment when time matters. A short delay to correct it is worth it.",
+        "The program has ended, so listing it as an option would mislead people and waste their time.",
+        "This is the strongest response. It corrects the content, relies on sources that stay current and has the responsible program owners confirm accuracy before release."
+      ],
+      "recommended": 2,
+      "reflection": "Which resource lists or templates in your work might be out of date? How would you know?",
+      "action": "Search the forms, handouts and templates you use for Housing Stabilization Services or Group Residential Housing, and flag each one for updating.",
+      "check": {
+        "question": "Which statement about Housing Support is accurate?",
+        "correct": "It was formerly called Group Residential Housing, helps with housing costs for some people with disabilities or older adults with low income, and is administered by counties and Tribes.",
+        "wrong": [
+          "It replaced Housing Stabilization Services as a Medical Assistance benefit.",
+          "It is available only to people living in nursing facilities."
+        ],
+        "feedback": "Housing Support is a separate, long-standing program, not a replacement for Housing Stabilization Services. It helps with room and board in certain community and group settings and can fund some supplemental services. Counties and Tribes take applications and decide eligibility."
+      }
+    },
+    {
+      "title": "Person-centered housing choice and the most integrated setting",
+      "objectives": [
+        "Explain the most integrated setting principle and how it applies to housing decisions.",
+        "Identify signs that a temporary placement is becoming a default.",
+        "Compare person-centered housing planning with availability-driven placement.",
+        "Plan an informed choice conversation with a person facing housing loss."
+      ],
+      "teaching": "The ADA's integration regulation requires public entities to administer services in the most integrated setting appropriate to the needs of people with disabilities. Federal technical assistance has described that setting as one that lets people with disabilities interact with people without disabilities to the fullest extent possible. The Supreme Court's Olmstead decision held that unjustified segregation is discrimination. Minnesota's Olmstead Plan includes housing among the areas where state agencies set goals so that people with disabilities can live full, integrated lives in the community. Federal enforcement positions on Olmstead have recently shifted, and the Minnesota Olmstead Implementation Office has said Minnesota remains committed to this work. Legal questions belong to counsel.\n\nHousing crises test these commitments. When someone loses housing, the easiest path is often whatever bed is open: a congregate setting, a nursing facility, a hospital stay extended because there is nowhere to discharge to. Sometimes that is the right short-term choice for safety. The risk comes when no one plans the way back. Watch for signs that a temporary placement is becoming a default: no written plan to return to community housing, no one assigned to search, no conversation with the person about what they want, or a team that describes the placement as working because the person is safe and fed.\n\nPerson-centered housing planning starts with the person's own preferences: where they want to live, with whom, near what, and what kind of support they need to succeed. It pairs those preferences with honest information about options, costs, waiting lists and trade-offs. Informed choice means the person hears about community options, not only the placements that are easiest to arrange, and that their decision is respected even when the team would choose differently.\n\nPeople experiencing homelessness keep the right to make choices about their lives. Some may decline shelter or a particular setting for reasons that make sense to them, such as safety, pets, a partner or past trauma in congregate settings. Ask about those reasons without judgment, look for options that address them and document the conversation.",
+      "keyPoint": "Housing decisions should aim for the most integrated setting the person wants and can be supported in. A safe emergency placement is not the end of planning; keep working on the way back to the community.",
+      "example": "Sunita, a hospital-based care coordinator working with a county lead agency, is planning discharge for Elliott, who has a psychiatric disability and lost his apartment during a long hospital stay. A nursing facility has an open bed, and the team is leaning toward it because it is available now. Elliott says he wants his own place near his sister and is willing to use supports at home. He also says he stayed in a congregate setting years ago and felt unsafe there.",
+      "question": "What should Sunita do next?",
+      "choices": [
+        "Arrange the nursing facility placement because it is safe and available, and revisit housing later if Elliott asks.",
+        "Hold an informed choice conversation with Elliott about community options near his sister, explore Housing Support and waiver supports with the county, and if a short interim stay is unavoidable, write down a return-to-community plan with names and dates.",
+        "Tell Elliott that because he has no housing, he has no choice about where he goes."
+      ],
+      "feedback": [
+        "Choosing the open bed without a plan to return risks making a temporary placement permanent, against Elliott's clear preference and the most integrated setting principle.",
+        "This is the strongest response. It centers Elliott's goals, uses real options, respects his concerns about congregate settings and builds a written path back to the community if an interim stay is needed.",
+        "Losing housing does not remove a person's right to make choices. Telling Elliott he has no say is inaccurate and harmful."
+      ],
+      "recommended": 1,
+      "reflection": "When a housing option is available right now, how do you weigh speed against what the person has said they want?",
+      "action": "For anyone you support who is in a temporary or emergency setting, check whether there is a written plan to return to community housing, with a named person responsible and a next date.",
+      "check": {
+        "question": "What does the most integrated setting principle ask of public entities?",
+        "correct": "To provide services in the setting that lets people with disabilities interact with people without disabilities to the fullest extent possible, consistent with their needs.",
+        "wrong": [
+          "To place people wherever services are cheapest.",
+          "To place everyone in the same type of setting regardless of preference."
+        ],
+        "feedback": "The principle comes from the ADA's integration regulation and the Olmstead decision. It focuses on integration and the person's needs, not cost alone or uniformity. Federal enforcement views have shifted recently, but Minnesota's Olmstead Plan continues to set housing goals."
+      }
+    },
+    {
+      "title": "Designing contact and notices for people without stable housing",
+      "objectives": [
+        "Identify design choices that help notices reach people without a stable address.",
+        "Draft a plain-language contact plan that the person helps create.",
+        "Explain how data practices rules apply when collecting alternate contact information.",
+        "Compare process fixes that shift burden away from the person with fixes that add burden."
+      ],
+      "teaching": "Many problems that look like a person's failure to respond are really design problems. A notice that is mailed once to an old address, written at a high reading level and giving ten days to respond will fail many people who are moving between places, especially people whose disabilities affect memory, reading or organization. Program and policy staff can reduce these failures through the way contact and notices are designed, within the rules that govern each program.\n\nStart with contact. With the person's agreement, collect more than one way to reach them: a phone number, text permission, an email, a trusted person or agency such as a shelter, drop-in center or provider, and a mailing address that works, which for some people may be a relative, a program address or general delivery where the program allows it. Ask how they prefer to be reached and when. Record the date the information was confirmed so staff know how fresh it is.\n\nCollecting this information is collecting government data. Under the Minnesota Government Data Practices Act, when you ask a person for private data about themselves, you generally need to tell them why you are asking, how it will be used, whether they must provide it and who else may see it. Follow your agency's notice practices and ask your data practices contact when unsure. Only collect what you need to reach the person.\n\nThen look at the notices themselves. Plain language, a clear statement of what the person needs to do and by when, a phone number that a real person answers and accessible formats all help. Where the program's rules allow, pair important mailed notices with a reminder by phone or text, and give case managers visibility of upcoming renewal dates so they can help in advance. When mail comes back undeliverable, follow the program's returned mail rules and use the alternate contacts the person gave you before any adverse action that policy permits. The Equity Analysis Toolkit can help teams examine who a notice process leaves out before changing it.",
+      "keyPoint": "Many missed responses are design failures, not personal failures. Collect alternate contacts with the person's informed agreement, write clear notices and use every contact route policy allows before services are affected.",
+      "example": "Mirela, a DSD policy analyst, is reviewing why waiver renewals lapse. Data show that people who had moved or were staying in shelters in the past year lapsed far more often than others. Most lapses followed a single mailed notice that came back undeliverable. Case managers say they often do not know a renewal is due until services are already interrupted. Mirela's supervisor, Dev, asks for a recommendation by next month.",
+      "question": "What should Mirela recommend?",
+      "choices": [
+        "Remind people in the annual notice that it is their responsibility to keep their address current.",
+        "Recommend collecting alternate contacts with informed consent, giving case managers advance notice of renewal dates, adding phone or text reminders where rules allow, and using the Equity Analysis Toolkit and program owners to test the changes.",
+        "Recommend sending the same notice twice to the address on file."
+      ],
+      "feedback": [
+        "A reminder about responsibility places the whole burden on people who are already struggling to receive mail, and it would likely reach them at the same undeliverable address.",
+        "This is the strongest response. It addresses the actual failure points, shares responsibility across the system, respects data practices and uses the program's equity method and owners to check the changes.",
+        "Sending a second copy to the same failed address does little for people who have moved or are staying in shelters."
+      ],
+      "recommended": 1,
+      "reflection": "Think of a notice or letter you have received that was hard to act on. What made it hard?",
+      "action": "Take one notice or letter your team sends and rewrite its first paragraph in plain language that says what the person needs to do, by when and whom to call.",
+      "check": {
+        "question": "When collecting alternate contact information from a person, what does the Minnesota Government Data Practices Act generally expect?",
+        "correct": "Tell the person why the data is being collected, how it will be used, whether they must provide it and who may see it.",
+        "wrong": [
+          "Nothing, because contact information is always public data.",
+          "Written approval from a supervisor before asking any question."
+        ],
+        "feedback": "When government asks people for private data about themselves, it generally must explain the purpose, intended use, whether giving it is required and who else may receive it. Check your agency's notice forms and ask your data practices contact for specifics."
+      }
+    }
+  ],
+  "cards": [
+    {
+      "front": "Housing Support",
+      "back": "Minnesota program, formerly Group Residential Housing, that helps with housing costs for some people with disabilities or older adults with low income. Apply through MNbenefits or the county or Tribe."
+    },
+    {
+      "front": "Housing Stabilization Services",
+      "back": "A former Medical Assistance housing benefit that Minnesota ended after DHS cited widespread fraud. Resources that still list it are out of date."
+    },
+    {
+      "front": "HousingLink",
+      "back": "A Minnesota nonprofit that helps renters find affordable and subsidized housing and offers help with rental barriers."
+    },
+    {
+      "front": "Most integrated setting",
+      "back": "A setting that lets people with disabilities interact with people without disabilities to the fullest extent possible, as described in federal ADA guidance and reflected in Minnesota's Olmstead Plan."
+    },
+    {
+      "front": "Informed choice",
+      "back": "A decision a person makes after hearing about real options, including community options, with honest information about trade-offs."
+    }
+  ],
+  "aid": [
+    {
+      "heading": "When housing becomes unstable",
+      "items": [
+        "With consent, update the address and add alternate contacts.",
+        "Note upcoming renewal and review dates and set reminders.",
+        "Alert the team and start housing problem-solving before eviction or discharge dates.",
+        "Check whether Housing Support or other supports may help, and connect the person with the county or Tribe."
+      ]
+    },
+    {
+      "heading": "Keep resources current",
+      "items": [
+        "Remove references to Housing Stabilization Services.",
+        "Use the name Housing Support, noting that it was formerly Group Residential Housing.",
+        "Link to DHS, HousingLink and Housing Benefits 101 pages rather than fixed lists.",
+        "Ask program owners to confirm content before releasing handouts."
+      ]
+    },
+    {
+      "heading": "Protect the most integrated setting",
+      "items": [
+        "Ask where the person wants to live, with whom and near what.",
+        "Present community options, not only the easiest placement.",
+        "If an interim stay is needed, write a return-to-community plan with a responsible person and dates.",
+        "Document the person's choice and reasons, including concerns about congregate settings."
+      ]
+    },
+    {
+      "heading": "Design contact and notices",
+      "items": [
+        "Collect more than one contact method, with an informed data practices notice.",
+        "Write notices in plain language with the action, deadline and a phone number answered by a person.",
+        "Pair important mailed notices with calls or texts where program rules allow.",
+        "Follow returned mail rules and try alternate contacts before any adverse action.",
+        "Use the Equity Analysis Toolkit to check who a process leaves out."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Minnesota Department of Human Services — Housing Stabilization Services program ends Oct. 31 (news release)",
+      "href": "https://mn.gov/dhs/media/news/index.jsp?id=1053-711321",
+      "note": "Supports the statement that the program ended, that DHS cited widespread fraud and that federal CMS approved termination."
+    },
+    {
+      "title": "Minnesota Department of Human Services — Housing Stabilization Services program ends (GovDelivery bulletin)",
+      "href": "https://content.govdelivery.com/accounts/MNDHS/bulletins/3f98793",
+      "note": "Supports DHS coordination with counties, Tribes, Urban Indian organizations and managed care organizations, and its referral to its housing resources page."
+    },
+    {
+      "title": "Minnesota Department of Human Services — Housing Support",
+      "href": "https://mn.gov/dhs/people-we-serve/adults/services/housing/programs-and-services/housing-support.jsp",
+      "note": "Supports the description of Housing Support as help with housing costs for some people at risk of institutional placement or homelessness."
+    },
+    {
+      "title": "Housing Benefits 101 Minnesota — Housing Support (formerly Group Residential Housing)",
+      "href": "https://mn.hb101.org/a/9/",
+      "note": "Supports plain-language details on who Housing Support serves, eligible settings, supplemental services and how to apply. An information site, not an eligibility authority."
+    },
+    {
+      "title": "HousingLink",
+      "href": "https://www.housinglink.org/",
+      "note": "Supports the description of HousingLink's rental search, subsidized housing information and help with rental barriers."
+    },
+    {
+      "title": "Minnesota Olmstead Implementation Office — Minnesota's Olmstead Plan",
+      "href": "https://mn.gov/olmstead/",
+      "note": "Supports the Olmstead Plan's inclusion of housing and Minnesota's stated commitment after the recent U.S. Department of Justice memo."
+    },
+    {
+      "title": "U.S. Department of Justice, ADA.gov — Statement on Enforcement of the Integration Mandate of Title II of the ADA and Olmstead v. L.C.",
+      "href": "https://www.ada.gov/resources/olmstead-mandate-statement/",
+      "note": "Used for the integration regulation and the description of the most integrated setting. This is non-binding federal technical assistance, and federal enforcement positions have since shifted; route legal questions to counsel."
+    }
+  ]
+}

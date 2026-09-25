@@ -1,0 +1,241 @@
+{
+  "id": "dsd-justice-involvement-reentry",
+  "subtitle": "Use accurate information about disability, race and incarceration to protect benefits, plan reentry and design services and hiring processes that do not needlessly exclude people with criminal records.",
+  "audience": "For case managers and care coordinators, lead agency staff, 245D provider oversight staff, and DSD program, policy and supervisory staff who support people with disabilities involved with the justice system or who shape eligibility, contracting and workforce policies.",
+  "lessons": [
+    {
+      "title": "Disability, race and the justice system",
+      "objectives": [
+        "Describe what federal survey data show about disability among people in prison.",
+        "Identify what Minnesota sentencing data show about racial disparities.",
+        "Explain why group-level data should inform system design but not predictions about individuals.",
+        "Compare explanations for overrepresentation that focus on individuals with those that examine systems."
+      ],
+      "teaching": "People with disabilities are heavily overrepresented in prisons. In the most recent federal Survey of Prison Inmates analyzed by the Bureau of Justice Statistics, nearly two in five state and federal prisoners reported at least one disability, roughly two and a half times the rate in the general population. Cognitive disabilities were the most common type reported, at about one in four prisoners, followed by ambulatory and vision disabilities. These figures are self-reported and come from prisons, not jails, so they do not describe everyone in custody, but the pattern is large and consistent.\n\nRace is part of the same picture. The Minnesota Sentencing Guidelines Commission reports that in recent data, Black or African American Minnesotans made up under eight percent of the state's adult population but about thirty percent of people sentenced for felonies, and American Indian Minnesotans made up about one and a half percent of the adult population but close to nine percent of people sentenced. Disability and race intersect: a Black or American Indian person with a cognitive or psychiatric disability may face compounding barriers at every point from police contact to release.\n\nThere are many possible explanations for these patterns, and researchers continue to study them. Some focus on individual behavior. Others look at how systems work: where policing is concentrated, how communication disabilities affect questioning and court, whether community services and crisis alternatives are available, how poverty and housing affect pretrial detention, and whether disability is recognized and accommodated. For a disability services agency, the system questions are the ones we can act on. They point to things we control, such as whether our crisis responses, services and eligibility rules keep people connected or push them toward contact with law enforcement.\n\nUse this data carefully. It describes groups and systems, not any one person. A person's record, race or disability does not predict their future, and it should never become a shortcut for deciding whom to serve. The program's Equity Analysis Toolkit is a good way to ask who a policy affects before it is adopted.",
+      "keyPoint": "People with disabilities, and Black and American Indian Minnesotans, are overrepresented in the justice system. Use that data to examine systems you influence, never to predict or judge an individual.",
+      "example": "Florian, a DSD policy analyst, is drafting guidance for lead agencies on serving people after release from jail or prison. A colleague suggests adding a note that people with criminal records are higher risk and should be placed in more supervised settings by default. Florian has just read the federal and Minnesota data on disability and racial disparities and is concerned about how such a default would play out.",
+      "question": "What should Florian do next?",
+      "choices": [
+        "Add the note because it sounds cautious and protective.",
+        "Leave the default out, recommend individualized, person-centered planning instead, and use the Equity Analysis Toolkit to examine who a supervision default would affect, bringing concerns to program leadership.",
+        "Add the note but limit it to people with cognitive disabilities, since they are the most common group in prison."
+      ],
+      "feedback": [
+        "A blanket default would treat a record as a prediction and could push many people, disproportionately Black and American Indian people with disabilities, into more restrictive settings than they need, raising Olmstead and equity concerns.",
+        "This is the strongest response. It keeps decisions individualized, uses the agency's equity method to test the idea and brings the question to the people accountable for policy.",
+        "Targeting people with cognitive disabilities would combine two stereotypes and add a disability-based restriction without individual assessment, which is harder to justify, not easier."
+      ],
+      "recommended": 1,
+      "reflection": "When you hear that someone has a criminal record, what assumptions come to mind first? Where do you think those assumptions came from?",
+      "action": "Review one policy, template or eligibility rule you work with for any blanket reference to criminal history, and note whether it calls for an individualized assessment instead.",
+      "check": {
+        "question": "What did the Bureau of Justice Statistics find about disability among state and federal prisoners?",
+        "correct": "Nearly two in five reported at least one disability, with cognitive disability the most common type.",
+        "wrong": [
+          "About the same share as in the general population reported a disability.",
+          "Mobility disabilities were the most common type, and cognitive disabilities were rare."
+        ],
+        "feedback": "The BJS analysis found a disability rate roughly two and a half times that of the general population, led by cognitive disabilities. The data are self-reported and cover prisons, so they describe a pattern, not every person in custody."
+      }
+    },
+    {
+      "title": "Protecting benefits during incarceration",
+      "objectives": [
+        "Distinguish suspension from termination for Social Security and SSI during incarceration.",
+        "Describe how Minnesota currently handles Medical Assistance for people in jail or prison.",
+        "Identify what a person needs to restart benefits after release.",
+        "Explain Minnesota's proposed reentry demonstration in general terms."
+      ],
+      "teaching": "Incarceration affects benefits, and the details matter for reentry. The Social Security Administration explains that no benefits are payable for any month a person is in jail, prison or certain other public institutions. For Social Security retirement and disability benefits, payments are suspended when a person is convicted and sentenced to more than thirty continuous days. For Supplemental Security Income, payments stop while the person is confined; if confinement lasts twelve consecutive months or longer, SSI eligibility is terminated and the person must file a new application after release. That difference between suspension and termination can mean weeks or months without income after release.\n\nSSA notes that some institutions have prerelease agreements with local Social Security offices, which allow SSA to begin processing a claim before release. To restart benefits, SSA asks people to contact it and provide official release documents from the facility. SSA also notes that Medicare Part A continues during imprisonment, and that people whose Medicaid ended while in prison will need to contact their local office to apply again.\n\nIn Minnesota, DHS states that Medicaid is currently suspended, not terminated, for enrolled people who are in a jail or prison. Suspension can make it faster to restore coverage on release, but it still depends on accurate information reaching the county or Tribe. DHS has also applied to the federal government for a reentry demonstration that would allow Medical Assistance to cover certain services, such as case management, substance use disorder treatment coordination and a supply of medications, in the period before release at selected prisons and jails. Whether and when it takes effect depends on federal approval, so check the DHS reentry page for current status before describing it to anyone.\n\nWaiver and other disability services generally are not delivered inside jails and prisons, and how a person's services are handled during a stay depends on program rules. Ask your lead agency or DSD policy staff rather than guessing. The practical point for case managers is to ask early: when you learn someone has been booked or sentenced, find out what happens to each of their benefits and services, and start planning for release.",
+      "keyPoint": "Social Security benefits are suspended during incarceration, while SSI ends after twelve consecutive months and requires a new application. Minnesota currently suspends Medical Assistance during incarceration, and DHS has sought federal approval for a reentry demonstration.",
+      "example": "Adrienne, a county case manager, learns that Tobias, who has an intellectual disability and receives SSI, Medical Assistance and waiver services, has been sentenced to fourteen months. Tobias's mother asks whether his benefits will simply start again when he gets out. Adrienne is not sure how each benefit works during a long sentence. She wants to give an accurate answer rather than a reassuring guess, and she knows the answer will shape how the family plans for his release.",
+      "question": "What should Adrienne do next?",
+      "choices": [
+        "Explain, based on SSA information, that SSI will likely end after twelve consecutive months and require a new application, ask whether the facility has a prerelease agreement with Social Security, and confirm with her lead agency how Tobias's Medical Assistance and waiver services will be handled.",
+        "Tell his mother that everything will restart automatically on release.",
+        "Tell his mother nothing can be done until Tobias is released."
+      ],
+      "feedback": [
+        "This is the strongest response. It gives accurate information about SSI, uses the prerelease process and checks with the responsible offices on Medical Assistance and waiver services instead of guessing.",
+        "This is inaccurate. A fourteen-month confinement is likely to end SSI eligibility, which means a new application, not an automatic restart.",
+        "Waiting until release loses time. Prerelease agreements and early planning exist so that people are not left without income and health coverage after release."
+      ],
+      "recommended": 0,
+      "reflection": "How confident are you in explaining what happens to benefits when someone you serve is incarcerated? What would help you feel more confident?",
+      "action": "Find out whether the jails and prisons that serve people on your caseload have prerelease agreements with Social Security, and save the contact information for your team.",
+      "check": {
+        "question": "What happens to SSI eligibility if a person is confined for twelve consecutive months or longer?",
+        "correct": "Eligibility is terminated, and the person must file a new application after release.",
+        "wrong": [
+          "Payments are paused and restart automatically on release.",
+          "Payments continue at a reduced rate during confinement."
+        ],
+        "feedback": "SSA suspends SSI payments during confinement and terminates eligibility after twelve consecutive months. A new application is then needed, which is why prerelease planning and official release documents matter."
+      }
+    },
+    {
+      "title": "Reentry planning that starts before release",
+      "objectives": [
+        "Plan the core elements of a disability-aware reentry plan.",
+        "Identify disability-related needs that are often missed at release.",
+        "Explain how to coordinate with corrections, county and Tribal partners while respecting data practices.",
+        "Draft a first-week-after-release checklist with the person."
+      ],
+      "teaching": "The first days after release are a period of high risk. People may leave with little money, no identification, a short supply of medication or none, and no confirmed place to stay. For people with disabilities, the gaps can be larger: a communication device or mobility aid left behind, psychiatric medications interrupted, benefits suspended or terminated, and services that closed during the stay. Good reentry planning starts well before the release date.\n\nA disability-aware reentry plan covers the basics every plan needs, such as housing, income, health coverage, identification and transportation, and adds disability-specific pieces. Those include restarting waiver or case management services, restoring or applying for Medical Assistance, SSI or Social Security, continuing medications including medications for opioid use disorder, arranging mental health and substance use follow-up, replacing assistive technology and making sure the person understands release conditions in a format that works for them. People with cognitive or communication disabilities may need conditions explained in plain language and written down, and may need help keeping track of appointments with probation or supervised release.\n\nCoordination crosses systems: corrections facilities, probation, county and Tribal human services, health plans, providers and family. Sharing information across those partners must follow the Minnesota Government Data Practices Act and health privacy rules, which usually means the person's informed consent or a clear legal basis. Ask the person whom they want involved. Many people leaving custody have experienced trauma, and some have had their choices restricted for a long time, so a person-centered approach that returns control to them matters.\n\nPlan the first week in detail with the person: where they will sleep the first night, how they will get there, where medications will come from, when and where their first appointments are, and whom to call if something goes wrong. Plans that are specific and written down are far more likely to hold than general intentions.",
+      "keyPoint": "Reentry planning should start before release and cover disability-specific needs such as services, benefits, medications, assistive technology and accessible release conditions. Make the first week concrete and plan it with the person.",
+      "example": "Marguerite, a care coordinator, learns that Lionel, who has schizophrenia and a mild intellectual disability, will be released from a county jail in three weeks. His waiver services were closed during his stay, his long-acting medication is given at the jail, and his supervised release conditions include weekly check-ins he has struggled to track before. Lionel has told staff he wants to return to his neighborhood and his old day program.",
+      "question": "What should Marguerite do next?",
+      "choices": [
+        "Wait until Lionel is released to reopen services, so she is working with current information.",
+        "Give Lionel a list of phone numbers so he can arrange everything himself after release.",
+        "Meet with Lionel now, with his consent involve the jail health staff, his probation agent and the county, and build a written plan covering services, medication continuity, housing, and accessible reminders for his check-ins."
+      ],
+      "feedback": [
+        "Waiting creates exactly the gap that leads to missed medication, lost housing and violations. Three weeks is enough time to have services ready on the day of release.",
+        "A list of numbers places the whole burden on Lionel at the hardest moment and does not account for his disabilities or his past difficulty tracking check-ins.",
+        "This is the strongest response. It starts before release, centers Lionel's goals, secures consent for coordination and addresses the disability-specific risks in his situation."
+      ],
+      "recommended": 2,
+      "reflection": "Imagine leaving a place where every part of your day was decided for you. What would you need in the first week to feel in control again?",
+      "action": "Draft a one-page first-week-after-release checklist your team could use with people leaving custody, covering the first night, medications, benefits, services and first appointments.",
+      "check": {
+        "question": "Which is a disability-specific element that reentry plans often miss?",
+        "correct": "Explaining release conditions in an accessible format and replacing assistive technology left behind.",
+        "wrong": [
+          "Arranging a place to stay on the first night.",
+          "Having some form of identification."
+        ],
+        "feedback": "Housing and identification matter for everyone leaving custody. Disability-aware planning adds accessible explanations of conditions, assistive technology, medication continuity and restarting disability services, which are easy to miss if no one asks."
+      }
+    },
+    {
+      "title": "Background studies, employment and inclusive service design",
+      "objectives": [
+        "Explain what a DHS background study disqualification, reconsideration and set-aside mean.",
+        "Identify the factors DHS considers when deciding whether to set aside a disqualification.",
+        "Distinguish required background study rules from employer or provider practices that go further than the law.",
+        "Plan how to review a service or hiring practice so it does not needlessly exclude people with records."
+      ],
+      "teaching": "Minnesota requires background studies for many people who work in human services and health care settings, and state and federal law disqualify people with certain records from some roles. DHS explains that a disqualified person can request reconsideration, either because the information used was incorrect or because they do not pose a risk of harm. Outcomes include rescinding the disqualification, setting it aside, which allows the person to work for the entity that requested the study, or affirming it and not setting it aside. A variance can be requested only by the licensed entity, not the individual. Some disqualifications cannot be set aside. Questions about a specific study go to the DHS background studies office.\n\nMinnesota Statutes section 245C.22 sets how DHS reviews these requests. It sets response timelines of thirty working days when the request is about incorrect information, fifteen when it is about risk of harm and forty-five when it is about both. It requires DHS to give preeminent weight to the safety of people served. It lists factors DHS considers, including the nature and severity of the event, whether there was more than one, the vulnerability of the victim and of the people served, the time that has passed without a similar event and documented rehabilitation. The law also includes a specific path for some people seeking work in substance use disorder treatment who have completed treatment and meet other criteria.\n\nMany barriers come from practices that go beyond what the law requires. Minnesota's ban-the-box law generally requires employers to wait until an applicant is selected for an interview or has a conditional offer before asking about criminal history; the Minnesota Department of Human Rights enforces it for private employers, and positions with legally required background checks follow those rules. Questions about DHS's own hiring belong to Human Resources. On the services side, some providers screen out people with records from housing or services without any individual assessment. Background studies govern who can work in licensed services. They do not, by themselves, decide whether a person with a record can receive services.\n\nWhen you review a contract, policy or provider practice, ask what legal requirement, if any, drives a record-based exclusion, whether the exclusion is tailored to real risk, whether it allows individual assessment and who it would affect. The Equity Analysis Toolkit can help. Legal questions go to counsel.",
+      "keyPoint": "Background study disqualifications can often be reconsidered and set aside based on individual factors. Many exclusions go beyond what the law requires; review them for tailoring, individual assessment and who they affect.",
+      "example": "Zainab, a DSD contract manager, is reviewing a proposal from a provider applying to serve people leaving incarceration. The proposal says the provider will not accept anyone with a felony record into its services and will not hire anyone with a record for any position, including office roles. The provider says this is required by its license. Zainab knows background studies apply to certain roles but is unsure about the rest.",
+      "question": "What should Zainab do next?",
+      "choices": [
+        "Accept the proposal because the provider says its license requires it.",
+        "Ask the provider which legal requirements drive each exclusion, point out that background studies govern certain roles rather than who can receive services, and consult legal counsel and program leadership about whether the blanket exclusions fit the contract's purpose.",
+        "Reject the provider outright for discrimination."
+      ],
+      "feedback": [
+        "Taking the claim at face value may let a blanket policy exclude the very people the contract is meant to serve. The provider's statement should be checked against actual requirements.",
+        "This is the strongest response. It separates what the law requires from what the provider chose, asks for the basis and brings the legal and policy questions to the people responsible for them.",
+        "Rejecting the provider without inquiry skips the facts and the formal determinations that belong to counsel and program leadership. The provider may be willing to revise its approach."
+      ],
+      "recommended": 1,
+      "reflection": "Where in your work might a record-based rule have been adopted out of caution rather than requirement? How would you find out?",
+      "action": "Pick one contract template, provider standard or internal practice you work with and list any criminal record exclusions, noting for each whether a law requires it and whether it allows individual assessment.",
+      "check": {
+        "question": "What does a set-aside of a background study disqualification allow?",
+        "correct": "The person may work for the entity that requested that background study, even though the disqualification itself remains.",
+        "wrong": [
+          "The person's record is erased from all state systems.",
+          "The person may work in any licensed setting in Minnesota without further review."
+        ],
+        "feedback": "DHS explains that a set-aside permits work for the entity that requested the study. It does not erase the record or apply everywhere. A rescission is different: it removes the disqualification when the information was incorrect."
+      }
+    }
+  ],
+  "cards": [
+    {
+      "front": "Suspension vs termination of SSI",
+      "back": "SSI payments stop during confinement. After twelve consecutive months, eligibility is terminated and the person must file a new application after release."
+    },
+    {
+      "front": "Prerelease agreement",
+      "back": "An arrangement between a correctional facility and a local Social Security office that lets SSA start processing a claim before a person is released."
+    },
+    {
+      "front": "Medical Assistance during incarceration",
+      "back": "DHS states that Medicaid is currently suspended, not terminated, for enrolled people in a jail or prison in Minnesota."
+    },
+    {
+      "front": "Background study reconsideration",
+      "back": "A request that DHS review a disqualification because the information was incorrect or because the person does not pose a risk of harm."
+    },
+    {
+      "front": "Set-aside",
+      "back": "A decision that allows a disqualified person to work for the entity that requested the background study, based on individual factors."
+    },
+    {
+      "front": "Ban the box",
+      "back": "Minnesota law generally requiring employers to wait until an interview selection or conditional offer before asking about criminal history."
+    }
+  ],
+  "aid": [
+    {
+      "heading": "When someone is booked or sentenced",
+      "items": [
+        "Find out the expected length of confinement.",
+        "Check what happens to Social Security, SSI, Medical Assistance and waiver services.",
+        "Ask whether the facility has a prerelease agreement with Social Security.",
+        "Confirm with the lead agency or DSD policy staff how services are handled, rather than guessing."
+      ]
+    },
+    {
+      "heading": "Reentry plan essentials",
+      "items": [
+        "First night: where and how the person will get there.",
+        "Medications: supply at release and the next prescriber appointment.",
+        "Benefits: restored, reapplied or pending, with release documents ready.",
+        "Services: waiver, case management, mental health and substance use follow-up.",
+        "Accessibility: assistive technology and release conditions explained in a usable format."
+      ]
+    },
+    {
+      "heading": "Reviewing record-based exclusions",
+      "items": [
+        "What law or rule requires this exclusion, if any?",
+        "Is it tailored to specific roles and real risks?",
+        "Does it allow individual assessment and consider time and rehabilitation?",
+        "Who would it affect, using the Equity Analysis Toolkit?",
+        "Route legal questions to counsel and hiring questions to Human Resources."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Bureau of Justice Statistics — Disabilities Reported by Prisoners: Survey of Prison Inmates, 2016 (published 2021)",
+      "href": "https://bjs.ojp.gov/library/publications/disabilities-reported-prisoners-survey-prison-inmates-2016",
+      "note": "Supports the share of state and federal prisoners reporting a disability, the comparison with the general population and cognitive disability as the most common type. Self-reported data covering prisons only."
+    },
+    {
+      "title": "Minnesota Sentencing Guidelines Commission — 2026 Report to the Legislature",
+      "href": "https://mn.gov/sentencing-guidelines/assets/2026-Minn-Sentencing-Guidelines-Comm-Report-to-the-Legislature_tcm30-719777.pdf",
+      "note": "Supports the comparison of Black and American Indian shares of Minnesota's adult population with their shares of people sentenced for felonies."
+    },
+    {
+      "title": "Social Security Administration — What Prisoners Need to Know (Publication No. 05-10133)",
+      "href": "https://www.ssa.gov/pubs/EN-05-10133.pdf",
+      "note": "Supports the rules on suspension of Social Security, SSI suspension and termination after twelve consecutive months, prerelease agreements, release documents and Medicare Part A."
+    },
+    {
+      "title": "Minnesota Department of Human Services — Reentry Section 1115 Demonstration Waiver Application Summary",
+      "href": "https://mn.gov/dhs/assets/reentry-waiver-application-summary_tcm1053-655028.pdf",
+      "note": "Supports the statement that Medicaid is currently suspended for enrolled people in jail or prison, and the proposed pre-release services. A proposal summary, not an approved program description."
+    },
+    {
+      "title": "Minnesota Department of Human Services — Background Studies: Reconsideration",
+      "href": "https://mn.gov/dhs/background-studies/reconsideration/",
+      "note": "Supports the grounds for reconsideration, possible outcomes, the meaning of a set-aside and that only the licensed entity may request a variance."
+    },
+    {
+      "title": "Minnesota Office of the Revisor of Statutes — Minnesota Statutes section 245C.22, Review and Action on a Reconsideration Request",
+      "href": "https://www.revisor.mn.gov/statutes/cite/245C.22",
+      "note": "Supports the response timelines, preeminent weight to safety, the risk-of-harm factors and the specific set-aside path for the substance use disorder treatment field."
+    },
+    {
+      "title": "Minnesota Department of Human Rights — Criminal Background Checks (employers)",
+      "href": "https://mn.gov/mdhr/employers/criminal-background/",
+      "note": "Supports the summary of Minnesota's ban-the-box law, including the interview or conditional offer timing, exceptions for legally required checks and MDHR enforcement for private employers. Questions about DHS hiring go to Human Resources."
+    }
+  ]
+}

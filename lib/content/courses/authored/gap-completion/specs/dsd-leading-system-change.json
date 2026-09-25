@@ -1,0 +1,243 @@
+{
+ "id": "dsd-leading-system-change",
+ "subtitle": "Lead change in Minnesota disability services by working within Olmstead, federal settings and state licensing frames, communicating honestly through redesign, co-designing with self-advocates and partners, and measuring outcomes people value.",
+ "audience": "For DSD leaders, managers, program and policy practitioners, and facilitators who lead or coordinate change in home and community-based disability services, including work with counties, Tribal Nations and providers.",
+ "lessons": [
+  {
+   "title": "The frame for system change: Olmstead, settings and standards",
+   "objectives": [
+    "Explain the Olmstead principle and the role of Minnesota's Olmstead Plan, Subcabinet and Implementation Office.",
+    "Identify the qualities the federal HCBS settings rule requires of home and community-based settings.",
+    "Distinguish the roles of the Olmstead Plan, the HCBS settings rule and Minnesota Statutes chapter 245D in DSD work.",
+    "Compare a compliance question with a system-change question about the same service."
+   ],
+   "teaching": "Leading change in disability services starts with knowing the frame the change must fit. Three layers matter most for DSD leaders. The first is the Olmstead principle. In Olmstead v. L.C., the U.S. Supreme Court held that unjustified segregation of people with disabilities is a form of discrimination under the Americans with Disabilities Act, and that public entities must provide community-based services when appropriate. Minnesota's Olmstead Plan turns that principle into commitments across state agencies on individual choice, person-centered planning, housing, employment, education, transportation and more. The Olmstead Subcabinet, made up of state agency leaders, oversees the plan, and the Olmstead Implementation Office supports it and reports on goal progress. At the time of writing, the office is developing an updated plan and has gathered public input through surveys and community conversations; check the office's site for the current status.\n\nThe second layer is federal. The Centers for Medicare and Medicaid Services (CMS) home and community-based services settings rule sets qualities that settings funded through Medicaid HCBS must have. According to the federal Administration for Community Living, settings must be integrated in and support access to the greater community, offer opportunities for competitive integrated employment, be selected by the person from options that include non-disability-specific settings, ensure privacy, dignity, respect and freedom from coercion and restraint, optimize autonomy and independence, and support choice about services and who provides them. Provider-owned or controlled residential settings have additional requirements. The federal transition period for full compliance has ended.\n\nThe third layer is state licensing standards. Minnesota Statutes chapter 245D sets home and community-based services standards for licensed providers, including service recipient rights, protection standards, service planning, staffing and oversight. The Positive Supports Rule, Minnesota Rules chapter 9544, governs positive support practices and restricts the use of restrictive interventions. These are enforced through licensing and related oversight.\n\nLeaders need to hold all three layers without collapsing them. A compliance question asks whether a provider or process meets a rule. A system-change question asks whether the service system as a whole helps people live the lives they choose in the community. A setting can pass a checklist and still leave a person isolated; a policy can be legal and still push people toward congregate options because of how rates, authorization or information are designed. System leadership lives in the second question while respecting the first.",
+   "keyPoint": "Olmstead sets the purpose (integrated, chosen community life), the HCBS settings rule sets federal setting qualities, and 245D and the Positive Supports Rule set state standards. Leaders use compliance as a floor and ask system-change questions above it.",
+   "example": "Fictional case: A DSD team reviewing day services data notices that people in two regions mostly attend center-based programs, even though providers there meet the settings rule and licensing standards. Nadia, a program manager, is asked by her director whether there is a compliance problem. County case managers tell her that community employment and community-based day options have long waiting lists there, and that people are rarely shown the full range of options during planning.",
+   "question": "How should Nadia frame her answer?",
+   "choices": [
+    "Report that there is no problem, since providers meet the settings rule and 245D.",
+    "Recommend immediate licensing actions against the center-based providers to push people into other options.",
+    "Explain that providers appear compliant, but the pattern raises a system-change question about option availability and planning, and propose next steps with counties."
+   ],
+   "feedback": [
+    "Compliance is only the floor. Stopping here misses the Olmstead question of whether people have a real choice of integrated options.",
+    "Licensing actions against compliant providers would be unjustified and could disrupt people's services. The issue appears to lie in capacity and planning, not provider violations.",
+    "This is the strongest response. It separates the compliance finding from the system pattern and points to the levers (capacity and person-centered planning) that could change it, working with counties that do the planning."
+   ],
+   "recommended": 2,
+   "reflection": "In your own area of work, privately consider one decision you make mainly as a compliance question. What system-change question sits above it that you rarely get to ask?",
+   "action": "Pick one DSD service or process you influence. Write one compliance question and one system-change question about it. Identify which data, partner or person served could help you answer the system-change question, and share it with your team.",
+   "check": {
+    "question": "What did the Supreme Court hold in Olmstead v. L.C.?",
+    "correct": "Unjustified segregation of people with disabilities is discrimination under the ADA, and public entities must provide community-based services when appropriate.",
+    "wrong": [
+     "States must close all congregate settings immediately.",
+     "Medicaid may fund only services delivered in a person's family home."
+    ],
+    "feedback": "Olmstead established that unjustified segregation is discrimination and that community-based services must be provided when appropriate. It does not require closing every congregate setting or restrict services to family homes; state plans and federal rules build on the principle."
+   }
+  },
+  {
+   "title": "Leading a major redesign under uncertainty: Waiver Reimagine",
+   "objectives": [
+    "Describe the goals and current status of Waiver Reimagine and the new Disability Waiver Program using DHS public information.",
+    "Identify the conditions DHS has said must occur before the new program launches.",
+    "Draft a message that separates what is known, what is not yet known and when people will hear more.",
+    "Plan how a team can prepare for change without over-promising dates or details."
+   ],
+   "teaching": "Waiver Reimagine is the DHS effort to change how Minnesota's home and community-based disability waivers work. DHS describes the goal as a disability waiver program that is simpler, more equitable and sustainable for the future. Its public materials say the new Disability Waiver Program will include a simplified waiver structure, individual budgets and access to simple online tools, and that DHS will provide resources, examples and training to individuals, families, providers, counties and Tribal Nations before changes take effect. DHS also describes the program as shaped by community input over many years, including requests for more equity, flexibility, clearer information and real choice.\n\nLeaders should know the current status precisely, because it has changed. The Legislature had set a start date at the beginning of the coming calendar year, and DHS has announced that it cannot launch the new program by that date and has not yet set a new one. In its most recent quarterly update, DHS said the program will launch through a rolling, phased approach after CMS approves new waiver plans, and after people receive an assigned support range and budget range through a MnCHOICES assessment at least twelve months before launch, for planning purposes. DHS also reported that recent legislative changes require the commissioner to consult with the Olmstead Implementation Office before seeking CMS approval, to align the program with Olmstead goals. Always check the latest DHS update before repeating any of this, because details will continue to change.\n\nLarge redesigns fail in predictable ways under uncertainty. Staff fill silence with rumor. Partners hear a date and plan around it, then lose trust when it moves. People receiving services worry about losing hours or providers. The leadership task is to communicate at the pace of real information. Say what is decided, what is not, what people can do now and when the next update is expected. Avoid speculating about individual budgets or effects, which depend on assessment and on decisions not yet made.\n\nInternally, prepare in ways that are useful whatever the final details. Map which of your team's processes, forms, trainings and contracts touch waiver structure, budgets or support planning. Identify the partners who will need training first, such as county and Tribal case managers and lead agency assessors. Build channels for questions to reach the right DHS team, and point people to the official Disability Waiver Program website and email updates rather than circulating unofficial summaries.",
+   "keyPoint": "Know the current public status of Waiver Reimagine precisely, communicate only what is decided, and prepare processes and partners in ways that hold up whatever the final details are.",
+   "example": "Fictional case: At a regional meeting, a county supervisor, Gloria, asks Darnell, a DSD manager, when the new waiver program will start and whether a family she works with will lose services. Several providers in the room are listening. Darnell has heard informal talk inside DHS about a possible launch window, but nothing has been announced. Gloria says the family is anxious and has already heard two different dates from other providers.",
+   "question": "What should Darnell say?",
+   "choices": [
+    "Share the launch window he heard informally so the county can start planning, while noting it is unofficial.",
+    "Explain that DHS has delayed the launch and not set a new date, describe the conditions DHS has said must happen first, avoid predicting individual effects, and point to official updates and the right contact for the family's question.",
+    "Tell Gloria he cannot comment on Waiver Reimagine at all and she should wait for news."
+   ],
+   "feedback": [
+    "Unofficial dates spread quickly and become commitments in people's minds. If the window changes, trust in DSD drops and families may plan around the wrong date.",
+    "This is the best response. It is accurate, respectful of the family's concern, avoids speculation and connects people to official channels and next steps.",
+    "Refusing to say anything leaves a vacuum that rumor will fill. Public information exists and can be shared."
+   ],
+   "recommended": 1,
+   "reflection": "Privately recall a change at work where you received more rumor than information. What would a leader have needed to say to reduce your uncertainty, even without final answers?",
+   "action": "Read the most recent DHS Waiver Reimagine update. Write a five-sentence message for your team or partners that states what is decided, what is not yet known, what people can do now, where official updates appear and when you will next check in.",
+   "check": {
+    "question": "According to DHS's recent update, which is a condition that must occur before the new Disability Waiver Program launches?",
+    "correct": "CMS approves the new waiver plans.",
+    "wrong": [
+     "Every current waiver participant signs a new consent form.",
+     "All counties adopt a single shared case management vendor."
+    ],
+    "feedback": "DHS has said launch will follow CMS approval of new waiver plans and people receiving support and budget ranges through MnCHOICES at least twelve months ahead. The other options are not stated conditions. Always confirm details against the latest DHS update."
+   }
+  },
+  {
+   "title": "Co-design with self-advocates, counties and Tribal Nations",
+   "objectives": [
+    "Distinguish informing, consulting and co-designing, and identify when each is appropriate.",
+    "Plan accessible, compensated participation for self-advocates and families.",
+    "Explain why counties and Tribal Nations are distinct partners, and why Tribal Nations require government-to-government consultation.",
+    "Identify existing DHS engagement channels connected to the Disability Waiver Program."
+   ],
+   "teaching": "Co-design means people who use services help shape a design before key decisions are fixed, with real influence over the result. It is different from informing people of a decision or consulting them on a near-final draft. All three have a place. Informing suits settled facts, like a new form's release date. Consulting suits choices among limited options. Co-design suits problems where people's lived experience is the best evidence about what will work, such as how a budget tool explains choices or how a person-centered plan is written. The mistake leaders make most often is calling consultation co-design, which people notice and remember.\n\nSelf-advocates and families bring knowledge no one else has, but participation has costs. Make it accessible from the start: plain language and easy-read materials sent in advance, enough time, support people welcomed, interpreters and accessible formats, and meeting times and places that work for participants. Compensate people for their time and expertise where your program's rules allow, and cover costs like transportation. Be clear about what can still change, what cannot and why, and report back on how input was used. DHS already runs channels that leaders can connect with, including the Advisory Task Force on Waiver Reimagine established by the Legislature, the Disability Hub MN Virtual Insight Panel for people with disabilities and families, and a Professional Insight Panel for county and Tribal Nation staff, providers and advocates.\n\nCounties and Tribal Nations are partners with different roles and capacities. Counties, Tribal Nations and managed care organizations carry out MnCHOICES assessments and support planning, so any change to waivers, budgets or planning lands in their workflows first. A large metro county and a small rural county may have very different staffing, technology and caseloads, and a single rollout plan will not fit both. Plan training, phased timelines and feedback loops that account for those differences.\n\nTribal Nations are sovereign governments, not stakeholders. Minnesota Statutes section 10.65 requires DHS and other listed agencies to have a Tribal consultation policy, designate a Tribal liaison and consult with Minnesota Tribal governments on matters with Tribal implications. Consultation is government-to-government and led through the agency's formal process. Program leaders should involve the DHS Tribal liaison early, not after a design is complete, and should never treat a Tribal staff member's comments in a working group as a substitute for consultation.",
+   "keyPoint": "Say honestly whether you are informing, consulting or co-designing; make participation accessible and compensated; plan for county differences; and involve the Tribal liaison early because Tribal consultation is government-to-government.",
+   "example": "Fictional case: Ingrid leads a DSD team redesigning the plain-language explanation people will see about support ranges and budgets. The team has a draft ready and plans to hold one listening session next week, then finalize. A self-advocate on an existing panel, Marcus, says the session feels like a formality. A Tribal Nation's human services director has not yet been contacted.",
+   "question": "What should Ingrid do?",
+   "choices": [
+    "Pause finalization, involve self-advocates in revising the draft over several sessions with accessible materials and compensation, and ask the DHS Tribal liaison how and when to engage Tribal Nations.",
+    "Hold the planned listening session and add a note that Tribal Nations can comment later through the public feedback form.",
+    "Ask Marcus to review the draft himself on behalf of all self-advocates, since he has raised the concern."
+   ],
+   "feedback": [
+    "This is the strongest response. It gives self-advocates real influence while the draft can still change, makes participation accessible and routes Tribal engagement through the proper government-to-government channel.",
+    "A public feedback form is not consultation with a sovereign government, and one listening session on a near-final draft is consultation at best, not co-design.",
+    "One person cannot represent all self-advocates, and placing the burden on Marcus alone is unfair to him and weak as evidence."
+   ],
+   "recommended": 0,
+   "reflection": "Privately think about the last time you asked for input. Were you informing, consulting or co-designing, and how did you describe it to the people involved?",
+   "action": "For one current project, write which decisions are open to co-design, which are open to consultation and which are settled. Identify one accessibility or compensation step you will add, and note whether and when the Tribal liaison needs to be involved.",
+   "check": {
+    "question": "Under Minnesota Statutes section 10.65, how should DHS engage Minnesota Tribal Nations on matters with Tribal implications?",
+    "correct": "Through government-to-government consultation under the agency's Tribal consultation policy, with a designated Tribal liaison.",
+    "wrong": [
+     "Through the same public comment process used for all stakeholders.",
+     "Only after a program design is final, to share the results."
+    ],
+    "feedback": "Section 10.65 requires listed agencies, including DHS, to have a consultation policy and Tribal liaison and to consult with Tribal governments on matters with Tribal implications. Public comment and after-the-fact notice are not substitutes for consultation."
+   }
+  },
+  {
+   "title": "Provider quality oversight and measuring outcomes that matter",
+   "objectives": [
+    "Explain how licensing standards, provider oversight and person-centered outcomes fit together in a quality system.",
+    "Compare measures of activity, compliance and outcomes for a disability service.",
+    "Identify risks when oversight actions affect people's access to services.",
+    "Plan an outcome measure that reflects what people receiving services say matters."
+   ],
+   "teaching": "Provider quality oversight protects people. Minnesota Statutes chapter 245D sets standards for licensed home and community-based services providers, covering service recipient rights, protection standards, service planning and delivery, staffing, policies and program oversight. Licensing reviews, maltreatment investigations and program integrity work all have roles. DSD leaders are not usually the ones who license or investigate, but they design services, rates, training and guidance that shape what quality looks like and how providers are supported to reach it.\n\nA quality system is stronger when it looks at three kinds of evidence together. Activity measures count what the system did, such as trainings delivered or reviews completed. Compliance measures show whether standards were met, such as the share of files with a current support plan. Outcome measures ask whether people's lives reflect their choices: whether they have a job if they want one, relationships, control over their daily schedule, privacy, and a say in who supports them. The Olmstead Plan's focus on choice and integrated life, and the Olmstead Implementation Office's use of quality-of-life and choice surveys, point toward outcomes. Activity and compliance are necessary, but a system can look busy and compliant while outcomes stay flat.\n\nOversight decisions also have equity and access effects. Enforcement actions, enrollment pauses or payment holds may be necessary to stop harm or fraud, and they can also disrupt services for people who rely on that provider, sometimes concentrated in particular communities or regions. Leaders should plan for continuity of care when a provider is sanctioned, coordinate with counties, Tribal Nations and case managers, and make sure people know how to find another provider. Protecting people from a poor provider and protecting their access to services are both part of quality.\n\nMeasure honestly. Choose a small number of outcome measures that people receiving services helped define. State data sources and limits: survey response rates, who was not reached, small numbers in some regions, and differences in how counties record information. Look at results by region, disability type, race and language where the data can support it, and bring results back to self-advocates and partners to interpret together. Report what did not improve as clearly as what did. System change is slow, and credible measurement is what lets a leader show whether it is happening.",
+   "keyPoint": "Quality means safe providers and good lives. Pair licensing and compliance evidence with outcomes people define, plan for continuity when oversight disrupts services, and report results with their limits.",
+   "example": "Fictional case: Kenji's DSD team is asked to produce a quarterly quality report for a service. The draft lists the number of provider trainings held and the share of licensing reviews without citations. Anita, a self-advocate advisor, asks whether anyone knows if people using the service have more control over their day than a year ago. The team has access to a recent choice and quality-of-life survey with regional results.",
+   "question": "What should Kenji add to the report?",
+   "choices": [
+    "Nothing yet; outcome data is too uncertain to include in an official report.",
+    "Replace the training and licensing figures with survey results, since outcomes are what matter.",
+    "Add one or two outcome measures from the survey with their limits, keep the compliance figures for context, and plan to review the results with self-advocates."
+   ],
+   "feedback": [
+    "All data has limits. Leaving outcomes out entirely keeps the report focused on activity and hides whether the service is working for people.",
+    "Compliance evidence still matters for safety and accountability. Dropping it loses important information.",
+    "This is the best response. It keeps the compliance floor visible, adds evidence about people's lives, is honest about limits and involves people served in interpretation."
+   ],
+   "recommended": 2,
+   "reflection": "Privately consider a report you contribute to. How much of it describes activity, how much compliance, and how much whether people's lives changed in ways they care about?",
+   "action": "Review one report or dashboard your team uses. Label each measure as activity, compliance or outcome. Propose one outcome measure, with its source and limits, that people receiving services would recognize as meaningful, and ask a self-advocate advisor or partner whether it fits.",
+   "check": {
+    "question": "Which is an outcome measure for a disability service?",
+    "correct": "The share of people who report having control over their daily schedule.",
+    "wrong": [
+     "The number of provider trainings held this quarter.",
+     "The share of licensing reviews completed on time."
+    ],
+    "feedback": "Outcome measures describe changes in people's lives. Training counts are activity measures, and review timeliness is a process or compliance measure. A strong quality system uses all three but does not mistake activity for results."
+   }
+  }
+ ],
+ "cards": [
+  {
+   "front": "Olmstead principle",
+   "back": "Unjustified segregation of people with disabilities is discrimination under the ADA; public entities must provide community-based services when appropriate."
+  },
+  {
+   "front": "HCBS settings rule",
+   "back": "Federal CMS requirements that Medicaid home and community-based settings support community access, choice, privacy, dignity, autonomy and freedom from coercion and restraint."
+  },
+  {
+   "front": "Chapter 245D",
+   "back": "Minnesota Statutes setting home and community-based services standards for licensed providers, including service recipient rights and protection standards."
+  },
+  {
+   "front": "Waiver Reimagine",
+   "back": "The DHS effort to create a new Disability Waiver Program with a simplified waiver structure, individual budgets and online tools. Launch is delayed; check DHS updates for status."
+  },
+  {
+   "front": "Co-design",
+   "back": "People who use services shape a design before key decisions are fixed, with real influence over the result, as distinct from informing or consulting."
+  }
+ ],
+ "aid": [
+  {
+   "heading": "Frame the change",
+   "items": [
+    "Name the Olmstead goal the change serves.",
+    "Check the HCBS settings qualities and 245D standards that apply.",
+    "Ask one compliance question and one system-change question."
+   ]
+  },
+  {
+   "heading": "Communicate through uncertainty",
+   "items": [
+    "State what is decided, what is not and when the next update will come.",
+    "Use only official DHS updates; never share informal dates.",
+    "Avoid predicting individual budgets or service effects.",
+    "Point people to the Disability Waiver Program website and email updates."
+   ]
+  },
+  {
+   "heading": "Engage partners well",
+   "items": [
+    "Say honestly whether you are informing, consulting or co-designing.",
+    "Provide accessible materials, support people, interpreters and compensation where allowed.",
+    "Plan rollout for different county capacities.",
+    "Involve the DHS Tribal liaison early; Tribal consultation is government-to-government."
+   ]
+  },
+  {
+   "heading": "Measure what matters",
+   "items": [
+    "Pair activity and compliance measures with outcomes people define.",
+    "State data sources, gaps and small-number limits.",
+    "Plan continuity of care when oversight actions affect a provider.",
+    "Review results with self-advocates and partners, and report what did not improve."
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "title": "Minnesota Olmstead Implementation Office — Home",
+   "href": "https://mn.gov/olmstead/",
+   "note": "Supports the Olmstead decision summary, the plan's scope, the Subcabinet and office roles, and the current plan update with public input. Plan status changes; check the site."
+  },
+  {
+   "title": "Minnesota Department of Human Services — Minnesota's Disability Waiver Program",
+   "href": "https://mn.gov/dhs/disability-waiver-program/",
+   "note": "Supports the program's goals and features (simplified structure, individual budgets, online tools), the delay of the original launch date, the Advisory Task Force and the Virtual and Professional Insight Panels."
+  },
+  {
+   "title": "Minnesota Department of Human Services — Waiver Reimagine update: What 2026 legislative changes mean for Minnesota's new Disability Waiver Program (July 2026)",
+   "href": "https://mn.gov/dhs/partners-and-providers/news-initiatives-reports-workgroups/long-term-services-and-supports/waiver-reimagine/wr-july-2026-update.jsp",
+   "note": "Supports the launch conditions (CMS approval, support and budget ranges through MnCHOICES at least twelve months before launch), the rolling phased approach and the new requirement to consult the Olmstead Implementation Office. Time-sensitive."
+  },
+  {
+   "title": "Administration for Community Living — HCBS Settings Rule",
+   "href": "https://acl.gov/programs/hcbs-settings-rule",
+   "note": "Supports the settings qualities listed in lesson 1 and the end of the federal transition period."
+  },
+  {
+   "title": "Minnesota Statutes chapter 245D — Home and Community-Based Services Standards",
+   "href": "https://www.revisor.mn.gov/statutes/cite/245D",
+   "note": "Supports the description of 245D topics: service recipient rights, protection standards, service planning, staffing and oversight."
+  },
+  {
+   "title": "Minnesota Department of Human Services — MnCHOICES",
+   "href": "https://mn.gov/dhs/people-we-serve/people-with-disabilities/services/home-community/programs-and-services/mnchoices.jsp",
+   "note": "Supports the statement that counties, Tribal Nations and managed care organizations carry out MnCHOICES assessments and support planning."
+  },
+  {
+   "title": "Minnesota Statutes section 10.65 — Government-to-government relationship with Tribal governments",
+   "href": "https://www.revisor.mn.gov/statutes/cite/10.65",
+   "note": "Supports the requirement that DHS have a Tribal consultation policy and Tribal liaison and consult on matters with Tribal implications."
+  }
+ ]
+}

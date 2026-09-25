@@ -1,0 +1,232 @@
+{
+ "id": "gc-age-inclusion",
+ "subtitle": "Recognize ageism toward younger and older people, apply federal and Minnesota age protections at the right level, and replace generational stereotypes with individual, person-centered practice.",
+ "audience": "For all DHS and DSD employees, including those who work with coworkers, partners and people served across the age span. It builds shared language and does not replace HR, EOAD or legal advice.",
+ "lessons": [
+  {
+   "title": "What ageism is and why it matters",
+   "objectives": [
+    "Explain the World Health Organization's three-part description of ageism: stereotypes, prejudice and discrimination.",
+    "Distinguish institutional, interpersonal and self-directed ageism with a workplace example of each.",
+    "Identify ways ageism affects both younger and older people.",
+    "Describe the limits of global survey evidence on ageism."
+   ],
+   "teaching": "Age is one of the first things people notice about each other, and one of the least examined. The World Health Organization describes ageism as stereotypes, which is how we think, prejudice, which is how we feel, and discrimination, which is how we act, directed toward others or toward ourselves based on age. In its global report on ageism, WHO put it simply: ageism arises when age is used to categorize and divide people in ways that lead to harm, disadvantage and injustice.\n\nWHO describes three levels where ageism shows up. Institutional ageism lives in rules and practices, such as a policy or habit that quietly steers training toward people early in their careers, or that assumes older staff are not interested in new systems. Interpersonal ageism shows up between people, such as patronizing an older coworker, dismissing a younger colleague's idea as inexperience, or joking about someone being too old to learn. Self-directed ageism is when people absorb these messages about themselves: I am too old to apply for that, or no one will take me seriously at my age.\n\nAgeism is not only about older people. WHO notes that younger people also face age-based barriers, including limited say in decisions at work, and that in some regions younger people report more age discrimination than other age groups. In a state agency, that can look like assuming a newer, younger employee cannot lead a workgroup, or that an experienced employee near retirement should not be offered a development opportunity.\n\nIt is worth being careful with the numbers. WHO reported that about one in two people surveyed worldwide held moderately or highly ageist attitudes toward older people, based on a large multi-country survey. That tells us ageist attitudes are common. It does not tell us how often any particular workplace makes age-biased decisions, and it does not diagnose any individual. WHO also links ageism to poorer health and social isolation, though much of that evidence is associational rather than proof of cause. The practical message for a DHS team is modest and useful: age assumptions are common, they affect people at both ends of a career, and they are worth noticing in ordinary decisions.",
+   "keyPoint": "Ageism is stereotypes, prejudice and discrimination based on age, aimed at others or at ourselves. It affects younger and older people and shows up in rules, interactions and self-talk.",
+   "example": "Fictional case: A DSD unit is choosing someone to learn a new contract management system and train others. The supervisor, Aurelio, says in a meeting that Dagny, who has twenty-five years in the unit, probably would not want to deal with new software, and suggests Kip, the newest hire, because younger people pick up technology faster. Dagny has not been asked. Kip is also not sure he wants the role.",
+   "question": "What would be a better approach for Aurelio?",
+   "choices": [
+    "Assign both Dagny and Kip so no one feels left out.",
+    "Keep his choice, since it is only a training assignment and not a promotion.",
+    "Describe what the role involves, invite interest from everyone on the team, and choose based on interest and job-related factors rather than assumptions about age."
+   ],
+   "feedback": [
+    "Assigning both may seem fair, but it still skips asking people what they want and still rests on assumptions about them.",
+    "Training and assignments are exactly where small age assumptions add up. The EEOC lists job assignments and training among the employment decisions covered by age discrimination law.",
+    "This is the best response. It removes age assumptions about both Dagny and Kip and makes the decision about interest and the work."
+   ],
+   "recommended": 2,
+   "reflection": "Think about a time you assumed something about a coworker based on their age, older or younger. What did you assume, and how did you find out whether it was true?",
+   "action": "In your next assignment decision or meeting, notice any comment that links age to ability or interest, such as too new, too close to retirement or a digital native. Ask yourself what job-related fact you would need instead.",
+   "check": {
+    "question": "According to the World Health Organization, which set best describes the parts of ageism?",
+    "correct": "Stereotypes, prejudice and discrimination based on age, directed toward others or oneself.",
+    "wrong": [
+     "Only discrimination against people over sixty-five.",
+     "Only illegal employment decisions based on age."
+    ],
+    "feedback": "WHO's description covers thoughts, feelings and actions, and it includes ageism toward younger people and ageism people direct at themselves. Legal protections are one part of the picture, not the whole of it."
+   }
+  },
+  {
+   "title": "Age protections at work: federal and Minnesota law",
+   "objectives": [
+    "Describe who is protected under the federal Age Discrimination in Employment Act.",
+    "Explain how Minnesota Human Rights Act age protection differs from the federal law.",
+    "Identify common workplace comments and practices that can signal age bias.",
+    "Identify where to raise a concern about age discrimination or harassment."
+   ],
+   "teaching": "Two laws matter most for age at work in a Minnesota state agency. The federal Age Discrimination in Employment Act protects people age forty and older. The U.S. Equal Employment Opportunity Commission explains that it applies to employers with twenty or more employees and forbids age discrimination in any aspect of employment, including hiring, firing, pay, job assignments, promotions, layoff, training and benefits. Harassment based on age is also unlawful when it is so frequent or severe that it creates a hostile work environment or leads to an adverse decision. Interestingly, the EEOC notes that federal law does not prohibit favoring an older worker over a younger one, even when both are forty or older.\n\nThe Minnesota Human Rights Act goes further. Minnesota Statutes section 363A.03 says the prohibition against age discrimination in employment protects a person over the age of majority, with one related provision covering people over twenty-five. In practice, that means state law protects younger adult workers from age discrimination in employment too, not only people over forty. Statewide human resources policy follows this broader coverage.\n\nAge bias rarely announces itself. It often sounds like a compliment or a practical observation. Phrases such as we need fresh energy, a digital native, overqualified, not a long-term investment, or will not be around long enough to make this worthwhile can signal that age is influencing a decision. So can practices like offering conferences and training mostly to newer staff, assuming someone near retirement is not interested in a stretch assignment, or treating a younger colleague's ideas as inexperience. Jokes about age, repeated nicknames about age and comments about someone's energy or memory can contribute to a hostile environment.\n\nNone of this means every decision involving people of different ages is suspect. The question is whether the decision rests on job-related facts or on assumptions about age. If you notice a pattern, or someone brings you a concern, you do not need to determine whether it is illegal. Employees can raise age concerns with a supervisor, HR or the DHS Equal Opportunity and Access Division, and externally with the Minnesota Department of Human Rights or the EEOC. Supervisors who learn of possible protected-class harassment or discrimination refer it to HR or EOAD and do not investigate it themselves.",
+   "keyPoint": "Federal law protects workers forty and older. Minnesota law protects adult workers of any age from age discrimination in employment. Watch for decisions that rest on age assumptions rather than job-related facts.",
+   "example": "Fictional case: A DSD hiring panel is reviewing finalists for a policy specialist role. One panelist, Gideon, says a strong candidate, Rosamund, is probably overqualified and will retire soon, so the unit should pick someone who will stay. Another panelist, Nerys, says a different candidate seems too young to handle county partners. The panel chair, Idris, notices that both comments are about age, not about the job criteria.",
+   "question": "What should Idris do?",
+   "choices": [
+    "Redirect the panel to the posted job criteria and evidence from the interviews, note that assumptions about retirement or youth should not factor in, and consult HR if the concern continues.",
+    "Let each panelist score as they see fit, since panel members are entitled to their views.",
+    "Remove both candidates from consideration to avoid any appearance of bias."
+   ],
+   "feedback": [
+    "This is the best response. Idris brings the discussion back to job-related evidence, names the problem plainly and knows HR is the partner for hiring process concerns.",
+    "Panelists use judgment, but comments tying a candidate's suitability to age can signal age discrimination under federal and state law. The chair has a responsibility to redirect them.",
+    "Removing qualified candidates would be its own unfair decision. The problem is the reasoning, not the candidates."
+   ],
+   "recommended": 0,
+   "reflection": "Which age-related phrases have you heard in hiring, assignments or feedback that seemed harmless at the time? How might they sound to the person being described?",
+   "action": "Review the criteria you use for one recurring decision, such as selecting people for training or assignments. Check that each criterion is job-related and says nothing, directly or indirectly, about age.",
+   "check": {
+    "question": "How does Minnesota Human Rights Act age protection in employment differ from the federal ADEA?",
+    "correct": "Minnesota law protects adults over the age of majority, not only those forty and older.",
+    "wrong": [
+     "Minnesota law protects only people over sixty-five.",
+     "Minnesota law does not cover age at all."
+    ],
+    "feedback": "The ADEA begins at forty. Minnesota Statutes section 363A.03 extends employment age protection to adults over the age of majority, so younger adult workers are also protected under state law."
+   }
+  },
+  {
+   "title": "Multigenerational teams without generational stereotypes",
+   "objectives": [
+    "Summarize what the National Academies found about the evidence for generational differences at work.",
+    "Distinguish age effects, period effects and generational effects.",
+    "Explain why generational labels can become a proxy for age.",
+    "Plan team practices that respond to individual needs instead of generational categories."
+   ],
+   "teaching": "Popular advice about multigenerational workplaces often sorts people into labeled generations and assigns each one traits: one group is loyal, another wants constant feedback, another is independent. It is an appealing shortcut. The evidence for it is weak.\n\nA committee of the National Academies of Sciences, Engineering, and Medicine examined whether generational categories are meaningful for managing a workforce. The committee concluded that many findings attributed to generational differences may instead reflect changes in the nature of work that affect everyone, or ordinary differences that come with age and experience. It noted that most studies compare different age groups at one point in time, which cannot separate three things: age effects, which come from life stage; period effects, which come from events and changes that affect everyone at once; and cohort or generational effects. Studies using stronger methods found little evidence of generational differences in work values. The committee cautioned that categorizing workers by observable attributes can lead to overgeneralization, improper assumptions and even discrimination, and that generation can function as a stand-in for age in legal terms.\n\nSo what does work? The committee recommended focusing on the needs of individual workers and the changing context of work, instead of generational stereotypes. On a DHS team, that means asking each person how they like to get feedback rather than assuming by age, offering flexible options for learning new systems so no one is singled out, and noticing that needs often come from life circumstances like caregiving, health or commuting rather than birth year.\n\nContact across ages helps. The World Health Organization identifies intergenerational contact as one of three strategies that reduce ageism, alongside policy and law and education. At work, contact is most useful when people share real tasks as equals. Two-way mentoring, where each person teaches something, mixed-experience project teams and rotating who leads are practical forms of it. The goal is not to erase differences in experience, which are real and valuable. It is to see the person rather than the label. If you catch yourself explaining a coworker's behavior by their generation, try asking them instead.",
+   "keyPoint": "Strong evidence for generational differences in work values is lacking. Respond to individual needs and life circumstances, not generational labels, and build contact across ages through shared work.",
+   "example": "Fictional case: A DSD communications unit is redesigning how it gives feedback on drafts. The manager, Octavia, shares an article claiming that younger staff need frequent praise while older staff prefer to be left alone, and proposes two separate feedback schedules by age group. Cyrus, a senior writer, and Tove, a recent hire, both find the idea awkward. Octavia sincerely wants to meet everyone's needs.",
+   "question": "What would be the most effective approach for Octavia?",
+   "choices": [
+    "Use the two schedules, since the article is based on research.",
+    "Ask each team member how and how often they want feedback, set a shared baseline for everyone and adjust individually.",
+    "Drop the redesign and keep the current approach to avoid controversy."
+   ],
+   "feedback": [
+    "The National Academies found little strong evidence for generational differences in work values, and dividing feedback by age risks treating people differently because of age.",
+    "This is the best response. It meets real individual needs, applies a common standard and avoids sorting people by age.",
+    "Avoiding the change leaves any real feedback problems unsolved. The issue is the method, not the goal."
+   ],
+   "recommended": 1,
+   "reflection": "What generational label have you applied to yourself or others? What does it explain, and what might it hide about the individual?",
+   "action": "Next time you plan a change that affects your team, such as a new tool or process, ask each person what support they would find useful rather than predicting by age or experience.",
+   "check": {
+    "question": "Why did the National Academies committee caution against using generational categories to manage workers?",
+    "correct": "Evidence for generational differences in work values is weak, and categorizing workers can lead to overgeneralization and discrimination.",
+    "wrong": [
+     "Because generational differences are so large that they cannot be managed.",
+     "Because federal law prohibits discussing generations at work."
+    ],
+    "feedback": "The committee found that apparent generational differences often reflect age or period effects. It recommended focusing on individual needs and the context of work. Generational labels can also stand in for age, which raises discrimination risks."
+   }
+  },
+  {
+   "title": "Age in service delivery",
+   "objectives": [
+    "Describe the federal Age Discrimination Act and the kinds of programs it covers.",
+    "Distinguish lawful age-based eligibility set in statute from age-based assumptions in service.",
+    "Identify examples of ageist practice when working with older adults and young people.",
+    "Plan a person-centered alternative to an age-based assumption in a service interaction."
+   ],
+   "teaching": "Age shapes service delivery as well as the workplace. A federal law, the Age Discrimination Act, prohibits discrimination on the basis of age in programs and activities that receive federal financial assistance. The U.S. Department of Health and Human Services explains that it protects people of all ages, not only older adults. Many DHS programs and the county and provider programs DHS funds receive federal funds. The Act does not cover employment practices, which are addressed by the laws in the earlier lesson.\n\nThe Act also recognizes that some programs lawfully use age. Age distinctions set by federal, state or local statute, such as an eligibility age written into law, continue to apply, and HHS describes other narrow exceptions for factors that are necessary to a program's normal operation or that are reasonable factors other than age. So the question is not whether age ever appears in a program. It is whether staff are adding age-based assumptions that the program's rules do not require. Formal questions about whether a program's age distinctions are lawful go to DHS legal counsel and the civil rights office.\n\nAssumptions show up in small moments. Staff may speak to an older person's adult child instead of the person, assume an older adult cannot use an online portal, use a slow, sing-song tone sometimes called elderspeak, or describe an older person's preferences as confusion. With young adults, including young people with disabilities moving from children's to adult services, staff may assume they are too young to make choices about where to live or work, or talk mostly to parents. In disability services, age assumptions can mix with disability assumptions, which makes them harder to see.\n\nThe alternative is person-centered practice, which DSD programs already expect. Speak first to the person the service is for. Ask how they prefer to receive information and offer more than one channel rather than assuming by age. Ask who, if anyone, they want involved in decisions. Treat preferences as preferences, whatever the person's age. When an age-based rule does apply, explain it plainly as a program rule, not a judgment about the person. These habits also help in workplace interactions with coworkers of every age.",
+   "keyPoint": "Lawful program age rules apply as written, but staff should not add age assumptions of their own. Speak to the person, ask their preferences and offer choices, for older adults and young people alike.",
+   "example": "Fictional case: Philippa, a county case manager working with DSD guidance, meets with Bertrand, who is seventy-eight and has a disability, about changing his services. His daughter, Linnea, attends. Philippa directs most questions to Linnea and suggests paper forms because online tools can be confusing at his age. Bertrand, who manages his own email and online banking, grows quiet. Later a DSD staff member reviewing the case notes the pattern.",
+   "question": "What should Philippa do differently in the next meeting?",
+   "choices": [
+    "Continue addressing Linnea, since family members often know best.",
+    "Ask Bertrand to demonstrate that he can use the online tools before offering them.",
+    "Speak directly to Bertrand, ask how he prefers to receive information and how he wants Linnea involved, and offer both online and paper options."
+   ],
+   "feedback": [
+    "Family involvement can be valuable, but only as the person chooses. Defaulting to Linnea sidelines Bertrand in his own services.",
+    "Asking him to prove his ability singles him out because of age. Offering options and asking preferences works for everyone.",
+    "This is the best response. It is person-centered, respects Bertrand's choices about family involvement and removes an age-based assumption about technology."
+   ],
+   "recommended": 2,
+   "reflection": "In your work with the public or with partners, when might you default to assumptions about what someone can do or wants based on how old they seem? What question could replace the assumption?",
+   "action": "Review one standard letter, form or intake script you use. Check whether it assumes a preferred channel or decision-maker by age, and suggest a change that offers the person a choice.",
+   "check": {
+    "question": "Whom does the federal Age Discrimination Act protect in federally funded programs?",
+    "correct": "People of all ages.",
+    "wrong": [
+     "Only people age forty and older.",
+     "Only people age sixty-five and older."
+    ],
+    "feedback": "HHS explains that the Act applies to persons of all ages in programs receiving federal financial assistance. The age forty threshold belongs to the ADEA, which covers employment."
+   }
+  }
+ ],
+ "cards": [
+  {
+   "front": "Ageism",
+   "back": "Stereotypes, prejudice and discrimination toward others or oneself based on age, as described by the World Health Organization."
+  },
+  {
+   "front": "ADEA",
+   "back": "The federal Age Discrimination in Employment Act, which protects workers age forty and older from age discrimination by employers with twenty or more employees."
+  },
+  {
+   "front": "MHRA age protection",
+   "back": "Minnesota Human Rights Act employment protection against age discrimination for adults over the age of majority."
+  },
+  {
+   "front": "Period effect",
+   "back": "A change that affects people of all ages at the same time, such as new technology. It is often mistaken for a generational difference."
+  },
+  {
+   "front": "Age Discrimination Act",
+   "back": "A federal law prohibiting age discrimination against people of any age in programs receiving federal financial assistance, with exceptions for age rules set in statute."
+  }
+ ],
+ "aid": [
+  {
+   "heading": "Checking a workplace decision for age assumptions",
+   "items": [
+    "List the job-related criteria before discussing people.",
+    "Watch for phrases like fresh energy, digital native, overqualified or close to retirement.",
+    "Offer training and stretch work across career stages.",
+    "Ask people about their interests instead of predicting by age.",
+    "Raise concerns with HR or EOAD rather than investigating."
+   ]
+  },
+  {
+   "heading": "Working across ages on a team",
+   "items": [
+    "Ask each person how they like to receive feedback and information.",
+    "Offer more than one way to learn new tools.",
+    "Use two-way mentoring and mixed-experience project teams.",
+    "Replace generational labels with questions about individual needs."
+   ]
+  },
+  {
+   "heading": "Age in service interactions",
+   "items": [
+    "Speak first to the person the service is for.",
+    "Ask who they want involved and how.",
+    "Offer online and paper or phone options without assuming.",
+    "Explain age-based program rules as rules, not judgments.",
+    "Route questions about the lawfulness of age rules to legal counsel or the civil rights office."
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "title": "World Health Organization — Ageing: Ageism (questions and answers)",
+   "href": "https://www.who.int/news-room/q-a-detail/ageing-ageism",
+   "note": "Supports the description of ageism as stereotypes, prejudice and discrimination toward others or oneself, the institutional, interpersonal and self-directed forms, and effects on younger people."
+  },
+  {
+   "title": "World Health Organization — Ageism is a global challenge: UN (news release on the Global Report on Ageism, 2021)",
+   "href": "https://www.who.int/news/item/18-03-2021-ageism-is-a-global-challenge-un",
+   "note": "Supports the definition from the global report, the one-in-two survey finding and the three strategies of policy and law, education and intergenerational contact. Survey findings describe attitudes, not individual workplaces."
+  },
+  {
+   "title": "U.S. Equal Employment Opportunity Commission — Age Discrimination",
+   "href": "https://www.eeoc.gov/age-discrimination",
+   "note": "Supports ADEA coverage of people forty and older, the twenty-employee threshold, covered employment decisions, age harassment and the note that favoring an older worker is not prohibited."
+  },
+  {
+   "title": "Minnesota Statutes section 363A.03 — Definitions (Minnesota Human Rights Act)",
+   "href": "https://www.revisor.mn.gov/statutes/cite/363A.03",
+   "note": "Supports that Minnesota employment age protection covers people over the age of majority. Formal determinations rest with MDHR and the courts."
+  },
+  {
+   "title": "National Academies of Sciences, Engineering, and Medicine — Are Generational Categories Meaningful Distinctions for Workforce Management? (Summary, 2020)",
+   "href": "https://nap.nationalacademies.org/read/25796/chapter/2",
+   "note": "Supports the finding that evidence for generational differences in work values is weak, the age, period and cohort distinction, and the recommendation to focus on individual needs."
+  },
+  {
+   "title": "U.S. Department of Health and Human Services — Nondiscrimination on the Basis of Age in Programs or Activities Receiving Federal Financial Assistance",
+   "href": "https://www.hhs.gov/civil-rights/for-providers/laws-regulations-guidance/nondiscrimination-basis-of-age/index.html",
+   "note": "Supports that the Age Discrimination Act protects people of all ages in federally assisted programs, excludes most employment practices and allows age distinctions set by statute and other narrow exceptions."
+  }
+ ]
+}
