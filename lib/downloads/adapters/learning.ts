@@ -5,10 +5,7 @@ import { EAT_CHOICES, EAT_STAGES } from "@/lib/content/equity-toolkit";
 import { getLearningJourney, journeyText, selectJourneyResources } from "@/lib/content/learning-journey";
 import {
   AUTHORITY_GROUP_LABEL,
-  annotationsFor,
   registerSourcesForStaff,
-  registerSummary,
-  verificationFor,
 } from "@/lib/content/source-register";
 import { loadStaffContentSnapshot, type StaffProgramScope } from "@/lib/content/staff-publications";
 import { linkListValue, stringListValue, stringValue } from "@/lib/content/staff-surface-registry";
@@ -138,32 +135,21 @@ export async function sourcesDocument(scope: StaffProgramScope): Promise<Resourc
   const surface = await prepareEditableSurface("sources.page", { scope, includeOwner: false });
   if (!surface.available) return null;
   const text = (key: string) => stringValue(surface.values, key);
-  const groups = registerSourcesForStaff();
-  const summary = registerSummary();
+  const groups = registerSourcesForStaff().map(({ group, sources }) => ({ group, sources: sources.filter(source => source.kind === "external" && source.href) })).filter(({ sources }) => sources.length);
   return {
     kicker: kicker(scope, text("introKicker")),
     title: text("introTitle"),
-    subtitle: text("introLede"),
-    meta: [
-      { label: text("countLabel") || "Sources", value: String(summary.sources) },
-      { label: "Outside sources", value: String(summary.outside) },
-      { label: "Resources correlated", value: String(summary.resources) },
-      { label: "Citations", value: String(summary.citations) },
-    ],
+    subtitle: "Outside sources used across the learning and resources in this program.",
+    meta: [],
     sections: compactSections([
-      section(text("readTitle"), [paragraph(text("readBody"))]),
-      section(text("statesTitle"), [paragraph(text("statesBody"))]),
       ...groups.map(({ group, sources }) =>
-        section(`${AUTHORITY_GROUP_LABEL[group]} (${sources.length})`, [
+        section(AUTHORITY_GROUP_LABEL[group], [
           {
             kind: "table",
-            headers: ["Source", "Address", "Verification", "Notes", text("usedInLabel") || "Used in"],
+            headers: ["Source", "Address"],
             rows: sources.map((source) => [
               source.title,
               source.href ?? "",
-              verificationFor(source).label,
-              annotationsFor(source).join(" "),
-              source.citations.map((citation) => citation.resourceTitle).join("; "),
             ]),
           },
         ]),

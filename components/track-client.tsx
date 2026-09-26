@@ -198,7 +198,7 @@ export function TrackClient({
             lookup();
           }}
         >
-          <Field id="rid" label="Reference ID" help="Your reference ID looks like CR-20260904-0001.">
+          <Field id="rid" label="Reference ID" help="Enter the reference ID from your confirmation.">
             <input id="rid" type="text" value={id} onChange={(e) => setIdInput(e.target.value)} />
           </Field>
           <Field id="rkey" label="Access key" help="Enter the private access key from your confirmation. It is never placed in the page address.">
@@ -219,7 +219,7 @@ export function TrackClient({
             <p className="kicker">{view.request_id}</p>
             <h2 className="text-xl font-extrabold">{view.work_name ?? "Expired consultation request"}</h2>
             <p>
-              Status: <strong>{requesterStatusLabel(view.status)}</strong>. Last updated {new Date(view.updated_at).toLocaleString()}.
+              Status: <strong>{requesterStatusLabel(view.status)}</strong>.
             </p>
             {view.scheduled_for ? <p>Scheduled for: {view.scheduled_for}. The {PROGRAM.practiceOwnerRole} entered this date.</p> : null}
             {view.status === "declined" && view.status_reason ? <Notice tone="warn">The {PROGRAM.practiceOwnerRole} could not take this request and suggested another option: {view.status_reason}</Notice> : null}
@@ -230,7 +230,7 @@ export function TrackClient({
             <ul className="list-disc pl-6 text-sm">
               {view.history.map((h) => (
                 <li key={h.at}>
-                  {requesterStatusLabel(h.status)} on {new Date(h.at).toLocaleString()}
+                  {requesterStatusLabel(h.status)}
                 </li>
               ))}
             </ul>

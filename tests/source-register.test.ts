@@ -15,6 +15,7 @@ vi.mock("@/components/editable-surface", () => ({
 }));
 
 import SourcesPage from "@/app/learn/sources/page";
+import { ResourceEvidence } from "@/components/source-evidence";
 
 async function renderAsync(element: ReactNode): Promise<string> {
   const stream = await renderToReadableStream(element);
@@ -69,14 +70,22 @@ describe("source register", () => {
     expect(policy.citations.length).toBeGreaterThan(10);
   });
 
-  it("renders every staff-facing source with its state and where it is used", async () => {
+  it("shows outside reading without internal provenance or source-check records", async () => {
     const html = await renderAsync(createElement(SourcesPage));
     expect(html).toContain("Research and sources");
     expect(html).toContain('id="group-government"');
     expect(html).not.toMatch(/\b(reached|checked) on\b/i);
-    expect(html).toContain("Named without an address");
+    expect(html).not.toContain("Named without an address");
+    expect(html).not.toContain("Drafted September");
+    expect(html).not.toContain("Equity and Inclusion Operations Consultant");
+    expect(html).not.toContain("Source link available");
     const entries = html.match(/class="[^"]*entry[^"]*"/g) ?? [];
-    expect(entries.length).toBe(registerSourcesForStaff().reduce((n, group) => n + group.sources.length, 0));
+    expect(entries.length).toBe(registerSourcesForStaff().reduce((n, group) => n + group.sources.filter(source => source.kind === "external" && source.href).length, 0));
     expect(renderToStaticMarkup(createElement("div"))).toBe("<div></div>");
+  });
+
+  it("does not present internal drafting notes as a resource source", () => {
+    const html = renderToStaticMarkup(createElement(ResourceEvidence, { resourceType: "domain_corpus_item", resourceId: "ja-operational-equity-canvas" }));
+    expect(html).toBe("");
   });
 });

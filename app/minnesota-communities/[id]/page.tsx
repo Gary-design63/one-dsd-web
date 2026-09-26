@@ -10,7 +10,6 @@ import { getPath } from "@/lib/content/paths";
 import { communityBrief, paused } from "@/lib/intelligence/orchestrator";
 import { briefVisible, toView } from "@/lib/intelligence/agents/ci";
 import { consultationIntakeEnabled } from "@/lib/intelligence/consult/availability";
-import { PROGRAM } from "@/lib/constants";
 import { contextualizeSupportAction } from "@/lib/product";
 import { requestedContentScope, requestedProductContext } from "@/lib/product/request-context";
 import { EditableSurfaceRegion, prepareEditableSurface } from "@/components/editable-surface";
@@ -86,9 +85,7 @@ export default async function BriefPage({ params, searchParams }: { params: Prom
           <Link href={supportAction.href}>{supportAction.label}</Link>
         </nav>
       </header> : <PageIntro kicker={b.kicker} title={b.title} lede={b.level0.whoAndWhere}>
-        <p className="mt-3 text-sm text-muted">
-          {stringValue(shellSurface.values, "maintainedByLabel")} {b.owner}. {stringValue(shellSurface.values, "appliesToLabel")}: {PROGRAM.fullName}. {b.representationReview}. {stringValue(shellSurface.values, "languagesLabel")}: {b.languages.join(", ")}.
-        </p>
+        <p className="mt-3 text-sm text-muted">{stringValue(shellSurface.values, "languagesLabel")}: {b.languages.join(", ")}.</p>
       </PageIntro>}
       <div className="wrap py-8">
         {!compact && b.draftBanner ? <Notice tone="warn">{b.draftBanner}</Notice> : null}

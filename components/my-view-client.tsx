@@ -41,7 +41,7 @@ export function MyViewClient({ intakeEnabled, copy, courses = NO_COURSES, learni
       const a = all[`local:${artifactKey}`] as Record<string, string | string[]> | null | undefined;
       if (a) artifacts.push({ key: artifactKey, label: `${p.artifactTitle} (${p.title})`, href: `/practice/${p.id}`, detail: a.work_name ? `${copyText(copy, "forPrefix")}: ${a.work_name}` : copyText(copy, "startedLabel") });
       const pr = all[`local:${progressKey}`] as { complete?: boolean; updatedAt?: string } | null | undefined;
-      if (pr) progress.push({ key: progressKey, label: p.title, href: `/practice/${p.id}`, detail: `${pr.complete ? copyText(copy, "completeLabel") : copyText(copy, "inProgressLabel")}${pr.updatedAt ? `, ${copyText(copy, "updatedPrefix")} ${new Date(pr.updatedAt).toLocaleDateString()}` : ""}` });
+      if (pr) progress.push({ key: progressKey, label: p.title, href: `/practice/${p.id}`, detail: pr.complete ? copyText(copy, "completeLabel") : copyText(copy, "inProgressLabel") });
     }
     for (const [storageId, savedState] of Object.entries(all)) {
       if (!storageId.startsWith("local:")) continue;
@@ -73,8 +73,8 @@ export function MyViewClient({ intakeEnabled, copy, courses = NO_COURSES, learni
     } else if (Object.hasOwn(all, "local:" + BROWSER_STORAGE_KEYS.learningPracticeNotes)) unreadable += 1;
     const saved = (all[`local:${BROWSER_STORAGE_KEYS.savedConsultationReferences}`] as Array<{ id: string; work_name: string; at: string }> | null | undefined) ?? [];
     const recent = (all[`session:${BROWSER_STORAGE_KEYS.recentConsultationReferences}`] as Array<{ id: string; work_name: string; at: string }> | null | undefined) ?? [];
-    for (const x of saved) requests.push({ key: `req:local:${x.id}`, label: `${x.id}: ${x.work_name}`, href: `/support/track?id=${x.id}`, detail: `${copyText(copy, "savedDeviceLabel")}; ${copyText(copy, "submittedPrefix")} ${new Date(x.at).toLocaleDateString()}` });
-    for (const x of recent.filter((entry) => !saved.some((item) => item.id === entry.id))) requests.push({ key: `req:session:${x.id}`, label: `${x.id}: ${x.work_name}`, href: `/support/track?id=${x.id}`, detail: `${copyText(copy, "availableTabLabel")}; ${copyText(copy, "submittedPrefix")} ${new Date(x.at).toLocaleDateString()}` });
+    for (const x of saved) requests.push({ key: `req:local:${x.id}`, label: `${x.id}: ${x.work_name}`, href: `/support/track?id=${x.id}`, detail: copyText(copy, "savedDeviceLabel") });
+    for (const x of recent.filter((entry) => !saved.some((item) => item.id === entry.id))) requests.push({ key: `req:session:${x.id}`, label: `${x.id}: ${x.work_name}`, href: `/support/track?id=${x.id}`, detail: copyText(copy, "availableTabLabel") });
     const s = all[`session:${BROWSER_STORAGE_KEYS.askSession}`] as { turns?: unknown[] } | null | undefined;
     const askTurns = s?.turns?.length ?? 0;
     return { artifacts, progress, requests, askTurns, unreadable };

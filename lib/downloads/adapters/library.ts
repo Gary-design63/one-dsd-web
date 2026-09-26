@@ -15,11 +15,7 @@ export async function libraryDocument(id: string, scope: StaffProgramScope): Pro
     kicker: kicker(scope, `${CONTENT_TYPE_LABEL[item.type]} · ${LAYER_LABEL[item.layer]}`),
     title: item.title,
     subtitle: item.summary,
-    meta: [
-      { label: "Prepared by", value: item.owner },
-      { label: "Standing", value: authority.label },
-      { label: "For", value: item.scope === "dsd" ? programName("dsd") : programName("one-dhs") },
-    ],
+    meta: [],
     sections: compactSections([
       section(undefined, [
         item.whyItMatters ? callout(item.whyItMatters, "Why it matters") : null,
@@ -35,9 +31,6 @@ export async function libraryDocument(id: string, scope: StaffProgramScope): Pro
       section("Content", isList ? [bullets(item.body, true)] : item.body.map((text) => paragraph(text))),
       section("Next steps", [linkList(item.nextActions)]),
       section("Practice paths this supports", [paths.length ? bullets(paths.map((path) => path.title)) : null]),
-      section("Where this fits", [
-        paragraph(`${authority.staffNote} Tags: ${item.tags.join(", ")}.`),
-      ]),
     ]),
     sources: item.href ? [{ title: item.sourceName ?? item.title, href: item.href, note: "The original source for this resource." }] : undefined,
     attribution: programName(scope),

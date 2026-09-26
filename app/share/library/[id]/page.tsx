@@ -6,7 +6,6 @@ import { ResourceDownloads } from "@/components/resource-downloads";
 import { ActionList, AuthorityPill, Notice } from "@/components/ui";
 import { getPublishedStaffContent } from "@/lib/content/staff-publications";
 import { AUTHORITY, CONTENT_TYPE_LABEL, LAYER_LABEL } from "@/lib/content/types";
-import { PROGRAM } from "@/lib/constants";
 import { prepareEditableSurface } from "@/components/editable-surface";
 import { requestedContentScope } from "@/lib/product/request-context";
 import { stringValue } from "@/lib/content/staff-surface-registry";
@@ -46,9 +45,6 @@ export default async function SharedResourcePage({ params }: { params: Promise<{
           <p className={styles.lede}>{c.summary}</p>
           <ResourceMediaGallery contentItemId={c.id} owner={false} />
           <details className="mt-4 border-t border-line pt-4"><summary className="cursor-pointer font-semibold text-[#123f60]">Download this resource</summary><ResourceDownloads kind="library" id={c.id} scope={scope} /></details>
-          <p className={styles.meta}>
-            {stringValue(shell, "preparedByLabel")} {c.owner}. {stringValue(shell, "forLabel")}: {c.scope === "dsd" ? PROGRAM.oneDsdProgramName : PROGRAM.fullName}.
-          </p>
         </div>
       </header>
       <div className={styles.content}>

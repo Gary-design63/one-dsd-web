@@ -165,7 +165,7 @@ export function PathClient({ path, intakeEnabled, copy, contract = "", origin: i
         {transferNotice ? <p role="status" className="notice mb-4">{transferNotice}</p> : null}
         {visibleSource ? <details className="mb-4">
           <summary>{copyText(copy, "draftSourceSummary") || "About this draft"}</summary>
-          <p>{copyText(copy, "draftPreparedPrefix") || "Prepared with ASK on"} {new Date(visibleSource.createdAt).toLocaleDateString()}. {copyText(copy, "draftOwnershipBody") || "Your changes here are part of your own working notes."}</p>
+          <p>{copyText(copy, "draftOwnershipBody") || "Your changes here are part of your own working notes."}</p>
           {visibleSource.sources.length ? <ul>{visibleSource.sources.map(source => <li key={source.id}><a href={withWorkOrigin(source.href, origin)}>{source.title}</a></li>)}</ul> : null}
         </details> : null}
         {path.artifactFields.map((f) => {
@@ -202,7 +202,7 @@ export function PathClient({ path, intakeEnabled, copy, contract = "", origin: i
         </div>
         {exportNotice ? <p role="status" className="mt-2 text-sm">{exportNotice}</p> : null}
         {manualCopy ? <label className="mt-3 block">Your notes<textarea readOnly className="min-h-60 w-full" value={practiceNotesText(path,values,visibleSource)} onFocus={event=>event.currentTarget.select()} /></label> : null}
-        {savedAt ? <p className="mt-2 text-sm text-muted">{copyText(copy, "savedPrefix")} {new Date(savedAt).toLocaleTimeString()}.</p> : draft ? <p className="mt-2 text-sm text-muted">{copyText(copy, "unsavedLabel")}</p> : null}
+        {savedAt ? <p className="mt-2 text-sm text-muted">Notes saved on this device.</p> : draft ? <p className="mt-2 text-sm text-muted">{copyText(copy, "unsavedLabel")}</p> : null}
 
         {check ? (
           <section className="mt-6" aria-live="polite" aria-labelledby="check-title">

@@ -12,7 +12,6 @@ import { getEditableSurfaceDefinition } from "@/lib/content/staff-surface-regist
 import { requestedContentScope } from "@/lib/product/request-context";
 import { CourseResume } from "@/components/course-resume";
 import { ResourceShare } from "@/components/resource-tools";
-import { SourceState, registerSourceFor } from "@/components/source-evidence";
 import type { Metadata } from "next";
 import "../courses.css";
 export const dynamic="force-dynamic";
@@ -42,6 +41,6 @@ export default async function CoursePage({params}:{params:Promise<{courseId:stri
     <details id="job-aid" className={styles.jobAid}><summary><h2>{pack.jobAid.title}</h2><span>{pack.jobAid.subtitle}</span></summary><div className={styles.jobAidBody}>{pack.jobAid.quote?<blockquote>{pack.jobAid.quote}</blockquote>:null}{pack.jobAid.use?<><p>{pack.jobAid.use.purpose}</p><ul>{pack.jobAid.use.remember.map((item,i)=><li key={i}>{item}</li>)}</ul><p>{pack.jobAid.use.doNext}</p></>:null}<div className={styles.jobSections}>{pack.jobAid.sections.map((section,i)=><div key={i}><h3>{section.heading}</h3><ul>{section.items.map((item,n)=><li key={n}>{item}</li>)}</ul></div>)}</div></div></details>
     <LearningJourneyLink scope={scope} resourceId={"course-"+course.id} />
     <p className={styles.credit}>{TRAINING_CREDIT_NOTICE}</p>
-    <section id="sources" className={styles.sources}><h2>Sources and further reading</h2><ul>{pack.sources.map((source,i)=><li id={`source-${i+1}`} key={i}>{courseLink(source.href)?<a href={courseLink(source.href)}>{source.title}</a>:<span>{source.title}</span>}<p>{source.note}</p><p className="source-state-line"><SourceState source={registerSourceFor(source)} /></p></li>)}</ul><p><Link href="/learn/sources">All research and sources across the program</Link></p></section>
+    <section id="sources" className={styles.sources}><h2>Sources and further reading</h2><ul>{pack.sources.map((source,i)=><li id={`source-${i+1}`} key={i}>{courseLink(source.href)?<a href={courseLink(source.href)}>{source.title}</a>:<span>{source.title}</span>}<p>{source.note}</p></li>)}</ul><p><Link href="/learn/sources">All research and sources across the program</Link></p></section>
   </EditableSurfaceRegion></div>;
 }

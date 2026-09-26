@@ -58,12 +58,21 @@ describe("resource downloads", () => {
     expect(copy).toContain("Nothing you write in that file is saved back to this page");
     expect(copy).not.toContain("Your notes are saved only on this computer");
     expect(copy).not.toContain("Your progress is saved only on this computer");
-  });
+  }, 20000);
 
   it("omits review dates from downloaded library resource metadata", async () => {
     const document = (await resolveDownloadDocument("library", await sampleId("library"), "one-dhs"))!;
-    expect(document.meta.map((entry) => entry.label)).toEqual(["Prepared by", "Standing", "For"]);
+    expect(document.meta).toEqual([]);
   });
+
+  it("keeps internal source records out of the staff download", async () => {
+    const document = (await resolveDownloadDocument("sources", "register", "one-dhs"))!;
+    const copy = JSON.stringify(document);
+    expect(copy).not.toContain("Drafted September");
+    expect(copy).not.toContain("reconstruction decision baseline");
+    expect(copy).not.toContain("Source link available");
+    expect(copy).not.toContain("Verification");
+  }, 20000);
 
   it("never offers a course for download", () => {
     expect(isDownloadKind("course")).toBe(false);

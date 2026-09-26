@@ -6,7 +6,6 @@ import { EQUITY_POLICY } from "@/lib/equity-analysis/policy";
 export const metadata: Metadata = { title: "DHS Equity Policy", description: "The DHS equity policy, what it asks of staff, and how it is being used across the department." };
 export const dynamic = "force-dynamic";
 
-const longDate = new Intl.DateTimeFormat("en-US", { month: "long", day: "numeric", year: "numeric", timeZone: "UTC" });
 
 /** F-01: staff do not load stored analysis records on this page. */
 export default function EquityPolicyPage() {
@@ -14,7 +13,6 @@ export default function EquityPolicyPage() {
     <>
       <PageIntro kicker="People, Access and Culture" title={EQUITY_POLICY.title} lede={EQUITY_POLICY.lede}>
         <dl className="mt-6 flex flex-wrap gap-x-8 gap-y-2 text-sm">
-          <div><dt className="text-muted">Effective</dt><dd className="ml-0 font-semibold">{longDate.format(new Date(`${EQUITY_POLICY.effective}T00:00:00Z`))}</dd></div>
           <div><dt className="text-muted">Official text</dt><dd className="ml-0"><a href={EQUITY_POLICY.href} target="_blank" rel="noreferrer">Read the policy (PDF)</a></dd></div>
           <div><dt className="text-muted">Method</dt><dd className="ml-0"><a href={EQUITY_POLICY.toolkitHref} target="_blank" rel="noreferrer">Minnesota Equity Analysis Tool</a></dd></div>
         </dl>

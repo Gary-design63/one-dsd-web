@@ -8,8 +8,7 @@ import { SyncedAudio } from "@/components/synced-audio";
  */
 export async function ResourceMediaGallery({ contentItemId, owner }: { contentItemId: string; owner: boolean }) {
   let items: ResourceMediaItem[] = [];
-  // "Not connected" (no database configured) and "failed" (the read threw) are
-  // both surfaced on the page so attached audio and files never vanish silently.
+  // Keep connection diagnostics in logs and owner controls, not staff resource pages.
   let unavailable: "not-connected" | "failed" | null = mediaAvailable() ? null : "not-connected";
   if (!unavailable) {
     try {
@@ -19,7 +18,7 @@ export async function ResourceMediaGallery({ contentItemId, owner }: { contentIt
       console.error("Resource media could not be read.", error instanceof Error ? error.message : error);
     }
   }
-  if (items.length === 0 && !owner && !unavailable) return null;
+  if (items.length === 0 && !owner) return null;
   const audio = items.filter((item) => item.kind === "audio");
   const visual = items.filter((item) => item.kind !== "audio");
   const showVisualHeading = visual.length > 0 || owner;
@@ -31,8 +30,8 @@ export async function ResourceMediaGallery({ contentItemId, owner }: { contentIt
       {unavailable ? (
         <p id={noticeId} className="notice notice--warn" role="status" data-resource-media-unavailable={unavailable}>
           {unavailable === "failed"
-            ? "Attached files could not be loaded right now. Audio, images, and documents for this resource will return when the connection recovers."
-            : "Attached files are not connected in this environment. Audio, images, and documents for this resource are not shown."}
+            ? "Attached files are temporarily unavailable."
+            : "Attached files are unavailable."}
         </p>
       ) : null}
       {audio.length > 0 ? (

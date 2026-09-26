@@ -8,7 +8,6 @@ import { withCourseCover } from "@/lib/content/courses/cover-overrides";
 import { courseLink, courseSummary } from "@/lib/content/courses/published";
 import { getEditableSurfaceDefinition } from "@/lib/content/staff-surface-registry";
 import { requestedContentScope } from "@/lib/product/request-context";
-import { SourceState, registerSourceFor } from "@/components/source-evidence";
 import { TRAINING_CREDIT_NOTICE } from "@/lib/program/learning-credit";
 import type { Metadata } from "next";
 import "../../../courses/courses.css";
@@ -107,7 +106,6 @@ export default async function SharedCoursePage({ params }: { params: Promise<{ c
             <li id={`source-${i + 1}`} key={i}>
               {courseLink(source.href) ? <a href={courseLink(source.href)}>{source.title}</a> : <span>{source.title}</span>}
               <p>{source.note}</p>
-              <p className="source-state-line"><SourceState source={registerSourceFor(source)} /></p>
             </li>
           ))}
         </ul>
