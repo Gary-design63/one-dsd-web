@@ -12,7 +12,7 @@ export const EQUITY_POLICY = {
   ],
   asks: [
     "Apply an equity lens to decisions, budgets, hires, technology changes, contracts, and service design.",
-    "Use the Equity Analysis Toolkit: a full analysis when the effect lasts or needs leadership approval, an equity scan when time is short.",
+    "Use the current official Equity Analysis Toolkit and User Guide to determine the required review. A short timeline alone does not establish that an equity scan is sufficient.",
     "Name who benefits and who is burdened, look at the data, hear the people who live with the result, and date an accountable role.",
     "Route civil rights, Tribal consultation, and labor relations through their formal paths. The toolkit does not replace them.",
   ],

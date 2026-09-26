@@ -79,7 +79,7 @@ export function EquityDashboard({ workspace }: { workspace: EquityWorkspace }) {
 
       <div className="grid gap-6 lg:grid-cols-5">
         <div className="min-w-0 lg:col-span-3">
-          <Figure title="Equity Analysis Tool use by quarter" lede="Full analyses, equity scans, and equity pauses added across DHS. The label on each column is the quarter total." footnote="A full analysis is expected when the effect lasts or needs leadership approval. A scan is the short form when time is short: still written, still honest.">
+          <Figure title="Equity Analysis Tool use by quarter" lede="Full analyses, equity scans, and equity pauses added across DHS. The label on each column is the quarter total." footnote="Use current official guidance to determine the required review. A short timeline alone does not establish that an equity scan is sufficient.">
             <StackedColumns ariaLabel="Stacked columns of full analyses, equity scans, and equity pauses added per quarter" series={TOOL_SERIES} rows={d.quarterly.map((q) => ({ label: quarterLabel(q.period), values: { full: q.full, scan: q.scan, pause: q.pause } }))} />
             <TableView caption="Tool use by quarter" columns={["Quarter", "Full analysis", "Equity scan", "Equity Pause", "Total"]} rows={d.quarterly.map((q) => [quarterLabel(q.period), q.full, q.scan, q.pause, q.total])} />
           </Figure>

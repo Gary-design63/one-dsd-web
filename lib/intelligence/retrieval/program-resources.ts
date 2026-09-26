@@ -10,6 +10,7 @@ import type { Doc } from "./search";
 import { searchDocs, tokens } from "./search";
 import { publishedPodcastReadings } from "./podcast-reading";
 import { developmentModel, journeyHref } from "@/lib/program/development";
+import equityGoals from "@/lib/program/equity-goals.json";
 
 /** Public page definitions only. No owner workspace, draft, intake, or source archive. */
 export function programResourceDefinitions() {
@@ -43,8 +44,9 @@ export async function indexedProgramResources(scope: StaffProgramScope): Promise
   // Always check current scoped publications first. Reuse text processing only while
   // the same immutable revisions remain published; withdrawals change this key.
   const key = publications.map(p => `${p.surfaceId}:${p.source}:${p.sourceScope}:${p.revisionId}`).sort().join("|") + "|measurement-source:" + measurementAvailable + "|podcast-readings:" + [...podcastReadings.values()].map(reading => reading.fingerprint).sort().join("|") + "|development:" + createHash("sha256").update(JSON.stringify(developmentModel)).digest("hex");
+  const scopedKey = key + "|equity-goals:" + createHash("sha256").update(JSON.stringify(equityGoals)).digest("hex");
   const cached = currentIndexes.get(scope);
-  if (cached?.key === key) return cached.index;
+  if (cached?.key === scopedKey) return cached.index;
   const publishedIds = new Set(publications.map(p => p.surfaceId));
   const grouped = new Map<string, typeof publications>();
   for (const publication of publications) {
@@ -70,12 +72,14 @@ export async function indexedProgramResources(scope: StaffProgramScope): Promise
     // Lessons are separately searchable; avoid indexing the same full course twice.
     const text = coursePack ? visibleText({ ...coursePack, course: { ...coursePack.course, lessons: coursePack.course.lessons.map(lesson => ({ title: lesson.title, summary: lesson.summary })) } }) : rows.map(row => visibleText(row.values)).join(" ");
     const readingSupport = rows.flatMap(row => { const reading = podcastReadings.get(row.surfaceId); return reading ? [reading] : []; });
+    const goalSupport = rows.some(row => row.surfaceId === "equity-toolkit.home")
+      ? ["Six ADSA equity goals. Manager and supervisor three-goal work plan. One DSD Team. Staff apply the required policy and toolkit themselves with equity professional support.", ...equityGoals.goals.map(goal => [goal.title, goal.summary, goal.example, goal.antiRacism, ...goal.questions].join(" "))].join("\n") : "";
     return {
       kind: community ? "brief" : "content", id: community ? `asset-community-${href.split("/").pop()!}` : `asset-program-${createHash("sha256").update(href).digest("hex").slice(0, 24)}`,
       title, href, authority: coursePack ? "learning" : community ? "community_brief" : "practice_note", type: community ? "community_brief" : "program_destination",
       status: "approved", reviewDate: "", scope: scope === "dsd" ? "dsd" : "agencywide",
       evidenceRevisions: [...rows.map(row => ({ sourceId: row.surfaceId, revisionId: row.revisionId, payloadHash: createHash("sha256").update(JSON.stringify(row.document)).digest("hex"), scope: row.sourceScope })), ...readingSupport.map(reading => reading.evidence)],
-      summary: [summary, ...readingSupport.map(reading => reading.summary)].join(" "), text: [`${title} ${text}`, ...readingSupport.map(reading => reading.text)].join("\n"), tags: [title, href.replaceAll("/", " "), ...readingSupport.flatMap(reading => reading.tags)], intents: community ? ["intercultural", "access_barriers"] : [],
+      summary: [summary, ...readingSupport.map(reading => reading.summary)].join(" "), text: [`${title} ${text}`, goalSupport, ...readingSupport.map(reading => reading.text)].join("\n"), tags: [title, href.replaceAll("/", " "), ...readingSupport.flatMap(reading => reading.tags)], intents: community ? ["intercultural", "access_barriers"] : [],
     };
   });
   const lessonDocs: Doc[] = publications.flatMap(row => {
@@ -100,7 +104,7 @@ export async function indexedProgramResources(scope: StaffProgramScope): Promise
     evidenceRevisions: [{ sourceId: `program-development-${journey.id}`, revisionId: developmentModel.version, payloadHash: createHash("sha256").update(JSON.stringify(journey)).digest("hex"), scope }],
   })));
   const index = { communityDocs: destinations.filter(d => d.kind === "brief"), destinations };
-  currentIndexes.set(scope, { key, index });
+  currentIndexes.set(scope, { key: scopedKey, index });
   return index;
 }
 

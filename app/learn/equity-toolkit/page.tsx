@@ -1,6 +1,9 @@
 import styles from "../learning-family.module.css";
 import { EditableSurfaceRegion, prepareEditableSurface } from "@/components/editable-surface";
 import { EquityToolkitExperience } from "@/components/equity-toolkit-experience";
+import { EquityGoalExperience } from "@/components/equity-goal-experience";
+import { loadStaffContentSnapshot } from "@/lib/content/staff-publications";
+import goalModel from "@/lib/program/equity-goals.json";
 import { ResourceDownloads } from "@/components/resource-downloads";
 import { requestedContentScope } from "@/lib/product/request-context";
 import Image from "next/image";
@@ -11,13 +14,15 @@ import { stringValue, linkListValue } from "@/lib/content/staff-surface-registry
 import { EQUITY_TOOLKIT_HERO_IMAGE } from "@/lib/content/page-images";
 
 export const metadata = { title: "Equity analysis for your work" };
+const goalResourceIds = new Set(goalModel.goals.flatMap(goal => goal.resources.map(resource => resource.id)));
 
 export default async function Page() {
   const scope = await requestedContentScope();
-  const [surface, connections, podcastSurface] = await Promise.all([
+  const [surface, connections, podcastSurface, snapshot] = await Promise.all([
     prepareEditableSurface("equity-toolkit.home", { scope }),
     prepareEditableSurface("community-connections.home", { scope, includeOwner: false }),
     prepareEditableSurface(PODCASTS[0].surfaceId, { scope }),
+    loadStaffContentSnapshot({ scope }),
   ]);
   const text = (key: string) => stringValue(surface.values, key);
   return <EditableSurfaceRegion surface={surface}>
@@ -31,6 +36,8 @@ export default async function Page() {
           <p><Link href="/operationalizing-equity">Explore operationalizing equity in everyday work</Link></p>
           <p><Link className={styles.primaryAction} href="/toolkit-studio">Start with Toolkit Studio</Link></p>
           <nav className="flex flex-wrap gap-6">
+            <a href="#equity-goals">Six goals for your work</a>
+            <a href="#equity-work-plan">Prepare a three-goal work plan</a>
             <a href="#toolkit-practice">{text("practiceLabel")}</a>
             <a href="#toolkit-draft">{text("workLabel")}</a>
             <a href="#toolkit-resources">{text("resourcesTitle")}</a>
@@ -45,6 +52,7 @@ export default async function Page() {
           <Image src={EQUITY_TOOLKIT_HERO_IMAGE} alt="Five colleagues of different backgrounds gather around a table, reviewing printed photos and notes together." fill sizes="(max-width: 760px) 90vw, 46vw" priority unoptimized />
         </div>
       </header>
+      <EquityGoalExperience scope={scope} resourceLinks={snapshot.items.filter(item => item.status === "approved" && goalResourceIds.has(item.id)).map(item => ({ id: item.id, title: item.title, href: `/library/${encodeURIComponent(item.id)}` }))} />
       <PublishedPodcast headingLevel={2} podcast={PODCASTS[0]} surface={podcastSurface} />
       <EquityToolkitExperience values={surface.values} />
       {connections.available ? <aside className="space-y-3 border-t border-line pt-6"><h2 className="text-2xl font-semibold"><Link href="/learn/community-connections">{stringValue(connections.values, "title")}</Link></h2><p>{stringValue(connections.values, "intro")}</p></aside> : null}

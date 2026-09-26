@@ -51,7 +51,7 @@ export default function EquityPolicyPage() {
             <li className="card">
               <p className="kicker m-0">2. Use</p>
               <h3 className="m-0 mt-1 text-xl font-bold">Toolkit Studio</h3>
-              <p className="mt-2 text-sm">Walk the official eight steps on a published example and download the pack. Staff pages do not collect typed analyses.</p>
+              <p className="mt-2 text-sm">Walk the eight companion practice questions on a published example and download the pack. Staff pages do not collect typed analyses.</p>
               <Link href="/toolkit-studio">Open Toolkit Studio</Link>
             </li>
             <li className="card">

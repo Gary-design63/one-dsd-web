@@ -1,0 +1,234 @@
+{
+  "goalAuthority": "ADSA Equity and Inclusion Implementation Plan (goals 1–6).",
+  "mappingAuthority": "Program companion examples and resource connections; these are not additional DHS policy requirements.",
+  "goals": [
+    {
+      "number": 1,
+      "id": "equity-goal-1",
+      "title": "Eliminate Disparities",
+      "focus": "Examine a specific barrier and its causes before a decision is settled.",
+      "summary": "Use evidence and affected perspectives to identify differences in access or outcomes, understand their causes, and change the responsible practice.",
+      "example": "Review a service application that requires repeated documentation. Compare the time, cost and accessibility of each step across the people expected to complete it.",
+      "questions": [
+        "Who experiences the barrier, and whose experience is missing from the data?",
+        "Which rule, resource decision or institutional practice helps produce the difference?",
+        "What alternative could reduce the burden, and how will you check its effects?"
+      ],
+      "antiRacism": "A rule can use the same wording for everyone and still produce unequal racial effects. Examine how past exclusions, access to resources, disability and language intersect with the rule. Treat missing data as a question to resolve, not evidence that no disparity exists.",
+      "output": "Evidence-informed analysis, alternatives, responsible role, and review plan.",
+      "resources": [
+        {
+          "id": "ja-operational-equity-canvas",
+          "title": "Operational equity review canvas: eight steps for any decision",
+          "href": "/library/ja-operational-equity-canvas"
+        },
+        {
+          "id": "ja-equity-impact-questions",
+          "title": "Equity impact questions for policy, budget, technology, and procurement",
+          "href": "/library/ja-equity-impact-questions"
+        },
+        {
+          "id": "ja-process-burden",
+          "title": "Questions about the steps, time, and effort a process requires",
+          "href": "/library/ja-process-burden"
+        },
+        {
+          "id": "lm-structural-racism-and-institutions",
+          "title": "Structural racism and institutional power: how neutral rules produce unequal results",
+          "href": "/library/lm-structural-racism-and-institutions"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "id": "equity-goal-2",
+      "title": "Community Engagement",
+      "focus": "Make affected perspectives influential while alternatives are open.",
+      "summary": "Partner with people affected by the decision while options remain open. Plan for accessible participation, shared influence and a response to what people contribute.",
+      "example": "Before revising service guidance, ask people who use it which choices they should influence, how they want to participate, and what support makes participation possible.",
+      "questions": [
+        "Who can influence the decision now, and who has been left out?",
+        "What time, language, accessibility or payment barriers affect participation?",
+        "How will contributors learn what changed and what could not change?"
+      ],
+      "antiRacism": "Representation becomes tokenism when people are visible but have little influence. Invite more than one perspective, explain actual decision authority, resource participation and avoid asking one colleague or community member to speak for an entire racial group. Tribal consultation has its own responsibilities; work with the offices responsible for Tribal matters.",
+      "output": "Engagement plan and account of what changed in response to input.",
+      "resources": [
+        {
+          "id": "ja-stakeholder-map",
+          "title": "Planning with partners: who to involve",
+          "href": "/library/ja-stakeholder-map"
+        },
+        {
+          "id": "ja-engagement-influence-ladder",
+          "title": "Engagement that shares influence: inform, consult, involve, collaborate, co-design",
+          "href": "/library/ja-engagement-influence-ladder"
+        },
+        {
+          "id": "ja-report-back",
+          "title": "Reporting back: what we heard, what changed, what could not, and why",
+          "href": "/library/ja-report-back"
+        },
+        {
+          "id": "pn-partnership-spine",
+          "title": "Six commitments for working in partnership",
+          "href": "/library/pn-partnership-spine"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "id": "equity-goal-3",
+      "title": "Hiring and Retention",
+      "focus": "Examine access to entry, belonging, growth, and staying in the organization.",
+      "summary": "Examine the full staff experience: recruitment, selection, onboarding, everyday culture, access to opportunity and reasons people stay or leave.",
+      "example": "With HR and the responsible manager, review whether a job requirement measures an essential skill or unnecessarily excludes relevant direct-service or lived experience.",
+      "questions": [
+        "Which requirements are essential, and what evidence supports them?",
+        "Who receives useful onboarding, feedback, mentorship and advancement opportunities?",
+        "What authorized aggregate evidence and staff feedback could show whether a change helps?"
+      ],
+      "antiRacism": "Recruitment alone does not change the routines that affect belonging or advancement. Examine how informal networks, assumptions about professionalism, and unequal access to sponsorship shape opportunity. Protect people from being treated as representatives or unpaid educators for their racial identity.",
+      "output": "A revised workforce practice developed with the appropriate manager and HR partners.",
+      "resources": [
+        {
+          "id": "ja-inclusive-hiring-lifecycle",
+          "title": "Inclusive hiring lifecycle: eight stages from role design to outcomes",
+          "href": "/library/ja-inclusive-hiring-lifecycle"
+        },
+        {
+          "id": "ja-climate-action-plan",
+          "title": "Team climate action plan template",
+          "href": "/library/ja-climate-action-plan"
+        },
+        {
+          "id": "pn-stay-interviews-and-retention",
+          "title": "Stay conversations: learning why people stay before they leave",
+          "href": "/library/pn-stay-interviews-and-retention"
+        },
+        {
+          "id": "pn-mentoring-sponsorship",
+          "title": "Mentoring, sponsorship, and reverse mentoring: three different things",
+          "href": "/library/pn-mentoring-sponsorship"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "id": "equity-goal-4",
+      "title": "Learning and Development",
+      "focus": "Connect understanding and reflection to rehearsal, support, and application.",
+      "summary": "Develop intercultural competence and equitable access to skills and leadership development. Pair learning with an opportunity to practice, feedback and reflection.",
+      "example": "After learning to examine process barriers, give a team protected time to rehearse an analysis on an upcoming decision and consult the people affected before choosing an action.",
+      "questions": [
+        "What change in practice should this learning support?",
+        "Who can access the opportunity, time, technology and support it requires?",
+        "How will people try it, receive feedback and revisit what they learned?"
+      ],
+      "antiRacism": "Learning about racism is ongoing work; it should not depend on racialized colleagues repeatedly explaining harm. Connect personal reflection to institutional changes within your authority. Attendance can document participation, but it does not by itself show changed behavior or outcomes. The organizational continuum and IDI are different tools.",
+      "output": "A learning and application plan with a realistic opportunity to practice and reflect.",
+      "resources": [
+        {
+          "id": "ja-facilitation-session-plan",
+          "title": "Session plan: purpose, activity, practical use, and access",
+          "href": "/library/ja-facilitation-session-plan"
+        },
+        {
+          "id": "pn-accessible-leadership-pathways",
+          "title": "Accessible leadership pathways and sponsorship for staff with disabilities",
+          "href": "/library/pn-accessible-leadership-pathways"
+        },
+        {
+          "id": "pn-idi-and-tool-registry",
+          "title": "The IDI and other tools: inputs to practice, not the practice itself",
+          "href": "/library/pn-idi-and-tool-registry"
+        },
+        {
+          "id": "lm-facilitation-application",
+          "title": "Facilitation that participants can use in their work",
+          "href": "/library/lm-facilitation-application"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "id": "equity-goal-5",
+      "title": "Contracts and Procurement",
+      "focus": "Examine barriers across the contract cycle with the people authorized to change it.",
+      "summary": "Apply equity analysis across planning, outreach, requirements, selection, delivery and follow-up with the people who hold procurement and contract authority.",
+      "example": "Review whether a short response period or complex submission requirement creates unnecessary barriers for smaller or culturally specific providers, then consider authorized alternatives.",
+      "questions": [
+        "Who learns about the opportunity and has a realistic chance to respond?",
+        "Which requirements protect a necessary outcome, and which may create avoidable exclusion?",
+        "How will accessibility, language access and other commitments be checked during delivery?"
+      ],
+      "antiRacism": "Repeated use of familiar vendors can reproduce unequal access even when staff intend to be fair. Examine outreach networks, administrative burden and available assistance alongside the requirements. Work within current authorized procurement rules and benchmarks; this companion does not establish scoring preferences.",
+      "output": "A contract-cycle barrier review, authorized next action, and follow-up evidence.",
+      "resources": [
+        {
+          "id": "ja-procurement-contract-equity",
+          "title": "Equity in contracts, grants, and procurement: where the questions belong",
+          "href": "/library/ja-procurement-contract-equity"
+        },
+        {
+          "id": "ja-equity-impact-questions",
+          "title": "Equity impact questions for policy, budget, technology, and procurement",
+          "href": "/library/ja-equity-impact-questions"
+        },
+        {
+          "id": "ja-operational-equity-canvas",
+          "title": "Operational equity review canvas: eight steps for any decision",
+          "href": "/library/ja-operational-equity-canvas"
+        },
+        {
+          "id": "ja-stakeholder-map",
+          "title": "Planning with partners: who to involve",
+          "href": "/library/ja-stakeholder-map"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "id": "equity-goal-6",
+      "title": "Communication and Accessibility",
+      "focus": "Make information and participation usable, understandable, and responsive.",
+      "summary": "Use inclusive language and accessible, understandable formats so people can find information, make decisions and participate. Review both internal and public communications.",
+      "example": "Test a revised notice with the people expected to use it: can they find the next step, understand it and act using their preferred accessible format or language?",
+      "questions": [
+        "Who needs this information, and what task should they be able to complete?",
+        "Which language, format, technology or cultural assumptions create barriers?",
+        "Who owns corrections, and how will you learn whether the revised communication works?"
+      ],
+      "antiRacism": "A single default language or communication style can shift the burden onto people already excluded from institutions. Ask about preferences rather than assuming that racial or cultural identity predicts them. Inclusive images or observance messages should accompany usable services and responsive practices.",
+      "output": "A revised communication or participation process and a check of the intended task.",
+      "resources": [
+        {
+          "id": "ja-plain-language",
+          "title": "Plain language and accessible documents checklist",
+          "href": "/library/ja-plain-language"
+        },
+        {
+          "id": "ja-language-access-checklist",
+          "title": "Language access checklist",
+          "href": "/library/ja-language-access-checklist"
+        },
+        {
+          "id": "ja-accessible-meetings",
+          "title": "Accessible and culturally responsive meetings: before, during, and after",
+          "href": "/library/ja-accessible-meetings"
+        },
+        {
+          "id": "ja-form-notice-change",
+          "title": "Checklist for changing a form, notice, or letter",
+          "href": "/library/ja-form-notice-change"
+        },
+        {
+          "id": "tool-clas-standards",
+          "title": "Tool card: National CLAS Standards",
+          "href": "/library/tool-clas-standards"
+        }
+      ]
+    }
+  ]
+}
+

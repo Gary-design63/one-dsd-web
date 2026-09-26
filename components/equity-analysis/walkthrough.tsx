@@ -253,7 +253,7 @@ function Intro({ savedDraft, onStart, onResume }: { savedDraft: Draft | null; on
           <h2 id="choose-form" className="mt-0 text-2xl font-bold">Choose the form</h2>
           <div className="mt-4 grid gap-4 md:grid-cols-3">
             <KindCard title="Full analysis" meta="All eight toolkit steps. About 45 minutes with your data at hand." body="Expected when the effect lasts or needs leadership approval: policy, budget, hiring, technology, contracting, service delivery, community engagement." onClick={() => onStart("full")} />
-            <KindCard title="Equity scan" meta="Five short sections. About 15 minutes." body="When time is short, or you already did a full analysis and need a check. Still names outcome, groups, data, benefits and burdens, and who is accountable." onClick={() => onStart("scan")} />
+            <KindCard title="Equity scan" meta="Five short sections. About 15 minutes." body="Use only when current official guidance identifies this as an appropriate review. Name outcomes, affected people, evidence, benefits, burdens and accountability." onClick={() => onStart("scan")} />
             <KindCard title="Equity Pause" meta="Four short sections. About five minutes." body="For a routine decision with limited reach that you could still adjust: a meeting invitation, an announcement, a small process change. Names who is affected differently, benefits and burdens, one design change, and your disposition." onClick={() => onStart("pause")} />
           </div>
         </section>

@@ -15,7 +15,7 @@ export default function EquityAnalysisPage() {
       <div className="wrap max-w-3xl space-y-6 py-8">
         <Notice>
           <strong>The fill-and-save walkthrough is closed. </strong>
-          Use Toolkit Studio to walk the official eight steps on a published example and download the pack.
+          Use Toolkit Studio to walk the eight companion practice questions on a published example and download the pack.
         </Notice>
         <p><Link href="/toolkit-studio" className="btn btn--primary">Open Toolkit Studio</Link></p>
       </div>

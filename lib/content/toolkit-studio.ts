@@ -1,4 +1,4 @@
-/** Toolkit Studio v1.1.1 — official 8-step lock. Browse and download only. */
+/** Toolkit Studio companion practice sequence. Browse and download only. */
 
 export const TOOLKIT_STEPS = [
   { number: 1, title: "Desired results" },
@@ -51,8 +51,8 @@ export type ToolkitStudioCard = {
 export const TOOLKIT_WHY = {
   title: "Why the Equity Analysis Toolkit",
   authority:
-    "Guidance from this program — not Official DHS policy text, not a decision engine, and not a substitute for filing the enterprise Equity Analysis Toolkit / User Guide.",
-  chrome: "This is the only required learning path in the program. Everything else stays optional.",
+    "Program practice guidance. Use the current official DHS Equity Analysis Toolkit and User Guide for required analysis, review and documentation.",
+  chrome: "DHS staff are responsible for using the Equity Policy and Equity Analysis Toolkit in their work. This companion learning is optional; it does not replace required agency training or policy responsibilities. Equity professionals guide and support staff in applying the toolkit themselves.",
   beats: [
     {
       title: "Hook",
@@ -67,8 +67,8 @@ export const TOOLKIT_WHY = {
       body: "Insight = design change, involvement path, honest gap, or owner + revisit date. “We considered equity” is a checkbox.",
     },
     {
-      title: "Scan-first",
-      body: "Equity scan when time is short — still written, still honest. Full analysis when the effect lasts or needs leadership approval. This Studio teaches both; filing stays on the enterprise path.",
+      title: "Choose the appropriate review",
+      body: "Use current official guidance to determine the required review. A short timeline alone does not establish that an equity scan is sufficient. Follow the official analysis, review and documentation process.",
     },
     {
       title: "Authority limits",
@@ -366,7 +366,7 @@ export function getToolkitStudioCard(id: string): ToolkitStudioCard | undefined 
 
 export const TOOLKIT_DOWNLOADS = [
   { id: "insights-checklist", title: "Insights checklist", noun: "checklist" },
-  { id: "one-pager", title: "Official eight steps and scan one-pager", noun: "one-pager" },
+  { id: "one-pager", title: "Toolkit practice questions and review guidance", noun: "one-pager" },
   { id: "blank-worksheet", title: "Blank offline worksheet", noun: "worksheet" },
   { id: "guardrails", title: "Guardrails sheet", noun: "sheet" },
 ] as const;

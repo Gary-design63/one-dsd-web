@@ -17,8 +17,8 @@ export function toolkitStudioDocument(id: string, scope: StaffProgramScope): Res
           paragraph("Insight = design change, involvement path, honest gap, or owner + revisit date. “We considered equity” is a checkbox."),
           bullets([...TOOLKIT_INSIGHT_CHROME]),
         ]),
-        section("Official eight steps", [numbered(TOOLKIT_STEPS.map((step) => `${step.title}`))]),
-        section("Scan-first", [paragraph(TOOLKIT_WHY.beats.find((beat) => beat.title === "Scan-first")!.body)]),
+        section("Companion practice questions", [numbered(TOOLKIT_STEPS.map((step) => `${step.title}`))]),
+        section("Choose the appropriate review", [paragraph(TOOLKIT_WHY.beats.find((beat) => beat.title === "Choose the appropriate review")!.body)]),
       ]),
       attribution,
     };
@@ -26,16 +26,16 @@ export function toolkitStudioDocument(id: string, scope: StaffProgramScope): Res
   if (id === "one-pager") {
     return {
       kicker: kick,
-      title: "Equity Analysis Toolkit — official eight steps and scan",
+      title: "Equity Analysis Toolkit — companion practice questions and scan",
       subtitle: TOOLKIT_WHY.authority,
       meta: [],
       sections: compactSections([
         section("Before the eight steps", [paragraph("Name the work, owner, lock date, and whether this is a scan or a full analysis. Do not number this as Step 1.")]),
-        section("Official steps", [
+        section("Companion practice sequence", [
           numbered(TOOLKIT_STEPS.map((step) => step.title)),
           callout("Formal doors are a callout, not Step 8. Alignment is Step 7. Sustainability is Step 8."),
         ]),
-        section("Equity scan", [paragraph("Use a scan when time is short — still written, still honest. File the enterprise toolkit on the official path.")]),
+        section("Equity scan", [paragraph("Use current official guidance to determine the required review. A short timeline alone does not establish that a scan is sufficient. Complete required documentation through the official process.")]),
       ]),
       attribution,
     };
@@ -44,7 +44,7 @@ export function toolkitStudioDocument(id: string, scope: StaffProgramScope): Res
     return {
       kicker: kick,
       title: "Toolkit Studio blank worksheet",
-      subtitle: "Offline fields mapped to the official eight steps. Do not send this form to the program.",
+      subtitle: "Offline fields mapped to the companion practice questions. Do not send this form to the program.",
       meta: [],
       sections: compactSections([
         section("Before the eight steps", [bullets(["Work name", "Owner", "Lock date", "Scan or full analysis"])]),

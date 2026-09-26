@@ -11,7 +11,7 @@ export default async function ToolkitStudioPage() {
   const scope = await requestedContentScope();
   return (
     <>
-      <PageIntro kicker="Required learning path" title={TOOLKIT_WHY.title} lede={TOOLKIT_WHY.authority}>
+      <PageIntro kicker="Toolkit practice companion" title={TOOLKIT_WHY.title} lede={TOOLKIT_WHY.authority}>
         <p className="mt-3 text-sm">{TOOLKIT_WHY.chrome}</p>
       </PageIntro>
       <div className="wrap max-w-5xl space-y-10 py-8">
@@ -25,7 +25,7 @@ export default async function ToolkitStudioPage() {
               </li>
             ))}
           </ol>
-          <p className="mt-4 text-sm">Official steps: {TOOLKIT_STEPS.map((step) => `${step.number}. ${step.title}`).join(" · ")}</p>
+          <p className="mt-4 text-sm">Companion practice sequence: {TOOLKIT_STEPS.map((step) => `${step.number}. ${step.title}`).join(" · ")}</p>
         </section>
 
         <section aria-labelledby="picker-title">

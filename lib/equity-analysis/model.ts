@@ -89,7 +89,7 @@ export const STEPS: Step[] = [
       lead: "If you cannot name the work in one sentence, the toolkit has nothing to hold yet. Start with the decision that is about to be made final.",
       points: [
         "A full analysis is expected when the effect lasts or needs leadership approval: policy, budget, hiring, technology, contracting, service delivery.",
-        "An equity scan is the short form when time is short, or when you already did a full analysis and need a check. A scan is not a skip.",
+        "Use current official guidance to determine whether an equity scan is appropriate. A short timeline alone does not establish that a scan is sufficient.",
         "The approval date is the deadline for the whole method. A form attached after the vote is not an analysis.",
       ],
       watchFor: "A blank toolkit added to the packet after the decision. That is decorating a choice.",

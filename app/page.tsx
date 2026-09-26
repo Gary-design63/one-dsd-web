@@ -1,4 +1,5 @@
 import { DevelopmentPathways } from "@/components/development-pathways";
+import { EquityGoalOverview } from "@/components/equity-goal-overview";
 import { OperationalizingEquityPreview } from "@/components/operationalizing-equity-preview";
 import Image from "next/image";
 import Link from "next/link";
@@ -49,6 +50,7 @@ export default async function HomePage() {
         </section>
 
         <div className="wrap">
+          <EquityGoalOverview />
           <OperationalizingEquityPreview />
           <DevelopmentPathways compact />
           <section className={styles.explore} aria-labelledby="explore-title">

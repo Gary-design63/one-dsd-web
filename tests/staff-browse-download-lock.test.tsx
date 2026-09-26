@@ -124,13 +124,13 @@ describe("staff browse-and-download lock", () => {
 });
 
 describe("Toolkit Studio shell", () => {
-  it("locks the official eight steps and has no submit fields", async () => {
+  it("preserves the companion practice sequence and has no submit fields", async () => {
     const { default: Studio } = await import("@/app/toolkit-studio/page");
     const { default: Card } = await import("@/app/toolkit-studio/[card]/page");
     const home = renderToStaticMarkup(await Studio());
     expect(home).toContain("Desired results");
     expect(home).toContain("Sustainability");
-    expect(home).toContain("Scan-first");
+    expect(home).toContain("Choose the appropriate review");
     expect(home).toContain("Reminder channel change");
     expect(home).not.toContain("<textarea");
     expect(home).not.toContain("Get an answer");
