@@ -2,10 +2,16 @@ import { afterEach, expect, it, vi } from "vitest";
 import { createHash } from "node:crypto";
 import { PODCASTS } from "@/lib/content/podcasts";
 import * as publications from "@/lib/content/editable-surfaces";
-import { indexedProgramResources, programResourceLinks } from "@/lib/intelligence/retrieval/program-resources";
+import { indexedProgramResources as allProgramResources, programResourceLinks } from "@/lib/intelligence/retrieval/program-resources";
 import { publishedPodcastReadings, MAX_PODCAST_READING_CHARACTERS } from "@/lib/intelligence/retrieval/podcast-reading";
 import actualTranscript from "@/public/audio/transcripts/dhs-equity-policy-and-toolkit.json";
 import antiRacismTranscript from "@/public/audio/transcripts/anti-racism-public-service.json";
+
+// These assertions concern podcast publication; shared pathways are indexed independently.
+async function indexedProgramResources(scope: "one-dhs" | "dsd") {
+  const index = await allProgramResources(scope);
+  return { ...index, destinations: index.destinations.filter(doc => PODCASTS.some(podcast => podcast.href === doc.href)) };
+}
 
 afterEach(() => vi.restoreAllMocks());
 const podcast = PODCASTS.find(podcast => podcast.id === "equity-toolkit")!;

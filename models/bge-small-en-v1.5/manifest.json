@@ -37,7 +37,7 @@
   ],
   "vectorProjection": {
     "name": "public-document-vectors.json",
-    "sha256": "604794575b51ec5ab331af61ce5594e78608bbea664f655ec2746957f5179fa5",
+    "sha256": "444916c1dfc2ee1b6f648d1dcbed2dbfb3c937bcf752d7e8ea42672d4ff464a9",
     "documents": 3615
   }
 }

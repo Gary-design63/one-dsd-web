@@ -3,42 +3,42 @@ import type { PodcastReadingSupport } from "@/components/podcast-transcript-data
 /** Recording-derived machine transcripts; chapter topics reviewed against the text. */
 export const PODCAST_SUPPLEMENTS: Partial<Record<string, PodcastReadingSupport>> = {
   "equity-toolkit": {
-    "transcriptUrl": "/audio/transcripts/dhs-equity-policy-and-toolkit.json",
+    "transcriptUrl": "/audio/transcripts/dhs-equity-policy-and-toolkit.json?v=trim25-20260926",
     "chapters": [
       {
-        "start": 0.0,
+        "start": 0,
         "title": "Policy purpose and who it applies to"
       },
       {
-        "start": 154.9,
+        "start": 129.9,
         "title": "Roles, tools and administration goals"
       },
       {
-        "start": 567.84,
+        "start": 542.84,
         "title": "Applying the policy in decisions and daily work"
       },
       {
-        "start": 944.64,
+        "start": 919.64,
         "title": "Shared terms: access, equity and engagement"
       },
       {
-        "start": 1611.44,
+        "start": 1586.44,
         "title": "The equity analysis quick guide"
       },
       {
-        "start": 1773.36,
+        "start": 1748.36,
         "title": "Steps 1–3: outcomes, data and engagement"
       },
       {
-        "start": 2025.16,
+        "start": 2000.16,
         "title": "Steps 4–8: impacts, accountability and sustainability"
       },
       {
-        "start": 2309.4,
+        "start": 2284.4,
         "title": "The equity scan"
       },
       {
-        "start": 2507.72,
+        "start": 2482.72,
         "title": "Using the tools, collaborating and checking progress"
       }
     ]
