@@ -8,6 +8,7 @@ import { stringValue } from "@/lib/content/staff-surface-registry";
 import { requestedContentScope } from "@/lib/product/request-context";
 import { ProgramContextNote } from "@/components/program-context";
 import { AUTHORITY_GROUP_LABEL, registerSourcesForStaff, sourceAnchor } from "@/lib/content/source-register";
+import { SourceFragmentReveal } from "@/components/source-fragment-reveal";
 
 export const metadata: Metadata = { title: "Research and sources" };
 export const dynamic = "force-dynamic";
@@ -23,10 +24,11 @@ export default async function SourcesPage() {
       <div className="wrap"><Link href="/learn" className={styles.back}>← Learning and resources</Link></div>
       <PageIntro kicker={text("introKicker")} title={text("introTitle")} lede="Explore outside sources used across the learning and resources in this program." />
       <div className="wrap">
+        <SourceFragmentReveal />
         <nav aria-label="Source groups"><ul className={styles.groupNav}>{groups.map(({ group, sources }) => <li key={group}><a href={`#group-${group}`}>{AUTHORITY_GROUP_LABEL[group]} ({sources.length})</a></li>)}</ul></nav>
         {groups.map(({ group, sources }) => (
-          <section key={group} id={`group-${group}`} className={styles.group} aria-labelledby={`group-${group}-title`}>
-            <h2 id={`group-${group}-title`}>{AUTHORITY_GROUP_LABEL[group]}</h2>
+          <details key={group} id={`group-${group}`} className={styles.group}>
+            <summary id={`group-${group}-title`}>{AUTHORITY_GROUP_LABEL[group]} ({sources.length})</summary>
             <ul className={styles.list}>
               {sources.map(source => {
                 return (
@@ -36,7 +38,7 @@ export default async function SourcesPage() {
                 );
               })}
             </ul>
-          </section>
+          </details>
         ))}
         <ProgramContextNote />
       </div>

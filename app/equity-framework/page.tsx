@@ -87,6 +87,7 @@ export default function EquityFrameworkPage() {
           <H2 id="cycle">The improvement cycle as a workflow</H2>
           <p className="max-w-3xl">The framework runs as a continuous cycle: assess, plan, implement, measure, learn, improve. Each stage matches one step of the program’s value sequence,¹¹ and each stage names where the work happens in One DHS and in One DSD. Move to the next stage when the people involved agree, not on a date.</p>
           <ol className="mt-4 flex flex-wrap gap-2 p-0 text-sm font-semibold" aria-label="Cycle stages">{F.cycle.map((c, i) => <li key={c.stage} className="list-none rounded-full border border-line bg-white px-3 py-1">{i + 1}. {c.stage}</li>)}</ol>
+          <details className="mt-5 border-t border-line py-3"><summary>Explore the full cycle workflow</summary>
           <div className="mt-4 overflow-x-auto rounded border border-line bg-white">
             <table className="data w-full min-w-[56rem] text-sm">
               <thead><tr><th scope="col">Stage</th><th scope="col">Question the stage answers</th><th scope="col">Program step</th><th scope="col">In One DHS</th><th scope="col">In One DSD</th></tr></thead>
@@ -101,6 +102,7 @@ export default function EquityFrameworkPage() {
               ))}</tbody>
             </table>
           </div>
+          </details>
         </section>
 
         <section aria-labelledby="direction" className="mt-14">
@@ -110,12 +112,14 @@ export default function EquityFrameworkPage() {
             <div className="card min-w-0"><h3 className="m-0 text-xl font-bold">Mission</h3><p>{F.mission}</p></div>
           </div>
           <p className="max-w-3xl">{F.focus}</p>
+          <details className="mt-5 border-t border-line py-3"><summary>Explore the core values in practice</summary>
           <div className="mt-4 overflow-x-auto rounded border border-line bg-white">
             <table className="data w-full min-w-[40rem] text-sm">
               <thead><tr><th scope="col">Core value</th><th scope="col">Strategic meaning</th><th scope="col">In practice</th></tr></thead>
               <tbody>{F.values.map((v) => <tr key={v.value} className="align-top"><th scope="row" className="font-semibold">{v.value}</th><td>{v.meaning}</td><td>{v.practice}</td></tr>)}</tbody>
             </table>
           </div>
+          </details>
         </section>
 
         <section aria-labelledby="pillars" className="mt-14">
@@ -146,6 +150,7 @@ export default function EquityFrameworkPage() {
         <section aria-labelledby="mapping" className="mt-14">
           <H2 id="mapping">Every part of the program on the spine</H2>
           <p className="max-w-3xl">The program’s thirteen functions,¹¹ each with its main page, mapped to the pillars they serve. Owner-only functions appear here so nothing sits outside the framework.</p>
+          <details className="mt-5 border-t border-line py-3"><summary>Explore the program function map</summary>
           <div className="mt-4 overflow-x-auto rounded border border-line bg-white">
             <table className="data w-full min-w-[48rem] text-sm">
               <thead><tr><th scope="col">Program function</th><th scope="col">Purpose</th><th scope="col">Main page</th><th scope="col">Pillars served</th></tr></thead>
@@ -159,11 +164,13 @@ export default function EquityFrameworkPage() {
               ))}</tbody>
             </table>
           </div>
+          </details>
         </section>
 
         <section aria-labelledby="measures" className="mt-14">
           <H2 id="measures">How progress is measured</H2>
           <p className="max-w-3xl">Accountability uses leading, intermediate and lagging indicators so activity is never mistaken for outcome. In this program every count is aggregate and voluntary; the register and dashboard report tool use by quarter and administration and survey results for the department as a whole.</p>
+          <details className="mt-5 border-t border-line py-3"><summary>Explore the measurement framework</summary>
           <div className="mt-4 overflow-x-auto rounded border border-line bg-white">
             <table className="data w-full min-w-[40rem] text-sm">
               <thead><tr><th scope="col">Measure type</th><th scope="col">Purpose</th><th scope="col">Examples</th></tr></thead>
@@ -181,6 +188,7 @@ export default function EquityFrameworkPage() {
             <div className="min-w-0"><h3 className="m-0 text-xl font-bold">Dashboard pages</h3><Pairs head={["Page", "What it shows"]} rows={F.dashboardPages} /></div>
             <div className="min-w-0"><h3 className="m-0 text-xl font-bold">Early-warning thresholds</h3><p className="text-sm">Thresholds trigger a review rather than waiting for a scheduled report. The values are agreed, not fixed here.</p><Bullets items={F.earlyWarning} /></div>
           </div>
+          </details>
         </section>
 
         <section aria-labelledby="stages" className="mt-14">
@@ -289,7 +297,9 @@ export default function EquityFrameworkPage() {
         <section aria-labelledby="library" className="mt-14">
           <H2 id="library">Resource library structure</H2>
           <p className="max-w-3xl">Organize by work task rather than by abstract topic, so staff can find “what I need to do” and “how to do it.” The program’s <Link href="/library">Library</Link> and <Link href="/practice">Practice</Link> pages hold what exists today.</p>
+          <details className="mt-5 border-t border-line py-3"><summary>Explore the resource groups</summary>
           <div className="mt-4 grid gap-6 md:grid-cols-2 lg:grid-cols-3">{F.library.map(([group, items]) => <div key={group} className="min-w-0 border-t border-line pt-4"><h3 className="m-0 text-lg font-bold">{group}</h3><Bullets items={items} /></div>)}</div>
+          </details>
         </section>
 
         <section aria-labelledby="launch" className="mt-14">
@@ -302,10 +312,12 @@ export default function EquityFrameworkPage() {
 
         <section aria-labelledby="notes" className="mt-14 border-t border-line pt-6">
           <H2 id="notes">Notes</H2>
+          <details className="mt-5 border-t border-line py-3"><summary>Read notes and bibliography</summary>
           <ol className="mt-3 list-decimal space-y-2 pl-6 text-sm">{F.notes.map((n, i) => <li key={i}>{n}</li>)}</ol>
           <h3 className="mt-8 text-2xl font-bold">Bibliography</h3>
           <ul className="mt-3 list-none space-y-2 p-0 text-sm [&_li]:pl-8 [&_li]:-indent-8">{F.bibliography.map((b) => <li key={b}>{b}</li>)}</ul>
           <p className="text-sm text-muted">Notes and bibliography follow the Chicago Manual of Style notes-and-bibliography system. Internal program documents are cited as unpublished sources.</p>
+          </details>
           <p><Link href="/">Return to the program home</Link></p>
         </section>
       </div>
