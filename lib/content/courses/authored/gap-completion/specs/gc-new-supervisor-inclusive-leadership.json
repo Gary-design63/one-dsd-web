@@ -1,0 +1,235 @@
+{
+ "id": "gc-new-supervisor-inclusive-leadership",
+ "subtitle": "Apply inclusive supervision basics to assignments, one-to-ones, accommodation requests, feedback, meetings and concerns, and know when to bring in the right office.",
+ "audience": "For DHS and DSD employees in their first year or two of supervising, and for leads and acting supervisors who want to build fair habits from the start.",
+ "lessons": [
+  {
+   "title": "Fair assignments, recognition and one-to-ones",
+   "objectives": [
+    "Identify how informal habits can make assignments and recognition uneven across a team.",
+    "Plan a simple, visible method for distributing stretch work and routine work.",
+    "Draft a one-to-one agenda that gives each team member the same core time and questions.",
+    "Compare your own view of your inclusiveness with evidence from the team."
+   ],
+   "teaching": "New supervisors are often promoted because they were good at the work. Supervising asks for something different: deciding who gets which work, whose effort is noticed, and whose ideas reach decision makers. Those choices shape careers. Research on inclusive leadership, including a study by Juliet Bourke and Andrea Titus that drew on thousands of employee ratings of several hundred leaders, described a set of behaviors that shape whether people feel included, and found that leaders often overestimate how inclusive they are. That finding comes from consulting research rather than a controlled trial, but the practical message is sound: check your impressions against evidence.\n\nAssignments are the first place to look. Without a method, stretch projects tend to go to the people a supervisor already knows best, who speak up quickly or who resemble the supervisor's own path. Routine but invisible work such as note taking, onboarding new staff, planning events or fixing the shared drive tends to settle on the same few people, often without credit. A simple fix is to make assignments visible. Keep a running list of significant assignments for the quarter, note who received each one, and rotate visible and invisible tasks deliberately. When you choose someone for a stretch assignment, write down the reason in terms of the work, not personality.\n\nRecognition works the same way. Thank people specifically and in proportion to the work, and pay attention to who gets named in leadership updates. If you mention the same two names every month, ask why. Some team members prefer private recognition; ask each person how they like to be recognized.\n\nOne-to-one meetings are the backbone of fair supervision. Give every direct report a regular one-to-one on a predictable schedule, with the same core agenda: priorities, what is getting in the way, what support would help, development interests and anything they want to raise. Let the employee add items first. Protect the time; repeatedly cancelling one person's meetings sends a message. These conversations are also where people raise accommodation needs, workload problems or concerns, so listen for them. The Supervisor Core program from Minnesota Management and Budget, required for new state supervisors, covers state policies and resources that support this work.",
+   "keyPoint": "Fairness in supervision is built from visible methods: a record of who gets which assignments, specific recognition and regular one-to-ones with the same core agenda for everyone.",
+   "example": "Fictional case: Keisha has supervised a DSD policy team for three months. Reviewing her notes, she sees that the two legislative briefings this session went to Brian, who often volunteers first in meetings. Luz, who drafted most of the background analysis, has taken notes at every team meeting and is not mentioned in the last two updates to the director. Keisha has also cancelled Luz's one-to-one twice because of urgent requests.",
+   "question": "What should Keisha do next?",
+   "choices": [
+    "Reschedule Luz's one-to-one, credit her analysis in the next update, and set up a visible rotation for briefings and note taking.",
+    "Assign the next briefing to Luz without explanation so the numbers even out.",
+    "Wait until performance reviews, when she can address everything at once."
+   ],
+   "feedback": [
+    "This is the strongest response. It repairs the missed time, corrects the credit and changes the method so the pattern does not repeat.",
+    "Evening out the count without a method or a conversation may feel arbitrary to both employees, and it does not address note taking or credit.",
+    "Waiting lets the pattern shape more months of work and visibility. Small, timely corrections matter more than a single annual conversation."
+   ],
+   "recommended": 0,
+   "reflection": "Think about the last three stretch opportunities you had a say in. How did you decide, and whose name came to mind first?",
+   "action": "Start a simple assignment log for your team this week. List significant and routine tasks from the past month, note who did each, and identify one change to make in how the next assignments are shared.",
+   "check": {
+    "question": "Why do inclusive leadership researchers advise leaders to check their impressions against evidence?",
+    "correct": "Because leaders often rate themselves as more inclusive than their team members experience them to be.",
+    "wrong": [
+     "Because employees usually rate their leaders more favorably than leaders rate themselves.",
+     "Because inclusion depends mostly on agency policy rather than what a supervisor does."
+    ],
+    "feedback": "Research comparing leaders with their team members' ratings has found that leaders tend to overestimate their own inclusiveness. Evidence such as an assignment log and regular one-to-ones helps close that gap."
+   }
+  },
+  {
+   "title": "Accommodation requests: recognize, respond and route",
+   "objectives": [
+    "Recognize an accommodation request made in plain language, without legal terms.",
+    "Describe the supervisor's role under the State of Minnesota reasonable accommodation policy.",
+    "Explain when to contact the agency ADA coordinator or Human Resources.",
+    "Protect the confidentiality of medical information and the fact of an accommodation."
+   ],
+   "teaching": "Employees rarely say the words reasonable accommodation. The EEOC's guidance is clear that a person may ask in plain English and does not need to mention the Americans with Disabilities Act. Statements such as I am having trouble with the lights since my treatment started, or I need to leave early on Tuesdays for appointments for the next few months, may be requests. The Job Accommodation Network advises supervisors to err on the side of treating an unclear statement as a possible request and to ask a simple follow-up question: What would help you do your job?\n\nState of Minnesota policy sets out who does what. Under Minnesota Management and Budget's reasonable accommodation policy for executive branch agencies, a request can be made in any form, orally or in writing, to a supervisor, Human Resources, the ADA coordinator or another agency official. Oral requests should be documented. Supervisors may approve some straightforward requests, such as standard office equipment or low-cost adaptive items, or a change in schedule or duties, within the limits the policy sets. The agency ADA coordinator must be consulted before any request is denied, and medical information is kept by the accommodation process, separate from personnel files. If an approved accommodation cannot be provided quickly, the decision maker keeps the employee informed. Check DHS's current procedure for exactly how requests are logged.\n\nFor a new supervisor, the practical steps are: listen, acknowledge the request, avoid asking for a diagnosis, contact your Human Resources partner or the ADA coordinator promptly, and follow up with the employee about timing. Do not require medical records yourself. You may need to know what the limitation is and what will help; you do not need to know why. The EEOC notes that when more than one effective accommodation exists, the employee's preference should be given primary consideration, while the employer chooses among effective options.\n\nConfidentiality protects trust. Do not tell the team why someone has a different schedule or a new chair. If coworkers ask, you can say that you handle individual arrangements privately for everyone. Religious accommodation requests follow a similar pattern and should also go promptly to Human Resources. Asking for any accommodation is protected activity under federal law, so it must never be held against the employee in assignments, reviews or recognition.",
+   "keyPoint": "Treat plain-language requests as possible accommodation requests, respond promptly, route them through Human Resources or the ADA coordinator, and keep medical details private.",
+   "example": "Fictional case: During a one-to-one, Samuel tells his new supervisor, Ingrid, that the open office has become very hard for him since a medical change and that he is losing focus by midafternoon. He asks whether he could work in a small room that is usually empty, or start and end his day earlier. He does not say he is requesting an accommodation. Ingrid's team has a policy that everyone sits in the open area to encourage collaboration.",
+   "question": "What should Ingrid do next?",
+   "choices": [
+    "Explain the seating policy and suggest he try noise-cancelling headphones for a month before raising it again.",
+    "Treat this as a possible accommodation request, ask what would help, document it and contact the HR partner or ADA coordinator promptly.",
+    "Ask Samuel to bring a doctor's note describing his condition before she considers anything."
+   ],
+   "feedback": [
+    "This delays a likely accommodation request and substitutes Ingrid's solution for a real process. The policy may need to bend.",
+    "This is the strongest response. It recognizes the request, keeps the conversation practical and brings in the people responsible for the formal process.",
+    "Supervisors should not demand medical information. If documentation is needed, the accommodation process requests only what is necessary and keeps it confidential."
+   ],
+   "recommended": 1,
+   "reflection": "If someone on your team hinted at a health or access need tomorrow, what would you say first? What would you want to avoid saying?",
+   "action": "Find and save the name and contact details of your Human Resources partner and your agency ADA coordinator, and read your agency's current accommodation request procedure.",
+   "check": {
+    "question": "According to EEOC guidance, what must an employee say to make a request for reasonable accommodation?",
+    "correct": "Nothing specific: a request can be made in plain language without mentioning the ADA or the phrase reasonable accommodation.",
+    "wrong": [
+     "The employee must use the words reasonable accommodation in writing.",
+     "The employee must first provide a diagnosis to the supervisor."
+    ],
+    "feedback": "The EEOC and JAN both say no special words are needed. Supervisors should recognize plain-language requests and involve the responsible process, which requests only necessary information and keeps it confidential."
+   }
+  },
+  {
+   "title": "Feedback without bias and meetings that include everyone",
+   "objectives": [
+    "Distinguish specific, work-based feedback from vague, personality-based comments.",
+    "Apply a simple check for consistency before giving performance feedback.",
+    "Plan a meeting format that lets people contribute in more than one way.",
+    "Identify common meeting habits that silence some team members."
+   ],
+   "teaching": "Feedback is where bias most easily enters everyday supervision. Vague comments such as needs more presence, not a culture fit, too quiet, too direct or great attitude are hard to act on and easy to apply unevenly. They tend to reflect how a person's style compares to the supervisor's expectations rather than the work itself. The same assertive email can be read as confident from one person and abrasive from another. Specific feedback protects everyone: it tells the person exactly what happened, why it matters for the work and what to do next.\n\nA simple method helps. Describe the situation, the observable behavior and its effect on the work, then agree on the next step. For example: In Tuesday's provider call, the timeline you shared left out the county review step, which meant the provider planned for the wrong date. For the next call, please check the timeline against the review checklist. Before giving feedback, ask yourself two questions. Would I say the same thing, in the same words, to another team member who did the same thing? Is this about the work or about how the person talks, dresses, sounds or socializes? If you are describing style, ask whether that style actually affects results. Keep brief notes throughout the year so reviews rest on a record, not on the most recent or most memorable moment.\n\nMeetings are the other daily test. Common habits favor people who think aloud and speak first: open discussion with no agenda, decisions made in the last few minutes, side conversations in the room while remote participants wait, and interruptions that go unaddressed. Inclusive meetings are designed, not hoped for. Send an agenda and materials in advance. Say what decision is needed. Use a round so each person can speak, and invite written input in chat or afterward for people who process ideas later. Make sure remote participants and people using captions or interpreters can follow and join. Credit ideas to the person who first raised them. Rotate note taking and facilitation.\n\nNone of this means lowering standards. Clear standards applied the same way, and more than one way to contribute, let supervisors see the full range of what their team can do.",
+   "keyPoint": "Tie feedback to observable work and its effects, check that you would say the same thing to anyone, and design meetings so contribution does not depend on speaking first.",
+   "example": "Fictional case: Marcus is drafting a mid-year review for Thao, a program consultant. His draft says Thao is quiet in meetings and should show more leadership presence. When Marcus looks at his notes, he sees that Thao's written analysis shaped two policy decisions and that Thao often sends ideas by email after meetings. The unit's meetings are open discussions without agendas, and two senior staff usually speak first.",
+   "question": "What should Marcus do next?",
+   "choices": [
+    "Keep the comment, since leaders need to speak up and Thao will need to adapt.",
+    "Remove the comment and avoid mentioning meetings at all to keep the review positive.",
+    "Rewrite the review around Thao's documented work, discuss any specific meeting goal with examples, and change the meeting format so written input counts."
+   ],
+   "feedback": [
+    "Presence is vague and is not tied to a work result. Keeping it rewards one style and ignores Thao's documented contributions.",
+    "Avoiding the topic removes a vague comment but leaves Thao without useful feedback and leaves the meeting format unchanged.",
+    "This is the strongest response. It bases the review on evidence, keeps any development goal specific and fixes the meeting design that made Thao's input less visible."
+   ],
+   "recommended": 2,
+   "reflection": "Think of a piece of feedback you once received that was hard to act on. What would have made it useful? Have you given similar feedback yourself?",
+   "action": "Before your next team meeting, send an agenda with the decision needed, plan a round for input, and offer a way to contribute in writing for a day afterward. Note whose ideas appear that did not appear before.",
+   "check": {
+    "question": "Which piece of feedback is most specific and work based?",
+    "correct": "Your summary of the county contract left out the two open compliance items, so the director approved it without them. Next time, check the summary against the open-items list.",
+    "wrong": [
+     "You need to be more of a team player and show more energy in meetings.",
+     "You have a great attitude, but people sometimes find your style a bit much."
+    ],
+    "feedback": "Useful feedback names the situation, the behavior and the effect on the work, then a next step. Comments about energy, attitude or style are vague and easy to apply unevenly across different people."
+   }
+  },
+  {
+   "title": "Handling concerns, formal routes and labor agreements",
+   "objectives": [
+    "Explain the difference between concerns a supervisor can resolve and those that must go to a formal office.",
+    "Identify the Equal Opportunity and Access Division, Human Resources, labor relations and the ADA coordinator as formal routes.",
+    "Describe what retaliation is and how supervisors prevent it.",
+    "Locate and apply the relevant collective bargaining agreement before acting on a work rule or discipline question."
+   ],
+   "teaching": "Team members will bring you concerns: a heavy workload, a conflict with a coworker, a comment that felt demeaning, a schedule problem, a question about pay. Many everyday concerns are yours to address. You can clarify priorities, adjust assignments, set expectations for respectful conduct and follow up. Some concerns are not yours to resolve alone. Reports of discrimination, harassment or retaliation involving a protected characteristic go to the Equal Opportunity and Access Division and Human Resources under agency policy. Accommodation questions go to Human Resources or the ADA coordinator. Questions about discipline, grievances, leave and contract terms go to Human Resources and labor relations. When in doubt, consult before acting.\n\nWhen someone raises a serious concern, listen, take notes, avoid promising confidentiality you cannot keep and tell the person what will happen next. Do not investigate on your own, question witnesses or confront the person accused before talking with Human Resources or the Equal Opportunity and Access Division. Protect the person who raised the concern. The EEOC explains that complaining about discrimination, taking part in an investigation or requesting a disability or religious accommodation is protected activity. Retaliation can include a poor review, a less desirable assignment, closer scrutiny, exclusion or a changed schedule that makes life harder. Watch your own reactions and those of the team, and keep decisions tied to documented, work-based reasons.\n\nMany DHS employees are covered by collective bargaining agreements, such as the contracts negotiated with AFSCME and the Minnesota Association of Professional Employees, and supervisors also work under plans for employees who are not represented. Minnesota Management and Budget publishes these agreements. They set rules on matters such as hours, overtime, seniority, vacancies, discipline and grievance steps, and they may give employees the right to union representation in certain meetings. Read the article that applies before changing a schedule, handling a vacancy or starting any discipline. Many problems for new supervisors come from well-meant decisions made without checking the contract. Labor relations staff and your Human Resources partner can explain how the contract applies.\n\nThe Supervisor Core program from Minnesota Management and Budget is required for new state supervisors during the probationary period and covers these policies. Your job is not to be the expert on every rule. It is to recognize when a formal process applies, bring in the right partner quickly and treat people fairly while it works.",
+   "keyPoint": "Resolve everyday concerns yourself, but route discrimination, harassment, retaliation, accommodation, discipline and contract questions to the responsible office, and never let a concern count against the person who raised it.",
+   "example": "Fictional case: Fatuma, a case aide, tells her supervisor, Eric, that a senior coworker, Greg, has twice mocked her accent in team chat and once in a meeting. She asks Eric not to make a big deal of it because she does not want trouble. Eric is new and worried that reporting it will damage the team. He is also planning to change the team's phone coverage schedule next week, which would move Fatuma to the late shift.",
+   "question": "What should Eric do next?",
+   "choices": [
+    "Talk to Greg informally, tell him to cut it out, and keep the schedule change as planned.",
+    "Thank Fatuma, explain that he must consult the Equal Opportunity and Access Division and Human Resources, and pause the schedule change until he confirms it is work based and consistent with the contract.",
+    "Respect Fatuma's wish and take no action unless it happens again."
+   ],
+   "feedback": [
+    "A private warning may seem kind, but it skips the required route, and moving Fatuma to a worse shift right after her report could look like retaliation.",
+    "This is the strongest response. It is honest about what Eric must do, brings in the responsible offices and prevents a decision that could harm the person who raised the concern.",
+    "Comments about someone's accent may involve national origin. A supervisor who learns of possible harassment has a duty to act through the formal route, even if the employee is hesitant."
+   ],
+   "recommended": 1,
+   "reflection": "What makes it hard for you to bring in a formal office when someone raises a concern? What would help you do it sooner?",
+   "action": "Locate the collective bargaining agreement or compensation plan that covers each of your direct reports, bookmark the articles on hours, vacancies and discipline, and save the contacts for your Human Resources partner, labor relations and the Equal Opportunity and Access Division.",
+   "check": {
+    "question": "Which of these is protected activity under federal equal employment law, as the EEOC describes it?",
+    "correct": "Requesting an accommodation for a disability or a religious practice.",
+    "wrong": [
+     "Declining a stretch assignment that the employee does not want.",
+     "Disagreeing with a supervisor about a project deadline."
+    ],
+    "feedback": "The EEOC lists complaining about discrimination, taking part in an investigation and requesting a disability or religious accommodation as protected activity. Supervisors must make sure none of these leads to worse treatment."
+   }
+  }
+ ],
+ "cards": [
+  {
+   "front": "Assignment log",
+   "back": "A simple running record of significant and routine tasks and who received them, used to spot and correct uneven distribution of opportunity and invisible work."
+  },
+  {
+   "front": "Plain-language accommodation request",
+   "back": "Any statement that an employee needs a change at work for a medical reason. No legal words are needed; supervisors respond and route it to Human Resources or the ADA coordinator."
+  },
+  {
+   "front": "Specific feedback",
+   "back": "Feedback that names the situation, the observable behavior, its effect on the work and a next step, rather than personality or style."
+  },
+  {
+   "front": "Protected activity",
+   "back": "Actions such as reporting discrimination, taking part in an investigation or requesting an accommodation. Treating someone worse because of them is retaliation."
+  },
+  {
+   "front": "Collective bargaining agreement",
+   "back": "The contract between the state and a union that sets rules on hours, vacancies, discipline, grievances and more. Check it before acting."
+  }
+ ],
+ "aid": [
+  {
+   "heading": "Every week",
+   "items": [
+    "Hold each one-to-one as scheduled, with the employee's items first.",
+    "Update the assignment log and check who received visible and invisible work.",
+    "Recognize specific contributions and credit ideas to the person who raised them.",
+    "Send meeting agendas in advance and offer a written way to contribute."
+   ]
+  },
+  {
+   "heading": "When someone asks for a change for a medical or religious reason",
+   "items": [
+    "Treat plain-language statements as possible requests.",
+    "Ask what would help; do not ask for a diagnosis or records.",
+    "Document the request and contact Human Resources or the ADA coordinator promptly.",
+    "Keep the reason private and follow up with the employee on timing."
+   ]
+  },
+  {
+   "heading": "When someone raises a concern",
+   "items": [
+    "Listen, take notes and explain what happens next without promising secrecy.",
+    "Route discrimination, harassment and retaliation concerns to the Equal Opportunity and Access Division and Human Resources.",
+    "Pause decisions that could affect the person until you confirm they are work based.",
+    "Check the labor agreement and consult labor relations before any discipline or schedule change."
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "title": "U.S. EEOC — Enforcement Guidance on Reasonable Accommodation and Undue Hardship under the ADA",
+   "href": "https://www.eeoc.gov/laws/guidance/enforcement-guidance-reasonable-accommodation-and-undue-hardship-under-ada",
+   "note": "Plain-language requests, the interactive process, limits on medical documentation and the employer's choice among effective accommodations. Formal determinations belong to the agency accommodation process."
+  },
+  {
+   "title": "Job Accommodation Network — The Interactive Process",
+   "href": "https://askjan.org/topics/interactive.cfm",
+   "note": "Steps for recognizing and responding to accommodation requests, training supervisors to recognize requests, and keeping medical information confidential."
+  },
+  {
+   "title": "Minnesota Management and Budget — HR/LR Policy 1433, ADA Reasonable Accommodations",
+   "href": "https://mn.gov/mmb-stat/equal-opportunity/ada/1433-reasonable-accommodation.pdf",
+   "note": "Executive branch policy on how requests are made, what supervisors may approve, consultation with the agency ADA coordinator before any denial, confidentiality and status updates. Check the current DHS procedure for local steps."
+  },
+  {
+   "title": "U.S. EEOC — Retaliation",
+   "href": "https://www.eeoc.gov/retaliation",
+   "note": "Defines protected activity, including requesting a disability or religious accommodation, and gives examples of retaliation."
+  },
+  {
+   "title": "Minnesota Management and Budget — Enterprise Talent Development Core Programs",
+   "href": "https://mn.gov/mmb/etd/core-programs/",
+   "note": "Describes Supervisor Core as required for new state supervisors during the probationary period under Administrative Procedure 21."
+  },
+  {
+   "title": "Minnesota Management and Budget — Labor Contracts and Pay Plans",
+   "href": "https://mn.gov/mmb/employee-relations/labor-relations/labor/",
+   "note": "Official source for state collective bargaining agreements and compensation plans. Labor relations and Human Resources interpret how they apply."
+  },
+  {
+   "title": "Harvard Business Review — Bourke and Titus, Why Inclusive Leaders Are Good for Organizations, and How to Become One (2019)",
+   "href": "https://hbr.org/2019/03/why-inclusive-leaders-are-good-for-organizations-and-how-to-become-one",
+   "note": "Consulting research drawing on about 3,500 employee ratings of 450 leaders; identifies six inclusive leader behaviors and finds leaders often overestimate their inclusiveness. Not a controlled study."
+  }
+ ]
+}

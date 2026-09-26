@@ -1,0 +1,192 @@
+{
+  "id": "gc-deaf-minnesota",
+  "subtitle": "Describe Deaf Minnesotans as a cultural and linguistic community, distinguish Deaf, DeafBlind and hard-of-hearing experiences, and arrange communication access that meets ADA duties.",
+  "audience": "For all DHS and DSD employees, including case managers, program and policy staff, supervisors, HR partners and communications staff, who communicate with Deaf, DeafBlind or hard-of-hearing people as clients, colleagues or community partners.",
+  "lessons": [
+    {
+      "title": "Deaf as a culture and ASL as a language",
+      "objectives": [
+        "Distinguish Deaf as a cultural and linguistic identity from deaf as an audiological description.",
+        "Explain why American Sign Language is a complete language with its own grammar, not a code for English.",
+        "Identify terms that many Deaf people find outdated or offensive.",
+        "Explain why written English may not be an accessible substitute for ASL."
+      ],
+      "teaching": "The National Association of the Deaf explains a distinction that shapes this whole course. Written with a lowercase d, deaf describes the audiological condition of not hearing. Written with a capital D, Deaf refers to people who share a language, American Sign Language, and a culture that has been created and passed down across generations. Deaf culture has its own history, arts, humor, values, social norms and institutions. Many Deaf people see themselves first as members of a linguistic minority, not as people defined by a hearing loss.\n\nThe National Institute on Deafness and Other Communication Disorders describes ASL as a complete, natural language with the same linguistic properties as spoken languages and a grammar that differs from English. ASL uses the hands, face and body, and has its own rules for pronunciation, word formation and word order. It has regional accents and dialects. It is not universal: British Sign Language, for example, is a different language, and signers of one cannot necessarily understand the other. ASL grew over two centuries from a mix of local sign languages and French Sign Language. Fingerspelling is used for names and some English words, but it is a small part of the language.\n\nThis has a practical consequence that is easy to miss. For many Deaf people, ASL is their first or strongest language and English is a second language. Handing someone a written notice, or offering to pass notes, may not be effective communication for a person whose primary language is ASL, especially for complex topics like eligibility, services or rights. The reverse is also true: some deaf people do not know ASL and rely on written English, captioning or speech reading.\n\nLanguage about deafness matters. The NAD notes that most people in the community reject the term hearing impaired because it focuses on what people cannot do, and considers terms like deaf and dumb or deaf-mute offensive. Deaf, DeafBlind and hard of hearing are widely accepted. The NAD's core advice is simple: when in doubt, ask the person how they identify.",
+      "keyPoint": "Deaf with a capital D names a cultural and linguistic community whose language, ASL, is a full language distinct from English. Ask people how they identify and how they communicate best.",
+      "example": "Fictional case: Maria, a DSD communications specialist, is preparing a public notice about changes to a waiver program. A colleague suggests that Deaf readers will be fine with the written English version, so an ASL video is unnecessary. Maria knows some Deaf community members use written English well, but she has heard from a Deaf advisory group member, Brian, that many people want ASL versions of important notices. The notice explains appeal rights.",
+      "question": "What should Maria do?",
+      "choices": [
+        "Publish only the written notice, since anyone who reads English can understand it.",
+        "Publish the written notice with an ASL video version, captions, and a plain-language summary, and ask the Deaf advisory group for feedback on the video.",
+        "Add a line to the notice telling Deaf readers to ask a family member to explain it."
+      ],
+      "feedback": [
+        "For many Deaf people, English is a second language, and appeal rights are complex. A written notice alone may not provide effective communication.",
+        "This is the strongest choice. It provides the information in ASL as well as English, adds captions and plain language, and invites the community to check quality.",
+        "Directing people to family members shifts the agency's responsibility onto them and may compromise privacy and accuracy."
+      ],
+      "recommended": 1,
+      "reflection": "Before this lesson, how did you think about the relationship between ASL and English? What, if anything, has changed?",
+      "action": "Identify one high-stakes public document in your area, such as a notice of rights. Find out whether an ASL version exists and, if not, raise the gap with the document owner or your division's communications lead.",
+      "check": {
+        "question": "Which statement about American Sign Language is accurate?",
+        "correct": "ASL is a complete natural language with its own grammar that differs from English.",
+        "wrong": [
+          "ASL is English expressed word for word with the hands.",
+          "ASL is a universal sign language used by Deaf people worldwide."
+        ],
+        "feedback": "ASL has its own grammar, word order and regional variation, and it is not universal. Treating it as signed English or as universal leads to poor communication choices."
+      }
+    },
+    {
+      "title": "Deaf, DeafBlind, hard of hearing and late deafened",
+      "objectives": [
+        "Distinguish Deaf, DeafBlind, hard-of-hearing and late-deafened experiences and communication needs.",
+        "Identify communication options, including ASL interpreting, tactile interpreting, captioning and assistive listening.",
+        "Explain why one in five Minnesotans with hearing loss is not one group with one need.",
+        "Plan a question that lets a person name the communication method that works for them."
+      ],
+      "teaching": "DHS Deaf, DeafBlind and Hard of Hearing State Services notes that one in five Minnesotans has a hearing loss. The Minnesota Commission of the Deaf, DeafBlind and Hard of Hearing uses the same figure. That large group includes people with very different lives and communication needs.\n\nDeaf people who use ASL as their primary language usually need a qualified ASL interpreter, ASL video content, or a signing staff member who is fluent enough for the conversation. Hard-of-hearing people have some usable hearing. Many use hearing aids or cochlear implants, captioning, assistive listening systems or speech reading, and many do not use ASL. The NAD notes that some hard-of-hearing people describe themselves as in some ways hearing and in some ways deaf. Late-deafened people lost their hearing as adults, often after a lifetime in spoken English. They may rely heavily on real-time captioning and written communication and may be grieving the change.\n\nDeafBlind people have combined hearing and vision loss. Their communication varies widely. Some use tactile sign language, where the person places their hands on the signer's hands. Others use close-vision signing, braille, large print, or amplification combined with magnification. The ADA lists tactile interpreters among the auxiliary aids that may be required. DeafBlind people may also need support persons for navigating spaces, and DHS State Services offers programs specifically for people with combined vision and hearing loss.\n\nBecause the range is so wide, the best starting point is a question, not a guess. How do you prefer to communicate? What works best for you in meetings, on the phone, and in writing? Is there anything that makes communication harder, such as lighting, background noise or group conversations? Then record the answer so the person does not have to repeat it at every contact. Keep in mind that preferences can differ by setting: someone may be fine with captions in a large webinar but need an interpreter for a one-on-one conversation about services. Respect the person's choice even when a different option would be easier to arrange.",
+      "keyPoint": "Hearing loss covers many experiences. Deaf ASL users, hard-of-hearing people, late-deafened adults and DeafBlind people often need different kinds of access, so ask each person what works.",
+      "example": "Fictional case: Harold, a man in his seventies, lost his hearing over the past few years. He is meeting with a county worker, Ruth, about in-home supports. The county has booked an ASL interpreter because his file says deaf. When they arrive, Harold says he does not know sign language and asks whether they can use captions on a laptop instead. Ruth is not sure the county has a captioning option ready.",
+      "question": "What should Ruth do?",
+      "choices": [
+        "Continue with the ASL interpreter, since one was already booked and paid for.",
+        "Communicate by passing handwritten notes for the whole assessment.",
+        "Use whatever quick captioning or typing option is available for now, confirm Harold's preference, and arrange real-time captioning for future meetings, updating the file."
+      ],
+      "feedback": [
+        "An ASL interpreter does not help someone who does not know ASL. The booked service does not create effective communication.",
+        "Notes may work for a short exchange, but an in-depth assessment through handwritten notes is slow and may lose detail. It should not be the plan for future meetings.",
+        "This is the strongest choice. It finds a workable option today, follows Harold's stated preference, and fixes the file so future meetings start right."
+      ],
+      "recommended": 2,
+      "reflection": "How does your team currently learn a person's communication preference before a meeting? Where could that information get lost?",
+      "action": "Find out how your unit arranges real-time captioning, sometimes called CART, as well as ASL and tactile interpreting. Save the steps and lead times in a place your team uses.",
+      "check": {
+        "question": "A file says a person is deaf. What is the best way to plan communication access for the next meeting?",
+        "correct": "Ask the person which method works for them, since they may use ASL, captioning, assistive listening, tactile interpreting or another method.",
+        "wrong": [
+          "Book an ASL interpreter, since all deaf people use ASL.",
+          "Plan to communicate in writing, since all deaf people read English."
+        ],
+        "feedback": "The word deaf does not tell you how a person communicates. Asking directly, and recording the answer, is faster and more respectful than guessing."
+      }
+    },
+    {
+      "title": "Deaf Minnesota: history and institutions",
+      "objectives": [
+        "Summarize the history of the Minnesota State Academy for the Deaf and its role in Deaf community life.",
+        "Describe the role of the Minnesota Commission of the Deaf, DeafBlind and Hard of Hearing.",
+        "Identify services offered by DHS Deaf, DeafBlind and Hard of Hearing State Services.",
+        "Plan how to involve Deaf-led organizations in DHS work."
+      ],
+      "teaching": "Minnesota's Deaf community has deep roots. At its first legislative session after statehood, a representative from Faribault proposed a school for deaf children. The Civil War delayed the plan, but the legislature authorized the school in the early eighteen-sixties, and it opened in rented rooms in Faribault that September. Its first superintendent came from the Ohio School for the Deaf. Now called the Minnesota State Academy for the Deaf, it still operates in Faribault, preparing deaf and hard-of-hearing students from across the state to reach their fullest potential.\n\nResidential schools like the academy have been central to Deaf culture across the country. For many Deaf children born to hearing parents, school was where they first met other Deaf people and gained full access to a language. Friendships, marriages, sports rivalries and community organizations often grew out of school ties, and ASL passed from one generation of students to the next. Schools for the deaf have also been sites of struggle, including long periods when many programs pushed spoken English and discouraged signing. Some Deaf Minnesotans carry mixed memories of their schooling, and staff should not ask about them unless the person raises it.\n\nThe Minnesota Commission of the Deaf, DeafBlind and Hard of Hearing is a state agency that advocates for communication access and equal opportunity for the twenty percent of Minnesotans who are deaf, DeafBlind or hard of hearing. It works on issues in education, employment, health care, civic engagement and communication access, and pursues a legislative agenda. It is an advocacy body, not a direct service provider.\n\nWithin DHS, Deaf, DeafBlind and Hard of Hearing State Services works through regional offices around the state. It offers consultation and referral, the Minnesota Access to Communication Technology program for telephone equipment, programs for people with combined hearing and vision loss, and mental health therapy with ASL-fluent professionals. Through grants, it funds interpreter referral, mentoring, captioning and other services. For DHS staff, these offices are colleagues and resources. Before designing a program change, engagement effort or public message that affects Deaf, DeafBlind or hard-of-hearing Minnesotans, consult State Services and invite Deaf-led organizations to help shape it.",
+      "keyPoint": "Minnesota's Deaf community has institutions reaching back to the state's early years. The Commission advocates, DHS State Services provides services and expertise, and both should be involved early in DHS work that affects Deaf Minnesotans.",
+      "example": "Fictional case: Tom, a DSD project lead, is planning a statewide survey about service experiences. The plan calls for an online English survey and phone follow-ups. A team member, Keisha, asks whether Deaf and DeafBlind Minnesotans have been considered. Tom says the survey is short and anyone can type answers. The survey launches in six weeks, and the team has not contacted anyone outside DSD.",
+      "question": "What should Tom do?",
+      "choices": [
+        "Consult DHS Deaf, DeafBlind and Hard of Hearing State Services and Deaf-led organizations now, and add ASL video versions, accessible formats and alternatives to phone follow-up.",
+        "Launch the survey as planned and handle access requests if anyone asks.",
+        "Exclude the phone follow-up for everyone so no one is disadvantaged."
+      ],
+      "feedback": [
+        "This is the strongest choice. It uses the expertise already inside DHS, involves the community before launch, and builds access into the design instead of adding it later.",
+        "Waiting for requests puts the burden on the people facing barriers, and many will simply not take part. The results would then undercount their experiences.",
+        "Removing follow-up for everyone reduces the survey's value and does not address the English-only design. Access means adding workable options, not removing features."
+      ],
+      "recommended": 0,
+      "reflection": "Which offices and community organizations do you usually consult early in a project? Who is missing from that list?",
+      "action": "Find the regional DHS Deaf, DeafBlind and Hard of Hearing State Services office that serves your area and add its contact to your project planning checklist.",
+      "check": {
+        "question": "Which statement best describes the Minnesota Commission of the Deaf, DeafBlind and Hard of Hearing?",
+        "correct": "A state agency that advocates for communication access and equal opportunity through policy and legislation.",
+        "wrong": [
+          "The DHS unit that provides telephone equipment and mental health therapy.",
+          "A private company that employs interpreters."
+        ],
+        "feedback": "The Commission advocates and pursues policy change. Direct services such as telephone equipment and ASL-fluent mental health therapy come from DHS Deaf, DeafBlind and Hard of Hearing State Services. Knowing the difference helps you reach the right partner."
+      }
+    },
+    {
+      "title": "Communication access in practice: ADA duties and interpreters",
+      "objectives": [
+        "Explain the ADA's effective communication requirements for state agencies, including primary consideration.",
+        "Identify what makes an interpreter qualified and when family members may not interpret.",
+        "Describe when a Deaf interpreter or Certified Deaf Interpreter may be needed.",
+        "Plan an interpreter request that avoids common mistakes."
+      ],
+      "teaching": "As a state agency, DHS is covered by Title II of the Americans with Disabilities Act, which requires effective communication with people who have communication disabilities. The ADA lists auxiliary aids and services such as qualified sign language, oral, cued-speech and tactile interpreters, real-time captioning, written materials and video phones. State and local governments must give primary consideration to the aid or service the person asks for. They may use a different option only if it would be equally effective, or if the request would cause an undue burden or fundamentally alter the program, and those determinations belong to the responsible officials, including the ADA coordinator. People are not charged for these aids.\n\nThe ADA defines a qualified interpreter as one who can interpret effectively, accurately and impartially, both receptively and expressively, using any necessary specialized vocabulary. Knowing some sign language is not enough. Agencies may not require people to bring their own interpreter. Minor children should not interpret, except in narrow emergency situations. An adult companion may interpret only when the person asks, the companion agrees, and it is appropriate, which rules out many situations involving privacy, conflict or complex decisions. If video remote interpreting is used, it must meet quality standards, including clear, real-time, full-motion video and staff trained to set it up.\n\nSometimes the best team includes a Deaf interpreter. The Minnesota Commission of the Deaf, DeafBlind and Hard of Hearing explains that Deaf interpreters are fluent in ASL and English and bring native sign choices, facial expression and cultural knowledge. They often team with hearing interpreters. They can be especially helpful for Deaf people with limited language, people who use a different sign language, DeafBlind people who use tactile signing, and high-stakes settings. Certified Deaf Interpreters hold national certification; Minnesota has only a small number, so plan early.\n\nA good interpreter request covers the basics: the person's preferred method, the setting and topic, how long the meeting will run, whether team interpreting or a Deaf interpreter is needed, and any materials the interpreter should review. During the meeting, speak directly to the Deaf person, not to the interpreter, and allow time for interpretation. If you are unsure what the law requires, or a request seems difficult to meet, contact your ADA coordinator rather than deciding on your own.",
+      "keyPoint": "Effective communication is a legal duty. Give primary consideration to the person's choice, use qualified interpreters, including Deaf interpreters when needed, and send hard questions to the ADA coordinator.",
+      "example": "Fictional case: Luis, a Deaf man who uses ASL, has an appeal conference about a service reduction. The DHS staff member, Carol, has trouble booking an in-person interpreter and suggests that Luis's hearing sister, who signs, interpret instead. Luis says he would prefer a professional interpreter and has had trouble understanding video interpreting on small screens. The conference is in five days.",
+      "question": "What should Carol do?",
+      "choices": [
+        "Proceed with the sister, since she signs and Luis knows her.",
+        "Book video remote interpreting on the standard office laptop, since it is the fastest option.",
+        "Keep working to book a qualified in-person interpreter, consider a short postponement if needed, and consult the ADA coordinator if an equally effective option must be considered."
+      ],
+      "feedback": [
+        "Luis has asked for a professional interpreter. Using a relative in an appeal about his own services raises accuracy, impartiality and privacy concerns and does not meet his request.",
+        "Luis has said video interpreting on small screens has not worked for him. Using it without meeting quality standards and without considering his preference may not be effective communication.",
+        "This is the strongest choice. It gives primary consideration to Luis's request, protects the fairness of the appeal, and brings in the ADA coordinator for any decision about alternatives."
+      ],
+      "recommended": 2,
+      "reflection": "When access is hard to arrange quickly, what pressures push toward shortcuts? How could your team plan to reduce them?",
+      "action": "Write a short interpreter request template for your team that includes preferred method, setting, topic, length, need for team or Deaf interpreters, and materials to share. Ask your ADA coordinator or accessibility lead to review it.",
+      "check": {
+        "question": "Under Title II of the ADA, what must a state agency do when a Deaf person requests a particular communication aid?",
+        "correct": "Give primary consideration to the requested aid, using another option only if it is equally effective or the request would cause an undue burden or fundamental alteration, as determined by the responsible officials.",
+        "wrong": [
+          "Provide whatever aid is cheapest, as long as some aid is offered.",
+          "Ask the person to bring a family member to interpret."
+        ],
+        "feedback": "Primary consideration means the person's choice carries great weight. Agencies may not require people to bring their own interpreters, and decisions about alternatives or undue burden belong to responsible officials such as the ADA coordinator."
+      }
+    }
+  ],
+  "cards": [
+    {"front": "Deaf (capital D)", "back": "A cultural and linguistic identity shared by people who use ASL and participate in Deaf culture. Lowercase deaf describes the audiological condition."},
+    {"front": "American Sign Language (ASL)", "back": "A complete natural language with its own grammar, distinct from English and not universal."},
+    {"front": "DeafBlind", "back": "Combined hearing and vision loss. Communication may include tactile or close-vision signing, braille, large print or amplification."},
+    {"front": "Primary consideration", "back": "Under ADA Title II, state and local governments must give primary consideration to the communication aid a person requests."},
+    {"front": "Deaf interpreter / CDI", "back": "A Deaf interpreter fluent in ASL and English who often teams with a hearing interpreter. Certified Deaf Interpreters hold national certification."}
+  ],
+  "aid": [
+    {
+      "heading": "Ask and record",
+      "items": [
+        "Ask how the person prefers to communicate: ASL, captioning, assistive listening, tactile or another method.",
+        "Ask how they identify, and use that term.",
+        "Record preferences so the person does not have to repeat them.",
+        "Check whether needs differ by setting, such as webinars versus one-on-one meetings."
+      ]
+    },
+    {
+      "heading": "Arrange access",
+      "items": [
+        "Book qualified interpreters or captioners early, with topic, length and materials.",
+        "Consider a Deaf interpreter for DeafBlind people, limited language, or high-stakes settings.",
+        "Do not ask people to bring their own interpreter; never use children.",
+        "Use video remote interpreting only if it meets quality standards and suits the person."
+      ]
+    },
+    {
+      "heading": "Partners and escalation",
+      "items": [
+        "Consult DHS Deaf, DeafBlind and Hard of Hearing State Services early in projects.",
+        "Invite Deaf-led organizations and the Commission's guidance when shaping policy or outreach.",
+        "Provide ASL versions of important public notices.",
+        "Send questions about alternatives or undue burden to the ADA coordinator."
+      ]
+    }
+  ],
+  "sources": [
+    {"title": "National Association of the Deaf — Community and Culture: Frequently Asked Questions", "href": "https://www.nad.org/resources/american-sign-language/community-and-culture-frequently-asked-questions/", "note": "Supports the Deaf and deaf distinction, Deaf culture, hard-of-hearing identity, the rejection of hearing impaired, and the advice to ask people how they identify."},
+    {"title": "National Institute on Deafness and Other Communication Disorders (NIH) — American Sign Language", "href": "https://www.nidcd.nih.gov/health/american-sign-language", "note": "Supports ASL as a complete natural language with grammar distinct from English, regional variation, its non-universality, and its origins with French Sign Language."},
+    {"title": "U.S. Department of Justice, ADA.gov — ADA Requirements: Effective Communication", "href": "https://www.ada.gov/resources/effective-communication/", "note": "Supports auxiliary aids, the qualified interpreter definition, primary consideration for Title II entities, limits on companions and children interpreting, and video remote interpreting standards. Formal determinations belong to the ADA coordinator."},
+    {"title": "Minnesota Commission of the Deaf, DeafBlind and Hard of Hearing — Home", "href": "https://mn.gov/deaf-commission/", "note": "Supports the Commission's advocacy role and its statement about the 20 percent of Minnesotans who are deaf, DeafBlind or hard of hearing."},
+    {"title": "Minnesota Commission of the Deaf, DeafBlind and Hard of Hearing — Deaf Interpreters: Things to Know", "href": "https://mn.gov/deaf-commission/news/?id=1063-445006", "note": "Supports what Deaf interpreters do, when to use them, teaming with hearing interpreters, CDI certification, and the small number of CDIs and DIs in Minnesota at the time of writing."},
+    {"title": "Minnesota Department of Human Services — About Deaf, DeafBlind and Hard of Hearing State Services", "href": "https://mn.gov/deaf-hard-of-hearing/about-us/index.jsp", "note": "Supports the one in five figure, populations served, consultation, MN ACT telephone equipment, DeafBlind programs, ASL-fluent mental health services, grants and regional offices."},
+    {"title": "Minnesota Legislative Reference Library — Minnesota State Academy for the Deaf", "href": "https://www.lrl.mn.gov/agencies/detail?AgencyID=1133", "note": "Supports the academy's authorization and opening in Faribault in 1863, the earlier proposal in the first legislative session, and the first superintendent from the Ohio School for the Deaf."}
+  ]
+}

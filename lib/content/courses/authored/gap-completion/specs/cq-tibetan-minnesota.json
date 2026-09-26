@@ -1,0 +1,230 @@
+{
+  "id": "cq-tibetan-minnesota",
+  "subtitle": "Describe the exile history, resettlement, faith, language and naming practices of Tibetan Minnesotans, and use that context to ask better questions in DHS work.",
+  "audience": "For all DHS and DSD employees, including case managers, eligibility, data and communications staff, who serve Tibetan individuals and families or partner with Tibetan community organizations.",
+  "lessons": [
+    {
+      "title": "Exile and resettlement: how the Tibetan community came to Minnesota",
+      "objectives": [
+        "Summarize the exile history that shaped the Tibetan diaspora.",
+        "Describe the Tibetan U.S. Resettlement Project and Minnesota's role in it.",
+        "Explain why state refugee data show very few Tibetan arrivals even though the community is large.",
+        "Identify how resettlement rules separated families for a time."
+      ],
+      "teaching": "Tibetan Minnesotans are part of a diaspora shaped by exile. In the early nineteen-fifties, China's army took control of Tibet. After a failed uprising at the end of that decade, the Dalai Lama and more than eighty thousand Tibetans escaped, mainly to India and Nepal. Over the following decades, exile communities built settlements, schools and monasteries there. Many Tibetans who later came to Minnesota were born or raised in those communities rather than in Tibet itself.\n\nIn the early nineteen-nineties, a federal immigration law authorized immigrant visas for one thousand Tibetans living in India and Nepal. This became known as the Tibetan U.S. Resettlement Project. The visas were spread across about twenty-two sites in the United States, and the Twin Cities became the largest site, with about 160 Tibetans resettled here. The project had strict conditions: arrivals needed a sponsor or host family and a job, and only one member of a family could apply at first. Spouses and children could join after about three years. Local volunteers and a Tibetan organizer who had arrived in Minnesota in the nineteen-eighties helped arrange housing and work, and the Tibetan American Foundation of Minnesota was founded to support the effort.\n\nThe community grew through family reunification and later arrivals. By the mid-two-thousands there were more than 1,300 Tibetans in Minnesota. MNopedia reports that about 3,500 people of Tibetan descent now live in the state, the second-largest Tibetan American community in the country after New York's.\n\nThere is a useful data lesson here. The Minnesota Department of Health's cumulative table of primary refugee arrivals lists only about fifty arrivals from Tibet across more than four decades. That is not because the community is small. The resettlement visas were immigrant visas, not refugee admissions, and many later arrivals came through family sponsorship or other routes. Tibetans may also be recorded under China, India or Nepal, depending on the document. If you rely on one data source or on country of birth alone, Tibetan Minnesotans can disappear from view. Asking people how they identify, where it helps the service, gives a truer picture.",
+      "keyPoint": "Tibetan Minnesota grew from a small, deliberate resettlement project into the second-largest Tibetan community in the country. It is easy to undercount in data that rely on refugee status or country of birth.",
+      "example": "Fictional case: Megan, a DSD data analyst, is asked to describe the language and cultural communities in a county's waiver caseload. She pulls country of birth and finds no Tibetan participants. A county partner, Sonam, says she personally knows several Tibetan families receiving services. Megan realizes those participants may be recorded as born in India, Nepal or China. The summary is due to a planning group next week, and it will shape where outreach dollars go.",
+      "question": "What should Megan do before finalizing her summary?",
+      "choices": [
+        "Report that there are no Tibetan participants, since that is what the data show.",
+        "Ask Sonam for the names of the Tibetan families so she can reclassify them manually.",
+        "Check whether language or self-identified ethnicity fields exist, describe the limitation in the summary, and suggest how future data collection could capture self-identification."
+      ],
+      "feedback": [
+        "Reporting absence when the data cannot detect the group can lead to decisions that overlook real people. The limitation should be stated.",
+        "Reclassifying people based on a partner's personal knowledge is not a reliable or appropriate data practice and raises privacy concerns. Identity should come from the person.",
+        "This is the strongest choice. It uses the best available fields, is honest about limits, and proposes a respectful fix based on self-identification."
+      ],
+      "recommended": 2,
+      "reflection": "Which communities might be hidden in the data you use because of how categories like country of birth are defined?",
+      "action": "Choose one report or dashboard you use. Write one sentence describing which communities its categories may hide, and add that note to the report or share it with the data owner.",
+      "check": {
+        "question": "Why do Minnesota primary refugee arrival data show so few Tibetans?",
+        "correct": "Many Tibetans came on immigrant visas or through family sponsorship rather than as refugees, and some are recorded under another country of birth.",
+        "wrong": [
+          "Because very few Tibetans live in Minnesota.",
+          "Because Tibetans are not permitted to live in Minnesota as permanent residents."
+        ],
+        "feedback": "The Tibetan U.S. Resettlement Project used immigrant visas, and later growth came largely through family reunification. Refugee arrival tables are not designed to count that. This is why self-identification matters in data work."
+      }
+    },
+    {
+      "title": "Faith, language and community institutions",
+      "objectives": [
+        "Describe the role of Tibetan Buddhism in community life while recognizing individual variation.",
+        "Identify key Tibetan community institutions in Minnesota.",
+        "Explain why language preservation matters to many Tibetan families.",
+        "Plan scheduling that respects major community observances."
+      ],
+      "teaching": "For many Tibetans, Buddhism is woven into daily life and identity, and the Dalai Lama is both a spiritual leader and a symbol of the community. Tibetan Buddhism has several traditions, including Gelug, Nyingma, Sakya and Kagyu. In Columbia Heights, the Gyuto Wheel of Dharma Monastery, founded in the mid-nineteen-nineties in the Gelug tradition, offers classes, prayer gatherings and celebrations. Harvard's Pluralism Project notes that many Tibetans from other traditions practice mainly at home. Practice ranges from daily prayer and home shrines to occasional participation, and some Tibetans are not religious. Treat faith as something to ask about only when it matters for the service, such as scheduling, end-of-life care or food.\n\nCommunity institutions carry a great deal of cultural work. The Tibetan American Foundation of Minnesota, founded in the early nineteen-nineties, runs the Tibetan Community Cultural Center in St. Paul and a second facility in Isanti. Its Tibetan Cultural School, started in the late nineteen-nineties, teaches children Tibetan language, history, religion and cultural heritage, with classes from preschool through eighth grade. Its Lamton program mentors young people toward higher education. The community observes Losar, the Tibetan New Year; Lhabab Duechen, a Buddhist holy day; and Tibetan Uprising Day on the tenth of March, which marks the uprising that led to exile.\n\nLanguage is central to these efforts. Tibetan has its own script and literature, and families in exile have worked hard to keep it alive. Many Tibetan Minnesotans grew up in India or Nepal and may also speak Hindi, Nepali or English learned in exile schools. Younger people raised here may speak English most comfortably while elders prefer Tibetan. A household can therefore need different communication approaches for different members.\n\nFor DHS work, this means asking each person about their preferred language instead of assuming. Tibetan interpreters can be scarce, so plan ahead, and ask whether the person is comfortable with an interpreter from within a small community. When planning events or deadlines, check the community calendar. Scheduling a major meeting on Losar sends an unintended message.",
+      "keyPoint": "Tibetan Buddhism and language preservation are at the heart of community life, carried by institutions like the Tibetan American Foundation of Minnesota. Individual practice and language preference still vary and should be asked about.",
+      "example": "Fictional case: Paul, a DHS communications specialist, is scheduling community listening sessions about a change to a disability services program. He has booked a session in St. Paul during a week that he later learns overlaps with Losar. The community partner, Dolma, mentions it politely but says some families may still come. Paul has already printed flyers. Two other sessions in suburban locations are not affected by the conflict.",
+      "question": "What should Paul do?",
+      "choices": [
+        "Ask Dolma for better dates, reschedule the St. Paul session, and add a remote option for people who cannot attend in person.",
+        "Keep the date, since Dolma said some families may still come and the flyers are printed.",
+        "Keep the date but add a note to the flyer apologizing for the conflict."
+      ],
+      "feedback": [
+        "This is the strongest choice. It treats the partner's information as important, respects a major observance, and widens access. Reprinting flyers is a small cost compared with losing participation and trust.",
+        "A polite mention from a partner is often the only signal staff get. Keeping the date means many families will miss the session or feel their observances do not matter.",
+        "An apology acknowledges the problem but does not fix it. People still have to choose between the observance and giving input."
+      ],
+      "recommended": 0,
+      "reflection": "How do you learn about the observances that matter to the communities your work affects? Where are the gaps?",
+      "action": "Add Losar, Lhabab Duechen and the tenth of March to a shared team calendar of community observances, with a note to confirm exact dates each year with the community partner.",
+      "check": {
+        "question": "Which statement best describes Tibetan Buddhist practice among Tibetan Minnesotans?",
+        "correct": "It is central for many, includes several traditions, and is practiced in varied ways, including at home, while some people are not religious.",
+        "wrong": [
+          "All Tibetan Minnesotans attend the same monastery weekly.",
+          "Buddhism is no longer important to Tibetan Minnesotans."
+        ],
+        "feedback": "Faith is a strong thread in Tibetan community life, but practice differs by tradition, family and person. Ask about faith only when it affects the service, and follow the person's lead."
+      }
+    },
+    {
+      "title": "Names, family and communication",
+      "objectives": [
+        "Explain common features of Tibetan names that affect records and forms.",
+        "Identify record-matching risks when many people share a name.",
+        "Describe how resettlement and exile shaped family patterns.",
+        "Draft a respectful way to confirm how a person's name should be recorded."
+      ],
+      "teaching": "Tibetan naming often does not fit the first-name, last-name structure of American forms. Many Tibetans do not use an inherited family surname. A person commonly has two given names, and names have often been given by a respected lama. Many names can belong to people of any gender. In the diaspora, it is very common for children to receive names associated with the Dalai Lama, especially Tenzin. A Minnesota Public Radio story on the community noted that most of the young people in one Tibetan dance group were named Tenzin.\n\nThese patterns create real risks in records. When a form demands a last name, a person's second given name may be entered as a surname, and family members will not share it. Siblings may appear unrelated. Several people with the same two names may live in the same county, which makes duplicate records and mismatches more likely. A name alone also does not tell you a person's gender. Assuming it can lead to errors in records and awkward, disrespectful letters.\n\nThe practical response is simple. Ask how the person would like to be addressed and how their name appears on their key documents. Record the name exactly as it appears on the document your program uses, and note any preferred name. Use date of birth and other identifiers carefully when matching records. Do not change the order of a person's names to fit your expectations.\n\nFamily life has been shaped by exile and resettlement. The resettlement project allowed only one family member to come first, so many families lived apart for years before reuniting. Extended family and community ties are strong, and elders are often treated with great respect. Some community members describe Tibetans as reserved or modest; one early organizer called the community a little conservative. That self-description is worth knowing, but it is not a rule. A quiet response in a meeting may mean politeness, uncertainty, or a language barrier. It does not necessarily mean agreement. Check understanding with open questions rather than asking whether everything is clear.",
+      "keyPoint": "Many Tibetan names do not include a family surname, are shared widely, and are not gender-specific. Ask how names should be recorded and check records carefully to avoid mismatches.",
+      "example": "Fictional case: Andrea, a DHS eligibility worker, finds two open records for a Tenzin Dorjee in the same county with different birth dates. A third person named Dorjee Tenzin also appears. A supervisor suggests merging the first two because the names match exactly. Andrea is not sure the records belong to the same person, and a notice has already gone out under one record.",
+      "question": "What should Andrea do?",
+      "choices": [
+        "Merge the records, since identical names in the same county almost always mean the same person.",
+        "Do not merge yet; verify using other identifiers and documents, contact the person with an interpreter if needed, and follow the program's record-matching procedure.",
+        "Rename the third record to match the others so the names are consistent."
+      ],
+      "feedback": [
+        "Identical names are common in the Tibetan community. Merging on name alone risks combining two different people's benefits and data.",
+        "This is the strongest choice. It avoids a harmful merge, uses the program's procedure and reliable identifiers, and confirms directly with the person.",
+        "Changing the order of a person's names alters their identity in the record and could cause more mismatches. Record names as they appear on the person's documents."
+      ],
+      "recommended": 1,
+      "reflection": "Where in your work does a system expect a name structure that some people do not have? What happens when it does not fit?",
+      "action": "Look at one form or database screen you use. Identify how it handles people without a family surname or with a single name, and share any gap you find with the form or system owner.",
+      "check": {
+        "question": "Why is matching records by name alone especially risky for Tibetan Minnesotans?",
+        "correct": "Many people share the same given names and do not have a shared family surname, so identical names often belong to different people.",
+        "wrong": [
+          "Because Tibetan names change every year.",
+          "Because Tibetans are not required to have names on official documents."
+        ],
+        "feedback": "Name-sharing, especially names like Tenzin, is common in the diaspora, and family members often do not share a surname. Reliable matching needs more than a name, and the person is the best source for how their name should be recorded."
+      }
+    },
+    {
+      "title": "Service barriers and respectful practice",
+      "objectives": [
+        "Identify service barriers that can affect Tibetan Minnesotans.",
+        "Distinguish respectful questions about identity from assumptions based on country of birth.",
+        "Explain why staff should not ask people to retell experiences of flight or discuss politics.",
+        "Plan interpreter access for a language with few available interpreters."
+      ],
+      "teaching": "Tibetan Minnesotans are a well-organized community with strong institutions, and many families have been here for decades. Barriers still exist, and they can be easy to miss. Language access is one. Tibetan interpreters are relatively few, and elders who prefer Tibetan may be the people who most need help with health care, long-term services and supports, or benefits. Younger family members often help at home, but they should not be relied on for formal interpretation, especially about a parent's health or finances.\n\nIdentity and documentation can also be complicated. Many Tibetans were born in India or Nepal, some lived for years in exile without a national passport, and documents may list different countries. Forms that force a choice between China, India and Nepal can feel wrong to someone who identifies as Tibetan. The status of Tibet is a deeply political and personal subject. Do not describe a person as Chinese, Indian or Nepali based on a document, and do not ask for their views on politics. Where a form allows self-identification, offer it. Collect immigration status only when a program rule requires it, and follow that program's instructions.\n\nMany older Tibetans experienced dangerous crossings, loss and long separation from family. Do not ask people to describe how they left Tibet or what happened to relatives. If someone chooses to share, listen, acknowledge it, and return to what they need. Some people may prefer to address stress or illness through faith, family or community before turning to formal services. That is a choice to respect, while making sure they know what services exist.\n\nGood questions carry you a long way. What language would you like us to use, and for whom in the household? How would you like your name written? Would you like a family member present? Is there a community organization you would like us to work with? Know your referral options, including the Tibetan American Foundation of Minnesota for cultural and community support, and plan interpreter requests early, including telephone or video options when an in-person Tibetan interpreter is not available.",
+      "keyPoint": "Plan language access early, let people name their own identity, stay away from politics and trauma histories, and use community institutions as partners.",
+      "example": "Fictional case: Tashi, an older Tibetan man, is meeting with Rachel, a county case manager, about in-home supports. His grandson, who is sixteen, offers to interpret because no Tibetan interpreter was scheduled. The assessment includes questions about Tashi's bathing, continence and memory. Rachel's form also asks for country of birth, and his document says India. The appointment was hard to schedule, and Tashi's daughter took time off work to be there.",
+      "question": "What should Rachel do?",
+      "choices": [
+        "Proceed with the grandson interpreting and record India as country of birth and ethnicity.",
+        "Proceed with the grandson for general topics and skip the sensitive assessment questions.",
+        "Reschedule or switch to a telephone or video Tibetan interpreter for the assessment, thank the grandson, record country of birth as documented, and ask Tashi how he identifies if the form has a place for it."
+      ],
+      "feedback": [
+        "A teenager interpreting sensitive personal care questions for a grandparent risks inaccuracy and embarrassment. Recording India as ethnicity replaces Tashi's own identity with a document category.",
+        "Skipping required assessment questions can lead to an incomplete plan and missing supports. The problem is the interpretation arrangement, not the questions.",
+        "This is the strongest choice. It secures qualified interpretation for sensitive topics, respects the family's willingness to help, and keeps the record accurate while inviting self-identification."
+      ],
+      "recommended": 2,
+      "reflection": "When a qualified interpreter is hard to find, what pressures push you toward using a family member? How could you plan ahead to reduce that pressure?",
+      "action": "Find out how your unit requests telephone or video interpreters for less common languages, including Tibetan, and how long it takes. Save the steps where your team can find them.",
+      "check": {
+        "question": "Which practice best respects Tibetan identity on forms and in conversation?",
+        "correct": "Offer self-identification where the form allows it, record documents accurately, and do not assign a nationality or ask about political views.",
+        "wrong": [
+          "Record every Tibetan as Chinese, because Tibet is administered by China.",
+          "Ask each person their opinion on Tibet's political status to understand them better."
+        ],
+        "feedback": "Documents and identity may not match. Letting people name their own identity, without pressing on politics, keeps records accurate and conversations respectful."
+      }
+    }
+  ],
+  "cards": [
+    {
+      "front": "Tibetan U.S. Resettlement Project",
+      "back": "A federal program created by an early nineteen-nineties immigration law that provided immigrant visas to one thousand Tibetans in India and Nepal. The Twin Cities was the largest site."
+    },
+    {
+      "front": "Tibetan American Foundation of Minnesota",
+      "back": "A nonprofit founded to support Tibetan resettlement. It runs the Tibetan Community Cultural Center in St. Paul, a language and culture school, and youth mentoring."
+    },
+    {
+      "front": "Losar",
+      "back": "The Tibetan New Year, a major community celebration. Confirm its dates each year before scheduling events."
+    },
+    {
+      "front": "Tibetan names",
+      "back": "Often two given names without an inherited family surname, frequently shared (such as Tenzin), and usually not gender-specific."
+    },
+    {
+      "front": "Self-identification",
+      "back": "Letting people name their own ethnicity or identity rather than inferring it from country of birth or appearance."
+    }
+  ],
+  "aid": [
+    {
+      "heading": "Names and records",
+      "items": [
+        "Ask how the person would like to be addressed.",
+        "Record names exactly as they appear on the document your program uses; note preferred names.",
+        "Do not assume gender from a Tibetan name.",
+        "Never merge records on name alone; use the program's matching procedure."
+      ]
+    },
+    {
+      "heading": "Language and identity",
+      "items": [
+        "Ask each household member's preferred language.",
+        "Book Tibetan interpreters early and know the phone or video option.",
+        "Do not use minors to interpret sensitive topics.",
+        "Offer self-identification; do not assign nationality from a document.",
+        "Avoid political questions and questions about how a person left Tibet."
+      ]
+    },
+    {
+      "heading": "Partnership and scheduling",
+      "items": [
+        "Check the community calendar for Losar, Lhabab Duechen and the tenth of March.",
+        "Ask community partners about dates and formats before planning events.",
+        "Offer the Tibetan American Foundation of Minnesota as a referral option, not a requirement."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "MNopedia (Minnesota Historical Society) — Tibetan American Foundation of Minnesota (TAFM)",
+      "href": "https://www.mnhs.org/mnopedia/search/index/group/tibetan-american-foundation-minnesota-tafm",
+      "note": "Supports the 1990 Immigration Act visas for 1,000 Tibetans in India and Nepal, about 160 settling in Minnesota, roughly 3,500 people of Tibetan descent as of 2019 (second-largest after New York), the cultural center, language classes, Lamton and observances."
+    },
+    {
+      "title": "Minnesota Historical Society — Minnesota Immigrant Oral Histories: Tibetan (archived collection page)",
+      "href": "https://mnhs.gitlab.io/archive/minnesota-immigrant-oral-histories/collections.mnhs.org/ioh/10000907.html",
+      "note": "Supports the 1959 exile with more than 80,000 Tibetans, the resettlement project's 22 sites, the rule that one family member came first with family joining after three years, and more than 1,300 Tibetans in Minnesota by 2005."
+    },
+    {
+      "title": "Tibetan American Foundation of Minnesota — About Us",
+      "href": "https://tafm.org/about-us/",
+      "note": "Supports the founding of TAFM in 1992, the Tibetan Cultural School founded in 1997, and facilities in St. Paul and Isanti. Community-authored description."
+    },
+    {
+      "title": "Harvard University Pluralism Project Archive — Gyuto Wheel of Dharma Monastery",
+      "href": "https://hwpi.harvard.edu/pluralismarchive/gyuto-wheel-dharma-monastery",
+      "note": "Supports the Columbia Heights Gelug monastery, its community role, and that many Tibetans from other traditions practice at home. Some population figures on the page are older."
+    },
+    {
+      "title": "Minnesota Public Radio — Tibetans in Minnesota: Preserving Their Culture (2001)",
+      "href": "https://news.minnesota.publicradio.org/features/200105/07_newsroom_dalai/culture.shtml",
+      "note": "Supports the widespread use of the name Tenzin and a community organizer's self-description of Tibetans as reserved. Older article; population figures are out of date."
+    },
+    {
+      "title": "Minnesota Department of Health — Primary Refugee Arrivals to Minnesota, 1979-2024 (cumulative table)",
+      "href": "https://www.health.state.mn.us/communities/rih/stats/reftotals.pdf",
+      "note": "Shows only 52 primary refugee arrivals from Tibet, used to illustrate that refugee data undercount a community that arrived mainly on immigrant visas."
+    }
+  ]
+}

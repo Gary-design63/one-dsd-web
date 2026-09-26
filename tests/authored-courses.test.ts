@@ -8,8 +8,9 @@ import { loadPublishedEditableSurface } from "@/lib/content/editable-surfaces";
 import { lintStaffCopy } from "@/lib/brand/lint";
 import originalPlan from "@/lib/content/courses/authored/disability-inclusion/plan.json";
 import diversityPlan from "@/lib/content/courses/authored/diversity-plan.json";
+import gapPlan from "@/lib/content/courses/authored/gap-plan.json";
 
-const plan = [...originalPlan, ...diversityPlan];
+const plan = [...originalPlan, ...diversityPlan, ...gapPlan];
 
 const root = path.resolve(import.meta.dirname, "..");
 

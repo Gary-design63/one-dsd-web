@@ -123,10 +123,40 @@ import course121 from "./diversity-advanced/div-a08-bias-reduction-interventions
 import course122 from "./diversity-advanced/div-a09-intergroup-contact";
 import course123 from "./diversity-advanced/div-a10-moral-exclusion-dehumanization";
 import course124 from "./diversity-advanced/div-a11-white-supremacy-culture";
+import course125 from "./gap-completion/gc-respectful-workplace";
+import course126 from "./gap-completion/cq-afghan-minnesota";
+import course127 from "./gap-completion/dsd-mental-health-psychiatric-disability";
+import course128 from "./gap-completion/idi-minimization";
+import course129 from "./gap-completion/idi-acceptance";
+import course130 from "./gap-completion/gc-faith-in-minnesota";
+import course131 from "./gap-completion/gc-career-pathways-succession";
+import course132 from "./gap-completion/gc-structural-racism";
+import course133 from "./gap-completion/gc-using-community-briefs";
+import course134 from "./gap-completion/gc-new-supervisor-inclusive-leadership";
+import course135 from "./gap-completion/cq-tibetan-minnesota";
+import course136 from "./gap-completion/cq-eritrean-minnesota";
+import course137 from "./gap-completion/cq-sudanese-south-sudanese-minnesota";
+import course138 from "./gap-completion/gc-deaf-minnesota";
+import course139 from "./gap-completion/dsd-positive-supports";
+import course140 from "./gap-completion/dsd-co-occurring-substance-use";
+import course141 from "./gap-completion/gc-employee-resource-groups";
+import course142 from "./gap-completion/gc-accommodation-transitions";
+import course143 from "./gap-completion/cq-cluster-frameworks-foundations";
+import course144 from "./gap-completion/dsd-leading-system-change";
+import course145 from "./gap-completion/gc-equity-committee-roles";
+import course146 from "./gap-completion/ipe-capstone-intercultural-practice";
+import course147 from "./gap-completion/pi-equitable-oversight-design";
+import course148 from "./gap-completion/cq-leading-multicultural-teams";
+import course149 from "./gap-completion/gc-automated-decisions";
+import course150 from "./gap-completion/gc-age-inclusion";
+import course151 from "./gap-completion/gc-remote-hybrid-equity";
+import course152 from "./gap-completion/dsd-housing-instability";
+import course153 from "./gap-completion/dsd-justice-involvement-reentry";
+import course154 from "./gap-completion/gc-sustaining-the-work";
 
 /**
  * Program-authored course packs. They use the same contract as the recovered
  * collection but are kept apart from it so the recovered source bytes, counts
- * and hashes stay exactly as preserved. Order follows the original and diversity plans.
+ * and hashes stay exactly as preserved. Order follows the original, diversity and gap-completion plans.
  */
-export const AUTHORED_COURSE_PACKS: readonly CoursePack[] = [course1, course2, course3, course4, course5, course6, course7, course8, course9, course10, course11, course12, course13, course14, course15, course16, course17, course18, course19, course20, course21, course22, course23, course24, course25, course26, course27, course28, course29, course30, course31, course32, course33, course34, course35, course36, course37, course38, course39, course40, course41, course42, course43, course44, course45, course46, course47, course48, course49, course50, course51, course52, course53, course54, course55, course56, course57, course58, course59, course60, course61, course62, course63, course64, course65, course66, course67, course68, course69, course70, course71, course72, course73, course74, course75, course76, course77, course78, course79, course80, course81, course82, course83, course84, course85, course86, course87, course88, course89, course90, course91, course92, course93, course94, course95, course96, course97, course98, course99, course100, course101, course102, course103, course104, course105, course106, course107, course108, course109, course110, course111, course112, course113, course114, course115, course116, course117, course118, course119, course120, course121, course122, course123, course124];
+export const AUTHORED_COURSE_PACKS: readonly CoursePack[] = [course1, course2, course3, course4, course5, course6, course7, course8, course9, course10, course11, course12, course13, course14, course15, course16, course17, course18, course19, course20, course21, course22, course23, course24, course25, course26, course27, course28, course29, course30, course31, course32, course33, course34, course35, course36, course37, course38, course39, course40, course41, course42, course43, course44, course45, course46, course47, course48, course49, course50, course51, course52, course53, course54, course55, course56, course57, course58, course59, course60, course61, course62, course63, course64, course65, course66, course67, course68, course69, course70, course71, course72, course73, course74, course75, course76, course77, course78, course79, course80, course81, course82, course83, course84, course85, course86, course87, course88, course89, course90, course91, course92, course93, course94, course95, course96, course97, course98, course99, course100, course101, course102, course103, course104, course105, course106, course107, course108, course109, course110, course111, course112, course113, course114, course115, course116, course117, course118, course119, course120, course121, course122, course123, course124, course125, course126, course127, course128, course129, course130, course131, course132, course133, course134, course135, course136, course137, course138, course139, course140, course141, course142, course143, course144, course145, course146, course147, course148, course149, course150, course151, course152, course153, course154];

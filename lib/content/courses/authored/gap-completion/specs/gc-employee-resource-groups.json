@@ -1,0 +1,235 @@
+{
+ "id": "gc-employee-resource-groups",
+ "subtitle": "Support State of Minnesota employee resource groups fairly: open membership, fair sponsorship, protected time and realistic privacy, without turning members into unpaid staff.",
+ "audience": "For supervisors, managers, HR partners and ERG leaders or members at DHS and DSD. It explains how to support ERGs and where their limits are.",
+ "lessons": [
+  {
+   "title": "What ERGs and affinity spaces are in state service",
+   "objectives": [
+    "Describe the purpose and three guiding principles of State of Minnesota enterprise employee resource groups.",
+    "Explain the open membership rule for enterprise ERGs and how it relates to affinity spaces.",
+    "Identify what ERGs are not for, including bargaining and grievances.",
+    "Distinguish an enterprise ERG from an informal team gathering or a formal consultation process."
+   ],
+   "teaching": "Employee resource groups are voluntary groups of employees who come together around a shared identity or experience, along with people who support them. In Minnesota state government, Minnesota Management and Budget coordinates enterprise ERGs that draw members from across agencies. MMB's guidelines describe them as collectives of employees who meet at least four times a year to support and learn from each other, and they organize their work around three principles: culture, which means connecting employees across the enterprise to foster an inclusive work environment; career development; and community building. MMB's ERG page lists groups such as Employees with Disabilities, Minnesota Employees of Asian Descent, Jewish Culture and Heritage, Parents At Work, Next Gen and MNclusive, a group for LGBTQIA+ employees, among others. The list changes over time, so check the current page.\n\nA defining rule is open membership. The enterprise guidelines state that participation is open to all, including allies who support the group's mission, and the bylaws say a person who does not share the group's identity can be a full member by embracing its purpose and participating. That matters for a supervisor: no one should be asked to prove or disclose an identity to join, and no one should be turned away.\n\nPeople sometimes use the phrase affinity space for a gathering designed around a shared experience, where people can speak without having to explain themselves. Some ERG events are planned that way, and that can be valuable. The practical balance is to design some events around shared experience while keeping membership in the group itself open, and to be clear in advance about what an event is for so people can choose.\n\nIt is equally important to know what ERGs are not. The guidelines state that enterprise ERGs may not be used to discuss, negotiate or bargain over terms and conditions of employment or to address grievances or labor disputes. Those belong to labor relations and the unions. ERGs are also not a complaint channel. Concerns about discrimination or harassment go to HR or the DHS Equal Opportunity and Access Division. And an ERG is not a substitute for formal processes like Tribal consultation or community engagement with the people DHS serves. It is a place for employee community, learning and development.",
+   "keyPoint": "Enterprise ERGs are open to all, including allies, and exist for culture, career development and community. They are not a bargaining table, a complaint channel or a substitute for formal consultation.",
+   "example": "Fictional case: Lucian, a DSD supervisor, learns that one of his staff, Marisol, attends an enterprise ERG for employees of a particular heritage. Another staff member, Bram, tells Lucian he would like to join the same ERG to learn and support colleagues, but assumes he is not allowed because he does not share that heritage. Lucian is not sure what the rules are.",
+   "question": "What should Lucian tell Bram?",
+   "choices": [
+    "That he should ask Marisol whether the group would accept him.",
+    "That enterprise ERG membership is open to all state employees, including allies, and he can check the MMB ERG page and talk with Lucian about fitting meetings into his schedule.",
+    "That ERGs are only for people who share the identity, so he should look for a different group."
+   ],
+   "feedback": [
+    "This puts Marisol in the position of gatekeeper and implies her participation is something Lucian is tracking. Membership rules are public, so there is no need to route through her.",
+    "This is the best response. It reflects the enterprise guidelines, points Bram to the official source and keeps the supervisor's role focused on time and workload.",
+    "This is inaccurate for enterprise ERGs, which are open to all, including allies who support the group's mission."
+   ],
+   "recommended": 1,
+   "reflection": "What do you imagine happens in an ERG you have never attended? Where did that picture come from, and how might you check it?",
+   "action": "Visit the MMB State of Minnesota ERGs page and read the enterprise guidelines. Note the three principles and the rule about what ERGs cannot be used for, and share the page link with your team.",
+   "check": {
+    "question": "Which activity do the enterprise ERG guidelines say ERGs may not be used for?",
+    "correct": "Negotiating terms and conditions of employment or addressing grievances.",
+    "wrong": [
+     "Offering career development events for members.",
+     "Connecting employees across agencies."
+    ],
+    "feedback": "Career development and cross-agency connection are core ERG purposes. Bargaining over working conditions and grievances belongs to unions and labor relations, and the guidelines exclude them from ERG activity."
+   }
+  },
+  {
+   "title": "Sponsorship without extracting unpaid labor",
+   "objectives": [
+    "Describe the roles of executive sponsor, champion and chair in an enterprise ERG.",
+    "Identify requests to ERG members that amount to unrecognized work.",
+    "Plan how to ask for ERG input in a way that is voluntary, scoped and credited.",
+    "Explain why ERG input does not replace formal consultation or engagement."
+   ],
+   "teaching": "Enterprise ERGs have a leadership structure. MMB's bylaws describe an executive sponsor, who is an agency head or designee providing overall leadership and regular guidance; a champion at director level or above who helps make sure the group's objectives are carried out; and chairs or co-chairs elected by members. Sponsorship is meant to connect the group with decision-makers. MMB guidance on retaining employees with disabilities, for example, suggests that leadership meet regularly with an ERG for employees with disabilities so leaders have the information they need to address issues affecting that community at work.\n\nThat connection is valuable, and it carries a risk. Once leaders see ERGs as a source of insight, requests start to multiply: review this policy draft, plan the heritage month event, help with recruitment outreach, speak on a panel, tell us what your community thinks. Each request may be reasonable. Together they can become a large amount of unrecognized work, often carried by a small number of people from underrepresented groups, on top of their regular jobs. People describe this as being expected to do equity work for free. It can slow careers rather than advance them, because the work does not show up in performance records.\n\nA fair approach treats substantial requests as work. Before asking, be clear about scope, time and purpose. Ask the chair how the group wants to receive requests. Make participation voluntary and make it easy to say no without consequence. When someone contributes, coordinate with their supervisor so the time is recognized as part of their workload, and credit the contribution by name if the person wants that. If the task is ongoing, such as regular review of recruitment materials, it may belong in someone's formal assignments or with a paid role, not with a volunteer group.\n\nFinally, be careful about what ERG input can represent. Members speak as employees, from their own experience. They do not speak for a whole community, and the group is not a representative sample of the people DHS serves. When a decision affects DHS service populations, ERG conversations can help frame questions, but formal community engagement, Tribal consultation and the program's Equity Analysis Toolkit are the right tools for the decision itself.",
+   "keyPoint": "Treat substantial requests to ERGs as work: scoped, voluntary, recognized in workload and credited. ERG input informs leaders but does not replace formal consultation.",
+   "example": "Fictional case: A DSD manager, Evander, is finalizing a new outreach plan for disability waiver services and has a tight deadline. He emails the co-chair of the enterprise ERG for employees with disabilities, Ottilie, asking her to gather members' feedback on the full plan within three days and to recruit two members to present at the county partner meeting. Ottilie is a program analyst with her own full workload in another agency.",
+   "question": "What is a better way for Evander to approach this?",
+   "choices": [
+    "Send the same request to several ERGs, so the work is spread more widely.",
+    "Keep the request as is, since ERG members care about these issues and will want to help.",
+    "Ask Ottilie how the group prefers to receive requests, narrow the ask to specific questions with realistic time, make participation clearly optional, offer to coordinate work time with supervisors and credit contributors, and use formal engagement for the plan itself."
+   ],
+   "feedback": [
+    "Spreading the request does not change the core problem: unscoped, unrecognized work on a short deadline. It multiplies the burden.",
+    "Caring about an issue does not make unpaid work fair. A short deadline on a full plan, plus presentations, is a significant workload for volunteers with other jobs.",
+    "This is the best response. It respects the group's process, keeps the ask voluntary and scoped, recognizes the time as work and uses the right formal channels for a service decision."
+   ],
+   "recommended": 2,
+   "reflection": "Have you ever been asked to speak for a group you belong to, or asked someone else to? How was the time and effort recognized?",
+   "action": "Before your next request to an ERG or to a colleague with lived experience, write the scope, the time involved, whether it is optional and how it will be recognized. Share that in the request itself.",
+   "check": {
+    "question": "Why should ERG feedback not be treated as the community engagement for a service decision?",
+    "correct": "ERG members speak as employees from their own experience and are not a representative voice for the people DHS serves.",
+    "wrong": [
+     "Because ERGs are not allowed to discuss anything related to DHS programs.",
+     "Because ERG feedback is always less accurate than data."
+    ],
+    "feedback": "ERG members may have valuable insight, and ERGs can discuss work topics within their purpose. But their input is not a substitute for engaging the communities affected by a decision, and they should not be asked to represent those communities."
+   }
+  },
+  {
+   "title": "How supervisors support time and recognition",
+   "objectives": [
+    "Explain the bylaws' provisions on paid work time, supervisor discretion and approval for leadership roles.",
+    "Apply supervisor discretion consistently across different ERGs and staff.",
+    "Plan workload coverage so an employee can take part in ERG activities.",
+    "Identify ways to recognize ERG leadership as professional development."
+   ],
+   "teaching": "Supervisors are the everyday gatekeepers of ERG participation, even though they do not run ERGs. The enterprise bylaws say employees may use paid work time to attend ERG meetings and ERG-sponsored events that achieve the group's purpose during their normal work schedule. They also say managers and supervisors always keep the discretion to limit participation during the workday because of workload. Employees who take on leadership roles such as champion, chair, co-chair or secretary must get supervisor approval. MMB's join page adds that employees should consult their supervisor about participating, and it explains that activities outside normal hours are generally unpaid unless a non-exempt employee is assigned to attend by their manager. Pay questions about specific situations go to HR.\n\nDiscretion is where fairness can slip. If one supervisor approves attendance freely and another rarely does, or if one group's events are treated as professional and another's as optional socializing, participation becomes uneven in ways that may track identity. Apply the same standard to every ERG and every employee: is the activity within the ERG's purpose, and can the workload be covered? When you do need to say not this time, give the reason, suggest another option and follow up.\n\nCoverage is usually the real barrier. Treat regular ERG meetings like other recurring commitments: put them on the team calendar, plan who covers time-sensitive work and avoid scheduling important team meetings against them when possible. For staff in client-facing or deadline-heavy roles, it may take more planning, not a different answer.\n\nRecognition matters as much as time. Leading an ERG builds real skills: facilitation, planning, budgeting, cross-agency collaboration and working with senior sponsors. With the employee's agreement, those can be named in an individual development plan and in performance conversations. That is a choice for the employee, not a requirement. Some people prefer to keep their ERG involvement separate from their work record, and that preference should be respected. Never use ERG participation or non-participation as a factor in evaluating someone's commitment, and never ask staff which groups they belong to.",
+   "keyPoint": "Paid work time for ERG activities is allowed within schedules, with supervisor discretion for workload. Use that discretion consistently, plan coverage and let employees choose whether ERG leadership is recognized in their development record.",
+   "example": "Fictional case: Two analysts on a DSD data team ask their supervisor, Cordelia, for time to attend enterprise ERG meetings. Fenna wants to attend a monthly meeting of an ERG for parents. Thaddeus has been elected co-chair of another ERG, which will take about four hours a month. The team has a large data submission due in six weeks. Cordelia wants to be fair to both and protect the deadline.",
+   "question": "What should Cordelia do?",
+   "choices": [
+    "Approve Fenna's monthly attendance, approve Thaddeus's leadership role, work with both on a coverage plan around the submission, and ask Thaddeus whether he would like the co-chair role reflected in his development plan.",
+    "Approve both but ask them to make up the time by working evenings.",
+    "Deny both requests until after the data submission, then revisit."
+   ],
+   "feedback": [
+    "This is the best response. Cordelia applies the same standard to both, plans for the real workload constraint and offers recognition without imposing it.",
+    "The bylaws allow paid work time for ERG activities within the normal schedule. Requiring make-up time treats ERG participation as a personal favor rather than an allowed activity and may raise pay questions for non-exempt staff.",
+    "Supervisors can limit participation for workload, but a blanket denial for six weeks, without trying coverage, is broader than the constraint requires and delays a leadership role Thaddeus was elected to."
+   ],
+   "recommended": 0,
+   "reflection": "If you supervise, how consistent is your approach to requests for time for ERGs, trainings and other development? What would an employee on your team say?",
+   "action": "If you supervise, add a short note to your team guidance about ERG participation: that it is open to all, that paid time within schedules is allowed and how to plan coverage. If you do not supervise, share the MMB join page with a colleague who might be interested.",
+   "check": {
+    "question": "Under the enterprise ERG bylaws, what must an employee get before serving as an ERG chair or co-chair?",
+    "correct": "Supervisor approval.",
+    "wrong": [
+     "Approval from the MMB commissioner.",
+     "A written statement confirming they share the group's identity."
+    ],
+    "feedback": "Leadership roles require supervisor approval because of the time involved. No identity statement is required, since membership is open to all, including allies."
+   }
+  },
+  {
+   "title": "Confidentiality, data and boundaries",
+   "objectives": [
+    "Explain why ERG participation can involve sensitive personal information.",
+    "Describe how the Minnesota Government Data Practices Act affects ERG communications on state systems.",
+    "Identify where to route harassment, discrimination or working-conditions concerns that come up in an ERG setting.",
+    "Draft a group agreement that sets realistic expectations about privacy."
+   ],
+   "teaching": "Joining an ERG can reveal something personal, such as a disability, a faith, being a parent or being LGBTQIA+. Many people are comfortable with that. Others are not, or are open in some settings and not others. Respecting that is part of supporting ERGs. Supervisors should not ask who belongs to which group, should not comment on someone's participation to others and should not treat attendance as information about a person's identity. The fact that anyone can join, including allies, also means attendance says nothing certain about identity.\n\nPeople also need realistic expectations about privacy. Under the Minnesota Government Data Practices Act, data collected, created, received or maintained by a government entity are presumed public unless a law classifies them otherwise. ERG emails, chat messages, shared files and meeting notes on state systems are likely government data. Some of that data may be classified as private, and some may be public. The practical lesson is simple: ERG spaces on state systems are not confidential in the way a conversation with a counselor is. Write minutes that capture decisions and themes, not who said what about their personal life. Keep sign-in and membership lists to what the group needs. Ask your agency's data practices contact if you are unsure how something is classified.\n\nGroup agreements help. Many ERGs open meetings with shared norms, such as: what is shared here stays here in spirit, speak from your own experience, and no one has to disclose anything. Those norms build trust, but they cannot override law or policy, so be honest about their limits. A good agreement says that members will not repeat personal stories outside the meeting, that notes will not identify individuals, and that the group cannot promise legal confidentiality.\n\nKnow where concerns go. If someone describes harassment or discrimination at an ERG meeting, the ERG is not the place to resolve it. Members can share the routes: supervisor, HR, the DHS Equal Opportunity and Access Division, union representative or the Employee Assistance Program. Supervisors who hear about protected-class harassment in any setting have a duty to refer it. Concerns about pay, workload or other terms and conditions of employment belong with the union and labor relations, not the ERG. Holding these boundaries keeps ERGs focused on what they do well.",
+   "keyPoint": "ERG spaces build trust, but communications on state systems are government data and group norms cannot promise legal confidentiality. Route complaints and working-conditions issues to the offices that handle them.",
+   "example": "Fictional case: At an enterprise ERG meeting held over the state video platform, a member from DHS, Anselm, describes repeated comments from a coworker about his faith and says he does not know what to do. The ERG secretary, Wilhelmina, is taking notes and posts them to the group's shared channel afterward. A member who is also a supervisor at DHS, Rhiannon, was on the call.",
+   "question": "What is the best way for the group to handle this?",
+   "choices": [
+    "Post detailed notes so there is a record that can support a future complaint.",
+    "Keep Anselm's account out of the notes, have someone check in with him afterward and share routes including HR and EOAD, and have Rhiannon make sure the concern reaches HR or EOAD, telling Anselm she will do so.",
+    "Have the ERG draft a letter to Anselm's division director describing the problem."
+   ],
+   "feedback": [
+    "Detailed notes on a shared channel may be government data and could spread Anselm's personal information widely without his consent. A record, if needed, is his to make through the proper route.",
+    "This is the best response. It protects Anselm's privacy, gives him support and routes, and recognizes that Rhiannon, as a supervisor at the agency, should make sure a protected-class harassment concern is referred.",
+    "ERGs are not a complaint channel. A group letter bypasses HR and EOAD and exposes Anselm's situation to more people."
+   ],
+   "recommended": 1,
+   "reflection": "What would you want to know about privacy before sharing something personal in a group at work? How could your team or group make that clearer?",
+   "action": "If you take part in an ERG or any employee group, propose a short note-taking norm: record decisions and themes, not personal stories or names attached to them. If you supervise, remind yourself not to ask staff about their ERG membership.",
+   "check": {
+    "question": "Under the Minnesota Government Data Practices Act, what is the starting presumption for data a government entity creates or maintains?",
+    "correct": "The data are public unless a law classifies them otherwise.",
+    "wrong": [
+     "The data are private unless the person consents to release.",
+     "The data are confidential if they relate to an employee group."
+    ],
+    "feedback": "Minnesota Statutes section 13.03 presumes government data public unless classified by law. Some employee data are private, but a group label does not make data confidential. Plan ERG communications with that in mind."
+   }
+  }
+ ],
+ "cards": [
+  {
+   "front": "Enterprise ERG",
+   "back": "A cross-agency employee resource group coordinated by MMB, open to all state employees including allies, focused on culture, career development and community building."
+  },
+  {
+   "front": "Affinity space",
+   "back": "A gathering designed around a shared experience so people can speak without explaining themselves. Some ERG events work this way while membership stays open."
+  },
+  {
+   "front": "Executive sponsor",
+   "back": "An agency head or designee who provides leadership and guidance to an ERG and connects it with decision-makers."
+  },
+  {
+   "front": "Unrecognized equity labor",
+   "back": "Repeated requests to employees, often from underrepresented groups, for input, events or outreach that are not counted as work or credited."
+  },
+  {
+   "front": "Presumption of public data",
+   "back": "Under Minnesota Statutes section 13.03, government data are public unless classified otherwise by law. ERG communications on state systems are likely government data."
+  }
+ ],
+ "aid": [
+  {
+   "heading": "Supervisor checklist for ERG requests",
+   "items": [
+    "Confirm the activity is within the ERG's purpose.",
+    "Allow paid time within the normal schedule unless workload truly prevents it.",
+    "Apply the same standard to every ERG and every employee.",
+    "Plan coverage instead of denying by default.",
+    "Approve leadership roles thoughtfully and offer, not require, recognition in development plans.",
+    "Never ask staff which groups they belong to."
+   ]
+  },
+  {
+   "heading": "Before asking an ERG for help",
+   "items": [
+    "Ask the chair how the group wants to receive requests.",
+    "State scope, time needed and deadline.",
+    "Make participation clearly optional.",
+    "Coordinate recognized work time with participants' supervisors.",
+    "Credit contributors if they want to be named.",
+    "Use formal engagement or consultation for service decisions."
+   ]
+  },
+  {
+   "heading": "Privacy and routing",
+   "items": [
+    "Take notes on decisions and themes, not personal stories.",
+    "Say plainly that group norms cannot promise legal confidentiality.",
+    "Route harassment and discrimination concerns to HR or EOAD.",
+    "Route pay and working-conditions concerns to the union and labor relations.",
+    "Ask the agency data practices contact when unsure."
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "title": "Minnesota Management and Budget — State of Minnesota ERGs",
+   "href": "https://mn.gov/mmb/ergs/",
+   "note": "Supports the purpose and three principles of enterprise ERGs, the minimum meeting frequency and the list of groups at the time of review. The list and application status change, so check the current page."
+  },
+  {
+   "title": "Minnesota Management and Budget — Enterprise Employee Resource Groups (ERGs) Guidelines",
+   "href": "https://mn.gov/mmb/assets/Enterprise%20ERG%20Guidelines_tcm1059-595436.pdf",
+   "note": "Supports open membership including allies, leadership roles and the rule that ERGs may not be used for bargaining, grievances or labor disputes."
+  },
+  {
+   "title": "Minnesota Management and Budget — Enterprise ERG Bylaws (revised 2023)",
+   "href": "https://mn.gov/mmb/assets/Revised%20bylaws%200923_tcm1059-596173.pdf",
+   "note": "Supports provisions on paid work time, supervisor discretion for workload, supervisor approval for leadership roles and the sponsor, champion and chair roles."
+  },
+  {
+   "title": "Minnesota Management and Budget — Join an ERG",
+   "href": "https://mn.gov/mmb/ergs/join/",
+   "note": "Supports the guidance to consult a supervisor about participation and the treatment of activities outside normal hours. Specific pay questions go to HR."
+  },
+  {
+   "title": "Minnesota Management and Budget — Retention (Executive Order 19-15 resources)",
+   "href": "https://mn.gov/mmb/employee-relations/equal-opportunity/eo-19-15/retention/",
+   "note": "Supports the suggestion that leadership meet regularly with an ERG for employees with disabilities to inform workplace decisions. Page contents confirmed by direct retrieval."
+  },
+  {
+   "title": "Minnesota Statutes section 13.03 — Access to Government Data",
+   "href": "https://www.revisor.mn.gov/statutes/cite/13.03",
+   "note": "Supports the presumption that government data are public unless classified otherwise. Classification of specific data should be confirmed with the agency data practices contact."
+  }
+ ]
+}

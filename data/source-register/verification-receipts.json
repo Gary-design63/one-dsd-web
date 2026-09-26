@@ -1,11 +1,11 @@
 {
  "summary": {
-  "checkedAt": "2026-09-25T00:37:57.157Z",
-  "registerBuiltAt": "2026-09-25T03:01:21.127Z",
-  "total": 343,
-  "ok": 313,
-  "redirected": 26,
-  "clientErrors": 27,
+  "checkedAt": "2026-09-25T20:27:11.572Z",
+  "registerBuiltAt": "2026-09-25T20:26:48.107Z",
+  "total": 494,
+  "ok": 441,
+  "redirected": 42,
+  "clientErrors": 50,
   "serverErrors": 0,
   "unreachable": 3
  },
@@ -63,6 +63,19 @@
    "error": "timeout"
   },
   {
+   "sourceId": "url:https://acl.gov/programs/hcbs-settings-rule",
+   "href": "https://acl.gov/programs/hcbs-settings-rule",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://acl.gov/programs/hcbs-settings-rule",
+   "redirected": false,
+   "contentType": "text/html; charset=UTF-8",
+   "title": "HCBS Settings Rule | ACL Administration for Community Living",
+   "bytes": 112180,
+   "checkedAt": "2026-09-25T20:27:01.194Z",
+   "error": null
+  },
+  {
    "sourceId": "url:https://adata.org/",
    "href": "https://adata.org/",
    "status": 200,
@@ -76,19 +89,6 @@
    "error": null
   },
   {
-   "sourceId": "url:https://adata.org/factsheet/adann-writing",
-   "href": "https://adata.org/factsheet/adann-writing/",
-   "status": 200,
-   "ok": true,
-   "finalUrl": "https://adata.org/factsheet/adann-writing/",
-   "redirected": false,
-   "contentType": "text/html; charset=UTF-8",
-   "title": "Guidelines for Writing About People with Disabilities | ADATA.org",
-   "bytes": 44734,
-   "checkedAt": "2026-09-15T12:07:34.235Z",
-   "error": null
-  },
-  {
    "sourceId": "url:https://adata.org/factsheet/ADANN-writing",
    "href": "https://adata.org/factsheet/ADANN-writing",
    "status": 200,
@@ -99,6 +99,19 @@
    "title": "Guidelines for Writing About People with Disabilities | ADATA.org",
    "bytes": 44734,
    "checkedAt": "2026-09-15T12:07:35.437Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://adata.org/factsheet/adann-writing",
+   "href": "https://adata.org/factsheet/adann-writing/",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://adata.org/factsheet/adann-writing/",
+   "redirected": false,
+   "contentType": "text/html; charset=UTF-8",
+   "title": "Guidelines for Writing About People with Disabilities | ADATA.org",
+   "bytes": 44734,
+   "checkedAt": "2026-09-15T12:07:34.235Z",
    "error": null
   },
   {
@@ -128,6 +141,19 @@
    "error": null
   },
   {
+   "sourceId": "url:https://archive.cdc.gov/www_cdc_gov/niosh/learning/publichealthburnoutprevention/module-11/outline.html",
+   "href": "https://archive.cdc.gov/www_cdc_gov/niosh/learning/publichealthburnoutprevention/module-11/outline.html",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://archive.cdc.gov/www_cdc_gov/niosh/learning/publichealthburnoutprevention/module-11/outline.html",
+   "redirected": false,
+   "contentType": "text/html",
+   "title": "Module 1 Outline: Series Overview &ndash; Burnout and Public Health Workers",
+   "bytes": 100355,
+   "checkedAt": "2026-09-25T20:27:09.012Z",
+   "error": null
+  },
+  {
    "sourceId": "url:https://archrespite.org/wp-content/uploads/2023/06/Minnesota-Department-of-Human-Services_Equity-Analysis-Tool_7-27-2021.pdf",
    "href": "https://archrespite.org/wp-content/uploads/2023/06/Minnesota-Department-of-Human-Services_Equity-Analysis-Tool_7-27-2021.pdf",
    "status": 200,
@@ -141,6 +167,19 @@
    "error": null
   },
   {
+   "sourceId": "url:https://askearn.org/publication/professional-development-and-advancement-research-brief",
+   "href": "https://askearn.org/publication/professional-development-and-advancement-research-brief",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://askearn.org/publication/professional-development-and-advancement-research-brief",
+   "redirected": false,
+   "contentType": "text/html; charset=utf-8",
+   "title": "AskEARN | Publication - Professional Development and Advancement of Employees with Disabilities",
+   "bytes": 51183,
+   "checkedAt": "2026-09-25T20:27:02.407Z",
+   "error": null
+  },
+  {
    "sourceId": "url:https://askjan.org/",
    "href": "https://askjan.org/",
    "status": 200,
@@ -151,6 +190,45 @@
    "title": "JAN - Job Accommodation Network",
    "bytes": 130778,
    "checkedAt": "2026-09-15T12:07:32.367Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://askjan.org/articles/Out-with-the-Old-and-In-with-the-New-Supervisor.cfm",
+   "href": "https://askjan.org/articles/Out-with-the-Old-and-In-with-the-New-Supervisor.cfm",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://askjan.org/articles/Out-with-the-Old-and-In-with-the-New-Supervisor.cfm",
+   "redirected": false,
+   "contentType": "text/html;charset=UTF-8",
+   "title": "Out with the Old, In with the New...Supervisor",
+   "bytes": 42500,
+   "checkedAt": "2026-09-25T20:27:03.879Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://askjan.org/topics/interactive.cfm",
+   "href": "https://askjan.org/topics/interactive.cfm",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://askjan.org/topics/AccommodationProcess.cfm",
+   "redirected": true,
+   "contentType": "text/html;charset=UTF-8",
+   "title": "Accommodation Process",
+   "bytes": 79073,
+   "checkedAt": "2026-09-25T20:27:04.123Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://askjan.org/topics/telework.cfm",
+   "href": "https://askjan.org/topics/telework.cfm",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://askjan.org/topics/telework.cfm",
+   "redirected": false,
+   "contentType": "text/html;charset=UTF-8",
+   "title": "Telework",
+   "bytes": 63769,
+   "checkedAt": "2026-09-25T20:27:03.887Z",
    "error": null
   },
   {
@@ -180,6 +258,19 @@
    "error": null
   },
   {
+   "sourceId": "url:https://belonging.berkeley.edu/sites/default/files/ARCHIVE/gare-racial_equity_toolkit.pdf",
+   "href": "https://belonging.berkeley.edu/sites/default/files/ARCHIVE/gare-racial_equity_toolkit.pdf",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://belonging.berkeley.edu/sites/default/files/ARCHIVE/gare-racial_equity_toolkit.pdf",
+   "redirected": false,
+   "contentType": "application/pdf",
+   "title": null,
+   "bytes": 5831431,
+   "checkedAt": "2026-09-25T20:27:03.028Z",
+   "error": null
+  },
+  {
    "sourceId": "url:https://belonging.berkeley.edu/what-is-belonging",
    "href": "https://belonging.berkeley.edu/what-is-belonging",
    "status": 200,
@@ -193,6 +284,32 @@
    "error": null
   },
   {
+   "sourceId": "url:https://bidenwhitehouse.archives.gov/ostp/ai-bill-of-rights",
+   "href": "https://bidenwhitehouse.archives.gov/ostp/ai-bill-of-rights/",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://bidenwhitehouse.archives.gov/ostp/ai-bill-of-rights/",
+   "redirected": false,
+   "contentType": "text/html; charset=UTF-8",
+   "title": "Blueprint for an AI Bill of Rights | OSTP | The White House",
+   "bytes": 165237,
+   "checkedAt": "2026-09-25T20:27:11.228Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://bjs.ojp.gov/library/publications/disabilities-reported-prisoners-survey-prison-inmates-2016",
+   "href": "https://bjs.ojp.gov/library/publications/disabilities-reported-prisoners-survey-prison-inmates-2016",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://bjs.ojp.gov/library/publications/disabilities-reported-prisoners-survey-prison-inmates-2016",
+   "redirected": false,
+   "contentType": "text/html; charset=UTF-8",
+   "title": "Disabilities Reported by Prisoners: Survey of Prison Inmates, 2016 | Bureau of Justice Statistics",
+   "bytes": 63108,
+   "checkedAt": "2026-09-25T20:27:01.676Z",
+   "error": null
+  },
+  {
    "sourceId": "url:https://bjs.ojp.gov/press-release/prisoners-2022-statistical-tables",
    "href": "https://bjs.ojp.gov/press-release/prisoners-2022-statistical-tables",
    "status": 200,
@@ -200,9 +317,35 @@
    "finalUrl": "https://bjs.ojp.gov/press-release/prisoners-2022-statistical-tables",
    "redirected": false,
    "contentType": "text/html; charset=UTF-8",
-   "title": "Prisoners in 2022 – Statistical Tables | Bureau of Justice Statistics",
+   "title": "Prisoners in 2022 \u2013 Statistical Tables | Bureau of Justice Statistics",
    "bytes": 56502,
    "checkedAt": "2026-09-15T12:07:36.280Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://bmcmededuc.biomedcentral.com/articles/10.1186/s12909-015-0290-9",
+   "href": "https://bmcmededuc.biomedcentral.com/articles/10.1186/s12909-015-0290-9",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://idp.springer.com/transit?redirect_uri=https%3A%2F%2Flink.springer.com%2Farticle%2F10.1186%2Fs12909-015-0290-9&code=d5c0fd69-0fef-4000-95ff-9f71be2a8744",
+   "redirected": true,
+   "contentType": "text/html; charset=utf-8",
+   "title": "Client Challenge",
+   "bytes": 3036,
+   "checkedAt": "2026-09-25T20:27:10.003Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://cdn.ymaws.com/www.iap2.org/resource/resmgr/pillars/spectrum_8.5x11_print.pdf",
+   "href": "https://cdn.ymaws.com/www.iap2.org/resource/resmgr/pillars/spectrum_8.5x11_print.pdf",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://cdn.ymaws.com/www.iap2.org/resource/resmgr/pillars/spectrum_8.5x11_print.pdf",
+   "redirected": false,
+   "contentType": "application/pdf",
+   "title": null,
+   "bytes": 772635,
+   "checkedAt": "2026-09-25T20:27:03.700Z",
    "error": null
   },
   {
@@ -232,6 +375,19 @@
    "error": null
   },
   {
+   "sourceId": "url:https://content.govdelivery.com/accounts/MNDHS/bulletins/3f98793",
+   "href": "https://content.govdelivery.com/accounts/MNDHS/bulletins/3f98793",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://content.govdelivery.com/accounts/MNDHS/bulletins/3f98793",
+   "redirected": false,
+   "contentType": "text/html; charset=utf-8",
+   "title": "Housing Stabilization Services program ends Oct. 31, 2025",
+   "bytes": 23342,
+   "checkedAt": "2026-09-25T20:27:05.675Z",
+   "error": null
+  },
+  {
    "sourceId": "url:https://cpi.stanford.edu/_media/pdf/Reference%20Media/Dovidio_Gaertner_2000_Discrimination.pdf",
    "href": "https://cpi.stanford.edu/_media/pdf/Reference%20Media/Dovidio_Gaertner_2000_Discrimination.pdf",
    "status": 200,
@@ -255,6 +411,19 @@
    "title": "Cultural Intelligence Assessments &amp; Certification | CQC",
    "bytes": 189156,
    "checkedAt": "2026-09-15T12:07:32.850Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://culturalq.com/wp-content/uploads/2019/12/CQ-FAQs_v.2.19.pdf",
+   "href": "https://culturalq.com/wp-content/uploads/2019/12/CQ-FAQs_v.2.19.pdf",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://culturalq.com/wp-content/uploads/2019/12/CQ-FAQs_v.2.19.pdf",
+   "redirected": false,
+   "contentType": "application/pdf",
+   "title": null,
+   "bytes": 33484,
+   "checkedAt": "2026-09-25T20:27:02.139Z",
    "error": null
   },
   {
@@ -427,6 +596,45 @@
    "error": "fetch failed"
   },
   {
+   "sourceId": "url:https://eric.ed.gov/?id=EJ589456",
+   "href": "https://eric.ed.gov/?id=EJ589456",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://eric.ed.gov/?id=EJ589456",
+   "redirected": false,
+   "contentType": "text/html; charset=utf-8",
+   "title": "ERIC - EJ589456 - Psychological Safety and Learning Behavior in Work Teams., Administrative Science Quarterly, 1999",
+   "bytes": 8610,
+   "checkedAt": "2026-09-25T20:27:02.445Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://escholarship.org/uc/item/42p1t2v4",
+   "href": "https://escholarship.org/uc/item/42p1t2v4",
+   "status": 403,
+   "ok": false,
+   "finalUrl": "https://escholarship.org/uc/item/42p1t2v4",
+   "redirected": false,
+   "contentType": "text/html",
+   "title": "ERROR: The request could not be satisfied",
+   "bytes": 919,
+   "checkedAt": "2026-09-25T20:27:02.299Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://ethnomed.org/resource/tigrean-cultural-profile",
+   "href": "https://ethnomed.org/resource/tigrean-cultural-profile/",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://ethnomed.org/resource/tigrean-cultural-profile/",
+   "redirected": false,
+   "contentType": "text/html; charset=UTF-8",
+   "title": "Tigrean Cultural Profile - EthnoMed",
+   "bytes": 114864,
+   "checkedAt": "2026-09-25T20:27:02.551Z",
+   "error": null
+  },
+  {
    "sourceId": "url:https://evallab.unm.edu/restricted-materials/crenshaw-1991---intersectionality.pdf",
    "href": "https://evallab.unm.edu/restricted-materials/crenshaw-1991---intersectionality.pdf",
    "status": 200,
@@ -466,6 +674,45 @@
    "error": null
   },
   {
+   "sourceId": "url:https://hbr.org/2006/11/managing-multicultural-teams",
+   "href": "https://hbr.org/2006/11/managing-multicultural-teams",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://hbr.org/2006/11/managing-multicultural-teams",
+   "redirected": false,
+   "contentType": "text/html; charset=utf-8",
+   "title": "Managing Multicultural Teams",
+   "bytes": 182362,
+   "checkedAt": "2026-09-25T20:27:03.095Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://hbr.org/2014/05/navigating-the-cultural-minefield",
+   "href": "https://hbr.org/2014/05/navigating-the-cultural-minefield",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://hbr.org/2014/05/navigating-the-cultural-minefield",
+   "redirected": false,
+   "contentType": "text/html; charset=utf-8",
+   "title": "Navigating the Cultural Minefield",
+   "bytes": 156228,
+   "checkedAt": "2026-09-25T20:27:03.145Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://hbr.org/2019/03/why-inclusive-leaders-are-good-for-organizations-and-how-to-become-one",
+   "href": "https://hbr.org/2019/03/why-inclusive-leaders-are-good-for-organizations-and-how-to-become-one",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://hbr.org/2019/03/why-inclusive-leaders-are-good-for-organizations-and-how-to-become-one",
+   "redirected": false,
+   "contentType": "text/html; charset=utf-8",
+   "title": "Why Inclusive Leaders Are Good for Organizations, and How to Become One",
+   "bytes": 137682,
+   "checkedAt": "2026-09-25T20:27:03.052Z",
+   "error": null
+  },
+  {
    "sourceId": "url:https://hcopub.dhs.state.mn.us/epm/1_3_1_3.htm",
    "href": "https://hcopub.dhs.state.mn.us/epm/1_3_1_3.htm",
    "status": 200,
@@ -476,6 +723,19 @@
    "title": "1.3.1.3 MHCP Civil Rights",
    "bytes": 9249,
    "checkedAt": "2026-09-15T12:07:38.890Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://hwpi.harvard.edu/pluralismarchive/gyuto-wheel-dharma-monastery",
+   "href": "https://hwpi.harvard.edu/pluralismarchive/gyuto-wheel-dharma-monastery",
+   "status": 403,
+   "ok": false,
+   "finalUrl": "https://hwpi.harvard.edu/pluralismarchive/gyuto-wheel-dharma-monastery",
+   "redirected": false,
+   "contentType": "text/html",
+   "title": "Access Denied",
+   "bytes": 431,
+   "checkedAt": "2026-09-25T20:27:03.402Z",
    "error": null
   },
   {
@@ -502,6 +762,19 @@
    "title": "IDC",
    "bytes": 46412,
    "checkedAt": "2026-09-15T12:07:42.236Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://idiinventory.com/why-the-idi",
+   "href": "https://idiinventory.com/why-the-idi",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://idiinventory.com/why-the-idi",
+   "redirected": false,
+   "contentType": "text/html; charset=utf-8",
+   "title": "Why the IDI",
+   "bytes": 31171,
+   "checkedAt": "2026-09-25T20:26:59.730Z",
    "error": null
   },
   {
@@ -557,6 +830,19 @@
    "error": null
   },
   {
+   "sourceId": "url:https://journals.sagepub.com/doi/10.1177/0003122412463213",
+   "href": "https://journals.sagepub.com/doi/10.1177/0003122412463213",
+   "status": 403,
+   "ok": false,
+   "finalUrl": "https://journals.sagepub.com/doi/10.1177/0003122412463213",
+   "redirected": false,
+   "contentType": "text/html; charset=UTF-8",
+   "title": "Just a moment...",
+   "bytes": 5794,
+   "checkedAt": "2026-09-25T20:27:09.959Z",
+   "error": null
+  },
+  {
    "sourceId": "url:https://journals.sagepub.com/doi/10.1177/0003122418822335",
    "href": "https://journals.sagepub.com/doi/10.1177/0003122418822335",
    "status": 403,
@@ -596,6 +882,19 @@
    "error": null
   },
   {
+   "sourceId": "url:https://journals.sagepub.com/doi/10.2307/2666999",
+   "href": "https://journals.sagepub.com/doi/10.2307/2666999",
+   "status": 403,
+   "ok": false,
+   "finalUrl": "https://journals.sagepub.com/doi/10.2307/2666999",
+   "redirected": false,
+   "contentType": "text/html; charset=UTF-8",
+   "title": "Just a moment...",
+   "bytes": 5767,
+   "checkedAt": "2026-09-25T20:27:02.151Z",
+   "error": null
+  },
+  {
    "sourceId": "url:https://journals.sagepub.com/doi/abs/10.1177/0002764207307742",
    "href": "https://journals.sagepub.com/doi/abs/10.1177/0002764207307742",
    "status": 403,
@@ -606,6 +905,19 @@
    "title": "Just a moment...",
    "bytes": 5827,
    "checkedAt": "2026-09-22T21:18:17.270Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://knowledge.insead.edu/leadership-organisations/giving-negative-feedback-across-cultures",
+   "href": "https://knowledge.insead.edu/leadership-organisations/giving-negative-feedback-across-cultures",
+   "status": 403,
+   "ok": false,
+   "finalUrl": "https://knowledge.insead.edu/leadership-organisations/giving-negative-feedback-across-cultures",
+   "redirected": false,
+   "contentType": "text/html; charset=UTF-8",
+   "title": "Just a moment...",
+   "bytes": 5926,
+   "checkedAt": "2026-09-25T20:27:03.671Z",
    "error": null
   },
   {
@@ -635,6 +947,32 @@
    "error": null
   },
   {
+   "sourceId": "url:https://library.samhsa.gov/product/advisory-mental-and-substance-use-disorder-treatment-people-physical-and-cognitive",
+   "href": "https://library.samhsa.gov/product/advisory-mental-and-substance-use-disorder-treatment-people-physical-and-cognitive",
+   "status": 403,
+   "ok": false,
+   "finalUrl": "https://library.samhsa.gov/product/advisory-mental-and-substance-use-disorder-treatment-people-physical-and-cognitive",
+   "redirected": false,
+   "contentType": "text/html",
+   "title": "403 Forbidden",
+   "bytes": 118,
+   "checkedAt": "2026-09-25T20:27:10.084Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://mappingprejudice.umn.edu/",
+   "href": "https://mappingprejudice.umn.edu/",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://mappingprejudice.umn.edu/",
+   "redirected": false,
+   "contentType": "text/html; charset=UTF-8",
+   "title": "Mapping Prejudice",
+   "bytes": 61106,
+   "checkedAt": "2026-09-25T20:27:11.158Z",
+   "error": null
+  },
+  {
    "sourceId": "url:https://minnesotareformer.com/",
    "href": "https://minnesotareformer.com/",
    "status": 403,
@@ -645,6 +983,58 @@
    "title": "Just a moment...",
    "bytes": 5689,
    "checkedAt": "2026-09-15T12:07:39.995Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://minorityrights.org/country/afghanistan",
+   "href": "https://minorityrights.org/country/afghanistan/",
+   "status": 403,
+   "ok": false,
+   "finalUrl": "https://minorityrights.org/country/afghanistan/",
+   "redirected": false,
+   "contentType": "text/html; charset=utf-8",
+   "title": "Just a moment...",
+   "bytes": 2378,
+   "checkedAt": "2026-09-25T20:27:08.413Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://minorityrights.org/country/eritrea",
+   "href": "https://minorityrights.org/country/eritrea/",
+   "status": 403,
+   "ok": false,
+   "finalUrl": "https://minorityrights.org/country/eritrea/",
+   "redirected": false,
+   "contentType": "text/html; charset=utf-8",
+   "title": "Just a moment...",
+   "bytes": 2358,
+   "checkedAt": "2026-09-25T20:27:08.450Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://minorityrights.org/country/south-sudan",
+   "href": "https://minorityrights.org/country/south-sudan/",
+   "status": 403,
+   "ok": false,
+   "finalUrl": "https://minorityrights.org/country/south-sudan/",
+   "redirected": false,
+   "contentType": "text/html; charset=utf-8",
+   "title": "Just a moment...",
+   "bytes": 2378,
+   "checkedAt": "2026-09-25T20:27:08.520Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://minorityrights.org/country/sudan",
+   "href": "https://minorityrights.org/country/sudan/",
+   "status": 403,
+   "ok": false,
+   "finalUrl": "https://minorityrights.org/country/sudan/",
+   "redirected": false,
+   "contentType": "text/html; charset=utf-8",
+   "title": "Just a moment...",
+   "bytes": 2348,
+   "checkedAt": "2026-09-25T20:27:08.565Z",
    "error": null
   },
   {
@@ -697,6 +1087,19 @@
    "title": "Radware Page",
    "bytes": 118181,
    "checkedAt": "2026-09-15T12:07:35.066Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://mn.gov/admin/demography/data-by-topic/immigration-language",
+   "href": "https://mn.gov/admin/demography/data-by-topic/immigration-language/",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://mn.gov/admin/demography/data-by-topic/immigration-language/",
+   "redirected": false,
+   "contentType": "text/html; charset=UTF-8",
+   "title": "Radware Page",
+   "bytes": 118181,
+   "checkedAt": "2026-09-25T20:27:08.169Z",
    "error": null
   },
   {
@@ -765,6 +1168,19 @@
    "error": null
   },
   {
+   "sourceId": "url:https://mn.gov/deaf-commission/news?id=1063-445006",
+   "href": "https://mn.gov/deaf-commission/news/?id=1063-445006",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://mn.gov/deaf-commission/news/?id=1063-445006",
+   "redirected": false,
+   "contentType": "text/html;charset=UTF-8",
+   "title": "Deaf Interpreters: Things to Know",
+   "bytes": 87366,
+   "checkedAt": "2026-09-25T20:27:04.499Z",
+   "error": null
+  },
+  {
    "sourceId": "url:https://mn.gov/deaf-hard-of-hearing",
    "href": "https://mn.gov/deaf-hard-of-hearing/",
    "status": 200,
@@ -775,6 +1191,19 @@
    "title": "Radware Page",
    "bytes": 118181,
    "checkedAt": "2026-09-15T12:07:39.308Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://mn.gov/deaf-hard-of-hearing/about-us/index.jsp",
+   "href": "https://mn.gov/deaf-hard-of-hearing/about-us/index.jsp",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://mn.gov/deaf-hard-of-hearing/about-us/",
+   "redirected": true,
+   "contentType": "text/html;charset=UTF-8",
+   "title": "About Deaf, DeafBlind and Hard of Hearing State Services / Deaf and Hard of Hearing",
+   "bytes": 38107,
+   "checkedAt": "2026-09-25T20:27:05.055Z",
    "error": null
   },
   {
@@ -934,6 +1363,19 @@
    "error": null
   },
   {
+   "sourceId": "url:https://mn.gov/dhs/assets/discrimination-harassment-retaliation_tcm1053-646912.pdf",
+   "href": "https://mn.gov/dhs/assets/discrimination-harassment-retaliation_tcm1053-646912.pdf",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://mn.gov/dhs/assets/discrimination-harassment-retaliation_tcm1053-646912.pdf",
+   "redirected": false,
+   "contentType": "application/pdf",
+   "title": null,
+   "bytes": 182708,
+   "checkedAt": "2026-09-25T20:27:05.271Z",
+   "error": null
+  },
+  {
    "sourceId": "url:https://mn.gov/dhs/assets/equity-policy_tcm1053-646921.pdf",
    "href": "https://mn.gov/dhs/assets/equity-policy_tcm1053-646921.pdf",
    "status": 200,
@@ -944,6 +1386,32 @@
    "title": null,
    "bytes": 204334,
    "checkedAt": "2026-09-15T12:07:32.190Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://mn.gov/dhs/assets/reentry-waiver-application-summary_tcm1053-655028.pdf",
+   "href": "https://mn.gov/dhs/assets/reentry-waiver-application-summary_tcm1053-655028.pdf",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://mn.gov/dhs/assets/reentry-waiver-application-summary_tcm1053-655028.pdf",
+   "redirected": false,
+   "contentType": "application/pdf",
+   "title": null,
+   "bytes": 282588,
+   "checkedAt": "2026-09-25T20:27:06.167Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://mn.gov/dhs/background-studies/reconsideration",
+   "href": "https://mn.gov/dhs/background-studies/reconsideration/",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://mn.gov/dhs/background-studies/reconsideration/",
+   "redirected": false,
+   "contentType": "text/html;charset=UTF-8",
+   "title": "Reconsideration / Background Studies",
+   "bytes": 111128,
+   "checkedAt": "2026-09-25T20:27:05.267Z",
    "error": null
   },
   {
@@ -1048,6 +1516,32 @@
    "title": "Radware Page",
    "bytes": 118181,
    "checkedAt": "2026-09-19T03:06:25.767Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://mn.gov/dhs/media/news/index.jsp?id=1053-711321",
+   "href": "https://mn.gov/dhs/media/news/index.jsp?id=1053-711321",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://mn.gov/dhs/media/news/?id=1053-711321",
+   "redirected": true,
+   "contentType": "text/html; charset=UTF-8",
+   "title": "Radware Page",
+   "bytes": 118181,
+   "checkedAt": "2026-09-25T20:27:05.718Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://mn.gov/dhs/mental-health/crisis-response",
+   "href": "https://mn.gov/dhs/mental-health/crisis-response/",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://mn.gov/dhs/mental-health/crisis-response/",
+   "redirected": false,
+   "contentType": "text/html;charset=UTF-8",
+   "title": "Crisis response / Minnesota Department of Human Services",
+   "bytes": 555918,
+   "checkedAt": "2026-09-25T20:27:05.842Z",
    "error": null
   },
   {
@@ -1285,6 +1779,19 @@
    "error": null
   },
   {
+   "sourceId": "url:https://mn.gov/dhs/partners-and-providers/news-initiatives-reports-workgroups/long-term-services-and-supports/waiver-reimagine/wr-july-2026-update.jsp",
+   "href": "https://mn.gov/dhs/partners-and-providers/news-initiatives-reports-workgroups/long-term-services-and-supports/waiver-reimagine/wr-july-2026-update.jsp",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://mn.gov/dhs/partners-and-providers/news-initiatives-reports-workgroups/long-term-services-and-supports/waiver-reimagine/wr-july-2026-update.jsp",
+   "redirected": false,
+   "contentType": "text/html; charset=UTF-8",
+   "title": "Radware Page",
+   "bytes": 118181,
+   "checkedAt": "2026-09-25T20:27:06.251Z",
+   "error": null
+  },
+  {
    "sourceId": "url:https://mn.gov/dhs/partners-and-providers/news-initiatives-reports-workgroups/long-term-services-and-supports/workforce",
    "href": "https://mn.gov/dhs/partners-and-providers/news-initiatives-reports-workgroups/long-term-services-and-supports/workforce/",
    "status": 200,
@@ -1415,6 +1922,19 @@
    "error": null
   },
   {
+   "sourceId": "url:https://mn.gov/dhs/partners-and-providers/program-overviews/long-term-services-and-supports/positive-supports",
+   "href": "https://mn.gov/dhs/partners-and-providers/program-overviews/long-term-services-and-supports/positive-supports/",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://mn.gov/dhs/partners-and-providers/program-overviews/long-term-services-and-supports/positive-supports/",
+   "redirected": false,
+   "contentType": "text/html; charset=UTF-8",
+   "title": "Radware Page",
+   "bytes": 118181,
+   "checkedAt": "2026-09-25T20:27:06.063Z",
+   "error": null
+  },
+  {
    "sourceId": "url:https://mn.gov/dhs/partners-and-providers/program-overviews/long-term-services-and-supports/positive-supports/index.jsp",
    "href": "https://mn.gov/dhs/partners-and-providers/program-overviews/long-term-services-and-supports/positive-supports/index.jsp",
    "status": 200,
@@ -1493,6 +2013,32 @@
    "error": null
   },
   {
+   "sourceId": "url:https://mn.gov/dhs/people-we-serve/adults/services/housing/programs-and-services/housing-support.jsp",
+   "href": "https://mn.gov/dhs/people-we-serve/adults/services/housing/programs-and-services/housing-support.jsp",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://mn.gov/dhs/housing-income/housing-services/housing-support/",
+   "redirected": true,
+   "contentType": "text/html; charset=UTF-8",
+   "title": "Radware Page",
+   "bytes": 118181,
+   "checkedAt": "2026-09-25T20:27:05.785Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://mn.gov/dhs/people-we-serve/children-and-families/services/refugee-programs/afghan-evacuees",
+   "href": "https://mn.gov/dhs/people-we-serve/children-and-families/services/refugee-programs/afghan-evacuees/",
+   "status": 404,
+   "ok": false,
+   "finalUrl": "https://mn.gov/dhs/people-we-serve/children-and-families/services/refugee-programs/afghan-evacuees/",
+   "redirected": false,
+   "contentType": "text/html;charset=UTF-8",
+   "title": "404 / Minnesota Department of Human Services",
+   "bytes": 538112,
+   "checkedAt": "2026-09-25T20:27:05.234Z",
+   "error": null
+  },
+  {
    "sourceId": "url:https://mn.gov/dhs/people-we-serve/people-with-disabilities",
    "href": "https://mn.gov/dhs/people-we-serve/people-with-disabilities/",
    "status": 200,
@@ -1545,6 +2091,19 @@
    "error": null
   },
   {
+   "sourceId": "url:https://mn.gov/dhs/people-we-serve/people-with-disabilities/services/home-community/programs-and-services/mnchoices.jsp",
+   "href": "https://mn.gov/dhs/people-we-serve/people-with-disabilities/services/home-community/programs-and-services/mnchoices.jsp",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://mn.gov/dhs/disability-aging/home-and-community-services/programs-and-services/mnchoices/",
+   "redirected": true,
+   "contentType": "text/html; charset=UTF-8",
+   "title": "Radware Page",
+   "bytes": 118181,
+   "checkedAt": "2026-09-25T20:27:05.883Z",
+   "error": null
+  },
+  {
    "sourceId": "url:https://mn.gov/dhs/people-we-serve/seniors",
    "href": "https://mn.gov/dhs/people-we-serve/seniors/",
    "status": 200,
@@ -1568,6 +2127,32 @@
    "title": "Radware Page",
    "bytes": 118181,
    "checkedAt": "2026-09-15T12:07:39.384Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://mn.gov/dhs/program-integrity",
+   "href": "https://mn.gov/dhs/program-integrity/",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://mn.gov/dhs/program-integrity/",
+   "redirected": false,
+   "contentType": "text/html; charset=UTF-8",
+   "title": "Radware Page",
+   "bytes": 118181,
+   "checkedAt": "2026-09-25T20:27:06.160Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://mn.gov/governor/assets/2019_01_09_EO-19-01_(FINAL)_tcm1055-364605.pdf",
+   "href": "https://mn.gov/governor/assets/2019_01_09_EO-19-01_(FINAL)_tcm1055-364605.pdf",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://mn.gov/governor/assets/2019_01_09_EO-19-01_(FINAL)_tcm1055-364605.pdf",
+   "redirected": false,
+   "contentType": "application/pdf",
+   "title": null,
+   "bytes": 220308,
+   "checkedAt": "2026-09-25T20:27:09.376Z",
    "error": null
   },
   {
@@ -1597,6 +2182,32 @@
    "error": null
   },
   {
+   "sourceId": "url:https://mn.gov/mdhr/employers/criminal-background",
+   "href": "https://mn.gov/mdhr/employers/criminal-background/",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://mn.gov/mdhr/employers/criminal-background/",
+   "redirected": false,
+   "contentType": "text/html;charset=UTF-8",
+   "title": "Criminal Background / Minnesota.gov",
+   "bytes": 50425,
+   "checkedAt": "2026-09-25T20:27:04.860Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://mn.gov/mdhr/employers/reasonable-accommodations",
+   "href": "https://mn.gov/mdhr/employers/reasonable-accommodations/",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://mn.gov/mdhr/employers/reasonable-accommodations/",
+   "redirected": false,
+   "contentType": "text/html;charset=UTF-8",
+   "title": "Reasonable Accommodations / Minnesota.gov",
+   "bytes": 43474,
+   "checkedAt": "2026-09-25T20:27:04.895Z",
+   "error": null
+  },
+  {
    "sourceId": "url:https://mn.gov/mdhr/yourrights",
    "href": "https://mn.gov/mdhr/yourrights/",
    "status": 200,
@@ -1607,6 +2218,19 @@
    "title": "Radware Page",
    "bytes": 118181,
    "checkedAt": "2026-09-15T12:07:33.973Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://mn.gov/mdhr/yourrights/mhra",
+   "href": "https://mn.gov/mdhr/yourrights/mhra/",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://mn.gov/mdhr/yourrights/mhra/",
+   "redirected": false,
+   "contentType": "text/html;charset=UTF-8",
+   "title": "mhra / Minnesota.gov",
+   "bytes": 42464,
+   "checkedAt": "2026-09-25T20:27:04.890Z",
    "error": null
   },
   {
@@ -1623,6 +2247,136 @@
    "error": null
   },
   {
+   "sourceId": "url:https://mn.gov/mmb-stat/equal-opportunity/ada/1433-reasonable-accommodation.pdf",
+   "href": "https://mn.gov/mmb-stat/equal-opportunity/ada/1433-reasonable-accommodation.pdf",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://mn.gov/mmb-stat/equal-opportunity/ada/1433-reasonable-accommodation.pdf",
+   "redirected": false,
+   "contentType": "application/pdf",
+   "title": null,
+   "bytes": 287385,
+   "checkedAt": "2026-09-25T20:27:00.180Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://mn.gov/mmb-stat/equal-opportunity/office-of-inclusion/equity-analysis-toolkit.pdf",
+   "href": "https://mn.gov/mmb-stat/equal-opportunity/office-of-inclusion/equity-analysis-toolkit.pdf",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://mn.gov/mmb-stat/equal-opportunity/office-of-inclusion/equity-analysis-toolkit.pdf",
+   "redirected": false,
+   "contentType": "application/pdf",
+   "title": null,
+   "bytes": 2071130,
+   "checkedAt": "2026-09-25T20:26:59.723Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://mn.gov/mmb-stat/hr-toolbox/21-eelearningdevelopment.pdf",
+   "href": "https://mn.gov/mmb-stat/hr-toolbox/21-eelearningdevelopment.pdf",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://mn.gov/mmb-stat/hr-toolbox/21-eelearningdevelopment.pdf",
+   "redirected": false,
+   "contentType": "application/pdf",
+   "title": null,
+   "bytes": 232653,
+   "checkedAt": "2026-09-25T20:27:06.990Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://mn.gov/mmb-stat/policies/1422-telework-memo.pdf",
+   "href": "https://mn.gov/mmb-stat/policies/1422-telework-memo.pdf",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://mn.gov/mmb-stat/policies/1422-telework-memo.pdf",
+   "redirected": false,
+   "contentType": "application/pdf",
+   "title": null,
+   "bytes": 166727,
+   "checkedAt": "2026-09-25T20:27:07.333Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://mn.gov/mmb-stat/policies/1422-telework.pdf",
+   "href": "https://mn.gov/mmb-stat/policies/1422-telework.pdf",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://mn.gov/mmb-stat/policies/1422-telework.pdf",
+   "redirected": false,
+   "contentType": "application/pdf",
+   "title": null,
+   "bytes": 281064,
+   "checkedAt": "2026-09-25T20:27:07.421Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://mn.gov/mmb-stat/policies/1432-respectful-workplace-policy.pdf",
+   "href": "https://mn.gov/mmb-stat/policies/1432-respectful-workplace-policy.pdf",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://mn.gov/mmb-stat/policies/1432-respectful-workplace-policy.pdf",
+   "redirected": false,
+   "contentType": "application/pdf",
+   "title": null,
+   "bytes": 229580,
+   "checkedAt": "2026-09-25T20:27:07.574Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://mn.gov/mmb-stat/policies/1436-harassmentdiscriminationprohibited.pdf",
+   "href": "https://mn.gov/mmb-stat/policies/1436-harassmentdiscriminationprohibited.pdf",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://mn.gov/mmb-stat/policies/1436-harassmentdiscriminationprohibited.pdf",
+   "redirected": false,
+   "contentType": "application/pdf",
+   "title": null,
+   "bytes": 266115,
+   "checkedAt": "2026-09-25T20:27:07.587Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://mn.gov/mmb/assets/17-1-workoutofclass_tcm1059-124229.pdf",
+   "href": "https://mn.gov/mmb/assets/17-1-workoutofclass_tcm1059-124229.pdf",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://mn.gov/mmb/assets/17-1-workoutofclass_tcm1059-124229.pdf",
+   "redirected": false,
+   "contentType": "application/pdf",
+   "title": null,
+   "bytes": 400249,
+   "checkedAt": "2026-09-25T20:27:06.978Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://mn.gov/mmb/assets/Enterprise%20ERG%20Guidelines_tcm1059-595436.pdf",
+   "href": "https://mn.gov/mmb/assets/Enterprise%20ERG%20Guidelines_tcm1059-595436.pdf",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://mn.gov/mmb/assets/Enterprise%20ERG%20Guidelines_tcm1059-595436.pdf",
+   "redirected": false,
+   "contentType": "application/pdf",
+   "title": null,
+   "bytes": 234583,
+   "checkedAt": "2026-09-25T20:27:00.157Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://mn.gov/mmb/assets/Revised%20bylaws%200923_tcm1059-596173.pdf",
+   "href": "https://mn.gov/mmb/assets/Revised%20bylaws%200923_tcm1059-596173.pdf",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://mn.gov/mmb/assets/Revised%20bylaws%200923_tcm1059-596173.pdf",
+   "redirected": false,
+   "contentType": "application/pdf",
+   "title": null,
+   "bytes": 278730,
+   "checkedAt": "2026-09-25T20:27:07.163Z",
+   "error": null
+  },
+  {
    "sourceId": "url:https://mn.gov/mmb/careers/diverse-workforce",
    "href": "https://mn.gov/mmb/careers/diverse-workforce/",
    "status": 200,
@@ -1633,6 +2387,32 @@
    "title": "Radware Page",
    "bytes": 118181,
    "checkedAt": "2026-09-15T12:07:39.837Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://mn.gov/mmb/careers/diverse-workforce/people-with-disabilities/connect700",
+   "href": "https://mn.gov/mmb/careers/diverse-workforce/people-with-disabilities/connect700",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://mn.gov/mmb/careers/diverse-workforce/people-with-disabilities/connect700",
+   "redirected": false,
+   "contentType": "text/html; charset=UTF-8",
+   "title": "Radware Page",
+   "bytes": 118181,
+   "checkedAt": "2026-09-25T20:27:07.033Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://mn.gov/mmb/employee-relations/equal-opportunity/eo-19-15/retention",
+   "href": "https://mn.gov/mmb/employee-relations/equal-opportunity/eo-19-15/retention/",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://mn.gov/mmb/employee-relations/equal-opportunity/eo-19-15/retention/",
+   "redirected": false,
+   "contentType": "text/html;charset=UTF-8",
+   "title": "Retention / Minnesota Management and Budget (MMB)",
+   "bytes": 248122,
+   "checkedAt": "2026-09-25T20:27:00.299Z",
    "error": null
   },
   {
@@ -1649,6 +2429,19 @@
    "error": null
   },
   {
+   "sourceId": "url:https://mn.gov/mmb/employee-relations/labor-relations/labor",
+   "href": "https://mn.gov/mmb/employee-relations/labor-relations/labor/",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://mn.gov/mmb/employee-relations/labor-relations/labor/",
+   "redirected": false,
+   "contentType": "text/html;charset=UTF-8",
+   "title": "Labor Contracts Pay Plans / Minnesota Management and Budget (MMB)",
+   "bytes": 248025,
+   "checkedAt": "2026-09-25T20:27:07.775Z",
+   "error": null
+  },
+  {
    "sourceId": "url:https://mn.gov/mmb/employee-relations/laws-policies-rules/statewide-hr-policies",
    "href": "https://mn.gov/mmb/employee-relations/laws-policies-rules/statewide-hr-policies/",
    "status": 200,
@@ -1659,6 +2452,45 @@
    "title": "Radware Page",
    "bytes": 118181,
    "checkedAt": "2026-09-15T12:07:34.936Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://mn.gov/mmb/ergs",
+   "href": "https://mn.gov/mmb/ergs/",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://mn.gov/mmb/ergs/",
+   "redirected": false,
+   "contentType": "text/html; charset=UTF-8",
+   "title": "Radware Page",
+   "bytes": 118181,
+   "checkedAt": "2026-09-25T20:27:07.837Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://mn.gov/mmb/ergs/join",
+   "href": "https://mn.gov/mmb/ergs/join/",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://mn.gov/mmb/ergs/join/",
+   "redirected": false,
+   "contentType": "text/html; charset=UTF-8",
+   "title": "Radware Page",
+   "bytes": 118181,
+   "checkedAt": "2026-09-25T20:27:07.667Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://mn.gov/mmb/etd/core-programs",
+   "href": "https://mn.gov/mmb/etd/core-programs/",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://mn.gov/mmb/etd/core-programs/",
+   "redirected": false,
+   "contentType": "text/html; charset=UTF-8",
+   "title": "Radware Page",
+   "bytes": 118181,
+   "checkedAt": "2026-09-25T20:27:07.291Z",
    "error": null
   },
   {
@@ -1701,6 +2533,19 @@
    "error": null
   },
   {
+   "sourceId": "url:https://mn.gov/mmb/mad/resources/pd",
+   "href": "https://mn.gov/mmb/mad/resources/pd/",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://mn.gov/mmb/mad/resources/pd/",
+   "redirected": false,
+   "contentType": "text/html; charset=UTF-8",
+   "title": "Radware Page",
+   "bytes": 118181,
+   "checkedAt": "2026-09-25T20:27:07.826Z",
+   "error": null
+  },
+  {
    "sourceId": "url:https://mn.gov/mmb/ocdr",
    "href": "https://mn.gov/mmb/ocdr/",
    "status": 200,
@@ -1711,6 +2556,19 @@
    "title": "Radware Page",
    "bytes": 118181,
    "checkedAt": "2026-09-15T12:07:39.893Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://mn.gov/mmb/segip/life-and-well-being/help-with-everyday-life/faq.jsp",
+   "href": "https://mn.gov/mmb/segip/life-and-well-being/help-with-everyday-life/faq.jsp",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://mn.gov/mmb/segip/life-and-well-being/help-with-everyday-life/faq.jsp",
+   "redirected": false,
+   "contentType": "text/html; charset=UTF-8",
+   "title": "Radware Page",
+   "bytes": 118181,
+   "checkedAt": "2026-09-25T20:27:07.132Z",
    "error": null
   },
   {
@@ -1883,6 +2741,32 @@
    "error": null
   },
   {
+   "sourceId": "url:https://mn.gov/sentencing-guidelines/assets/2026-Minn-Sentencing-Guidelines-Comm-Report-to-the-Legislature_tcm30-719777.pdf",
+   "href": "https://mn.gov/sentencing-guidelines/assets/2026-Minn-Sentencing-Guidelines-Comm-Report-to-the-Legislature_tcm30-719777.pdf",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://mn.gov/sentencing-guidelines/assets/2026-Minn-Sentencing-Guidelines-Comm-Report-to-the-Legislature_tcm30-719777.pdf",
+   "redirected": false,
+   "contentType": "application/pdf",
+   "title": null,
+   "bytes": 1886081,
+   "checkedAt": "2026-09-25T20:27:08.155Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://mn.hb101.org/a/9",
+   "href": "https://mn.hb101.org/a/9/",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://mn.hb101.org/a/9/",
+   "redirected": false,
+   "contentType": "text/html",
+   "title": "HB101 Minnesota - Housing Support (formerly Group Residential Housing)",
+   "bytes": 68157,
+   "checkedAt": "2026-09-25T20:27:03.405Z",
+   "error": null
+  },
+  {
    "sourceId": "url:https://mncpd.org/wp-content/uploads/2016/12/MN_Framework_for_Universal_Multicultural_Instructional_Design.pdf",
    "href": "https://mncpd.org/wp-content/uploads/2016/12/MN_Framework_for_Universal_Multicultural_Instructional_Design.pdf",
    "status": 200,
@@ -1896,6 +2780,19 @@
    "error": null
   },
   {
+   "sourceId": "url:https://mnhs.gitlab.io/archive/minnesota-immigrant-oral-histories/collections.mnhs.org/ioh/10000907.html",
+   "href": "https://mnhs.gitlab.io/archive/minnesota-immigrant-oral-histories/collections.mnhs.org/ioh/10000907.html",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://mnhs.gitlab.io/archive/minnesota-immigrant-oral-histories/collections.mnhs.org/ioh/10000907.html",
+   "redirected": false,
+   "contentType": "text/html; charset=utf-8",
+   "title": "Tibetan : Minnesota Immigrant Oral Histories : mnhs.org",
+   "bytes": 53479,
+   "checkedAt": "2026-09-25T20:27:06.653Z",
+   "error": null
+  },
+  {
    "sourceId": "url:https://mnpsp.org/",
    "href": "https://mnpsp.org/",
    "status": 200,
@@ -1906,6 +2803,19 @@
    "title": "Minnesota Positive Supports Home Page - Positive Supports Minnesota",
    "bytes": 227105,
    "checkedAt": "2026-09-15T12:07:35.177Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://mnpsp.org/positive-supports/positive-behavior-support/learn-more-about-positive-behavior-support",
+   "href": "https://mnpsp.org/positive-supports/positive-behavior-support/learn-more-about-positive-behavior-support/",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://mnpsp.org/positive-supports/positive-behavior-support/learn-more-about-positive-behavior-support/",
+   "redirected": false,
+   "contentType": "text/html; charset=UTF-8",
+   "title": "Learn More About Positive Behavior Support - Positive Supports Minnesota",
+   "bytes": 236483,
+   "checkedAt": "2026-09-25T20:27:09.749Z",
    "error": null
   },
   {
@@ -1948,6 +2858,19 @@
    "error": null
   },
   {
+   "sourceId": "url:https://nap.nationalacademies.org/read/25796/chapter/2",
+   "href": "https://nap.nationalacademies.org/read/25796/chapter/2",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://www.nationalacademies.org/read/25796/chapter/2",
+   "redirected": true,
+   "contentType": "text/html; charset=UTF-8",
+   "title": "Read &quot;Are Generational Categories Meaningful Distinctions for Workforce Management?&quot; at NAP.edu",
+   "bytes": 487202,
+   "checkedAt": "2026-09-25T20:27:08.677Z",
+   "error": null
+  },
+  {
    "sourceId": "url:https://ncapps.acl.gov/",
    "href": "https://ncapps.acl.gov/",
    "status": 200,
@@ -1974,6 +2897,32 @@
    "error": null
   },
   {
+   "sourceId": "url:https://nccc.georgetown.edu/documents/Cultural_Broker_Guide_English.pdf",
+   "href": "https://nccc.georgetown.edu/documents/Cultural_Broker_Guide_English.pdf",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://nccc.georgetown.edu/documents/Cultural_Broker_Guide_English.pdf",
+   "redirected": false,
+   "contentType": "application/pdf",
+   "title": null,
+   "bytes": 311471,
+   "checkedAt": "2026-09-25T20:27:02.891Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://nccc.georgetown.edu/foundations/framework.php",
+   "href": "https://nccc.georgetown.edu/foundations/framework.php",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://nccc.georgetown.edu/foundations/framework.php",
+   "redirected": false,
+   "contentType": "text/html; charset=UTF-8",
+   "title": "NCCC | Foundations of Cultural & Linguistic Competence",
+   "bytes": 13380,
+   "checkedAt": "2026-09-25T20:26:59.724Z",
+   "error": null
+  },
+  {
    "sourceId": "url:https://ncwwi.org/files/Cultural_Responsiveness__Disproportionality/Continuum_AntiRacist.pdf",
    "href": "https://ncwwi.org/files/Cultural_Responsiveness__Disproportionality/Continuum_AntiRacist.pdf",
    "status": 200,
@@ -1984,6 +2933,32 @@
    "title": null,
    "bytes": 27367,
    "checkedAt": "2026-09-15T12:07:36.974Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://news.minnesota.publicradio.org/features/200105/07_newsroom_dalai/culture.shtml",
+   "href": "https://news.minnesota.publicradio.org/features/200105/07_newsroom_dalai/culture.shtml",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://news.minnesota.publicradio.org/features/200105/07_newsroom_dalai/culture.shtml",
+   "redirected": false,
+   "contentType": "text/html",
+   "title": "MPR: Tibetans in Minnesota: Preserving Their Culture",
+   "bytes": 33767,
+   "checkedAt": "2026-09-25T20:27:08.151Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://nida.nih.gov/research-topics/addiction-science/words-matter-preferred-language-talking-about-addiction",
+   "href": "https://nida.nih.gov/research-topics/addiction-science/words-matter-preferred-language-talking-about-addiction",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://nida.nih.gov/research-topics/addiction-science/words-matter-preferred-language-talking-about-addiction",
+   "redirected": false,
+   "contentType": "text/html; charset=utf-8",
+   "title": "Words Matter: Preferred Language for Talking About Addiction | National Institute on Drug Abuse (NIDA)",
+   "bytes": 64432,
+   "checkedAt": "2026-09-25T20:27:09.010Z",
    "error": null
   },
   {
@@ -2039,6 +3014,45 @@
    "error": null
   },
   {
+   "sourceId": "url:https://openstax.org/books/principles-management/pages/6-3-the-globe-framework",
+   "href": "https://openstax.org/books/principles-management/pages/6-3-the-globe-framework",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://openstax.org/books/principles-management/pages/6-3-the-globe-framework",
+   "redirected": false,
+   "contentType": "text/html",
+   "title": "6.3 The GLOBE Framework - Principles of Management | OpenStax",
+   "bytes": 300102,
+   "checkedAt": "2026-09-25T20:27:09.577Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://ovc.ojp.gov/program/vtt/what-is-vicarious-trauma",
+   "href": "https://ovc.ojp.gov/program/vtt/what-is-vicarious-trauma",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://ovc.ojp.gov/program/vtt/what-is-vicarious-trauma",
+   "redirected": false,
+   "contentType": "text/html; charset=UTF-8",
+   "title": "The Vicarious Trauma Toolkit | What is Vicarious Trauma? | OVC",
+   "bytes": 49552,
+   "checkedAt": "2026-09-25T20:27:09.270Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://peerta.acf.hhs.gov/sites/default/files/public/uploaded_files/Equity_Policy_3.07.2017-508_0.pdf",
+   "href": "https://peerta.acf.hhs.gov/sites/default/files/public/uploaded_files/Equity_Policy_3.07.2017-508_0.pdf",
+   "status": 404,
+   "ok": false,
+   "finalUrl": "https://peerta.acf.hhs.gov/sites/default/files/public/uploaded_files/Equity_Policy_3.07.2017-508_0.pdf",
+   "redirected": false,
+   "contentType": "text/html; charset=UTF-8",
+   "title": "Requested page not found | Peer TA Network - TANF",
+   "bytes": 58395,
+   "checkedAt": "2026-09-25T20:27:05.356Z",
+   "error": null
+  },
+  {
    "sourceId": "url:https://pmc.ncbi.nlm.nih.gov/articles/PMC11083880",
    "href": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11083880/",
    "status": 200,
@@ -2049,6 +3063,19 @@
    "title": "Checking your browser - reCAPTCHA",
    "bytes": 21373,
    "checkedAt": "2026-09-22T21:24:47.883Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://pmc.ncbi.nlm.nih.gov/articles/PMC13227151",
+   "href": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13227151/",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13227151/",
+   "redirected": false,
+   "contentType": "text/html; charset=utf-8",
+   "title": "Prevalence of mental disorders in people with intellectual disabilities across the lifespan: umbrella review - PMC",
+   "bytes": 279826,
+   "checkedAt": "2026-09-25T20:27:01.544Z",
    "error": null
   },
   {
@@ -2088,6 +3115,19 @@
    "title": "A systematic review exploring the content and outcomes of interventions to improve psychological safety, speaking up and voice behaviour - PMC",
    "bytes": 193166,
    "checkedAt": "2026-09-25T00:37:56.572Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://proceedings.mlr.press/v81/chouldechova18a.html",
+   "href": "https://proceedings.mlr.press/v81/chouldechova18a.html",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://proceedings.mlr.press/v81/chouldechova18a.html",
+   "redirected": false,
+   "contentType": "text/html; charset=utf-8",
+   "title": "A case study of algorithm-assisted decision making in child maltreatment hotline screening decisions",
+   "bytes": 16946,
+   "checkedAt": "2026-09-25T20:27:01.947Z",
    "error": null
   },
   {
@@ -2351,6 +3391,19 @@
    "error": null
   },
   {
+   "sourceId": "url:https://religionsmn.carleton.edu/exhibits/show/os/scholarship/historynuer",
+   "href": "https://religionsmn.carleton.edu/exhibits/show/os/scholarship/historynuer",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://religionsmn.carleton.edu/exhibits/show/os/scholarship/historynuer",
+   "redirected": false,
+   "contentType": "text/html; charset=utf-8",
+   "title": "History of Nuer in Sudan and the United States &middot; Nile Our Savior Lutheran Church &middot; Religions in Minnesota",
+   "bytes": 23065,
+   "checkedAt": "2026-09-25T20:27:01.707Z",
+   "error": null
+  },
+  {
    "sourceId": "url:https://resources.depaul.edu/abcd-institute",
    "href": "https://resources.depaul.edu/abcd-institute/",
    "status": 403,
@@ -2374,6 +3427,19 @@
    "title": "Home - Registry of Interpreters for the Deaf, Inc.",
    "bytes": 1753975,
    "checkedAt": "2026-09-19T03:06:28.447Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://righttobe.org/guides/bystander-intervention-training",
+   "href": "https://righttobe.org/guides/bystander-intervention-training/",
+   "status": 403,
+   "ok": false,
+   "finalUrl": "https://righttobe.org/guides/bystander-intervention-training/",
+   "redirected": false,
+   "contentType": "text/html; charset=UTF-8",
+   "title": "Just a moment...",
+   "bytes": 5798,
+   "checkedAt": "2026-09-25T20:27:09.903Z",
    "error": null
   },
   {
@@ -2442,6 +3508,19 @@
    "error": null
   },
   {
+   "sourceId": "url:https://soonang.com/wp-content/uploads/2011/04/2007-MOR-CQ-Ang_manuscript.pdf",
+   "href": "https://soonang.com/wp-content/uploads/2011/04/2007-MOR-CQ-Ang_manuscript.pdf",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://soonang.com/wp-content/uploads/2011/04/2007-MOR-CQ-Ang_manuscript.pdf",
+   "redirected": false,
+   "contentType": "application/pdf",
+   "title": null,
+   "bytes": 461572,
+   "checkedAt": "2026-09-25T20:27:04.475Z",
+   "error": null
+  },
+  {
    "sourceId": "url:https://sparq.stanford.edu/sites/g/files/sbiybj19021/files/media/file/pettigrew_tropp_2006_-_intergroup_contact_theory.pdf",
    "href": "https://sparq.stanford.edu/sites/g/files/sbiybj19021/files/media/file/pettigrew_tropp_2006_-_intergroup_contact_theory.pdf",
    "status": 200,
@@ -2452,6 +3531,19 @@
    "title": null,
    "bytes": 223723,
    "checkedAt": "2026-09-22T21:24:47.736Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://spokesman-recorder.com/2024/07/18/sudan-war-impact-minnesota",
+   "href": "https://spokesman-recorder.com/2024/07/18/sudan-war-impact-minnesota/",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://spokesman-recorder.com/2024/07/18/sudan-war-impact-minnesota/",
+   "redirected": false,
+   "contentType": "text/html; charset=UTF-8",
+   "title": "Sudanese Minnesotans share their stories as war rages on | Minnesota Spokesman-Recorder",
+   "bytes": 370454,
+   "checkedAt": "2026-09-25T20:27:08.162Z",
    "error": null
   },
   {
@@ -2478,6 +3570,32 @@
    "title": "Supported Decision-Making | National Resource Center",
    "bytes": 157382,
    "checkedAt": "2026-09-19T03:06:27.327Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://supreme.justia.com/cases/federal/us/397/254",
+   "href": "https://supreme.justia.com/cases/federal/us/397/254/",
+   "status": 403,
+   "ok": false,
+   "finalUrl": "https://supreme.justia.com/cases/federal/us/397/254/",
+   "redirected": false,
+   "contentType": "text/html; charset=UTF-8",
+   "title": "Just a moment...",
+   "bytes": 5740,
+   "checkedAt": "2026-09-25T20:27:04.234Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://tafm.org/about-us",
+   "href": "https://tafm.org/about-us/",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://tafm.org/about-us/",
+   "redirected": false,
+   "contentType": "text/html; charset=UTF-8",
+   "title": "About Us &#8211; Tibetan American Foundation of Minnesota",
+   "bytes": 49234,
+   "checkedAt": "2026-09-25T20:27:10.322Z",
    "error": null
   },
   {
@@ -2585,6 +3703,19 @@
    "error": null
   },
   {
+   "sourceId": "url:https://wexnermedical.osu.edu/neurological-institute/neuroscience-research-institute/research-centers/ohio-valley-center-for-brain-injury-prevention-and-rehabilitation/for-professionals/substance-use-and-tbi",
+   "href": "https://wexnermedical.osu.edu/neurological-institute/neuroscience-research-institute/research-centers/ohio-valley-center-for-brain-injury-prevention-and-rehabilitation/for-professionals/substance-use-and-tbi",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://wexnermedical.osu.edu/neurological-institute/neuroscience-research-institute/research-centers/ohio-valley-center-for-brain-injury-prevention-and-rehabilitation/for-professionals/substance-use-and-tbi",
+   "redirected": false,
+   "contentType": "text/html; charset=utf-8",
+   "title": "Substance Use and TBI",
+   "bytes": 84237,
+   "checkedAt": "2026-09-25T20:27:10.321Z",
+   "error": null
+  },
+  {
    "sourceId": "url:https://wmbridges.com/about/what-is-transition",
    "href": "https://wmbridges.com/about/what-is-transition/",
    "status": 200,
@@ -2634,6 +3765,32 @@
    "title": "Revised 508 Standards and 255 Guidelines",
    "bytes": 492327,
    "checkedAt": "2026-09-15T12:07:42.510Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://www.aclu.org/news/privacy-technology/pitfalls-artificial-intelligence-decisionmaking-highlighted-idaho-aclu-case",
+   "href": "https://www.aclu.org/news/privacy-technology/pitfalls-artificial-intelligence-decisionmaking-highlighted-idaho-aclu-case",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://www.aclu.org/news/privacy-technology/pitfalls-artificial-intelligence-decisionmaking-highlighted-idaho-aclu-case",
+   "redirected": false,
+   "contentType": "text/html; charset=UTF-8",
+   "title": "Pitfalls of Artificial Intelligence Decisionmaking Highlighted In Idaho ACLU Case | American Civil Liberties Union",
+   "bytes": 56727,
+   "checkedAt": "2026-09-25T20:27:01.390Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://www.aclu.org/the-devil-is-in-the-details-interrogating-values-embedded-in-the-allegheny-family-screening-tool",
+   "href": "https://www.aclu.org/the-devil-is-in-the-details-interrogating-values-embedded-in-the-allegheny-family-screening-tool",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://www.aclu.org/the-devil-is-in-the-details-interrogating-values-embedded-in-the-allegheny-family-screening-tool",
+   "redirected": false,
+   "contentType": "text/html; charset=UTF-8",
+   "title": "The Devil is in the Details: Interrogating Values Embedded in the Allegheny Family Screening Tool | American Civil Liberties Union",
+   "bytes": 121399,
+   "checkedAt": "2026-09-25T20:27:01.484Z",
    "error": null
   },
   {
@@ -2699,6 +3856,19 @@
    "title": "ADA Requirements: Effective Communication | ADA.gov",
    "bytes": 76340,
    "checkedAt": "2026-09-15T12:07:33.073Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://www.ada.gov/resources/olmstead-mandate-statement",
+   "href": "https://www.ada.gov/resources/olmstead-mandate-statement/",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://www.ada.gov/resources/olmstead-mandate-statement/",
+   "redirected": false,
+   "contentType": "text/html; charset=utf-8",
+   "title": "Statement of the Department of Justice on Enforcement of the Integration Mandate of Title II of the Americans with Disabilities Act and Olmstead v. L.C. | ADA.gov",
+   "bytes": 85840,
+   "checkedAt": "2026-09-25T20:27:00.849Z",
    "error": null
   },
   {
@@ -2897,6 +4067,19 @@
    "error": null
   },
   {
+   "sourceId": "url:https://www.cairmn.com/",
+   "href": "https://www.cairmn.com/",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://www.cairmn.com/",
+   "redirected": false,
+   "contentType": "text/html;charset=UTF-8",
+   "title": "CAIR Minnesota - CAIR Minnesota",
+   "bytes": 28814,
+   "checkedAt": "2026-09-25T20:27:01.694Z",
+   "error": null
+  },
+  {
    "sourceId": "url:https://www.cambridge.org/core/journals/behavioural-public-policy/article/contact-hypothesis-reevaluated/142C913E7FA9E121277B29E994124EC5",
    "href": "https://www.cambridge.org/core/journals/behavioural-public-policy/article/contact-hypothesis-reevaluated/142C913E7FA9E121277B29E994124EC5",
    "status": 200,
@@ -3014,6 +4197,19 @@
    "error": null
   },
   {
+   "sourceId": "url:https://www.dhs.state.mn.us/id_000855",
+   "href": "https://www.dhs.state.mn.us/id_000855/",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://www.dhs.state.mn.us/main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=ID_000855",
+   "redirected": true,
+   "contentType": "text/html; charset=utf-8",
+   "title": "",
+   "bytes": 62483,
+   "checkedAt": "2026-09-25T20:27:06.344Z",
+   "error": null
+  },
+  {
    "sourceId": "url:https://www.dhs.state.mn.us/id_000858",
    "href": "https://www.dhs.state.mn.us/id_000858/",
    "status": 200,
@@ -3024,6 +4220,32 @@
    "title": "Radware Page",
    "bytes": 118391,
    "checkedAt": "2026-09-15T12:07:36.309Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://www.dhs.state.mn.us/id_008949",
+   "href": "https://www.dhs.state.mn.us/id_008949/",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://www.dhs.state.mn.us/main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=ID_008949",
+   "redirected": true,
+   "contentType": "text/html; charset=utf-8",
+   "title": "",
+   "bytes": 113652,
+   "checkedAt": "2026-09-25T20:27:06.444Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://www.dhs.state.mn.us/id_058153",
+   "href": "https://www.dhs.state.mn.us/id_058153/",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://www.dhs.state.mn.us/main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=ID_058153",
+   "redirected": true,
+   "contentType": "text/html; charset=utf-8",
+   "title": "",
+   "bytes": 111606,
+   "checkedAt": "2026-09-25T20:27:06.407Z",
    "error": null
   },
   {
@@ -3040,19 +4262,6 @@
    "error": null
   },
   {
-   "sourceId": "url:https://www.dhs.state.mn.us/main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=dhs-299403",
-   "href": "https://www.dhs.state.mn.us/main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=dhs-299403",
-   "status": 200,
-   "ok": true,
-   "finalUrl": "https://www.dhs.state.mn.us/main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=dhs-299403",
-   "redirected": false,
-   "contentType": "text/html; charset=UTF-8",
-   "title": "Radware Page",
-   "bytes": 118391,
-   "checkedAt": "2026-09-15T12:07:36.535Z",
-   "error": null
-  },
-  {
    "sourceId": "url:https://www.dhs.state.mn.us/main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=DHS-312489",
    "href": "https://www.dhs.state.mn.us/main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=DHS-312489",
    "status": 200,
@@ -3063,6 +4272,19 @@
    "title": "Radware Page",
    "bytes": 118391,
    "checkedAt": "2026-09-15T12:07:41.039Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://www.dhs.state.mn.us/main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=dhs-299403",
+   "href": "https://www.dhs.state.mn.us/main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=dhs-299403",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://www.dhs.state.mn.us/main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=dhs-299403",
+   "redirected": false,
+   "contentType": "text/html; charset=UTF-8",
+   "title": "Radware Page",
+   "bytes": 118391,
+   "checkedAt": "2026-09-15T12:07:36.535Z",
    "error": null
   },
   {
@@ -3144,6 +4366,32 @@
    "error": null
   },
   {
+   "sourceId": "url:https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-C/part-431/subpart-E",
+   "href": "https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-C/part-431/subpart-E",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://unblock.federalregister.gov/",
+   "redirected": true,
+   "contentType": "text/html; charset=utf-8",
+   "title": "Federal Register :: Request Access",
+   "bytes": 10595,
+   "checkedAt": "2026-09-25T20:27:02.295Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-C/part-455/subpart-A/section-455.23",
+   "href": "https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-C/part-455/subpart-A/section-455.23",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://unblock.federalregister.gov/",
+   "redirected": true,
+   "contentType": "text/html; charset=utf-8",
+   "title": "Federal Register :: Request Access",
+   "bytes": 10595,
+   "checkedAt": "2026-09-25T20:27:02.182Z",
+   "error": null
+  },
+  {
    "sourceId": "url:https://www.eeoc.gov/",
    "href": "https://www.eeoc.gov/",
    "status": 200,
@@ -3157,6 +4405,19 @@
    "error": null
   },
   {
+   "sourceId": "url:https://www.eeoc.gov/age-discrimination",
+   "href": "https://www.eeoc.gov/age-discrimination",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://www.eeoc.gov/age-discrimination",
+   "redirected": false,
+   "contentType": "text/html; charset=utf-8",
+   "title": "Age Discrimination | U.S. Equal Employment Opportunity Commission",
+   "bytes": 73602,
+   "checkedAt": "2026-09-25T20:27:10.690Z",
+   "error": null
+  },
+  {
    "sourceId": "url:https://www.eeoc.gov/disability-discrimination",
    "href": "https://www.eeoc.gov/disability-discrimination",
    "status": 200,
@@ -3167,6 +4428,19 @@
    "title": "EEOC Disability-Related Resources | U.S. Equal Employment Opportunity Commission",
    "bytes": 68035,
    "checkedAt": "2026-09-15T12:07:34.196Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://www.eeoc.gov/harassment",
+   "href": "https://www.eeoc.gov/harassment",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://www.eeoc.gov/harassment",
+   "redirected": false,
+   "contentType": "text/html; charset=utf-8",
+   "title": "Harassment | U.S. Equal Employment Opportunity Commission",
+   "bytes": 78237,
+   "checkedAt": "2026-09-25T20:27:10.885Z",
    "error": null
   },
   {
@@ -3193,6 +4467,45 @@
    "title": "Questions and Answers to Clarify and Provide a Common Interpretation of the Uniform Guidelines on Employee Selection Procedures | U.S. Equal Employment Opportunity Commission",
    "bytes": 188504,
    "checkedAt": "2026-09-15T12:07:42.799Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://www.eeoc.gov/laws/guidance/work-hometelework-reasonable-accommodation",
+   "href": "https://www.eeoc.gov/laws/guidance/work-hometelework-reasonable-accommodation",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://www.eeoc.gov/laws/guidance/work-hometelework-reasonable-accommodation",
+   "redirected": false,
+   "contentType": "text/html; charset=utf-8",
+   "title": "Work at Home/Telework as a Reasonable Accommodation | U.S. Equal Employment Opportunity Commission",
+   "bytes": 83344,
+   "checkedAt": "2026-09-25T20:27:10.932Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://www.eeoc.gov/religious-discrimination",
+   "href": "https://www.eeoc.gov/religious-discrimination",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://www.eeoc.gov/religious-discrimination",
+   "redirected": false,
+   "contentType": "text/html; charset=utf-8",
+   "title": "Religious Discrimination | U.S. Equal Employment Opportunity Commission",
+   "bytes": 80601,
+   "checkedAt": "2026-09-25T20:27:10.893Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://www.eeoc.gov/retaliation",
+   "href": "https://www.eeoc.gov/retaliation",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://www.eeoc.gov/retaliation",
+   "redirected": false,
+   "contentType": "text/html; charset=utf-8",
+   "title": "Retaliation | U.S. Equal Employment Opportunity Commission",
+   "bytes": 75804,
+   "checkedAt": "2026-09-25T20:27:10.607Z",
    "error": null
   },
   {
@@ -3235,6 +4548,45 @@
    "error": null
   },
   {
+   "sourceId": "url:https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2024.1413258/full",
+   "href": "https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2024.1413258/full",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2024.1413258/full",
+   "redirected": false,
+   "contentType": "text/html;charset=utf-8",
+   "title": "Frontiers | Welcoming new neighbors: Minnesota&#x27;s rapid response model to address the urgent health needs of Afghan newcomers, 2021\u20132022",
+   "bytes": 723028,
+   "checkedAt": "2026-09-25T20:27:02.579Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://www.gao.gov/assets/gao-15-593sp.pdf",
+   "href": "https://www.gao.gov/assets/gao-15-593sp.pdf",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://www.gao.gov/assets/gao-15-593sp.pdf",
+   "redirected": false,
+   "contentType": "application/pdf",
+   "title": null,
+   "bytes": 3598708,
+   "checkedAt": "2026-09-25T20:27:10.949Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://www.givemn.org/organization/Eritrean-Community-Center-Of-Minnesota",
+   "href": "https://www.givemn.org/organization/Eritrean-Community-Center-Of-Minnesota",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://www.givemn.org/organization/Eritrean-Community-Center-Of-Minnesota",
+   "redirected": false,
+   "contentType": "text/html; charset=utf-8",
+   "title": "Eritrean Community Center of Minnesota | GiveMN",
+   "bytes": 233289,
+   "checkedAt": "2026-09-25T20:27:02.926Z",
+   "error": null
+  },
+  {
    "sourceId": "url:https://www.hbs.edu/faculty/Pages/item.aspx?num=49132",
    "href": "https://www.hbs.edu/faculty/Pages/item.aspx?num=49132",
    "status": 403,
@@ -3258,6 +4610,58 @@
    "title": "For a healthy Minnesota - MN Dept. of Health",
    "bytes": 95914,
    "checkedAt": "2026-09-15T12:07:33.925Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://www.health.state.mn.us/communities/overdose/harmreduce/naloxone.html",
+   "href": "https://www.health.state.mn.us/communities/overdose/harmreduce/naloxone.html",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://www.health.state.mn.us/communities/overdose/harmreduce/naloxone.html",
+   "redirected": false,
+   "contentType": "text/html; charset=utf-8",
+   "title": "Naloxone - MN Dept. of Health",
+   "bytes": 81629,
+   "checkedAt": "2026-09-25T20:27:04.657Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://www.health.state.mn.us/communities/rih/coe/clinical/afghan.html",
+   "href": "https://www.health.state.mn.us/communities/rih/coe/clinical/afghan.html",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://www.health.state.mn.us/communities/rih/coe/clinical/afghan.html",
+   "redirected": false,
+   "contentType": "text/html; charset=utf-8",
+   "title": "Afghan Clinical Guidance Center of Excellence in Newcomer Health - MN Dept. of Health",
+   "bytes": 96753,
+   "checkedAt": "2026-09-25T20:27:04.634Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://www.health.state.mn.us/communities/rih/stats/24rhrpt.pdf",
+   "href": "https://www.health.state.mn.us/communities/rih/stats/24rhrpt.pdf",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://www.health.state.mn.us/communities/rih/stats/24rhrpt.pdf",
+   "redirected": false,
+   "contentType": "application/pdf",
+   "title": null,
+   "bytes": 465441,
+   "checkedAt": "2026-09-25T20:26:59.721Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://www.health.state.mn.us/communities/rih/stats/reftotals.pdf",
+   "href": "https://www.health.state.mn.us/communities/rih/stats/reftotals.pdf",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://www.health.state.mn.us/communities/rih/stats/reftotals.pdf",
+   "redirected": false,
+   "contentType": "application/pdf",
+   "title": null,
+   "bytes": 416147,
+   "checkedAt": "2026-09-25T20:26:59.683Z",
    "error": null
   },
   {
@@ -3287,6 +4691,45 @@
    "error": null
   },
   {
+   "sourceId": "url:https://www.hhs.gov/civil-rights/for-providers/laws-regulations-guidance/nondiscrimination-basis-of-age/index.html",
+   "href": "https://www.hhs.gov/civil-rights/for-providers/laws-regulations-guidance/nondiscrimination-basis-of-age/index.html",
+   "status": 403,
+   "ok": false,
+   "finalUrl": "https://www.hhs.gov/civil-rights/for-providers/laws-regulations-guidance/nondiscrimination-basis-of-age/index.html",
+   "redirected": false,
+   "contentType": "text/html",
+   "title": "Access Denied",
+   "bytes": 507,
+   "checkedAt": "2026-09-25T20:27:10.521Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://www.housinglink.org/",
+   "href": "https://www.housinglink.org/",
+   "status": 403,
+   "ok": false,
+   "finalUrl": "https://www.housinglink.org/",
+   "redirected": false,
+   "contentType": "text/html; charset=UTF-8",
+   "title": "Just a moment...",
+   "bytes": 5645,
+   "checkedAt": "2026-09-25T20:27:03.418Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://www.hrw.org/world-report/2024/country-chapters/eritrea",
+   "href": "https://www.hrw.org/world-report/2024/country-chapters/eritrea",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://www.hrw.org/world-report/2024/country-chapters/eritrea",
+   "redirected": false,
+   "contentType": "text/html; charset=utf-8",
+   "title": "World Report 2024: Eritrea | Human Rights Watch",
+   "bytes": 143281,
+   "checkedAt": "2026-09-25T20:27:03.539Z",
+   "error": null
+  },
+  {
    "sourceId": "url:https://www.idiinventory.com/",
    "href": "https://www.idiinventory.com/",
    "status": 200,
@@ -3297,6 +4740,32 @@
    "title": "IDI, LLC | Intercultural Development Inventory",
    "bytes": 87785,
    "checkedAt": "2026-09-15T12:07:33.053Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://www.idiinventory.com/generalinformation/the-intercultural-development-continuum-idc",
+   "href": "https://www.idiinventory.com/generalinformation/the-intercultural-development-continuum-idc",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://www.idiinventory.com/idc",
+   "redirected": true,
+   "contentType": "text/html; charset=utf-8",
+   "title": "IDC",
+   "bytes": 46642,
+   "checkedAt": "2026-09-25T20:26:59.728Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://www.idiinventory.com/how-individuals-use-the-idi",
+   "href": "https://www.idiinventory.com/how-individuals-use-the-idi",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://www.idiinventory.com/how-individuals-use-the-idi",
+   "redirected": false,
+   "contentType": "text/html; charset=utf-8",
+   "title": "How Individuals Use the IDI",
+   "bytes": 26072,
+   "checkedAt": "2026-09-25T20:27:03.570Z",
    "error": null
   },
   {
@@ -3326,6 +4795,19 @@
    "error": null
   },
   {
+   "sourceId": "url:https://www.idrinstitute.org/wp-content/uploads/2019/02/DMIS-IDRI.pdf",
+   "href": "https://www.idrinstitute.org/wp-content/uploads/2019/02/DMIS-IDRI.pdf",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://www.idrinstitute.org/wp-content/uploads/2019/02/DMIS-IDRI.pdf",
+   "redirected": false,
+   "contentType": "application/pdf",
+   "title": null,
+   "bytes": 450322,
+   "checkedAt": "2026-09-25T20:27:00.072Z",
+   "error": null
+  },
+  {
    "sourceId": "url:https://www.justice.gov/crt",
    "href": "https://www.justice.gov/crt",
    "status": 200,
@@ -3352,6 +4834,19 @@
    "error": null
   },
   {
+   "sourceId": "url:https://www.justice.gov/crt/fcs/T6Manual7",
+   "href": "https://www.justice.gov/crt/fcs/T6Manual7",
+   "status": 404,
+   "ok": false,
+   "finalUrl": "https://www.justice.gov/crt/fcs/T6Manual7",
+   "redirected": false,
+   "contentType": "text/html; charset=UTF-8",
+   "title": "Department of Justice | Page not found",
+   "bytes": 54640,
+   "checkedAt": "2026-09-25T20:27:00.961Z",
+   "error": null
+  },
+  {
    "sourceId": "url:https://www.justice.gov/crt/fcs/TitleVI-Overview",
    "href": "https://www.justice.gov/crt/fcs/TitleVI-Overview",
    "status": 200,
@@ -3359,7 +4854,7 @@
    "finalUrl": "https://www.justice.gov/crt/fcs/TitleVI-Overview",
    "redirected": false,
    "contentType": "text/html; charset=UTF-8",
-   "title": "Civil Rights Division | Title VI Of The Civil Rights Act Of 1964 42 U.S.C. § 2000d Et Seq.",
+   "title": "Civil Rights Division | Title VI Of The Civil Rights Act Of 1964 42 U.S.C. \u00a7 2000d Et Seq.",
    "bytes": 92826,
    "checkedAt": "2026-09-15T12:07:42.558Z",
    "error": null
@@ -3375,6 +4870,19 @@
    "title": "What to Know About Recent Federal Actions Involving State Medicaid Program Integrity | KFF",
    "bytes": 177622,
    "checkedAt": "2026-09-15T12:07:34.714Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://www.law.cornell.edu/uscode/text/42/1996",
+   "href": "https://www.law.cornell.edu/uscode/text/42/1996",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://www.law.cornell.edu/uscode/text/42/1996",
+   "redirected": false,
+   "contentType": "text/html; charset=utf-8",
+   "title": "42 U.S. Code &sect; 1996 - Protection and preservation of traditional religions of Native Americans | U.S. Code | US Law | LII / Legal Information Institute",
+   "bytes": 37913,
+   "checkedAt": "2026-09-25T20:27:04.321Z",
    "error": null
   },
   {
@@ -3417,6 +4925,32 @@
    "error": null
   },
   {
+   "sourceId": "url:https://www.lrl.mn.gov/agencies/detail?AgencyID=1133",
+   "href": "https://www.lrl.mn.gov/agencies/detail?AgencyID=1133",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://www.lrl.mn.gov/agencies/detail?AgencyID=1133",
+   "redirected": false,
+   "contentType": "text/html; charset=utf-8",
+   "title": "Minnesota State Academy for the Deaf",
+   "bytes": 83326,
+   "checkedAt": "2026-09-25T20:27:06.700Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://www.lrl.mn.gov/archive/execorders/23-12.pdf",
+   "href": "https://www.lrl.mn.gov/archive/execorders/23-12.pdf",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://www.lrl.mn.gov/archive/execorders/23-12.pdf",
+   "redirected": false,
+   "contentType": "application/pdf",
+   "title": null,
+   "bytes": 494069,
+   "checkedAt": "2026-09-25T20:27:09.388Z",
+   "error": null
+  },
+  {
    "sourceId": "url:https://www.medicaid.gov/medicaid/home-community-based-services",
    "href": "https://www.medicaid.gov/medicaid/home-community-based-services",
    "status": 200,
@@ -3440,6 +4974,58 @@
    "title": "Program Integrity | Medicaid",
    "bytes": 135346,
    "checkedAt": "2026-09-15T12:07:36.803Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://www.medicaid.gov/medicaid/program-integrity/index.html",
+   "href": "https://www.medicaid.gov/medicaid/program-integrity/index.html",
+   "status": 404,
+   "ok": false,
+   "finalUrl": "https://www.medicaid.gov/medicaid/program-integrity/index.html",
+   "redirected": false,
+   "contentType": "text/html",
+   "title": "Error: Page Not Found | Medicaid.gov",
+   "bytes": 30479,
+   "checkedAt": "2026-09-25T20:27:01.884Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://www.migrationpolicy.org/article/eritrea-refugees-repression",
+   "href": "https://www.migrationpolicy.org/article/eritrea-refugees-repression",
+   "status": 403,
+   "ok": false,
+   "finalUrl": "https://www.migrationpolicy.org/article/eritrea-refugees-repression",
+   "redirected": false,
+   "contentType": "text/html; charset=UTF-8",
+   "title": "Attention Required! | Cloudflare",
+   "bytes": 6139,
+   "checkedAt": "2026-09-25T20:27:04.494Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://www.minndakjcrc.org/",
+   "href": "https://www.minndakjcrc.org/",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://minndakjcrc.org/",
+   "redirected": true,
+   "contentType": "text/html; charset=UTF-8",
+   "title": "Home - JCRC",
+   "bytes": 215540,
+   "checkedAt": "2026-09-25T20:27:03.783Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://www.minneapolisfed.org/article/2021/systemic-racism-haunts-homeownership-rates-in-minnesota",
+   "href": "https://www.minneapolisfed.org/article/2021/systemic-racism-haunts-homeownership-rates-in-minnesota",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://www.minneapolisfed.org/article/2021/systemic-racism-haunts-homeownership-rates-in-minnesota",
+   "redirected": false,
+   "contentType": "text/html; charset=utf-8",
+   "title": "Systemic racism haunts homeownership rates in Minnesota | Federal Reserve Bank of Minneapolis",
+   "bytes": 211085,
+   "checkedAt": "2026-09-25T20:27:02.559Z",
    "error": null
   },
   {
@@ -3482,6 +5068,32 @@
    "error": null
   },
   {
+   "sourceId": "url:https://www.mncompass.org/topics/quality-of-life/housing",
+   "href": "https://www.mncompass.org/topics/quality-of-life/housing",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://www.mncompass.org/topics/quality-of-life/housing",
+   "redirected": false,
+   "contentType": "text/html; charset=UTF-8",
+   "title": "Housing | MN Compass",
+   "bytes": 102121,
+   "checkedAt": "2026-09-25T20:27:08.610Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://www.mnhs.org/mnopedia/search/index/group/tibetan-american-foundation-minnesota-tafm",
+   "href": "https://www.mnhs.org/mnopedia/search/index/group/tibetan-american-foundation-minnesota-tafm",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://www.mnhs.org/mnopedia/search/index/group/tibetan-american-foundation-minnesota-tafm",
+   "redirected": false,
+   "contentType": "text/html; charset=UTF-8",
+   "title": "Tibetan American Foundation of Minnesota (TAFM) | MNopedia",
+   "bytes": 214321,
+   "checkedAt": "2026-09-25T20:27:08.676Z",
+   "error": null
+  },
+  {
    "sourceId": "url:https://www.mnhs.org/mnopedia/search/index/somali-and-somali-american-experiences-minnesota",
    "href": "https://www.mnhs.org/mnopedia/search/index/somali-and-somali-american-experiences-minnesota",
    "status": 200,
@@ -3508,6 +5120,19 @@
    "error": null
   },
   {
+   "sourceId": "url:https://www.nad.org/resources/american-sign-language/community-and-culture-frequently-asked-questions",
+   "href": "https://www.nad.org/resources/american-sign-language/community-and-culture-frequently-asked-questions/",
+   "status": 404,
+   "ok": false,
+   "finalUrl": "https://nad.org/resources/american-sign-language/community-and-culture-frequently-asked-questions/",
+   "redirected": true,
+   "contentType": "text/html; charset=UTF-8",
+   "title": "Page not found &#8211; National Association of the Deaf",
+   "bytes": 70365,
+   "checkedAt": "2026-09-25T20:27:08.694Z",
+   "error": null
+  },
+  {
    "sourceId": "url:https://www.nationaldisabilityinstitute.org/",
    "href": "https://www.nationaldisabilityinstitute.org/",
    "status": 200,
@@ -3518,6 +5143,19 @@
    "title": "Transforming Lives for People with Disabilities | National Disability Institute",
    "bytes": 250324,
    "checkedAt": "2026-09-19T03:06:27.143Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://www.nature.com/articles/s41586-024-07500-2",
+   "href": "https://www.nature.com/articles/s41586-024-07500-2",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://idp.nature.com/transit?redirect_uri=https%3A%2F%2Fwww.nature.com%2Farticles%2Fs41586-024-07500-2&code=56ac8934-fb79-4dfb-98d0-194a4db482c8",
+   "redirected": true,
+   "contentType": "text/html; charset=utf-8",
+   "title": "Client Challenge",
+   "bytes": 3036,
+   "checkedAt": "2026-09-25T20:27:01.669Z",
    "error": null
   },
   {
@@ -3560,6 +5198,45 @@
    "error": null
   },
   {
+   "sourceId": "url:https://www.nctsn.org/trauma-informed-care/secondary-traumatic-stress",
+   "href": "https://www.nctsn.org/trauma-informed-care/secondary-traumatic-stress",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://www.nctsn.org/trauma-informed-care/secondary-traumatic-stress",
+   "redirected": false,
+   "contentType": "text/html; charset=utf-8",
+   "title": "Secondary Traumatic Stress | The National Child Traumatic Stress Network",
+   "bytes": 167284,
+   "checkedAt": "2026-09-25T20:27:08.735Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://www.nidcd.nih.gov/health/american-sign-language",
+   "href": "https://www.nidcd.nih.gov/health/american-sign-language",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://www.nidcd.nih.gov/health/american-sign-language",
+   "redirected": false,
+   "contentType": "text/html; charset=UTF-8",
+   "title": "What Is American Sign Language (ASL)? | NIDCD",
+   "bytes": 47313,
+   "checkedAt": "2026-09-25T20:27:08.876Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://www.nist.gov/itl/ai-risk-management-framework",
+   "href": "https://www.nist.gov/itl/ai-risk-management-framework",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://www.nist.gov/itl/ai-risk-management-framework",
+   "redirected": false,
+   "contentType": "text/html; charset=UTF-8",
+   "title": "AI Risk Management Framework | NIST",
+   "bytes": 93773,
+   "checkedAt": "2026-09-25T20:27:08.856Z",
+   "error": null
+  },
+  {
    "sourceId": "url:https://www.npr.org/2017/05/03/526655831/a-forgotten-history-of-how-the-u-s-government-segregated-america",
    "href": "https://www.npr.org/2017/05/03/526655831/a-forgotten-history-of-how-the-u-s-government-segregated-america",
    "status": null,
@@ -3573,6 +5250,19 @@
    "error": "timeout"
   },
   {
+   "sourceId": "url:https://www.opm.gov/agency-services/talent-management-services/strategic-consulting/workforce-and-succession-planning/succession-planning",
+   "href": "https://www.opm.gov/agency-services/talent-management-services/strategic-consulting/workforce-and-succession-planning/succession-planning/",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://www.opm.gov/agency-services/talent-management-services/strategic-consulting/workforce-and-succession-planning/succession-planning/",
+   "redirected": false,
+   "contentType": "text/html; charset=utf-8",
+   "title": "Succession Planning",
+   "bytes": 74220,
+   "checkedAt": "2026-09-25T20:27:10.992Z",
+   "error": null
+  },
+  {
    "sourceId": "url:https://www.pbs.org/video/minds-that-matter-tim-wise-myglub",
    "href": "https://www.pbs.org/video/minds-that-matter-tim-wise-myglub/",
    "status": 200,
@@ -3583,6 +5273,19 @@
    "title": "Minds That Matter | Minds That Matter: Tim Wise | PBS",
    "bytes": 447984,
    "checkedAt": "2026-09-15T12:07:42.408Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://www.pewresearch.org/religious-landscape-study/state/minnesota",
+   "href": "https://www.pewresearch.org/religious-landscape-study/state/minnesota/",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://www.pewresearch.org/religious-landscape-study/state/minnesota/",
+   "redirected": false,
+   "contentType": "text/html; charset=UTF-8",
+   "title": "People in Minnesota | Religious Landscape Study (RLS) | Pew Research Center",
+   "bytes": 1050054,
+   "checkedAt": "2026-09-25T20:27:09.734Z",
    "error": null
   },
   {
@@ -3677,6 +5380,19 @@
    "error": null
   },
   {
+   "sourceId": "url:https://www.raceforward.org/what-racial-equity-0",
+   "href": "https://www.raceforward.org/what-racial-equity-0",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://www.raceforward.org/what-racial-equity-0",
+   "redirected": false,
+   "contentType": "text/html; charset=UTF-8",
+   "title": "What is Racial Equity? | Race Forward",
+   "bytes": 40295,
+   "checkedAt": "2026-09-25T20:27:09.791Z",
+   "error": null
+  },
+  {
    "sourceId": "url:https://www.racialequityalliance.org/",
    "href": "https://www.racialequityalliance.org/",
    "status": 200,
@@ -3755,19 +5471,6 @@
    "error": null
   },
   {
-   "sourceId": "url:https://www.revisor.mn.gov/statutes?id=245D",
-   "href": "https://www.revisor.mn.gov/statutes/?id=245D",
-   "status": 200,
-   "ok": true,
-   "finalUrl": "https://www.revisor.mn.gov/statutes/cite/245D",
-   "redirected": true,
-   "contentType": "text/html; charset=utf-8",
-   "title": "Ch. 245D MN Statutes",
-   "bytes": 70535,
-   "checkedAt": "2026-09-15T12:07:33.640Z",
-   "error": null
-  },
-  {
    "sourceId": "url:https://www.revisor.mn.gov/statutes/cite/10.65",
    "href": "https://www.revisor.mn.gov/statutes/cite/10.65",
    "status": 200,
@@ -3794,6 +5497,45 @@
    "error": null
   },
   {
+   "sourceId": "url:https://www.revisor.mn.gov/statutes/cite/13.03",
+   "href": "https://www.revisor.mn.gov/statutes/cite/13.03",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://www.revisor.mn.gov/statutes/cite/13.03",
+   "redirected": false,
+   "contentType": "text/html; charset=utf-8",
+   "title": "Sec. 13.03 MN Statutes",
+   "bytes": 84976,
+   "checkedAt": "2026-09-25T20:27:08.341Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://www.revisor.mn.gov/statutes/cite/13.04",
+   "href": "https://www.revisor.mn.gov/statutes/cite/13.04",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://www.revisor.mn.gov/statutes/cite/13.04",
+   "redirected": false,
+   "contentType": "text/html; charset=utf-8",
+   "title": "Sec. 13.04 MN Statutes",
+   "bytes": 75847,
+   "checkedAt": "2026-09-25T20:27:00.395Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://www.revisor.mn.gov/statutes/cite/13.05",
+   "href": "https://www.revisor.mn.gov/statutes/cite/13.05",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://www.revisor.mn.gov/statutes/cite/13.05",
+   "redirected": false,
+   "contentType": "text/html; charset=utf-8",
+   "title": "Sec. 13.05 MN Statutes",
+   "bytes": 81206,
+   "checkedAt": "2026-09-25T20:27:00.582Z",
+   "error": null
+  },
+  {
    "sourceId": "url:https://www.revisor.mn.gov/statutes/cite/15.441",
    "href": "https://www.revisor.mn.gov/statutes/cite/15.441",
    "status": 200,
@@ -3807,6 +5549,32 @@
    "error": null
   },
   {
+   "sourceId": "url:https://www.revisor.mn.gov/statutes/cite/16B.4805",
+   "href": "https://www.revisor.mn.gov/statutes/cite/16B.4805",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://www.revisor.mn.gov/statutes/cite/16B.4805",
+   "redirected": false,
+   "contentType": "text/html; charset=utf-8",
+   "title": "Sec. 16B.4805 MN Statutes",
+   "bytes": 66915,
+   "checkedAt": "2026-09-25T20:27:08.271Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://www.revisor.mn.gov/statutes/cite/245C.22",
+   "href": "https://www.revisor.mn.gov/statutes/cite/245C.22",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://www.revisor.mn.gov/statutes/cite/245C.22",
+   "redirected": false,
+   "contentType": "text/html; charset=utf-8",
+   "title": "Sec. 245C.22 MN Statutes",
+   "bytes": 89595,
+   "checkedAt": "2026-09-25T20:27:07.935Z",
+   "error": null
+  },
+  {
    "sourceId": "url:https://www.revisor.mn.gov/statutes/cite/245D",
    "href": "https://www.revisor.mn.gov/statutes/cite/245D",
    "status": 200,
@@ -3817,6 +5585,32 @@
    "title": "Ch. 245D MN Statutes",
    "bytes": 70535,
    "checkedAt": "2026-09-15T12:07:40.157Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://www.revisor.mn.gov/statutes/cite/245D.06",
+   "href": "https://www.revisor.mn.gov/statutes/cite/245D.06",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://www.revisor.mn.gov/statutes/cite/245D.06",
+   "redirected": false,
+   "contentType": "text/html; charset=utf-8",
+   "title": "Sec. 245D.06 MN Statutes",
+   "bytes": 88689,
+   "checkedAt": "2026-09-25T20:27:07.945Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://www.revisor.mn.gov/statutes/cite/245D.061",
+   "href": "https://www.revisor.mn.gov/statutes/cite/245D.061",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://www.revisor.mn.gov/statutes/cite/245D.061",
+   "redirected": false,
+   "contentType": "text/html; charset=utf-8",
+   "title": "Sec. 245D.061 MN Statutes",
+   "bytes": 75902,
+   "checkedAt": "2026-09-25T20:27:07.972Z",
    "error": null
   },
   {
@@ -3843,6 +5637,19 @@
    "title": "Ch. 363A MN Statutes",
    "bytes": 71070,
    "checkedAt": "2026-09-15T12:07:39.717Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://www.revisor.mn.gov/statutes/cite/363A.03",
+   "href": "https://www.revisor.mn.gov/statutes/cite/363A.03",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://www.revisor.mn.gov/statutes/cite/363A.03",
+   "redirected": false,
+   "contentType": "text/html; charset=utf-8",
+   "title": "Sec. 363A.03 MN Statutes",
+   "bytes": 92963,
+   "checkedAt": "2026-09-25T20:27:08.359Z",
    "error": null
   },
   {
@@ -3885,6 +5692,19 @@
    "error": null
   },
   {
+   "sourceId": "url:https://www.revisor.mn.gov/statutes?id=245D",
+   "href": "https://www.revisor.mn.gov/statutes/?id=245D",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://www.revisor.mn.gov/statutes/cite/245D",
+   "redirected": true,
+   "contentType": "text/html; charset=utf-8",
+   "title": "Ch. 245D MN Statutes",
+   "bytes": 70535,
+   "checkedAt": "2026-09-15T12:07:33.640Z",
+   "error": null
+  },
+  {
    "sourceId": "url:https://www.samhsa.gov/",
    "href": "https://www.samhsa.gov/",
    "status": 200,
@@ -3921,6 +5741,58 @@
    "title": "Disaster Behavioral Health Information Series Resource Center | SAMHSA",
    "bytes": 808889,
    "checkedAt": "2026-09-15T12:07:41.933Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://www.samhsa.gov/substance-use/recovery",
+   "href": "https://www.samhsa.gov/substance-use/recovery",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://www.samhsa.gov/substance-use/recovery",
+   "redirected": false,
+   "contentType": "text/html; charset=UTF-8",
+   "title": "Recovery and Support | SAMHSA",
+   "bytes": 703695,
+   "checkedAt": "2026-09-25T20:27:00.640Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://www.samhsa.gov/technical-assistance/dtac/ccp/self-care",
+   "href": "https://www.samhsa.gov/technical-assistance/dtac/ccp/self-care",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://www.samhsa.gov/technical-assistance/dtac/ccp/self-care",
+   "redirected": false,
+   "contentType": "text/html; charset=UTF-8",
+   "title": "Compassion Fatigue and Self-care Resources for Crisis Counselors: CCP Toolkit | SAMHSA",
+   "bytes": 697178,
+   "checkedAt": "2026-09-25T20:27:10.066Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://www.sciencedirect.com/science/article/abs/pii/S0147176703000324",
+   "href": "https://www.sciencedirect.com/science/article/abs/pii/S0147176703000324",
+   "status": 403,
+   "ok": false,
+   "finalUrl": "https://www.sciencedirect.com/science/article/abs/pii/S0147176703000324",
+   "redirected": false,
+   "contentType": "text/html; charset=UTF-8",
+   "title": "ScienceDirect",
+   "bytes": 832803,
+   "checkedAt": "2026-09-25T20:27:00.147Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://www.sciencedirect.com/science/article/abs/pii/S1090951601000700",
+   "href": "https://www.sciencedirect.com/science/article/abs/pii/S1090951601000700",
+   "status": 403,
+   "ok": false,
+   "finalUrl": "https://www.sciencedirect.com/science/article/abs/pii/S1090951601000700",
+   "redirected": false,
+   "contentType": "text/html; charset=UTF-8",
+   "title": "ScienceDirect",
+   "bytes": 832803,
+   "checkedAt": "2026-09-25T20:27:04.165Z",
    "error": null
   },
   {
@@ -4080,6 +5952,19 @@
    "error": null
   },
   {
+   "sourceId": "url:https://www.ssa.gov/pubs/EN-05-10133.pdf",
+   "href": "https://www.ssa.gov/pubs/EN-05-10133.pdf",
+   "status": 403,
+   "ok": false,
+   "finalUrl": "https://www.ssa.gov/pubs/EN-05-10133.pdf",
+   "redirected": false,
+   "contentType": "text/html",
+   "title": "Access Denied",
+   "bytes": 397,
+   "checkedAt": "2026-09-25T20:27:10.166Z",
+   "error": null
+  },
+  {
    "sourceId": "url:https://www.ssa.gov/work",
    "href": "https://www.ssa.gov/work/",
    "status": 403,
@@ -4090,6 +5975,19 @@
    "title": "Access Denied",
    "bytes": 370,
    "checkedAt": "2026-09-19T03:06:21.249Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://www.stat.berkeley.edu/~census/ecofall.txt",
+   "href": "https://www.stat.berkeley.edu/~census/ecofall.txt",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://www.stat.berkeley.edu/~census/ecofall.txt",
+   "redirected": false,
+   "contentType": "text/plain",
+   "title": null,
+   "bytes": 4227,
+   "checkedAt": "2026-09-25T20:27:00.991Z",
    "error": null
   },
   {
@@ -4207,6 +6105,19 @@
    "title": "Federally recognized Indian tribes and resources for Native Americans | USAGov",
    "bytes": 36340,
    "checkedAt": "2026-09-15T12:07:43.294Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://www.uscis.gov/humanitarian/information-for-afghan-nationals",
+   "href": "https://www.uscis.gov/humanitarian/information-for-afghan-nationals",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://www.uscis.gov/humanitarian/information-for-afghan-nationals",
+   "redirected": false,
+   "contentType": "text/html; charset=utf-8",
+   "title": "Information for Afghan Nationals | USCIS",
+   "bytes": 190304,
+   "checkedAt": "2026-09-25T20:27:10.335Z",
    "error": null
   },
   {
@@ -4373,7 +6284,7 @@
    "finalUrl": "https://www.w3.org/WAI/test-evaluate/easy-checks/",
    "redirected": false,
    "contentType": "text/html; charset=utf-8",
-   "title": "[Draft] Easy Checks – A First Review of Web Accessibility | Web Accessibility Initiative (WAI) | W3C",
+   "title": "[Draft] Easy Checks \u2013 A First Review of Web Accessibility | Web Accessibility Initiative (WAI) | W3C",
    "bytes": 42230,
    "checkedAt": "2026-09-15T12:07:43.510Z",
    "error": null
@@ -4386,7 +6297,7 @@
    "finalUrl": "https://www.w3.org/WAI/test-evaluate/preliminary/",
    "redirected": false,
    "contentType": "text/html; charset=utf-8",
-   "title": "Easy Checks – A First Review of Web Accessibility | Web Accessibility Initiative (WAI) | W3C",
+   "title": "Easy Checks \u2013 A First Review of Web Accessibility | Web Accessibility Initiative (WAI) | W3C",
    "bytes": 129785,
    "checkedAt": "2026-09-15T12:07:43.515Z",
    "error": null
@@ -4399,7 +6310,7 @@
    "finalUrl": "https://www.w3.org/WAI/tips/writing/",
    "redirected": false,
    "contentType": "text/html; charset=utf-8",
-   "title": "Writing for Web Accessibility – Tips for Getting Started | Web Accessibility Initiative (WAI) | W3C",
+   "title": "Writing for Web Accessibility \u2013 Tips for Getting Started | Web Accessibility Initiative (WAI) | W3C",
    "bytes": 66543,
    "checkedAt": "2026-09-15T12:07:35.418Z",
    "error": null
@@ -4467,6 +6378,58 @@
    "title": "RACIAL EQUITY PRINCIPLES - WHITE SUPREMACY CULTURE",
    "bytes": 162712,
    "checkedAt": "2026-09-25T00:37:56.633Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://www.who.int/news-room/q-a-detail/ageing-ageism",
+   "href": "https://www.who.int/news-room/q-a-detail/ageing-ageism",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://www.who.int/news-room/questions-and-answers/item/ageing-ageism",
+   "redirected": true,
+   "contentType": "text/html; charset=utf-8",
+   "title": "Ageing: Ageism",
+   "bytes": 92229,
+   "checkedAt": "2026-09-25T20:27:11.409Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://www.who.int/news/item/18-03-2021-ageism-is-a-global-challenge-un",
+   "href": "https://www.who.int/news/item/18-03-2021-ageism-is-a-global-challenge-un",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://www.who.int/news/item/18-03-2021-ageism-is-a-global-challenge-un",
+   "redirected": false,
+   "contentType": "text/html; charset=utf-8",
+   "title": "Ageism is a global challenge: UN",
+   "bytes": 109251,
+   "checkedAt": "2026-09-25T20:27:11.531Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://www.who.int/news/item/28-05-2019-burn-out-an-occupational-phenomenon-international-classification-of-diseases",
+   "href": "https://www.who.int/news/item/28-05-2019-burn-out-an-occupational-phenomenon-international-classification-of-diseases",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://www.who.int/news/item/28-05-2019-burn-out-an-occupational-phenomenon-international-classification-of-diseases",
+   "redirected": false,
+   "contentType": "text/html; charset=utf-8",
+   "title": "Burn-out an &quot;occupational phenomenon&quot;: International Classification of Diseases",
+   "bytes": 88946,
+   "checkedAt": "2026-09-25T20:27:11.562Z",
+   "error": null
+  },
+  {
+   "sourceId": "url:https://www.zumbrolutheran.org/sudanese-dinka-congregation",
+   "href": "https://www.zumbrolutheran.org/sudanese-dinka-congregation",
+   "status": 200,
+   "ok": true,
+   "finalUrl": "https://www.zumbrolutheran.org/sudanese-dinka-congregation",
+   "redirected": false,
+   "contentType": "text/html; charset=UTF-8",
+   "title": "Sudanese Dinka Congregation - ZUMBRO LUTHERAN CHURCH",
+   "bytes": 294120,
+   "checkedAt": "2026-09-25T20:27:11.572Z",
    "error": null
   }
  ]
