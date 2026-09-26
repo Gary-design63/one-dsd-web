@@ -9,9 +9,11 @@ export const metadata: Metadata = { title: "Courses" };
 export const dynamic = "force-dynamic";
 
 /** Index of published courses for the selected program view; every course page links back to /courses. */
-export default async function CoursesPage() {
+export default async function CoursesPage({ searchParams }: { searchParams?: Promise<{ browse?: string }> }) {
   const scope = await requestedContentScope();
   const courses = await publishedCourses(scope);
+  const expanded = (await searchParams)?.browse === "all";
+  const visibleCourses = expanded ? courses : courses.slice(0, 6);
   const countLabel = courses.length === 1 ? "1 course" : `${courses.length} courses`;
   return (
     <div>
@@ -23,10 +25,11 @@ export default async function CoursesPage() {
       <div className="wrap max-w-5xl space-y-8 py-10">
         <p><Link href="/learn">← Learning and resources</Link></p>
         <section aria-labelledby="course-list-title">
-          <h2 id="course-list-title" className="text-2xl font-extrabold">{countLabel}</h2>
+          <h2 id="course-list-title" className="text-2xl font-extrabold">{expanded ? countLabel : "Start with a course"}</h2>
+          {!expanded && courses.length > visibleCourses.length ? <p>Here are a few places to begin. You can browse the full course collection whenever you are ready.</p> : null}
           {courses.length ? (
             <ul className="mt-4 grid list-none gap-x-12 gap-y-7 p-0 md:grid-cols-2">
-              {courses.map(({ pack }) => (
+              {visibleCourses.map(({ pack }) => (
                 <li key={pack.course.id} className="border-t border-line pt-4">
                   {pack.course.seriesLabel ? <p className="kicker">{pack.course.seriesLabel}</p> : null}
                   <h3 className="text-xl font-extrabold">
@@ -40,6 +43,7 @@ export default async function CoursesPage() {
           ) : (
             <p className="mt-4">No courses are published for this view yet. Explore <Link href="/learn">learning and resources</Link> for other material.</p>
           )}
+          {courses.length > 6 ? <p className="mt-6"><Link href={expanded ? "/courses#course-list-title" : "/courses?browse=all#course-list-title"}>{expanded ? "Show fewer courses" : `Browse all ${countLabel} →`}</Link></p> : null}
         </section>
         <p className="text-sm">{TRAINING_CREDIT_NOTICE}</p>
       </div>
