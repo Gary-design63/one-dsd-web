@@ -27,6 +27,7 @@ export function stageGuidance(journey: DevelopmentJourney, stage: string): strin
 
 /** Public route context supplies guidance; no tracking or individual orientation is inferred. */
 export function developmentContext(pathname: string): { title: string; body: string; journeyId?: string } | undefined {
+  if (pathname === "/learn/equity-toolkit") return undefined;
   if (/^\/(?:api|consultant|contribute|share|journeys)(?:\/|$)/.test(pathname) || pathname === "/") return undefined;
   if (/^\/(?:courses|resources|library)\//.test(pathname)) return undefined;
   if (pathname.startsWith("/ask")) return { title: "Carry a useful answer forward", body: "When a question points to a change, explore whose perspective matters, rehearse an option, and choose a useful next step." };
