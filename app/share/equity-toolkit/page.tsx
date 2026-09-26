@@ -1,11 +1,11 @@
 import Image from "next/image";
 import styles from "../../learn/learning-family.module.css";
 import { EditableSurfaceRegion, prepareEditableSurface } from "@/components/editable-surface";
-import { EquityToolkitExperience } from "@/components/equity-toolkit-experience";
 import { PublishedPodcast } from "@/components/published-podcast";
 import { PODCASTS } from "@/lib/content/podcasts";
-import { stringValue, linkListValue } from "@/lib/content/staff-surface-registry";
+import { stringValue } from "@/lib/content/staff-surface-registry";
 import { EQUITY_TOOLKIT_HERO_IMAGE } from "@/lib/content/page-images";
+import Link from "next/link";
 
 export const dynamic = "force-dynamic";
 
@@ -40,11 +40,7 @@ export default async function SharedEquityToolkitPage() {
               <h1 className="text-4xl font-semibold">{text("title")}</h1>
               <p className="text-xl">{text("intro")}</p>
               <p>{text("companionNote")}</p>
-              <nav className="flex flex-wrap gap-6">
-                <a href="#toolkit-practice">{text("practiceLabel")}</a>
-                <a href="#toolkit-draft">{text("workLabel")}</a>
-                <a href="#toolkit-resources">{text("resourcesTitle")}</a>
-              </nav>
+              <p><Link href="/share/equity-toolkit/practice">Continue to practice and resources →</Link></p>
               <p className={styles.shareNote}>You&rsquo;re viewing a shared link to this toolkit only. It doesn&rsquo;t include the rest of the program.</p>
             </div>
             <div className={styles.heroCover}>
@@ -52,16 +48,7 @@ export default async function SharedEquityToolkitPage() {
             </div>
           </header>
           <PublishedPodcast headingLevel={2} podcast={PODCASTS[0]} surface={podcastSurface} />
-          <EquityToolkitExperience values={surface.values} />
-          <section id="toolkit-resources" className="space-y-4 border-t border-line pt-8 print:hidden">
-            <h2 className="text-2xl font-semibold">{text("resourcesTitle")}</h2>
-            <p>{text("resourcesIntro")}</p>
-            <p className="max-w-3xl">{text("resourceIntro")}</p>
-            <ul className="list-disc space-y-3 pl-6">{linkListValue(surface.values, "supportingResources").map(link => (
-              <li key={link.href}>{link.href.startsWith("http") ? <a href={link.href} rel="noreferrer">{link.label}</a> : link.label}</li>
-            ))}</ul>
-            <p className={styles.shareNote}>Links to other parts of the program aren&rsquo;t included in this shared view.</p>
-          </section>
+          <nav aria-label="Continue the toolkit" className="border-t border-line pt-8 print:hidden"><Link className={styles.primaryAction} href="/share/equity-toolkit/practice">Continue to practice with the toolkit →</Link></nav>
         </div>
       </EditableSurfaceRegion>
     </>

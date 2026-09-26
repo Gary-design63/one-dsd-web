@@ -26,7 +26,7 @@ export default async function MyWorkPage({ searchParams }: { searchParams: Promi
         <section className="rounded-xl border border-line bg-white p-6" aria-labelledby="goal-work-plan-title">
           <h2 id="goal-work-plan-title" className="text-2xl font-bold">Connect your work to the six equity goals</h2>
           <p className="my-3">Supervisors and managers can choose three planning priorities, identify actions and support, and download a work plan for review. All six goals remain visible. Selecting priorities does not remove policy responsibilities.</p>
-          <Link className="btn btn--primary" href="/learn/equity-toolkit#equity-work-plan">Prepare your three-goal work plan</Link>
+          <Link className="btn btn--primary" href="/learn/equity-toolkit/goals#equity-work-plan">Prepare your three-goal work plan</Link>
         </section>
         <DevelopmentFocus initialFocus={focus} />
         <StaffWorkBrowse scope={scope} />
