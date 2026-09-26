@@ -25,14 +25,15 @@ const fields: { key: FieldKey; label: string; help: string }[] = [
   { key: "evidence", label: "Evidence of progress and reasons to revise", help: "What would show whether the change helps? Include feedback, evidence limits and what would trigger a different approach." },
 ];
 const navy = "#173d59";
-const panel: React.CSSProperties = { border: "1px solid #cbd5e1", borderRadius: 8, padding: "clamp(16px, 3vw, 28px)", background: "#fff", minWidth: 0 };
-const button: React.CSSProperties = { minHeight: 44, padding: "10px 16px", border: `1px solid ${navy}`, borderRadius: 4, background: "white", color: navy, font: "inherit", cursor: "pointer" };
+const goalAccents = ["#28617b", "#7655a0", "#98601e", "#327253", "#a0485b", "#4667a5"];
+const panel: React.CSSProperties = { border: "1px solid #cbd5e1", borderRadius: 12, padding: "clamp(16px, 3vw, 28px)", background: "#fff", minWidth: 0, boxShadow: "0 3px 12px rgba(24, 47, 65, 0.05)" };
+const button: React.CSSProperties = { minHeight: 44, padding: "10px 16px", border: `1px solid ${navy}`, borderRadius: 6, background: "#e9f2f7", color: navy, font: "inherit", fontWeight: 700, cursor: "pointer" };
 const heading: React.CSSProperties = { fontSize: "1.45rem", lineHeight: 1.3, fontWeight: 700, margin: "0 0 12px" };
 const paragraph: React.CSSProperties = { margin: "10px 0", maxWidth: "85ch" };
 
 /** Goal-first companion and local preparation tool, not an official assessment or submission. */
 export function EquityGoalExperience({ resourceLinks = [], linkPrefix = "", scope = "dsd" }: EquityGoalExperienceProps) {
-  const [filter, setFilter] = React.useState("all");
+  const [filter, setFilter] = React.useState("");
   const [selected, setSelected] = React.useState<number[]>([]);
   const [drafts, setDrafts] = React.useState<Record<number, Draft>>({});
   const [message, setMessage] = React.useState("");
@@ -47,6 +48,7 @@ export function EquityGoalExperience({ resourceLinks = [], linkPrefix = "", scop
   const shownResources = Array.from(new Map(filteredGoals.flatMap(goal => goal.resources)
     .filter(resource => available.has(resource.id))
     .map(resource => [resource.id, available.get(resource.id)!] as const)).values()).filter(resource => safeHref(resource.href));
+  const resourceList = <ul style={{ paddingLeft: 24, display: "grid", gap: 10 }}>{shownResources.map(resource => <li key={resource.id}><a href={routedHref(resource.href)} style={{ color: navy, textDecoration: "underline", textUnderlineOffset: 3 }}>{resource.title}</a></li>)}</ul>;
   const program = scope === "one-dhs" ? "One DHS People, Access and Culture" : "One DSD People, Access and Culture";
 
   function toggleGoal(number: number) {
@@ -83,24 +85,29 @@ export function EquityGoalExperience({ resourceLinks = [], linkPrefix = "", scop
   }
 
   return <div id="equity-goals" data-equity-goal-experience style={{ color: "#182f41", lineHeight: 1.65, display: "grid", gap: 28, scrollMarginTop: 24 }}>
-    <header style={{ ...panel, background: navy, color: "#fff" }}>
-      <p style={{ margin: "0 0 8px", fontWeight: 700 }}>{program}</p>
-      <h2 style={{ ...heading, color: "#fff", fontSize: "clamp(1.7rem, 3vw, 2.3rem)" }}>Six goals. Practical decisions. Supported action.</h2>
-      <p style={paragraph}>These six goals come from the Aging and Disability Services Administration (ADSA) Equity and Inclusion Implementation Plan. They organize this companion in both program views; their ADSA origin does not make them a new goal mandate for every DHS administration.</p>
-      <p style={paragraph}>The DHS Equity Policy and use of its Equity Analysis Toolkit are required responsibilities for all DHS staff. This companion learning is optional and does not replace required agency training. Staff apply the current policy and toolkit to their work; the equity consultant and appropriate partners provide guidance, facilitation and analysis support. That support does not transfer staff responsibility or grant approval authority.</p>
-      <p style={paragraph}>The goals describe what to improve. The official toolkit guides how to examine a decision. The plan below helps record action and follow-through. Use the current official decision guidance to determine the appropriate review; a short timeline alone does not establish that a scan is sufficient.</p>
-      <p style={paragraph}>In DSD, the <strong>One DSD Team</strong> is the division equity team. DHS and ADSA committees retain their own names and responsibilities.</p>
-      <button type="button" onClick={() => { planner.current?.focus({ preventScroll: true }); planner.current?.scrollIntoView({ behavior: "auto", block: "start" }); }} style={{ ...button, color: "#fff", background: "transparent", borderColor: "#fff" }}>Go to the manager and supervisor three-goal planner</button>
+    <header style={{ ...panel, background: "#fff", color: "#182f41", overflow: "hidden" }}>
+      <div aria-hidden="true" style={{ display: "flex", height: 6, margin: "0 0 24px", borderRadius: 4 }}>{goalAccents.map(accent => <span key={accent} style={{ flex: 1, background: accent }} />)}</div>
+      <p style={{ margin: "0 0 8px", color: navy, fontWeight: 700, letterSpacing: "0.04em" }}>{program}</p>
+      <h2 style={{ ...heading, color: navy, fontSize: "clamp(1.7rem, 3vw, 2.3rem)" }}>Putting equity into practice</h2>
+      <p style={paragraph}>The six goals can help you see where to focus and what to try next in your work.</p>
+      <p style={paragraph}>Using the DHS Equity Policy and its Equity Analysis Toolkit is part of every staff member’s responsibility. Equity professionals can help you work through it.</p>
+      <details style={{ margin: "18px 0" }}><summary style={{ cursor: "pointer", color: navy, fontWeight: 700 }}>About these goals and the toolkit</summary>
+        <p style={paragraph}>These six goals come from the Aging and Disability Services Administration (ADSA) Equity and Inclusion Implementation Plan. They organize this companion in both program views; their ADSA origin does not make them a new goal mandate for every DHS administration.</p>
+        <p style={paragraph}>This companion learning does not replace required agency training. Staff apply the current policy and toolkit to their work; the equity consultant and appropriate partners provide guidance, facilitation and analysis support. That support does not transfer staff responsibility or grant approval authority.</p>
+        <p style={paragraph}>The goals describe what to improve. The official toolkit guides how to examine a decision. The plan below helps record action and follow-through. Use the current official decision guidance to determine the appropriate review; a short timeline alone does not establish that a scan is sufficient.</p>
+        <p style={paragraph}>In DSD, the <strong>One DSD Team</strong> is the division equity team. DHS and ADSA committees retain their own names and responsibilities.</p>
+      </details>
+      <button type="button" onClick={() => { planner.current?.focus({ preventScroll: true }); planner.current?.scrollIntoView({ behavior: "auto", block: "start" }); }} style={{ ...button, color: "#fff", background: navy }}>Open the three-goal work plan</button>
     </header>
 
     <section aria-label="The six ADSA goals" style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(min(100%, 320px), 1fr))", gap: 20 }}>
-      {goals.map(goal => <article id={goal.id} key={goal.number} style={{ ...panel, scrollMarginTop: 24 }}>
-        <p style={{ margin: "0 0 6px", color: navy, fontWeight: 700 }}>Goal {goal.number}</p>
+      {goals.map(goal => <article id={goal.id} key={goal.number} style={{ ...panel, borderTop: `6px solid ${goalAccents[goal.number - 1]}`, scrollMarginTop: 24 }}>
+        <p style={{ margin: "0 0 6px", color: goalAccents[goal.number - 1], fontWeight: 700 }}>Goal {goal.number}</p>
         <h3 style={heading}>{goal.title}</h3>
         <p style={paragraph}>{goal.summary}</p>
-        <p style={paragraph}><strong>In practice:</strong> {goal.example}</p>
-        <details style={{ marginTop: 14 }}>
-          <summary style={{ cursor: "pointer", padding: "8px 0", fontWeight: 700 }}>Examine this goal through the toolkit</summary>
+        <details style={{ marginTop: 14, padding: "4px 12px", borderRadius: 6, background: "#f1f5f8" }}>
+          <summary style={{ cursor: "pointer", padding: "8px 0", fontWeight: 700 }}>Explore this goal</summary>
+          <p style={paragraph}><strong>In practice:</strong> {goal.example}</p>
           <ul style={{ paddingLeft: 24 }}>{goal.questions.map(question => <li key={question} style={{ margin: "8px 0" }}>{question}</li>)}</ul>
           <p style={paragraph}><strong>Anti-racism in practice:</strong> {goal.antiRacism}</p>
           <p style={paragraph}><strong>A useful working output:</strong> {goal.output}</p>
@@ -108,20 +115,22 @@ export function EquityGoalExperience({ resourceLinks = [], linkPrefix = "", scop
       </article>)}
     </section>
 
-    <section style={panel} aria-label="Resources connected to the goals">
+    <section style={{ ...panel, background: "#f4f8fa", borderLeft: "5px solid #28617b" }} aria-label="Resources connected to the goals">
       <h2 style={heading}>Find resources for a goal</h2>
-      <p style={paragraph}>Choose a goal to narrow these learning and tool connections. All six goals remain visible above, and the wider resource collection remains available. Resource connections are program guidance, not additional policy requirements.</p>
-      <label style={{ display: "grid", gap: 8, maxWidth: 560, fontWeight: 700 }}>Filter resource connections
+      <p style={paragraph}>Choose a goal to find related learning and tools.</p>
+      <label style={{ display: "grid", gap: 8, maxWidth: 560, fontWeight: 700 }}>Choose a goal
         <select value={filter} onChange={event => setFilter(event.target.value)} style={{ padding: 12, minHeight: 44, width: "100%", border: "1px solid #64748b", borderRadius: 4, background: "#fff", color: navy, font: "inherit" }}>
-          <option value="all">All six goals</option>
+          <option value="">Choose a goal to begin</option>
           {goals.map(goal => <option key={goal.number} value={String(goal.number)}>Goal {goal.number}: {goal.title}</option>)}
+          <option value="all">Browse all connected resources</option>
         </select>
       </label>
-      <p aria-live="polite" style={paragraph}>{shownResources.length} resource{shownResources.length === 1 ? "" : "s"} available in this view{filter === "all" ? " across all six goals" : ` for Goal ${filter}`}.</p>
-      {shownResources.length ? <ul style={{ paddingLeft: 24, display: "grid", gap: 10 }}>{shownResources.map(resource => <li key={resource.id}><a href={routedHref(resource.href)} style={{ color: navy, textDecoration: "underline", textUnderlineOffset: 3 }}>{resource.title}</a></li>)}</ul> : <p style={paragraph}>No connected resources are released in this view for this selection. You can still use the goal prompts and prepare a plan.</p>}
+      {filter ? <><p aria-live="polite" style={paragraph}>{shownResources.length} resource{shownResources.length === 1 ? "" : "s"} connected to {filter === "all" ? "the six goals" : `Goal ${filter}`}.</p>
+        {shownResources.length ? filter === "all" ? <details><summary style={{ cursor: "pointer", fontWeight: 700 }}>Show all connected resources</summary>{resourceList}</details> : resourceList : <p style={paragraph}>No connected resources are available here yet. You can still use the goal prompts and prepare a plan.</p>}
+      </> : null}
     </section>
 
-    <section style={panel} aria-label="Anti-racism and organizational practice">
+    <section style={{ ...panel, background: "#faf7f2", borderLeft: "5px solid #98601e" }} aria-label="Anti-racism and organizational practice">
       <h2 style={heading}>Read, reflect and examine the organization</h2>
       <p style={paragraph}>Anti-racism asks how racial inequities are produced and sustained through decisions, authority, resources and everyday practices. These readings connect the Anti-Racism Resource Guide to the six goals. They are companion learning, not an assessment or a score of staff.</p>
       <details style={{ margin: "16px 0" }}><summary style={{ cursor: "pointer", fontWeight: 700, padding: "8px 0" }}>Institutional structures: look beyond an individual interaction</summary>
@@ -143,14 +152,14 @@ export function EquityGoalExperience({ resourceLinks = [], linkPrefix = "", scop
       <p style={{ ...paragraph, fontSize: "0.9rem" }}><strong>Source attribution:</strong> Adapted for this work context from the <em>Anti-Racism Resource Guide</em>, sections on institutional and structural action, organizational culture, tokenism and the organizational action continuum. The guide cites Ed Schein (2004) on culture and attributes the continuum to Crossroads Ministry, adapted from Bailey Jackson and Rita Hardiman, developed further by Andrea Avazian and Ronice Branding, and adapted by Melia LaCour, PSESD. This is a program synthesis of the source guide, not a new DHS policy or a validated organizational finding.</p>
     </section>
 
-    <section ref={planner} tabIndex={-1} id="equity-work-plan" style={{ ...panel, scrollMarginTop: 24 }} aria-label="Manager and supervisor three-goal planner">
+    <section ref={planner} tabIndex={-1} id="equity-work-plan" style={{ ...panel, background: "#f5f8fb", borderLeft: "5px solid #4667a5", scrollMarginTop: 24 }} aria-label="Manager and supervisor three-goal planner">
       <h2 style={heading}>Manager and supervisor three-goal planner</h2>
       <p style={paragraph}>Select exactly three focus goals and prepare a practical next step for each. Three priorities help organize agreed work; they do not waive responsibilities under the other goals or applicable policies. Use this working draft to prepare for review; it is not an approved agency work plan.</p>
       <p style={{ ...paragraph, padding: 14, background: "#edf3f8", borderLeft: `4px solid ${navy}` }}><strong>Your draft is not saved.</strong> Notes stay only in this open page and disappear when you leave, reload or close it. Export a Markdown copy to keep your work. Nothing is submitted to DHS or saved by the program. Use role descriptions and appropriate aggregate evidence; do not enter private personnel or case details.</p>
       <fieldset style={{ margin: "20px 0", padding: 16, border: "1px solid #94a3b8", borderRadius: 4 }}>
         <legend style={{ fontWeight: 700, padding: "0 8px" }}>Choose three focus goals</legend>
         <p style={{ margin: "0 0 12px" }}>When three are selected, unselect one to choose a different goal. Notes for an unselected goal remain in this page until you clear the draft or leave; reselect it to continue.</p>
-        <div style={{ display: "grid", gap: 8 }}>{goals.map(goal => <label key={goal.number} style={{ display: "flex", alignItems: "flex-start", gap: 12, padding: "10px 4px", minHeight: 44, opacity: selected.length === 3 && !selected.includes(goal.number) ? 0.7 : 1 }}>
+        <div style={{ display: "grid", gap: 8 }}>{goals.map(goal => <label key={goal.number} style={{ display: "flex", alignItems: "flex-start", gap: 12, padding: "10px 12px", minHeight: 44, borderRadius: 6, border: `1px solid ${selected.includes(goal.number) ? goalAccents[goal.number - 1] : "#cbd5e1"}`, background: selected.includes(goal.number) ? "#e9f2f7" : "#fff", opacity: selected.length === 3 && !selected.includes(goal.number) ? 0.7 : 1 }}>
           <input type="checkbox" checked={selected.includes(goal.number)} disabled={selected.length === 3 && !selected.includes(goal.number)} onChange={() => toggleGoal(goal.number)} style={{ width: 20, height: 20, marginTop: 3, flexShrink: 0, accentColor: navy }} />
           <span>Goal {goal.number}: {goal.title}</span>
         </label>)}</div>

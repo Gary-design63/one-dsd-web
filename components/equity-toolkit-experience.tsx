@@ -36,7 +36,7 @@ export function EquityToolkitExperience({ values }: { values: EditableSurfaceVal
     requestAnimationFrame(() => clearButton.current?.focus());
   }
 
-  const buttonClass = "min-h-11 border border-line px-4 py-3 text-left hover:bg-slate-50 focus-visible:outline-2 focus-visible:outline-offset-4 disabled:cursor-not-allowed disabled:opacity-50";
+  const buttonClass = "min-h-11 rounded-lg border border-slate-400 bg-slate-50 px-4 py-3 text-left font-medium hover:bg-sky-50 focus-visible:outline-2 focus-visible:outline-offset-4 disabled:cursor-not-allowed disabled:opacity-50";
 
   return <div className="space-y-12" data-equity-toolkit-experience>
     <div id="toolkit-practice" className="space-y-8 print:hidden">
@@ -67,7 +67,7 @@ export function EquityToolkitExperience({ values }: { values: EditableSurfaceVal
         >{index + 1}. {text(`${item.id}Title`)}</button>)}
       </nav>
 
-      <section id={`${prefix}-stage`} aria-labelledby={`${prefix}-stage-title`} className="space-y-7 border-t border-line pt-7">
+      <section id={`${prefix}-stage`} aria-labelledby={`${prefix}-stage-title`} className="space-y-7 rounded-xl border border-line bg-slate-50/70 p-5 md:p-7">
         <header className="max-w-3xl space-y-4">
           <h2 id={`${prefix}-stage-title`} ref={stageHeading} tabIndex={-1} className="text-3xl font-semibold">{text(`${stage.id}Title`)}</h2>
           <p className="text-lg">{text(`${stage.id}Intro`)}</p>
@@ -76,7 +76,7 @@ export function EquityToolkitExperience({ values }: { values: EditableSurfaceVal
           <h3 id={`${prefix}-objectives`} className="text-xl font-semibold">{text("objectivesTitle")}</h3>
           <ul className="mt-4 list-disc space-y-2 pl-6">{list(`${stage.id}Objectives`).map((objective, index) => <li key={index}>{objective}</li>)}</ul>
         </section>
-        <section aria-labelledby={`${prefix}-scenario`} className="space-y-5 border border-line p-5 md:p-7">
+        <section aria-labelledby={`${prefix}-scenario`} className="space-y-5 rounded-lg border border-line bg-white p-5 md:p-7">
           <h3 id={`${prefix}-scenario`} className="text-xl font-semibold">{text("scenarioTitle")}</h3>
           <p className="max-w-3xl text-sm">{text("scenarioNote")}</p>
           <p className="max-w-3xl">{text(`${stage.id}Scenario`)}</p>
@@ -151,4 +151,3 @@ export function EquityToolkitExperience({ values }: { values: EditableSurfaceVal
     </section>
   </div>;
 }
-

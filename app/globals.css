@@ -363,12 +363,12 @@ nav :is(a, button)[aria-current]:not([aria-current="false"]) {
   color: #fff;
 }
 .btn--light {
-  background: #fff;
+  background: #e9f2f7;
   color: var(--blue-dark);
-  border-color: var(--gray-300);
+  border-color: #9ab8c8;
 }
 .btn--light:hover {
-  background: var(--gray-50);
+  background: #dceaf2;
   color: var(--blue);
 }
 .btn--ghost {

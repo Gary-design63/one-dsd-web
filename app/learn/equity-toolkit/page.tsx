@@ -32,16 +32,15 @@ export default async function Page() {
           <Link href="/learn">{text("backLabel")}</Link>
           <h1 className="text-4xl font-semibold">{text("title")}</h1>
           <p className="text-xl">{text("intro")}</p>
-          <p>{text("companionNote")}</p>
-          <p><Link href="/operationalizing-equity">Explore operationalizing equity in everyday work</Link></p>
           <p><Link className={styles.primaryAction} href="/toolkit-studio">Start with Toolkit Studio</Link></p>
-          <nav className="flex flex-wrap gap-6">
+          <details><summary className="cursor-pointer font-semibold">Explore this page</summary><nav className="mt-3 flex flex-wrap gap-4" aria-label="Toolkit sections">
             <a href="#equity-goals">Six goals for your work</a>
             <a href="#equity-work-plan">Prepare a three-goal work plan</a>
             <a href="#toolkit-practice">{text("practiceLabel")}</a>
             <a href="#toolkit-draft">{text("workLabel")}</a>
             <a href="#toolkit-resources">{text("resourcesTitle")}</a>
-          </nav>
+          </nav></details>
+          <details><summary className="cursor-pointer font-semibold">About this companion</summary><p className="mt-3">{text("companionNote")}</p><p><Link href="/operationalizing-equity">Explore operationalizing equity in everyday work</Link></p></details>
           <details><summary>Download or share this toolkit</summary><div className={styles.shareRow}>
             <Link href="/share/equity-toolkit" className="btn btn--primary">Get a link to share this toolkit</Link>
           </div>
