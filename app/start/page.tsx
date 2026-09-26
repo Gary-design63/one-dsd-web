@@ -1,3 +1,4 @@
+import { DevelopmentPathways } from "@/components/development-pathways";
 import Link from "next/link";
 import styles from "@/components/workspace-presentation.module.css";
 import type { Metadata } from "next";
@@ -22,6 +23,7 @@ export default async function StartPage() {
       />
       <div className="wrap space-y-6 py-8">
         <ProgramContextNote />
+        <DevelopmentPathways />
         <StartClient copy={copy} />
         <section className={styles.orientationInvitation}><div><h2 className="text-2xl font-semibold">New here, or taking a fresh look?</h2><p className="my-3">See how the whole program fits together and discover a place to begin.</p></div><Link href="/orientation">Explore the program orientation →</Link></section>
         <ParticipationNotice surface="start_routing" />

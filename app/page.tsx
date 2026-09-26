@@ -1,3 +1,4 @@
+import { DevelopmentPathways } from "@/components/development-pathways";
 import { OperationalizingEquityPreview } from "@/components/operationalizing-equity-preview";
 import Image from "next/image";
 import Link from "next/link";
@@ -49,6 +50,7 @@ export default async function HomePage() {
 
         <div className="wrap">
           <OperationalizingEquityPreview />
+          <DevelopmentPathways compact />
           <section className={styles.explore} aria-labelledby="explore-title">
             <div className={styles.sectionHeading}>
               <div><p className={styles.eyebrow}>Your next step</p><h2 id="explore-title">What brings you here?</h2></div>

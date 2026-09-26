@@ -9,6 +9,7 @@ import { MEASUREMENT_RESOURCE_ID } from "@/lib/content/measurement-practice";
 import type { Doc } from "./search";
 import { searchDocs, tokens } from "./search";
 import { publishedPodcastReadings } from "./podcast-reading";
+import { developmentModel, journeyHref } from "@/lib/program/development";
 
 /** Public page definitions only. No owner workspace, draft, intake, or source archive. */
 export function programResourceDefinitions() {
@@ -41,7 +42,7 @@ export async function indexedProgramResources(scope: StaffProgramScope): Promise
     && (await loadStaffContentSnapshot({ scope })).items.some(item => item.id === MEASUREMENT_RESOURCE_ID);
   // Always check current scoped publications first. Reuse text processing only while
   // the same immutable revisions remain published; withdrawals change this key.
-  const key = publications.map(p => `${p.surfaceId}:${p.source}:${p.sourceScope}:${p.revisionId}`).sort().join("|") + "|measurement-source:" + measurementAvailable + "|podcast-readings:" + [...podcastReadings.values()].map(reading => reading.fingerprint).sort().join("|");
+  const key = publications.map(p => `${p.surfaceId}:${p.source}:${p.sourceScope}:${p.revisionId}`).sort().join("|") + "|measurement-source:" + measurementAvailable + "|podcast-readings:" + [...podcastReadings.values()].map(reading => reading.fingerprint).sort().join("|") + "|development:" + createHash("sha256").update(JSON.stringify(developmentModel)).digest("hex");
   const cached = currentIndexes.get(scope);
   if (cached?.key === key) return cached.index;
   const publishedIds = new Set(publications.map(p => p.surfaceId));
@@ -88,6 +89,16 @@ export async function indexedProgramResources(scope: StaffProgramScope): Promise
     }));
   });
   destinations.push(...lessonDocs);
+  // These owner-approved public routes are code-defined and contain no participant data.
+  destinations.push(...developmentModel.journeys.map(journey => ({
+    kind: "content" as const, id: `program-development-${journey.id}`,
+    title: journey.title, href: journeyHref(journey.id), authority: "learning" as const,
+    type: "program_destination", status: "approved", reviewDate: "",
+    scope: scope === "dsd" ? "dsd" : "agencywide", summary: journey.summary,
+    text: [journey.title, journey.summary, journey.question, journey.assumption, journey.practice, journey.application, journey.reflection, journey.social].join("\n"),
+    tags: ["guided pathway", "equity in practice", ...journey.themes], intents: ["practice_method" as const, "next_actions" as const],
+    evidenceRevisions: [{ sourceId: `program-development-${journey.id}`, revisionId: developmentModel.version, payloadHash: createHash("sha256").update(JSON.stringify(journey)).digest("hex"), scope }],
+  })));
   const index = { communityDocs: destinations.filter(d => d.kind === "brief"), destinations };
   currentIndexes.set(scope, { key, index });
   return index;

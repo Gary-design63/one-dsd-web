@@ -1,0 +1,2432 @@
+{
+  "version": "2026-09-26.1",
+  "sourceExportSha256": "748f038f6c5fe23c743c8737a003d042c404a9565b412d40d9a3048e3fd80b0b",
+  "items": [
+    {
+      "id": "1089a05b-2ad1-448d-ae3c-16f0bd808abd",
+      "journeyIds": [
+        "access-and-communication"
+      ],
+      "purpose": "Use the ADA Title II guide to examine access across DSD programs, services, and activities."
+    },
+    {
+      "id": "11a03f35-5714-489b-9dec-458586178996",
+      "journeyIds": [
+        "workplace-culture"
+      ],
+      "purpose": "Examine how recruitment and hiring can reach more candidates and assess each person fairly."
+    },
+    {
+      "id": "124e27f7-1916-4c79-96c2-0159f674f3dc",
+      "journeyIds": [
+        "access-and-communication",
+        "perspectives-and-culture"
+      ],
+      "purpose": "Practice respectful interaction by following each disabled person's lead rather than making assumptions."
+    },
+    {
+      "id": "278c73dc-e046-4df2-82d8-28d0366cb284",
+      "journeyIds": [
+        "access-and-communication"
+      ],
+      "purpose": "Examine neurodiversity-affirming support that responds to autistic people's choices and communication needs."
+    },
+    {
+      "id": "310b4346-9d3b-4aea-a214-a32a39548c01",
+      "journeyIds": [
+        "access-and-communication"
+      ],
+      "purpose": "Consider aging and disability together when designing or coordinating support."
+    },
+    {
+      "id": "33a94d6e-21bb-496c-a506-88784b3c8efa",
+      "journeyIds": [
+        "decisions-and-systems"
+      ],
+      "purpose": "Plan a community engagement with clear purpose, partnership, and accountability to the community involved."
+    },
+    {
+      "id": "41161fe8-61bc-42fa-94a9-1f82c4a21acc",
+      "journeyIds": [
+        "decisions-and-systems",
+        "workplace-culture"
+      ],
+      "purpose": "Examine where central-office policy and field practice drift apart, and how the people involved can close that gap."
+    },
+    {
+      "id": "5bfb06fe-1855-43c7-8ff3-7de1ef9b1516",
+      "journeyIds": [
+        "decisions-and-systems"
+      ],
+      "purpose": "Distinguish activity counts from evidence that a change affected practice or access."
+    },
+    {
+      "id": "60b083cd-57e6-4349-8669-014d1ba0577a",
+      "journeyIds": [
+        "perspectives-and-culture"
+      ],
+      "purpose": "Practice cultural humility by asking about each person's experience and remaining open to correction."
+    },
+    {
+      "id": "63fba988-b6f3-453d-8633-594bc7e29543",
+      "journeyIds": [
+        "workplace-culture"
+      ],
+      "purpose": "Explore a voluntary response to harm that centers needs, responsibility, and repair."
+    },
+    {
+      "id": "8151ab53-5e91-48be-aac2-67c70b0c58b9",
+      "journeyIds": [
+        "access-and-communication",
+        "perspectives-and-culture"
+      ],
+      "purpose": "Examine language, system-navigation, and welcome practices for refugee and immigrant communities."
+    },
+    {
+      "id": "874517b8-df04-4fac-93f5-7e95a825084b",
+      "journeyIds": [
+        "perspectives-and-culture"
+      ],
+      "purpose": "Pause before a decision to identify an assumption and choose a more evidence-based response."
+    },
+    {
+      "id": "8d4f4906-62a9-4866-919e-b511b51243f4",
+      "journeyIds": [
+        "perspectives-and-culture",
+        "decisions-and-systems"
+      ],
+      "purpose": "Consider how overlapping identities and systems shape experience beyond a single category."
+    },
+    {
+      "id": "8ea9ca5f-27c8-4504-898a-61d3a55ea5ca",
+      "journeyIds": [
+        "decisions-and-systems",
+        "access-and-communication"
+      ],
+      "purpose": "Use a hypothetical service-design example to understand the Equity Analysis Toolkit method; real analyses remain with responsible authorities."
+    },
+    {
+      "id": "940c583c-1df1-42a6-b838-fe358962abe3",
+      "journeyIds": [
+        "decisions-and-systems",
+        "access-and-communication"
+      ],
+      "purpose": "Examine how Employment First shapes expectations and supports for competitive, integrated employment."
+    },
+    {
+      "id": "94ddb235-bc6b-417f-8d12-973eb6f8ec30",
+      "journeyIds": [
+        "decisions-and-systems"
+      ],
+      "purpose": "Explore how engagement can share influence with communities affected by a decision."
+    },
+    {
+      "id": "967077ba-4076-4e4b-b89e-e2e468b66ab9",
+      "journeyIds": [
+        "access-and-communication",
+        "perspectives-and-culture"
+      ],
+      "purpose": "Start with what matters to a person and shape supports around their goals and choices."
+    },
+    {
+      "id": "974dcd3b-c3e5-4db9-8826-9d79dedc83a9",
+      "journeyIds": [
+        "decisions-and-systems"
+      ],
+      "purpose": "Recognize Tribal Nations' sovereign, government-to-government relationship; defer content and practice decisions to the responsible DHS offices."
+    },
+    {
+      "id": "980110dd-1540-4149-8815-6406897626ce",
+      "journeyIds": [],
+      "purpose": "Use the Day 1 checklist to focus on early relationships, systems, and tasks while settling into DSD.",
+      "contextHref": "/start"
+    },
+    {
+      "id": "a0e1fcc6-3b33-4bb7-a38e-925d5810c178",
+      "journeyIds": [
+        "access-and-communication",
+        "decisions-and-systems"
+      ],
+      "purpose": "Examine how MnCHOICES assessments and planning can support equitable access to long-term services."
+    },
+    {
+      "id": "a8a66578-9ed2-4aef-af9d-ce597acf3447",
+      "journeyIds": [
+        "access-and-communication",
+        "perspectives-and-culture"
+      ],
+      "purpose": "Prepare communication access for Deaf and hard-of-hearing people with respect for individual needs and Deaf culture."
+    },
+    {
+      "id": "asset-cultural-humility",
+      "journeyIds": [
+        "perspectives-and-culture"
+      ],
+      "purpose": "Use cultural knowledge to ask better questions, invite correction, and keep accountability visible."
+    },
+    {
+      "id": "bbc570b2-2a5f-4745-8636-d1457d0b8ece",
+      "journeyIds": [
+        "decisions-and-systems"
+      ],
+      "purpose": "Scan a policy, program, communication, or decision for equity concerns before it reaches the people affected."
+    },
+    {
+      "id": "bea8a137-8a05-4505-89f8-d96d005cea7e",
+      "journeyIds": [
+        "access-and-communication"
+      ],
+      "purpose": "Use the National CLAS Standards to examine culture, language, and communication needs in DSD services."
+    },
+    {
+      "id": "c24eef6a-2bc2-4e3a-9a53-e4428f90b642",
+      "journeyIds": [
+        "perspectives-and-culture"
+      ],
+      "purpose": "Use cultural briefs to prepare respectful questions while checking each person's own experience."
+    },
+    {
+      "id": "c4731d8a-9566-4884-b82c-a53ae5cc9bc9",
+      "journeyIds": [
+        "decisions-and-systems",
+        "learning-and-leadership"
+      ],
+      "purpose": "Plan a change with the people affected so a useful idea can be tried and sustained."
+    },
+    {
+      "id": "course-acceptance-in-dhs-work",
+      "journeyIds": [
+        "perspectives-and-culture"
+      ],
+      "purpose": "Notice difference without ranking it — and without pretending everyone is the same."
+    },
+    {
+      "id": "course-accessibility-as-leadership-responsibility",
+      "journeyIds": [
+        "access-and-communication",
+        "workplace-culture"
+      ],
+      "purpose": "Lead access on purpose — in meetings, hiring, communications, and everyday DHS work."
+    },
+    {
+      "id": "course-anti-racism-resource",
+      "journeyIds": [
+        "decisions-and-systems"
+      ],
+      "purpose": "Examine how institutional practices can sustain racial inequity and identify a specific work process to change or formally escalate."
+    },
+    {
+      "id": "course-brain-injury-and-complex-disability",
+      "journeyIds": [
+        "access-and-communication"
+      ],
+      "purpose": "The person you met last year may not be the person in the room today — slow down, and write it down."
+    },
+    {
+      "id": "course-career-mentorship-and-sponsorship",
+      "journeyIds": [
+        "workplace-culture"
+      ],
+      "purpose": "Distinguish mentorship from sponsorship and examine who gets access to each opportunity."
+    },
+    {
+      "id": "course-change-management-bringing-people-along",
+      "journeyIds": [
+        "workplace-culture"
+      ],
+      "purpose": "Do not announce a change and call it leadership — bring the people who will live with it along."
+    },
+    {
+      "id": "course-conflict-at-work",
+      "journeyIds": [
+        "workplace-culture"
+      ],
+      "purpose": "A disagreement about the work is not a civil-rights complaint — use the chair, EAP, mediation, HR, or Equal Opportunity and Access."
+    },
+    {
+      "id": "course-cq-afghan-minnesota",
+      "journeyIds": [
+        "perspectives-and-culture"
+      ],
+      "purpose": "Use historical and community context to frame respectful questions about access and partnership; ask each person what fits their situation."
+    },
+    {
+      "id": "course-cq-anglo",
+      "journeyIds": [
+        "perspectives-and-culture"
+      ],
+      "purpose": "Explore the limits of the Anglo cluster framework; compare it with real context and individual experience before drawing conclusions."
+    },
+    {
+      "id": "course-cq-arab",
+      "journeyIds": [
+        "perspectives-and-culture"
+      ],
+      "purpose": "Explore the limits of the Arab cluster framework; compare it with real context and individual experience before drawing conclusions."
+    },
+    {
+      "id": "course-cq-cluster-frameworks-foundations",
+      "journeyIds": [
+        "perspectives-and-culture"
+      ],
+      "purpose": "Examine what cultural cluster models can and cannot explain, then prepare questions that respect individual experience."
+    },
+    {
+      "id": "course-cq-confucian-asia",
+      "journeyIds": [
+        "perspectives-and-culture"
+      ],
+      "purpose": "Explore the limits of the Confucian Asia cluster framework; compare it with real context and individual experience before drawing conclusions."
+    },
+    {
+      "id": "course-cq-eastern-europe",
+      "journeyIds": [
+        "perspectives-and-culture"
+      ],
+      "purpose": "Explore the limits of the Eastern Europe cluster framework; compare it with real context and individual experience before drawing conclusions."
+    },
+    {
+      "id": "course-cq-eritrean-minnesota",
+      "journeyIds": [
+        "perspectives-and-culture"
+      ],
+      "purpose": "Use historical and community context to frame respectful questions about access and partnership; ask each person what fits their situation."
+    },
+    {
+      "id": "course-cq-germanic-europe",
+      "journeyIds": [
+        "perspectives-and-culture"
+      ],
+      "purpose": "Explore the limits of the Germanic Europe cluster framework; compare it with real context and individual experience before drawing conclusions."
+    },
+    {
+      "id": "course-cq-latin-america",
+      "journeyIds": [
+        "perspectives-and-culture"
+      ],
+      "purpose": "Explore the limits of the Latin America cluster framework; compare it with real context and individual experience before drawing conclusions."
+    },
+    {
+      "id": "course-cq-latin-europe",
+      "journeyIds": [
+        "perspectives-and-culture"
+      ],
+      "purpose": "Explore the limits of the Latin Europe cluster framework; compare it with real context and individual experience before drawing conclusions."
+    },
+    {
+      "id": "course-cq-leading-multicultural-teams",
+      "journeyIds": [
+        "perspectives-and-culture",
+        "learning-and-leadership"
+      ],
+      "purpose": "Examine how a team can make communication, feedback, and decisions workable across different preferences without assigning styles by identity."
+    },
+    {
+      "id": "course-cq-nordic-europe",
+      "journeyIds": [
+        "perspectives-and-culture"
+      ],
+      "purpose": "Explore the limits of the Nordic Europe cluster framework; compare it with real context and individual experience before drawing conclusions."
+    },
+    {
+      "id": "course-cq-southern-asia",
+      "journeyIds": [
+        "perspectives-and-culture"
+      ],
+      "purpose": "Explore the limits of the Southern Asia cluster framework; compare it with real context and individual experience before drawing conclusions."
+    },
+    {
+      "id": "course-cq-sub-saharan-africa",
+      "journeyIds": [
+        "perspectives-and-culture"
+      ],
+      "purpose": "Explore the limits of the Sub-Saharan Africa cluster framework; compare it with real context and individual experience before drawing conclusions."
+    },
+    {
+      "id": "course-cq-sudanese-south-sudanese-minnesota",
+      "journeyIds": [
+        "perspectives-and-culture"
+      ],
+      "purpose": "Use historical and community context to frame respectful questions about access and partnership; ask each person what fits their situation."
+    },
+    {
+      "id": "course-cq-tibetan-minnesota",
+      "journeyIds": [
+        "perspectives-and-culture"
+      ],
+      "purpose": "Use historical and community context to frame respectful questions about access and partnership; ask each person what fits their situation."
+    },
+    {
+      "id": "course-critical-incidents-in-the-work",
+      "journeyIds": [
+        "perspectives-and-culture",
+        "workplace-culture"
+      ],
+      "purpose": "When a workday surprises you — notice, change a channel, or use a formal door."
+    },
+    {
+      "id": "course-cultural-broker-as-a-role",
+      "journeyIds": [
+        "perspectives-and-culture",
+        "decisions-and-systems"
+      ],
+      "purpose": "A broker helps two systems meet — not a people, not the unpaid educator, and not the interpreter unless that is the job."
+    },
+    {
+      "id": "course-cultural-humility-vs-checklist",
+      "journeyIds": [
+        "perspectives-and-culture"
+      ],
+      "purpose": "Practice cultural humility while still naming who will act, what evidence matters, and when a decision will be revisited."
+    },
+    {
+      "id": "course-cultural-intelligence-african-american",
+      "journeyIds": [
+        "perspectives-and-culture"
+      ],
+      "purpose": "Use historical and community context to frame respectful questions about access and partnership; ask each person what fits their situation."
+    },
+    {
+      "id": "course-cultural-intelligence-alaska-native",
+      "journeyIds": [
+        "perspectives-and-culture"
+      ],
+      "purpose": "Use this material only to frame respectful questions; defer Native American and Tribal-specific content, engagement, and decisions to the Office of Indian Affairs and DHS offices that handle Tribal matters."
+    },
+    {
+      "id": "course-cultural-intelligence-american",
+      "journeyIds": [
+        "perspectives-and-culture"
+      ],
+      "purpose": "Examine how familiar cultural norms can become defaults in public work; ask whose experiences and access needs those defaults may miss."
+    },
+    {
+      "id": "course-cultural-intelligence-amharic",
+      "journeyIds": [
+        "perspectives-and-culture"
+      ],
+      "purpose": "Use community context to prepare questions about preferred language, dialect, and format; confirm each person's needs directly."
+    },
+    {
+      "id": "course-cultural-intelligence-arabic",
+      "journeyIds": [
+        "perspectives-and-culture"
+      ],
+      "purpose": "Use community context to prepare questions about preferred language, dialect, and format; confirm each person's needs directly."
+    },
+    {
+      "id": "course-cultural-intelligence-bosnian",
+      "journeyIds": [
+        "perspectives-and-culture"
+      ],
+      "purpose": "Use historical and community context to frame respectful questions about access and partnership; ask each person what fits their situation."
+    },
+    {
+      "id": "course-cultural-intelligence-burmese",
+      "journeyIds": [
+        "perspectives-and-culture"
+      ],
+      "purpose": "Use historical and community context to frame respectful questions about access and partnership; ask each person what fits their situation."
+    },
+    {
+      "id": "course-cultural-intelligence-cambodian",
+      "journeyIds": [
+        "perspectives-and-culture"
+      ],
+      "purpose": "Use historical and community context to frame respectful questions about access and partnership; ask each person what fits their situation."
+    },
+    {
+      "id": "course-cultural-intelligence-chinese",
+      "journeyIds": [
+        "perspectives-and-culture"
+      ],
+      "purpose": "Use historical and community context to frame respectful questions about access and partnership; ask each person what fits their situation."
+    },
+    {
+      "id": "course-cultural-intelligence-colombian",
+      "journeyIds": [
+        "perspectives-and-culture"
+      ],
+      "purpose": "Use historical and community context to frame respectful questions about access and partnership; ask each person what fits their situation."
+    },
+    {
+      "id": "course-cultural-intelligence-cuban",
+      "journeyIds": [
+        "perspectives-and-culture"
+      ],
+      "purpose": "Use historical and community context to frame respectful questions about access and partnership; ask each person what fits their situation."
+    },
+    {
+      "id": "course-cultural-intelligence-ecuadorian",
+      "journeyIds": [
+        "perspectives-and-culture"
+      ],
+      "purpose": "Use historical and community context to frame respectful questions about access and partnership; ask each person what fits their situation."
+    },
+    {
+      "id": "course-cultural-intelligence-ethiopian",
+      "journeyIds": [
+        "perspectives-and-culture"
+      ],
+      "purpose": "Use historical and community context to frame respectful questions about access and partnership; ask each person what fits their situation."
+    },
+    {
+      "id": "course-cultural-intelligence-european-american",
+      "journeyIds": [
+        "perspectives-and-culture"
+      ],
+      "purpose": "Examine how familiar cultural norms can become defaults in public work; ask whose experiences and access needs those defaults may miss."
+    },
+    {
+      "id": "course-cultural-intelligence-filipino",
+      "journeyIds": [
+        "perspectives-and-culture"
+      ],
+      "purpose": "Use historical and community context to frame respectful questions about access and partnership; ask each person what fits their situation."
+    },
+    {
+      "id": "course-cultural-intelligence-french",
+      "journeyIds": [
+        "perspectives-and-culture"
+      ],
+      "purpose": "Use community context to prepare questions about preferred language, dialect, and format; confirm each person's needs directly."
+    },
+    {
+      "id": "course-cultural-intelligence-guatemalan",
+      "journeyIds": [
+        "perspectives-and-culture"
+      ],
+      "purpose": "Use historical and community context to frame respectful questions about access and partnership; ask each person what fits their situation."
+    },
+    {
+      "id": "course-cultural-intelligence-hmong",
+      "journeyIds": [
+        "perspectives-and-culture"
+      ],
+      "purpose": "Use historical and community context to frame respectful questions about access and partnership; ask each person what fits their situation."
+    },
+    {
+      "id": "course-cultural-intelligence-indian",
+      "journeyIds": [
+        "perspectives-and-culture"
+      ],
+      "purpose": "Use historical and community context to frame respectful questions about access and partnership; ask each person what fits their situation."
+    },
+    {
+      "id": "course-cultural-intelligence-japanese",
+      "journeyIds": [
+        "perspectives-and-culture"
+      ],
+      "purpose": "Use historical and community context to frame respectful questions about access and partnership; ask each person what fits their situation."
+    },
+    {
+      "id": "course-cultural-intelligence-karen",
+      "journeyIds": [
+        "perspectives-and-culture"
+      ],
+      "purpose": "Use historical and community context to frame respectful questions about access and partnership; ask each person what fits their situation."
+    },
+    {
+      "id": "course-cultural-intelligence-kenyan",
+      "journeyIds": [
+        "perspectives-and-culture"
+      ],
+      "purpose": "Use historical and community context to frame respectful questions about access and partnership; ask each person what fits their situation."
+    },
+    {
+      "id": "course-cultural-intelligence-korean",
+      "journeyIds": [
+        "perspectives-and-culture"
+      ],
+      "purpose": "Use historical and community context to frame respectful questions about access and partnership; ask each person what fits their situation."
+    },
+    {
+      "id": "course-cultural-intelligence-lao",
+      "journeyIds": [
+        "perspectives-and-culture"
+      ],
+      "purpose": "Use historical and community context to frame respectful questions about access and partnership; ask each person what fits their situation."
+    },
+    {
+      "id": "course-cultural-intelligence-latino",
+      "journeyIds": [
+        "perspectives-and-culture"
+      ],
+      "purpose": "Explore the diversity hidden by a broad Latino or Hispanic label, then ask about each person's language, access, and priorities."
+    },
+    {
+      "id": "course-cultural-intelligence-lebanese",
+      "journeyIds": [
+        "perspectives-and-culture"
+      ],
+      "purpose": "Use historical and community context to frame respectful questions about access and partnership; ask each person what fits their situation."
+    },
+    {
+      "id": "course-cultural-intelligence-liberian",
+      "journeyIds": [
+        "perspectives-and-culture"
+      ],
+      "purpose": "Use historical and community context to frame respectful questions about access and partnership; ask each person what fits their situation."
+    },
+    {
+      "id": "course-cultural-intelligence-mexican",
+      "journeyIds": [
+        "perspectives-and-culture"
+      ],
+      "purpose": "Use historical and community context to frame respectful questions about access and partnership; ask each person what fits their situation."
+    },
+    {
+      "id": "course-cultural-intelligence-minnesota",
+      "journeyIds": [
+        "perspectives-and-culture"
+      ],
+      "purpose": "Examine how familiar cultural norms can become defaults in public work; ask whose experiences and access needs those defaults may miss."
+    },
+    {
+      "id": "course-cultural-intelligence-native-american",
+      "journeyIds": [
+        "perspectives-and-culture"
+      ],
+      "purpose": "Use this material only to frame respectful questions; defer Native American and Tribal-specific content, engagement, and decisions to the Office of Indian Affairs and DHS offices that handle Tribal matters."
+    },
+    {
+      "id": "course-cultural-intelligence-nigerian",
+      "journeyIds": [
+        "perspectives-and-culture"
+      ],
+      "purpose": "Use historical and community context to frame respectful questions about access and partnership; ask each person what fits their situation."
+    },
+    {
+      "id": "course-cultural-intelligence-oromo",
+      "journeyIds": [
+        "perspectives-and-culture"
+      ],
+      "purpose": "Use historical and community context to frame respectful questions about access and partnership; ask each person what fits their situation."
+    },
+    {
+      "id": "course-cultural-intelligence-puerto-rican",
+      "journeyIds": [
+        "perspectives-and-culture"
+      ],
+      "purpose": "Use historical and community context to frame respectful questions about access and partnership; ask each person what fits their situation."
+    },
+    {
+      "id": "course-cultural-intelligence-rural",
+      "journeyIds": [
+        "perspectives-and-culture"
+      ],
+      "purpose": "Explore how place, distance, and local relationships may affect access; ask people about their own circumstances before changing a service approach."
+    },
+    {
+      "id": "course-cultural-intelligence-russian",
+      "journeyIds": [
+        "perspectives-and-culture"
+      ],
+      "purpose": "Use community context to prepare questions about preferred language, dialect, and format; confirm each person's needs directly."
+    },
+    {
+      "id": "course-cultural-intelligence-salvadoran",
+      "journeyIds": [
+        "perspectives-and-culture"
+      ],
+      "purpose": "Use historical and community context to frame respectful questions about access and partnership; ask each person what fits their situation."
+    },
+    {
+      "id": "course-cultural-intelligence-somali",
+      "journeyIds": [
+        "perspectives-and-culture"
+      ],
+      "purpose": "Use historical and community context to frame respectful questions about access and partnership; ask each person what fits their situation."
+    },
+    {
+      "id": "course-cultural-intelligence-thai",
+      "journeyIds": [
+        "perspectives-and-culture"
+      ],
+      "purpose": "Use historical and community context to frame respectful questions about access and partnership; ask each person what fits their situation."
+    },
+    {
+      "id": "course-cultural-intelligence-tribal",
+      "journeyIds": [
+        "perspectives-and-culture"
+      ],
+      "purpose": "Use this material only to frame respectful questions; defer Native American and Tribal-specific content, engagement, and decisions to the Office of Indian Affairs and DHS offices that handle Tribal matters."
+    },
+    {
+      "id": "course-cultural-intelligence-ukrainian",
+      "journeyIds": [
+        "perspectives-and-culture"
+      ],
+      "purpose": "Use historical and community context to frame respectful questions about access and partnership; ask each person what fits their situation."
+    },
+    {
+      "id": "course-cultural-intelligence-vietnamese",
+      "journeyIds": [
+        "perspectives-and-culture"
+      ],
+      "purpose": "Use historical and community context to frame respectful questions about access and partnership; ask each person what fits their situation."
+    },
+    {
+      "id": "course-culture-without-theater",
+      "journeyIds": [
+        "perspectives-and-culture",
+        "workplace-culture"
+      ],
+      "purpose": "Look for evidence of workplace culture in ordinary decisions and routines, then identify one practice to change."
+    },
+    {
+      "id": "course-dhs-equity-analysis-toolkit",
+      "journeyIds": [
+        "decisions-and-systems"
+      ],
+      "purpose": "Teach the toolkit, then use it — on a real policy, budget, hire, or IT change before the decision is locked."
+    },
+    {
+      "id": "course-di-access-needs-and-individualized-support",
+      "journeyIds": [
+        "access-and-communication"
+      ],
+      "purpose": "Tell equal treatment from equitable access, ask about needs without asking for a diagnosis, and keep the person in charge of their own decisions."
+    },
+    {
+      "id": "course-di-accessibility-auditing-and-barrier-analysis",
+      "journeyIds": [
+        "access-and-communication",
+        "decisions-and-systems"
+      ],
+      "purpose": "Walk a real journey, name every kind of barrier you find, decide what to fix first, and separate the fix you can make this week from the redesign that ends the problem."
+    },
+    {
+      "id": "course-di-accessibility-basics",
+      "journeyIds": [
+        "access-and-communication"
+      ],
+      "purpose": "Find the barriers hiding in rooms, documents, meetings, videos and emergency plans, and fix the ones you own before anyone has to ask."
+    },
+    {
+      "id": "course-di-accessible-content-and-digital-learning",
+      "journeyIds": [
+        "access-and-communication",
+        "learning-and-leadership"
+      ],
+      "purpose": "Build documents, slides, videos, forms and lessons that work with a keyboard, a screen reader and captions, then prove it with a test you can run yourself."
+    },
+    {
+      "id": "course-di-accommodations-and-interactive-process",
+      "journeyIds": [
+        "access-and-communication",
+        "workplace-culture"
+      ],
+      "purpose": "Recognize a request, run the interactive process in order, keep the focus on the job and the barrier instead of the diagnosis, and know exactly when to bring in human resources or the ADA coordinator."
+    },
+    {
+      "id": "course-di-allyship-and-everyday-action",
+      "journeyIds": [
+        "access-and-communication",
+        "workplace-culture"
+      ],
+      "purpose": "Notice ableism in ordinary assumptions, interrupt exclusion without speaking over anyone, build access into what you already own, and know how to escalate when a barrier is not yours to fix."
+    },
+    {
+      "id": "course-di-capstone-remove-a-real-barrier",
+      "journeyIds": [
+        "decisions-and-systems",
+        "access-and-communication"
+      ],
+      "purpose": "Take a cross-functional team from choosing one recurring barrier to presenting a plan that removes it, with the people it affects shaping every step."
+    },
+    {
+      "id": "course-di-change-management-and-implementation",
+      "journeyIds": [
+        "decisions-and-systems",
+        "learning-and-leadership"
+      ],
+      "purpose": "Turn a list of accessibility findings into a roadmap with owners, decision rights and measures, and carry it through the resistance it will meet."
+    },
+    {
+      "id": "course-di-co-design-and-lived-experience",
+      "journeyIds": [
+        "decisions-and-systems",
+        "access-and-communication"
+      ],
+      "purpose": "Work with disabled people and disability-led organizations as paid partners whose expertise changes decisions, and build the loop that shows them it did."
+    },
+    {
+      "id": "course-di-conflict-resolution-and-neurodiversity",
+      "journeyIds": [
+        "access-and-communication",
+        "workplace-culture"
+      ],
+      "purpose": "Notice where standard conflict resolution assumes one kind of communicator, adjust the process so more than one kind of brain can use it, and run mediation that stays neutral by making participation possible for everyone."
+    },
+    {
+      "id": "course-di-de-escalation-without-coercion",
+      "journeyIds": [
+        "access-and-communication"
+      ],
+      "purpose": "Tell distress, communication, sensory overload, trauma response and behavioral risk apart, change the environment first, and write it down without stigma."
+    },
+    {
+      "id": "course-di-disability-data-privacy-and-measurement",
+      "journeyIds": [
+        "decisions-and-systems",
+        "access-and-communication"
+      ],
+      "purpose": "Use disability data to find and remove barriers while protecting the people the data describes."
+    },
+    {
+      "id": "course-di-disability-diversity-belonging",
+      "journeyIds": [
+        "access-and-communication",
+        "perspectives-and-culture"
+      ],
+      "purpose": "Who is already in the room, what a barrier actually is, and why being present is not the same as belonging."
+    },
+    {
+      "id": "course-di-facilitation-and-peer-learning",
+      "journeyIds": [
+        "learning-and-leadership",
+        "access-and-communication"
+      ],
+      "purpose": "Lead disability inclusion conversations that people can join without disclosing, that answer defensiveness and misinformation calmly, and that everyone can take part in."
+    },
+    {
+      "id": "course-di-governance-accountability-resourcing",
+      "journeyIds": [
+        "decisions-and-systems",
+        "access-and-communication"
+      ],
+      "purpose": "Set up the sponsorship, structure, funding and unit-level expectations that let disability inclusion outlast any one leader."
+    },
+    {
+      "id": "course-di-inclusive-communication",
+      "journeyIds": [
+        "access-and-communication"
+      ],
+      "purpose": "Adapt how you communicate for Deaf and hard-of-hearing people, people with speech disabilities, blind and low-vision people, people with cognitive disabilities and people with anxiety, without patronizing anyone."
+    },
+    {
+      "id": "course-di-inclusive-meetings-events-learning",
+      "journeyIds": [
+        "access-and-communication",
+        "learning-and-leadership"
+      ],
+      "purpose": "Plan in-person, hybrid and virtual gatherings that people can actually attend, follow and shape, and recover well when something fails on the day."
+    },
+    {
+      "id": "course-di-inclusive-policy-procurement-technology",
+      "journeyIds": [
+        "decisions-and-systems",
+        "access-and-communication"
+      ],
+      "purpose": "Build accessibility into what the agency buys, builds, publishes and approves, so barriers are prevented at the contract and the charter instead of discovered at launch."
+    },
+    {
+      "id": "course-di-inclusive-supervision-and-team-culture",
+      "journeyIds": [
+        "workplace-culture",
+        "access-and-communication"
+      ],
+      "purpose": "Lead a team where people can ask for what they need, work is judged fairly, and disability is neither a secret nor a spectacle."
+    },
+    {
+      "id": "course-di-language-and-respectful-interaction",
+      "journeyIds": [
+        "access-and-communication",
+        "perspectives-and-culture"
+      ],
+      "purpose": "Choose words that describe rather than define, ask before helping, speak to the person, and handle interpreters, communication devices and service animals with confidence."
+    },
+    {
+      "id": "course-di-leadership-case-for-inclusion",
+      "journeyIds": [
+        "decisions-and-systems",
+        "access-and-communication"
+      ],
+      "purpose": "Connect disability inclusion to mission delivery, civil rights, workforce equity, risk, innovation and public trust, and see why goodwill alone cannot carry it."
+    },
+    {
+      "id": "course-di-measuring-culture-and-sustained-progress",
+      "journeyIds": [
+        "decisions-and-systems",
+        "workplace-culture"
+      ],
+      "purpose": "Choose leading and outcome measures, treat feedback from disabled people as a core input, and run review points that produce decisions rather than presentations."
+    },
+    {
+      "id": "course-di-models-and-perspectives",
+      "journeyIds": [
+        "access-and-communication",
+        "perspectives-and-culture"
+      ],
+      "purpose": "Learn six ways of seeing disability, notice which one your team reaches for first, and use a barrier-removal view on a real decision."
+    },
+    {
+      "id": "course-di-rights-policy-and-organizational-duties",
+      "journeyIds": [
+        "access-and-communication",
+        "decisions-and-systems"
+      ],
+      "purpose": "Read the ADA, Section 504, Section 508, the Minnesota Human Rights Act and the Olmstead Plan as duties your organization owns, then know exactly who answers which question."
+    },
+    {
+      "id": "course-di-trauma-informed-culturally-responsive-practice",
+      "journeyIds": [
+        "access-and-communication",
+        "perspectives-and-culture"
+      ],
+      "purpose": "Understand why people arrive wary of services, and practice choice, transparency, collaboration and cultural humility in ordinary encounters."
+    },
+    {
+      "id": "course-disability-and-language",
+      "journeyIds": [
+        "access-and-communication",
+        "perspectives-and-culture"
+      ],
+      "purpose": "Examine how disability and language access can intersect in one person's experience and plan for both."
+    },
+    {
+      "id": "course-div-a01-aversive-racism",
+      "journeyIds": [
+        "perspectives-and-culture"
+      ],
+      "purpose": "Examine how unequal judgments can persist alongside sincere commitments to fairness, and practice reducing the ambiguity that permits them."
+    },
+    {
+      "id": "course-div-a02-whiteness-institutional-norm",
+      "journeyIds": [
+        "perspectives-and-culture",
+        "decisions-and-systems"
+      ],
+      "purpose": "Investigate how historically dominant expectations become ordinary organizational standards, without treating racial identity as an explanation of anyone’s character."
+    },
+    {
+      "id": "course-div-a03-intersectional-discrimination",
+      "journeyIds": [
+        "perspectives-and-culture",
+        "decisions-and-systems"
+      ],
+      "purpose": "Analyze interacting forms of exclusion through carefully bounded cases, avoiding both single-category explanations and assumptions based on identity."
+    },
+    {
+      "id": "course-div-a04-epistemic-injustice",
+      "journeyIds": [
+        "decisions-and-systems",
+        "perspectives-and-culture"
+      ],
+      "purpose": "Examine credibility, silence, and the categories used to understand experience, then build a fairer route from knowledge to decisions."
+    },
+    {
+      "id": "course-div-a05-racial-battle-fatigue",
+      "journeyIds": [
+        "perspectives-and-culture",
+        "workplace-culture"
+      ],
+      "purpose": "Understand cumulative racialized burdens and practice organizational responses that reduce demands without diagnosing colleagues or requiring disclosure."
+    },
+    {
+      "id": "course-div-a06-restorative-identity-harm",
+      "journeyIds": [
+        "perspectives-and-culture",
+        "workplace-culture"
+      ],
+      "purpose": "Evaluate when a voluntary restorative response may be appropriate, prepare for unequal power, and build accountable repair without replacing formal protections."
+    },
+    {
+      "id": "course-div-a07-networks-opportunity-hoarding",
+      "journeyIds": [
+        "perspectives-and-culture",
+        "workplace-culture"
+      ],
+      "purpose": "Trace how information and advocacy move through relationships, and widen access to opportunities without policing personal friendships."
+    },
+    {
+      "id": "course-div-a08-bias-reduction-interventions",
+      "journeyIds": [
+        "perspectives-and-culture",
+        "decisions-and-systems"
+      ],
+      "purpose": "Move from an appealing training idea to a testable change, with behavioral outcomes, ethical safeguards, and honest limits on what a pilot can establish."
+    },
+    {
+      "id": "course-div-a09-intergroup-contact",
+      "journeyIds": [
+        "perspectives-and-culture",
+        "workplace-culture"
+      ],
+      "purpose": "Design meaningful cooperation across difference while attending to power, voluntary participation, and the limits of contact as an equity strategy."
+    },
+    {
+      "id": "course-div-a10-moral-exclusion-dehumanization",
+      "journeyIds": [
+        "decisions-and-systems",
+        "perspectives-and-culture"
+      ],
+      "purpose": "Examine how language and procedures can narrow whose needs count, and practice restoring specificity, agency, and fair consideration without ignoring real constraints."
+    },
+    {
+      "id": "course-div-a11-white-supremacy-culture",
+      "journeyIds": [
+        "decisions-and-systems",
+        "perspectives-and-culture"
+      ],
+      "purpose": "Use a well-known framework to question whose knowledge counts, how decisions are made, and what changes in practice could make public service more equitable."
+    },
+    {
+      "id": "course-div-f01-white-privilege",
+      "journeyIds": [
+        "perspectives-and-culture"
+      ],
+      "purpose": "Examine unearned racial advantages without erasing effort, hardship, or individual variation."
+    },
+    {
+      "id": "course-div-f02-microaggressions",
+      "journeyIds": [
+        "perspectives-and-culture",
+        "workplace-culture"
+      ],
+      "purpose": "Recognize subtle identity-based messages and practice proportionate responses, repair, and follow-through."
+    },
+    {
+      "id": "course-div-f03-intercultural-communication",
+      "journeyIds": [
+        "perspectives-and-culture",
+        "access-and-communication"
+      ],
+      "purpose": "Explore how meaning changes across context, communication habits, and expectations without reducing people to cultural types."
+    },
+    {
+      "id": "course-div-f04-cultural-values",
+      "journeyIds": [
+        "perspectives-and-culture"
+      ],
+      "purpose": "Examine the values behind everyday expectations and negotiate differences without ranking cultures."
+    },
+    {
+      "id": "course-div-f05-implicit-bias-iat",
+      "journeyIds": [
+        "decisions-and-systems",
+        "perspectives-and-culture"
+      ],
+      "purpose": "Understand automatic associations, interpret an optional IAT cautiously, and practice decisions supported by evidence."
+    },
+    {
+      "id": "course-div-f06-social-identity",
+      "journeyIds": [
+        "perspectives-and-culture"
+      ],
+      "purpose": "Explore how group membership shapes experience while preserving the complexity and self-definition of each person."
+    },
+    {
+      "id": "course-div-f07-stereotypes-prejudice-discrimination",
+      "journeyIds": [
+        "perspectives-and-culture"
+      ],
+      "purpose": "Distinguish group-based beliefs, evaluations, and actions so that a concern leads to the right question and response."
+    },
+    {
+      "id": "course-div-f08-ethnocentrism",
+      "journeyIds": [
+        "perspectives-and-culture"
+      ],
+      "purpose": "Recognize when familiar ways of living become universal judgments and practice a more contextual interpretation."
+    },
+    {
+      "id": "course-div-f09-intersectionality",
+      "journeyIds": [
+        "decisions-and-systems",
+        "perspectives-and-culture"
+      ],
+      "purpose": "Examine how interacting identities and systems can create experiences that a single-category explanation misses."
+    },
+    {
+      "id": "course-div-f10-equality-equity-fairness",
+      "journeyIds": [
+        "decisions-and-systems",
+        "perspectives-and-culture"
+      ],
+      "purpose": "Compare sameness, meaningful opportunity, and reasoned fairness without reducing them to slogans."
+    },
+    {
+      "id": "course-div-i01-microinterventions",
+      "journeyIds": [
+        "perspectives-and-culture",
+        "workplace-culture"
+      ],
+      "purpose": "Choose a useful response to subtle exclusion, support the affected person, and follow through without taking over."
+    },
+    {
+      "id": "course-div-i02-ambiguous-bias",
+      "journeyIds": [
+        "decisions-and-systems",
+        "perspectives-and-culture"
+      ],
+      "purpose": "Examine how incomplete information becomes a confident judgment, and practice decisions that remain open to evidence."
+    },
+    {
+      "id": "course-div-i03-identity-safety",
+      "journeyIds": [
+        "perspectives-and-culture",
+        "workplace-culture"
+      ],
+      "purpose": "Understand the proposed mechanism, evaluate the limits of the evidence, and create conditions in which people can demonstrate their work without being reduced to a group stereotype."
+    },
+    {
+      "id": "course-div-i04-code-switching",
+      "journeyIds": [
+        "perspectives-and-culture",
+        "workplace-culture"
+      ],
+      "purpose": "Examine the choices people make about self-presentation, the conditions that constrain those choices, and the difference between invitation and pressure to disclose."
+    },
+    {
+      "id": "course-div-i05-colorism",
+      "journeyIds": [
+        "perspectives-and-culture"
+      ],
+      "purpose": "Recognize skin-tone hierarchies without ranking people, and examine how images, descriptions, and credibility judgments can reproduce them."
+    },
+    {
+      "id": "course-div-i06-classism",
+      "journeyIds": [
+        "perspectives-and-culture",
+        "decisions-and-systems"
+      ],
+      "purpose": "Examine hidden resource assumptions, distinguish effort from opportunity, and redesign participation without making people prove hardship."
+    },
+    {
+      "id": "course-div-i07-gender-double-binds",
+      "journeyIds": [
+        "perspectives-and-culture",
+        "workplace-culture"
+      ],
+      "purpose": "Recognize conflicting expectations about competence, warmth, authority, and care, and replace personality judgments with fairer evidence."
+    },
+    {
+      "id": "course-div-i08-racial-socialization",
+      "journeyIds": [
+        "perspectives-and-culture"
+      ],
+      "purpose": "Examine messages received through families, institutions, media, and silence, while preserving the right to reflect without disclosure."
+    },
+    {
+      "id": "course-div-i09-accent-bias",
+      "journeyIds": [
+        "perspectives-and-culture",
+        "access-and-communication"
+      ],
+      "purpose": "Separate understanding from familiarity, examine how listeners judge credibility, and share responsibility for clear communication."
+    },
+    {
+      "id": "course-div-i10-receiving-feedback",
+      "journeyIds": [
+        "perspectives-and-culture",
+        "workplace-culture"
+      ],
+      "purpose": "Listen to a specific concern, separate impact from a verdict on your character, and make a proportionate repair without demanding reassurance."
+    },
+    {
+      "id": "course-dsd-01-minnesota-service-system",
+      "journeyIds": [
+        "access-and-communication",
+        "decisions-and-systems"
+      ],
+      "purpose": "How the Division is organized, who it serves, what home and community-based services actually are, and what the most integrated setting requires of the people who administer them."
+    },
+    {
+      "id": "course-dsd-02-service-coordination-navigation",
+      "journeyIds": [
+        "access-and-communication",
+        "decisions-and-systems"
+      ],
+      "purpose": "What coordination actually costs the person being coordinated, where handoffs drop people, and how to design a path that holds together when nobody is watching it."
+    },
+    {
+      "id": "course-dsd-03-self-direction-independent-living",
+      "journeyIds": [
+        "decisions-and-systems",
+        "access-and-communication"
+      ],
+      "purpose": "What it means for a person to direct their own supports, where the independent living movement came from and what it asks of a service system, and how to support a decision without taking it over."
+    },
+    {
+      "id": "course-dsd-04-personal-outcomes-quality",
+      "journeyIds": [
+        "access-and-communication",
+        "decisions-and-systems"
+      ],
+      "purpose": "The difference between a service delivered and a life changed, how to ask about outcomes in the person's terms, and what a quality review looks like when it starts from the person rather than the file."
+    },
+    {
+      "id": "course-dsd-05-customized-employment",
+      "journeyIds": [
+        "access-and-communication",
+        "decisions-and-systems"
+      ],
+      "purpose": "What competitive integrated employment means, why customized employment exists for people the usual hiring process screens out, and what staff can do so that work is the expectation rather than the exception."
+    },
+    {
+      "id": "course-dsd-06-benefits-assets-economic",
+      "journeyIds": [
+        "decisions-and-systems",
+        "access-and-communication"
+      ],
+      "purpose": "How asset limits, benefit rules and the fear of losing coverage shape the financial lives of people with disabilities, and what staff can do so that the system does not keep people poor by design."
+    },
+    {
+      "id": "course-dsd-07-executive-function-strengths",
+      "journeyIds": [
+        "access-and-communication"
+      ],
+      "purpose": "What executive function is, why a process that assumes it fails specific people predictably, how to read behavior as information about the demand rather than the person, and how to design support around what someone does well."
+    },
+    {
+      "id": "course-dsd-08-brain-injury-practice",
+      "journeyIds": [
+        "access-and-communication"
+      ],
+      "purpose": "What brain injury does that nobody can see, why a person can seem fine and be struggling, how fatigue and awareness shape every interaction, and what practice looks like when it is built for the injury rather than around it."
+    },
+    {
+      "id": "course-dsd-09-aging-health-access",
+      "journeyIds": [
+        "access-and-communication",
+        "decisions-and-systems"
+      ],
+      "purpose": "What it means to grow older with a lifelong disability, what happens when the parent who has provided support for fifty years can no longer, why people with disabilities get worse health care, and how staff can change what they can reach."
+    },
+    {
+      "id": "course-dsd-10-early-adversity-resilience",
+      "journeyIds": [
+        "access-and-communication",
+        "decisions-and-systems"
+      ],
+      "purpose": "What early adversity does over a lifetime, why people with disabilities carry more of it, what protective factors actually are, and how a service can respond without making a person tell the story again."
+    },
+    {
+      "id": "course-dsd-11-community-mapping-belonging",
+      "journeyIds": [
+        "access-and-communication",
+        "decisions-and-systems"
+      ],
+      "purpose": "Why a person can live in the community for years and belong to nothing in it, what natural supports actually are, how to map the places and people that already exist, and how to build one connection that does not depend on a paid worker."
+    },
+    {
+      "id": "course-dsd-12-communication-methods",
+      "journeyIds": [
+        "access-and-communication",
+        "perspectives-and-culture"
+      ],
+      "purpose": "Presuming competence, the methods people use to communicate when speech is not available or not enough, what it takes to work with an interpreter or a communication device well, and how to make what you say and write usable."
+    },
+    {
+      "id": "course-dsd-13-coaching-direct-support",
+      "journeyIds": [
+        "learning-and-leadership",
+        "workplace-culture"
+      ],
+      "purpose": "Who direct support professionals are and what the work actually asks of them, why turnover is the central quality problem in the service system, what coaching does that directing does not, and how to supervise in a way people stay for."
+    },
+    {
+      "id": "course-dsd-co-occurring-substance-use",
+      "journeyIds": [
+        "access-and-communication"
+      ],
+      "purpose": "Recognize the barriers people with disabilities face in substance use treatment, help them reach accessible care in Minnesota's system, and use harm reduction and stigma-free practice in disability services work."
+    },
+    {
+      "id": "course-dsd-housing-instability",
+      "journeyIds": [
+        "access-and-communication"
+      ],
+      "purpose": "Anticipate how housing instability disrupts eligibility and services, connect people to current Minnesota housing supports, and design contact and notice practices that keep people with disabilities connected."
+    },
+    {
+      "id": "course-dsd-justice-involvement-reentry",
+      "journeyIds": [
+        "access-and-communication",
+        "decisions-and-systems"
+      ],
+      "purpose": "Use accurate information about disability, race and incarceration to protect benefits, plan reentry and design services and hiring processes that do not needlessly exclude people with criminal records."
+    },
+    {
+      "id": "course-dsd-leading-system-change",
+      "journeyIds": [
+        "decisions-and-systems",
+        "access-and-communication"
+      ],
+      "purpose": "Lead change in Minnesota disability services by working within Olmstead, federal settings and state licensing frames, communicating honestly through redesign, co-designing with self-advocates and partners, and measuring outcomes people value."
+    },
+    {
+      "id": "course-dsd-mental-health-psychiatric-disability",
+      "journeyIds": [
+        "decisions-and-systems",
+        "access-and-communication"
+      ],
+      "purpose": "Apply disability rights, recovery orientation and Minnesota crisis resources to case, program and oversight decisions that involve people with psychiatric disabilities."
+    },
+    {
+      "id": "course-dsd-positive-supports",
+      "journeyIds": [
+        "access-and-communication",
+        "decisions-and-systems"
+      ],
+      "purpose": "Recognize prohibited and restrictive practices, follow Minnesota's emergency manual restraint and reporting requirements, and steer plans toward person-centered positive supports that improve quality of life."
+    },
+    {
+      "id": "course-employee-life-cycle-as-a-system",
+      "journeyIds": [
+        "workplace-culture"
+      ],
+      "purpose": "Who we attract, hire, onboard, develop, sponsor, hear, and exit — and who each gate was built for."
+    },
+    {
+      "id": "course-employee-viewpoint-and-wellbeing-surveys",
+      "journeyIds": [
+        "workplace-culture"
+      ],
+      "purpose": "Use existing survey evidence to ask whose workplace experience may be missing and what follow-up is possible."
+    },
+    {
+      "id": "course-employment-first-and-economic-inclusion",
+      "journeyIds": [
+        "access-and-communication"
+      ],
+      "purpose": "Explore employment-first practice and how support choices can expand access to integrated work."
+    },
+    {
+      "id": "course-equal-opportunity-in-employment",
+      "journeyIds": [
+        "decisions-and-systems"
+      ],
+      "purpose": "EOAD when someone is harmed. A lens on the posting, panel, and 90-day before anyone has to complain."
+    },
+    {
+      "id": "course-equity-centered-leadership",
+      "journeyIds": [
+        "decisions-and-systems",
+        "workplace-culture"
+      ],
+      "purpose": "Examine how a leader's choices about agendas, assignments, credit, and repair shape fair opportunity."
+    },
+    {
+      "id": "course-equity-champion-contribution-workflow",
+      "journeyIds": [
+        "decisions-and-systems",
+        "learning-and-leadership"
+      ],
+      "purpose": "Contribute, write, use the toolkit, stop for a formal door, hand off — a workflow, not unpaid race education."
+    },
+    {
+      "id": "course-equity-inclusion-leadership-and-systems",
+      "journeyIds": [
+        "decisions-and-systems",
+        "workplace-culture"
+      ],
+      "purpose": "See the system — budget, IT, contract, hire, who writes the rule — not only the values sentence."
+    },
+    {
+      "id": "course-facilitators-guide-equity-inclusion-curriculum",
+      "journeyIds": [
+        "decisions-and-systems",
+        "learning-and-leadership"
+      ],
+      "purpose": "Plan a learning session that keeps attention on work practices and gives participants room to reflect without being scored."
+    },
+    {
+      "id": "course-family-and-natural-support-systems",
+      "journeyIds": [
+        "decisions-and-systems"
+      ],
+      "purpose": "Family is not a staffing plan — ask who they want, name the unpaid work, put respite on the page."
+    },
+    {
+      "id": "course-from-noticing-to-shifting",
+      "journeyIds": [
+        "perspectives-and-culture",
+        "decisions-and-systems"
+      ],
+      "purpose": "Move from noticing an inequity to changing a form, hiring step, meeting, or other work process."
+    },
+    {
+      "id": "course-gc-accommodation-transitions",
+      "journeyIds": [
+        "workplace-culture",
+        "access-and-communication"
+      ],
+      "purpose": "Plan how accommodations carry across job changes, supervisors, locations and systems, and test leadership pathways so they are job related and open to staff with disabilities."
+    },
+    {
+      "id": "course-gc-age-inclusion",
+      "journeyIds": [
+        "perspectives-and-culture",
+        "workplace-culture"
+      ],
+      "purpose": "Recognize ageism toward younger and older people, apply federal and Minnesota age protections at the right level, and replace generational stereotypes with individual, person-centered practice."
+    },
+    {
+      "id": "course-gc-automated-decisions",
+      "journeyIds": [
+        "decisions-and-systems"
+      ],
+      "purpose": "Govern automated decision tools in human services so they are tested for bias, explainable to the people affected, subject to real staff review and appeal, and accountable through inventories and vendor contracts."
+    },
+    {
+      "id": "course-gc-career-pathways-succession",
+      "journeyIds": [
+        "learning-and-leadership",
+        "workplace-culture"
+      ],
+      "purpose": "Make advancement paths visible, share development opportunities fairly, plan succession on job-related criteria and know when to bring in HR and labor relations."
+    },
+    {
+      "id": "course-gc-deaf-minnesota",
+      "journeyIds": [
+        "perspectives-and-culture",
+        "access-and-communication"
+      ],
+      "purpose": "Explore Deaf language and cultural contexts while arranging communication access around each person's preferences."
+    },
+    {
+      "id": "course-gc-employee-resource-groups",
+      "journeyIds": [
+        "workplace-culture",
+        "perspectives-and-culture"
+      ],
+      "purpose": "Support State of Minnesota employee resource groups fairly: open membership, fair sponsorship, protected time and realistic privacy, without turning members into unpaid staff."
+    },
+    {
+      "id": "course-gc-equity-committee-roles",
+      "journeyIds": [
+        "decisions-and-systems"
+      ],
+      "purpose": "Charter, staff and steer an equity committee or unit equity team so it has clear decision rights, fair membership, owned actions and accountability that measures systems rather than people."
+    },
+    {
+      "id": "course-gc-faith-in-minnesota",
+      "journeyIds": [
+        "perspectives-and-culture"
+      ],
+      "purpose": "Explore religious and nonreligious diversity when planning meetings and services; ask each person about practices or accommodations that matter to them."
+    },
+    {
+      "id": "course-gc-new-supervisor-inclusive-leadership",
+      "journeyIds": [
+        "learning-and-leadership",
+        "workplace-culture"
+      ],
+      "purpose": "Apply inclusive supervision basics to assignments, one-to-ones, accommodation requests, feedback, meetings and concerns, and know when to bring in the right office."
+    },
+    {
+      "id": "course-gc-remote-hybrid-equity",
+      "journeyIds": [
+        "access-and-communication",
+        "workplace-culture"
+      ],
+      "purpose": "Reduce proximity bias, run hybrid meetings where location does not decide who is heard, build accessible digital work and tell general telework apart from telework as an accommodation."
+    },
+    {
+      "id": "course-gc-respectful-workplace",
+      "journeyIds": [
+        "workplace-culture"
+      ],
+      "purpose": "Recognize harassment and disrespectful conduct, respond as a bystander, build psychologically safe team habits and route concerns to the right office."
+    },
+    {
+      "id": "course-gc-structural-racism",
+      "journeyIds": [
+        "decisions-and-systems",
+        "perspectives-and-culture"
+      ],
+      "purpose": "Analyze how rules, defaults and resources in public programs can produce racial inequity without intent, and lead a policy review that ends in an owned change."
+    },
+    {
+      "id": "course-gc-sustaining-the-work",
+      "journeyIds": [
+        "workplace-culture",
+        "learning-and-leadership"
+      ],
+      "purpose": "Distinguish secondary traumatic stress, vicarious trauma, compassion fatigue and burnout, and take organizational, supervisory and personal steps that sustain people doing hard work."
+    },
+    {
+      "id": "course-gc-using-community-briefs",
+      "journeyIds": [
+        "perspectives-and-culture"
+      ],
+      "purpose": "Practice using community briefs to prepare questions and access plans without treating group context as an individual profile."
+    },
+    {
+      "id": "course-health-wellness-and-safety",
+      "journeyIds": [
+        "workplace-culture"
+      ],
+      "purpose": "Safety that shrinks a life is not wellness — support the person to live, and still do the duty."
+    },
+    {
+      "id": "course-how-it-shows-up-in-minnesota-human-services",
+      "journeyIds": [
+        "decisions-and-systems"
+      ],
+      "purpose": "Who waits, who is removed, who is hired, who is believed. Greater Minnesota is not a footnote. Tribal Nations are governments."
+    },
+    {
+      "id": "course-idi-acceptance",
+      "journeyIds": [
+        "perspectives-and-culture"
+      ],
+      "purpose": "Recognize and learn from cultural patterns without judging them by your own standard, and turn that recognition into practical, properly reviewed changes in DHS decisions."
+    },
+    {
+      "id": "course-idi-adaptation",
+      "journeyIds": [
+        "perspectives-and-culture"
+      ],
+      "purpose": "Adaptation is where someone can deliberately shift their own perspective and behavior to bridge across a real cultural difference — not performing politeness, but actually seeing and communicating from more than one cultural frame."
+    },
+    {
+      "id": "course-idi-denial",
+      "journeyIds": [
+        "perspectives-and-culture"
+      ],
+      "purpose": "Denial is the starting orientation on the intercultural continuum — cultural difference is not yet real or relevant, often because someone's own world has stayed narrow enough that it never had to become visible."
+    },
+    {
+      "id": "course-idi-integration",
+      "journeyIds": [
+        "perspectives-and-culture"
+      ],
+      "purpose": "Integration is the far end of the continuum — more than one cultural frame has become part of how a person sees, so that moving between frames is no longer only a deliberate skill but part of their own identity."
+    },
+    {
+      "id": "course-idi-minimization",
+      "journeyIds": [
+        "perspectives-and-culture"
+      ],
+      "purpose": "Recognize when an emphasis on sameness hides real cultural difference in your team's practice and your own habits, and take practical steps to hold commonality and difference together."
+    },
+    {
+      "id": "course-idi-polarization",
+      "journeyIds": [
+        "perspectives-and-culture"
+      ],
+      "purpose": "Polarization is where cultural difference first becomes visible — and gets sorted into better and worse, us and them, sometimes favoring one's own group (Defense) and sometimes favoring another group over one's own (Reversal)."
+    },
+    {
+      "id": "course-intercultural-competence-without-a-score",
+      "journeyIds": [
+        "perspectives-and-culture"
+      ],
+      "purpose": "Use intercultural development concepts as prompts for reflection without scoring or labeling people."
+    },
+    {
+      "id": "course-intercultural-conflict-styles",
+      "journeyIds": [
+        "perspectives-and-culture",
+        "workplace-culture"
+      ],
+      "purpose": "Notice different ways people express disagreement and ask about preferred ways to work through conflict."
+    },
+    {
+      "id": "course-ipe-01-intercultural-practice",
+      "journeyIds": [
+        "perspectives-and-culture",
+        "access-and-communication"
+      ],
+      "purpose": "How culture, identity, disability and power travel through the ordinary decisions a state division makes every day."
+    },
+    {
+      "id": "course-ipe-02-disability-culture-justice",
+      "journeyIds": [
+        "perspectives-and-culture",
+        "access-and-communication"
+      ],
+      "purpose": "Disability as identity and culture, what self-advocates mean by access and interdependence, and how a deficit frame shows up in the words a public program uses about people."
+    },
+    {
+      "id": "course-ipe-03-public-power",
+      "journeyIds": [
+        "access-and-communication",
+        "decisions-and-systems"
+      ],
+      "purpose": "A form, a definition, a deadline, a contract line: ordinary internal decisions arrive in someone’s life as help, delay, confusion or exclusion."
+    },
+    {
+      "id": "course-ipe-04-person-centered-systems",
+      "journeyIds": [
+        "decisions-and-systems",
+        "access-and-communication"
+      ],
+      "purpose": "Policy, guidance, forms, measures and contracts decide what a person’s week looks like long before anyone meets them."
+    },
+    {
+      "id": "course-ipe-05-bias-assumptions-accountability",
+      "journeyIds": [
+        "perspectives-and-culture",
+        "decisions-and-systems"
+      ],
+      "purpose": "How assumptions travel from a quick judgment into a routine, into a standard, and into the lives of people who never met you."
+    },
+    {
+      "id": "course-ipe-06-accessible-communication",
+      "journeyIds": [
+        "access-and-communication",
+        "perspectives-and-culture"
+      ],
+      "purpose": "What you write is what most people will ever meet of this work. Four lessons on words, structure, format and timing, ending with one real revision."
+    },
+    {
+      "id": "course-ipe-07-participation-and-voice",
+      "journeyIds": [
+        "decisions-and-systems",
+        "access-and-communication"
+      ],
+      "purpose": "Asking people what they think is not the same as letting them shape the decision. Four lessons on accessible engagement, the real difference between consultation, partnership and co-design, and one honest review of who is present and who is missing."
+    },
+    {
+      "id": "course-ipe-08-choosing-a-learning-focus",
+      "journeyIds": [
+        "perspectives-and-culture",
+        "learning-and-leadership"
+      ],
+      "purpose": "How to pick something worth learning from the work already in front of you, without rating yourself or anyone else."
+    },
+    {
+      "id": "course-ipe-09-accessible-public-communications",
+      "journeyIds": [
+        "access-and-communication"
+      ],
+      "purpose": "For most Minnesotans, this division is a web page, a letter, a form or a slide at a public meeting. Four lessons on designing those well, ending with a usability review you run on one real resource."
+    },
+    {
+      "id": "course-ipe-10-language-access",
+      "journeyIds": [
+        "access-and-communication",
+        "perspectives-and-culture"
+      ],
+      "purpose": "Interpretation is live, translation takes time, and both have to be in the budget before they can be in the room. Four lessons ending with a language-access plan for one real project or meeting."
+    },
+    {
+      "id": "course-ipe-11-inclusive-meetings",
+      "journeyIds": [
+        "access-and-communication",
+        "workplace-culture"
+      ],
+      "purpose": "Most of what decides who can take part in a meeting is settled before anyone walks in. Four lessons on design, access, facilitation and follow-up, ending with a checklist you fill in for one real meeting."
+    },
+    {
+      "id": "course-ipe-12-policy-writing-equity-lens",
+      "journeyIds": [
+        "decisions-and-systems",
+        "access-and-communication"
+      ],
+      "purpose": "A draft is a set of decisions about who will find this easy and who will find it hard. Four lessons on reading your own draft for barriers, unclear requirements, uneven effects and buried assumptions."
+    },
+    {
+      "id": "course-ipe-13-program-service-design",
+      "journeyIds": [
+        "decisions-and-systems",
+        "access-and-communication"
+      ],
+      "purpose": "Examine the early choices that shape a service and include affected people before the design is fixed."
+    },
+    {
+      "id": "course-ipe-14-documentation-and-narrative",
+      "journeyIds": [
+        "decisions-and-systems",
+        "perspectives-and-culture"
+      ],
+      "purpose": "A finding, a summary or a briefing note carries three things at once: what happened, how it was framed, and what the framing implies about the people in it."
+    },
+    {
+      "id": "course-ipe-15-stakeholder-partnership",
+      "journeyIds": [
+        "decisions-and-systems",
+        "perspectives-and-culture"
+      ],
+      "purpose": "Consultation is not partnership. Four lessons on who is already at the table, what reciprocity actually costs, when partners are brought in, and how to map the relationships behind one real decision."
+    },
+    {
+      "id": "course-ipe-16-digital-equity-technology",
+      "journeyIds": [
+        "access-and-communication",
+        "decisions-and-systems"
+      ],
+      "purpose": "Every online process is a set of requirements about devices, connections, sign-ins, privacy and reading speed. Four lessons on seeing the whole path a person travels, ending with a review you run on one real service."
+    },
+    {
+      "id": "course-ipe-17-responding-to-feedback",
+      "journeyIds": [
+        "decisions-and-systems",
+        "perspectives-and-culture"
+      ],
+      "purpose": "Concerns rarely arrive labeled as concerns. Four lessons on receiving one without defending the process, reading a single account as evidence, repairing what you can, and running the conversation you did not schedule."
+    },
+    {
+      "id": "course-ipe-18-cross-division-coordination",
+      "journeyIds": [
+        "decisions-and-systems"
+      ],
+      "purpose": "Most public-service work fails between two units rather than inside one. Four lessons on the seams where work changes hands, ending with a handoff map you fill in for one real process you touch."
+    },
+    {
+      "id": "course-ipe-19-history-public-institutions",
+      "journeyIds": [
+        "perspectives-and-culture",
+        "decisions-and-systems"
+      ],
+      "purpose": "Four lessons on what public disability systems were first built to do, how ableism and racial inequity worked together inside them, why distrust is an accurate memory rather than a communications problem."
+    },
+    {
+      "id": "course-ipe-20-tribal-sovereignty",
+      "journeyIds": [
+        "decisions-and-systems",
+        "perspectives-and-culture"
+      ],
+      "purpose": "Explore why Tribal sovereignty calls for a government-to-government approach; defer Tribal-specific interpretation, engagement, and decisions to the Office of Indian Affairs and DHS offices that handle Tribal matters."
+    },
+    {
+      "id": "course-ipe-21-race-disability-outcomes",
+      "journeyIds": [
+        "decisions-and-systems",
+        "perspectives-and-culture"
+      ],
+      "purpose": "Ableism and racism rarely arrive one at a time. Four lessons on where two patterns meet inside a public system, how to read a difference in results without jumping to a cause, and how to build the questions that make an examination worth doing."
+    },
+    {
+      "id": "course-ipe-22-immigration-system-navigation",
+      "journeyIds": [
+        "decisions-and-systems",
+        "access-and-communication"
+      ],
+      "purpose": "Almost every public process was written by people who already knew how the system works. Four lessons on what that assumption costs the people who do not, ending with an assumed-knowledge review you fill in for one real process you touch."
+    },
+    {
+      "id": "course-ipe-23-lgbtqia2s-inclusion-privacy",
+      "journeyIds": [
+        "access-and-communication",
+        "perspectives-and-culture"
+      ],
+      "purpose": "Identity information does not behave like the rest of an administrative record. Four lessons on what the division asks, what it keeps, who can see it, and how a form, a policy or a message can include people without exposing them."
+    },
+    {
+      "id": "course-ipe-24-religion-spirituality-practice",
+      "journeyIds": [
+        "perspectives-and-culture"
+      ],
+      "purpose": "A date, a room, a tray of sandwiches and a line on a form all carry assumptions about belief and practice."
+    },
+    {
+      "id": "course-ipe-25-trauma-responsive-administration",
+      "journeyIds": [
+        "decisions-and-systems",
+        "access-and-communication"
+      ],
+      "purpose": "Four lessons on what a public process does to the person who meets it: where an ordinary step turns punitive, how complaint routes and listening sessions can repeat the harm they were built to address."
+    },
+    {
+      "id": "course-ipe-26-power-conflict-repair",
+      "journeyIds": [
+        "decisions-and-systems",
+        "workplace-culture"
+      ],
+      "purpose": "Examine how positional power shapes disagreement and practice responses that support accountability and repair."
+    },
+    {
+      "id": "course-ipe-27-ethical-decision-making",
+      "journeyIds": [
+        "decisions-and-systems",
+        "perspectives-and-culture"
+      ],
+      "purpose": "Autonomy, safety, cost, legal requirement, quality oversight and equity rarely point the same way."
+    },
+    {
+      "id": "course-ipe-28-complex-issue-inquiry",
+      "journeyIds": [
+        "decisions-and-systems",
+        "perspectives-and-culture"
+      ],
+      "purpose": "Some problems do not yield to a rule, a reminder or a better form. Four lessons on holding a complicated internal issue still long enough to see it — ending with a team case consultation you can run with the colleagues who touch the same process."
+    },
+    {
+      "id": "course-ipe-29-reflective-team",
+      "journeyIds": [
+        "learning-and-leadership",
+        "workplace-culture"
+      ],
+      "purpose": "Respectful inquiry, learning from mistakes, feedback that travels uphill and shared accountability are conditions a leader sets, not a culture that arrives."
+    },
+    {
+      "id": "course-ipe-30-policy-procedure-governance",
+      "journeyIds": [
+        "access-and-communication",
+        "decisions-and-systems"
+      ],
+      "purpose": "Accessibility, plain language, cultural responsiveness and stakeholder impact are cheap to fix while a draft is still a draft. Four lessons on building the review stage that looks at them before the requirements lock."
+    },
+    {
+      "id": "course-ipe-31-inclusive-workforce-culture",
+      "journeyIds": [
+        "workplace-culture",
+        "decisions-and-systems"
+      ],
+      "purpose": "Examine how everyday team practices shape belonging, fair opportunity, and the ability to raise concerns."
+    },
+    {
+      "id": "course-ipe-32-complaints-incident-learning",
+      "journeyIds": [
+        "decisions-and-systems",
+        "access-and-communication"
+      ],
+      "purpose": "Complaints, feedback, records and the stories behind them are the division’s cheapest early warning, and the easiest to waste."
+    },
+    {
+      "id": "course-ipe-33-responsible-data-evaluation",
+      "journeyIds": [
+        "decisions-and-systems"
+      ],
+      "purpose": "Examine what a measure captures, what it misses, and how to interpret it responsibly."
+    },
+    {
+      "id": "course-ipe-34-co-design-partnership",
+      "journeyIds": [
+        "decisions-and-systems"
+      ],
+      "purpose": "Asking people what they think of a finished plan is not co-design, and unpaid expertise is not a partnership."
+    },
+    {
+      "id": "course-ipe-35-inclusive-learning-design",
+      "journeyIds": [
+        "learning-and-leadership",
+        "access-and-communication"
+      ],
+      "purpose": "Most internal guidance is written once and met a thousand times, by people in the middle of other work. Four lessons on building training, guidance, resource libraries and internal tools that are findable, readable and genuinely usable across roles."
+    },
+    {
+      "id": "course-ipe-36-leading-difficult-dialogue",
+      "journeyIds": [
+        "learning-and-leadership",
+        "perspectives-and-culture"
+      ],
+      "purpose": "Conversations about disability, ableism, racism, identity, power and exclusion fail in predictable ways, and most of what decides them happens before anyone speaks."
+    },
+    {
+      "id": "course-ipe-37-resource-allocation-equity",
+      "journeyIds": [
+        "decisions-and-systems"
+      ],
+      "purpose": "Funding, positions, timelines, contracts and the order items appear on a work plan decide who the division actually reaches, long before anyone writes a word about equity."
+    },
+    {
+      "id": "course-ipe-38-sustaining-voluntary-learning",
+      "journeyIds": [
+        "learning-and-leadership",
+        "workplace-culture"
+      ],
+      "purpose": "Learning that nobody is required to do needs conditions, not enforcement. Four lessons on protecting time, making the work visible without watching people, and building team rhythms that survive a busy quarter."
+    },
+    {
+      "id": "course-ipe-capstone-intercultural-practice",
+      "journeyIds": [
+        "decisions-and-systems",
+        "perspectives-and-culture"
+      ],
+      "purpose": "Lead a team through choosing a real recurring process, analyzing it with the Equity Analysis Toolkit, co-designing a change with the people affected and presenting an accountable decision request."
+    },
+    {
+      "id": "course-job-design-and-the-posting",
+      "journeyIds": [
+        "workplace-culture"
+      ],
+      "purpose": "Who can apply is decided when the job is written — essential functions, extras, and pay."
+    },
+    {
+      "id": "course-language-access-as-a-design",
+      "journeyIds": [
+        "access-and-communication",
+        "perspectives-and-culture"
+      ],
+      "purpose": "Who can use the door, the form, and the phone is already decided."
+    },
+    {
+      "id": "course-language-access-plan",
+      "journeyIds": [
+        "access-and-communication",
+        "perspectives-and-culture"
+      ],
+      "purpose": "Who we serve, which languages, which vital documents, who books the interpreter, and what happens when the vendor fails."
+    },
+    {
+      "id": "course-lgbtq-inclusion-in-disability-services",
+      "journeyIds": [
+        "access-and-communication"
+      ],
+      "purpose": "Use the name they use. Ask who may know. Do not let a form or a family veto become the plan."
+    },
+    {
+      "id": "course-mobility-acting-promotion",
+      "journeyIds": [
+        "workplace-culture"
+      ],
+      "purpose": "Who is visible, who is called ready, who gets the acting assignment."
+    },
+    {
+      "id": "course-neurodiversity-and-cognitive-difference",
+      "journeyIds": [
+        "access-and-communication"
+      ],
+      "purpose": "Examine environmental barriers and support people with different cognitive styles without treating difference as a defect."
+    },
+    {
+      "id": "course-onboarding-and-first-90-days",
+      "journeyIds": [
+        "workplace-culture"
+      ],
+      "purpose": "Examine early employee experiences and choose changes that make onboarding more accessible and welcoming."
+    },
+    {
+      "id": "course-outcomes-not-intentions",
+      "journeyIds": [
+        "decisions-and-systems"
+      ],
+      "purpose": "Distinguish an observed disparity from a causal claim and decide what evidence and follow-up are needed."
+    },
+    {
+      "id": "course-performance-and-development",
+      "journeyIds": [
+        "workplace-culture"
+      ],
+      "purpose": "Explore coaching and development conversations that support the work without reducing a person to a score."
+    },
+    {
+      "id": "course-pi-equitable-oversight-design",
+      "journeyIds": [
+        "decisions-and-systems",
+        "access-and-communication"
+      ],
+      "purpose": "Design program integrity reviews that prevent and address fraud while staying proportionate, avoiding profiling, protecting due process and continuity of care, and communicating accurately."
+    },
+    {
+      "id": "course-pi-protecting-program-without-harm",
+      "journeyIds": [
+        "decisions-and-systems"
+      ],
+      "purpose": "Practical habits for any DHS staff member whose work touches program integrity communication, review, or the people affected by it."
+    },
+    {
+      "id": "course-pi-public-perception-and-culture",
+      "journeyIds": [
+        "decisions-and-systems"
+      ],
+      "purpose": "How a story about individual wrongdoing can turn into a story about an entire community — and why DHS staff have to actively guard against that slide."
+    },
+    {
+      "id": "course-pi-what-fraud-enforcement-costs",
+      "journeyIds": [
+        "decisions-and-systems"
+      ],
+      "purpose": "Real fraud causes real harm. So does enforcement that isn't careful. Both are true at once, and DHS staff need to hold both."
+    },
+    {
+      "id": "course-plain-language-in-human-services",
+      "journeyIds": [
+        "access-and-communication",
+        "perspectives-and-culture"
+      ],
+      "purpose": "Practice revising public-facing information so people can understand and use it."
+    },
+    {
+      "id": "course-screening-and-selection",
+      "journeyIds": [
+        "workplace-culture"
+      ],
+      "purpose": "Examine hiring criteria, work samples, and panel practices for relevance and avoidable barriers."
+    },
+    {
+      "id": "course-somali-minnesota-brief",
+      "journeyIds": [
+        "perspectives-and-culture"
+      ],
+      "purpose": "Use Somali Minnesota community context to prepare respectful questions, then ask each person about their own situation and needs."
+    },
+    {
+      "id": "course-sourcing-and-outreach",
+      "journeyIds": [
+        "decisions-and-systems",
+        "workplace-culture"
+      ],
+      "purpose": "Where we look. The same three boards is not a pool."
+    },
+    {
+      "id": "course-stay-and-exit-interviews",
+      "journeyIds": [
+        "decisions-and-systems"
+      ],
+      "purpose": "Explore how stay and exit conversations can reveal barriers, then connect what you hear to a change the team can make."
+    },
+    {
+      "id": "course-teams-in-minimization",
+      "journeyIds": [
+        "perspectives-and-culture",
+        "workplace-culture"
+      ],
+      "purpose": "How a group hears equity as an attack — and how a supervisor keeps the process as the object."
+    },
+    {
+      "id": "course-the-record",
+      "journeyIds": [
+        "decisions-and-systems"
+      ],
+      "purpose": "What the word means, what the history built, and what the evidence still shows."
+    },
+    {
+      "id": "course-what-minimization-does-in-dhs-work",
+      "journeyIds": [
+        "decisions-and-systems",
+        "perspectives-and-culture"
+      ],
+      "purpose": "Notice when treating everyone the same overlooks different barriers, and test a more responsive work practice."
+    },
+    {
+      "id": "course-working-with-an-interpreter",
+      "journeyIds": [
+        "access-and-communication",
+        "perspectives-and-culture"
+      ],
+      "purpose": "A professional — not a cousin and not the bilingual coworker from the hall. Speak to the person."
+    },
+    {
+      "id": "ext-ada",
+      "journeyIds": [
+        "access-and-communication"
+      ],
+      "purpose": "Explore how ADA Title II applies to communication and digital access in public services, then check the source for requirements."
+    },
+    {
+      "id": "ext-clas",
+      "journeyIds": [
+        "access-and-communication",
+        "perspectives-and-culture"
+      ],
+      "purpose": "Explore how the National CLAS Standards can guide culturally and linguistically responsive services."
+    },
+    {
+      "id": "ext-dhs-equity-toolkit",
+      "journeyIds": [
+        "decisions-and-systems"
+      ],
+      "purpose": "Use equity analysis questions to examine who is affected, what evidence is available, and what could change."
+    },
+    {
+      "id": "ext-emerging-leaders-institute",
+      "journeyIds": [
+        "learning-and-leadership"
+      ],
+      "purpose": "Explore a state leadership development opportunity and consider whether its learning goals fit your role."
+    },
+    {
+      "id": "ext-mn-accessibility",
+      "journeyIds": [
+        "access-and-communication"
+      ],
+      "purpose": "Explore the state's digital accessibility and document guidance when planning usable materials and services."
+    },
+    {
+      "id": "ext-title-vi-lep",
+      "journeyIds": [
+        "access-and-communication"
+      ],
+      "purpose": "Explore the relationship between language access and Title VI, then check the source for applicable guidance."
+    },
+    {
+      "id": "ja-access-checks",
+      "journeyIds": [
+        "access-and-communication",
+        "learning-and-leadership"
+      ],
+      "purpose": "Before meeting with people, confirm the language and dialect and arrange captioning, interpreting, and alternate formats."
+    },
+    {
+      "id": "ja-accessible-meetings",
+      "journeyIds": [
+        "access-and-communication",
+        "workplace-culture"
+      ],
+      "purpose": "Send purpose and materials ahead, offer accommodation without forcing disclosure, give people several ways to take part, watch positional power, repair when harm occurs, end with clear decisions and owners, and follow up accessibly."
+    },
+    {
+      "id": "ja-accommodation-across-transitions",
+      "journeyIds": [
+        "access-and-communication",
+        "workplace-culture"
+      ],
+      "purpose": "Accommodations that work in the current role are often lost during a rotation, an acting assignment, a leadership cohort, or an interview process because nobody owns them across the transition."
+    },
+    {
+      "id": "ja-climate-action-plan",
+      "journeyIds": [
+        "workplace-culture"
+      ],
+      "purpose": "Choose visible changes to team climate, name who will act, and set a time to revisit whether the changes help."
+    },
+    {
+      "id": "ja-engagement-influence-ladder",
+      "journeyIds": [
+        "decisions-and-systems"
+      ],
+      "purpose": "Five levels of influence, from informing people about a decision to designing it with them. Choose one honestly, say it plainly, and match the supports, compensation, and report-back to it."
+    },
+    {
+      "id": "ja-equity-impact-questions",
+      "journeyIds": [
+        "decisions-and-systems"
+      ],
+      "purpose": "Use this short question set for high-stakes decisions. Consider which authority and rights apply, who benefits, who carries the burden, which assumptions shape the outcome, what can change, and what must stay with the responsible official."
+    },
+    {
+      "id": "ja-equity-scan-or-full-analysis",
+      "journeyIds": [
+        "decisions-and-systems"
+      ],
+      "purpose": "Explore when a brief equity scan or a fuller analysis may help a decision, and identify who determines the required process."
+    },
+    {
+      "id": "ja-facilitation-session-plan",
+      "journeyIds": [
+        "learning-and-leadership"
+      ],
+      "purpose": "Plan the session around what participants will be able to use afterward. Set one clear learning goal, use an activity based on their work, offer something useful to take with them, and arrange access in advance."
+    },
+    {
+      "id": "ja-form-notice-change",
+      "journeyIds": [
+        "access-and-communication"
+      ],
+      "purpose": "Check who a form or notice affects, which access barriers it may create, and who can resolve them before release."
+    },
+    {
+      "id": "ja-inclusive-hiring-lifecycle",
+      "journeyIds": [
+        "workplace-culture",
+        "decisions-and-systems"
+      ],
+      "purpose": "An eight-stage structure for hiring that tests what the work really requires, opens outreach, uses structured review and interviews, normalizes accommodation, builds bias reflection into deliberation, makes the offer transparent."
+    },
+    {
+      "id": "ja-job-relatedness-check",
+      "journeyIds": [
+        "workplace-culture"
+      ],
+      "purpose": "A five-question check for any degree, experience, screening, or interview requirement: what work does it predict, what evidence supports that, who does it screen out, what alternative shows the same ability, and who signed off."
+    },
+    {
+      "id": "ja-language-access-checklist",
+      "journeyIds": [
+        "access-and-communication",
+        "perspectives-and-culture"
+      ],
+      "purpose": "Start by identifying the languages people need and the vital documents that require translation and human review."
+    },
+    {
+      "id": "ja-language-cultural-access-planning",
+      "journeyIds": [
+        "access-and-communication",
+        "perspectives-and-culture"
+      ],
+      "purpose": "Plan language, format, messenger, communication mode, and program design together, using the CLAS standards as a frame: who the program reaches, which languages and formats they need."
+    },
+    {
+      "id": "ja-launch-embed-checklist",
+      "journeyIds": [
+        "decisions-and-systems"
+      ],
+      "purpose": "A one-page checklist for a new program, service, or digital application. It covers people and purpose, access, language, the effort required of people, evidence, partners, decision responsibility, and review."
+    },
+    {
+      "id": "ja-leadership-criteria-job-relatedness",
+      "journeyIds": [
+        "learning-and-leadership",
+        "workplace-culture"
+      ],
+      "purpose": "A check for the informal and formal criteria used to nominate, select, and promote people into lead roles: executive presence, quick verbal response, travel, long hours, always-on availability, and similar."
+    },
+    {
+      "id": "ja-operational-equity-canvas",
+      "journeyIds": [
+        "decisions-and-systems"
+      ],
+      "purpose": "One pattern that works for policies, forms, services, contracts, budgets, communications, technology, and program design: clarify the decision, identify affected people, examine evidence, name assumptions and risks."
+    },
+    {
+      "id": "ja-plain-language",
+      "journeyIds": [
+        "access-and-communication"
+      ],
+      "purpose": "Use short sentences, everyday words, one idea per paragraph, built-in heading styles, descriptive links, useful alternative text, and accessible tables."
+    },
+    {
+      "id": "ja-process-burden",
+      "journeyIds": [
+        "access-and-communication",
+        "decisions-and-systems"
+      ],
+      "purpose": "Look at the process from the person's point of view."
+    },
+    {
+      "id": "ja-procurement-contract-equity",
+      "journeyIds": [
+        "decisions-and-systems"
+      ],
+      "purpose": "Equity belongs in the solicitation, the evaluation criteria, the contract terms, and the monitoring. This aid names the questions for each stage and the partners who own the rules."
+    },
+    {
+      "id": "ja-report-back",
+      "journeyIds": [
+        "decisions-and-systems",
+        "workplace-culture"
+      ],
+      "purpose": "A short, accessible record for the people who gave input: what they said in their words, what changed because of it, what could not change and why, and what happens next with a named contact."
+    },
+    {
+      "id": "ja-stakeholder-map",
+      "journeyIds": [
+        "decisions-and-systems"
+      ],
+      "purpose": "Plan who should be involved before the design is settled."
+    },
+    {
+      "id": "lm-disability-rights-and-service-delivery",
+      "journeyIds": [
+        "decisions-and-systems",
+        "access-and-communication"
+      ],
+      "purpose": "An orientation to person-centered planning, supported decision-making, LifeCourse, the ADA and Olmstead, home and community-based services, employment-first practice, and positive supports, and to what each asks of a service design."
+    },
+    {
+      "id": "lm-facilitation-application",
+      "journeyIds": [
+        "learning-and-leadership"
+      ],
+      "purpose": "A useful session helps participants make a meaningful change in their own work. Begin with what they should leave able to do, keep presentations focused, and give them substantial time to practice with real materials."
+    },
+    {
+      "id": "lm-how-this-program-works",
+      "journeyIds": [
+        "learning-and-leadership"
+      ],
+      "purpose": "Find an entry point in the program and connect a resource or learning path to a practical task in your own work."
+    },
+    {
+      "id": "lm-interpreter",
+      "journeyIds": [
+        "access-and-communication",
+        "perspectives-and-culture"
+      ],
+      "purpose": "Book the right language and dialect, and brief the interpreter before the conversation."
+    },
+    {
+      "id": "lm-intersectionality-foundations",
+      "journeyIds": [
+        "decisions-and-systems",
+        "perspectives-and-culture"
+      ],
+      "purpose": "Race, disability, language, gender, age, class, and immigration status shape people's experience together, not one at a time. A program that reviews outcomes by one category can look equitable while failing the people at the intersections."
+    },
+    {
+      "id": "lm-plain-language-carries-complexity",
+      "journeyIds": [
+        "access-and-communication"
+      ],
+      "purpose": "Plain language helps readers find, understand, and use information."
+    },
+    {
+      "id": "lm-power-and-positional-authority",
+      "journeyIds": [
+        "decisions-and-systems",
+        "workplace-culture"
+      ],
+      "purpose": "Supervisors, managers, and people with expertise or tenure hold power that shapes who speaks, who is believed, and whose time counts. Seeing it is the first intercultural skill; using it deliberately is the second."
+    },
+    {
+      "id": "lm-psychological-safety-and-repair",
+      "journeyIds": [
+        "workplace-culture",
+        "learning-and-leadership"
+      ],
+      "purpose": "People speak when speaking is safe and useful. Safety is built through observable practices: how disagreement is handled, how mistakes are treated, who carries repair, and whether input changes anything."
+    },
+    {
+      "id": "lm-structural-racism-and-institutions",
+      "journeyIds": [
+        "decisions-and-systems",
+        "perspectives-and-culture"
+      ],
+      "purpose": "Structural racism is the way policies, practices, and norms across institutions produce and maintain racial inequity without requiring anyone's intent. Recognizing it means examining rules, defaults, and histories, not searching for villains."
+    },
+    {
+      "id": "lm-workplace-climate",
+      "journeyIds": [
+        "workplace-culture",
+        "learning-and-leadership"
+      ],
+      "purpose": "Team climate is what people experience in everyday meetings, supervision, and decisions: whether they can speak openly, disagree, receive credit, and have fair access to opportunities."
+    },
+    {
+      "id": "pn-accessible-leadership-pathways",
+      "journeyIds": [
+        "learning-and-leadership",
+        "workplace-culture"
+      ],
+      "purpose": "For staff with disabilities, advancement barriers are usually structural and often invisible to the people who run leadership pathways."
+    },
+    {
+      "id": "pn-cultural-humility-briefs-as-questions",
+      "journeyIds": [
+        "perspectives-and-culture"
+      ],
+      "purpose": "A community brief or cultural guide is a starting point for respectful inquiry. It can help you ask better questions and plan access. It cannot tell you what any one person wants, believes, or needs."
+    },
+    {
+      "id": "pn-embed-early",
+      "journeyIds": [
+        "decisions-and-systems"
+      ],
+      "purpose": "Equity is easier to shape while an idea is still taking form."
+    },
+    {
+      "id": "pn-equity-in-practice",
+      "journeyIds": [
+        "decisions-and-systems"
+      ],
+      "purpose": "Consider a decision from six perspectives: compliance and civil rights, diversity and representation, hearts and minds, inclusion and belonging, organizational learning, and social justice. Then use seven questions to choose a thoughtful response."
+    },
+    {
+      "id": "pn-idi-and-tool-registry",
+      "journeyIds": [
+        "perspectives-and-culture"
+      ],
+      "purpose": "Consider what an intercultural assessment can and cannot tell you, and how to turn reflection into practice without profiling people."
+    },
+    {
+      "id": "pn-intercultural-method",
+      "journeyIds": [
+        "perspectives-and-culture",
+        "decisions-and-systems"
+      ],
+      "purpose": "A community brief can help you prepare for Minnesota work, but it cannot describe any one person."
+    },
+    {
+      "id": "pn-measurement-without-surveillance",
+      "journeyIds": [
+        "decisions-and-systems"
+      ],
+      "purpose": "Tell the difference between a platform that works and a program that improves equity."
+    },
+    {
+      "id": "pn-mentoring-sponsorship",
+      "journeyIds": [
+        "learning-and-leadership",
+        "workplace-culture"
+      ],
+      "purpose": "Mentoring explains how things work. Sponsorship puts your credibility behind someone in a room they are not in. Reverse mentoring lets leaders learn from staff with different experience, if it is voluntary and does not become extra unpaid work."
+    },
+    {
+      "id": "pn-partnership-spine",
+      "journeyIds": [
+        "decisions-and-systems"
+      ],
+      "purpose": "Equity is everyone's work. Build on the people, standards, and relationships already in place. Center lived experience. Follow the evidence. Build trust over time. Work in partnership."
+    },
+    {
+      "id": "pn-pay-classification-advancement",
+      "journeyIds": [
+        "workplace-culture",
+        "decisions-and-systems"
+      ],
+      "purpose": "Advancement barriers are often invisible: unclear pathways, visible work given by habit, and classification questions that no one owns."
+    },
+    {
+      "id": "pn-role-aware-entry",
+      "journeyIds": [
+        "learning-and-leadership"
+      ],
+      "purpose": "A policy analyst designing a program, a hiring manager planning recruitment, a fiscal analyst shaping a budget, and a supervisor preparing a hard conversation need different doors into the same equity knowledge."
+    },
+    {
+      "id": "pn-self-check",
+      "journeyIds": [
+        "decisions-and-systems"
+      ],
+      "purpose": "A useful working plan names who is responsible, when it will be reviewed, which access needs you considered, who you involved, and what you chose not to assume. Completing the boxes matters only when the follow-up is clear."
+    },
+    {
+      "id": "pn-stay-interviews-and-retention",
+      "journeyIds": [
+        "workplace-culture"
+      ],
+      "purpose": "A stay conversation asks a current team member what keeps them, what would make them leave, and what they would change. It is a conversation, not an evaluation, and its value depends on what the supervisor does afterward."
+    },
+    {
+      "id": "pn-when-to-escalate",
+      "journeyIds": [
+        "workplace-culture"
+      ],
+      "purpose": "Recognize when a question needs the responsible policy, civil-rights, accommodation, Tribal, or other office rather than a general learning resource."
+    },
+    {
+      "id": "tool-clas-standards",
+      "journeyIds": [
+        "access-and-communication"
+      ],
+      "purpose": "Use the CLAS Standards to ask how culture and language access are planned in a service or interaction."
+    },
+    {
+      "id": "tool-eeoc-uniform-guidelines",
+      "journeyIds": [
+        "workplace-culture"
+      ],
+      "purpose": "Examine whether a hiring requirement is job related and whose opportunity it may limit; involve HR and legal partners for interpretation."
+    },
+    {
+      "id": "tool-gare-racial-equity-toolkit",
+      "journeyIds": [
+        "decisions-and-systems"
+      ],
+      "purpose": "Use structured questions to consider racial equity in a policy, program, budget, or decision."
+    },
+    {
+      "id": "tool-idi",
+      "journeyIds": [
+        "perspectives-and-culture"
+      ],
+      "purpose": "Explore how intercultural development tools can support reflection and practice when administered by qualified people."
+    },
+    {
+      "id": "tool-implicit-association",
+      "journeyIds": [
+        "perspectives-and-culture"
+      ],
+      "purpose": "Reflect on automatic associations and their limits without treating a research exercise as an assessment of a person."
+    },
+    {
+      "id": "tool-lifecourse",
+      "journeyIds": [
+        "access-and-communication"
+      ],
+      "purpose": "Explore life planning with a person and family across ages, roles, and supports, following their own priorities."
+    },
+    {
+      "id": "tool-mn-accessibility-standard",
+      "journeyIds": [
+        "access-and-communication"
+      ],
+      "purpose": "Use state accessibility guidance to examine how digital content and documents can work for more people."
+    },
+    {
+      "id": "tool-mn-equity-toolkit",
+      "journeyIds": [
+        "decisions-and-systems"
+      ],
+      "purpose": "Use a structured equity analysis to examine affected people, evidence, alternatives, and follow-up in a decision."
+    }
+  ]
+}

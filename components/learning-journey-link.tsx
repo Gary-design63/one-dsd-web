@@ -1,9 +1,11 @@
+import { DevelopmentResourceGuide } from "./development-resource-guide";
 import Link from "next/link";
 import { prepareEditableSurface } from "./editable-surface";
 import { getLearningJourney, journeyText, LEARNING_JOURNEY_HREF } from "@/lib/content/learning-journey";
 import type { StaffProgramScope } from "@/lib/content/staff-publications";
 
 export async function LearningJourneyLink({scope, resourceId, compact=false}: {scope?:StaffProgramScope;resourceId?:string;compact?:boolean}) {
+  if (resourceId) return <DevelopmentResourceGuide scope={scope} resourceId={resourceId} />;
   const surface=await prepareEditableSurface("learn.intercultural",{scope,includeOwner:false});
   if(!surface.available) return null;
   const matches=resourceId ? getLearningJourney(surface.values).filter(stop=>stop.resourceIds.includes(resourceId)) : [];

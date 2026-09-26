@@ -1,0 +1,340 @@
+{
+  "version": "2026-09-26.1",
+  "title": "From learning to equity in practice",
+  "intro": "Explore a question that matters, make room for different experiences, and practice a meaningful change. Follow a pathway or begin with the resource you need.",
+  "direction": "The program supports a shift from overlooking meaningful differences toward acceptance, adaptation, and the sustained integration of equity into everyday relationships and practices.",
+  "stages": [
+    {
+      "id": "engage",
+      "title": "Engage",
+      "purpose": "Begin with a question, experience, or relationship that matters to you.",
+      "prompt": "What would you like to understand or change, and why does it matter?",
+      "evidence": "A personally meaningful question or situation."
+    },
+    {
+      "id": "recognize",
+      "title": "Recognize",
+      "purpose": "Notice experiences, differences, and barriers that a familiar approach can overlook.",
+      "prompt": "Who experiences this differently, and what have you not yet heard?",
+      "evidence": "An observation and a perspective or access need to explore."
+    },
+    {
+      "id": "examine",
+      "title": "Examine",
+      "purpose": "Explore the assumptions, evidence, routines, and decisions shaping the situation.",
+      "prompt": "What are you treating as normal or fair, and what evidence could challenge that?",
+      "evidence": "An assumption reconsidered, with evidence and open questions."
+    },
+    {
+      "id": "practice",
+      "title": "Practice",
+      "purpose": "Rehearse a different response and learn from constructive feedback.",
+      "prompt": "What could you say or do differently, and how could you try it safely?",
+      "evidence": "A revised response, conversation approach, or draft work product."
+    },
+    {
+      "id": "apply",
+      "title": "Apply",
+      "purpose": "Make a proportionate change with the people and support needed to carry it out.",
+      "prompt": "What will change in practice, who can influence it, and what support makes it possible?",
+      "evidence": "A chosen action and an agreed opportunity to try it."
+    },
+    {
+      "id": "reflect",
+      "title": "Reflect and sustain",
+      "purpose": "Examine what happened, adapt, and carry useful learning into the next situation.",
+      "prompt": "What changed for people, what remains uncertain, and what will you keep or adjust?",
+      "evidence": "An observation or feedback, its limits, and a reasoned next step."
+    }
+  ],
+  "journeys": [
+    {
+      "id": "workplace-culture",
+      "title": "Make participation meaningful",
+      "summary": "Move from a shared invitation to conditions where different people can contribute and influence the work.",
+      "themes": [
+        "culture",
+        "facilitation"
+      ],
+      "question": "A meeting is open to everyone, but whose ideas actually shape decisions?",
+      "assumption": "The same invitation does not necessarily create the same opportunity to participate.",
+      "practice": "Compare two meeting approaches. In one, questions arrive during a fast discussion. In the other, people can review questions and contribute before, during, or afterward. Explain whose participation each approach may support and what you still need to ask.",
+      "application": "Choose a meeting or team routine you can influence. Invite preferences, offer appropriate ways to contribute, and explain how contributions will affect the decision. Agree with the responsible people what can change.",
+      "reflection": "Did participation become more accessible, and did contributions influence the outcome? More comments alone do not establish more influence.",
+      "social": "With a willing colleague, compare what each of you noticed. A supervisor can model openness by naming an assumption they revised and explaining what they changed.",
+      "links": [
+        {
+          "stage": "engage",
+          "label": "Explore workplace culture",
+          "href": "/library/lm-workplace-climate"
+        },
+        {
+          "stage": "recognize",
+          "label": "Examine minimization in everyday work",
+          "href": "/courses/what-minimization-does-in-dhs-work"
+        },
+        {
+          "stage": "examine",
+          "label": "Explore acceptance",
+          "href": "/courses/acceptance-in-dhs-work"
+        },
+        {
+          "stage": "practice",
+          "label": "Prepare a facilitated conversation",
+          "href": "/library/ja-facilitation-session-plan"
+        },
+        {
+          "stage": "apply",
+          "label": "Use the workplace climate action plan",
+          "href": "/library/ja-climate-action-plan"
+        },
+        {
+          "stage": "reflect",
+          "label": "Review what changed",
+          "href": "/practice/measurement"
+        }
+      ],
+      "connection": {
+        "label": "Explore Amplify Equity",
+        "href": "/one-dsd/amplify"
+      }
+    },
+    {
+      "id": "access-and-communication",
+      "title": "Make access work in practice",
+      "summary": "Examine the experience behind a form, conversation, or service step and adapt the practice around it.",
+      "themes": [
+        "access"
+      ],
+      "question": "A process is available to everyone, but what does it require people to do?",
+      "assumption": "A standard format can create unequal effort, access, or understanding.",
+      "practice": "Choose a fictional or public example of a notice or meeting invitation. Identify one communication barrier and one process barrier. Compare an alternative format with a change to the underlying step; explain what each can and cannot address.",
+      "application": "Use an appropriate checklist to revise a notice, conversation, or process within your authority. Involve the responsible access specialists when needed and check the intended task with people affected.",
+      "reflection": "Could people understand and complete the task more readily? What did feedback reveal that a technical check missed?",
+      "social": "Ask a willing colleague to try the task and describe the effort involved. Seek qualified accessibility or language-access guidance rather than asking someone to represent everyone with a shared identity.",
+      "links": [
+        {
+          "stage": "engage",
+          "label": "Explore language and disability",
+          "href": "/courses/disability-and-language"
+        },
+        {
+          "stage": "recognize",
+          "label": "Examine process burden",
+          "href": "/library/ja-process-burden"
+        },
+        {
+          "stage": "examine",
+          "label": "Consider language access",
+          "href": "/library/ja-language-access-checklist"
+        },
+        {
+          "stage": "practice",
+          "label": "Practice plain language",
+          "href": "/library/ja-plain-language"
+        },
+        {
+          "stage": "apply",
+          "label": "Plan a form or notice change",
+          "href": "/library/ja-form-notice-change"
+        },
+        {
+          "stage": "reflect",
+          "label": "Review the effects",
+          "href": "/practice/measurement"
+        }
+      ],
+      "connection": {
+        "label": "Find responsible offices and guidance",
+        "href": "/support/directory"
+      }
+    },
+    {
+      "id": "perspectives-and-culture",
+      "title": "Understand a different perspective",
+      "summary": "Develop curiosity, examine familiar assumptions, and adapt interactions without making people into categories.",
+      "themes": [
+        "intercultural"
+      ],
+      "question": "When another person responds differently than you expect, what else might be happening?",
+      "assumption": "Shared humanity does not erase meaningful differences in experience, culture, or power.",
+      "practice": "Separate what you observed from what you inferred in an everyday interaction. Generate more than one explanation, then rehearse a respectful question that leaves room for the other person to explain their own experience.",
+      "application": "Choose a low-stakes interaction. Ask about the person’s preferences, adapt one part of your approach, and check whether the adaptation helped. Personal reflection is a meaningful part of this learning even when it does not become a work project.",
+      "reflection": "What changed in your understanding? What would you ask or do differently in a similar situation?",
+      "social": "Discuss a fictional example with a willing peer or explore an ERG’s own participation information. No colleague or group is expected to speak for an entire community.",
+      "links": [
+        {
+          "stage": "engage",
+          "label": "Begin with cultural humility",
+          "href": "/courses/cultural-humility-vs-checklist"
+        },
+        {
+          "stage": "recognize",
+          "label": "Explore community perspectives",
+          "href": "/minnesota-communities"
+        },
+        {
+          "stage": "examine",
+          "label": "Examine familiar assumptions",
+          "href": "/courses/what-minimization-does-in-dhs-work"
+        },
+        {
+          "stage": "practice",
+          "label": "Explore responses to conflict",
+          "href": "/courses/intercultural-conflict-styles"
+        },
+        {
+          "stage": "apply",
+          "label": "Practice adaptation",
+          "href": "/courses/idi-adaptation"
+        },
+        {
+          "stage": "reflect",
+          "label": "Reflect on learning in everyday work",
+          "href": "/learn/intercultural#reflection"
+        }
+      ],
+      "connection": {
+        "label": "Explore employee resource groups",
+        "href": "/employee-resource-groups"
+      }
+    },
+    {
+      "id": "decisions-and-systems",
+      "title": "Change a decision or process",
+      "summary": "Connect affected perspectives and evidence to alternatives that address barriers in the way work is organized.",
+      "themes": [
+        "structural",
+        "partnership"
+      ],
+      "question": "Which decision is open to change, and who benefits or carries the burden of the current approach?",
+      "assumption": "Applying a rule consistently does not establish that its effects are equitable.",
+      "practice": "Use a fictional or non-identifying example to compare two options. Identify who can influence the decision, whose knowledge is missing, which burden each option addresses, and what evidence would change your recommendation.",
+      "application": "Use the Equity Analysis Toolkit companion to develop a proportionate analysis. Involve affected people through appropriate channels, check actual authority and source requirements, and agree a next action with the responsible people.",
+      "reflection": "Did the change address an underlying barrier? How did people hear what happened to their input, and what evidence remains missing?",
+      "social": "Bring a well-framed question to a willing colleague or the appropriate support route. Shared inquiry should influence options before they are settled.",
+      "links": [
+        {
+          "stage": "engage",
+          "label": "Understand operationalizing equity",
+          "href": "/operationalizing-equity"
+        },
+        {
+          "stage": "recognize",
+          "label": "Map affected perspectives",
+          "href": "/library/ja-stakeholder-map"
+        },
+        {
+          "stage": "examine",
+          "label": "Ask equity impact questions",
+          "href": "/library/ja-equity-impact-questions"
+        },
+        {
+          "stage": "practice",
+          "label": "Explore the Equity Analysis Toolkit",
+          "href": "/learn/equity-toolkit"
+        },
+        {
+          "stage": "apply",
+          "label": "Plan equity and access early",
+          "href": "/library/ja-launch-embed-checklist"
+        },
+        {
+          "stage": "reflect",
+          "label": "Distinguish activity from benefit",
+          "href": "/practice/measurement"
+        }
+      ],
+      "connection": {
+        "label": "Explore the One DSD Team",
+        "href": "/one-dsd/team"
+      }
+    },
+    {
+      "id": "learning-and-leadership",
+      "title": "Help learning become everyday practice",
+      "summary": "Create opportunities, relationships, and routines that support people in using what they learn.",
+      "themes": [
+        "facilitation",
+        "culture"
+      ],
+      "question": "What makes it possible for a person to try a different approach after a course or conversation?",
+      "assumption": "Information and good intentions alone do not ensure an opportunity to act.",
+      "practice": "Prepare a short conversation about a fictional workplace challenge. Invite differing interpretations, acknowledge uncertainty, rehearse an alternative response, and offer feedback on the action rather than judging the person.",
+      "application": "Within your role, agree an opportunity to try the approach, identify time or access barriers, and offer appropriate support. Leaders can model the practice, respond constructively to questions, and revisit routines that discourage its use.",
+      "reflection": "Was there an opportunity to apply the learning? What helped or got in the way, and what support or routine should change?",
+      "social": "Use a willing peer, mentor, or team conversation to exchange feedback. Confirm people’s participation rather than assigning them a role or inventing a meeting.",
+      "links": [
+        {
+          "stage": "engage",
+          "label": "Explore leadership practice",
+          "href": "/one-dsd/leadership"
+        },
+        {
+          "stage": "recognize",
+          "label": "Consider conditions for participation",
+          "href": "/library/lm-workplace-climate"
+        },
+        {
+          "stage": "examine",
+          "label": "Connect facilitation and application",
+          "href": "/library/lm-facilitation-application"
+        },
+        {
+          "stage": "practice",
+          "label": "Prepare a learning conversation",
+          "href": "/library/ja-facilitation-session-plan"
+        },
+        {
+          "stage": "apply",
+          "label": "Explore mentoring and peer learning",
+          "href": "/one-dsd/amplify/mentoring"
+        },
+        {
+          "stage": "reflect",
+          "label": "Examine application and benefit",
+          "href": "/practice/measurement"
+        }
+      ],
+      "connection": {
+        "label": "Explore the One DSD Learning Lab",
+        "href": "/one-dsd/team/learning-lab"
+      }
+    }
+  ],
+  "logicModel": [
+    {
+      "title": "Resources and relationships",
+      "text": "Curated knowledge, lived perspectives, accessible tools, time, expertise, and willing colleagues."
+    },
+    {
+      "title": "Learning and practice",
+      "text": "Engagement, reflection, dialogue, rehearsal, feedback, and supported application."
+    },
+    {
+      "title": "Useful outputs",
+      "text": "A clearer question, a revised interpretation, a usable tool, or an agreed action."
+    },
+    {
+      "title": "Changes in practice",
+      "text": "Evidence that people adapted communication, participation, decisions, or routines."
+    },
+    {
+      "title": "Intended longer-term contributions",
+      "text": "More equitable access and influence, a more responsive workplace culture, and learning carried into future work."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Michie, van Stralen and West (2011): The behaviour change wheel",
+      "href": "https://doi.org/10.1186/1748-5908-6-42",
+      "application": "Consider capability, opportunity, and motivation together when planning support for action."
+    },
+    {
+      "title": "Edmondson (1999): Psychological safety and learning behavior in work teams",
+      "href": "https://doi.org/10.2307/2666999",
+      "application": "Support questions, feedback, and learning through respectful team interactions."
+    }
+  ],
+  "evidenceNote": "These research perspectives inform the design. They do not establish that this program has produced an outcome. Participation or completion alone does not measure an individual’s IDI orientation or development."
+}

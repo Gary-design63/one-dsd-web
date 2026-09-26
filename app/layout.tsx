@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import "./program-design.css";
+import "./development.css";
+import { DevelopmentSignpost } from "@/components/development-signpost";
 import { PROGRAM } from "@/lib/constants";
 import { SiteHeader } from "@/components/site-header";
 import { SiteFooter } from "@/components/site-footer";
@@ -94,6 +96,7 @@ export default async function RootLayout({ children }: { children: React.ReactNo
           </ChromeGate>
           <main id="main" tabIndex={-1} className="flex-1">
             {children}
+            <DevelopmentSignpost />
           </main>
           <ChromeGate hideOnPrefixes={["/share/"]}>
             <SiteFooter />

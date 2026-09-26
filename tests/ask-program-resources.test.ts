@@ -28,7 +28,12 @@ it("routes to every named published resource in both program scopes and writes t
 
 it("does not substitute archived defaults when publications are withdrawn", async () => {
   vi.spyOn(surfaces, "loadPublishedEditableSurfaces").mockResolvedValue([]);
-  expect(await indexedProgramResources("one-dhs")).toEqual({ communityDocs: [], destinations: [] });
+  const index = await indexedProgramResources("one-dhs");
+  expect(index.communityDocs).toEqual([]);
+  // The independently code-published pathway pages remain available. Withdrawn
+  // course, community, and editable page publications must not be reconstructed.
+  expect(index.destinations).toHaveLength(5);
+  expect(index.destinations.every(doc => doc.id.startsWith("program-development-") && doc.href.startsWith("/journeys/"))).toBe(true);
 });
 
 it("requires every publication used by a community page", async () => {

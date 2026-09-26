@@ -1,4 +1,5 @@
 import { ProgramCommitments } from "@/components/program-commitments";
+import { DevelopmentPathways } from "@/components/development-pathways";
 import { ProgramRelationshipMap } from "@/components/multimedia/worked-practice-examples";
 import type { Metadata } from "next";
 import Link from "next/link";
@@ -59,6 +60,7 @@ export default async function AboutPage() {
         <section aria-labelledby="dhs-connection-title" className="border-t border-line pt-6"><h2 id="dhs-connection-title" className="text-2xl font-extrabold">Our connection to DHS</h2><p>People, Access and Culture supports the people doing the work across DHS. Understanding our programs, partners and shared responsibilities helps connect equity, accessibility and inclusion with everyday decisions.</p><Link href="/understanding-dhs" className="font-semibold">Explore Understanding DHS</Link></section>
 
         <ProgramRelationshipMap />
+        <DevelopmentPathways compact />
         <EquityPractice scope={surface.scope} />
         <ProgramCommitments />
 

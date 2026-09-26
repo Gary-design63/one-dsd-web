@@ -78,6 +78,11 @@ export function StaffAskBrowse({
                       ))}
                     </p>
                   ) : null}
+                  <div className="mt-5 border-t border-line pt-4">
+                    <h3 className="text-lg font-semibold">If this connects to a change you want to make</h3>
+                    <p>Consider whose experience could deepen the answer, what you could try, and how you would know whether it helped.</p>
+                    <Link href="/journeys">Find a guided pathway from understanding to practice →</Link>
+                  </div>
                 </article>
               </details>
             </li>
