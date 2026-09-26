@@ -85,7 +85,7 @@ export function EquityGoalExperience({ resourceLinks = [], linkPrefix = "", scop
   return <div id="equity-goals" data-equity-goal-experience style={{ color: "#182f41", lineHeight: 1.65, display: "grid", gap: 28, scrollMarginTop: 24 }}>
     <header style={{ ...panel, background: navy, color: "#fff" }}>
       <p style={{ margin: "0 0 8px", fontWeight: 700 }}>{program}</p>
-      <h2 style={{ ...heading, fontSize: "clamp(1.7rem, 3vw, 2.3rem)" }}>Six goals. Practical decisions. Supported action.</h2>
+      <h2 style={{ ...heading, color: "#fff", fontSize: "clamp(1.7rem, 3vw, 2.3rem)" }}>Six goals. Practical decisions. Supported action.</h2>
       <p style={paragraph}>These six goals come from the Aging and Disability Services Administration (ADSA) Equity and Inclusion Implementation Plan. They organize this companion in both program views; their ADSA origin does not make them a new goal mandate for every DHS administration.</p>
       <p style={paragraph}>The DHS Equity Policy and use of its Equity Analysis Toolkit are required responsibilities for all DHS staff. This companion learning is optional and does not replace required agency training. Staff apply the current policy and toolkit to their work; the equity consultant and appropriate partners provide guidance, facilitation and analysis support. That support does not transfer staff responsibility or grant approval authority.</p>
       <p style={paragraph}>The goals describe what to improve. The official toolkit guides how to examine a decision. The plan below helps record action and follow-through. Use the current official decision guidance to determine the appropriate review; a short timeline alone does not establish that a scan is sufficient.</p>

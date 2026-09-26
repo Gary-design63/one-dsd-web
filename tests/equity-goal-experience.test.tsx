@@ -9,6 +9,7 @@ afterEach(() => { cleanup(); vi.restoreAllMocks(); vi.unstubAllGlobals(); });
 it("keeps all six goals visible while filtering only released resource connections", () => {
   const one = model.goals[0].resources[0];
   render(<EquityGoalExperience resourceLinks={[{...one, title: "Released canvas"}]} linkPrefix="#" />);
+  expect(screen.getByRole("heading", { name: "Six goals. Practical decisions. Supported action." }).style.color).toBe("rgb(255, 255, 255)");
   for (const goal of model.goals) expect(screen.getByRole("heading", { name: goal.title })).toBeDefined();
   expect(screen.getByRole("link", { name: "Released canvas" }).getAttribute("href")).toBe(`#${one.href}`);
   expect(screen.queryByRole("link", { name: model.goals[0].resources[1].title })).toBeNull();
