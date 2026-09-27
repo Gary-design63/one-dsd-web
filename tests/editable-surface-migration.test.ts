@@ -42,8 +42,9 @@ describe("governed editable surface migration", () => {
     // September 12, 2026: the owner ordered all staff-facing wording humanized (plain English, no system or machine language).
     const addedPracticeKeys = ["handoffTitle","handoffBody","handoffUseLabel","draftSourceSummary","draftPreparedPrefix","draftOwnershipBody"];
     const forwardValues: Record<string, string[]> = {
-      // The shared header now includes the approved Amplify Equity navigation link.
-      "site.header": ["primaryNavigation"],
+      // The shared header now includes the approved Amplify Equity navigation link,
+      // and the later public-copy cleanup dropped "Program" from the program name.
+      "site.header": ["primaryNavigation","programName"],
       "learn.hub": ["cultureIds","interculturalIds","accessIds","structuralIds","partnershipIds","facilitationIds"],
       "amplify.materials": ["navigation"],
       "amplify.home": ["intro","navigation"],

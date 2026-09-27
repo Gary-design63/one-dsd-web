@@ -90,7 +90,7 @@ export async function POST(request: NextRequest) {
       suppliedSignInId,
       form.value.get("passphrase") ?? "",
     ));
-    const destination = new URL("/contribute", request.url);
+    const destination = new URL("/contribute", request.headers.get("origin")!);
     if (!signedIn) {
       destination.searchParams.set("denied", "1");
       return NextResponse.redirect(destination, { status: 303, headers: NO_STORE });

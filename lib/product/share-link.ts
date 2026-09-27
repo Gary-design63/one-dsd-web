@@ -47,8 +47,15 @@ export function podcastShareHref(podcastId: string): string {
   return `/podcasts/${encodeURIComponent(podcastId)}`;
 }
 
+/** A copy served from one computer (the offline edition) names the address others can open. */
+export const SHARE_ORIGIN_META = "pac-share-origin";
+const LOOPBACK = new Set(["localhost", "127.0.0.1", "[::1]"]);
+
 /** Read the current browser location into the shape shareLink expects. */
 export function currentShareLocation(): ShareLocation {
-  const { origin, pathname, search, hash } = window.location;
-  return { origin, pathname, search, hash };
+  const { origin, hostname, pathname, search, hash } = window.location;
+  const shared = LOOPBACK.has(hostname)
+    ? document.querySelector<HTMLMetaElement>(`meta[name="${SHARE_ORIGIN_META}"]`)?.content
+    : undefined;
+  return { origin: shared || origin, pathname, search, hash };
 }

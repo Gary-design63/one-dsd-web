@@ -15,6 +15,8 @@ import { editingModeFromCookies } from "@/lib/auth/request";
 import { ChromeGate } from "@/components/chrome-gate";
 import { loadPublishedPageCopy } from "@/lib/content/page-copy";
 import { staticPageCopy } from "@/lib/content/page-copy-contract";
+import { offlineShareOrigin } from "@/lib/offline/mode";
+import { SHARE_ORIGIN_META } from "@/lib/product/share-link";
 
 /**
  * A shared page (/share/…) hides the full footer, but two facts from it must still
@@ -76,6 +78,7 @@ export default async function RootLayout({ children }: { children: React.ReactNo
     surfaceOrFallback("site.context"),
     editingModeFromCookies(),
   ]);
+  const shareOrigin = offlineShareOrigin();
   // The header wordmark follows the selected program view (One DHS or One DSD).
   const headerSurface = initialContext === "one_dsd"
     ? { ...loadedHeaderSurface, values: { ...loadedHeaderSurface.values, programName: PROGRAM.oneDsdProgramName } }
@@ -83,6 +86,7 @@ export default async function RootLayout({ children }: { children: React.ReactNo
   return (
     <html lang="en" className="h-full">
       <body className="program-design flex min-h-full flex-col">
+        {shareOrigin ? <meta name={SHARE_ORIGIN_META} content={shareOrigin} /> : null}
         <ProgramContextProvider
           initialContext={initialContext}
           copy={contextSurface.values}

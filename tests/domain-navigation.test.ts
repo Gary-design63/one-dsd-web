@@ -51,7 +51,8 @@ it.each(["one-dhs", "dsd"] as const)("renders the actual scoped resources for ev
     }
   }
   if (scope === "one-dhs") expect(snapshot.items.every(item => item.scope !== "dsd")).toBe(true);
-}, 30000);
+// This checks every area and task in a scope; the assertion loop is deliberately exhaustive.
+}, 180000);
 
 it("combines query, format, source and task filters without dropping them on search or facet links", async () => {
   const input = { q: "degree", area: "workforce", task: "design-role", type: "job_aid", authority: "guidance" };

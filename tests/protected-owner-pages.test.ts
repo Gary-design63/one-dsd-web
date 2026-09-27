@@ -70,6 +70,7 @@ const PRACTICE_PAGE_FIRST_WORK: Record<string, string> = {
   "page.tsx": "const [pendingEligibility, items] = await Promise.all",
   "activation/page.tsx": "const intake = consultationActivationStatus();",
   "ask-records/page.tsx": "let initialData = null;",
+  "connectors/page.tsx": "status = connectorStatus(await readConnectorSettings(file));",
   "audit/page.tsx": "const events = await getStore().listAudit(200);",
   "evals/page.tsx": "const past = (await getStore().list<EvalReport>",
   "library/page.tsx": "const params = await searchParams;",

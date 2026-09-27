@@ -101,7 +101,8 @@ export async function indexedProgramResources(scope: StaffProgramScope): Promise
     scope: scope === "dsd" ? "dsd" : "agencywide", summary: journey.summary,
     text: [journey.title, journey.summary, journey.question, journey.assumption, journey.practice, journey.application, journey.reflection, journey.social].join("\n"),
     tags: ["guided pathway", "equity in practice", ...journey.themes], intents: ["practice_method" as const, "next_actions" as const],
-    evidenceRevisions: [{ sourceId: `program-development-${journey.id}`, revisionId: developmentModel.version, payloadHash: createHash("sha256").update(JSON.stringify(journey)).digest("hex"), scope }],
+    // Code-defined content has no stored revision; the payload hash pins the exact journey text.
+    evidenceRevisions: [{ sourceId: `program-development-${journey.id}`, revisionId: null, payloadHash: createHash("sha256").update(JSON.stringify(journey)).digest("hex"), scope }],
   })));
   const index = { communityDocs: destinations.filter(d => d.kind === "brief"), destinations };
   currentIndexes.set(scope, { key: scopedKey, index });
@@ -111,7 +112,12 @@ export async function indexedProgramResources(scope: StaffProgramScope): Promise
 /** Exact named resources must not get crowded out by broad topical matches. */
 export function programResourceLinks(question: string, docs: Doc[], limit = 5): Array<{ label: string; href: string }> {
   const query = new Set(tokens(question));
-  const unique = docs.filter((doc, index) => docs.findIndex(other => other.href === doc.href) === index);
+  const seen = new Set<string>();
+  const unique = docs.filter(doc => {
+    if (seen.has(doc.href)) return false;
+    seen.add(doc.href);
+    return true;
+  });
   const ranked = searchDocs(question, unique, { limit: unique.length });
   ranked.sort((a, b) => {
     const named = (title: string, href: string) => { const words = tokens(title); const slug = href.startsWith("/minnesota-communities/") ? tokens(href.split("/").pop()!.replaceAll("-", " ")) : []; return (words.length > 0 && words.every(word => query.has(word))) || (slug.length > 0 && slug.every(word => query.has(word))) ? 1 : 0; };

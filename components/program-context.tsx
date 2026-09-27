@@ -97,11 +97,18 @@ export function ProgramContextProvider({
     }
     if (!requested || !url) return;
     url.searchParams.delete(CONTEXT_QUERY);
-    try {
-      window.history.replaceState(window.history.state, "", url.toString());
-    } catch {
-      // Leaving the parameter in place is harmless; the view is still applied below.
-    }
+    const cleaned = url.toString();
+    // Browsers normally never get here: proxy.ts redirects a page visit to the address without
+    // `?view=`. When they do, wait until Next's router has taken over the history API, and pass
+    // null so the router records the cleaned address too; otherwise a later refresh would
+    // re-send the old view and override the person's own choice.
+    window.setTimeout(() => {
+      try {
+        window.history.replaceState(null, "", cleaned);
+      } catch {
+        // Leaving the parameter in place is harmless; the view is still applied below.
+      }
+    }, 0);
     if (requested !== readContextPreference()) chooseContext(requested);
   }, [chooseContext]);
 

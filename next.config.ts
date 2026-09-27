@@ -1,6 +1,9 @@
 import type { NextConfig } from "next";
 
 const development = process.env.NODE_ENV === "development";
+// The portable offline edition is served over plain HTTP on a local network,
+// where HTTPS upgrades and HSTS would stop other computers loading the page.
+const offlineBuild = process.env.PAC_OFFLINE_BUILD === "1";
 const contentSecurityPolicy = [
   "default-src 'self'",
   `script-src 'self' 'unsafe-inline'${development ? " 'unsafe-eval'" : ""}`,
@@ -12,7 +15,7 @@ const contentSecurityPolicy = [
   "base-uri 'self'",
   "form-action 'self'",
   "frame-ancestors 'none'",
-  ...(development ? [] : ["upgrade-insecure-requests"]),
+  ...(development || offlineBuild ? [] : ["upgrade-insecure-requests"]),
 ].join("; ");
 
 const securityHeaders = [
@@ -26,7 +29,7 @@ const securityHeaders = [
   { key: "X-DNS-Prefetch-Control", value: "off" },
   { key: "X-Frame-Options", value: "DENY" },
   { key: "X-Robots-Tag", value: "noindex, nofollow, noarchive, nosnippet" },
-  ...(development
+  ...(development || offlineBuild
     ? []
     : [{ key: "Strict-Transport-Security", value: "max-age=63072000; includeSubDomains; preload" }]),
 ];

@@ -44,6 +44,23 @@ const PRODUCT_CONTEXT_BY_ID = new Map<ProductContextId, ProductContextDefinition
   PRODUCT_CONTEXTS.map((context) => [context.id, context]),
 );
 
+/** Query parameter that lets a shared link select the program view: `?view=one_dsd` or `?view=one_dhs`. */
+export const PRODUCT_CONTEXT_QUERY = "view";
+
+/**
+ * Reads a `?view=` value into a context id. Accepts the context ids plus the short names
+ * people are likely to type (`dsd`, `one-dsd`, `dhs`, `one-dhs`). Returns undefined when
+ * the value is absent or unknown so the caller can fall back to the cookie preference.
+ */
+export function parseProductContextView(value: unknown): ProductContextId | undefined {
+  const raw = Array.isArray(value) ? value[0] : value;
+  if (typeof raw !== "string") return undefined;
+  const normalized = raw.trim().toLowerCase().replace(/-/g, "_");
+  if (normalized === "one_dsd" || normalized === "dsd") return "one_dsd";
+  if (normalized === "one_dhs" || normalized === "dhs") return "one_dhs";
+  return undefined;
+}
+
 export function resolveProductContext(preference?: unknown): ProductContextId {
   return PRODUCT_CONTEXT_IDS.includes(preference as ProductContextId)
     ? preference as ProductContextId

@@ -22,5 +22,8 @@ it("removes a withdrawn recording from browse destinations while keeping the oth
   const rows = await publications.loadPublishedEditableSurfaces(PODCASTS.map((podcast) => podcast.surfaceId), "one-dhs");
   vi.spyOn(publications, "loadPublishedEditableSurfaces").mockResolvedValue(rows.filter((row) => row.surfaceId !== PODCASTS[1].surfaceId));
   const index = await indexedProgramResources("one-dhs");
-  expect(index.destinations.map((doc) => doc.href)).toEqual([PODCASTS[0].href]);
+  // Code-defined destinations (the developmental journeys) are indexed regardless of podcast publication.
+  const podcastHrefs = new Set<string>(PODCASTS.map((podcast) => podcast.href));
+  expect(index.destinations.map((doc) => doc.href).filter((href) => podcastHrefs.has(href))).toEqual([PODCASTS[0].href]);
+  expect(index.destinations.filter((doc) => doc.href.startsWith("/journeys/"))).toHaveLength(5);
 });

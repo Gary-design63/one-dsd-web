@@ -3,7 +3,6 @@ import path from "node:path";
 import { NextRequest } from "next/server";
 import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
 import {
-  handleResourceReleaseGet,
   handleResourceReleasePost,
 } from "@/app/api/consultant/resources/[id]/release/handlers";
 import { issueSessionCookieValue, OWNER_COOKIE } from "@/lib/auth/owner";

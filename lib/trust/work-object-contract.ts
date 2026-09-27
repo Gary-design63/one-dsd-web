@@ -1002,7 +1002,7 @@ const AUDIT_ALLOWLIST_REASONS = new Set([
   "agent disabled in its definition",
   "owner-only tool",
 ]);
-const CANONICAL_AUDIT_CONTENT_ID = /^(?:CR-[0-9]{8}-[0-9]{4,10}|one_dsd_team|(?:pn|ja|lm|ext|asset|tool)-[a-z0-9][a-z0-9-]{0,119}|(?:somali|hmong|karen|oromo|african-american|latino|vietnamese|khmer|lao|russian-speaking|arabic-speaking|deaf-deafblind-hard-of-hearing|rural|tribal-nations)|cycle-[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}(?:-[pg][1-9][0-9]*)?)$/;
+const CANONICAL_AUDIT_CONTENT_ID = /^(?:CR-[0-9]{8}-[0-9]{4,10}|one_dsd_team|(?:pn|ja|lm|ext|asset|tool|program-development)-[a-z0-9][a-z0-9-]{0,119}|(?:somali|hmong|karen|oromo|african-american|latino|vietnamese|khmer|lao|russian-speaking|arabic-speaking|deaf-deafblind-hard-of-hearing|rural|tribal-nations)|cycle-[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}(?:-[pg][1-9][0-9]*)?)$/;
 const CANONICAL_AUDIT_MODEL_ID = /^(?=.{1,80}$)[A-Za-z0-9][A-Za-z0-9._-]*(?:\/[A-Za-z0-9][A-Za-z0-9._-]*)*$/;
 const PROFILE_LIKE_AUDIT_ID = PROFILE_LIKE_PERSISTENCE_ID;
 

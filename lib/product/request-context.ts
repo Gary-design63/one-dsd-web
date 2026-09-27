@@ -3,27 +3,14 @@ import "server-only";
 import { cookies } from "next/headers";
 import type { StaffProgramScope } from "@/lib/content/staff-publications";
 import {
+  parseProductContextView,
   PRODUCT_CONTEXT_COOKIE,
   resolveProductContext,
   type ProductContextId,
 } from "./federation";
 
-/** Query parameter that lets a shared link select the program view: `?view=one_dsd` or `?view=one_dhs`. */
-export const PRODUCT_CONTEXT_QUERY = "view";
-
-/**
- * Reads a `?view=` value into a context id. Accepts the context ids plus the short names
- * people are likely to type (`dsd`, `one-dsd`, `dhs`, `one-dhs`). Returns undefined when
- * the value is absent or unknown so the caller can fall back to the cookie preference.
- */
-export function parseProductContextView(value: unknown): ProductContextId | undefined {
-  const raw = Array.isArray(value) ? value[0] : value;
-  if (typeof raw !== "string") return undefined;
-  const normalized = raw.trim().toLowerCase().replace(/-/g, "_");
-  if (normalized === "one_dsd" || normalized === "dsd") return "one_dsd";
-  if (normalized === "one_dhs" || normalized === "dhs") return "one_dhs";
-  return undefined;
-}
+// The parser lives with the shared federation contract so proxy.ts can use it too.
+export { parseProductContextView, PRODUCT_CONTEXT_QUERY } from "./federation";
 
 export function contentScopeForContext(context: ProductContextId): StaffProgramScope {
   return context === "one_dsd" ? "dsd" : "one-dhs";

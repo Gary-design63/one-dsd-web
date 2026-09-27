@@ -4,7 +4,6 @@ import { describe, expect, it, vi } from "vitest";
 import { lintStaffCopy } from "@/lib/brand/lint";
 import { getEditableSurfaceDefinition } from "@/lib/content/staff-surface-registry";
 import { AUTHORED_COURSES } from "@/lib/content/courses/definitions";
-import { loadPublishedEditableSurface } from "@/lib/content/editable-surfaces";
 import { SOURCE_REGISTER, VERIFICATION_RECEIPTS, annotationsFor, authorityGroupFor, findSourceByHref, registerSourcesForStaff, registerSummary, sourceAnchor, sourcesForResource, verificationFor } from "@/lib/content/source-register";
 
 vi.mock("@/lib/product/request-context", () => ({ requestedContentScope: async () => "one-dhs", requestedProductContext: async () => "one_dhs" }));

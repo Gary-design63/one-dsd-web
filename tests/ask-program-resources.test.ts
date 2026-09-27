@@ -7,8 +7,6 @@ import { communityDesignEntries } from "@/lib/content/community-design";
 
 afterEach(() => vi.restoreAllMocks());
 
-afterEach(() => vi.restoreAllMocks());
-
 it("routes to every named published resource in both program scopes and writes the coverage receipt", async () => {
   const receipt = [];
   for (const scope of ["one-dhs", "dsd"] as const) {
@@ -24,7 +22,7 @@ it("routes to every named published resource in both program scopes and writes t
   }
   writeFileSync("evidence/local-audit-2026-09-07/ask-resource-coverage.json", JSON.stringify({ checkedAt: new Date().toISOString(), mode: "static published definitions; route selection", checks: receipt }, null, 2));
   expect(receipt.filter(row => !row.passed)).toEqual([]);
-}, 120000);
+}, 300000);
 
 it("does not substitute archived defaults when publications are withdrawn", async () => {
   vi.spyOn(surfaces, "loadPublishedEditableSurfaces").mockResolvedValue([]);

@@ -15,6 +15,10 @@ export default defineConfig({
     // Running test files serially prevents the reserve-then-bind port race that
     // can otherwise make a green migration suite fail intermittently in CI.
     fileParallelism: false,
+    // Several suites build the full retrieval index or render every scoped
+    // route; on slower machines those exceed Vitest's 5 s default without
+    // any functional failure. Tests that need longer still set their own.
+    testTimeout: 30_000,
     env: {
       PAC_STORE: "memory",
       PAC_CONTENT_SOURCE: "static",

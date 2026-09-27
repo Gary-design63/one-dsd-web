@@ -38,12 +38,17 @@ const historicalS1HomeCopy = {
   guidedFallbackNote: "Answer three short questions about your role, task, and timing. Start will suggest a useful route and explain why.",
   askDescription: "Ask a work question and get a clear answer with its sources, scope, and limits. No meeting is needed.",
   privacyText: "Please do not enter case, medical, personnel, complaint, or identifying details anywhere in this program. Guidance shows its sources, scope, and limits. It does not replace official policy, legal advice, Human Resources, civil-rights processes, Tribal consultation, or another responsible office.",
+  // The later public-copy cleanup shortened the program name; the S1 release kept "Program".
+  headlineLine3: "Program",
+  heroKicker: "One DHS People, Access and Culture Program",
 };
 
 const historicalS1FooterCopy = {
   ...STATIC_FOOTER_COPY,
   // The plain-language footer wording came after the S1 release; the release text stays historical.
   identityText: "This independently managed, internal-purpose resource is built for DHS staff. It is not connected to DHS information technology, case, or personnel systems. Its guidance supports knowledge work and does not replace policy, legal advice, formal processes, or decisions made by responsible DHS offices. Authority labels show what each item can and cannot establish.",
+  // The later public-copy cleanup shortened the program name; the S1 release kept "Program".
+  identityKicker: "One DHS People, Access and Culture Program",
   privacyText: "Please do not enter case, medical, personnel, complaint, or identifying details anywhere in this program. Working notes stay in the web browser you are using, where another person using the same browser may be able to see them. If any part of the program is difficult to use with assistive technology, Support explains how to report the barrier.",
 };
 

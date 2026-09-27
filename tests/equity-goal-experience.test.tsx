@@ -9,8 +9,12 @@ afterEach(() => { cleanup(); vi.restoreAllMocks(); vi.unstubAllGlobals(); });
 it("keeps all six goals visible while filtering only released resource connections", () => {
   const one = model.goals[0].resources[0];
   render(<EquityGoalExperience resourceLinks={[{...one, title: "Released canvas"}]} linkPrefix="#" />);
-  expect(screen.getByRole("heading", { name: "Six goals. Practical decisions. Supported action." }).style.color).toBe("rgb(255, 255, 255)");
+  // The contrast release moved the introduction to a white panel with a navy (#173d59) heading.
+  expect(screen.getByRole("heading", { name: "Putting equity into practice" }).style.color).toBe("rgb(23, 61, 89)");
   for (const goal of model.goals) expect(screen.getByRole("heading", { name: goal.title })).toBeDefined();
+  // Resources appear once a goal is chosen.
+  expect(screen.queryByRole("link", { name: "Released canvas" })).toBeNull();
+  fireEvent.change(screen.getByRole("combobox"), { target: { value: String(model.goals[0].number) } });
   expect(screen.getByRole("link", { name: "Released canvas" }).getAttribute("href")).toBe(`#${one.href}`);
   expect(screen.queryByRole("link", { name: model.goals[0].resources[1].title })).toBeNull();
   fireEvent.change(screen.getByRole("combobox"), { target: { value: "6" } });

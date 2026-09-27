@@ -27,7 +27,7 @@ export async function POST(request: NextRequest) {
     }
   }
 
-  const destination = new URL("/contribute", request.url);
+  const destination = new URL("/contribute", request.headers.get("origin")!);
   if (revocationUnavailable) destination.searchParams.set("signout", "local_only");
   const response = NextResponse.redirect(destination, {
     status: 303,

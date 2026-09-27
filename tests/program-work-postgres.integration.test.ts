@@ -8,6 +8,7 @@ import postgres from "postgres";
 import { afterAll, beforeAll, describe, expect, it } from "vitest";
 import { localPostgresServerOptions } from "@/tests/helpers/local-postgres";
 import { PostgresStore } from "@/lib/intelligence/memory/postgres-store";
+import { STATIC_HOME_COPY } from "@/lib/content/page-copy-contract";
 import type { ProgramTask, ProgramEvent } from "@/lib/program/work-schema";
 const ROOT = path.resolve(import.meta.dirname, "..");
 function postgresBinary(name: "initdb" | "pg_ctl"): string | null {
@@ -189,5 +190,16 @@ describe("program work: independent fresh PostgreSQL lifecycle", () => {
   it("does not grant anonymous execution of the mutation function", async () => {
     const rows=await admin!.unsafe("select exists(select 1 from pg_proc p,lateral aclexplode(p.proacl) a where p.oid='pac.append_program_event(text,text,jsonb)'::regprocedure and a.grantee=0 and a.privilege_type='EXECUTE') as public_execute");
     expect(rows[0].public_execute).toBe(false);
+  });
+  it("accepts an empty optional third Home heading after every migration", async () => {
+    const copy = { ...STATIC_HOME_COPY, headlineLine3: "" };
+    await expect(admin!.unsafe(
+      "select pac.assert_valid_page_block_copy('page-home', $1::jsonb)",
+      [copy],
+    )).resolves.toBeDefined();
+    await expect(admin!.unsafe(
+      "select pac.assert_valid_page_block_copy('page-home', $1::jsonb)",
+      [{ ...copy, headlineLine2: "" }],
+    )).rejects.toThrow(/blank/i);
   });
 });

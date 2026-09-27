@@ -102,7 +102,7 @@ export async function POST(request: NextRequest) {
       suppliedInvitationCode,
       passphrase,
     ));
-    const response = NextResponse.redirect(new URL("/contribute", request.url), {
+    const response = NextResponse.redirect(new URL("/contribute", request.headers.get("origin")!), {
       status: 303,
       headers: NO_STORE,
     });
@@ -121,7 +121,7 @@ export async function POST(request: NextRequest) {
         { status: 422, headers: NO_STORE },
       );
     }
-    const destination = new URL("/contribute/accept", request.url);
+    const destination = new URL("/contribute/accept", request.headers.get("origin")!);
     destination.searchParams.set("denied", "1");
     return NextResponse.redirect(destination, { status: 303, headers: NO_STORE });
   }

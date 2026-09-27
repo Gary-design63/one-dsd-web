@@ -9,6 +9,8 @@ import { generativeStatus } from "@/lib/intelligence/providers";
 import { getPolicy } from "@/lib/intelligence/policy";
 import { ParticipationNotice } from "@/components/participation-notice";
 import { ConsultantSignIn } from "@/components/consultant-sign-in";
+import { headers } from "next/headers";
+import { isLoopbackHost, offlineConnectorsFile } from "@/lib/offline/mode";
 
 export const dynamic = "force-dynamic";
 
@@ -90,6 +92,7 @@ export default async function ConsultantLayout({ children }: { children: React.R
               Resource review
             </Link>
             <Link href="/consultant/ask-records" className="font-bold text-white">ASK response records</Link>
+            {offlineConnectorsFile() && isLoopbackHost((await headers()).get("host")) ? <Link href="/consultant/connectors" className="font-bold text-white">API connections</Link> : null}
             <Link href="/consultant/audit" className="font-bold text-white">
               Activity record
             </Link>

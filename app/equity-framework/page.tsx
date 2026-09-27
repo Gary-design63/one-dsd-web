@@ -54,7 +54,8 @@ const TOC = [
   ["notes", "Notes and bibliography"],
 ] as const;
 
-export const dynamic = "force-static";
+// The root layout follows the program view (One DHS or One DSD), so this page renders per request.
+export const dynamic = "force-dynamic";
 
 export default function EquityFrameworkPage() {
   const functionsByPillar = new Map<string, string[]>();
