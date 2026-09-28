@@ -34,7 +34,7 @@
 .why { padding: 1.5rem; margin: 1.75rem 0; background: #F7F5EF; border-left: 3px solid #93a9ba; max-width: 85ch; }
 .why p { line-height: 1.8; }
 .reading { max-width: 82ch; font-size: 1.03rem; line-height: 1.9; margin-top: 1.75rem; }
-.reading :is(p,li) { margin-bottom: 1rem; }
+.reading :is(p,li) { margin-bottom: 1rem; white-space: pre-line; }
 .next { display: grid; grid-template-columns: minmax(0,2fr) minmax(0,1fr); gap: 2.5rem; border-top: 1px solid #d9e0e4; margin-top: 2.5rem; padding-top: 2rem; }
 .next h2,.next h3 { color: #183247; font-weight: 600; }
 .next > div:last-child { padding-left: 1.5rem; border-left: 1px solid #d9e0e4; color: #526b7c; }

@@ -179,6 +179,14 @@ export function publishedItemsNeedingRepair(): Array<{ key: string; outcome: "wi
 const SAFE_ACTION_LINK = /^\/(?!\/)[^\u0000-\u001f\u007f]*$|^https:\/\/[^\s]+$/i;
 const INTERNAL_PATH = /^\/(?!\/)[^\u0000-\u001f\u007f\s]*$/;
 
+function hasBlockingPublishedFormatting(value: string): boolean {
+  // Older approved resources use numbered steps in plain-text body fields.
+  // They are readable guidance, not pasted markup. Keep the stricter draft
+  // editor intact and continue blocking headings, links, code, and other markup.
+  const withoutStepNumbers = value.replace(/(^|[\r\n])(\s{0,3})\d+[.)](?=\s+\S)/g, "$1$2Step");
+  return hasFormattedOrSerializedText(withoutStepNumbers);
+}
+
 /**
  * Presentation rules on an already published item. Formatting, pasted data, brand or internal
  * wording, and unsafe links are withheld one item at a time, so one bad row never takes down a
@@ -190,7 +198,7 @@ function presentationOutcome(payload: z.infer<typeof StaffContentSchema>, row: P
   const issues = staffReleaseValidationIssues(payload as never);
   if (issues.length === 0) return { item: payload, issues };
   const staffText = [payload.title, payload.summary, payload.whyItMatters ?? "", ...payload.body, ...payload.nextActions.map((action) => action.label), ...payload.tags, payload.owner, payload.sourceName ?? ""];
-  const unsafe = staffText.some(hasFormattedOrSerializedText)
+  const unsafe = staffText.some(hasBlockingPublishedFormatting)
     || lintStaffCopy(staffText.join("\n")).length > 0
     || payload.nextActions.some((action) => !SAFE_ACTION_LINK.test(action.href))
     || (payload.href != null && payload.href !== "" && !/^https:\/\/[^\s]+$/i.test(payload.href) && !INTERNAL_PATH.test(payload.href));

@@ -44,16 +44,16 @@ const INTERNAL_TERM = [
   /\bvector(?:s| search| store)\b/gi,
   /\bRAG\b/g,
   /\binference\b/gi,
-  /\btemperature\b/gi,
+  // Ordinary staff guidance can discuss room or sensory temperature. Flag only
+  // the model-setting phrase, not the physical condition.
+  /\b(?:model|sampling) temperature\b/gi,
   /\bmodel registry\b/gi,
   /\bprovider adapter\b/gi,
   /\bprovider route\b/gi,
   /\bautonomy level\b/gi,
   /\bagentic\b/gi,
   /\bAPI\b/g,
-  /\bendpoint\b/gi,
   /\b(?:local|session) storage\b/gi,
-  /\bbrowser tab\b/gi,
   /\benvironment variables?\b/gi,
   /\bdeployment\b/gi,
   /\bruntime\b/gi,
@@ -62,7 +62,6 @@ const INTERNAL_TERM = [
   /\bfrontend\b/gi,
   /\bserialized\b/gi,
   /\bpayload\b/gi,
-  /\bmetadata\b/gi,
   /\bfixture\b/gi,
   /\bdebug(?:ging)?\b/gi,
   /\bbuild pipeline\b/gi,
@@ -86,7 +85,7 @@ const RANKING = [/\bmaturity score\b/gi, /\bequity scorecard\b/gi, /\bleaderboar
 
 /** Emoji and symbol ranges that would be icon-only cues. */
 const ICON_ONLY =
-  /[\u{1F300}-\u{1FAFF}\u{2600}-\u{27BF}\u{2B00}-\u{2BFF}\u{1F000}-\u{1F2FF}]|(?:^|\s)[✓✔✗✘★☆●▶►▲▼◆■□]+(?:\s|$)/gu;
+  /[\u{1F300}-\u{1FAFF}\u{2600}-\u{2712}\u{2714}-\u{2716}\u{2718}-\u{27BF}\u{2B00}-\u{2BFF}\u{1F000}-\u{1F2FF}]|(?:^|[\r\n])\s*[✓✔✗✘★☆●▶►▲▼◆■□]+\s*(?=$|[\r\n])|(?:^|\s)[✓✔✗✘★☆●▶►▲▼◆■□]+(?=\s*[.!?]?\s*$)/gu;
 
 function collect(
   text: string,

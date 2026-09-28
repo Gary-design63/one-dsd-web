@@ -42,4 +42,46 @@ describe("published items that no longer meet the release editor's presentation 
     expect(warn).toHaveBeenCalledTimes(1);
     expect(String(warn.mock.calls[0][0])).not.toContain("Accessible Meetings");
   });
+
+  it("keeps approved numbered steps and physical-temperature guidance visible", async () => {
+    vi.spyOn(console, "warn").mockImplementation(() => {});
+    const steps = legacyRow("legacy-numbered-steps");
+    steps.canonical_payload.body = ["Plan the visit.\n1. Ask about access needs.\n2. Check the space."];
+    const sensory = legacyRow("legacy-sensory-temperature");
+    sensory.canonical_payload.body = ["Ask whether the room temperature is comfortable."];
+    const reader = new PostgresStaffPublicationReader({
+      databaseUrl: "postgres://synthetic@localhost/test",
+      databaseFactory: () => ({ query: async () => [steps, sensory] as never, close: async () => {} }),
+    });
+    expect((await reader.list("dsd")).map((item) => item.id)).toEqual([
+      "legacy-numbered-steps", "legacy-sensory-temperature",
+    ]);
+    expect(publishedItemsNeedingRepair()).toContainEqual({ key: "dsd:legacy-numbered-steps", outcome: "served" });
+    expect(publishedItemsNeedingRepair()).toContainEqual({ key: "dsd:legacy-sensory-temperature", outcome: "served" });
+  });
+
+  it("keeps explained accessibility symbols and document terms visible", async () => {
+    vi.spyOn(console, "warn").mockImplementation(() => {});
+    const row = legacyRow("legacy-accessibility-examples");
+    row.canonical_payload.body = [
+      "1. Use text alternatives: ✓ On track, ✗ Delayed. Check the PDF metadata and the title shown in the browser tab. Review the end of the service journey, not just its endpoint.",
+    ];
+    const reader = new PostgresStaffPublicationReader({
+      databaseUrl: "postgres://synthetic@localhost/test",
+      databaseFactory: () => ({ query: async () => [row] as never, close: async () => {} }),
+    });
+    expect((await reader.list("dsd")).map((item) => item.id)).toEqual(["legacy-accessibility-examples"]);
+  });
+
+  it("still withholds pasted markup from an approved legacy row", async () => {
+    vi.spyOn(console, "warn").mockImplementation(() => {});
+    const row = legacyRow("legacy-pasted-markup");
+    row.canonical_payload.body = ["1. Check access.\n**Internal instruction**"];
+    const reader = new PostgresStaffPublicationReader({
+      databaseUrl: "postgres://synthetic@localhost/test",
+      databaseFactory: () => ({ query: async () => [row] as never, close: async () => {} }),
+    });
+    expect(await reader.list("dsd")).toEqual([]);
+    expect(publishedItemsNeedingRepair()).toContainEqual({ key: "dsd:legacy-pasted-markup", outcome: "withheld" });
+  });
 });
