@@ -17,7 +17,7 @@ export default async function ToolkitPracticePage() {
   return <EditableSurfaceRegion surface={surface}>
     <div className={`${styles.page} ${styles.content} ${styles.readingPage} space-y-10`}>
       <header className="space-y-4">
-        <Link href="/learn/equity-toolkit/goals">← Six goals and work plan</Link>
+        <Link href={scope === "dsd" ? "/learn/equity-toolkit/goals" : "/learn/equity-toolkit"}>{scope === "dsd" ? "← Six goals and work plan" : "← Toolkit introduction and podcast"}</Link>
         <h1 className="text-4xl font-semibold">Practice with the Equity Analysis Toolkit</h1>
         <p className="max-w-3xl text-xl">Work through a decision, compare possible approaches, and prepare notes for a conversation with the people responsible.</p>
       </header>

@@ -46,6 +46,7 @@ export default async function PracticePage({ searchParams }: { searchParams?: Pr
           <p className="max-w-3xl text-muted">
             {withoutPublishedSaveClaims(stringValue(copy, "choicesIntro"))}
           </p>
+          <p className="max-w-3xl">For example, bring a meeting plan, a form, or a service decision. Choose one practice below, try its questions in your work, and decide what you will change.</p>
           <ul className={styles.practiceList}>
             {paths.map((path) => (
               <li key={path.id} className={styles.practiceRow}>

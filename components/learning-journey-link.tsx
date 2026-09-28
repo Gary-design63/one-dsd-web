@@ -10,7 +10,7 @@ export async function LearningJourneyLink({scope, resourceId, compact=false}: {s
   if(!surface.available) return null;
   const matches=resourceId ? getLearningJourney(surface.values).filter(stop=>stop.resourceIds.includes(resourceId)) : [];
   if(resourceId&&!matches.length) return null;
-  if(compact || resourceId) return <aside className="my-6 border-y border-line py-5">
+  if(compact || resourceId) return <aside className="my-6 border-y border-line py-5" aria-label="Learning journey">
     <p className="mb-2 font-semibold">{resourceId ? "Connect this learning with your work" : journeyText(surface.values,"previewTitle")}</p>
     <div className="flex flex-wrap gap-x-6 gap-y-3">{matches.length ? matches.map(stop=><Link className="underline" key={stop.id} href={LEARNING_JOURNEY_HREF+"#"+stop.id}>{stop.title}</Link>) : <Link className="underline" href={LEARNING_JOURNEY_HREF}>{journeyText(surface.values,"previewLink")}</Link>}</div>
   </aside>;
@@ -20,4 +20,3 @@ export async function LearningJourneyLink({scope, resourceId, compact=false}: {s
     <Link className="mt-2 inline-block font-semibold underline" href={LEARNING_JOURNEY_HREF}>{journeyText(surface.values,"previewLink")} →</Link>
   </aside>;
 }
-

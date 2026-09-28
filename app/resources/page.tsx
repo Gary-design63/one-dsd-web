@@ -67,7 +67,8 @@ export default async function ResourcesPage({ searchParams }: { searchParams: Pr
   const authorities = Array.from(new Set(published.map((c) => c.authority))) as AuthorityLabel[];
   const hasActiveFilters = Object.keys(filters).some(key => key !== "originArea");
   const showAll = libraryQueryValue(sp.browse) === "all";
-  const firstPageSize = 20;
+  // Keep the first screen scannable; the full result set remains available below.
+  const firstPageSize = 6;
   const visibleHits = showAll ? hits : hits.slice(0, firstPageSize);
   const visibleItems = showAll ? items : items.slice(0, firstPageSize);
   const remainingHits = showAll ? [] : hits.slice(firstPageSize);
@@ -146,17 +147,18 @@ export default async function ResourcesPage({ searchParams }: { searchParams: Pr
               const retained={...filters}; delete retained[key]; if(key==="area")delete retained.task;
               const value=filters[key]!;
               const label=key==="type"?CONTENT_TYPE_LABEL[value as ContentType]:key==="authority"?AUTHORITY[value as AuthorityLabel].label:key==="role"?ROLE_FAMILY_LABEL[value as keyof typeof ROLE_FAMILY_LABEL]:key==="area"?selectedDomain?.title:key==="task"?selectedTask?.label:value;
-              return <Link key={key} href={libraryHref(retained,q)} aria-label={"Remove "+key+" filter"}>Remove {label??key} ×</Link>;
+              return <Link key={key} href={libraryHref(retained,q)} aria-label={`Remove ${label ?? key} filter`}>Remove {label??key} ×</Link>;
             })}
             <Link href={libraryHref({originArea:filters.originArea}, q)}>{stringValue(copy, "clearFiltersLabel")}</Link>
           </div> : null}
         </form>
 
         {q ? (
-          <section className={styles.collection} aria-live="polite" aria-labelledby="results-title">
+          <section className={styles.collection} aria-labelledby="results-title">
             <h2 id="results-title" className="text-xl font-extrabold">
               {hits.length ? `${hits.length} ${hits.length === 1 ? stringValue(copy, "resultSingular") : stringValue(copy, "resultPlural")}` : stringValue(copy, "noResultsTitle")}
             </h2>
+            <p role="status" className="sr-only">{hits.length} {hits.length === 1 ? "result" : "results"} found.</p>
             {!hits.length ? <p className="text-muted">{stringValue(copy, "noResultsBody")}</p> : null}
             {hits.length > visibleHits.length ? <p className={styles.moreResults}>Showing the first {visibleHits.length} results. <Link href={browseAllHref}>Browse all {hits.length} results</Link></p> : null}
             <ul className={styles.results}>{visibleHits.map(renderHit)}</ul>

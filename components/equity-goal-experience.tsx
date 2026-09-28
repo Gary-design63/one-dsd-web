@@ -92,7 +92,7 @@ export function EquityGoalExperience({ resourceLinks = [], linkPrefix = "", scop
       <p style={paragraph}>The six goals can help you see where to focus and what to try next in your work.</p>
       <p style={paragraph}>Using the DHS Equity Policy and its Equity Analysis Toolkit is part of every staff member’s responsibility. Equity professionals can help you work through it.</p>
       <details style={{ margin: "18px 0" }}><summary style={{ cursor: "pointer", color: navy, fontWeight: 700 }}>About these goals and the toolkit</summary>
-        <p style={paragraph}>These six goals come from the Aging and Disability Services Administration (ADSA) Equity and Inclusion Implementation Plan. They organize this companion in both program views; their ADSA origin does not make them a new goal mandate for every DHS administration.</p>
+        <p style={paragraph}>These six goals come from the Aging and Disability Services Administration (ADSA) Equity and Inclusion Implementation Plan. All six guide every unit in the Disability Services Division. They are not department-wide DHS goals.</p>
         <p style={paragraph}>This companion learning does not replace required agency training. Staff apply the current policy and toolkit to their work; the equity consultant and appropriate partners provide guidance, facilitation and analysis support. That support does not transfer staff responsibility or grant approval authority.</p>
         <p style={paragraph}>The goals describe what to improve. The official toolkit guides how to examine a decision. The plan below helps record action and follow-through. Use the current official decision guidance to determine the appropriate review; a short timeline alone does not establish that a scan is sufficient.</p>
         <p style={paragraph}>In DSD, the <strong>One DSD Team</strong> is the division equity team. DHS and ADSA committees retain their own names and responsibilities.</p>
@@ -187,6 +187,5 @@ export function EquityGoalExperience({ resourceLinks = [], linkPrefix = "", scop
     <p style={{ ...paragraph, fontSize: "0.9rem" }}><strong>Goal source:</strong> {goalData.goalAuthority} {goalData.mappingAuthority} Official source titles retain their original wording. The six goals are distinct from the toolkit’s official process and this program’s companion learning stages.</p>
   </div>;
 }
-
 
 

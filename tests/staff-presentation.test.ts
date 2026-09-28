@@ -7,6 +7,8 @@ import { describe, expect, it, vi } from "vitest";
 import { PageIntro } from "@/components/ui";
 import { STATIC_HOME_COPY, STATIC_FOOTER_COPY } from "@/lib/content/page-copy-contract";
 
+const requestedView = vi.hoisted(() => ({ value: "one_dhs" }));
+
 vi.mock("@/lib/auth/request", () => ({ ownerFromCookies: async () => null, editingModeFromCookies: async () => false }));
 vi.mock("@/lib/content/page-copy", () => ({
   loadPublishedPageCopy: async (surface: string) => surface === "home" ? STATIC_HOME_COPY : STATIC_FOOTER_COPY,
@@ -17,7 +19,7 @@ vi.mock("@/lib/content/page-copy", () => ({
 // behave as an unset cookie jar (resolveProductContext then falls back to the default
 // context) — this exercises the same HTML-shape assertions below without needing a live
 // request context.
-vi.mock("next/headers", () => ({ cookies: async () => new Map<string, { value: string }>() }));
+vi.mock("next/headers", () => ({ cookies: async () => new Map<string, { value: string }>([["pac_context", { value: requestedView.value }]]) }));
 import HomePage from "@/app/page";
 import { ProgramCommitments } from "@/components/program-commitments";
 import { SiteFooter } from "@/components/site-footer";
@@ -27,6 +29,16 @@ const root = path.resolve(__dirname, "..");
 const file = (name: string) => readFileSync(path.join(root, name), "utf8");
 
 describe("owner-authorized program design", () => {
+  it("keeps ADSA goals in the One DSD homepage and out of the department homepage", async () => {
+    requestedView.value = "one_dhs";
+    const department = renderToStaticMarkup(await HomePage());
+    expect(department).toContain("Equity in practice");
+    expect(department).not.toContain("Six goals for equity in practice");
+    requestedView.value = "one_dsd";
+    const division = renderToStaticMarkup(await HomePage());
+    expect(division).toContain("Six goals for equity in practice");
+    requestedView.value = "one_dhs";
+  });
   it("preserves the approved DHS logo", () => {
     const hash = createHash("sha256").update(readFileSync(path.join(root, "public/images/dhs-logo.png"))).digest("hex");
     expect(hash.toUpperCase()).toBe("E9D767446EC871A7FBE829C2A978CF0CB47886AAD31A4FFCFF59A78AE89ADD74");

@@ -24,7 +24,7 @@ it("retains native playback without loading or playing before an explicit reques
   expect(audio.controls).toBe(true);
   expect(play).not.toHaveBeenCalled();
   expect(load).not.toHaveBeenCalled();
-  expect(screen.getByText(/has not been checked word for word against the recording/)).toBeTruthy();
+  expect(screen.getByText("Read the complete transcript")).toBeTruthy();
   expect(screen.queryByText("Transcript reviewed against the recording.")).toBeNull();
 });
 

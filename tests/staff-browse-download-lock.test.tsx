@@ -79,9 +79,9 @@ describe("staff browse-and-download lock", () => {
   it("fail-closes the staff register list/export and analysis walkthrough (F-01 / F-02)", () => {
     const register = renderToStaticMarkup(RegisterPage());
     const analysis = renderToStaticMarkup(AnalysisPage());
-    expect(register).toContain("This register is closed to staff writes and exports.");
+    expect(register).toContain("This page does not provide completed analyses.");
     expect(register).not.toContain("Open by design");
-    expect(analysis).toContain("The fill-and-save walkthrough is closed.");
+    expect(analysis).toContain("This practice does not submit an official equity analysis.");
     expect(analysis).not.toContain("<textarea");
   });
 
@@ -102,7 +102,8 @@ describe("staff browse-and-download lock", () => {
     expect(source).not.toContain("listEquityAnalyses");
     expect(source).not.toContain("EquityDashboard");
     const html = renderToStaticMarkup(EquityPolicyPage());
-    expect(html).toContain("Stored analyses are not listed here");
+    expect(html).toContain("Read the policy (PDF)");
+    expect(html).not.toContain("Stored analyses are not listed here");
     expect(html).not.toContain("Open to all DHS staff");
     expect(html).not.toContain("<textarea");
   });

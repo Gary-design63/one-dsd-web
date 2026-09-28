@@ -32,7 +32,7 @@ export function LeadershipDevelopmentStudio(){
    <form id="development-map" className="mt-8 scroll-mt-8 border-t border-line pt-7" onSubmit={event=>{event.preventDefault();const missing=DEVELOPMENT_MAP_FIELDS.find(f=>f.required&&!map.values[f.key]?.trim());if(missing){const control=event.currentTarget.elements.namedItem(missing.key) as HTMLTextAreaElement;control.setCustomValidity("Add a short response.");control.reportValidity();control.focus();return;}const draft=buildDevelopmentMap(selected,map.capability,map.values);if(draft)setMaps(previous=>({...previous,[selected]:{...map,draft}}));}}>
     <h4 className="text-2xl font-semibold">Make your development map</h4>
     <p className="mt-3 leading-7">Connect an aspiration with practice, support, and useful feedback. A small, well-supported opportunity can be a meaningful place to begin.</p>
-    <label className="mt-5 block font-semibold" htmlFor="development-capability">A DEIA capability to focus on</label>
+    <label className="mt-5 block font-semibold" htmlFor="development-capability">An equity capability to focus on</label>
     <select id="development-capability" className={field} value={map.capability} onChange={event=>setMaps(previous=>({...previous,[selected]:{...map,capability:event.target.value,draft:""}}))}>{DEVELOPMENT_CAPABILITIES.map(c=><option key={c.id} value={c.id}>{c.title}</option>)}</select>
     <div className="my-5 rounded-xl bg-[#eef3f8] p-5 leading-7"><p><strong>A practice possibility:</strong> {capability.practice}</p><p className="mt-3"><strong>A feedback question:</strong> {capability.feedback}</p><p className="mt-3"><strong>Possible evidence:</strong> {capability.evidence}</p></div>
     <DsdDevelopmentMapExample capabilityId={map.capability} />

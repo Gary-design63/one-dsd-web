@@ -104,7 +104,7 @@ describe("Leadership companion integration and verified reuse", () => {
   it.each(DEVELOPMENT_CAPABILITIES)("shows a worked map for $id without changing the learner's field values", capability => {
     render(<LeadershipDevelopmentStudio />);
     fireEvent.change(screen.getByLabelText("What would you like to develop?"), { target: { value: "My own goal" } });
-    fireEvent.change(screen.getByRole("combobox", { name: "A DEIA capability to focus on" }), { target: { value: capability.id } });
+    fireEvent.change(screen.getByRole("combobox", { name: "An equity capability to focus on" }), { target: { value: capability.id } });
     const summary = screen.getByText("See a fictional map for this capability");
     const example = summary.closest("details")!;
     fireEvent.click(summary);

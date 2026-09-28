@@ -23,12 +23,12 @@ export default async function MyWorkPage({ searchParams }: { searchParams: Promi
         lede="Choose a learning focus, find a useful next step, and return to the published tools that support your work."
       />
       <div className="wrap space-y-6 py-8">
-        <section className="rounded-xl border border-line bg-white p-6" aria-labelledby="goal-work-plan-title">
+        <DevelopmentFocus initialFocus={focus} />
+        {scope === "dsd" ? <section className="rounded-xl border border-line bg-white p-6" aria-labelledby="goal-work-plan-title">
           <h2 id="goal-work-plan-title" className="text-2xl font-bold">Connect your work to the six equity goals</h2>
           <p className="my-3">Supervisors and managers can choose three planning priorities, identify actions and support, and download a work plan for review. All six goals remain visible. Selecting priorities does not remove policy responsibilities.</p>
           <Link className="btn btn--primary" href="/learn/equity-toolkit/goals#equity-work-plan">Prepare your three-goal work plan</Link>
-        </section>
-        <DevelopmentFocus initialFocus={focus} />
+        </section> : null}
         <StaffWorkBrowse scope={scope} />
         <ParticipationNotice surface="my_work" />
       </div>

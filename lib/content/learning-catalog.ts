@@ -46,7 +46,7 @@ export function getLearningTilePresentation(
   const summary = values[`${prefix}Summary`];
   if (
     typeof imageSrc !== "string" || (imageSrc !== "" && !isSafeLocalImage(imageSrc))
-    || typeof imageAlt !== "string" || typeof summary !== "string"
+    || typeof imageAlt !== "string" || (imageSrc !== "" && imageAlt.trim() === "") || typeof summary !== "string"
   ) return undefined;
   return { imageSrc, imageAlt, summary };
 }

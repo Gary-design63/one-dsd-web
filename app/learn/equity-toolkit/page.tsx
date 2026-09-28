@@ -26,7 +26,7 @@ export default async function Page() {
           <h1 className="text-4xl font-semibold">{text("title")}</h1>
           <p className="text-xl">{text("intro")}</p>
           <details><summary className="cursor-pointer font-semibold">Explore this page</summary><nav className="mt-3 flex flex-wrap gap-4" aria-label="Toolkit sections">
-            <Link href="/learn/equity-toolkit/goals">Six goals and work plan</Link>
+            {scope === "dsd" ? <Link href="/learn/equity-toolkit/goals">Six goals and work plan</Link> : null}
             <Link href="/learn/equity-toolkit/practice">Continue to practice and resources</Link>
           </nav></details>
           <details><summary className="cursor-pointer font-semibold">About this companion</summary><p className="mt-3">{text("companionNote")}</p><p><Link href="/operationalizing-equity">Explore operationalizing equity in everyday work</Link></p></details>
@@ -41,7 +41,7 @@ export default async function Page() {
         </div>
       </header>
       <PublishedPodcast headingLevel={2} podcast={PODCASTS[0]} surface={podcastSurface} />
-      <nav aria-label="Continue the toolkit" className="border-t border-line pt-8 print:hidden"><Link className={styles.primaryAction} href="/learn/equity-toolkit/goals">Continue to the six goals and work plan →</Link></nav>
+      <nav aria-label="Continue the toolkit" className="border-t border-line pt-8 print:hidden"><Link className={styles.primaryAction} href={scope === "dsd" ? "/learn/equity-toolkit/goals" : "/learn/equity-toolkit/practice"}>{scope === "dsd" ? "Continue to the six goals and work plan →" : "Continue to practice with the toolkit →"}</Link></nav>
     </div>
   </EditableSurfaceRegion>;
 }

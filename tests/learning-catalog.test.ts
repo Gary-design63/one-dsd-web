@@ -28,7 +28,7 @@ describe("Learning catalog presentation", () => {
     });
     expect(getLearningTilePresentation("lm-workplace-climate", {})).toBeUndefined();
     expect(getLearningTilePresentation("lm-workplace-climate", { climateImage: LEARNING_TILE_DEFAULTS["lm-workplace-climate"].imageSrc })).toBeUndefined();
-    expect(getLearningTilePresentation("lm-workplace-climate", { ...catalog.approvedValues, climateImageAlt: "", climateSummary: "" })).toMatchObject({ imageAlt: "", summary: "" });
+    expect(getLearningTilePresentation("lm-workplace-climate", { ...catalog.approvedValues, climateImageAlt: "", climateSummary: "" })).toBeUndefined();
   });
 
   it("allows an editor to remove an image without resurrecting the default", () => {

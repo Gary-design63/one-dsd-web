@@ -30,7 +30,7 @@ export default async function ToolkitStudioPage() {
 
         <section aria-labelledby="picker-title">
           <h2 id="picker-title" className="text-2xl font-extrabold">Choose a work moment</h2>
-          <p>Browse and download only. Featured cards walk a fictional decision. Catalog titles name more moments.</p>
+          <p>Choose a published example to try the questions. More work situations are available below.</p>
           <ul className="mt-4 grid list-none gap-4 p-0 md:grid-cols-3">
             {TOOLKIT_CARDS.map((card) => (
               <li key={card.id} className="rounded-xl border border-line bg-white p-4">
@@ -42,7 +42,7 @@ export default async function ToolkitStudioPage() {
             ))}
           </ul>
           <details className="mt-6">
-            <summary>Catalog titles 4–12</summary>
+            <summary>More work situations</summary>
             <ul className="mt-3 list-disc pl-6">
               {TOOLKIT_CATALOG.map((item, index) => (
                 <li key={item.id}><strong>{index + 4}. {item.title}.</strong> {item.prompt}</li>
@@ -53,7 +53,7 @@ export default async function ToolkitStudioPage() {
 
         <section aria-labelledby="pack-title">
           <h2 id="pack-title" className="text-2xl font-extrabold">Download pack</h2>
-          <p>Use these offline. Staff writing is not collected here.</p>
+          <p>Download these materials to use with your own work. This page does not save your notes.</p>
           <ul className="mt-4 list-none space-y-4 p-0">
             {TOOLKIT_DOWNLOADS.map((item) => (
               <li key={item.id} className="border-t border-line pt-3">

@@ -25,6 +25,7 @@ export default async function PathsPage() {
     <EditableSurfaceRegion surface={surface}>
       <PageIntro kicker={stringValue(copy, "introKicker")} title={stringValue(copy, "introTitle")} lede={withoutPublishedSaveClaims(stringValue(copy, "introLede"))} />
       <div className="wrap py-8">
+        <p className="mb-6 max-w-3xl text-muted">For example, if a team is revising a service process, choose the path that helps you examine who can use it, practice a change, and review what happened.</p>
         <ul className="grid list-none gap-x-10 gap-y-6 p-0 md:grid-cols-2">
           {paths.map((p) => (
             <li key={p.id} className="border-t border-line pt-4">

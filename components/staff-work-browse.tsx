@@ -13,10 +13,11 @@ const SHELF = [
 /** My Work under the staff lock: published downloads, not uploads or saved notes. */
 export function StaffWorkBrowse({ scope }: { scope?: DownloadScope }) {
   return (
-    <div className="space-y-8">
-      <section>
-        <h2 className="text-xl font-extrabold">Published program copies</h2>
-        <p className="text-sm">Download what the program already publishes. This page does not accept uploads or save staff writing.</p>
+    <section className="space-y-4" aria-labelledby="published-tools-title">
+      <h2 id="published-tools-title" className="text-xl font-extrabold">Published tools for your work</h2>
+      <p>Read or download a tool when it fits your next step. This page does not accept uploads or save staff writing.</p>
+      <details className="rounded-xl border border-line bg-white px-5 py-2">
+        <summary className="min-h-11 text-lg font-semibold">Program copies</summary>
         <ul className="mt-4 list-none space-y-4 p-0">
           {SHELF.map((item) => (
             <li key={item.href} className="border-t border-line pt-3">
@@ -25,10 +26,10 @@ export function StaffWorkBrowse({ scope }: { scope?: DownloadScope }) {
             </li>
           ))}
         </ul>
-      </section>
-      <section>
-        <h2 className="text-xl font-extrabold">Practice checklists</h2>
-        <p className="text-sm">Each path has a published checklist you can read and download. Nothing you type is stored here.</p>
+      </details>
+      <details className="rounded-xl border border-line bg-white px-5 py-2">
+        <summary className="min-h-11 text-lg font-semibold">Practice checklists</summary>
+        <p className="text-sm">Each path has a published checklist you can read and download.</p>
         <ul className="mt-4 list-none space-y-4 p-0">
           {GRADUATION_PATHS.map((path) => (
             <li key={path.id} className="border-t border-line pt-3">
@@ -38,7 +39,7 @@ export function StaffWorkBrowse({ scope }: { scope?: DownloadScope }) {
             </li>
           ))}
         </ul>
-      </section>
-    </div>
+      </details>
+    </section>
   );
 }

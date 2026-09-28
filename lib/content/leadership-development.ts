@@ -12,7 +12,7 @@ export const DEVELOPMENT_ENTRIES: DevelopmentEntry[] = [
     id: "exploring", title: "I want to explore leadership",
     invitation: "Your own curiosity is enough to begin. Explore what leadership could mean for you, with or without a future management role.",
     teaching: [
-      "Leadership can begin in how you listen, explain a decision, or make room for another person's contribution. Through a DEIA lens, the question is also whose experience informs the work and who can access the opportunity to shape it.",
+      "Leadership can begin in how you listen, explain a decision, or make room for another person's contribution. Through an equity lens, the question is also whose experience informs the work and who can access the opportunity to shape it.",
       "You may already bring relevant experience from community work, professional practice, caregiving, or collaboration. Connect that experience with a specific capability and test it in a manageable situation. Feedback helps you see both your contribution and what you want to develop next."
     ],
     objectives: ["Separate an observation from an assumption about another person.", "Invite perspectives through more than one way of participating.", "Explain a recommendation with evidence and revise it after feedback."],
@@ -30,7 +30,7 @@ export const DEVELOPMENT_ENTRIES: DevelopmentEntry[] = [
       "Being encouraged can help you recognize a strength you had not named. It is also a chance to ask what the person noticed: which contribution, capability, or example led to the invitation? Specific feedback is more useful than an unexplained label of potential.",
       "A meaningful opportunity includes preparation, time, access, and feedback. A mentor can help you think; a sponsor can help you access work where you can develop. Agree on support before the opportunity becomes another responsibility, and keep space to change direction."
     ],
-    objectives:["Describe your own development interest and the evidence behind the invitation.","Agree on a manageable opportunity with time, access, and feedback.","Practice a DEIA skill and explain what you learned from the experience."],
+    objectives:["Describe your own development interest and the evidence behind the invitation.","Agree on a manageable opportunity with time, access, and feedback.","Practice an equity skill and explain what you learned from the experience."],
     example:"Co-facilitate a DSD Learning Lab on access to development opportunities. Offer spoken and written ways to contribute, then revise an invitation using what participants tell you.",
     steps:[
       {title:"Make the invitation useful",body:"Ask what the person noticed, what opportunity they have in mind, and what support they can offer.",href:"/one-dsd/amplify/mentoring",link:"Prepare a mentoring conversation"},
@@ -40,7 +40,7 @@ export const DEVELOPMENT_ENTRIES: DevelopmentEntry[] = [
   },
   {
     id:"practicing",title:"I want to strengthen my leadership",
-    invitation:"Bring a decision, a recurring challenge, or a skill you want to refresh. Use your experience as a starting point for deeper DEIA practice.",
+    invitation:"Bring a decision, a recurring challenge, or a skill you want to refresh. Use your experience as a starting point for deeper equity practice.",
     teaching:[
       "Experience can make decisions quicker, while familiar patterns can make some assumptions harder to notice. Revisit the criteria behind a recurring decision: what counts as a strong contribution, who receives visible work, and whose perspective changes the options?",
       "When responsibilities broaden, the equity question broadens too. A supervisor may improve a team's practice; a manager or director may need to align opportunities, resources, and expectations across teams. Both benefit from evidence of what people actually experience after a change.",
@@ -84,7 +84,7 @@ export function buildDevelopmentMap(entryId:string, capabilityId:string, values:
 Starting point
 ${entry.title}
 
-DEIA capability
+Equity capability
 ${capability.title}
 
 ${DEVELOPMENT_MAP_FIELDS.map(f=>`${f.label}

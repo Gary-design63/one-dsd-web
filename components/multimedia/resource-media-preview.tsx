@@ -20,7 +20,7 @@ export function ResourceMediaPreview({ resourceId }: { resourceId: string }) {
     "podcast-equity-toolkit": { href: "/learn/equity-toolkit#podcast-equity-toolkit", title: "DHS equity policy and toolkit" },
     "podcast-anti-racism-public-service": { href: "/learn#podcast-anti-racism-public-service", title: "Anti-racism in public service" },
   } as Record<string, { href: string; title: string }>)[resourceId];
-  if (podcast) return <figure className={frame}><figcaption><p className="m-0 text-sm">Recording and reading companion</p><Link href={podcast.href} className="font-semibold">{podcast.title}: listen, read or choose a chapter</Link><p className="mb-0 mt-2 text-sm leading-6">The player identifies the transcript as a draft and keeps the original recording available for checking wording.</p></figcaption></figure>;
+  if (podcast) return <figure className={frame}><figcaption><p className="m-0 text-sm">Recording and reading companion</p><Link href={podcast.href} className="font-semibold">{podcast.title}: listen, read or choose a chapter</Link></figcaption></figure>;
   if (resourceId === "course-critical-incidents-in-the-work") return <figure className={frame}>
     <Image src="/images/media-critical-incident-late-handout-v1.png" width={180} height={101} sizes="180px" alt="Colleagues at a table with newly shared meeting papers." className="h-auto rounded-md" />
     <figcaption className="min-w-0 flex-1"><p className="m-0 text-sm">Fictional meeting example</p><Link href="/courses/critical-incidents-in-the-work/ci-write" className="font-semibold">Observe what happened before interpreting it</Link></figcaption>

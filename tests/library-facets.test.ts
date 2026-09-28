@@ -16,7 +16,7 @@ it('uses recorded task roles and exact tags rather than guessing audience',async
 it('removes only the chosen facet while keeping the query, task and originating area',async()=>{
  const input={q:'degree',area:'workforce',originArea:'workforce_equity',task:'design-role',type:'job_aid',authority:'guidance',role:'hiring_hr'};
  const html=renderToStaticMarkup(await ResourcesPage({searchParams:Promise.resolve(input)}));
- const match=html.match(/<a(?=[^>]*aria-label="Remove role filter")[^>]*href="([^"]+)"/);expect(match).toBeTruthy();
+ const match=html.match(/<a(?=[^>]*aria-label="Remove Hiring managers and HR partners filter")[^>]*href="([^"]+)"/);expect(match).toBeTruthy();
  const url=new URL(match![1].replaceAll('&amp;','&'),'https://program.test');expect(url.searchParams.has('role')).toBe(false);
  for(const [key,value] of Object.entries(input).filter(([key])=>key!=='role'))expect(url.searchParams.get(key)).toBe(value);
  expect(html).toContain('<summary>Narrow results</summary>');

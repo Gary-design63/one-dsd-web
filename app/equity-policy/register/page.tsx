@@ -8,11 +8,10 @@ export const metadata: Metadata = { title: "Equity analysis register" };
 export default function RegisterPage() {
   return (
     <>
-      <PageIntro kicker="Browse and download only" title="Equity analysis register" lede="Staff pages do not list, export, or update analysis records." />
+      <PageIntro kicker="Equity Policy" title="Equity analysis records" lede="Completed analyses are not available on this page. For an example you can work through, use Toolkit Studio." />
       <div className="wrap max-w-3xl space-y-6 py-8">
         <Notice>
-          <strong>This register is closed to staff writes and exports. </strong>
-          Analyses are not listed or downloaded from this page. Use the Toolkit Studio to walk a published decision and download the pack.
+          This page does not provide completed analyses. Toolkit Studio lets you practice with a published decision and download the example.
         </Notice>
         <p><Link href="/toolkit-studio" className="btn btn--primary">Open Toolkit Studio</Link></p>
         <p className="text-sm"><Link href="/equity-policy">Equity Policy page</Link> · <Link href="/learn/equity-toolkit">Toolkit companion</Link></p>

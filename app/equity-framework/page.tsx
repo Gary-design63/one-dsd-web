@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 const STATUS_CLASS: Record<ToolStatus, string> = {
   in_program: "label-pill",
   partly_in_program: "label-pill",
-  not_yet: "label-pill opacity-70",
+  not_yet: "label-pill",
 };
 
 function Links({ links }: { links: readonly FrameworkLink[] }) {
@@ -23,7 +23,7 @@ function Links({ links }: { links: readonly FrameworkLink[] }) {
 
 function Pairs({ rows, head }: { rows: ReadonlyArray<readonly [string, string]>; head: [string, string] }) {
   return (
-    <div className="overflow-x-auto">
+    <div tabIndex={0} className="overflow-x-auto">
       <table className="data w-full min-w-[28rem] text-sm">
         <thead><tr><th scope="col">{head[0]}</th><th scope="col">{head[1]}</th></tr></thead>
         <tbody>{rows.map(([a, b]) => <tr key={a}><th scope="row" className="whitespace-nowrap align-top font-semibold">{a}</th><td>{b}</td></tr>)}</tbody>
@@ -89,7 +89,7 @@ export default function EquityFrameworkPage() {
           <p className="max-w-3xl">The framework runs as a continuous cycle: assess, plan, implement, measure, learn, improve. Each stage matches one step of the program’s value sequence,¹¹ and each stage names where the work happens in One DHS and in One DSD. Move to the next stage when the people involved agree, not on a date.</p>
           <ol className="mt-4 flex flex-wrap gap-2 p-0 text-sm font-semibold" aria-label="Cycle stages">{F.cycle.map((c, i) => <li key={c.stage} className="list-none rounded-full border border-line bg-white px-3 py-1">{i + 1}. {c.stage}</li>)}</ol>
           <details className="mt-5 border-t border-line py-3"><summary>Explore the full cycle workflow</summary>
-          <div className="mt-4 overflow-x-auto rounded border border-line bg-white">
+          <div tabIndex={0} className="mt-4 overflow-x-auto rounded border border-line bg-white">
             <table className="data w-full min-w-[56rem] text-sm">
               <thead><tr><th scope="col">Stage</th><th scope="col">Question the stage answers</th><th scope="col">Program step</th><th scope="col">In One DHS</th><th scope="col">In One DSD</th></tr></thead>
               <tbody>{F.cycle.map((c) => (
@@ -114,7 +114,7 @@ export default function EquityFrameworkPage() {
           </div>
           <p className="max-w-3xl">{F.focus}</p>
           <details className="mt-5 border-t border-line py-3"><summary>Explore the core values in practice</summary>
-          <div className="mt-4 overflow-x-auto rounded border border-line bg-white">
+          <div tabIndex={0} className="mt-4 overflow-x-auto rounded border border-line bg-white">
             <table className="data w-full min-w-[40rem] text-sm">
               <thead><tr><th scope="col">Core value</th><th scope="col">Strategic meaning</th><th scope="col">In practice</th></tr></thead>
               <tbody>{F.values.map((v) => <tr key={v.value} className="align-top"><th scope="row" className="font-semibold">{v.value}</th><td>{v.meaning}</td><td>{v.practice}</td></tr>)}</tbody>
@@ -152,7 +152,7 @@ export default function EquityFrameworkPage() {
           <H2 id="mapping">Every part of the program on the spine</H2>
           <p className="max-w-3xl">The program’s thirteen functions,¹¹ each with its main page, mapped to the pillars they serve. Owner-only functions appear here so nothing sits outside the framework.</p>
           <details className="mt-5 border-t border-line py-3"><summary>Explore the program function map</summary>
-          <div className="mt-4 overflow-x-auto rounded border border-line bg-white">
+          <div tabIndex={0} className="mt-4 overflow-x-auto rounded border border-line bg-white">
             <table className="data w-full min-w-[48rem] text-sm">
               <thead><tr><th scope="col">Program function</th><th scope="col">Purpose</th><th scope="col">Main page</th><th scope="col">Pillars served</th></tr></thead>
               <tbody>{programFunctions.map((fn) => (
@@ -172,14 +172,14 @@ export default function EquityFrameworkPage() {
           <H2 id="measures">How progress is measured</H2>
           <p className="max-w-3xl">Accountability uses leading, intermediate and lagging indicators so activity is never mistaken for outcome. In this program every count is aggregate and voluntary; the register and dashboard report tool use by quarter and administration and survey results for the department as a whole.</p>
           <details className="mt-5 border-t border-line py-3"><summary>Explore the measurement framework</summary>
-          <div className="mt-4 overflow-x-auto rounded border border-line bg-white">
+          <div tabIndex={0} className="mt-4 overflow-x-auto rounded border border-line bg-white">
             <table className="data w-full min-w-[40rem] text-sm">
               <thead><tr><th scope="col">Measure type</th><th scope="col">Purpose</th><th scope="col">Examples</th></tr></thead>
               <tbody>{F.indicatorTypes.map((t) => <tr key={t.type} className="align-top"><th scope="row" className="whitespace-nowrap font-semibold">{t.type}</th><td>{t.purpose}</td><td>{t.examples}</td></tr>)}</tbody>
             </table>
           </div>
           <h3 className="mt-8 text-xl font-bold">Measurement framework by domain¹⁰</h3>
-          <div className="mt-3 overflow-x-auto rounded border border-line bg-white">
+          <div tabIndex={0} className="mt-3 overflow-x-auto rounded border border-line bg-white">
             <table className="data w-full min-w-[44rem] text-sm">
               <thead><tr><th scope="col">Domain</th><th scope="col">Example leading indicators</th><th scope="col">Example outcome indicators</th></tr></thead>
               <tbody>{F.measurementDomains.map(([d, l, o]) => <tr key={d} className="align-top"><th scope="row" className="font-semibold">{d}</th><td>{l}</td><td>{o}</td></tr>)}</tbody>
@@ -217,7 +217,7 @@ export default function EquityFrameworkPage() {
         <section aria-labelledby="tools" className="mt-14">
           <H2 id="tools">Resource and tool suite</H2>
           <p className="max-w-3xl">Build a small, integrated toolkit first rather than a large library of disconnected documents. The status column says honestly what this program offers today; nothing here is a promise of what will be built or when.</p>
-          <div className="mt-4 overflow-x-auto rounded border border-line bg-white">
+          <div tabIndex={0} className="mt-4 overflow-x-auto rounded border border-line bg-white">
             <table className="data w-full min-w-[60rem] text-sm">
               <thead><tr><th scope="col">Tool or resource</th><th scope="col">Primary users</th><th scope="col">What it does</th><th scope="col">Format</th><th scope="col">In this program</th></tr></thead>
               <tbody>{F.coreTools.map((t) => (
@@ -271,7 +271,7 @@ export default function EquityFrameworkPage() {
           </details>
           <details className="card mt-3"><summary className="cursor-pointer text-lg font-bold">Learning and development toolkit</summary>
             <p>Learning builds competencies people can apply in real work.⁹ The program’s <Link href="/learn">learning and resources</Link>, <Link href="/learn/intercultural">intercultural pathway</Link> and <Link href="/courses">courses</Link> carry the three levels.</p>
-            <div className="overflow-x-auto"><table className="data w-full min-w-[44rem] text-sm"><thead><tr><th scope="col">Level</th><th scope="col">Audience</th><th scope="col">Purpose</th><th scope="col">Suggested topics</th></tr></thead><tbody>{F.learningLevels.map(([l, a, p, t]) => <tr key={l} className="align-top"><th scope="row" className="font-semibold">{l}</th><td>{a}</td><td>{p}</td><td>{t}</td></tr>)}</tbody></table></div>
+            <div tabIndex={0} className="overflow-x-auto"><table className="data w-full min-w-[44rem] text-sm"><thead><tr><th scope="col">Level</th><th scope="col">Audience</th><th scope="col">Purpose</th><th scope="col">Suggested topics</th></tr></thead><tbody>{F.learningLevels.map(([l, a, p, t]) => <tr key={l} className="align-top"><th scope="row" className="font-semibold">{l}</th><td>{a}</td><td>{p}</td><td>{t}</td></tr>)}</tbody></table></div>
             <div className="mt-4 grid gap-6 md:grid-cols-2"><div className="min-w-0"><h4 className="m-0 text-base font-bold">Evaluation model</h4><Pairs head={["Part", "Question"]} rows={F.learningEvaluation} /></div><div className="min-w-0"><h4 className="m-0 text-base font-bold">Post-learning application questions</h4><Bullets items={F.applicationQuestions} /></div></div>
           </details>
           <details className="card mt-3"><summary className="cursor-pointer text-lg font-bold">Culture and inclusion survey</summary>
@@ -287,7 +287,7 @@ export default function EquityFrameworkPage() {
 
           <h3 className="mt-10 text-2xl font-bold">Digital tools and professional safeguards</h3>
           <p className="max-w-3xl">{F.digitalToolsRule}</p>
-          <div className="overflow-x-auto rounded border border-line bg-white">
+          <div tabIndex={0} className="overflow-x-auto rounded border border-line bg-white">
             <table className="data w-full min-w-[44rem] text-sm">
               <thead><tr><th scope="col">Digital tool</th><th scope="col">Use</th><th scope="col">Who checks it</th></tr></thead>
               <tbody>{F.digitalTools.map(([t, u, s]) => <tr key={t} className="align-top"><th scope="row" className="font-semibold">{t}</th><td>{u}</td><td>{s}</td></tr>)}</tbody>

@@ -54,7 +54,7 @@ export default async function DomainPage({ params, searchParams }: Props) {
     <div className={`wrap space-y-8 py-8 ${styles.domainBody}`}>
       <Link href="/areas">{stringValue(copy,"backLabel")}</Link>
       <WorkOriginLinks origin={origin} domainAvailable={surface.available} />
-      {source.id === "leadership-systems" && <section className="rounded-xl bg-[#faf3e8] p-6"><h2 className="text-2xl font-semibold">DEIA leadership and growth in DSD</h2><p className="my-4 leading-7">Find a starting point as an aspiring or current leader. Build a development map and connect DEIA learning with DSD practice, feedback, and succession.</p><Link href="/one-dsd/leadership">Explore the One DSD leadership experience →</Link></section>}
+      {source.id === "leadership-systems" && <section className="rounded-xl bg-[#faf3e8] p-6"><h2 className="text-2xl font-semibold">Equity leadership and growth in DSD</h2><p className="my-4 leading-7">Find a starting point as an aspiring or current leader. Build a development map and connect equity learning with DSD practice, feedback, and succession.</p><Link href="/one-dsd/leadership">Explore the One DSD leadership experience →</Link></section>}
       <div className={styles.goalTags}>{domain.goals.map(goal => <span key={goal}>{goal}</span>)}</div>
       <section aria-labelledby="work-tasks-title"><h2 id="work-tasks-title" className="text-3xl font-extrabold">{stringValue(copy,"tasksTitle")}</h2><div className="mt-6 space-y-8">{domain.tasks.map(task => {
         const path = task.pathId ? publications.get(`graduation-path.${task.pathId}`) : undefined;

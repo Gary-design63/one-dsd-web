@@ -1,0 +1,35 @@
+/* The current One DSD toolkit's restrained reading surfaces and palette. */
+:root { --blue:#183247; --blue-dark:#183247; --blue-mid:#176B65; --color-panel:#F0ECE2; --color-line:#d8ded8; --color-ink:#182c3a; --color-muted:#405766; }
+html { background:#fff; }
+body { background:#fff; color:#182c3a; }
+.learning-family-module__AKfwzq__page { background:#fff; }
+.learning-family-module__AKfwzq__readingPage > header { max-width:none; padding:2rem 0 2.5rem; border-bottom:1px solid #d9e0e4; }
+.learning-family-module__AKfwzq__readingPage > header h1 { max-width:23ch; color:#183247; font-size:clamp(2.2rem,4vw,3.6rem); font-weight:600; letter-spacing:-.035em; line-height:1.14; text-wrap:balance; }
+.learning-family-module__AKfwzq__readingPage > header p { max-width:70ch; color:#405766; line-height:1.8; }
+.learning-family-module__AKfwzq__readingPage > header.learning-family-module__AKfwzq__heroPhoto { display:grid; grid-template-columns:minmax(0,1.15fr) minmax(0,1fr); gap:clamp(1.5rem,3vw,3rem); align-items:start; }
+.learning-family-module__AKfwzq__heroCover { position:relative; min-width:0; aspect-ratio:4/3; overflow:hidden; border-radius:1rem; background:#f7f5f0; }
+.learning-family-module__AKfwzq__heroCover img { width:100%; height:100%; object-fit:cover; }
+.learning-family-module__AKfwzq__readingPage > section { background:#fff; padding:clamp(1.25rem,3vw,2rem); border:1px solid #d8ded8; border-radius:.75rem; box-shadow:0 3px 12px rgb(24 47 65 / 5%); }
+.learning-family-module__AKfwzq__readingPage > section:nth-of-type(even) { background:#f5f8fa; }
+.eat-mandate { background:#F0ECE2!important; border:1px solid #a9b2b7!important; border-top:1px solid #a9b2b7!important; box-shadow:0 3px 0 #e4dfd3!important; }
+.eat-card,.eat-index-card,.eat-entry { background:#fff; border:1px solid #c6cfd3; border-top:1px solid #c6cfd3; border-radius:.4rem; }
+.eat-index-card:hover,.eat-index-card:focus-visible { border-color:#176B65; background:#F7F5EF; }
+.eat-card h3,.eat-index-card h3,.eat-entry-q,.eat-eyebrow { color:#183247; }
+.eat-quote,.eat-cross,.eat-door--soft { background:#F7F5EF; border-left-color:#176B65; }
+.eat-fold { background:#fff; border:1px solid #c6cfd3; border-radius:.35rem; }
+.eat-fold[open] { border-top-color:#176B65; }
+.eat-fold > summary:hover { background:#F7F5EF; }
+a { color:#176B65; }
+a:focus-visible,button:focus-visible,summary:focus-visible,input:focus-visible,textarea:focus-visible { outline:3px solid #183247; outline-offset:3px; }
+.btn--primary { background:#176B65; border-color:#176B65; color:#fff; }
+.btn--primary:hover { background:#125953; }
+@media(max-width:760px){.learning-family-module__AKfwzq__readingPage > header.learning-family-module__AKfwzq__heroPhoto{grid-template-columns:minmax(0,1fr)}.learning-family-module__AKfwzq__heroCover{aspect-ratio:16/9}}
+
+/* Keyboard navigation and readable landmarks across the standalone pages. */
+.eat-skip-link { position:absolute; z-index:1000; top:.75rem; left:.75rem; padding:.7rem 1rem; transform:translateY(-200%); background:#fff; color:#183247; border:2px solid #183247; border-radius:.35rem; font-weight:700; }
+.eat-skip-link:focus { transform:none; }
+#main:focus { outline:3px solid #183247; outline-offset:4px; }
+.eat-section-heading { max-width:52rem; margin:1.75rem 0 .75rem; color:#183247; font-size:clamp(1.35rem,2vw,1.65rem); line-height:1.3; font-weight:600; }
+.eat-fold > summary { min-height:2.75rem; }
+.eat-eyebrow,.eat-shared-marker,.eat-foot { font-size:.875rem; }
+@media (prefers-reduced-motion:reduce) { .eat-skip-link { transition:none; } }

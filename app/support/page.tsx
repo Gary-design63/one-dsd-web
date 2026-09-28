@@ -43,10 +43,10 @@ export default async function SupportPage() {
         </div>
         </aside>
         </div>
-        <section className={styles.resultInvitation}>
-          <h2>Browse published support</h2>
+        <details className={styles.resultInvitation}>
+          <summary className="cursor-pointer font-semibold">About support and requests</summary>
           <p>Staff pages do not collect results or consultation requests. Use the Library, Ask topic cards, or Find the right person.</p>
-        </section>
+        </details>
       </div>
     </EditableSurfaceRegion>
   );

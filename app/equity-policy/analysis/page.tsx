@@ -4,18 +4,17 @@ import { Notice, PageIntro } from "@/components/ui";
 
 export const metadata: Metadata = {
   title: "Equity Analysis Toolkit",
-  description: "Walk a published decision in Toolkit Studio. Staff pages do not collect typed analyses.",
+  description: "Practice the equity analysis questions with a published example.",
 };
 
 /** F-02: staff analysis writes are fail-closed. The walkthrough form is not shown. */
 export default function EquityAnalysisPage() {
   return (
     <>
-      <PageIntro kicker="Browse and download only" title="Walk the toolkit" lede="Staff pages do not collect typed analyses or add them to a program record." />
+      <PageIntro kicker="Equity Policy" title="Practice with the toolkit" lede="Use a published example to explore the equity analysis questions before applying the official toolkit to your own work." />
       <div className="wrap max-w-3xl space-y-6 py-8">
         <Notice>
-          <strong>The fill-and-save walkthrough is closed. </strong>
-          Use Toolkit Studio to walk the eight companion practice questions on a published example and download the pack.
+          This practice does not submit an official equity analysis. Use Toolkit Studio to try the eight questions with a published example and download a copy.
         </Notice>
         <p><Link href="/toolkit-studio" className="btn btn--primary">Open Toolkit Studio</Link></p>
       </div>

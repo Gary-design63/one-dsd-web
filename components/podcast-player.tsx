@@ -100,7 +100,7 @@ export function PodcastPlayer({ headingLevel = 3, ownPage = false, id, src, titl
     try { await audio.play(); } catch { setFailed(true); }
   }
 
-  return <section id={`podcast-${id}`} className="space-y-3 border-t border-line pt-6 print:hidden" aria-labelledby={titleId}>
+  return <section id={`podcast-${id}`} className={ownPage ? "space-y-3 print:hidden" : "space-y-3 border-t border-line pt-6 print:hidden"} aria-labelledby={titleId}>
     <Heading id={titleId} className={headingLevel === 1 ? "text-4xl font-semibold" : "text-2xl font-semibold"}>{title}</Heading>
     <p id={detailsId}>{intro}</p>
     <audio id={playerId} ref={player} src={src} controls preload="none" className="w-full max-w-2xl" aria-labelledby={titleId} aria-describedby={`${detailsId}${failed ? ` ${errorId}` : ""}`} onLoadedMetadata={applyPendingSeek} onError={() => setFailed(true)} onCanPlay={() => { if (pendingSeek.current === null) setFailed(false); }}>
@@ -120,7 +120,6 @@ export function PodcastPlayer({ headingLevel = 3, ownPage = false, id, src, titl
       </li>)}</ol>
     </nav> : null}
     {transcript?.segments.length || transcriptUrl ? <div className="rounded-xl border border-line p-4">
-      <p className="text-sm leading-6">{reading?.status === "reviewed" ? "Transcript reviewed against the recording." : "This transcript has not been checked word for word against the recording. Listen to the recording before quoting it."}</p>
       <details className="mt-3" onToggle={event => { if (event.currentTarget.open) void loadTranscript(); }}>
         <summary className="cursor-pointer font-semibold">Read the complete transcript</summary>
         <p className="mt-3 text-sm leading-6">Read at your own pace. Each time stamp starts the recording at that passage. The text stays here even if the recording will not play.</p>

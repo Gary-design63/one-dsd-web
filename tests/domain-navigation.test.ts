@@ -62,8 +62,8 @@ it("combines query, format, source and task filters without dropping them on sea
   for (const match of html.matchAll(/<a[^>]*href="(\/library\?[^"#]+)"[^>]*>/g)) {
     const query=new URL("http://local"+match[1].replaceAll("&amp;","&"));
     expect(query.searchParams.get("q")).toBe(input.q);
-    const removesArea=match[0].includes('aria-label="Remove area filter"');
-    const removesTask=match[0].includes('aria-label="Remove task filter"');
+    const removesArea=match[0].includes('aria-label="Remove Workforce equity and the employee lifecycle filter"');
+    const removesTask=match[0].includes('aria-label="Remove Design a role and its qualifications filter"');
     if (query.searchParams.has("type") || query.searchParams.has("authority")) {
       expect(query.searchParams.get("area")).toBe(removesArea?null:input.area);
       expect(query.searchParams.get("task")).toBe(removesArea||removesTask?null:input.task);

@@ -26,7 +26,7 @@ describe("DSD development pathways",()=>{
  });
  it("builds the selected capability and after-practice learning into the map",()=>{
   render(<LeadershipDevelopmentStudio />);fillRequired();
-  fireEvent.change(screen.getByRole("combobox",{name:"A DEIA capability to focus on"}),{target:{value:"continuity"}});
+  fireEvent.change(screen.getByRole("combobox",{name:"An equity capability to focus on"}),{target:{value:"continuity"}});
   fireEvent.change(screen.getByLabelText("What changed in your understanding?"),{target:{value:"The handover missed how exceptions are handled."}});
   fireEvent.click(screen.getByRole("button",{name:"Create my development map"}));
   const text=screen.getByText(/My DSD leadership development map/).textContent;

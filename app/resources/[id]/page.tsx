@@ -143,7 +143,7 @@ export default async function ResourcePage({ params, searchParams }: { params: P
             </p>
           </div>
         </div>
-        {related.length ? <section className="my-6 border-t border-line pt-5" aria-labelledby="related-reading"><h2 id="related-reading" className="text-xl font-bold">Related reading</h2><ul className="mt-3 space-y-2">{related.map(item=><li key={item.id}><Link href={withWorkOrigin("/library/"+encodeURIComponent(item.id),origin)}>{item.title}</Link></li>)}</ul></section> : null}
+        {related.length ? <section className="my-6 border-t border-line pt-5" aria-label="Related reading"><details className={styles.relatedReading}><summary>Related reading ({related.length})</summary><ul className="mt-3 space-y-2">{related.map(item=><li key={item.id}><Link href={withWorkOrigin("/library/"+encodeURIComponent(item.id),origin)}>{item.title}</Link></li>)}</ul></details></section> : null}
         {relatedUnavailable ? <p role="status">Related reading is temporarily unavailable. You can continue exploring the Library.</p> : null}
         <ResourceEvidence resourceType={["corpus_item","domain_corpus_item"]} resourceId={c.id} />
         <LearningJourneyLink scope={scope} resourceId={c.id} />

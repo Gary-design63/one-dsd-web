@@ -17,7 +17,7 @@ const paths=[
 ["Help shape practical change","Learn alongside the One DSD Team and contribute to equity work across the division in ways that fit your capacity.","/one-dsd/team","Meet the One DSD Team"],
 ["Find community and shared perspective","Explore DHS employee resource groups and the separate statewide network, with links to their own information.","/employee-resource-groups","Explore employee resource groups"],
 ["Learn about Minnesota communities","Explore community perspectives and context that can inform relationships, engagement, and service decisions.","/minnesota-communities","Explore Minnesota Communities"],
-["Grow your leadership practice","Find your starting point as an aspiring or current leader, build a development map, and explore DEIA across the employee life cycle.","/one-dsd/leadership","Explore DSD leadership"],
+["Grow your leadership practice","Find your starting point as an aspiring or current leader, build a development map, and explore equity across the employee life cycle.","/one-dsd/leadership","Explore DSD leadership"],
 ["Bring your questions","Browse published answers and download a receipt, PDF, or checklist. Staff pages do not accept typed questions.","/ask","Browse common questions"],
 ["Find the right support","Connect with professional support when a conversation or additional help would be useful.","/support","Explore support"]];
 function renderPath([title,body,href,label]: string[]) { return <article key={href} className={styles.orientationItem}><h3 className="text-2xl font-semibold">{title}</h3><p className="my-4 leading-7">{body}</p><Link className="font-semibold" href={href}>{label} →</Link></article>; }

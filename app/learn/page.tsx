@@ -1,5 +1,6 @@
 import styles from "./learning-family.module.css";
 import { EquityGoalOverview } from "@/components/equity-goal-overview";
+import { EquityPracticeOverview } from "@/components/equity-practice-overview";
 import { DevelopmentPathways } from "@/components/development-pathways";
 import preview from "./learning-preview.module.css";
 import { getLearningJourney } from "@/lib/content/learning-journey";
@@ -99,7 +100,7 @@ export default async function LearnPage({ searchParams }: { searchParams?: Promi
         </div>
       </header>
       <div className={styles.content}>
-        {!filtered ? <><EquityGoalOverview /><DevelopmentPathways compact /></> : null}
+        {!filtered ? <>{scope === "dsd" ? <EquityGoalOverview /> : <EquityPracticeOverview />}<DevelopmentPathways compact /></> : null}
         {!filtered ? <section id="start-here" className={preview.startHere} aria-labelledby="start-title">
           <p className={styles.eyebrow}>Recommended foundations</p>
           <h2 id="start-title">Start here</h2>
