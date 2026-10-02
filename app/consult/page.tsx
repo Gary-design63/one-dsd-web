@@ -35,7 +35,7 @@ export default function ConsultPage() {
               </div>
               <div className={consult.asideBlock}>
                 <h3>Already sent a request?</h3>
-                <p>Open the private link in your confirmation email. If you cannot find it, the consultant can send it to you again.</p>
+                <p>Open the private link you saved after sending your request. If you cannot find it, the consultant can provide it again.</p>
               </div>
             </aside>
           </div>

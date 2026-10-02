@@ -38,7 +38,7 @@ export async function POST(request: NextRequest) {
   const sees = person.role === "deputy_director" || person.role === "division_director"
     ? "the requests for help across the Division and where each one stands"
     : "the requests for help from your team and where each one stands";
-  await store.addNotice({
+  const notice = await store.addNotice({
     requestId: null,
     toEmail: person.email,
     subject: `Your private ${CONSULT_NAME} link`,
@@ -49,6 +49,6 @@ export async function POST(request: NextRequest) {
       "Please keep it to yourself. If it is ever shared by mistake, ask the consultant for a new one, and the old link will stop working.",
     ].join("\n\n"),
   });
-  const delivery = await sendWaitingNotices(store).catch(() => ({ configured: false }));
-  return NextResponse.json({ ok: true, emailed: delivery.configured, link }, { headers: NO_STORE });
+  const delivery = await sendWaitingNotices(store).catch(() => ({ sentNoticeIds: [] as number[] }));
+  return NextResponse.json({ ok: true, emailed: delivery.sentNoticeIds.includes(notice.id), link }, { headers: NO_STORE });
 }

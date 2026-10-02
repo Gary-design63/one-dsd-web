@@ -2,7 +2,7 @@ import "server-only";
 
 import type { ConsultStore } from "./store";
 
-export type DeliveryResult = { attempted: number; sent: number; failed: number; configured: boolean };
+export type DeliveryResult = { attempted: number; sent: number; failed: number; configured: boolean; sentNoticeIds: number[] };
 
 export function emailConfigured(): boolean {
   return Boolean(process.env.RESEND_API_KEY?.trim() && process.env.CONSULT_FROM_EMAIL?.trim());
@@ -48,17 +48,18 @@ export function renderNoticeHtml(subject: string, body: string): string {
 export async function sendWaitingNotices(store: ConsultStore, limit = 25): Promise<DeliveryResult> {
   const configured = emailConfigured();
   const pending = await store.listUnsentNotices(limit);
-  if (!configured) return { attempted: 0, sent: 0, failed: 0, configured };
+  if (!configured) return { attempted: 0, sent: 0, failed: 0, configured, sentNoticeIds: [] };
   const key = process.env.RESEND_API_KEY!.trim();
   const from = process.env.CONSULT_FROM_EMAIL!.trim();
   const replyTo = process.env.CONSULT_NOTIFY_EMAIL?.trim();
   let sent = 0;
   let failed = 0;
+  const sentNoticeIds: number[] = [];
   for (const notice of pending) {
     try {
       const response = await fetch("https://api.resend.com/emails", {
         method: "POST",
-        headers: { authorization: `Bearer ${key}`, "content-type": "application/json" },
+        headers: { authorization: `Bearer ${key}`, "content-type": "application/json", "idempotency-key": `one-dsd-consult/notice/${notice.id}` },
         body: JSON.stringify({
           from,
           to: [notice.toEmail],
@@ -72,6 +73,7 @@ export async function sendWaitingNotices(store: ConsultStore, limit = 25): Promi
       if (response.ok) {
         await store.markNotice(notice.id, { sent: true });
         sent += 1;
+        sentNoticeIds.push(notice.id);
       } else {
         await store.markNotice(notice.id, { sent: false, error: `Email service answered ${response.status}` });
         failed += 1;
@@ -81,5 +83,5 @@ export async function sendWaitingNotices(store: ConsultStore, limit = 25): Promi
       failed += 1;
     }
   }
-  return { attempted: pending.length, sent, failed, configured };
+  return { attempted: pending.length, sent, failed, configured, sentNoticeIds };
 }

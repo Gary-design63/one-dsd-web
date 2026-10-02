@@ -64,7 +64,7 @@ export async function leaderLinkFor(store: ConsultStore, email: string, displayN
 }
 
 export type SubmitResult =
-  | { ok: true; request: ConsultRequest; link: string; delivery: { configured: boolean } }
+  | { ok: true; request: ConsultRequest; link: string; delivery: { configured: boolean; requesterNotified: boolean } }
   | { ok: false; reason: "private_identifier" | "redirect_notice"; message: string };
 
 export async function submitRequest(input: CreateRequestInput): Promise<SubmitResult> {
@@ -99,7 +99,7 @@ export async function submitRequest(input: CreateRequestInput): Promise<SubmitRe
   const link = requesterLink(request.id);
   const due = new Date(request.acknowledgmentDueAt).toLocaleDateString("en-US", { timeZone: "America/Chicago", weekday: "long", month: "long", day: "numeric" });
   const unit = request.requesterUnit ? ` (${request.requesterUnit})` : "";
-  await store.addNotice({
+  const requesterNotice = await store.addNotice({
     requestId: request.id,
     toEmail: request.requesterEmail,
     subject: `Your ${CONSULT_NAME} request has been received`,
@@ -144,8 +144,8 @@ export async function submitRequest(input: CreateRequestInput): Promise<SubmitRe
       ].join("\n\n"),
     });
   }
-  const delivery = await sendWaitingNotices(store).catch(() => ({ configured: false }));
-  return { ok: true, request, link, delivery: { configured: delivery.configured } };
+  const delivery = await sendWaitingNotices(store).catch(() => ({ configured: false, sentNoticeIds: [] as number[] }));
+  return { ok: true, request, link, delivery: { configured: delivery.configured, requesterNotified: delivery.sentNoticeIds.includes(requesterNotice.id) } };
 }
 
 /* ------------------------------ consultant actions ------------------------------ */
@@ -256,7 +256,7 @@ export async function resendRequesterLink(id: string): Promise<{ ok: true; email
   const request = await store.getRequest(id);
   if (!request) return { ok: false, message: "That request could not be found." };
   const link = requesterLink(request.id);
-  await store.addNotice({
+  const notice = await store.addNotice({
     requestId: request.id,
     toEmail: request.requesterEmail,
     subject: `Your private ${CONSULT_NAME} link`,
@@ -267,8 +267,8 @@ export async function resendRequesterLink(id: string): Promise<{ ok: true; email
       "Please keep the link to yourself, since anyone who has it can see your request.",
     ].join("\n\n"),
   });
-  const delivery = await sendWaitingNotices(store).catch(() => ({ configured: false }));
-  return { ok: true, emailed: delivery.configured, link };
+  const delivery = await sendWaitingNotices(store).catch(() => ({ sentNoticeIds: [] as number[] }));
+  return { ok: true, emailed: delivery.sentNoticeIds.includes(notice.id), link };
 }
 
 /* ----------------------------------- requester ---------------------------------- */

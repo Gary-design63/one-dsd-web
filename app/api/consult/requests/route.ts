@@ -29,7 +29,7 @@ export async function POST(request: NextRequest) {
   try {
     const result = await submitRequest(parsed.data);
     if (!result.ok) return NextResponse.json({ error: result.message, reason: result.reason }, { status: 422, headers: NO_STORE });
-    return NextResponse.json({ id: result.request.id, link: result.link, dueAt: result.request.acknowledgmentDueAt, emailConfigured: result.delivery.configured }, { status: 201, headers: NO_STORE });
+    return NextResponse.json({ id: result.request.id, link: result.link, dueAt: result.request.acknowledgmentDueAt, emailConfigured: result.delivery.requesterNotified }, { status: 201, headers: NO_STORE });
   } catch (error) {
     console.error("consult submit failed", error instanceof Error ? error.message : "unknown");
     return NextResponse.json({ error: "Your request could not be saved right now, and nothing was sent. Please try again in a few minutes." }, { status: 503, headers: NO_STORE });

@@ -20,6 +20,7 @@ import { PATCH as updateRoute } from "@/app/api/consultant/consult/[id]/route";
 import { POST as linkRoute } from "@/app/api/consultant/consult/[id]/link/route";
 import { issueSessionCookieValue, OWNER_COOKIE } from "@/lib/auth/owner";
 import { resetStoreForTests } from "@/lib/intelligence/memory/store";
+import { sendWaitingNotices } from "@/lib/consult/email";
 
 const BASE: CreateRequestInput = CreateRequestSchema.parse({
   requesterName: "Pat Rivera",
@@ -45,6 +46,31 @@ beforeEach(() => {
 
 afterEach(() => {
   vi.unstubAllEnvs();
+  vi.unstubAllGlobals();
+});
+
+describe("email delivery receipts", () => {
+  it("keeps the private link available when a configured email service fails", async () => {
+    vi.stubEnv("RESEND_API_KEY", "test-key-no-outbound-email");
+    vi.stubEnv("CONSULT_FROM_EMAIL", "consult@example.invalid");
+    vi.stubGlobal("fetch", vi.fn(async () => new Response(null, { status: 503 })));
+    const submitted = await submitRequest(BASE);
+    expect(submitted).toMatchObject({ ok: true, delivery: { configured: true, requesterNotified: false } });
+    if (!submitted.ok) throw new Error("expected saved request");
+    expect(await resendRequesterLink(submitted.request.id)).toMatchObject({ ok: true, emailed: false, link: submitted.link });
+  });
+
+  it("confirms the specific delivered notice and retries with the same idempotency key", async () => {
+    vi.stubEnv("RESEND_API_KEY", "test-key-no-outbound-email");
+    vi.stubEnv("CONSULT_FROM_EMAIL", "consult@example.invalid");
+    const fakeFetch = vi.fn().mockResolvedValueOnce(new Response(null, { status: 503 })).mockResolvedValueOnce(new Response(null, { status: 200 }));
+    vi.stubGlobal("fetch", fakeFetch);
+    const store = getConsultStore();
+    const notice = await store.addNotice({ requestId: null, toEmail: "test@example.invalid", subject: "Test only", body: "No outgoing message" });
+    expect((await sendWaitingNotices(store)).sentNoticeIds).toEqual([]);
+    expect((await sendWaitingNotices(store)).sentNoticeIds).toEqual([notice.id]);
+    expect(fakeFetch.mock.calls[0][1].headers["idempotency-key"]).toBe(fakeFetch.mock.calls[1][1].headers["idempotency-key"]);
+  });
 });
 
 describe("business days", () => {
