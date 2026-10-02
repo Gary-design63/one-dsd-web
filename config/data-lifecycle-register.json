@@ -865,6 +865,32 @@
       "end_of_program": {
         "rule": "Retain or dispose of preparation evidence under the final recovery and records disposition; no automated release of restored authority is implied."
       }
+    },
+    "consult_queue_record": {
+      "retention": {
+        "rule": "Requests, history and notices are kept as the consultant's accountability record until the program owner approves a retention period. CONSULT retention is not set by default; no automatic expiry applies. An approved period must be recorded here before it takes effect."
+      },
+      "deletion": {
+        "rule": "Owner-directed deletion only, performed by the migration owner with a content-free receipt of the request number and date. A requester can withdraw a request, which closes it but keeps the history. Notice bodies contain private links and are deleted with their request."
+      },
+      "correction": {
+        "rule": "A requester withdraws and resubmits. The consultant corrects status, owner, referral and outcome through the append-only history; earlier entries are never edited."
+      },
+      "backup": {
+        "rule": "Include only in encrypted, environment-specific database backups with restricted recovery roles and a documented backup-expiry schedule."
+      },
+      "restore": {
+        "rule": "Restore only into an isolated environment and rotate CONSULT_LINK_SECRET if any private link may have been exposed, which invalidates every outstanding link."
+      },
+      "incident": {
+        "rule": "Rotate CONSULT_LINK_SECRET, which invalidates all private links, restrict database access, identify affected requests and notify the Division Director and the requesters affected."
+      },
+      "recovery": {
+        "rule": "Restore a verified backup, apply migrations through 0059, reconcile request numbers and history counts, then reissue private links."
+      },
+      "end_of_program": {
+        "rule": "Stop accepting requests, export the record for the owner, then delete under the owner's direction and let encrypted backups expire on the recorded schedule."
+      }
     }
   },
   "database_classes": [
@@ -1560,6 +1586,27 @@
       "purpose": "Uploaded media (images, audio, video, documents) attached to a resource by the owner, and the stored binary content backing each upload.",
       "status": "defined",
       "source": "db/migrations/0051_pac_consultant_media_and_new_resources.sql, 0053_pac_resource_media_audio.sql, and 0054_pac_resource_media_script.sql"
+    },
+    {
+      "id": "db.consult_queue",
+      "physical_members": [
+        "pac.consult_events",
+        "pac.consult_notices",
+        "pac.consult_people",
+        "pac.consult_requests"
+      ],
+      "profile": "consult_queue_record",
+      "sensitivity_classes": [
+        "S2",
+        "S3"
+      ],
+      "participation_classes": [
+        "voluntary_shared"
+      ],
+      "official_record": false,
+      "purpose": "One DSD Consult: the consultant request queue. Names and work email of the requester, their supervisor and manager so leaders can follow the request, a general description of the work, status and owner history, outcomes, and the email notices sent. Access links are stored only as SHA-256 hashes. Supervisors, managers and directors see names, titles and status, never the description. No case, medical or personnel detail is requested.",
+      "status": "defined",
+      "source": "db/migrations/0059_pac_one_dsd_consult.sql, lib/consult/, and app/api/consult/"
     }
   ],
   "runtime_work_object_subtypes": [

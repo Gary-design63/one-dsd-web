@@ -69,6 +69,7 @@ export default async function ConsultantLayout({ children }: { children: React.R
           <nav aria-label="Consultant Workspace" className="flex flex-wrap gap-4">
             <Link href="/consultant/program" className="font-bold text-white">Program work</Link>
             <Link href="/consultant/workforce" className="font-bold text-white">Workforce map</Link>
+            <Link href="/consultant/consult" className="font-bold text-white">One DSD Consult</Link>
             <Link href="/consultant" className="font-bold text-white">
               Queue
             </Link>

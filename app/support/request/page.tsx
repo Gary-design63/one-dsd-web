@@ -1,20 +1,14 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { Notice, PageIntro } from "@/components/ui";
+import { redirect } from "next/navigation";
+import { PageIntro } from "@/components/ui";
 import { OneDsdContextPanel, ProgramContextNote } from "@/components/program-context";
-import { PROGRAM, ROUTES } from "@/lib/constants";
+import { ROUTES } from "@/lib/constants";
 import { requestedProductContext } from "@/lib/product/request-context";
 import { EditableSurfaceRegion, prepareEditableSurface } from "@/components/editable-surface";
 import { stringValue } from "@/lib/content/staff-surface-registry";
 
 export const metadata: Metadata = { title: ROUTES.requestConsult.label };
-
-const ALTERNATIVES = [
-  { href: ROUTES.ask.href, label: ROUTES.ask.label, note: "Browse published answers and download a copy." },
-  { href: ROUTES.library.href, label: ROUTES.library.label, note: "Find reviewed material for the work in front of you." },
-  { href: ROUTES.rightPerson.href, label: ROUTES.rightPerson.label, note: "Find the role or office that decides." },
-  { href: "/support/directory", label: "DHS offices and guidance", note: "Find the office or guidance that applies to your work." },
-];
 
 export default async function RequestPage() {
   const context = await requestedProductContext();
@@ -46,29 +40,5 @@ export default async function RequestPage() {
     );
   }
 
-  return (
-    <EditableSurfaceRegion surface={surface}>
-      <PageIntro
-        kicker="Browse and download only"
-        title={stringValue(copy, "openTitle")}
-        lede="Staff consultation request forms are closed. This page does not collect anything."
-      />
-      <div className="wrap max-w-3xl space-y-6 py-8">
-        <Notice>
-          <strong>Consultation requests are not accepted from staff. </strong>
-          There is no request form on this page. Nothing you prepare elsewhere is saved or sent from here. The {PROGRAM.practiceOwnerRole} keeps typed tools on authenticated consultant surfaces.
-        </Notice>
-        <section aria-labelledby="request-alternatives">
-          <h2 id="request-alternatives" className="text-xl font-bold">Where to go now</h2>
-          <ul className="mt-2 list-disc pl-6">
-            {ALTERNATIVES.map((item) => (
-              <li key={item.href}>
-                <Link href={item.href}>{item.label}</Link> <span>{item.note}</span>
-              </li>
-            ))}
-          </ul>
-        </section>
-      </div>
-    </EditableSurfaceRegion>
-  );
+  redirect(ROUTES.consult.href);
 }
