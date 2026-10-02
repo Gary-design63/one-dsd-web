@@ -183,7 +183,7 @@ describe("RG-3 route migration contract", () => {
     expect(requestPage).toContain("await requestedProductContext()");
     expect(requestPage).toContain('if (context !== "one_dsd")');
     expect(requestPage).not.toContain("<IntakeClient");
-    expect(requestPage).toContain("Consultation requests are not accepted from staff");
+    expect(requestPage).toContain("redirect(ROUTES.consult.href)"); // One DSD Consult now takes DSD requests
 
     const contextProvider = readFileSync(path.join(ROOT, "components", "program-context.tsx"), "utf8");
     expect(contextProvider).toContain("resolveProductContext(cookieValue)");

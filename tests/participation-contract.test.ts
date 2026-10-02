@@ -194,7 +194,7 @@ describe("staff participation contracts", () => {
 
     // The request page reads activation server-side and renders a closed state (no form)
     // until intake is ready; the form only ever carries the submission surface.
-    expect(requestPage).toContain("Consultation requests are not accepted from staff");
+    expect(requestPage).toContain("redirect(ROUTES.consult.href)");
     expect(requestPage).not.toContain("<IntakeClient");
     expect(requestPage).not.toContain("consultation_preview");
     expect(trackPage).toContain("consultationTrackingActivationStatus");

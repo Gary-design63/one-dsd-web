@@ -5,6 +5,7 @@ import { ProgramContextNote } from "@/components/program-context";
 import { SupportContextOptions } from "@/components/support-context-options";
 import { PageIntro } from "@/components/ui";
 import { ROUTES } from "@/lib/constants";
+import { requestedProductContext } from "@/lib/product/request-context";
 import { EditableSurfaceRegion, prepareEditableSurface } from "@/components/editable-surface";
 import { stringValue } from "@/lib/content/staff-surface-registry";
 
@@ -13,6 +14,7 @@ export const metadata: Metadata = { title: ROUTES.support.label };
 export default async function SupportPage() {
   const surface = await prepareEditableSurface("support.page");
   const copy = surface.values;
+  const context = await requestedProductContext();
   const doors = [ROUTES.ask.href, ROUTES.library.href, ROUTES.rightPerson.href, ROUTES.areas.href].map((href, index) => ({
     href,
     title: stringValue(copy, `door${index}Title`),
@@ -20,7 +22,9 @@ export default async function SupportPage() {
   }));
   return (
     <EditableSurfaceRegion surface={surface}>
-      <PageIntro kicker={stringValue(copy, "introKicker")} title={stringValue(copy, "introTitle")} lede="Work independently when that is enough, or connect with the person or office responsible for the decision. Staff consultation request forms are closed." />
+      <PageIntro kicker={stringValue(copy, "introKicker")} title={stringValue(copy, "introTitle")} lede={context === "one_dsd"
+        ? "Work independently when that is enough, ask the consultant for help through One DSD Consult, or connect with the person or office responsible for the decision."
+        : "Work independently when that is enough, or connect with the person or office responsible for the decision. Staff consultation request forms are closed."} />
       <div className="wrap space-y-8 py-8">
         <ProgramContextNote />
         <ul className={styles.supportDirectory}>
@@ -45,7 +49,7 @@ export default async function SupportPage() {
         </div>
         <details className={styles.resultInvitation}>
           <summary className="cursor-pointer font-semibold">About support and requests</summary>
-          <p>Staff pages do not collect results or consultation requests. Use the Library, Ask topic cards, or Find the right person.</p>
+          <p>For help applying equity to your work, <Link href={ROUTES.consult.href}>ask the consultant through One DSD Consult</Link>. You will hear back within two business days, and you can see where your request stands at any time. You can also use the Library, Ask topic cards, or Find the right person.</p>
         </details>
       </div>
     </EditableSurfaceRegion>

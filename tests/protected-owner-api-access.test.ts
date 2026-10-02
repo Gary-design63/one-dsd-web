@@ -64,6 +64,10 @@ import { GET as askRecordsGet, DELETE as askRecordsDelete } from "@/app/api/cons
 import { GET as researchGet, POST as researchPost } from "@/app/api/consultant/research/route";
 import { POST as reviewPost } from "@/app/api/consultant/review/route";
 import { PATCH as queuePatch } from "@/app/api/consultant/queue/[id]/route";
+import { PATCH as consultPatch } from "@/app/api/consultant/consult/[id]/route";
+import { POST as consultLinkPost } from "@/app/api/consultant/consult/[id]/link/route";
+import { POST as consultPeoplePost } from "@/app/api/consultant/consult/people/route";
+import { POST as consultDeliverPost } from "@/app/api/consultant/consult/deliver/route";
 import { GET as studioGet, POST as studioPost } from "@/app/api/consultant/studio/route";
 import { GET as studioAssetGet } from "@/app/api/consultant/studio/[id]/[kind]/route";
 import { issueSessionCookieValue, OWNER_COOKIE } from "@/lib/auth/owner";
@@ -119,6 +123,10 @@ const DIRECTLY_VERIFIED_ROUTES: Array<{
 // Exercise the thin Next route entry points too, without substituting their
 // authorization or origin checks. All calls reject before reaching a store.
 const DELEGATED_ACCESS_ROUTES: typeof DIRECTLY_VERIFIED_ROUTES = [
+  { id: "consult-update", method: "PATCH", pathname: "/api/consultant/consult/DC-20261001-0001", call: incoming => consultPatch(incoming, { params: Promise.resolve({ id: "DC-20261001-0001" }) }) },
+  { id: "consult-link", method: "POST", pathname: "/api/consultant/consult/DC-20261001-0001/link", call: incoming => consultLinkPost(incoming, { params: Promise.resolve({ id: "DC-20261001-0001" }) }) },
+  { id: "consult-people", method: "POST", pathname: "/api/consultant/consult/people", call: consultPeoplePost },
+  { id: "consult-deliver", method: "POST", pathname: "/api/consultant/consult/deliver", call: consultDeliverPost },
   { id: "content-read", method: "GET", pathname: "/api/consultant/content/about.page", call: incoming => contentGet(incoming, { params: Promise.resolve({ surfaceId: "about.page" }) }) },
   { id: "content-write", method: "POST", pathname: "/api/consultant/content/about.page", call: incoming => contentPost(incoming, { params: Promise.resolve({ surfaceId: "about.page" }) }) },
   { id: "page-copy", method: "POST", pathname: "/api/consultant/page-copy/home", call: incoming => pageCopyPost(incoming, { params: Promise.resolve({ surface: "home" }) }) },
@@ -142,6 +150,10 @@ const ROUTE_INVENTORY: Record<string, { methods: Method[]; access: "owner" | "au
   "app/api/consultant/orchestrator/route.ts": { methods: ["POST"], access: "owner", evidence: "tests/protected-owner-api-access.test.ts" },
   "app/api/consultant/page-copy/[surface]/route.ts": { methods: ["POST"], access: "owner", evidence: "tests/page-copy-api.test.ts" },
   "app/api/consultant/queue/[id]/route.ts": { methods: ["PATCH"], access: "owner", evidence: "tests/protected-owner-api-access.test.ts" },
+  "app/api/consultant/consult/[id]/route.ts": { methods: ["PATCH"], access: "owner", evidence: "tests/one-dsd-consult.test.ts" },
+  "app/api/consultant/consult/[id]/link/route.ts": { methods: ["POST"], access: "owner", evidence: "tests/one-dsd-consult.test.ts" },
+  "app/api/consultant/consult/people/route.ts": { methods: ["POST"], access: "owner", evidence: "tests/one-dsd-consult.test.ts" },
+  "app/api/consultant/consult/deliver/route.ts": { methods: ["POST"], access: "owner", evidence: "tests/one-dsd-consult.test.ts" },
   "app/api/consultant/research/route.ts": { methods: ["GET", "POST"], access: "owner", evidence: "tests/protected-owner-api-access.test.ts" },
   "app/api/consultant/resources/[id]/delete/route.ts": { methods: ["POST"], access: "owner", evidence: "tests/resource-inline-editing.test.ts" },
   "app/api/consultant/resources/[id]/draft/route.ts": { methods: ["PATCH"], access: "owner", evidence: "tests/resource-inline-editing.test.ts" },

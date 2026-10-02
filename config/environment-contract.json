@@ -804,6 +804,48 @@
       "surface": "offline_edition",
       "example": false,
       "required_when": "the offline launcher should keep its database and keys somewhere other than %LOCALAPPDATA%OneDHS-PAC-Offline"
+    },
+    {
+      "name": "CONSULT_LINK_SECRET",
+      "class": "server_secret",
+      "surface": "one_dsd_consult",
+      "example": true,
+      "required_when": "One DSD Consult is in use; at least 32 bytes; signs the private links for requesters and people who follow requests"
+    },
+    {
+      "name": "CONSULT_PUBLIC_URL",
+      "class": "configuration",
+      "surface": "one_dsd_consult",
+      "example": true,
+      "required_when": "optional; the public web address used in One DSD Consult email links; defaults to the Railway address"
+    },
+    {
+      "name": "CONSULT_CONSULTANT_NAME",
+      "class": "configuration",
+      "surface": "one_dsd_consult",
+      "example": true,
+      "required_when": "optional; the name shown as default owner of new requests"
+    },
+    {
+      "name": "CONSULT_NOTIFY_EMAIL",
+      "class": "configuration",
+      "surface": "one_dsd_consult",
+      "example": true,
+      "required_when": "optional; the consultant's own address for new-request and overdue notices"
+    },
+    {
+      "name": "CONSULT_FROM_EMAIL",
+      "class": "configuration",
+      "surface": "one_dsd_consult",
+      "example": true,
+      "required_when": "optional; the sender address for One DSD Consult email; email is sent only when this and RESEND_API_KEY are both set"
+    },
+    {
+      "name": "RESEND_API_KEY",
+      "class": "server_secret",
+      "surface": "one_dsd_consult",
+      "example": true,
+      "required_when": "optional; sends One DSD Consult notices through the owner's own Resend account; without it notices are recorded but not sent"
     }
   ],
   "forbidden_client_settings": [

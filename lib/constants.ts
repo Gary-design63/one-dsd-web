@@ -43,6 +43,7 @@ export const ROUTES = {
   oneDsd: { href: "/one-dsd", label: "One DSD" },
   support: { href: "/support", label: "Support" },
   rightPerson: { href: "/support/right-person", label: "Find the right person" },
+  consult: { href: "/consult", label: "One DSD Consult" },
   requestConsult: { href: "/support/request", label: "Request a consultation" },
   trackRequest: { href: "/support/track", label: "Check a request" },
   myWork: { href: "/my-work", label: "My Work" },
